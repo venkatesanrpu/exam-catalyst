@@ -29,6 +29,7 @@ $string['all_subjects'] = 'All Subjects';
 $string['all_topics'] = 'All Topics';
 $string['lesson'] = 'Lesson';
 $string['all_lessons'] = 'All Lessons';
+$string['general_lesson'] = 'General Lesson';
 $string['filter'] = 'Filter';
 $string['clear'] = 'Clear';
 $string['no_history_for_filter'] = 'No history found for the selected filters.';

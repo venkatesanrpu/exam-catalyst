@@ -1,69 +1,150 @@
 <?php
-// FILE: moodle/local/ai_functions/lib.php
-// UPDATE: The dummy logic has been moved to the top of the function.
-// This bypasses the validation checks for now to guarantee a response for testing.
-
 defined('MOODLE_INTERNAL') || die();
 
-/**
- * The central function to call an Azure Function endpoint.
- * It handles all security, configuration lookup, and cURL execution.
- *
- * @param string $agentconfigkey The agent_key of the configured agent (e.g., 'chemistry_ai').
- * @param string $functionname The specific function to call (e.g., 'ask_agent').
- * @param array|stdClass $payload The data to be JSON-encoded and sent to the Azure Function.
- * @return string The JSON response from the Azure Function, or a JSON-encoded error.
- */
 function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $payload) {
     global $DB;
 
-    // --- DEBUGGING: Dummy Logic moved to the top ---
-    // This section now runs FIRST to ensure a response is always sent if the file is reached.
-    $dummy_responses = [
-        'ask_agent'         => "This \[\Delta\] is a \[\\frac{1}{2}\] dummy RAG response $\alpha$. The 'ask_agent' function \(\\frac{1}{2}\)was called correctly.",
-        'mcq'               => "Here are 5 dummy MCQs. The 'mcq' function was called correctly.",
-        'youtube_summarize' => "This is a dummy YouTube summary. The 'youtube_summarize' function was called correctly.",
-        'websearch'         => "This is a dummy web $$\Gamma$$ search result. The 'websearch' function was called correctly."
-    ];
+    $stream = isset($payload['stream']) ? (bool)$payload['stream'] : false;
 
-    if (isset($dummy_responses[$functionname])) {
-        // We are adding the received payload to the response for debugging purposes.
-        $debug_payload = json_encode($payload, JSON_PRETTY_PRINT);
-        $response_text = $dummy_responses[$functionname] . "<br><pre>Payload Received:\n" . $debug_payload . "</pre>";
-        sleep(1); // Simulate network latency
-        return json_encode(['response' => $response_text]);
-    }
-    // --- End of Dummy Logic ---
-
-
-    // --- Security & Validation Stage (will be bypassed if a dummy response exists) ---
-    $agent = $DB->get_record('local_ai_functions', ['agent_key' => $agentconfigkey]);
-
+    $agent = $DB->get_record('local_ai_functions_agents', ['agent_key' => $agentconfigkey]);
+    
     if (!$agent) {
-        http_response_code(404);
-        return json_encode(['response' => "[Configuration Error] Agent '{$agentconfigkey}' not found in the database."]);
+        if ($stream) {
+            echo "event: error\ndata: " . json_encode(['error' => "Agent not found"]) . "\n\n";
+            flush();
+        }
+        return json_encode(['error' => "Agent not found"]);
     }
 
-    $base_endpoint = $agent->endpoint;
-    $config = json_decode($agent->config_data);
-
-    if (!$config || !isset($config->{$functionname})) {
-        http_response_code(404);
-        return json_encode(['response' => "[Configuration Error] A key for the function '{$functionname}' was not found in the config_data for the '{$agentconfigkey}' agent."]);
+    $config = json_decode($agent->config_data, true);
+    
+    if (!$config || !isset($config[$functionname])) {
+        if ($stream) {
+            echo "event: error\ndata: " . json_encode(['error' => "Function not configured"]) . "\n\n";
+            flush();
+        }
+        return json_encode(['error' => "Function not found"]);
     }
 
-    $secret = $config->{$functionname};
-    $final_endpoint = rtrim($base_endpoint, '/') . '/' . $functionname;
-
-
-    // --- Real cURL Request Logic (for production) ---
-    /*
+    $function_config = $config[$functionname];
+    $endpoint = $function_config['endpoint'];
+    $api_key = $function_config['api_key'];
+    $api_version = $function_config['api_version'] ?? '2024-05-01-preview';
+    $model = $function_config['model'] ?? 'Phi-4';
+    
+    // Ensure model in payload
+    if (!isset($payload['model'])) {
+        $payload['model'] = $model;
+    }
+    
+    $full_url = $endpoint . '?api-version=' . urlencode($api_version);
     $ch = curl_init();
-    // ... cURL implementation ...
-    return $response_body;
-    */
+    
+    if ($stream) {
+    // STREAMING MODE
+    echo ": connected\n\n";
+    if (ob_get_level() > 0) ob_flush();
+    flush();
+    
+    curl_setopt_array($ch, [
+        CURLOPT_URL => $full_url,
+        CURLOPT_POST => true,
+        CURLOPT_HTTPHEADER => [
+            'Content-Type: application/json',
+            'Authorization: Bearer ' . $api_key
+        ],
+        CURLOPT_POSTFIELDS => json_encode($payload),
+        CURLOPT_RETURNTRANSFER => false,
+        CURLOPT_WRITEFUNCTION => function($curl, $data) {
+            static $buffer = '';
+            $length = strlen($data);
+            $buffer .= $data;
+            
+            while (($pos = strpos($buffer, "\n\n")) !== false) {
+                $event = substr($buffer, 0, $pos + 2);
+                $buffer = substr($buffer, $pos + 2);
+                
+                if (trim($event) === '' || strpos($event, ':') === 0) continue;
+                
+                if (preg_match('/^data: (.+)$/m', $event, $matches)) {
+                    $json_data = trim($matches[1]);
+                    
+                    if ($json_data === '[DONE]') {
+                        echo "event: done\n";
+                        echo "data: {}\n\n";
+                        if (ob_get_level() > 0) ob_flush();
+                        flush();
+                        continue;
+                    }
+                    
+                    $chunk = json_decode($json_data, true);
+                    if ($chunk && isset($chunk['choices'][0]['delta']['content'])) {
+                        $content = $chunk['choices'][0]['delta']['content'];
+                        
+                        if ($content !== '') {
+                            echo "event: chunk\n";
+                            echo "data: " . json_encode(['content' => $content]) . "\n\n";
+                            if (ob_get_level() > 0) ob_flush();
+                            flush();
+                        }
+                    }
+                    
+                    if (isset($chunk['choices'][0]['finish_reason']) && 
+                        $chunk['choices'][0]['finish_reason'] !== null) {
+                        echo "event: metadata\n";
+                        echo "data: " . json_encode([
+                            'finish_reason' => $chunk['choices'][0]['finish_reason']
+                        ]) . "\n\n";
+                        flush();
+                    }
+                }
+            }
+            
+            return $length;
+        },
+        CURLOPT_TIMEOUT => 0,              // CHANGED: No timeout (infinite)
+        CURLOPT_CONNECTTIMEOUT => 30,      // Keep 30s connection timeout
+        CURLOPT_LOW_SPEED_LIMIT => 1,      // NEW: Min 1 byte/second
+        CURLOPT_LOW_SPEED_TIME => 60,      // NEW: Abort if speed < 1 byte/s for 60s
+        CURLOPT_SSL_VERIFYPEER => true
+    ]);
+    
+    $curl_result = curl_exec($ch);
+    $curl_error = curl_error($ch);
+    
+    if ($curl_error) {
+        echo "event: error\n";
+        echo "data: " . json_encode(['error' => $curl_error]) . "\n\n";
+        if (ob_get_level() > 0) ob_flush();
+        flush();
+    }
+    
+    curl_close($ch);
+    
+    // Always send final done event
+    echo "event: done\n";
+    echo "data: {}\n\n";
+    if (ob_get_level() > 0) ob_flush();
+    flush();
+} else {
+        // NON-STREAMING MODE
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $full_url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_HTTPHEADER => [
+                'Content-Type: application/json',
+                'Authorization: Bearer ' . $api_key
+            ],
+            CURLOPT_POSTFIELDS => json_encode($payload),
+            CURLOPT_TIMEOUT => 60,
+            CURLOPT_SSL_VERIFYPEER => true
+        ]);
 
-    // Fallback error if no dummy or real response is generated.
-    return json_encode(['response' => 'Error: The function call was valid, but no response was generated.']);
+        $response = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        return ($http_code === 200) ? $response : json_encode(['error' => 'API Error', 'http_code' => $http_code]);
+    }
 }
-

@@ -1,16 +1,13 @@
 {{! FILE: moodle/blocks/ai_assistant/templates/main.mustache }}
-{{! PRODUCTION VERSION: Azure AI Foundry Phi-4 Streaming Integration }}
-
+{{! MODIFIED: Changed hierarchy from Subject->Lesson->Topic to Subject->Topic->Lesson }}
 <!-- Dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.3.2/dist/markdown-it.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
-
 <!-- HTML Structure -->
 <div class="ai-assistant-container">
   <!-- Shared overlay for fullscreen and modal -->
   <div id="ai-assistant-overlay"></div>
-
   <!-- Main Chat Widget -->
   <div id="ai-assistant-widget-container" class="ai-assistant-widget-window">
     <div class="ai-assistant-widget-header">
@@ -41,15 +38,13 @@
       </button>
     </div>
   </div>
-
   <!-- Main Floating Action Button -->
   <button id="ai-assistant-trigger-button" class="ai-assistant-widget-button" aria-label="Open AI Assistant">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path>
     </svg>
   </button>
-
-  <!-- Guided Search Modal -->
+  <!-- Guided Search Modal (MODIFIED: Subject -> Topic -> Lesson) -->
   <div id="ai-assistant-modal-container" class="ai-assistant-modal-container">
     <form id="ai-assistant-modal-form" class="ai-assistant-modal-form">
       <h3>Guided Search</h3>
@@ -83,7 +78,6 @@
     </form>
   </div>
 </div>
-
 <script>
   // Guard clause to prevent re-declaration errors
   if (!window.aiAssistantInitialized) {
@@ -98,11 +92,9 @@
       const askAgentAjaxUrl = '{{askagentajaxurl}}';
       const pageSubject = '{{pagesubject}}';
       const pageTopic = '{{pagetopic}}';
-      
       const functionUrls = {
         ask_agent: askAgentAjaxUrl
       };
-
       const triggerButton = document.getElementById('ai-assistant-trigger-button');
       const closeButton = document.getElementById('ai-assistant-close-button');
       const fullscreenButton = document.getElementById('ai-assistant-fullscreen-button');
@@ -119,13 +111,13 @@
       const modalLesson = document.getElementById('ai-assistant-modal-lesson');
       const modalQuestion = document.getElementById('ai-assistant-modal-question');
       const modalCancel = document.getElementById('ai-assistant-modal-cancel');
-
       if (!window.aiAssistantState) {
         window.aiAssistantState = {
           isChatVisible: false,
           isFullscreen: false,
           isModalVisible: false,
           messageHistory: [],
+          pendingHistoryId: null,
           nextMessageContext: {
             subject: '',
             topic: pageTopic,
@@ -135,71 +127,67 @@
         };
       }
       const agentState = window.aiAssistantState;
-
       // --- Core UI Functions ---
       const markdown = window.markdownit({
         html: true,
         breaks: true
       });
-
-      const renderLatex = (text) => {
-        const latexPlaceholders = new Map();
-        
-        // Display math \[...\]
-        text = text.replace(/\\\[([\s\S]*?)\\\]/g, (match, latex) => {
-          try {
+      // FIXED: Returns object with placeholders
+const renderLatex = (text) => {
+    const latexPlaceholders = new Map();
+    
+    // Display math \[...\]
+    text = text.replace(/\\\[([\s\S]*?)\\\]/g, (match, latex) => {
+        try {
             const rendered = katex.renderToString(latex.trim(), { displayMode: true, throwOnError: false });
             const placeholder = `@@KATEX_DISPLAY_${latexPlaceholders.size}@@`;
             latexPlaceholders.set(placeholder, rendered);
             return placeholder;
-          } catch (e) {
-            return `<span class="text-danger">[KaTeX Error: ${e.message}]</span>`;
-          }
-        });
-        
-        // Inline math \(...\)
-        text = text.replace(/\\\(([\s\S]*?)\\\)/g, (match, latex) => {
-          try {
+        } catch (e) {
+            console.error('KaTeX display error:', e);
+            return match;
+        }
+    });
+    
+    // Inline math \(...\)
+    text = text.replace(/\\\(([\s\S]*?)\\\)/g, (match, latex) => {
+        try {
             const rendered = katex.renderToString(latex.trim(), { displayMode: false, throwOnError: false });
             const placeholder = `@@KATEX_INLINE_${latexPlaceholders.size}@@`;
             latexPlaceholders.set(placeholder, rendered);
             return placeholder;
-          } catch (e) {
-            return `<span class="text-danger">[KaTeX Error]</span>`;
-          }
-        });
-        
-        return { text, placeholders: latexPlaceholders };
-      };
-
+        } catch (e) {
+            console.error('KaTeX inline error:', e);
+            return match;
+        }
+    });
+    
+    return { text, placeholders: latexPlaceholders };  // ← Returns OBJECT now
+};
       const renderMessage = (text, from) => {
-        const messageDiv = document.createElement('div');
-        messageDiv.className = `ai-assistant-message from-${from}`;
-        
-        const avatar = document.createElement('div');
-        avatar.className = 'ai-assistant-avatar';
-        avatar.textContent = from === 'user' ? 'U' : 'A';
-        
-        const contentDiv = document.createElement('div');
-        contentDiv.className = 'ai-assistant-message-content';
-        
-        const { text: protectedText, placeholders } = renderLatex(text);
-        let renderedContent = markdown.render(protectedText);
-        
-        placeholders.forEach((rendered, placeholder) => {
-          renderedContent = renderedContent.replace(
-            new RegExp(placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), 
-            rendered
-          );
-        });
-        
-        contentDiv.innerHTML = renderedContent;
-        messageDiv.appendChild(avatar);
-        messageDiv.appendChild(contentDiv);
-        chatBody.appendChild(messageDiv);
-        chatBody.scrollTop = chatBody.scrollHeight;
-      };
-
+    const messageDiv = document.createElement('div');
+    messageDiv.className = 'ai-assistant-message from-' + from;
+    const avatar = document.createElement('div');
+    avatar.className = 'ai-assistant-avatar';
+    avatar.textContent = from === 'user' ? 'U' : 'A';
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'ai-assistant-message-content';
+    
+    // FIXED: Use new renderLatex that returns object
+    const { text: protectedText, placeholders } = renderLatex(text);
+    let renderedContent = markdown.render(protectedText);
+    
+    // Restore LaTeX
+    placeholders.forEach((rendered, placeholder) => {
+        renderedContent = renderedContent.replace(new RegExp(placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), rendered);
+    });
+    
+    contentDiv.innerHTML = renderedContent;
+    messageDiv.appendChild(avatar);
+    messageDiv.appendChild(contentDiv);
+    chatBody.appendChild(messageDiv);
+    chatBody.scrollTop = chatBody.scrollHeight;
+};
       const repaintHistory = () => {
         chatBody.innerHTML = '';
         agentState.messageHistory.forEach(msg => {
@@ -209,7 +197,6 @@
           }
         });
       };
-
       const showTypingIndicator = () => {
         if (document.getElementById('ai-assistant-typing-indicator')) return;
         const indicator = document.createElement('div');
@@ -219,17 +206,14 @@
         chatBody.appendChild(indicator);
         chatBody.scrollTop = chatBody.scrollHeight;
       };
-
       const hideTypingIndicator = () => {
         const indicator = document.getElementById('ai-assistant-typing-indicator');
         if (indicator) indicator.remove();
       };
-
       const openChatWindow = () => {
         agentState.isChatVisible = true;
         widgetContainer.classList.add('active');
       };
-
       const closeChatWindow = () => {
         if (agentState.isFullscreen) {
           agentState.isFullscreen = false;
@@ -239,237 +223,219 @@
         agentState.isChatVisible = false;
         widgetContainer.classList.remove('active');
       };
-
       const openModal = () => {
         agentState.isModalVisible = true;
         overlay.classList.add('active');
         modalContainer.classList.add('active');
       };
-
       const closeModal = () => {
         agentState.isModalVisible = false;
         overlay.classList.remove('active');
         modalContainer.classList.remove('active');
       };
+      // --- Communication and Data Functions (STREAMING VERSION with EventSource) ---
+const sendMessage = (detail) => {
+    if (detail.agentText && !detail.agent_text) {
+        detail.agent_text = detail.agentText;
+    }
+    const functionCalled = detail.function;
+    const userText = detail.agent_text;
+    if (!userText || !userText.trim() || !functionCalled) { return; }
 
-      // --- Communication with Azure AI Foundry (SSE STREAMING) ---
-      const sendMessage = (detail) => {
-        if (detail.agentText && !detail.agent_text) {
-          detail.agent_text = detail.agentText;
-        }
-        const functionCalled = detail.function;
-        const userText = detail.agent_text;
-        if (!userText || !userText.trim() || !functionCalled) { return; }
+    renderMessage(userText, 'user');
+    showTypingIndicator();
 
-        renderMessage(userText, 'user');
-        showTypingIndicator();
+    // Build history entry
+    const historyEntry = {
+        usertext: userText,
+        botresponse: '',
+        functioncalled: functionCalled,
+        subject: detail.subject || '',
+        topic: detail.topic || agentState.nextMessageContext.topic || '',
+        lesson: detail.lesson || '',
+    };
 
-        const historyEntry = {
-          usertext: userText,
-          botresponse: '',
-          functioncalled: functionCalled,
-          subject: detail.subject || '',
-          topic: detail.topic || agentState.nextMessageContext.topic || '',
-          lesson: detail.lesson || '',
-        };
-
-        agentState.messageHistory.push(historyEntry);
-        localStorage.setItem(`ai_assistant_history_${courseid}`, JSON.stringify(agentState.messageHistory));
-
-        const createPayload = {
-          action: 'create',
-          sesskey: sesskey,
-          courseid: courseid,
-          history: historyEntry
-        };
-
-        fetch(historyAjaxUrl, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(createPayload)
-        })
-        .then(response => response.json())
-        .then(createData => {
-          if (createData.status !== 'success' || !createData.historyid) {
-            throw new Error(createData.message || 'Failed to create history record.');
-          }
-          const historyId = createData.historyid;
-          
-          // Build EventSource URL
-          const agentParams = new URLSearchParams();
-          agentParams.append('sesskey', sesskey);
-          agentParams.append('agent_config_key', agentConfigKey);
-          agentParams.append('agent_text', userText);
-          
-          if (detail.target) agentParams.append('target', detail.target);
-          if (detail.subject) agentParams.append('subject', detail.subject);
-          if (detail.topic) agentParams.append('topic', detail.topic);
-          if (detail.lesson) agentParams.append('lesson', detail.lesson);
-          if (detail.tags) {
-            const tagsToSend = Array.isArray(detail.tags) ? detail.tags.join(',') : detail.tags;
-            agentParams.append('tags', tagsToSend);
-          }
-          
-          const endpointUrl = functionUrls[functionCalled] + '?' + agentParams.toString();
-          
-          // Setup EventSource for SSE Streaming
-// Setup EventSource
-const eventSource = new EventSource(endpointUrl);
-let streamedContent = '';
-let hasReceivedData = false;
-let streamComplete = false;
-let metadata = {};
-let lastChunkTime = Date.now();
-let inactivityTimer = null;
-
-// Function to finalize
-const finalizeStream = (reason) => {
-    if (streamComplete) return;
-    streamComplete = true;
-    eventSource.close();
-    
-    if (inactivityTimer) clearTimeout(inactivityTimer);
-    
-    console.log('Stream finalized:', reason);
-    
-    // Save content
-    let finalContent = streamedContent.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
-    const lastMessage = agentState.messageHistory[agentState.messageHistory.length - 1];
-    if (lastMessage) lastMessage.botresponse = finalContent;
+    agentState.messageHistory.push(historyEntry);
     localStorage.setItem(`ai_assistant_history_${courseid}`, JSON.stringify(agentState.messageHistory));
-    
-    // Update database
-    fetch(historyAjaxUrl, {
+
+    // Create history record first
+    const createPayload = {
+        action: 'create',
+        sesskey: sesskey,
+        courseid: courseid,
+        history: historyEntry
+    };
+
+    fetch(historyAjaxUrl, { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            action: 'update',
-            sesskey: sesskey,
-            courseid: courseid,
-            historyid: historyId,
-            botresponse: finalContent,
-            metadata: metadata
-        })
-    }).catch(err => console.error('Failed to update', err));
-};
-
-// Reset inactivity timer (auto-complete if no data for 15 seconds)
-const resetInactivityTimer = () => {
-    if (inactivityTimer) clearTimeout(inactivityTimer);
-    
-    inactivityTimer = setTimeout(() => {
-        if (!streamComplete && hasReceivedData) {
-            console.log('No new data for 15s - auto-completing');
-            finalizeStream('inactivity');
+        body: JSON.stringify(createPayload)
+    })
+    .then(response => response.json())
+    .then(createData => {
+        if (createData.status !== 'success' || !createData.historyid) {
+            throw new Error(createData.message || 'Failed to create history record.');
         }
-    }, 15000); // 15 seconds of no data = done
-};
-
-// Create message container
-hideTypingIndicator();
-const messageDiv = document.createElement('div');
-messageDiv.className = 'ai-assistant-message from-bot';
-messageDiv.id = `streaming-message-${historyId}`;
-
-const avatar = document.createElement('div');
-avatar.className = 'ai-assistant-avatar';
-avatar.textContent = 'A';
-
-const contentDiv = document.createElement('div');
-contentDiv.className = 'ai-assistant-message-content';
-contentDiv.innerHTML = '<em class="text-muted">Connecting...</em>';
-
-messageDiv.appendChild(avatar);
-messageDiv.appendChild(contentDiv);
-chatBody.appendChild(messageDiv);
-chatBody.scrollTop = chatBody.scrollHeight;
-
-// Handle chunks
+        const historyId = createData.historyid;
+        
+        // Build EventSource URL with query parameters
+        const agentParams = new URLSearchParams();
+        agentParams.append('sesskey', sesskey);
+        agentParams.append('agent_config_key', agentConfigKey);
+        agentParams.append('agent_text', userText);
+        
+        // Add all context parameters
+        if (detail.target) agentParams.append('target', detail.target);
+        if (detail.subject) agentParams.append('subject', detail.subject);
+        if (detail.topic) agentParams.append('topic', detail.topic);
+        if (detail.lesson) agentParams.append('lesson', detail.lesson);
+        if (detail.tags) {
+            const tagsToSend = Array.isArray(detail.tags) ? detail.tags.join(',') : detail.tags;
+            agentParams.append('tags', tagsToSend);
+        }
+        
+        const endpointUrl = functionUrls[functionCalled] + '?' + agentParams.toString();
+        
+        // --- Setup EventSource for SSE Streaming ---
+        const eventSource = new EventSource(endpointUrl);
+        let streamedContent = '';
+        let metadata = {};
+        
+        // Create bot message element for real-time updates
+        hideTypingIndicator();
+        const messageDiv = document.createElement('div');
+        messageDiv.className = 'ai-assistant-message from-bot';
+        messageDiv.id = `streaming-message-${historyId}`;
+        
+        const avatar = document.createElement('div');
+        avatar.className = 'ai-assistant-avatar';
+        avatar.textContent = 'A';
+        
+        const contentDiv = document.createElement('div');
+        contentDiv.className = 'ai-assistant-message-content';
+        contentDiv.innerHTML = '<em class="text-muted">Thinking...</em>';
+        
+        messageDiv.appendChild(avatar);
+        messageDiv.appendChild(contentDiv);
+        chatBody.appendChild(messageDiv);
+        chatBody.scrollTop = chatBody.scrollHeight;
+        
+        // Handle incoming chunks
+        // Handle incoming chunks - FIXED for kimi-k2-thinking model
 eventSource.addEventListener('chunk', (e) => {
-    hasReceivedData = true;
-    lastChunkTime = Date.now();
-    resetInactivityTimer();
+    console.log('Raw SSE data:', e.data);  // Debug log
     
-    const data = JSON.parse(e.data);
-    streamedContent += data.content;
+    const chunk = JSON.parse(e.data);
     
-    // Render
-    let cleanedContent = streamedContent.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
-    const { text: protectedText, placeholders } = renderLatex(cleanedContent);
-    let renderedContent = markdown.render(protectedText);
+    // Extract content from the API response
+    let newContent = '';
     
-    placeholders.forEach((rendered, placeholder) => {
-        const escapedPlaceholder = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        renderedContent = renderedContent.replace(new RegExp(escapedPlaceholder, 'g'), rendered);
-    });
+    if (chunk.choices && chunk.choices[0] && chunk.choices[0].delta) {
+        const delta = chunk.choices[0].delta;
+        
+        // kimi-k2-thinking sends text in 'reasoning' field during thinking
+        if (delta.reasoning) {
+            newContent = delta.reasoning;
+        }
+        // Regular content (comes after thinking is done)
+        else if (delta.content) {
+            newContent = delta.content;
+        }
+    }
     
-    contentDiv.innerHTML = renderedContent;
-    chatBody.scrollTop = chatBody.scrollHeight;
+    if (newContent) {
+        streamedContent += newContent;
+        
+        // Render with LaTeX support
+        const { text: protectedText, placeholders } = renderLatex(streamedContent);
+        let renderedContent = markdown.render(protectedText);
+        
+        // Restore LaTeX placeholders
+        placeholders.forEach((rendered, placeholder) => {
+            const escapedPlaceholder = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            renderedContent = renderedContent.replace(new RegExp(escapedPlaceholder, 'g'), rendered);
+        });
+        
+        contentDiv.innerHTML = renderedContent;
+        chatBody.scrollTop = chatBody.scrollHeight;
+    }
 });
-
-// Handle metadata
-eventSource.addEventListener('metadata', (e) => {
-    metadata = JSON.parse(e.data);
-});
-
-// Handle done
-eventSource.addEventListener('done', () => {
-    finalizeStream('done_event');
-});
-
-// Handle errors
-eventSource.addEventListener('error', (e) => {
-    console.error('EventSource error', e);
-    
-    if (!streamComplete) {
-        if (hasReceivedData) {
-            finalizeStream('error_with_data');
-        } else {
+        
+        // Handle metadata from server
+        eventSource.addEventListener('metadata', (e) => {
+            metadata = JSON.parse(e.data);
+        });
+        
+        // Handle stream completion
+        eventSource.addEventListener('done', () => {
             eventSource.close();
-            contentDiv.innerHTML = '<span class="text-danger">❌ Connection lost. Please try again.</span>';
-        }
-    }
-});
+            
+            // Update local history
+            const lastMessage = agentState.messageHistory[agentState.messageHistory.length - 1];
+            if (lastMessage) {
+                lastMessage.botresponse = streamedContent;
+            }
+            localStorage.setItem(`ai_assistant_history_${courseid}`, JSON.stringify(agentState.messageHistory));
+            
+            // Save to database with metadata
+            const updatePayload = {
+                action: 'update',
+                sesskey: sesskey,
+                courseid: courseid,
+                historyid: historyId,
+                botresponse: streamedContent,
+                metadata: metadata
+            };
+            
+            fetch(historyAjaxUrl, { 
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(updatePayload)
+            }).catch(err => console.error('Failed to update history:', err));
+        });
+        
+        // Handle errors from EventSource
+        eventSource.addEventListener('error', (e) => {
+            console.error('EventSource error:', e);
+            eventSource.close();
+            hideTypingIndicator();
+            
+            // Try to parse error data if available
+            if (e.data) {
+                try {
+                    const error = JSON.parse(e.data);
+                    contentDiv.innerHTML = `<span class="text-danger">Error: ${error.error}</span>`;
+                } catch {
+                    contentDiv.innerHTML = `<span class="text-danger">Connection error. Please try again.</span>`;
+                }
+            } else {
+                contentDiv.innerHTML = `<span class="text-danger">Connection error. Please try again.</span>`;
+            }
+            
+            chatBody.scrollTop = chatBody.scrollHeight;
+        });
+        
+        // Also listen for generic 'error' event type
+        eventSource.onerror = (e) => {
+            console.error('EventSource connection error:', e);
+            eventSource.close();
+            hideTypingIndicator();
+            contentDiv.innerHTML = `<span class="text-danger">Connection lost. Please try again.</span>`;
+            chatBody.scrollTop = chatBody.scrollHeight;
+        };
+        
+    })
+    .catch(error => {
+        console.error("AI Assistant error:", error);
+        hideTypingIndicator();
+        renderMessage(`Sorry, a critical error occurred: ${error.message}`, 'bot');
+    });
 
-eventSource.onerror = (e) => {
-    if (eventSource.readyState === EventSource.CLOSED && !streamComplete) {
-        console.error('EventSource closed', e);
-        if (hasReceivedData) {
-            finalizeStream('closed_with_data');
-        } else {
-            contentDiv.innerHTML = '<span class="text-danger">❌ Connection failed.</span>';
-        }
-    }
+    chatInput.value = '';
+    chatInput.style.height = 'auto';
 };
 
-// Start monitoring
-resetInactivityTimer();
-
-
-// Absolute timeout (3 minutes)
-setTimeout(() => {
-    if (!streamComplete) {
-        console.warn('Absolute timeout reached');
-        if (hasReceivedData) {
-            finalizeStream('absolute_timeout');
-        } else {
-            eventSource.close();
-            contentDiv.innerHTML = '<span class="text-danger">❌ Request timeout. Please try again.</span>';
-        }
-    }
-}, 300000); // 3 minutes absolute max
-
-        })
-        .catch(error => {
-          console.error("AI Assistant error:", error);
-          hideTypingIndicator();
-          renderMessage(`Sorry, an error occurred: ${error.message}`, 'bot');
-        });
-
-        chatInput.value = '';
-        chatInput.style.height = 'auto';
-      };
-
+      // MODIFIED: Updated to send empty subject and lesson
       const handleTextInput = () => {
         sendMessage({
           function: 'ask_agent',
@@ -479,23 +445,20 @@ setTimeout(() => {
           lesson: ''
         });
       };
-
       const loadSyllabus = async () => {
         if (agentState.syllabusData) return;
         try {
-          const response = await fetch(`${syllabusAjaxUrl}?mainsubject=${mainSubjectKey}&sesskey=${sesskey}`);
+          const response = await fetch(syllabusAjaxUrl + '?mainsubject=' + mainSubjectKey + '&sesskey=' + sesskey);
           agentState.syllabusData = await response.json();
         } catch (error) {
           console.error("Failed to load syllabus:", error);
         }
       };
-
       // --- Initialization ---
       const init = () => {
         widgetContainer.style.display = '';
         modalContainer.style.display = '';
-        
-        const cachedHistory = localStorage.getItem(`ai_assistant_history_${courseid}`);
+        const cachedHistory = localStorage.getItem('ai_assistant_history_' + courseid);
         if (cachedHistory) {
           try {
             agentState.messageHistory = JSON.parse(cachedHistory);
@@ -504,7 +467,6 @@ setTimeout(() => {
           }
         }
         repaintHistory();
-
         triggerButton.addEventListener('click', () => {
           if (agentState.isChatVisible) {
             closeChatWindow();
@@ -512,34 +474,28 @@ setTimeout(() => {
             openChatWindow();
           }
         });
-
         closeButton.addEventListener('click', closeChatWindow);
-
         fullscreenButton.addEventListener('click', () => {
           agentState.isFullscreen = !agentState.isFullscreen;
           widgetContainer.classList.toggle('fullscreen', agentState.isFullscreen);
           overlay.classList.toggle('active', agentState.isFullscreen);
         });
-
         sendButton.addEventListener('click', handleTextInput);
-
         chatInput.addEventListener('keypress', e => {
           if (e.key === 'Enter' && !e.shiftKey) {
             e.preventDefault();
             handleTextInput();
           }
         });
-
         chatInput.addEventListener('input', () => {
           chatInput.style.height = 'auto';
           chatInput.style.height = (chatInput.scrollHeight) + 'px';
         });
-
         document.addEventListener('ai-assistant-send', (e) => {
           if (!agentState.isChatVisible) openChatWindow();
           setTimeout(() => sendMessage(e.detail), agentState.isChatVisible ? 0 : 300);
         });
-
+        // MODIFIED: Guided Search Modal - Load syllabus and populate dropdowns
         guidedSearchButton.addEventListener('click', async () => {
           await loadSyllabus();
           if (!agentState.syllabusData) {
@@ -559,7 +515,7 @@ setTimeout(() => {
           modalLesson.disabled = true;
           openModal();
         });
-
+        // MODIFIED: Subject change -> populate Topics
         modalSubject.addEventListener('change', () => {
           const selectedSubjectKey = modalSubject.value;
           modalTopic.innerHTML = '<option value="">-- Please select a topic --</option>';
@@ -577,7 +533,7 @@ setTimeout(() => {
             modalTopic.disabled = false;
           }
         });
-
+        // MODIFIED: Topic change -> populate Lessons
         modalTopic.addEventListener('change', () => {
           const selectedSubjectKey = modalSubject.value;
           const selectedTopicKey = modalTopic.value;
@@ -595,7 +551,7 @@ setTimeout(() => {
             modalLesson.disabled = false;
           }
         });
-
+        // MODIFIED: Form submit - extract Subject -> Topic -> Lesson
         modalForm.addEventListener('submit', (e) => {
           e.preventDefault();
           const selectedSubjectKey = modalSubject.value;
@@ -605,7 +561,6 @@ setTimeout(() => {
           const topicData = subjectData ? subjectData.topics.find(t => t.topic_key === selectedTopicKey) : null;
           const lessonData = topicData ? topicData.lessons.find(l => l.lesson_key === selectedLessonKey) : null;
           const tagsForQuery = lessonData ? lessonData.tags : [];
-          
           sendMessage({
             function: 'ask_agent',
             agent_text: modalQuestion.value,
@@ -614,18 +569,15 @@ setTimeout(() => {
             lesson: selectedLessonKey,
             tags: tagsForQuery
           });
-          
           modalForm.reset();
           closeModal();
           if (!agentState.isChatVisible) openChatWindow();
         });
-
         modalCancel.addEventListener('click', closeModal);
       };
-
       init();
     })();
-    
+    // Set the flag to true after the first successful execution.
     window.aiAssistantInitialized = true;
   }
 </script>

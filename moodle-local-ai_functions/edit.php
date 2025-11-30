@@ -1,6 +1,10 @@
 <?php
-// FILE: moodle/local/ai_functions/edit.php
-require_once('../../config.php');
+/**
+ * FILE: moodle/local/ai_functions/edit.php
+ * FIXED: Updated to use underscored column names (agent_key, config_data).
+ */
+
+require_once(__DIR__ . '/../../config.php');
 require_once($CFG->dirroot . '/local/ai_functions/edit_form.php');
 
 require_login();
@@ -28,13 +32,15 @@ if ($mform->is_cancelled()) {
     redirect($redirect_url);
 } else if ($fromform = $mform->get_data()) {
     $record = new stdClass();
+    
     if (!empty($fromform->id)) {
         $record->id = $fromform->id;
     }
+    
+    // FIXED: Use underscored column names matching database schema
     $record->name = $fromform->name;
-    $record->agent_key = $fromform->agent_key;
-    $record->endpoint = $fromform->endpoint;
-    $record->config_data = $fromform->config_data;
+    $record->agent_key = $fromform->agentkey;  // FIXED: agent_key not agentkey
+    $record->config_data = $fromform->configdata;  // FIXED: config_data not configdata
     $record->timemodified = time();
 
     if (!empty($record->id)) {
@@ -43,13 +49,22 @@ if ($mform->is_cancelled()) {
         $record->timecreated = time();
         $DB->insert_record('local_ai_functions_agents', $record);
     }
+
     redirect($redirect_url);
 }
 
+// Load existing record for editing
 if ($id) {
     $agent = $DB->get_record('local_ai_functions_agents', ['id' => $id]);
     if ($agent) {
-        $mform->set_data($agent);
+        // FIXED: Map database columns to form fields
+        $formdata = new stdClass();
+        $formdata->id = $agent->id;
+        $formdata->name = $agent->name;
+        $formdata->agentkey = $agent->agent_key;  // FIXED: Map agent_key to agentkey
+        $formdata->configdata = $agent->config_data;  // FIXED: Map config_data to configdata
+        
+        $mform->set_data($formdata);
     }
 }
 

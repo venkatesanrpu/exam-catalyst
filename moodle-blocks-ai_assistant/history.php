@@ -1,7 +1,6 @@
 <?php
 // FILE: moodle/blocks/ai_assistant/history.php
-// FINAL FIX: Correctly preserves the 'subjectfilter' parameter in all generated URLs,
-// preventing the "Undefined variable" warning on subsequent page loads.
+// MODIFIED: Changed filter hierarchy from Subject->Lesson->Topic to Subject->Topic->Lesson
 
 require_once('../../config.php');
 
@@ -9,10 +8,9 @@ global $DB, $PAGE, $USER, $OUTPUT;
 
 // --- Get Parameters ---
 $courseid = required_param('courseid', PARAM_INT);
-$mainsubject = required_param('mainsubject', PARAM_ALPHANUMEXT);
-$subjectfilter = optional_param('subject', '', PARAM_ALPHANUMEXT); // This is the UI dropdown value
-$lessonfilter = optional_param('lesson', '', PARAM_TEXT);
-$topicfilter = optional_param('topic', '', PARAM_TEXT);
+$subjectfilter = optional_param('subject', '', PARAM_ALPHANUMEXT);
+$topicfilter = optional_param('topic', '', PARAM_ALPHANUMEXT);
+$lessonfilter = optional_param('lesson', '', PARAM_ALPHANUMEXT);
 $page = optional_param('page', 1, PARAM_INT);
 $embed = optional_param('embed', 0, PARAM_BOOL);
 
@@ -27,12 +25,10 @@ if (!is_enrolled($context, $USER)) {
 
 // --- Page Setup ---
 $baseurl = new moodle_url('/blocks/ai_assistant/history.php');
-$urlparams = ['courseid' => $courseid, 'mainsubject' => $mainsubject];
-// --- THIS IS THE FIX ---
-if ($subjectfilter) { $urlparams['subject'] = $subjectfilter; } // Preserve the UI subject filter
-// --- END OF FIX ---
-if ($lessonfilter) { $urlparams['lesson'] = $lessonfilter; }
+$urlparams = ['courseid' => $courseid];
+if ($subjectfilter) { $urlparams['subject'] = $subjectfilter; }
 if ($topicfilter) { $urlparams['topic'] = $topicfilter; }
+if ($lessonfilter) { $urlparams['lesson'] = $lessonfilter; }
 if ($embed) { $urlparams['embed'] = 1; }
 $PAGE->set_url($baseurl, $urlparams);
 $PAGE->set_title(get_string('history_page_title', 'block_ai_assistant'));
@@ -41,26 +37,35 @@ $PAGE->set_context($context);
 $PAGE->requires->css('/blocks/ai_assistant/styles.css');
 
 if ($embed) {
-    $PAGE->set_pagayout('block_ai_assistant', 'embedded');
+    $PAGE->set_pagelayout('embedded');
 }
+
+// --- Get renderer instance ---
 $renderer = $PAGE->get_renderer('block_ai_assistant', 'page');
 
 // --- Data Retrieval & Filtering ---
 $base_sql = "FROM {block_ai_assistant_history} WHERE userid = :userid AND courseid = :courseid";
 $params = ['userid' => $USER->id, 'courseid' => $courseid];
-if (!empty($lessonfilter)) {
-    $base_sql .= " AND lesson = :lesson";
-    $params['lesson'] = $lessonfilter;
+
+if (!empty($subjectfilter)) {
+    $base_sql .= " AND subject = :subject";
+    $params['subject'] = $subjectfilter;
 }
 if (!empty($topicfilter)) {
     $base_sql .= " AND topic = :topic";
     $params['topic'] = $topicfilter;
 }
+if (!empty($lessonfilter)) {
+    $base_sql .= " AND lesson = :lesson";
+    $params['lesson'] = $lessonfilter;
+}
+
 $perpage = 10;
 $totalcount = $DB->count_records_sql("SELECT COUNT(id) $base_sql", $params);
 $totalpages = ($totalcount > 0) ? ceil($totalcount / $perpage) : 1;
 $page = max(1, min($page, $totalpages));
 $offset = ($page - 1) * $perpage;
+
 $historyrecords = $DB->get_records_sql(
     "SELECT * $base_sql ORDER BY timecreated DESC",
     $params,
@@ -68,56 +73,64 @@ $historyrecords = $DB->get_records_sql(
     $perpage
 );
 
-// --- Data Structuring for the Template (No changes) ---
+// --- Data Structuring for the Template (NEW HIERARCHY: Subject -> Topic -> Lesson) ---
 $structured_history = [];
 $dateformat = get_string('strftimedatetimeshort', 'block_ai_assistant');
+
 foreach ($historyrecords as $record) {
     $record->formattedtime = userdate($record->timecreated, $dateformat);
-    $lesson = empty($record->lesson) ? get_string('uncategorized', 'block_ai_assistant') : $record->lesson;
-    $topic = empty($record->topic) ? get_string('general_inquiry', 'block_ai_assistant') : $record->topic;
-    $lessonkey = md5($lesson);
+    $subject = empty($record->subject) ? get_string('uncategorized', 'block_ai_assistant') : $record->subject;
+    $topic = empty($record->topic) ? get_string('general_topic', 'block_ai_assistant') : $record->topic;
+    $lesson = empty($record->lesson) ? get_string('general_lesson', 'block_ai_assistant') : $record->lesson;
+    
+    $subjectkey = md5($subject);
     $topickey = md5($topic);
-    if (!isset($structured_history[$lessonkey])) {
-        $structured_history[$lessonkey] = ['name' => $lesson, 'topics' => []];
+    $lessonkey = md5($lesson);
+    
+    // Initialize subject level
+    if (!isset($structured_history[$subjectkey])) {
+        $structured_history[$subjectkey] = ['name' => $subject, 'topics' => []];
     }
-    if (!isset($structured_history[$lessonkey]['topics'][$topickey])) {
-        $structured_history[$lessonkey]['topics'][$topickey] = [
+    
+    // Initialize topic level
+    if (!isset($structured_history[$subjectkey]['topics'][$topickey])) {
+        $structured_history[$subjectkey]['topics'][$topickey] = [
             'name' => $topic,
+            'uniqid' => uniqid(),
+            'lessons' => []
+        ];
+    }
+    
+    // Initialize lesson level
+    if (!isset($structured_history[$subjectkey]['topics'][$topickey]['lessons'][$lessonkey])) {
+        $structured_history[$subjectkey]['topics'][$topickey]['lessons'][$lessonkey] = [
+            'name' => $lesson,
             'uniqid' => uniqid(),
             'conversations' => []
         ];
     }
-    $structured_history[$lessonkey]['topics'][$topickey]['conversations'][] = $record;
-}
-$data_lessons = [];
-foreach ($structured_history as $lesson) {
-    $lesson['topics'] = array_values($lesson['topics']);
-    $data_lessons[] = $lesson;
+    
+    // Add conversation to the lesson
+    $structured_history[$subjectkey]['topics'][$topickey]['lessons'][$lessonkey]['conversations'][] = $record;
 }
 
-// --- Load and Enhance Syllabus for Filter Dropdowns (No changes) ---
-$syllabus_path = __DIR__ . '/syllabus/' . $mainsubject . '.json';
-$syllabus_data = file_exists($syllabus_path) ? json_decode(file_get_contents($syllabus_path), true) : [];
-$general_inquiry_string = get_string('general_inquiry', 'block_ai_assistant');
-$general_subject = [
-    'subject' => get_string('general_course_questions', 'block_ai_assistant'),
-    'subject_key' => '__GENERAL__',
-    'lessons' => [
-        [
-            'lesson' => $course->fullname,
-            'lesson_key' => $course->fullname,
-            'topics' => [
-                [
-                    'topic' => $general_inquiry_string,
-                    'topic_key' => $general_inquiry_string
-                ]
-            ]
-        ]
-    ]
-];
-array_unshift($syllabus_data, $general_subject);
+// Convert to indexed arrays for Mustache
+$data_subjects = [];
+foreach ($structured_history as $subject) {
+    $topics_array = [];
+    foreach ($subject['topics'] as $topic) {
+        $topic['lessons'] = array_values($topic['lessons']);
+        $topics_array[] = $topic;
+    }
+    $subject['topics'] = $topics_array;
+    $data_subjects[] = $subject;
+}
 
-// --- Prepare Pagination Data Structure (No changes) ---
+// --- Load Syllabus for Filter Dropdowns ---
+$syllabus_path = __DIR__ . '/syllabus/chemistry.json';
+$syllabus_data = file_exists($syllabus_path) ? json_decode(file_get_contents($syllabus_path)) : [];
+
+// --- Prepare Pagination Data Structure ---
 $pagination_data = [
     'haspages'        => $totalpages > 1,
     'hasprevious'     => $page > 1,
@@ -126,6 +139,7 @@ $pagination_data = [
     'nextpageurl'     => (new moodle_url($baseurl, $urlparams + ['page' => $page + 1]))->out(false),
     'pages'           => []
 ];
+
 if ($pagination_data['haspages']) {
     for ($i = 1; $i <= $totalpages; $i++) {
         $page_obj = new stdClass();
@@ -139,19 +153,20 @@ if ($pagination_data['haspages']) {
 // --- Prepare All Data for the Template ---
 $filters_data = [
     'subject' => $subjectfilter,
-    'lesson'  => $lessonfilter,
-    'topic'   => $topicfilter
+    'topic'   => $topicfilter,
+    'lesson'  => $lessonfilter
 ];
+
 $data = [
-    'lessons'      => $data_lessons,
+    'subjects'     => $data_subjects,
     'has_history'  => !empty($historyrecords),
     'filters'      => $filters_data,
     'pagination'   => $pagination_data,
     'courseid'     => $courseid,
-    'mainsubject'  => $mainsubject,
     'syllabusjson' => json_encode($syllabus_data),
     'filtersjson'  => json_encode($filters_data),
-    'historyurl'   => (new moodle_url('/blocks/ai_assistant/history.php', ['courseid' => $courseid, 'mainsubject' => $mainsubject] + ($embed ? ['embed' => 1] : [])))->out(false)
+    'historyurl'   => (new moodle_url('/blocks/ai_assistant/history.php', 
+                          ['courseid' => $courseid] + ($embed ? ['embed' => 1] : [])))->out(false)
 ];
 
 // --- Render the Page ---

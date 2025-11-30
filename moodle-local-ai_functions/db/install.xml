@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<XMLDB PATH="local/ai_functions/db" VERSION="2025090700" COMMENT="XMLDB file for Moodle local_ai_functions plugin">
+<XMLDB PATH="local/ai_functions/db" VERSION="20251129" COMMENT="XMLDB file for Moodle local/ai_functions"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
   <TABLES>
-    <TABLE NAME="local_ai_functions_agents" COMMENT="Stores configurations for different AI function app agents.">
+    <TABLE NAME="local_ai_functions_agents" COMMENT="Stores configurations for different AI function agents with per-function endpoints">
       <FIELDS>
         <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
-        <FIELD NAME="agent_key" TYPE="char" LENGTH="100" NOTNULL="true" COMMENT="A unique short key for the agent configuration, e.g., 'chemistry_ai'"/>
-        <FIELD NAME="name" TYPE="char" LENGTH="255" NOTNULL="true" COMMENT="The display name for the agent, e.g., 'Chemistry AI Functions'"/>
-        <FIELD NAME="endpoint" TYPE="char" LENGTH="255" NOTNULL="true" COMMENT="The base endpoint URL for the Azure Function App, e.g., 'https://app.azurewebsites.net/api/'"/>
-        <FIELD NAME="config_data" TYPE="text" NOTNULL="true" COMMENT="A JSON object holding the individual function names and their keys."/>
-        <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true"/>
-        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true"/>
+        <FIELD NAME="agent_key" TYPE="char" LENGTH="100" NOTNULL="true" DEFAULT="" SEQUENCE="false" COMMENT="Unique identifier for the agent"/>
+        <FIELD NAME="name" TYPE="char" LENGTH="255" NOTNULL="true" DEFAULT="" SEQUENCE="false" COMMENT="Display name of the agent"/>
+        <FIELD NAME="config_data" TYPE="text" NOTNULL="true" SEQUENCE="false" COMMENT="JSON configuration containing function-specific endpoints and API keys"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
       </FIELDS>
       <KEYS>
         <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
-        <KEY NAME="agent_key_uk" TYPE="unique" FIELDS="agent_key"/>
       </KEYS>
+      <INDEXES>
+        <INDEX NAME="agent_key" UNIQUE="true" FIELDS="agent_key"/>
+      </INDEXES>
     </TABLE>
   </TABLES>
 </XMLDB>

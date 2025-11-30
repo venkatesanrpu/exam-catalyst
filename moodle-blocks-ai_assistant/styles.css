@@ -198,6 +198,13 @@
     overflow-wrap: break-word;
 }
 
+.ai-assistant-message-content h1,
+.ai-assistant-message-content h2,
+.ai-assistant-message-content h3 {
+  color: #222;
+}
+
+
 .ai-assistant-message-content p:last-child {
     /* Removes default bottom margin from the last paragraph inside a message. */
     margin-bottom: 0;
