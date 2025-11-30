@@ -321,24 +321,45 @@ const sendMessage = (detail) => {
         chatBody.scrollTop = chatBody.scrollHeight;
         
         // Handle incoming chunks
-        eventSource.addEventListener('chunk', (e) => {
-            const data = JSON.parse(e.data);
-            streamedContent += data.content;
-            
-            // Render with LaTeX support
-            const { text: protectedText, placeholders } = renderLatex(streamedContent);
-            let renderedContent = markdown.render(protectedText);
-            
-            // Restore LaTeX placeholders
-            placeholders.forEach((rendered, placeholder) => {
-                // Escape special regex characters in placeholder
-                const escapedPlaceholder = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                renderedContent = renderedContent.replace(new RegExp(escapedPlaceholder, 'g'), rendered);
-            });
-            
-            contentDiv.innerHTML = renderedContent;
-            chatBody.scrollTop = chatBody.scrollHeight;
+        // Handle incoming chunks - FIXED for kimi-k2-thinking model
+eventSource.addEventListener('chunk', (e) => {
+    console.log('Raw SSE data:', e.data);  // Debug log
+    
+    const chunk = JSON.parse(e.data);
+    
+    // Extract content from the API response
+    let newContent = '';
+    
+    if (chunk.choices && chunk.choices[0] && chunk.choices[0].delta) {
+        const delta = chunk.choices[0].delta;
+        
+        // kimi-k2-thinking sends text in 'reasoning' field during thinking
+        if (delta.reasoning) {
+            newContent = delta.reasoning;
+        }
+        // Regular content (comes after thinking is done)
+        else if (delta.content) {
+            newContent = delta.content;
+        }
+    }
+    
+    if (newContent) {
+        streamedContent += newContent;
+        
+        // Render with LaTeX support
+        const { text: protectedText, placeholders } = renderLatex(streamedContent);
+        let renderedContent = markdown.render(protectedText);
+        
+        // Restore LaTeX placeholders
+        placeholders.forEach((rendered, placeholder) => {
+            const escapedPlaceholder = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            renderedContent = renderedContent.replace(new RegExp(escapedPlaceholder, 'g'), rendered);
         });
+        
+        contentDiv.innerHTML = renderedContent;
+        chatBody.scrollTop = chatBody.scrollHeight;
+    }
+});
         
         // Handle metadata from server
         eventSource.addEventListener('metadata', (e) => {
