@@ -1,68 +1,20 @@
 <?php
 /**
  * FILE: moodle/local/ai_functions/lib.php
- * FIXED: Stream parameter now read from $payload['stream']
+ * FIXED: Handles both streaming SSE and complete JSON responses
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-/**
- * Call an AI endpoint with streaming controlled by payload.
- * 
- * @param string $agentconfigkey The agent_key (e.g., 'CISRCHEM')
- * @param string $functionname The function to call (e.g., 'ask_agent')
- * @param array|stdClass $payload The data to send - if $payload['stream']=true, enables streaming
- * @return string|void The JSON response or streams SSE events
- */
 function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $payload) {
     global $DB;
 
-    // FIXED: Extract stream parameter from payload
+    // Extract stream parameter from payload
     $stream = false;
     if (is_array($payload) && isset($payload['stream'])) {
         $stream = (bool)$payload['stream'];
-        // Don't send 'stream' flag in the API payload itself, let lib.php add it
-        unset($payload['stream']);
+        unset($payload['stream']); // Remove from payload, will add back if needed
     }
-
-    // --- DEBUGGING: Dummy Logic (comment out for production) ---
-    /*
-    $dummy_responses = [
-        'ask_agent' => 'This \\[\\Delta\\] is a \\[\\frac{1}{2}\\] dummy RAG response $\\alpha$. The \'ask_agent\' function \\(\\frac{1}{2}\\) was called correctly.',
-        'mcq' => 'Here are 5 dummy MCQs.',
-        'youtube_summarize' => 'This is a dummy YouTube summary.',
-        'websearch' => 'This is a dummy web search result.'
-    ];
-
-    if (isset($dummy_responses[$functionname])) {
-        if ($stream) {
-            // Simulate streaming
-            $words = explode(' ', $dummy_responses[$functionname]);
-            foreach ($words as $word) {
-                echo "event: chunk\n";
-                echo "data: " . json_encode(['content' => $word . ' ']) . "\n\n";
-                if (ob_get_level() > 0) ob_flush();
-                flush();
-                usleep(100000);
-            }
-            echo "event: metadata\n";
-            echo "data: " . json_encode(['finish_reason' => 'stop', 'model' => 'dummy']) . "\n\n";
-            if (ob_get_level() > 0) ob_flush();
-            flush();
-            echo "event: done\n";
-            echo "data: {}\n\n";
-            if (ob_get_level() > 0) ob_flush();
-            flush();
-            return;
-        } else {
-            $debug_payload = json_encode($payload, JSON_PRETTY_PRINT);
-            $response_text = $dummy_responses[$functionname] . "<br/><pre>Payload:\n" . $debug_payload . "</pre>";
-            sleep(1);
-            return json_encode(['response' => $response_text]);
-        }
-    }
-    */
-    // --- End of Dummy Logic ---
 
     // Fetch agent configuration
     $agent = $DB->get_record('local_ai_functions_agents', ['agent_key' => $agentconfigkey]);
@@ -85,7 +37,6 @@ function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $paylo
         if ($stream) {
             echo "event: error\n";
             echo "data: " . json_encode(['error' => "Function '$functionname' not found"]) . "\n\n";
-            if (ob_get_level() > 0) ob_flush();
             flush();
             return;
         }
@@ -98,26 +49,25 @@ function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $paylo
         if ($stream) {
             echo "event: error\n";
             echo "data: " . json_encode(['error' => 'Missing endpoint or api_key']) . "\n\n";
-            if (ob_get_level() > 0) ob_flush();
             flush();
             return;
         }
-        return json_encode(['error' => 'Missing endpoint or api_key in config']);
+        return json_encode(['error' => 'Missing endpoint or api_key']);
     }
 
     $endpoint = $function_config['endpoint'];
     $api_key = $function_config['api_key'];
 
-    // FIXED: Add 'stream' to payload for API only if streaming is enabled
+    // Add stream parameter to API payload if streaming
     if ($stream && is_array($payload)) {
         $payload['stream'] = true;
     }
 
-    // --- Real cURL Request ---
+    // --- Make API Request ---
     $ch = curl_init();
     
     if ($stream) {
-        // === STREAMING MODE with keepalive ===
+        // === STREAMING MODE (SSE) ===
         echo ": connected\n\n";
         if (ob_get_level() > 0) ob_flush();
         flush();
@@ -130,50 +80,67 @@ function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $paylo
                 'Authorization: Bearer ' . $api_key
             ],
             CURLOPT_POSTFIELDS => json_encode($payload),
-            CURLOPT_RETURNTRANSFER => false,
-            CURLOPT_WRITEFUNCTION => function($curl, $data) {
-                static $last_keepalive = 0;
-                
-                $now = time();
-                if ($now - $last_keepalive > 15) {
-                    echo ": keepalive\n\n";
-                    if (ob_get_level() > 0) ob_flush();
-                    flush();
-                    $last_keepalive = $now;
-                }
-                
-                $length = strlen($data);
-                echo $data;
-                if (ob_get_level() > 0) ob_flush();
-                flush();
-                
-                $last_keepalive = $now;
-                return $length;
-            },
-            CURLOPT_TIMEOUT => 180,
-            CURLOPT_CONNECTTIMEOUT => 30,
-            CURLOPT_SSL_VERIFYPEER => true,
-            CURLOPT_BUFFERSIZE => 128
+            CURLOPT_RETURNTRANSFER => true,  // Buffer to detect format
+            CURLOPT_TIMEOUT => 120,
+            CURLOPT_SSL_VERIFYPEER => true
         ]);
         
-        curl_exec($ch);
+        $response = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
         
-        if (curl_errno($ch)) {
+        if ($http_code !== 200) {
             echo "event: error\n";
-            echo "data: " . json_encode(['error' => curl_error($ch)]) . "\n\n";
-            if (ob_get_level() > 0) ob_flush();
+            echo "data: " . json_encode(['error' => "API returned HTTP $http_code", 'response' => $response]) . "\n\n";
+            flush();
+            echo "event: done\n";
+            echo "data: {}\n\n";
+            flush();
+            return;
+        }
+        
+        // Check if response is complete JSON (not SSE stream)
+        $jsonResponse = json_decode($response, true);
+        
+        if ($jsonResponse && isset($jsonResponse['choices'][0]['message']['content'])) {
+            // API returned complete JSON - convert to SSE chunks
+            $content = $jsonResponse['choices'][0]['message']['content'];
+            
+            // Split into words for streaming effect
+            $words = preg_split('/(\s+)/', $content, -1, PREG_SPLIT_DELIM_CAPTURE);
+            
+            foreach ($words as $word) {
+                if (!empty($word)) {
+                    echo "event: chunk\n";
+                    echo "data: " . json_encode(['content' => $word]) . "\n\n";
+                    if (ob_get_level() > 0) ob_flush();
+                    flush();
+                    usleep(15000); // 15ms delay for smooth streaming
+                }
+            }
+            
+            // Send metadata
+            echo "event: metadata\n";
+            echo "data: " . json_encode([
+                'finish_reason' => $jsonResponse['choices'][0]['finish_reason'] ?? 'stop',
+                'model' => $jsonResponse['model'] ?? 'unknown',
+                'total_tokens' => $jsonResponse['usage']['total_tokens'] ?? 0
+            ]) . "\n\n";
+            flush();
+            
+        } else {
+            // Response is already SSE format or error
+            echo $response;
             flush();
         }
         
-        curl_close($ch);
-        
+        // Send done signal
         echo "event: done\n";
         echo "data: {}\n\n";
-        if (ob_get_level() > 0) ob_flush();
         flush();
         
     } else {
-        // === NON-STREAMING MODE ===
+        // === NON-STREAMING MODE (Regular JSON) ===
         curl_setopt_array($ch, [
             CURLOPT_URL => $endpoint,
             CURLOPT_RETURNTRANSFER => true,
@@ -199,7 +166,7 @@ function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $paylo
 
         if ($http_code !== 200) {
             http_response_code($http_code);
-            return json_encode(['error' => 'Endpoint Error', 'http_code' => $http_code, 'response' => $response_body]);
+            return json_encode(['error' => 'API Error', 'http_code' => $http_code, 'response' => $response_body]);
         }
 
         return $response_body;
