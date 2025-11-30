@@ -1,0 +1,506 @@
+/*
+ * FILE: moodle/blocks/ai_assistant/v2-styles.css
+ * PURPOSE: Final, consolidated stylesheet for all AI Assistant widget features.
+ * REORGANIZED FOR DEBUGGING AND CLARITY.
+ * UPDATED: Includes missing definitions from the mustache templates.
+ */
+
+/* ==========================================================================
+   1. Core Widget & Floating Action Button (FAB)
+   ========================================================================== */
+
+/* --- The top-level container for all widget elements --- */
+.ai-assistant-container {
+    /* This is a structural wrapper and does not require visual styling. */
+    /* Its children use fixed positioning to place themselves on the page. */
+    position: relative;
+}
+
+/* --- The main floating button that toggles the widget window --- */
+.ai-assistant-widget-button {
+    /* Positioning */
+    position: fixed;
+    /* FIX: Increased bottom value to position the button above
+       the theme's default footer buttons, avoiding overlap. */
+    bottom: 125px;
+    right: 20px;
+    z-index: 999; /* Sits just below the main widget window. */
+
+    /* Box Model & Appearance */
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Creates the circular shape. */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+    /* Content Alignment */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    /* Transitions */
+    /* Animate the 'right' property for smooth movement with the Moodle drawer. */
+    /* Animate 'transform' for the hover effect. */
+    transition: transform 0.2s ease, right 0.4s ease;
+}
+
+.ai-assistant-widget-button:hover {
+    /* A simple scaling effect on hover for better user feedback. */
+    transform: scale(1.1);
+}
+
+/* --- The main chat widget window --- */
+.ai-assistant-widget-window {
+    /* Positioning */
+    position: fixed;
+    bottom: 175px;
+    right: 25px;
+    z-index: 1000; /* Sits above the floating button and most page content. */
+
+    /* Box Model & Appearance */
+    width: 400px;
+    max-width: 90vw; /* Ensures responsiveness on smaller viewports. */
+    height: 65vh;
+    max-height: 700px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    overflow: hidden; /* Clips child content like the chat body. */
+
+    /* Layout & Visibility */
+    display: none; /* Hidden by default; toggled by JavaScript. */
+    flex-direction: column; /* Stacks header, body, and input area vertically. */
+
+    /* Transitions */
+    /* Smooth animations for resizing, moving, or fullscreen mode. */
+    transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease, transform 0.3s ease, right 0.4s ease;
+}
+
+/* --- State modifier: Makes the widget visible --- */
+.ai-assistant-widget-window.active {
+    /* JavaScript adds this class to show the widget. */
+    display: flex;
+}
+
+/* --- State modifier: Adjusts widget and button when a Moodle side-drawer is open --- */
+/* NEW: This class ensures the widget does not overlap with Moodle's navigation drawer. */
+.ai-assistant-widget-window.drawer-open,
+.ai-assistant-widget-button.drawer-open {
+    /* Moves the element to the left to avoid the drawer. */
+    /* This value should match the width of the Moodle drawer. */
+    right: 325px;
+}
+
+
+/* ==========================================================================
+   2. Widget Header
+   ========================================================================== */
+
+.ai-assistant-widget-header {
+    /* Box Model & Appearance */
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+
+    /* Layout */
+    display: flex;
+    justify-content: space-between; /* Pushes title and controls to opposite ends. */
+    align-items: center;
+    flex-shrink: 0; /* Prevents the header from shrinking if content grows. */
+}
+
+/* --- Title text within the header --- */
+#ai-assistant-widget-title {
+    font-weight: 600; /* Makes the title stand out. */
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.ai-assistant-widget-header .controls {
+    display: flex;
+    gap: 8px; /* Adds spacing between control buttons. */
+}
+
+.ai-assistant-widget-control-button {
+    /* Appearance */
+    background: none;
+    border: none;
+    color: #555;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.ai-assistant-widget-control-button:hover {
+    opacity: 1;
+    color: #000;
+}
+
+.ai-assistant-widget-control-button svg {
+    /* Ensures SVGs within the buttons are displayed correctly. */
+    display: block;
+}
+
+
+/* ==========================================================================
+   3. Chat Body & Messages
+   ========================================================================== */
+
+/* --- Container for all messages --- */
+.ai-assistant-chat-body {
+    /* Layout & Sizing */
+    flex-grow: 1; /* Allows this area to fill the available vertical space. */
+    overflow-y: auto; /* Enables scrolling for the message history. */
+
+    /* Appearance */
+    padding: 15px;
+    background-color: #f4f7f9;
+}
+
+/* --- General styling for a single message bubble --- */
+.ai-assistant-message {
+    display: flex;
+    align-items: flex-start; /* Aligns avatar and message content to the top. */
+    gap: 10px;
+    max-width: 90%;
+    margin-bottom: 1rem;
+	color: #000000;
+}
+
+/* --- User-sent message alignment --- */
+.ai-assistant-message.from-user {
+    flex-direction: row-reverse; /* Flips the order of avatar and content. */
+    margin-left: auto; /* Pushes the entire message to the right. */
+}
+
+/* --- Bot-sent message content styling --- */
+.ai-assistant-message.from-bot .ai-assistant-message-content {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+}
+
+/* --- User-sent message content styling --- */
+.ai-assistant-message.from-user .ai-assistant-message-content {
+    background-color: #e6f2ff;
+}
+
+/* --- The text content of a message --- */
+.ai-assistant-message-content {
+    padding: 10px 15px;
+    border-radius: 18px;
+    word-wrap: break-word; /* Ensures long words do not overflow. */
+    overflow-wrap: break-word;
+}
+
+.ai-assistant-message-content p:last-child {
+    /* Removes default bottom margin from the last paragraph inside a message. */
+    margin-bottom: 0;
+}
+
+/* --- Circular avatar for both user and bot --- */
+.ai-assistant-avatar {
+    /* Box Model */
+    flex-shrink: 0; /* Prevents the avatar from shrinking. */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    /* Content Alignment */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Typography */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.ai-assistant-message.from-bot .ai-assistant-avatar {
+    background-color: #5a6268; /* Bot avatar color. */
+}
+
+.ai-assistant-message.from-user .ai-assistant-avatar {
+    background-color: #007bff; /* User avatar color. */
+}
+
+
+/* ==========================================================================
+   4. Typing Indicator
+   ========================================================================== */
+
+.ai-assistant-typing-indicator {
+    /* Layout */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    /* Appearance */
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.ai-assistant-typing-indicator span {
+    /* The three animated dots. */
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    animation: typing-bounce 1.4s infinite ease-in-out both;
+}
+
+/* --- Animation delays to make the dots bounce sequentially --- */
+.ai-assistant-typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+.ai-assistant-typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+/* --- Keyframe animation for the bouncing dot effect --- */
+@keyframes typing-bounce {
+    0%, 80%, 100% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(1.0);
+    }
+}
+
+
+/* ==========================================================================
+   5. User Input Area
+   ========================================================================== */
+
+.ai-assistant-input-area {
+    /* Layout */
+    display: flex;
+    align-items: center;
+
+    /* Appearance */
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+    background: #fff;
+}
+
+#ai-assistant-input {
+    /* Sizing */
+    flex-grow: 1; /* Takes up the available space next to the send button. */
+    max-height: 100px; /* Limits the height for multi-line input. */
+    overflow-y: auto; /* Allows scrolling within the textarea if content overflows. */
+
+    /* Appearance */
+    border: none;
+    padding: 10px;
+    resize: none; /* Disables manual resizing by the user. */
+    background: transparent;
+    font-size: 1rem;
+}
+
+#ai-assistant-input:focus {
+    /* Removes the default browser outline on focus. */
+    outline: none;
+}
+
+.ai-assistant-send-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    padding: 8px;
+}
+
+
+/* ==========================================================================
+   6. Overlay, Fullscreen & Modal Styles
+   ========================================================================== */
+
+/* --- A single, shared dark overlay for fullscreen and modal views --- */
+#ai-assistant-overlay {
+    /* Positioning & Stacking */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Sits below modals and the fullscreen widget but above all other page content. */
+    z-index: 9997;
+
+    /* Appearance & Visibility */
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none; /* Hidden by default. */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth fade-in/out effect. */
+}
+
+#ai-assistant-overlay.active {
+    /* JavaScript adds this class to show the overlay. */
+    display: block;
+    opacity: 1;
+}
+
+/* --- Styles to apply to the widget when in fullscreen mode --- */
+#ai-assistant-widget-container.fullscreen {
+    /* Centering and Sizing */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh;
+
+    /* Stacking */
+    /* Sits above the overlay but below any pop-up modals. */
+    z-index: 9998;
+
+    /* Override fixed positioning from the default state. */
+    bottom: auto;
+    right: auto;
+}
+
+/* --- The main container for any pop-up modal dialog --- */
+#ai-assistant-modal-container {
+    /* Positioning & Centering */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Sizing */
+    width: 90%;
+    max-width: 600px;
+
+    /* Appearance */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+    /* Stacking & Visibility */
+    z-index: 9999; /* Highest z-index to ensure it's on top of everything. */
+    display: none; /* Hidden by default. */
+    flex-direction: column;
+}
+
+#ai-assistant-modal-container.active {
+    /* JavaScript adds this class to show the modal. */
+    display: flex;
+}
+
+
+/* ==========================================================================
+   7. Modal Content & Form Styling
+   ========================================================================== */
+
+.ai-assistant-modal-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+}
+
+/* --- Typography inside the modal --- */
+.ai-assistant-modal-form h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.ai-assistant-modal-form p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* --- Form element groups --- */
+.ai-assistant-modal-form .form-group {
+    margin-bottom: 18px;
+}
+
+.ai-assistant-modal-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+.ai-assistant-modal-form select,
+.ai-assistant-modal-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding is included in the width. */
+}
+
+.ai-assistant-modal-form textarea {
+    min-height: 120px;
+    resize: vertical; /* Allows user to resize textarea height. */
+}
+
+/* --- Modal action buttons (e.g., Cancel, Submit) --- */
+.ai-assistant-modal-form .form-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end; /* Aligns buttons to the right. */
+    gap: 10px;
+}
+
+/* --- Secondary button style (e.g., "Cancel") --- */
+.ai-assistant-button-secondary {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* --- Primary button style (e.g., "Submit") --- */
+.ai-assistant-button-primary {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* ==========================================================================
+   8. History Page Styles (from history.mustache)
+   ========================================================================== */
+
+/* --- Main container for the history page --- */
+.ai-assistant-history-container {
+    /* Provides some breathing room around the entire history content. */
+    padding: 15px;
+}
+
+/* --- Grouping for subjects and topics --- */
+.subject-group,
+.topic-group {
+    /* Adds vertical space between each group for better readability. */
+    margin-bottom: 1.5rem;
+}
+
+/* --- Preview of the user's question in the accordion header --- */
+.user-question-preview {
+    /* Ensures long questions don't break the layout by truncating with an ellipsis. */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Use a normal font weight to contrast with the bold timestamp. */
+    font-weight: normal;
+    /* Allows the preview to shrink inside its flex container (the button). */
+    flex-shrink: 1;
+    min-width: 0; /* A flexbox hack to allow text-overflow to work correctly. */
+}
+
+/* --- Wrapper for the message pair inside the accordion body --- */
+.ai-assistant-chat-history {
+    /* Adds a little extra space around the conversation for better separation. */
+    padding: 5px;
+}

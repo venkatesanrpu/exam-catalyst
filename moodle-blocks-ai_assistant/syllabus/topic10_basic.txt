@@ -1,0 +1,83 @@
+Here are 10 basic-level MCQs on optical properties: luminescence, lasers, and transparent conductors, aligned with the given tags.
+
+### Part 1: Basic MCQs
+
+1) Which equation correctly relates the energy of a photon to its wavelength?
+A. $$E = \dfrac{h \lambda}{c}$$
+B. $$E = h \nu = \dfrac{hc}{\lambda}$$
+C. $$E = h \lambda$$
+D. $$E = \dfrac{c}{h \lambda}$$
+Correct answer: B
+Explanation: Photon energy is given by $$E = h \nu$$. With $$\nu = c/\lambda$$, this becomes $$E = hc/\lambda$$. The expressions that multiply by $$\lambda$$ or invert constants confuse the relation between frequency, wavelength, and energy.
+
+2) A direct band gap semiconductor with $$E_g = 2.0\ \text{eV}$$ most strongly emits light near which wavelength for band-to-band radiative recombination?
+A. $$310\ \text{nm}$$
+B. $$620\ \text{nm}$$
+C. $$1240\ \text{nm}$$
+D. $$2000\ \text{nm}$$
+Correct answer: B
+Explanation: Emission photon energy is approximately the band gap, so $$\lambda \approx \dfrac{hc}{E_g} \approx \dfrac{1240\ \text{nm·eV}}{2.0\ \text{eV}} = 620\ \text{nm}$$. Ultraviolet wavelengths correspond to much higher energies than the gap, while near- and mid-infrared correspond to much lower photon energies than the gap.
+
+3) Which process is described by radiative recombination in a semiconductor?
+A. Recombination where excess energy is given to a third carrier
+B. Recombination accompanied by phonon emission only
+C. Electron–hole recombination that emits a photon
+D. Electron tunneling across a barrier without emission
+Correct answer: C
+Explanation: Radiative recombination produces a photon when an electron in the conduction band recombines with a hole in the valence band. Transfer of energy to another carrier is characteristic of Auger recombination, and phonon-only pathways are nonradiative processes.
+
+4) In activator-doped phosphors, what is the primary role of the dopant centers?
+A. Increase the band gap to shift emission to shorter wavelength
+B. Introduce discrete energy levels in the band gap that enable efficient luminescence
+C. Eliminate all lattice defects to prevent nonradiative decay
+D. Improve thermal conductivity to avoid heating
+Correct answer: B
+Explanation: Activator ions create localized levels inside the band gap, allowing excitation and radiative relaxation with characteristic emission. Simply widening the band gap is not the mechanism, and while defects and thermal properties matter, they are not the primary luminescence function of activators.
+
+5) What is population inversion in the context of laser action?
+A. The lower laser level has more population than the upper level
+B. Populations of the two levels are equal
+C. The upper laser level has greater population than the lower level
+D. All atoms are in a metastable state
+Correct answer: C
+Explanation: Laser action requires $$N_2 > N_1$$ for the transition of interest, ensuring net stimulated emission. Equal or lower upper-level populations do not yield gain, and complete metastable occupancy is neither required nor realistic.
+
+6) Which statement best describes stimulated emission?
+A. Emission occurs spontaneously with random phase and direction
+B. An incident photon induces emission of a second, identical photon (same energy, phase, and direction)
+C. Emission requires a strong static electric field to occur
+D. Two photons of different energies are produced from a single excited state
+Correct answer: B
+Explanation: In stimulated emission, an incident photon of matching energy triggers emission of a coherent photon, yielding amplification. Spontaneous emission is random in phase and direction, and external static fields are not the defining requirement.
+
+7) In a forward-biased p–n junction LED, what primarily determines the energy (color) of emitted photons?
+A. The magnitude of the injection current
+B. The semiconductor band gap
+C. The device’s physical size
+D. The contact metal work function
+Correct answer: B
+Explanation: Electroluminescence photon energy is approximately the band gap: $$E_{\text{ph}} \approx E_g$$. Current influences brightness, not photon energy; device size and contacts generally do not set emission wavelength.
+
+8) Quantum efficiency in photoluminescence is defined as:
+A. The ratio of emitted optical power to electrical input power
+B. The ratio of photons emitted to photons absorbed
+C. The ratio of excited electrons to injected electrons
+D. The ratio of emitted photons to incident photons squared
+Correct answer: B
+Explanation: Photoluminescence quantum efficiency is $$\eta = \dfrac{\text{number of photons emitted}}{\text{number of photons absorbed}}$$. Power-based metrics relate to wall-plug efficiency, and carrier-count ratios are not the standard definition.
+
+9) Why are transparent conductors like indium tin oxide (ITO) transparent in the visible while still electrically conductive?
+A. They have a wide band gap that suppresses visible interband absorption, and doping supplies free carriers for conductivity
+B. Their high reflectivity eliminates absorption in all spectral regions
+C. They have an unusually low refractive index that prevents interaction with light
+D. Free carriers do not interact with light at any wavelength
+Correct answer: A
+Explanation: A wide band gap ($$E_g \gtrsim 3\ \text{eV}$$) prevents visible interband absorption, preserving transparency, while heavy doping provides free carriers for electrical conduction. Reflectivity, refractive index alone, or claiming no light–carrier interaction are incorrect or oversimplified; free carriers mainly absorb in the IR via intraband processes.
+
+10) What provides the optical feedback necessary for laser oscillation in a typical laser?
+A. A heat sink attached to the gain medium
+B. Two mirrors forming an optical resonator around the gain medium
+C. An aperture that blocks off-axis light
+D. A polarizer aligned with the optical axis
+Correct answer: B
+Explanation: An optical cavity with mirrors feeds photons back through the gain medium, selecting resonant modes and enabling net gain via stimulated emission. Thermal management, apertures, and polarization control can be useful but do not provide the essential resonant feedback.
