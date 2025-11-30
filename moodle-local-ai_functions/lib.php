@@ -27,37 +27,54 @@ function local_ai_functions_call_endpoint($agentconfigkey, $functionname, $paylo
     ];
 
     if (isset($dummy_responses[$functionname])) {
-        if ($stream) {
-            // Simulate streaming response for testing
-            $words = explode(' ', $dummy_responses[$functionname]);
-            foreach ($words as $word) {
-                echo "event: chunk\n";
-                echo "data: " . json_encode(['content' => $word . ' ']) . "\n\n";
-                flush();
-                usleep(100000); // 100ms delay per word for visual effect
+    if ($stream) {
+        // FIXED: Proper SSE streaming with flush
+        $response_text = $dummy_responses[$functionname];
+        $words = explode(' ', $response_text);
+        
+        foreach ($words as $word) {
+            echo "event: chunk\n";
+            echo "data: " . json_encode(['content' => $word . ' ']) . "\n\n";
+            
+            if (ob_get_level() > 0) {
+                ob_flush();
             }
-            
-            // Send metadata
-            echo "event: metadata\n";
-            echo "data: " . json_encode([
-                'finish_reason' => 'stop',
-                'model' => 'dummy-model',
-                'completion_id' => 'dummy-' . uniqid()
-            ]) . "\n\n";
             flush();
             
-            // Send done signal
-            echo "event: done\n";
-            echo "data: {}\n\n";
-            flush();
-            return; // Don't return a value, just stream
-        } else {
-            $debug_payload = json_encode($payload, JSON_PRETTY_PRINT);
-            $response_text = $dummy_responses[$functionname] . "<br/><pre>Payload Received:\n" . $debug_payload . "</pre>";
-            sleep(1); // Simulate network latency
-            return json_encode(['response' => $response_text]);
+            usleep(50000); // 50ms delay per word
         }
+        
+        // Send metadata
+        echo "event: metadata\n";
+        echo "data: " . json_encode([
+            'finish_reason' => 'stop',
+            'model' => 'dummy-model',
+            'completion_id' => 'dummy-' . uniqid()
+        ]) . "\n\n";
+        
+        if (ob_get_level() > 0) {
+            ob_flush();
+        }
+        flush();
+        
+        // Send done signal
+        echo "event: done\n";
+        echo "data: {}\n\n";
+        
+        if (ob_get_level() > 0) {
+            ob_flush();
+        }
+        flush();
+        
+        return; // Exit function
+    } else {
+        // Non-streaming dummy
+        $debug_payload = json_encode($payload, JSON_PRETTY_PRINT);
+        $response_text = $dummy_responses[$functionname] . "<br/><pre>Payload Received:\n" . $debug_payload . "</pre>";
+        sleep(1);
+        return json_encode(['response' => $response_text]);
     }
+}
     // --- End of Dummy Logic ---
 
     // FIXED: Use agent_key column name
