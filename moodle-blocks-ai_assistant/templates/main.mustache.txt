@@ -2,7 +2,6 @@
     FILE: blocks/ai_assistant/templates/main.mustache
     DESCRIPTION: AI Assistant Chat Widget - Complete Production Version
     FEATURES: ask_agent, MCQ, websearch, youtube_summarize with link handlers
-    UPDATED: Smart lesson handling for string arrays and object arrays
 }}
 
 <!-- Dependencies -->
@@ -625,50 +624,12 @@
 
       // ==================== SYLLABUS FUNCTIONS ====================
       const loadSyllabus = async () => {
-        if (agentState.syllabusData) {
-          console.log('✅ Syllabus already loaded');
-          return;
-        }
-        
-        console.log('🔍 Loading syllabus from:', syllabusAjaxUrl);
-        console.log('🔑 Subject key:', mainSubjectKey);
-        
+        if (agentState.syllabusData) return;
         try {
-          const url = `${syllabusAjaxUrl}?mainsubject=${mainSubjectKey}&sesskey=${sesskey}`;
-          console.log('📡 Fetching:', url);
-          
-          const response = await fetch(url);
-          
-          console.log('📊 Response status:', response.status);
-          
-          if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-          }
-          
-          const data = await response.json();
-          
-          console.log('📦 Received data:', data);
-          
-          // Validate data structure
-          if (!data || !Array.isArray(data)) {
-            throw new Error('Invalid syllabus data structure (expected array)');
-          }
-          
-          if (data.length === 0) {
-            throw new Error('Syllabus data is empty');
-          }
-          
-          agentState.syllabusData = data;
-          console.log('✅ Syllabus loaded successfully:', data.length, 'subjects');
-          
+          const response = await fetch(`${syllabusAjaxUrl}?mainsubject=${mainSubjectKey}&sesskey=${sesskey}`);
+          agentState.syllabusData = await response.json();
         } catch (error) {
-          console.error("❌ Failed to load syllabus:", error);
-          console.error("📍 URL attempted:", syllabusAjaxUrl);
-          console.error("📍 Subject key:", mainSubjectKey);
-          
-          alert(`Could not load syllabus data.\n\nError: ${error.message}\n\nPlease check:\n1. syllabus_ajax.php exists\n2. chemistry.json is in the right location\n3. Browser console for details`);
-          
-          throw error;
+          console.error("Failed to load syllabus:", error);
         }
       };
 
@@ -757,50 +718,26 @@
           }
         });
 
-        // ✅ SMART LESSON HANDLER - Supports both string arrays and object arrays
         modalTopic.addEventListener('change', () => {
           const selectedSubjectKey = modalSubject.value;
           const selectedTopicKey = modalTopic.value;
           modalLesson.innerHTML = '<option value="">-- Please select a lesson --</option>';
           modalLesson.disabled = true;
           
-          console.log('🔍 Selected topic:', selectedTopicKey);
-          
           const subjectData = agentState.syllabusData.find(s => s.subject_key === selectedSubjectKey);
           const topicData = subjectData ? subjectData.topics.find(t => t.topic_key === selectedTopicKey) : null;
           
-          console.log('📦 Topic data:', topicData);
-          
-          if (topicData && topicData.lessons && topicData.lessons.length > 0) {
-            console.log('✅ Found', topicData.lessons.length, 'lessons');
-            
-            topicData.lessons.forEach((lesson, index) => {
+          if (topicData && topicData.lessons) {
+            topicData.lessons.forEach(lesson => {
               const option = document.createElement('option');
-              
-              // Smart handling: Check if lesson is object or string
-              if (typeof lesson === 'string') {
-                // Lesson is just a string - use it as both value and display
-                option.value = lesson;
-                option.textContent = lesson;
-                console.log(`  ${index + 1}. ${lesson}`);
-              } else {
-                // Lesson is an object with lesson_key and lesson properties
-                option.value = lesson.lesson_key;
-                option.textContent = lesson.lesson;
-                console.log(`  ${index + 1}. ${lesson.lesson} [${lesson.lesson_key}]`);
-              }
-              
+              option.value = lesson.lesson_key;
+              option.textContent = lesson.lesson;
               modalLesson.appendChild(option);
             });
-            
             modalLesson.disabled = false;
-            console.log('✅ Lesson dropdown enabled');
-          } else {
-            console.warn('❌ No lessons found for topic:', selectedTopicKey);
           }
         });
 
-        // ✅ SMART FORM SUBMIT HANDLER - Supports both formats
         modalForm.addEventListener('submit', (e) => {
           e.preventDefault();
           
@@ -810,24 +747,8 @@
           
           const subjectData = agentState.syllabusData.find(s => s.subject_key === selectedSubjectKey);
           const topicData = subjectData ? subjectData.topics.find(t => t.topic_key === selectedTopicKey) : null;
-          
-          // Smart handling for tags (if lessons are objects with tags)
-          let tagsForQuery = [];
-          
-          if (topicData && topicData.lessons) {
-            const lessonData = topicData.lessons.find(l => {
-              if (typeof l === 'string') {
-                return l === selectedLessonKey;
-              } else {
-                return l.lesson_key === selectedLessonKey;
-              }
-            });
-            
-            // Extract tags if they exist (only if lesson is object format)
-            if (lessonData && typeof lessonData === 'object' && lessonData.tags) {
-              tagsForQuery = lessonData.tags;
-            }
-          }
+          const lessonData = topicData ? topicData.lessons.find(l => l.lesson_key === selectedLessonKey) : null;
+          const tagsForQuery = lessonData ? lessonData.tags : [];
           
           sendMessage({
             function: 'ask_agent',

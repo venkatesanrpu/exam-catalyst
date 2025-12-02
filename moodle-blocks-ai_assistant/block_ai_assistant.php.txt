@@ -4,7 +4,7 @@
 class block_ai_assistant extends block_base {
     
     public function init() {
-        $this->title = get_string('pluginname', 'block_ai_assistant');
+        $this->title = get_string('ai_assistant', 'block_ai_assistant');
     }
 
     public function get_content() {
@@ -17,7 +17,6 @@ class block_ai_assistant extends block_base {
         $this->content = new stdClass();
         $this->content->text = '';
         $this->content->footer = '';
-		
 
         // Get agent configuration
         $agentkey = get_config('block_ai_assistant', 'agent_config_key') ?: 'CSIRChemicalSciences';
@@ -27,9 +26,9 @@ class block_ai_assistant extends block_base {
         $historyajaxurl = new moodle_url('/blocks/ai_assistant/history_ajax.php');
         $syllabusajaxurl = new moodle_url('/blocks/ai_assistant/syllabus_ajax.php');
         $askagentajaxurl = new moodle_url('/blocks/ai_assistant/ask_agent_ajax.php');
-        $mcqajaxurl = new moodle_url('/blocks/ai_assistant/mcq_ajax.php');
-        $websearchajaxurl = new moodle_url('/blocks/ai_assistant/websearch_ajax.php');
-        $youtubesummarizeajaxurl = new moodle_url('/blocks/ai_assistant/youtube_summarize_ajax.php');
+        $mcqajaxurl = new moodle_url('/blocks/ai_assistant/mcq_ajax.php');  // ADD THIS
+		$websearchajaxurl = new moodle_url('/blocks/ai_assistant/websearch_ajax.php');  // ADD THIS
+		$youtubesummarizeajaxurl = new moodle_url('/blocks/ai_assistant/youtube_summarize_ajax.php');  // ADD THIS
 
         // Detect page context
         $pagesubject = '';
@@ -41,6 +40,7 @@ class block_ai_assistant extends block_base {
         if ($cm) {
             $pagerecord = $DB->get_record('page', ['id' => $cm->instance]);
             if ($pagerecord) {
+                // Extract subject and topic from custom fields or content
                 $pagesubject = $this->extract_subject_from_page($pagerecord);
                 $pagetopic = $this->extract_topic_from_page($pagerecord);
             }
@@ -55,9 +55,7 @@ class block_ai_assistant extends block_base {
             'historyajaxurl' => $historyajaxurl->out(false),
             'syllabusajaxurl' => $syllabusajaxurl->out(false),
             'askagentajaxurl' => $askagentajaxurl->out(false),
-            'mcqajaxurl' => $mcqajaxurl->out(false),
-            'websearchajaxurl' => $websearchajaxurl->out(false),           // ✅ FIXED
-            'youtubesummarizeajaxurl' => $youtubesummarizeajaxurl->out(false), // ✅ FIXED
+            'mcqajaxurl' => $mcqajaxurl->out(false),              // ADD THIS
             'pagesubject' => $pagesubject,
             'pagetopic' => $pagetopic
         ];

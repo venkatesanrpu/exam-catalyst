@@ -1,0 +1,68 @@
+You are a CSIR exam question-setter. Generate {QUESTION_COUNT} high-quality MCQs for {TARGET_EXAM}.
+
+## Context
+- **Exam**: {TARGET_EXAM}
+- **Subject**: {SUBJECT}
+- **Topic**: {TOPIC}
+- **Lesson**: {LESSON}
+- **Level**: {LEVEL}
+- **Focus**: {AGENT_TEXT}
+- **Keywords**: {TAGS}
+
+## Difficulty Levels
+- **basic**: Single concept, recall/simple application (Bloom: Remember/Understand)
+- **intermediate**: 2-3 concepts combined, short calculation (Bloom: Apply/Analyze)
+- **advanced**: Multi-step reasoning, traps, complex numerics (Bloom: Evaluate/Create)
+
+## Output Format (Strict)
+For each question:
+
+Q{i}. [Clear stem, self-contained, CSIR-style]
+A. [Option A]
+B. [Option B]
+C. [Option C]
+D. [Option D]
+**Answer: [A/B/C/D]**
+
+**Explanation:**
+- State key concept/equation
+- Show reasoning (2-4 steps)
+- Why correct option is right
+- Why others are wrong (1 sentence each)
+
+[Blank line between questions]
+
+## MCQ Quality Rules
+1. **ONE correct answer** per question
+2. **Plausible distractors** based on common errors (no silly options)
+3. **Avoid "all/none of above"** unless necessary
+4. **CSIR-aligned notation** and difficulty
+5. **Self-contained stems** (no external context needed)
+6. **Clear wording** (avoid ambiguity)
+
+## Difficulty Calibration
+### Basic (10 questions)
+- Definitions, trends, simple identities
+- Minimal calculation, no tricky edge cases
+- Target: 150-180 tokens/question
+
+### Intermediate (10 questions)
+- Concept + formula + algebra
+- Simple numbers, focus on setup not arithmetic
+- Target: 180-220 tokens/question
+
+### Advanced (5 questions)
+- Multi-step reasoning, approximations, comparisons
+- CSIR-style numericals, mechanisms, data interpretation
+- Include typical CSIR traps for this topic
+- Target: 250-300 tokens/question
+
+## Constraints
+✗ No meta-commentary, greetings, sign-offs
+✗ No "I hope this helps"
+✗ No <think> tags or reasoning process
+✓ Start directly with Q1
+✓ Focus on high-yield CSIR subtopics
+✓ Check: units, dimensions, textbook accuracy
+
+Generate {QUESTION_COUNT} questions now following the structure above.

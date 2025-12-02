@@ -1,6 +1,6 @@
 <?php
 // FILE: moodle/blocks/ai_assistant/history.php
-// Uses subject_key, topic_key, lesson (full name) for filtering
+// MODIFIED: Changed filter hierarchy from Subject->Lesson->Topic to Subject->Topic->Lesson
 
 require_once('../../config.php');
 
@@ -8,9 +8,9 @@ global $DB, $PAGE, $USER, $OUTPUT;
 
 // --- Get Parameters ---
 $courseid = required_param('courseid', PARAM_INT);
-$subjectfilter = optional_param('subject', '', PARAM_ALPHANUMEXT);  // subject_key
-$topicfilter = optional_param('topic', '', PARAM_ALPHANUMEXT);      // topic_key
-$lessonfilter = optional_param('lesson', '', PARAM_TEXT);           // full name
+$subjectfilter = optional_param('subject', '', PARAM_ALPHANUMEXT);
+$topicfilter = optional_param('topic', '', PARAM_ALPHANUMEXT);
+$lessonfilter = optional_param('lesson', '', PARAM_ALPHANUMEXT);
 $page = optional_param('page', 1, PARAM_INT);
 $embed = optional_param('embed', 0, PARAM_BOOL);
 
@@ -42,28 +42,6 @@ if ($embed) {
 
 // --- Get renderer instance ---
 $renderer = $PAGE->get_renderer('block_ai_assistant', 'page');
-
-// --- Load Syllabus for Filter Dropdowns and Display Names ---
-$syllabus_path = __DIR__ . '/syllabus/chemistry.json';
-$syllabus_data = file_exists($syllabus_path) ? json_decode(file_get_contents($syllabus_path)) : [];
-
-// Build key -> name mappings for display
-$subject_key_to_name = [];
-$topic_key_to_name = [];
-
-foreach ($syllabus_data as $subject) {
-    if (isset($subject->subject_key) && isset($subject->subject)) {
-        $subject_key_to_name[$subject->subject_key] = $subject->subject;
-        
-        if (isset($subject->topics)) {
-            foreach ($subject->topics as $topic) {
-                if (isset($topic->topic_key) && isset($topic->topic)) {
-                    $topic_key_to_name[$topic->topic_key] = $topic->topic;
-                }
-            }
-        }
-    }
-}
 
 // --- Data Retrieval & Filtering ---
 $base_sql = "FROM {block_ai_assistant_history} WHERE userid = :userid AND courseid = :courseid";
@@ -101,33 +79,23 @@ $dateformat = get_string('strftimedatetimeshort', 'block_ai_assistant');
 
 foreach ($historyrecords as $record) {
     $record->formattedtime = userdate($record->timecreated, $dateformat);
+    $subject = empty($record->subject) ? get_string('uncategorized', 'block_ai_assistant') : $record->subject;
+    $topic = empty($record->topic) ? get_string('general_topic', 'block_ai_assistant') : $record->topic;
+    $lesson = empty($record->lesson) ? get_string('general_lesson', 'block_ai_assistant') : $record->lesson;
     
-    // Convert keys to display names
-    $subject_display = empty($record->subject) 
-        ? get_string('uncategorized', 'block_ai_assistant') 
-        : ($subject_key_to_name[$record->subject] ?? $record->subject);
-    
-    $topic_display = empty($record->topic) 
-        ? get_string('general_topic', 'block_ai_assistant') 
-        : ($topic_key_to_name[$record->topic] ?? $record->topic);
-    
-    $lesson_display = empty($record->lesson) 
-        ? get_string('general_lesson', 'block_ai_assistant') 
-        : $record->lesson;
-    
-    $subjectkey = md5($subject_display);
-    $topickey = md5($topic_display);
-    $lessonkey = md5($lesson_display);
+    $subjectkey = md5($subject);
+    $topickey = md5($topic);
+    $lessonkey = md5($lesson);
     
     // Initialize subject level
     if (!isset($structured_history[$subjectkey])) {
-        $structured_history[$subjectkey] = ['name' => $subject_display, 'topics' => []];
+        $structured_history[$subjectkey] = ['name' => $subject, 'topics' => []];
     }
     
     // Initialize topic level
     if (!isset($structured_history[$subjectkey]['topics'][$topickey])) {
         $structured_history[$subjectkey]['topics'][$topickey] = [
-            'name' => $topic_display,
+            'name' => $topic,
             'uniqid' => uniqid(),
             'lessons' => []
         ];
@@ -136,7 +104,7 @@ foreach ($historyrecords as $record) {
     // Initialize lesson level
     if (!isset($structured_history[$subjectkey]['topics'][$topickey]['lessons'][$lessonkey])) {
         $structured_history[$subjectkey]['topics'][$topickey]['lessons'][$lessonkey] = [
-            'name' => $lesson_display,
+            'name' => $lesson,
             'uniqid' => uniqid(),
             'conversations' => []
         ];
@@ -157,6 +125,10 @@ foreach ($structured_history as $subject) {
     $subject['topics'] = $topics_array;
     $data_subjects[] = $subject;
 }
+
+// --- Load Syllabus for Filter Dropdowns ---
+$syllabus_path = __DIR__ . '/syllabus/chemistry.json';
+$syllabus_data = file_exists($syllabus_path) ? json_decode(file_get_contents($syllabus_path)) : [];
 
 // --- Prepare Pagination Data Structure ---
 $pagination_data = [

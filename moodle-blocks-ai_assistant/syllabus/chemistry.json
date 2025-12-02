@@ -1,1844 +1,761 @@
 [
-   {
-      "subject":"Physical Chemistry",
-      "subject_key":"physical_chemistry",
-      "topics":[
-         {
-            "topic":"Solid State Chemistry",
-            "topic_key":"solid_state_chemistry",
-            "lessons":[
-               {
-                  "lesson":"Crystal Structures, Crystal Chemistry, Symmetry and Space Groups",
-                  "lesson_key":"crystal_structures_crystal_chemistry_symmetry_and_space_groups",
-                  "tags":[
-                     "unit_cell",
-                     "crystal_systems",
-                     "bravais_lattices",
-                     "lattice_parameters",
-                     "miller_indices",
-                     "lattice_planes",
-                     "hcp_ccp",
-                     "packing_efficiency",
-                     "space_groups",
-                     "symmetry_operations"
-                  ]
-               },
-               {
-                  "lesson":"Crystal Defects, Non-stoichiometry and Solid Solutions",
-                  "lesson_key":"crystal_defects_non_stoichiometry_and_solid_solutions",
-                  "tags":[
-                     "crystal_perfection",
-                     "defect_concentration",
-                     "vacancies_interstitials",
-                     "schottky_frenkel",
-                     "substitutional_solutions",
-                     "defect_chemistry",
-                     "grain_boundaries",
-                     "stacking_faults",
-                     "edge_screw",
-                     "strength_hardness"
-                  ]
-               },
-               {
-                  "lesson":"Bonding in Solids",
-                  "lesson_key":"bonding_in_solids",
-                  "tags":[
-                     "lattice_energy",
-                     "madelung_constant",
-                     "born_haber",
-                     "directional_bonds",
-                     "sp_hybridization",
-                     "band_gap",
-                     "electron_gas",
-                     "band_structure",
-                     "fermi_level"
-                  ]
-               },
-               {
-                  "lesson":"Synthesis, Processing and Fabrication Methods",
-                  "lesson_key":"synthesis_processing_and_fabrication_methods",
-                  "tags":[
-                     "calcination",
-                     "diffusion_controlled",
-                     "sol_gel",
-                     "hydrothermal",
-                     "cvd",
-                     "ald",
-                     "single_crystal_growth",
-                     "flux_method"
-                  ]
-               },
-               {
-                  "lesson":"Crystallography and Diffraction Techniques",
-                  "lesson_key":"crystallography_and_diffraction_techniques",
-                  "tags":[
-                     "bragg_law",
-                     "powder_diffraction",
-                     "neutron_scattering",
-                     "magnetic_structure",
-                     "ewald_sphere",
-                     "reciprocal_space",
-                     "scherrer_equation",
-                     "microstrain"
-                  ]
-               },
-               {
-                  "lesson":"Other Characterisation Techniques: Microscopy, Spectroscopy, Thermal Analysis",
-                  "lesson_key":"other_characterisation_techniques_microscopy_spectroscopy_thermal_analysis",
-                  "tags":[
-                     "sem_tem",
-                     "resolution_limit",
-                     "ftir_raman",
-                     "xps",
-                     "dsc_tga",
-                     "phase_transitions",
-                     "multi_technique",
-                     "phase_identification"
-                  ]
-               },
-               {
-                  "lesson":"Phase Diagrams and Their Interpretation",
-                  "lesson_key":"phase_diagrams_and_their_interpretation",
-                  "tags":[
-                     "gibbs_phase_rule",
-                     "degrees_of_freedom",
-                     "binary_phase_diagram",
-                     "eutectic_peritectic",
-                     "ternary_diagrams",
-                     "tie_lines",
-                     "first_order",
-                     "second_order"
-                  ]
-               },
-               {
-                  "lesson":"Electrical Properties",
-                  "lesson_key":"electrical_properties",
-                  "tags":[
-                     "drude_model",
-                     "resistivity_temperature",
-                     "meissner_effect",
-                     "critical_temperature",
-                     "intrinsic_extrinsic",
-                     "dopants",
-                     "vacancy_migration",
-                     "arrhenius_conductivity",
-                     "polarization_mechanisms",
-                     "dielectric_loss"
-                  ]
-               },
-               {
-                  "lesson":"Magnetic Properties",
-                  "lesson_key":"magnetic_properties",
-                  "tags":[
-                     "magnetization",
-                     "susceptibility",
-                     "ferro_antiferro",
-                     "exchange_interactions",
-                     "magnetoresistance",
-                     "spintronics"
-                  ]
-               },
-               {
-                  "lesson":"Optical Properties: Luminescence, Lasers and Transparent Conductors",
-                  "lesson_key":"optical_properties_luminescence_lasers_transparent_conductors",
-                  "tags":[
-                     "photon_energy",
-                     "bandgap_optics",
-                     "radiative_recombination",
-                     "dopant_centers",
-                     "population_inversion",
-                     "stimulated_emission",
-                     "p_n_junction",
-                     "quantum_efficiency",
-                     "ito_fto",
-                     "electrochromics"
-                  ]
-               },
-               {
-                  "lesson":"Heterogeneous Materials, Electroceramics and Impedance Spectroscopy",
-                  "lesson_key":"heterogeneous_materials_electroceramics_impedance_spectroscopy",
-                  "tags":[
-                     "rc_circuit",
-                     "complex_impedance",
-                     "nyquist_bode",
-                     "equivalent_circuits",
-                     "grain_boundary_response",
-                     "electroceramics"
-                  ]
-               },
-               {
-                  "lesson":"Thermal and Thermoelectric Properties",
-                  "lesson_key":"thermal_and_thermoelectric_properties",
-                  "tags":[
-                     "seebeck_peltier",
-                     "figure_of_merit_zt",
-                     "heat_capacity",
-                     "thermal_conductivity"
-                  ]
-               },
-               {
-                  "lesson":"Functional Materials: Some Important Examples",
-                  "lesson_key":"functional_materials_important_examples",
-                  "tags":[
-                     "rutile_anatase",
-                     "photocatalysis",
-                     "varistor_behavior",
-                     "uv_optoelectronics",
-                     "2d_carbides",
-                     "surface_terminations",
-                     "graphene_tmds",
-                     "band_structure_tuning"
-                  ]
-               },
-               {
-                  "lesson":"Glass",
-                  "lesson_key":"glass",
-                  "tags":[
-                     "glass_formers",
-                     "cooling_rate",
-                     "nucleation_growth",
-                     "ttt_diagrams",
-                     "network_formers_modifiers",
-                     "short_range_order",
-                     "soda_lime_glass",
-                     "borosilicate"
-                  ]
-               },
-               {
-                  "lesson":"Structural Materials: Cement, Refractories and Structural Ceramics",
-                  "lesson_key":"structural_materials_cement_refractories_structural_ceramics",
-                  "tags":[
-                     "clinker_phases",
-                     "hydration",
-                     "firebricks",
-                     "thermal_shock"
-                  ]
-               },
-               {
-                  "lesson":"Oxides of the Elements, Their Properties and Uses",
-                  "lesson_key":"oxides_of_the_elements_properties_uses",
-                  "tags":[
-                     "lewis_acid_base",
-                     "amphoteric_oxides",
-                     "mixed_valence",
-                     "spin_states",
-                     "oxide_structures",
-                     "functional_properties"
-                  ]
-               }
-            ]
-         },
-         {
-            "topic":"Chemical Thermodynamics",
-            "topic_key":"chemical_thermodynamics",
-            "lessons":[
-               {
-                  "lesson":"Fundamental Concepts of Thermodynamics",
-                  "lesson_key":"fundamental_concepts_of_thermodynamics",
-                  "tags":[
-                     "thermodynamics_definition",
-                     "macroscopic_variables",
-                     "pressure_temperature_volume",
-                     "thermodynamic_systems",
-                     "equations_of_state",
-                     "ideal_gas_law",
-                     "real_gases"
-                  ]
-               },
-               {
-                  "lesson":"Heat, Work, Internal Energy, Enthalpy, and the First Law of Thermodynamics",
-                  "lesson_key":"heat_work_internal_energy_enthalpy_and_the_first_law_of_thermodynamics",
-                  "tags":[
-                     "first_law_thermodynamics",
-                     "internal_energy",
-                     "heat_transfer",
-                     "work_calculation",
-                     "reversible_processes",
-                     "irreversible_processes",
-                     "state_functions",
-                     "path_functions",
-                     "heat_capacity",
-                     "enthalpy_definition"
-                  ]
-               },
-               {
-                  "lesson":"The Importance of State Functions: Internal Energy and Enthalpy",
-                  "lesson_key":"the_importance_of_state_functions_internal_energy_and_enthalpy",
-                  "tags":[
-                     "state_functions_properties",
-                     "internal_energy_dependence",
-                     "enthalpy_variation",
-                     "heat_capacities_relation",
-                     "joule_thomson_effect",
-                     "isenthalpic_expansion",
-                     "gas_liquefaction"
-                  ]
-               },
-               {
-                  "lesson":"Thermochemistry",
-                  "lesson_key":"thermochemistry",
-                  "tags":[
-                     "chemical_bond_energy",
-                     "reaction_enthalpies",
-                     "hess_law",
-                     "temperature_dependence_enthalpies",
-                     "experimental_determination",
-                     "differential_scanning_calorimetry"
-                  ]
-               },
-               {
-                  "lesson":"Entropy and the Second and Third Laws of Thermodynamics",
-                  "lesson_key":"entropy_and_the_second_and_third_laws_of_thermodynamics",
-                  "tags":[
-                     "spontaneous_processes",
-                     "second_law_thermodynamics",
-                     "entropy_changes",
-                     "clausius_inequality",
-                     "third_law_thermodynamics",
-                     "absolute_entropies",
-                     "carnot_cycle",
-                     "heat_engines"
-                  ]
-               },
-               {
-                  "lesson":"Chemical Equilibrium",
-                  "lesson_key":"chemical_equilibrium",
-                  "tags":[
-                     "gibbs_energy",
-                     "helmholtz_energy",
-                     "equilibrium_constant",
-                     "reaction_mixture_gibbs",
-                     "temperature_dependence_kp",
-                     "ammonia_synthesis",
-                     "rna_unfolding"
-                  ]
-               },
-               {
-                  "lesson":"The Properties of Real Gases",
-                  "lesson_key":"the_properties_of_real_gases",
-                  "tags":[
-                     "real_gas_equations",
-                     "compression_factor",
-                     "corresponding_states_law",
-                     "fugacity",
-                     "equilibrium_real_gases"
-                  ]
-               },
-               {
-                  "lesson":"Phase Diagrams and the Relative Stability of Solids, Liquids, and Gases",
-                  "lesson_key":"phase_diagrams_and_the_relative_stability_of_solids_liquids_and_gases",
-                  "tags":[
-                     "phase_stability",
-                     "pressure_temperature_diagram",
-                     "phase_rule",
-                     "clausius_clapeyron_equation",
-                     "surface_tension",
-                     "supercritical_fluids",
-                     "liquid_crystals"
-                  ]
-               },
-               {
-                  "lesson":"Ideal and Real Solutions",
-                  "lesson_key":"ideal_and_real_solutions",
-                  "tags":[
-                     "ideal_solution_definition",
-                     "chemical_potential",
-                     "raoults_law",
-                     "colligative_properties",
-                     "osmotic_pressure",
-                     "henrys_law",
-                     "partial_miscibility"
-                  ]
-               },
-               {
-                  "lesson":"Electrolyte Solutions",
-                  "lesson_key":"electrolyte_solutions",
-                  "tags":[
-                     "ion_formation_thermodynamics",
-                     "solvation_entropy",
-                     "activity_coefficients",
-                     "debye_huckel_theory",
-                     "equilibrium_electrolytes"
-                  ]
-               },
-               {
-                  "lesson":"Electrochemical Cells, Batteries, and Fuel Cells",
-                  "lesson_key":"electrochemical_cells_batteries_and_fuel_cells",
-                  "tags":[
-                     "electrochemical_potential",
-                     "nernst_equation",
-                     "cell_potential",
-                     "electrochemical_series",
-                     "battery_thermodynamics",
-                     "fuel_cells",
-                     "nanoscale_electrochemistry"
-                  ]
-               },
-               {
-                  "lesson":"Probability",
-                  "lesson_key":"probability",
-                  "tags":[
-                     "probability_theory",
-                     "stirlings_approximation",
-                     "distribution_functions",
-                     "discrete_continuous_variables"
-                  ]
-               },
-               {
-                  "lesson":"The Boltzmann Distribution",
-                  "lesson_key":"the_boltzmann_distribution",
-                  "tags":[
-                     "microstates_configurations",
-                     "boltzmann_derivation",
-                     "distribution_dominance",
-                     "physical_meaning_beta"
-                  ]
-               },
-               {
-                  "lesson":"Ensemble and Molecular Partition Functions",
-                  "lesson_key":"ensemble_and_molecular_partition_functions",
-                  "tags":[
-                     "canonical_ensemble",
-                     "partition_functions",
-                     "translational_rotational",
-                     "vibrational_electronic",
-                     "equipartition_theorem"
-                  ]
-               },
-               {
-                  "lesson":"Statistical Thermodynamics",
-                  "lesson_key":"statistical_thermodynamics",
-                  "tags":[
-                     "energy_degrees_freedom",
-                     "heat_capacity",
-                     "entropy_calculation",
-                     "residual_entropy",
-                     "thermodynamic_functions",
-                     "chemical_equilibrium_stats"
-                  ]
-               },
-               {
-                  "lesson":"Kinetic Theory of Gases",
-                  "lesson_key":"kinetic_theory_of_gases",
-                  "tags":[
-                     "gas_pressure_motion",
-                     "velocity_distribution",
-                     "maxwell_distribution",
-                     "gas_effusion",
-                     "molecular_collisions",
-                     "mean_free_path"
-                  ]
-               },
-               {
-                  "lesson":"Transport Phenomena",
-                  "lesson_key":"transport_phenomena",
-                  "tags":[
-                     "mass_transport_diffusion",
-                     "thermal_conduction",
-                     "gas_viscosity",
-                     "liquid_diffusion",
-                     "ionic_conduction"
-                  ]
-               },
-               {
-                  "lesson":"Macromolecules",
-                  "lesson_key":"macromolecules",
-                  "tags":[
-                     "macromolecular_structure",
-                     "random_coil_model",
-                     "biological_polymers",
-                     "synthetic_polymers",
-                     "self_assembly_micelles"
-                  ]
-               }
-            ]
-         },
-         {
-            "topic":"Chemical Kinetics",
-            "topic_key":"chemical_kinetics",
-            "lessons":[
-               {
-                  "lesson":"Introduction",
-                  "lesson_key":"introduction",
-                  "tags":[
-                     "chemical_kinetics",
-                     "historical_development",
-                     "initial_difficulties",
-                     "current_view"
-                  ]
-               },
-               {
-                  "lesson":"Reaction rate laws",
-                  "lesson_key":"reaction_rate_laws",
-                  "tags":[
-                     "reaction_rates",
-                     "influencing_factors",
-                     "reaction_velocities"
-                  ]
-               },
-               {
-                  "lesson":"Experimental methods",
-                  "lesson_key":"experimental_methods",
-                  "tags":[
-                     "conventional_techniques",
-                     "fast_reaction_techniques",
-                     "reaction_study_methods"
-                  ]
-               },
-               {
-                  "lesson":"Reaction order and rate constants",
-                  "lesson_key":"reaction_order_and_rate_constants",
-                  "tags":[
-                     "elementary_reaction_rates",
-                     "complex_reaction_rates",
-                     "kinetic_equations",
-                     "scheme_simplification",
-                     "data_analysis"
-                  ]
-               },
-               {
-                  "lesson":"Collisions and molecular dynamics",
-                  "lesson_key":"collisions_and_molecular_dynamics",
-                  "tags":[
-                     "simple_collision_theory",
-                     "improved_collision_theory",
-                     "collision_cross_section",
-                     "classical_trajectories",
-                     "pes_crossings",
-                     "molecular_dynamics"
-                  ]
-               },
-               {
-                  "lesson":"Reactivity in thermalised systems",
-                  "lesson_key":"reactivity_in_thermalised_systems",
-                  "tags":[
-                     "transition_state_theory",
-                     "semi_classical_treatments",
-                     "intersecting_state_model"
-                  ]
-               },
-               {
-                  "lesson":"Relationships between structure and reactivity",
-                  "lesson_key":"relationships_between_structure_and_reactivity",
-                  "tags":[
-                     "quadratic_free_energy_relationships",
-                     "linear_free_energy_relationships",
-                     "structure_reactivity_relationships"
-                  ]
-               },
-               {
-                  "lesson":"Unimolecular reactions",
-                  "lesson_key":"unimolecular_reactions",
-                  "tags":[
-                     "lindemann_christiansen_mechanism",
-                     "hinshelwood_treatment",
-                     "rrkm_treatment",
-                     "local_random_matrix_theory",
-                     "cyclopropane_isomerisation"
-                  ]
-               },
-               {
-                  "lesson":"Elementary reactions in solution",
-                  "lesson_key":"elementary_reactions_in_solution",
-                  "tags":[
-                     "solvent_effects",
-                     "diffusion_effects",
-                     "diffusion_constants",
-                     "spin_statistical_factors",
-                     "reaction_control"
-                  ]
-               },
-               {
-                  "lesson":"Reactions on surfaces",
-                  "lesson_key":"reactions_on_surfaces",
-                  "tags":[
-                     "adsorption",
-                     "adsorption_isotherms",
-                     "surface_kinetics",
-                     "transition_state_theory_surfaces",
-                     "model_systems"
-                  ]
-               },
-               {
-                  "lesson":"Substitution reactions",
-                  "lesson_key":"substitution_reactions",
-                  "tags":[
-                     "substitution_mechanisms",
-                     "sn1_sn2_reactions",
-                     "langford_gray_classification",
-                     "methyl_transfers_gas_phase",
-                     "state_correlation_diagrams",
-                     "intersecting_state_model",
-                     "cross_reactions",
-                     "solvent_effects"
-                  ]
-               },
-               {
-                  "lesson":"Chain reactions",
-                  "lesson_key":"chain_reactions",
-                  "tags":[
-                     "hydrogen_bromine_reaction",
-                     "hydrogen_chlorine_reaction",
-                     "hydrogen_iodine_reaction",
-                     "energy_barriers_calculation",
-                     "mechanism_comparison",
-                     "hydrocarbon_pyrolysis",
-                     "explosive_reactions",
-                     "polymerisation_reactions"
-                  ]
-               },
-               {
-                  "lesson":"Acid-base catalysis and proton-transfer reactions",
-                  "lesson_key":"acid_base_catalysis_and_proton_transfer_reactions",
-                  "tags":[
-                     "catalytic_mechanisms",
-                     "acid_base_catalysis",
-                     "ph_dependence",
-                     "catalytic_activity",
-                     "salt_effects",
-                     "acidity_functions",
-                     "proton_mobility",
-                     "proton_transfer_rates",
-                     "model_system"
-                  ]
-               },
-               {
-                  "lesson":"Enzymatic catalysis",
-                  "lesson_key":"enzymatic_catalysis",
-                  "tags":[
-                     "enzymatic_terminology",
-                     "acceleration_factors",
-                     "michaelis_menten_equation",
-                     "enzyme_substrate_complexes",
-                     "enzyme_inhibition",
-                     "ph_effects",
-                     "temperature_effects",
-                     "isomerisation_example",
-                     "hydroperoxidation_example",
-                     "drug_design"
-                  ]
-               },
-               {
-                  "lesson":"Pharmacokinetics",
-                  "lesson_key":"pharmacokinetics",
-                  "tags":[
-                     "pharmacokinetics_origins",
-                     "drug_administration",
-                     "drug_distribution",
-                     "drug_metabolism_excretion",
-                     "pharmacokinetics_models"
-                  ]
-               },
-               {
-                  "lesson":"Transitions between electronic states",
-                  "lesson_key":"transitions_between_electronic_states",
-                  "tags":[
-                     "energy_transfer_mechanisms",
-                     "golden_rule",
-                     "radiative_radiationless_rates",
-                     "franck_condon_factors",
-                     "radiationless_transitions",
-                     "triplet_energy_transfer",
-                     "electronic_coupling",
-                     "transfer_rates"
-                  ]
-               },
-               {
-                  "lesson":"Electron-transfer reactions",
-                  "lesson_key":"electron_transfer_reactions",
-                  "tags":[
-                     "outer_sphere_rate_laws",
-                     "electron_transfer_theories",
-                     "ism_electron_transfer",
-                     "non_adiabatic_exchanges",
-                     "organic_self_exchanges",
-                     "inverted_regions",
-                     "electrode_transfer"
-                  ]
-               },
-               {
-                  "lesson":"Oscillatory reactions",
-                  "lesson_key":"oscillatory_reactions",
-                  "tags":[
-                     "non_linear_systems",
-                     "chaos",
-                     "oscillatory_reactions",
-                     "coimbrator"
-                  ]
-               }
-            ]
-         },
-         {
-            "topic":"Statistical Thermodynamics",
-            "topic_key":"statistical_thermodynamics",
-            "lessons":[
-               {
-                  "lesson":"Introduction",
-                  "lesson_key":"introduction",
-                  "tags":[
-                     "statistical_foundation_classical_thermodynamics",
-                     "classification_scheme_statistical_thermodynamics",
-                     "why_statistical_thermodynamics"
-                  ]
-               },
-               {
-                  "lesson":"Probability and Statistics",
-                  "lesson_key":"probability_and_statistics",
-                  "tags":[
-                     "probability_definitions_basic_concepts",
-                     "permutations_combinations",
-                     "probability_distributions_discrete_continuous",
-                     "binomial_distribution",
-                     "poisson_distribution",
-                     "gaussian_distribution",
-                     "combinatorial_analysis_statistical_thermodynamics",
-                     "distinguishable_objects",
-                     "indistinguishable_objects"
-                  ]
-               },
-               {
-                  "lesson":"The Statistics of Independent Particles",
-                  "lesson_key":"statistics_of_independent_particles",
-                  "tags":[
-                     "essential_concepts_quantum_mechanics",
-                     "ensemble_method_statistical_thermodynamics",
-                     "two_basic_postulates_statistical_thermodynamics",
-                     "mb_method_system_constraints_particle_distribution",
-                     "mb_method_microstates_macrostates",
-                     "most_probable_macrostate",
-                     "bose_einstein_statistics",
-                     "fermi_dirac_statistics",
-                     "most_probable_particle_distribution",
-                     "boltzmann_relation_entropy"
-                  ]
-               },
-               {
-                  "lesson":"Thermodynamic Properties in the Dilute Limit",
-                  "lesson_key":"thermodynamic_properties_dilute_limit",
-                  "tags":[
-                     "dilute_limit",
-                     "corrected_maxwell_boltzmann_statistics",
-                     "molecular_partition_function",
-                     "influence_of_temperature",
-                     "criterion_dilute_limit",
-                     "internal_energy_entropy_dilute_limit",
-                     "additional_thermodynamic_properties_dilute_limit",
-                     "zero_of_energy_thermodynamic_properties",
-                     "intensive_thermodynamic_properties_ideal_gas"
-                  ]
-               },
-               {
-                  "lesson":"Basics of Quantum Mechanics",
-                  "lesson_key":"basics_of_quantum_mechanics",
-                  "tags":[
-                     "historical_survey_quantum_mechanics",
-                     "bohr_model_spectrum_atomic_hydrogen",
-                     "de_broglie_hypothesis",
-                     "heuristic_introduction_schrodinger_equation",
-                     "postulates_quantum_mechanics",
-                     "steady_state_schrodinger_equation",
-                     "single_particle_analysis",
-                     "multiparticle_analysis",
-                     "particle_in_box",
-                     "uncertainty_principle"
-                  ]
-               },
-               {
-                  "lesson":"Quantum Analysis of Internal Energy Modes",
-                  "lesson_key":"quantum_analysis_internal_energy_modes",
-                  "tags":[
-                     "schrodinger_wave_equation_two_particle_system",
-                     "conversion_center_of_mass_coordinates",
-                     "separation_external_internal_modes",
-                     "internal_motion_two_particle_system",
-                     "rotational_energy_mode_diatomic_molecule",
-                     "vibrational_energy_mode_diatomic_molecule",
-                     "electronic_energy_mode_atomic_hydrogen",
-                     "electronic_energy_mode_multielectron_species",
-                     "electron_configuration_multielectron_atoms",
-                     "spectroscopic_term_symbols_multielectron_atoms"
-                  ]
-               },
-               {
-                  "lesson":"The Spectroscopy of Diatomic Molecules",
-                  "lesson_key":"spectroscopy_of_diatomic_molecules",
-                  "tags":[
-                     "rotational_spectroscopy_rigid_rotor_model",
-                     "vibrational_spectroscopy_harmonic_oscillator_model",
-                     "rovibrational_spectroscopy_simplex_model",
-                     "complex_model_combined_rotation_vibration",
-                     "rovibrational_spectroscopy_complex_model",
-                     "electronic_spectroscopy",
-                     "energy_mode_parameters_diatomic_molecules"
-                  ]
-               },
-               {
-                  "lesson":"Interlude From Particle to Assembly",
-                  "lesson_key":"interlude_from_particle_to_assembly",
-                  "tags":[
-                     "energy_degeneracy",
-                     "separation_energy_modes",
-                     "molecular_internal_energy",
-                     "partition_function_thermodynamic_properties",
-                     "energy_mode_contributions_classical_mechanics",
-                     "phase_integral",
-                     "equipartition_principle",
-                     "mode_contributions"
-                  ]
-               },
-               {
-                  "lesson":"Thermodynamic Properties of the Ideal Gas",
-                  "lesson_key":"thermodynamic_properties_ideal_gas",
-                  "tags":[
-                     "monatomic_gas",
-                     "translational_mode",
-                     "electronic_mode",
-                     "diatomic_gas",
-                     "zero_of_energy",
-                     "rotational_mode",
-                     "quantum_origin_rotational_symmetry_factor",
-                     "vibrational_mode",
-                     "rigorous_semirigorous_models_diatomic_gas",
-                     "polyatomic_gas"
-                  ]
-               },
-               {
-                  "lesson":"Statistical Thermodynamics for Ideal Gas Mixtures",
-                  "lesson_key":"statistical_thermodynamics_ideal_gas_mixtures",
-                  "tags":[
-                     "equilibrium_particle_distribution_ideal_gas_mixture",
-                     "thermodynamic_properties_ideal_gas_mixture",
-                     "reacting_ideal_gas_mixture",
-                     "equilibrium_constant_introduction_development",
-                     "equilibrium_constant_general_expression",
-                     "dissociation_homonuclear_diatomic",
-                     "homonuclear_heteronuclear_conversion_reaction",
-                     "ionization_reaction"
-                  ]
-               },
-               {
-                  "lesson":"Concentration and Temperature Measurements",
-                  "lesson_key":"concentration_temperature_measurements",
-                  "tags":[
-                     "mode_temperatures",
-                     "radiative_transitions",
-                     "spectral_transfer_radiation",
-                     "einstein_coefficients",
-                     "line_broadening",
-                     "absorption_spectroscopy",
-                     "emission_spectroscopy",
-                     "emissive_diagnostics",
-                     "problem_self_absorption",
-                     "fluorescence_spectroscopy"
-                  ]
-               },
-               {
-                  "lesson":"Thermodynamics and Information",
-                  "lesson_key":"thermodynamics_and_information",
-                  "tags":[
-                     "reversible_work_heat",
-                     "second_law_thermodynamics",
-                     "boltzmann_definition_entropy",
-                     "information_theory",
-                     "spray_size_distribution_information_theory"
-                  ]
-               },
-               {
-                  "lesson":"Elements of the Solid State",
-                  "lesson_key":"elements_of_solid_state",
-                  "tags":[
-                     "statistical_thermodynamics_crystalline_solid",
-                     "einstein_theory_crystalline_solid",
-                     "debye_theory_crystalline_solid",
-                     "critical_evaluation_debye_formulation",
-                     "band_theory_metallic_solids",
-                     "thermodynamic_properties_electron_gas",
-                     "metallic_crystal_near_absolute_zero"
-                  ]
-               },
-               {
-                  "lesson":"Equilibrium Radiation",
-                  "lesson_key":"equilibrium_radiation",
-                  "tags":[
-                     "bose_einstein_statistics_photon_gas",
-                     "photon_quantum_states",
-                     "planck_distribution_law",
-                     "thermodynamics_blackbody_radiation",
-                     "influence_wavelength_planck_distribution"
-                  ]
-               },
-               {
-                  "lesson":"Elementary Kinetic Theory",
-                  "lesson_key":"elementary_kinetic_theory",
-                  "tags":[
-                     "maxwell_boltzmann_velocity_distribution",
-                     "maxwell_boltzmann_speed_distribution",
-                     "maxwell_boltzmann_energy_distribution",
-                     "molecular_effusion",
-                     "ideal_gas_pressure"
-                  ]
-               },
-               {
-                  "lesson":"Kinetics of Molecular Transport",
-                  "lesson_key":"kinetics_of_molecular_transport",
-                  "tags":[
-                     "binary_collision_theory",
-                     "fundamentals_molecular_transport",
-                     "mean_free_path",
-                     "molecular_flux",
-                     "transport_properties",
-                     "rigorous_transport_theory",
-                     "dimensionless_transport_parameters",
-                     "collision_integrals",
-                     "lennard_jones_potential",
-                     "rigorous_expressions_transport_properties"
-                  ]
-               },
-               {
-                  "lesson":"Chemical Kinetics",
-                  "lesson_key":"chemical_kinetics",
-                  "tags":[
-                     "bimolecular_reaction",
-                     "rate_bimolecular_reactions",
-                     "chemical_kinetics_collision_theory",
-                     "significance_internal_energy_modes",
-                     "chemical_kinetics_transition_state_theory"
-                  ]
-               },
-               {
-                  "lesson":"The Canonical and Grand Canonical Ensembles",
-                  "lesson_key":"canonical_grand_canonical_ensembles",
-                  "tags":[
-                     "ensemble_method",
-                     "canonical_ensemble",
-                     "equilibrium_distribution_canonical_ensemble",
-                     "equilibrium_properties_canonical_ensemble",
-                     "independent_particles_dilute_limit",
-                     "fluctuations_internal_energy",
-                     "grand_canonical_ensemble",
-                     "equilibrium_distribution_grand_canonical_ensemble",
-                     "equilibrium_properties_grand_canonical_ensemble",
-                     "independent_particles_dilute_limit_revisited"
-                  ]
-               },
-               {
-                  "lesson":"Applications of Ensemble Theory to Real Gases",
-                  "lesson_key":"applications_ensemble_theory_real_gases",
-                  "tags":[
-                     "behavior_real_gases",
-                     "equation_of_state_real_gases",
-                     "canonical_partition_function_real_gases",
-                     "virial_equation_of_state",
-                     "second_virial_coefficient",
-                     "rigid_sphere_square_well_potentials",
-                     "implementation_lennard_jones_potential",
-                     "third_virial_coefficient",
-                     "properties_real_gases"
-                  ]
-               },
-               {
-                  "lesson":"Whence and Whither",
-                  "lesson_key":"whence_and_whither",
-                  "tags":[
-                     "reprising_the_journey",
-                     "preparing_new_journeys",
-                     "continuing_challenge_thermodynamics"
-                  ]
-               }
-            ]
-         },
-         {
-            "topic":"Electrochemistry",
-            "topic_key":"electrochemistry",
-            "lessons":[
-               {
-                  "lesson":"Introduction General Issues",
-                  "lesson_key":"introduction_general_issues",
-                  "tags":[
-                     "electrochemistry_basics",
-                     "historical_development",
-                     "faradays_laws"
-                  ]
-               },
-               {
-                  "lesson":"Equilibrium Properties of Electrolytes",
-                  "lesson_key":"equilibrium_properties_of_electrolytes",
-                  "tags":[
-                     "electrolytic_dissociation",
-                     "ion_interactions",
-                     "ion_solvation",
-                     "solvents_in_electrochemistry",
-                     "solution_nonideality",
-                     "ionic_equilibria",
-                     "strong_electrolytes_theory",
-                     "correlation_methods"
-                  ]
-               },
-               {
-                  "lesson":"Nonequilibrium Phenomena in Electrolyte Solutions",
-                  "lesson_key":"nonequilibrium_phenomena_in_electrolyte_solutions",
-                  "tags":[
-                     "ionic_transport",
-                     "molar_conductivity",
-                     "transport_numbers",
-                     "diluted_electrolytes_conductivity",
-                     "electrolyte_diffusion",
-                     "nernst_einstein_equation",
-                     "ion_flux_equation",
-                     "diffusion_coefficient",
-                     "melts_conductivity",
-                     "solid_electrolytes_conductivity"
-                  ]
-               },
-               {
-                  "lesson":"Electrochemical Systems and Electrode Potentials",
-                  "lesson_key":"electrochemical_systems_and_electrode_potentials",
-                  "tags":[
-                     "electrodes",
-                     "electrode_potentials",
-                     "potential_types",
-                     "nernst_equation",
-                     "standard_potential",
-                     "electrode_classification",
-                     "gas_electrodes",
-                     "reference_electrodes",
-                     "membrane_electrodes",
-                     "glass_electrode"
-                  ]
-               },
-               {
-                  "lesson":"Double Electric Layer and Adsorption of Substances on Electrodes",
-                  "lesson_key":"double_electric_layer_and_adsorption_of_substances_on_electrodes",
-                  "tags":[
-                     "phase_boundaries_processes",
-                     "adsorption_isotherms",
-                     "electrocapillarity",
-                     "double_layer_capacitance",
-                     "double_layer_structure",
-                     "grahams_model",
-                     "electrode_processes_rate"
-                  ]
-               },
-               {
-                  "lesson":"Electrochemical Kinetics",
-                  "lesson_key":"electrochemical_kinetics",
-                  "tags":[
-                     "electrode_polarization",
-                     "overpotential",
-                     "limiting_stages",
-                     "potential_diagrams",
-                     "energy_variation",
-                     "electron_transfer",
-                     "exchange_current",
-                     "mass_transfer",
-                     "diffusion_layer",
-                     "mixed_kinetics"
-                  ]
-               },
-               {
-                  "lesson":"Electrochemical Methods",
-                  "lesson_key":"electrochemical_methods",
-                  "tags":[
-                     "polarization_curves",
-                     "cyclic_voltammetry",
-                     "parallel_reactions",
-                     "rotating_disk_electrode",
-                     "impedance_spectroscopy",
-                     "thin_layer_cells",
-                     "polarography",
-                     "diffusion_theory",
-                     "non_electrochemical_methods",
-                     "surface_studies"
-                  ]
-               },
-               {
-                  "lesson":"Electrochemical Processes at Metal Deposition",
-                  "lesson_key":"electrochemical_processes_at_metal_deposition",
-                  "tags":[
-                     "metal_electrodeposition",
-                     "overpotential_deposition",
-                     "phase_growth",
-                     "nucleation",
-                     "surfactants_deposition",
-                     "complex_electrolytes",
-                     "melts_deposition",
-                     "alloy_deposition",
-                     "underpotential_deposition",
-                     "current_distribution"
-                  ]
-               },
-               {
-                  "lesson":"Anodic Dissolution and Corrosion of Metals",
-                  "lesson_key":"anodic_dissolution_and_corrosion_of_metals",
-                  "tags":[
-                     "anodic_dissolution",
-                     "metal_passivation",
-                     "pitting_corrosion",
-                     "transpassive_dissolution",
-                     "electrochemical_corrosion",
-                     "autonomous_systems",
-                     "pourbaix_diagrams",
-                     "passivation_application"
-                  ]
-               },
-               {
-                  "lesson":"Some Modern Aspects of Applied Electrochemistry",
-                  "lesson_key":"some_modern_aspects_of_applied_electrochemistry",
-                  "tags":[
-                     "electrocatalysis",
-                     "catalytic_activity",
-                     "porous_electrodes",
-                     "hydrogen_evolution",
-                     "oxygen_reactions",
-                     "chlorine_production",
-                     "organic_reactions",
-                     "galvanic_cells",
-                     "fuel_cells",
-                     "current_distribution"
-                  ]
-               }
-            ]
-         },
-         {
-            "topic":"Molecular Symmetry and Group Theory",
-            "topic_key":"molecular_symmetry_and_group_theory",
-            "lessons":[
-               {
-                  "lesson":"Theories in conflict",
-                  "lesson_key":"theories_in_conflict",
-                  "tags":[
-                     "molecular_theories",
-                     "conflicting_models",
-                     "symmetry_role",
-                     "atomic_orbital_model",
-                     "hybrid_orbital_model",
-                     "electron_repulsion_model",
-                     "electron_spin_repulsion"
-                  ]
-               },
-               {
-                  "lesson":"Symmetry Elements and Operations",
-                  "lesson_key":"symmetry_elements_and_operations",
-                  "tags":[
-                     "proper_rotations",
-                     "plane_of_symmetry",
-                     "inversion_centre",
-                     "oxygen_transfer",
-                     "nmr_chemical_equivalence"
-                  ]
-               },
-               {
-                  "lesson":"More Symmetry Operations and Products of Operations",
-                  "lesson_key":"more_symmetry_operations_and_products_of_operations",
-                  "tags":[
-                     "products_of_operations",
-                     "fixed_symmetry_elements",
-                     "improper_rotations",
-                     "equivalent_operations",
-                     "chirality_and_symmetry"
-                  ]
-               },
-               {
-                  "lesson":"The Point Groups Used with Molecules",
-                  "lesson_key":"the_point_groups_used_with_molecules",
-                  "tags":[
-                     "nonaxial_groups",
-                     "cyclic_groups",
-                     "axial_groups_mirror_planes",
-                     "axial_groups_multiple_axes",
-                     "cubic_groups",
-                     "linear_molecules_groups",
-                     "point_group_assignment"
-                  ]
-               },
-               {
-                  "lesson":"Point Group Representations, Matrices and Basis Sets",
-                  "lesson_key":"point_group_representations_matrices_and_basis_sets",
-                  "tags":[
-                     "symmetry_representations",
-                     "characters",
-                     "matrices_symmetry_operations",
-                     "reducible_representations",
-                     "classes_of_operations",
-                     "degenerate_irreducible_representations"
-                  ]
-               },
-               {
-                  "lesson":"Reducible and Irreducible Representations",
-                  "lesson_key":"reducible_and_irreducible_representations",
-                  "tags":[
-                     "molecular_vibrations",
-                     "reduction_formula",
-                     "basis_set",
-                     "d_orbitals_transition_metals",
-                     "linear_molecules_infinite_order"
-                  ]
-               },
-               {
-                  "lesson":"Applications in Vibrational Spectroscopy",
-                  "lesson_key":"applications_in_vibrational_spectroscopy",
-                  "tags":[
-                     "selection_rules",
-                     "infrared_spectroscopy",
-                     "raman_spectroscopy",
-                     "symmetry_adapted_combinations",
-                     "projection_operator_method"
-                  ]
-               },
-               {
-                  "lesson":"Symmetry in Chemical Bonding",
-                  "lesson_key":"symmetry_in_chemical_bonding",
-                  "tags":[
-                     "bond_energies",
-                     "atomic_orbitals",
-                     "second_row_molecules",
-                     "metal_complexes",
-                     "jahn_teller_effect"
-                  ]
-               },
-               {
-                  "lesson":"The symmetry of the water molecule",
-                  "lesson_key":"symmetry_of_water_molecule",
-                  "tags":[
-                     "symmetry_operations",
-                     "symmetry_elements",
-                     "rotation_axes",
-                     "multiplication_tables",
-                     "group_properties",
-                     "symmetry_groups",
-                     "character_tables",
-                     "irreducible_representations",
-                     "group_classes"
-                  ]
-               },
-               {
-                  "lesson":"The electronic structure of the water molecule",
-                  "lesson_key":"electronic_structure_water",
-                  "tags":[
-                     "irreducible_representations",
-                     "orthonormality",
-                     "symmetry_properties",
-                     "symmetry_adapted",
-                     "orbital_combinations",
-                     "reducible_representations",
-                     "molecular_orbitals",
-                     "energy_levels",
-                     "bonding_interactions"
-                  ]
-               },
-               {
-                  "lesson":"Vibrational spectra of the water molecule",
-                  "lesson_key":"vibrational_spectra_water",
-                  "tags":[
-                     "normal_modes",
-                     "vibrational_modes",
-                     "symmetry_analysis",
-                     "direct_products",
-                     "quantum_integrals",
-                     "selection_rules",
-                     "selection_rules",
-                     "vibrational_spectroscopy",
-                     "ir_raman"
-                  ]
-               },
-               {
-                  "lesson":"D2h character table and the electronic structures of ethene ethylene and diborane",
-                  "lesson_key":"d2h_character_table_ethene_diborane",
-                  "tags":[
-                     "d2h_group",
-                     "character_tables",
-                     "multiplication_tables",
-                     "pi_bonding",
-                     "sigma_bonding",
-                     "orbital_symmetries",
-                     "three_center_bonds",
-                     "boron_hydrides",
-                     "symmetry_analysis"
-                  ]
-               },
-               {
-                  "lesson":"The electronic structure of bromine pentafluoride BrF5",
-                  "lesson_key":"electronic_structure_brf5",
-                  "tags":[
-                     "c4v_group",
-                     "symmetry_operations",
-                     "point_group",
-                     "character_table_derivation",
-                     "orthonormality_theorems",
-                     "nodal_patterns",
-                     "molecular_orbitals",
-                     "lone_pairs",
-                     "hypervalent_molecules"
-                  ]
-               },
-               {
-                  "lesson":"The electronic structure of the ammonia molecule",
-                  "lesson_key":"electronic_structure_ammonia",
-                  "tags":[
-                     "c3v_group",
-                     "point_group",
-                     "molecular_symmetry",
-                     "irreducible_representations",
-                     "nodal_patterns",
-                     "symmetry_labels",
-                     "lone_pair",
-                     "molecular_orbitals",
-                     "pyramidal_structure"
-                  ]
-               },
-               {
-                  "lesson":"The electronic structures of some octahedral molecules",
-                  "lesson_key":"electronic_structures_octahedral",
-                  "tags":[
-                     "oh_group",
-                     "symmetry_operations",
-                     "point_group",
-                     "octahedral_symmetry",
-                     "molecular_orbitals",
-                     "sulfur_hexafluoride",
-                     "crystal_field_theory",
-                     "d_orbitals",
-                     "ligand_field"
-                  ]
-               },
-               {
-                  "lesson":"Point groups and their relationships",
-                  "lesson_key":"point_groups_relationships",
-                  "tags":[
-                     "point_group_identification",
-                     "symmetry_elements",
-                     "flowchart_method",
-                     "subgroup_relations",
-                     "group_hierarchy",
-                     "symmetry_reduction",
-                     "correlation_tables",
-                     "symmetry_correlations",
-                     "representation_matching"
-                  ]
-               },
-               {
-                  "lesson":"Tetrahedral, icosahedral and spherical symmetries",
-                  "lesson_key":"tetrahedral_icosahedral_spherical",
-                  "tags":[
-                     "td_group",
-                     "tetrahedral_symmetry",
-                     "chiral_molecules",
-                     "ih_group",
-                     "icosahedral_symmetry",
-                     "fullerenes",
-                     "spherical_group",
-                     "atomic_symmetry",
-                     "linear_molecules"
-                  ]
-               },
-               {
-                  "lesson":"Pi-Electron systems",
-                  "lesson_key":"pi_electron_systems",
-                  "tags":[
-                     "c4_group",
-                     "cyclobutadiene",
-                     "antiaromaticity",
-                     "pi_orbitals",
-                     "huckel_theory",
-                     "degenerate_orbitals",
-                     "woodward_hoffmann",
-                     "orbital_symmetry",
-                     "pericyclic_reactions"
-                  ]
-               },
-               {
-                  "lesson":"The group theory of electron spin",
-                  "lesson_key":"group_theory_electron_spin",
-                  "tags":[
-                     "electron_spin",
-                     "spin_symmetry",
-                     "pauli_principle",
-                     "term_symbols",
-                     "electron_configurations",
-                     "russell_saunders",
-                     "spin_orbit_coupling",
-                     "double_groups",
-                     "spin_representations"
-                  ]
-               },
-               {
-                  "lesson":"Space groups",
-                  "lesson_key":"space_groups",
-                  "tags":[
-                     "crystal_systems",
-                     "lattice_types",
-                     "unit_cells",
-                     "bravais_lattices",
-                     "primitive_cells",
-                     "centering_types",
-                     "space_groups",
-                     "glide_planes",
-                     "screw_axes"
-                  ]
-               },
-               {
-                  "lesson":"Spectroscopic studies of crystals",
-                  "lesson_key":"spectroscopic_studies_crystals",
-                  "tags":[
-                     "translational_symmetry",
-                     "brillouin_zone",
-                     "phonons",
-                     "factor_group",
-                     "unit_cell_group",
-                     "vibrational_analysis",
-                     "co_spectra",
-                     "vibrational_spectra",
-                     "crystal_spectroscopy"
-                  ]
-               }
-            ]
-         },
-         {
-            "topic":"Quantum Mechanics",
-            "topic_key":"quantum_mechanics",
-            "lessons":[
-               {
-                  "lesson":"Why Was Quantum Mechanics Developed?",
-                  "lesson_key":"why_was_quantum_mechanics_developed",
-                  "tags":[
-                     "black_body_radiation",
-                     "plancks_law",
-                     "ultraviolet_catastrophe",
-                     "energy_quanta",
-                     "photoelectric_effect",
-                     "einstein_explanation",
-                     "photon_energy",
-                     "threshold_frequency",
-                     "de_broglie_waves",
-                     "matter_waves",
-                     "wavelength_formula",
-                     "wave_particle_duality"
-                  ]
-               },
-               {
-                  "lesson":"Schrodinger Equation and Wave Function",
-                  "lesson_key":"schrodinger_equation_and_wave_function",
-                  "tags":[
-                     "construction_of_schrodinger_equation",
-                     "time_dependent_form",
-                     "hamiltonian",
-                     "wave_equation",
-                     "physical_interpretation_of_psi_star_psi",
-                     "probability_density",
-                     "born_rule",
-                     "normalization",
-                     "expectation_value",
-                     "observable_average",
-                     "operator_expectation",
-                     "quantum_measurement"
-                  ]
-               },
-               {
-                  "lesson":"Operators, Eigenvalues and Eigenfunctions",
-                  "lesson_key":"operators_eigenvalues_and_eigenfunctions",
-                  "tags":[
-                     "operator_linearity",
-                     "quantum_operators",
-                     "eigenvalue_equation",
-                     "commuting_and_noncommuting_operators",
-                     "commutator",
-                     "simultaneous_eigenstates",
-                     "uncertainty",
-                     "hermitian_operators",
-                     "real_eigenvalues",
-                     "self_adjoint",
-                     "observables"
-                  ]
-               },
-               {
-                  "lesson":"Exactly Solvable Systems I: Bound States",
-                  "lesson_key":"exactly_solvable_systems_i_bound_states",
-                  "tags":[
-                     "harmonic_oscillator",
-                     "energy_levels",
-                     "hermite_polynomials",
-                     "zero_point_energy",
-                     "particle_in_a_box",
-                     "infinite_well",
-                     "quantized_energy",
-                     "wave_functions",
-                     "morse_oscillator",
-                     "anharmonic_potential",
-                     "dissociation_energy",
-                     "vibrational_levels"
-                  ]
-               },
-               {
-                  "lesson":"Exactly Solvable Systems II: Scattering States",
-                  "lesson_key":"exactly_solvable_systems_ii_scattering_states",
-                  "tags":[
-                     "potential_barrier_tunnel_effect",
-                     "tunneling_probability",
-                     "evanescent_wave",
-                     "barrier_penetration",
-                     "finite_square_well_potential",
-                     "bound_states",
-                     "scattering_states",
-                     "transmission_coefficient",
-                     "reflectionless_potentials",
-                     "sech_potential",
-                     "zero_reflection",
-                     "soliton_like"
-                  ]
-               },
-               {
-                  "lesson":"Matrix Mechanics",
-                  "lesson_key":"matrix_mechanics",
-                  "tags":[
-                     "matrix_representation_of_operators_and_wave_function",
-                     "heisenberg_picture",
-                     "matrix_elements",
-                     "basis_states",
-                     "diracs_bra_and_ket_notations",
-                     "dirac_notation",
-                     "inner_product",
-                     "state_vectors",
-                     "hilbert_space",
-                     "vector_space",
-                     "complete_basis",
-                     "infinite_dimensions"
-                  ]
-               },
-               {
-                  "lesson":"Various Pictures and Density Matrix",
-                  "lesson_key":"various_pictures_and_density_matrix",
-                  "tags":[
-                     "schrodinger_picture",
-                     "time_evolving_states",
-                     "fixed_operators",
-                     "wave_function_evolution",
-                     "heisenberg_picture",
-                     "time_evolving_operators",
-                     "fixed_states",
-                     "equations_of_motion",
-                     "density_matrix_for_an_ensemble",
-                     "mixed_states",
-                     "trace_operation",
-                     "statistical_mechanics"
-                  ]
-               },
-               {
-                  "lesson":"Heisenberg Uncertainty Principle",
-                  "lesson_key":"heisenberg_uncertainty_principle",
-                  "tags":[
-                     "heisenberg_uncertainty_relation",
-                     "position_momentum",
-                     "commutator",
-                     "minimum_uncertainty",
-                     "implications_of_uncertainty_relation",
-                     "quantum_limits",
-                     "measurement_disturbance",
-                     "complementary_variables",
-                     "some_extensions_of_uncertainty_relation",
-                     "time_energy",
-                     "angular_momentum",
-                     "generalized_forms"
-                  ]
-               },
-               {
-                  "lesson":"Momentum Representation",
-                  "lesson_key":"momentum_representation",
-                  "tags":[
-                     "momentum_eigenfunctions",
-                     "plane_waves",
-                     "fourier_transform",
-                     "eigenstates",
-                     "schrodinger_equation",
-                     "momentum_space",
-                     "differential_form",
-                     "potential_term",
-                     "fourier_transform",
-                     "inverse_transform",
-                     "wave_function"
-                  ]
-               },
-               {
-                  "lesson":"Wave Packet",
-                  "lesson_key":"wave_packet",
-                  "tags":[
-                     "phase_and_group_velocities",
-                     "dispersion_relation",
-                     "group_velocity",
-                     "particle_velocity",
-                     "gaussian_wave_packet",
-                     "minimum_uncertainty",
-                     "spreading",
-                     "free_particle",
-                     "wave_packet_revival",
-                     "periodic_reformation",
-                     "anharmonic_potentials",
-                     "time_scales"
-                  ]
-               },
-               {
-                  "lesson":"Theory of Angular Momentum",
-                  "lesson_key":"theory_of_angular_momentum",
-                  "tags":[
-                     "orbital_angular_momentum",
-                     "l_operator",
-                     "spherical_harmonics",
-                     "quantum_numbers",
-                     "spin_angular_momentum",
-                     "pauli_matrices",
-                     "spinors",
-                     "intrinsic_spin",
-                     "addition_of_angular_momenta",
-                     "clebsch_gordan",
-                     "total_angular_momentum",
-                     "coupled_basis"
-                  ]
-               },
-               {
-                  "lesson":"Hydrogen Atom",
-                  "lesson_key":"hydrogen_atom",
-                  "tags":[
-                     "hydrogen_atom_in_three_dimension",
-                     "coulomb_potential",
-                     "energy_levels",
-                     "laguerre_polynomials",
-                     "hydrogen_atom_in_d_dimension",
-                     "generalized_dimensions",
-                     "energy_spectrum",
-                     "wave_functions",
-                     "field_produced_by_a_hydrogen_atom",
-                     "electric_field",
-                     "dipole_moment",
-                     "quantum_effects"
-                  ]
-               },
-               {
-                  "lesson":"Approximation Methods I: Time-Independent Perturbation Theory",
-                  "lesson_key":"approximation_methods_i_time_independent_perturbation_theory",
-                  "tags":[
-                     "theory_for_nondegenerate_case",
-                     "perturbation_expansion",
-                     "first_order_correction",
-                     "second_order",
-                     "theory_for_degenerate_levels",
-                     "degenerate_perturbation",
-                     "secular_equation",
-                     "level_splitting",
-                     "first_order_stark_effect_in_hydrogen",
-                     "electric_field",
-                     "energy_shift",
-                     "linear_response"
-                  ]
-               },
-               {
-                  "lesson":"Approximation Methods II: Time-Dependent Perturbation Theory",
-                  "lesson_key":"approximation_methods_ii_time_dependent_perturbation_theory",
-                  "tags":[
-                     "transition_probability",
-                     "fermis_golden_rule",
-                     "time_dependent_perturbation",
-                     "absorption_emission",
-                     "harmonic_perturbation",
-                     "oscillating_field",
-                     "resonance",
-                     "selection_rules",
-                     "adiabatic_perturbation",
-                     "slow_variation",
-                     "adiabatic_theorem",
-                     "state_following"
-                  ]
-               },
-               {
-                  "lesson":"Approximation Methods III: WKB and Asymptotic Methods",
-                  "lesson_key":"approximation_methods_iii_wkb_and_asymptotic_methods",
-                  "tags":[
-                     "principle_of_wkb_method",
-                     "semiclassical_approximation",
-                     "turning_points",
-                     "connection_formulas",
-                     "applications_of_wkb_method",
-                     "quantization_condition",
-                     "tunneling",
-                     "bound_states",
-                     "an_asymptotic_method",
-                     "large_parameter_expansion",
-                     "series_solution",
-                     "approximate_wavefunctions"
-                  ]
-               },
-               {
-                  "lesson":"Approximation Methods IV: Variational Approach",
-                  "lesson_key":"approximation_methods_iv_variational_approach",
-                  "tags":[
-                     "calculation_of_ground_state_energy",
-                     "variational_principle",
-                     "trial_function",
-                     "energy_upper_bound",
-                     "trial_eigenfunctions_for_excited_states",
-                     "orthogonal_trial_functions",
-                     "excited_energies",
-                     "rayleigh_ritz",
-                     "application_to_hydrogen_molecule",
-                     "molecular_orbital",
-                     "binding_energy",
-                     "variational_parameters"
-                  ]
-               },
-               {
-                  "lesson":"Scattering Theory",
-                  "lesson_key":"scattering_theory",
-                  "tags":[
-                     "scattering_amplitude",
-                     "differential_cross_section",
-                     "asymptotic_wavefunction",
-                     "phase_shift",
-                     "born_approximation",
-                     "first_order_approximation",
-                     "fourier_transform",
-                     "weak_potential",
-                     "partial_wave_analysis",
-                     "phase_shifts",
-                     "scattering_length",
-                     "low_energy"
-                  ]
-               },
-               {
-                  "lesson":"Identical Particles",
-                  "lesson_key":"identical_particles",
-                  "tags":[
-                     "symmetric_and_antisymmetric_wave_functions",
-                     "bosons",
-                     "fermions",
-                     "exchange_symmetry",
-                     "the_exclusion_principle",
-                     "pauli_principle",
-                     "electron_shells",
-                     "antisymmetry",
-                     "exchange_interaction",
-                     "heisenberg_model",
-                     "spin_exchange",
-                     "molecular_bonding"
-                  ]
-               },
-               {
-                  "lesson":"Relativistic Quantum Theory",
-                  "lesson_key":"relativistic_quantum_theory",
-                  "tags":[
-                     "klein_gordon_equation",
-                     "scalar_particles",
-                     "relativistic_wave_equation",
-                     "negative_probabilities",
-                     "dirac_equation_for_a_free_particle",
-                     "dirac_matrices",
-                     "positive_negative_energies",
-                     "spin_half",
-                     "relativistic_hydrogen_atom",
-                     "fine_structure",
-                     "dirac_energy_levels",
-                     "lamb_shift"
-                  ]
-               },
-               {
-                  "lesson":"Mysteries in Quantum Mechanics",
-                  "lesson_key":"mysteries_in_quantum_mechanics",
-                  "tags":[
-                     "the_collapse_of_the_wave_function",
-                     "measurement_problem",
-                     "wavefunction_collapse",
-                     "copenhagen_interpretation",
-                     "einstein_podolsky_rosen_epr_paradox",
-                     "entanglement",
-                     "nonlocality",
-                     "hidden_variables",
-                     "bells_theorem",
-                     "bell_inequalities",
-                     "local_realism",
-                     "quantum_correlations"
-                  ]
-               },
-               {
-                  "lesson":"Delayed-Choice Experiments",
-                  "lesson_key":"delayed_choice_experiments",
-                  "tags":[
-                     "single_slit_and_double_slit_experiments",
-                     "interference_pattern",
-                     "which_path_information",
-                     "complementarity",
-                     "delayed_choice_experiment",
-                     "wheeler_experiment",
-                     "retrocausality",
-                     "choice_after_measurement",
-                     "delayed_choice_quantum_eraser",
-                     "erasure_of_information",
-                     "entangled_photons",
-                     "interference_restoration"
-                  ]
-               },
-               {
-                  "lesson":"Fractional Quantum Mechanics",
-                  "lesson_key":"fractional_quantum_mechanics",
-                  "tags":[
-                     "space_fractional_schrodinger_equation",
-                     "fractional_derivatives",
-                     "levy_processes",
-                     "nonlocal_effects",
-                     "time_fractional_schrodinger_equation",
-                     "caputo_derivative",
-                     "anomalous_diffusion",
-                     "time_evolution",
-                     "space_time_fractional_schrodinger_equation",
-                     "fractional_calculus",
-                     "generalized_wavefunctions",
-                     "applications"
-                  ]
-               },
-               {
-                  "lesson":"Numerical Methods for Quantum Mechanics",
-                  "lesson_key":"numerical_methods_for_quantum_mechanics",
-                  "tags":[
-                     "matrix_method_for_computing_stationary_state_solutions",
-                     "eigenvalue_problem",
-                     "diagonalization",
-                     "numerical_solutions",
-                     "finite_difference_time_domain_method",
-                     "time_evolution",
-                     "discretization",
-                     "wave_propagation",
-                     "time_dependent_schrodinger_equation",
-                     "crank_nicolson",
-                     "split_operator",
-                     "numerical_integration"
-                  ]
-               }
-            ]
-         }
-      ]
-   },
-   {
-      "subject":"Organic Chemistry",
-      "subject_key":"organic_chemistry",
-      "topics":[
-         {
-            "topic":"Heterocyclic Chemistry",
-            "topic_key":"heterocyclic_chemistry",
-            "lessons":[
-               {
-                  "lesson":"Pyrroles",
-                  "lesson_key":"pyrroles",
-                  "tags":[
-                     "pyrrole_synthesis",
-                     "electrophilic_substitution"
-                  ]
-               },
-               {
-                  "lesson":"Indoles",
-                  "lesson_key":"indoles",
-                  "tags":[
-                     "fischer_indole_synthesis",
-                     "indole_reactivity"
-                  ]
-               }
-            ]
-         }
-      ]
-   }
+  {
+    "subject": "Inorganic Chemistry",
+    "subject_key": "inorganic_chemistry",
+    "topics": [
+      {
+        "topic": "Chemical Periodicity",
+        "topic_key": "chemical_periodicity",
+        "lessons": [
+          "Foundations of Periodic Classification",
+          "Effective Nuclear Charge and Shielding",
+          "Atomic and Ionic Radii Trends",
+          "Ionization Energy and Electron Affinity",
+          "Electronegativity and Chemical Bonding Trends",
+          "Metallic and Non-metallic Character",
+          "Diagonal Relationships in the Periodic Table",
+          "Anomalous Properties of First Elements",
+          "Inert Pair Effect and Variable Oxidation States",
+          "Comprehensive Periodic Trends Integration"
+        ]
+      },
+      {
+        "topic": "Structure and Bonding",
+        "topic_key": "structure_and_bonding",
+        "lessons": [
+          "Foundations of Chemical Bonding",
+          "Valence Bond Theory and Orbital Overlap",
+          "Hybridization and Molecular Architecture",
+          "Molecular Orbital Theory - Homonuclear Molecules",
+          "Molecular Orbital Theory - Heteronuclear Molecules",
+          "VSEPR Theory - Principles and Basic Geometries",
+          "VSEPR Theory - Molecules with Lone Pairs",
+          "Advanced VSEPR Applications and Special Cases",
+          "Molecular Geometry and Bond Parameters",
+          "Molecular Polarity and Dipole Moments",
+          "Special Bonding Cases and Electron-Deficient Molecules",
+          "Walsh Diagrams and Geometry Changes",
+          "Integration and Problem-Solving Strategies",
+          "CSIR Exam-Focused Practice and Applications"
+        ]
+      },
+      {
+        "topic": "Concepts of Acids and Bases",
+        "topic_key": "concepts_of_acids_and_bases",
+        "lessons": [
+          "Foundations of Acid-Base Theories",
+          "Lewis Theory and Electronic Concepts",
+          "Introduction to HSAB Principle",
+          "Applications and Quantitative Aspects of HSAB",
+          "Classification of Non-Aqueous Solvents",
+          "Solvent Properties and Acid-Base Behavior",
+          "Specific Non-Aqueous Solvent Systems",
+          "Acid-Base Reactions in Non-Aqueous Media",
+          "Integration of HSAB and Solvent Effects",
+          "Applications and Problem-Solving"
+        ]
+      },
+      {
+        "topic": "Chemistry of Main Group Elements",
+        "topic_key": "chemistry_of_main_group_elements",
+        "lessons": [
+          "Introduction to Main Group Chemistry and Allotropy",
+          "Group 13 Elements - Boron Group",
+          "Group 14 Elements - Carbon Group and Allotropy",
+          "Group 15 Elements - Nitrogen and Phosphorus Group",
+          "Group 16 Elements - Oxygen and Sulfur Group",
+          "Group 17 Elements - Halogens",
+          "Group 18 Elements - Noble Gases",
+          "General Synthesis Methods for Main Group Compounds",
+          "Structure and Bonding Theories in Main Group Chemistry",
+          "Industrial Applications and Economic Importance",
+          "Integration and Problem-Solving"
+        ]
+      },
+      {
+        "topic": "Transition Elements and Coordination Compounds",
+        "topic_key": "transition_elements_and_coordination_compounds",
+        "lessons": [
+          "Fundamentals of Transition Elements",
+          "Coordination Compounds - Structure and Nomenclature",
+          "Isomerism in Coordination Compounds",
+          "Valence Bond Theory and Crystal Field Theory",
+          "Ligand Field Theory and Molecular Orbital Theory",
+          "Magnetic Properties of Coordination Compounds",
+          "Electronic Spectroscopy and Spectral Properties",
+          "Reaction Mechanisms - Substitution Reactions",
+          "Electron Transfer Reactions and Photochemical Reactions"
+        ]
+      },
+      {
+        "topic": "Lanthanides and Actinides",
+        "topic_key": "lanthanides_and_actinides",
+        "lessons": [
+          "Electronic Structure and General Properties of Inner Transition Elements",
+          "Spectral Properties of Inner Transition Elements",
+          "Magnetic Properties of Inner Transition Elements",
+          "Redox Chemistry of Inner Transition Elements",
+          "Analytical Applications of Inner Transition Elements",
+          "Coordination Chemistry and Special Topics"
+        ]
+      },
+      {
+        "topic": "Organometallic Chemistry",
+        "topic_key": "organometallic_chemistry",
+        "lessons": [
+          "Fundamentals of Organometallic Chemistry",
+          "Metal Carbonyl Complexes - Structure and Bonding",
+          "Organometallic Complexes with σ-Bonded Ligands",
+          "Organometallic Complexes with π-Bonded Ligands",
+          "Cyclopentadienyl and Arene Complexes",
+          "Metal Hydrides and Dihydrogen Complexes",
+          "Fundamental Organometallic Reactions - Part I",
+          "Fundamental Organometallic Reactions - Part II",
+          "Ligand Effects and Electronic Parameters",
+          "Introduction to Homogeneous Catalysis",
+          "Hydrogenation and Transfer Hydrogenation Catalysis",
+          "Hydroformylation and Carbonylation Reactions",
+          "Olefin Metathesis",
+          "Cross-Coupling Reactions - Part I",
+          "Cross-Coupling Reactions - Part II",
+          "Polymerization Catalysis",
+          "C-H Activation and Functionalization",
+          "Asymmetric Catalysis with Organometallic Complexes",
+          "Oxidation and Reduction Catalysis",
+          "Photocatalysis and Photoredox Chemistry",
+          "Bioinorganic Chemistry and Metalloenzymes",
+          "Emerging Areas in Organometallic Catalysis",
+          "Comprehensive Review and Integration"
+        ]
+      },
+      {
+        "topic": "Cages and Metal Clusters",
+        "topic_key": "cages_and_metal_clusters",
+        "lessons": [
+          "Introduction to Cage Compounds and Cluster Chemistry",
+          "Borane Structures and Bonding",
+          "Wade-Mingos Rules and Electron Counting",
+          "Carboranes and Heteroboranes",
+          "Metal Carbonyl Clusters",
+          "Electron Counting in Metal Clusters",
+          "Zintl Ions and Main Group Clusters",
+          "Mixed Metal-Main Group Clusters",
+          "High Nuclearity and Supramolecular Clusters",
+          "Spectroscopy and Characterization of Clusters",
+          "Reactivity and Catalytic Applications",
+          "Advanced Topics and Computational Approaches"
+        ]
+      },
+      {
+        "topic": "Analytical Chemistry",
+        "topic_key": "analytical_chemistry",
+        "lessons": [
+          "Introduction to Analytical Chemistry and Sample Preparation",
+          "Separation Techniques I - Chromatographic Methods",
+          "Separation Techniques II - Extraction and Classical Methods",
+          "Spectroscopic Methods I - UV-Visible Spectroscopy",
+          "Spectroscopic Methods II - Infrared and Raman Spectroscopy",
+          "Spectroscopic Methods III - Nuclear Magnetic Resonance",
+          "Spectroscopic Methods IV - Atomic Spectroscopy",
+          "Spectroscopic Methods V - Mass Spectrometry",
+          "Electroanalytical Methods I - Potentiometry",
+          "Electroanalytical Methods II - Voltammetry and Polarography",
+          "Electroanalytical Methods III - Coulometry and Conductometry",
+          "Thermoanalytical Methods I - Thermogravimetry",
+          "Thermoanalytical Methods II - Differential Thermal Analysis and Calorimetry",
+          "Calibration, Standardization, and Quality Assurance",
+          "Integrated Analytical Strategies and Method Development"
+        ]
+      },
+      {
+        "topic": "Bioinorganic Chemistry",
+        "topic_key": "bioinorganic_chemistry",
+        "lessons": [
+          "Foundations of Bioinorganic Chemistry",
+          "Porphyrins and Tetrapyrrole Chemistry",
+          "Oxygen Transport and Storage",
+          "Electron Transfer Proteins and Reactions",
+          "Photosynthetic Systems and Light Harvesting",
+          "Metalloenzymes I - Oxidases and Oxygenases",
+          "Metalloenzymes II - Hydrolases and Carbon Dioxide Processing",
+          "Nitrogen Fixation",
+          "Metal Complexes in Medicine - Therapeutic Applications",
+          "Metal Complexes in Medicine - Diagnostics and Chelation Therapy",
+          "Advanced Topics and Integration"
+        ]
+      },
+      {
+        "topic": "Chracterization of Inorganic Compounds",
+        "topic_key": "characterisation_of_inorganic_compounds",
+        "lessons": [
+          "Foundational Concepts for Spectroscopic Characterization",
+          "Infrared Spectroscopy of Inorganic Compounds",
+          "Raman Spectroscopy of Inorganic Compounds",
+          "Electronic Spectroscopy - UV-Visible Methods",
+          "Electron Paramagnetic Resonance Spectroscopy",
+          "Mössbauer Spectroscopy",
+          "Electron Spectroscopy Techniques",
+          "Microscopic Techniques for Inorganic Materials",
+          "Integrated Multi-Technique Characterization Strategies",
+          "Advanced Topics and Emerging Techniques"
+        ]
+      },
+      {
+        "topic": "Nuclear Chemistry",
+        "topic_key": "nuclear_chemistry",
+        "lessons": [
+          "Fundamentals of Nuclear Structure and Stability",
+          "Radioactive Decay and Kinetics",
+          "Nuclear Reactions - Fundamentals",
+          "Types and Mechanisms of Nuclear Reactions",
+          "Nuclear Fission - Principles and Mechanism",
+          "Chain Reactions and Critical Mass",
+          "Nuclear Fusion - Principles and Processes",
+          "Controlled Fusion and Applications",
+          "Radiation Detection and Measurement",
+          "Radio-analytical Techniques - Tracer Methods",
+          "Radio-analytical Techniques - Advanced Methods",
+          "Activation Analysis - Neutron Activation",
+          "Activation Analysis - Techniques and Applications",
+          "Activation Analysis - Other Activation Methods",
+          "Applications of Nuclear Chemistry",
+          "Nuclear Safety and Waste Management"
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Organic Chemistry",
+    "subject_key": "organic_chemistry",
+    "topics": [
+      {
+        "topic": "IUPAC Nomenclature of Organic Molecules",
+        "topic_key": "iupac_nomenclature_of_organic_molecules",
+        "lessons": [
+          "Foundations of IUPAC nomenclature",
+          "Functional group nomenclature and priority",
+          "Constitutional and regioisomers",
+          "Stereoisomerism fundamentals",
+          "R/S nomenclature and Cahn-Ingold-Prelog rules",
+          "Geometric isomerism and E/Z nomenclature",
+          "Diastereomers and complex stereochemistry",
+          "Advanced nomenclature and special cases",
+          "Integration and CSIR exam preparation"
+        ]
+      },
+      {
+        "topic": "Principles of Stereochemistry",
+        "topic_key": "principles_of_stereochemistry",
+        "lessons": [
+          "Fundamentals of Stereochemistry and Molecular Representations",
+          "Configurational Isomerism in Acyclic Compounds",
+          "Configurational Isomerism in Cyclic Compounds",
+          "Conformational Analysis of Acyclic Systems",
+          "Conformational Analysis of Cyclic Systems",
+          "Stereogenicity and Stereogenic Elements",
+          "Principles of Stereoselectivity",
+          "Enantioselectivity and Chiral Synthesis",
+          "Diastereoselectivity in Organic Reactions",
+          "Asymmetric Induction and Advanced Applications"
+        ]
+      },
+      {
+        "topic": "Aromaticity",
+        "topic_key": "aromaticity",
+        "lessons": [
+          "Foundations of Aromaticity",
+          "Benzenoid Aromatic Compounds",
+          "Non-benzenoid Aromatic Compounds",
+          "Antiaromaticity and Non-aromaticity",
+          "Generation of Benzenoid Aromatics",
+          "Generation of Non-benzenoid Aromatics",
+          "Electrophilic Aromatic Substitution",
+          "Nucleophilic Aromatic Substitution",
+          "Reactions of Polycyclic Aromatic Hydrocarbons",
+          "Reactions of Non-benzenoid Aromatics",
+          "Spectroscopic Identification of Aromatic Compounds",
+          "Advanced Topics and Applications"
+        ]
+      },
+      {
+        "topic": "Organic Reactive Intermediates",
+        "topic_key": "organic_reactive_intermediates",
+        "lessons": [
+          "Foundations of Reactive Intermediates",
+          "Carbocations - Generation and Stability",
+          "Carbocations - Reactivity and Rearrangements",
+          "Carbanions - Generation and Stability",
+          "Carbanions - Reactivity and Applications",
+          "Free Radicals - Generation and Stability",
+          "Free Radicals - Reactivity and Chain Reactions",
+          "Carbenes - Generation, Structure and Stability",
+          "Carbenes - Reactivity and Reactions",
+          "Benzynes - Generation and Characteristics",
+          "Benzynes - Reactivity and Synthetic Applications",
+          "Nitrenes - Generation, Structure and Stability",
+          "Nitrenes - Reactivity and Applications",
+          "Comparative Analysis and Mechanistic Principles",
+          "Practice Problems and CSIR Exam Preparation"
+        ]
+      },
+      {
+        "topic": "Organic Reaction Mechanisms",
+        "topic_key": "organic_reaction_mechanisms",
+        "lessons": [
+          "Foundations of Reaction Mechanisms and Intermediates",
+          "Nucleophilic Substitution Reactions - SN2 Mechanism",
+          "Nucleophilic Substitution Reactions - SN1 Mechanism",
+          "Elimination Reactions - E2 Mechanism",
+          "Elimination Reactions - E1 and E1cB Mechanisms",
+          "Electrophilic Addition to Alkenes and Alkynes",
+          "Nucleophilic Addition to Carbonyl Compounds",
+          "Radical Substitution Reactions",
+          "Radical Addition Reactions",
+          "Determination of Reaction Pathways - Kinetic Methods",
+          "Determination of Reaction Pathways - Isotopic Labeling",
+          "Determination of Reaction Pathways - Stereochemical Methods",
+          "Determination of Reaction Pathways - Product Analysis and Trapping",
+          "Linear Free Energy Relationships and Structure-Reactivity",
+          "Advanced Topics - Neighboring Group Participation and Anchimeric Assistance",
+          "Advanced Topics - Solvent Effects and Ion Pairing",
+          "Comprehensive Mechanistic Problem Solving",
+          "Practice Problems and CSIR Exam Preparation"
+        ]
+      },
+      {
+        "topic": "Named Organic Reactions",
+        "topic_key": "named_organic_reactions",
+        "lessons": [
+          "Introduction to Named Reactions and Rearrangements",
+          "Carbon-Carbon Bond Forming Reactions I",
+          "Carbon-Carbon Bond Forming Reactions II",
+          "Carbon-Carbon Bond Forming Reactions III",
+          "Oxidation Reactions",
+          "Reduction Reactions",
+          "Substitution and Elimination Named Reactions",
+          "Carbocation Rearrangements I",
+          "Carbocation Rearrangements II",
+          "Electrophilic and Nucleophilic Rearrangements",
+          "Ring Expansion and Contraction Rearrangements",
+          "Aromatic Rearrangements",
+          "Nitrogen-based Named Reactions",
+          "Heterocycle Synthesis Named Reactions",
+          "Multi-component and Domino Reactions",
+          "Strategic Applications in Total Synthesis I",
+          "Strategic Applications in Total Synthesis II",
+          "Green Chemistry and Modern Variations",
+          "Problem-Solving and Mechanism Prediction",
+          "Integration and CSIR Exam Preparation"
+        ]
+      },
+      {
+        "topic": "Organic Transformations and Reagents",
+        "topic_key": "organic_transformations_and_reagents",
+        "lessons": [
+          "Introduction to Functional Group Transformations",
+          "Oxidation Reactions in Organic Chemistry",
+          "Reduction Reactions in Organic Chemistry",
+          "Organic Reagents in Synthesis",
+          "Inorganic Reagents and Oxidants",
+          "Organometallic Catalysis in Synthesis",
+          "Enzymatic Transformations",
+          "Chemoselectivity in Organic Reactions",
+          "Regioselectivity in Organic Transformations",
+          "Stereoselectivity and Diastereoselectivity",
+          "Enantioselectivity and Asymmetric Synthesis",
+          "Integration and Strategic Applications"
+        ]
+      },
+      {
+        "topic": "Concepts in Organic Synthesis",
+        "topic_key": "concepts_in_organic_synthesis",
+        "lessons": [
+          "Foundations of Retrosynthetic Analysis",
+          "Disconnection Strategies",
+          "Synthons and Synthetic Equivalents",
+          "C-C Bond Forming Reactions as Synthetic Equivalents",
+          "Linear Synthesis Strategies",
+          "Convergent Synthesis Strategies",
+          "Umpolung of Reactivity",
+          "Protecting Group Strategies",
+          "Advanced Disconnection Patterns",
+          "Integration of Synthetic Concepts",
+          "Functional Group Interconversions and Strategic Redox",
+          "Selectivity in Organic Synthesis",
+          "Practice Problems and Exam Strategies"
+        ]
+      },
+      {
+        "topic": "Asymmetric Synthesis",
+        "topic_key": "asymmetric_synthesis",
+        "lessons": [
+          "Fundamentals of Stereochemistry and Chirality",
+          "Introduction to Asymmetric Synthesis",
+          "Chiral Auxiliaries in Asymmetric Synthesis",
+          "Substrate-Controlled Asymmetric Induction",
+          "Reagent-Controlled Asymmetric Induction",
+          "Catalyst-Controlled Asymmetric Induction",
+          "Quantification of Stereoselectivity",
+          "Analytical Methods for Determining Stereochemical Purity",
+          "Enantio-discrimination and Chiral Recognition",
+          "Resolution of Racemates - Classical Methods",
+          "Kinetic Resolution Methods",
+          "Integration and Advanced Topics"
+        ]
+      },
+      {
+        "topic": "Pericyclic Reactions",
+        "topic_key": "pericyclic_reactions",
+        "lessons": [
+          "Foundations of Molecular Orbital Theory and Symmetry",
+          "Woodward-Hoffmann Rules and Orbital Correlation",
+          "Electrocyclic Reactions - Theory and Mechanisms",
+          "Electrocyclic Reactions - Examples and Applications",
+          "Cycloaddition Reactions - Fundamentals",
+          "Diels-Alder Reaction and [4+2] Cycloadditions",
+          "Other Cycloaddition Reactions",
+          "Sigmatropic Rearrangements - Theory and Classification",
+          "[3,3] Sigmatropic Rearrangements",
+          "Additional Sigmatropic Rearrangements and Complex Cases",
+          "Other Concerted Reactions and Related Processes",
+          "Comprehensive Problem-Solving and Synthesis Applications",
+          "Special Topics and Advanced Concepts"
+        ]
+      },
+      {
+        "topic": "Heterocyclic Compounds",
+        "topic_key": "heterocyclic_compounds",
+        "lessons": [
+          "Introduction to Heterocyclic Chemistry",
+          "Five-Membered Heterocycles with One Heteroatom - Structure and Properties",
+          "Synthesis of Five-Membered Heterocycles with One Heteroatom",
+          "Reactivity of Five-Membered Heterocycles - Electrophilic Substitution",
+          "Five-Membered Heterocycles with Two Heteroatoms",
+          "Six-Membered Heterocycles - Pyridine Structure and Properties",
+          "Synthesis of Pyridine and Its Derivatives",
+          "Reactivity of Pyridine - Electrophilic Substitution",
+          "Reactivity of Pyridine - Nucleophilic Substitution",
+          "Diazines - Pyrimidine, Pyrazine, and Pyridazine",
+          "Quinoline and Isoquinoline - Benzo-Fused Pyridines",
+          "Indole - Structure, Synthesis, and Reactivity",
+          "Heterocycles Containing Sulfur - Thiazole and Benzothiazole",
+          "Oxygen-Containing Heterocycles - Furan, Benzofuran, and Chromone",
+          "Heteroatom Effects on Reactivity - Comparative Analysis",
+          "Advanced Synthetic Strategies and Multi-Step Synthesis",
+          "Special Topics - Metal-Catalyzed Reactions and Modern Methods",
+          "Integration and Problem-Solving"
+        ]
+      },
+      {
+        "topic": "Chemistry of Natural Products",
+        "topic_key": "chemistry_of_natural_products",
+        "lessons": [
+          "Introduction to Natural Products Chemistry",
+          "Stereochemistry and Conformational Analysis in Natural Products",
+          "Carbohydrates Part I - Monosaccharides",
+          "Carbohydrates Part II - Disaccharides and Polysaccharides",
+          "Amino Acids and Peptide Chemistry",
+          "Protein Structure and Peptide Synthesis",
+          "Fatty Acids and Lipid Chemistry",
+          "Nucleosides, Nucleotides, and Nucleic Acid Structure",
+          "Introduction to Terpenes and Isoprene Rule",
+          "Monoterpenes and Sesquiterpenes",
+          "Diterpenes, Triterpenes, and Tetraterpenes",
+          "Biogenesis of Terpenoids - Mevalonate Pathway",
+          "Biogenesis of Terpenoids - MEP Pathway and Cyclization",
+          "Steroid Chemistry Part I - Structure and Nomenclature",
+          "Steroid Chemistry Part II - Cholesterol and Bile Acids",
+          "Steroid Chemistry Part III - Steroid Hormones",
+          "Introduction to Alkaloids and Classification",
+          "Pyrrolidine and Pyridine Alkaloids",
+          "Tropane Alkaloids",
+          "Isoquinoline Alkaloids",
+          "Indole Alkaloids",
+          "Quinoline and Purine Alkaloids",
+          "Biogenesis of Alkaloids Part I - Amino Acid Precursors",
+          "Biogenesis of Alkaloids Part II - Phenylalanine and Tyrosine Pathways",
+          "Biogenesis of Alkaloids Part III - Tryptophan and Other Pathways",
+          "Structural Elucidation of Natural Products",
+          "Integration and Advanced Topics in Natural Products"
+        ]
+      },
+      {
+        "topic": "Structure Determination of Organic Compounds",
+        "topic_key": "structure_determination_of_organic_compounds",
+        "lessons": [
+          "Introduction to Spectroscopy and Structure Determination",
+          "Infrared (IR) Spectroscopy - Principles and Theory",
+          "IR Spectroscopy - Functional Group Identification",
+          "UV-Visible Spectroscopy - Theory and Chromophores",
+          "UV-Visible Spectroscopy - Empirical Rules and Applications",
+          "Introduction to Nuclear Magnetic Resonance (NMR) Spectroscopy",
+          "Proton (1H) NMR Spectroscopy - Chemical Shift",
+          "Proton (1H) NMR Spectroscopy - Integration and Peak Area",
+          "Proton (1H) NMR Spectroscopy - Spin-Spin Coupling",
+          "Advanced Topics in 1H NMR Spectroscopy",
+          "Carbon-13 (13C) NMR Spectroscopy - Fundamentals",
+          "Carbon-13 (13C) NMR Spectroscopy - Chemical Shifts",
+          "DEPT and Other 13C NMR Techniques",
+          "Mass Spectrometry - Principles and Instrumentation",
+          "Isotope Patterns and Molecular Formula Determination",
+          "Fragmentation Patterns in Mass Spectrometry",
+          "Two-Dimensional NMR Spectroscopy",
+          "Integrated Structure Elucidation - Systematic Approach",
+          "Practice Problems - Simple Structures",
+          "Practice Problems - Intermediate Complexity",
+          "Practice Problems - Advanced Structures",
+          "CSIR NET Exam-Focused Problem Solving"
+        ]
+      }
+    ]
+  },
+  {
+    "subject": "Physical Chemistry",
+    "subject_key": "physical_chemistry",
+    "topics": [
+      {
+        "topic": "Basic Principles of Quantum Mechanics",
+        "topic_key": "basic_principles_of_quantum_mechanics",
+        "lessons": [
+          "Foundations of Quantum Mechanics",
+          "Operator Algebra and Mathematical Framework",
+          "Particle-in-a-Box - One-Dimensional Confinement",
+          "Particle-in-a-Box - Higher Dimensions",
+          "Quantum Harmonic Oscillator",
+          "Hydrogen Atom - Radial Solutions",
+          "Hydrogen Atom - Angular Solutions and Spherical Harmonics",
+          "Complete Hydrogen Atom Wavefunctions",
+          "Shapes and Visualization of Atomic Orbitals",
+          "Orbital Angular Momentum Theory",
+          "Spin Angular Momentum",
+          "Quantum Tunneling Phenomenon"
+        ]
+      },
+      {
+        "topic": "Approximate Methods in Quantum Mechanics",
+        "topic_key": "approximate_methods_in_quantum_mechanics",
+        "lessons": [
+          "Foundations of Approximate Methods",
+          "Variational Principle - Theory and Formalism",
+          "Rayleigh-Ritz Linear Variation Method",
+          "Applications of Variational Principle",
+          "Time-Independent Perturbation Theory - Non-Degenerate Case",
+          "Degenerate Perturbation Theory",
+          "Applications I - Atomic Systems in External Fields",
+          "Applications II - Anharmonic Oscillator and Molecular Systems",
+          "Comparison and Integration of Methods",
+          "Problem-Solving and CSIR Exam Preparation"
+        ]
+      },
+      {
+        "topic": "Atomic Structure",
+        "topic_key": "atomic_structure",
+        "lessons": [
+          "Quantum Mechanical Framework for Atoms",
+          "Hydrogen Atom and One-Electron Systems",
+          "Angular Momentum Theory",
+          "Many-Electron Atoms and Antisymmetry",
+          "Electronic Configurations and Atomic Structure",
+          "Russell-Saunders Term Symbols",
+          "Ground State Term Determination",
+          "Atomic Spectroscopy Fundamentals",
+          "Fine Structure and Spin-Orbit Coupling",
+          "Multi-Electron Correlation and Configuration Interaction",
+          "Complex Spectra and Multiplet Splitting",
+          "Integration and Problem Solving"
+        ]
+      },
+      {
+        "topic": "Chemical Bonding",
+        "topic_key": "chemical_bonding",
+        "lessons": [
+          "Foundations of Chemical Bonding and Atomic Orbitals",
+          "Introduction to Molecular Orbital Theory",
+          "Molecular Orbital Treatment of Homonuclear Diatomics",
+          "Molecular Orbital Treatment of Heteronuclear Diatomics",
+          "Valence Bond Theory Fundamentals",
+          "Hybridization and Molecular Geometry",
+          "Introduction to π-Electron Systems",
+          "Huckel Molecular Orbital Theory - Foundations",
+          "Solving Huckel Equations - Linear Systems",
+          "Huckel Theory for Cyclic Systems and Aromaticity",
+          "Advanced Applications of Huckel Theory",
+          "Integration and Comparative Analysis"
+        ]
+      },
+      {
+        "topic": "Molecular Symmetry and Group Theory",
+        "topic_key": "molecular_symmetry_and_group_theory",
+        "lessons": [
+          "Foundation: Symmetry Elements and Operations",
+          "Point Groups and Molecular Classification",
+          "Matrix Representations and Group Theory Mathematics",
+          "Character Tables: Structure and Interpretation",
+          "Vibrational Spectroscopy and Symmetry",
+          "Electronic Spectroscopy and Selection Rules",
+          "Molecular Orbital Theory and Bonding Applications",
+          "Advanced Applications and Crystal Field Theory"
+        ]
+      },
+      {
+        "topic": "Molecular Spectroscopy",
+        "topic_key": "molecular_spectroscopy",
+        "lessons": [
+          "Foundations of molecular spectroscopy",
+          "Rotational spectroscopy of diatomic molecules",
+          "Vibrational spectroscopy of diatomic molecules",
+          "Rotation-vibration coupling and combined spectra",
+          "Electronic spectroscopy and electronic transitions",
+          "Infrared spectroscopy and IR activity",
+          "Raman spectroscopy and Raman activity",
+          "Comprehensive selection rules in molecular spectroscopy",
+          "Basic principles of nuclear magnetic resonance",
+          "Basic principles of electron spin resonance",
+          "Integration and applications of molecular spectroscopy"
+        ]
+      },
+      {
+        "topic": "Equilibrium Chemical thermodynamics",
+        "topic_key": "equilibrium_chemical_thermodynamics",
+        "lessons": [
+          "Foundations of Thermodynamics and the Zeroth and First Laws",
+          "Thermodynamic Processes and State Functions",
+          "The Second Law of Thermodynamics and Entropy",
+          "Thermodynamic Potentials and Maxwell Relations",
+          "Spontaneity, Equilibrium, and the Third Law",
+          "Temperature and Pressure Dependence of Thermodynamic Quantities",
+          "Le Chatelier Principle and Chemical Equilibrium",
+          "Phase Transitions and Phase Diagrams",
+          "Phase Equilibria and the Gibbs Phase Rule",
+          "Thermodynamics of Ideal Gases",
+          "Thermodynamics of Real (Non-Ideal) Gases",
+          "Thermodynamics of Ideal Solutions",
+          "Thermodynamics of Non-Ideal Solutions",
+          "Integration and Problem-Solving in Chemical Thermodynamics"
+        ]
+      },
+      {
+        "topic": "Statistical Thermodynamics",
+        "topic_key": "statistical_thermodynamics",
+        "lessons": [
+          "Foundations of Statistical Thermodynamics",
+          "Partition Functions - Theory and Formulation",
+          "Translational Partition Function",
+          "Rotational Partition Function",
+          "Vibrational Partition Function",
+          "Electronic Partition Function",
+          "Thermodynamic Properties from Partition Functions",
+          "Kinetic Theory of Gases - Foundations",
+          "Maxwell-Boltzmann Velocity Distribution",
+          "Transport Properties from Kinetic Theory",
+          "Model System I - Ideal Monatomic Gas",
+          "Model System II - Ideal Diatomic Gas",
+          "Model System III - Polyatomic Molecules",
+          "Model System IV - Two-Level Systems and Paramagnets",
+          "Model System V - Harmonic Oscillator Systems",
+          "Advanced Topics - Real Gas Corrections and Non-Ideal Systems",
+          "Quantum Statistics - Fermi-Dirac and Bose-Einstein",
+          "Integration and Problem-Solving Practice"
+        ]
+      },
+      {
+        "topic": "Electrochemistry",
+        "topic_key": "electrochemistry",
+        "lessons": [
+          "Fundamentals of Redox Chemistry and Electrochemical Principles",
+          "Electrode Potentials and the Nernst Equation",
+          "Electrolytic Conductance and Transport Properties",
+          "Kohlrausch's Law and Applications",
+          "Debye-Huckel Theory and Ionic Interactions",
+          "Ionic Equilibria in Aqueous Solutions",
+          "Conductometric Titrations",
+          "Potentiometric Titrations",
+          "Integration and Advanced Applications"
+        ]
+      },
+      {
+        "topic": "Chemical Kinetics",
+        "topic_key": "chemical_kinetics",
+        "lessons": [
+          "Fundamentals of Rate Laws and Empirical Kinetics",
+          "Temperature Dependence and Activation Energy",
+          "Complex Reaction Mechanisms",
+          "Steady State Approximation and Pre-Equilibrium",
+          "Determination of Reaction Mechanisms",
+          "Collision Theory of Reaction Rates",
+          "Transition State Theory and Activated Complex",
+          "Unimolecular Reactions and Lindemann Theory",
+          "Enzyme Kinetics and Biological Catalysis",
+          "Salt Effects on Reaction Rates",
+          "Homogeneous Catalysis",
+          "Photochemical Reactions and Photophysics"
+        ]
+      },
+      {
+        "topic": "Colloids and Surfaces",
+        "topic_key": "colloids_and_surfaces",
+        "lessons": [
+          "Introduction to Colloidal Systems",
+          "Optical and Kinetic Properties of Colloids",
+          "Electrical Properties and Electrokinetic Phenomena",
+          "Stability of Colloidal Systems",
+          "Coagulation and Flocculation",
+          "Surface Tension and Surface Energy",
+          "Adsorption at Surfaces and Interfaces",
+          "Langmuir Adsorption Isotherm",
+          "Freundlich and Other Empirical Isotherms",
+          "BET Theory and Multilayer Adsorption",
+          "Surface Area Measurement Techniques",
+          "Introduction to Heterogeneous Catalysis",
+          "Mechanisms of Heterogeneous Catalytic Reactions",
+          "Kinetics of Heterogeneous Catalytic Reactions",
+          "Catalyst Deactivation and Regeneration",
+          "Industrial Applications of Heterogeneous Catalysis",
+          "Surfactants and Micelle Formation",
+          "Integration and Advanced Topics"
+        ]
+      },
+      {
+        "topic": "Solid State Chemistry",
+        "topic_key": "solid_state_chemistry",
+        "lessons": [
+          "Fundamentals of Crystal Structures and Lattice Systems",
+          "X-ray Crystallography and Bragg's Law",
+          "Symmetry Operations and Point Groups in Crystals",
+          "Electronic Band Structure of Solids",
+          "Imperfections and Defects in Crystalline Solids"
+        ]
+      },
+      {
+        "topic": "Polymer Chemistry",
+        "topic_key": "polymer_chemistry",
+        "lessons": [
+          "Fundamentals of Polymer Molar Mass",
+          "Statistical Averages of Molar Mass",
+          "Polydispersity and Molar Mass Distributions",
+          "Experimental Determination of Molar Mass",
+          "Introduction to Polymerization Kinetics",
+          "Step-Growth Polymerization Kinetics",
+          "Chain-Growth Polymerization Kinetics",
+          "Free Radical Polymerization Kinetics",
+          "Ionic Polymerization Kinetics",
+          "Copolymerization Kinetics",
+          "Advanced Topics and Problem Solving",
+          "CSIR Exam-Focused Review and Practice"
+        ]
+      },
+      {
+        "topic": "Data Analysis",
+        "topic_key": "data_analysis",
+        "lessons": [
+          "Foundations of Descriptive Statistics",
+          "Error Analysis and Uncertainty Quantification",
+          "Bivariate Relationships and Covariance",
+          "Linear Regression Modeling",
+          "Confidence Intervals and Prediction Intervals",
+          "Integrated Data Analysis Applications"
+        ]
+      }
+    ]
+  }
 ]

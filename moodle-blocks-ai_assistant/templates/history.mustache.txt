@@ -1,7 +1,6 @@
 {{!
   FILE: moodle/blocks/ai_assistant/templates/history.mustache
   MODIFIED: Changed filter hierarchy from Subject->Lesson->Topic to Subject->Topic->Lesson
-  FIXED: Smart lesson handling for string arrays and object arrays
 }}
 
 <!-- Dependencies -->
@@ -206,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // ✅ FIXED: Smart lesson handler - supports both string and object arrays
+    // Populate lessons dropdown based on selected subject and topic
     const populateLessons = (selectedSubjectKey, selectedTopicKey) => {
         lessonDropdown.innerHTML = '<option value="">{{#str}}all_lessons, block_ai_assistant{{/str}}</option>';
         lessonDropdown.disabled = true;
@@ -219,35 +218,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const topicData = subjectData.topics.find(t => t.topic_key === selectedTopicKey);
         if (!topicData || !topicData.lessons || topicData.lessons.length === 0) return;
 
-        console.log('🔍 Found', topicData.lessons.length, 'lessons for topic', selectedTopicKey);
-
-        topicData.lessons.forEach((lesson, index) => {
+        topicData.lessons.forEach(lesson => {
             const option = document.createElement('option');
-            
-            // Smart handling: Check if lesson is object or string
-            if (typeof lesson === 'string') {
-                // Lesson is just a string - use it as both value and display
-                option.value = lesson;
-                option.textContent = lesson;
-                if (lesson === currentFilters.lesson) {
-                    option.selected = true;
-                }
-                console.log(`  ${index + 1}. ${lesson} (string)`);
-            } else {
-                // Lesson is an object with lesson_key and lesson properties
-                option.value = lesson.lesson_key;
-                option.textContent = lesson.lesson;
-                if (lesson.lesson_key === currentFilters.lesson) {
-                    option.selected = true;
-                }
-                console.log(`  ${index + 1}. ${lesson.lesson} [${lesson.lesson_key}] (object)`);
+            option.value = lesson.lesson_key;
+            option.textContent = lesson.lesson;
+            if (lesson.lesson_key === currentFilters.lesson) {
+                option.selected = true;
             }
-            
             lessonDropdown.appendChild(option);
         });
         
         lessonDropdown.disabled = false;
-        console.log('✅ Lesson dropdown populated and enabled');
     };
 
     // Event listeners for cascading dropdowns

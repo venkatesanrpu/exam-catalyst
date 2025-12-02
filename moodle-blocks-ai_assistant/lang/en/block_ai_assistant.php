@@ -2,6 +2,7 @@
 // FILE: moodle/blocks/ai_assistant/lang/en/block_ai_assistant.php
 $string['pluginname'] = 'AI Assistant';
 // --- STRINGS FOR SETTINGS ---
+$string['ai_assistant'] = 'AI Assistant';
 $string['select_agent'] = 'Select AI Agent';
 $string['select_agent_help'] = 'Choose the AI agent that this block will communicate with.';
 $string['mainsubjectkey'] = 'Main Subject Key';
@@ -42,3 +43,4 @@ $string['not_configured'] = 'The AI Assistant has not been configured. Please co
 $string['view_history'] = 'View full history';
 $string['general_inquiry'] = 'General Inquiry';
 $string['strftimedatetimeshort'] = '%d %B %Y, %I:%M %p'; 
+$string['ai_assistant'] = 'AI Assistant';
