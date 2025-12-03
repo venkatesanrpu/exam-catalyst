@@ -24,12 +24,14 @@ class block_ai_assistant extends block_base {
         $mainsubjectkey = get_config('block_ai_assistant', 'main_subject_key') ?: 'chemistry';
 
         // Define AJAX endpoints
-        $historyajaxurl = new moodle_url('/blocks/ai_assistant/history_ajax.php');
-        $syllabusajaxurl = new moodle_url('/blocks/ai_assistant/syllabus_ajax.php');
-        $askagentajaxurl = new moodle_url('/blocks/ai_assistant/ask_agent_ajax.php');
-        $mcqajaxurl = new moodle_url('/blocks/ai_assistant/mcq_ajax.php');
-        $websearchajaxurl = new moodle_url('/blocks/ai_assistant/websearch_ajax.php');
-        $youtubesummarizeajaxurl = new moodle_url('/blocks/ai_assistant/youtube_summarize_ajax.php');
+        $historyajaxurl = new moodle_url('/blocks/ai_assistant/ajax/history_ajax.php');
+        $syllabusajaxurl = new moodle_url('/blocks/ai_assistant/ajax/syllabus_ajax.php');
+        $askagentajaxurl = new moodle_url('/blocks/ai_assistant/ajax/ask_agent_ajax.php');
+        $mcqajaxurl = new moodle_url('/blocks/ai_assistant/ajax/mcq_ajax.php');
+        $websearchajaxurl = new moodle_url('/blocks/ai_assistant/ajax/websearch_ajax.php');
+        $youtubesummarizeajaxurl = new moodle_url('/blocks/ai_assistant/ajax/youtube_summarize_ajax.php');
+		$historywidgetajaxurl = new moodle_url('/blocks/ai_assistant/ajax/history_widget_ajax.php');
+		$getsyllabusajaxurl = new moodle_url('/blocks/ai_assistant/ajax/get_syllabus_ajax.php');
 
         // Detect page context
         $pagesubject = '';
@@ -58,6 +60,8 @@ class block_ai_assistant extends block_base {
             'mcqajaxurl' => $mcqajaxurl->out(false),
             'websearchajaxurl' => $websearchajaxurl->out(false),           // ✅ FIXED
             'youtubesummarizeajaxurl' => $youtubesummarizeajaxurl->out(false), // ✅ FIXED
+			'historywidgetajaxurl' => $historywidgetajaxurl->out(false), // ✅ FIX FOR HISTORY WIDGET AJAX URL
+			'getsyllabusajaxurl' => $getsyllabusajaxurl->out(false),
             'pagesubject' => $pagesubject,
             'pagetopic' => $pagetopic
         ];

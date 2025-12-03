@@ -1,513 +1,889 @@
-/*
- * FILE: moodle/blocks/ai_assistant/v2-styles.css
- * PURPOSE: Final, consolidated stylesheet for all AI Assistant widget features.
- * REORGANIZED FOR DEBUGGING AND CLARITY.
- * UPDATED: Includes missing definitions from the mustache templates.
+/**
+ * FILE: blocks/ai_assistant/styles.css
+ * PURPOSE: AI Assistant Widget & History Modal Styles
+ * OPTIMIZED: High contrast colors for best readability and accessibility
+ * COLORS: Web-safe palette with WCAG AA compliance
  */
 
 /* ==========================================================================
-   1. Core Widget & Floating Action Button (FAB)
+   1. CORE WIDGET & FLOATING ACTION BUTTON
    ========================================================================== */
 
-/* --- The top-level container for all widget elements --- */
+/* Main container wrapper */
 .ai-assistant-container {
-    /* This is a structural wrapper and does not require visual styling. */
-    /* Its children use fixed positioning to place themselves on the page. */
-    position: relative;
+  position: relative;
 }
 
-/* --- The main floating button that toggles the widget window --- */
+/* Floating action button (chat bubble icon) */
 .ai-assistant-widget-button {
-    /* Positioning */
-    position: fixed;
-    /* FIX: Increased bottom value to position the button above
-       the theme's default footer buttons, avoiding overlap. */
-    bottom: 125px;
-    right: 20px;
-    z-index: 999; /* Sits just below the main widget window. */
-
-    /* Box Model & Appearance */
-    width: 60px;
-    height: 60px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 50%; /* Creates the circular shape. */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-
-    /* Content Alignment */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-
-    /* Transitions */
-    /* Animate the 'right' property for smooth movement with the Moodle drawer. */
-    /* Animate 'transform' for the hover effect. */
-    transition: transform 0.2s ease, right 0.4s ease;
+  /* Positioning */
+  position: fixed;
+  bottom: 125px;
+  right: 20px;
+  z-index: 999;
+  
+  /* Appearance */
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  
+  /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+  /* Animation */
+  transition: transform 0.2s ease, right 0.4s ease, box-shadow 0.2s ease;
 }
 
 .ai-assistant-widget-button:hover {
-    /* A simple scaling effect on hover for better user feedback. */
-    transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
 }
 
-/* --- The main chat widget window --- */
+/* Main chat widget window */
 .ai-assistant-widget-window {
-    /* Positioning */
-    position: fixed;
-    bottom: 175px;
-    right: 25px;
-    z-index: 1000; /* Sits above the floating button and most page content. */
-
-    /* Box Model & Appearance */
-    width: 400px;
-    max-width: 90vw; /* Ensures responsiveness on smaller viewports. */
-    height: 65vh;
-    max-height: 700px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    overflow: hidden; /* Clips child content like the chat body. */
-
-    /* Layout & Visibility */
-    display: none; /* Hidden by default; toggled by JavaScript. */
-    flex-direction: column; /* Stacks header, body, and input area vertically. */
-
-    /* Transitions */
-    /* Smooth animations for resizing, moving, or fullscreen mode. */
-    transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease, transform 0.3s ease, right 0.4s ease;
+  /* Positioning */
+  position: fixed;
+  bottom: 175px;
+  right: 25px;
+  z-index: 1000;
+  
+  /* Dimensions */
+  width: 400px;
+  max-width: 90vw;
+  height: 65vh;
+  max-height: 700px;
+  
+  /* Appearance */
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  
+  /* Layout */
+  display: none;
+  flex-direction: column;
+  
+  /* Animation */
+  transition: width 0.3s ease, height 0.3s ease, right 0.4s ease;
 }
 
-/* --- State modifier: Makes the widget visible --- */
+/* Widget visible state */
 .ai-assistant-widget-window.active {
-    /* JavaScript adds this class to show the widget. */
-    display: flex;
+  display: flex;
 }
 
-/* --- State modifier: Adjusts widget and button when a Moodle side-drawer is open --- */
-/* NEW: This class ensures the widget does not overlap with Moodle's navigation drawer. */
+/* Drawer open state (when Moodle sidebar is visible) */
 .ai-assistant-widget-window.drawer-open,
 .ai-assistant-widget-button.drawer-open {
-    /* Moves the element to the left to avoid the drawer. */
-    /* This value should match the width of the Moodle drawer. */
-    right: 325px;
+  right: 325px;
+}
+
+/* Fullscreen mode */
+.ai-assistant-widget-window.fullscreen {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  border-radius: 0;
 }
 
 
 /* ==========================================================================
-   2. Widget Header
+   2. WIDGET HEADER - HIGH CONTRAST
    ========================================================================== */
 
 .ai-assistant-widget-header {
-    /* Box Model & Appearance */
-    padding: 10px 15px;
-    background-color: #f8f9fa;
-    color: #333;
-    border-bottom: 1px solid #e0e0e0;
-
-    /* Layout */
-    display: flex;
-    justify-content: space-between; /* Pushes title and controls to opposite ends. */
-    align-items: center;
-    flex-shrink: 0; /* Prevents the header from shrinking if content grows. */
+  /* Appearance */
+  padding: 14px 18px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border-bottom: 2px solid #004085;
+  
+  /* Layout */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
 }
 
-/* --- Title text within the header --- */
+/* Widget title - HIGH CONTRAST WHITE */
 #ai-assistant-widget-title {
-    font-weight: 600; /* Makes the title stand out. */
-    font-size: 1.1rem;
-    color: #333;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #ffffff;  /* ✅ Pure white for maximum contrast */
+  letter-spacing: 0.3px;
 }
 
+/* Control buttons container */
 .ai-assistant-widget-header .controls {
-    display: flex;
-    gap: 8px; /* Adds spacing between control buttons. */
+  display: flex;
+  gap: 10px;
 }
 
+/* Control buttons (search, history, fullscreen, close) */
 .ai-assistant-widget-control-button {
-    /* Appearance */
-    background: none;
-    border: none;
-    color: #555;
-    font-size: 1.5rem;
-    padding: 0 5px;
-    opacity: 0.7;
-    cursor: pointer;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  color: #ffffff;  /* ✅ Pure white */
+  font-size: 1.3rem;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .ai-assistant-widget-control-button:hover {
-    opacity: 1;
-    color: #000;
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
 }
 
 .ai-assistant-widget-control-button svg {
-    /* Ensures SVGs within the buttons are displayed correctly. */
-    display: block;
+  display: block;
+  fill: currentColor;
 }
 
 
 /* ==========================================================================
-   3. Chat Body & Messages
+   3. CHAT BODY - READABLE MESSAGES
    ========================================================================== */
 
-/* --- Container for all messages --- */
 .ai-assistant-chat-body {
-    /* Layout & Sizing */
-    flex-grow: 1; /* Allows this area to fill the available vertical space. */
-    overflow-y: auto; /* Enables scrolling for the message history. */
-
-    /* Appearance */
-    padding: 15px;
-    background-color: #f4f7f9;
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #f5f7fa;
+  scroll-behavior: smooth;
 }
 
-/* --- General styling for a single message bubble --- */
+/* Individual message container */
 .ai-assistant-message {
-    display: flex;
-    align-items: flex-start; /* Aligns avatar and message content to the top. */
-    gap: 10px;
-    max-width: 90%;
-    margin-bottom: 1rem;
-	color: #000000;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  animation: fadeIn 0.3s ease;
 }
 
-/* --- User-sent message alignment --- */
-.ai-assistant-message.from-user {
-    flex-direction: row-reverse; /* Flips the order of avatar and content. */
-    margin-left: auto; /* Pushes the entire message to the right. */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Bot-sent message content styling --- */
-.ai-assistant-message.from-bot .ai-assistant-message-content {
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
+/* Avatar circles */
+.ai-assistant-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #ffffff;  /* ✅ Pure white */
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* --- User-sent message content styling --- */
+/* User message styling */
+.ai-assistant-message.from-user .ai-assistant-avatar {
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+}
+
 .ai-assistant-message.from-user .ai-assistant-message-content {
-    background-color: #e6f2ff;
+  background-color: #e7f3ea;
+  border: 1px solid #c3e6cb;
+  color: #1b4d25;  /* ✅ Dark green for readability */
 }
 
-/* --- The text content of a message --- */
+/* Bot message styling */
+.ai-assistant-message.from-bot .ai-assistant-avatar {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.ai-assistant-message.from-bot .ai-assistant-message-content {
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  color: #212529;  /* ✅ Near-black for maximum readability */
+}
+
+/* Message content box */
 .ai-assistant-message-content {
-    padding: 10px 15px;
-    border-radius: 18px;
-    word-wrap: break-word; /* Ensures long words do not overflow. */
-    overflow-wrap: break-word;
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 10px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Ensure all text inside messages is readable */
+.ai-assistant-message-content p,
 .ai-assistant-message-content h1,
 .ai-assistant-message-content h2,
-.ai-assistant-message-content h3 {
-  color: #222;
+.ai-assistant-message-content h3,
+.ai-assistant-message-content h4,
+.ai-assistant-message-content li {
+  color: #212529;  /* ✅ Dark text for all content */
+  margin-bottom: 0.75em;
 }
 
+.ai-assistant-message-content h1 { font-size: 1.5em; font-weight: 700; }
+.ai-assistant-message-content h2 { font-size: 1.3em; font-weight: 700; }
+.ai-assistant-message-content h3 { font-size: 1.15em; font-weight: 600; }
+.ai-assistant-message-content h4 { font-size: 1.05em; font-weight: 600; }
 
-.ai-assistant-message-content p:last-child {
-    /* Removes default bottom margin from the last paragraph inside a message. */
-    margin-bottom: 0;
+/* Code blocks inside messages */
+.ai-assistant-message-content pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
 }
 
-/* --- Circular avatar for both user and bot --- */
-.ai-assistant-avatar {
-    /* Box Model */
-    flex-shrink: 0; /* Prevents the avatar from shrinking. */
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-
-    /* Content Alignment */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* Typography */
-    font-weight: bold;
-    color: #ffffff;
+.ai-assistant-message-content code {
+  background-color: #f4f4f4;
+  color: #c7254e;  /* ✅ High contrast pink for inline code */
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
 }
 
-.ai-assistant-message.from-bot .ai-assistant-avatar {
-    background-color: #5a6268; /* Bot avatar color. */
+/* Links inside messages */
+.ai-assistant-message-content a {
+  color: #0056b3;  /* ✅ Dark blue for links */
+  text-decoration: underline;
+  font-weight: 500;
 }
 
-.ai-assistant-message.from-user .ai-assistant-avatar {
-    background-color: #007bff; /* User avatar color. */
+.ai-assistant-message-content a:hover {
+  color: #003d82;
 }
 
-
-/* ==========================================================================
-   4. Typing Indicator
-   ========================================================================== */
-
+/* Typing indicator */
 .ai-assistant-typing-indicator {
-    /* Layout */
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    /* Appearance */
-    background-color: #fff;
-    border-radius: 18px;
-    padding: 12px 15px;
-    border: 1px solid #e0e0e0;
+  display: flex;
+  gap: 4px;
+  padding: 10px;
 }
 
 .ai-assistant-typing-indicator span {
-    /* The three animated dots. */
-    width: 8px;
-    height: 8px;
-    background-color: #ccc;
-    border-radius: 50%;
-    animation: typing-bounce 1.4s infinite ease-in-out both;
+  width: 8px;
+  height: 8px;
+  background-color: #007bff;
+  border-radius: 50%;
+  animation: typing 1.4s infinite;
 }
 
-/* --- Animation delays to make the dots bounce sequentially --- */
-.ai-assistant-typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
-.ai-assistant-typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+.ai-assistant-typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.ai-assistant-typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
 
-/* --- Keyframe animation for the bouncing dot effect --- */
-@keyframes typing-bounce {
-    0%, 80%, 100% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(1.0);
-    }
+@keyframes typing {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-10px); }
 }
 
 
 /* ==========================================================================
-   5. User Input Area
+   4. INPUT AREA
    ========================================================================== */
 
 .ai-assistant-input-area {
-    /* Layout */
-    display: flex;
-    align-items: center;
-
-    /* Appearance */
-    padding: 10px;
-    border-top: 1px solid #e0e0e0;
-    background: #fff;
+  padding: 14px 18px;
+  background-color: #ffffff;
+  border-top: 2px solid #e0e0e0;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  flex-shrink: 0;
 }
 
 #ai-assistant-input {
-    /* Sizing */
-    flex-grow: 1; /* Takes up the available space next to the send button. */
-    max-height: 100px; /* Limits the height for multi-line input. */
-    overflow-y: auto; /* Allows scrolling within the textarea if content overflows. */
-
-    /* Appearance */
-    border: none;
-    padding: 10px;
-    resize: none; /* Disables manual resizing by the user. */
-    background: transparent;
-    font-size: 1rem;
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #212529;  /* ✅ Dark text */
+  background-color: #ffffff;
+  resize: none;
+  max-height: 120px;
+  transition: border-color 0.2s;
 }
 
 #ai-assistant-input:focus {
-    /* Removes the default browser outline on focus. */
-    outline: none;
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+#ai-assistant-input::placeholder {
+  color: #6c757d;  /* ✅ Medium gray for placeholder */
 }
 
 .ai-assistant-send-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #007bff;
-    padding: 8px;
+  padding: 10px 14px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ai-assistant-send-button:hover {
+  background: linear-gradient(135deg, #0056b3 0%, #003d82 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.ai-assistant-send-button svg {
+  display: block;
 }
 
 
 /* ==========================================================================
-   6. Overlay, Fullscreen & Modal Styles
+   5. GUIDED SEARCH MODAL
    ========================================================================== */
 
-/* --- A single, shared dark overlay for fullscreen and modal views --- */
-#ai-assistant-overlay {
-    /* Positioning & Stacking */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Sits below modals and the fullscreen widget but above all other page content. */
-    z-index: 9997;
+.ai-assistant-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  padding: 20px;
+}
 
-    /* Appearance & Visibility */
-    background-color: rgba(0, 0, 0, 0.6);
-    display: none; /* Hidden by default. */
-    opacity: 0;
-    transition: opacity 0.3s ease; /* Smooth fade-in/out effect. */
+.ai-assistant-modal-container.active {
+  display: flex;
+}
+
+.ai-assistant-modal-form {
+  background: #ffffff;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.ai-assistant-modal-form h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #212529;  /* ✅ Dark heading */
+}
+
+.ai-assistant-modal-form > p {
+  margin: 0 0 20px 0;
+  color: #495057;  /* ✅ Medium-dark for description */
+  font-size: 0.95rem;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #212529;  /* ✅ Dark labels */
+}
+
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #c0c0c0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #212529;  /* ✅ Dark text in inputs */
+  background-color: #ffffff;
+  transition: border-color 0.2s;
+}
+
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-group select:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.ai-assistant-button-secondary,
+.ai-assistant-button-primary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ai-assistant-button-secondary {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.ai-assistant-button-secondary:hover {
+  background-color: #5a6268;
+}
+
+.ai-assistant-button-primary {
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+  color: #ffffff;
+}
+
+.ai-assistant-button-primary:hover {
+  background: linear-gradient(135deg, #1e7e34 0%, #155724 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+
+/* ==========================================================================
+   6. HISTORY MODAL - HIGH CONTRAST
+   ========================================================================== */
+
+/* Modal overlay */
+.ai-assistant-history-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 20px;
+}
+
+/* Modal content box */
+.ai-assistant-history-modal-content {
+  background: #ffffff;
+  width: 90%;
+  max-width: 900px;
+  max-height: 85vh;
+  border-radius: 12px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Modal header - HIGH CONTRAST */
+.ai-assistant-history-modal-header {
+  padding: 20px 24px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border-bottom: 2px solid #004085;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ai-assistant-history-modal-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;  /* ✅ Pure white */
+}
+
+/* Close button */
+.ai-assistant-history-close-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-assistant-history-close-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+/* Filter section */
+.ai-assistant-history-filters {
+  padding: 20px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #d0d0d0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 180px;
+}
+
+.filter-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #212529;  /* ✅ Dark labels */
+  margin-bottom: 6px;
+}
+
+.filter-group select,
+.filter-group .form-select {
+  padding: 10px 12px;
+  border: 1px solid #c0c0c0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #212529;  /* ✅ Dark text */
+  background-color: #ffffff;
+  transition: border-color 0.2s;
+}
+
+.filter-group select:focus,
+.filter-group .form-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.filter-group select:disabled,
+.filter-group .form-select:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+#history-load-button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  align-self: flex-end;
+}
+
+#history-load-button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #1e7e34 0%, #155724 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
+}
+
+#history-load-button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* History body (scrollable area) */
+.ai-assistant-history-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: #ffffff;
+}
+
+/* Empty state */
+.ai-assistant-history-body .empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
+  text-align: center;
+}
+
+.ai-assistant-history-body .empty-state p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #495057;  /* ✅ Medium gray */
+}
+
+/* Loading state */
+.ai-assistant-history-body .loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #007bff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Error state */
+.ai-assistant-history-body .error {
+  color: #dc3545;
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+}
+
+/* Accordion - READABLE TEXT */
+.accordion-item {
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  transition: box-shadow 0.2s;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-header {
+  padding: 16px 20px;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.accordion-header:hover {
+  background: #e9ecef;
+}
+
+.accordion-header strong {
+  color: #212529;  /* ✅ Dark timestamp */
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.accordion-header > div {
+  color: #495057;  /* ✅ Medium-dark for question preview */
+  flex: 1;
+}
+
+.accordion-header > span {
+  color: #6c757d;  /* Arrow indicator */
+  font-size: 0.8rem;
+}
+
+.accordion-content {
+  padding: 20px;
+  border-top: 1px solid #d0d0d0;
+  background: #ffffff;
+}
+
+/* Messages inside accordion */
+.accordion-content .message {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.accordion-content .message .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ffffff;  /* ✅ Pure white */
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-content .user-message .avatar {
+  background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+}
+
+.accordion-content .bot-message .avatar {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.accordion-content .message .content {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  line-height: 1.6;
+  color: #212529;  /* ✅ Dark text for readability */
+}
+
+/* Ensure all text in accordion content is readable */
+.accordion-content .message .content p,
+.accordion-content .message .content h1,
+.accordion-content .message .content h2,
+.accordion-content .message .content h3,
+.accordion-content .message .content h4,
+.accordion-content .message .content li {
+  color: #212529;  /* ✅ Dark text */
+}
+
+/* Pagination */
+.ai-assistant-history-pagination {
+  padding: 16px 20px;
+  border-top: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #f8f9fa;
+}
+
+.ai-assistant-history-pagination button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.ai-assistant-history-pagination button:hover:not(:disabled) {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.ai-assistant-history-pagination button:disabled {
+  background: #6c757d;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ai-assistant-history-pagination span {
+  color: #212529;  /* ✅ Dark page number */
+  font-weight: 600;
+}
+
+
+/* ==========================================================================
+   7. OVERLAY
+   ========================================================================== */
+
+#ai-assistant-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
 }
 
 #ai-assistant-overlay.active {
-    /* JavaScript adds this class to show the overlay. */
-    display: block;
-    opacity: 1;
+  display: block;
 }
 
-/* --- Styles to apply to the widget when in fullscreen mode --- */
-#ai-assistant-widget-container.fullscreen {
-    /* Centering and Sizing */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80vw;
+
+/* ==========================================================================
+   8. RESPONSIVE DESIGN
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .ai-assistant-widget-window {
+    width: 95vw;
     height: 80vh;
-
-    /* Stacking */
-    /* Sits above the overlay but below any pop-up modals. */
-    z-index: 9998;
-
-    /* Override fixed positioning from the default state. */
-    bottom: auto;
-    right: auto;
-}
-
-/* --- The main container for any pop-up modal dialog --- */
-#ai-assistant-modal-container {
-    /* Positioning & Centering */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    /* Sizing */
-    width: 90%;
-    max-width: 600px;
-
-    /* Appearance */
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-
-    /* Stacking & Visibility */
-    z-index: 9999; /* Highest z-index to ensure it's on top of everything. */
-    display: none; /* Hidden by default. */
+    bottom: 10px;
+    right: 2.5vw;
+  }
+  
+  .ai-assistant-widget-button {
+    bottom: 80px;
+    right: 20px;
+  }
+  
+  .ai-assistant-history-modal-content {
+    width: 95%;
+    max-height: 90vh;
+  }
+  
+  .ai-assistant-history-filters {
     flex-direction: column;
-}
-
-#ai-assistant-modal-container.active {
-    /* JavaScript adds this class to show the modal. */
-    display: flex;
-}
-
-
-/* ==========================================================================
-   7. Modal Content & Form Styling
-   ========================================================================== */
-
-.ai-assistant-modal-form {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 25px;
-}
-
-/* --- Typography inside the modal --- */
-.ai-assistant-modal-form h3 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    color: #333;
-}
-
-.ai-assistant-modal-form p {
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #666;
-    font-size: 0.95rem;
-}
-
-/* --- Form element groups --- */
-.ai-assistant-modal-form .form-group {
-    margin-bottom: 18px;
-}
-
-.ai-assistant-modal-form label {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 6px;
-    color: #444;
-}
-
-.ai-assistant-modal-form select,
-.ai-assistant-modal-form textarea {
+  }
+  
+  .filter-group {
     width: 100%;
-    padding: 10px 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    box-sizing: border-box; /* Ensures padding is included in the width. */
-}
-
-.ai-assistant-modal-form textarea {
-    min-height: 120px;
-    resize: vertical; /* Allows user to resize textarea height. */
-}
-
-/* --- Modal action buttons (e.g., Cancel, Submit) --- */
-.ai-assistant-modal-form .form-actions {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-end; /* Aligns buttons to the right. */
-    gap: 10px;
-}
-
-/* --- Secondary button style (e.g., "Cancel") --- */
-.ai-assistant-button-secondary {
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    background-color: #f8f9fa;
-    color: #333;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* --- Primary button style (e.g., "Submit") --- */
-.ai-assistant-button-primary {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
+  }
+  
+  #history-load-button {
+    width: 100%;
+  }
 }
 
 
 /* ==========================================================================
-   8. History Page Styles (from history.mustache)
+   9. ACCESSIBILITY & PRINT
    ========================================================================== */
 
-/* --- Main container for the history page --- */
-.ai-assistant-history-container {
-    /* Provides some breathing room around the entire history content. */
-    padding: 15px;
+/* Focus visible for keyboard navigation */
+button:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #007bff;
+  outline-offset: 2px;
 }
 
-/* --- Grouping for subjects and topics --- */
-.subject-group,
-.topic-group {
-    /* Adds vertical space between each group for better readability. */
-    margin-bottom: 1.5rem;
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
-/* --- Preview of the user's question in the accordion header --- */
-.user-question-preview {
-    /* Ensures long questions don't break the layout by truncating with an ellipsis. */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /* Use a normal font weight to contrast with the bold timestamp. */
-    font-weight: normal;
-    /* Allows the preview to shrink inside its flex container (the button). */
-    flex-shrink: 1;
-    min-width: 0; /* A flexbox hack to allow text-overflow to work correctly. */
-}
-
-/* --- Wrapper for the message pair inside the accordion body --- */
-.ai-assistant-chat-history {
-    /* Adds a little extra space around the conversation for better separation. */
-    padding: 5px;
+/* Print styles */
+@media print {
+  .ai-assistant-widget-button,
+  .ai-assistant-widget-window,
+  .ai-assistant-history-modal {
+    display: none !important;
+  }
 }
