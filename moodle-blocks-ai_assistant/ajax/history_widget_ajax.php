@@ -1,7 +1,7 @@
 <?php
 /**
  * AJAX endpoint for History Widget
- * Fetches conversation history for a specific lesson
+ * Fetches conversation history for a specific lesson OR general (unfiltered) conversations
  * 
  * @package    block_ai_assistant
  * @copyright  2024 Your Name
@@ -39,6 +39,9 @@ try {
     $page = $data['page'] ?? 1;
     $perpage = $data['perpage'] ?? 20;
     
+    // ✅ Check if this is a general (unfiltered) request
+    $isGeneral = isset($data['general']) && $data['general'] === true;
+    
     // Validate session key
     if ($sesskey !== sesskey()) {
         throw new Exception('Invalid session key');
@@ -49,7 +52,8 @@ try {
         throw new Exception('Course ID is required');
     }
     
-    if (!$lesson) {
+    // Require lesson only if NOT general category
+    if (!$isGeneral && empty($lesson)) {
         throw new Exception('Lesson is required - please select a lesson to view history');
     }
     
@@ -73,20 +77,26 @@ try {
         'courseid' => $courseid
     ];
     
-    // Add filters
-    if (!empty($subject)) {
-        $sql .= " AND subject = :subject";
-        $params['subject'] = $subject;
-    }
-    
-    if (!empty($topic)) {
-        $sql .= " AND topic = :topic";
-        $params['topic'] = $topic;
-    }
-    
-    if (!empty($lesson)) {
-        $sql .= " AND lesson = :lesson";
-        $params['lesson'] = $lesson;
+    // ✅ HANDLE GENERAL CATEGORY - Show conversations with empty/null subject
+    if ($isGeneral) {
+        // Find conversations with no subject filtering (direct chat queries)
+        $sql .= " AND (subject IS NULL OR subject = '' OR subject = 'general')";
+    } else {
+        // Add specific filters for syllabus-based queries
+        if (!empty($subject)) {
+            $sql .= " AND subject = :subject";
+            $params['subject'] = $subject;
+        }
+        
+        if (!empty($topic)) {
+            $sql .= " AND topic = :topic";
+            $params['topic'] = $topic;
+        }
+        
+        if (!empty($lesson)) {
+            $sql .= " AND lesson = :lesson";
+            $params['lesson'] = $lesson;
+        }
     }
     
     // Order by newest first
@@ -97,40 +107,53 @@ try {
     $perpage = max(1, min(50, intval($perpage))); // Max 50 per page
     $offset = ($page - 1) * $perpage;
     
-    // Get total count
+    // ==================== GET TOTAL COUNT ====================
     $countsql = "SELECT COUNT(id) 
                  FROM {block_ai_assistant_history}
                  WHERE userid = :userid 
                    AND courseid = :courseid";
     
-    if (!empty($subject)) {
-        $countsql .= " AND subject = :subject";
-    }
-    if (!empty($topic)) {
-        $countsql .= " AND topic = :topic";
-    }
-    if (!empty($lesson)) {
-        $countsql .= " AND lesson = :lesson";
+    // ✅ Apply same filtering logic for count
+    if ($isGeneral) {
+        $countsql .= " AND (subject IS NULL OR subject = '' OR subject = 'general')";
+    } else {
+        if (!empty($subject)) {
+            $countsql .= " AND subject = :subject";
+        }
+        if (!empty($topic)) {
+            $countsql .= " AND topic = :topic";
+        }
+        if (!empty($lesson)) {
+            $countsql .= " AND lesson = :lesson";
+        }
     }
     
     $totalcount = $DB->count_records_sql($countsql, $params);
     
-    // Get records
+    // ==================== GET RECORDS ====================
     $records = $DB->get_records_sql($sql, $params, $offset, $perpage);
     
-    // Format conversations
+    // ==================== FORMAT CONVERSATIONS ====================
     $conversations = [];
     
     foreach ($records as $record) {
         // Format timestamp
         $formattedtime = userdate($record->timecreated, get_string('strftimedatetimeshort', 'langconfig'));
         
-        // Clean bot response (remove metadata if present)
+        // Clean bot response
         $botresponse = $record->botresponse;
         
         // Remove <think> tags if present
         $botresponse = preg_replace('/<think>[\s\S]*?<\/think>/i', '', $botresponse);
         $botresponse = trim($botresponse);
+        
+        // Get subject/topic/lesson display names (they might be keys)
+        $subjectDisplay = $record->subject;
+        $topicDisplay = $record->topic;
+        $lessonDisplay = $record->lesson;
+        
+        // Convert keys to readable names if needed (optional enhancement)
+        // You could load syllabus and do key-to-name mapping here
         
         $conversations[] = [
             'id' => $record->id,
@@ -139,16 +162,16 @@ try {
             'formattedtime' => $formattedtime,
             'timecreated' => $record->timecreated,
             'functioncalled' => $record->functioncalled,
-            'subject' => $record->subject,
-            'topic' => $record->topic,
-            'lesson' => $record->lesson
+            'subject' => $subjectDisplay,
+            'topic' => $topicDisplay,
+            'lesson' => $lessonDisplay
         ];
     }
     
-    // Calculate pagination info
+    // ==================== CALCULATE PAGINATION ====================
     $totalpages = ceil($totalcount / $perpage);
     
-    // Return success response
+    // ==================== RETURN SUCCESS RESPONSE ====================
     echo json_encode([
         'status' => 'success',
         'conversations' => $conversations,
@@ -159,6 +182,14 @@ try {
             'totalpages' => $totalpages,
             'hasnext' => $page < $totalpages,
             'hasprevious' => $page > 1
+        ],
+        'debug' => [
+            'isGeneral' => $isGeneral,
+            'filters' => [
+                'subject' => $subject,
+                'topic' => $topic,
+                'lesson' => $lesson
+            ]
         ]
     ], JSON_PRETTY_PRINT);
     

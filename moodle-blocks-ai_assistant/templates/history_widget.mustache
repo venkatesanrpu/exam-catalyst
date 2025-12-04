@@ -1,7 +1,8 @@
 {{!
     FILE: blocks/ai_assistant/templates/history_widget.mustache
-    PURPOSE: Modal overlay for viewing chat history
-    NOTE: Gets config from parent main.mustache context
+    PURPOSE: Modal overlay for viewing chat history within the AI Assistant widget
+    FEATURES: Subject/Topic/Lesson filtering + General (unfiltered) category
+    DEPENDENCIES: markdown-it, katex (loaded by main.mustache)
 }}
 
 <!-- History Modal Overlay -->
@@ -16,7 +17,7 @@
             </button>
         </div>
         
-        <!-- Filter Selection -->
+        <!-- Filter Selection (Cascading: Subject -> Topic -> Lesson) -->
         <div class="ai-assistant-history-filters">
             <div class="filter-group">
                 <label for="history-subject">Subject</label>
@@ -44,15 +45,17 @@
             </button>
         </div>
         
-        <!-- History Display Area -->
+        <!-- History Display Area (Accordion) -->
         <div id="ai-assistant-history-body" class="ai-assistant-history-body">
             <div class="empty-state">
-                <p>📚 Select a lesson above to view your conversation history</p>
+                <p>📚 Select a category above to view your conversation history</p>
             </div>
         </div>
         
-        <!-- Pagination -->
-        <div id="ai-assistant-history-pagination" class="ai-assistant-history-pagination" style="display: none;"></div>
+        <!-- Pagination Controls -->
+        <div id="ai-assistant-history-pagination" class="ai-assistant-history-pagination" style="display: none;">
+            <!-- Dynamically populated -->
+        </div>
         
     </div>
 </div>
@@ -89,7 +92,7 @@
     let syllabusData = null;
     const courseid = {{courseid}};
     const sesskey = '{{sesskey}}';
-	const historyAjaxUrl = '{{historywidgetajaxurl}}';  // ✅ ADD THIS
+    const historyAjaxUrl = '{{historywidgetajaxurl}}';
     
     // ==================== RENDERING UTILITIES ====================
     const markdown = window.markdownit ? window.markdownit({
@@ -136,7 +139,7 @@
     
     // ==================== CASCADING DROPDOWNS ====================
     
-    // Populate subjects
+    // Populate subjects with General option first
     const populateSubjects = () => {
         if (!syllabusData || !Array.isArray(syllabusData)) {
             console.error('❌ Invalid syllabus data');
@@ -147,6 +150,19 @@
         console.log('📚 Populating subjects:', syllabusData.length);
         subjectSelect.innerHTML = '<option value="">-- Select Subject --</option>';
         
+        // ✅ ADD GENERAL CATEGORY FIRST
+        const generalOption = document.createElement('option');
+        generalOption.value = 'general';
+        generalOption.textContent = '📝 General (Unfiltered Conversations)';
+        subjectSelect.appendChild(generalOption);
+        
+        // Add visual separator
+        const separator = document.createElement('option');
+        separator.disabled = true;
+        separator.textContent = '────────────────────';
+        subjectSelect.appendChild(separator);
+        
+        // Add syllabus subjects
         syllabusData.forEach(subject => {
             const option = document.createElement('option');
             option.value = subject.subject_key;
@@ -168,7 +184,18 @@
         
         if (!selectedSubjectKey) return;
         
-        // Find subject data
+        // ✅ HANDLE GENERAL CATEGORY - NO TOPIC/LESSON NEEDED
+        if (selectedSubjectKey === 'general') {
+            console.log('📝 General category selected - enabling direct load');
+            topicSelect.innerHTML = '<option value="">Not applicable</option>';
+            lessonSelect.innerHTML = '<option value="">Not applicable</option>';
+            topicSelect.disabled = true;
+            lessonSelect.disabled = true;
+            loadButton.disabled = false;  // Enable load button immediately
+            return;
+        }
+        
+        // Find subject data for syllabus subjects
         const subjectData = syllabusData.find(s => s.subject_key === selectedSubjectKey);
         
         if (subjectData && subjectData.topics && Array.isArray(subjectData.topics)) {
@@ -233,18 +260,31 @@
         historyBody.innerHTML = '<div class="loading">⏳ Loading conversations...</div>';
         
         try {
+            // ✅ Build payload - handle general category
+            const payload = {
+                sesskey: sesskey,
+                courseid: courseid,
+                page: currentPage,
+                perpage: 20
+            };
+            
+            // For general category, explicitly request empty filters
+            if (subjectKey === 'general') {
+                payload.subject = '';
+                payload.topic = '';
+                payload.lesson = '';
+                payload.general = true;  // Flag for backend
+                console.log('📝 Fetching general (unfiltered) conversations');
+            } else {
+                payload.subject = subjectKey;
+                payload.topic = topicKey;
+                payload.lesson = lesson;
+            }
+            
             const response = await fetch(historyAjaxUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    sesskey: sesskey,
-                    courseid: courseid,
-                    subject: subjectKey,
-                    topic: topicKey,
-                    lesson: lesson,
-                    page: currentPage,
-                    perpage: 20
-                })
+                body: JSON.stringify(payload)
             });
             
             if (!response.ok) {
@@ -261,7 +301,7 @@
                 console.log('✅ Loaded', data.conversations.length, 'conversations');
                 renderHistoryAccordion(data.conversations);
             } else {
-                historyBody.innerHTML = '<div class="empty-state"><p>📭 No conversations found for this lesson.</p></div>';
+                historyBody.innerHTML = '<div class="empty-state"><p>📭 No conversations found.</p></div>';
             }
         } catch (error) {
             console.error('❌ Failed to fetch history:', error);
@@ -282,12 +322,25 @@
                 ? conv.usertext.substring(0, 80) + '...' 
                 : conv.usertext;
             
+            // Show subject/topic/lesson if available
+            let contextInfo = '';
+            if (conv.subject || conv.topic || conv.lesson) {
+                const parts = [];
+                if (conv.subject && conv.subject !== 'general') parts.push(conv.subject);
+                if (conv.topic) parts.push(conv.topic);
+                if (conv.lesson) parts.push(conv.lesson);
+                if (parts.length > 0) {
+                    contextInfo = `<div style="font-size: 0.85rem; color: #6c757d; margin-top: 4px;">📂 ${parts.join(' → ')}</div>`;
+                }
+            }
+            
             accordionItem.innerHTML = `
                 <div class="accordion-header" data-index="${index}">
-                    <div>
+                    <div style="flex: 1;">
                         <strong>${conv.formattedtime}:</strong> ${truncatedText}
+                        ${contextInfo}
                     </div>
-                    <span style="color: #6c757d;">▼</span>
+                    <span style="color: #6c757d; font-size: 1.2rem;">▼</span>
                 </div>
                 <div class="accordion-content" style="display: none;">
                     <div class="message user-message">
@@ -339,7 +392,11 @@
         const topicKey = topicSelect.value;
         const lesson = lessonSelect.value;
         
-        if (subjectKey && topicKey && lesson) {
+        // ✅ Allow general category without topic/lesson
+        if (subjectKey === 'general') {
+            console.log('🔍 Fetching general (unfiltered) conversations');
+            fetchHistory('general', '', '');
+        } else if (subjectKey && topicKey && lesson) {
             console.log('🔍 Fetching history for:', { subjectKey, topicKey, lesson });
             fetchHistory(subjectKey, topicKey, lesson);
         } else {
@@ -361,7 +418,7 @@
     window.closeHistoryWidget = function() {
         console.log('❌ Closing History Widget...');
         modal.style.display = 'none';
-        historyBody.innerHTML = '<div class="empty-state"><p>📚 Select a lesson above to view your conversation history</p></div>';
+        historyBody.innerHTML = '<div class="empty-state"><p>📚 Select a category above to view your conversation history</p></div>';
         pagination.style.display = 'none';
     };
     

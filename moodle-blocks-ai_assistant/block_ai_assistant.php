@@ -8,7 +8,7 @@ class block_ai_assistant extends block_base {
     }
 
     public function get_content() {
-        global $COURSE, $DB, $OUTPUT;
+        global $COURSE, $DB, $OUTPUT, $PAGE;
 
         if ($this->content !== null) {
             return $this->content;
@@ -17,6 +17,9 @@ class block_ai_assistant extends block_base {
         $this->content = new stdClass();
         $this->content->text = '';
         $this->content->footer = '';
+		
+		// ✅ LOAD CUSTOM CSS
+		$PAGE->requires->css('/blocks/ai_assistant/styles.css');
 		
 
         // Get agent configuration

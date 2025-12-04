@@ -678,6 +678,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* Accordion header - DARK TEXT */
 .accordion-header {
   padding: 16px 20px;
   background: #f8f9fa;
@@ -693,35 +694,41 @@
   background: #e9ecef;
 }
 
+/* Timestamp - DARK BOLD */
 .accordion-header strong {
-  color: #212529;  /* ✅ Dark timestamp */
+  color: #212529;  /* ✅ Near-black instead of #495057 */
   margin-right: 8px;
   font-weight: 700;
 }
 
+/* Question preview text - DARK */
 .accordion-header > div {
-  color: #495057;  /* ✅ Medium-dark for question preview */
+  color: #212529;  /* ✅ Near-black instead of light gray */
   flex: 1;
 }
 
+/* Arrow indicator */
 .accordion-header > span {
-  color: #6c757d;  /* Arrow indicator */
+  color: #6c757d;
   font-size: 0.8rem;
 }
 
+
+/* Accordion content container */
 .accordion-content {
   padding: 20px;
   border-top: 1px solid #d0d0d0;
   background: #ffffff;
 }
 
-/* Messages inside accordion */
+/* Message container inside accordion */
 .accordion-content .message {
   margin-bottom: 16px;
   display: flex;
   gap: 12px;
 }
 
+/* Avatar circles */
 .accordion-content .message .avatar {
   width: 40px;
   height: 40px;
@@ -730,19 +737,22 @@
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  color: #ffffff;  /* ✅ Pure white */
+  color: #ffffff;  /* White text in avatar */
   flex-shrink: 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+/* User avatar - Green */
 .accordion-content .user-message .avatar {
   background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
 }
 
+/* Bot avatar - Blue */
 .accordion-content .bot-message .avatar {
   background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
 }
 
+/* Message content box - DARK TEXT */
 .accordion-content .message .content {
   flex: 1;
   padding: 14px 16px;
@@ -750,18 +760,113 @@
   background: #f8f9fa;
   border: 1px solid #e0e0e0;
   line-height: 1.6;
-  color: #212529;  /* ✅ Dark text for readability */
+  color: #212529;  /* ✅ DARK TEXT - This is the key fix! */
+  font-size: 0.95rem;
 }
 
-/* Ensure all text in accordion content is readable */
+/* ✅ FORCE DARK TEXT FOR ALL ELEMENTS INSIDE */
+.accordion-content .message .content,
 .accordion-content .message .content p,
+.accordion-content .message .content div,
+.accordion-content .message .content span,
 .accordion-content .message .content h1,
 .accordion-content .message .content h2,
 .accordion-content .message .content h3,
 .accordion-content .message .content h4,
-.accordion-content .message .content li {
-  color: #212529;  /* ✅ Dark text */
+.accordion-content .message .content h5,
+.accordion-content .message .content h6,
+.accordion-content .message .content li,
+.accordion-content .message .content ul,
+.accordion-content .message .content ol {
+  color: #212529 !important;  /* ✅ Dark text everywhere */
 }
+
+/* Headings inside accordion */
+.accordion-content .message .content h1 { 
+  font-size: 1.5em; 
+  font-weight: 700; 
+  color: #212529;
+  margin-bottom: 0.5em;
+}
+
+.accordion-content .message .content h2 { 
+  font-size: 1.3em; 
+  font-weight: 700; 
+  color: #212529;
+  margin-bottom: 0.5em;
+}
+
+.accordion-content .message .content h3 { 
+  font-size: 1.15em; 
+  font-weight: 600; 
+  color: #212529;
+  margin-bottom: 0.5em;
+}
+
+.accordion-content .message .content h4 { 
+  font-size: 1.05em; 
+  font-weight: 600; 
+  color: #212529;
+  margin-bottom: 0.5em;
+}
+
+/* Lists */
+.accordion-content .message .content ul,
+.accordion-content .message .content ol {
+  margin-left: 20px;
+  margin-bottom: 0.75em;
+}
+
+.accordion-content .message .content li {
+  margin-bottom: 0.5em;
+  color: #212529;
+}
+
+/* Links */
+.accordion-content .message .content a {
+  color: #0056b3;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.accordion-content .message .content a:hover {
+  color: #003d82;
+}
+
+/* Code blocks */
+.accordion-content .message .content pre {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 0.75em;
+}
+
+.accordion-content .message .content code {
+  background-color: #f4f4f4;
+  color: #c7254e;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* Strong/Bold text */
+.accordion-content .message .content strong,
+.accordion-content .message .content b {
+  font-weight: 700;
+  color: #212529;
+}
+
+/* Emphasis/Italic text */
+.accordion-content .message .content em,
+.accordion-content .message .content i {
+  font-style: italic;
+  color: #212529;
+}
+
 
 /* Pagination */
 .ai-assistant-history-pagination {
@@ -886,4 +991,48 @@ textarea:focus-visible {
   .ai-assistant-history-modal {
     display: none !important;
   }
+}
+
+/* ========================================
+   HISTORY WIDGET TEXT FIX - HIGH CONTRAST
+   ======================================== */
+
+/* Force dark text in accordion headers */
+.ai-assistant-history-body .accordion-header,
+.ai-assistant-history-body .accordion-header strong,
+.ai-assistant-history-body .accordion-header div {
+  color: #212529 !important;
+}
+
+/* Force dark text in accordion content */
+.ai-assistant-history-body .accordion-content .message .content,
+.ai-assistant-history-body .accordion-content .message .content *:not(pre):not(code) {
+  color: #212529 !important;
+}
+
+/* Keep code blocks dark background with light text */
+.ai-assistant-history-body .accordion-content .message .content pre {
+  background-color: #2d2d2d !important;
+  color: #f8f8f2 !important;
+}
+
+.ai-assistant-history-body .accordion-content .message .content pre * {
+  color: #f8f8f2 !important;
+}
+
+/* Inline code - pink text on light background */
+.ai-assistant-history-body .accordion-content .message .content code {
+  background-color: #f4f4f4 !important;
+  color: #c7254e !important;
+}
+
+/* Links - dark blue */
+.ai-assistant-history-body .accordion-content .message .content a {
+  color: #0056b3 !important;
+}
+
+/* LaTeX/Math (rendered by KaTeX) */
+.ai-assistant-history-body .accordion-content .message .content .katex,
+.ai-assistant-history-body .accordion-content .message .content .katex * {
+  color: #212529 !important;
 }
