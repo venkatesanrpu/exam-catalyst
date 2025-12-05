@@ -35,6 +35,8 @@ class block_ai_assistant extends block_base {
         $youtubesummarizeajaxurl = new moodle_url('/blocks/ai_assistant/ajax/youtube_summarize_ajax.php');
 		$historywidgetajaxurl = new moodle_url('/blocks/ai_assistant/ajax/history_widget_ajax.php');
 		$getsyllabusajaxurl = new moodle_url('/blocks/ai_assistant/ajax/get_syllabus_ajax.php');
+		$getmcqwidgetajaxurl = new moodle_url('/blocks/ai_assistant/ajax/mcq_widget_ajax.php');
+
 
         // Detect page context
         $pagesubject = '';
@@ -65,6 +67,7 @@ class block_ai_assistant extends block_base {
             'youtubesummarizeajaxurl' => $youtubesummarizeajaxurl->out(false), // ✅ FIXED
 			'historywidgetajaxurl' => $historywidgetajaxurl->out(false), // ✅ FIX FOR HISTORY WIDGET AJAX URL
 			'getsyllabusajaxurl' => $getsyllabusajaxurl->out(false),
+			'mcqwidgetajaxurl' => $getmcqwidgetajaxurl->out(false), // ✅ FIX FOR MCQ WIDGET AJAX URL
             'pagesubject' => $pagesubject,
             'pagetopic' => $pagetopic
         ];

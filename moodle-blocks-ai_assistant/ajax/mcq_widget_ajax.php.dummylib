@@ -1,0 +1,150 @@
+<?php
+/**
+ * MCQ Widget AJAX Endpoint (Flashcard JSON Response)
+ * FILE: blocks/ai_assistant/ajax/mcq_widget_ajax.php
+ */
+
+define('AJAX_SCRIPT', true);
+
+// Enable error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+
+require_once(__DIR__ . '/../../../config.php');
+
+// Check for dummy library
+$dummy_lib_path = $CFG->dirroot . '/local/ai_functions/lib_dummy.php';
+
+if (!file_exists($dummy_lib_path)) {
+    http_response_code(500);
+    header('Content-Type: application/json');
+    echo json_encode([
+        'status' => 'error',
+        'message' => 'Dummy library file not found',
+        'debug' => [
+            'expected_path' => $dummy_lib_path,
+            'dirroot' => $CFG->dirroot,
+            'file_exists' => false
+        ]
+    ]);
+    die();
+}
+
+require_once($dummy_lib_path);
+
+require_login();
+require_sesskey();
+
+// Set headers
+header('Content-Type: application/json');
+header('Cache-Control: no-cache');
+
+// Disable output buffering
+while (ob_get_level() > 0) {
+    ob_end_clean();
+}
+
+set_time_limit(240);
+ini_set('max_execution_time', 240);
+
+try {
+    // Get parameters
+    $agentkey = required_param('agent_config_key', PARAM_ALPHANUMEXT);
+    $level = required_param('level', PARAM_ALPHA);
+    $agenttext = required_param('agent_text', PARAM_RAW);
+    $target = optional_param('target', 'CSIR Chemical Sciences Exam', PARAM_TEXT);
+    $subject = optional_param('subject', 'Chemistry', PARAM_TEXT);
+    $topic = optional_param('topic', '', PARAM_TEXT);
+    $lesson = optional_param('lesson', '', PARAM_TEXT);
+    $tags = optional_param('tags', '', PARAM_RAW);
+
+    // Validate level
+    $valid_levels = ['basic', 'intermediate', 'advanced'];
+    if (!in_array($level, $valid_levels)) {
+        throw new Exception('Invalid level: ' . $level);
+    }
+
+    // Determine question count
+    switch ($level) {
+        case 'basic':
+            $question_count = 10;
+            break;
+        case 'intermediate':
+            $question_count = 10;
+            break;
+        case 'advanced':
+            $question_count = 5;
+            break;
+        default:
+            $question_count = 5;
+    }
+
+    // Build payload
+    $payload = [
+        'function' => 'mcq_widget',
+        'level' => $level,
+        'agent_text' => $agenttext,
+        'target' => $target,
+        'subject' => $subject,
+        'topic' => $topic,
+        'lesson' => $lesson,
+        'tags' => $tags,
+        'question_count' => $question_count
+    ];
+
+    // Call dummy endpoint
+    $response_json = local_ai_functions_call_endpoint($agentkey, 'mcq_widget', $payload);
+    
+    if (!$response_json) {
+        throw new Exception('Empty response from dummy function');
+    }
+    
+    $response = json_decode($response_json, true);
+    
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        throw new Exception('JSON decode error: ' . json_last_error_msg() . ' | Response: ' . substr($response_json, 0, 200));
+    }
+    
+    if (!$response || !isset($response['mcq_data'])) {
+        throw new Exception('Invalid dummy response structure. Response keys: ' . implode(', ', array_keys($response ?: [])));
+    }
+
+    $mcq_data = $response['mcq_data'];
+
+    // Validate structure
+    if (!isset($mcq_data['questions']) || !is_array($mcq_data['questions'])) {
+        throw new Exception('Invalid MCQ data structure. Keys: ' . implode(', ', array_keys($mcq_data ?: [])));
+    }
+    
+    if (count($mcq_data['questions']) === 0) {
+        throw new Exception('No questions generated');
+    }
+
+    // Add metadata
+    $mcq_data['metadata'] = [
+        'level' => $level,
+        'count' => count($mcq_data['questions']),
+        'subject' => $subject,
+        'topic' => $topic,
+        'lesson' => $lesson,
+        'is_dummy' => true,
+        'generated_at' => time()
+    ];
+
+    // Return success response
+    echo json_encode([
+        'status' => 'success',
+        'data' => $mcq_data
+    ], JSON_PRETTY_PRINT);
+
+} catch (Exception $e) {
+    http_response_code(500);
+    echo json_encode([
+        'status' => 'error',
+        'message' => $e->getMessage(),
+        'file' => $e->getFile(),
+        'line' => $e->getLine(),
+        'trace' => explode("\n", $e->getTraceAsString())
+    ], JSON_PRETTY_PRINT);
+}

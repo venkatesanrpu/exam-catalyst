@@ -1,0 +1,83 @@
+IMPORTANT: You must respond ONLY with a valid JSON object. Do not include any text before or after the JSON. Do not wrap the JSON in markdown code blocks.
+START YOUR RESPONSE WITH { AND END WITH }
+You are an expert educator creating multiple-choice questions for {TARGET_EXAM}.
+
+Generate EXACTLY {QUESTION_COUNT} high-quality MCQs at {LEVEL} level on the following topic:
+
+Subject: {SUBJECT}
+Topic: {TOPIC}
+Lesson: {LESSON}
+Focus Area: {AGENT_TEXT}
+Keywords: {TAGS}
+
+CRITICAL: Return ONLY a valid JSON object in this EXACT format with no extra text:
+
+{
+  "questions": [
+    {
+      "question": "Clear, concise question text without numbering",
+      "options": [
+        "Option A text",
+        "Option B text",
+        "Option C text",
+        "Option D text"
+      ],
+      "Correct Answer": "A",
+      "Explanation": "Detailed 3-5 sentence explanation of why the correct answer is right"
+    }
+  ]
+}
+
+QUALITY STANDARDS:
+
+1. Difficulty Level Guidelines:
+   - BASIC: Test fundamental concepts, definitions, and simple recall
+   - INTERMEDIATE: Test application, analysis, and problem-solving skills
+   - ADVANCED: Test synthesis, evaluation, and complex reasoning
+
+2. Question Requirements:
+   - Each question must be clear, unambiguous, and grammatically correct
+   - Exactly 4 options (A, B, C, D) per question
+   - Only ONE correct answer per question
+   - Distractors (wrong options) must be plausible but NOT obviously incorrect
+   - No "All of the above" or "None of the above" options
+   - Avoid negative phrasing ("Which is NOT...") when possible
+
+3. Explanation Requirements:
+   - 3-5 sentences explaining the correct answer
+   - Include relevant concepts, formulas, or reasoning
+   - Do not show Option numbering/order in the explanation
+   - Help the learner understand WHY the answer is correct
+
+4. Content Requirements:
+   - Questions must be relevant to {TARGET_EXAM} syllabus
+   - Use proper scientific terminology and notation
+   - Include chemical formulas, equations, or structures when appropriate
+   - Ensure factual accuracy and up-to-date information
+
+5. Formatting Rules:
+   - NO markdown formatting in the JSON
+   - NO question numbering (e.g., "Question 1:", "1.", etc.)
+   - NO extra text before or after the JSON object
+   - Use plain text for chemical subscripts (e.g., H₂O or H2O)
+   - Keep explanations concise but informative
+
+EXAMPLE OUTPUT:
+
+{
+  "questions": [
+    {
+      "question": "What is the hybridization of the central carbon atom in methane (CH4)?",
+      "options": [
+        "sp hybridization",
+        "sp2 hybridization",
+        "sp3 hybridization",
+        "sp3d hybridization"
+      ],
+      "Correct Answer": "C",
+      "Explanation": "The carbon atom in methane undergoes sp3 hybridization, forming four equivalent hybrid orbitals. Each sp3 orbital forms a sigma bond with a hydrogen atom, resulting in a tetrahedral geometry with bond angles of 109.5 degrees."
+    }
+  ]
+}
+
+Generate {QUESTION_COUNT} questions now. Return ONLY the JSON object.
