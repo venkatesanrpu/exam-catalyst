@@ -555,20 +555,20 @@
           }, agentState.isChatVisible ? 0 : 300);
         }
         
-        // MCQ links
-        if (e.target.classList.contains('mcq-link')) {
+                // MCQ links (supports both .mcq-link and .mcq-flashcard-link for backward compatibility)
+        const mcqLink = e.target.closest('.mcq-link, .mcq-flashcard-link');
+        if (mcqLink) {
           e.preventDefault();
-          const dataset = e.target.dataset;
+          const dataset = mcqLink.dataset;
           
           if (!dataset.function || !dataset.level || !dataset.agentText) {
             console.error('MCQ link missing required data');
             return;
           }
           
-          if (!agentState.isChatVisible) openChatWindow();
-          
-          setTimeout(() => {
-            sendMessage({
+          // Try to open MCQ modal directly first
+          if (typeof window.openMCQWidget === 'function') {
+            window.openMCQWidget({
               function: dataset.function,
               level: dataset.level,
               agent_text: dataset.agentText,
@@ -578,33 +578,26 @@
               lesson: dataset.lesson || '',
               tags: dataset.tags || ''
             });
-          }, agentState.isChatVisible ? 0 : 300);
-        }
-        
-        // Web Search links
-        if (e.target.classList.contains('websearch-link')) {
-          e.preventDefault();
-          const dataset = e.target.dataset;
-          
-          if (!dataset.function || !dataset.agentText) {
-            console.error('WebSearch link missing required data');
-            return;
+          } else {
+            // Fallback: send through main chat if modal not available
+            console.warn('⚠️ openMCQWidget not available, using chat fallback');
+            if (!agentState.isChatVisible) openChatWindow();
+            
+            setTimeout(() => {
+              sendMessage({
+                function: dataset.function,
+                level: dataset.level,
+                agent_text: dataset.agentText,
+                target: dataset.target || 'CSIR Chemical Sciences Exam',
+                subject: dataset.subject || '',
+                topic: dataset.topic || '',
+                lesson: dataset.lesson || '',
+                tags: dataset.tags || ''
+              });
+            }, agentState.isChatVisible ? 0 : 300);
           }
-          
-          if (!agentState.isChatVisible) openChatWindow();
-          
-          setTimeout(() => {
-            sendMessage({
-              function: dataset.function,
-              agent_text: dataset.agentText,
-              search_query: dataset.searchQuery || dataset.agentText,
-              target: dataset.target || 'CSIR Chemical Sciences Exam',
-              subject: dataset.subject || '',
-              topic: dataset.topic || '',
-              lesson: dataset.lesson || ''
-            });
-          }, agentState.isChatVisible ? 0 : 300);
         }
+
         
         // YouTube Summarize links
         if (e.target.classList.contains('youtube-summarize-link')) {
