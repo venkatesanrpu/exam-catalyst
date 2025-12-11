@@ -1,0 +1,383 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Stereochemistry - Chirality, symmetry, absolute configurations, relative stereochemistry, homotopic/enantiotopic/diastereotopic atoms, stereoselective/stereospecific synthesis, conformational analysis, geometrical/optical isomerism, configurational/conformational effects, atropisomerism, neighbouring group participation
+
+concepts:
+  core:
+    - name: Chirality and Stereogenic Centres
+      clarifier: Recognition of chiral centres, molecular asymmetry, and conditions for chirality in organic molecules
+    - name: Absolute Configuration Determination
+      clarifier: R/S nomenclature, CIP rules, assignment of stereochemical descriptors
+    - name: Relative Stereochemistry
+      clarifier: Stereochemical relationships in polystereocentred compounds, Fischer projections, Newman diagrams
+    - name: Conformational Analysis
+      clarifier: Rotational isomerism, staggered/eclipsed conformations, gauche interactions, A-strain in cyclic systems
+    - name: Geometrical Isomerism
+      clarifier: E/Z nomenclature, cis-trans isomerism in alkenes and cycloalkanes
+    - name: Stereoselective and Stereospecific Synthesis
+      clarifier: Diastereoselective reactions, enantioselective transformations, mechanistic control
+    - name: Configurational and Conformational Effects on Reactivity
+      clarifier: How stereochemistry influences reaction pathways, selectivity, and product distribution
+    - name: Neighbouring Group Participation
+      clarifier: Anchimeric assistance, formation of intermediate bridged species, stereoelectronic effects
+
+  related:
+    - name: Homotopic, Enantiotopic, and Diastereotopic Relationships
+      clarifier: Classification of atoms/groups/faces based on stereochemical equivalence
+    - name: Optical Isomerism
+      clarifier: Enantiomerism, racemization, optical rotation, and enantiomeric excess
+    - name: Atropisomerism
+      clarifier: Restricted rotation leading to stereoisomerism despite no chiral centres
+    - name: Symmetry Operations and Point Groups
+      clarifier: Molecular symmetry analysis, plane/axis of symmetry in determining chirality
+    - name: 3D Molecular Visualization
+      clarifier: Fischer, Newman, and wedge-dash representations for stereochemical communication
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Chirality and Symmetry
+    learning_objectives:
+      - Define chirality and identify chiral centres in organic molecules
+      - Distinguish between chiral and achiral compounds using symmetry elements
+      - Recognize stereogenic centres and pseudo-chiral centres
+      - Apply symmetry operations to determine molecular chirality
+    textbook_style_content:
+      - lesson: Introduction to Stereochemistry and Molecular Asymmetry
+        sections:
+          - section_heading: Definition of Chirality and Chiral Molecules
+            section_type: overview
+          - section_heading: Stereogenic Centres and Conditions for Chirality
+            section_type: core_theory
+          - section_heading: Symmetry Elements, Plane of Symmetry, and Axes of Rotation
+            section_type: core_theory
+          - section_heading: Prochirality and Pseudo-Chiral Centres
+            section_type: related_concepts
+    milestone: Confident identification of chiral centres and symmetry classification
+    duration_days: 3
+    tags:
+      - fundamentals
+      - symmetry
+      - chirality
+
+  - id: 2
+    topic: Absolute Configuration and R/S Nomenclature
+    learning_objectives:
+      - Master the Cahn-Ingold-Prelog priority rules
+      - Assign R/S descriptors to stereogenic centres
+      - Handle complex priority assignments with multiple stereocentres
+      - Represent stereochemistry using Fischer, Newman, and wedge-dash notation
+    textbook_style_content:
+      - lesson: Absolute Configuration Determination Methods
+        sections:
+          - section_heading: Cahn-Ingold-Prelog (CIP) Rules and Priority Assignment
+            section_type: core_theory
+          - section_heading: R/S Nomenclature and Stereochemical Descriptors
+            section_type: core_theory
+          - section_heading: Three-Dimensional Representations—Fischer, Newman, and Wedge-Dash
+            section_type: core_theory
+          - section_heading: Multi-Stereocentre Compounds and Complex Priority Cases
+            section_type: core_theory
+    milestone: Rapid and accurate assignment of R/S configurations in complex molecules
+    duration_days: 4
+    tags:
+      - nomenclature
+      - cip-rules
+      - stereochemical_notation
+
+  - id: 3
+    topic: Relative Stereochemistry and Polystereocentred Compounds
+    learning_objectives:
+      - Determine relative stereochemical relationships between multiple stereocentres
+      - Use erythro/threo and syn/anti nomenclature appropriately
+      - Analyze diastereomeric relationships in complex molecules
+      - Apply Fischer projection techniques for relative stereochemistry
+    textbook_style_content:
+      - lesson: Relative Stereochemistry in Polystereogenic Compounds
+        sections:
+          - section_heading: Definition of Relative Stereochemistry and Diastereomers
+            section_type: overview
+          - section_heading: Erythro/Threo and Syn/Anti Nomenclature Systems
+            section_type: core_theory
+          - section_heading: Fischer Projections and Stereochemical Relationships
+            section_type: core_theory
+          - section_heading: Examples of Polystereocentred Natural Products
+            section_type: related_concepts
+    milestone: Fluent interpretation of relative stereochemistry in natural and synthetic molecules
+    duration_days: 3
+    tags:
+      - relative_stereochemistry
+      - diastereomers
+      - fischer_projections
+
+  - id: 4
+    topic: Homotopic, Enantiotopic, and Diastereotopic Classification
+    learning_objectives:
+      - Classify atoms, groups, and faces as homotopic, enantiotopic, or diastereotopic
+      - Predict NMR splitting patterns based on topological relationships
+      - Determine when prochiral compounds can become chiral in asymmetric environments
+      - Apply topological analysis to synthetic strategy design
+    textbook_style_content:
+      - lesson: Topological Classification of Atoms and Groups
+        sections:
+          - section_heading: Definitions—Homotopic, Enantiotopic, and Diastereotopic
+            section_type: overview
+          - section_heading: Distinguishability in Asymmetric Environments
+            section_type: core_theory
+          - section_heading: Prochiral Compounds and Face Differentiation
+            section_type: core_theory
+          - section_heading: NMR Implications and Stereospecific Synthetic Applications
+            section_type: related_concepts
+    milestone: Proficient topological analysis for reaction prediction and NMR interpretation
+    duration_days: 3
+    tags:
+      - prochirality
+      - topological_classification
+      - nmr_stereochemistry
+
+  - id: 5
+    topic: Conformational Analysis—Acyclic Systems
+    learning_objectives:
+      - Analyze rotamers and rotational isomerism in acyclic compounds
+      - Identify staggered, eclipsed, and gauche conformations
+      - Calculate conformational energies and predict preferred conformations
+      - Apply Newman diagrams to complex acyclic systems
+    textbook_style_content:
+      - lesson: Conformational Analysis of Acyclic Molecules
+        sections:
+          - section_heading: Rotational Isomerism and Conformers
+            section_type: overview
+          - section_heading: Newman Projection Analysis—Staggered vs. Eclipsed
+            section_type: core_theory
+          - section_heading: Gauche Interactions and Conformational Energies
+            section_type: core_theory
+          - section_heading: Butane Rotamers and Energy Diagrams
+            section_type: core_theory
+          - section_heading: Ramachandran-Type Plots for Peptide Systems
+            section_type: related_concepts
+    milestone: Accurate prediction of acyclic conformational preferences and energy rankings
+    duration_days: 4
+    tags:
+      - conformational_analysis
+      - newman_diagrams
+      - rotamers
+      - acyclic
+
+  - id: 6
+    topic: Conformational Analysis—Cyclic Systems
+    learning_objectives:
+      - Analyze chair, boat, and skew-boat conformations in cyclohexane
+      - Predict axial-equatorial preferences and substituent effects
+      - Apply A-strain and 1,3-diaxial interactions to conformational stability
+      - Analyze conformations of other cycloalkanes and heterocycles
+    textbook_style_content:
+      - lesson: Conformational Analysis of Cyclic Compounds
+        sections:
+          - section_heading: Cyclohexane Chair Conformation and Ring Flipping
+            section_type: core_theory
+          - section_heading: Axial-Equatorial Substituent Effects and Anomeric Effect
+            section_type: core_theory
+          - section_heading: 1,3-Diaxial Interactions and A-Strain
+            section_type: core_theory
+          - section_heading: Boat, Skew-Boat, and Half-Chair Conformations
+            section_type: core_theory
+          - section_heading: Cyclopentane, Smaller and Larger Rings, and Heterocycles
+            section_type: related_concepts
+    milestone: Expert conformational analysis of cyclic systems with predictive accuracy
+    duration_days: 4
+    tags:
+      - conformational_analysis
+      - cyclohexane
+      - cycloalkanes
+      - a-strain
+
+  - id: 7
+    topic: Geometrical Isomerism and E/Z Nomenclature
+    learning_objectives:
+      - Distinguish geometrical (cis-trans) isomerism from optical isomerism
+      - Apply E/Z nomenclature to alkene geometry
+      - Determine Z/E configuration in cycloalkenes and substituted alkenes
+      - Predict stability and reactivity based on geometrical configuration
+    textbook_style_content:
+      - lesson: Geometrical Isomerism in Unsaturated Compounds
+        sections:
+          - section_heading: Cis-Trans Isomerism in Alkenes
+            section_type: overview
+          - section_heading: E/Z Nomenclature and Priority Rules
+            section_type: core_theory
+          - section_heading: Cycloalkenes and Geometrical Constraints
+            section_type: core_theory
+          - section_heading: Stability Factors—Steric Hindrance and Orbital Overlap
+            section_type: related_concepts
+    milestone: Accurate assignment of E/Z configurations and prediction of isomer stability
+    duration_days: 3
+    tags:
+      - geometrical_isomerism
+      - e_z_nomenclature
+      - alkene_geometry
+
+  - id: 8
+    topic: Optical Isomerism, Enantiomerism, and Optical Activity
+    learning_objectives:
+      - Define enantiomers and racemic mixtures
+      - Understand optical rotation, specific rotation, and enantiomeric excess
+      - Predict the optical activity of stereoisomers
+      - Analyze racemization mechanisms and kinetic/thermodynamic stability of enantiomers
+    textbook_style_content:
+      - lesson: Optical Isomerism and Enantiomeric Relationships
+        sections:
+          - section_heading: Enantiomers, Diastereomers, and Meso Compounds
+            section_type: overview
+          - section_heading: Optical Rotation, Specific Rotation, and Polarimetry
+            section_type: core_theory
+          - section_heading: Enantiomeric Excess (ee) and Diastereomeric Excess (de)
+            section_type: core_theory
+          - section_heading: Racemization Pathways and Optical Stability
+            section_type: related_concepts
+    milestone: Comprehensive understanding of enantiomeric relationships and optical measurements
+    duration_days: 3
+    tags:
+      - optical_isomerism
+      - enantiomerism
+      - optical_activity
+      - ee_de
+
+  - id: 9
+    topic: Stereoselective and Stereospecific Synthesis
+    learning_objectives:
+      - Distinguish stereoselective from stereospecific reactions
+      - Apply diastereoselectivity in synthetic transformations
+      - Understand enantioselectivity and catalytic asymmetric synthesis
+      - Analyze mechanistic factors controlling stereochemical outcome
+    textbook_style_content:
+      - lesson: Stereochemical Control in Organic Synthesis
+        sections:
+          - section_heading: Definitions—Stereoselective vs. Stereospecific Reactions
+            section_type: overview
+          - section_heading: Diastereoselectivity and Substrate Control
+            section_type: core_theory
+          - section_heading: Enantioselectivity and Reagent-/Catalyst-Controlled Reactions
+            section_type: core_theory
+          - section_heading: Examples—Diels-Alder, Grignard, and Hydroboration Reactions
+            section_type: core_theory
+          - section_heading: Asymmetric Catalysis and Catalytic Enantioselective Synthesis
+            section_type: related_concepts
+    milestone: Strategic design of stereoselective syntheses with mechanistic understanding
+    duration_days: 4
+    tags:
+      - stereoselective_synthesis
+      - stereospecific_reactions
+      - asymmetric_synthesis
+
+  - id: 10
+    topic: Configurational and Conformational Effects on Reactivity
+    learning_objectives:
+      - Analyze how absolute configuration influences reactivity
+      - Predict selectivity based on conformational preferences
+      - Apply Cram's rule and Felkin-Anh models to product prediction
+      - Evaluate stereoelectronic effects on reaction rates and selectivity
+    textbook_style_content:
+      - lesson: Stereochemistry and Reaction Selectivity
+        sections:
+          - section_heading: Configurational Effects on Reactivity and Selectivity
+            section_type: overview
+          - section_heading: Conformational Preferences and Reaction Pathways
+            section_type: core_theory
+          - section_heading: Cram's Rule and Felkin-Anh Model for Nucleophilic Addition
+            section_type: core_theory
+          - section_heading: Stereoelectronic Effects—Gauche Effect and Anomeric Effect
+            section_type: core_theory
+          - section_heading: Predictive Models and Reaction Control in Synthesis
+            section_type: related_concepts
+    milestone: Predictive mastery of stereochemical control in organic transformations
+    duration_days: 4
+    tags:
+      - stereoelectronic_effects
+      - reactivity_selectivity
+      - cram_rule
+      - felkin_anh
+
+  - id: 11
+    topic: Atropisomerism and Restricted Rotation
+    learning_objectives:
+      - Recognize atropisomerism in molecules lacking traditional chiral centres
+      - Understand rotational barriers and their origin
+      - Analyze biaryls, dienes, and other systems prone to atropisomerism
+      - Apply atropisomeric considerations to synthesis and catalysis
+    textbook_style_content:
+      - lesson: Atropisomerism and Non-Chiral-Centre Stereoisomerism
+        sections:
+          - section_heading: Definition of Atropisomerism and Restricted Rotation
+            section_type: overview
+          - section_heading: Biaryl Atropisomers and Energy Barriers
+            section_type: core_theory
+          - section_heading: Other Systems—Alkylidene Cycloalkanes and Hindered Dienes
+            section_type: core_theory
+          - section_heading: Optical Activity without Chiral Centres
+            section_type: core_theory
+          - section_heading: Applications in Asymmetric Catalysis
+            section_type: related_concepts
+    milestone: Recognition and analysis of atropisomeric compounds in synthetic contexts
+    duration_days: 3
+    tags:
+      - atropisomerism
+      - restricted_rotation
+      - biaryl_systems
+
+  - id: 12
+    topic: Neighbouring Group Participation and Anchimeric Assistance
+    learning_objectives:
+      - Identify structural features prone to neighbouring group participation
+      - Analyze mechanisms of anchimeric assistance
+      - Predict stereochemical outcomes of reactions with neighbouring group participation
+      - Distinguish between neighbouring group participation and simple conformational effects
+    textbook_style_content:
+      - lesson: Neighbouring Group Participation in Organic Reactions
+        sections:
+          - section_heading: Overview of Neighbouring Group Effects and Anchimeric Assistance
+            section_type: overview
+          - section_heading: Mechanisms—Formation of Bridged Intermediates
+            section_type: core_theory
+          - section_heading: Neighbouring Group Participation in Substitution Reactions (SN1, SN2)
+            section_type: core_theory
+          - section_heading: Neighbouring Group Effects in Addition Reactions
+            section_type: core_theory
+          - section_heading: Stereochemical Consequences and Product Control
+            section_type: core_theory
+          - section_heading: Examples—Tosylate Rearrangements, Epoxide Formation, Oxirane Intermediates
+            section_type: related_concepts
+    milestone: Expert prediction of reaction outcomes involving neighbouring group participation
+    duration_days: 4
+    tags:
+      - neighbouring_group_participation
+      - anchimeric_assistance
+      - bridged_intermediates
+      - reaction_mechanisms
+
+  - id: 13
+    topic: Integrated Problem-Solving and Examination Practice
+    learning_objectives:
+      - Synthesize all stereochemistry concepts in multi-step analyses
+      - Solve complex GATE-style problems integrating multiple stereochemical topics
+      - Develop rapid, accurate stereochemical reasoning for examination conditions
+      - Apply learned principles to novel molecular scenarios
+    textbook_style_content:
+      - lesson: Comprehensive Stereochemistry Problem Analysis
+        sections:
+          - section_heading: Multi-Concept Problems—Chirality, Conformation, and Reactivity
+            section_type: core_theory
+          - section_heading: GATE-Style Multiple-Choice Problems with Stereochemical Complexity
+            section_type: core_theory
+          - section_heading: Structure Elucidation and Stereochemical Assignment
+            section_type: core_theory
+          - section_heading: Synthesis Problems Requiring Stereochemical Control
+            section_type: core_theory
+          - section_heading: Mechanism Problems with Stereochemical Tracking
+            section_type: related_concepts
+    milestone: Confident, rapid solution of integrated stereochemistry problems at GATE level
+    duration_days: 5
+    tags:
+      - problem_solving
+      - gate_preparation
+      - integrated_analysis
+      - examination_practice

@@ -1,0 +1,334 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Reaction Mechanisms - Basic mechanistic concepts – kinetic versus thermodynamic control, Hammond’s postulate and Curtin-Hammett principle. Methods of determining reaction mechanisms through kinetics, identification of products, intermediates and isotopic labelling. Linear free-energy relationship – Hammett and Taft equations. Nucleophilic and electrophilic substitution reactions (both aromatic and aliphatic). Addition reactions to carbon-carbon and carbon-heteroatom (N and O) multiple bonds. Elimination reactions.
+
+concepts:
+  core:
+    - name: Kinetic versus Thermodynamic Control
+      clarifier: The principle that reaction conditions and energy barriers determine whether product distribution is governed by activation energy (kinetic) or overall free energy change (thermodynamic)
+    - name: Hammond's Postulate
+      clarifier: States that transition states resemble the nearest stable species in energy (reactant, intermediate, or product) along the reaction coordinate
+    - name: Curtin-Hammett Principle
+      clarifier: Governs product distribution from rapidly interconverting conformers where the major product arises from the more reactive, not necessarily more stable, conformer
+    - name: Reaction Kinetics Analysis
+      clarifier: Determination of rate laws, rate constants, and activation parameters to elucidate reaction mechanisms
+    - name: Isotopic Labeling
+      clarifier: Strategic incorporation of isotopes to trace atom movement, bond cleavage, and intermediate structures
+    - name: Hammett Equation
+      clarifier: Linear free-energy relationship correlating substituent constants (σ) with reaction constants (ρ) for meta- and para-substituted benzene derivatives
+    - name: Taft Equation
+      clarifier: Extension of LFER separating polar, resonance, and steric effects using aliphatic systems
+    - name: Aliphatic Nucleophilic Substitution
+      clarifier: SN1, SN2, and SNi mechanisms with stereochemical implications and structure-reactivity relationships
+    - name: Aromatic Electrophilic Substitution
+      clarifier: Two-step addition-elimination mechanism via arenium ion intermediates with directing effects
+    - name: Aromatic Nucleophilic Substitution
+      clarifier: SNAr via Meisenheimer complexes and benzyne mechanisms for activated and unactivated rings
+    - name: Electrophilic Addition to C=C Bonds
+      clarifier: Markovnikov and anti-Markovnikov additions with carbocation or cyclic halonium intermediates
+    - name: Nucleophilic Addition to C=O Bonds
+      clarifier: Addition to aldehydes, ketones, and derivatives forming tetrahedral intermediates
+    - name: Conjugate Addition Reactions
+      clarifier: 1,4-addition to α,β-unsaturated carbonyl compounds and nitroalkenes
+    - name: Elimination Reactions
+      clarifier: E1, E2, and E1cb mechanisms with regio- and stereochemical outcomes
+
+  related:
+    - name: Transition State Theory
+      clarifier: Framework for understanding activation barriers and reaction rates
+    - name: Reaction Coordinate Diagrams
+      clarifier: Energy profiles visualizing intermediates and transition states
+    - name: Rate Laws and Reaction Order
+      clarifier: Mathematical relationships between concentration and reaction rate
+    - name: Stereochemical Analysis
+      clarifier: Application of stereochemistry to determine mechanism type
+    - name: Substituent Effects
+      clarifier: Electronic and steric influence of functional groups on reactivity
+    - name: Solvent Effects
+      clarifier: Role of solvent polarity and protic/aprotic nature in mechanism
+    - name: Carbocation Stability
+      clarifier: Structure and rearrangement patterns of carbocation intermediates
+    - name: Carbanion Intermediates
+      clarifier: Formation and stability of carbanions in E1cb and addition reactions
+    - name: Radical Mechanisms
+      clarifier: Chain propagation and termination in radical substitutions
+    - name: Protecting Group Strategies
+      clarifier: Chemoselectivity considerations in multi-step mechanisms
+
+learning_path:
+  - id: 1
+    topic: Fundamental Mechanistic Concepts and Principles
+    learning_objectives:
+      - Distinguish between kinetic and thermodynamic control using energy profiles
+      - Apply Hammond's postulate to predict transition state structures
+      - Utilize the Curtin-Hammett principle to rationalize product ratios
+      - Construct reaction coordinate diagrams for multi-step reactions
+    textbook_style_content:
+      - lesson: Energy Control in Organic Reactions
+        sections:
+          - section_heading: Overview of Reaction Control Paradigms
+            section_type: overview
+          - section_heading: Kinetic Control - Activation Energy Dominance
+            section_type: core_theory
+          - section_heading: Thermodynamic Control - Equilibrium Position
+            section_type: core_theory
+          - section_heading: Temperature and Reversibility Effects
+            section_type: related concepts
+      - lesson: Transition State Theory and Hammond's Postulate
+        sections:
+          - section_heading: Visualizing Transition States
+            section_type: overview
+          - section_heading: Mathematical Formulation of Hammond's Postulate
+            section_type: core_theory
+          - section_heading: Applications to Carbocation and Carbanion Reactions
+            section_type: core_theory
+          - section_heading: Limitations and Exceptions
+            section_type: related concepts
+      - lesson: Conformational Equilibria and the Curtin-Hammett Principle
+        sections:
+          - section_heading: Rapid Pre-equilibrium Concepts
+            section_type: overview
+          - section_heading: Derivation of the Curtin-Hammett Equation
+            section_type: core_theory
+          - section_heading: Case Studies in Cyclohexane and Acyclic Systems
+            section_type: core_theory
+          - section_heading: Comparison with Winstein-Holness Equation
+            section_type: related concepts
+    milestone: Complete problem set on predicting product distributions under varying temperature conditions
+    duration_days: 5
+    tags:
+      - thermodynamic-control
+      - kinetic-control
+      - hammond-postulate
+      - curtin-hammett
+
+  - id: 2
+    topic: Experimental Methods for Mechanism Determination
+    learning_objectives:
+      - Design kinetic experiments to determine rate laws and reaction order
+      - Interpret kinetic isotope effects for bond-breaking steps
+      - Propose isotopic labeling experiments to trace reaction pathways
+      - Identify intermediates using spectroscopic and trapping methods
+    textbook_style_content:
+      - lesson: Kinetic Analysis of Organic Reactions
+        sections:
+          - section_heading: Rate Law Determination Methods
+            section_type: overview
+          - section_heading: Integrated Rate Laws and Pseudo-order Kinetics
+            section_type: core_theory
+          - section_heading: Activation Parameters from Eyring Equation
+            section_type: core_theory
+          - section_heading: Primary and Secondary Kinetic Isotope Effects
+            section_type: related concepts
+      - lesson: Product and Intermediate Identification
+        sections:
+          - section_heading: Spectroscopic Detection of Intermediates
+            section_type: overview
+          - section_heading: Trapping Experiments and Crossover Studies
+            section_type: core_theory
+          - section_heading: Crystallographic Characterization
+            section_type: core_theory
+          - section_heading: Computational Verification of Intermediates
+            section_type: related concepts
+      - lesson: Isotopic Labeling Strategies
+        sections:
+          - section_heading: Design Principles of Labeling Experiments
+            section_type: overview
+          - section_heading: Carbon-13 and Deuterium Labeling Patterns
+            section_type: core_theory
+          - section_heading: Oxygen-18 and Nitrogen-15 Applications
+            section_type: core_theory
+          - section_heading: Positional Isotope Exchange Analysis
+            section_type: related concepts
+    milestone: Design a complete mechanistic study for an unknown substitution reaction
+    duration_days: 6
+    tags:
+      - reaction-kinetics
+      - isotopic-labeling
+      - intermediate-detection
+      - kinetic-isotope-effect
+
+  - id: 3
+    topic: Linear Free-Energy Relationships
+    learning_objectives:
+      - Calculate Hammett σ constants from ionization data
+      - Determine reaction mechanism using Hammett ρ values
+      - Separate polar, resonance, and steric effects using Taft equation
+      - Apply LFER to predict reaction rates for unknown substrates
+    textbook_style_content:
+      - lesson: The Hammett Equation and Substituent Constants
+        sections:
+          - section_heading: Derivation from Benzoic Acid Ionization
+            section_type: overview
+          - section_heading: Sigma Constants - Meta and Para Effects
+            section_type: core_theory
+          - section_heading: Rho Values as Mechanistic Indicators
+            section_type: core_theory
+          - section_heading: Deviations and Non-linear Behavior
+            section_type: related concepts
+      - lesson: Advanced LFER - The Taft Equation
+        sections:
+          - section_heading: Separation of Electronic and Steric Effects
+            section_type: overview
+          - section_heading: Sigma Star and Polar Substituent Constants
+            section_type: core_theory
+          - section_heading: Es Parameter for Steric Effects
+            section_type: core_theory
+          - section_heading: Applications to Aliphatic Systems and Hydrolysis
+            section_type: related concepts
+      - lesson: Practical Applications and Limitations
+        sections:
+          - section_heading: Mechanistic Classification Using Rho Values
+            section_type: overview
+          - section_heading: Predictive Modeling in Drug Design
+            section_type: core_theory
+          - section_heading: Solvent and Temperature Effects on LFER
+            section_type: core_theory
+          - section_heading: Modern Computational Alternatives
+            section_type: related concepts
+    milestone: Analyze a research paper using Hammett/Taft analysis to support mechanistic conclusions
+    duration_days: 5
+    tags:
+      - hammett-equation
+      - taft-equation
+      - linear-free-energy
+      - substituent-effects
+
+  - id: 4
+    topic: Nucleophilic Substitution Reactions
+    learning_objectives:
+      - Predict SN1 versus SN2 pathways based on substrate, nucleophile, and solvent
+      - Analyze stereochemical outcomes of substitution reactions
+      - Design experiments to distinguish SN1, SN2, and SNi mechanisms
+      - Evaluate aromatic nucleophilic substitution pathways
+    textbook_style_content:
+      - lesson: Aliphatic Nucleophilic Substitution
+        sections:
+          - section_heading: SN2 - Concerted Backside Attack
+            section_type: overview
+          - section_heading: SN1 - Carbocation Intermediates and Racemization
+            section_type: core_theory
+          - section_heading: SNi - Internal Return and Retention
+            section_type: core_theory
+          - section_heading: Borderline Mechanisms and Ion Pairs
+            section_type: related concepts
+      - lesson: Factors Influencing Substitution Pathways
+        sections:
+          - section_heading: Substrate Structure - Primary to Tertiary
+            section_type: overview
+          - section_heading: Nucleophile Strength and Solvation
+            section_type: core_theory
+          - section_heading: Leaving Group Ability Trends
+            section_type: core_theory
+          - section_heading: Solvent Effects - Protic vs Aprotic
+            section_type: related concepts
+      - lesson: Aromatic Nucleophilic Substitution
+        sections:
+          - section_heading: SNAr Mechanism via Meisenheimer Complexes
+            section_type: overview
+          - section_heading: Activating and Deactivating Groups
+            section_type: core_theory
+          - section_heading: Benzyne Mechanism and Regiochemistry
+            section_type: core_theory
+          - section_heading: Comparison with Electrophilic Aromatic Substitution
+            section_type: related concepts
+    milestone: Solve advanced problems involving neighboring group participation and rearrangements
+    duration_days: 7
+    tags:
+      - nucleophilic-substitution
+      - SN1-SN2
+      - aromatic-substitution
+      - benzyne-mechanism
+
+  - id: 5
+    topic: Electrophilic Substitution and Addition Reactions
+    learning_objectives:
+      - Predict directing effects in electrophilic aromatic substitution
+      - Rationalize addition regiochemistry using electronic and steric factors
+      - Distinguish between electrophilic and nucleophilic addition mechanisms
+      - Design syntheses using conjugate addition strategies
+    textbook_style_content:
+      - lesson: Electrophilic Aromatic Substitution
+        sections:
+          - section_heading: General Two-Step Mechanism
+            section_type: overview
+          - section_heading: Sigma Complex (Arenium Ion) Formation
+            section_type: core_theory
+          - section_heading: Directing Effects - Ortho/Para vs Meta
+            section_type: core_theory
+          - section_heading: Activating vs Deactivating Substituents
+            section_type: related concepts
+      - lesson: Addition to Carbon-Carbon Multiple Bonds
+        sections:
+          - section_heading: Electrophilic Addition to Alkenes
+            section_type: overview
+          - section_heading: Markovnikov's Rule and Carbocation Rearrangements
+            section_type: core_theory
+          - section_heading: Halonium Ion Intermediates and Anti-Addition
+            section_type: core_theory
+          - section_heading: Hydroboration-Oxidation - Syn-Addition
+            section_type: related concepts
+      - lesson: Addition to Carbon-Heteroatom Multiple Bonds
+        sections:
+          - section_heading: Nucleophilic Addition to Carbonyls
+            section_type: overview
+          - section_heading: Tetrahedral Intermediate Formation
+            section_type: core_theory
+          - section_heading: Addition to Imines and Nitriles
+            section_type: core_theory
+          - section_heading: Conjugate Addition to α,β-Unsaturated Systems
+            section_type: related concepts
+    milestone: Plan a multi-step synthesis incorporating both electrophilic aromatic substitution and conjugate addition steps
+    duration_days: 6
+    tags:
+      - electrophilic-substitution
+      - addition-reactions
+      - carbonyl-addition
+      - conjugate-addition
+
+  - id: 6
+    topic: Elimination Reactions and Mechanistic Competition
+    learning_objectives:
+      - Predict E1, E2, and E1cb mechanisms based on substrate and base strength
+      - Determine regioselectivity using Zaitsev and Hofmann rules
+      - Analyze stereochemical requirements for elimination
+      - Evaluate competition between substitution and elimination pathways
+    textbook_style_content:
+      - lesson: Elimination Mechanisms and Kinetics
+        sections:
+          - section_heading: E2 - Concerted Anti-Periplanar Requirement
+            section_type: overview
+          - section_heading: E1 - Carbocation Formation and Rearrangement
+            section_type: core_theory
+          - section_heading: E1cb - Carbanion Intermediate Stability
+            section_type: core_theory
+          - section_heading: Kinetic Isotope Effects in Elimination
+            section_type: related concepts
+      - lesson: Regiochemistry and Stereochemistry
+        sections:
+          - section_heading: Zaitsev vs Hofmann Product Distribution
+            section_type: overview
+          - section_heading: Stereospecificity and Anti-Elimination
+            section_type: core_theory
+          - section_heading: Syn-Elimination in Cyclic Systems
+            section_type: core_theory
+          - section_heading: Stereoelectronic Effects
+            section_type: related concepts
+      - lesson: Substitution vs Elimination Competition
+        sections:
+          - section_heading: Factors Influencing the SN/E Ratio
+            section_type: overview
+          - section_heading: Temperature and Base Concentration Effects
+            section_type: core_theory
+          - section_heading: Substrate Structure - Primary to Tertiary
+            section_type: core_theory
+          - section_heading: Solvent Effects on Product Distribution
+            section_type: related concepts
+    milestone: Solve integrated problems predicting product mixtures from complex substrates under varying conditions
+    duration_days: 5
+    tags:
+      - elimination-reactions
+      - E1-E2-E1cb
+      - regioselectivity
+      - substitution-elimination-competition

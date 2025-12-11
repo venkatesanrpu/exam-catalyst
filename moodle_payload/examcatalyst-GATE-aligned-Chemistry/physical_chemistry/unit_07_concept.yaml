@@ -1,0 +1,48 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Phase rule, Clausius-Clapeyron equation, Phase diagram of one component
+    systems (CO2, H2O, S), two component systems (liquid-vapour, liquid-liquid, solid-liquid),
+    Fractional distillation, Azeotropes and eutectics
+concepts:
+  core:
+  - name: Phase Rule
+    clarifier: Gibbs phase rule relating degrees of freedom, phases, and components
+      in equilibrium systems
+  - name: Clausius-Clapeyron Equation
+    clarifier: Quantitative relationship between vapor pressure and temperature for
+      phase transitions
+  - name: One-Component Phase Diagrams
+    clarifier: P-T diagrams showing phase boundaries and critical phenomena for pure
+      substances
+  - name: Two-Component Liquid-Vapor Systems
+    clarifier: Phase diagrams depicting vapor-liquid equilibrium and boiling behavior
+      in binary mixtures
+  - name: Two-Component Liquid-Liquid Systems
+    clarifier: Phase diagrams showing immiscibility and consolute points in partially
+      miscible systems
+  - name: Two-Component Solid-Liquid Systems
+    clarifier: Phase diagrams illustrating eutectic points, peritectic reactions,
+      and solid solutions
+  - name: Azeotropes
+    clarifier: Binary compositions where liquid and vapor have identical composition
+      at constant pressure
+  - name: Eutectics
+    clarifier: Invariant solid-liquid equilibrium points in solid-liquid phase diagrams
+  related:
+  - name: Triple Point and Critical Point
+    clarifier: Characteristic points on one-component phase diagrams with special
+      thermodynamic significance
+  - name: Fractional Distillation
+    clarifier: Separation technique exploiting differential volatility in multicomponent
+      liquid mixtures
+  - name: Vapor Pressure Curves
+    clarifier: Boundary lines separating liquid and vapor phases on P-T diagrams
+  - name: Congruent and Incongruent Melting
+    clarifier: Types of solid phase behavior during melting in two-component systems
+  - name: Lever Rule
+    clarifier: Graphical method for calculating composition and relative amounts of
+      phases
+  - name: Degrees of Freedom
+    clarifier: Number of intensive variables that can be independently varied without
+      changing phase equilibrium

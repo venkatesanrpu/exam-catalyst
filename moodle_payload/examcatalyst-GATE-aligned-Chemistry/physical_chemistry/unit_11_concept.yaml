@@ -1,0 +1,41 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Unimolecular reactions. Potential energy surfaces and classical trajectories,
+    Concept of Saddle points, Transition state theory - Eyring equation, thermodynamic
+    aspects
+concepts:
+  core:
+  - name: Unimolecular Reactions
+    clarifier: Single-molecule decomposition or isomerization; Lindemann-Hinshelwood
+      mechanism; first-order kinetics at high and low pressure limits
+  - name: Potential Energy Surfaces (PES)
+    clarifier: Multidimensional energy landscape mapping reactants through transition
+      state to products; fundamental to understanding reaction pathways
+  - name: Saddle Points
+    clarifier: Transition state geometry on PES; first-order saddle point with one
+      negative eigenvalue of Hessian; separates reactants from products
+  - name: Transition State Theory (TST)
+    clarifier: Eyring equation relating rate constant to free energy of activation;
+      activated complex hypothesis and reaction coordinate
+  - name: Thermodynamic Aspects of TST
+    clarifier: Entropy and enthalpy of activation; temperature dependence; relationship
+      to equilibrium and partition functions
+  related:
+  - name: Classical Trajectories
+    clarifier: Molecular dynamics simulations on PES; Newton equations of motion;
+      trajectory branching at transition state
+  - name: Reaction Coordinate
+    clarifier: Path of minimum energy connecting reactants to products through transition
+      state; collective coordinate in multidimensional space
+  - name: Activation Energy
+    clarifier: Energy difference between transition state and reactants; Arrhenius
+      vs. Eyring descriptions
+  - name: Partition Functions
+    clarifier: Statistical mechanics connection to activation parameters; vibrational,
+      rotational, translational contributions
+  - name: First-Order Phase Transitions in Kinetics
+    clarifier: Pressure and temperature effects on unimolecular rate constants; Kassel
+      integral
+  - name: Comparison of TST to Other Theories
+    clarifier: Activated complex theory vs. Collision theory; assumptions and limitations

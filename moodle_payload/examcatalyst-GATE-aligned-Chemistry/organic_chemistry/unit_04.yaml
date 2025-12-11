@@ -1,0 +1,473 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Organic Synthesis- Synthesis, reactions, mechanisms and selectivity involving the following classes of compounds – alkenes, alkynes, arenes, alcohols, phenols, aldehydes, ketones, carboxylic acids, esters, nitriles, halides, nitro compounds, amines and amides. Uses of Mg, Li, Cu, B, Zn, P, S, Sn and Si based reagents in organic synthesis."
+
+concepts:
+  core:
+    - name: Alkene Chemistry
+      clarifier: "Electrophilic addition, hydrogenation, hydroboration, oxidation (KMnO₄, OsO₄), and polymerization mechanisms"
+    - name: Alkyne Chemistry
+      clarifier: "Nucleophilic addition, hydration, reduction, and metal-alkyne complexes; synthetic equivalents"
+    - name: Aromatic Compound Reactivity
+      clarifier: "Electrophilic aromatic substitution, nucleophilic aromatic substitution, directing effects, and synth strategies"
+    - name: Alcohols and Phenols
+      clarifier: "Oxidation, substitution reactions, protection-deprotection strategies, and acidic properties of phenols"
+    - name: Carbonyl Chemistry
+      clarifier: "Nucleophilic addition to aldehydes/ketones, condensation reactions, and α,β-unsaturated carbonyl reactivity"
+    - name: Carboxylic Acid Derivatives
+      clarifier: "Esters, nitriles, and amides; acyl substitution mechanisms and synthetic transformations"
+    - name: Halides and Nitro Compounds
+      clarifier: "SN1/SN2/SN Ar mechanisms, elimination reactions, and nitro group transformations"
+    - name: Amines and Amides
+      clarifier: "Nucleophilicity, basicity, acylation, oxidation, and protecting group strategies"
+    - name: Organometallic Reagents in Synthesis
+      clarifier: "Grignard, organolithium, cuprate, and boron-based reagents; mechanisms and applications"
+    - name: Selective Synthesis Planning
+      clarifier: "Retrosynthetic analysis, protecting group strategies, and multi-step synthetic routes"
+
+  related:
+    - name: Reaction Mechanisms
+      clarifier: "Arrow-pushing formalism, intermediate stability, transition state theory, and stereoelectronic effects"
+    - name: Stereochemistry
+      clarifier: "Stereoselectivity, regioselectivity, and diastereomeric/enantiomeric outcomes in synthesis"
+    - name: Functional Group Interconversions
+      clarifier: "Strategic sequences to transform one functional group to another efficiently"
+    - name: Green Chemistry Principles
+      clarifier: "Catalytic methods, atom economy, and sustainable reagent alternatives in synthesis"
+
+learning_path:
+  - id: 1
+    topic: "Unsaturated Carbon Systems - Alkenes and Alkynes"
+    learning_objectives:
+      - "Classify and name alkenes and alkynes using IUPAC nomenclature"
+      - "Explain electrophilic addition mechanisms to alkenes (HX, H₂O, X₂, HX)"
+      - "Apply Markovnikov's rule and predict regioselectivity"
+      - "Distinguish between anti and syn addition pathways"
+      - "Describe hydroboration-oxidation as an anti-Markovnikov synthesis"
+      - "Execute oxidative cleavage, epoxidation, and dihydroxylation reactions"
+      - "Analyze alkyne reactivity: nucleophilic additions, hydration, reduction (Lindlar, dissolving metal)"
+      - "Apply alkenes and alkynes as key intermediates in multi-step synthesis"
+    textbook_style_content:
+      - lesson: "Alkene Addition Reactions"
+        sections:
+          - section_heading: "Alkene Structure and Electrophilic Addition Overview"
+            section_type: "overview"
+          - section_heading: "Mechanisms of Halogenation, Hydration, and Halohydrin Formation"
+            section_type: "core_theory"
+          - section_heading: "Regioselectivity, Markovnikov's Rule, and Carbocation Rearrangement"
+            section_type: "core_theory"
+          - section_heading: "Anti and Syn Addition: Stereochemical Outcomes"
+            section_type: "related concepts"
+      - lesson: "Hydroboration-Oxidation and Oxidative Cleavage"
+        sections:
+          - section_heading: "Hydroboration Mechanism and Anti-Markovnikov Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Oxidation with KMnO₄, OsO₄, and Ozonolysis"
+            section_type: "core_theory"
+          - section_heading: "Synthetic Applications and Protection Strategies"
+            section_type: "related concepts"
+      - lesson: "Alkyne Reactivity and Reduction"
+        sections:
+          - section_heading: "Alkyne Structure and Acidity of Terminal Alkynes"
+            section_type: "overview"
+          - section_heading: "Addition Reactions (Hydration, Halogenation) and Hydroboration"
+            section_type: "core_theory"
+          - section_heading: "Selective Reduction: Lindlar Catalyst vs. Dissolving Metal Conditions"
+            section_type: "core_theory"
+          - section_heading: "Alkyne Derivatives as Synthetic Equivalents"
+            section_type: "related concepts"
+    milestone: "Master addition mechanisms and oxidative cleavage of unsaturation"
+    duration_days: 8
+    tags:
+      - "Electrophilic Addition"
+      - "Regioselectivity"
+      - "Oxidation"
+      - "Stereochemistry"
+
+  - id: 2
+    topic: "Aromatic Compounds and Aromatic Substitution"
+    learning_objectives:
+      - "Explain aromaticity and Hückel's rule for aromatic systems"
+      - "Describe electrophilic aromatic substitution mechanism (SEAr)"
+      - "Classify substituents as ortho/para or meta directors based on electronic effects"
+      - "Predict and execute directive effects in polysubstituted benzenes"
+      - "Apply nucleophilic aromatic substitution (SNAr) with electron-withdrawing groups"
+      - "Distinguish between SNAr, SN1, and benzyne mechanisms"
+      - "Design multi-step syntheses using aromatic substrates"
+    textbook_style_content:
+      - lesson: "Electrophilic Aromatic Substitution"
+        sections:
+          - section_heading: "Aromaticity, Resonance, and Benzene Stability"
+            section_type: "overview"
+          - section_heading: "SEAr Mechanism and General Protocol"
+            section_type: "core_theory"
+          - section_heading: "Nitration, Sulfonation, Halogenation, and Friedel-Crafts Reactions"
+            section_type: "core_theory"
+          - section_heading: "Directing Effects and Predicting Regiochemistry"
+            section_type: "core_theory"
+      - lesson: "Nucleophilic Aromatic Substitution and Alternatives"
+        sections:
+          - section_heading: "SNAr Mechanism and Meisenheimer Complex Formation"
+            section_type: "core_theory"
+          - section_heading: "Benzyne Mechanism and Elimination-Addition Pathway"
+            section_type: "related concepts"
+          - section_heading: "SN1 Mechanism in Aryl Diazonium Compounds"
+            section_type: "related concepts"
+      - lesson: "Multi-step Aromatic Synthesis"
+        sections:
+          - section_heading: "Blocking and Protecting Groups on Benzene"
+            section_type: "core_theory"
+          - section_heading: "Reductive Removal of Directing Groups"
+            section_type: "related concepts"
+    milestone: "Execute selective electrophilic and nucleophilic aromatic substitutions"
+    duration_days: 7
+    tags:
+      - "Electrophilic Aromatic Substitution"
+      - "Directing Effects"
+      - "Nucleophilic Aromatic Substitution"
+      - "Regioselectivity"
+
+  - id: 3
+    topic: "Alcohols, Phenols, and Ether Chemistry"
+    learning_objectives:
+      - "Classify alcohols as primary, secondary, or tertiary and predict reactivity"
+      - "Execute oxidation of alcohols to aldehydes/ketones using chromium or PCC reagents"
+      - "Apply Williamson ether synthesis and related C-O bond formations"
+      - "Explain the acidity of phenols and design selective transformations"
+      - "Describe ether cleavage under acidic conditions and radical cleavage"
+      - "Execute protection and deprotection of hydroxyl groups"
+      - "Design synthetic sequences utilizing alcohol and phenol chemistry"
+    textbook_style_content:
+      - lesson: "Alcohol Reactivity and Oxidation"
+        sections:
+          - section_heading: "Alcohol Classification and Nucleophilicity"
+            section_type: "overview"
+          - section_heading: "Oxidation Mechanisms: Chromic Acid, PCC, DMP, and Swern Oxidation"
+            section_type: "core_theory"
+          - section_heading: "Selective Oxidation Strategies and Overoxidation Prevention"
+            section_type: "core_theory"
+      - lesson: "Substitution and Protection of Alcohols"
+        sections:
+          - section_heading: "SN1 and SN2 Reactions of Alcohols After Activation"
+            section_type: "core_theory"
+          - section_heading: "Common Protecting Groups (TBS, TBDPS, Benzyl, Trityl)"
+            section_type: "core_theory"
+          - section_heading: "Orthogonal Deprotection Strategies"
+            section_type: "related concepts"
+      - lesson: "Phenol Chemistry"
+        sections:
+          - section_heading: "Acidity of Phenols and Resonance Stabilization"
+            section_type: "core_theory"
+          - section_heading: "Electrophilic Aromatic Substitution Directed by Hydroxyl Group"
+            section_type: "core_theory"
+          - section_heading: "Phenolic Ether Formation and Cleavage"
+            section_type: "related concepts"
+      - lesson: "Ether Reactions and Cleavage"
+        sections:
+          - section_heading: "Williamson Ether Synthesis and Nucleophilic Displacement"
+            section_type: "core_theory"
+          - section_heading: "Ether Cleavage by HX and Radical Pathways"
+            section_type: "related concepts"
+    milestone: "Master alcohol and phenol transformations and protecting group strategies"
+    duration_days: 8
+    tags:
+      - "Oxidation"
+      - "Protecting Groups"
+      - "SN2 Reactions"
+      - "Phenol Reactivity"
+
+  - id: 4
+    topic: "Carbonyl Compounds - Aldehydes and Ketones"
+    learning_objectives:
+      - "Explain carbonyl group structure and nucleophilic addition mechanism"
+      - "Execute nucleophilic additions (H, C, N, O nucleophiles) to carbonyls"
+      - "Describe condensation reactions (aldol, Wittig, imine formation, hemiacetal/acetal)"
+      - "Apply α,β-unsaturated carbonyl chemistry and conjugate addition"
+      - "Distinguish between kinetic and thermodynamic control in carbonyl reactions"
+      - "Design multi-step syntheses using carbonyl intermediates"
+    textbook_style_content:
+      - lesson: "Nucleophilic Addition to Carbonyls"
+        sections:
+          - section_heading: "Carbonyl Electrophilicity and Nucleophile Classification"
+            section_type: "overview"
+          - section_heading: "Mechanism of Nucleophilic Addition (Tetrahedral Intermediate)"
+            section_type: "core_theory"
+          - section_heading: "Addition of H⁻, C⁻, and RMgX (Grignard Reactions)"
+            section_type: "core_theory"
+      - lesson: "Condensation Reactions and Imine Formation"
+        sections:
+          - section_heading: "Aldol Condensation and Crossed Aldol Reactions"
+            section_type: "core_theory"
+          - section_heading: "Wittig Reaction and Stabilized Ylides"
+            section_type: "core_theory"
+          - section_heading: "Imine and Enamine Formation from Primary and Secondary Amines"
+            section_type: "core_theory"
+          - section_heading: "Hemiacetal and Acetal Formation (Carbonyl Protection)"
+            section_type: "related concepts"
+      - lesson: "α,β-Unsaturated Carbonyl Compounds"
+        sections:
+          - section_heading: "Resonance and Dual Electrophilic Sites"
+            section_type: "core_theory"
+          - section_heading: "1,2-Nucleophilic Addition vs. 1,4-Conjugate Addition"
+            section_type: "core_theory"
+          - section_heading: "Michael Addition and Robinson Annulation"
+            section_type: "related concepts"
+    milestone: "Execute diverse carbonyl transformations with predictable selectivity"
+    duration_days: 9
+    tags:
+      - "Nucleophilic Addition"
+      - "Condensation Reactions"
+      - "Conjugate Addition"
+      - "Selectivity"
+
+  - id: 5
+    topic: "Carboxylic Acids and Derivatives - Esters, Nitriles, and Amides"
+    learning_objectives:
+      - "Explain nucleophilic acyl substitution mechanism and factors affecting reactivity"
+      - "Execute esterification and acid-catalyzed hydrolysis of esters"
+      - "Describe nitrile synthesis from primary amines, aldehydes, and ketones"
+      - "Apply nitrile hydrolysis and reduction to generate carboxylic acids and amines"
+      - "Classify amides and explain their resonance stabilization and planar geometry"
+      - "Execute amide formations (direct acylation, DCC, EDC coupling) and Ritter reactions"
+      - "Design synthetic routes via carboxylic acid derivatives"
+    textbook_style_content:
+      - lesson: "Nucleophilic Acyl Substitution"
+        sections:
+          - section_heading: "Acyl Group Electrophilicity and Tetrahedral Intermediate"
+            section_type: "core_theory"
+          - section_heading: "General Mechanism and Reactivity Order of Acid Derivatives"
+            section_type: "core_theory"
+          - section_heading: "Factors Affecting Rate (Steric Hindrance, Electron Withdrawal)"
+            section_type: "related concepts"
+      - lesson: "Ester Chemistry"
+        sections:
+          - section_heading: "Fischer Esterification and Equilibrium Control"
+            section_type: "core_theory"
+          - section_heading: "Acid and Base-Catalyzed Ester Hydrolysis"
+            section_type: "core_theory"
+          - section_heading: "Transesterification and Lactone Formation"
+            section_type: "related concepts"
+      - lesson: "Nitrile Synthesis and Reactivity"
+        sections:
+          - section_heading: "Nitrile Formation from Primary Amines, Aldehydes, and Ketones"
+            section_type: "core_theory"
+          - section_heading: "Hydrolysis to Carboxylic Acids and Reduction to Primary Amines"
+            section_type: "core_theory"
+          - section_heading: "Nitriles as Masked Carboxylic Acids in Synthesis"
+            section_type: "related concepts"
+      - lesson: "Amide Synthesis and Reactivity"
+        sections:
+          - section_heading: "Amide Resonance and N-H Acidity"
+            section_type: "core_theory"
+          - section_heading: "Direct Amide Formation and Coupling Reagents (DCC, EDC)"
+            section_type: "core_theory"
+          - section_heading: "Ritter Reaction and Hofmann Degradation"
+            section_type: "related concepts"
+    milestone: "Master nucleophilic acyl substitution and design efficient ester/nitrile/amide syntheses"
+    duration_days: 9
+    tags:
+      - "Nucleophilic Acyl Substitution"
+      - "Esterification"
+      - "Amide Coupling"
+      - "Functional Group Interconversion"
+
+  - id: 6
+    topic: "Halides, Nitro Compounds, and Amine Chemistry"
+    learning_objectives:
+      - "Classify alkyl halides and predict reactivity in SN1, SN2, and E1/E2 reactions"
+      - "Apply nucleophilic substitution and elimination mechanisms to design syntheses"
+      - "Explain nitro group activation of aromatic rings toward nucleophilic substitution"
+      - "Execute reduction of nitro groups to primary amines"
+      - "Classify amines as primary, secondary, or tertiary and explain basicity"
+      - "Execute amine acylation, oxidation, and N-alkylation reactions"
+      - "Apply protecting groups for amines (Cbz, Boc, Ts) and execute deprotection"
+      - "Design synthetic sequences utilizing halide and amine transformations"
+    textbook_style_content:
+      - lesson: "Alkyl Halide Reactivity"
+        sections:
+          - section_heading: "SN2 Mechanism and Nucleophile/Substrate Structure Effects"
+            section_type: "core_theory"
+          - section_heading: "SN1 Mechanism and Carbocation Stability"
+            section_type: "core_theory"
+          - section_heading: "Competition Between SN and E Pathways; Solvent Effects"
+            section_type: "core_theory"
+          - section_heading: "Stereochemical Outcomes and Inversion/Retention"
+            section_type: "related concepts"
+      - lesson: "Nitro Compounds and Aromatic Reactivity"
+        sections:
+          - section_heading: "Electron-Withdrawing Effect of Nitro Group on Aromatic Ring"
+            section_type: "core_theory"
+          - section_heading: "Nitro Group-Directed SNAr and Nucleophilic Aromatic Substitution"
+            section_type: "core_theory"
+          - section_heading: "Reduction of Aromatic Nitro Groups (Fe/AcOH, H₂/Pd, SnCl₂/HCl)"
+            section_type: "core_theory"
+      - lesson: "Amine Classification and Basicity"
+        sections:
+          - section_heading: "Primary, Secondary, Tertiary Amines and Their Nucleophilicity"
+            section_type: "overview"
+          - section_heading: "Basicity and pKb; Resonance Effects of Aromatic Amines"
+            section_type: "core_theory"
+      - lesson: "Amine Transformations"
+        sections:
+          - section_heading: "N-Alkylation and Acylation (Amide Formation)"
+            section_type: "core_theory"
+          - section_heading: "Amine Oxidation (Hoffman Elimination, Cope Elimination)"
+            section_type: "core_theory"
+          - section_heading: "Protecting Groups (Cbz, Boc, Ts) and Selective Deprotection"
+            section_type: "core_theory"
+          - section_heading: "Amine Coupling and Reductive Amination"
+            section_type: "related concepts"
+    milestone: "Execute substitution, elimination, and amine transformations with strategic selectivity"
+    duration_days: 9
+    tags:
+      - "SN2/SN1/E1/E2"
+      - "Nitro Group Chemistry"
+      - "Amine Reactions"
+      - "Protecting Groups"
+
+  - id: 7
+    topic: "Organometallic Reagents in Synthesis - Mg, Li, Cu-Based Systems"
+    learning_objectives:
+      - "Explain formation and reactivity of Grignard reagents (RMgX)"
+      - "Execute Grignard additions to carbonyls, esters, and nitriles"
+      - "Compare reactivity of Grignard vs. organolithium (RLi) reagents"
+      - "Describe formation and uses of cuprate reagents (R₂CuLi) and higher-order cyanocuprates"
+      - "Apply conjugate addition of cuprates to α,β-unsaturated carbonyls"
+      - "Execute coupling reactions using Cu catalysts"
+      - "Design multi-step syntheses leveraging organometallic chemistry"
+    textbook_style_content:
+      - lesson: "Grignard Reagents"
+        sections:
+          - section_heading: "Formation of RMgX and Nucleophilicity of Grignards"
+            section_type: "core_theory"
+          - section_heading: "Addition to Aldehydes, Ketones, and Esters"
+            section_type: "core_theory"
+          - section_heading: "Reaction with Nitriles, Epoxides, and CO₂"
+            section_type: "core_theory"
+          - section_heading: "Selectivity and Functional Group Compatibility"
+            section_type: "related concepts"
+      - lesson: "Organolithium Reagents"
+        sections:
+          - section_heading: "Formation and Enhanced Reactivity of RLi vs. RMgX"
+            section_type: "core_theory"
+          - section_heading: "Use as Bases and Nucleophiles; Deprotonation Applications"
+            section_type: "core_theory"
+      - lesson: "Cuprate Reagents (Organocopper Compounds)"
+        sections:
+          - section_heading: "Formation of R₂CuLi and Cyanocuprates (R₂CuCN·LiI₂)"
+            section_type: "core_theory"
+          - section_heading: "1,4-Conjugate Addition to α,β-Unsaturated Carbonyls"
+            section_type: "core_theory"
+          - section_heading: "SN2 Displacement and Epoxide Ring Opening with Cuprates"
+            section_type: "related concepts"
+    milestone: "Apply organometallic reagents for C-C and C-heteroatom bond formation"
+    duration_days: 7
+    tags:
+      - "Grignard Reactions"
+      - "Organolithium"
+      - "Cuprate Chemistry"
+      - "Conjugate Addition"
+
+  - id: 8
+    topic: "Organometallic Reagents in Synthesis - B, Zn, P, S, Sn, Si-Based Systems"
+    learning_objectives:
+      - "Describe formation and synthetic applications of organoboron compounds"
+      - "Execute hydroboration and subsequent oxidation/transmetalation"
+      - "Apply Suzuki-Miyaura cross-coupling with organoboron reagents"
+      - "Explain reactivity of organozinc species and Reformatsky reaction"
+      - "Execute phosphorus-based reactions (Wittig, Horner-Wadsworth-Emmons)"
+      - "Describe sulfur-based reagents (DMSO, sulfonium ylides, Swern oxidation)"
+      - "Apply organotin and organosilane reagents in synthesis and coupling"
+      - "Design multi-step syntheses leveraging advanced organometallic chemistry"
+    textbook_style_content:
+      - lesson: "Organoboron Chemistry and Cross-Coupling"
+        sections:
+          - section_heading: "Hydroboration of Alkenes and Alkynes with BH₃ and 9-BBN"
+            section_type: "core_theory"
+          - section_heading: "Transmetalation and Oxidation of Organoboron Intermediates"
+            section_type: "core_theory"
+          - section_heading: "Suzuki-Miyaura Cross-Coupling Mechanism and Applications"
+            section_type: "core_theory"
+      - lesson: "Organozinc and Reformatsky Reactions"
+        sections:
+          - section_heading: "Organozinc Formation and Reactivity vs. Grignards"
+            section_type: "core_theory"
+          - section_heading: "Reformatsky Reaction and Chemoselective Additions"
+            section_type: "core_theory"
+      - lesson: "Phosphorus-Based Synthetic Methods"
+        sections:
+          - section_heading: "Wittig Reaction and Ylide Formation"
+            section_type: "core_theory"
+          - section_heading: "Horner-Wadsworth-Emmons (HWE) Olefination and Selectivity"
+            section_type: "core_theory"
+      - lesson: "Sulfur-Based Reagents"
+        sections:
+          - section_heading: "Dimethyl Sulfoxide (DMSO) as Oxidant and Nucleophile"
+            section_type: "core_theory"
+          - section_heading: "Swern Oxidation Mechanism and Stereochemistry"
+            section_type: "core_theory"
+          - section_heading: "Sulfonium Ylides and Cyclopropanation"
+            section_type: "related concepts"
+      - lesson: "Organotin and Organosilane Reagents"
+        sections:
+          - section_heading: "Organotin Chemistry and Stille Cross-Coupling"
+            section_type: "core_theory"
+          - section_heading: "Organosilane Reagents and Peterson Olefination"
+            section_type: "related concepts"
+          - section_heading: "TMS Protection and Desilylation Strategies"
+            section_type: "related concepts"
+    milestone: "Master transition metal-catalyzed coupling and advanced organometallic transformations"
+    duration_days: 9
+    tags:
+      - "Cross-Coupling"
+      - "Wittig Olefination"
+      - "Swern Oxidation"
+      - "Transition Metal Catalysis"
+
+  - id: 9
+    topic: "Selective Synthesis Planning and Multi-step Organic Synthesis"
+    learning_objectives:
+      - "Apply retrosynthetic analysis to decompose target molecules"
+      - "Identify strategic bonds for disconnection (FGA, FGI, rearrangement)"
+      - "Select appropriate protecting/deprotecting strategies for complex substrates"
+      - "Design regioselective and stereoselective synthetic sequences"
+      - "Evaluate synthetic routes for efficiency, atom economy, and practical feasibility"
+      - "Integrate functional group transformations and organometallic chemistry"
+      - "Execute 4-6 step syntheses of representative GATE-level targets"
+    textbook_style_content:
+      - lesson: "Retrosynthetic Analysis Fundamentals"
+        sections:
+          - section_heading: "Retrosynthetic Tree Construction and Disconnection Logic"
+            section_type: "core_theory"
+          - section_heading: "Functional Group Analysis (FGA) and Interconversion (FGI)"
+            section_type: "core_theory"
+          - section_heading: "C-C Bond Disconnection Strategies (Grignard, Wittig, Coupling)"
+            section_type: "core_theory"
+      - lesson: "Protecting Group Strategy"
+        sections:
+          - section_heading: "Orthogonal Protection for Polyhydroxy and Polyamino Compounds"
+            section_type: "core_theory"
+          - section_heading: "Stability and Selectivity in Multi-step Routes"
+            section_type: "core_theory"
+      - lesson: "Selectivity in Synthesis"
+        sections:
+          - section_heading: "Regioselectivity: Directing Groups and Steric Approach Control"
+            section_type: "core_theory"
+          - section_heading: "Stereoselectivity: Diastereomeric Control and Enantioselectivity (Overview)"
+            section_type: "related concepts"
+      - lesson: "Multi-step Synthesis Examples"
+        sections:
+          - section_heading: "Case Study 1: Synthesis of a Multisubstituted Aromatic Target"
+            section_type: "core_theory"
+          - section_heading: "Case Study 2: Synthesis of a Polysubstituted Aliphatic Ester/Amide"
+            section_type: "core_theory"
+          - section_heading: "Route Evaluation and Optimization for Efficiency"
+            section_type: "related concepts"
+    milestone: "Design and execute multi-step syntheses demonstrating mastery of all covered transformations"
+    duration_days: 10
+    tags:
+      - "Retrosynthetic Analysis"
+      - "Protecting Groups"
+      - "Route Optimization"
+      - "Integration and Application"

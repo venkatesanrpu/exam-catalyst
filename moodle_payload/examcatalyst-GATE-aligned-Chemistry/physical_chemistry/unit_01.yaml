@@ -1,0 +1,371 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Structure: Postulates of quantum mechanics. Operators. Time dependent and time independent Schrödinger equations. Born interpretation. Dirac bra-ket notation. Particle in a box: infinite and finite square wells; concept of tunnelling; particle in 1D, 2D and 3D-box; applications. Harmonic oscillator: harmonic and anharmonic potentials; Hermite polynomials. Rotational motion: Angular momentum operators, Rigid rotor. Hydrogen and hydrogen-like atoms: atomic orbitals; radial distribution function."
+
+concepts:
+  core:
+    - name: Postulates of Quantum Mechanics
+      clarifier: Foundational axioms governing quantum systems and observable measurement
+    - name: Schrödinger Equation
+      clarifier: Time-dependent and time-independent forms; central equation of quantum mechanics
+    - name: Operators and Observable Algebra
+      clarifier: Mathematical operators representing physical quantities; eigenvalue problems
+    - name: Wave Function Interpretation
+      clarifier: Born interpretation and probability density; normalization and orthogonality
+    - name: Bra-Ket Notation
+      clarifier: Dirac formalism for expressing quantum states and inner products
+    - name: Particle in a Box
+      clarifier: Quantum confinement in 1D, 2D, 3D infinite and finite potential wells
+    - name: Tunnelling Phenomenon
+      clarifier: Quantum particle penetration through finite potential barriers
+    - name: Quantum Harmonic Oscillator
+      clarifier: Potential energy surfaces and energy quantization; Hermite polynomials
+    - name: Angular Momentum Operators
+      clarifier: Commutation relations and eigenvalues; quantum rotational motion
+    - name: Rigid Rotor Model
+      clarifier: Rotational energy levels and rotational quantum numbers
+    - name: Hydrogen Atom Structure
+      clarifier: Atomic orbitals; quantum numbers; radial and angular components
+    - name: Radial Distribution Function
+      clarifier: Probability density distribution of electron at distance from nucleus
+
+  related:
+    - name: Normalisation and Orthogonality
+      clarifier: Mathematical properties of wave functions in function space
+    - name: Expectation Values
+      clarifier: Average measurable quantities from quantum operators
+    - name: Quantum Numbers
+      clarifier: Principal, azimuthal, magnetic, and spin quantum numbers
+    - name: Nodal Structure
+      clarifier: Regions of zero probability in orbitals and eigenfunctions
+    - name: Boundary Conditions
+      clarifier: Mathematical constraints determining quantization in confined systems
+    - name: Hermitian Operators
+      clarifier: Properties ensuring real eigenvalues for observable quantities
+    - name: Commutators and Uncertainty
+      clarifier: Operator algebra related to simultaneous observability and Heisenberg principle
+    - name: Variational Principle
+      clarifier: Approximation method for finding ground state energies
+
+learning_path:
+  - id: 1
+    topic: Foundations of Quantum Mechanics and Mathematical Framework
+    learning_objectives:
+      - State and explain the four postulates of quantum mechanics
+      - Classify and apply different types of operators in quantum systems
+      - Distinguish between Hermitian and non-Hermitian operators
+      - Perform calculations using Dirac bra-ket notation
+      - Interpret wave functions using Born interpretation
+    textbook_style_content:
+      - lesson: Postulates and Wave Function Basics
+        sections:
+          - section_heading: Postulates of Quantum Mechanics
+            section_type: core_theory
+          - section_heading: Wave Function Properties and Born Interpretation
+            section_type: core_theory
+          - section_heading: Normalization and Orthogonality Conditions
+            section_type: related_concepts
+      - lesson: Operators and Observable Algebra
+        sections:
+          - section_heading: Linear Operators and Eigenvalue Equations
+            section_type: core_theory
+          - section_heading: Hermitian Operators and Real Eigenvalues
+            section_type: core_theory
+          - section_heading: Commutators and Simultaneous Observability
+            section_type: related_concepts
+      - lesson: Dirac Notation and Operator Methods
+        sections:
+          - section_heading: Bra-Ket Formalism and Vector Spaces
+            section_type: core_theory
+          - section_heading: Inner Products and Expectation Values
+            section_type: core_theory
+          - section_heading: Matrix Representation of Operators
+            section_type: related_concepts
+    milestone: "Successfully solve eigenvalue problems and compute expectation values using operator formalism"
+    duration_days: 8
+    tags:
+      - postulates
+      - mathematical_framework
+      - operators
+      - bra-ket_notation
+
+  - id: 2
+    topic: Schrödinger Equation and Time Evolution
+    learning_objectives:
+      - Derive and apply the time-independent Schrödinger equation
+      - Solve the time-dependent Schrödinger equation for simple systems
+      - Connect stationary states to energy eigenvalues
+      - Analyze separation of variables technique
+    textbook_style_content:
+      - lesson: Time-Independent Schrödinger Equation
+        sections:
+          - section_heading: Derivation and Physical Meaning
+            section_type: core_theory
+          - section_heading: Eigenvalue Problem and Energy Quantization
+            section_type: core_theory
+          - section_heading: Stationary States and Steady-State Solutions
+            section_type: related_concepts
+      - lesson: Time-Dependent Schrödinger Equation
+        sections:
+          - section_heading: Wave Function Evolution and Time Propagation
+            section_type: core_theory
+          - section_heading: Hamiltonian Operator and Total Energy
+            section_type: core_theory
+          - section_heading: Separation of Variables Technique
+            section_type: related_concepts
+    milestone: "Confidently solve Schrödinger equation for basic potential systems"
+    duration_days: 6
+    tags:
+      - schrodinger_equation
+      - time_evolution
+      - energy_quantization
+
+  - id: 3
+    topic: Particle in a Box - Infinite and Finite Square Wells
+    learning_objectives:
+      - Solve particle in a box in 1D, 2D, and 3D systems
+      - Calculate energy levels and wave functions for infinite potential wells
+      - Understand energy degeneracy in multi-dimensional boxes
+      - Compare infinite and finite well solutions
+      - Explain physical differences between systems
+    textbook_style_content:
+      - lesson: Infinite Square Well in One Dimension
+        sections:
+          - section_heading: Solution of Time-Independent Schrödinger Equation
+            section_type: core_theory
+          - section_heading: Quantized Energy Levels and Quantum Numbers
+            section_type: core_theory
+          - section_heading: Wave Function Properties and Nodal Planes
+            section_type: related_concepts
+      - lesson: Multi-Dimensional Infinite Boxes
+        sections:
+          - section_heading: Particle in 2D Box - Separation and Degeneracy
+            section_type: core_theory
+          - section_heading: Particle in 3D Box - Energy Level Analysis
+            section_type: core_theory
+          - section_heading: Quantum Number Combinations and Degenerate States
+            section_type: related_concepts
+      - lesson: Finite Square Well Model
+        sections:
+          - section_heading: Boundary Conditions and Wave Function Continuity
+            section_type: core_theory
+          - section_heading: Bound State Solutions Below Barrier Height
+            section_type: core_theory
+          - section_heading: Comparison with Infinite Well Approximation
+            section_type: related_concepts
+    milestone: "Calculate energy levels and wave functions; predict degeneracy patterns"
+    duration_days: 8
+    tags:
+      - particle_in_box
+      - infinite_well
+      - finite_well
+      - quantization
+
+  - id: 4
+    topic: Quantum Tunnelling and Barrier Penetration
+    learning_objectives:
+      - Explain tunnelling as quintessentially quantum phenomenon
+      - Derive tunnelling probability for finite barriers
+      - Analyze transmission and reflection coefficients
+      - Connect to real applications (radioactive decay, scanning tunnelling microscopy)
+      - Contrast classical versus quantum barrier behavior
+    textbook_style_content:
+      - lesson: Tunnelling Concept and Mechanism
+        sections:
+          - section_heading: Classical Forbidden Region and Quantum Penetration
+            section_type: overview
+          - section_heading: Exponential Decay of Wave Function in Barrier
+            section_type: core_theory
+          - section_heading: Transmission and Reflection Probabilities
+            section_type: core_theory
+      - lesson: Mathematical Treatment of Tunnelling
+        sections:
+          - section_heading: Wave Function Solution in Three Regions
+            section_type: core_theory
+          - section_heading: Boundary Matching and Coefficient Determination
+            section_type: core_theory
+          - section_heading: WKB Approximation for Tunnelling Probability
+            section_type: related_concepts
+      - lesson: Applications and Physical Examples
+        sections:
+          - section_heading: Alpha Decay and Nuclear Tunnelling
+            section_type: related_concepts
+          - section_heading: Electron Transfer and Chemical Kinetics
+            section_type: related_concepts
+          - section_heading: Scanning Tunnelling Microscopy
+            section_type: related_concepts
+    milestone: "Calculate tunnelling probabilities and explain barrier penetration phenomena"
+    duration_days: 6
+    tags:
+      - tunnelling
+      - barrier_penetration
+      - transmission_coefficient
+      - applications
+
+  - id: 5
+    topic: Quantum Harmonic Oscillator
+    learning_objectives:
+      - Solve harmonic oscillator potential using Schrödinger equation
+      - Derive quantized energy levels for harmonic potentials
+      - Explain zero-point energy and its physical significance
+      - Apply Hermite polynomials to wave function solutions
+      - Distinguish harmonic from anharmonic potentials
+      - Analyze vibrational spectrum implications
+    textbook_style_content:
+      - lesson: Harmonic Oscillator Theory
+        sections:
+          - section_heading: Quadratic Potential and Classical Analogue
+            section_type: overview
+          - section_heading: Schrödinger Equation for Harmonic Potential
+            section_type: core_theory
+          - section_heading: Energy Quantization and Zero-Point Energy
+            section_type: core_theory
+      - lesson: Mathematical Solutions
+        sections:
+          - section_heading: Hermite Differential Equation and Polynomials
+            section_type: core_theory
+          - section_heading: Hermite Polynomial Properties and Orthogonality
+            section_type: core_theory
+          - section_heading: Wave Function Expressions and Nodal Structure
+            section_type: related_concepts
+      - lesson: Anharmonic and Real Oscillators
+        sections:
+          - section_heading: Anharmonic Potential Energy Functions
+            section_type: core_theory
+          - section_heading: Vibrational Spectroscopy and Overtone Bands
+            section_type: related_concepts
+          - section_heading: Variational Approach for Anharmonic Systems
+            section_type: related_concepts
+    milestone: "Solve harmonic oscillator completely; explain spectroscopic deviations"
+    duration_days: 8
+    tags:
+      - harmonic_oscillator
+      - hermite_polynomials
+      - zero_point_energy
+      - quantization
+
+  - id: 6
+    topic: Angular Momentum and Rotational Motion
+    learning_objectives:
+      - Construct and apply angular momentum operators
+      - Derive commutation relations among angular momentum components
+      - Solve rigid rotor eigenvalue problem
+      - Determine rotational energy levels and quantum numbers
+      - Relate angular momentum to orbital properties
+      - Understand spatial quantization
+    textbook_style_content:
+      - lesson: Angular Momentum Operators
+        sections:
+          - section_heading: Cartesian and Spherical Coordinate Expressions
+            section_type: core_theory
+          - section_heading: Commutation Relations and Uncertainty
+            section_type: core_theory
+          - section_heading: Ladder Operators and Eigenvalue Ladder
+            section_type: related_concepts
+      - lesson: Eigenvalues and Eigenfunctions
+        sections:
+          - section_heading: Quantum Numbers l and m; Magnitude and z-Component
+            section_type: core_theory
+          - section_heading: Spherical Harmonics as Angular Eigenfunctions
+            section_type: core_theory
+          - section_heading: Spatial Quantization and Orbital Orientation
+            section_type: related_concepts
+      - lesson: Rigid Rotor Model
+        sections:
+          - section_heading: Rotational Kinetic Energy Operator
+            section_type: core_theory
+          - section_heading: Schrödinger Equation in Spherical Coordinates
+            section_type: core_theory
+          - section_heading: Rotational Energy Levels and Moment of Inertia
+            section_type: related_concepts
+    milestone: "Solve rigid rotor problem; predict rotational spectroscopy patterns"
+    duration_days: 8
+    tags:
+      - angular_momentum
+      - commutation_relations
+      - rigid_rotor
+      - rotational_quantization
+
+  - id: 7
+    topic: Hydrogen Atom and Atomic Structure
+    learning_objectives:
+      - Solve Schrödinger equation for hydrogen atom
+      - Identify and characterize atomic orbitals
+      - Explain role of principal, azimuthal, and magnetic quantum numbers
+      - Calculate orbital energies and energy levels
+      - Understand radial and angular dependencies of orbitals
+      - Predict orbital shapes and nodal structure
+    textbook_style_content:
+      - lesson: Hydrogen Atom Problem
+        sections:
+          - section_heading: Coulomb Potential and Two-Body Reduction to Center of Mass
+            section_type: overview
+          - section_heading: Separation into Radial and Angular Parts
+            section_type: core_theory
+          - section_heading: Quantum Numbers n, l, and m; Atomic Orbitals
+            section_type: core_theory
+      - lesson: Radial Wave Functions and Energies
+        sections:
+          - section_heading: Radial Schrödinger Equation and Laguerre Polynomials
+            section_type: core_theory
+          - section_heading: Quantized Energy Levels Depending on n
+            section_type: core_theory
+          - section_heading: Bohr Radius and Effective Nuclear Charge Concept
+            section_type: related_concepts
+      - lesson: Atomic Orbitals and Their Properties
+        sections:
+          - section_heading: "s, p, d Orbitals: Spatial Distribution and Shapes"
+            section_type: core_theory
+          - section_heading: Radial Distribution Function and Electron Probability
+            section_type: core_theory
+          - section_heading: Nodal Planes and Radial Nodes in Orbitals
+            section_type: core_theory
+      - lesson: Hydrogen-Like Atoms
+        sections:
+          - section_heading: Extension to He⁺, Li²⁺ and Multi-Electron Ions
+            section_type: related_concepts
+          - section_heading: Scaling of Orbitals with Nuclear Charge Z
+            section_type: related_concepts
+    milestone: "Characterize any atomic orbital; explain hydrogen spectral series"
+    duration_days: 10
+    tags:
+      - hydrogen_atom
+      - atomic_orbitals
+      - quantum_numbers
+      - radial_distribution
+      - hydrogen_like_atoms
+
+  - id: 8
+    topic: Integrated Problem-Solving and GATE Preparation
+    learning_objectives:
+      - Synthesize concepts across all topics
+      - Solve multi-step problems combining multiple quantum mechanical principles
+      - Apply approximation methods for realistic systems
+      - Practice time-management under examination conditions
+      - Distinguish among competing solution approaches
+      - Validate answers through dimensional analysis and limit checks
+    textbook_style_content:
+      - lesson: Comprehensive Problem Sets
+        sections:
+          - section_heading: Mixed Concept Problems Across All Units
+            section_type: core_theory
+          - section_heading: Comparison and Contrast Questions
+            section_type: core_theory
+          - section_heading: Numerical Calculations and Approximations
+            section_type: related_concepts
+      - lesson: Examination Strategies
+        sections:
+          - section_heading: Problem Classification and Solution Selection
+            section_type: related_concepts
+          - section_heading: Time Allocation and Efficiency Techniques
+            section_type: related_concepts
+          - section_heading: Common Error Patterns and Pitfalls
+            section_type: related_concepts
+    milestone: "Demonstrate mastery across all quantum mechanics topics under timed conditions"
+    duration_days: 7
+    tags:
+      - integration
+      - problem_solving
+      - gate_preparation
+      - examination_practice

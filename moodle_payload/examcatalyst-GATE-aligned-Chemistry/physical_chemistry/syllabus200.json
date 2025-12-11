@@ -1,0 +1,2169 @@
+{
+  "subject": "Physical Chemistry",
+  "subject_key": "physical_chemistry",
+  "topics": [
+    {
+      "topic": "Basic Quantum Mechanics",
+      "topic_key": "basic_quantum_mechanics",
+      "lessons": [
+        {
+          "lesson": "Foundations of Quantum Mechanics and Mathematical Framework",
+          "lesson_key": "foundations_of_quantum_mechanics_and_mathematical_framework",
+          "chapters": [
+            {
+              "chapter": "State and explain the four postulates of quantum mechanics"
+            },
+            {
+              "chapter": "Classify and apply different types of operators in quantum systems"
+            },
+            {
+              "chapter": "Distinguish between Hermitian and non-Hermitian operators"
+            },
+            {
+              "chapter": "Perform calculations using Dirac bra-ket notation"
+            },
+            {
+              "chapter": "Interpret wave functions using Born interpretation"
+            }
+          ]
+        },
+        {
+          "lesson": "Schrödinger Equation and Time Evolution",
+          "lesson_key": "schrödinger_equation_and_time_evolution",
+          "chapters": [
+            {
+              "chapter": "Derive and apply the time-independent Schrödinger equation"
+            },
+            {
+              "chapter": "Solve the time-dependent Schrödinger equation for simple systems"
+            },
+            {
+              "chapter": "Connect stationary states to energy eigenvalues"
+            },
+            {
+              "chapter": "Analyze separation of variables technique"
+            }
+          ]
+        },
+        {
+          "lesson": "Particle in a Box - Infinite and Finite Square Wells",
+          "lesson_key": "particle_in_a_box_infinite_and_finite_square_wells",
+          "chapters": [
+            {
+              "chapter": "Solve particle in a box in 1D, 2D, and 3D systems"
+            },
+            {
+              "chapter": "Calculate energy levels and wave functions for infinite potential wells"
+            },
+            {
+              "chapter": "Understand energy degeneracy in multi-dimensional boxes"
+            },
+            {
+              "chapter": "Compare infinite and finite well solutions"
+            },
+            {
+              "chapter": "Explain physical differences between systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Quantum Tunnelling and Barrier Penetration",
+          "lesson_key": "quantum_tunnelling_and_barrier_penetration",
+          "chapters": [
+            {
+              "chapter": "Explain tunnelling as quintessentially quantum phenomenon"
+            },
+            {
+              "chapter": "Derive tunnelling probability for finite barriers"
+            },
+            {
+              "chapter": "Analyze transmission and reflection coefficients"
+            },
+            {
+              "chapter": "Connect to real applications (radioactive decay, scanning tunnelling microscopy)"
+            },
+            {
+              "chapter": "Contrast classical versus quantum barrier behavior"
+            }
+          ]
+        },
+        {
+          "lesson": "Quantum Harmonic Oscillator",
+          "lesson_key": "quantum_harmonic_oscillator",
+          "chapters": [
+            {
+              "chapter": "Solve harmonic oscillator potential using Schrödinger equation"
+            },
+            {
+              "chapter": "Derive quantized energy levels for harmonic potentials"
+            },
+            {
+              "chapter": "Explain zero-point energy and its physical significance"
+            },
+            {
+              "chapter": "Apply Hermite polynomials to wave function solutions"
+            },
+            {
+              "chapter": "Distinguish harmonic from anharmonic potentials"
+            },
+            {
+              "chapter": "Analyze vibrational spectrum implications"
+            }
+          ]
+        },
+        {
+          "lesson": "Angular Momentum and Rotational Motion",
+          "lesson_key": "angular_momentum_and_rotational_motion",
+          "chapters": [
+            {
+              "chapter": "Construct and apply angular momentum operators"
+            },
+            {
+              "chapter": "Derive commutation relations among angular momentum components"
+            },
+            {
+              "chapter": "Solve rigid rotor eigenvalue problem"
+            },
+            {
+              "chapter": "Determine rotational energy levels and quantum numbers"
+            },
+            {
+              "chapter": "Relate angular momentum to orbital properties"
+            },
+            {
+              "chapter": "Understand spatial quantization"
+            }
+          ]
+        },
+        {
+          "lesson": "Hydrogen Atom and Atomic Structure",
+          "lesson_key": "hydrogen_atom_and_atomic_structure",
+          "chapters": [
+            {
+              "chapter": "Solve Schrödinger equation for hydrogen atom"
+            },
+            {
+              "chapter": "Identify and characterize atomic orbitals"
+            },
+            {
+              "chapter": "Explain role of principal, azimuthal, and magnetic quantum numbers"
+            },
+            {
+              "chapter": "Calculate orbital energies and energy levels"
+            },
+            {
+              "chapter": "Understand radial and angular dependencies of orbitals"
+            },
+            {
+              "chapter": "Predict orbital shapes and nodal structure"
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated Problem-Solving and GATE Preparation",
+          "lesson_key": "integrated_problem_solving_and_gate_preparation",
+          "chapters": [
+            {
+              "chapter": "Synthesize concepts across all topics"
+            },
+            {
+              "chapter": "Solve multi-step problems combining multiple quantum mechanical principles"
+            },
+            {
+              "chapter": "Apply approximation methods for realistic systems"
+            },
+            {
+              "chapter": "Practice time-management under examination conditions"
+            },
+            {
+              "chapter": "Distinguish among competing solution approaches"
+            },
+            {
+              "chapter": "Validate answers through dimensional analysis and limit checks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Approximation Methods of Quantum Mechanics",
+      "topic_key": "approximation_methods_of_quantum_mechanics",
+      "lessons": [
+        {
+          "lesson": "Structure of Multi-Electron Atoms",
+          "lesson_key": "structure_of_multi_electron_atoms",
+          "chapters": [
+            {
+              "chapter": "Explain why the hydrogenic solution does not directly extend to multi-electron atoms"
+            },
+            {
+              "chapter": "Describe the orbital approximation and its physical meaning"
+            },
+            {
+              "chapter": "Define effective nuclear charge, screening, and shielding qualitatively"
+            },
+            {
+              "chapter": "Write one-electron spin-orbitals including spatial and spin parts"
+            }
+          ]
+        },
+        {
+          "lesson": "Pauli Principle and Slater Determinants",
+          "lesson_key": "pauli_principle_and_slater_determinants",
+          "chapters": [
+            {
+              "chapter": "State and apply the Pauli exclusion principle to electronic configurations"
+            },
+            {
+              "chapter": "Explain antisymmetry requirement for fermionic wavefunctions"
+            },
+            {
+              "chapter": "Construct Slater determinants from given spin-orbitals"
+            },
+            {
+              "chapter": "Relate Slater determinants to electron configuration notation"
+            }
+          ]
+        },
+        {
+          "lesson": "Variational Method and Secular Determinants",
+          "lesson_key": "variational_method_and_secular_determinants",
+          "chapters": [
+            {
+              "chapter": "State the variational principle and its inequality for ground-state energy"
+            },
+            {
+              "chapter": "Choose simple trial wavefunctions for model systems"
+            },
+            {
+              "chapter": "Derive variational equations for one-parameter and multi-parameter trials"
+            },
+            {
+              "chapter": "Set up and interpret secular determinants"
+            }
+          ]
+        },
+        {
+          "lesson": "First-Order Perturbation Theory",
+          "lesson_key": "first_order_perturbation_theory",
+          "chapters": [
+            {
+              "chapter": "Derive first-order energy correction formula"
+            },
+            {
+              "chapter": "Apply first-order perturbation to simple non-degenerate systems"
+            },
+            {
+              "chapter": "Distinguish qualitatively between non-degenerate and degenerate perturbation"
+            }
+          ]
+        },
+        {
+          "lesson": "Atomic Units and Integrated Applications",
+          "lesson_key": "atomic_units_and_integrated_applications",
+          "chapters": [
+            {
+              "chapter": "Define main atomic units (length, energy, mass, charge, time)"
+            },
+            {
+              "chapter": "Rewrite Schrödinger equation in atomic units for atomic systems"
+            },
+            {
+              "chapter": "Convert between atomic units and SI units for basic quantities"
+            },
+            {
+              "chapter": "Combine orbital, Pauli, variational and perturbation ideas in atomic problems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Structure and Bonding",
+      "topic_key": "structure_and_bonding",
+      "lessons": [
+        {
+          "lesson": "Born-Oppenheimer Approximation and Molecular Problem Setup",
+          "lesson_key": "born_oppenheimer_approximation_and_molecular_problem_setup",
+          "chapters": [
+            {
+              "chapter": "State the Born-Oppenheimer approximation and its physical justification"
+            },
+            {
+              "chapter": "Explain separation of electronic and nuclear motion"
+            },
+            {
+              "chapter": "Understand parameterization of molecular energy by internuclear distance"
+            },
+            {
+              "chapter": "Relate potential energy surface to molecular geometry and stability"
+            }
+          ]
+        },
+        {
+          "lesson": "Valence Bond Theory and Molecular Bonding Concepts",
+          "lesson_key": "valence_bond_theory_and_molecular_bonding_concepts",
+          "chapters": [
+            {
+              "chapter": "Describe valence bond picture of electron pair bonding"
+            },
+            {
+              "chapter": "Draw Lewis structures and resonance forms"
+            },
+            {
+              "chapter": "Explain electronegativity and polarity in terms of VB"
+            },
+            {
+              "chapter": "Connect VB to bonding strength via orbital overlap"
+            },
+            {
+              "chapter": "Distinguish σ and π bonds in VB framework"
+            }
+          ]
+        },
+        {
+          "lesson": "Linear Combination of Atomic Orbitals (LCAO) and MO Formation",
+          "lesson_key": "linear_combination_of_atomic_orbitals_lcao_and_mo_formation",
+          "chapters": [
+            {
+              "chapter": "Explain LCAO principle for constructing molecular orbitals"
+            },
+            {
+              "chapter": "Derive molecular orbitals from linear combinations of atomic basis"
+            },
+            {
+              "chapter": "Distinguish bonding, antibonding, and nonbonding orbitals"
+            },
+            {
+              "chapter": "Calculate molecular orbital energies using secular equations"
+            },
+            {
+              "chapter": "Interpret qualitative orbital energy diagrams"
+            }
+          ]
+        },
+        {
+          "lesson": "Hybrid Orbitals and Localized Bonding",
+          "lesson_key": "hybrid_orbitals_and_localized_bonding",
+          "chapters": [
+            {
+              "chapter": "Explain hybrid orbital concept and sp, sp², sp³ geometries"
+            },
+            {
+              "chapter": "Derive localized molecular orbitals from hybrid combinations"
+            },
+            {
+              "chapter": "Predict molecular geometry from hybridization"
+            },
+            {
+              "chapter": "Relate hybridization to σ-bond arrangement"
+            },
+            {
+              "chapter": "Connect hybrid model to VSEPR and molecular shape"
+            }
+          ]
+        },
+        {
+          "lesson": "LCAO-MO Applications to H₂⁺ and H₂ Molecules",
+          "lesson_key": "lcao_mo_applications_to_h₂_and_h₂_molecules",
+          "chapters": [
+            {
+              "chapter": "Solve H₂⁺ ion using LCAO with 1s basis functions"
+            },
+            {
+              "chapter": "Calculate molecular orbital energies and bond order"
+            },
+            {
+              "chapter": "Interpret potential energy curves and bond dissociation"
+            },
+            {
+              "chapter": "Extend to neutral H₂ molecule"
+            },
+            {
+              "chapter": "Construct complete MO diagram for H₂"
+            },
+            {
+              "chapter": "Compare VB and MO descriptions of H₂"
+            }
+          ]
+        },
+        {
+          "lesson": "Homonuclear Diatomic Molecules—Orbital Theory",
+          "lesson_key": "homonuclear_diatomic_molecules_orbital_theory",
+          "chapters": [
+            {
+              "chapter": "Construct molecular orbital diagrams for Period 2 diatomics"
+            },
+            {
+              "chapter": "Explain order of σ and π orbital energies"
+            },
+            {
+              "chapter": "Account for s-p orbital mixing effects"
+            },
+            {
+              "chapter": "Calculate bond order from MO populations"
+            },
+            {
+              "chapter": "Predict molecular properties (magnetic, structural)"
+            },
+            {
+              "chapter": "Explain trends in bonding strength across Period 2"
+            }
+          ]
+        },
+        {
+          "lesson": "Heteronuclear Diatomic Molecules—Orbital Theory",
+          "lesson_key": "heteronuclear_diatomic_molecules_orbital_theory",
+          "chapters": [
+            {
+              "chapter": "Explain effect of electronegativity on orbital mixing and energy"
+            },
+            {
+              "chapter": "Construct MO diagrams for heteronuclear diatomics"
+            },
+            {
+              "chapter": "Determine orbital polarization and effective charges"
+            },
+            {
+              "chapter": "Calculate dipole moments and molecular polarity"
+            },
+            {
+              "chapter": "Predict bonding and antibonding character from electronegativity"
+            },
+            {
+              "chapter": "Apply MOT to CO, HF, NO, CN⁻ systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Hückel Approximation and π-Electron Systems",
+          "lesson_key": "hückel_approximation_and_π_electron_systems",
+          "chapters": [
+            {
+              "chapter": "Understand assumptions underlying Hückel approximation"
+            },
+            {
+              "chapter": "Apply Hückel method to linear and cyclic conjugates"
+            },
+            {
+              "chapter": "Calculate π-electron energies and orbital coefficients"
+            },
+            {
+              "chapter": "Predict aromaticity from Hückel orbital patterns"
+            },
+            {
+              "chapter": "Interpret charge distributions and bond orders"
+            },
+            {
+              "chapter": "Apply Hückel to benzene, annulenes, and heterocycles (outline)"
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated MO Applications and Comparison of Bonding Theories",
+          "lesson_key": "integrated_mo_applications_and_comparison_of_bonding_theories",
+          "chapters": [
+            {
+              "chapter": "Compare predictions of VB, hybrid orbital, and MO theories"
+            },
+            {
+              "chapter": "Synthesize LCAO-MO and Hückel approaches for complex molecules"
+            },
+            {
+              "chapter": "Predict molecular properties using multiple bonding models"
+            },
+            {
+              "chapter": "Solve multi-step problems integrating structure and bonding"
+            },
+            {
+              "chapter": "Practice problem-solving under GATE conditions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Group Theory and Molecular Symmetry",
+      "topic_key": "group_theory_and_molecular_symmetry",
+      "lessons": [
+        {
+          "lesson": "Symmetry Elements, Operations, and Basic Group Concepts",
+          "lesson_key": "symmetry_elements_operations_and_basic_group_concepts",
+          "chapters": [
+            {
+              "chapter": "Identify and define all common molecular symmetry elements and operations"
+            },
+            {
+              "chapter": "Determine the complete set of symmetry operations for simple molecules"
+            },
+            {
+              "chapter": "Understand the concept of a group and its axioms in the context of symmetry"
+            },
+            {
+              "chapter": "Perform simple multiplication tables for symmetry operations"
+            }
+          ]
+        },
+        {
+          "lesson": "Point Groups and Character Tables",
+          "lesson_key": "point_groups_and_character_tables",
+          "chapters": [
+            {
+              "chapter": "Assign molecules to appropriate point groups using flowcharts or decision schemes"
+            },
+            {
+              "chapter": "Interpret all entries of standard character tables"
+            },
+            {
+              "chapter": "Distinguish between reducible and irreducible representations"
+            },
+            {
+              "chapter": "Use character tables to obtain symmetry species of simple basis functions"
+            }
+          ]
+        },
+        {
+          "lesson": "Internal Coordinates, Vibrational Modes, and Spectroscopic Activity",
+          "lesson_key": "internal_coordinates_vibrational_modes_and_spectroscopic_activity",
+          "chapters": [
+            {
+              "chapter": "Distinguish between Cartesian and internal coordinates in molecules"
+            },
+            {
+              "chapter": "Use group theory to determine the number and symmetry types of normal vibrational modes"
+            },
+            {
+              "chapter": "Separate translational, rotational, and vibrational contributions from a reducible representation"
+            },
+            {
+              "chapter": "Predict IR and Raman activity of vibrational modes using character tables"
+            }
+          ]
+        },
+        {
+          "lesson": "Symmetry Adapted Linear Combinations (SALC) and LCAO-MO",
+          "lesson_key": "symmetry_adapted_linear_combinations_salc_and_lcao_mo",
+          "chapters": [
+            {
+              "chapter": "Explain the need for symmetry adapted combinations of atomic orbitals"
+            },
+            {
+              "chapter": "Construct SALCs for ligand group orbitals in simple point groups"
+            },
+            {
+              "chapter": "Match SALCs with central atom orbitals using irreducible representations"
+            },
+            {
+              "chapter": "Use SALCs to build qualitative LCAO-MO diagrams for small molecules"
+            }
+          ]
+        },
+        {
+          "lesson": "Construction of Hybrid Orbitals Using Symmetry",
+          "lesson_key": "construction_of_hybrid_orbitals_using_symmetry",
+          "chapters": [
+            {
+              "chapter": "Use irreducible representations to determine allowed hybrid orbital sets on an atom"
+            },
+            {
+              "chapter": "Derive common hybridizations (sp, sp², sp³) from symmetry arguments"
+            },
+            {
+              "chapter": "Relate symmetry-derived hybrid sets to molecular geometry"
+            },
+            {
+              "chapter": "Connect local hybrids with global SALC/MO descriptions"
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated Group Theory Applications and GATE Practice",
+          "lesson_key": "integrated_group_theory_applications_and_gate_practice",
+          "chapters": [
+            {
+              "chapter": "Combine symmetry, vibrational, and MO concepts in multi-step problems"
+            },
+            {
+              "chapter": "Rapidly identify point groups and apply character tables under exam conditions"
+            },
+            {
+              "chapter": "Predict IR/Raman active modes and basic MO features for unfamiliar molecules"
+            },
+            {
+              "chapter": "Translate qualitative symmetry reasoning into quantitative shortcuts for GATE questions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Atomic and Molecular Spectroscopy",
+      "topic_key": "atomic_and_molecular_spectroscopy",
+      "lessons": [
+        {
+          "lesson": "Foundations of Atomic Spectroscopy and Term Symbols",
+          "lesson_key": "foundations_of_atomic_spectroscopy_and_term_symbols",
+          "chapters": [
+            {
+              "chapter": "Understand electronic transitions in isolated atoms and the hydrogen atom spectrum"
+            },
+            {
+              "chapter": "Apply Russell-Saunders (LS) coupling to multi-electron atoms"
+            },
+            {
+              "chapter": "Construct and interpret term symbols using quantum numbers L, S, and J"
+            },
+            {
+              "chapter": "Recognize limitations of LS coupling (spin-orbit effects, coupling schemes)"
+            }
+          ]
+        },
+        {
+          "lesson": "Selection Rules and Spectral Line Origins",
+          "lesson_key": "selection_rules_and_spectral_line_origins",
+          "chapters": [
+            {
+              "chapter": "Derive and apply selection rules for electric dipole transitions"
+            },
+            {
+              "chapter": "Distinguish between allowed and forbidden transitions"
+            },
+            {
+              "chapter": "Understand the quantum mechanical basis of selection rules"
+            },
+            {
+              "chapter": "Predict spectral intensities and allowed transitions"
+            }
+          ]
+        },
+        {
+          "lesson": "Rotational Spectroscopy of Molecules",
+          "lesson_key": "rotational_spectroscopy_of_molecules",
+          "chapters": [
+            {
+              "chapter": "Apply the rigid rotor model to rotational energy levels"
+            },
+            {
+              "chapter": "Analyze rotational spectra of diatomic molecules"
+            },
+            {
+              "chapter": "Extend concepts to polyatomic molecules (linear and nonlinear rotors)"
+            },
+            {
+              "chapter": "Extract molecular constants from spectroscopic data"
+            }
+          ]
+        },
+        {
+          "lesson": "Vibrational Spectroscopy of Molecules",
+          "lesson_key": "vibrational_spectroscopy_of_molecules",
+          "chapters": [
+            {
+              "chapter": "Apply the harmonic oscillator model to molecular vibrations"
+            },
+            {
+              "chapter": "Calculate vibrational frequencies and energy levels"
+            },
+            {
+              "chapter": "Understand vibrational modes in polyatomic molecules"
+            },
+            {
+              "chapter": "Analyze isotope effects on vibrational frequencies"
+            }
+          ]
+        },
+        {
+          "lesson": "Electronic Spectroscopy and Franck-Condon Principle",
+          "lesson_key": "electronic_spectroscopy_and_franck_condon_principle",
+          "chapters": [
+            {
+              "chapter": "Understand electronic transitions between molecular states"
+            },
+            {
+              "chapter": "Apply the Franck-Condon principle to predict electronic spectra"
+            },
+            {
+              "chapter": "Analyze vibrational fine structure in electronic spectra"
+            },
+            {
+              "chapter": "Relate spectroscopic data to molecular structure and bonding"
+            }
+          ]
+        },
+        {
+          "lesson": "Raman Spectroscopy",
+          "lesson_key": "raman_spectroscopy",
+          "chapters": [
+            {
+              "chapter": "Understand the Raman scattering process and Stokes/anti-Stokes lines"
+            },
+            {
+              "chapter": "Apply the concept of polarizability to Raman transitions"
+            },
+            {
+              "chapter": "Distinguish between rotational, vibrational, and electronic Raman"
+            },
+            {
+              "chapter": "Analyze depolarization ratios for symmetry determination"
+            }
+          ]
+        },
+        {
+          "lesson": "Transition Probabilities - Einstein Coefficients and Oscillator Strength",
+          "lesson_key": "transition_probabilities_einstein_coefficients_and_oscillator_strength",
+          "chapters": [
+            {
+              "chapter": "Understand Einstein A and B coefficients and their physical significance"
+            },
+            {
+              "chapter": "Derive relationships between Einstein coefficients and transition dipole moments"
+            },
+            {
+              "chapter": "Connect oscillator strength to experimental molar extinction coefficient"
+            },
+            {
+              "chapter": "Analyze population dynamics in multi-level systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Line Broadening in Spectroscopy",
+          "lesson_key": "line_broadening_in_spectroscopy",
+          "chapters": [
+            {
+              "chapter": "Understand natural linewidth from quantum mechanical uncertainty"
+            },
+            {
+              "chapter": "Analyze Doppler broadening in gaseous samples"
+            },
+            {
+              "chapter": "Calculate pressure broadening and collision effects"
+            },
+            {
+              "chapter": "Predict overall lineshape in practical spectroscopy"
+            }
+          ]
+        },
+        {
+          "lesson": "NMR Fundamentals - Gyromagnetic Ratio and Resonance Condition",
+          "lesson_key": "nmr_fundamentals_gyromagnetic_ratio_and_resonance_condition",
+          "chapters": [
+            {
+              "chapter": "Understand nuclear spin properties and magnetic moments"
+            },
+            {
+              "chapter": "Define gyromagnetic ratio and its significance"
+            },
+            {
+              "chapter": "Derive the resonance condition for NMR"
+            },
+            {
+              "chapter": "Analyze Zeeman splitting of nuclear spin states"
+            }
+          ]
+        },
+        {
+          "lesson": "NMR Chemical Shift and Spin-Spin Coupling",
+          "lesson_key": "nmr_chemical_shift_and_spin_spin_coupling",
+          "chapters": [
+            {
+              "chapter": "Understand origins of chemical shift from electron density and diamagnetic shielding"
+            },
+            {
+              "chapter": "Apply chemical shift concepts to structure determination"
+            },
+            {
+              "chapter": "Analyze spin-spin coupling patterns and coupling constants"
+            },
+            {
+              "chapter": "Predict multiplet patterns using first and second-order analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Equilibrium Chemical Thermodynamics I",
+      "topic_key": "equilibrium_chemical_thermodynamics_i",
+      "lessons": [
+        {
+          "lesson": "Foundations of Thermodynamics and Laws",
+          "lesson_key": "foundations_of_thermodynamics_and_laws",
+          "chapters": [
+            {
+              "chapter": "Understand the first law of thermodynamics and internal energy concepts"
+            },
+            {
+              "chapter": "Apply the second law to identify spontaneous processes"
+            },
+            {
+              "chapter": "Comprehend the third law and absolute entropy"
+            },
+            {
+              "chapter": "Distinguish between state and path functions"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermodynamic Functions and Standard States",
+          "lesson_key": "thermodynamic_functions_and_standard_states",
+          "chapters": [
+            {
+              "chapter": "Define and calculate enthalpy, Gibbs free energy, and Helmholtz free energy"
+            },
+            {
+              "chapter": "Apply standard states in thermodynamic calculations"
+            },
+            {
+              "chapter": "Understand thermochemistry and enthalpy of reactions"
+            },
+            {
+              "chapter": "Connect different thermodynamic properties"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermodynamic Relations and Mathematical Framework",
+          "lesson_key": "thermodynamic_relations_and_mathematical_framework",
+          "chapters": [
+            {
+              "chapter": "Derive and apply Maxwell relations"
+            },
+            {
+              "chapter": "Understand Gibbs-Helmholtz equation and its applications"
+            },
+            {
+              "chapter": "Apply Gibbs-Duhem equation to multicomponent systems"
+            },
+            {
+              "chapter": "Recognize functional relationships between properties"
+            }
+          ]
+        },
+        {
+          "lesson": "Spontaneity, Equilibrium, and Chemical Potential",
+          "lesson_key": "spontaneity_equilibrium_and_chemical_potential",
+          "chapters": [
+            {
+              "chapter": "Apply thermodynamic criteria for spontaneity and equilibrium"
+            },
+            {
+              "chapter": "Understand chemical potential as a driving force"
+            },
+            {
+              "chapter": "Calculate partial molar quantities"
+            },
+            {
+              "chapter": "Analyze thermodynamics of mixing"
+            }
+          ]
+        },
+        {
+          "lesson": "Fugacity, Activity, and Non-ideal Behavior",
+          "lesson_key": "fugacity_activity_and_non_ideal_behavior",
+          "chapters": [
+            {
+              "chapter": "Understand fugacity as corrected pressure for real gases"
+            },
+            {
+              "chapter": "Define and calculate activity coefficients"
+            },
+            {
+              "chapter": "Apply activity corrections to equilibrium expressions"
+            },
+            {
+              "chapter": "Distinguish between ideal and non-ideal solution behavior"
+            }
+          ]
+        },
+        {
+          "lesson": "Ideal Solutions and Colligative Properties",
+          "lesson_key": "ideal_solutions_and_colligative_properties",
+          "chapters": [
+            {
+              "chapter": "Apply Raoult's Law to ideal solutions"
+            },
+            {
+              "chapter": "Understand Henry's Law for dilute solutions"
+            },
+            {
+              "chapter": "Analyze vapor-liquid equilibria"
+            },
+            {
+              "chapter": "Calculate colligative properties"
+            }
+          ]
+        },
+        {
+          "lesson": "Chemical Equilibria and Equilibrium Constants",
+          "lesson_key": "chemical_equilibria_and_equilibrium_constants",
+          "chapters": [
+            {
+              "chapter": "Calculate equilibrium constants from thermodynamic data"
+            },
+            {
+              "chapter": "Understand relationship between Gibbs free energy and equilibrium constant"
+            },
+            {
+              "chapter": "Apply equilibrium expressions to chemical systems"
+            },
+            {
+              "chapter": "Analyze equilibrium shifts and perturbations"
+            }
+          ]
+        },
+        {
+          "lesson": "Temperature and Pressure Effects on Equilibrium",
+          "lesson_key": "temperature_and_pressure_effects_on_equilibrium",
+          "chapters": [
+            {
+              "chapter": "Apply van't Hoff equation for temperature dependence"
+            },
+            {
+              "chapter": "Understand pressure effects on chemical equilibria"
+            },
+            {
+              "chapter": "Predict equilibrium shifts under varying conditions"
+            },
+            {
+              "chapter": "Integrate Gibbs-Helmholtz with equilibrium theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated Problem-Solving and Synthesis",
+          "lesson_key": "integrated_problem_solving_and_synthesis",
+          "chapters": [
+            {
+              "chapter": "Synthesize multiple thermodynamic concepts for complex problems"
+            },
+            {
+              "chapter": "Apply appropriate tools (relations, equations, criteria) systematically"
+            },
+            {
+              "chapter": "Solve multistep equilibrium problems"
+            },
+            {
+              "chapter": "Validate solutions using different approaches"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Phase Rule and Phase Stability",
+      "topic_key": "phase_rule_and_phase_stability",
+      "lessons": [
+        {
+          "lesson": "Foundations of Phase Equilibria and Phase Rule",
+          "lesson_key": "foundations_of_phase_equilibria_and_phase_rule",
+          "chapters": [
+            {
+              "chapter": "Understand the concept of phases and thermodynamic phases"
+            },
+            {
+              "chapter": "Apply Gibbs phase rule to systems with varying complexity"
+            },
+            {
+              "chapter": "Determine degrees of freedom for different systems"
+            },
+            {
+              "chapter": "Distinguish between intensive and extensive variables"
+            }
+          ]
+        },
+        {
+          "lesson": "Clausius-Clapeyron Equation and Phase Transitions",
+          "lesson_key": "clausius_clapeyron_equation_and_phase_transitions",
+          "chapters": [
+            {
+              "chapter": "Derive the Clausius-Clapeyron equation from thermodynamic principles"
+            },
+            {
+              "chapter": "Relate vapor pressure to temperature quantitatively"
+            },
+            {
+              "chapter": "Apply the equation to different phase transitions"
+            },
+            {
+              "chapter": "Understand enthalpy of vaporization and sublimation"
+            }
+          ]
+        },
+        {
+          "lesson": "One-Component Phase Diagrams",
+          "lesson_key": "one_component_phase_diagrams",
+          "chapters": [
+            {
+              "chapter": "Interpret P-T phase diagrams for pure substances"
+            },
+            {
+              "chapter": "Identify triple point, critical point, and phase boundaries"
+            },
+            {
+              "chapter": "Understand anomalous behavior of water"
+            },
+            {
+              "chapter": "Analyze CO₂, H₂O, and S phase diagrams"
+            }
+          ]
+        },
+        {
+          "lesson": "Two-Component Liquid-Vapor Phase Diagrams",
+          "lesson_key": "two_component_liquid_vapor_phase_diagrams",
+          "chapters": [
+            {
+              "chapter": "Construct and interpret T-x and P-x phase diagrams"
+            },
+            {
+              "chapter": "Apply Raoult's Law and Henry's Law to ideal systems"
+            },
+            {
+              "chapter": "Identify bubble point and dew point lines"
+            },
+            {
+              "chapter": "Understand partial miscibility in vapor-liquid systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Azeotropes in Binary Systems",
+          "lesson_key": "azeotropes_in_binary_systems",
+          "chapters": [
+            {
+              "chapter": "Define and identify azeotropic compositions"
+            },
+            {
+              "chapter": "Distinguish between positive and negative azeotropes"
+            },
+            {
+              "chapter": "Understand azeotropic behavior thermodynamically"
+            },
+            {
+              "chapter": "Analyze implications for separation by distillation"
+            }
+          ]
+        },
+        {
+          "lesson": "Two-Component Liquid-Liquid Phase Diagrams",
+          "lesson_key": "two_component_liquid_liquid_phase_diagrams",
+          "chapters": [
+            {
+              "chapter": "Interpret upper and lower critical solution temperature (UCST and LCST)"
+            },
+            {
+              "chapter": "Analyze partial miscibility regions"
+            },
+            {
+              "chapter": "Understand consolute points and binodal curves"
+            },
+            {
+              "chapter": "Apply lever rule to liquid-liquid systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Two-Component Solid-Liquid Phase Diagrams and Eutectics",
+          "lesson_key": "two_component_solid_liquid_phase_diagrams_and_eutectics",
+          "chapters": [
+            {
+              "chapter": "Construct and interpret solid-liquid phase diagrams"
+            },
+            {
+              "chapter": "Identify eutectic points and eutectic compositions"
+            },
+            {
+              "chapter": "Understand congruent and incongruent melting"
+            },
+            {
+              "chapter": "Analyze peritectic reactions and compound formation"
+            }
+          ]
+        },
+        {
+          "lesson": "Fractional Distillation and Separation Techniques",
+          "lesson_key": "fractional_distillation_and_separation_techniques",
+          "chapters": [
+            {
+              "chapter": "Understand principles of fractional distillation"
+            },
+            {
+              "chapter": "Apply relative volatility and separation factor concepts"
+            },
+            {
+              "chapter": "Analyze distillation efficiency and stage calculations"
+            },
+            {
+              "chapter": "Distinguish between simple, fractional, and vacuum distillation"
+            }
+          ]
+        },
+        {
+          "lesson": "Integration and Advanced Phase Diagram Analysis",
+          "lesson_key": "integration_and_advanced_phase_diagram_analysis",
+          "chapters": [
+            {
+              "chapter": "Synthesize one- and two-component phase diagram concepts"
+            },
+            {
+              "chapter": "Apply phase rule to predict phase behavior"
+            },
+            {
+              "chapter": "Use lever rule quantitatively in multicomponent contexts"
+            },
+            {
+              "chapter": "Solve comprehensive phase equilibrium problems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Ionic Equilibrium and Electrochemistry",
+      "topic_key": "ionic_equilibrium_and_electrochemistry",
+      "lessons": [
+        {
+          "lesson": "Ionic Mobility and Conductance Basics",
+          "lesson_key": "ionic_mobility_and_conductance_basics",
+          "chapters": [
+            {
+              "chapter": "Define ionic mobility and relate it to drift velocity and charge."
+            },
+            {
+              "chapter": "Distinguish between specific, equivalent, and molar conductivity."
+            },
+            {
+              "chapter": "Describe the effect of dilution on conductivity and molar conductivity for strong and weak electrolytes."
+            },
+            {
+              "chapter": "Apply Kohlrausch’s law of independent migration to compute limiting molar conductivities."
+            }
+          ]
+        },
+        {
+          "lesson": "Debye-Hückel Theory and Onsager Equation",
+          "lesson_key": "debye_hückel_theory_and_onsager_equation",
+          "chapters": [
+            {
+              "chapter": "Explain the qualitative basis of Debye-Hückel theory for ionic solutions."
+            },
+            {
+              "chapter": "Use the Debye-Hückel limiting law to relate activity coefficients to ionic strength."
+            },
+            {
+              "chapter": "Understand the Debye-Hückel-Onsager equation for strong electrolyte conductance."
+            },
+            {
+              "chapter": "Recognize limitations and valid ranges of these equations for real solutions."
+            }
+          ]
+        },
+        {
+          "lesson": "Electrochemical Cells and Standard Potentials",
+          "lesson_key": "electrochemical_cells_and_standard_potentials",
+          "chapters": [
+            {
+              "chapter": "Describe construction and notation of galvanic cells."
+            },
+            {
+              "chapter": "Define standard electrode potential and standard hydrogen electrode."
+            },
+            {
+              "chapter": "Write cell reactions and relate them to cell EMF."
+            },
+            {
+              "chapter": "Use standard potential tables to predict feasibility and EMF of cells."
+            }
+          ]
+        },
+        {
+          "lesson": "Nernst Equation and Its Applications",
+          "lesson_key": "nernst_equation_and_its_applications",
+          "chapters": [
+            {
+              "chapter": "Derive the Nernst equation for electrode and cell potentials."
+            },
+            {
+              "chapter": "Calculate electrode and cell potentials at non-standard conditions."
+            },
+            {
+              "chapter": "Apply the Nernst equation to concentration cells and pH determination."
+            },
+            {
+              "chapter": "Use EMF measurements to obtain equilibrium constants and solubility products."
+            }
+          ]
+        },
+        {
+          "lesson": "Electrode Potentials and Thermodynamics",
+          "lesson_key": "electrode_potentials_and_thermodynamics",
+          "chapters": [
+            {
+              "chapter": "Relate electrode and cell potentials to Gibbs free energy change."
+            },
+            {
+              "chapter": "Connect EMF to enthalpy and entropy of cell reactions."
+            },
+            {
+              "chapter": "Derive expressions linking temperature coefficient of EMF to thermodynamic quantities."
+            },
+            {
+              "chapter": "Interpret electrochemical data in thermodynamic terms."
+            }
+          ]
+        },
+        {
+          "lesson": "Potentiometric Titrations",
+          "lesson_key": "potentiometric_titrations",
+          "chapters": [
+            {
+              "chapter": "Explain the principle of potentiometric titration and cell setup."
+            },
+            {
+              "chapter": "Sketch and interpret titration curves for acid–base, redox, and precipitation systems."
+            },
+            {
+              "chapter": "Locate equivalence points using first and second derivative methods."
+            },
+            {
+              "chapter": "Apply potentiometry to determine pH, \\(K_{sp}\\), and other constants."
+            }
+          ]
+        },
+        {
+          "lesson": "Conductometric Titrations and Conductance Methods",
+          "lesson_key": "conductometric_titrations_and_conductance_methods",
+          "chapters": [
+            {
+              "chapter": "Describe setup and principle of conductometric titrations."
+            },
+            {
+              "chapter": "Predict and interpret conductivity–volume curves for common titrations."
+            },
+            {
+              "chapter": "Use conductometry for precipitation and neutralization titrations where indicators fail."
+            },
+            {
+              "chapter": "Understand limitations and advantages of conductometric methods."
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated Electrochemistry Problem-Solving for GATE",
+          "lesson_key": "integrated_electrochemistry_problem_solving_for_gate",
+          "chapters": [
+            {
+              "chapter": "Integrate ionic conductance, activity, and electrochemical cell concepts in multistep problems."
+            },
+            {
+              "chapter": "Choose appropriate equations (Debye-Hückel, Nernst, \\(\\Delta G = -nFE\\)) for given questions."
+            },
+            {
+              "chapter": "Solve typical GATE-level numerical and conceptual problems efficiently."
+            },
+            {
+              "chapter": "Avoid common misconceptions and calculation traps in electrochemistry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Statistical Thermodynamics",
+      "topic_key": "statistical_thermodynamics",
+      "lessons": [
+        {
+          "lesson": "Foundations of Statistical Thermodynamics",
+          "lesson_key": "foundations_of_statistical_thermodynamics",
+          "chapters": [
+            {
+              "chapter": "Understand the need for statistical methods to connect microscopic states with macroscopic thermodynamics."
+            },
+            {
+              "chapter": "Define microstates, macrostates, and phase space for simple systems."
+            },
+            {
+              "chapter": "Use the statistical definition of entropy and relate it to thermodynamic entropy."
+            },
+            {
+              "chapter": "Distinguish ensemble averages from time averages and state assumptions behind equilibrium."
+            }
+          ]
+        },
+        {
+          "lesson": "Microcanonical Ensemble",
+          "lesson_key": "microcanonical_ensemble",
+          "chapters": [
+            {
+              "chapter": "Define the microcanonical ensemble and its characteristic constraints."
+            },
+            {
+              "chapter": "Derive expressions for entropy, temperature, and pressure in the microcanonical ensemble."
+            },
+            {
+              "chapter": "Understand equal a priori probabilities for accessible microstates."
+            },
+            {
+              "chapter": "Apply the microcanonical formalism to simple model systems."
+            }
+          ]
+        },
+        {
+          "lesson": "Canonical Ensemble and Boltzmann Distribution",
+          "lesson_key": "canonical_ensemble_and_boltzmann_distribution",
+          "chapters": [
+            {
+              "chapter": "Define the canonical ensemble and its constraints."
+            },
+            {
+              "chapter": "Derive the Boltzmann distribution from canonical ensemble considerations."
+            },
+            {
+              "chapter": "Introduce the canonical partition function as a normalization factor."
+            },
+            {
+              "chapter": "Interpret the physical meaning of the Boltzmann factor and inverse temperature \\(\\beta\\)."
+            }
+          ]
+        },
+        {
+          "lesson": "Partition Functions and Thermodynamic Properties",
+          "lesson_key": "partition_functions_and_thermodynamic_properties",
+          "chapters": [
+            {
+              "chapter": "Compute canonical partition functions for simple model systems."
+            },
+            {
+              "chapter": "Relate the partition function to Helmholtz free energy, internal energy, entropy, and heat capacity."
+            },
+            {
+              "chapter": "Understand molecular partition functions and factorization into translational, rotational, vibrational, and electronic parts."
+            },
+            {
+              "chapter": "Use partition functions to obtain equations of state and other macroscopic relations."
+            }
+          ]
+        },
+        {
+          "lesson": "Grand Canonical Ensemble and Fluctuations",
+          "lesson_key": "grand_canonical_ensemble_and_fluctuations",
+          "chapters": [
+            {
+              "chapter": "Define the grand canonical ensemble and its characteristic variables."
+            },
+            {
+              "chapter": "Introduce the grand partition function and its relation to thermodynamics."
+            },
+            {
+              "chapter": "Express average particle number, energy, and fluctuations in this ensemble."
+            },
+            {
+              "chapter": "Appreciate when the grand canonical description is more convenient than canonical."
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated Statistical Thermodynamics for GATE",
+          "lesson_key": "integrated_statistical_thermodynamics_for_gate",
+          "chapters": [
+            {
+              "chapter": "Select the appropriate ensemble (microcanonical, canonical, grand canonical) for a given physical situation."
+            },
+            {
+              "chapter": "Use Boltzmann distribution and partition functions to compute thermodynamic quantities in exam-style problems."
+            },
+            {
+              "chapter": "Translate between statistical expressions and standard thermodynamic relations."
+            },
+            {
+              "chapter": "Tackle GATE-level conceptual and numerical questions in statistical thermodynamics efficiently."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Chemical Kinetics",
+      "topic_key": "chemical_kinetics",
+      "lessons": [
+        {
+          "lesson": "Foundations of Reaction Kinetics and Rate Laws",
+          "lesson_key": "foundations_of_reaction_kinetics_and_rate_laws",
+          "chapters": [
+            {
+              "chapter": "Define reaction order, rate law, and rate constant from experimental data"
+            },
+            {
+              "chapter": "Distinguish between elementary and complex reactions"
+            },
+            {
+              "chapter": "Apply integrated rate laws for zero, first, and second-order reactions"
+            },
+            {
+              "chapter": "Determine experimental rate laws using initial rate and half-life methods"
+            }
+          ]
+        },
+        {
+          "lesson": "Elementary Reactions and Collision Theory",
+          "lesson_key": "elementary_reactions_and_collision_theory",
+          "chapters": [
+            {
+              "chapter": "Explain elementary reactions and their characteristics"
+            },
+            {
+              "chapter": "Apply collision theory to predict reaction rates"
+            },
+            {
+              "chapter": "Relate molecular parameters to rate expressions"
+            },
+            {
+              "chapter": "Understand activation energy and the Arrhenius equation"
+            }
+          ]
+        },
+        {
+          "lesson": "Complex Reaction Mechanisms – Parallel and Opposing Reactions",
+          "lesson_key": "complex_reaction_mechanisms_parallel_and_opposing_reactions",
+          "chapters": [
+            {
+              "chapter": "Analyze parallel (competing) reactions and their branching ratios"
+            },
+            {
+              "chapter": "Solve opposing (reversible) reaction kinetics to equilibrium"
+            },
+            {
+              "chapter": "Determine rate constants for forward and reverse steps"
+            },
+            {
+              "chapter": "Apply the principle of detailed balance"
+            }
+          ]
+        },
+        {
+          "lesson": "Consecutive Reactions and Intermediates",
+          "lesson_key": "consecutive_reactions_and_intermediates",
+          "chapters": [
+            {
+              "chapter": "Derive rate equations for consecutive (sequential) reaction schemes"
+            },
+            {
+              "chapter": "Calculate intermediate concentrations using coupled differential equations"
+            },
+            {
+              "chapter": "Identify rate-determining steps in multi-step pathways"
+            },
+            {
+              "chapter": "Apply Bodenstein's principle for long-lived vs. short-lived intermediates"
+            }
+          ]
+        },
+        {
+          "lesson": "Steady State Approximation and Reaction Mechanisms",
+          "lesson_key": "steady_state_approximation_and_reaction_mechanisms",
+          "chapters": [
+            {
+              "chapter": "Apply the steady state (stationary state) approximation to intermediates"
+            },
+            {
+              "chapter": "Derive rate laws for complex mechanisms using steady state"
+            },
+            {
+              "chapter": "Compare steady state and pre-equilibrium approximations"
+            },
+            {
+              "chapter": "Verify proposed mechanisms against experimental rate laws"
+            }
+          ]
+        },
+        {
+          "lesson": "Catalysis – Concepts and Mechanisms",
+          "lesson_key": "catalysis_concepts_and_mechanisms",
+          "chapters": [
+            {
+              "chapter": "Define catalysis and explain how catalysts lower activation energy"
+            },
+            {
+              "chapter": "Distinguish between homogeneous and heterogeneous catalysis"
+            },
+            {
+              "chapter": "Derive rate laws for catalyzed reactions"
+            },
+            {
+              "chapter": "Analyze catalyst regeneration and turnover cycles"
+            }
+          ]
+        },
+        {
+          "lesson": "Enzyme Catalysis and Michaelis-Menten Kinetics",
+          "lesson_key": "enzyme_catalysis_and_michaelis_menten_kinetics",
+          "chapters": [
+            {
+              "chapter": "Explain enzyme specificity and substrate binding"
+            },
+            {
+              "chapter": "Derive and apply the Michaelis-Menten equation"
+            },
+            {
+              "chapter": "Calculate Km and Vmax from experimental data"
+            },
+            {
+              "chapter": "Analyze enzyme inhibition (competitive, non-competitive, uncompetitive)"
+            },
+            {
+              "chapter": "Interpret turnover numbers and catalytic efficiency"
+            }
+          ]
+        },
+        {
+          "lesson": "Polymerization Kinetics",
+          "lesson_key": "polymerization_kinetics",
+          "chapters": [
+            {
+              "chapter": "Distinguish between chain-growth and step-growth polymerization"
+            },
+            {
+              "chapter": "Analyze free-radical polymerization (initiation, propagation, termination)"
+            },
+            {
+              "chapter": "Derive kinetic expressions for polymer growth"
+            },
+            {
+              "chapter": "Calculate molecular weight and polydispersity index"
+            },
+            {
+              "chapter": "Compare ionic polymerization kinetics"
+            }
+          ]
+        },
+        {
+          "lesson": "Kinetic Isotope Effects",
+          "lesson_key": "kinetic_isotope_effects",
+          "chapters": [
+            {
+              "chapter": "Define primary, secondary, and inverse kinetic isotope effects"
+            },
+            {
+              "chapter": "Apply kinetic isotope effects to elucidate reaction mechanisms"
+            },
+            {
+              "chapter": "Relate isotope effects to transition state geometry and bond-breaking patterns"
+            },
+            {
+              "chapter": "Interpret experimental KIE data for mechanistic validation"
+            }
+          ]
+        },
+        {
+          "lesson": "Integration and Problem-Solving – Comprehensive Kinetics Analysis",
+          "lesson_key": "integration_and_problem_solving_comprehensive_kinetics_analysis",
+          "chapters": [
+            {
+              "chapter": "Integrate knowledge of mechanisms, catalysis, and approximations"
+            },
+            {
+              "chapter": "Solve multi-step kinetic problems combining several concepts"
+            },
+            {
+              "chapter": "Propose mechanisms consistent with rate laws and kinetic data"
+            },
+            {
+              "chapter": "Apply kinetics principles to novel reaction systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Introduction to Reaction Dynamics",
+      "topic_key": "introduction_to_reaction_dynamics",
+      "lessons": [
+        {
+          "lesson": "Fundamentals of Unimolecular Reactions",
+          "lesson_key": "fundamentals_of_unimolecular_reactions",
+          "chapters": [
+            {
+              "chapter": "Define unimolecular reactions and distinguish from bimolecular processes"
+            },
+            {
+              "chapter": "Explain pressure and temperature dependence of unimolecular rates"
+            },
+            {
+              "chapter": "Derive rate expressions for high and low pressure limits"
+            },
+            {
+              "chapter": "Understand the role of internal energy distribution"
+            }
+          ]
+        },
+        {
+          "lesson": "Potential Energy Surfaces – Concept and Structure",
+          "lesson_key": "potential_energy_surfaces_concept_and_structure",
+          "chapters": [
+            {
+              "chapter": "Construct and interpret multidimensional potential energy surfaces"
+            },
+            {
+              "chapter": "Identify stationary points on PES (minima, maxima, saddle points)"
+            },
+            {
+              "chapter": "Relate PES topology to reaction pathways and mechanisms"
+            },
+            {
+              "chapter": "Understand energy landscapes in terms of molecular geometry changes"
+            }
+          ]
+        },
+        {
+          "lesson": "Saddle Points and Transition State Geometry",
+          "lesson_key": "saddle_points_and_transition_state_geometry",
+          "chapters": [
+            {
+              "chapter": "Define saddle points and their role as transition states"
+            },
+            {
+              "chapter": "Calculate Hessian matrix eigenvalues to characterize stationary points"
+            },
+            {
+              "chapter": "Interpret frequency analysis (imaginary frequencies at transition states)"
+            },
+            {
+              "chapter": "Relate saddle point geometry to reaction mechanism details"
+            }
+          ]
+        },
+        {
+          "lesson": "Classical Trajectories on Potential Energy Surfaces",
+          "lesson_key": "classical_trajectories_on_potential_energy_surfaces",
+          "chapters": [
+            {
+              "chapter": "Apply Newton's equations of motion to molecular systems on PES"
+            },
+            {
+              "chapter": "Simulate classical trajectories from reactants through transition state"
+            },
+            {
+              "chapter": "Interpret trajectory branching and product formation"
+            },
+            {
+              "chapter": "Relate classical trajectories to quantum mechanical tunneling and dynamics"
+            }
+          ]
+        },
+        {
+          "lesson": "Transition State Theory – Eyring Equation and Rate Theory",
+          "lesson_key": "transition_state_theory_eyring_equation_and_rate_theory",
+          "chapters": [
+            {
+              "chapter": "Develop the Eyring equation from activated complex theory"
+            },
+            {
+              "chapter": "Relate rate constant to partition functions and free energy of activation"
+            },
+            {
+              "chapter": "Compare Eyring and Arrhenius formulations"
+            },
+            {
+              "chapter": "Calculate rate constants from transition state properties"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermodynamic Aspects of Activation – Entropy and Enthalpy",
+          "lesson_key": "thermodynamic_aspects_of_activation_entropy_and_enthalpy",
+          "chapters": [
+            {
+              "chapter": "Define entropy and enthalpy of activation"
+            },
+            {
+              "chapter": "Relate activation parameters to transition state structure"
+            },
+            {
+              "chapter": "Interpret temperature dependence of rate constants"
+            },
+            {
+              "chapter": "Apply Eyring-Polanyi equation to extract ΔH‡ and ΔS‡"
+            }
+          ]
+        },
+        {
+          "lesson": "Partition Functions and Statistical Mechanics in TST",
+          "lesson_key": "partition_functions_and_statistical_mechanics_in_tst",
+          "chapters": [
+            {
+              "chapter": "Calculate translational, rotational, and vibrational partition functions"
+            },
+            {
+              "chapter": "Relate partition functions to rate constant expressions"
+            },
+            {
+              "chapter": "Understand zero-point energy effects on activation barriers"
+            },
+            {
+              "chapter": "Apply statistical mechanics to predict rate constant temperature dependence"
+            }
+          ]
+        },
+        {
+          "lesson": "Reaction Coordinate and Intrinsic Reaction Coordinate (IRC)",
+          "lesson_key": "reaction_coordinate_and_intrinsic_reaction_coordinate_irc",
+          "chapters": [
+            {
+              "chapter": "Define reaction coordinate and collective variables"
+            },
+            {
+              "chapter": "Calculate intrinsic reaction coordinate paths"
+            },
+            {
+              "chapter": "Connect IRC to minimum energy path on PES"
+            },
+            {
+              "chapter": "Relate IRC to experimental reaction mechanisms"
+            }
+          ]
+        },
+        {
+          "lesson": "Comparison of TST with Alternative Rate Theories",
+          "lesson_key": "comparison_of_tst_with_alternative_rate_theories",
+          "chapters": [
+            {
+              "chapter": "Compare transition state theory with collision theory"
+            },
+            {
+              "chapter": "Discuss assumptions and limitations of TST"
+            },
+            {
+              "chapter": "Explain tunneling effects and deviations from TST predictions"
+            },
+            {
+              "chapter": "Evaluate applicability of TST to different reaction classes"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications and Problem-Solving – TST and PES Analysis",
+          "lesson_key": "applications_and_problem_solving_tst_and_pes_analysis",
+          "chapters": [
+            {
+              "chapter": "Apply TST to diverse unimolecular and bimolecular reactions"
+            },
+            {
+              "chapter": "Solve problems combining PES, trajectories, and kinetic analysis"
+            },
+            {
+              "chapter": "Interpret experimental data using transition state concepts"
+            },
+            {
+              "chapter": "Design kinetic experiments to test TST predictions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Fast Reaction Kinetics",
+      "topic_key": "fast_reaction_kinetics",
+      "lessons": [
+        {
+          "lesson": "Overview of Fast Reaction Kinetics",
+          "lesson_key": "overview_of_fast_reaction_kinetics",
+          "chapters": [
+            {
+              "chapter": "Classify reactions by characteristic timescale and identify when fast kinetics methods are required."
+            },
+            {
+              "chapter": "Explain limitations of conventional kinetic techniques for very fast reactions."
+            },
+            {
+              "chapter": "Distinguish between relaxation and flow methods conceptually."
+            },
+            {
+              "chapter": "Relate instrument response time and mixing time to observable kinetics."
+            }
+          ]
+        },
+        {
+          "lesson": "Relaxation Methods for Fast Reactions",
+          "lesson_key": "relaxation_methods_for_fast_reactions",
+          "chapters": [
+            {
+              "chapter": "Describe the principle of relaxation methods based on perturbation of equilibrium."
+            },
+            {
+              "chapter": "Derive the relation between relaxation time and rate constants for simple reversible reactions."
+            },
+            {
+              "chapter": "Differentiate between temperature-jump, pressure-jump, and electric-field-jump techniques."
+            },
+            {
+              "chapter": "Interpret relaxation curves to obtain kinetic and equilibrium parameters."
+            }
+          ]
+        },
+        {
+          "lesson": "Flow and Rapid-Mixing Methods",
+          "lesson_key": "flow_and_rapid_mixing_methods",
+          "chapters": [
+            {
+              "chapter": "Explain the operating principles of continuous-flow and stopped-flow techniques."
+            },
+            {
+              "chapter": "Define and estimate mixing time and dead time for flow methods."
+            },
+            {
+              "chapter": "Apply first- and second-order integrated rate laws to early-time data from flow experiments."
+            },
+            {
+              "chapter": "Recognize experimental limitations and artifacts specific to rapid-mixing methods."
+            }
+          ]
+        },
+        {
+          "lesson": "Diffusion-Controlled Reactions",
+          "lesson_key": "diffusion_controlled_reactions",
+          "chapters": [
+            {
+              "chapter": "Define diffusion-controlled reactions and distinguish them from activation-controlled reactions."
+            },
+            {
+              "chapter": "Derive and use the Smoluchowski equation for bimolecular diffusion-controlled rate constants."
+            },
+            {
+              "chapter": "Discuss the influence of solvent viscosity, ionic strength, and molecular size on diffusion-controlled rates."
+            },
+            {
+              "chapter": "Identify experimental signatures of diffusion control in kinetic data."
+            }
+          ]
+        },
+        {
+          "lesson": "Fundamentals of Photochemical and Photophysical Processes",
+          "lesson_key": "fundamentals_of_photochemical_and_photophysical_processes",
+          "chapters": [
+            {
+              "chapter": "Describe photon absorption and formation of electronically excited states."
+            },
+            {
+              "chapter": "Interpret Jablonski diagrams for organic and inorganic systems."
+            },
+            {
+              "chapter": "Distinguish between photochemical and photophysical deactivation pathways."
+            },
+            {
+              "chapter": "Define quantum yield and relate it to competing excited-state processes."
+            }
+          ]
+        },
+        {
+          "lesson": "Kinetics of Photophysical Processes",
+          "lesson_key": "kinetics_of_photophysical_processes",
+          "chapters": [
+            {
+              "chapter": "Write kinetic schemes for excited singlet and triplet states including radiative and nonradiative decay."
+            },
+            {
+              "chapter": "Derive expressions for fluorescence and phosphorescence lifetimes and quantum yields."
+            },
+            {
+              "chapter": "Analyze fluorescence quenching using Stern–Volmer relations."
+            },
+            {
+              "chapter": "Relate measured lifetimes to rate constants of individual deactivation pathways."
+            }
+          ]
+        },
+        {
+          "lesson": "Kinetics of Photochemical Reactions",
+          "lesson_key": "kinetics_of_photochemical_reactions",
+          "chapters": [
+            {
+              "chapter": "Formulate kinetic models for primary and secondary photochemical processes."
+            },
+            {
+              "chapter": "Connect absorbed light intensity, quantum yield, and reaction rate."
+            },
+            {
+              "chapter": "Distinguish between chain and non-chain photochemical reactions."
+            },
+            {
+              "chapter": "Use actinometry and transient techniques (e.g., flash photolysis) to obtain photochemical rate data."
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated Applications and GATE-Level Problem Solving",
+          "lesson_key": "integrated_applications_and_gate_level_problem_solving",
+          "chapters": [
+            {
+              "chapter": "Integrate relaxation, flow, and diffusion-controlled concepts in multi-step kinetic problems."
+            },
+            {
+              "chapter": "Solve numerical and conceptual problems involving photophysical and photochemical kinetics."
+            },
+            {
+              "chapter": "Choose appropriate fast-kinetic and spectroscopic methods for given reaction scenarios."
+            },
+            {
+              "chapter": "Interpret GATE-style questions combining multiple aspects of fast reaction and photochemical kinetics."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Surfaces and Interfaces",
+      "topic_key": "surfaces_and_interfaces",
+      "lessons": [
+        {
+          "lesson": "Introduction to Surfaces, Interfaces, and Adsorption",
+          "lesson_key": "introduction_to_surfaces_interfaces_and_adsorption",
+          "chapters": [
+            {
+              "chapter": "Define surfaces, interfaces, and surface phenomena at the molecular level"
+            },
+            {
+              "chapter": "Distinguish between physisorption and chemisorption on the basis of energy, bonding, and kinetics"
+            },
+            {
+              "chapter": "Explain why adsorption occurs thermodynamically"
+            },
+            {
+              "chapter": "Relate surface excess to interfacial composition"
+            }
+          ]
+        },
+        {
+          "lesson": "Langmuir Isotherm and Monolayer Adsorption",
+          "lesson_key": "langmuir_isotherm_and_monolayer_adsorption",
+          "chapters": [
+            {
+              "chapter": "Derive the Langmuir isotherm from kinetic equilibrium principles"
+            },
+            {
+              "chapter": "Distinguish between adsorption and desorption rate constants"
+            },
+            {
+              "chapter": "Interpret Langmuir parameters (Km, θmax) and their physical meaning"
+            },
+            {
+              "chapter": "Apply Langmuir model to experimental adsorption data and perform linearization"
+            },
+            {
+              "chapter": "Discuss limitations of Langmuir theory for real surfaces"
+            }
+          ]
+        },
+        {
+          "lesson": "Freundlich Isotherm and Heterogeneous Adsorption",
+          "lesson_key": "freundlich_isotherm_and_heterogeneous_adsorption",
+          "chapters": [
+            {
+              "chapter": "Describe the empirical Freundlich isotherm and its mathematical form"
+            },
+            {
+              "chapter": "Explain physical origins of Freundlich kinetics for heterogeneous surfaces"
+            },
+            {
+              "chapter": "Compare Freundlich to Langmuir models; discuss when each applies"
+            },
+            {
+              "chapter": "Determine Freundlich parameters from experimental data and interpret them"
+            },
+            {
+              "chapter": "Recognize limitations of Freundlich model and its applicability range"
+            }
+          ]
+        },
+        {
+          "lesson": "BET Isotherm and Multilayer Adsorption",
+          "lesson_key": "bet_isotherm_and_multilayer_adsorption",
+          "chapters": [
+            {
+              "chapter": "Extend Langmuir model to multilayer adsorption; derive BET isotherm"
+            },
+            {
+              "chapter": "Explain the concept of layer-by-layer condensation in BET theory"
+            },
+            {
+              "chapter": "Determine surface area from BET monolayer capacity (nm)"
+            },
+            {
+              "chapter": "Apply BET model to nitrogen adsorption data for surface characterization"
+            },
+            {
+              "chapter": "Discuss assumptions and limitations of BET theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Surface Catalysis and Langmuir-Hinshelwood Mechanism",
+          "lesson_key": "surface_catalysis_and_langmuir_hinshelwood_mechanism",
+          "chapters": [
+            {
+              "chapter": "Explain surface catalysis principles and the role of active sites"
+            },
+            {
+              "chapter": "Derive rate equations for Langmuir-Hinshelwood catalytic mechanisms"
+            },
+            {
+              "chapter": "Analyze consecutive adsorption-reaction-desorption steps"
+            },
+            {
+              "chapter": "Relate surface coverage to catalytic activity and selectivity"
+            },
+            {
+              "chapter": "Interpret kinetic data to distinguish between different rate-limiting steps"
+            }
+          ]
+        },
+        {
+          "lesson": "Surface Tension and Interfacial Phenomena",
+          "lesson_key": "surface_tension_and_interfacial_phenomena",
+          "chapters": [
+            {
+              "chapter": "Define surface tension and understand its molecular origin"
+            },
+            {
+              "chapter": "Calculate surface free energy and relate it to intermolecular forces"
+            },
+            {
+              "chapter": "Discuss temperature and composition dependence of surface tension"
+            },
+            {
+              "chapter": "Apply Young's equation to solid-liquid-gas contact angles"
+            },
+            {
+              "chapter": "Understand interfacial tensions and wetting phenomena"
+            }
+          ]
+        },
+        {
+          "lesson": "Viscosity of Fluids and Solutions",
+          "lesson_key": "viscosity_of_fluids_and_solutions",
+          "chapters": [
+            {
+              "chapter": "Explain viscosity at the molecular level; relate to molecular interactions"
+            },
+            {
+              "chapter": "Distinguish between dynamic and kinematic viscosity"
+            },
+            {
+              "chapter": "Understand temperature and pressure dependence of viscosity"
+            },
+            {
+              "chapter": "Describe viscosity of polymer and macromolecular solutions"
+            },
+            {
+              "chapter": "Apply viscosity data to characterize molecular size and shape (viscosity index, Mark-Houwink relation)"
+            }
+          ]
+        },
+        {
+          "lesson": "Self-Assembly and Molecular Organization",
+          "lesson_key": "self_assembly_and_molecular_organization",
+          "chapters": [
+            {
+              "chapter": "Describe self-assembly processes and driving forces (entropy, enthalpy, entropic)"
+            },
+            {
+              "chapter": "Explain formation of monolayers, bilayers, and higher-order structures"
+            },
+            {
+              "chapter": "Understand the role of amphiphilic molecules and hydrophobic interactions"
+            },
+            {
+              "chapter": "Relate self-assembly to interfacial tension and free energy minimization"
+            },
+            {
+              "chapter": "Discuss applications of self-assembly in nanotechnology and materials science"
+            }
+          ]
+        },
+        {
+          "lesson": "Colloids and Colloidal Stability",
+          "lesson_key": "colloids_and_colloidal_stability",
+          "chapters": [
+            {
+              "chapter": "Define colloids and classify colloidal systems (sols, gels, emulsions)"
+            },
+            {
+              "chapter": "Explain Brownian motion, sedimentation, and colloidal particle dynamics"
+            },
+            {
+              "chapter": "Apply DLVO theory to predict colloidal stability and aggregation"
+            },
+            {
+              "chapter": "Interpret zeta potential and electrophoretic mobility measurements"
+            },
+            {
+              "chapter": "Discuss stabilization methods (electrostatic, steric) and destabilization (coagulation, flocculation)"
+            }
+          ]
+        },
+        {
+          "lesson": "Micelles and Critical Micelle Concentration",
+          "lesson_key": "micelles_and_critical_micelle_concentration",
+          "chapters": [
+            {
+              "chapter": "Explain micelle formation and structure (spherical, cylindrical, bilayer)"
+            },
+            {
+              "chapter": "Define critical micelle concentration (CMC) and its dependence on molecular structure"
+            },
+            {
+              "chapter": "Use thermodynamic models to relate surface activity to CMC"
+            },
+            {
+              "chapter": "Interpret surface tension and conductivity data to determine CMC"
+            },
+            {
+              "chapter": "Understand aggregation numbers and micelle dynamics"
+            }
+          ]
+        },
+        {
+          "lesson": "Macromolecular Solutions and Polymer Behavior",
+          "lesson_key": "macromolecular_solutions_and_polymer_behavior",
+          "chapters": [
+            {
+              "chapter": "Describe conformation and dynamics of polymers in solution"
+            },
+            {
+              "chapter": "Calculate osmotic pressure, molecular weight, and aggregation state from colligative properties"
+            },
+            {
+              "chapter": "Understand viscosity of polymer solutions; apply Mark-Houwink equation"
+            },
+            {
+              "chapter": "Analyze light scattering data for molecular weight and size determination"
+            },
+            {
+              "chapter": "Explain protein structure, denaturation, and aggregation kinetics"
+            }
+          ]
+        },
+        {
+          "lesson": "Integration and Applications – Surfaces and Interfaces",
+          "lesson_key": "integration_and_applications_surfaces_and_interfaces",
+          "chapters": [
+            {
+              "chapter": "Integrate adsorption, catalysis, and colloidal concepts in complex systems"
+            },
+            {
+              "chapter": "Solve multi-step problems combining surface chemistry with kinetics and thermodynamics"
+            },
+            {
+              "chapter": "Apply surface science principles to real materials and industrial processes"
+            },
+            {
+              "chapter": "Design experiments to characterize surfaces, interfaces, and colloidal systems"
+            },
+            {
+              "chapter": "Interpret GATE-style questions on surfaces and interfacial phenomena"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

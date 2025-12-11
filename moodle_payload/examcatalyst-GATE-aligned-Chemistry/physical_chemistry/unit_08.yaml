@@ -1,0 +1,360 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Ionic mobility and conductivity. Debye-Hückel limiting law. Debye-Hückel-Onsager equation. Standard electrode potentials and electrochemical cells. Nernst Equation and its application, relationship between Electrode potential and thermodynamic quantities, Potentiometric and conductometric titrations.
+
+concepts:
+  core:
+    - name: Ionic mobility
+      clarifier: Drift velocity of ions per unit electric field and its role in determining ionic conductance.
+    - name: Conductivity of electrolyte solutions
+      clarifier: Specific, equivalent, and molar conductivity of electrolyte solutions and their concentration dependence.
+    - name: Debye-Hückel limiting law
+      clarifier: Limiting law relating mean ionic activity coefficient to ionic strength for very dilute solutions.
+    - name: Debye-Hückel-Onsager equation
+      clarifier: Equation describing concentration dependence of molar conductivity of strong electrolytes at low concentrations.
+    - name: Standard electrode potentials
+      clarifier: Electrode potentials measured under standard conditions and tabulated as \(E^\circ\) values.
+    - name: Electrochemical cells
+      clarifier: Galvanic and concentration cells, cell notation, and cell EMF.
+    - name: Nernst equation
+      clarifier: Relation between electrode (or cell) potential and activities or concentrations of reacting species.
+    - name: Electrode potential–thermodynamics relationship
+      clarifier: Quantitative connection between \(E\), \(\Delta G\), \(\Delta H\), and equilibrium constant \(K\).
+    - name: Potentiometric titrations
+      clarifier: Titrations in which equivalence point is located from the change in electrode potential.
+    - name: Conductometric titrations
+      clarifier: Titrations monitored by changes in conductivity of the solution.
+
+  related:
+    - name: Transport number
+      clarifier: Fraction of total current carried by a given ion in an electrolyte.
+    - name: Kohlrausch’s law of independent migration
+      clarifier: Law stating that at infinite dilution each ion contributes independently to molar conductivity.
+    - name: Ionic strength
+      clarifier: Measure of total concentration and charge of ions controlling activity coefficients in solution.
+    - name: Activity and activity coefficient
+      clarifier: Effective concentration of species in non-ideal solutions entering the Nernst equation.
+    - name: Ionic atmosphere
+      clarifier: Region of net charge surrounding an ion in solution central to Debye-Hückel theory.
+    - name: Liquid junction potential and salt bridge
+      clarifier: Potential difference at phase boundaries between electrolytes and its minimization in cells.
+    - name: Reference electrodes
+      clarifier: Standard hydrogen electrode, calomel, and silver-silver chloride electrodes used in potentiometry.
+    - name: pH measurement
+      clarifier: Determination of hydrogen ion activity using electrochemical cells and glass electrode.
+    - name: Cell EMF measurement
+      clarifier: Experimental determination of cell potential under reversible conditions.
+
+learning_path:
+  - id: 1
+    topic: Ionic Mobility and Conductance Basics
+    learning_objectives:
+      - Define ionic mobility and relate it to drift velocity and charge.
+      - Distinguish between specific, equivalent, and molar conductivity.
+      - Describe the effect of dilution on conductivity and molar conductivity for strong and weak electrolytes.
+      - Apply Kohlrausch’s law of independent migration to compute limiting molar conductivities.
+    textbook_style_content:
+      - lesson: Ionic transport and mobility
+        sections:
+          - section_heading: Definition of ionic mobility and drift velocity
+            section_type: overview
+          - section_heading: Relation between mobility, charge, and conductance
+            section_type: core_theory
+          - section_heading: Factors affecting ionic mobility (viscosity, temperature, ion size)
+            section_type: related concepts
+      - lesson: Conductivity of electrolyte solutions
+        sections:
+          - section_heading: Specific, equivalent, and molar conductivity
+            section_type: core_theory
+          - section_heading: Units, measurement, and cell constant
+            section_type: core_theory
+          - section_heading: Variation of conductivity and molar conductivity with concentration
+            section_type: core_theory
+      - lesson: Limiting molar conductivity and Kohlrausch’s law
+        sections:
+          - section_heading: Concept of \(\Lambda_m^\circ\) and extrapolation to infinite dilution
+            section_type: core_theory
+          - section_heading: Kohlrausch’s law of independent migration of ions
+            section_type: core_theory
+          - section_heading: Applications to dissociation constants of weak electrolytes
+            section_type: related concepts
+    milestone: Confident handling of ionic mobility and solution conductance concepts and calculations.
+    duration_days: 7
+    tags:
+      - ionic_mobility
+      - conductivity
+      - kohlrausch
+
+  - id: 2
+    topic: Debye-Hückel Theory and Onsager Equation
+    learning_objectives:
+      - Explain the qualitative basis of Debye-Hückel theory for ionic solutions.
+      - Use the Debye-Hückel limiting law to relate activity coefficients to ionic strength.
+      - Understand the Debye-Hückel-Onsager equation for strong electrolyte conductance.
+      - Recognize limitations and valid ranges of these equations for real solutions.
+    textbook_style_content:
+      - lesson: Ionic atmosphere and Debye-Hückel model
+        sections:
+          - section_heading: Concept of ionic atmosphere and relaxation effect
+            section_type: overview
+          - section_heading: Qualitative derivation ideas behind Debye-Hückel theory
+            section_type: core_theory
+          - section_heading: Role of ionic strength and ion size
+            section_type: related concepts
+      - lesson: Debye-Hückel limiting law
+        sections:
+          - section_heading: Mathematical form of the limiting law for mean activity coefficient
+            section_type: core_theory
+          - section_heading: Dependence on ionic strength and charge
+            section_type: core_theory
+          - section_heading: Practical computation of activity coefficients
+            section_type: related concepts
+      - lesson: Debye-Hückel-Onsager equation
+        sections:
+          - section_heading: Concentration dependence of molar conductivity of strong electrolytes
+            section_type: core_theory
+          - section_heading: Onsager equation form and parameters
+            section_type: core_theory
+          - section_heading: Range of validity and deviations at higher concentrations
+            section_type: related concepts
+    milestone: Ability to apply Debye-Hückel and Onsager equations to ionic solution problems.
+    duration_days: 8
+    tags:
+      - debye_huckel
+      - onsager
+      - activity_coefficients
+
+  - id: 3
+    topic: Electrochemical Cells and Standard Potentials
+    learning_objectives:
+      - Describe construction and notation of galvanic cells.
+      - Define standard electrode potential and standard hydrogen electrode.
+      - Write cell reactions and relate them to cell EMF.
+      - Use standard potential tables to predict feasibility and EMF of cells.
+    textbook_style_content:
+      - lesson: Fundamentals of electrochemical cells
+        sections:
+          - section_heading: Galvanic vs electrolytic cells and basic components
+            section_type: overview
+          - section_heading: Cell notation and conventions (anode, cathode, phase boundaries)
+            section_type: core_theory
+          - section_heading: Role of salt bridge and liquid junction potential
+            section_type: related concepts
+      - lesson: Standard electrode potentials
+        sections:
+          - section_heading: Definition of \(E^\circ\), standard states, and SHE reference
+            section_type: core_theory
+          - section_heading: Measurement of standard electrode potentials
+            section_type: core_theory
+          - section_heading: Use of \(E^\circ\) series for oxidizing and reducing strength
+            section_type: related concepts
+      - lesson: Cell EMF and cell reactions
+        sections:
+          - section_heading: Relation between cell EMF and half-cell potentials
+            section_type: core_theory
+          - section_heading: Balancing redox reactions using half-reaction method
+            section_type: core_theory
+          - section_heading: Predicting spontaneity and direction of electron flow
+            section_type: related concepts
+    milestone: Solid understanding of electrochemical cell construction, notation, and standard potentials.
+    duration_days: 7
+    tags:
+      - electrochemical_cells
+      - standard_potentials
+      - emf
+
+  - id: 4
+    topic: Nernst Equation and Its Applications
+    learning_objectives:
+      - Derive the Nernst equation for electrode and cell potentials.
+      - Calculate electrode and cell potentials at non-standard conditions.
+      - Apply the Nernst equation to concentration cells and pH determination.
+      - Use EMF measurements to obtain equilibrium constants and solubility products.
+    textbook_style_content:
+      - lesson: Derivation of the Nernst equation
+        sections:
+          - section_heading: Thermodynamic basis of Nernst equation
+            section_type: core_theory
+          - section_heading: Nernst equation for a general redox couple
+            section_type: core_theory
+          - section_heading: Simplified forms at 298 K and in logarithmic units
+            section_type: related concepts
+      - lesson: Applications to single electrodes and cells
+        sections:
+          - section_heading: Concentration dependence of single electrode potential
+            section_type: core_theory
+          - section_heading: EMF of concentration cells (with and without transference)
+            section_type: core_theory
+          - section_heading: Effect of activities vs concentrations
+            section_type: related concepts
+      - lesson: EMF methods for equilibrium constants
+        sections:
+          - section_heading: Relation \( \Delta G^\circ = -n F E^\circ \) and \( K \)
+            section_type: core_theory
+          - section_heading: Determination of \(K\), \(K_{sp}\), and degree of dissociation from EMF
+            section_type: core_theory
+          - section_heading: pH measurement and glass electrode response
+            section_type: related concepts
+    milestone: Fluency in using the Nernst equation for quantitative electrochemical calculations.
+    duration_days: 9
+    tags:
+      - nernst_equation
+      - emf_calculations
+      - equilibrium_constants
+
+  - id: 5
+    topic: Electrode Potentials and Thermodynamics
+    learning_objectives:
+      - Relate electrode and cell potentials to Gibbs free energy change.
+      - Connect EMF to enthalpy and entropy of cell reactions.
+      - Derive expressions linking temperature coefficient of EMF to thermodynamic quantities.
+      - Interpret electrochemical data in thermodynamic terms.
+    textbook_style_content:
+      - lesson: Free energy and cell potential
+        sections:
+          - section_heading: Relation \( \Delta G = -n F E \) and \( \Delta G^\circ = -n F E^\circ \)
+            section_type: core_theory
+          - section_heading: Spontaneity criterion and maximum non-expansion work
+            section_type: core_theory
+          - section_heading: Connection of \(E^\circ\) with equilibrium constant \(K\)
+            section_type: related concepts
+      - lesson: Enthalpy, entropy, and temperature coefficients
+        sections:
+          - section_heading: Temperature dependence of EMF and Gibbs-Helmholtz type relations
+            section_type: core_theory
+          - section_heading: Determination of \(\Delta H^\circ\) and \(\Delta S^\circ\) from EMF–T data
+            section_type: core_theory
+          - section_heading: Interpretation of sign and magnitude of thermodynamic parameters
+            section_type: related concepts
+      - lesson: Practical thermodynamic calculations from electrochemical data
+        sections:
+          - section_heading: Worked examples for \(\Delta G^\circ\), \(\Delta H^\circ\), \(\Delta S^\circ\)
+            section_type: core_theory
+          - section_heading: Comparison with calorimetric data and consistency checks
+            section_type: related concepts
+          - section_heading: Typical GATE-style numerical and conceptual questions
+            section_type: related concepts
+    milestone: Ability to extract full thermodynamic information from electrochemical measurements.
+    duration_days: 8
+    tags:
+      - thermodynamics
+      - electrode_potential
+      - gibbs_energy
+
+  - id: 6
+    topic: Potentiometric Titrations
+    learning_objectives:
+      - Explain the principle of potentiometric titration and cell setup.
+      - Sketch and interpret titration curves for acid–base, redox, and precipitation systems.
+      - Locate equivalence points using first and second derivative methods.
+      - Apply potentiometry to determine pH, \(K_{sp}\), and other constants.
+    textbook_style_content:
+      - lesson: Principles and instrumentation
+        sections:
+          - section_heading: Cell configurations for potentiometric titrations
+            section_type: overview
+          - section_heading: Indicator and reference electrodes
+            section_type: core_theory
+          - section_heading: Practical aspects and error sources
+            section_type: related concepts
+      - lesson: Acid–base potentiometric titrations
+        sections:
+          - section_heading: Strong acid–strong base titration curves
+            section_type: core_theory
+          - section_heading: Weak acid–strong base and weak base–strong acid systems
+            section_type: core_theory
+          - section_heading: Determination of \(pK_a\) from titration data
+            section_type: related concepts
+      - lesson: Redox and precipitation potentiometric titrations
+        sections:
+          - section_heading: Redox titration curves and equivalence point detection
+            section_type: core_theory
+          - section_heading: Precipitation titrations and \(K_{sp}\) evaluation
+            section_type: related concepts
+          - section_heading: Graphical and derivative methods for end-point location
+            section_type: core_theory
+    milestone: Competence in designing, interpreting, and calculating from potentiometric titration data.
+    duration_days: 7
+    tags:
+      - potentiometry
+      - titrations
+      - titration_curves
+
+  - id: 7
+    topic: Conductometric Titrations and Conductance Methods
+    learning_objectives:
+      - Describe setup and principle of conductometric titrations.
+      - Predict and interpret conductivity–volume curves for common titrations.
+      - Use conductometry for precipitation and neutralization titrations where indicators fail.
+      - Understand limitations and advantages of conductometric methods.
+    textbook_style_content:
+      - lesson: Fundamentals of conductometric titrations
+        sections:
+          - section_heading: Measurement of conductance during titration
+            section_type: overview
+          - section_heading: Cell design, frequency, and electrode polarization
+            section_type: related concepts
+          - section_heading: Choice of systems suited for conductometry
+            section_type: overview
+      - lesson: Acid–base conductometric titrations
+        sections:
+          - section_heading: Strong acid–strong base titration and linear segments
+            section_type: core_theory
+          - section_heading: Weak acid–strong base and strong acid–weak base patterns
+            section_type: core_theory
+          - section_heading: Graphical determination of end point
+            section_type: core_theory
+      - lesson: Precipitation and other conductometric titrations
+        sections:
+          - section_heading: Precipitation titrations (e.g., AgNO\(_3\)–NaCl)
+            section_type: core_theory
+          - section_heading: Complexometric and redox titrations by conductometry
+            section_type: related concepts
+          - section_heading: Comparison of conductometric and potentiometric methods
+            section_type: related concepts
+    milestone: Ability to analyze and solve conductometric titration problems for GATE.
+    duration_days: 6
+    tags:
+      - conductometry
+      - titrations
+      - conductivity_curves
+
+  - id: 8
+    topic: Integrated Electrochemistry Problem-Solving for GATE
+    learning_objectives:
+      - Integrate ionic conductance, activity, and electrochemical cell concepts in multistep problems.
+      - Choose appropriate equations (Debye-Hückel, Nernst, \(\Delta G = -nFE\)) for given questions.
+      - Solve typical GATE-level numerical and conceptual problems efficiently.
+      - Avoid common misconceptions and calculation traps in electrochemistry.
+    textbook_style_content:
+      - lesson: Problem classification and strategy
+        sections:
+          - section_heading: Identifying conductance vs EMF vs titration problems
+            section_type: overview
+          - section_heading: Selecting the right thermodynamic and electrochemical relations
+            section_type: core_theory
+          - section_heading: Units, significant figures, and quick checks
+            section_type: related concepts
+      - lesson: Mixed-concept numerical problems
+        sections:
+          - section_heading: EMF-based equilibrium and solubility calculations
+            section_type: core_theory
+          - section_heading: Combining Debye-Hückel with Nernst-type calculations
+            section_type: related concepts
+          - section_heading: Titration curve interpretation in exam-style questions
+            section_type: core_theory
+      - lesson: Conceptual and multiple-choice questions
+        sections:
+          - section_heading: Trends in \(E^\circ\) values and spontaneity
+            section_type: related concepts
+          - section_heading: Qualitative conductance and mobility comparisons
+            section_type: related concepts
+          - section_heading: Typical traps in approximations and ideality assumptions
+            section_type: related concepts
+    milestone: Exam-ready proficiency in all electrochemistry topics in this syllabus line.
+    duration_days: 7
+    tags:
+      - gate_prep
+      - problem_solving
+      - electrochemistry_integration
