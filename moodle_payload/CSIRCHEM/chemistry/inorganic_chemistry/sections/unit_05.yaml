@@ -1,0 +1,363 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Transition elements and coordination compounds: structure, bonding theories, spectral and magnetic properties, reaction mechanisms."
+
+concepts:
+  core:
+    - name: Electronic Configuration of Transition Elements
+      clarifier: d-orbital filling, exceptions, oxidation states, and periodic trends
+    - name: Coordination Compounds
+      clarifier: Definition, nomenclature, coordination number, and geometry
+    - name: Bonding Theories
+      clarifier: Valence Bond Theory, Crystal Field Theory, Ligand Field Theory, and Molecular Orbital Theory
+    - name: Spectral Properties
+      clarifier: Electronic spectra, d-d transitions, charge transfer spectra, and selection rules
+    - name: Magnetic Properties
+      clarifier: Paramagnetism, diamagnetism, spin-only formula, and magnetic moment calculations
+    - name: Reaction Mechanisms
+      clarifier: Substitution reactions, electron transfer reactions, and photochemical reactions
+  related:
+    - name: Ligand Classification
+      clarifier: Strong field vs weak field ligands, spectrochemical series, chelating ligands
+    - name: Isomerism in Coordination Compounds
+      clarifier: Structural and stereoisomerism types including geometrical and optical isomerism
+    - name: Jahn-Teller Distortion
+      clarifier: Symmetry breaking in degenerate electronic states
+    - name: Nephelauxetic Effect
+      clarifier: Expansion of d-orbitals due to metal-ligand covalency
+    - name: Tanabe-Sugano Diagrams
+      clarifier: Energy level diagrams for prediction of electronic transitions
+    - name: Activation Mechanisms
+      clarifier: Associative, dissociative, and interchange mechanisms in substitution reactions
+    - name: Marcus Theory
+      clarifier: Outer-sphere electron transfer kinetics and reorganization energy
+    - name: Magnetochemistry Techniques
+      clarifier: Experimental methods including Gouy balance and SQUID magnetometry
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Transition Elements
+    learning_objectives:
+      - Define transition elements and understand their position in the periodic table
+      - Explain electronic configurations including exceptions for Cr and Cu
+      - Describe characteristic properties such as variable oxidation states, colored ions, and catalytic activity
+      - Analyze periodic trends in atomic radii, ionization energies, and electronegativity
+    textbook_style_content:
+      - topic: Introduction to Transition Elements
+        sections:
+          - section_title: Defining Transition Elements
+            section_type: overview
+          - section_title: Electronic Configuration and d-Orbital Filling
+            section_type: core_theory
+          - section_title: Characteristic Properties and Trends
+            section_type: core_theory
+          - section_title: Comparison with s-Block and p-Block Elements
+            section_type: related_concepts
+    milestone: Master foundational concepts of transition metal chemistry
+    duration_days: 4
+    tags:
+      - transition elements
+      - electronic configuration
+      - periodic trends
+      - oxidation states
+
+  - id: 2
+    title: Coordination Compounds - Structure and Nomenclature
+    learning_objectives:
+      - Define coordination compounds and identify central metal ion, ligands, and coordination sphere
+      - Apply IUPAC nomenclature rules for naming coordination compounds
+      - Determine coordination numbers and predict common geometries
+      - Classify ligands as monodentate, bidentate, and polydentate
+    textbook_style_content:
+      - topic: Basic Concepts of Coordination Chemistry
+        sections:
+          - section_title: Historical Development and Werner's Theory
+            section_type: overview
+          - section_title: Components of Coordination Compounds
+            section_type: core_theory
+          - section_title: Coordination Number and Geometry Relationships
+            section_type: core_theory
+          - section_title: IUPAC Nomenclature Rules and Examples
+            section_type: core_theory
+          - section_title: Types of Ligands and Denticity
+            section_type: related_concepts
+          - section_title: Chelate Effect and Macrocyclic Effect
+            section_type: related_concepts
+    milestone: Systematically name and classify coordination compounds
+    duration_days: 5
+    tags:
+      - coordination compounds
+      - nomenclature
+      - ligands
+      - coordination number
+      - geometry
+
+  - id: 3
+    title: Isomerism in Coordination Compounds
+    learning_objectives:
+      - Distinguish between structural isomerism types including ionization, linkage, coordination, and hydrate isomerism
+      - Identify geometrical isomerism in square planar and octahedral complexes
+      - Apply criteria for optical isomerism and recognize chiral complexes
+      - Predict number of possible isomers for given coordination compounds
+    textbook_style_content:
+      - topic: Stereochemistry of Coordination Compounds
+        sections:
+          - section_title: Overview of Isomerism Types
+            section_type: overview
+          - section_title: Structural Isomerism
+            section_type: core_theory
+          - section_title: Geometrical Isomerism - Cis-Trans and Fac-Mer
+            section_type: core_theory
+          - section_title: Optical Isomerism and Chirality
+            section_type: core_theory
+          - section_title: Isomer Counting Methods
+            section_type: related_concepts
+          - section_title: Conformational Isomerism in Chelate Rings
+            section_type: related_concepts
+    milestone: Identify and predict all types of isomerism in coordination complexes
+    duration_days: 4
+    tags:
+      - isomerism
+      - stereochemistry
+      - geometrical isomerism
+      - optical isomerism
+      - chirality
+
+  - id: 4
+    title: Valence Bond Theory and Crystal Field Theory
+    learning_objectives:
+      - Apply Valence Bond Theory to explain bonding in coordination compounds
+      - Understand inner orbital and outer orbital complexes
+      - Explain Crystal Field Theory and d-orbital splitting patterns
+      - Calculate Crystal Field Stabilization Energy for various configurations
+      - Predict magnetic properties using both theories
+    textbook_style_content:
+      - topic: Classical Bonding Theories
+        sections:
+          - section_title: Historical Context and Theory Development
+            section_type: overview
+          - section_title: Valence Bond Theory - Hybridization Schemes
+            section_type: core_theory
+          - section_title: Inner vs Outer Orbital Complexes
+            section_type: core_theory
+          - section_title: Crystal Field Theory - Electrostatic Model
+            section_type: core_theory
+          - section_title: d-Orbital Splitting in Octahedral Fields
+            section_type: core_theory
+          - section_title: d-Orbital Splitting in Tetrahedral and Square Planar Fields
+            section_type: core_theory
+          - section_title: Crystal Field Stabilization Energy Calculations
+            section_type: core_theory
+          - section_title: Spectrochemical Series and Ligand Field Strength
+            section_type: related_concepts
+          - section_title: High Spin vs Low Spin Complexes
+            section_type: related_concepts
+          - section_title: Jahn-Teller Distortion in d9 and d4 Configurations
+            section_type: related_concepts
+    milestone: Apply VBT and CFT to predict structure and properties of coordination compounds
+    duration_days: 7
+    tags:
+      - valence bond theory
+      - crystal field theory
+      - CFSE
+      - d-orbital splitting
+      - hybridization
+      - spectrochemical series
+
+  - id: 5
+    title: Ligand Field Theory and Molecular Orbital Theory
+    learning_objectives:
+      - Understand Ligand Field Theory as extension of Crystal Field Theory
+      - Construct molecular orbital diagrams for octahedral and tetrahedral complexes
+      - Explain sigma and pi bonding in coordination compounds
+      - Analyze metal-ligand covalency and nephelauxetic effect
+      - Apply MO theory to predict magnetic and spectroscopic properties
+    textbook_style_content:
+      - topic: Advanced Bonding Theories
+        sections:
+          - section_title: Limitations of Crystal Field Theory
+            section_type: overview
+          - section_title: Ligand Field Theory - Incorporating Covalency
+            section_type: core_theory
+          - section_title: Molecular Orbital Theory for Octahedral Complexes
+            section_type: core_theory
+          - section_title: Sigma Bonding and Pi Bonding Interactions
+            section_type: core_theory
+          - section_title: MO Diagrams for Tetrahedral Complexes
+            section_type: core_theory
+          - section_title: Nephelauxetic Effect and Covalency Parameters
+            section_type: related_concepts
+          - section_title: Synergic Bonding in Metal Carbonyls
+            section_type: related_concepts
+          - section_title: Angular Overlap Model
+            section_type: related_concepts
+    milestone: Master quantum mechanical approaches to coordination compound bonding
+    duration_days: 6
+    tags:
+      - ligand field theory
+      - molecular orbital theory
+      - covalency
+      - nephelauxetic effect
+      - pi bonding
+      - metal carbonyls
+
+  - id: 6
+    title: Magnetic Properties of Coordination Compounds
+    learning_objectives:
+      - Define paramagnetism, diamagnetism, ferromagnetism, and antiferromagnetism
+      - Calculate magnetic moments using spin-only formula
+      - Understand orbital contribution to magnetic moment
+      - Interpret experimental magnetic susceptibility data
+      - Apply magnetic measurements to determine electronic configurations
+    textbook_style_content:
+      - topic: Magnetochemistry of Transition Metal Complexes
+        sections:
+          - section_title: Types of Magnetic Behavior
+            section_type: overview
+          - section_title: Origin of Magnetic Moment in Transition Metals
+            section_type: core_theory
+          - section_title: Spin-Only Formula and Calculations
+            section_type: core_theory
+          - section_title: Orbital Contribution and Spin-Orbit Coupling
+            section_type: core_theory
+          - section_title: Temperature Dependence - Curie and Curie-Weiss Laws
+            section_type: core_theory
+          - section_title: Experimental Techniques - Gouy Balance and SQUID
+            section_type: related_concepts
+          - section_title: Magnetic Exchange and Superexchange
+            section_type: related_concepts
+          - section_title: Spin Crossover Phenomena
+            section_type: related_concepts
+    milestone: Predict and interpret magnetic properties of coordination compounds
+    duration_days: 5
+    tags:
+      - magnetic properties
+      - paramagnetism
+      - diamagnetism
+      - magnetic moment
+      - spin-only formula
+      - magnetochemistry
+
+  - id: 7
+    title: Electronic Spectroscopy and Spectral Properties
+    learning_objectives:
+      - Explain origin of color in transition metal complexes
+      - Apply selection rules for d-d transitions
+      - Distinguish between d-d transitions and charge transfer transitions
+      - Interpret absorption spectra using Tanabe-Sugano diagrams
+      - Calculate 10Dq values from spectroscopic data
+    textbook_style_content:
+      - topic: Electronic Spectra of Coordination Compounds
+        sections:
+          - section_title: Origin of Color in Transition Metal Complexes
+            section_type: overview
+          - section_title: d-d Transitions and Selection Rules
+            section_type: core_theory
+          - section_title: Laporte Selection Rule and Vibronic Coupling
+            section_type: core_theory
+          - section_title: Spin Selection Rule and Spin-Forbidden Transitions
+            section_type: core_theory
+          - section_title: Term Symbols and Electronic States
+            section_type: core_theory
+          - section_title: Orgel Diagrams for d1, d4, d6, d9 Configurations
+            section_type: core_theory
+          - section_title: Tanabe-Sugano Diagrams and Applications
+            section_type: core_theory
+          - section_title: Charge Transfer Spectra - LMCT and MLCT
+            section_type: core_theory
+          - section_title: Intervalence Charge Transfer
+            section_type: related_concepts
+          - section_title: Spectroscopic Parameters - Racah Parameters and Nephelauxetic Ratio
+            section_type: related_concepts
+    milestone: Interpret electronic spectra and predict optical properties
+    duration_days: 7
+    tags:
+      - electronic spectroscopy
+      - d-d transitions
+      - selection rules
+      - Tanabe-Sugano diagrams
+      - charge transfer
+      - term symbols
+
+  - id: 8
+    title: Reaction Mechanisms - Substitution Reactions
+    learning_objectives:
+      - Classify substitution reactions as labile or inert based on rates
+      - Distinguish between associative, dissociative, and interchange mechanisms
+      - Apply transition state theory to coordination compound reactions
+      - Understand factors affecting substitution rates including CFSE and steric effects
+      - Analyze stereochemical outcomes of substitution reactions
+    textbook_style_content:
+      - topic: Kinetics and Mechanisms of Ligand Substitution
+        sections:
+          - section_title: Lability and Inertness - Thermodynamic vs Kinetic Stability
+            section_type: overview
+          - section_title: Classification of Mechanisms - A, D, and I
+            section_type: core_theory
+          - section_title: Associative Mechanism and SN2-like Pathways
+            section_type: core_theory
+          - section_title: Dissociative Mechanism and SN1-like Pathways
+            section_type: core_theory
+          - section_title: Interchange Mechanism - Ia and Id
+            section_type: core_theory
+          - section_title: Substitution in Octahedral Complexes
+            section_type: core_theory
+          - section_title: Substitution in Square Planar Complexes - Trans Effect
+            section_type: core_theory
+          - section_title: Factors Affecting Substitution Rates
+            section_type: related_concepts
+          - section_title: Stereochemical Changes During Substitution
+            section_type: related_concepts
+          - section_title: Base Hydrolysis and Conjugate Base Mechanism
+            section_type: related_concepts
+    milestone: Predict mechanisms and rates of ligand substitution reactions
+    duration_days: 6
+    tags:
+      - substitution reactions
+      - reaction mechanisms
+      - lability
+      - trans effect
+      - kinetics
+      - stereochemistry
+
+  - id: 9
+    title: Electron Transfer Reactions and Photochemical Reactions
+    learning_objectives:
+      - Distinguish between inner-sphere and outer-sphere electron transfer mechanisms
+      - Apply Marcus theory to predict electron transfer rates
+      - Understand complementary and non-complementary reactions
+      - Explain photochemical substitution and photoredox reactions
+      - Analyze factors affecting electron transfer kinetics
+    textbook_style_content:
+      - topic: Redox and Photochemical Mechanisms
+        sections:
+          - section_title: Classification of Electron Transfer Reactions
+            section_type: overview
+          - section_title: Inner-Sphere Electron Transfer Mechanism
+            section_type: core_theory
+          - section_title: Outer-Sphere Electron Transfer Mechanism
+            section_type: core_theory
+          - section_title: Marcus Theory - Cross Relations and Reorganization Energy
+            section_type: core_theory
+          - section_title: Franck-Condon Principle and Activation Barriers
+            section_type: core_theory
+          - section_title: Complementary vs Non-Complementary Reactions
+            section_type: related_concepts
+          - section_title: Photochemical Reactions - Ligand Field and Charge Transfer Excited States
+            section_type: core_theory
+          - section_title: Photosubstitution and Photoredox Processes
+            section_type: core_theory
+          - section_title: Mixed-Valence Compounds and Electron Delocalization
+            section_type: related_concepts
+          - section_title: Applications in Catalysis and Solar Energy Conversion
+            section_type: related_concepts
+    milestone: Analyze electron transfer and photochemical reaction mechanisms
+    duration_days: 6
+    tags:
+      - electron transfer
+      - Marcus theory
+      - inner-sphere mechanism
+      - outer-sphere mechanism
+      - photochemistry
+      - redox reactions

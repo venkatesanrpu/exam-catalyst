@@ -1,0 +1,558 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Bioinorganic chemistry: photosystems, porphyrins, metalloenzymes, oxygen transport, electron-transfer reactions; nitrogen fixation, metal complexes in medicine"
+
+concepts:
+  core:
+    - name: Photosystems
+      clarifier: Light-harvesting complexes and charge separation mechanisms in photosynthetic organisms
+    - name: Porphyrins
+      clarifier: Tetrapyrrole macrocycles and their metal complexes in biological systems
+    - name: Metalloenzymes
+      clarifier: Enzymes containing metal ions as cofactors for catalytic activity
+    - name: Oxygen transport proteins
+      clarifier: Hemoglobin, myoglobin, and hemocyanin for O2 binding and delivery
+    - name: Electron-transfer reactions
+      clarifier: Biological redox processes mediated by metalloproteins
+    - name: Nitrogen fixation
+      clarifier: Enzymatic conversion of atmospheric N2 to ammonia by nitrogenase
+    - name: Metal complexes in medicine
+      clarifier: Therapeutic and diagnostic applications of coordination compounds
+  related:
+    - name: Coordination chemistry fundamentals
+      clarifier: Bonding theories, geometries, and stability of metal complexes
+    - name: Ligand field theory
+      clarifier: Electronic structure and spectroscopic properties of transition metal complexes
+    - name: Redox potentials and Marcus theory
+      clarifier: Thermodynamics and kinetics of electron transfer processes
+    - name: Spectroscopic techniques
+      clarifier: UV-Vis, EPR, Mössbauer, and other methods for studying metalloproteins
+    - name: Metal ion homeostasis
+      clarifier: Cellular uptake, storage, and regulation of essential metal ions
+    - name: Bioinorganic reaction mechanisms
+      clarifier: Catalytic cycles and substrate activation in metalloenzymes
+
+learning_path:
+  - id: 1
+    title: Foundations of Bioinorganic Chemistry
+    learning_objectives:
+      - Understand the unique role of metal ions in biological systems
+      - Apply coordination chemistry principles to biological metal centers
+      - Recognize essential and toxic metal ions in living organisms
+      - Analyze metal-ligand bonding in biological environments
+    textbook_style_content:
+      - topic: Introduction to Bioinorganic Chemistry
+        sections:
+          - section_title: The Biological Periodic Table
+            section_type: overview
+          - section_title: Essential Metal Ions and Their Functions
+            section_type: core_theory
+          - section_title: Coordination Environments in Proteins
+            section_type: core_theory
+          - section_title: Thermodynamic and Kinetic Stability
+            section_type: related_concepts
+      - topic: Metal-Ligand Bonding in Biological Systems
+        sections:
+          - section_title: Common Biological Ligands
+            section_type: core_theory
+          - section_title: Crystal Field and Ligand Field Theory Applications
+            section_type: related_concepts
+          - section_title: Spectroscopic Properties of Biological Metal Centers
+            section_type: related_concepts
+    milestone: Master fundamental principles linking coordination chemistry to biological function
+    duration_days: 8
+    tags:
+      - foundations
+      - coordination_chemistry
+      - metal_ions
+      - biological_ligands
+
+  - id: 2
+    title: Porphyrins and Tetrapyrrole Chemistry
+    learning_objectives:
+      - Describe the structure and biosynthesis of porphyrins and related macrocycles
+      - Explain metal insertion mechanisms and metalloporphyrin properties
+      - Compare heme, chlorophyll, and cobalamin structures
+      - Analyze spectroscopic characteristics of porphyrin complexes
+    textbook_style_content:
+      - topic: Porphyrin Structure and Synthesis
+        sections:
+          - section_title: The Tetrapyrrole Framework
+            section_type: overview
+          - section_title: Biosynthetic Pathway from ALA to Protoporphyrin IX
+            section_type: core_theory
+          - section_title: Ferrochelatase and Metal Insertion
+            section_type: core_theory
+      - topic: Types of Biological Tetrapyrroles
+        sections:
+          - section_title: Heme and Its Variants
+            section_type: core_theory
+          - section_title: Chlorophylls and Bacteriochlorophylls
+            section_type: core_theory
+          - section_title: Corrinoids and Vitamin B12
+            section_type: core_theory
+          - section_title: Linear Tetrapyrroles - Bilins and Phycobilins
+            section_type: related_concepts
+      - topic: Spectroscopic and Electronic Properties
+        sections:
+          - section_title: UV-Visible Spectroscopy of Porphyrins
+            section_type: related_concepts
+          - section_title: Gouterman Four-Orbital Model
+            section_type: related_concepts
+          - section_title: Resonance Raman Spectroscopy
+            section_type: related_concepts
+    milestone: Comprehensive understanding of porphyrin chemistry as foundation for heme proteins and photosystems
+    duration_days: 10
+    tags:
+      - porphyrins
+      - heme
+      - chlorophyll
+      - tetrapyrroles
+      - spectroscopy
+
+  - id: 3
+    title: Oxygen Transport and Storage
+    learning_objectives:
+      - Explain the structure-function relationship in hemoglobin and myoglobin
+      - Describe cooperative oxygen binding and allosteric regulation
+      - Compare different oxygen carriers across species
+      - Analyze oxygen binding curves and factors affecting oxygen affinity
+    textbook_style_content:
+      - topic: Myoglobin - The Oxygen Storage Protein
+        sections:
+          - section_title: Three-Dimensional Structure and Heme Environment
+            section_type: overview
+          - section_title: Oxygen Binding Mechanism and Kinetics
+            section_type: core_theory
+          - section_title: Role of Distal Histidine in Ligand Discrimination
+            section_type: core_theory
+      - topic: Hemoglobin - Cooperative Oxygen Transport
+        sections:
+          - section_title: Quaternary Structure and Subunit Interfaces
+            section_type: core_theory
+          - section_title: T and R States - The Perutz Mechanism
+            section_type: core_theory
+          - section_title: Cooperative Binding and Hill Coefficient
+            section_type: core_theory
+          - section_title: Bohr Effect, BPG, and Allosteric Regulation
+            section_type: core_theory
+      - topic: Alternative Oxygen Carriers
+        sections:
+          - section_title: Hemocyanin - Copper-Based Oxygen Transport
+            section_type: related_concepts
+          - section_title: Hemerythrin - Iron-Based Non-Heme Carrier
+            section_type: related_concepts
+          - section_title: Evolutionary Perspectives on Oxygen Carriers
+            section_type: related_concepts
+    milestone: Master oxygen transport mechanisms and cooperative binding in hemoproteins
+    duration_days: 9
+    tags:
+      - hemoglobin
+      - myoglobin
+      - oxygen_transport
+      - cooperativity
+      - allosteric_regulation
+
+  - id: 4
+    title: Electron Transfer Proteins and Reactions
+    learning_objectives:
+      - Understand electron transfer mechanisms in biological systems
+      - Apply Marcus theory to biological electron transfer
+      - Describe structure and function of cytochromes and iron-sulfur proteins
+      - Analyze factors controlling electron transfer rates and directionality
+    textbook_style_content:
+      - topic: Principles of Biological Electron Transfer
+        sections:
+          - section_title: Redox Potentials in Aqueous Environments
+            section_type: overview
+          - section_title: Marcus Theory of Electron Transfer
+            section_type: core_theory
+          - section_title: Reorganization Energy and Driving Force
+            section_type: core_theory
+          - section_title: Distance Dependence and Protein-Mediated Tunneling
+            section_type: core_theory
+      - topic: Cytochromes - Heme-Based Electron Carriers
+        sections:
+          - section_title: Classification and Structural Diversity
+            section_type: core_theory
+          - section_title: Cytochrome c Structure and Function
+            section_type: core_theory
+          - section_title: Cytochrome b and c1 in Respiratory Chain
+            section_type: core_theory
+      - topic: Iron-Sulfur Proteins
+        sections:
+          - section_title: Types of Fe-S Clusters
+            section_type: core_theory
+          - section_title: Ferredoxins and Their Redox Properties
+            section_type: core_theory
+          - section_title: Rieske Proteins and Fe2S2 Centers
+            section_type: related_concepts
+      - topic: Blue Copper Proteins
+        sections:
+          - section_title: Type 1 Copper Centers - Plastocyanin and Azurin
+            section_type: related_concepts
+          - section_title: Spectroscopic Properties and Electron Transfer Rates
+            section_type: related_concepts
+    milestone: Understand electron transfer mechanisms and the role of metalloproteins in redox chains
+    duration_days: 11
+    tags:
+      - electron_transfer
+      - cytochromes
+      - iron_sulfur_clusters
+      - Marcus_theory
+      - redox_proteins
+
+  - id: 5
+    title: Photosynthetic Systems and Light Harvesting
+    learning_objectives:
+      - Describe the structure and function of photosystem I and II
+      - Explain the Z-scheme of photosynthetic electron transfer
+      - Understand water oxidation by the oxygen-evolving complex
+      - Analyze energy transfer in antenna complexes
+    textbook_style_content:
+      - topic: Overview of Photosynthesis
+        sections:
+          - section_title: Light Reactions and Dark Reactions
+            section_type: overview
+          - section_title: Chloroplast Structure and Thylakoid Membrane
+            section_type: overview
+          - section_title: The Z-Scheme of Photosynthetic Electron Flow
+            section_type: core_theory
+      - topic: Photosystem II and Water Oxidation
+        sections:
+          - section_title: PSII Structure and Cofactor Organization
+            section_type: core_theory
+          - section_title: The Mn4CaO5 Cluster - Nature's Water-Splitting Catalyst
+            section_type: core_theory
+          - section_title: S-State Cycle and Oxygen Evolution
+            section_type: core_theory
+          - section_title: Charge Separation and Primary Electron Transfer
+            section_type: core_theory
+      - topic: Photosystem I
+        sections:
+          - section_title: PSI Architecture and Electron Transfer Chain
+            section_type: core_theory
+          - section_title: P700 Reaction Center and Fe-S Clusters
+            section_type: core_theory
+          - section_title: Ferredoxin Reduction and NADP+ Formation
+            section_type: core_theory
+      - topic: Light-Harvesting Complexes
+        sections:
+          - section_title: Antenna Pigments and Energy Transfer
+            section_type: related_concepts
+          - section_title: FRET and Excitonic Coupling
+            section_type: related_concepts
+          - section_title: Bacterial Photosynthetic Reaction Centers
+            section_type: related_concepts
+    milestone: Comprehensive knowledge of photosynthetic electron transfer and water oxidation
+    duration_days: 12
+    tags:
+      - photosystems
+      - PSII
+      - PSI
+      - water_oxidation
+      - manganese_cluster
+      - chlorophyll
+
+  - id: 6
+    title: Metalloenzymes I - Oxidases and Oxygenases
+    learning_objectives:
+      - Classify metalloenzymes by metal type and reaction catalyzed
+      - Explain oxygen activation mechanisms in oxygenases
+      - Describe cytochrome P450 catalytic cycle
+      - Compare different copper oxidases and their mechanisms
+    textbook_style_content:
+      - topic: Classification of Metalloenzymes
+        sections:
+          - section_title: Functional Categories and Metal Cofactors
+            section_type: overview
+          - section_title: Oxidases, Oxygenases, and Peroxidases
+            section_type: overview
+      - topic: Cytochrome P450 Monooxygenases
+        sections:
+          - section_title: Structure and Heme Environment
+            section_type: core_theory
+          - section_title: Catalytic Cycle and Compound I Formation
+            section_type: core_theory
+          - section_title: Substrate Hydroxylation Mechanism
+            section_type: core_theory
+          - section_title: Biological Roles and Drug Metabolism
+            section_type: related_concepts
+      - topic: Copper-Containing Oxidases
+        sections:
+          - section_title: Laccase and Multicopper Oxidases
+            section_type: core_theory
+          - section_title: Copper Centers - Type 1, 2, and 3
+            section_type: core_theory
+          - section_title: Dioxygen Reduction to Water
+            section_type: core_theory
+      - topic: Iron-Dependent Oxygenases
+        sections:
+          - section_title: Non-Heme Iron Dioxygenases
+            section_type: core_theory
+          - section_title: 2-Oxoglutarate-Dependent Dioxygenases
+            section_type: related_concepts
+          - section_title: Rieske Dioxygenases
+            section_type: related_concepts
+    milestone: Master oxygen activation mechanisms in diverse metalloenzymes
+    duration_days: 10
+    tags:
+      - metalloenzymes
+      - oxidases
+      - oxygenases
+      - cytochrome_P450
+      - copper_enzymes
+
+  - id: 7
+    title: Metalloenzymes II - Hydrolases and Carbon Dioxide Processing
+    learning_objectives:
+      - Understand metal ion roles in hydrolytic reactions
+      - Describe carbonic anhydrase mechanism and zinc catalysis
+      - Explain carboxypeptidase and other zinc proteases
+      - Analyze metalloenzymes in nitrogen and carbon cycles
+    textbook_style_content:
+      - topic: Zinc Hydrolases
+        sections:
+          - section_title: Zinc Coordination Chemistry in Enzymes
+            section_type: overview
+          - section_title: Carbonic Anhydrase Structure and Mechanism
+            section_type: core_theory
+          - section_title: Proton Transfer and His64 Shuttle
+            section_type: core_theory
+          - section_title: Carboxypeptidase and Peptide Bond Hydrolysis
+            section_type: core_theory
+      - topic: Other Metallohydrolases
+        sections:
+          - section_title: Alkaline Phosphatase - Binuclear Zinc Center
+            section_type: related_concepts
+          - section_title: Purple Acid Phosphatases - Iron-Containing
+            section_type: related_concepts
+      - topic: Ureases and Nickel Enzymes
+        sections:
+          - section_title: Urease Structure and Binuclear Nickel Active Site
+            section_type: core_theory
+          - section_title: Urea Hydrolysis Mechanism
+            section_type: core_theory
+          - section_title: Other Nickel-Dependent Enzymes
+            section_type: related_concepts
+    milestone: Understand metal-catalyzed hydrolysis and CO2 processing mechanisms
+    duration_days: 8
+    tags:
+      - metalloenzymes
+      - hydrolases
+      - carbonic_anhydrase
+      - zinc_enzymes
+      - urease
+
+  - id: 8
+    title: Nitrogen Fixation
+    learning_objectives:
+      - Describe the structure of nitrogenase enzyme complex
+      - Explain the FeMo-cofactor and its role in N2 reduction
+      - Understand the mechanism of nitrogen fixation
+      - Analyze alternative nitrogenases and model complexes
+    textbook_style_content:
+      - topic: Biological Nitrogen Cycle
+        sections:
+          - section_title: Importance of Nitrogen Fixation
+            section_type: overview
+          - section_title: Diazotrophs and Symbiotic Relationships
+            section_type: overview
+      - topic: Nitrogenase Enzyme Complex
+        sections:
+          - section_title: Component Proteins - Fe-Protein and MoFe-Protein
+            section_type: core_theory
+          - section_title: P-Cluster - The Electron Transfer Center
+            section_type: core_theory
+          - section_title: FeMo-Cofactor Structure - Mo7Fe9S9C-homocitrate
+            section_type: core_theory
+          - section_title: X-ray Crystallography and Spectroscopic Studies
+            section_type: related_concepts
+      - topic: Mechanism of Nitrogen Reduction
+        sections:
+          - section_title: ATP-Dependent Electron Transfer
+            section_type: core_theory
+          - section_title: Lowe-Thorneley Kinetic Scheme
+            section_type: core_theory
+          - section_title: Proposed Mechanisms - Distal vs Alternating Pathways
+            section_type: core_theory
+          - section_title: Hydrogen Evolution as Competing Reaction
+            section_type: related_concepts
+      - topic: Alternative Nitrogenases and Model Compounds
+        sections:
+          - section_title: V-Nitrogenase and Fe-Only Nitrogenase
+            section_type: related_concepts
+          - section_title: Synthetic Model Complexes for N2 Activation
+            section_type: related_concepts
+          - section_title: Biomimetic Approaches to Nitrogen Fixation
+            section_type: related_concepts
+    milestone: Complete understanding of biological nitrogen fixation mechanism and nitrogenase chemistry
+    duration_days: 10
+    tags:
+      - nitrogen_fixation
+      - nitrogenase
+      - FeMo_cofactor
+      - N2_reduction
+      - metalloenzymes
+
+  - id: 9
+    title: Metal Complexes in Medicine - Therapeutic Applications
+    learning_objectives:
+      - Understand design principles for therapeutic metal complexes
+      - Describe mechanisms of platinum anticancer drugs
+      - Explain antimicrobial and antiparasitic metal-based drugs
+      - Analyze metal complexes for photodynamic therapy
+    textbook_style_content:
+      - topic: Medicinal Inorganic Chemistry Overview
+        sections:
+          - section_title: History and Scope of Metal-Based Drugs
+            section_type: overview
+          - section_title: Pharmacokinetics and Toxicity Considerations
+            section_type: overview
+          - section_title: Targeting Strategies and Drug Design
+            section_type: related_concepts
+      - topic: Platinum Anticancer Drugs
+        sections:
+          - section_title: Cisplatin - Discovery and Clinical Use
+            section_type: core_theory
+          - section_title: DNA Binding and Formation of Intrastrand Crosslinks
+            section_type: core_theory
+          - section_title: Mechanism of Cytotoxicity and Apoptosis
+            section_type: core_theory
+          - section_title: Second and Third Generation Drugs - Carboplatin and Oxaliplatin
+            section_type: core_theory
+          - section_title: Resistance Mechanisms
+            section_type: related_concepts
+      - topic: Gold Complexes in Medicine
+        sections:
+          - section_title: Gold Drugs for Rheumatoid Arthritis
+            section_type: core_theory
+          - section_title: Auranofin and Gold Thiolate Compounds
+            section_type: core_theory
+          - section_title: Gold Complexes as Anticancer Agents
+            section_type: related_concepts
+      - topic: Other Therapeutic Metal Complexes
+        sections:
+          - section_title: Ruthenium Anticancer Compounds - NAMI-A and KP1019
+            section_type: core_theory
+          - section_title: Antimony and Arsenic Compounds
+            section_type: related_concepts
+          - section_title: Silver Complexes as Antimicrobials
+            section_type: related_concepts
+    milestone: Master therapeutic applications of metal complexes with focus on anticancer drugs
+    duration_days: 9
+    tags:
+      - medicinal_chemistry
+      - platinum_drugs
+      - cisplatin
+      - anticancer_agents
+      - metal_based_drugs
+
+  - id: 10
+    title: Metal Complexes in Medicine - Diagnostics and Chelation Therapy
+    learning_objectives:
+      - Describe metal complexes used in diagnostic imaging
+      - Explain gadolinium MRI contrast agents
+      - Understand chelation therapy for metal poisoning
+      - Analyze metal complexes as radiopharmaceuticals
+    textbook_style_content:
+      - topic: Diagnostic Imaging Agents
+        sections:
+          - section_title: Requirements for Diagnostic Metal Complexes
+            section_type: overview
+          - section_title: Gadolinium Complexes for MRI
+            section_type: core_theory
+          - section_title: DTPA and DOTA Chelators
+            section_type: core_theory
+          - section_title: Nephrogenic Systemic Fibrosis and Safety
+            section_type: related_concepts
+      - topic: Radiopharmaceuticals
+        sections:
+          - section_title: Technetium-99m Imaging Agents
+            section_type: core_theory
+          - section_title: Sestamibi and Cardiolite for Cardiac Imaging
+            section_type: core_theory
+          - section_title: Indium and Gallium Radiopharmaceuticals
+            section_type: related_concepts
+          - section_title: Therapeutic Radiopharmaceuticals
+            section_type: related_concepts
+      - topic: Chelation Therapy
+        sections:
+          - section_title: Principles of Metal Detoxification
+            section_type: core_theory
+          - section_title: EDTA for Lead Poisoning
+            section_type: core_theory
+          - section_title: Deferasirox and Deferoxamine for Iron Overload
+            section_type: core_theory
+          - section_title: British Anti-Lewisite for Arsenic and Mercury
+            section_type: core_theory
+          - section_title: D-Penicillamine for Wilson's Disease
+            section_type: related_concepts
+      - topic: Emerging Applications
+        sections:
+          - section_title: Metal-Based Sensors and Probes
+            section_type: related_concepts
+          - section_title: Photodynamic Therapy with Metal Complexes
+            section_type: related_concepts
+    milestone: Comprehensive knowledge of diagnostic and therapeutic applications of metal complexes
+    duration_days: 8
+    tags:
+      - diagnostic_imaging
+      - MRI_contrast
+      - gadolinium
+      - radiopharmaceuticals
+      - chelation_therapy
+
+  - id: 11
+    title: Advanced Topics and Integration
+    learning_objectives:
+      - Integrate knowledge across all bioinorganic chemistry topics
+      - Analyze current research trends in bioinorganic chemistry
+      - Apply bioinorganic principles to solve complex problems
+      - Evaluate biomimetic and bioinspired approaches
+    textbook_style_content:
+      - topic: Spectroscopic Methods in Bioinorganic Chemistry
+        sections:
+          - section_title: EPR Spectroscopy of Metalloproteins
+            section_type: related_concepts
+          - section_title: Mössbauer Spectroscopy for Iron Centers
+            section_type: related_concepts
+          - section_title: X-ray Absorption Spectroscopy - EXAFS and XANES
+            section_type: related_concepts
+          - section_title: Magnetic Circular Dichroism
+            section_type: related_concepts
+      - topic: Biomimetic Chemistry
+        sections:
+          - section_title: Synthetic Models of Metalloenzyme Active Sites
+            section_type: core_theory
+          - section_title: Artificial Metalloenzymes and Hybrid Systems
+            section_type: core_theory
+          - section_title: Bioinspired Catalysis
+            section_type: related_concepts
+      - topic: Metal Ion Homeostasis and Metallomics
+        sections:
+          - section_title: Metal Ion Uptake and Transport
+            section_type: core_theory
+          - section_title: Storage Proteins - Ferritin and Metallothionein
+            section_type: core_theory
+          - section_title: Metal Trafficking and Chaperones
+            section_type: core_theory
+          - section_title: Metallomics and Systems Biology Approaches
+            section_type: related_concepts
+      - topic: Current Research and Future Directions
+        sections:
+          - section_title: Artificial Photosynthesis
+            section_type: related_concepts
+          - section_title: Metal-Organic Frameworks in Medicine
+            section_type: related_concepts
+          - section_title: Nanotechnology and Bioinorganic Chemistry
+            section_type: related_concepts
+    milestone: Integration of all bioinorganic chemistry concepts with advanced applications
+    duration_days: 10
+    tags:
+      - spectroscopy
+      - biomimetic_chemistry
+      - metal_homeostasis
+      - advanced_topics
+      - research_trends

@@ -1,0 +1,42 @@
+Generate {QUESTION_COUNT} CSIR NET Chemical Sciences Part A level MCQs.
+
+## Context
+- **Exam**: {TARGET_EXAM}
+- **Subject**: {SUBJECT}
+- **Topic**: {TOPIC}
+- **Lesson**: {LESSON}
+- **Focus**: {AGENT_TEXT}
+- **Keywords**: {TAGS}
+
+## Core Concepts (Must Cover)
+{CORE_CONCEPTS}
+
+## Related Concepts (Background)
+{RELATED_CONCEPTS}
+
+## Requirements
+• Single-concept recall or direct formula application (Bloom: Remember/Understand)
+• Definition-based, nomenclature, periodic trends, basic structures
+• No multi-step calculations
+• Straightforward distractors (one correct, three clearly wrong)
+• Self-contained stems (no external data needed)
+• CSIR Part A style: quick recall, 1-2 minutes per question
+
+## Format per Question
+Q{i}. [Clear, direct stem]
+A. [Option]
+B. [Option]
+C. [Option]
+D. [Option]
+**Answer: [A/B/C/D]**
+
+**Explanation:**
+[2-3 lines: state concept + why answer is correct + why others are wrong]
+
+## Constraints
+✗ No meta-commentary or greetings
+✗ No calculations requiring pen and paper
+✓ Start directly with Q1
+✓ End with **DONE**
+
+Generate now.

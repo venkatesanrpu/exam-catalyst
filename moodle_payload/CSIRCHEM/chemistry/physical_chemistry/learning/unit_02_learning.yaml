@@ -1,0 +1,77 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: 'Approximate methods of quantum mechanics: Variational principle;
+    perturbation theory up to second order in energy; applications.'
+total_titles: 10
+learning_path:
+- id: 1
+  title: Foundations of Approximate Methods
+  learning_objectives:
+  - Understand limitations of exact analytical solutions in quantum mechanics
+  - Identify systems requiring approximate treatment
+  - Recognize criteria for choosing between variational and perturbation approaches
+  - Review mathematical prerequisites including linear algebra and Hermitian operators
+- id: 2
+  title: Variational Principle - Theory and Formalism
+  learning_objectives:
+  - State and prove the variational theorem for ground state energy
+  - Understand upper bound property of variational energy
+  - Derive variational conditions for optimal wavefunction
+  - Apply calculus of variations to quantum mechanical problems
+- id: 3
+  title: Rayleigh-Ritz Linear Variation Method
+  learning_objectives:
+  - Implement linear variation method using basis function expansion
+  - Set up and solve secular determinant for energy eigenvalues
+  - Apply method to multi-parameter optimization problems
+  - Compare efficiency of different basis set choices
+- id: 4
+  title: Applications of Variational Principle
+  learning_objectives:
+  - Calculate ground state energy of helium atom using trial wavefunctions
+  - Apply variational method to hydrogen molecular ion
+  - Determine optimal parameters for particle in a box with perturbed boundaries
+  - Solve harmonic and anharmonic oscillator problems variationally
+- id: 5
+  title: Time-Independent Perturbation Theory - Non-Degenerate Case
+  learning_objectives:
+  - Understand perturbation theory assumptions and validity conditions
+  - Derive first-order energy and wavefunction corrections
+  - Derive second-order energy corrections with intermediate state summation
+  - Analyze convergence criteria for perturbation series
+- id: 6
+  title: Degenerate Perturbation Theory
+  learning_objectives:
+  - Identify degeneracy and understand why standard perturbation theory fails
+  - Construct proper zero-order basis by diagonalizing perturbation matrix
+  - Calculate energy level splitting in degenerate subspaces
+  - Apply degenerate perturbation theory to physical systems
+- id: 7
+  title: Applications I - Atomic Systems in External Fields
+  learning_objectives:
+  - Calculate Stark effect in hydrogen atom using perturbation theory
+  - Analyze first-order and second-order contributions to energy shifts
+  - Apply degenerate perturbation theory to n=2 level of hydrogen
+  - Compute Zeeman effect and magnetic moment interactions
+- id: 8
+  title: Applications II - Anharmonic Oscillator and Molecular Systems
+  learning_objectives:
+  - Treat cubic and quartic anharmonicity using perturbation theory
+  - Calculate vibrational energy corrections for diatomic molecules
+  - Apply perturbation methods to rotation-vibration coupling
+  - Analyze multi-electron atoms using both variational and perturbation approaches
+- id: 9
+  title: Comparison and Integration of Methods
+  learning_objectives:
+  - Compare accuracy and efficiency of variational vs perturbation approaches
+  - Understand when to use each method for different problem types
+  - Combine variational and perturbation techniques
+  - Analyze error estimates and convergence behavior
+- id: 10
+  title: Problem-Solving and CSIR Exam Preparation
+  learning_objectives:
+  - Solve representative CSIR-level problems efficiently
+  - Identify problem type and select appropriate method quickly
+  - Perform calculations with required accuracy within time constraints
+  - Master common tricks and approximations for exam scenarios

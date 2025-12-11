@@ -1,0 +1,49 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: 'Data analysis: Mean and standard deviation; absolute and relative
+    errors; linear regression; covariance and correlation coefficient.'
+total_titles: 6
+learning_path:
+- id: 1
+  title: Foundations of Descriptive Statistics
+  learning_objectives:
+  - Define and calculate arithmetic mean as a measure of central tendency
+  - Compute variance and standard deviation for sample and population data
+  - Interpret standard deviation in the context of data spread and precision
+  - Apply statistical measures to analyze experimental chemistry data sets
+- id: 2
+  title: Error Analysis and Uncertainty Quantification
+  learning_objectives:
+  - Distinguish between systematic and random errors in measurements
+  - Calculate absolute error as the difference between measured and true values
+  - Compute relative error and percent error for comparative assessment
+  - Apply error propagation rules to derived quantities
+- id: 3
+  title: Bivariate Relationships and Covariance
+  learning_objectives:
+  - Calculate covariance to measure joint variability between two variables
+  - Interpret positive and negative covariance in chemical contexts
+  - Compute Pearson correlation coefficient from covariance
+  - Assess the strength and direction of linear relationships using correlation
+- id: 4
+  title: Linear Regression Modeling
+  learning_objectives:
+  - Derive the least squares estimates for regression slope and intercept
+  - Construct linear regression models for chemical calibration curves
+  - Interpret regression parameters in physical chemistry contexts
+  - Validate regression assumptions through residual analysis
+- id: 5
+  title: Confidence Intervals and Prediction Intervals
+  learning_objectives:
+  - Construct confidence intervals for regression parameters
+  - Calculate prediction intervals for new observations
+  - Apply t-distribution in small sample regression analysis
+  - Assess uncertainty in predicted values from regression models
+- id: 6
+  title: Integrated Data Analysis Applications
+  learning_objectives:
+  - Execute complete data analysis workflows for chemical experiments
+  - Select appropriate statistical methods for given research questions
+  - Interpret statistical output in the context of physical chemistry
+  - Present statistical results with proper uncertainty quantification

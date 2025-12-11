@@ -1,0 +1,547 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Synthesis and reactivity of common heterocyclic compounds containing one or two heteroatoms (O, N, S)
+
+concepts:
+  core:
+    - name: Five-membered heterocycles with one heteroatom
+      clarifier: Furan, pyrrole, thiophene - structure, aromaticity, synthesis, and reactivity
+    - name: Five-membered heterocycles with two heteroatoms
+      clarifier: Imidazole, pyrazole, thiazole, oxazole - structure, tautomerism, synthesis
+    - name: Six-membered heterocycles with one nitrogen
+      clarifier: Pyridine and quinoline - basicity, electrophilic and nucleophilic substitution
+    - name: Six-membered heterocycles with two nitrogens
+      clarifier: Pyrimidine, pyrazine, pyridazine - properties and synthesis
+    - name: Electrophilic aromatic substitution in heterocycles
+      clarifier: Reactivity patterns, orientation effects, mechanism
+    - name: Nucleophilic substitution in heterocycles
+      clarifier: SNAr mechanism, leaving group effects, heteroatom influence
+    - name: Named reactions for heterocycle synthesis
+      clarifier: Paal-Knorr, Hantzsch, Fischer indole, Bischler-Napieralski
+  related:
+    - name: Aromaticity and Hückel's rule
+      clarifier: Application to heterocycles, electron count, resonance stabilization
+    - name: Acid-base properties of heterocycles
+      clarifier: pKa values, basicity trends, protonation sites
+    - name: Tautomerism in heterocycles
+      clarifier: Annular and side-chain tautomerism, equilibrium positions
+    - name: Molecular orbital theory
+      clarifier: π-electron distribution, HOMO-LUMO analysis in heterocycles
+    - name: Protecting group chemistry
+      clarifier: N-protection, O-protection in heterocycle synthesis
+    - name: Medicinal importance of heterocycles
+      clarifier: Drug scaffolds, bioactive compounds, structure-activity relationships
+
+learning_path:
+  - id: 1
+    title: Introduction to Heterocyclic Chemistry
+    learning_objectives:
+      - Define heterocyclic compounds and classify them based on ring size and heteroatoms
+      - Apply Hückel's rule to determine aromaticity in heterocyclic systems
+      - Analyze the electronic structure and bonding in common heterocycles
+      - Compare stability and reactivity trends across different heterocyclic systems
+    textbook_style_content:
+      - topic: Fundamentals of Heterocyclic Chemistry
+        sections:
+          - section_title: Classification and Nomenclature
+            section_type: overview
+          - section_title: Aromaticity in Heterocycles
+            section_type: core_theory
+          - section_title: Electronic Structure and Orbital Considerations
+            section_type: core_theory
+          - section_title: Comparison with Carbocyclic Aromatics
+            section_type: related_concepts
+    milestone: Understanding the fundamental principles governing heterocyclic stability and classification
+    duration_days: 3
+    tags:
+      - introduction
+      - aromaticity
+      - nomenclature
+      - electronic_structure
+
+  - id: 2
+    title: Five-Membered Heterocycles with One Heteroatom - Structure and Properties
+    learning_objectives:
+      - Describe the structure and aromatic character of furan, pyrrole, and thiophene
+      - Explain the electron distribution and resonance in these systems
+      - Compare basicity and nucleophilicity trends
+      - Predict protonation sites and tautomeric forms
+    textbook_style_content:
+      - topic: Furan, Pyrrole, and Thiophene
+        sections:
+          - section_title: Structural Features and Bonding
+            section_type: core_theory
+          - section_title: Aromaticity and Resonance Energy
+            section_type: core_theory
+          - section_title: Acid-Base Properties
+            section_type: core_theory
+          - section_title: Dipole Moments and Physical Properties
+            section_type: related_concepts
+    milestone: Mastery of structural and electronic properties of simple five-membered heterocycles
+    duration_days: 4
+    tags:
+      - five_membered_rings
+      - furan
+      - pyrrole
+      - thiophene
+      - properties
+
+  - id: 3
+    title: Synthesis of Five-Membered Heterocycles with One Heteroatom
+    learning_objectives:
+      - Execute Paal-Knorr synthesis for furans, pyrroles, and thiophenes
+      - Apply the Knorr pyrrole synthesis and its mechanism
+      - Utilize 1,4-dicarbonyl compounds in heterocycle formation
+      - Design synthetic routes using retrosynthetic analysis
+    textbook_style_content:
+      - topic: Classical Synthetic Methods
+        sections:
+          - section_title: Paal-Knorr Synthesis
+            section_type: core_theory
+          - section_title: Knorr Pyrrole Synthesis
+            section_type: core_theory
+          - section_title: Feist-Benary Synthesis of Furans
+            section_type: core_theory
+          - section_title: Modern Variations and Catalytic Methods
+            section_type: related_concepts
+    milestone: Ability to synthesize five-membered heterocycles using classical methods
+    duration_days: 5
+    tags:
+      - synthesis
+      - paal_knorr
+      - knorr_synthesis
+      - five_membered_rings
+
+  - id: 4
+    title: Reactivity of Five-Membered Heterocycles - Electrophilic Substitution
+    learning_objectives:
+      - Predict regioselectivity in electrophilic aromatic substitution reactions
+      - Explain the π-excessive nature and its consequences
+      - Compare reactivity order furan > pyrrole > thiophene > benzene
+      - Apply mechanistic understanding to predict products
+    textbook_style_content:
+      - topic: Electrophilic Aromatic Substitution
+        sections:
+          - section_title: π-Excessive Character and Reactivity
+            section_type: core_theory
+          - section_title: Halogenation Reactions
+            section_type: core_theory
+          - section_title: Nitration, Sulfonation, and Friedel-Crafts Reactions
+            section_type: core_theory
+          - section_title: Regioselectivity and Orientation Effects
+            section_type: core_theory
+          - section_title: Reaction Mechanisms and Intermediate Stability
+            section_type: related_concepts
+    milestone: Proficiency in predicting and executing electrophilic substitution on five-membered heterocycles
+    duration_days: 5
+    tags:
+      - reactivity
+      - electrophilic_substitution
+      - regioselectivity
+      - mechanisms
+
+  - id: 5
+    title: Five-Membered Heterocycles with Two Heteroatoms
+    learning_objectives:
+      - Describe the structure of imidazole, pyrazole, thiazole, and oxazole
+      - Explain tautomerism in these compounds
+      - Synthesize these heterocycles using appropriate methods
+      - Predict reactivity patterns based on heteroatom positions
+    textbook_style_content:
+      - topic: Diazoles and Related Compounds
+        sections:
+          - section_title: Structural Features and Nomenclature
+            section_type: overview
+          - section_title: Imidazole - Structure, Tautomerism, and Amphoteric Nature
+            section_type: core_theory
+          - section_title: Pyrazole and Its Derivatives
+            section_type: core_theory
+          - section_title: Thiazole and Oxazole Systems
+            section_type: core_theory
+          - section_title: Synthesis Methods
+            section_type: core_theory
+          - section_title: Reactivity Patterns
+            section_type: core_theory
+          - section_title: Biological Significance
+            section_type: related_concepts
+    milestone: Understanding structure, synthesis, and reactivity of five-membered heterocycles with two heteroatoms
+    duration_days: 6
+    tags:
+      - imidazole
+      - pyrazole
+      - thiazole
+      - oxazole
+      - tautomerism
+
+  - id: 6
+    title: Six-Membered Heterocycles - Pyridine Structure and Properties
+    learning_objectives:
+      - Describe the structure and aromaticity of pyridine
+      - Explain the π-deficient nature and its consequences
+      - Compare basicity with aliphatic amines
+      - Identify protonation and N-oxidation sites
+    textbook_style_content:
+      - topic: Pyridine Chemistry Fundamentals
+        sections:
+          - section_title: Structure and Electronic Configuration
+            section_type: core_theory
+          - section_title: π-Deficient Aromatic Character
+            section_type: core_theory
+          - section_title: Basicity and Nucleophilicity
+            section_type: core_theory
+          - section_title: N-Oxide Formation and Properties
+            section_type: core_theory
+          - section_title: Physical Properties and Resonance
+            section_type: related_concepts
+    milestone: Mastery of pyridine's unique electronic and chemical properties
+    duration_days: 4
+    tags:
+      - six_membered_rings
+      - pyridine
+      - basicity
+      - pi_deficient
+
+  - id: 7
+    title: Synthesis of Pyridine and Its Derivatives
+    learning_objectives:
+      - Execute Hantzsch pyridine synthesis from appropriate precursors
+      - Apply other classical methods for pyridine ring construction
+      - Design synthetic routes to substituted pyridines
+      - Utilize functional group interconversions on the pyridine ring
+    textbook_style_content:
+      - topic: Pyridine Synthesis Methods
+        sections:
+          - section_title: Hantzsch Dihydropyridine Synthesis
+            section_type: core_theory
+          - section_title: Chichibabin Synthesis
+            section_type: core_theory
+          - section_title: Condensation Methods
+            section_type: core_theory
+          - section_title: Modern Synthetic Approaches
+            section_type: related_concepts
+    milestone: Ability to synthesize pyridines using multiple synthetic strategies
+    duration_days: 5
+    tags:
+      - synthesis
+      - hantzsch_synthesis
+      - pyridine
+      - chichibabin
+
+  - id: 8
+    title: Reactivity of Pyridine - Electrophilic Substitution
+    learning_objectives:
+      - Explain the difficulty of electrophilic substitution on pyridine
+      - Predict regioselectivity favoring 3-position
+      - Utilize N-oxide activation strategy
+      - Apply harsh conditions and understand their necessity
+    textbook_style_content:
+      - topic: Electrophilic Substitution in Pyridine
+        sections:
+          - section_title: Reactivity Challenges in π-Deficient Systems
+            section_type: core_theory
+          - section_title: Nitration and Sulfonation at C-3
+            section_type: core_theory
+          - section_title: Activation via N-Oxide Formation
+            section_type: core_theory
+          - section_title: Halogenation Reactions
+            section_type: core_theory
+          - section_title: Mechanistic Considerations
+            section_type: related_concepts
+    milestone: Understanding electrophilic substitution limitations and strategies in pyridine
+    duration_days: 4
+    tags:
+      - pyridine
+      - electrophilic_substitution
+      - n_oxide
+      - mechanisms
+
+  - id: 9
+    title: Reactivity of Pyridine - Nucleophilic Substitution
+    learning_objectives:
+      - Predict nucleophilic substitution at positions 2, 4, and 6
+      - Explain SNAr mechanism and leaving group requirements
+      - Apply Chichibabin amination reaction
+      - Utilize organometallic reagents for C-C bond formation
+    textbook_style_content:
+      - topic: Nucleophilic Substitution in Pyridine
+        sections:
+          - section_title: Activation of Positions 2, 4, and 6
+            section_type: core_theory
+          - section_title: SNAr Mechanism and Requirements
+            section_type: core_theory
+          - section_title: Chichibabin Amination
+            section_type: core_theory
+          - section_title: Organolithium and Grignard Additions
+            section_type: core_theory
+          - section_title: Reissert Compounds
+            section_type: related_concepts
+    milestone: Proficiency in nucleophilic substitution strategies for pyridine functionalization
+    duration_days: 5
+    tags:
+      - pyridine
+      - nucleophilic_substitution
+      - chichibabin
+      - organometallics
+
+  - id: 10
+    title: Diazines - Pyrimidine, Pyrazine, and Pyridazine
+    learning_objectives:
+      - Describe structures and properties of diazines
+      - Compare basicity and reactivity with pyridine
+      - Synthesize pyrimidine derivatives
+      - Predict substitution patterns based on heteroatom positions
+    textbook_style_content:
+      - topic: Six-Membered Heterocycles with Two Nitrogens
+        sections:
+          - section_title: Structures and Nomenclature
+            section_type: overview
+          - section_title: Pyrimidine - Properties and Basicity
+            section_type: core_theory
+          - section_title: Synthesis of Pyrimidines
+            section_type: core_theory
+          - section_title: Pyrazine and Pyridazine Systems
+            section_type: core_theory
+          - section_title: Reactivity Patterns in Diazines
+            section_type: core_theory
+          - section_title: Biological Importance
+            section_type: related_concepts
+    milestone: Understanding the chemistry of six-membered heterocycles with two nitrogens
+    duration_days: 5
+    tags:
+      - pyrimidine
+      - pyrazine
+      - pyridazine
+      - diazines
+
+  - id: 11
+    title: Quinoline and Isoquinoline - Benzo-Fused Pyridines
+    learning_objectives:
+      - Describe the structure and properties of quinoline and isoquinoline
+      - Execute Fischer indole and Bischler-Napieralski syntheses
+      - Predict regioselectivity in substitution reactions
+      - Apply Skraup and Doebner-Miller syntheses
+    textbook_style_content:
+      - topic: Benzo-Fused Nitrogen Heterocycles
+        sections:
+          - section_title: Quinoline Structure and Properties
+            section_type: core_theory
+          - section_title: Skraup Quinoline Synthesis
+            section_type: core_theory
+          - section_title: Doebner-Miller Synthesis
+            section_type: core_theory
+          - section_title: Isoquinoline Structure and Properties
+            section_type: core_theory
+          - section_title: Bischler-Napieralski Synthesis
+            section_type: core_theory
+          - section_title: Pictet-Spengler Reaction
+            section_type: core_theory
+          - section_title: Reactivity Comparison with Pyridine
+            section_type: related_concepts
+    milestone: Mastery of synthesis and reactivity of benzo-fused nitrogen heterocycles
+    duration_days: 6
+    tags:
+      - quinoline
+      - isoquinoline
+      - skraup
+      - bischler_napieralski
+      - fused_systems
+
+  - id: 12
+    title: Indole - Structure, Synthesis, and Reactivity
+    learning_objectives:
+      - Describe the structure and aromaticity of indole
+      - Execute Fischer indole synthesis and mechanism
+      - Predict electrophilic substitution at C-3
+      - Apply the Mannich reaction and other C-3 functionalizations
+    textbook_style_content:
+      - topic: Indole Chemistry
+        sections:
+          - section_title: Structure and Aromatic Character
+            section_type: core_theory
+          - section_title: Fischer Indole Synthesis
+            section_type: core_theory
+          - section_title: Alternative Synthetic Methods
+            section_type: core_theory
+          - section_title: Electrophilic Substitution at C-3
+            section_type: core_theory
+          - section_title: N-Alkylation and N-Acylation
+            section_type: core_theory
+          - section_title: Biological and Medicinal Significance
+            section_type: related_concepts
+    milestone: Comprehensive understanding of indole chemistry and its applications
+    duration_days: 5
+    tags:
+      - indole
+      - fischer_indole
+      - electrophilic_substitution
+      - fused_systems
+
+  - id: 13
+    title: Heterocycles Containing Sulfur - Thiazole and Benzothiazole
+    learning_objectives:
+      - Describe the properties of thiazole and related systems
+      - Synthesize thiazoles using appropriate methods
+      - Predict reactivity patterns influenced by sulfur
+      - Compare with nitrogen and oxygen analogs
+    textbook_style_content:
+      - topic: Sulfur-Containing Heterocycles
+        sections:
+          - section_title: Thiazole Structure and Properties
+            section_type: core_theory
+          - section_title: Hantzsch Thiazole Synthesis
+            section_type: core_theory
+          - section_title: Benzothiazole Derivatives
+            section_type: core_theory
+          - section_title: Reactivity Patterns
+            section_type: core_theory
+          - section_title: Comparison with Oxazole and Imidazole
+            section_type: related_concepts
+    milestone: Understanding sulfur heterocycle chemistry and synthesis
+    duration_days: 4
+    tags:
+      - thiazole
+      - benzothiazole
+      - sulfur_heterocycles
+      - hantzsch
+
+  - id: 14
+    title: Oxygen-Containing Heterocycles - Furan, Benzofuran, and Chromone
+    learning_objectives:
+      - Describe furan reactivity and special considerations
+      - Synthesize benzofuran derivatives
+      - Understand chromone and coumarin chemistry
+      - Apply furan in organic synthesis
+    textbook_style_content:
+      - topic: Oxygen Heterocycles and Derivatives
+        sections:
+          - section_title: Furan Revisited - Advanced Reactivity
+            section_type: core_theory
+          - section_title: Benzofuran Synthesis and Properties
+            section_type: core_theory
+          - section_title: Chromone and Coumarin Systems
+            section_type: core_theory
+          - section_title: Diels-Alder Reactions of Furans
+            section_type: core_theory
+          - section_title: Natural Products Containing Oxygen Heterocycles
+            section_type: related_concepts
+    milestone: Advanced understanding of oxygen-containing heterocyclic systems
+    duration_days: 5
+    tags:
+      - furan
+      - benzofuran
+      - chromone
+      - coumarin
+      - oxygen_heterocycles
+
+  - id: 15
+    title: Heteroatom Effects on Reactivity - Comparative Analysis
+    learning_objectives:
+      - Compare reactivity patterns across different heterocycles
+      - Predict product outcomes based on heteroatom identity and position
+      - Apply inductive and resonance effects to explain reactivity
+      - Synthesize complex molecules using heterocycle knowledge
+    textbook_style_content:
+      - topic: Unified Understanding of Heterocycle Reactivity
+        sections:
+          - section_title: π-Excessive vs π-Deficient Systems
+            section_type: core_theory
+          - section_title: Heteroatom Electronegativity and Reactivity
+            section_type: core_theory
+          - section_title: Position-Dependent Reactivity
+            section_type: core_theory
+          - section_title: Predictive Models for Substitution
+            section_type: core_theory
+          - section_title: Case Studies and Complex Examples
+            section_type: related_concepts
+    milestone: Ability to predict and rationalize heterocycle reactivity across all systems
+    duration_days: 5
+    tags:
+      - comparative_analysis
+      - reactivity_trends
+      - predictive_models
+      - advanced_concepts
+
+  - id: 16
+    title: Advanced Synthetic Strategies and Multi-Step Synthesis
+    learning_objectives:
+      - Design multi-step syntheses incorporating heterocycles
+      - Apply protecting group strategies
+      - Execute regioselective functionalization
+      - Synthesize biologically relevant heterocyclic compounds
+    textbook_style_content:
+      - topic: Complex Heterocycle Synthesis
+        sections:
+          - section_title: Retrosynthetic Analysis for Heterocycles
+            section_type: core_theory
+          - section_title: Protecting Groups for Heterocyclic Systems
+            section_type: core_theory
+          - section_title: Sequential Functionalization Strategies
+            section_type: core_theory
+          - section_title: Transition Metal Catalysis in Heterocycle Synthesis
+            section_type: core_theory
+          - section_title: Total Synthesis Examples
+            section_type: related_concepts
+    milestone: Mastery of complex heterocycle synthesis and strategic planning
+    duration_days: 6
+    tags:
+      - advanced_synthesis
+      - multi_step_synthesis
+      - protecting_groups
+      - catalysis
+
+  - id: 17
+    title: Special Topics - Metal-Catalyzed Reactions and Modern Methods
+    learning_objectives:
+      - Apply palladium-catalyzed cross-coupling to heterocycles
+      - Utilize C-H activation strategies
+      - Execute direct arylation and related transformations
+      - Apply flow chemistry and modern techniques
+    textbook_style_content:
+      - topic: Modern Approaches to Heterocycle Chemistry
+        sections:
+          - section_title: Palladium-Catalyzed Cross-Coupling
+            section_type: core_theory
+          - section_title: C-H Activation in Heterocycles
+            section_type: core_theory
+          - section_title: Direct Arylation Methods
+            section_type: core_theory
+          - section_title: Microwave and Flow Chemistry Applications
+            section_type: related_concepts
+          - section_title: Green Chemistry Approaches
+            section_type: related_concepts
+    milestone: Familiarity with cutting-edge methods in heterocyclic chemistry
+    duration_days: 5
+    tags:
+      - palladium_catalysis
+      - c_h_activation
+      - modern_methods
+      - cross_coupling
+
+  - id: 18
+    title: Integration and Problem-Solving
+    learning_objectives:
+      - Solve complex mechanistic problems involving heterocycles
+      - Predict unknown products from reaction conditions
+      - Design optimal synthetic routes to target molecules
+      - Apply heterocycle chemistry to real-world applications
+    textbook_style_content:
+      - topic: Comprehensive Problem-Solving
+        sections:
+          - section_title: Mechanistic Problem Sets
+            section_type: core_theory
+          - section_title: Synthesis Planning Exercises
+            section_type: core_theory
+          - section_title: Spectroscopic Identification of Heterocycles
+            section_type: core_theory
+          - section_title: CSIR-Style Practice Problems
+            section_type: core_theory
+          - section_title: Pharmaceutical and Agrochemical Applications
+            section_type: related_concepts
+    milestone: Comprehensive mastery of heterocyclic chemistry for CSIR examination
+    duration_days: 7
+    tags:
+      - problem_solving
+      - exam_preparation
+      - integration
+      - applications

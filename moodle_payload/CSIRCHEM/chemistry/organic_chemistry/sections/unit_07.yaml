@@ -1,0 +1,492 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Organic transformations and reagents: Functional group interconversion including oxidations and reductions; common catalysts and reagents (organic, inorganic, organometallic and enzymatic). Chemo, regio and stereoselective transformations."
+
+concepts:
+  core:
+    - name: Functional Group Interconversions
+      clarifier: Systematic methods for transforming one functional group into another through chemical reactions
+    - name: Oxidation Reactions
+      clarifier: Reactions involving increase in oxidation state of carbon atoms in organic molecules
+    - name: Reduction Reactions
+      clarifier: Reactions involving decrease in oxidation state of carbon atoms in organic molecules
+    - name: Organic Reagents
+      clarifier: Carbon-based reagents used in organic synthesis including Grignard reagents, organolithium compounds, and ylides
+    - name: Inorganic Reagents
+      clarifier: Metal-based oxidants, reductants, and catalysts including chromium, manganese, and osmium compounds
+    - name: Organometallic Catalysts
+      clarifier: Transition metal complexes that facilitate organic transformations through coordination chemistry
+    - name: Chemoselectivity
+      clarifier: Preferential reaction of one functional group over others in polyfunctional molecules
+    - name: Regioselectivity
+      clarifier: Preferential formation of one constitutional isomer over others in a reaction
+    - name: Stereoselectivity
+      clarifier: Preferential formation of one stereoisomer over others including diastereo- and enantioselectivity
+  related:
+    - name: Enzymatic Catalysis
+      clarifier: Biocatalysts that enable transformations under mild conditions with high selectivity
+    - name: Protecting Group Strategies
+      clarifier: Temporary modification of functional groups to enable selective transformations
+    - name: Retrosynthetic Analysis
+      clarifier: Working backward from target molecules to identify suitable transformations
+    - name: Green Chemistry Principles
+      clarifier: Environmentally benign reagents and catalytic methods in organic synthesis
+    - name: Reaction Mechanisms
+      clarifier: Detailed mechanistic pathways explaining how reagents effect transformations
+    - name: Asymmetric Synthesis
+      clarifier: Methods for creating chiral molecules with high enantiomeric excess
+
+learning_path:
+  - id: 1
+    title: Introduction to Functional Group Transformations
+    learning_objectives:
+      - Understand the classification and reactivity patterns of major functional groups
+      - Recognize common functional group interconversion strategies
+      - Identify oxidation and reduction transformations by oxidation state changes
+      - Apply basic retrosynthetic disconnection approaches
+    textbook_style_content:
+      - topic: Fundamentals of Functional Group Chemistry
+        sections:
+          - section_title: Functional Group Classification and Reactivity
+            section_type: overview
+          - section_title: Oxidation States in Organic Molecules
+            section_type: core_theory
+          - section_title: Strategic Approach to Interconversions
+            section_type: core_theory
+    milestone: Mastery of functional group identification and basic transformation logic
+    duration_days: 5
+    tags:
+      - functional groups
+      - oxidation states
+      - retrosynthesis basics
+
+  - id: 2
+    title: Oxidation Reactions in Organic Chemistry
+    learning_objectives:
+      - Master oxidation of alcohols to aldehydes, ketones, and carboxylic acids
+      - Understand oxidative cleavage of alkenes and alkynes
+      - Apply epoxidation and dihydroxylation reactions
+      - Recognize benzylic and allylic oxidation patterns
+    textbook_style_content:
+      - topic: Alcohol Oxidation
+        sections:
+          - section_title: Overview of Oxidation Levels
+            section_type: overview
+          - section_title: Chromium-Based Oxidants (PCC, PDC, Jones)
+            section_type: core_theory
+          - section_title: Swern and Dess-Martin Oxidations
+            section_type: core_theory
+          - section_title: TEMPO and Other Catalytic Methods
+            section_type: related_concepts
+      - topic: Alkene Oxidation
+        sections:
+          - section_title: Epoxidation Mechanisms and Reagents
+            section_type: core_theory
+          - section_title: Dihydroxylation with OsO4 and KMnO4
+            section_type: core_theory
+          - section_title: Oxidative Cleavage Reactions
+            section_type: core_theory
+      - topic: Other Oxidation Reactions
+        sections:
+          - section_title: Benzylic and Allylic Oxidation
+            section_type: core_theory
+          - section_title: Baeyer-Villiger Oxidation
+            section_type: related_concepts
+    milestone: Comprehensive understanding of oxidation reagents and their selectivity patterns
+    duration_days: 8
+    tags:
+      - oxidation
+      - chromium reagents
+      - alkene chemistry
+      - selectivity
+
+  - id: 3
+    title: Reduction Reactions in Organic Chemistry
+    learning_objectives:
+      - Master reduction of carbonyl compounds to alcohols
+      - Understand catalytic hydrogenation of multiple bonds
+      - Apply dissolving metal reductions
+      - Recognize selective reduction strategies in polyfunctional molecules
+    textbook_style_content:
+      - topic: Carbonyl Reduction
+        sections:
+          - section_title: Overview of Reduction Methods
+            section_type: overview
+          - section_title: Metal Hydride Reagents (NaBH4, LiAlH4)
+            section_type: core_theory
+          - section_title: Selective Reducing Agents (DIBAL-H, LiAlH(OtBu)3)
+            section_type: core_theory
+          - section_title: Catalytic Hydrogenation of Carbonyls
+            section_type: related_concepts
+      - topic: Reduction of Multiple Bonds
+        sections:
+          - section_title: Catalytic Hydrogenation of Alkenes and Alkynes
+            section_type: core_theory
+          - section_title: Dissolving Metal Reductions (Birch, Clemmensen, Wolff-Kishner)
+            section_type: core_theory
+          - section_title: Stereoselective Hydrogenation
+            section_type: related_concepts
+      - topic: Reductive Coupling Reactions
+        sections:
+          - section_title: Pinacol Coupling and McMurry Reaction
+            section_type: related_concepts
+    milestone: Proficiency in selecting appropriate reducing agents for specific transformations
+    duration_days: 8
+    tags:
+      - reduction
+      - metal hydrides
+      - hydrogenation
+      - selectivity
+
+  - id: 4
+    title: Organic Reagents in Synthesis
+    learning_objectives:
+      - Master organometallic reagent preparation and reactions
+      - Understand ylide chemistry and Wittig-type reactions
+      - Apply organocatalysis principles
+      - Recognize nucleophilic and electrophilic organic reagents
+    textbook_style_content:
+      - topic: Organometallic Reagents
+        sections:
+          - section_title: Structure and Reactivity Overview
+            section_type: overview
+          - section_title: Grignard Reagents - Preparation and Applications
+            section_type: core_theory
+          - section_title: Organolithium Compounds
+            section_type: core_theory
+          - section_title: Organocuprates and Cross-Coupling Partners
+            section_type: core_theory
+      - topic: Phosphorus Ylides
+        sections:
+          - section_title: Wittig Reaction Mechanism and Stereochemistry
+            section_type: core_theory
+          - section_title: Horner-Wadsworth-Emmons Modification
+            section_type: core_theory
+      - topic: Other Organic Reagents
+        sections:
+          - section_title: Sulfur Ylides and Corey-Chaykovsky Reaction
+            section_type: related_concepts
+          - section_title: Organocatalysts in Modern Synthesis
+            section_type: related_concepts
+    milestone: Competence in using major classes of organic reagents for C-C bond formation
+    duration_days: 7
+    tags:
+      - organometallics
+      - Grignard
+      - Wittig
+      - C-C bond formation
+
+  - id: 5
+    title: Inorganic Reagents and Oxidants
+    learning_objectives:
+      - Master chromium, manganese, and osmium reagents
+      - Understand peroxide and periodate-based oxidations
+      - Apply metal-based Lewis acids as catalysts
+      - Recognize metal hydride reducing systems
+    textbook_style_content:
+      - topic: Chromium-Based Reagents
+        sections:
+          - section_title: Jones Reagent and Chromic Acid
+            section_type: core_theory
+          - section_title: Pyridinium Chlorochromate (PCC) and Pyridinium Dichromate (PDC)
+            section_type: core_theory
+      - topic: Manganese Reagents
+        sections:
+          - section_title: Potassium Permanganate Oxidations
+            section_type: core_theory
+          - section_title: Manganese Dioxide in Allylic Oxidation
+            section_type: core_theory
+      - topic: Osmium and Other Metal Oxidants
+        sections:
+          - section_title: Osmium Tetroxide Dihydroxylation
+            section_type: core_theory
+          - section_title: Ruthenium Tetroxide and Periodic Acid
+            section_type: related_concepts
+      - topic: Lewis Acid Catalysts
+        sections:
+          - section_title: Overview of Metal-Based Lewis Acids
+            section_type: overview
+          - section_title: Aluminum, Titanium, and Boron Lewis Acids
+            section_type: core_theory
+    milestone: Expertise in selecting inorganic reagents based on functional group compatibility
+    duration_days: 6
+    tags:
+      - inorganic reagents
+      - oxidants
+      - Lewis acids
+      - metal catalysts
+
+  - id: 6
+    title: Organometallic Catalysis in Synthesis
+    learning_objectives:
+      - Master palladium-catalyzed cross-coupling reactions
+      - Understand ruthenium-catalyzed metathesis reactions
+      - Apply hydroformylation and hydrogenation catalysis
+      - Recognize catalyst design principles
+    textbook_style_content:
+      - topic: Palladium Catalysis
+        sections:
+          - section_title: Overview of Cross-Coupling Reactions
+            section_type: overview
+          - section_title: Heck, Suzuki, and Negishi Couplings
+            section_type: core_theory
+          - section_title: Stille and Sonogashira Reactions
+            section_type: core_theory
+          - section_title: Mechanism and Catalytic Cycle
+            section_type: core_theory
+      - topic: Ruthenium and Rhodium Catalysis
+        sections:
+          - section_title: Olefin Metathesis (Grubbs Catalysts)
+            section_type: core_theory
+          - section_title: Asymmetric Hydrogenation
+            section_type: related_concepts
+      - topic: Other Transition Metal Catalysts
+        sections:
+          - section_title: Copper-Catalyzed Click Chemistry
+            section_type: related_concepts
+          - section_title: Gold and Silver Catalysis
+            section_type: related_concepts
+    milestone: Advanced understanding of transition metal catalysis mechanisms and applications
+    duration_days: 9
+    tags:
+      - organometallic catalysis
+      - cross-coupling
+      - palladium
+      - metathesis
+
+  - id: 7
+    title: Enzymatic Transformations
+    learning_objectives:
+      - Understand enzyme classification and mechanism basics
+      - Master oxidoreductase and hydrolase applications
+      - Apply enzymatic kinetic resolution
+      - Recognize advantages of biocatalysis in synthesis
+    textbook_style_content:
+      - topic: Fundamentals of Enzymatic Catalysis
+        sections:
+          - section_title: Enzyme Structure and Active Sites
+            section_type: overview
+          - section_title: Michaelis-Menten Kinetics
+            section_type: core_theory
+          - section_title: Enzyme Specificity and Selectivity
+            section_type: core_theory
+      - topic: Oxidoreductases in Synthesis
+        sections:
+          - section_title: Alcohol Dehydrogenases
+            section_type: core_theory
+          - section_title: Monooxygenases and Peroxidases
+            section_type: related_concepts
+      - topic: Hydrolases and Other Enzymes
+        sections:
+          - section_title: Lipases and Esterases in Kinetic Resolution
+            section_type: core_theory
+          - section_title: Transaminases and Aldolases
+            section_type: related_concepts
+    milestone: Practical knowledge of enzymatic methods for selective transformations
+    duration_days: 6
+    tags:
+      - biocatalysis
+      - enzymes
+      - oxidoreductases
+      - green chemistry
+
+  - id: 8
+    title: Chemoselectivity in Organic Reactions
+    learning_objectives:
+      - Master principles of chemoselective reagent design
+      - Understand functional group reactivity hierarchies
+      - Apply protecting group strategies
+      - Recognize solvent and temperature effects on selectivity
+    textbook_style_content:
+      - topic: Principles of Chemoselectivity
+        sections:
+          - section_title: Defining Chemoselectivity in Synthesis
+            section_type: overview
+          - section_title: Electronic and Steric Control of Selectivity
+            section_type: core_theory
+          - section_title: Functional Group Reactivity Scale
+            section_type: core_theory
+      - topic: Chemoselective Reagents
+        sections:
+          - section_title: Selective Oxidation Reagents
+            section_type: core_theory
+          - section_title: Selective Reduction Reagents
+            section_type: core_theory
+          - section_title: Tuning Reactivity Through Reagent Modification
+            section_type: related_concepts
+      - topic: Protecting Groups
+        sections:
+          - section_title: Common Protecting Groups for Alcohols and Amines
+            section_type: core_theory
+          - section_title: Orthogonal Protection Strategies
+            section_type: related_concepts
+    milestone: Ability to design chemoselective synthetic sequences
+    duration_days: 7
+    tags:
+      - chemoselectivity
+      - protecting groups
+      - selectivity control
+      - strategy
+
+  - id: 9
+    title: Regioselectivity in Organic Transformations
+    learning_objectives:
+      - Master regioselective electrophilic additions
+      - Understand regiocontrol in substitution reactions
+      - Apply directing group strategies
+      - Recognize steric and electronic factors in regioselectivity
+    textbook_style_content:
+      - topic: Regioselectivity in Addition Reactions
+        sections:
+          - section_title: Markovnikov and Anti-Markovnikov Additions
+            section_type: core_theory
+          - section_title: Hydroboration-Oxidation Regioselectivity
+            section_type: core_theory
+          - section_title: Epoxide Ring Opening Regioselectivity
+            section_type: core_theory
+      - topic: Regioselective Aromatic Substitution
+        sections:
+          - section_title: Directing Effects in Electrophilic Aromatic Substitution
+            section_type: core_theory
+          - section_title: Ortho/Para and Meta Directors
+            section_type: core_theory
+          - section_title: Regiocontrol in C-H Activation
+            section_type: related_concepts
+      - topic: Directing Groups in Synthesis
+        sections:
+          - section_title: Removable and Traceless Directing Groups
+            section_type: related_concepts
+          - section_title: Metal-Catalyzed Directed C-H Functionalization
+            section_type: related_concepts
+    milestone: Strategic use of regiocontrol in multistep synthesis
+    duration_days: 7
+    tags:
+      - regioselectivity
+      - directing groups
+      - aromatic substitution
+      - addition reactions
+
+  - id: 10
+    title: Stereoselectivity and Diastereoselectivity
+    learning_objectives:
+      - Master principles of diastereoselective reactions
+      - Understand substrate control and auxiliary-based approaches
+      - Apply chelation and conformational control
+      - Recognize acyclic and cyclic stereocontrol models
+    textbook_style_content:
+      - topic: Fundamentals of Stereoselectivity
+        sections:
+          - section_title: Stereochemical Terminology and Concepts
+            section_type: overview
+          - section_title: Transition State Models for Stereocontrol
+            section_type: core_theory
+      - topic: Diastereoselective Reactions
+        sections:
+          - section_title: Aldol Reaction Stereochemistry
+            section_type: core_theory
+          - section_title: Diastereoselective Reduction of Ketones
+            section_type: core_theory
+          - section_title: Cram and Felkin-Anh Models
+            section_type: core_theory
+      - topic: Cyclic Systems
+        sections:
+          - section_title: Axial vs Equatorial Attack
+            section_type: core_theory
+          - section_title: Diastereoselective Cyclization Reactions
+            section_type: related_concepts
+      - topic: Chiral Auxiliaries
+        sections:
+          - section_title: Evans and Oppolzer Auxiliaries
+            section_type: related_concepts
+    milestone: Proficiency in predicting and controlling diastereoselectivity
+    duration_days: 8
+    tags:
+      - stereoselectivity
+      - diastereoselectivity
+      - stereocontrol
+      - auxiliaries
+
+  - id: 11
+    title: Enantioselectivity and Asymmetric Synthesis
+    learning_objectives:
+      - Master principles of enantioselective catalysis
+      - Understand chiral ligands and catalyst design
+      - Apply asymmetric oxidation and reduction methods
+      - Recognize asymmetric C-C bond forming reactions
+    textbook_style_content:
+      - topic: Principles of Enantioselectivity
+        sections:
+          - section_title: Origins of Enantioselectivity
+            section_type: overview
+          - section_title: Chiral Recognition and Catalyst Design
+            section_type: core_theory
+          - section_title: Enantiomeric Excess and Optical Purity
+            section_type: core_theory
+      - topic: Asymmetric Oxidation
+        sections:
+          - section_title: Sharpless Epoxidation
+            section_type: core_theory
+          - section_title: Jacobsen-Katsuki Epoxidation
+            section_type: core_theory
+          - section_title: Asymmetric Dihydroxylation
+            section_type: core_theory
+      - topic: Asymmetric Reduction
+        sections:
+          - section_title: CBS Reduction and Corey-Bakshi-Shibata Catalyst
+            section_type: core_theory
+          - section_title: Noyori Asymmetric Hydrogenation
+            section_type: core_theory
+          - section_title: Enzymatic Asymmetric Reduction
+            section_type: related_concepts
+      - topic: Asymmetric C-C Bond Formation
+        sections:
+          - section_title: Asymmetric Aldol and Mannich Reactions
+            section_type: related_concepts
+          - section_title: Organocatalytic Enantioselective Reactions
+            section_type: related_concepts
+    milestone: Advanced capability in designing enantioselective synthetic routes
+    duration_days: 10
+    tags:
+      - enantioselectivity
+      - asymmetric catalysis
+      - chiral synthesis
+      - Sharpless
+
+  - id: 12
+    title: Integration and Strategic Applications
+    learning_objectives:
+      - Integrate selectivity concepts in multistep synthesis
+      - Master reagent selection for complex molecules
+      - Apply selectivity principles to natural product synthesis
+      - Develop problem-solving strategies for CSIR examinations
+    textbook_style_content:
+      - topic: Strategic Synthesis Planning
+        sections:
+          - section_title: Retrosynthetic Analysis with Selectivity Considerations
+            section_type: overview
+          - section_title: Evaluating Multiple Synthetic Routes
+            section_type: core_theory
+          - section_title: Protecting Group Strategy in Complex Synthesis
+            section_type: core_theory
+      - topic: Case Studies
+        sections:
+          - section_title: Natural Product Total Synthesis Examples
+            section_type: related_concepts
+          - section_title: Drug Synthesis and Process Chemistry
+            section_type: related_concepts
+      - topic: Problem-Solving Techniques
+        sections:
+          - section_title: Analyzing CSIR-Level Transformation Problems
+            section_type: core_theory
+          - section_title: Mechanistic Reasoning in Selectivity Questions
+            section_type: core_theory
+          - section_title: Time Management and Approach Strategies
+            section_type: related_concepts
+    milestone: Comprehensive mastery of organic transformations with strategic selectivity control
+    duration_days: 10
+    tags:
+      - synthesis strategy
+      - problem solving
+      - CSIR preparation
+      - integration

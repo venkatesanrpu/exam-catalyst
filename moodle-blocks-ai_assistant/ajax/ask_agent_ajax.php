@@ -1,34 +1,42 @@
 <?php
 define('AJAX_SCRIPT', true);
 require_once(__DIR__ . '/../../../config.php');
-require_once($CFG->dirroot . '/local/ai_functions/lib.php');
+require_once($CFG->dirroot . '/local/ai_functions/libagent.php');
 
 require_login();
 require_sesskey();
+
+// before headers and curl init
+session_write_close();
+ignore_user_abort(true);
+set_time_limit(0);
 
 // Disable output buffering
 while (ob_get_level() > 0) {
     ob_end_clean();
 }
+@ini_set('zlib.output_compression', '0');
+@ini_set('implicit_flush', '1');
+ob_implicit_flush(true);
+
+    // 3. SSE headers.
+    header('Content-Type: text/event-stream');
+    header('Cache-Control: no-cache');
+    header('Connection: keep-alive');
+    header('X-Accel-Buffering: no');
+
+    echo ": connected\n\n";
+    if (ob_get_level() > 0) { ob_flush(); }
+    flush();
+
+echo ": connected\n\n";
+flush();
 
 // Increased timeouts
 set_time_limit(360);
 ini_set('max_execution_time', 360);
 ignore_user_abort(false);
 
-// SSE Headers
-header('Content-Type: text/event-stream');
-header('Cache-Control: no-cache');
-header('Connection: keep-alive');
-header('X-Accel-Buffering: no');
-
-// Disable compression
-@apache_setenv('no-gzip', 1);
-@ini_set('zlib.output_compression', 0);
-@ini_set('implicit_flush', 1);
-
-echo ": connected\n\n";
-flush();
 
 try {
     $agentkey = required_param('agent_config_key', PARAM_ALPHANUMEXT);
@@ -61,8 +69,8 @@ try {
     
     // Replace placeholders
     $system_prompt = str_replace(
-        ['{TARGET_EXAM}', '{SUBJECT}', '{CONTEXT_BLOCK}'],
-        [$target, $subject, $context_string],
+        ['{TARGET_EXAM}', '{SUBJECT}', '{TOPIC}', '{LESSON}', '{TAGS}', '{CONTEXT_BLOCK}'],
+        [$target, $subject, $topic, $lesson, $tags, $context_string],
         $prompt_template
     );
 
@@ -72,15 +80,21 @@ try {
             ['role' => 'user', 'content' => "Generate study notes for: {$usertext}"]
         ],
         'stream' => true,
-        'max_tokens' => 2048,      // Increased for comprehensive notes
-        'temperature' => 0.3,
+        'max_tokens' => 6000,      // Increased for comprehensive notes
+		//'max_completion_tokens' => 2048, //for gpt-5-models
+        'temperature' => 0.6,
         'top_p' => 0.9,
-        'presence_penalty' => 0.1,
-        'frequency_penalty' => 0.1
+        'presence_penalty' => 0.5,
+        'frequency_penalty' => 0.6
     ];
+error_log("Ask Agent - Starting streaming request");
+error_log("Ask Agent - Agent key: {$agentkey}");
+error_log("Ask Agent - User text: {$usertext}");
 
     local_ai_functions_call_endpoint($agentkey, 'ask_agent', $payload);
     
+	error_log("Ask Agent - Streaming completed");
+	
 } catch (Exception $e) {
     echo "event: error\n";
     echo "data: " . json_encode(['error' => $e->getMessage()]) . "\n\n";

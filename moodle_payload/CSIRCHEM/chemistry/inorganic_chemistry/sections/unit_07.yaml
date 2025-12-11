@@ -1,0 +1,1175 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Organometallic compounds - synthesis, bonding and structure, and reactivity. Organometallics in homogeneous catalysis
+
+concepts:
+  core:
+    - name: Metal-carbon bond formation
+      clarifier: Fundamental bonding interactions between transition metals and carbon-based ligands
+    - name: 18-electron rule
+      clarifier: Electron counting and stability prediction in organometallic complexes
+    - name: Oxidative addition and reductive elimination
+      clarifier: Key elementary steps in organometallic reactivity and catalytic cycles
+    - name: Migratory insertion reactions
+      clarifier: Carbon-carbon and carbon-heteroatom bond formation via insertion mechanisms
+    - name: Homogeneous catalytic cycles
+      clarifier: Complete catalytic pathways involving organometallic intermediates
+    - name: η-notation and hapticity
+      clarifier: Bonding modes of unsaturated organic ligands to metal centers
+    - name: Metal carbonyls and carbonyl complexes
+      clarifier: Structure, bonding, and reactivity of CO-coordinated metal complexes
+    - name: Metal-alkyl and metal-aryl complexes
+      clarifier: σ-bonded organometallic compounds and their properties
+    - name: Metal-alkene and metal-alkyne complexes
+      clarifier: π-bonded organometallic systems and their coordination chemistry
+    - name: Cyclopentadienyl and arene complexes
+      clarifier: Sandwich and half-sandwich organometallic architectures
+  related:
+    - name: Molecular orbital theory in coordination complexes
+      clarifier: Electronic structure framework for understanding metal-ligand bonding
+    - name: Crystal field and ligand field theory
+      clarifier: Electronic splitting patterns and their effects on reactivity
+    - name: Spectroscopic characterization methods
+      clarifier: NMR, IR, UV-Vis techniques for organometallic compound identification
+    - name: Steric and electronic effects of ligands
+      clarifier: Influence of ligand properties on complex stability and reactivity
+    - name: Tolman cone angle and electronic parameters
+      clarifier: Quantitative measures of ligand steric and electronic properties
+    - name: Coordination number and geometry
+      clarifier: Structural preferences based on metal and ligand characteristics
+    - name: Reaction kinetics and thermodynamics
+      clarifier: Energetics and rates of organometallic transformations
+    - name: Industrial catalytic processes
+      clarifier: Commercial applications of organometallic catalysts
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Organometallic Chemistry
+    learning_objectives:
+      - Define organometallic compounds and distinguish them from coordination complexes
+      - Apply electron counting methods including the 18-electron rule to predict complex stability
+      - Describe the nature of metal-carbon bonds using molecular orbital theory
+      - Identify different classes of organometallic ligands and their bonding modes
+    textbook_style_content:
+      - topic: Introduction to Organometallic Chemistry
+        sections:
+          - section_title: Definition and Scope
+            section_type: overview
+          - section_title: Historical Development and Significance
+            section_type: overview
+          - section_title: Classification of Organometallic Compounds
+            section_type: core_theory
+      - topic: Electron Counting and the 18-Electron Rule
+        sections:
+          - section_title: Valence Electron Counting Methods
+            section_type: core_theory
+          - section_title: Neutral Ligand Method vs Oxidation State Method
+            section_type: core_theory
+          - section_title: Exceptions to the 18-Electron Rule
+            section_type: core_theory
+          - section_title: d-Electron Configuration and Complex Stability
+            section_type: related_concepts
+      - topic: Bonding in Organometallic Compounds
+        sections:
+          - section_title: Molecular Orbital Description of Metal-Carbon Bonds
+            section_type: core_theory
+          - section_title: Sigma Donation and Pi Back-Bonding
+            section_type: core_theory
+          - section_title: Synergic Bonding Model
+            section_type: core_theory
+          - section_title: Comparison with Werner Coordination Complexes
+            section_type: related_concepts
+    milestone: Master fundamental concepts and electron counting for organometallic systems
+    duration_days: 7
+    tags:
+      - fundamentals
+      - bonding theory
+      - electron counting
+      - 18-electron rule
+
+  - id: 2
+    title: Metal Carbonyl Complexes - Structure and Bonding
+    learning_objectives:
+      - Explain the bonding in metal carbonyls using MO theory
+      - Predict structures of homoleptic and heteroleptic carbonyl complexes
+      - Apply IR spectroscopy to determine carbonyl coordination modes
+      - Correlate CO stretching frequencies with metal electron density
+    textbook_style_content:
+      - topic: Binary Metal Carbonyls
+        sections:
+          - section_title: Synthesis and General Properties
+            section_type: core_theory
+          - section_title: Mononuclear Carbonyls - Structure and Electron Counting
+            section_type: core_theory
+          - section_title: Polynuclear Carbonyls and Metal-Metal Bonds
+            section_type: core_theory
+          - section_title: Isolobal Analogy and Wade-Mingos Rules
+            section_type: related_concepts
+      - topic: Bonding in Metal Carbonyls
+        sections:
+          - section_title: Dewar-Chatt-Duncanson Model
+            section_type: core_theory
+          - section_title: σ-Donation from CO to Metal
+            section_type: core_theory
+          - section_title: π-Back-Donation from Metal to CO
+            section_type: core_theory
+          - section_title: Electronic Effects on CO Bond Order
+            section_type: core_theory
+      - topic: Spectroscopic Characterization
+        sections:
+          - section_title: Infrared Spectroscopy of Metal Carbonyls
+            section_type: core_theory
+          - section_title: Terminal vs Bridging Carbonyl Modes
+            section_type: core_theory
+          - section_title: Cotton-Kraihanzel Force Field Analysis
+            section_type: related_concepts
+          - section_title: NMR Spectroscopy of Carbonyl Complexes
+            section_type: related_concepts
+    milestone: Understand metal-CO bonding and apply spectroscopy for structural determination
+    duration_days: 6
+    tags:
+      - metal carbonyls
+      - IR spectroscopy
+      - pi back-bonding
+      - structural characterization
+
+  - id: 3
+    title: Organometallic Complexes with σ-Bonded Ligands
+    learning_objectives:
+      - Describe synthesis methods for metal-alkyl and metal-aryl complexes
+      - Explain factors affecting metal-carbon bond stability
+      - Predict decomposition pathways including β-hydride elimination
+      - Analyze steric and electronic effects in alkyl complex stability
+    textbook_style_content:
+      - topic: Metal-Alkyl Complexes
+        sections:
+          - section_title: Synthesis via Alkylating Agents
+            section_type: core_theory
+          - section_title: Synthesis via Oxidative Addition
+            section_type: core_theory
+          - section_title: Structure and Bonding in Metal-Alkyl Bonds
+            section_type: core_theory
+          - section_title: Factors Affecting M-C Bond Strength
+            section_type: core_theory
+      - topic: Metal-Aryl and Metal-Acyl Complexes
+        sections:
+          - section_title: Preparation and Stability
+            section_type: core_theory
+          - section_title: Electronic Effects in Aryl Complexes
+            section_type: core_theory
+          - section_title: Acyl Complex Formation and Reactivity
+            section_type: core_theory
+      - topic: Decomposition Pathways
+        sections:
+          - section_title: β-Hydride Elimination Mechanism
+            section_type: core_theory
+          - section_title: Reductive Elimination
+            section_type: core_theory
+          - section_title: α-Hydrogen Abstraction and Homolytic Cleavage
+            section_type: core_theory
+          - section_title: Strategies to Stabilize Metal-Alkyl Bonds
+            section_type: related_concepts
+    milestone: Master synthesis and stability factors for σ-bonded organometallic complexes
+    duration_days: 6
+    tags:
+      - metal-alkyl complexes
+      - beta-hydride elimination
+      - sigma bonding
+      - decomposition mechanisms
+
+  - id: 4
+    title: Organometallic Complexes with π-Bonded Ligands
+    learning_objectives:
+      - Apply η-notation to describe ligand coordination modes
+      - Explain bonding in metal-alkene and metal-alkyne complexes
+      - Describe structure and bonding in metal-allyl complexes
+      - Characterize metal-diene complexes and their fluxional behavior
+    textbook_style_content:
+      - topic: Hapticity and η-Notation
+        sections:
+          - section_title: Definition and Conventions
+            section_type: overview
+          - section_title: Determining Hapticity from Structure
+            section_type: core_theory
+          - section_title: Fluxional Processes and Variable Hapticity
+            section_type: core_theory
+      - topic: Metal-Alkene and Metal-Alkyne Complexes
+        sections:
+          - section_title: Zeise's Salt and Early Discoveries
+            section_type: overview
+          - section_title: Dewar-Chatt-Duncanson Model for Alkene Complexes
+            section_type: core_theory
+          - section_title: Structural Parameters and C=C Bond Activation
+            section_type: core_theory
+          - section_title: Metal-Alkyne Complexes - Bonding and Geometry
+            section_type: core_theory
+          - section_title: Spectroscopic Characterization
+            section_type: related_concepts
+      - topic: Metal-Allyl and Metal-Diene Complexes
+        sections:
+          - section_title: η3-Allyl Complexes - Synthesis and Structure
+            section_type: core_theory
+          - section_title: σ-Allyl vs π-Allyl Coordination
+            section_type: core_theory
+          - section_title: Metal-Butadiene and Conjugated Diene Complexes
+            section_type: core_theory
+          - section_title: Fluxional Behavior and Dynamic NMR
+            section_type: related_concepts
+    milestone: Understand π-bonding modes and apply η-notation systematically
+    duration_days: 5
+    tags:
+      - pi complexes
+      - hapticity
+      - alkene complexes
+      - allyl complexes
+
+  - id: 5
+    title: Cyclopentadienyl and Arene Complexes
+    learning_objectives:
+      - Explain bonding in metallocenes using MO theory
+      - Describe synthesis routes to ferrocene and related complexes
+      - Analyze reactivity patterns of cyclopentadienyl complexes
+      - Characterize sandwich and half-sandwich structures
+    textbook_style_content:
+      - topic: Ferrocene and Metallocenes
+        sections:
+          - section_title: Discovery and Historical Significance
+            section_type: overview
+          - section_title: Synthesis of Ferrocene and Derivatives
+            section_type: core_theory
+          - section_title: Molecular Orbital Description of Metallocenes
+            section_type: core_theory
+          - section_title: Structural Features and Conformations
+            section_type: core_theory
+      - topic: Reactivity of Cyclopentadienyl Complexes
+        sections:
+          - section_title: Electrophilic Aromatic Substitution on Cp Rings
+            section_type: core_theory
+          - section_title: Deprotonation and Ring-Slippage
+            section_type: core_theory
+          - section_title: Applications in Synthesis and Catalysis
+            section_type: related_concepts
+      - topic: Metal-Arene Complexes
+        sections:
+          - section_title: η6-Arene Coordination and Bonding
+            section_type: core_theory
+          - section_title: Synthesis via Fischer-Hafner and Related Methods
+            section_type: core_theory
+          - section_title: Half-Sandwich Piano-Stool Structures
+            section_type: core_theory
+          - section_title: Chromium Tricarbonyl Arene Complexes
+            section_type: core_theory
+          - section_title: Arene Exchange and Substitution Reactions
+            section_type: related_concepts
+    milestone: Master structures and bonding in cyclopentadienyl and arene systems
+    duration_days: 5
+    tags:
+      - metallocenes
+      - ferrocene
+      - arene complexes
+      - sandwich compounds
+
+  - id: 6
+    title: Metal Hydrides and Dihydrogen Complexes
+    learning_objectives:
+      - Describe synthesis methods for transition metal hydrides
+      - Distinguish classical hydrides from dihydrogen complexes
+      - Explain bonding in σ-complexes using orbital interactions
+      - Characterize metal hydrides by NMR and neutron diffraction
+    textbook_style_content:
+      - topic: Classical Metal Hydride Complexes
+        sections:
+          - section_title: Synthesis and General Properties
+            section_type: core_theory
+          - section_title: Terminal vs Bridging Hydride Ligands
+            section_type: core_theory
+          - section_title: M-H Bond Strength and Acidity
+            section_type: core_theory
+          - section_title: Spectroscopic Identification
+            section_type: related_concepts
+      - topic: Dihydrogen Complexes
+        sections:
+          - section_title: Discovery and Structural Characterization
+            section_type: overview
+          - section_title: η2-H2 Coordination and Bonding Model
+            section_type: core_theory
+          - section_title: Kubas Complexes and Related Systems
+            section_type: core_theory
+          - section_title: Distinction from Classical Hydrides
+            section_type: core_theory
+      - topic: Agostic Interactions
+        sections:
+          - section_title: C-H Bond Coordination to Metal Centers
+            section_type: core_theory
+          - section_title: α, β, and γ-Agostic Interactions
+            section_type: core_theory
+          - section_title: Role in Catalysis and Reactivity
+            section_type: related_concepts
+    milestone: Differentiate classical hydrides from dihydrogen complexes and understand σ-bond coordination
+    duration_days: 4
+    tags:
+      - metal hydrides
+      - dihydrogen complexes
+      - sigma complexes
+      - agostic interactions
+
+  - id: 7
+    title: Fundamental Organometallic Reactions - Part I
+    learning_objectives:
+      - Describe mechanisms of oxidative addition reactions
+      - Predict factors affecting oxidative addition rates
+      - Explain reductive elimination pathways and driving forces
+      - Apply these concepts to analyze catalytic steps
+    textbook_style_content:
+      - topic: Oxidative Addition
+        sections:
+          - section_title: Definition and Electron Count Changes
+            section_type: core_theory
+          - section_title: Concerted Three-Center Mechanism
+            section_type: core_theory
+          - section_title: SN2 Mechanism for Oxidative Addition
+            section_type: core_theory
+          - section_title: Radical Mechanism Pathways
+            section_type: core_theory
+          - section_title: Factors Affecting Oxidative Addition Rates
+            section_type: core_theory
+      - topic: Reductive Elimination
+        sections:
+          - section_title: Microscopic Reverse of Oxidative Addition
+            section_type: core_theory
+          - section_title: Mechanism and Stereochemistry
+            section_type: core_theory
+          - section_title: Electronic and Steric Effects
+            section_type: core_theory
+          - section_title: Thermodynamic Considerations
+            section_type: related_concepts
+      - topic: Application to Bond Activation
+        sections:
+          - section_title: C-H Bond Activation
+            section_type: related_concepts
+          - section_title: H-H and C-X Bond Activation
+            section_type: related_concepts
+          - section_title: Role in Cross-Coupling Chemistry
+            section_type: related_concepts
+    milestone: Master oxidative addition and reductive elimination mechanisms
+    duration_days: 6
+    tags:
+      - oxidative addition
+      - reductive elimination
+      - reaction mechanisms
+      - bond activation
+
+  - id: 8
+    title: Fundamental Organometallic Reactions - Part II
+    learning_objectives:
+      - Explain migratory insertion mechanisms for CO and alkenes
+      - Describe transmetalation and σ-bond metathesis reactions
+      - Analyze nucleophilic and electrophilic attack on coordinated ligands
+      - Apply these transformations to synthetic problems
+    textbook_style_content:
+      - topic: Migratory Insertion Reactions
+        sections:
+          - section_title: CO Insertion into M-C Bonds
+            section_type: core_theory
+          - section_title: Alkene Insertion Mechanisms
+            section_type: core_theory
+          - section_title: 1,1-Insertion vs 1,2-Insertion
+            section_type: core_theory
+          - section_title: Stereochemistry and Regiochemistry
+            section_type: core_theory
+          - section_title: β-Hydride Elimination as Microscopic Reverse
+            section_type: related_concepts
+      - topic: Transmetalation and Metathesis
+        sections:
+          - section_title: Metal-Metal Exchange Reactions
+            section_type: core_theory
+          - section_title: σ-Bond Metathesis Mechanism
+            section_type: core_theory
+          - section_title: Applications in Catalysis
+            section_type: related_concepts
+      - topic: Nucleophilic and Electrophilic Attack
+        sections:
+          - section_title: Attack on Coordinated CO
+            section_type: core_theory
+          - section_title: Attack on Coordinated Alkenes and Alkynes
+            section_type: core_theory
+          - section_title: Attack on η3-Allyl Complexes
+            section_type: core_theory
+          - section_title: Stereochemical Control
+            section_type: related_concepts
+    milestone: Understand migratory insertion and ligand-centered reactions
+    duration_days: 6
+    tags:
+      - migratory insertion
+      - transmetalation
+      - nucleophilic attack
+      - reaction mechanisms
+
+  - id: 9
+    title: Ligand Effects and Electronic Parameters
+    learning_objectives:
+      - Quantify steric effects using Tolman cone angle
+      - Apply electronic parameters to predict reactivity
+      - Correlate ligand properties with complex stability
+      - Select appropriate ligands for desired reactivity profiles
+    textbook_style_content:
+      - topic: Steric Effects in Organometallic Chemistry
+        sections:
+          - section_title: Tolman Cone Angle Definition and Measurement
+            section_type: core_theory
+          - section_title: Buried Volume as Alternative Steric Parameter
+            section_type: core_theory
+          - section_title: Influence on Coordination Number and Geometry
+            section_type: core_theory
+          - section_title: Steric Control of Selectivity
+            section_type: related_concepts
+      - topic: Electronic Effects of Ligands
+        sections:
+          - section_title: Tolman Electronic Parameter
+            section_type: core_theory
+          - section_title: Lever Electrochemical Parameters
+            section_type: core_theory
+          - section_title: σ-Donor and π-Acceptor Character
+            section_type: core_theory
+          - section_title: Trans Influence and Trans Effect
+            section_type: related_concepts
+      - topic: Ligand Design for Catalysis
+        sections:
+          - section_title: Balancing Steric and Electronic Properties
+            section_type: related_concepts
+          - section_title: Hemilabile Ligands
+            section_type: related_concepts
+          - section_title: Pincer and Chelating Ligand Frameworks
+            section_type: related_concepts
+    milestone: Quantify ligand effects using established parameters and apply to catalyst design
+    duration_days: 5
+    tags:
+      - ligand effects
+      - Tolman parameters
+      - steric effects
+      - electronic effects
+
+  - id: 10
+    title: Introduction to Homogeneous Catalysis
+    learning_objectives:
+      - Define homogeneous catalysis and distinguish it from heterogeneous catalysis
+      - Explain catalytic cycles using organometallic intermediates
+      - Calculate turnover number and turnover frequency
+      - Analyze factors affecting catalytic activity and selectivity
+    textbook_style_content:
+      - topic: Principles of Homogeneous Catalysis
+        sections:
+          - section_title: Definition and Characteristics
+            section_type: overview
+          - section_title: Advantages and Disadvantages vs Heterogeneous Systems
+            section_type: overview
+          - section_title: Role of Organometallic Complexes
+            section_type: core_theory
+      - topic: Catalytic Cycle Construction
+        sections:
+          - section_title: Elementary Steps in Catalytic Cycles
+            section_type: core_theory
+          - section_title: Rate-Determining Step Identification
+            section_type: core_theory
+          - section_title: Catalyst Activation and Precatalysts
+            section_type: core_theory
+          - section_title: Catalyst Deactivation Pathways
+            section_type: related_concepts
+      - topic: Catalytic Performance Metrics
+        sections:
+          - section_title: Turnover Number and Turnover Frequency
+            section_type: core_theory
+          - section_title: Selectivity - Chemo-, Regio-, and Stereoselectivity
+            section_type: core_theory
+          - section_title: Activity vs Stability Trade-offs
+            section_type: related_concepts
+      - topic: Mechanistic Studies
+        sections:
+          - section_title: Kinetic Analysis of Catalytic Reactions
+            section_type: related_concepts
+          - section_title: Spectroscopic Detection of Intermediates
+            section_type: related_concepts
+          - section_title: Computational Modeling
+            section_type: related_concepts
+    milestone: Understand fundamental principles and metrics of homogeneous catalysis
+    duration_days: 5
+    tags:
+      - homogeneous catalysis
+      - catalytic cycles
+      - turnover number
+      - mechanistic studies
+
+  - id: 11
+    title: Hydrogenation and Transfer Hydrogenation Catalysis
+    learning_objectives:
+      - Describe the mechanism of Wilkinson's catalyst
+      - Explain asymmetric hydrogenation using chiral catalysts
+      - Analyze transfer hydrogenation pathways
+      - Apply mechanistic understanding to substrate scope prediction
+    textbook_style_content:
+      - topic: Homogeneous Hydrogenation
+        sections:
+          - section_title: Wilkinson's Catalyst - Discovery and Structure
+            section_type: overview
+          - section_title: Catalytic Cycle and Mechanism
+            section_type: core_theory
+          - section_title: Oxidative Addition of H2 and Substrate Coordination
+            section_type: core_theory
+          - section_title: Migratory Insertion and Product Release
+            section_type: core_theory
+          - section_title: Substrate Scope and Limitations
+            section_type: related_concepts
+      - topic: Asymmetric Hydrogenation
+        sections:
+          - section_title: Chiral Phosphine Ligands
+            section_type: core_theory
+          - section_title: Knowles-Horner and Noyori Systems
+            section_type: core_theory
+          - section_title: Mechanism and Stereochemical Control
+            section_type: core_theory
+          - section_title: Industrial Applications
+            section_type: related_concepts
+      - topic: Transfer Hydrogenation
+        sections:
+          - section_title: Mechanism Using Isopropanol as H-Donor
+            section_type: core_theory
+          - section_title: Noyori-Type Ruthenium Catalysts
+            section_type: core_theory
+          - section_title: Outer-Sphere vs Inner-Sphere Mechanisms
+            section_type: core_theory
+          - section_title: Applications in Ketone Reduction
+            section_type: related_concepts
+    milestone: Master hydrogenation mechanisms and apply to asymmetric synthesis
+    duration_days: 6
+    tags:
+      - hydrogenation
+      - Wilkinson catalyst
+      - asymmetric catalysis
+      - transfer hydrogenation
+
+  - id: 12
+    title: Hydroformylation and Carbonylation Reactions
+    learning_objectives:
+      - Explain the mechanism of rhodium-catalyzed hydroformylation
+      - Analyze factors controlling linear vs branched aldehyde selectivity
+      - Describe Monsanto and Cativa acetic acid processes
+      - Apply carbonylation chemistry to organic synthesis
+    textbook_style_content:
+      - topic: Hydroformylation Reaction
+        sections:
+          - section_title: Industrial Significance and History
+            section_type: overview
+          - section_title: Cobalt vs Rhodium Catalyst Systems
+            section_type: core_theory
+          - section_title: Detailed Mechanism of Rh-Phosphine Catalysts
+            section_type: core_theory
+          - section_title: Ligand Effects on Regioselectivity
+            section_type: core_theory
+          - section_title: Linear-to-Branched Ratio Control
+            section_type: core_theory
+      - topic: Carbonylation of Methanol
+        sections:
+          - section_title: Monsanto Acetic Acid Process
+            section_type: core_theory
+          - section_title: Catalytic Cycle and Key Steps
+            section_type: core_theory
+          - section_title: Cativa Process Improvements
+            section_type: core_theory
+          - section_title: Industrial Scale and Economic Impact
+            section_type: related_concepts
+      - topic: Other Carbonylation Reactions
+        sections:
+          - section_title: Alkene Carbonylation
+            section_type: related_concepts
+          - section_title: Pauson-Khand Reaction
+            section_type: related_concepts
+          - section_title: Carbonylative Cross-Coupling
+            section_type: related_concepts
+    milestone: Understand industrial carbonylation processes and their mechanisms
+    duration_days: 6
+    tags:
+      - hydroformylation
+      - carbonylation
+      - Monsanto process
+      - industrial catalysis
+
+  - id: 13
+    title: Olefin Metathesis
+    learning_objectives:
+      - Explain the mechanism of olefin metathesis using carbene complexes
+      - Describe Grubbs and Schrock catalyst systems
+      - Apply metathesis to ring-closing, cross, and ring-opening polymerization
+      - Analyze substrate compatibility and functional group tolerance
+    textbook_style_content:
+      - topic: Fundamentals of Olefin Metathesis
+        sections:
+          - section_title: Discovery and Early Developments
+            section_type: overview
+          - section_title: Chauvin Mechanism
+            section_type: core_theory
+          - section_title: Metallacyclobutane Intermediate Formation
+            section_type: core_theory
+          - section_title: Thermodynamic vs Kinetic Control
+            section_type: core_theory
+      - topic: Catalyst Systems
+        sections:
+          - section_title: Schrock Molybdenum and Tungsten Catalysts
+            section_type: core_theory
+          - section_title: Grubbs Ruthenium Carbene Complexes
+            section_type: core_theory
+          - section_title: First, Second, and Third Generation Grubbs Catalysts
+            section_type: core_theory
+          - section_title: Hoveyda-Grubbs Catalysts
+            section_type: core_theory
+          - section_title: Functional Group Tolerance Comparison
+            section_type: related_concepts
+      - topic: Types of Metathesis Reactions
+        sections:
+          - section_title: Ring-Closing Metathesis
+            section_type: core_theory
+          - section_title: Cross-Metathesis and Selectivity Issues
+            section_type: core_theory
+          - section_title: Ring-Opening Metathesis Polymerization
+            section_type: core_theory
+          - section_title: Acyclic Diene Metathesis
+            section_type: related_concepts
+          - section_title: Applications in Total Synthesis
+            section_type: related_concepts
+    milestone: Master olefin metathesis mechanisms and applications across different reaction types
+    duration_days: 7
+    tags:
+      - olefin metathesis
+      - Grubbs catalyst
+      - Chauvin mechanism
+      - ROMP
+
+  - id: 14
+    title: Cross-Coupling Reactions - Part I
+    learning_objectives:
+      - Explain the general mechanism of palladium-catalyzed cross-coupling
+      - Describe Suzuki-Miyaura coupling in detail
+      - Analyze Stille and Negishi coupling reactions
+      - Apply these methods to C-C bond formation problems
+    textbook_style_content:
+      - topic: General Principles of Cross-Coupling
+        sections:
+          - section_title: Historical Development and Importance
+            section_type: overview
+          - section_title: General Catalytic Cycle
+            section_type: core_theory
+          - section_title: Oxidative Addition of Organic Halides
+            section_type: core_theory
+          - section_title: Transmetalation Step
+            section_type: core_theory
+          - section_title: Reductive Elimination to Form Product
+            section_type: core_theory
+          - section_title: Role of Ligands in Catalyst Activity
+            section_type: related_concepts
+      - topic: Suzuki-Miyaura Coupling
+        sections:
+          - section_title: Organoboron Reagent Characteristics
+            section_type: core_theory
+          - section_title: Detailed Mechanism and Base Role
+            section_type: core_theory
+          - section_title: Substrate Scope and Functional Group Compatibility
+            section_type: core_theory
+          - section_title: Modern Ligand Systems for Challenging Substrates
+            section_type: related_concepts
+      - topic: Stille and Negishi Couplings
+        sections:
+          - section_title: Stille Coupling with Organostannanes
+            section_type: core_theory
+          - section_title: Mechanism and Advantages
+            section_type: core_theory
+          - section_title: Negishi Coupling with Organozinc Reagents
+            section_type: core_theory
+          - section_title: Functional Group Tolerance Comparison
+            section_type: related_concepts
+    milestone: Master fundamental cross-coupling mechanisms with focus on Suzuki, Stille, and Negishi reactions
+    duration_days: 6
+    tags:
+      - cross-coupling
+      - Suzuki coupling
+      - palladium catalysis
+      - C-C bond formation
+
+  - id: 15
+    title: Cross-Coupling Reactions - Part II
+    learning_objectives:
+      - Describe Kumada, Hiyama, and Sonogashira coupling mechanisms
+      - Explain Buchwald-Hartwig amination chemistry
+      - Analyze ligand design for challenging cross-coupling substrates
+      - Apply cross-coupling strategies to complex molecule synthesis
+    textbook_style_content:
+      - topic: Kumada and Hiyama Couplings
+        sections:
+          - section_title: Kumada Coupling with Grignard Reagents
+            section_type: core_theory
+          - section_title: Advantages and Limitations
+            section_type: core_theory
+          - section_title: Hiyama Coupling with Organosilanes
+            section_type: core_theory
+          - section_title: Fluoride Activation Mechanisms
+            section_type: core_theory
+      - topic: Sonogashira Coupling
+        sections:
+          - section_title: Alkyne Cross-Coupling Mechanism
+            section_type: core_theory
+          - section_title: Copper Co-Catalyst Role
+            section_type: core_theory
+          - section_title: Copper-Free Variants
+            section_type: related_concepts
+          - section_title: Applications in Materials Chemistry
+            section_type: related_concepts
+      - topic: Buchwald-Hartwig Amination
+        sections:
+          - section_title: C-N Bond Formation Mechanism
+            section_type: core_theory
+          - section_title: Ligand Development - Bulky Monophosphines
+            section_type: core_theory
+          - section_title: Amine Nucleophile Scope
+            section_type: core_theory
+          - section_title: Applications in Drug Discovery
+            section_type: related_concepts
+      - topic: Advanced Topics in Cross-Coupling
+        sections:
+          - section_title: C-O and C-S Cross-Coupling
+            section_type: related_concepts
+          - section_title: Nickel-Catalyzed Cross-Coupling
+            section_type: related_concepts
+          - section_title: Photocatalytic Cross-Coupling
+            section_type: related_concepts
+    milestone: Expand cross-coupling knowledge to include C-N, C-O formation and advanced catalyst systems
+    duration_days: 6
+    tags:
+      - Sonogashira coupling
+      - Buchwald-Hartwig
+      - cross-coupling
+      - C-N bond formation
+
+  - id: 16
+    title: Polymerization Catalysis
+    learning_objectives:
+      - Explain Ziegler-Natta polymerization mechanism
+      - Describe metallocene catalysts for olefin polymerization
+      - Analyze living polymerization using organometallic initiators
+      - Correlate catalyst structure with polymer microstructure
+    textbook_style_content:
+      - topic: Ziegler-Natta Polymerization
+        sections:
+          - section_title: Historical Development and Industrial Impact
+            section_type: overview
+          - section_title: Heterogeneous Titanium-Based Catalysts
+            section_type: core_theory
+          - section_title: Cossee-Arlman Mechanism
+            section_type: core_theory
+          - section_title: Chain Propagation and Termination
+            section_type: core_theory
+          - section_title: Stereocontrol and Tacticity
+            section_type: core_theory
+      - topic: Metallocene Catalysts
+        sections:
+          - section_title: Single-Site Catalyst Concept
+            section_type: core_theory
+          - section_title: MAO Activation and Cationic Active Species
+            section_type: core_theory
+          - section_title: Ligand Effects on Polymerization
+            section_type: core_theory
+          - section_title: Syndiotactic and Isotactic Polypropylene Formation
+            section_type: core_theory
+      - topic: Other Polymerization Methods
+        sections:
+          - section_title: Anionic Polymerization with Organolithium
+            section_type: related_concepts
+          - section_title: Group Transfer Polymerization
+            section_type: related_concepts
+          - section_title: Coordinative Chain Transfer Polymerization
+            section_type: related_concepts
+      - topic: Polymer Microstructure Control
+        sections:
+          - section_title: Regio- and Stereocontrol Mechanisms
+            section_type: related_concepts
+          - section_title: Chain-End Control vs Enantiomorphic Site Control
+            section_type: related_concepts
+          - section_title: Post-Metallocene Catalysts
+            section_type: related_concepts
+    milestone: Understand polymerization mechanisms and catalyst design for microstructure control
+    duration_days: 6
+    tags:
+      - Ziegler-Natta
+      - metallocene catalysis
+      - polymerization
+      - stereocontrol
+
+  - id: 17
+    title: C-H Activation and Functionalization
+    learning_objectives:
+      - Explain different mechanisms of C-H bond activation
+      - Describe directed C-H functionalization strategies
+      - Analyze selectivity challenges in C-H activation
+      - Apply C-H activation to late-stage functionalization
+    textbook_style_content:
+      - topic: Fundamentals of C-H Activation
+        sections:
+          - section_title: Thermodynamic and Kinetic Challenges
+            section_type: overview
+          - section_title: Oxidative Addition Mechanism
+            section_type: core_theory
+          - section_title: Sigma-Bond Metathesis Mechanism
+            section_type: core_theory
+          - section_title: Electrophilic Activation Mechanism
+            section_type: core_theory
+          - section_title: 1,2-Addition Across M=X Bonds
+            section_type: core_theory
+      - topic: Directed C-H Functionalization
+        sections:
+          - section_title: Chelation-Assisted C-H Activation
+            section_type: core_theory
+          - section_title: Common Directing Groups
+            section_type: core_theory
+          - section_title: Catalytic Cycles in Directed Functionalization
+            section_type: core_theory
+          - section_title: Removable and Traceless Directing Groups
+            section_type: related_concepts
+      - topic: Site-Selectivity Control
+        sections:
+          - section_title: Electronic vs Steric Control
+            section_type: core_theory
+          - section_title: Remote C-H Functionalization
+            section_type: related_concepts
+          - section_title: Proximity-Induced Selectivity
+            section_type: related_concepts
+      - topic: Applications
+        sections:
+          - section_title: Arene C-H Arylation and Alkylation
+            section_type: related_concepts
+          - section_title: C-H Amination and Oxygenation
+            section_type: related_concepts
+          - section_title: Late-Stage Functionalization in Drug Discovery
+            section_type: related_concepts
+    milestone: Master C-H activation mechanisms and directed functionalization strategies
+    duration_days: 7
+    tags:
+      - C-H activation
+      - directed functionalization
+      - site-selectivity
+      - mechanism
+
+  - id: 18
+    title: Asymmetric Catalysis with Organometallic Complexes
+    learning_objectives:
+      - Explain principles of asymmetric induction using chiral ligands
+      - Describe major classes of chiral ligands
+      - Analyze enantioselective catalytic cycles
+      - Apply asymmetric catalysis to practical synthetic problems
+    textbook_style_content:
+      - topic: Principles of Asymmetric Catalysis
+        sections:
+          - section_title: Chirality Transfer Mechanisms
+            section_type: core_theory
+          - section_title: Quadrant Diagrams and Steric Models
+            section_type: core_theory
+          - section_title: Matched vs Mismatched Catalyst-Substrate Pairs
+            section_type: core_theory
+          - section_title: Measures of Enantioselectivity
+            section_type: related_concepts
+      - topic: Chiral Ligand Classes
+        sections:
+          - section_title: Chiral Phosphines - BINAP, DuPhos, and Derivatives
+            section_type: core_theory
+          - section_title: Chiral N-Ligands - BOX and PyOX Systems
+            section_type: core_theory
+          - section_title: Chiral NHC Ligands
+            section_type: core_theory
+          - section_title: Privileged Chiral Scaffolds
+            section_type: related_concepts
+      - topic: Enantioselective Transformations
+        sections:
+          - section_title: Asymmetric Hydrogenation Revisited
+            section_type: core_theory
+          - section_title: Asymmetric Allylic Substitution
+            section_type: core_theory
+          - section_title: Asymmetric Cyclopropanation
+            section_type: core_theory
+          - section_title: Asymmetric Heck Reaction
+            section_type: related_concepts
+          - section_title: Asymmetric Cross-Coupling
+            section_type: related_concepts
+      - topic: Mechanistic Studies
+        sections:
+          - section_title: Kinetic Resolution vs Dynamic Kinetic Resolution
+            section_type: related_concepts
+          - section_title: Non-Linear Effects in Asymmetric Catalysis
+            section_type: related_concepts
+          - section_title: Computational Prediction of Enantioselectivity
+            section_type: related_concepts
+    milestone: Master asymmetric catalysis principles and apply chiral catalysts to synthesis
+    duration_days: 7
+    tags:
+      - asymmetric catalysis
+      - chiral ligands
+      - enantioselectivity
+      - BINAP
+
+  - id: 19
+    title: Oxidation and Reduction Catalysis
+    learning_objectives:
+      - Describe mechanisms of homogeneous oxidation catalysis
+      - Explain Wacker process and related alkene oxidations
+      - Analyze epoxidation and dihydroxylation reactions
+      - Apply redox catalysis to functional group transformations
+    textbook_style_content:
+      - topic: Wacker Process and Alkene Oxidation
+        sections:
+          - section_title: Industrial Acetaldehyde Production
+            section_type: overview
+          - section_title: Palladium-Catalyzed Oxidation Mechanism
+            section_type: core_theory
+          - section_title: Nucleophilic Attack on Coordinated Alkene
+            section_type: core_theory
+          - section_title: β-Hydride Elimination and Catalyst Regeneration
+            section_type: core_theory
+          - section_title: Copper Re-oxidation System
+            section_type: core_theory
+      - topic: Epoxidation Catalysis
+        sections:
+          - section_title: Sharpless Asymmetric Epoxidation
+            section_type: core_theory
+          - section_title: Titanium-Tartrate Catalyst System
+            section_type: core_theory
+          - section_title: Mechanism and Stereochemical Model
+            section_type: core_theory
+          - section_title: Jacobsen-Katsuki Epoxidation
+            section_type: related_concepts
+      - topic: Dihydroxylation Reactions
+        sections:
+          - section_title: Osmium-Catalyzed Dihydroxylation
+            section_type: core_theory
+          - section_title: Sharpless Asymmetric Dihydroxylation
+            section_type: core_theory
+          - section_title: Ligand-Accelerated Catalysis
+            section_type: core_theory
+          - section_title: Mechanism and [3+2] Cycloaddition Pathway
+            section_type: core_theory
+      - topic: Other Oxidation Reactions
+        sections:
+          - section_title: Alcohol Oxidation Catalysis
+            section_type: related_concepts
+          - section_title: C-H Oxidation to Carbonyl
+            section_type: related_concepts
+          - section_title: Aerobic Oxidation Catalysis
+            section_type: related_concepts
+    milestone: Understand oxidation catalysis mechanisms with emphasis on Wacker and asymmetric oxidations
+    duration_days: 6
+    tags:
+      - oxidation catalysis
+      - Wacker process
+      - epoxidation
+      - Sharpless catalysis
+
+  - id: 20
+    title: Photocatalysis and Photoredox Chemistry
+    learning_objectives:
+      - Explain principles of photoredox catalysis with organometallic complexes
+      - Describe excited state reactivity of metal complexes
+      - Analyze photocatalytic cycles and radical mechanisms
+      - Apply photoredox catalysis to organic transformations
+    textbook_style_content:
+      - topic: Fundamentals of Photoredox Catalysis
+        sections:
+          - section_title: Light Absorption and Excited States
+            section_type: core_theory
+          - section_title: Metal-to-Ligand Charge Transfer States
+            section_type: core_theory
+          - section_title: Oxidative and Reductive Quenching Cycles
+            section_type: core_theory
+          - section_title: Energy Transfer vs Electron Transfer
+            section_type: core_theory
+      - topic: Ruthenium and Iridium Photocatalysts
+        sections:
+          - section_title: Ru(bpy)3²⁺ and Related Complexes
+            section_type: core_theory
+          - section_title: Iridium Polypyridyl Complexes
+            section_type: core_theory
+          - section_title: Photophysical Properties and Redox Potentials
+            section_type: core_theory
+          - section_title: Catalyst Selection Guidelines
+            section_type: related_concepts
+      - topic: Photoredox Transformations
+        sections:
+          - section_title: C-H Functionalization via HAT
+            section_type: core_theory
+          - section_title: Reductive Dehalogenation
+            section_type: core_theory
+          - section_title: Oxidative Cross-Coupling
+            section_type: core_theory
+          - section_title: Radical Addition Reactions
+            section_type: related_concepts
+      - topic: Dual Catalysis Strategies
+        sections:
+          - section_title: Photoredox-Nickel Catalysis
+            section_type: related_concepts
+          - section_title: Photoredox-Organocatalysis
+            section_type: related_concepts
+          - section_title: Energy Transfer Catalysis
+            section_type: related_concepts
+    milestone: Understand photoredox mechanisms and applications in modern synthesis
+    duration_days: 6
+    tags:
+      - photoredox catalysis
+      - excited states
+      - ruthenium complexes
+      - radical chemistry
+
+  - id: 21
+    title: Bioinorganic Chemistry and Metalloenzymes
+    learning_objectives:
+      - Relate organometallic principles to metalloenzyme active sites
+      - Describe CO and H2 activation in metalloenzymes
+      - Explain biomimetic organometallic chemistry
+      - Analyze organometallic model complexes for biological systems
+    textbook_style_content:
+      - topic: Metalloenzymes with Organometallic Character
+        sections:
+          - section_title: Nitrogenase and N2 Fixation
+            section_type: overview
+          - section_title: Hydrogenases and H2 Metabolism
+            section_type: core_theory
+          - section_title: Carbon Monoxide Dehydrogenase
+            section_type: core_theory
+          - section_title: Acetyl-CoA Synthase
+            section_type: core_theory
+      - topic: Metal-Carbon Bonds in Biology
+        sections:
+          - section_title: Methylcobalamin and B12 Chemistry
+            section_type: core_theory
+          - section_title: Organometallic Intermediates in Enzymatic Catalysis
+            section_type: core_theory
+          - section_title: Radical SAM Enzymes
+            section_type: related_concepts
+      - topic: Biomimetic Organometallic Chemistry
+        sections:
+          - section_title: Synthetic Models of Nitrogenase
+            section_type: core_theory
+          - section_title: Hydrogenase Models and H2 Activation
+            section_type: core_theory
+          - section_title: CO2 Reduction Catalysts Inspired by CODH
+            section_type: related_concepts
+      - topic: Applications
+        sections:
+          - section_title: Artificial Photosynthesis
+            section_type: related_concepts
+          - section_title: Bioorganometallic Chemistry
+            section_type: related_concepts
+          - section_title: Organometallic Drug Design
+            section_type: related_concepts
+    milestone: Connect organometallic principles to biological systems and bioinspired catalysis
+    duration_days: 5
+    tags:
+      - bioinorganic chemistry
+      - metalloenzymes
+      - biomimetic chemistry
+      - nitrogenase
+
+  - id: 22
+    title: Emerging Areas in Organometallic Catalysis
+    learning_objectives:
+      - Identify current trends in organometallic chemistry research
+      - Describe sustainable catalysis and green chemistry applications
+      - Analyze earth-abundant metal catalysis
+      - Evaluate future directions in the field
+    textbook_style_content:
+      - topic: Sustainable and Green Organometallic Catalysis
+        sections:
+          - section_title: Principles of Green Chemistry in Catalysis
+            section_type: overview
+          - section_title: Aqueous-Phase Catalysis
+            section_type: core_theory
+          - section_title: Catalyst Recovery and Recycling
+            section_type: core_theory
+          - section_title: Atom Economy and E-Factor Considerations
+            section_type: related_concepts
+      - topic: Earth-Abundant Metal Catalysis
+        sections:
+          - section_title: Iron Catalysis - Cross-Coupling and Hydrogenation
+            section_type: core_theory
+          - section_title: Cobalt Catalysis - C-H Activation
+            section_type: core_theory
+          - section_title: Copper Catalysis - Beyond Traditional Scope
+            section_type: core_theory
+          - section_title: Challenges and Opportunities
+            section_type: related_concepts
+      - topic: Computational Organometallic Chemistry
+        sections:
+          - section_title: DFT Studies of Reaction Mechanisms
+            section_type: related_concepts
+          - section_title: Catalyst Design Using Machine Learning
+            section_type: related_concepts
+          - section_title: Transition State Modeling
+            section_type: related_concepts
+      - topic: New Frontiers
+        sections:
+          - section_title: Electrochemical Organometallic Catalysis
+            section_type: related_concepts
+          - section_title: Single-Atom Catalysis
+            section_type: related_concepts
+          - section_title: Frustrated Lewis Pair Chemistry
+            section_type: related_concepts
+          - section_title: Organometallic Materials Chemistry
+            section_type: related_concepts
+    milestone: Survey emerging research areas and future directions in organometallic chemistry
+    duration_days: 5
+    tags:
+      - green chemistry
+      - earth-abundant metals
+      - computational chemistry
+      - emerging trends
+
+  - id: 23
+    title: Comprehensive Review and Integration
+    learning_objectives:
+      - Integrate concepts across all areas of organometallic chemistry
+      - Apply multiple reaction types to complex synthetic problems
+      - Analyze literature examples of advanced organometallic catalysis
+      - Design catalytic systems for specific transformations
+    textbook_style_content:
+      - topic: Synthesis Planning with Organometallic Methods
+        sections:
+          - section_title: Retrosynthetic Analysis Using Cross-Coupling
+            section_type: core_theory
+          - section_title: Strategic Bond Disconnections
+            section_type: core_theory
+          - section_title: Multi-Step Catalytic Sequences
+            section_type: core_theory
+      - topic: Problem-Solving in Organometallic Chemistry
+        sections:
+          - section_title: Mechanistic Proposal from Experimental Data
+            section_type: core_theory
+          - section_title: Troubleshooting Catalytic Reactions
+            section_type: core_theory
+          - section_title: Ligand and Metal Selection Strategies
+            section_type: core_theory
+      - topic: Literature Case Studies
+        sections:
+          - section_title: Total Synthesis Applications
+            section_type: related_concepts
+          - section_title: Industrial Process Development
+            section_type: related_concepts
+          - section_title: Nobel Prize-Winning Discoveries
+            section_type: related_concepts
+      - topic: Exam Preparation Strategies
+        sections:
+          - section_title: Key Concepts and Mechanisms Review
+            section_type: related_concepts
+          - section_title: Problem-Solving Approaches
+            section_type: related_concepts
+          - section_title: Common Pitfalls and Misconceptions
+            section_type: related_concepts
+    milestone: Achieve comprehensive mastery of organometallic chemistry for CSIR examination
+    duration_days: 7
+    tags:
+      - comprehensive review
+      - synthesis planning
+      - problem-solving
+      - exam preparation

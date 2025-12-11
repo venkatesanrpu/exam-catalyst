@@ -1,0 +1,529 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Common named reactions and rearrangements – applications in organic synthesis.
+
+concepts:
+  core:
+    - name: Named reactions
+      clarifier: Well-established reactions identified by discoverer names, including mechanisms and conditions
+    - name: Rearrangement reactions
+      clarifier: Molecular reorganizations involving migration of atoms or groups with or without bond breakage
+    - name: Synthetic applications
+      clarifier: Strategic use of named reactions and rearrangements in multi-step organic synthesis
+  related:
+    - name: Reaction mechanisms
+      clarifier: Stepwise electron movement and intermediate formation in named reactions
+    - name: Stereochemical outcomes
+      clarifier: Stereoselectivity and stereospecificity in named reactions and rearrangements
+    - name: Retrosynthetic analysis
+      clarifier: Backwards planning from target molecules using disconnections and key transformations
+    - name: Functional group interconversions
+      clarifier: Transformations enabling strategic changes in molecular functionality
+    - name: Protecting group strategies
+      clarifier: Temporary masking of functional groups during multi-step synthesis
+
+learning_path:
+  - id: 1
+    title: Introduction to Named Reactions and Rearrangements
+    learning_objectives:
+      - Understand the classification and nomenclature of named reactions
+      - Recognize the historical development and significance of named reactions
+      - Identify general patterns in rearrangement reactions
+    textbook_style_content:
+      - topic: Foundations of Named Reactions
+        sections:
+          - section_title: Historical context and classification
+            section_type: overview
+          - section_title: Reaction types and mechanistic classes
+            section_type: core_theory
+          - section_title: Synthetic utility and reaction planning
+            section_type: related_concepts
+    milestone: Comprehend the organizational framework of named reactions
+    duration_days: 3
+    tags:
+      - fundamentals
+      - classification
+      - introduction
+
+  - id: 2
+    title: Carbon-Carbon Bond Forming Reactions I
+    learning_objectives:
+      - Master aldol condensation and related reactions
+      - Understand Claisen condensation and ester enolate chemistry
+      - Apply Knoevenagel condensation in synthesis
+    textbook_style_content:
+      - topic: Enolate-based C-C bond formations
+        sections:
+          - section_title: Aldol reaction mechanism and stereochemistry
+            section_type: core_theory
+          - section_title: Directed aldol reactions and enolate control
+            section_type: core_theory
+          - section_title: Claisen and Dieckmann condensations
+            section_type: core_theory
+          - section_title: Knoevenagel and related condensations
+            section_type: core_theory
+          - section_title: Applications in natural product synthesis
+            section_type: related_concepts
+    milestone: Execute enolate-based C-C bond formations strategically
+    duration_days: 5
+    tags:
+      - C-C bond formation
+      - enolates
+      - condensation
+
+  - id: 3
+    title: Carbon-Carbon Bond Forming Reactions II
+    learning_objectives:
+      - Understand Grignard and organolithium reactions
+      - Master Wittig and related olefination reactions
+      - Apply Michael addition in synthesis
+    textbook_style_content:
+      - topic: Organometallic and conjugate additions
+        sections:
+          - section_title: Grignard reaction mechanism and scope
+            section_type: core_theory
+          - section_title: Organolithium and organocuprate chemistry
+            section_type: core_theory
+          - section_title: Wittig reaction and phosphorus ylides
+            section_type: core_theory
+          - section_title: Horner-Wadsworth-Emmons modification
+            section_type: core_theory
+          - section_title: Michael addition and Robinson annulation
+            section_type: core_theory
+          - section_title: Conjugate addition strategies
+            section_type: related_concepts
+    milestone: Apply organometallic and conjugate addition strategies
+    duration_days: 6
+    tags:
+      - organometallics
+      - olefination
+      - conjugate addition
+
+  - id: 4
+    title: Carbon-Carbon Bond Forming Reactions III
+    learning_objectives:
+      - Master cross-coupling reactions and mechanisms
+      - Understand Diels-Alder and pericyclic reactions
+      - Apply Friedel-Crafts alkylation and acylation
+    textbook_style_content:
+      - topic: Transition metal catalyzed and cycloaddition reactions
+        sections:
+          - section_title: Suzuki-Miyaura coupling
+            section_type: core_theory
+          - section_title: Heck, Negishi, and Stille couplings
+            section_type: core_theory
+          - section_title: Diels-Alder reaction and regio/stereoselectivity
+            section_type: core_theory
+          - section_title: Friedel-Crafts reactions and limitations
+            section_type: core_theory
+          - section_title: Strategic use in complex molecule synthesis
+            section_type: related_concepts
+    milestone: Employ modern cross-coupling and cycloaddition methods
+    duration_days: 6
+    tags:
+      - cross-coupling
+      - pericyclic
+      - aromatic substitution
+
+  - id: 5
+    title: Oxidation Reactions
+    learning_objectives:
+      - Master alcohol oxidation methods
+      - Understand alkene oxidation reactions
+      - Apply selective oxidation in multi-step synthesis
+    textbook_style_content:
+      - topic: Oxidative transformations
+        sections:
+          - section_title: Overview of oxidation states and selectivity
+            section_type: overview
+          - section_title: Jones, PCC, and Swern oxidations
+            section_type: core_theory
+          - section_title: Epoxidation reactions - Sharpless and Jacobsen
+            section_type: core_theory
+          - section_title: Dihydroxylation - Upjohn and Sharpless methods
+            section_type: core_theory
+          - section_title: Baeyer-Villiger oxidation
+            section_type: core_theory
+          - section_title: Oxidative cleavage and ozonolysis
+            section_type: core_theory
+          - section_title: Protecting group compatibility
+            section_type: related_concepts
+    milestone: Select and execute appropriate oxidation strategies
+    duration_days: 5
+    tags:
+      - oxidation
+      - functional group transformation
+      - selectivity
+
+  - id: 6
+    title: Reduction Reactions
+    learning_objectives:
+      - Master carbonyl reduction methods
+      - Understand catalytic hydrogenation and selectivity
+      - Apply dissolving metal reductions
+    textbook_style_content:
+      - topic: Reductive transformations
+        sections:
+          - section_title: Metal hydride reductions - NaBH4 and LiAlH4
+            section_type: core_theory
+          - section_title: Selective reducing agents - DIBAL and Red-Al
+            section_type: core_theory
+          - section_title: Catalytic hydrogenation and stereochemistry
+            section_type: core_theory
+          - section_title: Birch reduction and dissolving metals
+            section_type: core_theory
+          - section_title: Clemmensen and Wolff-Kishner reductions
+            section_type: core_theory
+          - section_title: Reduction in natural product synthesis
+            section_type: related_concepts
+    milestone: Apply chemoselective and stereoselective reductions
+    duration_days: 5
+    tags:
+      - reduction
+      - chemoselectivity
+      - stereochemistry
+
+  - id: 7
+    title: Substitution and Elimination Named Reactions
+    learning_objectives:
+      - Understand Williamson ether synthesis
+      - Master Gabriel and Hofmann reactions
+      - Apply elimination reactions strategically
+    textbook_style_content:
+      - topic: Nucleophilic substitution and elimination
+        sections:
+          - section_title: Williamson ether synthesis
+            section_type: core_theory
+          - section_title: Gabriel phthalimide synthesis
+            section_type: core_theory
+          - section_title: Hofmann elimination and rearrangement
+            section_type: core_theory
+          - section_title: Sandmeyer and related diazonium reactions
+            section_type: core_theory
+          - section_title: Strategic use in functional group manipulation
+            section_type: related_concepts
+    milestone: Execute substitution and elimination transformations
+    duration_days: 4
+    tags:
+      - substitution
+      - elimination
+      - functional group interconversion
+
+  - id: 8
+    title: Carbocation Rearrangements I
+    learning_objectives:
+      - Understand carbocation stability and migration tendencies
+      - Master Wagner-Meerwein rearrangement
+      - Apply pinacol-pinacolone rearrangement
+    textbook_style_content:
+      - topic: Carbocation-mediated rearrangements
+        sections:
+          - section_title: Carbocation formation and stability patterns
+            section_type: overview
+          - section_title: 1,2-shifts in carbocations
+            section_type: core_theory
+          - section_title: Wagner-Meerwein rearrangement mechanism
+            section_type: core_theory
+          - section_title: Pinacol-pinacolone rearrangement
+            section_type: core_theory
+          - section_title: Stereochemical considerations
+            section_type: related_concepts
+    milestone: Predict and utilize carbocation rearrangements
+    duration_days: 4
+    tags:
+      - rearrangements
+      - carbocations
+      - migration
+
+  - id: 9
+    title: Carbocation Rearrangements II
+    learning_objectives:
+      - Master Beckmann rearrangement
+      - Understand Schmidt rearrangement
+      - Apply Demjanov and Tiffeneau-Demjanov rearrangements
+    textbook_style_content:
+      - topic: Advanced carbocation rearrangements
+        sections:
+          - section_title: Beckmann rearrangement mechanism and stereochemistry
+            section_type: core_theory
+          - section_title: Schmidt rearrangement of ketones and carboxylic acids
+            section_type: core_theory
+          - section_title: Demjanov and Tiffeneau-Demjanov rearrangements
+            section_type: core_theory
+          - section_title: Applications in lactam synthesis
+            section_type: related_concepts
+    milestone: Apply complex carbocation rearrangements in synthesis
+    duration_days: 4
+    tags:
+      - rearrangements
+      - ring expansion
+      - lactams
+
+  - id: 10
+    title: Electrophilic and Nucleophilic Rearrangements
+    learning_objectives:
+      - Master Claisen rearrangement and variants
+      - Understand Cope rearrangement
+      - Apply Curtius and related rearrangements
+    textbook_style_content:
+      - topic: Pericyclic and nucleophilic rearrangements
+        sections:
+          - section_title: Claisen rearrangement mechanism
+            section_type: core_theory
+          - section_title: Cope rearrangement and oxy-Cope variant
+            section_type: core_theory
+          - section_title: Curtius rearrangement and isocyanate chemistry
+            section_type: core_theory
+          - section_title: Lossen and Hofmann rearrangements
+            section_type: core_theory
+          - section_title: Strategic applications in alkaloid synthesis
+            section_type: related_concepts
+    milestone: Execute sigmatropic and acyl rearrangements
+    duration_days: 5
+    tags:
+      - sigmatropic
+      - pericyclic
+      - acyl migration
+
+  - id: 11
+    title: Ring Expansion and Contraction Rearrangements
+    learning_objectives:
+      - Understand Baeyer-Villiger oxidation mechanism
+      - Master benzilic acid rearrangement
+      - Apply Favorskii rearrangement
+    textbook_style_content:
+      - topic: Ring size modifications
+        sections:
+          - section_title: Baeyer-Villiger oxidation and migratory aptitudes
+            section_type: core_theory
+          - section_title: Benzilic acid rearrangement
+            section_type: core_theory
+          - section_title: Favorskii rearrangement mechanism
+            section_type: core_theory
+          - section_title: Strategic use in natural product synthesis
+            section_type: related_concepts
+    milestone: Modify ring sizes through rearrangement reactions
+    duration_days: 4
+    tags:
+      - ring expansion
+      - ring contraction
+      - lactones
+
+  - id: 12
+    title: Aromatic Rearrangements
+    learning_objectives:
+      - Master Fries rearrangement
+      - Understand Benzidine and related rearrangements
+      - Apply Claisen-Schmidt condensation
+    textbook_style_content:
+      - topic: Aromatic system rearrangements
+        sections:
+          - section_title: Fries rearrangement for phenolic ketones
+            section_type: core_theory
+          - section_title: Benzidine rearrangement mechanism
+            section_type: core_theory
+          - section_title: Dienone-phenol rearrangement
+            section_type: core_theory
+          - section_title: Applications in pharmaceutical synthesis
+            section_type: related_concepts
+    milestone: Apply aromatic rearrangements in complex synthesis
+    duration_days: 3
+    tags:
+      - aromatic chemistry
+      - phenols
+      - pharmaceuticals
+
+  - id: 13
+    title: Nitrogen-based Named Reactions
+    learning_objectives:
+      - Master Mannich reaction
+      - Understand Strecker synthesis
+      - Apply Biginelli reaction
+    textbook_style_content:
+      - topic: Nitrogen incorporation reactions
+        sections:
+          - section_title: Mannich reaction mechanism and scope
+            section_type: core_theory
+          - section_title: Strecker amino acid synthesis
+            section_type: core_theory
+          - section_title: Biginelli multicomponent reaction
+            section_type: core_theory
+          - section_title: Applications in heterocycle synthesis
+            section_type: related_concepts
+    milestone: Incorporate nitrogen functionality strategically
+    duration_days: 4
+    tags:
+      - nitrogen chemistry
+      - amino acids
+      - heterocycles
+
+  - id: 14
+    title: Heterocycle Synthesis Named Reactions
+    learning_objectives:
+      - Master Fischer indole synthesis
+      - Understand Hantzsch pyridine synthesis
+      - Apply Paal-Knorr synthesis
+    textbook_style_content:
+      - topic: Heterocyclic ring construction
+        sections:
+          - section_title: Fischer indole synthesis mechanism
+            section_type: core_theory
+          - section_title: Hantzsch dihydropyridine synthesis
+            section_type: core_theory
+          - section_title: Paal-Knorr furan and pyrrole synthesis
+            section_type: core_theory
+          - section_title: Skraup quinoline synthesis
+            section_type: core_theory
+          - section_title: Applications in medicinal chemistry
+            section_type: related_concepts
+    milestone: Construct heterocyclic frameworks efficiently
+    duration_days: 5
+    tags:
+      - heterocycles
+      - indoles
+      - pyridines
+
+  - id: 15
+    title: Multi-component and Domino Reactions
+    learning_objectives:
+      - Understand Passerini and Ugi reactions
+      - Master domino reaction strategies
+      - Apply cascade processes in synthesis
+    textbook_style_content:
+      - topic: Complexity-generating reactions
+        sections:
+          - section_title: Passerini three-component reaction
+            section_type: core_theory
+          - section_title: Ugi four-component reaction
+            section_type: core_theory
+          - section_title: Domino and cascade reaction design
+            section_type: core_theory
+          - section_title: Efficiency in total synthesis
+            section_type: related_concepts
+    milestone: Design multi-component synthetic sequences
+    duration_days: 4
+    tags:
+      - multi-component
+      - complexity
+      - efficiency
+
+  - id: 16
+    title: Strategic Applications in Total Synthesis I
+    learning_objectives:
+      - Analyze retrosynthetic disconnections
+      - Apply named reactions in synthesis planning
+      - Understand functional group interplay
+    textbook_style_content:
+      - topic: Synthesis planning fundamentals
+        sections:
+          - section_title: Retrosynthetic analysis principles
+            section_type: overview
+          - section_title: Key disconnections using named reactions
+            section_type: core_theory
+          - section_title: Functional group compatibility
+            section_type: core_theory
+          - section_title: Case studies in natural product synthesis
+            section_type: related_concepts
+    milestone: Plan multi-step syntheses using named reactions
+    duration_days: 5
+    tags:
+      - retrosynthesis
+      - planning
+      - strategy
+
+  - id: 17
+    title: Strategic Applications in Total Synthesis II
+    learning_objectives:
+      - Master protecting group strategies
+      - Understand stereocontrol in synthesis
+      - Apply rearrangements in complex settings
+    textbook_style_content:
+      - topic: Advanced synthesis tactics
+        sections:
+          - section_title: Protection and deprotection strategies
+            section_type: core_theory
+          - section_title: Stereoselective reaction sequences
+            section_type: core_theory
+          - section_title: Strategic rearrangement applications
+            section_type: core_theory
+          - section_title: Complete synthesis examples
+            section_type: related_concepts
+    milestone: Execute complex multi-step syntheses
+    duration_days: 6
+    tags:
+      - protecting groups
+      - stereocontrol
+      - total synthesis
+
+  - id: 18
+    title: Green Chemistry and Modern Variations
+    learning_objectives:
+      - Understand green chemistry modifications of classical reactions
+      - Apply microwave and flow chemistry techniques
+      - Evaluate reaction sustainability
+    textbook_style_content:
+      - topic: Sustainable synthetic methods
+        sections:
+          - section_title: Green chemistry principles in named reactions
+            section_type: overview
+          - section_title: Solvent-free and aqueous reactions
+            section_type: core_theory
+          - section_title: Catalytic and organocatalytic variants
+            section_type: core_theory
+          - section_title: Modern synthetic technologies
+            section_type: related_concepts
+    milestone: Apply sustainable variations of classical reactions
+    duration_days: 4
+    tags:
+      - green chemistry
+      - sustainability
+      - modern methods
+
+  - id: 19
+    title: Problem-Solving and Mechanism Prediction
+    learning_objectives:
+      - Predict products of named reactions
+      - Propose mechanisms for complex transformations
+      - Solve synthesis problems using multiple strategies
+    textbook_style_content:
+      - topic: Synthetic problem-solving
+        sections:
+          - section_title: Systematic approach to mechanism problems
+            section_type: overview
+          - section_title: Product prediction strategies
+            section_type: core_theory
+          - section_title: Multi-step synthesis design
+            section_type: core_theory
+          - section_title: Practice problems and solutions
+            section_type: related_concepts
+    milestone: Solve complex synthesis problems independently
+    duration_days: 5
+    tags:
+      - problem-solving
+      - mechanisms
+      - practice
+
+  - id: 20
+    title: Integration and CSIR Exam Preparation
+    learning_objectives:
+      - Integrate all named reactions and rearrangements
+      - Apply knowledge to CSIR-style questions
+      - Master time management in problem-solving
+    textbook_style_content:
+      - topic: Comprehensive review and application
+        sections:
+          - section_title: Reaction summary tables and quick references
+            section_type: overview
+          - section_title: Common exam question patterns
+            section_type: core_theory
+          - section_title: Integration of concepts in complex problems
+            section_type: core_theory
+          - section_title: Previous year question analysis
+            section_type: related_concepts
+    milestone: Achieve mastery for CSIR Chemical Sciences examination
+    duration_days: 7
+    tags:
+      - review
+      - exam preparation
+      - integration

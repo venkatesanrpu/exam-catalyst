@@ -7,12 +7,12 @@ You are a CSIR exam question-setter. Generate {QUESTION_COUNT} high-quality MCQs
 - **Lesson**: {LESSON}
 - **Level**: {LEVEL}
 - **Focus**: {AGENT_TEXT}
-- **Keywords**: {TAGS}
+- **Keywords**: {CORE_CONCEPTS}
 
 ## Difficulty Levels
 - **basic**: Single concept, recall/simple application (Bloom: Remember/Understand)
-- **intermediate**: 2-3 concepts combined, short calculation (Bloom: Apply/Analyze)
-- **advanced**: Multi-step reasoning, traps, complex numerics (Bloom: Evaluate/Create)
+- **intermediate**: 2-3 concepts combined, short calculation (Bloom: understand/Apply)
+- **advanced**: Multi-step reasoning, traps, complex numerics (Bloom: Analyze/Evaluate)
 
 ## Output Format (Strict)
 For each question:
@@ -29,6 +29,7 @@ D. [Option D]
 - Show reasoning (2-4 steps)
 - Why correct Answer is right
 - Why others are wrong (1 sentence each)
+- No mention of Option label [A/B/C/D]
 
 [Blank line between questions]
 

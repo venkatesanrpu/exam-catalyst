@@ -1,0 +1,368 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: IUPAC nomenclature of organic molecules including regio- and stereoisomers
+
+concepts:
+  core:
+    - name: IUPAC nomenclature fundamentals
+      clarifier: Systematic rules for naming organic compounds including functional group priority and chain numbering
+    - name: Regioisomers
+      clarifier: Structural isomers differing in the position of functional groups or substituents
+    - name: Stereoisomers
+      clarifier: Compounds with same molecular formula and connectivity but different spatial arrangements
+  related:
+    - name: Constitutional isomers
+      clarifier: Structural isomers with different connectivity of atoms
+    - name: Configurational isomers
+      clarifier: Stereoisomers that cannot be interconverted without breaking bonds
+    - name: Cahn-Ingold-Prelog priority rules
+      clarifier: System for assigning R/S configuration to chiral centers
+    - name: E/Z nomenclature
+      clarifier: System for naming geometric isomers based on priority groups
+
+learning_path:
+  - id: 1
+    title: Foundations of IUPAC nomenclature
+    learning_objectives:
+      - Understand the historical development and purpose of systematic nomenclature
+      - Identify and name parent hydrocarbon chains in alkanes, alkenes, and alkynes
+      - Apply basic numbering rules to assign lowest locants to substituents
+      - Recognize and prioritize principal functional groups
+    textbook_style_content:
+      - topic: Introduction to systematic nomenclature
+        sections:
+          - section_title: Historical context and need for standardization
+            section_type: overview
+          - section_title: IUPAC nomenclature principles and hierarchy
+            section_type: core_theory
+          - section_title: Comparison with common and trivial names
+            section_type: related concepts
+      - topic: Nomenclature of hydrocarbons
+        sections:
+          - section_title: Alkanes - parent chain selection and numbering
+            section_type: core_theory
+          - section_title: Alkenes and alkynes - position of multiple bonds
+            section_type: core_theory
+          - section_title: Cyclic hydrocarbons and bridged systems
+            section_type: related concepts
+      - topic: Substituent naming and ordering
+        sections:
+          - section_title: Alphabetical ordering of substituents
+            section_type: core_theory
+          - section_title: Complex substituents and nested nomenclature
+            section_type: related concepts
+    milestone: Master basic IUPAC nomenclature rules for hydrocarbons and simple substituted compounds
+    duration_days: 7
+    tags:
+      - nomenclature basics
+      - hydrocarbons
+      - functional groups
+
+  - id: 2
+    title: Functional group nomenclature and priority
+    learning_objectives:
+      - Memorize the functional group priority order for nomenclature
+      - Name compounds containing multiple functional groups correctly
+      - Apply suffix and prefix rules for functional groups
+      - Distinguish principal functional groups from substituents
+    textbook_style_content:
+      - topic: Functional group hierarchy
+        sections:
+          - section_title: Complete priority order of functional groups
+            section_type: core_theory
+          - section_title: Suffix vs prefix nomenclature rules
+            section_type: core_theory
+          - section_title: Special cases and exceptions in priority rules
+            section_type: related concepts
+      - topic: Nomenclature of oxygen-containing compounds
+        sections:
+          - section_title: Alcohols, phenols, ethers, and epoxides
+            section_type: core_theory
+          - section_title: Carbonyl compounds - aldehydes and ketones
+            section_type: core_theory
+          - section_title: Carboxylic acids and derivatives
+            section_type: core_theory
+      - topic: Nomenclature of nitrogen and other heteroatom compounds
+        sections:
+          - section_title: Amines, amides, nitriles, and isocyanates
+            section_type: core_theory
+          - section_title: Sulfur and phosphorus containing compounds
+            section_type: related concepts
+    milestone: Correctly name polyfunctional organic molecules using IUPAC rules
+    duration_days: 8
+    tags:
+      - functional groups
+      - priority rules
+      - polyfunctional compounds
+
+  - id: 3
+    title: Constitutional and regioisomers
+    learning_objectives:
+      - Define and distinguish types of constitutional isomers
+      - Identify regioisomers in substitution and addition reactions
+      - Name regioisomers using IUPAC locant descriptors
+      - Predict formation of regioisomers in chemical reactions
+    textbook_style_content:
+      - topic: Constitutional isomerism overview
+        sections:
+          - section_title: Types of constitutional isomers - chain, position, and functional
+            section_type: overview
+          - section_title: Drawing and enumerating constitutional isomers
+            section_type: related concepts
+      - topic: Regioisomers in detail
+        sections:
+          - section_title: Definition and identification of positional isomers
+            section_type: core_theory
+          - section_title: Nomenclature using numerical locants
+            section_type: core_theory
+          - section_title: Ortho, meta, para nomenclature in aromatic systems
+            section_type: core_theory
+      - topic: Regiochemistry in reactions
+        sections:
+          - section_title: Markovnikov and anti-Markovnikov addition
+            section_type: related concepts
+          - section_title: Electrophilic aromatic substitution - directing effects
+            section_type: related concepts
+          - section_title: Regioselective reactions and regioisomeric products
+            section_type: related concepts
+    milestone: Identify and name all types of regioisomers systematically
+    duration_days: 6
+    tags:
+      - regioisomers
+      - positional isomers
+      - locants
+
+  - id: 4
+    title: Stereoisomerism fundamentals
+    learning_objectives:
+      - Distinguish stereoisomers from constitutional isomers
+      - Understand the concept of chirality and asymmetry
+      - Identify chiral centers in organic molecules
+      - Recognize different types of stereoisomers
+    textbook_style_content:
+      - topic: Introduction to stereoisomerism
+        sections:
+          - section_title: Three-dimensional nature of organic molecules
+            section_type: overview
+          - section_title: Definition and classification of stereoisomers
+            section_type: core_theory
+          - section_title: Configurational vs conformational isomers
+            section_type: related concepts
+      - topic: Chirality and molecular asymmetry
+        sections:
+          - section_title: Chiral vs achiral molecules
+            section_type: core_theory
+          - section_title: Chirality centers and stereocenters
+            section_type: core_theory
+          - section_title: Symmetry elements - planes, centers, and axes
+            section_type: core_theory
+      - topic: Optical activity and enantiomers
+        sections:
+          - section_title: Plane-polarized light and optical rotation
+            section_type: related concepts
+          - section_title: Enantiomers and mirror-image relationship
+            section_type: core_theory
+          - section_title: Racemic mixtures and meso compounds
+            section_type: related concepts
+    milestone: Identify chiral molecules and understand enantiomeric relationships
+    duration_days: 7
+    tags:
+      - stereoisomers
+      - chirality
+      - enantiomers
+
+  - id: 5
+    title: R/S nomenclature and Cahn-Ingold-Prelog rules
+    learning_objectives:
+      - Master the Cahn-Ingold-Prelog priority rules completely
+      - Assign R or S configuration to chiral centers correctly
+      - Handle complex substituents and tied priority cases
+      - Apply R/S nomenclature to molecules with multiple chiral centers
+    textbook_style_content:
+      - topic: Cahn-Ingold-Prelog priority system
+        sections:
+          - section_title: Atomic number rule and sequence rules
+            section_type: core_theory
+          - section_title: Priority assignment for isotopes and multiple bonds
+            section_type: core_theory
+          - section_title: Breaking ties in complex substituents
+            section_type: core_theory
+      - topic: R/S configuration assignment
+        sections:
+          - section_title: Three-dimensional visualization techniques
+            section_type: overview
+          - section_title: Step-by-step procedure for R/S determination
+            section_type: core_theory
+          - section_title: Fischer projection conventions and R/S assignment
+            section_type: related concepts
+      - topic: Multiple chiral centers
+        sections:
+          - section_title: Nomenclature of compounds with multiple stereocenters
+            section_type: core_theory
+          - section_title: Diastereomers and stereoisomer enumeration
+            section_type: core_theory
+          - section_title: Erythro and threo nomenclature
+            section_type: related concepts
+    milestone: Correctly assign R/S configuration to any chiral center
+    duration_days: 9
+    tags:
+      - R/S nomenclature
+      - CIP rules
+      - absolute configuration
+
+  - id: 6
+    title: Geometric isomerism and E/Z nomenclature
+    learning_objectives:
+      - Identify geometric isomers in alkenes and cyclic compounds
+      - Distinguish between E and Z isomers using priority rules
+      - Understand when cis/trans nomenclature is appropriate
+      - Apply E/Z nomenclature to complex alkenes
+    textbook_style_content:
+      - topic: Geometric isomerism overview
+        sections:
+          - section_title: Restricted rotation and geometric isomers
+            section_type: overview
+          - section_title: Cis-trans isomerism in alkenes
+            section_type: core_theory
+          - section_title: Geometric isomers in cyclic compounds
+            section_type: related concepts
+      - topic: E/Z nomenclature system
+        sections:
+          - section_title: Limitations of cis/trans nomenclature
+            section_type: overview
+          - section_title: E/Z assignment using CIP priority rules
+            section_type: core_theory
+          - section_title: Comparison of E/Z with cis/trans descriptors
+            section_type: related concepts
+      - topic: Complex cases in geometric isomerism
+        sections:
+          - section_title: Polyenes and cumulated double bonds
+            section_type: core_theory
+          - section_title: Cycloalkenes and bridged systems
+            section_type: related concepts
+          - section_title: Atropisomers and restricted rotation in biphenyls
+            section_type: related concepts
+    milestone: Master E/Z nomenclature for all types of geometric isomers
+    duration_days: 6
+    tags:
+      - geometric isomers
+      - E/Z nomenclature
+      - alkenes
+
+  - id: 7
+    title: Diastereomers and complex stereochemistry
+    learning_objectives:
+      - Define and identify diastereomeric relationships
+      - Calculate number of stereoisomers for molecules with multiple chiral centers
+      - Recognize meso compounds and internal compensation
+      - Understand relative and absolute configuration concepts
+    textbook_style_content:
+      - topic: Diastereomers
+        sections:
+          - section_title: Definition and properties of diastereomers
+            section_type: core_theory
+          - section_title: Physical and chemical differences from enantiomers
+            section_type: core_theory
+          - section_title: Diastereomeric relationships in cyclic compounds
+            section_type: related concepts
+      - topic: Stereoisomer enumeration
+        sections:
+          - section_title: 2^n rule and exceptions
+            section_type: core_theory
+          - section_title: Meso compounds and molecular symmetry
+            section_type: core_theory
+          - section_title: Pseudochiral centers and pseudoasymmetry
+            section_type: related concepts
+      - topic: Complex nomenclature cases
+        sections:
+          - section_title: Molecules with multiple stereogenic elements
+            section_type: core_theory
+          - section_title: Axial chirality and helicity
+            section_type: related concepts
+          - section_title: Planar chirality in substituted cyclophanes
+            section_type: related concepts
+    milestone: Handle complex stereochemical nomenclature problems confidently
+    duration_days: 8
+    tags:
+      - diastereomers
+      - meso compounds
+      - stereoisomer counting
+
+  - id: 8
+    title: Advanced nomenclature and special cases
+    learning_objectives:
+      - Name bridged and spiro compounds using IUPAC rules
+      - Apply nomenclature to heterocyclic compounds
+      - Handle fused ring systems and polycyclic compounds
+      - Master specialized nomenclature for natural products
+    textbook_style_content:
+      - topic: Bridged and spiro compounds
+        sections:
+          - section_title: Von Baeyer nomenclature for bridged bicyclic systems
+            section_type: core_theory
+          - section_title: Spiro compound nomenclature rules
+            section_type: core_theory
+          - section_title: Complex polycyclic systems
+            section_type: related concepts
+      - topic: Heterocyclic nomenclature
+        sections:
+          - section_title: Hantzsch-Widman nomenclature for monocyclic heterocycles
+            section_type: core_theory
+          - section_title: Common heterocyclic names - pyridine, furan, thiophene
+            section_type: core_theory
+          - section_title: Fused heterocyclic systems - purines and pteridines
+            section_type: related concepts
+      - topic: Special nomenclature systems
+        sections:
+          - section_title: Steroid nomenclature and numbering
+            section_type: related concepts
+          - section_title: Carbohydrate nomenclature - D/L system
+            section_type: related concepts
+          - section_title: Amino acid nomenclature and stereochemistry
+            section_type: related concepts
+    milestone: Apply IUPAC nomenclature to complex polycyclic and heterocyclic systems
+    duration_days: 9
+    tags:
+      - bridged compounds
+      - heterocycles
+      - special nomenclature
+
+  - id: 9
+    title: Integration and CSIR exam preparation
+    learning_objectives:
+      - Solve CSIR-level nomenclature problems under time constraints
+      - Identify common pitfalls and error-prone cases
+      - Apply nomenclature knowledge to predict reaction products
+      - Master rapid structure-to-name and name-to-structure conversions
+    textbook_style_content:
+      - topic: Problem-solving strategies
+        sections:
+          - section_title: Systematic approach to complex nomenclature problems
+            section_type: overview
+          - section_title: Common errors in IUPAC nomenclature
+            section_type: core_theory
+          - section_title: Time management for nomenclature questions
+            section_type: related concepts
+      - topic: Integration with reaction chemistry
+        sections:
+          - section_title: Naming reaction products and intermediates
+            section_type: core_theory
+          - section_title: Stereochemistry in reaction mechanisms
+            section_type: related concepts
+          - section_title: Regiochemistry predictions using nomenclature
+            section_type: related concepts
+      - topic: CSIR exam pattern analysis
+        sections:
+          - section_title: Previous year questions on nomenclature
+            section_type: overview
+          - section_title: High-yield topics and frequently tested concepts
+            section_type: core_theory
+          - section_title: Advanced problems and multi-concept integration
+            section_type: core_theory
+    milestone: Achieve mastery in IUPAC nomenclature for CSIR Chemical Sciences examination
+    duration_days: 10
+    tags:
+      - problem solving
+      - CSIR preparation
+      - exam strategy

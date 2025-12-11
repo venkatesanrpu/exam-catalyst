@@ -1,0 +1,464 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Main group elements and their compounds: Allotropy, synthesis, structure and bonding, industrial importance of the compounds."
+
+concepts:
+  core:
+    - name: Allotropy in main group elements
+      clarifier: Different structural forms of the same element in the same physical state, including carbon allotropes, phosphorus allotropes, sulfur allotropes, and oxygen allotropes
+    - name: Synthesis methods for main group compounds
+      clarifier: Laboratory and industrial preparation methods including direct combination, metathesis, hydrolysis, thermal decomposition, and electrochemical synthesis
+    - name: Structure and bonding in main group compounds
+      clarifier: Molecular geometry, VSEPR theory, hybridization, covalent and ionic bonding, coordinate bonding, electron-deficient compounds, and hypervalent compounds
+    - name: Industrial importance of main group compounds
+      clarifier: Applications in fertilizers, semiconductors, pharmaceuticals, polymers, catalysts, and materials science
+  related:
+    - name: Periodic trends in main group elements
+      clarifier: Atomic and ionic radii, ionization energy, electron affinity, electronegativity, and metallic character across periods and down groups
+    - name: Reactivity patterns and chemical properties
+      clarifier: Acid-base behavior, oxidation states, inert pair effect, diagonal relationships, and anomalous behavior of first elements
+    - name: Extraction and purification techniques
+      clarifier: Metallurgical processes, zone refining, electrolysis, and chemical purification methods for main group elements
+    - name: Environmental and safety considerations
+      clarifier: Toxicity, environmental impact, safe handling, and waste management of main group compounds
+
+learning_path:
+  - id: 1
+    title: Introduction to Main Group Chemistry and Allotropy
+    learning_objectives:
+      - Define main group elements and understand their position in the periodic table
+      - Explain the phenomenon of allotropy with mechanistic understanding
+      - Compare and contrast different allotropes based on structure and properties
+      - Relate allotropy to bonding and thermodynamic stability
+    textbook_style_content:
+      - topic: Overview of Main Group Elements
+        sections:
+          - section_title: Classification and General Characteristics
+            section_type: overview
+          - section_title: Electronic Configuration and Valence Shell
+            section_type: core_theory
+          - section_title: Periodic Trends Across Main Group Elements
+            section_type: related_concepts
+      - topic: Allotropy Fundamentals
+        sections:
+          - section_title: Definition and Occurrence of Allotropy
+            section_type: overview
+          - section_title: Thermodynamic and Kinetic Stability of Allotropes
+            section_type: core_theory
+          - section_title: Transformation Between Allotropic Forms
+            section_type: core_theory
+    milestone: Understanding the foundational concepts of main group chemistry and allotropy
+    duration_days: 5
+    tags:
+      - main group elements
+      - allotropy
+      - periodic trends
+      - fundamentals
+
+  - id: 2
+    title: Group 13 Elements - Boron Group
+    learning_objectives:
+      - Describe the unique properties of boron and its compounds
+      - Explain electron-deficient bonding in boranes
+      - Understand synthesis routes for boron compounds
+      - Evaluate industrial applications of boron compounds
+    textbook_style_content:
+      - topic: Boron and Aluminum Chemistry
+        sections:
+          - section_title: Occurrence and Extraction of Group 13 Elements
+            section_type: overview
+          - section_title: Structure and Bonding in Boron Hydrides
+            section_type: core_theory
+          - section_title: Three-Center Two-Electron Bonds
+            section_type: core_theory
+      - topic: Compounds of Group 13 Elements
+        sections:
+          - section_title: Synthesis of Boranes and Boron Halides
+            section_type: core_theory
+          - section_title: Aluminum Compounds and Their Preparation
+            section_type: core_theory
+          - section_title: Industrial Applications in Materials Science
+            section_type: related_concepts
+    milestone: Mastery of boron group chemistry including electron-deficient bonding
+    duration_days: 7
+    tags:
+      - group 13
+      - boron
+      - boranes
+      - electron-deficient compounds
+
+  - id: 3
+    title: Group 14 Elements - Carbon Group and Allotropy
+    learning_objectives:
+      - Compare allotropes of carbon including graphite, diamond, fullerenes, and graphene
+      - Understand silicon and germanium chemistry
+      - Explain synthesis of organosilicon compounds
+      - Analyze industrial significance of carbon and silicon compounds
+    textbook_style_content:
+      - topic: Carbon Allotropy
+        sections:
+          - section_title: Carbon Allotropes Overview
+            section_type: overview
+          - section_title: Structure and Bonding in Diamond and Graphite
+            section_type: core_theory
+          - section_title: Fullerenes, Carbon Nanotubes, and Graphene
+            section_type: core_theory
+          - section_title: Synthesis and Properties of Novel Carbon Allotropes
+            section_type: core_theory
+      - topic: Silicon and Germanium Chemistry
+        sections:
+          - section_title: Silicates and Silicones Structure
+            section_type: core_theory
+          - section_title: Synthesis of Silicon Compounds
+            section_type: core_theory
+          - section_title: Semiconductor Applications and Industrial Importance
+            section_type: related_concepts
+      - topic: Tin and Lead Compounds
+        sections:
+          - section_title: Inert Pair Effect in Heavy Group 14 Elements
+            section_type: core_theory
+          - section_title: Organometallic Compounds of Tin and Lead
+            section_type: related_concepts
+    milestone: Comprehensive understanding of carbon allotropy and Group 14 chemistry
+    duration_days: 8
+    tags:
+      - group 14
+      - carbon allotropes
+      - silicon
+      - semiconductors
+      - graphene
+
+  - id: 4
+    title: Group 15 Elements - Nitrogen and Phosphorus Group
+    learning_objectives:
+      - Differentiate between nitrogen and phosphorus chemistry
+      - Explain allotropy in phosphorus with structural details
+      - Master synthesis routes for nitrogen and phosphorus compounds
+      - Understand industrial applications in fertilizers and explosives
+    textbook_style_content:
+      - topic: Nitrogen Chemistry
+        sections:
+          - section_title: Dinitrogen and Its Unique Properties
+            section_type: overview
+          - section_title: Synthesis of Ammonia and Nitric Acid
+            section_type: core_theory
+          - section_title: Structure and Bonding in Nitrogen Oxides
+            section_type: core_theory
+      - topic: Phosphorus Allotropy and Compounds
+        sections:
+          - section_title: White, Red, and Black Phosphorus Structures
+            section_type: core_theory
+          - section_title: Interconversion of Phosphorus Allotropes
+            section_type: core_theory
+          - section_title: Synthesis of Phosphorus Halides and Oxoacids
+            section_type: core_theory
+          - section_title: Phosphate Chemistry and Condensed Phosphates
+            section_type: core_theory
+      - topic: Industrial Applications
+        sections:
+          - section_title: Fertilizer Industry and Phosphate Production
+            section_type: related_concepts
+          - section_title: Matches, Pesticides, and Flame Retardants
+            section_type: related_concepts
+    milestone: Detailed knowledge of nitrogen and phosphorus chemistry with industrial context
+    duration_days: 8
+    tags:
+      - group 15
+      - nitrogen
+      - phosphorus allotropes
+      - fertilizers
+      - ammonia synthesis
+
+  - id: 5
+    title: Group 16 Elements - Oxygen and Sulfur Group
+    learning_objectives:
+      - Compare oxygen and ozone structures and properties
+      - Understand sulfur allotropy in detail
+      - Learn synthesis methods for oxides and sulfides
+      - Evaluate industrial importance of sulfur compounds
+    textbook_style_content:
+      - topic: Oxygen and Ozone
+        sections:
+          - section_title: Dioxygen and Ozone as Allotropes
+            section_type: core_theory
+          - section_title: Bonding in Oxygen Molecules
+            section_type: core_theory
+          - section_title: Ozone Synthesis and Environmental Significance
+            section_type: related_concepts
+      - topic: Sulfur Allotropy and Compounds
+        sections:
+          - section_title: Rhombic and Monoclinic Sulfur Structures
+            section_type: core_theory
+          - section_title: Plastic Sulfur and Other Forms
+            section_type: core_theory
+          - section_title: Synthesis of Sulfur Dioxide and Sulfuric Acid
+            section_type: core_theory
+          - section_title: Polysulfides and Sulfur Chains
+            section_type: core_theory
+      - topic: Selenium and Tellurium Chemistry
+        sections:
+          - section_title: Preparation and Properties of Se and Te Compounds
+            section_type: core_theory
+          - section_title: Industrial Applications in Glass and Electronics
+            section_type: related_concepts
+    milestone: Complete understanding of oxygen and sulfur group chemistry
+    duration_days: 7
+    tags:
+      - group 16
+      - oxygen
+      - sulfur allotropes
+      - sulfuric acid
+      - ozone
+
+  - id: 6
+    title: Group 17 Elements - Halogens
+    learning_objectives:
+      - Understand the unique chemistry of fluorine
+      - Explain synthesis of halogens and interhalogen compounds
+      - Analyze structure and bonding in halogen compounds
+      - Assess industrial applications of halogens
+    textbook_style_content:
+      - topic: Halogen Elements and Their Reactivity
+        sections:
+          - section_title: Physical and Chemical Properties of Halogens
+            section_type: overview
+          - section_title: Extraction and Preparation of Halogens
+            section_type: core_theory
+          - section_title: Anomalous Behavior of Fluorine
+            section_type: core_theory
+      - topic: Halogen Compounds
+        sections:
+          - section_title: Synthesis of Hydrogen Halides
+            section_type: core_theory
+          - section_title: Structure and Bonding in Interhalogen Compounds
+            section_type: core_theory
+          - section_title: Halogen Oxides and Oxoacids
+            section_type: core_theory
+          - section_title: Polyhalides and Their Structures
+            section_type: core_theory
+      - topic: Industrial Importance
+        sections:
+          - section_title: Chlor-Alkali Industry and Bleaching Applications
+            section_type: related_concepts
+          - section_title: Fluorine in Pharmaceuticals and Polymers
+            section_type: related_concepts
+    milestone: Proficiency in halogen chemistry and industrial processes
+    duration_days: 6
+    tags:
+      - group 17
+      - halogens
+      - interhalogen compounds
+      - chlor-alkali industry
+      - fluorine chemistry
+
+  - id: 7
+    title: Group 18 Elements - Noble Gases
+    learning_objectives:
+      - Explain the discovery and isolation of noble gases
+      - Understand conditions for noble gas compound formation
+      - Master synthesis of xenon compounds
+      - Recognize applications of noble gases in industry
+    textbook_style_content:
+      - topic: Noble Gas Chemistry
+        sections:
+          - section_title: Historical Development and Occurrence
+            section_type: overview
+          - section_title: Extraction and Purification of Noble Gases
+            section_type: core_theory
+          - section_title: Conditions for Compound Formation
+            section_type: core_theory
+      - topic: Noble Gas Compounds
+        sections:
+          - section_title: Synthesis of Xenon Fluorides and Oxides
+            section_type: core_theory
+          - section_title: Structure and Bonding in XeF2, XeF4, and XeF6
+            section_type: core_theory
+          - section_title: Xenon Oxoacids and Their Preparation
+            section_type: core_theory
+      - topic: Applications
+        sections:
+          - section_title: Industrial Uses in Lighting and Welding
+            section_type: related_concepts
+          - section_title: Noble Gases in Medicine and Cryogenics
+            section_type: related_concepts
+    milestone: Understanding noble gas reactivity and compound chemistry
+    duration_days: 5
+    tags:
+      - group 18
+      - noble gases
+      - xenon compounds
+      - VSEPR theory
+
+  - id: 8
+    title: General Synthesis Methods for Main Group Compounds
+    learning_objectives:
+      - Master direct combination and metathesis reactions
+      - Understand thermal decomposition and reduction methods
+      - Learn electrochemical synthesis techniques
+      - Apply controlled atmosphere and temperature conditions
+    textbook_style_content:
+      - topic: Classical Synthesis Routes
+        sections:
+          - section_title: Direct Combination of Elements
+            section_type: core_theory
+          - section_title: Metathesis and Double Displacement Reactions
+            section_type: core_theory
+          - section_title: Thermal Decomposition Methods
+            section_type: core_theory
+      - topic: Advanced Synthesis Techniques
+        sections:
+          - section_title: Electrochemical Synthesis and Electrolysis
+            section_type: core_theory
+          - section_title: Reduction with Metals and Metal Hydrides
+            section_type: core_theory
+          - section_title: Controlled Atmosphere Synthesis
+            section_type: core_theory
+      - topic: Special Preparation Methods
+        sections:
+          - section_title: Hydrolysis and Solvothermal Routes
+            section_type: core_theory
+          - section_title: Chemical Vapor Deposition
+            section_type: related_concepts
+          - section_title: Sol-Gel and Precipitation Methods
+            section_type: related_concepts
+    milestone: Comprehensive knowledge of synthesis methodologies
+    duration_days: 6
+    tags:
+      - synthesis methods
+      - laboratory techniques
+      - industrial processes
+      - preparation methods
+
+  - id: 9
+    title: Structure and Bonding Theories in Main Group Chemistry
+    learning_objectives:
+      - Apply VSEPR theory to predict molecular geometry
+      - Understand hybridization and molecular orbital theory
+      - Explain hypervalency and expanded octets
+      - Analyze bonding in electron-deficient and electron-rich compounds
+    textbook_style_content:
+      - topic: Molecular Geometry and VSEPR Theory
+        sections:
+          - section_title: VSEPR Model Fundamentals
+            section_type: core_theory
+          - section_title: Prediction of Molecular Shapes
+            section_type: core_theory
+          - section_title: Effect of Lone Pairs on Geometry
+            section_type: core_theory
+      - topic: Hybridization and Bonding
+        sections:
+          - section_title: sp, sp2, sp3, and Higher Hybridizations
+            section_type: core_theory
+          - section_title: Hypervalent Compounds and Expanded Octets
+            section_type: core_theory
+          - section_title: d-Orbital Participation in Bonding
+            section_type: core_theory
+      - topic: Special Bonding Situations
+        sections:
+          - section_title: Three-Center Bonds in Electron-Deficient Compounds
+            section_type: core_theory
+          - section_title: Pi-Bonding in Main Group Elements
+            section_type: core_theory
+          - section_title: Coordinate Covalent Bonding
+            section_type: related_concepts
+    milestone: Mastery of structure and bonding concepts in main group chemistry
+    duration_days: 7
+    tags:
+      - bonding theory
+      - VSEPR
+      - hybridization
+      - molecular geometry
+      - hypervalency
+
+  - id: 10
+    title: Industrial Applications and Economic Importance
+    learning_objectives:
+      - Evaluate large-scale industrial processes for main group compounds
+      - Understand economic significance of major compounds
+      - Analyze environmental impact and sustainability
+      - Connect laboratory chemistry to industrial applications
+    textbook_style_content:
+      - topic: Major Industrial Processes
+        sections:
+          - section_title: Haber-Bosch Process for Ammonia Synthesis
+            section_type: core_theory
+          - section_title: Contact Process for Sulfuric Acid Production
+            section_type: core_theory
+          - section_title: Ostwald Process for Nitric Acid
+            section_type: core_theory
+          - section_title: Chlor-Alkali Process and Electrolysis
+            section_type: core_theory
+      - topic: Materials and Advanced Applications
+        sections:
+          - section_title: Semiconductors and Electronic Materials
+            section_type: related_concepts
+          - section_title: Ceramics and Glass Manufacturing
+            section_type: related_concepts
+          - section_title: Polymers and Organosilicon Materials
+            section_type: related_concepts
+      - topic: Fertilizers and Agricultural Chemistry
+        sections:
+          - section_title: Nitrogen and Phosphorus Fertilizers
+            section_type: core_theory
+          - section_title: Production Economics and Global Impact
+            section_type: related_concepts
+      - topic: Pharmaceuticals and Fine Chemicals
+        sections:
+          - section_title: Fluorine in Drug Design
+            section_type: related_concepts
+          - section_title: Boron-Containing Pharmaceuticals
+            section_type: related_concepts
+      - topic: Environmental Considerations
+        sections:
+          - section_title: Sustainability and Green Chemistry Approaches
+            section_type: related_concepts
+          - section_title: Waste Management and Recycling
+            section_type: related_concepts
+    milestone: Understanding the complete industrial landscape of main group chemistry
+    duration_days: 8
+    tags:
+      - industrial chemistry
+      - applications
+      - economic importance
+      - sustainability
+      - manufacturing processes
+
+  - id: 11
+    title: Integration and Problem-Solving
+    learning_objectives:
+      - Integrate knowledge across all main group elements
+      - Solve complex synthesis and structure determination problems
+      - Predict properties based on periodic trends
+      - Analyze industrial case studies and optimization strategies
+    textbook_style_content:
+      - topic: Comparative Chemistry Across Groups
+        sections:
+          - section_title: Diagonal Relationships and Similarities
+            section_type: overview
+          - section_title: Trends in Chemical Reactivity
+            section_type: core_theory
+          - section_title: Anomalous Behavior of First-Row Elements
+            section_type: core_theory
+      - topic: Problem-Solving Strategies
+        sections:
+          - section_title: Structure Determination from Spectroscopic Data
+            section_type: core_theory
+          - section_title: Synthesis Route Planning and Optimization
+            section_type: core_theory
+          - section_title: Predicting Reaction Products and Mechanisms
+            section_type: core_theory
+      - topic: Case Studies and Applications
+        sections:
+          - section_title: Industrial Process Optimization Examples
+            section_type: related_concepts
+          - section_title: Research Frontiers in Main Group Chemistry
+            section_type: related_concepts
+    milestone: Achieving comprehensive mastery for CSIR examination readiness
+    duration_days: 7
+    tags:
+      - integration
+      - problem-solving
+      - examination preparation
+      - comparative chemistry
+      - case studies

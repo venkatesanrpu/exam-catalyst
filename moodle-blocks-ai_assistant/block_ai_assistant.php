@@ -23,9 +23,23 @@ class block_ai_assistant extends block_base {
 		
 
         // Get agent configuration
-        $agentkey = get_config('block_ai_assistant', 'agent_config_key') ?: 'CSIRChemicalSciences';
-        $mainsubjectkey = get_config('block_ai_assistant', 'main_subject_key') ?: 'chemistry';
+		$defaultagentkey = 'CSIRChemicalSciences';
+		$agentkey = $defaultagentkey;
+		
+		if (!empty($this->config) && !empty($this->config->agent_key)) {
+			$agentkey = $this->config->agent_key;
+		} else {
+			$agentkey = get_config('block_ai_assistant', 'agent_key') ?: $agentkey;
+		}
 
+		$defaultsubject = 'chemistry';
+		$mainsubjectkey = $defaultsubject;
+
+		if (!empty($this->config) && !empty($this->config->mainsubjectkey)) {
+			$mainsubjectkey = $this->config->mainsubjectkey;
+		} else {
+			$mainsubjectkey = get_config('block_ai_assistant', 'mainsubjectkey') ?: $mainsubjectkey;
+		}	
         // Define AJAX endpoints
         $historyajaxurl = new moodle_url('/blocks/ai_assistant/ajax/history_ajax.php');
         $syllabusajaxurl = new moodle_url('/blocks/ai_assistant/ajax/syllabus_ajax.php');

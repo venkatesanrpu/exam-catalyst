@@ -1,0 +1,167 @@
+metadata:
+  subject: Organic Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Organic reaction mechanisms involving addition, elimination and substitution
+    reactions with electrophilic, nucleophilic or radical species. Determination of
+    reaction pathways.
+total_titles: 18
+learning_path:
+- id: 1
+  title: Foundations of Reaction Mechanisms and Intermediates
+  learning_objectives:
+  - Understand the fundamental principles of organic reaction mechanisms and the concept
+    of elementary steps
+  - Identify and classify reactive intermediates including carbocations, carbanions,
+    radicals, and carbenes
+  - Analyze the stability factors governing different intermediates through resonance,
+    hyperconjugation, and inductive effects
+  - Apply curved arrow notation to depict electron flow in organic reactions
+  - Distinguish between homolytic and heterolytic bond cleavage
+- id: 2
+  title: Nucleophilic Substitution Reactions - SN2 Mechanism
+  learning_objectives:
+  - Describe the detailed mechanism of SN2 reactions including the concerted nature
+    and transition state geometry
+  - Predict the stereochemical outcome of SN2 reactions and explain the inversion
+    of configuration
+  - Identify the structural and environmental factors affecting SN2 reaction rates
+  - Analyze the effects of nucleophile strength, substrate structure, leaving group
+    ability, and solvent on SN2 reactions
+  - Apply kinetic data to confirm SN2 mechanisms
+- id: 3
+  title: Nucleophilic Substitution Reactions - SN1 Mechanism
+  learning_objectives:
+  - Describe the stepwise SN1 mechanism involving carbocation formation
+  - Explain the stereochemical outcomes including racemization and factors leading
+    to partial retention
+  - Predict carbocation rearrangements including 1,2-hydride and 1,2-alkyl shifts
+  - Compare and contrast SN1 and SN2 mechanisms in terms of kinetics, stereochemistry,
+    and substrate requirements
+  - Apply the rate law and kinetic isotope effects to distinguish SN1 mechanisms
+- id: 4
+  title: Elimination Reactions - E2 Mechanism
+  learning_objectives:
+  - Describe the concerted E2 mechanism and the anti-periplanar transition state geometry
+  - Apply Zaitsev's rule and Hofmann's rule to predict regioselectivity in elimination
+    reactions
+  - Analyze stereochemical requirements including anti-elimination and syn-elimination
+    in special cases
+  - Identify structural and environmental factors favoring E2 over substitution
+  - Use deuterium labeling to confirm E2 mechanisms through kinetic isotope effects
+- id: 5
+  title: Elimination Reactions - E1 and E1cB Mechanisms
+  learning_objectives:
+  - Describe the stepwise E1 mechanism involving carbocation formation
+  - Explain the E1cB mechanism proceeding through carbanion intermediates
+  - Compare E1, E2, and E1cB mechanisms in terms of kinetics, intermediates, and stereochemistry
+  - Predict the competition between elimination and substitution for unimolecular
+    reactions
+  - Identify substrate and reaction conditions favoring each elimination mechanism
+- id: 6
+  title: Electrophilic Addition to Alkenes and Alkynes
+  learning_objectives:
+  - Describe the mechanism of electrophilic addition involving π-complex and carbocation
+    formation
+  - Apply Markovnikov's rule to predict regioselectivity in addition reactions
+  - Explain anti-Markovnikov addition via radical intermediates or hydroboration
+  - Analyze the stereochemistry of addition reactions including syn and anti addition
+  - Predict products of addition reactions with various electrophiles including halogens,
+    hydrogen halides, and water
+- id: 7
+  title: Nucleophilic Addition to Carbonyl Compounds
+  learning_objectives:
+  - Describe the mechanism of nucleophilic addition to aldehydes and ketones
+  - Explain the role of acid and base catalysis in carbonyl addition reactions
+  - Analyze reversibility and equilibrium in nucleophilic addition reactions
+  - Predict products of addition reactions with various nucleophiles including Grignard
+    reagents, hydrides, and enolates
+  - Understand conjugate addition to α,β-unsaturated carbonyl compounds
+- id: 8
+  title: Radical Substitution Reactions
+  learning_objectives:
+  - Describe the chain mechanism of radical substitution including initiation, propagation,
+    and termination steps
+  - Analyze the selectivity of radical halogenation based on radical stability
+  - Apply bond dissociation energies to predict radical reaction thermodynamics
+  - Understand radical stability factors including resonance and hyperconjugation
+  - Predict products and stereochemistry of radical substitution reactions
+- id: 9
+  title: Radical Addition Reactions
+  learning_objectives:
+  - Describe the mechanism of radical addition to alkenes
+  - Explain the anti-Markovnikov regioselectivity in radical additions
+  - Analyze radical polymerization mechanisms
+  - Understand autoxidation and radical chain oxidation reactions
+  - Apply radical addition in organic synthesis
+- id: 10
+  title: Determination of Reaction Pathways - Kinetic Methods
+  learning_objectives:
+  - Design and interpret kinetic experiments to determine reaction order
+  - Use rate laws to distinguish between different mechanistic pathways
+  - Apply the steady-state approximation to complex mechanisms
+  - Understand pre-equilibrium conditions and their effects on rate laws
+  - Determine rate-determining steps from kinetic data
+- id: 11
+  title: Determination of Reaction Pathways - Isotopic Labeling
+  learning_objectives:
+  - Design isotope labeling experiments to trace reaction pathways
+  - Interpret results from deuterium, carbon-14, oxygen-18, and nitrogen-15 labeling
+  - Use crossover experiments to distinguish inter- from intramolecular processes
+  - Apply isotopic scrambling to detect intermediates
+  - Understand limitations and artifacts in labeling studies
+- id: 12
+  title: Determination of Reaction Pathways - Stereochemical Methods
+  learning_objectives:
+  - Use stereochemical outcomes to distinguish between different mechanisms
+  - Analyze retention, inversion, and racemization as mechanistic indicators
+  - Apply chiral substrates and products to determine reaction pathways
+  - Understand stereospecific and stereoselective reactions
+  - Interpret stereochemical data in the context of transition state geometry
+- id: 13
+  title: Determination of Reaction Pathways - Product Analysis and Trapping
+  learning_objectives:
+  - Identify intermediates through product distribution analysis
+  - Design trapping experiments to detect reactive intermediates
+  - Use competitive reactions to probe mechanism
+  - Analyze rearrangement products as mechanistic evidence
+  - Apply spectroscopic methods to detect intermediates
+- id: 14
+  title: Linear Free Energy Relationships and Structure-Reactivity
+  learning_objectives:
+  - Apply the Hammett equation to correlate structure and reactivity
+  - Interpret Hammett σ and ρ values for mechanistic insights
+  - Understand substituent effects on reaction rates and equilibria
+  - Use Brønsted plots for acid-base catalyzed reactions
+  - Apply Taft equation for separating steric and electronic effects
+- id: 15
+  title: Advanced Topics - Neighboring Group Participation and Anchimeric Assistance
+  learning_objectives:
+  - Identify neighboring group participation in substitution and elimination reactions
+  - Understand anchimeric assistance and rate acceleration
+  - Predict stereochemical consequences of neighboring group participation
+  - Analyze cyclic intermediate formation
+  - Apply NGP concepts to solve complex mechanistic problems
+- id: 16
+  title: Advanced Topics - Solvent Effects and Ion Pairing
+  learning_objectives:
+  - Understand how solvent polarity and hydrogen bonding affect reaction mechanisms
+  - Analyze solvent effects on SN1, SN2, E1, and E2 reactions
+  - Describe ion pair formation and its role in reaction mechanisms
+  - Apply solvent ionizing power and nucleophilicity concepts
+  - Predict mechanism changes with solvent variations
+- id: 17
+  title: Comprehensive Mechanistic Problem Solving
+  learning_objectives:
+  - Integrate knowledge from all previous modules to solve complex mechanistic problems
+  - Propose mechanisms for multi-step transformations
+  - Design experiments to distinguish between alternative mechanisms
+  - Analyze experimental data to support or refute mechanistic proposals
+  - Apply critical thinking to evaluate mechanistic literature
+- id: 18
+  title: Practice Problems and CSIR Exam Preparation
+  learning_objectives:
+  - Solve CSIR-level problems on reaction mechanisms
+  - Apply time management strategies for mechanism questions
+  - Review common question patterns in CSIR examinations
+  - Practice predicting products and intermediates under time constraints
+  - Identify key concepts frequently tested in CSIR exams

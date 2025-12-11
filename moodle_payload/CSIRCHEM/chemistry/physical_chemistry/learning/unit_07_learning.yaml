@@ -1,0 +1,125 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: 'Chemical thermodynamics: Laws, state and path functions and their
+    applications; thermodynamic description of various types of processes; Maxwell''s
+    relations; spontaneity and equilibria; temperature and pressure dependence of
+    thermodynamic quantities; Le Chatelier principle; elementary description of phase
+    transitions; phase equilibria and phase rule; thermodynamics of ideal and non-ideal
+    gases, and solutions.'
+total_titles: 14
+learning_path:
+- id: 1
+  title: Foundations of Thermodynamics and the Zeroth and First Laws
+  learning_objectives:
+  - Define thermodynamic systems, surroundings, and boundaries (isolated, closed,
+    open)
+  - Explain thermal equilibrium and the concept of temperature via the Zeroth Law
+  - State and apply the First Law of Thermodynamics to various processes
+  - Distinguish between internal energy as a state function and heat and work as path
+    functions
+  - Calculate work done in reversible and irreversible processes (expansion, compression)
+- id: 2
+  title: Thermodynamic Processes and State Functions
+  learning_objectives:
+  - Analyze isothermal, adiabatic, isobaric, and isochoric processes
+  - Define and apply enthalpy in constant pressure processes
+  - Understand exact and inexact differentials mathematically
+  - Identify state functions from their mathematical properties
+  - Apply cyclic rule and reciprocity relations
+- id: 3
+  title: The Second Law of Thermodynamics and Entropy
+  learning_objectives:
+  - State and explain various formulations of the Second Law
+  - Define entropy and calculate entropy changes for reversible and irreversible processes
+  - Apply the Carnot cycle to understand thermodynamic efficiency
+  - Establish entropy as a state function and criterion for spontaneity
+  - Calculate entropy changes for phase transitions and chemical reactions
+- id: 4
+  title: Thermodynamic Potentials and Maxwell Relations
+  learning_objectives:
+  - Define Helmholtz energy and Gibbs energy as thermodynamic potentials
+  - Derive and apply the four fundamental Maxwell relations
+  - Use Maxwell relations to connect measurable and non-measurable properties
+  - Understand natural variables for each thermodynamic potential
+  - Apply thermodynamic potentials to determine equilibrium conditions
+- id: 5
+  title: Spontaneity, Equilibrium, and the Third Law
+  learning_objectives:
+  - Apply Gibbs energy criteria for spontaneity in closed systems
+  - Determine equilibrium conditions using thermodynamic potentials
+  - State and apply the Third Law of Thermodynamics
+  - Calculate absolute entropies using the Third Law
+  - Understand residual entropy and its implications
+- id: 6
+  title: Temperature and Pressure Dependence of Thermodynamic Quantities
+  learning_objectives:
+  - Derive Gibbs-Helmholtz equation and its applications
+  - Analyze temperature dependence of equilibrium constants
+  - Determine pressure dependence of Gibbs energy and chemical potential
+  - Apply Kirchhoff's law for enthalpy and entropy variations
+  - Calculate thermodynamic quantities at different temperatures and pressures
+- id: 7
+  title: Le Chatelier Principle and Chemical Equilibrium
+  learning_objectives:
+  - State and apply Le Chatelier principle to equilibrium systems
+  - Predict qualitative effects of temperature, pressure, and concentration changes
+  - Connect Le Chatelier principle to thermodynamic principles
+  - Analyze coupled equilibria and buffering effects
+  - Apply to practical chemical systems
+- id: 8
+  title: Phase Transitions and Phase Diagrams
+  learning_objectives:
+  - Classify phase transitions as first-order and second-order
+  - Analyze phase diagrams for one-component systems
+  - Apply Clausius-Clapeyron equation to phase equilibria
+  - Calculate latent heats and entropy changes during phase transitions
+  - Understand critical phenomena and supercritical fluids
+- id: 9
+  title: Phase Equilibria and the Gibbs Phase Rule
+  learning_objectives:
+  - State and derive the Gibbs phase rule
+  - Apply the phase rule to one and two-component systems
+  - Analyze binary phase diagrams (liquid-vapor, solid-liquid)
+  - Understand eutectic, peritectic, and azeotropic systems
+  - Interpret ternary phase diagrams at elementary level
+- id: 10
+  title: Thermodynamics of Ideal Gases
+  learning_objectives:
+  - Apply ideal gas equation of state to thermodynamic calculations
+  - Calculate thermodynamic properties for ideal gas processes
+  - Determine mixing properties for ideal gas mixtures
+  - Apply Dalton's law and Amagat's law
+  - Calculate entropy of mixing and Gibbs energy of mixing
+- id: 11
+  title: Thermodynamics of Real (Non-Ideal) Gases
+  learning_objectives:
+  - Understand deviations from ideal behavior and compressibility factor
+  - Apply van der Waals equation and other real gas equations of state
+  - Define and calculate fugacity and fugacity coefficient
+  - Apply corresponding states principle
+  - Analyze Joule-Thomson effect and inversion temperature
+- id: 12
+  title: Thermodynamics of Ideal Solutions
+  learning_objectives:
+  - Define ideal solutions and state Raoult's law
+  - Calculate vapor pressure and composition for ideal binary solutions
+  - Determine mixing properties for ideal solutions
+  - Understand and apply colligative properties
+  - Analyze boiling point elevation, freezing point depression, and osmotic pressure
+- id: 13
+  title: Thermodynamics of Non-Ideal Solutions
+  learning_objectives:
+  - Understand deviations from Raoult's law (positive and negative)
+  - Define and calculate activity and activity coefficient
+  - Determine excess thermodynamic properties
+  - Apply Henry's law for dilute solutions
+  - Understand partial molar properties and Gibbs-Duhem equation
+- id: 14
+  title: Integration and Problem-Solving in Chemical Thermodynamics
+  learning_objectives:
+  - Integrate concepts across all thermodynamic topics
+  - Solve multi-step thermodynamic problems
+  - Apply thermodynamics to real chemical systems
+  - Analyze complex equilibria involving multiple phases
+  - Prepare for CSIR examination-style questions

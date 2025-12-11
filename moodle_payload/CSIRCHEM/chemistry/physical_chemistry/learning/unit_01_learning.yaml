@@ -1,0 +1,104 @@
+metadata:
+  subject: Physical Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: 'Basic principles of quantum mechanics: Postulates; operator algebra;
+    exactly-solvable systems: particle-in-a-box, harmonic oscillator and the hydrogen
+    atom, including shapes of atomic orbitals; orbital and spin angular momenta; tunneling.'
+total_titles: 12
+learning_path:
+- id: 1
+  title: Foundations of Quantum Mechanics
+  learning_objectives:
+  - Articulate and apply the five fundamental postulates of quantum mechanics
+  - Distinguish between classical and quantum mechanical descriptions of physical
+    systems
+  - Interpret the wavefunction as a probability amplitude
+  - Apply normalization conditions to wavefunctions
+  - Understand the measurement process and wavefunction collapse
+- id: 2
+  title: Operator Algebra and Mathematical Framework
+  learning_objectives:
+  - Construct and manipulate quantum mechanical operators
+  - Solve eigenvalue equations for observables
+  - Apply commutator algebra to determine compatible observables
+  - Distinguish Hermitian from non-Hermitian operators
+  - Calculate expectation values and uncertainties
+  - Derive and apply the uncertainty principle
+- id: 3
+  title: Particle-in-a-Box - One-Dimensional Confinement
+  learning_objectives:
+  - Solve the Schrödinger equation for particle in one-dimensional infinite potential
+    well
+  - Derive energy eigenvalues and eigenfunctions
+  - Understand energy quantization from boundary conditions
+  - Calculate transition energies and absorption spectra
+  - Apply particle-in-a-box model to conjugated systems
+- id: 4
+  title: Particle-in-a-Box - Higher Dimensions
+  learning_objectives:
+  - Extend one-dimensional solutions to two and three dimensions
+  - Apply separation of variables technique
+  - Identify degenerate energy states
+  - Understand symmetry and degeneracy relationships
+- id: 5
+  title: Quantum Harmonic Oscillator
+  learning_objectives:
+  - Solve Schrödinger equation for harmonic oscillator potential
+  - Apply ladder operator method
+  - Determine vibrational energy levels and selection rules
+  - Calculate vibrational wavefunctions and probability distributions
+  - Relate quantum oscillator to molecular vibrations
+- id: 6
+  title: Hydrogen Atom - Radial Solutions
+  learning_objectives:
+  - Set up Schrödinger equation for hydrogen atom in spherical coordinates
+  - Apply separation of variables to obtain radial and angular equations
+  - Solve radial equation for different angular momentum quantum numbers
+  - Derive Bohr radius and energy level formula
+  - Understand effective potential and radial probability distributions
+- id: 7
+  title: Hydrogen Atom - Angular Solutions and Spherical Harmonics
+  learning_objectives:
+  - Solve angular part of Schrödinger equation
+  - Derive spherical harmonics as angular eigenfunctions
+  - Understand azimuthal and magnetic quantum numbers
+  - Relate angular solutions to orbital angular momentum
+- id: 8
+  title: Complete Hydrogen Atom Wavefunctions
+  learning_objectives:
+  - Combine radial and angular solutions to construct complete wavefunctions
+  - Understand quantum number relationships and restrictions
+  - Calculate probability distributions in three dimensions
+  - Interpret degeneracy of hydrogen energy levels
+- id: 9
+  title: Shapes and Visualization of Atomic Orbitals
+  learning_objectives:
+  - Visualize s, p, d, and f orbital shapes and angular distributions
+  - Identify nodal planes and radial nodes
+  - Understand electron density distributions
+  - Relate orbital shapes to bonding and molecular structure
+  - Distinguish between real and complex forms of orbitals
+- id: 10
+  title: Orbital Angular Momentum Theory
+  learning_objectives:
+  - Derive angular momentum operators in quantum mechanics
+  - Solve eigenvalue equations for L² and L_z
+  - Understand quantization of orbital angular momentum magnitude and z-component
+  - Apply commutation relations for angular momentum components
+  - Interpret vector model of angular momentum
+- id: 11
+  title: Spin Angular Momentum
+  learning_objectives:
+  - Introduce intrinsic spin as fundamental particle property
+  - Distinguish spin from orbital angular momentum
+  - Apply spin operators and Pauli matrices
+  - Understand spin quantum numbers s and m_s
+  - Calculate total angular momentum from orbital and spin contributions
+- id: 12
+  title: Quantum Tunneling Phenomenon
+  learning_objectives:
+  - Explain quantum tunneling as barrier penetration
+  - Solve Schrödinger equation for potential barriers
+  - Calculate transmission and reflection coefficients
+  - Understand exponential decay in classically forbidden regions
+  - Apply tunneling to chemical and physical processes

@@ -1,0 +1,43 @@
+Generate {QUESTION_COUNT} CSIR NET Chemical Sciences Part B level MCQs.
+
+## Context
+- **Exam**: {TARGET_EXAM}
+- **Subject**: {SUBJECT}
+- **Topic**: {TOPIC}
+- **Lesson**: {LESSON}
+- **Focus**: {AGENT_TEXT}
+- **Keywords**: {TAGS}
+
+## Core Concepts (Must Cover)
+{CORE_CONCEPTS}
+
+## Related Concepts (Use as Context)
+{RELATED_CONCEPTS}
+
+## Requirements
+• Combine 2-3 concepts OR apply one formula with simple numbers (Bloom: Apply/Analyze)
+• Examples: Calculate equilibrium constant, predict reaction product, apply MO theory
+• 1-2 step calculations with clean numbers (no tedious arithmetic)
+• Distractors from common errors (sign mistakes, unit confusion, formula misapplication)
+• CSIR Part B style: concept + application, 2-3 minutes per question
+• Include LaTeX notation where needed
+
+## Format per Question
+Q{i}. [Stem with data if needed]
+A. [Option]
+B. [Option]
+C. [Option]
+D. [Option]
+**Answer: [A/B/C/D]**
+
+**Explanation:**
+[Setup equation/concept → Show calculation/logic → Explain why distractors are wrong]
+
+## Constraints
+✗ No meta-commentary or greetings
+✗ No <think> tags
+✓ Use LaTeX for math: \( K_b \), \( \Delta G^\circ \), \( \lambda_{max} \)
+✓ Start directly with Q1
+✓ End with **DONE**
+
+Generate now.

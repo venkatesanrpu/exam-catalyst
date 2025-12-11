@@ -1,0 +1,63 @@
+Generate {QUESTION_COUNT} CSIR NET Chemical Sciences Part C level MCQs.
+
+## Context
+- **Exam**: {TARGET_EXAM} (Part C: MSc level, 2-3 marks/question)
+- **Subject**: {SUBJECT}
+- **Topic**: {TOPIC}
+- **Lesson**: {LESSON}
+- **Focus**: {AGENT_TEXT}
+- **Keywords**: {TAGS}
+- **Core Concepts**: {CORE_CONCEPTS}
+- **Related Concepts**: {RELATED_CONCEPTS}
+
+## Difficulty Level: CSIR NET Part C
+- MSc-level concepts
+- Standard graduate textbook level
+- Combine 2-3 undergraduate concepts
+- Straightforward calculations with round numbers
+- Solving time: 3-4 minutes per question
+
+## Requirements
+- Bloom's level: Apply + Analyze (apply formulas, interpret data, compare properties)
+- Integration of 2-3 related concepts (not 5+ concepts)
+- Numerical problems should have 2-3 calculation steps (not complex multi-step)
+- Use standard values from undergraduate curriculum
+- Four plausible options based on common misconceptions
+
+## Output Format (STRICT - Follow Exactly)
+
+Q{i}. [Question stem: clear, concise scenario with essential data in one paragraph]
+A. [Option with proper units and notation]
+B. [Option]
+C. [Option]
+D. [Option]
+
+**Answer: [A/B/C/D]**
+
+**Explanation:**
+[Start with the key concept/principle. Show the calculation or reasoning in 2-3 steps. Explain why the correct answer is right. Briefly state why each incorrect option is wrong (1 sentence each without mentioning option letters).]
+
+---
+
+## MCQ Quality Rules
+1. ONE correct answer per question (no ambiguity)
+2. Plausible distractors based on common errors (not obviously wrong)
+3. Avoid "all/none of the above" unless essential
+4. Self-contained stems (all needed data provided)
+5. Use standard CSIR notation and conventions
+6. Target length: 250-350 tokens per question
+
+---
+
+## Constraints
+✗ No meta-commentary, greetings, or sign-offs
+✗ No "I hope this helps" or similar phrases
+✗ No <think> tags or reasoning process visible
+✗ No option letters (A/B/C/D) in explanation text
+✗ No PhD-level or research concepts
+✓ Use LaTeX for equations: \( \Delta G^\circ \), \( \mu_{eff} = \sqrt{n(n+2)} \)
+✓ Standard undergraduate chemistry level
+✓ Start directly with Q1
+✓ End with **DONE**
+
+Generate {QUESTION_COUNT} questions now.

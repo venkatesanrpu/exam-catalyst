@@ -1,0 +1,492 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Nuclear chemistry: nuclear reactions, fission and fusion, radio-analytical techniques and activation analysis."
+
+concepts:
+  core:
+    - name: Nuclear reactions
+      clarifier: Types, mechanisms, conservation laws, Q-value calculations, and cross-sections
+    - name: Nuclear fission
+      clarifier: Mechanism, chain reactions, critical mass, energy release, and fission products
+    - name: Nuclear fusion
+      clarifier: Fusion reactions, stellar nucleosynthesis, controlled fusion, and energy considerations
+    - name: Radio-analytical techniques
+      clarifier: Tracer techniques, isotope dilution analysis, radiometric titrations, and autoradiography
+    - name: Activation analysis
+      clarifier: Neutron activation analysis (NAA), principles, procedures, and quantitative determination
+
+  related:
+    - name: Nuclear stability
+      clarifier: Binding energy, mass defect, nuclear forces, and stability criteria
+    - name: Radioactive decay
+      clarifier: Decay modes, kinetics, decay series, and half-life calculations
+    - name: Nuclear models
+      clarifier: Liquid drop model, shell model, and collective models
+    - name: Radiation detection
+      clarifier: Detectors, counting statistics, and measurement techniques
+    - name: Nuclear energy applications
+      clarifier: Reactors, medical applications, and industrial uses
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Nuclear Structure and Stability
+    learning_objectives:
+      - Understand nuclear composition, mass, and charge relationships
+      - Calculate binding energy and mass defect for nuclei
+      - Apply stability criteria and predict nuclear behavior
+      - Explain nuclear forces and their characteristics
+    textbook_style_content:
+      - topic: Nuclear Structure and Properties
+        sections:
+          - section_title: Atomic Nucleus Composition
+            section_type: overview
+          - section_title: Mass Defect and Binding Energy
+            section_type: core_theory
+          - section_title: Nuclear Stability Belt
+            section_type: core_theory
+          - section_title: Nuclear Forces and Models
+            section_type: related_concepts
+    milestone: Master nuclear stability principles and binding energy calculations
+    duration_days: 4
+    tags:
+      - nuclear structure
+      - binding energy
+      - stability
+      - fundamentals
+
+  - id: 2
+    title: Radioactive Decay and Kinetics
+    learning_objectives:
+      - Classify different types of radioactive decay processes
+      - Apply decay kinetics and calculate half-lives
+      - Solve problems involving decay series and equilibrium
+      - Understand decay energy calculations and Q-values
+    textbook_style_content:
+      - topic: Radioactive Decay Processes
+        sections:
+          - section_title: Types of Radioactive Decay
+            section_type: overview
+          - section_title: Alpha, Beta, and Gamma Decay Mechanisms
+            section_type: core_theory
+          - section_title: Decay Kinetics and Mathematics
+            section_type: core_theory
+          - section_title: Radioactive Decay Series
+            section_type: core_theory
+          - section_title: Secular and Transient Equilibrium
+            section_type: related_concepts
+    milestone: Proficiency in decay calculations and kinetics
+    duration_days: 5
+    tags:
+      - radioactive decay
+      - kinetics
+      - half-life
+      - decay series
+
+  - id: 3
+    title: Nuclear Reactions - Fundamentals
+    learning_objectives:
+      - Define and classify nuclear reactions
+      - Apply conservation laws in nuclear reactions
+      - Calculate Q-values and reaction energetics
+      - Understand reaction cross-sections and yields
+    textbook_style_content:
+      - topic: Introduction to Nuclear Reactions
+        sections:
+          - section_title: Nuclear Reaction Types and Notation
+            section_type: overview
+          - section_title: Conservation Laws in Nuclear Reactions
+            section_type: core_theory
+          - section_title: Q-Value and Threshold Energy
+            section_type: core_theory
+          - section_title: Reaction Cross-Sections
+            section_type: core_theory
+          - section_title: Compound Nucleus Formation
+            section_type: related_concepts
+    milestone: Understand nuclear reaction principles and energetics
+    duration_days: 5
+    tags:
+      - nuclear reactions
+      - conservation laws
+      - Q-value
+      - cross-sections
+
+  - id: 4
+    title: Types and Mechanisms of Nuclear Reactions
+    learning_objectives:
+      - Distinguish between different nuclear reaction types
+      - Analyze compound nucleus and direct reactions
+      - Study photonuclear and particle-induced reactions
+      - Apply reaction mechanisms to predict products
+    textbook_style_content:
+      - topic: Nuclear Reaction Mechanisms
+        sections:
+          - section_title: Compound Nucleus Reactions
+            section_type: core_theory
+          - section_title: Direct Reactions
+            section_type: core_theory
+          - section_title: Photonuclear Reactions
+            section_type: core_theory
+          - section_title: Charged Particle Reactions
+            section_type: core_theory
+          - section_title: Spallation and Heavy Ion Reactions
+            section_type: related_concepts
+    milestone: Master nuclear reaction mechanisms and product prediction
+    duration_days: 6
+    tags:
+      - reaction mechanisms
+      - compound nucleus
+      - direct reactions
+      - particle reactions
+
+  - id: 5
+    title: Nuclear Fission - Principles and Mechanism
+    learning_objectives:
+      - Explain the mechanism of nuclear fission
+      - Calculate energy release in fission reactions
+      - Understand fission product distribution and yields
+      - Analyze fission barriers and spontaneous fission
+    textbook_style_content:
+      - topic: Nuclear Fission Process
+        sections:
+          - section_title: Discovery and Overview of Fission
+            section_type: overview
+          - section_title: Liquid Drop Model and Fission Barrier
+            section_type: core_theory
+          - section_title: Induced and Spontaneous Fission
+            section_type: core_theory
+          - section_title: Fission Energy Release Calculations
+            section_type: core_theory
+          - section_title: Fission Product Distribution
+            section_type: core_theory
+          - section_title: Delayed Neutrons and Fission Fragments
+            section_type: related_concepts
+    milestone: Comprehensive understanding of fission mechanisms
+    duration_days: 5
+    tags:
+      - nuclear fission
+      - fission mechanism
+      - energy release
+      - fission products
+
+  - id: 6
+    title: Chain Reactions and Critical Mass
+    learning_objectives:
+      - Define chain reactions and multiplication factor
+      - Calculate critical mass for fissile materials
+      - Understand moderation and control of chain reactions
+      - Analyze reactor physics principles
+    textbook_style_content:
+      - topic: Nuclear Chain Reactions
+        sections:
+          - section_title: Chain Reaction Concept
+            section_type: overview
+          - section_title: Multiplication Factor and Criticality
+            section_type: core_theory
+          - section_title: Critical Mass Calculations
+            section_type: core_theory
+          - section_title: Neutron Moderation and Control
+            section_type: core_theory
+          - section_title: Nuclear Reactor Types
+            section_type: related_concepts
+    milestone: Master chain reaction calculations and criticality concepts
+    duration_days: 4
+    tags:
+      - chain reactions
+      - critical mass
+      - neutron moderation
+      - reactor physics
+
+  - id: 7
+    title: Nuclear Fusion - Principles and Processes
+    learning_objectives:
+      - Explain nuclear fusion mechanism and requirements
+      - Calculate energy release in fusion reactions
+      - Understand Coulomb barrier and tunneling
+      - Study stellar nucleosynthesis pathways
+    textbook_style_content:
+      - topic: Nuclear Fusion Fundamentals
+        sections:
+          - section_title: Fusion Process Overview
+            section_type: overview
+          - section_title: Coulomb Barrier and Quantum Tunneling
+            section_type: core_theory
+          - section_title: Fusion Energy Calculations
+            section_type: core_theory
+          - section_title: Temperature and Confinement Requirements
+            section_type: core_theory
+          - section_title: Stellar Nucleosynthesis
+            section_type: core_theory
+          - section_title: Proton-Proton Chain and CNO Cycle
+            section_type: related_concepts
+    milestone: Understand fusion principles and stellar processes
+    duration_days: 5
+    tags:
+      - nuclear fusion
+      - Coulomb barrier
+      - stellar nucleosynthesis
+      - fusion energy
+
+  - id: 8
+    title: Controlled Fusion and Applications
+    learning_objectives:
+      - Compare magnetic and inertial confinement fusion
+      - Understand Lawson criterion and plasma physics
+      - Study fusion reactor designs and challenges
+      - Analyze fusion reactions for energy production
+    textbook_style_content:
+      - topic: Controlled Nuclear Fusion
+        sections:
+          - section_title: Controlled Fusion Approaches
+            section_type: overview
+          - section_title: Magnetic Confinement Fusion
+            section_type: core_theory
+          - section_title: Inertial Confinement Fusion
+            section_type: core_theory
+          - section_title: Lawson Criterion and Triple Product
+            section_type: core_theory
+          - section_title: Fusion Reactor Designs
+            section_type: related_concepts
+          - section_title: Future of Fusion Energy
+            section_type: related_concepts
+    milestone: Master controlled fusion concepts and technologies
+    duration_days: 4
+    tags:
+      - controlled fusion
+      - magnetic confinement
+      - inertial confinement
+      - Lawson criterion
+
+  - id: 9
+    title: Radiation Detection and Measurement
+    learning_objectives:
+      - Classify radiation detectors and their principles
+      - Understand ionization and scintillation detection
+      - Apply counting statistics and error analysis
+      - Operate radiation measurement instruments
+    textbook_style_content:
+      - topic: Radiation Detection Systems
+        sections:
+          - section_title: Interaction of Radiation with Matter
+            section_type: overview
+          - section_title: Gas-Filled Detectors
+            section_type: core_theory
+          - section_title: Scintillation Detectors
+            section_type: core_theory
+          - section_title: Semiconductor Detectors
+            section_type: core_theory
+          - section_title: Counting Statistics and Error Analysis
+            section_type: related_concepts
+          - section_title: Energy Resolution and Efficiency
+            section_type: related_concepts
+    milestone: Proficiency in radiation detection principles
+    duration_days: 5
+    tags:
+      - radiation detection
+      - detectors
+      - counting statistics
+      - measurement
+
+  - id: 10
+    title: Radio-analytical Techniques - Tracer Methods
+    learning_objectives:
+      - Apply radiotracer techniques in chemical analysis
+      - Design experiments using isotopic tracers
+      - Understand radiotracer kinetics and mechanisms
+      - Solve problems involving tracer dilution
+    textbook_style_content:
+      - topic: Radiotracer Techniques
+        sections:
+          - section_title: Principles of Radiotracer Methods
+            section_type: overview
+          - section_title: Selection of Suitable Radiotracers
+            section_type: core_theory
+          - section_title: Tracer Applications in Chemistry
+            section_type: core_theory
+          - section_title: Isotope Dilution Analysis
+            section_type: core_theory
+          - section_title: Tracer Kinetics and Mechanism Studies
+            section_type: related_concepts
+    milestone: Master radiotracer techniques and applications
+    duration_days: 5
+    tags:
+      - radiotracers
+      - isotope dilution
+      - analytical techniques
+      - chemical analysis
+
+  - id: 11
+    title: Radio-analytical Techniques - Advanced Methods
+    learning_objectives:
+      - Perform radiometric titrations
+      - Apply substoichiometric analysis techniques
+      - Use autoradiography for spatial analysis
+      - Conduct hot atom chemistry studies
+    textbook_style_content:
+      - topic: Advanced Radioanalytical Methods
+        sections:
+          - section_title: Radiometric Titrations
+            section_type: core_theory
+          - section_title: Substoichiometric Analysis
+            section_type: core_theory
+          - section_title: Autoradiography Techniques
+            section_type: core_theory
+          - section_title: Radio-release Analysis
+            section_type: core_theory
+          - section_title: Hot Atom Chemistry
+            section_type: related_concepts
+          - section_title: Szilard-Chalmers Effect
+            section_type: related_concepts
+    milestone: Proficiency in advanced radioanalytical methods
+    duration_days: 5
+    tags:
+      - radiometric titration
+      - substoichiometric analysis
+      - autoradiography
+      - advanced techniques
+
+  - id: 12
+    title: Activation Analysis - Neutron Activation
+    learning_objectives:
+      - Explain principles of neutron activation analysis
+      - Calculate activation equations and decay corrections
+      - Design NAA experimental procedures
+      - Perform quantitative elemental analysis using NAA
+    textbook_style_content:
+      - topic: Neutron Activation Analysis Principles
+        sections:
+          - section_title: Overview of Activation Analysis
+            section_type: overview
+          - section_title: Nuclear Reactions in Activation
+            section_type: core_theory
+          - section_title: Activation Equation and Mathematics
+            section_type: core_theory
+          - section_title: Neutron Flux and Cross-Sections
+            section_type: core_theory
+          - section_title: Saturation Activity and Specific Activity
+            section_type: core_theory
+          - section_title: Decay Corrections and Counting
+            section_type: related_concepts
+    milestone: Understand NAA principles and calculations
+    duration_days: 6
+    tags:
+      - neutron activation analysis
+      - NAA
+      - activation equation
+      - quantitative analysis
+
+  - id: 13
+    title: Activation Analysis - Techniques and Applications
+    learning_objectives:
+      - Compare instrumental and radiochemical NAA
+      - Apply comparative and absolute methods
+      - Perform multi-element analysis using NAA
+      - Solve practical NAA problems
+    textbook_style_content:
+      - topic: NAA Techniques and Methodology
+        sections:
+          - section_title: Instrumental NAA versus Radiochemical NAA
+            section_type: core_theory
+          - section_title: Comparative and Absolute Methods
+            section_type: core_theory
+          - section_title: Sample Preparation and Irradiation
+            section_type: core_theory
+          - section_title: Gamma-Ray Spectrometry in NAA
+            section_type: core_theory
+          - section_title: Multi-Element Analysis
+            section_type: related_concepts
+          - section_title: Interferences and Corrections
+            section_type: related_concepts
+    milestone: Master NAA experimental techniques
+    duration_days: 5
+    tags:
+      - INAA
+      - RNAA
+      - multi-element analysis
+      - gamma spectrometry
+
+  - id: 14
+    title: Activation Analysis - Other Activation Methods
+    learning_objectives:
+      - Study charged particle activation analysis
+      - Understand photon activation analysis
+      - Compare different activation techniques
+      - Select appropriate activation method for analysis
+    textbook_style_content:
+      - topic: Alternative Activation Methods
+        sections:
+          - section_title: Charged Particle Activation Analysis
+            section_type: core_theory
+          - section_title: Photon Activation Analysis
+            section_type: core_theory
+          - section_title: Cyclic Activation Analysis
+            section_type: core_theory
+          - section_title: Prompt Gamma NAA
+            section_type: related_concepts
+          - section_title: Comparison of Activation Techniques
+            section_type: related_concepts
+    milestone: Understand diverse activation analysis methods
+    duration_days: 4
+    tags:
+      - CPAA
+      - PAA
+      - activation methods
+      - analytical comparison
+
+  - id: 15
+    title: Applications of Nuclear Chemistry
+    learning_objectives:
+      - Apply nuclear techniques in medicine and industry
+      - Understand nuclear energy production systems
+      - Study radioisotope production and applications
+      - Analyze environmental and geological applications
+    textbook_style_content:
+      - topic: Nuclear Chemistry Applications
+        sections:
+          - section_title: Nuclear Applications Overview
+            section_type: overview
+          - section_title: Medical Applications and Radiopharmaceuticals
+            section_type: related_concepts
+          - section_title: Industrial Applications and Tracers
+            section_type: related_concepts
+          - section_title: Nuclear Power Generation
+            section_type: related_concepts
+          - section_title: Radioisotope Production Methods
+            section_type: related_concepts
+          - section_title: Environmental and Dating Applications
+            section_type: related_concepts
+    milestone: Comprehensive knowledge of nuclear chemistry applications
+    duration_days: 5
+    tags:
+      - applications
+      - medical
+      - industrial
+      - nuclear energy
+
+  - id: 16
+    title: Nuclear Safety and Waste Management
+    learning_objectives:
+      - Understand radiation safety principles and dose limits
+      - Apply ALARA principle in nuclear operations
+      - Study radioactive waste classification and disposal
+      - Analyze decontamination and decommissioning processes
+    textbook_style_content:
+      - topic: Safety and Waste Considerations
+        sections:
+          - section_title: Radiation Safety Principles
+            section_type: overview
+          - section_title: Dose Units and Biological Effects
+            section_type: related_concepts
+          - section_title: Radiation Protection Methods
+            section_type: related_concepts
+          - section_title: Radioactive Waste Management
+            section_type: related_concepts
+          - section_title: Nuclear Facility Decommissioning
+            section_type: related_concepts
+    milestone: Understand nuclear safety and waste management protocols
+    duration_days: 4
+    tags:
+      - radiation safety
+      - waste management
+      - ALARA
+      - decommissioning

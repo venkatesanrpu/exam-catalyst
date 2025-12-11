@@ -1,0 +1,372 @@
+<?php
+/**
+ * MCQ Widget AJAX Endpoint (Streaming to Buffer → Parse → Store → Display)
+ * FILE: blocks/ai_assistant/ajax/mcq_widget_ajax.php
+ */
+
+define('AJAX_SCRIPT', true);
+
+require_once(__DIR__ . '/../../../config.php');
+require_once($CFG->dirroot . '/local/ai_functions/lib5mcq.php');
+
+require_login();
+require_sesskey();
+
+header('Content-Type: application/json');
+header('Cache-Control: no-cache');
+
+while (ob_get_level() > 0) {
+    ob_end_clean();
+}
+
+set_time_limit(240);
+ini_set('max_execution_time', 240);
+
+try {
+    global $DB, $USER, $CFG;
+
+    // ==================== GET PARAMETERS ====================
+
+    $agentkey       = required_param('agent_config_key', PARAM_ALPHANUMEXT);
+    $level          = required_param('level', PARAM_ALPHA);
+    $agenttext      = required_param('agent_text', PARAM_RAW);
+    $mainsubjectkey = required_param('mainsubject', PARAM_ALPHANUMEXT);
+    $target         = optional_param('target', 'CSIR Chemical Sciences Exam', PARAM_TEXT);
+    $subject        = optional_param('subject', 'Chemistry', PARAM_TEXT);
+    $topic          = optional_param('topic', '', PARAM_TEXT);
+    $lesson         = optional_param('lesson', '', PARAM_TEXT);
+    $tags           = optional_param('tags', '', PARAM_RAW);
+    $courseid       = required_param('courseid', PARAM_INT);
+
+    // Optional concept fields (kept as plain strings for now)
+    $core_concepts      = optional_param('core_concepts', '', PARAM_TEXT);
+    $related_concepts   = optional_param('related_concepts', '', PARAM_TEXT);
+
+    $valid_levels = ['basic', 'intermediate', 'advanced'];
+    if (!in_array($level, $valid_levels)) {
+        throw new Exception('Invalid level: ' . $level);
+    }
+
+    error_log("MCQ Widget - Main Subject Key: {$mainsubjectkey}, Level: {$level}");
+
+    // ==================== QUESTION COUNT / PROMPT FILE / TOKENS ====================
+
+    $question_count = 5;
+    $mcqinstruction = '';
+    $max_tokens     = 1500;
+
+    switch ($level) {
+        case 'basic':
+            $question_count = 10;
+            $mcqinstruction = "{$mainsubjectkey}_mcq_basic.txt";
+            $max_tokens     = 3000;
+            break;
+
+        case 'intermediate':
+            $question_count = 10;
+            $mcqinstruction = "{$mainsubjectkey}_mcq_intermediate.txt";
+            $max_tokens     = 3500;
+            break;
+
+        case 'advanced':
+            $question_count = 1;
+            $mcqinstruction = "{$mainsubjectkey}_mcq_advanced.txt";
+            $max_tokens     = 4000;
+            break;
+
+        default:
+            $question_count = 5;
+            $mcqinstruction = "{$mainsubjectkey}_mcq_basic.txt";
+            $max_tokens     = 1500;
+            break;
+    }
+
+    // ==================== LOAD PROMPT TEMPLATE ====================
+
+    $prompt_file = $CFG->dirroot . "/blocks/ai_assistant/prompts/{$mcqinstruction}";
+
+    if (!file_exists($prompt_file)) {
+        error_log("MCQ Widget - Subject-specific prompt not found: {$mcqinstruction}");
+        $mcqinstruction_upper = strtoupper($mainsubjectkey) . "_mcq_{$level}.txt";
+        $prompt_file_upper    = $CFG->dirroot . "/blocks/ai_assistant/prompts/{$mcqinstruction_upper}";
+
+        if (file_exists($prompt_file_upper)) {
+            $mcqinstruction = $mcqinstruction_upper;
+            $prompt_file    = $prompt_file_upper;
+            error_log("MCQ Widget - Using uppercase version: {$mcqinstruction}");
+        } else {
+            throw new Exception("MCQ prompt file not found for subject '{$mainsubjectkey}' and level '{$level}'. Expected: {$mcqinstruction} or {$mcqinstruction_upper}");
+        }
+    }
+
+    error_log("MCQ Widget - Using prompt file: {$mcqinstruction}");
+
+    $prompt_template = file_get_contents($prompt_file);
+
+    // ==================== SUBSTITUTE PLACEHOLDERS ====================
+
+    $placeholders = [
+        '{QUESTION_COUNT}'    => $question_count,
+        '{TARGET_EXAM}'       => $target,
+        '{SUBJECT}'           => $subject,
+        '{TOPIC}'             => $topic,
+        '{LESSON}'            => $lesson,
+        '{LEVEL}'             => strtolower($level),
+        '{AGENT_TEXT}'        => $agenttext,
+        '{TAGS}'              => $tags,
+        '{CORE_CONCEPTS}'     => $core_concepts,
+        '{RELATED_CONCEPTS}'  => $related_concepts
+    ];
+
+    $system_prompt = str_replace(
+        array_keys($placeholders),
+        array_values($placeholders),
+        $prompt_template
+    );
+
+    // ==================== BUILD RESPONSES PAYLOAD ====================
+
+    $payload = [
+        'messages' => [
+            ['role' => 'system', 'content' => $system_prompt],
+            ['role' => 'user',   'content' => "Generate {$question_count} MCQs on: {$agenttext}"]
+        ],
+        'stream'=> false,
+		'max_tokens' => $max_tokens,
+        'temperature'=>0.4,
+		'top_p'=>0.9,
+		'frequency_penalty'=>0.1,
+		'presence_penalty'=>0.3,
+    ];
+
+    // ==================== CALL lib5mcq (STREAM → BUFFER) ====================
+
+    error_log("MCQ Widget - Starting streaming API call: Level={$level}, Subject={$mainsubjectkey}, Count={$question_count}, MaxTokens={$max_tokens}");
+
+    $start_time = microtime(true);
+
+    $result = local_ai_functions_call_endpoint_gpt5_mcq($agentkey, 'mcq_widget', $payload);
+
+    $api_duration = round((microtime(true) - $start_time) * 1000);
+    error_log('MCQ Widget - Streaming API call completed in ' . $api_duration . 'ms');
+
+    if (!$result['success']) {
+        throw new Exception('Streaming API error: ' . ($result['error'] ?? 'Unknown error'));
+    }
+
+    $full_text    = $result['text'];
+    $api_metadata = $result['metadata'] ?? [];
+
+    if (empty($full_text)) {
+        throw new Exception('Empty response from streaming API');
+    }
+
+    error_log('MCQ Widget - Extracted text length: ' . strlen($full_text) . ' chars');
+
+    // ==================== MODEL INFO / TOKENS ====================
+
+    $model_used       = 'gpt-5-mini';
+    $response_id      = $api_metadata['response_id'] ?? 'unknown';
+    $prompt_tokens    = $api_metadata['usage']['input_tokens']  ?? 0;
+    $completion_tokens= $api_metadata['usage']['output_tokens'] ?? 0;
+    $total_tokens     = $api_metadata['usage']['total_tokens']  ?? 0;
+    $finish_reason    = $api_metadata['finish_reason'] ?? 'unknown';
+
+    error_log("MCQ Widget - Model: {$model_used}, Response ID: {$response_id}");
+    error_log("MCQ Widget - Token usage - Prompt: {$prompt_tokens}, Completion: {$completion_tokens}, Total: {$total_tokens}");
+    error_log("MCQ Widget - Finish reason: {$finish_reason}");
+
+    // ==================== PARSE TEXT → JSON QUESTIONS ====================
+
+    $mcq_data = parse_mcq_text_to_json($full_text);
+
+    if (!$mcq_data || !isset($mcq_data['questions']) || count($mcq_data['questions']) === 0) {
+        error_log('MCQ Widget - Parser failed. Text preview: ' . substr($full_text, 0, 500));
+        throw new Exception('Failed to parse MCQ text into structured format.');
+    }
+
+    $questions_parsed = count($mcq_data['questions']);
+    error_log('MCQ Widget - Successfully parsed ' . $questions_parsed . ' questions');
+
+    // ==================== ATTACH METADATA ====================
+
+    $mcq_data['metadata'] = [
+        'level'           => $level,
+        'count'           => $questions_parsed,
+        'subject'         => $subject,
+        'topic'           => $topic,
+        'lesson'          => $lesson,
+        'target_exam'     => $target,
+        'agent_text'      => $agenttext,
+        'tags'            => $tags,
+        'main_subject_key'=> $mainsubjectkey,
+        'prompt_file'     => $mcqinstruction,
+        'core_concepts'   => $core_concepts,
+        'related_concepts'=> $related_concepts,
+        'is_dummy'        => false,
+        'generated_at'    => time(),
+        'api_duration_ms' => $api_duration,
+        'format_version'  => '1.0',
+        'model'           => $model_used,
+        'response_id'     => $response_id,
+        'tokens' => [
+            'prompt'     => $prompt_tokens,
+            'completion' => $completion_tokens,
+            'total'      => $total_tokens
+        ],
+        'finish_reason'   => $finish_reason
+    ];
+
+    // ==================== STORE IN HISTORY TABLE ====================
+
+    $usertext       = strtoupper($level) . " MCQ: " . $agenttext;
+    $json_response  = json_encode($mcq_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    $metadata_json  = json_encode($mcq_data['metadata'], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+    $history_record = new stdClass();
+    $history_record->userid        = $USER->id;
+    $history_record->courseid      = $courseid;
+    $history_record->usertext      = $usertext;
+    $history_record->botresponse   = $json_response;
+    $history_record->metadata      = $metadata_json;
+    $history_record->functioncalled= 'mcq_widget';
+    $history_record->subject       = $subject;
+    $history_record->topic         = $topic;
+    $history_record->lesson        = $lesson;
+    $history_record->timecreated   = time();
+    $history_record->timemodified  = time();
+
+    $history_id = $DB->insert_record('block_ai_assistant_history', $history_record);
+
+    $mcq_data['metadata']['history_id'] = $history_id;
+
+    // ==================== SEND RESPONSE ====================
+
+    echo json_encode([
+        'status' => 'success',
+        'data'   => $mcq_data
+    ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+} catch (Exception $e) {
+    error_log('MCQ Widget Error: ' . $e->getMessage());
+    error_log('MCQ Widget Error Location: ' . $e->getFile() . ':' . $e->getLine());
+    error_log('MCQ Widget Error Trace: ' . $e->getTraceAsString());
+
+    http_response_code(500);
+    echo json_encode([
+        'status'  => 'error',
+        'message' => $e->getMessage(),
+        'code'    => 'MCQ_GENERATION_ERROR'
+    ], JSON_PRETTY_PRINT);
+}
+
+/**
+ * Parse MCQ text format to JSON structure.
+ * Expected pattern:
+ * Q1. ...
+ * A. ...
+ * B. ...
+ * C. ...
+ * D. ...
+ * **Answer: X**
+ * **Explanation:** ...
+ */
+function parse_mcq_text_to_json(string $text): array {
+    $questions = [];
+
+    $text = str_replace('**DONE**', '', $text);
+    $text = trim($text);
+
+    $parts = preg_split('/(^|\n)(?=Q\d+\.)/m', $text);
+
+    foreach ($parts as $part) {
+        $part = trim($part);
+        if ($part === '') {
+            continue;
+        }
+
+        if (!preg_match('/^Q(\d+)\.\s*/i', $part, $q_num_match)) {
+            continue;
+        }
+
+        $qnum = (int)$q_num_match[1];
+        $part = preg_replace('/^Q\d+\.\s*/i', '', $part);
+
+        $sections         = preg_split('/\n---+\n/s', $part);
+        $question_section = trim($sections[0]);
+
+        if (!preg_match('/^(.+?)(?=\s*\n\s*A\.)/s', $question_section, $q_text_match)) {
+            error_log("MCQ Parser - Could not extract question text for Q{$qnum}");
+            continue;
+        }
+
+        $question_text = trim($q_text_match[1]);
+
+        $options        = [];
+        $option_pattern = '/([A-D])\.\s*(.+?)(?=\s*\n\s*[A-D]\.|$|\*\*Answer)/s';
+
+        if (preg_match_all($option_pattern, $question_section, $opt_matches, PREG_SET_ORDER)) {
+            foreach ($opt_matches as $opt) {
+                $opt_text  = trim($opt[2]);
+                $opt_text  = preg_replace('/\s+/', ' ', $opt_text);
+                $options[] = $opt_text;
+            }
+        }
+
+        $correct = '';
+        if (preg_match('/\*\*Answer:\s*([A-D])\*\*/i', $question_section, $ans_match)) {
+            $correct = strtoupper(trim($ans_match[1]));
+        } elseif (preg_match('/Answer:\s*([A-D])/i', $question_section, $ans_match)) {
+            $correct = strtoupper(trim($ans_match[1]));
+        }
+
+        $explanation = '';
+        if (preg_match('/\*\*Explanation:\*\*\s*(.+?)$/s', $question_section, $exp_match)) {
+            $explanation = trim($exp_match[1]);
+        } elseif (preg_match('/Explanation:\s*(.+?)$/s', $question_section, $exp_match)) {
+            $explanation = trim($exp_match[1]);
+        }
+
+        $explanation = preg_replace('/^\s*[-•]\s*/m', '', $explanation);
+        $explanation = preg_replace('/\n{3,}/', "\n\n", $explanation);
+        $explanation = rtrim($explanation, '-');
+        $explanation = trim($explanation);
+
+        $is_valid = true;
+        $errors   = [];
+
+        if ($question_text === '') {
+            $errors[] = 'Missing question text';
+            $is_valid = false;
+        }
+
+        if (count($options) < 4) {
+            $errors[] = 'Less than 4 options';
+            $is_valid = false;
+        }
+
+        if ($correct === '' || !preg_match('/^[A-D]$/', $correct)) {
+            $errors[] = 'Invalid or missing correct answer';
+            $is_valid = false;
+        }
+
+        if ($explanation === '') {
+            $explanation = 'No explanation provided.';
+            error_log("MCQ Parser - Warning: Q{$qnum} has no explanation");
+        }
+
+        if ($is_valid) {
+            $questions[] = [
+                'question'    => $question_text,
+                'options'     => array_slice($options, 0, 4),
+                'correct'     => $correct,
+                'explanation' => $explanation
+            ];
+            error_log("MCQ Parser - Successfully parsed Q{$qnum}");
+        } else {
+            error_log("MCQ Parser - Skipping invalid Q{$qnum}: " . implode(', ', $errors));
+        }
+    }
+
+    return ['questions' => $questions];
+}

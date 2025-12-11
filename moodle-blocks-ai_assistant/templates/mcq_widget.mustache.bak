@@ -2,7 +2,7 @@
     FILE: blocks/ai_assistant/templates/mcq_widget.mustache
     PURPOSE: Flashcard-style MCQ practice modal with LaTeX support
     FEATURES: Card-by-card display, Show Answer/Question toggle, keyboard navigation, practice again support, KaTeX rendering
-    SECURITY: Includes sesskey validation for AJAX requests
+    SECURITY: Includes sesskey validation for AJAX requests, duplicate click prevention
 }}
 
 <!-- KaTeX CSS -->
@@ -80,9 +80,11 @@
     
     // ==================== CONFIGURATION ====================
     const agentConfigKey = '{{agentkey}}';
+    const mainSubjectKey = '{{mainsubjectkey}}';
     const sesskey = '{{sesskey}}';
     const courseid = {{courseid}};
     const mcqWidgetAjaxUrl = '{{mcqwidgetajaxurl}}';
+    const defaultTargetExam = '{{targetexam}}';  // From agent config or block settings
     
     // Validate required configuration
     if (!sesskey || sesskey === '{{' + 'sesskey' + '}}') {
@@ -97,7 +99,9 @@
     
     console.log('✅ Configuration loaded:', {
         agentKey: agentConfigKey,
+        mainSubject: mainSubjectKey,
         courseId: courseid,
+        defaultTargetExam: defaultTargetExam,
         hasSesskey: !!sesskey,
         hasKaTeX: typeof window.katex !== 'undefined'
     });
@@ -124,6 +128,8 @@
     let currentCardIndex = 0;
     let showingAnswer = false;
     let historyId = null;
+    let isLoadingMcq = false;
+    let lastClickTime = 0;
     
     // ==================== LATEX RENDERING ====================
     
@@ -286,6 +292,7 @@
             url.searchParams.append('agent_config_key', agentConfigKey);
             url.searchParams.append('agent_text', params.agent_text);
             url.searchParams.append('level', params.level);
+            url.searchParams.append('mainsubject', mainSubjectKey);
             url.searchParams.append('courseid', courseid);
             
             if (params.target) url.searchParams.append('target', params.target);
@@ -293,6 +300,7 @@
             if (params.topic) url.searchParams.append('topic', params.topic);
             if (params.lesson) url.searchParams.append('lesson', params.lesson);
             if (params.tags) url.searchParams.append('tags', params.tags);
+			if (params.number) url.searchParams.append('number', params.number);
             
             console.log('🌐 Fetching MCQ data:', url.toString());
             
@@ -349,10 +357,20 @@
     // ==================== MODAL CONTROLS ====================
     
     window.openMCQWidget = function(params) {
+        if (isLoadingMcq) {
+            console.log('⏳ MCQ request already in progress, ignoring click');
+            return;
+        }
+        
+        isLoadingMcq = true;
+        
         console.log('🎴 Opening MCQ Widget with params:', params);
         modal.style.display = 'flex';
         document.body.style.overflow = 'hidden';
-        fetchMCQData(params);
+        
+        fetchMCQData(params).finally(() => {
+            isLoadingMcq = false;
+        });
     };
     
     window.closeMCQWidget = function() {
@@ -363,6 +381,7 @@
         currentCardIndex = 0;
         showingAnswer = false;
         historyId = null;
+        isLoadingMcq = false;  // Reset loading flag
         
         // Reset loading state
         loadingElement.innerHTML = `
@@ -438,13 +457,22 @@
         }
     });
     
-    // ==================== LINK HANDLER ====================
+    // ==================== LINK HANDLER WITH DEBOUNCING ====================
     
     document.addEventListener('click', (e) => {
         const link = e.target.closest('.mcq-flashcard-link');
         
         if (link) {
             e.preventDefault();
+            
+            // Debounce: ignore rapid clicks within 300ms
+            const now = Date.now();
+            if (now - lastClickTime < 300) {
+                console.log('⏱️ Click debounced (too fast)');
+                return;
+            }
+            lastClickTime = now;
+            
             const dataset = link.dataset;
             
             if (!dataset.function || !dataset.level || !dataset.agentText) {
@@ -452,15 +480,19 @@
                 return;
             }
             
+            // Use data-target if provided, otherwise use default from config
+            const targetExam = dataset.target || defaultTargetExam || 'CSIR Chemical Sciences Exam';
+            
             window.openMCQWidget({
                 function: dataset.function,
                 level: dataset.level,
                 agent_text: dataset.agentText,
-                target: dataset.target || 'CSIR Chemical Sciences Exam',
+                target: targetExam,
                 subject: dataset.subject || '',
                 topic: dataset.topic || '',
                 lesson: dataset.lesson || '',
-                tags: dataset.tags || ''
+                tags: dataset.tags || '',
+				number: dataset.number || ''
             });
         }
     });

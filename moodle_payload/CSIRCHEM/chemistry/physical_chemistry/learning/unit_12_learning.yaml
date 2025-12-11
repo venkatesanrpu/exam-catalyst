@@ -1,0 +1,68 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: 'Solid state: Crystal structures; Bragg''s law and applications;
+    point groups in crystals; band structure of solids; imperfections in solids'
+total_titles: 5
+learning_path:
+- id: 1
+  title: Fundamentals of Crystal Structures and Lattice Systems
+  learning_objectives:
+  - Define crystalline solids and distinguish them from amorphous materials based
+    on long-range order
+  - Identify and describe the seven crystal systems and their characteristic symmetry
+    elements
+  - Explain the concept of unit cells and their relationship to crystal lattices
+  - Classify the fourteen Bravais lattices based on centering and symmetry
+  - Calculate atomic packing factors for common crystal structures including FCC,
+    BCC, HCP, and diamond cubic
+  - Determine coordination numbers and nearest neighbor distances in various crystal
+    structures
+  - Apply Miller indices notation to describe crystallographic planes and directions
+- id: 2
+  title: X-ray Crystallography and Bragg's Law
+  learning_objectives:
+  - Explain the physical basis of X-ray diffraction by crystal planes
+  - Derive Bragg's law from first principles and understand its geometric interpretation
+  - Apply Bragg's law to determine interplanar spacings from diffraction angles
+  - Distinguish between allowed and forbidden reflections using structure factor calculations
+  - Analyze powder X-ray diffraction patterns to identify crystal structures
+  - Determine lattice parameters from diffraction data for cubic, tetragonal, and
+    orthorhombic systems
+  - Understand the reciprocal lattice and its relationship to diffraction patterns
+  - Explain systematic absences and their relationship to crystal symmetry
+- id: 3
+  title: Symmetry Operations and Point Groups in Crystals
+  learning_objectives:
+  - Define and perform symmetry operations including rotation, reflection, inversion,
+    and rotoinversion
+  - Identify all symmetry elements present in a given crystal structure
+  - Apply group theory concepts to classify crystal point groups
+  - Distinguish between the 32 crystallographic point groups
+  - Relate point group symmetry to physical properties like optical activity and piezoelectricity
+  - Understand the relationship between point groups and space groups
+  - Use Hermann-Mauguin and Schoenflies notation for symmetry operations
+  - Predict the absence or presence of physical properties based on symmetry constraints
+- id: 4
+  title: Electronic Band Structure of Solids
+  learning_objectives:
+  - Explain the formation of energy bands from atomic orbitals in solids
+  - Distinguish between conductors, semiconductors, and insulators based on band structure
+  - Apply Bloch's theorem to describe electron wave functions in periodic potentials
+  - Calculate density of states and understand its role in electronic properties
+  - Explain the concept of effective mass and its dependence on band curvature
+  - Understand direct and indirect band gaps in semiconductors
+  - Describe the Fermi-Dirac distribution and the concept of Fermi level
+  - Analyze band structure diagrams and relate them to physical properties
+- id: 5
+  title: Imperfections and Defects in Crystalline Solids
+  learning_objectives:
+  - Classify defects as point, line, surface, or volume defects
+  - Explain the thermodynamics of defect formation and calculate equilibrium defect
+    concentrations
+  - Distinguish between intrinsic and extrinsic defects in ionic and covalent solids
+  - Analyze Schottky and Frenkel defects using Kröger-Vink notation
+  - Understand dislocations and their role in plastic deformation
+  - Describe grain boundaries, stacking faults, and twin boundaries
+  - Explain the influence of defects on electrical, optical, and mechanical properties
+  - Apply defect chemistry to doping in semiconductors and solid-state ionic conductors

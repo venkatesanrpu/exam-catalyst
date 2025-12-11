@@ -1,0 +1,136 @@
+metadata:
+  subject: Physical Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: 'Statistical thermodynamics: Boltzmann distribution; kinetic theory
+    of gases; partition functions and their relation to thermodynamic quantities –
+    calculations for model systems.'
+total_titles: 18
+learning_path:
+- id: 1
+  title: Foundations of Statistical Thermodynamics
+  learning_objectives:
+  - Understand the bridge between microscopic molecular behavior and macroscopic thermodynamic
+    properties
+  - Master the concept of statistical ensembles and probability distributions
+  - Derive the Boltzmann distribution from first principles
+  - Calculate statistical weights and degeneracies for simple systems
+- id: 2
+  title: Partition Functions - Theory and Formulation
+  learning_objectives:
+  - Define molecular and canonical partition functions rigorously
+  - Understand factorization of partition functions for independent modes
+  - Relate partition functions to the Boltzmann sum over states
+  - Master the mathematical structure of partition functions
+- id: 3
+  title: Translational Partition Function
+  learning_objectives:
+  - Derive the translational partition function for particles in a box
+  - Apply quantum mechanical particle-in-a-box energy levels
+  - Evaluate the translational partition function for ideal gases
+  - Calculate translational contributions to thermodynamic properties
+- id: 4
+  title: Rotational Partition Function
+  learning_objectives:
+  - Derive rotational partition functions for linear and nonlinear molecules
+  - Apply rigid rotor approximation and rotational energy levels
+  - Evaluate rotational partition functions in high and low temperature limits
+  - Account for symmetry numbers in identical nuclei
+- id: 5
+  title: Vibrational Partition Function
+  learning_objectives:
+  - Derive vibrational partition function using harmonic oscillator model
+  - Apply quantum mechanical harmonic oscillator energy levels
+  - Evaluate vibrational contributions at different temperature regimes
+  - Extend to polyatomic molecules with multiple normal modes
+- id: 6
+  title: Electronic Partition Function
+  learning_objectives:
+  - Define electronic partition function and its typical simplifications
+  - Understand electronic state degeneracy and energy separations
+  - Apply electronic partition functions for atoms and molecules
+  - Recognize when electronic excitation is thermally accessible
+- id: 7
+  title: Thermodynamic Properties from Partition Functions
+  learning_objectives:
+  - Derive relationships between partition functions and thermodynamic properties
+  - Calculate internal energy, entropy, Helmholtz free energy, and heat capacity from
+    partition functions
+  - Apply thermodynamic relations to model systems
+  - Connect statistical mechanics to classical thermodynamics
+- id: 8
+  title: Kinetic Theory of Gases - Foundations
+  learning_objectives:
+  - Develop molecular picture of gas pressure and temperature
+  - Derive equations for molecular velocities and kinetic energy
+  - Understand mean free path and collision frequency
+  - Connect kinetic theory to macroscopic gas properties
+- id: 9
+  title: Maxwell-Boltzmann Velocity Distribution
+  learning_objectives:
+  - Derive the Maxwell-Boltzmann velocity and speed distributions
+  - Understand the statistical origin of velocity distributions
+  - Calculate fraction of molecules in velocity ranges
+  - Apply velocity distribution to physical and chemical processes
+- id: 10
+  title: Transport Properties from Kinetic Theory
+  learning_objectives:
+  - Derive expressions for viscosity, thermal conductivity, and diffusion
+  - Understand molecular basis of transport phenomena
+  - Calculate transport coefficients from molecular parameters
+  - Apply kinetic theory to real gas systems
+- id: 11
+  title: Model System I - Ideal Monatomic Gas
+  learning_objectives:
+  - Apply complete statistical mechanical treatment to monatomic gases
+  - Calculate all thermodynamic properties from partition functions
+  - Verify consistency with experimental data
+  - Master the complete calculation workflow
+- id: 12
+  title: Model System II - Ideal Diatomic Gas
+  learning_objectives:
+  - Apply statistical mechanics to diatomic molecules with multiple energy modes
+  - Calculate contributions from translational, rotational, and vibrational modes
+  - Understand temperature regimes for mode activation
+  - Compare theoretical predictions with experimental heat capacities
+- id: 13
+  title: Model System III - Polyatomic Molecules
+  learning_objectives:
+  - Extend statistical mechanical treatment to polyatomic molecules
+  - Handle multiple rotational constants and vibrational modes
+  - Calculate thermodynamic properties for linear and nonlinear molecules
+  - Apply to molecules with various symmetries
+- id: 14
+  title: Model System IV - Two-Level Systems and Paramagnets
+  learning_objectives:
+  - Analyze simplest quantum system with statistical mechanics
+  - Calculate partition function and properties for two-level systems
+  - Apply to paramagnetic systems in magnetic fields
+  - Understand Schottky anomaly in heat capacity
+- id: 15
+  title: Model System V - Harmonic Oscillator Systems
+  learning_objectives:
+  - Apply statistical mechanics to collections of quantum harmonic oscillators
+  - Calculate thermodynamic properties of oscillator ensembles
+  - Understand Einstein and Debye models of solids
+  - Compare quantum and classical treatments
+- id: 16
+  title: Advanced Topics - Real Gas Corrections and Non-Ideal Systems
+  learning_objectives:
+  - Understand limitations of ideal gas statistical mechanics
+  - Introduce configurational partition function
+  - Apply virial expansion approach
+  - Connect to equations of state for real gases
+- id: 17
+  title: Quantum Statistics - Fermi-Dirac and Bose-Einstein
+  learning_objectives:
+  - Understand quantum statistics for indistinguishable particles
+  - Distinguish fermions and bosons
+  - Apply Fermi-Dirac and Bose-Einstein distributions
+  - Connect to electron gas and photon gas
+- id: 18
+  title: Integration and Problem-Solving Practice
+  learning_objectives:
+  - Synthesize all concepts in comprehensive problems
+  - Develop systematic problem-solving approaches
+  - Apply statistical thermodynamics to CSIR exam-type questions
+  - Build speed and accuracy in calculations

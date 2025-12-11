@@ -1,0 +1,161 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Structure determination of organic compounds by IR, UV-Vis, 1H &
+    13C NMR and Mass spectroscopic techniques
+total_titles: 22
+learning_path:
+- id: 1
+  title: Introduction to Spectroscopy and Structure Determination
+  learning_objectives:
+  - Understand the electromagnetic spectrum and its relationship to molecular spectroscopy
+  - Recognize the complementary nature of different spectroscopic techniques
+  - Identify the information content provided by each spectroscopic method
+  - Develop a systematic approach to structure elucidation problems
+- id: 2
+  title: Infrared (IR) Spectroscopy - Principles and Theory
+  learning_objectives:
+  - Explain the theoretical basis of IR spectroscopy and molecular vibrations
+  - Understand selection rules for IR activity
+  - Identify types of molecular vibrations (stretching and bending)
+  - Calculate vibrational frequencies using Hooke's law approximation
+- id: 3
+  title: IR Spectroscopy - Functional Group Identification
+  learning_objectives:
+  - Recognize characteristic IR absorption frequencies for major functional groups
+  - Interpret IR spectra to identify functional groups in unknown compounds
+  - Distinguish between similar functional groups using IR data
+  - Apply fingerprint region analysis for structural confirmation
+- id: 4
+  title: UV-Visible Spectroscopy - Theory and Chromophores
+  learning_objectives:
+  - Explain electronic transitions in organic molecules
+  - Understand the Beer-Lambert law and its applications
+  - Identify chromophores and auxochromes in organic structures
+  - Recognize the effects of conjugation on UV-Vis absorption
+- id: 5
+  title: UV-Visible Spectroscopy - Empirical Rules and Applications
+  learning_objectives:
+  - Apply Woodward-Fieser rules for predicting λmax in conjugated systems
+  - Use Fieser-Kuhn rules for conjugated dienes
+  - Interpret UV-Vis spectra of aromatic compounds
+  - Employ UV-Vis data in structure elucidation
+- id: 6
+  title: Introduction to Nuclear Magnetic Resonance (NMR) Spectroscopy
+  learning_objectives:
+  - Understand the physical basis of NMR spectroscopy
+  - Explain nuclear spin and magnetic properties
+  - Describe the NMR phenomenon and resonance condition
+  - Recognize factors affecting chemical shift
+- id: 7
+  title: Proton (1H) NMR Spectroscopy - Chemical Shift
+  learning_objectives:
+  - Define chemical shift and its reference standard (TMS)
+  - Explain factors influencing chemical shift values
+  - Recognize typical chemical shift ranges for different proton environments
+  - Interpret chemical shift data for structure determination
+- id: 8
+  title: Proton (1H) NMR Spectroscopy - Integration and Peak Area
+  learning_objectives:
+  - Understand the relationship between integration and number of protons
+  - Calculate relative numbers of protons from integration curves
+  - Use integration data to support structural assignments
+  - Recognize limitations and practical considerations in integration
+- id: 9
+  title: Proton (1H) NMR Spectroscopy - Spin-Spin Coupling
+  learning_objectives:
+  - Explain the origin of spin-spin coupling (J-coupling)
+  - Apply the n+1 rule to predict splitting patterns
+  - Distinguish between first-order and complex coupling systems
+  - Recognize coupling constants and their structural significance
+- id: 10
+  title: Advanced Topics in 1H NMR Spectroscopy
+  learning_objectives:
+  - Recognize chemical and magnetic equivalence
+  - Interpret exchangeable protons and D2O shake experiments
+  - Understand aromatic coupling patterns
+  - Analyze spectra with complex multiplets
+- id: 11
+  title: Carbon-13 (13C) NMR Spectroscopy - Fundamentals
+  learning_objectives:
+  - Understand the unique properties of 13C nucleus
+  - Explain differences between 1H and 13C NMR spectroscopy
+  - Recognize the importance of decoupling techniques
+  - Interpret broadband decoupled 13C NMR spectra
+- id: 12
+  title: Carbon-13 (13C) NMR Spectroscopy - Chemical Shifts
+  learning_objectives:
+  - Recognize chemical shift ranges for different carbon environments
+  - Identify sp³, sp², and sp hybridized carbons
+  - Distinguish carbonyl, aromatic, and aliphatic carbons
+  - Apply 13C chemical shift data for structural assignments
+- id: 13
+  title: DEPT and Other 13C NMR Techniques
+  learning_objectives:
+  - Understand the DEPT (Distortionless Enhancement by Polarization Transfer) technique
+  - Distinguish between CH₃, CH₂, CH, and quaternary carbons
+  - Interpret DEPT-45, DEPT-90, and DEPT-135 spectra
+  - Apply DEPT data to solve structural problems
+- id: 14
+  title: Mass Spectrometry - Principles and Instrumentation
+  learning_objectives:
+  - Understand the basic principles of mass spectrometry
+  - Explain ionization methods (EI, CI, ESI, MALDI)
+  - Describe mass analyzers (quadrupole, TOF, magnetic sector)
+  - Interpret molecular ion peaks and isotope patterns
+- id: 15
+  title: Isotope Patterns and Molecular Formula Determination
+  learning_objectives:
+  - Recognize isotope patterns for common elements (Cl, Br, S)
+  - Calculate molecular formulas from high-resolution mass spectra
+  - Apply the nitrogen rule
+  - Determine degree of unsaturation from molecular formulas
+- id: 16
+  title: Fragmentation Patterns in Mass Spectrometry
+  learning_objectives:
+  - Understand the mechanisms of common fragmentation pathways
+  - Recognize characteristic fragmentations for functional groups
+  - Identify α-cleavage, McLafferty rearrangement, and other processes
+  - Use fragmentation patterns for structure elucidation
+- id: 17
+  title: Two-Dimensional NMR Spectroscopy
+  learning_objectives:
+  - Understand the principles of 2D NMR techniques
+  - Interpret COSY spectra for identifying coupled protons
+  - Use HETCOR/HSQC for proton-carbon correlations
+  - Apply HMBC for long-range correlations
+- id: 18
+  title: Integrated Structure Elucidation - Systematic Approach
+  learning_objectives:
+  - Develop a systematic strategy for structure determination
+  - Combine data from multiple spectroscopic techniques
+  - Extract complementary information from each method
+  - Build molecular structures from spectroscopic evidence
+- id: 19
+  title: Practice Problems - Simple Structures
+  learning_objectives:
+  - Solve structure determination problems for simple organic molecules
+  - Apply spectroscopic data systematically
+  - Identify common functional groups and simple frameworks
+  - Build confidence in basic structure elucidation
+- id: 20
+  title: Practice Problems - Intermediate Complexity
+  learning_objectives:
+  - Solve structure problems involving multiple functional groups
+  - Handle disubstituted aromatic compounds
+  - Interpret more complex NMR patterns
+  - Deal with overlapping signals and ambiguous data
+- id: 21
+  title: Practice Problems - Advanced Structures
+  learning_objectives:
+  - Solve complex structure determination problems
+  - Handle polyfunctional molecules and natural products
+  - Integrate 2D NMR data when necessary
+  - Develop expert-level analytical skills
+- id: 22
+  title: CSIR NET Exam-Focused Problem Solving
+  learning_objectives:
+  - Practice spectroscopy problems in CSIR NET exam format
+  - Develop time management strategies for spectroscopy questions
+  - Recognize common question patterns and traps
+  - Review previous year CSIR questions on spectroscopy
