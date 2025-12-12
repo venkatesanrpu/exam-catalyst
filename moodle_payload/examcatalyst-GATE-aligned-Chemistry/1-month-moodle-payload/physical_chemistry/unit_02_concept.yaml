@@ -1,0 +1,44 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: 'Multi-electron atoms: orbital approximation; electron spin; Pauli
+    exclusion principle; Slater determinants. Approximation Methods: Variation method
+    and secular determinants; first order perturbation techniques. Atomic units.'
+concepts:
+  core:
+  - name: Multi-Electron Atoms
+    clarifier: Quantum description of atoms with more than one electron
+  - name: Orbital Approximation
+    clarifier: Treating electrons as moving independently in effective one-electron
+      orbitals
+  - name: Electron Spin
+    clarifier: Intrinsic angular momentum; spin quantum number and spin functions
+  - name: Pauli Exclusion Principle
+    clarifier: No two electrons in an atom share the same set of quantum numbers
+  - name: Slater Determinants
+    clarifier: Antisymmetric many-electron wave functions built from spin-orbitals
+  - name: Variation Method
+    clarifier: Energy minimization principle for approximate ground states
+  - name: Secular Determinants
+    clarifier: Matrix form of variational equations for multi-parameter trial functions
+  - name: First-Order Perturbation Theory
+    clarifier: Correction to energies and wavefunctions for weak perturbations
+  - name: Atomic Units
+    clarifier: Natural unit system simplifying atomic-scale equations
+  related:
+  - name: Effective Nuclear Charge
+    clarifier: Net positive charge experienced by an electron in multi-electron atoms
+  - name: Screening and Shielding
+    clarifier: Reduction of nuclear attraction by other electrons
+  - name: Spin-Orbitals
+    clarifier: One-electron functions including spatial orbital and spin part
+  - name: Antisymmetry Requirement
+    clarifier: Many-electron wavefunction changes sign upon exchanging two electrons
+  - name: Hartree–Fock Idea
+    clarifier: Self-consistent field approach using orbital approximation
+  - name: Rayleigh–Ritz Principle
+    clarifier: Mathematical basis of variational method
+  - name: Degenerate vs Non-Degenerate Perturbation
+    clarifier: Different treatments when unperturbed levels are degenerate
+  - name: Unit Conversions in Atomic Units
+    clarifier: Relations between a.u. and SI units (energy, length, time)

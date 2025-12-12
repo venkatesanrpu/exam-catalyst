@@ -1,0 +1,703 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Chemistry of noble gases, pseudohalogens, and interhalogen compounds.
+
+concepts:
+  core:
+    - name: Noble Gas Chemistry
+      clarifier: Electronic configuration and inertness; conditions for compound formation; fluorides, oxides, and other derivatives
+    - name: Xenon Compounds
+      clarifier: XeF₂, XeF₄, XeF₆, XeO₃, XeO₄; structural diversity; bonding and reactivity patterns
+    - name: Radon Chemistry
+      clarifier: Radioactive noble gas; fluorides and oxides; theoretical predictions based on periodic trends
+    - name: Pseudohalogens
+      clarifier: CN⁻, SCN⁻, N₃⁻, OCN⁻, SeCN⁻; pseudo-halide character and halide-like behavior
+    - name: Interhalogen Compounds
+      clarifier: Binary compounds of halogens (ClF, BrF₃, IF₅, IF₇, etc.); structures, bonding, and reactivity
+    - name: Polyinterhalogen Ions
+      clarifier: Complex ions like ICl₄⁻, BrF₄⁻, IF₈⁻; charge distribution and structural determination
+    - name: Noble Gas Fluorides
+      clarifier: XeF₂, XeF₄, XeF₆; hypervalency; VSEPR predictions and actual structures
+    - name: Noble Gas Oxides and Oxyfluorides
+      clarifier: XeO₃, XeO₄, XeOF₄; thermal stability and oxidizing ability
+
+  related:
+    - name: Hypervalency and Expanded Octets
+      clarifier: Bonding models for compounds with >8 valence electrons; d-orbital participation debate
+    - name: VSEPR Theory Extended
+      clarifier: Application to compounds with more than 8 electrons; lone pair-bonding pair interactions
+    - name: Oxidation States in Unusual Systems
+      clarifier: Formal vs. actual oxidation states; electron localization in interhalogen compounds
+    - name: Spectroscopic Characterization
+      clarifier: NMR, Raman, IR spectroscopy; F-19 NMR for fluorine-containing compounds
+    - name: Halogen Chemistry Fundamentals
+      clarifier: Electronegativity, oxidation states, and reactivity trends in halogen family
+    - name: Solid-State Structures
+      clarifier: Crystal packing in noble gas compounds; polymeric and layered structures
+    - name: Thermodynamic Stability
+      clarifier: Gibbs free energy calculations; thermal decomposition pathways
+    - name: Acidic and Basic Properties
+      clarifier: Lewis acidity of interhalogen compounds; fluoride ion donors and acceptors
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Noble Gas Chemistry and Periodic Trends
+    learning_objectives:
+      - Understand electronic configuration and chemical inertness of noble gases
+      - Explain conditions required for noble gas compound formation
+      - Apply periodic trends to predict reactivity across Group 18
+      - Evaluate factors influencing compound stability
+    textbook_style_content:
+      - lesson: Noble Gas Overview and Periodicity
+        sections:
+          - section_heading: Electronic Configuration and Filled Valence Shells
+            section_type: overview
+          - section_heading: Concept of Chemical Inertness and Ionization Energy
+            section_type: core_theory
+          - section_heading: Periodic Trends Down Group 18
+            section_type: core_theory
+          - section_heading: Electronegativity and Size Effects
+            section_type: core_theory
+      - lesson: Conditions for Noble Gas Compound Formation
+        sections:
+          - section_heading: Why Xenon is Most Reactive
+            section_type: core_theory
+          - section_heading: Role of Highly Electronegative Fluorine
+            section_type: core_theory
+          - section_heading: Thermodynamic vs. Kinetic Factors
+            section_type: core_theory
+          - section_heading: Theoretical Predictions for Other Noble Gases
+            section_type: related_concepts
+      - lesson: Historical Context and Discovery
+        sections:
+          - section_heading: First Synthesis of XePtF₆
+            section_type: overview
+          - section_heading: Development of Noble Gas Chemistry
+            section_type: related_concepts
+    milestone: Understand why noble gases form compounds despite high inertness
+    duration_days: 8
+    tags:
+      - noble_gases
+      - periodic_trends
+      - inertness
+
+  - id: 2
+    topic: Xenon Fluorides - Structures, Bonding, and Reactivity
+    learning_objectives:
+      - Predict structures of XeF₂, XeF₄, XeF₆ using VSEPR theory
+      - Explain hypervalency and bonding in xenon fluorides
+      - Analyze thermal stability and decomposition patterns
+      - Predict reactivity as fluoride donors and Lewis acids
+    textbook_style_content:
+      - lesson: Xenon Difluoride (XeF₂)
+        sections:
+          - section_heading: Linear Structure and VSEPR Prediction
+            section_type: core_theory
+          - section_heading: Bonding Model - Three-Center Four-Electron (3c-4e)
+            section_type: core_theory
+          - section_heading: Xe-F Bond Characteristics
+            section_type: core_theory
+          - section_heading: Thermal Stability and Decomposition
+            section_type: core_theory
+      - lesson: Xenon Tetrafluoride (XeF₄)
+        sections:
+          - section_heading: Square Planar Structure and Lone Pairs
+            section_type: core_theory
+          - section_heading: VSEPR Explanation for Geometry
+            section_type: core_theory
+          - section_heading: Crystal Structure and Polymeric Forms
+            section_type: core_theory
+          - section_heading: Reactivity and Fluoride Transfer Ability
+            section_type: core_theory
+      - lesson: Xenon Hexafluoride (XeF₆)
+        sections:
+          - section_heading: Distorted Octahedral Structure
+            section_type: core_theory
+          - section_heading: Lone Pair Effects and Asymmetry
+            section_type: core_theory
+          - section_heading: Gas Phase vs. Solid-State Geometry
+            section_type: core_theory
+          - section_heading: Polymerization in Solid State
+            section_type: related_concepts
+      - lesson: Comparative Analysis of Xenon Fluorides
+        sections:
+          - section_heading: Stability Trends (XeF₂ > XeF₄ > XeF₆)
+            section_type: core_theory
+          - section_heading: Fluoride Ion Donation Ability
+            section_type: core_theory
+          - section_heading: Synthesis Methods and Conditions
+            section_type: core_theory
+    milestone: Master xenon fluoride structures and predict their reactivity
+    duration_days: 11
+    tags:
+      - xenon_fluorides
+      - hypervalency
+      - VSEPR
+
+  - id: 3
+    topic: Xenon Oxides and Oxyfluorides
+    learning_objectives:
+      - Determine structures of XeO₃ and XeO₄
+      - Understand bonding in oxygen-containing xenon compounds
+      - Explain oxidizing properties and decomposition patterns
+      - Predict reactivity of oxyfluorides
+    textbook_style_content:
+      - lesson: Xenon Trioxide (XeO₃)
+        sections:
+          - section_heading: Pyramidal Structure and VSEPR
+            section_type: core_theory
+          - section_heading: Xe-O Bond Characteristics
+            section_type: core_theory
+          - section_heading: Thermal Decomposition and Explosive Nature
+            section_type: core_theory
+          - section_heading: Oxidizing Ability in Solution
+            section_type: core_theory
+      - lesson: Xenon Tetroxide (XeO₄)
+        sections:
+          - section_heading: Tetrahedral Structure
+            section_type: core_theory
+          - section_heading: Bonding and Electronic Configuration
+            section_type: core_theory
+          - section_heading: Instability and Explosive Decomposition
+            section_type: core_theory
+          - section_heading: Strong Oxidizing Properties
+            section_type: core_theory
+      - lesson: Xenon Oxyfluorides
+        sections:
+          - section_heading: XeOF₂ and XeOF₄ Structures
+            section_type: core_theory
+          - section_heading: VSEPR Predictions with Mixed Ligands
+            section_type: core_theory
+          - section_heading: Thermal Stability Intermediate to Fluorides and Oxides
+            section_type: core_theory
+          - section_heading: Fluoride Donor Character
+            section_type: core_theory
+      - lesson: Synthesis and Characterization
+        sections:
+          - section_heading: Preparation Methods for Xenon Oxides
+            section_type: core_theory
+          - section_heading: Spectroscopic Identification (IR, Raman, NMR)
+            section_type: related_concepts
+    milestone: Understand xenon oxide chemistry and oxidizing properties
+    duration_days: 10
+    tags:
+      - xenon_oxides
+      - oxidizing_agents
+      - explosive_compounds
+
+  - id: 4
+    topic: Other Noble Gas Compounds and Theoretical Predictions
+    learning_objectives:
+      - Describe known compounds of krypton and radon
+      - Apply periodic trends to predict noble gas chemistry
+      - Understand why helium and neon are extremely inert
+      - Evaluate theoretical predictions for undiscovered noble gas compounds
+    textbook_style_content:
+      - lesson: Krypton Chemistry
+        sections:
+          - section_heading: Krypton Difluoride (KrF₂)
+            section_type: core_theory
+          - section_heading: Limited Stability and High Reactivity
+            section_type: core_theory
+          - section_heading: Comparison with Xenon Compounds
+            section_type: core_theory
+      - lesson: Radon Chemistry
+        sections:
+          - section_heading: Radioactivity and Experimental Difficulties
+            section_type: overview
+          - section_heading: Predicted Radon Fluoride Compounds
+            section_type: core_theory
+          - section_heading: Enhanced Reactivity Predictions
+            section_type: core_theory
+          - section_heading: Theoretical vs. Experimental Data
+            section_type: core_theory
+      - lesson: Helium and Neon - Extreme Inertness
+        sections:
+          - section_heading: High Ionization Energies
+            section_type: core_theory
+          - section_heading: Size and Electronic Configuration Effects
+            section_type: core_theory
+          - section_heading: Why Helium Compounds are Nearly Non-Existent
+            section_type: core_theory
+      - lesson: Theoretical Chemistry of Novel Compounds
+        sections:
+          - section_heading: Predictions for OgF₂ (Oganesson)
+            section_type: related_concepts
+          - section_heading: Quantum Chemical Calculations
+            section_type: related_concepts
+          - section_heading: Superheavy Element Chemistry Extrapolations
+            section_type: related_concepts
+    milestone: Understand noble gas chemistry across the group and theoretical limits
+    duration_days: 9
+    tags:
+      - krypton
+      - radon
+      - theoretical_predictions
+      - superheavy_elements
+
+  - id: 5
+    topic: Pseudohalogens - Chemistry and Halide-Like Behavior
+    learning_objectives:
+      - Understand what defines pseudohalide character
+      - Compare pseudohalogens to true halogens
+      - Predict reactivity patterns of pseudohalides
+      - Analyze complex formation and coordination behavior
+    textbook_style_content:
+      - lesson: Pseudohalogen Definition and Properties
+        sections:
+          - section_heading: Criteria for Pseudohalide Character
+            section_type: core_theory
+          - section_heading: Common Pseudohalogens (CN⁻, SCN⁻, N₃⁻, OCN⁻)
+            section_type: core_theory
+          - section_heading: Electronic Structure and Bonding
+            section_type: core_theory
+          - section_heading: Similarities and Differences with Halogens
+            section_type: core_theory
+      - lesson: Cyanide Ion (CN⁻)
+        sections:
+          - section_heading: Structure and Bonding - Linear with Triple Bond
+            section_type: core_theory
+          - section_heading: π-Donor and σ-Acceptor Character
+            section_type: core_theory
+          - section_heading: Coordination Chemistry and Complex Formation
+            section_type: core_theory
+          - section_heading: Toxicity and Biological Effects
+            section_type: related_concepts
+      - lesson: Thiocyanate and Other Pseudohalogens
+        sections:
+          - section_heading: Thiocyanate Ion (SCN⁻) Structure
+            section_type: core_theory
+          - section_heading: Azide Ion (N₃⁻) - Linear and Explosive
+            section_type: core_theory
+          - section_heading: Isocyanate (OCN⁻) and Selenocyanate
+            section_type: core_theory
+          - section_heading: Ambidentate Behavior and Coordination Isomerism
+            section_type: core_theory
+      - lesson: Halide-Like Reactivity of Pseudohalogens
+        sections:
+          - section_heading: Formation of Pseudo-Interhalogen Species
+            section_type: core_theory
+          - section_heading: Oxidation States and Redox Chemistry
+            section_type: core_theory
+          - section_heading: Nucleophilic Displacement Reactions
+            section_type: core_theory
+          - section_heading: Complex Formation with Metals
+            section_type: core_theory
+    milestone: Understand pseudohalide chemistry and halide analogs
+    duration_days: 10
+    tags:
+      - pseudohalogens
+      - cyanide
+      - thiocyanate
+      - azide
+
+  - id: 6
+    topic: Interhalogen Compounds - Binary and Ternary Systems
+    learning_objectives:
+      - Classify interhalogen compounds by composition
+      - Predict structures using VSEPR theory
+      - Explain bonding in three-center systems
+      - Analyze reactivity and synthetic applications
+    textbook_style_content:
+      - lesson: Interhalogen Overview and Classification
+        sections:
+          - section_heading: General Formula and Types (XY, XY₃, XY₅, XY₇)
+            section_type: overview
+          - section_heading: Periodic Patterns in Interhalogen Formation
+            section_type: core_theory
+          - section_heading: Why Fluorine Forms Most Interhalogen Compounds
+            section_type: core_theory
+          - section_heading: Stability Trends Across Different Types
+            section_type: core_theory
+      - lesson: Binary Interhalogens (XY)
+        sections:
+          - section_heading: Chlorine Fluoride (ClF)
+            section_type: core_theory
+          - section_heading: Bromine Fluoride (BrF)
+            section_type: core_theory
+          - section_heading: Iodine Fluoride (IF)
+            section_type: core_theory
+          - section_heading: Linear Structure and Bonding
+            section_type: core_theory
+      - lesson: Ternary Interhalogens (XY₃)
+        sections:
+          - section_heading: Bromine Trifluoride (BrF₃)
+            section_type: core_theory
+          - section_heading: T-Shaped Structure and VSEPR
+            section_type: core_theory
+          - section_heading: Iodine Trichloride (ICl₃)
+            section_type: core_theory
+          - section_heading: Three-Center Four-Electron Bonding
+            section_type: core_theory
+      - lesson: Pentahalogenide and Heptahalogenide Systems (XY₅, XY₇)
+        sections:
+          - section_heading: Iodine Pentafluoride (IF₅)
+            section_type: core_theory
+          - section_heading: Square Pyramidal Structure
+            section_type: core_theory
+          - section_heading: Iodine Heptafluoride (IF₇)
+            section_type: core_theory
+          - section_heading: Pentagonal Bipyramidal Geometry
+            section_type: core_theory
+      - lesson: Bonding in Interhalogens
+        sections:
+          - section_heading: Multi-Center Bonding Models
+            section_type: core_theory
+          - section_heading: Hypervalency and Expanded Octets
+            section_type: core_theory
+          - section_heading: Molecular Orbital Considerations
+            section_type: related_concepts
+    milestone: Master interhalogen structures and bonding patterns
+    duration_days: 11
+    tags:
+      - interhalogens
+      - multi-center_bonding
+      - VSEPR
+
+  - id: 7
+    topic: Polyinterhalogen Ions and Complex Systems
+    learning_objectives:
+      - Determine structures of polyinterhalogen ions
+      - Predict charge distribution and electron counting
+      - Analyze stability and reactivity of complex ions
+      - Explain formation in different solvents and conditions
+    textbook_style_content:
+      - lesson: Polyinterhalogen Ion Overview
+        sections:
+          - section_heading: Definition and General Characteristics
+            section_type: overview
+          - section_heading: Charge and Electron Counting Methods
+            section_type: core_theory
+          - section_heading: Stability Factors and Driving Forces
+            section_type: core_theory
+      - lesson: Tetrahedral and Square Planar Ions
+        sections:
+          - section_heading: Iodine Tetrachloride Ion (ICl₄⁻)
+            section_type: core_theory
+          - section_heading: Bromine Tetrafluoride Ion (BrF₄⁻)
+            section_type: core_theory
+          - section_heading: Square Planar Geometry and Lone Pairs
+            section_type: core_theory
+          - section_heading: VSEPR Application with Negative Charge
+            section_type: core_theory
+      - lesson: Higher Coordination Ions
+        sections:
+          - section_heading: Iodine Hexafluoride Ion (IF₆⁻)
+            section_type: core_theory
+          - section_heading: Iodine Octafluoride Ion (IF₈⁻)
+            section_type: core_theory
+          - section_heading: Coordination Number Expansion
+            section_type: core_theory
+          - section_heading: Distorted Geometries from Lone Pairs
+            section_type: core_theory
+      - lesson: Complex Ion Chemistry and Formation
+        sections:
+          - section_heading: Formation Reactions and Equilibria
+            section_type: core_theory
+          - section_heading: Solvent Effects on Ion Stability
+            section_type: core_theory
+          - section_heading: Spectroscopic Identification
+            section_type: core_theory
+          - section_heading: Preparation and Isolation Techniques
+            section_type: related_concepts
+    milestone: Understand polyinterhalogen ion structures and formation
+    duration_days: 10
+    tags:
+      - polyinterhalogen_ions
+      - complex_halides
+      - electron_counting
+
+  - id: 8
+    topic: Reactivity of Interhalogens and Pseudohalogens
+    learning_objectives:
+      - Predict reaction products from interhalogen reactivity
+      - Explain halide transfer and abstraction reactions
+      - Analyze redox chemistry of interhalogens
+      - Compare reactivity patterns with elemental halogens
+    textbook_style_content:
+      - lesson: Interhalogen Reactivity Patterns
+        sections:
+          - section_heading: Hydrolysis Reactions and Product Formation
+            section_type: core_theory
+          - section_heading: Disproportionation in Aqueous Solution
+            section_type: core_theory
+          - section_heading: Reaction with Water and Alcohols
+            section_type: core_theory
+          - section_heading: Thermal Decomposition Pathways
+            section_type: core_theory
+      - lesson: Halide Transfer and Abstraction
+        sections:
+          - section_heading: Fluoride Ion Donors - BrF₃, IF₅ as Powerful Fluorinators
+            section_type: core_theory
+          - section_heading: Chloride Transfer Reactions
+            section_type: core_theory
+          - section_heading: Iodide Transfer and Reduction
+            section_type: core_theory
+          - section_heading: Synthetic Applications in Organic Chemistry
+            section_type: related_concepts
+      - lesson: Redox Reactions and Disproportionation
+        sections:
+          - section_heading: Oxidation States in Products
+            section_type: core_theory
+          - section_heading: Disproportionation Examples (ClF₃, BrF₃)
+            section_type: core_theory
+          - section_heading: Reaction with Reducing and Oxidizing Agents
+            section_type: core_theory
+      - lesson: Pseudohalogen Reactivity
+        sections:
+          - section_heading: Displacement Reactions with Halogens
+            section_type: core_theory
+          - section_heading: Redox Chemistry of CN⁻, SCN⁻, N₃⁻
+            section_type: core_theory
+          - section_heading: Coordination and Complex Formation
+            section_type: core_theory
+          - section_heading: Polymerization of Pseudo-Interhalogen Species
+            section_type: related_concepts
+    milestone: Predict interhalogen reactivity and applications
+    duration_days: 11
+    tags:
+      - reactivity
+      - fluorination
+      - redox_chemistry
+      - disproportionation
+
+  - id: 9
+    topic: Synthesis, Preparation, and Industrial Applications
+    learning_objectives:
+      - Understand laboratory synthesis methods for noble gas and interhalogen compounds
+      - Explain industrial production routes for important compounds
+      - Analyze reaction conditions and optimization
+      - Evaluate safety considerations and handling procedures
+    textbook_style_content:
+      - lesson: Synthesis of Xenon Compounds
+        sections:
+          - section_heading: Preparation of XeF₂ by Direct Fluorination
+            section_type: core_theory
+          - section_heading: Synthesis of XeF₄ and XeF₆
+            section_type: core_theory
+          - section_heading: Formation of Xenon Oxides and Oxyfluorides
+            section_type: core_theory
+          - section_heading: Reaction Conditions and Optimization
+            section_type: core_theory
+      - lesson: Synthesis of Interhalogen Compounds
+        sections:
+          - section_heading: Direct Halogenation Methods
+            section_type: core_theory
+          - section_heading: Preparation of Binary Interhalogens
+            section_type: core_theory
+          - section_heading: Synthesis of Higher Interhalogens (BrF₃, IF₅, IF₇)
+            section_type: core_theory
+          - section_heading: Formation of Polyinterhalogen Ions
+            section_type: core_theory
+      - lesson: Pseudohalogen Preparation
+        sections:
+          - section_heading: Cyanide Synthesis and Reactions
+            section_type: core_theory
+          - section_heading: Formation of Thiocyanate and Azide Salts
+            section_type: core_theory
+          - section_heading: Synthesis of Other Pseudohalogens
+            section_type: core_theory
+      - lesson: Industrial Applications
+        sections:
+          - section_heading: Fluorination Reagents (BrF₃, IF₅ in Organic Synthesis)
+            section_type: core_theory
+          - section_heading: Noble Gas Compounds in Materials Science
+            section_type: core_theory
+          - section_heading: Nuclear Fuel Processing (UF₆)
+            section_type: related_concepts
+          - section_heading: Explosives and Oxidizers
+            section_type: related_concepts
+      - lesson: Safety and Handling
+        sections:
+          - section_heading: Extreme Reactivity and Hazards
+            section_type: core_theory
+          - section_heading: Storage Conditions and Container Materials
+            section_type: core_theory
+          - section_heading: Precautions and Emergency Procedures
+            section_type: related_concepts
+    milestone: Understand synthesis and industrial applications of these compounds
+    duration_days: 10
+    tags:
+      - synthesis
+      - preparation
+      - industrial_applications
+      - safety
+
+  - id: 10
+    topic: Structural Determination and Spectroscopic Characterization
+    learning_objectives:
+      - Apply VSEPR theory to determine structures
+      - Interpret spectroscopic data (NMR, IR, Raman)
+      - Predict molecular geometries from electron counting
+      - Solve structure determination problems
+    textbook_style_content:
+      - lesson: VSEPR Applications to Complex Systems
+        sections:
+          - section_heading: Expanded Octet Prediction
+            section_type: core_theory
+          - section_heading: Lone Pair Effects on Geometry
+            section_type: core_theory
+          - section_heading: Hypervalent Bonding Systems
+            section_type: core_theory
+          - section_heading: Problem-Solving Strategies
+            section_type: core_theory
+      - lesson: NMR Spectroscopy
+        sections:
+          - section_heading: Fluorine-19 NMR (¹⁹F NMR) of Xenon and Interhalogen Compounds
+            section_type: core_theory
+          - section_heading: Chemical Shifts and Integration Patterns
+            section_type: core_theory
+          - section_heading: Coupling Constants and Splitting Patterns
+            section_type: core_theory
+          - section_heading: Variable Temperature NMR Studies
+            section_type: related_concepts
+      - lesson: Infrared and Raman Spectroscopy
+        sections:
+          - section_heading: Vibrational Modes in Linear and Symmetric Molecules
+            section_type: core_theory
+          - section_heading: Stretching and Bending Frequencies
+            section_type: core_theory
+          - section_heading: Activity in IR and Raman
+            section_type: core_theory
+          - section_heading: Band Assignments for Halide Compounds
+            section_type: core_theory
+      - lesson: X-ray Crystallography and Solid-State Analysis
+        sections:
+          - section_heading: Crystal Structures of Noble Gas Compounds
+            section_type: core_theory
+          - section_heading: Bond Distances and Angles
+            section_type: related_concepts
+          - section_heading: Polymeric and Layered Structures
+            section_type: related_concepts
+      - lesson: Combined Spectroscopic Problem-Solving
+        sections:
+          - section_heading: Multi-Technique Structure Determination
+            section_type: core_theory
+          - section_heading: Unknown Compound Identification
+            section_type: core_theory
+          - section_heading: GATE Examination Problems
+            section_type: core_theory
+    milestone: Master structural determination using multiple spectroscopic methods
+    duration_days: 11
+    tags:
+      - spectroscopy
+      - NMR
+      - structure_determination
+      - VSEPR
+
+  - id: 11
+    topic: Advanced Bonding Models and Theoretical Concepts
+    learning_objectives:
+      - Understand hypervalency and expanded octets
+      - Apply molecular orbital theory to unusual bonding
+      - Explain three-center bonding comprehensively
+      - Evaluate d-orbital participation debates
+    textbook_style_content:
+      - lesson: Hypervalency and Expanded Octets
+        sections:
+          - section_heading: Historical Context and Definition
+            section_type: overview
+          - section_heading: Octet Rule Violations in Main Group Compounds
+            section_type: core_theory
+          - section_heading: Electronegativity Requirements for Hypervalency
+            section_type: core_theory
+          - section_heading: Why Hypervalent Fluorides Form More Readily
+            section_type: core_theory
+      - lesson: Bonding Theories for Hypervalent Compounds
+        sections:
+          - section_heading: Three-Center Four-Electron (3c-4e) Bonding
+            section_type: core_theory
+          - section_heading: Molecular Orbital Description
+            section_type: core_theory
+          - section_heading: Valence Bond Descriptions with Hybrid Orbitals
+            section_type: core_theory
+          - section_heading: d-Orbital Participation - Current Understanding
+            section_type: core_theory
+      - lesson: Computational and Quantum Chemical Approaches
+        sections:
+          - section_heading: Ab Initio Calculations of Xenon Compounds
+            section_type: related_concepts
+          - section_heading: Electron Density Analysis and Bond Orders
+            section_type: related_concepts
+          - section_heading: Comparison of Bonding Models with Experimental Data
+            section_type: related_concepts
+      - lesson: Bonding in Pseudohalogens and Complex Systems
+        sections:
+          - section_heading: Linear Triatomic Bonding (CN⁻, N₃⁻)
+            section_type: core_theory
+          - section_heading: Resonance in Pseudohalide Ions
+            section_type: core_theory
+          - section_heading: π-Donor and σ-Acceptor Character
+            section_type: core_theory
+    milestone: Understand advanced bonding concepts for unusual compounds
+    duration_days: 10
+    tags:
+      - hypervalency
+      - 3c4e_bonding
+      - molecular_orbital_theory
+      - quantum_chemistry
+
+  - id: 12
+    topic: Comprehensive Integration and GATE Examination Preparation
+    learning_objectives:
+      - Integrate knowledge across noble gases, pseudohalogens, and interhalogens
+      - Compare reactivity trends across compound classes
+      - Predict compound properties and reactions systematically
+      - Solve complex multi-concept problems
+      - Achieve mastery for GATE examination
+    textbook_style_content:
+      - lesson: Comparative Analysis Across All Topics
+        sections:
+          - section_heading: Reactivity Trends - Halogens vs. Interhalogens vs. Noble Gases
+            section_type: core_theory
+          - section_heading: Structural Patterns and VSEPR Predictions
+            section_type: core_theory
+          - section_heading: Thermal Stability Relationships
+            section_type: core_theory
+          - section_heading: Oxidizing Ability and Redox Properties
+            section_type: core_theory
+      - lesson: Structure-Property Relationships
+        sections:
+          - section_heading: Predicting Reactivity from Structure
+            section_type: core_theory
+          - section_heading: Solubility and Phase Behavior
+            section_type: core_theory
+          - section_heading: Lewis Acid-Base Character from Structural Features
+            section_type: core_theory
+      - lesson: Problem Types and Solution Strategies
+        sections:
+          - section_heading: Structural Determination from Molecular Formula
+            section_type: core_theory
+          - section_heading: Prediction of Reaction Products
+            section_type: core_theory
+          - section_heading: Comparative Analysis Questions
+            section_type: core_theory
+          - section_heading: Numerical Problems on Bonding and Stability
+            section_type: core_theory
+      - lesson: GATE Examination Workshop
+        sections:
+          - section_heading: Past Years' Noble Gas Chemistry Questions
+            section_type: core_theory
+          - section_heading: Interhalogen and Pseudohalogen Problem Sets
+            section_type: core_theory
+          - section_heading: Synthesis and Reactivity Scenarios
+            section_type: core_theory
+          - section_heading: Mixed Concept Integration Problems
+            section_type: core_theory
+      - lesson: Common Misconceptions and Clarifications
+        sections:
+          - section_heading: Why He and Ne Don't Form Compounds (Nearly)
+            section_type: core_theory
+          - section_heading: Why F Forms Most Interhalogens
+            section_type: core_theory
+          - section_heading: Lone Pairs and Geometry in Hypervalent Compounds
+            section_type: core_theory
+    milestone: Demonstrate comprehensive mastery and examination readiness
+    duration_days: 13
+    tags:
+      - integration
+      - GATE_preparation
+      - problem_solving
+      - comprehensive_review
+      - misconceptions

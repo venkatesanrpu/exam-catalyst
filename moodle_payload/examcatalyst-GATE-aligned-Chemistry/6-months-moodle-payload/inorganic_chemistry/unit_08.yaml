@@ -1,0 +1,210 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Radioactivity: Detection of radioactivity, Decay processes, half-life of radioactive elements, fission and fusion processes."
+
+concepts:
+  core:
+    - name: Radioactivity
+      clarifier: "Spontaneous emission of radiation from unstable nuclei"
+    - name: Detection of Radioactivity
+      clarifier: "Methods and instruments to measure and identify radioactive emissions"
+    - name: Decay Processes
+      clarifier: "Alpha, beta, and gamma decay mechanisms and transformations"
+    - name: Half-life
+      clarifier: "Time required for radioactive nuclei to reduce to half their original quantity"
+    - name: Nuclear Fission
+      clarifier: "Splitting of heavy nuclei into lighter fragments with energy release"
+    - name: Nuclear Fusion
+      clarifier: "Combination of light nuclei to form heavier nuclei with energy release"
+  related:
+    - name: Binding Energy
+      clarifier: "Energy holding nucleons together in a nucleus"
+    - name: Mass Defect
+      clarifier: "Difference between total mass of nucleons and actual nuclear mass"
+    - name: Nuclear Stability
+      clarifier: "Factors determining whether a nucleus is stable or radioactive"
+    - name: Q-value
+      clarifier: "Energy released or absorbed during nuclear reactions"
+    - name: Radiation Safety
+      clarifier: "Health effects and protective measures against radioactive exposure"
+
+learning_path:
+  - id: 1
+    topic: "Fundamentals of Radioactivity and Nuclear Structure"
+    learning_objectives:
+      - "Understand atomic nucleus composition and stability criteria"
+      - "Explain spontaneous radioactive decay and radiation types"
+      - "Relate mass defect to binding energy using Einstein's equation"
+    textbook_style_content:
+      - lesson: "Nuclear Basics and Radioactivity Fundamentals"
+        sections:
+          - section_heading: "Nuclear Structure and Composition"
+            section_type: "overview"
+          - section_heading: "Mass Defect and Binding Energy"
+            section_type: "core_theory"
+          - section_heading: "Nuclear Stability and Radioactive Series"
+            section_type: "core_theory"
+    milestone: "Understand why certain nuclei are unstable and undergo radioactive decay"
+    duration_days: 3
+    tags:
+      - "nuclear_structure"
+      - "binding_energy"
+      - "stability_criteria"
+
+  - id: 2
+    topic: "Detection of Radioactivity and Measurement Techniques"
+    learning_objectives:
+      - "Identify common detection instruments and their principles"
+      - "Explain ionization and scintillation detection methods"
+      - "Calculate activity and count rates from experimental data"
+    textbook_style_content:
+      - lesson: "Instrumentation for Radioactivity Detection"
+        sections:
+          - section_heading: "Overview of Detection Methods"
+            section_type: "overview"
+          - section_heading: "Ionization Detectors: Geiger-Müller Counter and Ion Chamber"
+            section_type: "core_theory"
+          - section_heading: "Scintillation and Semiconductor Detectors"
+            section_type: "core_theory"
+          - section_heading: "Activity, Decay Rate, and Count Statistics"
+            section_type: "related_concepts"
+    milestone: "Master practical techniques to measure and quantify radioactivity"
+    duration_days: 3
+    tags:
+      - "detection_methods"
+      - "instruments"
+      - "activity_measurement"
+
+  - id: 3
+    topic: "Alpha, Beta, and Gamma Decay Processes"
+    learning_objectives:
+      - "Distinguish between alpha, beta (β⁻, β⁺), and gamma decay"
+      - "Write nuclear equations for decay processes"
+      - "Apply conservation laws to predict decay products"
+    textbook_style_content:
+      - lesson: "Types of Radioactive Decay"
+        sections:
+          - section_heading: "Classification of Decay Processes"
+            section_type: "overview"
+          - section_heading: "Alpha Decay Mechanism and Kinetic Energy"
+            section_type: "core_theory"
+          - section_heading: "Beta Decay: Electron Emission, Positron Emission, and Electron Capture"
+            section_type: "core_theory"
+          - section_heading: "Gamma Decay and Internal Conversion"
+            section_type: "core_theory"
+          - section_heading: "Decay Chains and Radioactive Series"
+            section_type: "related_concepts"
+    milestone: "Analyze decay processes using conservation of mass number and atomic number"
+    duration_days: 4
+    tags:
+      - "alpha_decay"
+      - "beta_decay"
+      - "gamma_decay"
+      - "decay_equations"
+
+  - id: 4
+    topic: "Half-life, Decay Constants, and Radioactive Dating"
+    learning_objectives:
+      - "Derive and apply the radioactive decay equation"
+      - "Calculate half-life from decay constants and vice versa"
+      - "Solve problems involving multiple half-lives"
+      - "Understand radiocarbon dating and geological dating methods"
+    textbook_style_content:
+      - lesson: "Decay Kinetics and Half-life Applications"
+        sections:
+          - section_heading: "The Decay Equation and Exponential Decay Law"
+            section_type: "core_theory"
+          - section_heading: "Half-life Definition and Calculations"
+            section_type: "core_theory"
+          - section_heading: "Decay Constant and Mean Lifetime"
+            section_type: "related_concepts"
+          - section_heading: "Radioactive Dating Techniques: Carbon-14 and Others"
+            section_type: "related_concepts"
+    milestone: "Apply decay kinetics to solve quantitative GATE-level problems"
+    duration_days: 4
+    tags:
+      - "decay_equation"
+      - "half_life"
+      - "decay_constant"
+      - "radioactive_dating"
+
+  - id: 5
+    topic: "Nuclear Fission: Mechanisms and Energy Release"
+    learning_objectives:
+      - "Explain fission process in heavy nuclei like U-235 and Pu-239"
+      - "Calculate energy released using mass-energy equivalence"
+      - "Understand chain reactions and neutron multiplication factor"
+    textbook_style_content:
+      - lesson: "Nuclear Fission Processes"
+        sections:
+          - section_heading: "Overview of Nuclear Fission"
+            section_type: "overview"
+          - section_heading: "Fission Mechanism and Critical Mass"
+            section_type: "core_theory"
+          - section_heading: "Energy Release in Fission"
+            section_type: "core_theory"
+          - section_heading: "Chain Reactions and Multiplication Factor"
+            section_type: "core_theory"
+          - section_heading: "Fission Fragments and Neutron Production"
+            section_type: "related_concepts"
+    milestone: "Calculate fission energetics and understand reactor criticality"
+    duration_days: 3
+    tags:
+      - "fission"
+      - "critical_mass"
+      - "chain_reaction"
+      - "fission_energy"
+
+  - id: 6
+    topic: "Nuclear Fusion: Mechanisms and Energy Release"
+    learning_objectives:
+      - "Describe fusion reactions in light nuclei"
+      - "Explain the coulomb barrier and tunneling effect"
+      - "Calculate energy from fusion using mass defect"
+      - "Compare fusion and fission energy production"
+    textbook_style_content:
+      - lesson: "Nuclear Fusion Processes"
+        sections:
+          - section_heading: "Overview of Nuclear Fusion"
+            section_type: "overview"
+          - section_heading: "Fusion Reaction Types and Examples"
+            section_type: "core_theory"
+          - section_heading: "Coulomb Barrier and Quantum Tunneling"
+            section_type: "core_theory"
+          - section_heading: "Energy Release in Fusion"
+            section_type: "core_theory"
+          - section_heading: "Fusion vs. Fission: Comparison and Applications"
+            section_type: "related_concepts"
+    milestone: "Analyze fusion reactions and energy calculations at GATE level"
+    duration_days: 3
+    tags:
+      - "fusion"
+      - "coulomb_barrier"
+      - "tunneling"
+      - "fusion_energy"
+
+  - id: 7
+    topic: "Integrated Problem Solving and Fission-Fusion Applications"
+    learning_objectives:
+      - "Solve multi-step problems combining decay, fission, and fusion concepts"
+      - "Apply conservation laws to complex nuclear reactions"
+      - "Analyze real-world applications in energy production and medicine"
+    textbook_style_content:
+      - lesson: "Advanced Applications and Problem Solving"
+        sections:
+          - section_heading: "Quantitative Problems: Decay and Half-life"
+            section_type: "core_theory"
+          - section_heading: "Fission and Fusion Energy Calculations"
+            section_type: "core_theory"
+          - section_heading: "Nuclear Reactor Design and Safety Principles"
+            section_type: "related_concepts"
+          - section_heading: "Medical Applications of Radioactivity"
+            section_type: "related_concepts"
+    milestone: "Master integrated radioactivity concepts for GATE examination"
+    duration_days: 4
+    tags:
+      - "problem_solving"
+      - "applications"
+      - "energy_production"
+      - "medical_uses"

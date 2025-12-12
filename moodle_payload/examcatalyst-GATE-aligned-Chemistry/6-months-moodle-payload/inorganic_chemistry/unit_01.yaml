@@ -1,0 +1,355 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Main Group Elements - Hydrides, halides, oxides, oxoacids, nitrides, sulfides – shapes and reactivity
+
+concepts:
+  core:
+    - name: Hydrides of Main Group Elements
+      clarifier: Binary compounds with hydrogen; classification by bond type (ionic, covalent, metallic); thermal stability and reactivity patterns
+    - name: Halides of Main Group Elements
+      clarifier: Binary compounds with halogens; oxidation states, structure determination, and reactivity trends
+    - name: Oxides of Main Group Elements
+      clarifier: Compounds with oxygen; acidic/basic/amphoteric character; polymorphism and structural diversity
+    - name: Oxoacids of Main Group Elements
+      clarifier: Oxygenated acids; structure-property relationships; acid strength trends and decomposition pathways
+    - name: Nitrides of Main Group Elements
+      clarifier: Nitrogen-containing compounds; bonding diversity (ionic, covalent, network); stability and reactivity
+    - name: Sulfides of Main Group Elements
+      clarifier: Sulfur-containing compounds; oxidation states; layered structures and redox behavior
+    - name: VSEPR Theory and Molecular Geometry
+      clarifier: Valence Shell Electron Pair Repulsion; prediction of shapes for binary compounds; lone pair effects
+    - name: Periodic Trends in Reactivity
+      clarifier: Electronegativity, ionization energy, and electron affinity effects on compound stability and reactivity
+
+  related:
+    - name: Oxidation States and Bonding Types
+      clarifier: Determining oxidation states in main group compounds; ionic vs. covalent character assessment
+    - name: Thermal Stability Patterns
+      clarifier: Factors affecting decomposition temperatures; bond strength correlations
+    - name: Acid-Base Properties
+      clarifier: pH, Ka values, buffer systems; relationship between structure and acidity
+    - name: Redox Chemistry of Main Group Elements
+      clarifier: Oxidation-reduction reactions; disproportionation and comproportionation
+    - name: Crystal Structure and Polymorphism
+      clarifier: Solid-state structures; phase diagrams; allotropic forms
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Main Group Chemistry and Bonding Theory
+    learning_objectives:
+      - Understand the electronic configuration and valency of main group elements (Groups 13-18)
+      - Apply VSEPR theory to predict molecular geometries
+      - Classify bonding types (ionic, covalent, metallic) in binary compounds
+      - Explain periodic trends affecting reactivity and compound stability
+    textbook_style_content:
+      - lesson: Main Group Elements Overview
+        sections:
+          - section_heading: Classification and Electronic Configuration
+            section_type: overview
+          - section_heading: Periodic Trends - Electronegativity, Ionization Energy, Electron Affinity
+            section_type: core_theory
+          - section_heading: Bonding Models and Bond Polarity
+            section_type: core_theory
+      - lesson: Molecular Geometry and Shapes
+        sections:
+          - section_heading: VSEPR Theory Principles
+            section_type: core_theory
+          - section_heading: Predicting Geometries with Lone Pairs
+            section_type: core_theory
+          - section_heading: Deviations from Ideal Geometries
+            section_type: related_concepts
+    milestone: Ability to predict shapes and bonding character of binary compounds
+    duration_days: 8
+    tags:
+      - foundational
+      - VSEPR
+      - periodic_trends
+
+  - id: 2
+    topic: Hydrides of Main Group Elements
+    learning_objectives:
+      - Classify hydrides (ionic, covalent, metallic, bridge)
+      - Explain thermal stability trends and decomposition mechanisms
+      - Predict hydride reactivity based on structure and bonding
+      - Compare hydride properties across the periodic table
+    textbook_style_content:
+      - lesson: Hydride Classification and Structure
+        sections:
+          - section_heading: Types of Hydrides - Ionic, Covalent, and Metallic
+            section_type: core_theory
+          - section_heading: Bonding in Hydrides - Electron-Deficient and Normal Bonding
+            section_type: core_theory
+          - section_heading: Bridge Hydrides and Multi-Center Bonding
+            section_type: related_concepts
+      - lesson: Thermal Stability and Reactivity
+        sections:
+          - section_heading: Thermal Decomposition Pathways
+            section_type: core_theory
+          - section_heading: Reactivity with Water and Oxygen
+            section_type: core_theory
+          - section_heading: Reducing Properties of Hydrides
+            section_type: related_concepts
+      - lesson: Group-Specific Hydride Chemistry
+        sections:
+          - section_heading: Group 13-14 Hydrides (Boranes, Silanes)
+            section_type: core_theory
+          - section_heading: Group 15-16 Hydrides (Ammonia, Water, Hydrogen Sulfide)
+            section_type: core_theory
+          - section_heading: Group 17 Hydrides (Hydrogen Halides)
+            section_type: core_theory
+    milestone: Master hydride classification, stability trends, and reactivity patterns
+    duration_days: 10
+    tags:
+      - hydrides
+      - thermal_stability
+      - reducing_properties
+
+  - id: 3
+    topic: Halides of Main Group Elements
+    learning_objectives:
+      - Determine oxidation states and stoichiometry in halides
+      - Predict halide structures using VSEPR theory
+      - Explain hydrolysis and reactivity of halides
+      - Compare halide stability across halogens and groups
+    textbook_style_content:
+      - lesson: Halide Structure and Bonding
+        sections:
+          - section_heading: Oxidation States in Halides
+            section_type: core_theory
+          - section_heading: Molecular Geometries of Halides
+            section_type: core_theory
+          - section_heading: Ionic vs. Covalent Halides
+            section_type: core_theory
+      - lesson: Halide Reactivity and Hydrolysis
+        sections:
+          - section_heading: Hydrolysis Mechanisms and Trends
+            section_type: core_theory
+          - section_heading: Lewis Acidity of Halides
+            section_type: core_theory
+          - section_heading: Disproportionation Reactions
+            section_type: related_concepts
+      - lesson: Group-Specific Halide Chemistry
+        sections:
+          - section_heading: Group 13 Halides (BX₃, AlX₃)
+            section_type: core_theory
+          - section_heading: Group 14 Halides (SiX₄, GeX₄)
+            section_type: core_theory
+          - section_heading: Group 15-17 Halides (PX₃, SX₂, ClF₃)
+            section_type: core_theory
+    milestone: Predict halide structures, stability, and reactivity patterns
+    duration_days: 10
+    tags:
+      - halides
+      - hydrolysis
+      - Lewis_acidity
+
+  - id: 4
+    topic: Oxides of Main Group Elements
+    learning_objectives:
+      - Classify oxides based on acidic, basic, or amphoteric character
+      - Predict oxide structures from stoichiometry and bonding
+      - Explain polymorphism and phase transitions in oxides
+      - Analyze redox properties and disproportionation in oxides
+    textbook_style_content:
+      - lesson: Oxide Classification and Properties
+        sections:
+          - section_heading: Acidic, Basic, and Amphoteric Oxides
+            section_type: core_theory
+          - section_heading: Mixed Valence and Non-Stoichiometric Oxides
+            section_type: core_theory
+          - section_heading: Peroxides and Superoxides
+            section_type: related_concepts
+      - lesson: Oxide Structures and Polymorphism
+        sections:
+          - section_heading: Crystal Structures of Common Oxides
+            section_type: core_theory
+          - section_heading: Polymorphic Forms (Al₂O₃, SiO₂)
+            section_type: core_theory
+          - section_heading: Phase Diagrams and Thermal Stability
+            section_type: related_concepts
+      - lesson: Group-Specific Oxide Chemistry
+        sections:
+          - section_heading: Group 13-14 Oxides (Al₂O₃, SiO₂)
+            section_type: core_theory
+          - section_heading: Group 15 Oxides (N₂O₅, P₄O₁₀)
+            section_type: core_theory
+          - section_heading: Group 16-17 Oxides (SO₃, Cl₂O₇)
+            section_type: core_theory
+    milestone: Classify oxides, predict structures, and explain redox behavior
+    duration_days: 11
+    tags:
+      - oxides
+      - acid_base
+      - polymorphism
+
+  - id: 5
+    topic: Oxoacids of Main Group Elements
+    learning_objectives:
+      - Determine structures of oxoacids from bonding models
+      - Explain acid strength trends and factors affecting pKa
+      - Predict thermal decomposition pathways
+      - Analyze disproportionation and redox properties
+    textbook_style_content:
+      - lesson: Oxoacid Structure and Bonding
+        sections:
+          - section_heading: General Structural Features of Oxoacids
+            section_type: core_theory
+          - section_heading: Pauling Rules for Oxoacid Structure
+            section_type: core_theory
+          - section_heading: Resonance and Hydrogen Bonding
+            section_type: related_concepts
+      - lesson: Acid Strength and Reactivity
+        sections:
+          - section_heading: Factors Affecting Acid Strength (Electronegativity, Oxidation State)
+            section_type: core_theory
+          - section_heading: Comparing pKa Values Across Oxoacids
+            section_type: core_theory
+          - section_heading: Decomposition Reactions and Heat Stability
+            section_type: core_theory
+      - lesson: Important Oxoacids of Main Group Elements
+        sections:
+          - section_heading: Nitrogen Oxoacids (HNO₃, HNO₂, H₃PO₄)
+            section_type: core_theory
+          - section_heading: Sulfur Oxoacids (H₂SO₄, H₂SO₃, H₂S₂O₃)
+            section_type: core_theory
+          - section_heading: Halogen Oxoacids (HClO₄, HClO₃, HClO₂, HClO)
+            section_type: core_theory
+          - section_heading: Silicon Oxoacid (H₄SiO₄)
+            section_type: related_concepts
+    milestone: Master oxoacid structures, acid strength trends, and thermal behavior
+    duration_days: 11
+    tags:
+      - oxoacids
+      - acid_strength
+      - decomposition
+
+  - id: 6
+    topic: Nitrides of Main Group Elements
+    learning_objectives:
+      - Classify nitrides based on bonding type (ionic, covalent, interstitial)
+      - Predict nitride structures and stoichiometry
+      - Explain reactivity and thermal stability patterns
+      - Compare properties across different nitride classes
+    textbook_style_content:
+      - lesson: Nitride Classification and Structure
+        sections:
+          - section_heading: Ionic Nitrides (Mg₃N₂, Ca₃N₂)
+            section_type: core_theory
+          - section_heading: Covalent Nitrides (BN, Si₃N₄, C₃N₄)
+            section_type: core_theory
+          - section_heading: Interstitial and Metallic Nitrides
+            section_type: related_concepts
+      - lesson: Nitride Bonding and Properties
+        sections:
+          - section_heading: N³⁻ Ion and Its Reactivity
+            section_type: core_theory
+          - section_heading: Multiple Bonding in Covalent Nitrides
+            section_type: core_theory
+          - section_heading: Network Structures in Extended Nitrides
+            section_type: related_concepts
+      - lesson: Reactivity and Applications
+        sections:
+          - section_heading: Hydrolysis of Ionic Nitrides
+            section_type: core_theory
+          - section_heading: Thermal Decomposition Pathways
+            section_type: core_theory
+          - section_heading: Industrial Importance and Uses
+            section_type: related_concepts
+    milestone: Classify nitrides, predict structures, and analyze reactivity
+    duration_days: 9
+    tags:
+      - nitrides
+      - network_structures
+      - covalent_bonding
+
+  - id: 7
+    topic: Sulfides of Main Group Elements
+    learning_objectives:
+      - Classify sulfides based on oxidation states and bonding
+      - Predict sulfide structures and crystal types
+      - Explain reactivity and redox chemistry
+      - Analyze solubility and precipitation behavior
+    textbook_style_content:
+      - lesson: Sulfide Classification and Structure
+        sections:
+          - section_heading: Ionic Sulfides (MgS, CaS)
+            section_type: core_theory
+          - section_heading: Covalent Sulfides (H₂S, AsS, P₄S₁₀)
+            section_type: core_theory
+          - section_heading: Polysulfides and Mixed Valence Sulfides
+            section_type: related_concepts
+          - section_heading: Layered and Extended Structures
+            section_type: related_concepts
+      - lesson: Sulfide Reactivity and Chemistry
+        sections:
+          - section_heading: S²⁻ Ion and Its Reactivity
+            section_type: core_theory
+          - section_heading: Hydrolysis and Redox Properties
+            section_type: core_theory
+          - section_heading: Oxidation to Oxides and Oxoacids
+            section_type: core_theory
+          - section_heading: Disproportionation Reactions
+            section_type: related_concepts
+      - lesson: Sulfide Applications and Analysis
+        sections:
+          - section_heading: Precipitation Reactions and Qualitative Analysis
+            section_type: core_theory
+          - section_heading: Mineral Sulfides and Ores
+            section_type: related_concepts
+          - section_heading: Industrial Production and Uses
+            section_type: related_concepts
+    milestone: Master sulfide classification, structure, and redox chemistry
+    duration_days: 10
+    tags:
+      - sulfides
+      - redox_chemistry
+      - polysulfides
+
+  - id: 8
+    topic: Comprehensive Reactivity Comparison and Integration
+    learning_objectives:
+      - Compare reactivity trends across different compound classes
+      - Integrate knowledge of shapes, bonding, and reactivity
+      - Solve complex problems combining multiple compound types
+      - Apply structure-property relationships to predict unknown compound behavior
+    textbook_style_content:
+      - lesson: Cross-Compound Reactivity Patterns
+        sections:
+          - section_heading: Hydrolysis Trends - Hydrides vs. Halides vs. Oxides
+            section_type: core_theory
+          - section_heading: Thermal Stability Comparison Across Compound Classes
+            section_type: core_theory
+          - section_heading: Redox Activity and Disproportionation Patterns
+            section_type: core_theory
+      - lesson: Structure-Property Integration
+        sections:
+          - section_heading: VSEPR Applications to All Binary Compounds
+            section_type: core_theory
+          - section_heading: Electronegativity Effects on Compound Character
+            section_type: core_theory
+          - section_heading: Periodic Trends Across All Compound Classes
+            section_type: core_theory
+      - lesson: Synthesis and Characterization
+        sections:
+          - section_heading: Laboratory Preparation Methods
+            section_type: core_theory
+          - section_heading: Identification Techniques (Spectroscopy, Crystallography)
+            section_type: related_concepts
+          - section_heading: Safety and Industrial Aspects
+            section_type: related_concepts
+      - lesson: Problem-Solving Strategies
+        sections:
+          - section_heading: Analysis of Unknown Compounds
+            section_type: core_theory
+          - section_heading: Predicting Products of Reactions
+            section_type: core_theory
+          - section_heading: GATE Examination Problem Types and Solutions
+            section_type: core_theory
+    milestone: Integrate all compound classes and demonstrate mastery in complex scenarios
+    duration_days: 12
+    tags:
+      - integration
+      - problem_solving
+      - GATE_preparation
+      - cross_comparison

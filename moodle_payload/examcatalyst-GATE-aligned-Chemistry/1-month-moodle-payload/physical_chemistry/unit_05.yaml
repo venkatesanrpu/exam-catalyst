@@ -1,0 +1,343 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Spectroscopy - Atomic spectroscopy; Russell-Saunders coupling; Term symbols and spectral details; origin of selection rules. Rotational, vibrational, electronic and Raman spectroscopy of diatomic and polyatomic molecules. Line broadening. Einstein's coefficients. Relationship of transition moment integral with molar extinction coefficient and oscillator strength. Basic principles of nuclear magnetic resonance - gyromagnetic ratio; chemical shift, nuclear coupling.
+
+concepts:
+  core:
+    - name: Atomic Spectroscopy
+      clarifier: Electronic transitions in isolated atoms, hydrogen atom spectrum, alkali atoms, term symbols representation
+    - name: Russell-Saunders Coupling
+      clarifier: LS coupling scheme, spin-orbit interaction, coupling of angular momenta in multi-electron atoms
+    - name: Term Symbols and Selection Rules
+      clarifier: Derivation and interpretation of term symbols; selection rules for electric dipole transitions (ΔL, ΔS, ΔJ); forbidden and allowed transitions
+    - name: Rotational Spectroscopy
+      clarifier: Rigid rotor model, rotational energy levels, spectroscopic constants for diatomic and polyatomic molecules
+    - name: Vibrational Spectroscopy
+      clarifier: Harmonic oscillator model, vibrational modes, frequency calculations, isotope effects in diatomic and polyatomic molecules
+    - name: Electronic Spectroscopy
+      clarifier: Beer-Lambert law, electronic transitions, vibrational fine structure, Franck-Condon principle
+    - name: Raman Spectroscopy
+      clarifier: Stokes and anti-Stokes lines, polarizability, depolarization ratio, rotational and vibrational Raman
+    - name: Transition Probabilities and Einstein Coefficients
+      clarifier: Einstein A and B coefficients, relationship to transition moment integrals, population distribution at thermal equilibrium
+    - name: Spectroscopic Parameters
+      clarifier: Molar extinction coefficient, oscillator strength, transition dipole moment, relationship between quantum and classical descriptions
+    - name: Line Broadening Mechanisms
+      clarifier: Natural linewidth, Doppler broadening, pressure broadening, collisional effects on spectral lines
+    - name: Nuclear Magnetic Resonance Fundamentals
+      clarifier: NMR principles, nuclear spin states, magnetic field interaction, gyromagnetic ratio, resonance condition
+    - name: NMR Chemical Shift and Coupling
+      clarifier: Chemical shift origins and measurement, spin-spin coupling constants, multiplicity patterns, first and second-order spectra
+
+  related:
+    - name: Quantum Mechanical Foundations
+      clarifier: Schrödinger equation, operator formalism, expectation values, basis for understanding spectroscopic transitions
+    - name: Group Theory Applications
+      clarifier: Point groups, symmetry operations, selection rules derivation from symmetry considerations
+    - name: Boltzmann Distribution
+      clarifier: Population statistics for energy levels, intensity considerations in spectroscopy
+    - name: Molecular Structure Determination
+      clarifier: Using spectroscopic data to elucidate molecular geometry and bonding
+    - name: Instrumentation Basics
+      clarifier: Spectrometer components, detectors, light sources, resolution and calibration
+
+learning_path:
+  - id: 1
+    topic: Foundations of Atomic Spectroscopy and Term Symbols
+    learning_objectives:
+      - Understand electronic transitions in isolated atoms and the hydrogen atom spectrum
+      - Apply Russell-Saunders (LS) coupling to multi-electron atoms
+      - Construct and interpret term symbols using quantum numbers L, S, and J
+      - Recognize limitations of LS coupling (spin-orbit effects, coupling schemes)
+    textbook_style_content:
+      - lesson: Atomic Spectroscopy Fundamentals
+        sections:
+          - section_heading: Hydrogen Atom and Electronic Transitions
+            section_type: overview
+          - section_heading: Multi-electron Atoms and Term Symbols
+            section_type: core_theory
+          - section_heading: Russell-Saunders Coupling Scheme
+            section_type: core_theory
+          - section_heading: Quantum Numbers and Term Symbol Construction
+            section_type: core_theory
+          - section_heading: Worked Examples - Alkali Atoms and Transition Metals
+            section_type: related_concepts
+    milestone: Ability to predict term symbols for ground and excited states of any atom
+    duration_days: 8
+    tags:
+      - atomic_spectroscopy
+      - quantum_mechanics
+      - term_symbols
+
+  - id: 2
+    topic: Selection Rules and Spectral Line Origins
+    learning_objectives:
+      - Derive and apply selection rules for electric dipole transitions
+      - Distinguish between allowed and forbidden transitions
+      - Understand the quantum mechanical basis of selection rules
+      - Predict spectral intensities and allowed transitions
+    textbook_style_content:
+      - lesson: Selection Rules and Transition Probabilities
+        sections:
+          - section_heading: Overview of Selection Rules Concept
+            section_type: overview
+          - section_heading: Electric Dipole Selection Rules Derivation
+            section_type: core_theory
+          - section_heading: ΔL, ΔS, and ΔJ Selection Rules
+            section_type: core_theory
+          - section_heading: Forbidden Transitions and Their Observation
+            section_type: related_concepts
+    milestone: Accurate prediction of which spectral lines are observable in atomic spectra
+    duration_days: 6
+    tags:
+      - selection_rules
+      - spectroscopy
+      - quantum_mechanics
+
+  - id: 3
+    topic: Rotational Spectroscopy of Molecules
+    learning_objectives:
+      - Apply the rigid rotor model to rotational energy levels
+      - Analyze rotational spectra of diatomic molecules
+      - Extend concepts to polyatomic molecules (linear and nonlinear rotors)
+      - Extract molecular constants from spectroscopic data
+    textbook_style_content:
+      - lesson: Molecular Rotation and Spectroscopy
+        sections:
+          - section_heading: Rigid Rotor Model and Energy Levels
+            section_type: overview
+          - section_heading: Rotational Quantum Numbers and Moment of Inertia
+            section_type: core_theory
+          - section_heading: Rotational Transitions and Selection Rules
+            section_type: core_theory
+          - section_heading: Diatomic Rotational Spectra
+            section_type: core_theory
+          - section_heading: Polyatomic Molecules - Linear and Nonlinear Rotors
+            section_type: related_concepts
+          - section_heading: Centrifugal Distortion and Vibration-Rotation Coupling
+            section_type: related_concepts
+    milestone: Calculation of rotational constants and prediction of rotational spectra
+    duration_days: 7
+    tags:
+      - rotational_spectroscopy
+      - diatomic_molecules
+      - polyatomic_molecules
+
+  - id: 4
+    topic: Vibrational Spectroscopy of Molecules
+    learning_objectives:
+      - Apply the harmonic oscillator model to molecular vibrations
+      - Calculate vibrational frequencies and energy levels
+      - Understand vibrational modes in polyatomic molecules
+      - Analyze isotope effects on vibrational frequencies
+    textbook_style_content:
+      - lesson: Molecular Vibration and Infrared Spectroscopy
+        sections:
+          - section_heading: Harmonic Oscillator Model for Molecular Vibrations
+            section_type: overview
+          - section_heading: Vibrational Energy Levels and Quantum Numbers
+            section_type: core_theory
+          - section_heading: Selection Rules for Vibrational Transitions
+            section_type: core_theory
+          - section_heading: Reduced Mass and Vibrational Frequencies
+            section_type: core_theory
+          - section_heading: Polyatomic Molecules - Normal Modes and Degrees of Freedom
+            section_type: related_concepts
+          - section_heading: Isotope Effects and Frequency Shifts
+            section_type: related_concepts
+          - section_heading: Anharmonicity and Overtones
+            section_type: related_concepts
+    milestone: Prediction of IR-active vibrational modes and calculation of wavenumbers
+    duration_days: 8
+    tags:
+      - vibrational_spectroscopy
+      - infrared_spectroscopy
+      - molecular_vibrations
+
+  - id: 5
+    topic: Electronic Spectroscopy and Franck-Condon Principle
+    learning_objectives:
+      - Understand electronic transitions between molecular states
+      - Apply the Franck-Condon principle to predict electronic spectra
+      - Analyze vibrational fine structure in electronic spectra
+      - Relate spectroscopic data to molecular structure and bonding
+    textbook_style_content:
+      - lesson: Electronic Spectroscopy of Molecules
+        sections:
+          - section_heading: Electronic Transitions and Energy Diagrams
+            section_type: overview
+          - section_heading: Beer-Lambert Law and Absorption Spectroscopy
+            section_type: core_theory
+          - section_heading: Franck-Condon Principle and Intensity Distribution
+            section_type: core_theory
+          - section_heading: Vibrational Fine Structure in Electronic Spectra
+            section_type: core_theory
+          - section_heading: Fluorescence and Radiative Lifetime
+            section_type: related_concepts
+          - section_heading: Molecular Orbital Transitions and Band Systems
+            section_type: related_concepts
+    milestone: Interpretation of absorption and emission spectra using Franck-Condon factors
+    duration_days: 8
+    tags:
+      - electronic_spectroscopy
+      - UV_vis_spectroscopy
+      - molecular_states
+
+  - id: 6
+    topic: Raman Spectroscopy
+    learning_objectives:
+      - Understand the Raman scattering process and Stokes/anti-Stokes lines
+      - Apply the concept of polarizability to Raman transitions
+      - Distinguish between rotational, vibrational, and electronic Raman
+      - Analyze depolarization ratios for symmetry determination
+    textbook_style_content:
+      - lesson: Raman Scattering and Spectroscopy
+        sections:
+          - section_heading: Classical and Quantum Description of Raman Scattering
+            section_type: overview
+          - section_heading: Stokes and Anti-Stokes Lines
+            section_type: core_theory
+          - section_heading: Polarizability and Raman Selection Rules
+            section_type: core_theory
+          - section_heading: Rotational Raman Spectroscopy
+            section_type: core_theory
+          - section_heading: Vibrational Raman Spectroscopy
+            section_type: core_theory
+          - section_heading: Depolarization Ratio and Molecular Symmetry
+            section_type: related_concepts
+          - section_heading: Resonance Raman Spectroscopy
+            section_type: related_concepts
+    milestone: Prediction of Raman-active modes and depolarization ratios from molecular structure
+    duration_days: 7
+    tags:
+      - raman_spectroscopy
+      - scattering
+      - molecular_symmetry
+
+  - id: 7
+    topic: Transition Probabilities - Einstein Coefficients and Oscillator Strength
+    learning_objectives:
+      - Understand Einstein A and B coefficients and their physical significance
+      - Derive relationships between Einstein coefficients and transition dipole moments
+      - Connect oscillator strength to experimental molar extinction coefficient
+      - Analyze population dynamics in multi-level systems
+    textbook_style_content:
+      - lesson: Transition Probabilities and Spectroscopic Intensities
+        sections:
+          - section_heading: Einstein Coefficients - Definition and Significance
+            section_type: overview
+          - section_heading: Derivation of Einstein A and B Coefficients
+            section_type: core_theory
+          - section_heading: Relationship to Transition Dipole Moment
+            section_type: core_theory
+          - section_heading: Oscillator Strength and Classical Oscillator Model
+            section_type: core_theory
+          - section_heading: Connection to Molar Extinction Coefficient
+            section_type: core_theory
+          - section_heading: Boltzmann Distribution and Population Ratios
+            section_type: related_concepts
+          - section_heading: Intensity Calculations for Spectral Lines
+            section_type: related_concepts
+    milestone: Quantitative prediction of spectroscopic intensities from first principles
+    duration_days: 7
+    tags:
+      - transition_probabilities
+      - einstein_coefficients
+      - oscillator_strength
+      - spectroscopic_intensity
+
+  - id: 8
+    topic: Line Broadening in Spectroscopy
+    learning_objectives:
+      - Understand natural linewidth from quantum mechanical uncertainty
+      - Analyze Doppler broadening in gaseous samples
+      - Calculate pressure broadening and collision effects
+      - Predict overall lineshape in practical spectroscopy
+    textbook_style_content:
+      - lesson: Spectral Line Broadening Mechanisms
+        sections:
+          - section_heading: Natural Linewidth and Lifetime Broadening
+            section_type: overview
+          - section_heading: Heisenberg Uncertainty Principle and Natural Lineshape
+            section_type: core_theory
+          - section_heading: Doppler Broadening and Temperature Effects
+            section_type: core_theory
+          - section_heading: Pressure Broadening and Collision Effects
+            section_type: core_theory
+          - section_heading: Lorentzian and Gaussian Lineshapes
+            section_type: core_theory
+          - section_heading: Convolution of Broadening Mechanisms
+            section_type: related_concepts
+          - section_heading: Saturation and Power Broadening
+            section_type: related_concepts
+    milestone: Prediction and analysis of lineshapes under various experimental conditions
+    duration_days: 6
+    tags:
+      - line_broadening
+      - spectral_resolution
+      - experimental_conditions
+
+  - id: 9
+    topic: NMR Fundamentals - Gyromagnetic Ratio and Resonance Condition
+    learning_objectives:
+      - Understand nuclear spin properties and magnetic moments
+      - Define gyromagnetic ratio and its significance
+      - Derive the resonance condition for NMR
+      - Analyze Zeeman splitting of nuclear spin states
+    textbook_style_content:
+      - lesson: Nuclear Magnetic Resonance Principles
+        sections:
+          - section_heading: Nuclear Spin and Magnetic Moment
+            section_type: overview
+          - section_heading: Gyromagnetic Ratio and Nuclear Magnetism
+            section_type: core_theory
+          - section_heading: Zeeman Effect for Nuclear Spins
+            section_type: core_theory
+          - section_heading: Larmor Precession and Resonance Condition
+            section_type: core_theory
+          - section_heading: Population Distribution at Equilibrium
+            section_type: related_concepts
+          - section_heading: Sensitivity and Nuclear Abundance Effects
+            section_type: related_concepts
+    milestone: Understanding of NMR basic physics and resonance condition derivation
+    duration_days: 7
+    tags:
+      - NMR
+      - nuclear_spin
+      - gyromagnetic_ratio
+      - resonance
+
+  - id: 10
+    topic: NMR Chemical Shift and Spin-Spin Coupling
+    learning_objectives:
+      - Understand origins of chemical shift from electron density and diamagnetic shielding
+      - Apply chemical shift concepts to structure determination
+      - Analyze spin-spin coupling patterns and coupling constants
+      - Predict multiplet patterns using first and second-order analysis
+    textbook_style_content:
+      - lesson: Chemical Shift and Nuclear Coupling in NMR
+        sections:
+          - section_heading: Chemical Shift - Definition and Origins
+            section_type: overview
+          - section_heading: Diamagnetic Shielding and Paramagnetic Deshielding
+            section_type: core_theory
+          - section_heading: Chemical Shift Scales and Reference Standards
+            section_type: core_theory
+          - section_heading: Spin-Spin Coupling Constants (J-coupling)
+            section_type: core_theory
+          - section_heading: First-Order Analysis - Pascal's Triangle and Multiplicity
+            section_type: core_theory
+          - section_heading: Second-Order Effects and Complex Coupling Patterns
+            section_type: related_concepts
+          - section_heading: Long-Range Coupling and Heteronuclear Coupling
+            section_type: related_concepts
+          - section_heading: Structure Determination from NMR Data
+            section_type: related_concepts
+    milestone: Prediction and interpretation of complex NMR spectra for structural elucidation
+    duration_days: 8
+    tags:
+      - NMR
+      - chemical_shift
+      - spin_coupling
+      - structure_determination

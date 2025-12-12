@@ -1,0 +1,260 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Group theory: Symmetry elements and operations; Point groups and character tables; Internal coordinates and vibrational modes; symmetry adapted linear combination of atomic orbitals (LCAO-MO); construction of hybrid orbitals using symmetry aspects."
+
+concepts:
+  core:
+    - name: Symmetry Elements and Operations
+      clarifier: Fundamental symmetry concepts including rotation axes, planes, inversion centers, and identity with associated operations
+    - name: Molecular Point Groups
+      clarifier: Classification of molecules according to their full set of symmetry operations
+    - name: Character Tables
+      clarifier: Tabulated irreducible representations, characters, and symmetry properties for point groups
+    - name: Reducible and Irreducible Representations
+      clarifier: Decomposition of motion or orbital bases into symmetry species of a point group
+    - name: Internal Coordinates and Vibrational Modes
+      clarifier: Bond stretches, bends, and their classification into normal modes using symmetry
+    - name: Symmetry Adapted Linear Combinations (SALC)
+      clarifier: Symmetry-based combinations of atomic orbitals for use in LCAO-MO theory
+    - name: Symmetry in LCAO-MO Construction
+      clarifier: Use of irreducible representations to build molecular orbitals
+    - name: Symmetry-Based Hybrid Orbitals
+      clarifier: Construction of hybrid orbitals (e.g., sp³, sp²) via group-theoretical arguments
+
+  related:
+    - name: Group Theoretical Terminology
+      clarifier: Groups, classes, order of a group, and group multiplication
+    - name: Matrix Representations of Operations
+      clarifier: Representing symmetry operations as matrices acting on coordinates or basis functions
+    - name: Mulliken Symbols
+      clarifier: Notation for irreducible representations (A, B, E, T, g/u, prime/double-prime)
+    - name: Projection Operator Method
+      clarifier: Systematic generation of SALCs from irreducible representations
+    - name: Correlation Tables
+      clarifier: Relationships between representations of different point groups
+    - name: IR and Raman Activity Criteria
+      clarifier: Selection rules based on symmetry of vibrational modes
+    - name: Symmetry Labels in MO Diagrams
+      clarifier: Use of irreps to label and order molecular orbitals
+    - name: Degeneracy and Symmetry
+      clarifier: Connection between dimensionality of irreps and degenerate energy levels
+
+learning_path:
+  - id: 1
+    topic: Symmetry Elements, Operations, and Basic Group Concepts
+    learning_objectives:
+      - Identify and define all common molecular symmetry elements and operations
+      - Determine the complete set of symmetry operations for simple molecules
+      - Understand the concept of a group and its axioms in the context of symmetry
+      - Perform simple multiplication tables for symmetry operations
+    textbook_style_content:
+      - lesson: Symmetry Elements and Operations
+        sections:
+          - section_heading: Identity, Rotation Axes, Mirror Planes, Inversion Center, Improper Rotations
+            section_type: core_theory
+          - section_heading: Geometric Interpretation of Symmetry Operations on Molecules
+            section_type: core_theory
+          - section_heading: Worked Classification for H₂O, NH₃, BF₃, and CO₂
+            section_type: related concepts
+      - lesson: Introduction to Group Theory
+        sections:
+          - section_heading: Definition of a Group and Symmetry Group of a Molecule
+            section_type: overview
+          - section_heading: Group Order, Classes, and Group Multiplication
+            section_type: core_theory
+          - section_heading: Simple Multiplication Tables for C₂v and C₃v
+            section_type: related concepts
+    milestone: "Correctly recognize symmetry elements and construct basic symmetry operation sets for small molecules"
+    duration_days: 4
+    tags:
+      - symmetry_elements
+      - symmetry_operations
+      - basic_group_theory
+
+  - id: 2
+    topic: Point Groups and Character Tables
+    learning_objectives:
+      - Assign molecules to appropriate point groups using flowcharts or decision schemes
+      - Interpret all entries of standard character tables
+      - Distinguish between reducible and irreducible representations
+      - Use character tables to obtain symmetry species of simple basis functions
+    textbook_style_content:
+      - lesson: Molecular Point Groups
+        sections:
+          - section_heading: Systematic Procedure for Point Group Determination
+            section_type: core_theory
+          - section_heading: Common Point Groups in Chemistry (C₁, C₂v, C₃v, D₃h, D∞h, Oh, Td)
+            section_type: core_theory
+          - section_heading: Practice Assignments for Typical Inorganic and Organic Molecules
+            section_type: related concepts
+      - lesson: Character Tables and Representations
+        sections:
+          - section_heading: Structure of a Character Table and Mulliken Symbols
+            section_type: core_theory
+          - section_heading: Basis Functions (x, y, z, rotations, quadratic functions) in Character Tables
+            section_type: core_theory
+          - section_heading: Reducible vs Irreducible Representations and Reduction Formula
+            section_type: core_theory
+      - lesson: Applications of Character Tables
+        sections:
+          - section_heading: Determining Symmetry of Atomic Orbitals in a Given Point Group
+            section_type: core_theory
+          - section_heading: Symmetry of Functions Such as x, y, z and Their Products
+            section_type: related concepts
+          - section_heading: Use of Characters to Analyze Degeneracies
+            section_type: related concepts
+    milestone: "Confidently assign point groups and read character tables for use in later symmetry applications"
+    duration_days: 5
+    tags:
+      - point_groups
+      - character_tables
+      - representations
+
+  - id: 3
+    topic: Internal Coordinates, Vibrational Modes, and Spectroscopic Activity
+    learning_objectives:
+      - Distinguish between Cartesian and internal coordinates in molecules
+      - Use group theory to determine the number and symmetry types of normal vibrational modes
+      - Separate translational, rotational, and vibrational contributions from a reducible representation
+      - Predict IR and Raman activity of vibrational modes using character tables
+    textbook_style_content:
+      - lesson: Internal Coordinates and Vibrations
+        sections:
+          - section_heading: Bond Stretches, Bends, and Torsions as Internal Coordinates
+            section_type: overview
+          - section_heading: Total Degrees of Freedom and 3N–6 (3N–5) Rule
+            section_type: core_theory
+          - section_heading: Construction of a Reducible Representation for Atomic Displacements
+            section_type: core_theory
+      - lesson: Normal Modes and Symmetry Classification
+        sections:
+          - section_heading: Decomposition into Irreducible Representations to Obtain Normal Modes
+            section_type: core_theory
+          - section_heading: Worked Examples for Linear and Nonlinear Triatomic Molecules
+            section_type: related concepts
+          - section_heading: Degenerate Vibrations and Their Symmetry Labels
+            section_type: related concepts
+      - lesson: IR and Raman Selection Rules
+        sections:
+          - section_heading: Criteria for IR Activity from x, y, z Basis in Character Tables
+            section_type: core_theory
+          - section_heading: Criteria for Raman Activity from Quadratic Functions
+            section_type: core_theory
+          - section_heading: Application to Predict Spectral Features of H₂O, CO₂, and NH₃
+            section_type: related concepts
+    milestone: "Use character tables to classify vibrational modes and predict IR/Raman activity for small molecules"
+    duration_days: 6
+    tags:
+      - vibrational_modes
+      - internal_coordinates
+      - ir_raman_selection_rules
+
+  - id: 4
+    topic: Symmetry Adapted Linear Combinations (SALC) and LCAO-MO
+    learning_objectives:
+      - Explain the need for symmetry adapted combinations of atomic orbitals
+      - Construct SALCs for ligand group orbitals in simple point groups
+      - Match SALCs with central atom orbitals using irreducible representations
+      - Use SALCs to build qualitative LCAO-MO diagrams for small molecules
+    textbook_style_content:
+      - lesson: Concept of SALC
+        sections:
+          - section_heading: Limitations of Direct LCAO Without Symmetry Considerations
+            section_type: overview
+          - section_heading: Using Symmetry to Reduce the Secular Problem
+            section_type: core_theory
+          - section_heading: Symmetry Compatibility between Atomic Orbitals and SALCs
+            section_type: core_theory
+      - lesson: Projection Operator Method
+        sections:
+          - section_heading: Formal Expression for Projection Operator for an Irreducible Representation
+            section_type: core_theory
+          - section_heading: Stepwise Construction of SALCs for σ-Bonding in C₂v and C₃v
+            section_type: core_theory
+          - section_heading: Normalization and Interpretation of SALCs as Ligand Group Orbitals
+            section_type: related concepts
+      - lesson: LCAO-MO Diagrams Using SALCs
+        sections:
+          - section_heading: MO Construction for Simple Molecules (e.g., H₂O, NH₃, BF₃)
+            section_type: core_theory
+          - section_heading: Symmetry Labels of MOs and Their Degeneracies
+            section_type: related concepts
+          - section_heading: Qualitative Bonding Interpretation from SALC-Based MO Diagrams
+            section_type: related concepts
+    milestone: "Generate SALCs and use them to construct symmetry-consistent LCAO-MO schemes for small molecules"
+    duration_days: 6
+    tags:
+      - salc
+      - lcao_mo
+      - symmetry_in_mo_theory
+
+  - id: 5
+    topic: Construction of Hybrid Orbitals Using Symmetry
+    learning_objectives:
+      - Use irreducible representations to determine allowed hybrid orbital sets on an atom
+      - Derive common hybridizations (sp, sp², sp³) from symmetry arguments
+      - Relate symmetry-derived hybrid sets to molecular geometry
+      - Connect local hybrids with global SALC/MO descriptions
+    textbook_style_content:
+      - lesson: Symmetry and Central Atom Orbitals
+        sections:
+          - section_heading: Symmetry Properties of s, p, and d Orbitals at a Molecular Center
+            section_type: core_theory
+          - section_heading: Transformation Properties Under Point Group Operations
+            section_type: core_theory
+          - section_heading: Matching Central Orbitals to Ligand Symmetry via Irreps
+            section_type: related concepts
+      - lesson: Hybrid Orbitals from Group Theory
+        sections:
+          - section_heading: Derivation of sp and sp² Hybrids Using Symmetry Species
+            section_type: core_theory
+          - section_heading: Derivation of sp³ Hybrids in Tetrahedral Environments
+            section_type: core_theory
+          - section_heading: Extension to trigonal bipyramidal and octahedral Cases (Qualitative)
+            section_type: related concepts
+      - lesson: Relation to Molecular Shape and Bonding
+        sections:
+          - section_heading: Geometric Arrangement of Hybrids and Bond Directions
+            section_type: core_theory
+          - section_heading: Consistency Between Hybrid Picture and MO Symmetry Labels
+            section_type: related concepts
+          - section_heading: Examples in Main-Group Compounds (CH₄, NH₃, H₂O, BF₃, SF₆)
+            section_type: related concepts
+    milestone: "Construct allowed hybrid orbital sets on central atoms using character tables and irreducible representations"
+    duration_days: 5
+    tags:
+      - hybrid_orbitals
+      - symmetry_derived_hybrids
+      - molecular_structure
+
+  - id: 6
+    topic: Integrated Group Theory Applications and GATE Practice
+    learning_objectives:
+      - Combine symmetry, vibrational, and MO concepts in multi-step problems
+      - Rapidly identify point groups and apply character tables under exam conditions
+      - Predict IR/Raman active modes and basic MO features for unfamiliar molecules
+      - Translate qualitative symmetry reasoning into quantitative shortcuts for GATE questions
+    textbook_style_content:
+      - lesson: Mixed Application Problems
+        sections:
+          - section_heading: Point Group Assignment and Vibrational Mode Counting for Polyatomics
+            section_type: core_theory
+          - section_heading: Quick SALC Construction and MO Symmetry Labeling
+            section_type: related concepts
+          - section_heading: Short-Cut Rules for IR/Raman Predictions
+            section_type: related concepts
+      - lesson: Examination-Oriented Strategy
+        sections:
+          - section_heading: Typical GATE Question Patterns in Group Theory
+            section_type: overview
+          - section_heading: Time-Saving Tricks Using Character Tables
+            section_type: related concepts
+          - section_heading: Common Pitfalls in Symmetry Identification and Representation Reduction
+            section_type: related concepts
+    milestone: "Apply group theory fluently to structure, bonding, and spectroscopy problems in the GATE examination"
+    duration_days: 4
+    tags:
+      - gate_preparation
+      - group_theory_applications
+      - problem_solving

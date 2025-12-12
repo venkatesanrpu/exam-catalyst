@@ -1,0 +1,47 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Statistical thermodynamics- micro canonical, canonical and grand
+    canonical ensembles, Boltzmann distribution, partition functions and thermodynamic
+    properties.
+concepts:
+  core:
+  - name: Microcanonical ensemble
+    clarifier: Ensemble of isolated systems with fixed energy, volume, and particle
+      number forming the basis of entropy and temperature definitions.
+  - name: Canonical ensemble
+    clarifier: Ensemble of systems in thermal contact with a heat bath at fixed temperature,
+      volume, and particle number.
+  - name: Grand canonical ensemble
+    clarifier: Ensemble of systems in contact with a reservoir of both energy and
+      particles, characterized by fixed temperature, volume, and chemical potential.
+  - name: Boltzmann distribution
+    clarifier: Probability distribution of systems over energy levels in the canonical
+      ensemble, proportional to the Boltzmann factor \(e^{-\beta E}\).
+  - name: Partition function
+    clarifier: Central quantity obtained by summing Boltzmann factors over all microstates,
+      generating thermodynamic properties.
+  - name: Thermodynamic properties from statistics
+    clarifier: Calculation of internal energy, entropy, Helmholtz free energy, pressure,
+      heat capacities, and chemical potential from partition functions.
+  related:
+  - name: Microstates and macrostates
+    clarifier: Detailed configurations compatible with macroscopic observables and
+      their counting.
+  - name: Phase space and density of states
+    clarifier: Representation of all possible states and the number of states in an
+      energy interval.
+  - name: Ensemble averages and ergodic hypothesis
+    clarifier: Relationship between time averages and ensemble averages in equilibrium.
+  - name: Statistical definition of entropy
+    clarifier: Connection \(S = k_B \ln W\) linking microscopic multiplicity and macroscopic
+      entropy.
+  - name: Stirling approximation
+    clarifier: Mathematical simplification for factorials used in state counting and
+      entropy expressions.
+  - name: Identical particles and indistinguishability
+    clarifier: Treatment of systems of identical particles and resolution of Gibbs
+      paradox.
+  - name: Classical versus quantum statistics
+    clarifier: Limits in which Maxwell–Boltzmann statistics apply and qualitative
+      link to Fermi–Dirac and Bose–Einstein statistics.

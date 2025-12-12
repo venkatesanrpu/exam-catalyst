@@ -1,0 +1,436 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Pericyclic Reactions and Photochemistry - Electrocyclic, cycloaddition and sigmatropic reactions. Orbital correlations - FMO and PMO treatments, Woodward-Hoffmann rule. Photochemistry of alkenes, arenes and carbonyl compounds. Photooxidation and photoreduction. Di-π-methane rearrangement, Barton-McCombie reaction, Norrish type-I and II cleavage reaction.
+
+concepts:
+  core:
+    - name: Pericyclic Reactions
+      clarifier: Concerted reactions involving reorganization of σ and π bonds with cyclic transition states
+    - name: Electrocyclic Reactions
+      clarifier: Intramolecular ring-opening and ring-closing of polyenes with stereospecific outcomes
+    - name: Cycloaddition Reactions
+      clarifier: Bimolecular combination of unsaturated systems to form new rings with controlled regio- and stereochemistry
+    - name: Sigmatropic Rearrangements
+      clarifier: Migration of σ bonds within a conjugated π-system with rearrangement of bonding electrons
+    - name: Frontier Molecular Orbital (FMO) Theory
+      clarifier: Prediction of reaction outcomes using HOMO-LUMO interactions between reactants
+    - name: Perturbational Molecular Orbital (PMO) Theory
+      clarifier: Analysis of orbital overlaps and interaction energies to rationalize pericyclic selectivity
+    - name: Woodward-Hoffmann Rules
+      clarifier: Systematic rules predicting allowed and forbidden pericyclic processes based on orbital symmetry
+    - name: Photochemistry Fundamentals
+      clarifier: Chemical transformations initiated by absorption of light and electronic excited states
+    - name: Photooxidation and Photoreduction
+      clarifier: Redox reactions driven by excited-state species and electron-transfer processes
+    - name: Named Photochemical Reactions
+      clarifier: Di-π-methane rearrangement, Barton-McCombie reaction, Norrish type-I and II cleavages
+
+  related:
+    - name: Orbital Symmetry Principles
+      clarifier: Conservation of orbital symmetry in bonding and antibonding orbital rearrangements
+    - name: Reaction Mechanisms
+      clarifier: Concerted vs. stepwise pathways and transition-state analysis
+    - name: Stereochemistry
+      clarifier: Stereoselectivity and stereospecificity in pericyclic and photochemical transformations
+    - name: Aromatic Transition States
+      clarifier: Aromaticity of cyclic transition states determining reaction feasibility
+    - name: Excited-State Chemistry
+      clarifier: Electronic excitation, spin states, and reactivity from excited manifolds
+    - name: Synthetic Applications
+      clarifier: Practical use of pericyclic and photochemical reactions in organic synthesis
+
+learning_path:
+  - id: 1
+    topic: Introduction to Pericyclic Reactions and Orbital Symmetry
+    learning_objectives:
+      - Define pericyclic reactions and distinguish from stepwise ionic mechanisms
+      - Understand the fundamental concept of orbital symmetry conservation
+      - Classify pericyclic reactions by type and bonding reorganization
+      - Correlate molecular orbitals in ground and excited states
+    textbook_style_content:
+      - lesson: Fundamentals of Pericyclic Reactions
+        sections:
+          - section_heading: Definition and Classification
+            section_type: overview
+          - section_heading: Concerted Mechanisms and Transition States
+            section_type: core_theory
+          - section_heading: Orbital Symmetry Principles
+            section_type: core_theory
+      - lesson: Molecular Orbital Concepts
+        sections:
+          - section_heading: π-Orbital Systems and Polyenes
+            section_type: core_theory
+          - section_heading: HOMO and LUMO Levels
+            section_type: core_theory
+    milestone: Classify pericyclic reactions and apply orbital symmetry principles
+    duration_days: 6
+    tags:
+      - pericyclic_foundations
+      - orbital_theory
+      - symmetry_principles
+
+  - id: 2
+    topic: Electrocyclic Reactions - Theory and Applications
+    learning_objectives:
+      - Predict ring-closure and ring-opening outcomes using orbital correlation diagrams
+      - Apply Woodward-Hoffmann rules to electrocyclic transformations
+      - Rationalize conrotatory and disrotatory mechanisms
+      - Determine thermal vs. photochemical pathways
+    textbook_style_content:
+      - lesson: Electrocyclic Ring Closure and Opening
+        sections:
+          - section_heading: Thermal Electrocyclic Reactions
+            section_type: core_theory
+          - section_heading: Orbital Correlation Diagrams
+            section_type: core_theory
+          - section_heading: State Correlation Diagrams
+            section_type: related_concepts
+      - lesson: Stereochemistry of Electrocyclic Processes
+        sections:
+          - section_heading: Conrotatory and Disrotatory Modes
+            section_type: core_theory
+          - section_heading: System Size Effects
+            section_type: core_theory
+      - lesson: Photochemical Electrocyclization
+        sections:
+          - section_heading: Excited-State Pathways
+            section_type: core_theory
+    milestone: Predict electrocyclic reaction outcomes using orbital analysis
+    duration_days: 7
+    tags:
+      - electrocyclic_reactions
+      - woodward_hoffmann
+      - thermal_photochemical
+
+  - id: 3
+    topic: Cycloaddition Reactions - Diels-Alder and Beyond
+    learning_objectives:
+      - Apply FMO theory to predict cycloaddition feasibility
+      - Understand regioselectivity and stereoselectivity principles
+      - Classify cycloadditions by order and symmetry requirements
+      - Distinguish allowed and forbidden processes
+    textbook_style_content:
+      - lesson: Fundamental Cycloaddition Theory
+        sections:
+          - section_heading: Classification of Cycloadditions
+            section_type: overview
+          - section_heading: FMO Analysis of Cycloadditions
+            section_type: core_theory
+          - section_heading: Orbital Overlap and Activation Energy
+            section_type: core_theory
+      - lesson: Thermal Cycloadditions
+        sections:
+          - section_heading: "[2+2] and [4+2] Cycloadditions"
+            section_type: core_theory
+          - section_heading: Regioselectivity Rules
+            section_type: core_theory
+          - section_heading: Stereoselectivity and Endo-Exo Selection
+            section_type: core_theory
+      - lesson: Photochemical Cycloadditions
+        sections:
+          - section_heading: "[2+2] Photochemical Additions"
+            section_type: core_theory
+          - section_heading: "[4+4] and Higher-Order Photocycloadditions"
+            section_type: related_concepts
+    milestone: Predict regioselectivity and stereoselectivity in cycloaddition reactions
+    duration_days: 8
+    tags:
+      - cycloaddition
+      - diels_alder
+      - fmo_theory
+      - photochemical_addition
+
+  - id: 4
+    topic: Sigmatropic Rearrangements and Suprafacial Processes
+    learning_objectives:
+      - Classify sigmatropic shifts by order and mechanism
+      - Apply Woodward-Hoffmann rules to sigmatropic processes
+      - Predict suprafacial and antarafacial pathways
+      - Explain stereochemical outcomes
+    textbook_style_content:
+      - lesson: Sigmatropic Shift Mechanisms
+        sections:
+          - section_heading: Classification and Nomenclature
+            section_type: overview
+          - section_heading: "[1,3] and [1,5] Hydrogen Shifts"
+            section_type: core_theory
+          - section_heading: "{3,3} Sigmatropic Rearrangements"
+            section_type: core_theory
+      - lesson: Suprafacial and Antarafacial Pathways
+        sections:
+          - section_heading: Orbital Topology and Migration Modes
+            section_type: core_theory
+          - section_heading: Woodward-Hoffmann Analysis
+            section_type: core_theory
+      - lesson: Thermal and Photochemical Sigmatropic Shifts
+        sections:
+          - section_heading: Thermal Suprafacial Shifts
+            section_type: core_theory
+          - section_heading: Photochemically Induced Shifts
+            section_type: core_theory
+    milestone: Predict sigmatropic shift outcomes and stereochemistry
+    duration_days: 7
+    tags:
+      - sigmatropic_rearrangement
+      - suprafacial_antarafacial
+      - woodward_hoffmann
+
+  - id: 5
+    topic: Woodward-Hoffmann Rules and Orbital Correlation
+    learning_objectives:
+      - Systematize orbital correlation concepts
+      - Construct and interpret orbital and state correlation diagrams
+      - Apply rules to predict allowed and forbidden reactions
+      - Connect FMO and PMO approaches to symmetry rules
+    textbook_style_content:
+      - lesson: Orbital Correlation Diagrams
+        sections:
+          - section_heading: Building Diagrams from Symmetry
+            section_type: core_theory
+          - section_heading: Ground-State Correlations
+            section_type: core_theory
+          - section_heading: Excited-State Correlations
+            section_type: core_theory
+      - lesson: State Correlation Approach
+        sections:
+          - section_heading: Adiabatic and Nonadiabatic Paths
+            section_type: core_theory
+          - section_heading: Activation Energy Predictions
+            section_type: core_theory
+      - lesson: Woodward-Hoffmann Rule Summary
+        sections:
+          - section_heading: General Rules for All Pericyclic Reactions
+            section_type: core_theory
+          - section_heading: Allowed and Forbidden Processes
+            section_type: core_theory
+    milestone: Apply Woodward-Hoffmann rules to diverse pericyclic processes
+    duration_days: 6
+    tags:
+      - woodward_hoffmann_rules
+      - orbital_correlation
+      - symmetry_analysis
+
+  - id: 6
+    topic: Photochemistry Fundamentals and Excited-State Chemistry
+    learning_objectives:
+      - Understand photon absorption and electronic excitation
+      - Distinguish singlet and triplet excited states
+      - Recognize quenching, relaxation, and photochemical pathways
+      - Apply principles to photochemical transformations
+    textbook_style_content:
+      - lesson: Photochemical Principles
+        sections:
+          - section_heading: Light Absorption and Beer-Lambert Law
+            section_type: overview
+          - section_heading: Electronic Excitation and State Diagrams
+            section_type: core_theory
+          - section_heading: Singlet and Triplet States
+            section_type: core_theory
+      - lesson: Excited-State Processes
+        sections:
+          - section_heading: Internal Conversion and Vibrational Relaxation
+            section_type: core_theory
+          - section_heading: Intersystem Crossing
+            section_type: core_theory
+          - section_heading: Radiative and Non-Radiative Decay
+            section_type: core_theory
+      - lesson: Quantum Yield and Photochemical Efficiency
+        sections:
+          - section_heading: Quantum Yield Definition
+            section_type: core_theory
+          - section_heading: Chain Reactions and Cyclic Processes
+            section_type: related_concepts
+    milestone: Explain photochemical processes and energy transitions
+    duration_days: 6
+    tags:
+      - photochemistry_basics
+      - excited_states
+      - photophysics
+
+  - id: 7
+    topic: Photochemistry of Alkenes and Arenes
+    learning_objectives:
+      - Predict photochemical transformations of alkenes
+      - Rationalize aromatic photochemistry and rearrangements
+      - Understand photocyclization and photoisomerization
+      - Connect orbital geometry to photochemical reactivity
+    textbook_style_content:
+      - lesson: Photochemistry of Alkenes
+        sections:
+          - section_heading: Cis-Trans Photoisomerization
+            section_type: core_theory
+          - section_heading: "{2+2} Photocycloaddition (Di-π-methane)"
+            section_type: core_theory
+          - section_heading: Sensitized vs. Direct Photolysis
+            section_type: core_theory
+      - lesson: Photochemistry of Aromatics
+        sections:
+          - section_heading: Aromatic Photoisomerization
+            section_type: core_theory
+          - section_heading: Photochemical Ring Contraction and Expansion
+            section_type: core_theory
+          - section_heading: Photochemical Valence Isomerization
+            section_type: core_theory
+      - lesson: Photocyclization and Rearrangement
+        sections:
+          - section_heading: Photochemical Formation of Cyclobutenes
+            section_type: core_theory
+          - section_heading: Aromatic Photosubstitution
+            section_type: related_concepts
+    milestone: Predict photochemical outcomes for alkene and arene substrates
+    duration_days: 7
+    tags:
+      - photochemistry_alkenes
+      - photochemistry_arenes
+      - photoisomerization
+
+  - id: 8
+    topic: Photochemistry of Carbonyl Compounds
+    learning_objectives:
+      - Understand excited-state chemistry of carbonyls
+      - Rationalize n-π* and π-π* pathways
+      - Predict Norrish type-I and type-II cleavages
+      - Connect photochemical reactivity to structural features
+    textbook_style_content:
+      - lesson: Carbonyl Excited States
+        sections:
+          - section_heading: n-π* States of Aldehydes and Ketones
+            section_type: core_theory
+          - section_heading: π-π* States and Their Reactivity
+            section_type: core_theory
+      - lesson: Norrish Reactions
+        sections:
+          - section_heading: Norrish Type-I Cleavage (α-cleavage)
+            section_type: core_theory
+          - section_heading: Norrish Type-II Cleavage (γ-hydrogen abstraction)
+            section_type: core_theory
+          - section_heading: Photochemical Decarbonylation
+            section_type: core_theory
+      - lesson: Secondary Photochemistry
+        sections:
+          - section_heading: Cage Effects and Radical Recombination
+            section_type: core_theory
+          - section_heading: Benzoin and Related Reactions
+            section_type: related_concepts
+    milestone: Predict Norrish cleavage pathways and carbonyl photochemistry outcomes
+    duration_days: 7
+    tags:
+      - norrish_reactions
+      - carbonyl_photochemistry
+      - n_pi_star_chemistry
+
+  - id: 9
+    topic: Photooxidation and Photoreduction Reactions
+    learning_objectives:
+      - Understand electron-transfer mechanisms in photochemistry
+      - Distinguish photooxidation from photoreduction pathways
+      - Apply excited-state redox chemistry principles
+      - Recognize sensitized photooxidation processes
+    textbook_style_content:
+      - lesson: Excited-State Redox Chemistry
+        sections:
+          - section_heading: Reduction Potentials in Excited States
+            section_type: core_theory
+          - section_heading: Electron Transfer Mechanisms
+            section_type: core_theory
+      - lesson: Photooxidation Processes
+        sections:
+          - section_heading: Type I and Type II Photooxidation
+            section_type: core_theory
+          - section_heading: Singlet Oxygen Generation and Reactions
+            section_type: core_theory
+          - section_heading: Sensitizer Role in Photooxidation
+            section_type: core_theory
+      - lesson: Photoreduction Processes
+        sections:
+          - section_heading: Reductive Quenching Pathways
+            section_type: core_theory
+          - section_heading: Photochemical Hydrogen Generation
+            section_type: core_theory
+    milestone: Predict photooxidation and photoreduction outcomes
+    duration_days: 6
+    tags:
+      - photooxidation
+      - photoreduction
+      - electron_transfer
+      - singlet_oxygen
+
+  - id: 10
+    topic: Named Photochemical Reactions and Applications
+    learning_objectives:
+      - Understand mechanism and utility of di-π-methane rearrangement
+      - Comprehend Barton-McCombie reaction mechanism and applications
+      - Master Norrish type-I and type-II cleavage reactions
+      - Connect named reactions to broader photochemical principles
+    textbook_style_content:
+      - lesson: Di-π-Methane Rearrangement
+        sections:
+          - section_heading: Mechanism and Orbital Analysis
+            section_type: core_theory
+          - section_heading: Scope and Limitations
+            section_type: core_theory
+          - section_heading: Synthetic Applications
+            section_type: related_concepts
+      - lesson: Barton-McCombie Reaction
+        sections:
+          - section_heading: Photochemical Dehydration of Alcohols
+            section_type: core_theory
+          - section_heading: Xanthate Ester Decomposition
+            section_type: core_theory
+          - section_heading: Radical Intermediates and Selectivity
+            section_type: core_theory
+      - lesson: Norrish Cleavage Reactions (Consolidated)
+        sections:
+          - section_heading: Type-I Cleavage Mechanisms
+            section_type: core_theory
+          - section_heading: Type-II Cleavage (γ-abstraction) Details
+            section_type: core_theory
+          - section_heading: Comparative Analysis and Selectivity
+            section_type: core_theory
+      - lesson: Synthetic Strategy Integration
+        sections:
+          - section_heading: Named Reactions in Synthesis Planning
+            section_type: related_concepts
+          - section_heading: Multi-Step Photochemical Sequences
+            section_type: related_concepts
+    milestone: Apply named photochemical reactions to synthetic problems
+    duration_days: 8
+    tags:
+      - di_pi_methane
+      - barton_mccombie
+      - norrish_reactions
+      - photochemical_synthesis
+
+  - id: 11
+    topic: Integration and Problem-Solving - Pericyclic and Photochemical Reactions
+    learning_objectives:
+      - Integrate pericyclic and photochemical concepts
+      - Solve multifaceted problems combining multiple reaction types
+      - Distinguish thermal vs. photochemical pathways strategically
+      - Apply symmetry and orbital principles to novel substrates
+    textbook_style_content:
+      - lesson: Comparative Analysis Framework
+        sections:
+          - section_heading: Thermal Pericyclic vs. Photochemical Routes
+            section_type: core_theory
+          - section_heading: Predicting Reaction Outcomes
+            section_type: core_theory
+      - lesson: Complex Problem-Solving
+        sections:
+          - section_heading: Multi-Step Transformations
+            section_type: core_theory
+          - section_heading: Selectivity Analysis and Prediction
+            section_type: core_theory
+      - lesson: GATE Examination Strategy
+        sections:
+          - section_heading: Common Question Patterns
+            section_type: related_concepts
+          - section_heading: Time-Efficient Solution Methods
+            section_type: related_concepts
+    milestone: Solve complex pericyclic and photochemical problems with confidence
+    duration_days: 7
+    tags:
+      - integration
+      - problem_solving
+      - gate_preparation

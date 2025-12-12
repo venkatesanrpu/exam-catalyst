@@ -1,0 +1,615 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Selectivity in organic synthesis – chemo-, regio- and stereoselectivity. Protection and deprotection of functional groups. Concepts of asymmetric synthesis – resolution (including enzymatic), desymmetrization and use of chiral auxiliaries, organocatalysis."
+
+concepts:
+  core:
+    - name: Chemoselectivity
+      clarifier: "Selective reaction of one functional group in presence of others; substrate control and protecting groups"
+    - name: Regioselectivity
+      clarifier: "Directing groups in aromatic substitution; steric effects; electronic effects on competing sites"
+    - name: Stereoselectivity
+      clarifier: "Diastereoselective and enantioselective reactions; stereochemical outcome prediction and control"
+    - name: Diastereoselectivity
+      clarifier: "Formation of one diastereomer preferentially in presence of existing stereogenic centers"
+    - name: Enantioselectivity
+      clarifier: "Formation of one enantiomer preferentially from prochiral substrates"
+    - name: Protection of Functional Groups
+      clarifier: "Installation of temporary protecting groups to block reactivity"
+    - name: Deprotection Strategies
+      clarifier: "Orthogonal and selective removal of protecting groups under mild conditions"
+    - name: Resolution of Enantiomers
+      clarifier: "Separation of racemates into optically pure enantiomers; chemical and enzymatic methods"
+    - name: Desymmetrization
+      clarifier: "Converting prochiral or meso compounds to chiral products via selective transformation"
+    - name: Chiral Auxiliaries
+      clarifier: "Temporary chiral groups to control asymmetric induction; auxiliary attachment and cleavage"
+    - name: Organocatalysis
+      clarifier: "Catalytic asymmetric transformations using small organic molecules without metals"
+    - name: Enzymatic Asymmetric Synthesis
+      clarifier: "Use of enzymes for resolution and selective transformations with high stereoselectivity"
+
+  related:
+    - name: Asymmetric Hydrogenation and Reduction
+      clarifier: "Transition metal-catalyzed asymmetric reductions (ATH, CBS, BINAP-based)"
+    - name: Chiral Ligands and Catalysts
+      clarifier: "BINAP, DuPhos, TADDOL, and other chiral ligands for asymmetric catalysis"
+    - name: Cram's Rule and Chelation Control
+      clarifier: "Stereochemical prediction models for nucleophilic additions"
+    - name: Double Stereodifferentiation
+      clarifier: "Substrate and reagent control acting in concert or opposition"
+    - name: Prochirality Concepts
+      clarifier: "Prochiral faces, enantiotopic groups, and diastereotopic groups"
+    - name: Biocatalysis and Biosynthesis
+      clarifier: "Enzymatic transformations and their application in synthesis"
+
+learning_path:
+  - id: 1
+    topic: "Chemoselectivity: Selective Functional Group Reactivity"
+    learning_objectives:
+      - "Explain chemoselectivity and its importance in multifunctional substrates"
+      - "Classify functional groups by reactivity toward common reagents"
+      - "Apply substrate control to favor one functional group over another"
+      - "Predict competitive reactions and design conditions to minimize side reactions"
+      - "Select appropriate reagents for chemoselective transformations"
+      - "Design protecting group strategies to achieve chemoselectivity"
+      - "Execute chemoselective reactions in competition experiments"
+    textbook_style_content:
+      - lesson: "Chemoselectivity Fundamentals"
+        sections:
+          - section_heading: "Definition and Synthetic Importance of Chemoselectivity"
+            section_type: "overview"
+          - section_heading: "Intrinsic Reactivity of Functional Groups"
+            section_type: "core_theory"
+          - section_heading: "Factors Controlling Chemoselectivity: Reagent, Solvent, Temperature"
+            section_type: "core_theory"
+      - lesson: "Substrate Control in Selectivity"
+        sections:
+          - section_heading: "Relative Electrophilicity of Carbonyl Groups (Aldehyde > Ketone > Ester)"
+            section_type: "core_theory"
+          - section_heading: "Chemoselective Nucleophilic Addition to Mixed Carbonyl Systems"
+            section_type: "core_theory"
+          - section_heading: "Acid vs. Ester Chemoselectivity in Reduction"
+            section_type: "core_theory"
+      - lesson: "Reagent Selection for Chemoselectivity"
+        sections:
+          - section_heading: "DIBAL-H: Selective Ester Reduction vs. Ketone Reduction"
+            section_type: "core_theory"
+          - section_heading: "LiAlH₄ vs. LiBH₄: Reactivity Differences and Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Selective Oxidation: PCC, DMP, Swern for Alcohols vs. Aldehydes"
+            section_type: "core_theory"
+      - lesson: "Protecting Groups for Chemoselectivity"
+        sections:
+          - section_heading: "Masking One Functional Group to Enable Another"
+            section_type: "core_theory"
+          - section_heading: "Common Chemoselectivity Scenarios: Diol, Amino Acid, Hydroxycarbonyl"
+            section_type: "core_theory"
+      - lesson: "Competitive Reactions and Problem-Solving"
+        sections:
+          - section_heading: "Predicting Major vs. Minor Products in Ambiguous Systems"
+            section_type: "core_theory"
+          - section_heading: "Kinetic vs. Thermodynamic Control in Chemoselective Reactions"
+            section_type: "related concepts"
+    milestone: "Execute chemoselective transformations in polyfunctional substrates"
+    duration_days: 6
+    tags:
+      - "Chemoselectivity"
+      - "Substrate Control"
+      - "Reagent Selection"
+      - "Functional Group Reactivity"
+
+  - id: 2
+    topic: "Regioselectivity: Controlling Reaction Site Among Equivalent or Similar Sites"
+    learning_objectives:
+      - "Explain regioselectivity and predict outcomes based on electronic and steric effects"
+      - "Apply directing group effects in electrophilic aromatic substitution"
+      - "Predict regioselectivity in aromatic coupling and nucleophilic aromatic substitution"
+      - "Control regioselectivity in aliphatic systems through electronic factors"
+      - "Apply steric effects to achieve regioselective transformations"
+      - "Design protecting and blocking strategies for regioselectivity"
+      - "Execute regioselective reactions with competing sites"
+    textbook_style_content:
+      - lesson: "Regioselectivity in Aromatic Systems"
+        sections:
+          - section_heading: "Directing Effects: Ortho/Para vs. Meta Directors"
+            section_type: "core_theory"
+          - section_heading: "Electrophilic Aromatic Substitution (EAS) Regioselectivity"
+            section_type: "core_theory"
+          - section_heading: "Nucleophilic Aromatic Substitution (SNAr) Regioselectivity"
+            section_type: "core_theory"
+          - section_heading: "Predicting Regioselectivity with Multiple Substituents"
+            section_type: "core_theory"
+      - lesson: "Electronic Effects on Regioselectivity"
+        sections:
+          - section_heading: "Electron-Donating Groups (EDG) and Activation"
+            section_type: "core_theory"
+          - section_heading: "Electron-Withdrawing Groups (EWG) and Deactivation"
+            section_type: "core_theory"
+          - section_heading: "Markovnikov's Rule and Regioselectivity in Alkene Addition"
+            section_type: "core_theory"
+      - lesson: "Steric Effects on Regioselectivity"
+        sections:
+          - section_heading: "Steric Hindrance and Neighboring Group Participation"
+            section_type: "core_theory"
+          - section_heading: "Regioselectivity in Grignard and Organolithium Additions"
+            section_type: "core_theory"
+      - lesson: "Regioselectivity in Aliphatic Transformations"
+        sections:
+          - section_heading: "SN2 vs. E2: Regiochemical Outcomes"
+            section_type: "core_theory"
+          - section_heading: "Hydration and Hydrohalogenation Regioselectivity"
+            section_type: "core_theory"
+          - section_heading: "Conjugate Addition vs. Direct Addition Regioselectivity"
+            section_type: "related concepts"
+      - lesson: "Controlling Regioselectivity via Protection"
+        sections:
+          - section_heading: "Blocking Groups to Direct Substitution to Desired Site"
+            section_type: "core_theory"
+          - section_heading: "Sequential Protection-Deprotection for Regioselective Elaboration"
+            section_type: "related concepts"
+    milestone: "Predict and control regioselectivity in complex aromatic and aliphatic systems"
+    duration_days: 7
+    tags:
+      - "Regioselectivity"
+      - "Directing Effects"
+      - "Electronic Effects"
+      - "Steric Effects"
+      - "Aromatic Substitution"
+
+  - id: 3
+    topic: "Stereoselectivity: Diastereoselectivity and Control"
+    learning_objectives:
+      - "Define stereoselectivity, diastereoselectivity, and enantioselectivity"
+      - "Apply Cram's rule for predicting nucleophilic addition stereochemistry"
+      - "Explain chelation control in additions to α-hydroxy carbonyls"
+      - "Execute diasteroselective reactions using existing chiral centers"
+      - "Predict stereochemical outcomes in aldol, Grignard, and Wittig reactions"
+      - "Apply steric and electronic effects to control diastereoselectivity"
+      - "Design syntheses with predictable diastereoselectivity"
+    textbook_style_content:
+      - lesson: "Stereoselectivity Fundamentals"
+        sections:
+          - section_heading: "Definition: Stereoselectivity, Diastereoselectivity, Enantioselectivity"
+            section_type: "overview"
+          - section_heading: "Stereochemical Outcome Prediction Methods"
+            section_type: "core_theory"
+      - lesson: "Cram's Rule and Felkin-Anh Model"
+        sections:
+          - section_heading: "Cram's Rule: Steric Approach Control in Nucleophilic Additions"
+            section_type: "core_theory"
+          - section_heading: "Felkin-Anh Modification for Electronegative Substituents"
+            section_type: "core_theory"
+          - section_heading: "Predicting Major Diastereomer from α-Chiral Aldehydes"
+            section_type: "core_theory"
+      - lesson: "Chelation Control"
+        sections:
+          - section_heading: "Chelation in α-Hydroxy and α-Alkoxy Carbonyls"
+            section_type: "core_theory"
+          - section_heading: "Li(OtBu)₃AlH and Chelation-Controlled Reduction"
+            section_type: "core_theory"
+          - section_heading: "Predicting Stereochemistry via Chelated vs. Non-Chelated Transition States"
+            section_type: "core_theory"
+      - lesson: "Diasteroselective Aldol Reactions"
+        sections:
+          - section_heading: "Evans Auxiliary and Chiral Aldol Reactions"
+            section_type: "core_theory"
+          - section_heading: "Zimmerman-Traxler Model for Aldol Stereochemistry"
+            section_type: "core_theory"
+          - section_heading: "Predicting syn vs. anti Aldol Products"
+            section_type: "related concepts"
+      - lesson: "Diasteroselective Grignard and Wittig Reactions"
+        sections:
+          - section_heading: "Stereochemistry of Grignard Additions to Chiral Carbonyls"
+            section_type: "core_theory"
+          - section_heading: "Wittig (E/Z) and HWE Olefin Stereochemistry"
+            section_type: "core_theory"
+      - lesson: "Applying Stereoselectivity in Synthesis"
+        sections:
+          - section_heading: "Choosing Reactions and Conditions for Diastereoselectivity"
+            section_type: "core_theory"
+          - section_heading: "Mismatched vs. Matched Substrates and Reagents"
+            section_type: "related concepts"
+    milestone: "Execute diasteroselective reactions with predictable stereochemical outcomes"
+    duration_days: 8
+    tags:
+      - "Stereoselectivity"
+      - "Diastereoselectivity"
+      - "Cram's Rule"
+      - "Chelation Control"
+      - "Aldol Reactions"
+
+  - id: 4
+    topic: "Protection and Deprotection Strategies: Practical Implementation"
+    learning_objectives:
+      - "Select appropriate protecting groups based on functional group and subsequent reactions"
+      - "Execute installation of protecting groups under mild and efficient conditions"
+      - "Apply orthogonal protection schemes for polyhydroxy and polyfunctional substrates"
+      - "Remove protecting groups selectively and with minimal side reactions"
+      - "Design deprotection sequence for multi-protected intermediates"
+      - "Predict and prevent protecting group-incompatible reactions"
+      - "Optimize protecting group strategy for total synthesis applications"
+    textbook_style_content:
+      - lesson: "Protecting Group Principles and Selection"
+        sections:
+          - section_heading: "Ideal Protecting Group Criteria: Stability, Orthogonality, Ease"
+            section_type: "overview"
+          - section_heading: "Protecting Group Selection Matrix for Common Functional Groups"
+            section_type: "core_theory"
+          - section_heading: "Stability under Planned Reaction Conditions"
+            section_type: "core_theory"
+      - lesson: "Alcohol Protecting Groups"
+        sections:
+          - section_heading: "Silyl Ethers (TMS, TES, TBS, TBDPS, TIPS): Installation and Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Benzyl Ethers: Hydrogenolysis and Radical Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Trityl (Tr), 4-Methoxytrityl (DMTr), and Acid-Labile Groups"
+            section_type: "core_theory"
+          - section_heading: "Acetals and Ketals as Carbonyl-Masking Protections"
+            section_type: "related concepts"
+      - lesson: "Amine Protecting Groups"
+        sections:
+          - section_heading: "Cbz (Carboxybenzyl): Installation, Cleavage by Hydrogenolysis"
+            section_type: "core_theory"
+          - section_heading: "Boc (tert-Butoxycarbonyl): Installation, TFA Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Tosyl (Ts) and Mesyl (Ms): Installation and Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Fmoc Protection for Amino Acids and Peptides"
+            section_type: "related concepts"
+      - lesson: "Carboxylic Acid and Carbonyl Protecting Groups"
+        sections:
+          - section_heading: "Methyl and Ethyl Esters: Hydrolysis and Transesterification"
+            section_type: "core_theory"
+          - section_heading: "Benzyl Esters: Hydrogenolytic Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Ketals and Acetals for Carbonyl Protection"
+            section_type: "core_theory"
+          - section_heading: "Enol Ethers and Enamines as Masking Groups"
+            section_type: "related concepts"
+      - lesson: "Orthogonal Protection Strategies"
+        sections:
+          - section_heading: "Definition and Importance of Orthogonal Protecting Groups"
+            section_type: "core_theory"
+          - section_heading: "Multi-Protecting Group Schemes for Polyhydroxy Substrates"
+            section_type: "core_theory"
+          - section_heading: "Differentiating Primary vs. Secondary Alcohols"
+            section_type: "core_theory"
+          - section_heading: "Selective Deprotection in Polyfunctional Molecules"
+            section_type: "core_theory"
+      - lesson: "Protecting Group Compatibility"
+        sections:
+          - section_heading: "Predicting Protecting Group Stability Under Various Conditions"
+            section_type: "core_theory"
+          - section_heading: "Avoiding Protecting Group Migrations and Rearrangements"
+            section_type: "related concepts"
+    milestone: "Design and implement complex orthogonal protection schemes in multifunctional synthesis"
+    duration_days: 8
+    tags:
+      - "Protecting Groups"
+      - "Silyl Ethers"
+      - "Benzyl Protection"
+      - "Orthogonal Protection"
+      - "Deprotection"
+
+  - id: 5
+    topic: "Resolution of Enantiomers: Chemical and Enzymatic Approaches"
+    learning_objectives:
+      - "Explain racemic mixture resolution and separation principles"
+      - "Apply diastereomeric salt formation for enantiomeric resolution"
+      - "Execute fractional crystallization of diastereomeric derivatives"
+      - "Describe enzymatic resolution using lipases, proteases, and oxidoreductases"
+      - "Apply kinetic resolution for asymmetric access to optically pure enantiomers"
+      - "Optimize resolution conditions for practical enantiomeric separation"
+      - "Calculate ee (enantiomeric excess) and resolution efficiency"
+    textbook_style_content:
+      - lesson: "Principles of Enantiomeric Resolution"
+        sections:
+          - section_heading: "Racemic Mixtures and Diastereomeric Derivatives"
+            section_type: "overview"
+          - section_heading: "Forming Diastereomeric Salts from Racemic Amines and Acids"
+            section_type: "core_theory"
+          - section_heading: "Fractional Crystallization and Separation"
+            section_type: "core_theory"
+      - lesson: "Chemical Resolution Methods"
+        sections:
+          - section_heading: "Resolution via Diastereomeric Amide Formation (Menthol, Brucine)"
+            section_type: "core_theory"
+          - section_heading: "Resolution via Diastereomeric Ester Formation"
+            section_type: "core_theory"
+          - section_heading: "Resolving Agents: Optically Pure Acids and Bases"
+            section_type: "core_theory"
+          - section_heading: "Recycling Undesired Enantiomer via Racemization"
+            section_type: "related concepts"
+      - lesson: "Enzymatic Resolution"
+        sections:
+          - section_heading: "Enzyme Selectivity: Stereospecificity and Regiospecificity"
+            section_type: "core_theory"
+          - section_heading: "Lipase-Catalyzed Resolution of Alcohols and Amines"
+            section_type: "core_theory"
+          - section_heading: "Protease-Catalyzed N-Acyl Amino Acid Resolution"
+            section_type: "core_theory"
+          - section_heading: "Oxidoreductase-Catalyzed Enantioselective Oxidation/Reduction"
+            section_type: "related concepts"
+      - lesson: "Kinetic Resolution"
+        sections:
+          - section_heading: "Differential Enzyme Rates for (R) vs. (S) Enantiomers"
+            section_type: "core_theory"
+          - section_heading: "Parallel Kinetic Resolution and Independent Reaction Pathways"
+            section_type: "related concepts"
+          - section_heading: "Dynamic Kinetic Resolution (DKR) with Racemization"
+            section_type: "related concepts"
+      - lesson: "Optimization and Calculation"
+        sections:
+          - section_heading: "Calculating Enantiomeric Excess (ee) and Percent Resolution"
+            section_type: "core_theory"
+          - section_heading: "Optimizing Solvent, pH, Temperature for Enzymatic Resolution"
+            section_type: "related concepts"
+          - section_heading: "Scale-Up Considerations for Preparative Resolution"
+            section_type: "related concepts"
+    milestone: "Execute chemical and enzymatic resolution to obtain optically pure enantiomers"
+    duration_days: 7
+    tags:
+      - "Resolution of Enantiomers"
+      - "Diastereomeric Salts"
+      - "Enzymatic Resolution"
+      - "Kinetic Resolution"
+      - "Enantiomeric Excess"
+
+  - id: 6
+    topic: "Desymmetrization: Converting Prochiral to Chiral Molecules"
+    learning_objectives:
+      - "Define prochirality, prochiral faces, enantiotopic groups, and diastereotopic groups"
+      - "Identify prochiral substrates and their planes/axes of symmetry"
+      - "Apply desymmetrization to convert meso compounds to optically active products"
+      - "Execute diastereoselective desymmetrization of prochiral substrates"
+      - "Apply enzymatic desymmetrization for enantioselective transformation"
+      - "Design syntheses leveraging desymmetrization for asymmetric access"
+      - "Predict stereochemical outcomes in desymmetrization reactions"
+    textbook_style_content:
+      - lesson: "Prochirality Concepts"
+        sections:
+          - section_heading: "Prochiral Molecules: Definition and Recognition"
+            section_type: "overview"
+          - section_heading: "Prochiral Faces (Re vs. Si) and Faces Enantiotopicity"
+            section_type: "core_theory"
+          - section_heading: "Enantiotopic Groups: Discrimination in Chiral Environments"
+            section_type: "core_theory"
+          - section_heading: "Diastereotopic Groups and Their NMR Behavior"
+            section_type: "related concepts"
+      - lesson: "Desymmetrization of Meso Compounds"
+        sections:
+          - section_heading: "Meso Compounds: Structure and Symmetry Elements"
+            section_type: "core_theory"
+          - section_heading: "Monosubstitution of Symmetrical Diols"
+            section_type: "core_theory"
+          - section_heading: "Monosubstitution of Symmetrical Diamines"
+            section_type: "core_theory"
+          - section_heading: "Kinetic vs. Thermodynamic Control in Desymmetrization"
+            section_type: "related concepts"
+      - lesson: "Enzymatic Desymmetrization"
+        sections:
+          - section_heading: "Lipase-Catalyzed Monoacylation of meso-Diols"
+            section_type: "core_theory"
+          - section_heading: "Protease-Catalyzed Selective Acylation of meso-Diamino Compounds"
+            section_type: "core_theory"
+          - section_heading: "High Stereoselectivity in Enzyme-Catalyzed Desymmetrization"
+            section_type: "core_theory"
+      - lesson: "Diastereoselective Desymmetrization"
+        sections:
+          - section_heading: "Desymmetrization Controlled by Existing Stereogenic Centers"
+            section_type: "core_theory"
+          - section_heading: "Reagent-Controlled Desymmetrization with Chiral Reagents"
+            section_type: "related concepts"
+      - lesson: "Synthetic Applications"
+        sections:
+          - section_heading: "Desymmetrization en Route to Natural Products"
+            section_type: "core_theory"
+          - section_heading: "Building Block Synthesis via Strategic Desymmetrization"
+            section_type: "related concepts"
+    milestone: "Execute desymmetrization reactions to access optically active products from prochiral substrates"
+    duration_days: 6
+    tags:
+      - "Desymmetrization"
+      - "Prochirality"
+      - "Meso Compounds"
+      - "Enzymatic Desymmetrization"
+      - "Asymmetric Access"
+
+  - id: 7
+    topic: "Chiral Auxiliaries: Asymmetric Induction and Auxiliary Removal"
+    learning_objectives:
+      - "Define chiral auxiliaries and their role in asymmetric synthesis"
+      - "Apply Evans oxazolidinone auxiliary in chiral aldol reactions"
+      - "Execute diastereoselective transformations directed by chiral auxiliaries"
+      - "Describe attachment and detachment strategies for auxiliaries"
+      - "Compare auxiliary control vs. substrate control in stereoselectivity"
+      - "Design syntheses incorporating chiral auxiliary methodology"
+      - "Optimize auxiliary selection for different transformation types"
+    textbook_style_content:
+      - lesson: "Chiral Auxiliary Concept"
+        sections:
+          - section_heading: "Definition and Synthetic Role of Chiral Auxiliaries"
+            section_type: "overview"
+          - section_heading: "Temporary vs. Permanent Chirality Introduction"
+            section_type: "core_theory"
+          - section_heading: "Requirements for Effective Auxiliaries: Easy Attachment, Predictable Control, Easy Removal"
+            section_type: "core_theory"
+      - lesson: "Evans Oxazolidinone Auxiliary"
+        sections:
+          - section_heading: "Oxazolidinone Structure and Synthesis"
+            section_type: "core_theory"
+          - section_heading: "Formation of Evans Auxiliary-Carboxylic Acid Derivatives"
+            section_type: "core_theory"
+          - section_heading: "Chiral Aldol Reaction via Evans Auxiliary"
+            section_type: "core_theory"
+          - section_heading: "Aldol Stereoselectivity: Chelation-Controlled Transition State"
+            section_type: "core_theory"
+          - section_heading: "Product Cleavage and Auxiliary Recovery"
+            section_type: "core_theory"
+      - lesson: "Other Common Chiral Auxiliaries"
+        sections:
+          - section_heading: "Oppolzer Camphorsultam Auxiliary for Aminoglycosides"
+            section_type: "core_theory"
+          - section_heading: "SAMP and RAMP Hydrazones for Enantioselective Reactions"
+            section_type: "core_theory"
+          - section_heading: "Menthol-Derived Auxiliaries"
+            section_type: "related concepts"
+      - lesson: "Asymmetric Reactions with Auxiliaries"
+        sections:
+          - section_heading: "Diastereoselective Aldol Condensation"
+            section_type: "core_theory"
+          - section_heading: "Diastereoselective Michael Addition"
+            section_type: "core_theory"
+          - section_heading: "Diastereoselective Cycloaddition Reactions"
+            section_type: "related concepts"
+      - lesson: "Auxiliary Removal and Product Conversion"
+        sections:
+          - section_heading: "Reduction to Aldehyde or Alcohol (DIBAL-H, LiAlH₄)"
+            section_type: "core_theory"
+          - section_heading: "Auxiliary Recovery and Recycling"
+            section_type: "related concepts"
+          - section_heading: "One-Pot Auxiliary Removal and Further Elaboration"
+            section_type: "related concepts"
+    milestone: "Execute chiral auxiliary-directed asymmetric reactions with efficient product release"
+    duration_days: 7
+    tags:
+      - "Chiral Auxiliaries"
+      - "Evans Oxazolidinone"
+      - "Asymmetric Induction"
+      - "Diastereoselectivity"
+      - "Auxiliary Removal"
+
+  - id: 8
+    topic: "Organocatalysis: Small Organic Molecules as Catalysts for Asymmetric Synthesis"
+    learning_objectives:
+      - "Define organocatalysis and contrast to metal-based catalysis"
+      - "Explain activation modes: hydrogen bonding, ion pairing, covalent catalysis"
+      - "Apply proline and amine catalysts in aldol and Michael reactions"
+      - "Execute thiamine catalysis for benzoin and Stetter reactions"
+      - "Describe phosphine-catalyzed asymmetric transformations"
+      - "Apply urea and thiourea catalysts for hydrogen bond-based asymmetric reactions"
+      - "Design organocatalytic asymmetric syntheses"
+    textbook_style_content:
+      - lesson: "Organocatalysis Overview"
+        sections:
+          - section_heading: "Organocatalysis Definition and Advantages"
+            section_type: "overview"
+          - section_heading: "Comparison to Metal-Based Asymmetric Catalysis"
+            section_type: "core_theory"
+          - section_heading: "Activation Mechanisms: H-bonding, Ion Pairing, Covalent"
+            section_type: "core_theory"
+      - lesson: "Chiral Amine Catalysis"
+        sections:
+          - section_heading: "Proline and Derivatives as Organocatalysts"
+            section_type: "core_theory"
+          - section_heading: "Iminium Activation and Enamine Formation"
+            section_type: "core_theory"
+          - section_heading: "Asymmetric Aldol Reaction via Proline Catalysis"
+            section_type: "core_theory"
+          - section_heading: "Asymmetric Michael Addition Catalyzed by Amines"
+            section_type: "core_theory"
+      - lesson: "N-Heterocyclic Carbenes (NHC) Catalysis"
+        sections:
+          - section_heading: "NHC Formation and Lewis Base Character"
+            section_type: "core_theory"
+          - section_heading: "Thiamine and Thiamine Analogs as NHC Precursors"
+            section_type: "core_theory"
+          - section_heading: "Benzoin Reaction and Stetter Reaction Catalysis"
+            section_type: "core_theory"
+      - lesson: "Hydrogen Bond Donor Catalysis"
+        sections:
+          - section_heading: "Urea and Thiourea Catalysts"
+            section_type: "core_theory"
+          - section_heading: "Activation via Multiple Hydrogen Bonds"
+            section_type: "core_theory"
+          - section_heading: "Asymmetric Diels-Alder and Michael Addition via H-Bond Catalysis"
+            section_type: "related concepts"
+      - lesson: "Phosphine-Catalyzed Reactions"
+        sections:
+          - section_heading: "Phosphine Lewis Base Catalysis"
+            section_type: "core_theory"
+          - section_heading: "Asymmetric Cycloaddition Reactions"
+            section_type: "core_theory"
+          - section_heading: "Comparison to Amine and NHC Catalysis"
+            section_type: "related concepts"
+      - lesson: "Synthetic Applications and Advantages"
+        sections:
+          - section_heading: "High Turnover Numbers and Low Catalyst Loading"
+            section_type: "core_theory"
+          - section_heading: "Green Chemistry Perspective: No Metals, Recyclable Catalysts"
+            section_type: "related concepts"
+          - section_heading: "Multi-Catalytic Systems and Cascade Reactions"
+            section_type: "related concepts"
+    milestone: "Design and execute organocatalytic asymmetric transformations with high enantioselectivity"
+    duration_days: 8
+    tags:
+      - "Organocatalysis"
+      - "Proline Catalysis"
+      - "NHC Catalysts"
+      - "Hydrogen Bond Catalysis"
+      - "Asymmetric Aldol"
+
+  - id: 9
+    topic: "Asymmetric Synthesis Integration: Advanced Concepts and Applications"
+    learning_objectives:
+      - "Integrate asymmetric methodologies (resolution, desymmetrization, auxiliaries, organocatalysis)"
+      - "Design multi-step asymmetric syntheses combining multiple control elements"
+      - "Apply double stereodifferentiation and understand matching/mismatching effects"
+      - "Execute transformations with matched and mismatched substrate-reagent combinations"
+      - "Predict and optimize ee, dr (diastereomeric ratio), and overall selectivity"
+      - "Design syntheses targeting enantiomerically pure natural product analogs"
+      - "Evaluate asymmetric routes for efficiency and practical applicability"
+    textbook_style_content:
+      - lesson: "Double Stereodifferentiation"
+        sections:
+          - section_heading: "Definition: Substrate and Reagent Control Acting Simultaneously"
+            section_type: "overview"
+          - section_heading: "Matched Cases: Additive or Cooperative Control"
+            section_type: "core_theory"
+          - section_heading: "Mismatched Cases: Competitive or Opposing Control"
+            section_type: "core_theory"
+          - section_heading: "Strategic Selection of Substrate and Reagent Stereochemistry"
+            section_type: "core_theory"
+      - lesson: "Enantioselectivity Prediction and Optimization"
+        sections:
+          - section_heading: "Understanding ee, Selectivity Factor (s), and Conversion"
+            section_type: "core_theory"
+          - section_heading: "Kinetic vs. Thermodynamic Resolution Effects"
+            section_type: "core_theory"
+          - section_heading: "Optimization of Catalyst, Solvent, Temperature for ee Enhancement"
+            section_type: "related concepts"
+      - lesson: "Multi-Step Asymmetric Syntheses"
+        sections:
+          - section_heading: "Case Study 1: Asymmetric Total Synthesis via Chiral Auxiliary"
+            section_type: "core_theory"
+          - section_heading: "Case Study 2: Tandem Enzymatic Desymmetrization and Catalytic Transformation"
+            section_type: "core_theory"
+          - section_heading: "Case Study 3: Organocatalytic Cascade to Polycyclic Chiral Target"
+            section_type: "core_theory"
+          - section_heading: "Case Study 4: Natural Product Synthesis via Integrated Asymmetric Methods"
+            section_type: "core_theory"
+      - lesson: "Selectivity and Efficiency in Asymmetric Synthesis"
+        sections:
+          - section_heading: "Comparing Asymmetric Routes: Resolution, Auxiliary, Organocatalysis"
+            section_type: "core_theory"
+          - section_heading: "Atom Economy and Waste Minimization in Asymmetric Processes"
+            section_type: "related concepts"
+          - section_heading: "Scalability from Milligram to Kilogram in Asymmetric Synthesis"
+            section_type: "related concepts"
+      - lesson: "Advanced Topics"
+        sections:
+          - section_heading: "Asymmetric Hydrogenation with Transition Metal Catalysts (Brief Overview)"
+            section_type: "related concepts"
+          - section_heading: "Biocatalysis in Complex Asymmetric Syntheses"
+            section_type: "related concepts"
+    milestone: "Design and execute complex asymmetric syntheses demonstrating integrated mastery of selectivity concepts"
+    duration_days: 10
+    tags:
+      - "Asymmetric Synthesis"
+      - "Double Stereodifferentiation"
+      - "Enantioselectivity"
+      - "Multi-Step Synthesis"
+      - "Route Optimization"

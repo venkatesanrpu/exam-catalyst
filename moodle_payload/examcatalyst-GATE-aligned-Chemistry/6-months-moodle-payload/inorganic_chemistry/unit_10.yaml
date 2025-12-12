@@ -1,0 +1,241 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Solids- Crystal systems and lattices, Miller planes, crystal packing, crystal defects, Bragg’s law, ionic crystals, structures of AX, AX2, ABX3 type compounds, spinels, band theory, metals and semiconductors.
+
+concepts:
+  core:
+    - name: Crystal Systems and Bravais Lattices
+      clarifier: Classification of crystals into 7 systems and 14 Bravais lattices based on symmetry and unit cell parameters
+    - name: Miller Indices and Crystallographic Planes
+      clarifier: Systematic notation for describing crystal planes and directions using reciprocal intercepts
+    - name: Crystal Packing and Efficiency
+      clarifier: Arrangement of atoms in crystalline solids including close-packed structures and packing fraction calculations
+    - name: Crystal Defects and Non-stoichiometry
+      clarifier: Deviation from ideal crystal periodicity including point, line, and planar defects
+    - name: Bragg's Law and X-ray Diffraction
+      clarifier: Relationship between X-ray wavelength, interplanar spacing, and diffraction angle for crystal structure determination
+    - name: Ionic Crystal Structures
+      clarifier: Geometric arrangements of AX (NaCl, CsCl, ZnS) and AX2 (CaF2, rutile) type compounds
+    - name: Complex Oxide Structures
+      clarifier: Perovskite (ABX3) and spinel structures with cation distribution and crystal chemistry
+    - name: Band Theory of Solids
+      clarifier: Electronic structure model explaining conductivity in metals, insulators, and semiconductors
+  related:
+    - name: Symmetry Elements and Space Groups
+      clarifier: Microscopic symmetry operations that define crystal classification beyond Bravais lattices
+    - name: Interplanar Spacing Calculations
+      clarifier: Mathematical relationships between lattice parameters and distances between crystallographic planes
+    - name: Tetrahedral and Octahedral Voids
+      clarifier: Interstitial sites in close-packed structures crucial for understanding compound formation
+    - name: Kroger-Vink Notation
+      clarifier: Defect chemistry notation for describing point defects in ionic crystals
+    - name: Structure Factor and Intensity
+      clarifier: X-ray diffraction intensity dependence on atomic positions and scattering factors
+    - name: Radius Ratio Rules
+      clarifier: Predictive guidelines for coordination numbers based on relative ionic radii
+    - name: Superexchange Interactions
+      clarifier: Magnetic coupling mechanisms in complex oxides like spinels and perovskites
+    - name: Doping and Carrier Concentration
+      clarifier: Intentional introduction of impurities to modulate semiconductor properties
+
+learning_path:
+  - id: 1
+    topic: Foundation of Crystalline Solids
+    learning_objectives:
+      - Distinguish between crystalline and amorphous solids
+      - Identify the seven crystal systems based on lattice parameters
+      - Classify unit cells into 14 Bravais lattices
+      - Apply concepts of lattice points and basis to crystal structure
+    textbook_style_content:
+      - lesson: Introduction to Crystalline Solids
+        sections:
+          - section_heading: Nature of Crystalline Materials
+            section_type: overview
+          - section_heading: Crystal Systems and Lattice Parameters
+            section_type: core_theory
+          - section_heading: Bravais Lattices and Primitive Cells
+            section_type: core_theory
+          - section_heading: Symmetry Elements in Crystals
+            section_type: related concepts
+    milestone: Master classification of all crystal systems and Bravais lattices
+    duration_days: 4
+    tags:
+      - crystal-systems
+      - bravais-lattices
+      - crystallography-basics
+
+  - id: 2
+    topic: Crystallographic Directions and Planes
+    learning_objectives:
+      - Index crystal directions using Miller notation
+      - Determine Miller indices for crystallographic planes
+      - Calculate interplanar spacing for different crystal systems
+      - Visualize and draw principal planes in cubic systems
+    textbook_style_content:
+      - lesson: Miller Indices and Crystal Geometry
+        sections:
+          - section_heading: Notation for Crystal Directions
+            section_type: core_theory
+          - section_heading: Miller Indices for Crystal Planes
+            section_type: core_theory
+          - section_heading: Interplanar Spacing Formulas
+            section_type: related concepts
+          - section_heading: Practical Applications in Diffraction
+            section_type: related concepts
+    milestone: Fluency in Miller notation and plane visualization
+    duration_days: 3
+    tags:
+      - miller-indices
+      - crystal-planes
+      - crystallographic-geometry
+
+  - id: 3
+    topic: Atomic Packing in Crystals
+    learning_objectives:
+      - Describe hexagonal and cubic close packing arrangements
+      - Calculate packing efficiency for FCC, HCP, and BCC structures
+      - Identify tetrahedral and octahedral voids in close-packed structures
+      - Predict structure types based on atom sizes
+    textbook_style_content:
+      - lesson: Crystal Packing and Efficiency
+        sections:
+          - section_heading: Close-Packed Structures Overview
+            section_type: overview
+          - section_heading: FCC and HCP Arrangements
+            section_type: core_theory
+          - section_heading: Packing Fraction Calculations
+            section_type: core_theory
+          - section_heading: Interstitial Voids and Sites
+            section_type: related concepts
+    milestone: Master packing efficiency calculations and void identification
+    duration_days: 4
+    tags:
+      - close-packing
+      - packing-efficiency
+      - crystal-structures
+
+  - id: 4
+    topic: Defect Chemistry and Non-stoichiometry
+    learning_objectives:
+      - Classify point defects in ionic crystals
+      - Apply Kroger-Vink notation for defect representation
+      - Explain Frenkel and Schottky defect formation
+      - Understand how defects affect physical properties
+    textbook_style_content:
+      - lesson: Imperfections in Crystalline Solids
+        sections:
+          - section_heading: Types of Crystal Defects
+            section_type: overview
+          - section_heading: Point Defects in Ionic Crystals
+            section_type: core_theory
+          - section_heading: Kroger-Vink Defect Notation
+            section_type: related concepts
+          - section_heading: Defect Equilibria and Concentration
+            section_type: related concepts
+    milestone: Understand defect classification and notation systems
+    duration_days: 3
+    tags:
+      - crystal-defects
+      - point-defects
+      - non-stoichiometry
+
+  - id: 5
+    topic: X-ray Diffraction and Bragg's Law
+    learning_objectives:
+      - Derive and apply Bragg's law for diffraction
+      - Calculate interplanar spacing from diffraction angles
+      - Interpret powder diffraction patterns
+      - Understand the relationship between structure factor and intensity
+    textbook_style_content:
+      - lesson: Diffraction Methods in Crystallography
+        sections:
+          - section_heading: Principles of X-ray Diffraction
+            section_type: overview
+          - section_heading: Bragg's Law Derivation
+            section_type: core_theory
+          - section_heading: Structure Factor Calculations
+            section_type: related concepts
+          - section_heading: Experimental Techniques and Pattern Analysis
+            section_type: related concepts
+    milestone: Solve quantitative problems using Bragg's law
+    duration_days: 3
+    tags:
+      - braggs-law
+      - x-ray-diffraction
+      - crystallography
+
+  - id: 6
+    topic: Binary Ionic Crystal Structures
+    learning_objectives:
+      - Describe AX-type structures (NaCl, CsCl, ZnS)
+      - Explain AX2-type structures (fluorite, rutile)
+      - Apply radius ratio rules to predict coordination numbers
+      - Relate structure to physical properties
+    textbook_style_content:
+      - lesson: Structures of Binary Ionic Compounds
+        sections:
+          - section_heading: Classification of Ionic Structure Types
+            section_type: overview
+          - section_heading: AX Structures and Coordination
+            section_type: core_theory
+          - section_heading: AX2 Structures and Polyhedral Linking
+            section_type: core_theory
+          - section_heading: Radius Ratio Rules and Predictions
+            section_type: related concepts
+    milestone: Visualize and describe all major AX and AX2 structure types
+    duration_days: 4
+    tags:
+      - ionic-crystals
+      - AX-structures
+      - crystal-chemistry
+
+  - id: 7
+    topic: Complex Oxide Structures
+    learning_objectives:
+      - Describe the perovskite (ABX3) structure and its variants
+      - Explain normal and inverse spinel structures
+      - Understand cation distribution in spinels
+      - Apply crystal field theory to spinel properties
+    textbook_style_content:
+      - lesson: Ternary and Mixed Metal Oxides
+        sections:
+          - section_heading: Perovskite Structure Fundamentals
+            section_type: core_theory
+          - section_heading: Spinel Structures and Cation Distribution
+            section_type: core_theory
+          - section_heading: Superexchange in Complex Oxides
+            section_type: related concepts
+          - section_heading: Structure-Property Relationships
+            section_type: related concepts
+    milestone: Master perovskite and spinel structure descriptions
+    duration_days: 4
+    tags:
+      - perovskite
+      - spinels
+      - complex-oxides
+
+  - id: 8
+    topic: Electronic Structure and Semiconductor Physics
+    learning_objectives:
+      - Explain band theory formation from atomic orbitals
+      - Distinguish metals, insulators, and semiconductors
+      - Calculate carrier concentrations in doped semiconductors
+      - Understand Fermi level and its temperature dependence
+    textbook_style_content:
+      - lesson: Band Theory of Solids
+        sections:
+          - section_heading: From Molecular Orbitals to Energy Bands
+            section_type: overview
+          - section_heading: Band Structure and Density of States
+            section_type: core_theory
+          - section_heading: Classification of Materials
+            section_type: core_theory
+          - section_heading: Doping and Carrier Concentration
+            section_type: related concepts
+    milestone: Apply band theory to explain electronic properties
+    duration_days: 4
+    tags:
+      - band-theory
+      - semiconductors
+      - electronic-properties

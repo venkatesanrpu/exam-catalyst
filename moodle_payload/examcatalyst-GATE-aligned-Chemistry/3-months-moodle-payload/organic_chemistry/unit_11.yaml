@@ -1,0 +1,424 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Biomolecules - Structure, properties and reactions of mono- and di-saccharides, physicochemical properties of amino acids, chemical synthesis of peptides, chemical structure determination of peptides and proteins, structural features of proteins, nucleic acids, lipids, steroids, terpenoids, carotenoids, and alkaloids.
+
+concepts:
+  core:
+    - name: Monosaccharides
+      clarifier: Structure, classification, stereoisomerism, mutarotation, and reactions (oxidation, reduction, condensation)
+    - name: Disaccharides
+      clarifier: Glycosidic linkages, common disaccharides (sucrose, maltose, lactose), hydrolysis and structural determination
+    - name: Amino Acids
+      clarifier: Structure, stereochemistry, isoelectric point, zwitterionic nature, and acid-base properties
+    - name: Peptide Chemistry
+      clarifier: Peptide bonds, synthesis methods (protection-deprotection, coupling reagents), sequencing, and structure determination
+    - name: Protein Structure
+      clarifier: Primary, secondary, tertiary, and quaternary structures, folding principles, and structural classification
+    - name: Nucleic Acids
+      clarifier: Purine and pyrimidine bases, nucleosides, nucleotides, DNA and RNA structure, double helix geometry
+    - name: Lipids
+      clarifier: Classification, fatty acids, triglycerides, phospholipids, and biological roles
+    - name: Steroids and Terpenoids
+      clarifier: Steroid skeleton, cholesterol, hormone structures, isoprene unit assembly, terpene classification
+    - name: Carotenoids and Alkaloids
+      clarifier: Structure-color relationships, conjugation, biological significance, and alkaloid classification with examples
+
+  related:
+    - name: Carbohydrate Reactions
+      clarifier: Epimerization, isomerization, degradation (Maillard reaction), and glycosidic bond formation mechanisms
+    - name: Protein Denaturation
+      clarifier: Factors affecting protein stability, disulfide bond reduction, and conformational changes
+    - name: Chromatographic Separation
+      clarifier: Paper chromatography, thin-layer chromatography, and gel electrophoresis for biomolecule analysis
+    - name: Spectroscopic Analysis
+      clarifier: Mass spectrometry, NMR, and IR spectroscopy for structure determination of biomolecules
+    - name: Bioenergetics Basics
+      clarifier: Role of carbohydrates, lipids, and proteins in energy metabolism and biosynthesis
+
+learning_path:
+  - id: 1
+    topic: Carbohydrate Chemistry - Monosaccharides and Isomerism
+    learning_objectives:
+      - Understand Fischer and Haworth projections for carbohydrate representation
+      - Classify monosaccharides by carbon number and functional group
+      - Explain stereoisomerism, D/L and α/β nomenclature
+      - Describe mutarotation mechanism and equilibrium
+      - Identify reducing and non-reducing properties
+    textbook_style_content:
+      - lesson: Monosaccharide Structure and Classification
+        sections:
+          - section_heading: Overview of Carbohydrates
+            section_type: overview
+          - section_heading: Fischer Projection and Stereochemistry
+            section_type: core_theory
+          - section_heading: Haworth and Pyranose Forms
+            section_type: core_theory
+          - section_heading: Mutarotation and Anomers
+            section_type: core_theory
+      - lesson: Chemical Reactivity of Monosaccharides
+        sections:
+          - section_heading: Oxidation and Reduction Reactions
+            section_type: core_theory
+          - section_heading: Glycosidic Bond Formation
+            section_type: core_theory
+          - section_heading: Epimerization and Isomerization
+            section_type: related_concepts
+    milestone: Distinguish monosaccharides by structure and predict their chemical behavior
+    duration_days: 8
+    tags:
+      - carbohydrates
+      - stereochemistry
+      - monosaccharides
+
+  - id: 2
+    topic: Carbohydrate Chemistry - Disaccharides and Polysaccharides
+    learning_objectives:
+      - Explain glycosidic linkage types and nomenclature
+      - Compare reducing and non-reducing disaccharides
+      - Determine disaccharide structure through chemical degradation and hydrolysis
+      - Understand structural features of common polysaccharides
+      - Apply methylation and periodate oxidation for structure elucidation
+    textbook_style_content:
+      - lesson: Disaccharide Structure and Linkages
+        sections:
+          - section_heading: Glycosidic Bonds (1,4 and 1,6 linkages)
+            section_type: core_theory
+          - section_heading: Common Disaccharides (Maltose, Sucrose, Lactose)
+            section_type: core_theory
+          - section_heading: Reducing vs Non-reducing Disaccharides
+            section_type: core_theory
+      - lesson: Structure Determination Methods
+        sections:
+          - section_heading: Hydrolysis and Monomeric Composition
+            section_type: core_theory
+          - section_heading: Methylation Analysis
+            section_type: core_theory
+          - section_heading: Periodate Oxidation
+            section_type: related_concepts
+    milestone: Determine unknown disaccharide structures using chemical degradation data
+    duration_days: 7
+    tags:
+      - carbohydrates
+      - disaccharides
+      - glycosidic_linkages
+
+  - id: 3
+    topic: Amino Acid Chemistry - Structure and Properties
+    learning_objectives:
+      - Classify amino acids by R-group polarity and charge
+      - Explain zwitterionic structure and isoelectric point concept
+      - Calculate pKa and pI values
+      - Distinguish between essential and non-essential amino acids
+      - Describe physical properties (melting point, solubility) in relation to structure
+    textbook_style_content:
+      - lesson: Amino Acid Classification and Structure
+        sections:
+          - section_heading: General Amino Acid Structure and Stereochemistry
+            section_type: core_theory
+          - section_heading: Classification by R-group Properties
+            section_type: core_theory
+          - section_heading: Nonstandard and Modified Amino Acids
+            section_type: related_concepts
+      - lesson: Acid-Base Chemistry of Amino Acids
+        sections:
+          - section_heading: Zwitterionic Nature and pH Effects
+            section_type: core_theory
+          - section_heading: Isoelectric Point (pI) Calculation and Applications
+            section_type: core_theory
+          - section_heading: Titration Curves and Buffer Capacity
+            section_type: related_concepts
+    milestone: Predict amino acid behavior at varying pH and calculate isoelectric points
+    duration_days: 7
+    tags:
+      - amino_acids
+      - acid_base_chemistry
+      - protein_chemistry
+
+  - id: 4
+    topic: Peptide Chemistry - Synthesis and Structure Determination
+    learning_objectives:
+      - Explain peptide bond formation and its properties
+      - Describe classical peptide synthesis strategies (protection-deprotection)
+      - Understand modern coupling reagents (DCC, EDC, COMU)
+      - Apply Edman degradation for N-terminal sequencing
+      - Determine peptide structure using mass spectrometry and NMR
+      - Design multi-step synthesis routes for target peptides
+    textbook_style_content:
+      - lesson: Peptide Bond and Coupling Chemistry
+        sections:
+          - section_heading: Peptide Bond Characteristics and Geometry
+            section_type: core_theory
+          - section_heading: Protection-Deprotection Strategies (Boc, Cbz, Fmoc groups)
+            section_type: core_theory
+          - section_heading: Coupling Reagents and Activation Methods
+            section_type: core_theory
+      - lesson: Peptide Synthesis Methods
+        sections:
+          - section_heading: Solution Phase Synthesis
+            section_type: core_theory
+          - section_heading: Solid Phase Peptide Synthesis (SPPS)
+            section_type: related_concepts
+      - lesson: Peptide Sequencing and Structure Determination
+        sections:
+          - section_heading: Edman Degradation and N-terminal Analysis
+            section_type: core_theory
+          - section_heading: Enzymatic Hydrolysis and Fragment Analysis
+            section_type: core_theory
+          - section_heading: Mass Spectrometry and NMR for Peptides
+            section_type: related_concepts
+    milestone: Synthesize a tripeptide via protection-deprotection method and sequence an unknown peptide
+    duration_days: 12
+    tags:
+      - peptides
+      - chemical_synthesis
+      - sequencing
+      - structure_determination
+
+  - id: 5
+    topic: Protein Structure - Levels of Organization and Determination
+    learning_objectives:
+      - Define and distinguish primary, secondary, tertiary, and quaternary protein structures
+      - Explain hydrogen bonding in α-helices and β-sheets
+      - Describe common structural motifs (turns, loops, domains)
+      - Analyze disulfide bond formation and stabilization
+      - Apply X-ray crystallography and NMR principles for protein structure determination
+      - Understand protein denaturation and renaturation
+    textbook_style_content:
+      - lesson: Protein Structural Levels
+        sections:
+          - section_heading: Primary Structure and Polypeptide Chain
+            section_type: core_theory
+          - section_heading: Secondary Structures (α-helix and β-sheet)
+            section_type: core_theory
+          - section_heading: Ramachandran Plot and Allowed Conformations
+            section_type: related_concepts
+      - lesson: Tertiary and Quaternary Structures
+        sections:
+          - section_heading: Hydrophobic Interactions and Tertiary Folding
+            section_type: core_theory
+          - section_heading: Disulfide Bonds and Covalent Stabilization
+            section_type: core_theory
+          - section_heading: Quaternary Structure and Subunit Interactions
+            section_type: core_theory
+      - lesson: Protein Structure Determination Methods
+        sections:
+          - section_heading: X-ray Crystallography Principles
+            section_type: core_theory
+          - section_heading: Nuclear Magnetic Resonance (NMR) Spectroscopy
+            section_type: related_concepts
+          - section_heading: Cryo-EM and Other Techniques
+            section_type: related_concepts
+      - lesson: Protein Stability and Denaturation
+        sections:
+          - section_heading: Factors Affecting Protein Stability
+            section_type: core_theory
+          - section_heading: Denaturation and Renaturation Mechanisms
+            section_type: related_concepts
+    milestone: Interpret protein structure data and predict effects of structural modifications
+    duration_days: 10
+    tags:
+      - proteins
+      - secondary_structure
+      - tertiary_structure
+      - structure_determination
+
+  - id: 6
+    topic: Nucleic Acid Chemistry - Bases, Nucleosides, and Structure
+    learning_objectives:
+      - Classify purines and pyrimidines with examples
+      - Explain glycosidic bond formation between bases and sugars
+      - Describe nucleoside and nucleotide structures
+      - Understand Watson-Crick base pairing rules
+      - Analyze DNA and RNA double helix geometry
+      - Distinguish between A, B, and Z forms of DNA
+    textbook_style_content:
+      - lesson: Nitrogenous Bases and Nomenclature
+        sections:
+          - section_heading: Purine and Pyrimidine Structures
+            section_type: core_theory
+          - section_heading: Tautomeric Forms and Base Pairing
+            section_type: core_theory
+      - lesson: Nucleosides and Nucleotides
+        sections:
+          - section_heading: Glycosidic Linkage and Nucleoside Formation
+            section_type: core_theory
+          - section_heading: Phosphodiester Bonds and Nucleotide Polymerization
+            section_type: core_theory
+      - lesson: DNA and RNA Structure
+        sections:
+          - section_heading: Double Helix Geometry and Antiparallel Strands
+            section_type: core_theory
+          - section_heading: Watson-Crick Base Pairing and Stability
+            section_type: core_theory
+          - section_heading: A, B, and Z Forms of DNA
+            section_type: related_concepts
+          - section_heading: RNA Secondary Structures
+            section_type: related_concepts
+    milestone: Predict nucleic acid secondary structure from sequence and analyze base pairing
+    duration_days: 9
+    tags:
+      - nucleic_acids
+      - bases
+      - DNA_RNA
+      - structure
+
+  - id: 7
+    topic: Lipid Chemistry - Classification and Structural Diversity
+    learning_objectives:
+      - Classify lipids by structural and functional categories
+      - Describe fatty acid structure, saturation, and nomenclature
+      - Explain triglyceride, phospholipid, and glycolipid structures
+      - Understand lipid physical properties (melting point, solubility)
+      - Analyze lipid reactions (saponification, hydrogenation)
+      - Connect lipid structure to biological function
+    textbook_style_content:
+      - lesson: Fatty Acids and Their Classification
+        sections:
+          - section_heading: Saturated and Unsaturated Fatty Acids
+            section_type: core_theory
+          - section_heading: Essential Fatty Acids and Omega Nomenclature
+            section_type: core_theory
+      - lesson: Simple Lipids
+        sections:
+          - section_heading: Triglyceride Structure and Properties
+            section_type: core_theory
+          - section_heading: Saponification and Ester Hydrolysis
+            section_type: core_theory
+      - lesson: Complex Lipids
+        sections:
+          - section_heading: Phospholipids and Membrane Structure
+            section_type: core_theory
+          - section_heading: Glycolipids and Cerebrosides
+            section_type: related_concepts
+          - section_heading: Waxes and Cuticular Lipids
+            section_type: related_concepts
+    milestone: Determine lipid composition and predict physical properties from structure
+    duration_days: 8
+    tags:
+      - lipids
+      - fatty_acids
+      - triglycerides
+      - phospholipids
+
+  - id: 8
+    topic: Steroid and Terpenoid Chemistry - Structure and Biosynthesis
+    learning_objectives:
+      - Describe the steroid carbon skeleton (four-ring structure)
+      - Identify common steroids (cholesterol, hormones, corticosteroids)
+      - Explain isoprene unit assembly in terpene biosynthesis
+      - Classify terpenes by isoprene unit count (C5, C10, C15, C20, etc.)
+      - Analyze structure-activity relationships in steroids and hormones
+      - Understand terpene cyclization and oxidation patterns
+    textbook_style_content:
+      - lesson: Steroid Structure and Classification
+        sections:
+          - section_heading: Basic Steroid Skeleton (Gonane Framework)
+            section_type: core_theory
+          - section_heading: Cholesterol and Sterol Structure
+            section_type: core_theory
+          - section_heading: Sex Hormones and Adrenal Steroids
+            section_type: core_theory
+      - lesson: Isoprene Units and Terpene Classification
+        sections:
+          - section_heading: Head-to-Tail Coupling and Isoprene Assembly
+            section_type: core_theory
+          - section_heading: Monoterpenes, Sesquiterpenes, and Diterpenes
+            section_type: core_theory
+      - lesson: Terpene Cyclization and Reactions
+        sections:
+          - section_heading: Cyclization Mechanisms in Terpene Biosynthesis
+            section_type: core_theory
+          - section_heading: Oxidative Transformations and Functional Groups
+            section_type: related_concepts
+    milestone: Identify steroids and terpenes by structure, and predict biosynthetic transformations
+    duration_days: 9
+    tags:
+      - steroids
+      - terpenoids
+      - isoprene_units
+      - cyclization
+
+  - id: 9
+    topic: Carotenoid and Alkaloid Chemistry - Structure and Biological Roles
+    learning_objectives:
+      - Describe carotenoid structure (C40 framework, conjugation)
+      - Explain color-absorption relationships in conjugated polyenes
+      - Classify carotenoids (α, β, γ, and xanthophyll types)
+      - Identify common alkaloid types and structural features
+      - Analyze structure-activity relationships for alkaloid biological effects
+      - Understand extraction, isolation, and characterization methods
+    textbook_style_content:
+      - lesson: Carotenoid Structure and Properties
+        sections:
+          - section_heading: C40 Backbone and Isoprene Assembly
+            section_type: core_theory
+          - section_heading: Conjugated Polyene Chromophore and Light Absorption
+            section_type: core_theory
+          - section_heading: Carotenoid Classification (Xanthophylls and Carotenes)
+            section_type: core_theory
+          - section_heading: Biological Roles in Photosynthesis and Vision
+            section_type: related_concepts
+      - lesson: Alkaloid Structure and Classification
+        sections:
+          - section_heading: Definition and General Characteristics
+            section_type: core_theory
+          - section_heading: Pyrrolidine, Piperidine, and Tropane Alkaloids
+            section_type: core_theory
+          - section_heading: Indole and Isoquinoline Alkaloids
+            section_type: core_theory
+          - section_heading: Purine-based Alkaloids (Caffeine, Theophylline)
+            section_type: related_concepts
+      - lesson: Alkaloid Extraction and Analysis
+        sections:
+          - section_heading: Classical Extraction and Purification Methods
+            section_type: related_concepts
+          - section_heading: Spectroscopic and Chromatographic Identification
+            section_type: related_concepts
+    milestone: Classify carotenoids and alkaloids by structure, and explain their biological significance
+    duration_days: 9
+    tags:
+      - carotenoids
+      - alkaloids
+      - natural_products
+      - biological_activity
+
+  - id: 10
+    topic: Integrated Biomolecule Analysis - Structure Determination and Reactions
+    learning_objectives:
+      - Synthesize knowledge across all biomolecule classes
+      - Apply multiple analytical techniques for unknown structure determination
+      - Predict reactivity patterns based on functional groups
+      - Design separation and isolation strategies for biomolecule mixtures
+      - Connect structural features to biological and pharmaceutical properties
+      - Solve comprehensive GATE-level problems integrating multiple topics
+    textbook_style_content:
+      - lesson: Spectroscopic Techniques for Biomolecule Characterization
+        sections:
+          - section_heading: Mass Spectrometry Fragmentation Patterns
+            section_type: core_theory
+          - section_heading: NMR Spectroscopy for Organic Compounds
+            section_type: core_theory
+          - section_heading: IR and UV-Vis Spectroscopy Interpretation
+            section_type: related_concepts
+      - lesson: Separation and Purification Strategies
+        sections:
+          - section_heading: Chromatographic Methods (LC, GC, TLC)
+            section_type: core_theory
+          - section_heading: Electrophoretic Techniques for Biomolecules
+            section_type: related_concepts
+      - lesson: Comprehensive Problem-Solving
+        sections:
+          - section_heading: Unknown Biomolecule Structure Elucidation
+            section_type: core_theory
+          - section_heading: Multi-step Synthesis and Reaction Prediction
+            section_type: core_theory
+          - section_heading: Analysis of Pharmaceutical and Natural Products
+            section_type: related_concepts
+    milestone: Successfully solve multi-part biomolecule analysis and synthesis problems at GATE level
+    duration_days: 8
+    tags:
+      - integration
+      - structure_determination
+      - analytical_techniques
+      - GATE_preparation

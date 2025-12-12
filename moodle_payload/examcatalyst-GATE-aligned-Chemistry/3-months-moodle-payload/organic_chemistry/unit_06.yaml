@@ -1,0 +1,521 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Concepts of multistep synthesis - retrosynthetic analysis, strategic disconnections, synthons and synthetic equivalents. Atom economy and Green Chemistry, Umpolung reactivity – formyl and acyl anion equivalents."
+
+concepts:
+  core:
+    - name: Retrosynthetic Analysis Fundamentals
+      clarifier: "Backward synthesis logic, target-oriented disconnection, and synthetic tree construction"
+    - name: Strategic Disconnections
+      clarifier: "FGA (Functional Group Analysis), FGI (Functional Group Interconversion), and C-C bond disconnections"
+    - name: Synthons and Synthetic Equivalents
+      clarifier: "Definition of synthons, identification of real equivalents, and umpolung for charge reversal"
+    - name: Carbon-Carbon Bond Disconnections
+      clarifier: "Nucleophilic and electrophilic C-C disconnections; Grignard, Wittig, and coupling-based disconnections"
+    - name: Functional Group Strategy
+      clarifier: "Protecting/deprotecting groups, group interconversions for synthetic efficiency"
+    - name: Umpolung Reactivity
+      clarifier: "Reversal of polarity in carbonyl and carbanion compounds via formal and acyl anion equivalents"
+    - name: Formyl and Acyl Anion Equivalents
+      clarifier: "Cyanide as formyl anion source, Dithianes as acyl anion equivalents, 1,3-dithiolanes"
+    - name: Atom Economy and Green Chemistry
+      clarifier: "Calculation of atom economy, waste minimization, catalytic efficiency, and sustainable synthesis principles"
+    - name: Route Evaluation and Optimization
+      clarifier: "Comparison of synthetic routes, step count, yield prediction, and practical feasibility"
+    - name: Multi-Step Synthesis Integration
+      clarifier: "Combining multiple transformations (C-C coupling, redox, protection) in coherent sequences"
+
+  related:
+    - name: Selectivity Control Strategies
+      clarifier: "Regioselectivity, stereoselectivity, and chemoselectivity in multi-step contexts"
+    - name: Named Reactions and Their Synthetic Roles
+      clarifier: "Robinson annulation, aldol condensation, and cycloadditions as key disconnections"
+    - name: Heterocyclic Synthesis Strategies
+      clarifier: "Strategic approaches to indoles, pyrroles, thiazoles, and fused ring systems"
+    - name: Catalyst and Reagent Selection
+      clarifier: "Choosing catalysts and reagents for step efficiency and environmental impact"
+    - name: Scale-Up and Process Chemistry
+      clarifier: "Adapting laboratory syntheses for industrial scale and cost optimization"
+
+learning_path:
+  - id: 1
+    topic: "Retrosynthetic Analysis: Framework and Disconnection Logic"
+    learning_objectives:
+      - "Define retrosynthetic analysis and explain backward-forward synthesis strategy"
+      - "Construct retrosynthetic trees for target molecules"
+      - "Apply Functional Group Analysis (FGA) to identify key functional groups"
+      - "Execute Functional Group Interconversion (FGI) for synthetic advantages"
+      - "Identify viable vs. non-viable disconnections based on feasibility"
+      - "Compare multiple retrosynthetic routes and evaluate efficiency"
+      - "Design 3-4 step retrosynthetic analyses for simple to moderately complex targets"
+    textbook_style_content:
+      - lesson: "Retrosynthetic Analysis Fundamentals"
+        sections:
+          - section_heading: "Forward vs. Backward Synthesis and Problem Solving"
+            section_type: "overview"
+          - section_heading: "Retrosynthetic Tree Structure and Notation (Arrow, Disconnections)"
+            section_type: "core_theory"
+          - section_heading: "Strategic Thinking: Simplification and Working Backward"
+            section_type: "core_theory"
+      - lesson: "Functional Group Analysis (FGA)"
+        sections:
+          - section_heading: "Identifying Key Functional Groups and Reactive Sites"
+            section_type: "core_theory"
+          - section_heading: "FGA as Starting Point for Disconnection Strategy"
+            section_type: "core_theory"
+      - lesson: "Functional Group Interconversion (FGI)"
+        sections:
+          - section_heading: "Converting Functional Groups to Facilitate Earlier Synthetic Steps"
+            section_type: "core_theory"
+          - section_heading: "FGI and Oxidation/Reduction as Interconversion Tools"
+            section_type: "related concepts"
+      - lesson: "Retrosynthetic Analysis Practice"
+        sections:
+          - section_heading: "Step-by-Step Disconnection of Alcohol-Containing Targets"
+            section_type: "core_theory"
+          - section_heading: "Disconnection of Ketone and Ester Targets"
+            section_type: "core_theory"
+          - section_heading: "Evaluation of Route Viability and Competing Routes"
+            section_type: "related concepts"
+    milestone: "Master retrosynthetic tree construction and FGA/FGI principles"
+    duration_days: 6
+    tags:
+      - "Retrosynthetic Analysis"
+      - "Functional Group Analysis"
+      - "Functional Group Interconversion"
+      - "Disconnection Logic"
+
+  - id: 2
+    topic: "Carbon-Carbon Bond Disconnections: Synthons and Synthetic Equivalents"
+    learning_objectives:
+      - "Define synthons and distinguish from synthetic equivalents"
+      - "Apply Grignard disconnections (RMgX on electrophile)"
+      - "Execute Wittig and HWE disconnections for olefin targets"
+      - "Apply cyanide and other C-C disconnections systematically"
+      - "Identify nucleophilic and electrophilic synthons from target structures"
+      - "Recognize equivalent synthetic pathways for same C-C bond"
+      - "Evaluate feasibility of disconnection based on available reagents"
+    textbook_style_content:
+      - lesson: "Synthons and Synthetic Equivalents"
+        sections:
+          - section_heading: "Synthons: Hypothetical Reactive Species and Charge Distribution"
+            section_type: "core_theory"
+          - section_heading: "Synthetic Equivalents: Real Reagents Representing Synthons"
+            section_type: "core_theory"
+          - section_heading: "Recognizing Equivalent Synthetic Routes from Same Disconnection"
+            section_type: "core_theory"
+      - lesson: "Grignard Disconnections"
+        sections:
+          - section_heading: "Alcohols via Grignard Addition to Aldehyde/Ketone/Ester Synthons"
+            section_type: "core_theory"
+          - section_heading: "Nucleophilic Carbon Synthon (Carbanion) from Grignard"
+            section_type: "core_theory"
+      - lesson: "Olefin Disconnections (Wittig/HWE)"
+        sections:
+          - section_heading: "Wittig Disconnection: Ylide and Electrophilic Carbonyl"
+            section_type: "core_theory"
+          - section_heading: "Horner-Wadsworth-Emmons Disconnection and Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Comparing Grignard-Based and Wittig-Based Routes"
+            section_type: "related concepts"
+      - lesson: "Cyanide and Nitrile Disconnections"
+        sections:
+          - section_heading: "Cyanide as Nucleophilic C Synthon and Nitrile Formation"
+            section_type: "core_theory"
+          - section_heading: "Nitrile Reduction and Extension Strategies"
+            section_type: "related concepts"
+      - lesson: "Coupling-Based Disconnections"
+        sections:
+          - section_heading: "Pd Cross-Coupling Disconnections (Suzuki, Negishi, Stille)"
+            section_type: "core_theory"
+          - section_heading: "Identifying Organometallic Precursor and Halide Coupling Partner"
+            section_type: "related concepts"
+    milestone: "Execute systematic C-C bond disconnections with identification of synthons and equivalents"
+    duration_days: 7
+    tags:
+      - "Synthons"
+      - "Synthetic Equivalents"
+      - "Grignard Disconnections"
+      - "C-C Bond Formation"
+      - "Wittig Disconnections"
+
+  - id: 3
+    topic: "Umpolung Reactivity: Formyl and Acyl Anion Equivalents"
+    learning_objectives:
+      - "Explain umpolung (polarity reversal) concept and synthetic implications"
+      - "Apply cyanide as formyl anion equivalent (HCN as CH⁻ source)"
+      - "Execute dithiane formation as acyl anion equivalent strategy"
+      - "Describe 1,3-dithiolane protection and activation"
+      - "Apply formyl anion chemistry to form C-C bonds α to carbonyl"
+      - "Execute acyl anion chemistry via dithiane deprotonation and nucleophilic attack"
+      - "Design multi-step syntheses incorporating umpolung transformations"
+    textbook_style_content:
+      - lesson: "Umpolung Concept"
+        sections:
+          - section_heading: "Natural Polarity of Carbonyls and Carbanions"
+            section_type: "overview"
+          - section_heading: "Umpolung Definition: Reversal of Expected Polarity"
+            section_type: "core_theory"
+          - section_heading: "Synthetic Advantages of Umpolung Reactivity"
+            section_type: "core_theory"
+      - lesson: "Formyl Anion Equivalents"
+        sections:
+          - section_heading: "Cyanide (CN⁻) as Formyl Anion (CHO⁻) Source"
+            section_type: "core_theory"
+          - section_heading: "Nucleophilic Addition of HCN/CN⁻ to Electrophiles"
+            section_type: "core_theory"
+          - section_heading: "Nitrile Reduction to Aldehyde (DIBAL-H) or Primary Amine"
+            section_type: "core_theory"
+          - section_heading: "Aldehyde Reconversion and Subsequent Elaboration"
+            section_type: "related concepts"
+      - lesson: "Acyl Anion Equivalents via Dithianes"
+        sections:
+          - section_heading: "1,3-Dithiane Formation from Aldehyde/Ketone"
+            section_type: "core_theory"
+          - section_heading: "Dithiane Deprotonation and α-Carbanion Character"
+            section_type: "core_theory"
+          - section_heading: "Nucleophilic Attack of Dithiane Anion on Electrophiles"
+            section_type: "core_theory"
+          - section_heading: "Dithiane Hydrolysis to Regenerate Ketone/Aldehyde"
+            section_type: "core_theory"
+      - lesson: "Applications and Strategic Use"
+        sections:
+          - section_heading: "Synthesis of 1,3-Dicarbonyl Compounds via Umpolung"
+            section_type: "core_theory"
+          - section_heading: "Controlling Regioselectivity in Aldol-Like Reactions"
+            section_type: "related concepts"
+          - section_heading: "Multi-Step Sequences with Sequential Umpolung Steps"
+            section_type: "related concepts"
+    milestone: "Execute formyl and acyl anion chemistry using cyanide and dithiane equivalents"
+    duration_days: 7
+    tags:
+      - "Umpolung Reactivity"
+      - "Formyl Anion Equivalents"
+      - "Acyl Anion Equivalents"
+      - "Dithianes"
+      - "Cyanide Chemistry"
+
+  - id: 4
+    topic: "Protecting Group Strategies and Functional Group Manipulation"
+    learning_objectives:
+      - "Classify protecting groups by functional group (OH, NH, COOH)"
+      - "Select appropriate protecting groups based on compatibility with reaction steps"
+      - "Execute installation and removal of common protecting groups"
+      - "Design orthogonal protecting group schemes for multi-functional substrates"
+      - "Apply protecting groups in complex multi-step syntheses"
+      - "Predict potential side reactions and incompatibilities"
+      - "Optimize protecting group strategy for step efficiency"
+    textbook_style_content:
+      - lesson: "Protecting Group Principles"
+        sections:
+          - section_heading: "Criteria for Ideal Protecting Groups: Ease, Orthogonality, Stability"
+            section_type: "overview"
+          - section_heading: "Installation and Removal Mechanisms"
+            section_type: "core_theory"
+      - lesson: "Alcohol Protecting Groups"
+        sections:
+          - section_heading: "Silyl Ethers (TMS, TBS, TBDPS): Synthesis and Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Benzyl and Trityl Groups: Radical and Acid-Labile Protection"
+            section_type: "core_theory"
+          - section_heading: "Acetals and Ketals as Orthogonal Alcohol Protection"
+            section_type: "core_theory"
+      - lesson: "Amine Protecting Groups"
+        sections:
+          - section_heading: "Cbz (Carboxybenzyl) Protection and Hydrogenolytic Cleavage"
+            section_type: "core_theory"
+          - section_heading: "Boc (tert-Butoxycarbonyl) Protection and Acid-Labile Removal"
+            section_type: "core_theory"
+          - section_heading: "Tosyl (Ts) and Mesyl (Ms) Protection"
+            section_type: "related concepts"
+      - lesson: "Carboxylic Acid and Carbonyl Protecting Groups"
+        sections:
+          - section_heading: "Methyl and Ethyl Esters as Protecting Groups"
+            section_type: "core_theory"
+          - section_heading: "Ketal and Acetal Protection of Carbonyls"
+            section_type: "core_theory"
+      - lesson: "Orthogonal Protection Schemes"
+        sections:
+          - section_heading: "Selective Deprotection in Polyhydroxy and Polyamino Substrates"
+            section_type: "core_theory"
+          - section_heading: "Multi-Protecting Group Strategy in Complex Syntheses"
+            section_type: "core_theory"
+    milestone: "Design and execute protecting group strategies for polyhydroxy and polyfunctional molecules"
+    duration_days: 7
+    tags:
+      - "Protecting Groups"
+      - "Silyl Ethers"
+      - "Benzyl Protection"
+      - "Orthogonal Protection"
+      - "Functional Group Manipulation"
+
+  - id: 5
+    topic: "Atom Economy and Green Chemistry Principles"
+    learning_objectives:
+      - "Calculate atom economy for organic transformations"
+      - "Explain atom economy significance for sustainable synthesis"
+      - "Compare atom economy across alternative synthetic routes"
+      - "Apply green chemistry principles (e.g., E-factor, waste reduction)"
+      - "Identify catalytic vs. stoichiometric processes and efficiency trade-offs"
+      - "Evaluate environmental impact of reagents and solvents"
+      - "Design syntheses prioritizing green chemistry metrics"
+    textbook_style_content:
+      - lesson: "Atom Economy Fundamentals"
+        sections:
+          - section_heading: "Definition of Atom Economy and Calculation Method"
+            section_type: "core_theory"
+          - section_heading: "Interpreting High and Low Atom Economy Reactions"
+            section_type: "core_theory"
+          - section_heading: "Atom Economy of Named Reactions (Wittig, Grignard, Diels-Alder)"
+            section_type: "core_theory"
+      - lesson: "Comparing Routes by Atom Economy"
+        sections:
+          - section_heading: "Multi-Step Route Evaluation: Cumulative Atom Economy"
+            section_type: "core_theory"
+          - section_heading: "Case Study: Alcohol Synthesis via Multiple Routes"
+            section_type: "core_theory"
+      - lesson: "Green Chemistry Principles"
+        sections:
+          - section_heading: "Twelve Principles of Green Chemistry Overview"
+            section_type: "overview"
+          - section_heading: "Waste Minimization and E-Factor (Waste/Product Ratio)"
+            section_type: "core_theory"
+          - section_heading: "Catalytic Efficiency and Turnover Number (TON)"
+            section_type: "core_theory"
+          - section_heading: "Solvent Selection: Water, Supercritical CO₂, Ionic Liquids"
+            section_type: "related concepts"
+      - lesson: "Catalytic vs. Stoichiometric Processes"
+        sections:
+          - section_heading: "Catalytic Processes: Reduced Waste and Atom Economy Benefits"
+            section_type: "core_theory"
+          - section_heading: "Redox-Neutral and Cascade Reactions"
+            section_type: "related concepts"
+      - lesson: "Environmental and Health Impact Assessment"
+        sections:
+          - section_heading: "Hazard Reduction: Toxicity and Environmental Persistence"
+            section_type: "related concepts"
+          - section_heading: "Renewable Feedstocks and Bio-Based Chemistry"
+            section_type: "related concepts"
+    milestone: "Calculate atom economy and apply green chemistry metrics to optimize synthetic routes"
+    duration_days: 6
+    tags:
+      - "Atom Economy"
+      - "Green Chemistry"
+      - "E-Factor"
+      - "Catalytic Efficiency"
+      - "Waste Minimization"
+
+  - id: 6
+    topic: "Route Evaluation, Optimization, and Practical Feasibility Assessment"
+    learning_objectives:
+      - "Compare multiple synthetic routes to same target molecule"
+      - "Evaluate routes based on step count, overall yield, and cost"
+      - "Assess practical feasibility: reagent availability, scalability, safety"
+      - "Predict cumulative yield from sequential steps"
+      - "Optimize routes for commercial and laboratory applications"
+      - "Consider reaction time, temperature, and solvent requirements"
+      - "Make evidence-based route selection decisions"
+    textbook_style_content:
+      - lesson: "Route Comparison Framework"
+        sections:
+          - section_heading: "Key Metrics: Step Count, Yield, Cost, Atom Economy"
+            section_type: "core_theory"
+          - section_heading: "Overall Yield Calculation from Sequential Steps"
+            section_type: "core_theory"
+          - section_heading: "Cost Per Gram and Practical Considerations"
+            section_type: "core_theory"
+      - lesson: "Practical Feasibility Assessment"
+        sections:
+          - section_heading: "Reagent Availability, Shelf-Life, and Cost"
+            section_type: "core_theory"
+          - section_heading: "Safety Profile: Toxic, Explosive, or Corrosive Reagents"
+            section_type: "core_theory"
+          - section_heading: "Scalability from Milligram to Gram and Kilogram Scale"
+            section_type: "related concepts"
+          - section_heading: "Reaction Conditions: Temperature, Pressure, Inert Atmosphere"
+            section_type: "related concepts"
+      - lesson: "Cumulative Yield Analysis"
+        sections:
+          - section_heading: "Effect of Number of Steps on Overall Yield"
+            section_type: "core_theory"
+          - section_heading: "Yield-Limiting Steps and Optimization Priorities"
+            section_type: "core_theory"
+      - lesson: "Route Selection Decision-Making"
+        sections:
+          - section_heading: "Trade-offs Between Step Count, Yield, and Atom Economy"
+            section_type: "core_theory"
+          - section_heading: "Academic vs. Industrial Route Considerations"
+            section_type: "related concepts"
+          - section_heading: "Case Study: Comparing Three Routes to Pharmaceutical Target"
+            section_type: "core_theory"
+    milestone: "Systematically compare and select optimal synthetic routes based on multiple criteria"
+    duration_days: 6
+    tags:
+      - "Route Evaluation"
+      - "Cumulative Yield"
+      - "Cost-Benefit Analysis"
+      - "Scalability"
+      - "Practical Feasibility"
+
+  - id: 7
+    topic: "Multi-Step Synthesis Design: Integration of Transformations and Selectivity Control"
+    learning_objectives:
+      - "Design 5-7 step syntheses combining multiple transformation types"
+      - "Integrate C-C bond disconnections with protecting group strategies"
+      - "Apply selectivity control (regio-, stereo-, chemoselectivity) throughout routes"
+      - "Identify and prevent competing side reactions"
+      - "Execute strategic functional group interconversions"
+      - "Optimize reaction sequence order for maximum efficiency"
+      - "Prepare detailed reaction schemes with reagents and conditions"
+    textbook_style_content:
+      - lesson: "Synthesis Planning Framework"
+        sections:
+          - section_heading: "Integration of Retrosynthetic Analysis and Forward Synthesis"
+            section_type: "core_theory"
+          - section_heading: "Sequencing of Transformations: Early Disconnections and Late-Stage Chemistry"
+            section_type: "core_theory"
+      - lesson: "Selectivity Considerations"
+        sections:
+          - section_heading: "Regioselectivity: Directing Groups and Steric Control"
+            section_type: "core_theory"
+          - section_heading: "Chemoselectivity: Avoiding Competing Functional Groups"
+            section_type: "core_theory"
+          - section_heading: "Stereoselectivity: Diastereomeric and Enantioselectivity Control"
+            section_type: "related concepts"
+      - lesson: "Protection and Deprotection Timing"
+        sections:
+          - section_heading: "Strategic Timing of Protecting Group Installation"
+            section_type: "core_theory"
+          - section_heading: "Orthogonal Deprotection for Differentiation"
+            section_type: "core_theory"
+      - lesson: "Case Studies: Multi-Step Syntheses"
+        sections:
+          - section_heading: "Case Study 1: Synthesis of Polysubstituted Aromatic via EAS and Coupling"
+            section_type: "core_theory"
+          - section_heading: "Case Study 2: Polyhydroxy Compound Synthesis with Protection Strategy"
+            section_type: "core_theory"
+          - section_heading: "Case Study 3: Bicyclic Target via Robinson Annulation and RCM"
+            section_type: "core_theory"
+          - section_heading: "Case Study 4: Natural Product Fragment with Sequential C-C Formations"
+            section_type: "core_theory"
+      - lesson: "Side Reaction Prevention"
+        sections:
+          - section_heading: "Identifying Potential Side Reactions at Each Step"
+            section_type: "core_theory"
+          - section_heading: "Reagent Choice and Reaction Conditions to Minimize Side Products"
+            section_type: "related concepts"
+    milestone: "Design and execute complete multi-step syntheses with integrated strategies"
+    duration_days: 9
+    tags:
+      - "Multi-Step Synthesis"
+      - "Integration"
+      - "Selectivity Control"
+      - "Protection Strategy"
+      - "Side Reaction Prevention"
+
+  - id: 8
+    topic: "Advanced Disconnection Strategies: Named Reactions and Heterocyclic Synthesis"
+    learning_objectives:
+      - "Apply Robinson annulation disconnection for six-membered rings"
+      - "Execute Diels-Alder disconnection for cyclic targets"
+      - "Apply aldol condensation disconnection for α,β-unsaturated carbonyls"
+      - "Design heterocyclic synthesis via strategic disconnections"
+      - "Recognize Fischer indole and other named reaction disconnections"
+      - "Integrate named reactions into complex synthetic strategies"
+      - "Execute 4-5 step syntheses utilizing named reaction disconnections"
+    textbook_style_content:
+      - lesson: "Named Reactions as Disconnection Tools"
+        sections:
+          - section_heading: "Robinson Annulation Disconnection and Retrosynthesis"
+            section_type: "core_theory"
+          - section_heading: "Diels-Alder Disconnection for Cyclohexenes"
+            section_type: "core_theory"
+          - section_heading: "Aldol Disconnection and Retrosynthesis of Enones"
+            section_type: "core_theory"
+          - section_heading: "Claisen Condensation and Wittig Disconnections"
+            section_type: "related concepts"
+      - lesson: "Heterocyclic Synthesis Strategy"
+        sections:
+          - section_heading: "Five-Membered Heterocycles: Pyrrole, Furan, Thiophene Synthesis"
+            section_type: "core_theory"
+          - section_heading: "Six-Membered Heterocycles: Pyridine and Quinoline Disconnections"
+            section_type: "core_theory"
+          - section_heading: "Fused Ring Systems: Indole, Benzofuran, and Isoquinoline"
+            section_type: "related concepts"
+      - lesson: "Named Reaction Application Cases"
+        sections:
+          - section_heading: "Case Study: Fischer Indole Synthesis Retrosynthesis"
+            section_type: "core_theory"
+          - section_heading: "Case Study: Paal-Knorr Pyrrole Synthesis Strategy"
+            section_type: "related concepts"
+          - section_heading: "Case Study: Quinoline Synthesis via Named Reactions"
+            section_type: "related concepts"
+      - lesson: "Multi-Named-Reaction Syntheses"
+        sections:
+          - section_heading: "Combining Named Reactions for Complex Heterocycles"
+            section_type: "core_theory"
+          - section_heading: "Strategic Selection of Disconnection Based on Available Methodology"
+            section_type: "related concepts"
+    milestone: "Design heterocyclic and polycyclic syntheses using named reaction disconnections"
+    duration_days: 8
+    tags:
+      - "Named Reactions"
+      - "Robinson Annulation"
+      - "Diels-Alder"
+      - "Heterocyclic Synthesis"
+      - "Fused Ring Systems"
+
+  - id: 9
+    topic: "Comprehensive Synthesis Problems: Integration and Mastery Demonstration"
+    learning_objectives:
+      - "Solve complex multi-step synthesis problems independently"
+      - "Construct complete retrosynthetic trees for challenging targets"
+      - "Apply all previously learned concepts (disconnections, umpolung, protection, selectivity)"
+      - "Evaluate multiple routes and justify optimal selection"
+      - "Predict potential issues and propose solutions"
+      - "Calculate atom economy and assess green chemistry metrics"
+      - "Present complete synthesis with detailed mechanisms and reagent rationale"
+    textbook_style_content:
+      - lesson: "Comprehensive Problem-Solving Framework"
+        sections:
+          - section_heading: "Target Analysis: Functional Groups, Stereochemistry, Complexity"
+            section_type: "core_theory"
+          - section_heading: "Retrosynthetic Tree Construction: Depth and Breadth"
+            section_type: "core_theory"
+          - section_heading: "Route Evaluation Matrix: Step Count, Yield, Atom Economy, Feasibility"
+            section_type: "core_theory"
+      - lesson: "Complex Synthesis Examples"
+        sections:
+          - section_heading: "Example 1: Polycyclic Aromatic with Multiple Substitution Patterns"
+            section_type: "core_theory"
+          - section_heading: "Example 2: Heterocyclic Compound with Chiral Center"
+            section_type: "core_theory"
+          - section_heading: "Example 3: Natural Product-Like Target with Multiple Functional Groups"
+            section_type: "core_theory"
+          - section_heading: "Example 4: Pharmaceutical-Relevant Target with Green Chemistry Emphasis"
+            section_type: "core_theory"
+      - lesson: "Mechanism and Selectivity Justification"
+        sections:
+          - section_heading: "Detailed Mechanism for Key Transformations"
+            section_type: "core_theory"
+          - section_heading: "Regio-, Stereo-, and Chemoselectivity Rationale"
+            section_type: "core_theory"
+          - section_heading: "Competing Pathways and Why They Are Disfavored"
+            section_type: "related concepts"
+      - lesson: "Advanced Optimization"
+        sections:
+          - section_heading: "Atom Economy Calculation and Green Chemistry Assessment"
+            section_type: "core_theory"
+          - section_heading: "Scalability and Cost Optimization Considerations"
+            section_type: "related concepts"
+          - section_heading: "Alternative Routes and Comparative Analysis"
+            section_type: "related concepts"
+    milestone: "Independently design and justify complex multi-step syntheses at GATE examination level"
+    duration_days: 10
+    tags:
+      - "Comprehensive Synthesis"
+      - "Problem-Solving"
+      - "Retrosynthetic Analysis"
+      - "Route Justification"
+      - "Mastery Demonstration"
