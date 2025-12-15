@@ -1,0 +1,378 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Chemical bonding in diatomics; elementary concepts of MO and VB theories; Huckel theory for conjugated π-electron systems."
+
+concepts:
+  core:
+    - name: Chemical bonding in diatomic molecules
+      clarifier: Bonding characteristics, energy levels, and molecular properties of two-atom systems
+    - name: Molecular Orbital theory
+      clarifier: Quantum mechanical approach to molecular bonding using linear combination of atomic orbitals
+    - name: Valence Bond theory
+      clarifier: Localized bonding approach using orbital overlap and hybridization
+    - name: Huckel Molecular Orbital theory
+      clarifier: Simplified MO method for π-electron systems in conjugated molecules
+  related:
+    - name: Atomic orbital theory
+      clarifier: Foundation of electron distribution in isolated atoms
+    - name: LCAO approximation
+      clarifier: Linear Combination of Atomic Orbitals method for constructing molecular orbitals
+    - name: Hybridization
+      clarifier: Mixing of atomic orbitals to form new hybrid orbitals
+    - name: Resonance theory
+      clarifier: Multiple Lewis structures contributing to actual molecular structure
+    - name: Conjugated systems
+      clarifier: Alternating single and multiple bonds allowing π-electron delocalization
+    - name: Aromaticity
+      clarifier: Special stability of cyclic conjugated systems following Huckel's rule
+    - name: Bond order and bond energy
+      clarifier: Relationship between electron distribution and bond strength
+    - name: Electron configuration in molecules
+      clarifier: Distribution of electrons in molecular orbitals following aufbau principle
+    - name: Symmetry in molecular orbitals
+      clarifier: Classification of MOs based on symmetry properties
+    - name: Secular equations and determinants
+      clarifier: Mathematical framework for solving MO energy levels
+
+learning_path:
+  - id: 1
+    title: Foundations of Chemical Bonding and Atomic Orbitals
+    learning_objectives:
+      - Recall quantum numbers and atomic orbital shapes relevant to bonding
+      - Explain the relationship between atomic orbitals and molecular bonding
+      - Identify which atomic orbitals participate in forming bonds in diatomic molecules
+    textbook_style_content:
+      - topic: Prerequisites for Molecular Bonding Theory
+        sections:
+          - section_title: Atomic Orbital Review
+            section_type: overview
+          - section_title: Quantum Numbers and Orbital Energies
+            section_type: core_theory
+          - section_title: Orbital Shapes and Overlap Concepts
+            section_type: core_theory
+          - section_title: Electron Configuration in Atoms
+            section_type: related_concepts
+    milestone: Mastery of atomic orbital foundations required for molecular bonding
+    duration_days: 3
+    tags:
+      - atomic_structure
+      - quantum_mechanics
+      - prerequisites
+
+  - id: 2
+    title: Introduction to Molecular Orbital Theory
+    learning_objectives:
+      - Explain the fundamental postulates of MO theory
+      - Describe the LCAO approximation and its applications
+      - Distinguish between bonding and antibonding molecular orbitals
+      - Calculate bond order from molecular orbital diagrams
+    textbook_style_content:
+      - topic: Molecular Orbital Theory Fundamentals
+        sections:
+          - section_title: Philosophy and Approach of MO Theory
+            section_type: overview
+          - section_title: Linear Combination of Atomic Orbitals
+            section_type: core_theory
+          - section_title: Bonding and Antibonding Orbitals
+            section_type: core_theory
+          - section_title: Sigma and Pi Molecular Orbitals
+            section_type: core_theory
+          - section_title: Bond Order Definition and Calculation
+            section_type: core_theory
+          - section_title: Energy Level Diagrams
+            section_type: related_concepts
+    milestone: Understanding of basic MO theory principles and orbital formation
+    duration_days: 4
+    tags:
+      - MO_theory
+      - LCAO
+      - bond_order
+
+  - id: 3
+    title: Molecular Orbital Treatment of Homonuclear Diatomics
+    learning_objectives:
+      - Construct MO energy diagrams for homonuclear diatomic molecules
+      - Predict magnetic properties of diatomics using MO theory
+      - Compare MO predictions with experimental data for stability and bond properties
+      - Apply electron filling rules to molecular orbitals
+    textbook_style_content:
+      - topic: Homonuclear Diatomic Molecules
+        sections:
+          - section_title: H₂ and He₂ - Simplest Diatomics
+            section_type: core_theory
+          - section_title: Second Period Homonuclear Diatomics
+            section_type: core_theory
+          - section_title: MO Diagrams for O₂ and F₂
+            section_type: core_theory
+          - section_title: s-p Mixing and Orbital Reordering
+            section_type: core_theory
+          - section_title: Paramagnetism and Diamagnetism
+            section_type: related_concepts
+          - section_title: Bond Dissociation Energies
+            section_type: related_concepts
+    milestone: Ability to construct and interpret MO diagrams for homonuclear diatomics
+    duration_days: 5
+    tags:
+      - homonuclear_diatomics
+      - MO_diagrams
+      - magnetism
+
+  - id: 4
+    title: Molecular Orbital Treatment of Heteronuclear Diatomics
+    learning_objectives:
+      - Construct MO energy diagrams for heteronuclear diatomic molecules
+      - Explain the concept of polar bonds using MO theory
+      - Analyze the effect of electronegativity differences on MO energies
+      - Compare bonding in CO, NO, and other heteronuclear species
+    textbook_style_content:
+      - topic: Heteronuclear Diatomic Molecules
+        sections:
+          - section_title: Electronegativity and Orbital Energy Differences
+            section_type: overview
+          - section_title: MO Diagrams for Heteronuclear Diatomics
+            section_type: core_theory
+          - section_title: Carbon Monoxide and Nitrogen Monoxide
+            section_type: core_theory
+          - section_title: Ionic Character and Polar Bonds
+            section_type: core_theory
+          - section_title: Comparison with Homonuclear Species
+            section_type: related_concepts
+    milestone: Competence in analyzing heteronuclear diatomic bonding
+    duration_days: 4
+    tags:
+      - heteronuclear_diatomics
+      - polar_bonds
+      - electronegativity
+
+  - id: 5
+    title: Valence Bond Theory Fundamentals
+    learning_objectives:
+      - Explain the basic principles of VB theory
+      - Describe orbital overlap and its role in bond formation
+      - Compare and contrast VB and MO approaches to bonding
+      - Understand the concept of resonance in VB theory
+    textbook_style_content:
+      - topic: Valence Bond Theory Approach
+        sections:
+          - section_title: Historical Development and Philosophy of VB Theory
+            section_type: overview
+          - section_title: Orbital Overlap and Covalent Bond Formation
+            section_type: core_theory
+          - section_title: Heitler-London Treatment of H₂
+            section_type: core_theory
+          - section_title: Resonance Structures and Resonance Energy
+            section_type: core_theory
+          - section_title: Comparison of VB and MO Theories
+            section_type: related_concepts
+          - section_title: Advantages and Limitations of VB Theory
+            section_type: related_concepts
+    milestone: Understanding of VB theory principles and its relationship to MO theory
+    duration_days: 4
+    tags:
+      - VB_theory
+      - orbital_overlap
+      - resonance
+
+  - id: 6
+    title: Hybridization and Molecular Geometry
+    learning_objectives:
+      - Explain the concept of hybridization in VB theory
+      - Predict hybridization schemes for various molecular geometries
+      - Apply hybridization to explain bonding in diatomic and polyatomic molecules
+      - Relate hybridization to molecular orbital descriptions
+    textbook_style_content:
+      - topic: Hybridization in Valence Bond Theory
+        sections:
+          - section_title: Introduction to Hybrid Orbitals
+            section_type: overview
+          - section_title: sp, sp², and sp³ Hybridization
+            section_type: core_theory
+          - section_title: Hybrid Orbitals and Molecular Geometry
+            section_type: core_theory
+          - section_title: Application to Diatomic Molecules
+            section_type: core_theory
+          - section_title: Limitations of Hybridization Concept
+            section_type: related_concepts
+    milestone: Proficiency in applying hybridization to molecular bonding
+    duration_days: 3
+    tags:
+      - hybridization
+      - molecular_geometry
+      - VB_theory
+
+  - id: 7
+    title: Introduction to π-Electron Systems
+    learning_objectives:
+      - Distinguish between σ and π bonding frameworks
+      - Explain the concept of conjugation in organic molecules
+      - Identify conjugated π-electron systems
+      - Understand the need for specialized treatments of π-systems
+    textbook_style_content:
+      - topic: Conjugated π-Electron Systems
+        sections:
+          - section_title: σ-π Separation in Molecular Systems
+            section_type: overview
+          - section_title: Conjugation and Electron Delocalization
+            section_type: core_theory
+          - section_title: Examples of Conjugated Systems
+            section_type: core_theory
+          - section_title: Properties of Conjugated Molecules
+            section_type: related_concepts
+          - section_title: Electronic Transitions in π-Systems
+            section_type: related_concepts
+    milestone: Recognition and characterization of conjugated π-systems
+    duration_days: 3
+    tags:
+      - conjugation
+      - pi_systems
+      - delocalization
+
+  - id: 8
+    title: Huckel Molecular Orbital Theory - Foundations
+    learning_objectives:
+      - State the fundamental assumptions of Huckel theory
+      - Explain the simplifications that make Huckel theory tractable
+      - Set up Huckel secular equations for simple systems
+      - Understand the parameters α and β in Huckel theory
+    textbook_style_content:
+      - topic: Huckel Theory Fundamentals
+        sections:
+          - section_title: Historical Context and Development of Huckel Theory
+            section_type: overview
+          - section_title: Assumptions of Huckel Molecular Orbital Theory
+            section_type: core_theory
+          - section_title: The Coulomb Integral α and Resonance Integral β
+            section_type: core_theory
+          - section_title: Secular Equations and Secular Determinant
+            section_type: core_theory
+          - section_title: Overlap Integrals and Simplifications
+            section_type: core_theory
+          - section_title: Topological Approach to π-Systems
+            section_type: related_concepts
+    milestone: Understanding of Huckel theory framework and mathematical setup
+    duration_days: 5
+    tags:
+      - Huckel_theory
+      - secular_equations
+      - approximations
+
+  - id: 9
+    title: Solving Huckel Equations - Linear Systems
+    learning_objectives:
+      - Solve Huckel secular determinants for linear conjugated systems
+      - Calculate molecular orbital energies and coefficients
+      - Construct MO energy diagrams for linear polyenes
+      - Determine electron density and bond order from Huckel solutions
+    textbook_style_content:
+      - topic: Linear Conjugated Polyenes
+        sections:
+          - section_title: Ethylene - The Simplest π-System
+            section_type: core_theory
+          - section_title: Butadiene and the Allyl System
+            section_type: core_theory
+          - section_title: General Solutions for Linear Polyenes
+            section_type: core_theory
+          - section_title: Molecular Orbital Coefficients and Normalization
+            section_type: core_theory
+          - section_title: Electron Density Distribution
+            section_type: related_concepts
+          - section_title: π-Bond Orders in Conjugated Systems
+            section_type: related_concepts
+    milestone: Proficiency in solving Huckel equations for acyclic systems
+    duration_days: 6
+    tags:
+      - linear_polyenes
+      - Huckel_calculations
+      - bond_order
+
+  - id: 10
+    title: Huckel Theory for Cyclic Systems and Aromaticity
+    learning_objectives:
+      - Apply Huckel theory to cyclic conjugated systems
+      - Derive and explain Huckel's 4n+2 rule for aromaticity
+      - Calculate delocalization energy and resonance energy
+      - Predict stability and reactivity of aromatic and antiaromatic compounds
+    textbook_style_content:
+      - topic: Cyclic Conjugated Systems
+        sections:
+          - section_title: Cyclic vs. Acyclic π-Systems
+            section_type: overview
+          - section_title: Benzene - The Paradigm of Aromaticity
+            section_type: core_theory
+          - section_title: Cyclobutadiene and Antiaromaticity
+            section_type: core_theory
+          - section_title: Huckel's 4n+2 Rule for Aromaticity
+            section_type: core_theory
+          - section_title: Frost Circle (Polygon) Method
+            section_type: core_theory
+          - section_title: Delocalization Energy Calculations
+            section_type: core_theory
+          - section_title: Aromatic Ions and Heterocyclic Systems
+            section_type: related_concepts
+          - section_title: Limitations of Huckel Theory for Aromaticity
+            section_type: related_concepts
+    milestone: Mastery of Huckel theory applications to aromatic systems
+    duration_days: 6
+    tags:
+      - aromaticity
+      - cyclic_systems
+      - Huckel_rule
+
+  - id: 11
+    title: Advanced Applications of Huckel Theory
+    learning_objectives:
+      - Apply Huckel theory to heterocyclic π-systems
+      - Analyze charged species using Huckel calculations
+      - Calculate reactivity indices from Huckel results
+      - Understand the scope and limitations of Huckel theory
+    textbook_style_content:
+      - topic: Extended Huckel Applications
+        sections:
+          - section_title: Heteroatoms in Conjugated Systems
+            section_type: core_theory
+          - section_title: Modified Parameters for Heteroatoms
+            section_type: core_theory
+          - section_title: Charged π-Systems
+            section_type: core_theory
+          - section_title: Reactivity Indices and Frontier Orbitals
+            section_type: core_theory
+          - section_title: Free Valence and Atom Localization Energy
+            section_type: related_concepts
+          - section_title: Limitations and Extensions of Huckel Theory
+            section_type: related_concepts
+    milestone: Comprehensive understanding of Huckel theory applications and limitations
+    duration_days: 5
+    tags:
+      - heteroatoms
+      - reactivity
+      - frontier_orbitals
+
+  - id: 12
+    title: Integration and Comparative Analysis
+    learning_objectives:
+      - Compare MO and VB approaches for different molecular systems
+      - Select appropriate bonding theory for specific problems
+      - Integrate knowledge of diatomic bonding with polyatomic π-systems
+      - Apply bonding theories to predict molecular properties
+    textbook_style_content:
+      - topic: Comparative Bonding Theory Analysis
+        sections:
+          - section_title: When to Use MO vs VB Theory
+            section_type: overview
+          - section_title: Complementary Nature of Bonding Theories
+            section_type: core_theory
+          - section_title: From Diatomics to Polyatomics
+            section_type: core_theory
+          - section_title: Huckel Theory in Context of General MO Theory
+            section_type: core_theory
+          - section_title: Modern Computational Approaches
+            section_type: related_concepts
+          - section_title: Problem-Solving Strategies
+            section_type: related_concepts
+    milestone: Comprehensive integration of all bonding concepts
+    duration_days: 4
+    tags:
+      - comparative_analysis
+      - problem_solving
+      - integration

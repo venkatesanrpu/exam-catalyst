@@ -1,0 +1,570 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Colloids and surfaces: Stability and properties of colloids; isotherms and surface area; heterogeneous catalysis."
+
+concepts:
+  core:
+    - name: Colloidal Systems
+      clarifier: Classification, preparation methods, and fundamental characteristics of colloids
+    - name: Stability of Colloids
+      clarifier: DLVO theory, electrostatic and steric stabilization mechanisms
+    - name: Properties of Colloids
+      clarifier: Optical, kinetic, and electrical properties including Tyndall effect, Brownian motion, and electrokinetic phenomena
+    - name: Adsorption Isotherms
+      clarifier: Langmuir, Freundlich, and BET isotherms for gas-solid and liquid-solid interfaces
+    - name: Surface Area Determination
+      clarifier: Methods including BET analysis and porosimetry
+    - name: Heterogeneous Catalysis
+      clarifier: Mechanisms, kinetics, and industrial applications of surface-catalyzed reactions
+  related:
+    - name: Surface Tension and Surface Energy
+      clarifier: Thermodynamic treatment and measurement techniques
+    - name: Zeta Potential
+      clarifier: Measurement and significance in colloidal stability
+    - name: Coagulation and Flocculation
+      clarifier: Kinetics and mechanisms of colloid destabilization
+    - name: Surfactants and Micelles
+      clarifier: Critical micelle concentration and amphiphilic behavior
+    - name: Adsorption Kinetics
+      clarifier: Rate processes in adsorption and desorption
+    - name: Catalytic Poisoning and Promoters
+      clarifier: Factors affecting catalyst activity and selectivity
+
+learning_path:
+  - id: 1
+    title: Introduction to Colloidal Systems
+    learning_objectives:
+      - Define colloids and distinguish them from true solutions and suspensions based on particle size
+      - Classify colloids according to dispersed phase, dispersion medium, and interaction type
+      - Explain preparation methods including condensation and dispersion techniques
+      - Describe purification methods such as dialysis and ultrafiltration
+    textbook_style_content:
+      - topic: Fundamentals of Colloidal Systems
+        sections:
+          - section_title: Definition and Size Classification
+            section_type: overview
+          - section_title: Types of Colloidal Systems
+            section_type: core_theory
+          - section_title: Lyophilic and Lyophobic Colloids
+            section_type: core_theory
+          - section_title: Preparation Methods
+            section_type: core_theory
+          - section_title: Purification Techniques
+            section_type: related_concepts
+    milestone: Understand fundamental concepts and classification of colloidal systems
+    duration_days: 3
+    tags:
+      - colloids
+      - classification
+      - preparation
+
+  - id: 2
+    title: Optical and Kinetic Properties of Colloids
+    learning_objectives:
+      - Explain the Tyndall effect and its application in detecting colloidal systems
+      - Describe Brownian motion and its relationship to particle size and temperature
+      - Apply Einstein-Smoluchowski equation for diffusion in colloidal systems
+      - Explain sedimentation and apply Stokes' law
+    textbook_style_content:
+      - topic: Observable Properties of Colloids
+        sections:
+          - section_title: Light Scattering and Tyndall Effect
+            section_type: core_theory
+          - section_title: Brownian Motion
+            section_type: core_theory
+          - section_title: Diffusion in Colloidal Systems
+            section_type: core_theory
+          - section_title: Sedimentation and Stokes' Law
+            section_type: core_theory
+          - section_title: Ultramicroscopy and Particle Counting
+            section_type: related_concepts
+    milestone: Master optical and kinetic characterization techniques
+    duration_days: 4
+    tags:
+      - properties
+      - Tyndall effect
+      - Brownian motion
+      - diffusion
+
+  - id: 3
+    title: Electrical Properties and Electrokinetic Phenomena
+    learning_objectives:
+      - Explain the origin of charge on colloidal particles
+      - Describe the electrical double layer structure
+      - Define zeta potential and explain its measurement
+      - Explain electrokinetic phenomena including electrophoresis and electroosmosis
+    textbook_style_content:
+      - topic: Electrical Aspects of Colloids
+        sections:
+          - section_title: Origin of Surface Charge
+            section_type: core_theory
+          - section_title: Electrical Double Layer Theory
+            section_type: core_theory
+          - section_title: Zeta Potential and Electrokinetic Measurements
+            section_type: core_theory
+          - section_title: Electrophoresis and Electrophoretic Mobility
+            section_type: core_theory
+          - section_title: Electroosmosis and Streaming Potential
+            section_type: related_concepts
+    milestone: Understand electrical properties governing colloidal behavior
+    duration_days: 4
+    tags:
+      - electrical properties
+      - zeta potential
+      - double layer
+      - electrophoresis
+
+  - id: 4
+    title: Stability of Colloidal Systems
+    learning_objectives:
+      - Explain DLVO theory and its components
+      - Calculate interaction energy between colloidal particles
+      - Describe factors affecting colloidal stability
+      - Explain steric and electrosteric stabilization mechanisms
+    textbook_style_content:
+      - topic: Colloidal Stability Theory
+        sections:
+          - section_title: Overview of Colloidal Stability
+            section_type: overview
+          - section_title: Van der Waals Attractive Forces
+            section_type: core_theory
+          - section_title: Electrostatic Repulsive Forces
+            section_type: core_theory
+          - section_title: DLVO Theory and Total Interaction Energy
+            section_type: core_theory
+          - section_title: Energy Barrier and Critical Coagulation Concentration
+            section_type: core_theory
+          - section_title: Steric Stabilization Mechanisms
+            section_type: related_concepts
+          - section_title: Schulze-Hardy Rule
+            section_type: related_concepts
+    milestone: Apply DLVO theory to predict colloidal stability
+    duration_days: 5
+    tags:
+      - stability
+      - DLVO theory
+      - coagulation
+      - electrostatic forces
+
+  - id: 5
+    title: Coagulation and Flocculation
+    learning_objectives:
+      - Distinguish between coagulation and flocculation processes
+      - Explain the kinetics of rapid and slow coagulation
+      - Apply Smoluchowski equation for coagulation kinetics
+      - Describe practical methods for destabilizing colloids
+    textbook_style_content:
+      - topic: Destabilization of Colloids
+        sections:
+          - section_title: Mechanisms of Coagulation
+            section_type: core_theory
+          - section_title: Rapid and Slow Coagulation Kinetics
+            section_type: core_theory
+          - section_title: Smoluchowski Theory of Coagulation
+            section_type: core_theory
+          - section_title: Effect of Electrolytes on Stability
+            section_type: core_theory
+          - section_title: Flocculation by Polymers
+            section_type: related_concepts
+          - section_title: Practical Applications in Water Treatment
+            section_type: related_concepts
+    milestone: Understand mechanisms and kinetics of colloid destabilization
+    duration_days: 4
+    tags:
+      - coagulation
+      - flocculation
+      - kinetics
+      - stability
+
+  - id: 6
+    title: Surface Tension and Surface Energy
+    learning_objectives:
+      - Define surface tension and surface energy thermodynamically
+      - Explain factors affecting surface tension
+      - Describe methods for measuring surface tension
+      - Apply Young-Laplace equation to curved interfaces
+    textbook_style_content:
+      - topic: Surface Phenomena
+        sections:
+          - section_title: Molecular Origin of Surface Tension
+            section_type: overview
+          - section_title: Thermodynamic Treatment of Surface Energy
+            section_type: core_theory
+          - section_title: Young-Laplace Equation for Curved Surfaces
+            section_type: core_theory
+          - section_title: Measurement Techniques
+            section_type: core_theory
+          - section_title: Temperature Dependence and Eötvös Equation
+            section_type: related_concepts
+          - section_title: Contact Angle and Wetting Phenomena
+            section_type: related_concepts
+    milestone: Master thermodynamic principles of surface phenomena
+    duration_days: 4
+    tags:
+      - surface tension
+      - surface energy
+      - thermodynamics
+      - interfaces
+
+  - id: 7
+    title: Adsorption at Surfaces and Interfaces
+    learning_objectives:
+      - Define adsorption and distinguish from absorption
+      - Explain physical and chemical adsorption mechanisms
+      - Describe factors affecting adsorption
+      - Apply thermodynamic principles to adsorption processes
+    textbook_style_content:
+      - topic: Fundamentals of Adsorption
+        sections:
+          - section_title: Definition and Types of Adsorption
+            section_type: overview
+          - section_title: Physisorption versus Chemisorption
+            section_type: core_theory
+          - section_title: Thermodynamics of Adsorption
+            section_type: core_theory
+          - section_title: Heat of Adsorption
+            section_type: core_theory
+          - section_title: Factors Affecting Adsorption
+            section_type: core_theory
+          - section_title: Adsorption from Solution Phase
+            section_type: related_concepts
+    milestone: Understand fundamental principles of adsorption phenomena
+    duration_days: 4
+    tags:
+      - adsorption
+      - physisorption
+      - chemisorption
+      - thermodynamics
+
+  - id: 8
+    title: Langmuir Adsorption Isotherm
+    learning_objectives:
+      - Derive Langmuir isotherm from kinetic and thermodynamic approaches
+      - Apply Langmuir equation to experimental data
+      - Explain assumptions and limitations of Langmuir model
+      - Extend Langmuir theory to competitive and dissociative adsorption
+    textbook_style_content:
+      - topic: Langmuir Adsorption Model
+        sections:
+          - section_title: Assumptions of Langmuir Theory
+            section_type: overview
+          - section_title: Kinetic Derivation of Langmuir Isotherm
+            section_type: core_theory
+          - section_title: Thermodynamic Derivation
+            section_type: core_theory
+          - section_title: Linear Forms and Data Analysis
+            section_type: core_theory
+          - section_title: Dissociative Adsorption
+            section_type: related_concepts
+          - section_title: Competitive Adsorption
+            section_type: related_concepts
+    milestone: Apply Langmuir isotherm to single-component gas adsorption
+    duration_days: 5
+    tags:
+      - Langmuir isotherm
+      - monolayer adsorption
+      - equilibrium
+      - modeling
+
+  - id: 9
+    title: Freundlich and Other Empirical Isotherms
+    learning_objectives:
+      - Explain Freundlich isotherm equation and its empirical nature
+      - Apply Freundlich isotherm to heterogeneous surfaces
+      - Compare Langmuir and Freundlich models
+      - Describe Temkin isotherm for intermediate coverage
+    textbook_style_content:
+      - topic: Empirical Adsorption Models
+        sections:
+          - section_title: Freundlich Isotherm Equation
+            section_type: core_theory
+          - section_title: Application to Heterogeneous Surfaces
+            section_type: core_theory
+          - section_title: Temkin Isotherm for Chemisorption
+            section_type: core_theory
+          - section_title: Comparison of Isotherm Models
+            section_type: core_theory
+          - section_title: Limitations and Applicability Ranges
+            section_type: related_concepts
+    milestone: Select appropriate isotherm models for different adsorption systems
+    duration_days: 3
+    tags:
+      - Freundlich isotherm
+      - Temkin isotherm
+      - heterogeneous surfaces
+      - empirical models
+
+  - id: 10
+    title: BET Theory and Multilayer Adsorption
+    learning_objectives:
+      - Derive BET equation for multilayer adsorption
+      - Apply BET theory to determine surface area
+      - Explain classification of adsorption isotherms
+      - Interpret BET parameters and their physical significance
+    textbook_style_content:
+      - topic: Multilayer Adsorption and Surface Area
+        sections:
+          - section_title: Limitations of Langmuir for Multilayer Systems
+            section_type: overview
+          - section_title: Brunauer-Emmett-Teller Theory
+            section_type: core_theory
+          - section_title: Derivation of BET Equation
+            section_type: core_theory
+          - section_title: BET Surface Area Determination
+            section_type: core_theory
+          - section_title: IUPAC Classification of Isotherms
+            section_type: core_theory
+          - section_title: Modified BET Equations
+            section_type: related_concepts
+    milestone: Master BET method for surface area determination
+    duration_days: 5
+    tags:
+      - BET theory
+      - multilayer adsorption
+      - surface area
+      - IUPAC classification
+
+  - id: 11
+    title: Surface Area Measurement Techniques
+    learning_objectives:
+      - Explain gas adsorption methods for surface area determination
+      - Describe mercury porosimetry for pore size distribution
+      - Apply BET analysis to nitrogen adsorption data
+      - Interpret pore size distributions and surface area results
+    textbook_style_content:
+      - topic: Experimental Methods for Surface Characterization
+        sections:
+          - section_title: Overview of Surface Area Measurement
+            section_type: overview
+          - section_title: Gas Adsorption Method and BET Analysis
+            section_type: core_theory
+          - section_title: Nitrogen Adsorption at 77 K
+            section_type: core_theory
+          - section_title: Mercury Porosimetry
+            section_type: core_theory
+          - section_title: Pore Size Distribution Analysis
+            section_type: core_theory
+          - section_title: Micropore and Mesopore Characterization
+            section_type: related_concepts
+          - section_title: Other Methods
+            section_type: related_concepts
+    milestone: Apply experimental techniques to determine surface properties
+    duration_days: 4
+    tags:
+      - surface area
+      - BET analysis
+      - porosimetry
+      - characterization
+
+  - id: 12
+    title: Introduction to Heterogeneous Catalysis
+    learning_objectives:
+      - Define heterogeneous catalysis and distinguish from homogeneous catalysis
+      - Explain the role of surfaces in catalytic reactions
+      - Describe the catalytic cycle and elementary steps
+      - Identify characteristics of good catalysts
+    textbook_style_content:
+      - topic: Fundamentals of Heterogeneous Catalysis
+        sections:
+          - section_title: Definition and Principles of Catalysis
+            section_type: overview
+          - section_title: Heterogeneous versus Homogeneous Catalysis
+            section_type: core_theory
+          - section_title: Active Sites and Surface Structure
+            section_type: core_theory
+          - section_title: Elementary Steps in Catalytic Cycles
+            section_type: core_theory
+          - section_title: Properties of Effective Catalysts
+            section_type: core_theory
+          - section_title: Industrial Importance
+            section_type: related_concepts
+    milestone: Understand fundamental principles of heterogeneous catalysis
+    duration_days: 4
+    tags:
+      - catalysis
+      - heterogeneous catalysis
+      - active sites
+      - mechanisms
+
+  - id: 13
+    title: Mechanisms of Heterogeneous Catalytic Reactions
+    learning_objectives:
+      - Explain Langmuir-Hinshelwood mechanism
+      - Describe Eley-Rideal mechanism
+      - Distinguish between different mechanistic pathways
+      - Apply steady-state approximation to derive rate laws
+    textbook_style_content:
+      - topic: Catalytic Reaction Mechanisms
+        sections:
+          - section_title: Overview of Catalytic Mechanisms
+            section_type: overview
+          - section_title: Langmuir-Hinshelwood Mechanism
+            section_type: core_theory
+          - section_title: Eley-Rideal Mechanism
+            section_type: core_theory
+          - section_title: Rate-Determining Steps
+            section_type: core_theory
+          - section_title: Derivation of Rate Laws
+            section_type: core_theory
+          - section_title: Mars-van Krevelen Mechanism for Oxidation
+            section_type: related_concepts
+    milestone: Analyze and derive rate laws for catalytic mechanisms
+    duration_days: 5
+    tags:
+      - mechanisms
+      - Langmuir-Hinshelwood
+      - Eley-Rideal
+      - rate laws
+
+  - id: 14
+    title: Kinetics of Heterogeneous Catalytic Reactions
+    learning_objectives:
+      - Apply Langmuir-Hinshelwood kinetics to experimental data
+      - Explain effect of surface coverage on reaction rates
+      - Describe temperature dependence of catalytic reactions
+      - Analyze reaction orders in heterogeneous catalysis
+    textbook_style_content:
+      - topic: Catalytic Reaction Kinetics
+        sections:
+          - section_title: Rate Expressions for Surface Reactions
+            section_type: core_theory
+          - section_title: Effect of Adsorption Equilibria on Kinetics
+            section_type: core_theory
+          - section_title: Temperature Dependence and Apparent Activation Energy
+            section_type: core_theory
+          - section_title: Determination of Kinetic Parameters
+            section_type: core_theory
+          - section_title: Diffusion Limitations in Porous Catalysts
+            section_type: related_concepts
+          - section_title: Turnover Frequency and Turnover Number
+            section_type: related_concepts
+    milestone: Master kinetic analysis of catalytic reactions
+    duration_days: 5
+    tags:
+      - kinetics
+      - rate laws
+      - activation energy
+      - catalytic activity
+
+  - id: 15
+    title: Catalyst Deactivation and Regeneration
+    learning_objectives:
+      - Explain mechanisms of catalyst poisoning
+      - Describe sintering and its effect on catalyst activity
+      - Explain fouling and coking processes
+      - Describe methods for catalyst regeneration
+    textbook_style_content:
+      - topic: Catalyst Lifetime and Deactivation
+        sections:
+          - section_title: Causes of Catalyst Deactivation
+            section_type: overview
+          - section_title: Catalyst Poisoning Mechanisms
+            section_type: core_theory
+          - section_title: Sintering and Particle Growth
+            section_type: core_theory
+          - section_title: Fouling and Coking
+            section_type: core_theory
+          - section_title: Kinetics of Deactivation
+            section_type: core_theory
+          - section_title: Catalyst Regeneration Strategies
+            section_type: related_concepts
+          - section_title: Promoters and Stabilizers
+            section_type: related_concepts
+    milestone: Understand factors affecting catalyst lifetime and performance
+    duration_days: 4
+    tags:
+      - deactivation
+      - poisoning
+      - sintering
+      - regeneration
+
+  - id: 16
+    title: Industrial Applications of Heterogeneous Catalysis
+    learning_objectives:
+      - Describe major industrial catalytic processes
+      - Explain catalyst design principles for specific reactions
+      - Analyze case studies of industrial catalysts
+      - Relate catalyst properties to reaction selectivity and activity
+    textbook_style_content:
+      - topic: Industrial Catalytic Processes
+        sections:
+          - section_title: Overview of Industrial Catalysis
+            section_type: overview
+          - section_title: Haber-Bosch Process for Ammonia Synthesis
+            section_type: core_theory
+          - section_title: Catalytic Cracking in Petroleum Refining
+            section_type: core_theory
+          - section_title: Oxidation Catalysts
+            section_type: core_theory
+          - section_title: Automotive Catalytic Converters
+            section_type: core_theory
+          - section_title: Zeolite Catalysts
+            section_type: related_concepts
+          - section_title: Environmental Catalysis
+            section_type: related_concepts
+    milestone: Connect theoretical principles to industrial applications
+    duration_days: 5
+    tags:
+      - industrial catalysis
+      - applications
+      - Haber-Bosch
+      - zeolites
+
+  - id: 17
+    title: Surfactants and Micelle Formation
+    learning_objectives:
+      - Explain structure and classification of surfactants
+      - Describe micelle formation and critical micelle concentration
+      - Explain factors affecting CMC
+      - Relate surfactant properties to applications
+    textbook_style_content:
+      - topic: Surface Active Agents
+        sections:
+          - section_title: Structure and Types of Surfactants
+            section_type: overview
+          - section_title: Thermodynamics of Micelle Formation
+            section_type: core_theory
+          - section_title: Critical Micelle Concentration
+            section_type: core_theory
+          - section_title: Factors Affecting CMC
+            section_type: core_theory
+          - section_title: Krafft Temperature and Cloud Point
+            section_type: related_concepts
+          - section_title: Applications in Emulsions and Foams
+            section_type: related_concepts
+    milestone: Understand surfactant behavior and micellization
+    duration_days: 4
+    tags:
+      - surfactants
+      - micelles
+      - CMC
+      - amphiphiles
+
+  - id: 18
+    title: Integration and Advanced Topics
+    learning_objectives:
+      - Integrate concepts of colloids, surfaces, and catalysis
+      - Solve complex problems involving multiple concepts
+      - Analyze research articles on colloid and surface chemistry
+      - Apply knowledge to novel situations and exam problems
+    textbook_style_content:
+      - topic: Comprehensive Integration
+        sections:
+          - section_title: Interconnections Between Topics
+            section_type: overview
+          - section_title: Multi-Concept Problem Solving
+            section_type: core_theory
+          - section_title: Recent Developments in Surface Science
+            section_type: related_concepts
+          - section_title: Exam-Style Problems and Solutions
+            section_type: core_theory
+          - section_title: Research Trends in Colloid and Interface Science
+            section_type: related_concepts
+    milestone: Synthesize all concepts for comprehensive understanding and exam preparation
+    duration_days: 5
+    tags:
+      - integration
+      - problem solving
+      - exam preparation
+      - advanced topics

@@ -1,0 +1,551 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Aromaticity: Benzenoid and non-benzenoid compounds – generation and reactions"
+
+concepts:
+  core:
+    - name: Hückel's Rule and Aromaticity Criteria
+      clarifier: Understanding the 4n+2 π-electron rule, planarity, and cyclic conjugation requirements for aromatic systems
+    - name: Benzenoid Aromatic Compounds
+      clarifier: Benzene and its derivatives, polycyclic aromatic hydrocarbons (PAHs), and their characteristic stability
+    - name: Non-benzenoid Aromatic Compounds
+      clarifier: Annulenes, tropylium cation, cyclopentadienyl anion, azulene, and other aromatic systems lacking benzene rings
+    - name: Antiaromaticity and Non-aromaticity
+      clarifier: Systems with 4n π-electrons showing destabilization and non-conjugated cyclic systems
+    - name: Generation Methods
+      clarifier: Synthetic approaches to prepare aromatic and non-benzenoid aromatic compounds including dehydrogenation, cycloadditions, and rearrangements
+    - name: Reactions of Aromatic Systems
+      clarifier: Electrophilic aromatic substitution, nucleophilic aromatic substitution, and reactions specific to non-benzenoid aromatics
+  related:
+    - name: Molecular Orbital Theory
+      clarifier: π-MO energy diagrams, HOMO-LUMO analysis, and orbital symmetry in cyclic conjugated systems
+    - name: Resonance and Delocalization Energy
+      clarifier: Resonance structures, resonance energy calculation, and thermodynamic stability of aromatic systems
+    - name: Heterocyclic Aromatic Compounds
+      clarifier: Pyrrole, furan, thiophene, pyridine, and their aromaticity characteristics
+    - name: Aromatic Transition States
+      clarifier: Pericyclic reactions involving aromatic transition states and Woodward-Hoffmann rules
+    - name: NMR Spectroscopy of Aromatic Compounds
+      clarifier: Ring current effects, chemical shift patterns, and anisotropy in aromatic systems
+
+learning_path:
+  - id: 1
+    title: Foundations of Aromaticity
+    learning_objectives:
+      - Define aromaticity and distinguish it from resonance stabilization
+      - State and apply Hückel's rule for determining aromatic character
+      - Identify the structural requirements for aromatic systems including planarity and cyclic conjugation
+      - Calculate π-electron count in various cyclic conjugated systems
+    textbook_style_content:
+      - topic: Introduction to Aromaticity
+        sections:
+          - section_title: Historical Context and Discovery
+            section_type: overview
+          - section_title: Definition and Characteristics of Aromatic Compounds
+            section_type: core_theory
+          - section_title: Comparison with Aliphatic and Alicyclic Compounds
+            section_type: related_concepts
+      - topic: Hückel's Rule and Theoretical Basis
+        sections:
+          - section_title: The 4n+2 Rule Derivation
+            section_type: core_theory
+          - section_title: Molecular Orbital Treatment of Benzene
+            section_type: core_theory
+          - section_title: Energy Level Diagrams for Cyclic Conjugated Systems
+            section_type: related_concepts
+      - topic: Criteria for Aromaticity
+        sections:
+          - section_title: Cyclic Structure Requirement
+            section_type: core_theory
+          - section_title: Planarity and Orbital Overlap
+            section_type: core_theory
+          - section_title: Complete Conjugation and π-Electron Count
+            section_type: core_theory
+    milestone: Master the theoretical foundations and recognition criteria for aromatic systems
+    duration_days: 5
+    tags:
+      - theory
+      - fundamentals
+      - Hückel's rule
+      - molecular orbitals
+
+  - id: 2
+    title: Benzenoid Aromatic Compounds
+    learning_objectives:
+      - Describe the structure and stability of benzene using resonance and MO theory
+      - Explain the unique properties of benzene including bond lengths and resonance energy
+      - Classify and draw structures of monocyclic and polycyclic benzenoid aromatics
+      - Predict relative stability of fused ring systems
+    textbook_style_content:
+      - topic: Benzene Structure and Bonding
+        sections:
+          - section_title: Historical Models of Benzene
+            section_type: overview
+          - section_title: Resonance Description and Kekulé Structures
+            section_type: core_theory
+          - section_title: Molecular Orbital Description of Benzene
+            section_type: core_theory
+          - section_title: Experimental Evidence for Benzene Structure
+            section_type: related_concepts
+      - topic: Properties of Benzene
+        sections:
+          - section_title: Thermodynamic Stability and Resonance Energy
+            section_type: core_theory
+          - section_title: Bond Lengths and Geometry
+            section_type: core_theory
+          - section_title: Spectroscopic Properties
+            section_type: related_concepts
+      - topic: Polycyclic Aromatic Hydrocarbons
+        sections:
+          - section_title: Linear Acenes (Naphthalene, Anthracene, Tetracene)
+            section_type: core_theory
+          - section_title: Angular Systems (Phenanthrene, Chrysene)
+            section_type: core_theory
+          - section_title: Stability Trends in Fused Ring Systems
+            section_type: core_theory
+          - section_title: Environmental and Biological Significance of PAHs
+            section_type: related_concepts
+    milestone: Comprehensive understanding of benzenoid aromatic systems and their properties
+    duration_days: 6
+    tags:
+      - benzene
+      - polycyclic aromatics
+      - PAH
+      - resonance energy
+
+  - id: 3
+    title: Non-benzenoid Aromatic Compounds
+    learning_objectives:
+      - Identify and classify non-benzenoid aromatic systems
+      - Apply Hückel's rule to predict aromatic character in annulenes and ions
+      - Explain the stability of tropylium cation and cyclopentadienyl anion
+      - Describe the unique properties of azulene and other non-alternant hydrocarbons
+    textbook_style_content:
+      - topic: Annulenes
+        sections:
+          - section_title: Definition and Nomenclature
+            section_type: overview
+          - section_title: Cyclobutadiene (4-annulene) as Antiaromatic System
+            section_type: core_theory
+          - section_title: Cyclooctatetraene (8-annulene) and Non-planarity
+            section_type: core_theory
+          - section_title: Higher Annulenes (10, 14, 16, 18-annulenes)
+            section_type: core_theory
+          - section_title: Bridged Annulenes and Conformational Effects
+            section_type: related_concepts
+      - topic: Aromatic Ions
+        sections:
+          - section_title: Tropylium Cation (Cycloheptatrienyl Cation)
+            section_type: core_theory
+          - section_title: Cyclopentadienyl Anion
+            section_type: core_theory
+          - section_title: Cyclopropenyl Cation and Other Small Ring Ions
+            section_type: core_theory
+          - section_title: Stability and Reactivity Patterns
+            section_type: related_concepts
+      - topic: Azulene and Non-alternant Hydrocarbons
+        sections:
+          - section_title: Structure of Azulene
+            section_type: core_theory
+          - section_title: Dipole Moment and Electronic Properties
+            section_type: core_theory
+          - section_title: Color and Spectroscopic Features
+            section_type: related_concepts
+          - section_title: Other Non-alternant Systems
+            section_type: related_concepts
+    milestone: Mastery of non-benzenoid aromatic systems and their unique characteristics
+    duration_days: 7
+    tags:
+      - annulenes
+      - aromatic ions
+      - azulene
+      - non-benzenoid
+
+  - id: 4
+    title: Antiaromaticity and Non-aromaticity
+    learning_objectives:
+      - Define antiaromaticity and identify antiaromatic systems
+      - Explain the destabilization in 4n π-electron systems
+      - Distinguish between antiaromatic and non-aromatic compounds
+      - Predict molecular distortions to avoid antiaromaticity
+    textbook_style_content:
+      - topic: Antiaromatic Systems
+        sections:
+          - section_title: Definition and Criteria
+            section_type: overview
+          - section_title: Cyclobutadiene as the Prototypical Antiaromatic Compound
+            section_type: core_theory
+          - section_title: Molecular Orbital Explanation of Destabilization
+            section_type: core_theory
+          - section_title: Other 4n π-Electron Systems
+            section_type: core_theory
+      - topic: Consequences of Antiaromaticity
+        sections:
+          - section_title: Geometric Distortions (Jahn-Teller Effect)
+            section_type: core_theory
+          - section_title: Reactivity Enhancement
+            section_type: core_theory
+          - section_title: Singlet-Triplet Energy Gaps
+            section_type: related_concepts
+      - topic: Non-aromatic Systems
+        sections:
+          - section_title: Defining Non-aromaticity
+            section_type: core_theory
+          - section_title: Cyclooctatetraene as Non-planar Non-aromatic System
+            section_type: core_theory
+          - section_title: Cross-conjugated and Interrupted Conjugation
+            section_type: related_concepts
+    milestone: Clear differentiation between aromatic, antiaromatic, and non-aromatic systems
+    duration_days: 4
+    tags:
+      - antiaromaticity
+      - cyclobutadiene
+      - destabilization
+      - 4n electrons
+
+  - id: 5
+    title: Generation of Benzenoid Aromatics
+    learning_objectives:
+      - Describe classical methods for benzene synthesis
+      - Explain aromatization reactions including dehydrogenation
+      - Outline synthetic routes to polycyclic aromatic hydrocarbons
+      - Apply retrosynthetic analysis to aromatic target molecules
+    textbook_style_content:
+      - topic: Classical Synthesis of Benzene Derivatives
+        sections:
+          - section_title: Historical Industrial Synthesis from Coal Tar
+            section_type: overview
+          - section_title: Catalytic Reforming of Aliphatic Hydrocarbons
+            section_type: core_theory
+          - section_title: Trimerization of Alkynes
+            section_type: core_theory
+      - topic: Aromatization Reactions
+        sections:
+          - section_title: Dehydrogenation of Cyclohexane Derivatives
+            section_type: core_theory
+          - section_title: Dehydrohalogenation and Elimination Routes
+            section_type: core_theory
+          - section_title: Catalysts and Reaction Conditions
+            section_type: related_concepts
+      - topic: Synthesis of Polycyclic Aromatics
+        sections:
+          - section_title: Friedel-Crafts Cyclization
+            section_type: core_theory
+          - section_title: Diels-Alder Approach to Fused Systems
+            section_type: core_theory
+          - section_title: Scholl Reaction and Oxidative Coupling
+            section_type: core_theory
+          - section_title: Flash Vacuum Pyrolysis Methods
+            section_type: related_concepts
+    milestone: Proficiency in synthetic strategies for benzenoid aromatic compounds
+    duration_days: 6
+    tags:
+      - synthesis
+      - aromatization
+      - dehydrogenation
+      - Friedel-Crafts
+
+  - id: 6
+    title: Generation of Non-benzenoid Aromatics
+    learning_objectives:
+      - Outline synthetic routes to annulenes
+      - Describe methods for generating aromatic ions
+      - Explain synthesis of azulene and related non-alternant hydrocarbons
+      - Analyze challenges in preparing reactive aromatic species
+    textbook_style_content:
+      - topic: Synthesis of Annulenes
+        sections:
+          - section_title: Photochemical Methods
+            section_type: core_theory
+          - section_title: Hofmann Elimination Routes
+            section_type: core_theory
+          - section_title: Sondheimer's Synthesis of Higher Annulenes
+            section_type: core_theory
+          - section_title: Stabilization Through Substituents
+            section_type: related_concepts
+      - topic: Generation of Aromatic Ions
+        sections:
+          - section_title: Tropylium Ion from Cycloheptatriene Derivatives
+            section_type: core_theory
+          - section_title: Cyclopentadienyl Anion from Cyclopentadiene
+            section_type: core_theory
+          - section_title: Hydride Abstraction and Proton Removal Methods
+            section_type: core_theory
+          - section_title: Stability and Isolation Techniques
+            section_type: related_concepts
+      - topic: Azulene Synthesis
+        sections:
+          - section_title: Pfau-Plattner Azulene Synthesis
+            section_type: core_theory
+          - section_title: Ziegler-Hafner Method
+            section_type: core_theory
+          - section_title: Natural Sources and Isolation
+            section_type: related_concepts
+    milestone: Understanding synthetic methodologies for non-benzenoid aromatic systems
+    duration_days: 5
+    tags:
+      - annulene synthesis
+      - ion generation
+      - azulene
+      - non-benzenoid synthesis
+
+  - id: 7
+    title: Electrophilic Aromatic Substitution
+    learning_objectives:
+      - Explain the mechanism of electrophilic aromatic substitution
+      - Predict orientation and reactivity effects of substituents
+      - Apply resonance theory to explain directing effects
+      - Describe specific electrophilic substitution reactions
+    textbook_style_content:
+      - topic: General Mechanism
+        sections:
+          - section_title: Overview of SEAr Mechanism
+            section_type: overview
+          - section_title: Formation of Arenium Ion (σ-Complex)
+            section_type: core_theory
+          - section_title: Energy Profile and Rate-Determining Step
+            section_type: core_theory
+          - section_title: Comparison with Addition and Substitution in Alkenes
+            section_type: related_concepts
+      - topic: Substituent Effects
+        sections:
+          - section_title: Activating and Deactivating Groups
+            section_type: core_theory
+          - section_title: Ortho-Para Directors (Electron-Donating Groups)
+            section_type: core_theory
+          - section_title: Meta Directors (Electron-Withdrawing Groups)
+            section_type: core_theory
+          - section_title: Resonance and Inductive Effects
+            section_type: core_theory
+          - section_title: Quantitative Treatment (Hammett Equation)
+            section_type: related_concepts
+      - topic: Specific Electrophilic Substitution Reactions
+        sections:
+          - section_title: Halogenation (Chlorination, Bromination)
+            section_type: core_theory
+          - section_title: Nitration
+            section_type: core_theory
+          - section_title: Sulfonation
+            section_type: core_theory
+          - section_title: Friedel-Crafts Alkylation
+            section_type: core_theory
+          - section_title: Friedel-Crafts Acylation
+            section_type: core_theory
+          - section_title: Other Substitutions (Nitrosation, Diazo Coupling)
+            section_type: related_concepts
+    milestone: Comprehensive mastery of electrophilic aromatic substitution mechanisms and patterns
+    duration_days: 8
+    tags:
+      - SEAr
+      - mechanism
+      - directing effects
+      - Friedel-Crafts
+
+  - id: 8
+    title: Nucleophilic Aromatic Substitution
+    learning_objectives:
+      - Distinguish between different mechanisms of nucleophilic aromatic substitution
+      - Explain the role of electron-withdrawing groups in SNAr reactions
+      - Describe the benzyne mechanism
+      - Predict reactivity based on ring activation
+    textbook_style_content:
+      - topic: Addition-Elimination Mechanism (SNAr)
+        sections:
+          - section_title: Requirements for SNAr Reactions
+            section_type: overview
+          - section_title: Meisenheimer Complex Formation
+            section_type: core_theory
+          - section_title: Role of Activating Groups
+            section_type: core_theory
+          - section_title: Reactivity Order of Haloarenes
+            section_type: core_theory
+      - topic: Elimination-Addition Mechanism (Benzyne)
+        sections:
+          - section_title: Generation of Benzyne Intermediate
+            section_type: core_theory
+          - section_title: Evidence for Benzyne Structure
+            section_type: core_theory
+          - section_title: Lack of Regioselectivity in Substitution
+            section_type: core_theory
+          - section_title: Trapping Experiments and Diels-Alder Reactions
+            section_type: related_concepts
+      - topic: Other Nucleophilic Substitution Pathways
+        sections:
+          - section_title: SRN1 Mechanism (Radical Chain)
+            section_type: related_concepts
+          - section_title: Comparison of Different SNAr Mechanisms
+            section_type: related_concepts
+    milestone: Understanding nucleophilic substitution pathways in aromatic systems
+    duration_days: 5
+    tags:
+      - SNAr
+      - benzyne
+      - Meisenheimer complex
+      - nucleophilic substitution
+
+  - id: 9
+    title: Reactions of Polycyclic Aromatic Hydrocarbons
+    learning_objectives:
+      - Predict regioselectivity in PAH substitutions
+      - Explain reactivity differences between naphthalene, anthracene, and phenanthrene
+      - Describe oxidation and reduction reactions of PAHs
+      - Apply frontier molecular orbital theory to PAH reactivity
+    textbook_style_content:
+      - topic: Naphthalene Reactions
+        sections:
+          - section_title: Electrophilic Substitution in Naphthalene
+            section_type: core_theory
+          - section_title: α vs β Substitution Preference
+            section_type: core_theory
+          - section_title: Oxidation to Naphthoquinones
+            section_type: core_theory
+      - topic: Anthracene and Phenanthrene
+        sections:
+          - section_title: Electrophilic Substitution Patterns
+            section_type: core_theory
+          - section_title: Diels-Alder Reactivity of Anthracene
+            section_type: core_theory
+          - section_title: Oxidation and Photochemical Reactions
+            section_type: core_theory
+          - section_title: Comparison of Reactivity with Benzene
+            section_type: related_concepts
+      - topic: General PAH Reactivity
+        sections:
+          - section_title: HOMO-LUMO Considerations
+            section_type: related_concepts
+          - section_title: Metabolic Activation and Carcinogenicity
+            section_type: related_concepts
+    milestone: Mastery of PAH reactivity patterns and regioselectivity
+    duration_days: 5
+    tags:
+      - PAH reactions
+      - naphthalene
+      - anthracene
+      - regioselectivity
+
+  - id: 10
+    title: Reactions of Non-benzenoid Aromatics
+    learning_objectives:
+      - Describe unique reactions of annulenes
+      - Explain reactivity patterns of aromatic ions
+      - Analyze azulene electrophilic substitution
+      - Compare reactivity of benzenoid vs non-benzenoid systems
+    textbook_style_content:
+      - topic: Annulene Reactivity
+        sections:
+          - section_title: Electrophilic Attack on Higher Annulenes
+            section_type: core_theory
+          - section_title: Conformational Effects on Reactivity
+            section_type: core_theory
+          - section_title: Addition vs Substitution Competition
+            section_type: related_concepts
+      - topic: Aromatic Ion Reactions
+        sections:
+          - section_title: Tropylium Cation as Electrophile
+            section_type: core_theory
+          - section_title: Cyclopentadienyl Anion as Nucleophile and Ligand
+            section_type: core_theory
+          - section_title: Metallocene Formation
+            section_type: related_concepts
+      - topic: Azulene Chemistry
+        sections:
+          - section_title: Electrophilic Substitution at 1-Position
+            section_type: core_theory
+          - section_title: Nucleophilic Attack at 4 and 6 Positions
+            section_type: core_theory
+          - section_title: Unusual Polarization Effects
+            section_type: core_theory
+          - section_title: Applications in Organic Synthesis
+            section_type: related_concepts
+    milestone: Understanding distinctive reactivity of non-benzenoid aromatic compounds
+    duration_days: 5
+    tags:
+      - annulene reactions
+      - tropylium chemistry
+      - azulene reactions
+      - non-benzenoid reactivity
+
+  - id: 11
+    title: Spectroscopic Identification of Aromatic Compounds
+    learning_objectives:
+      - Interpret NMR spectra of aromatic compounds
+      - Explain ring current effects and chemical shift patterns
+      - Use UV-Vis spectroscopy to identify aromatic systems
+      - Apply IR spectroscopy to aromatic functional groups
+    textbook_style_content:
+      - topic: NMR Spectroscopy of Aromatics
+        sections:
+          - section_title: Ring Current and Anisotropy
+            section_type: core_theory
+          - section_title: Chemical Shift Ranges for Aromatic Protons
+            section_type: core_theory
+          - section_title: Coupling Patterns in Substituted Benzenes
+            section_type: core_theory
+          - section_title: Carbon-13 NMR of Aromatic Systems
+            section_type: related_concepts
+      - topic: UV-Visible Spectroscopy
+        sections:
+          - section_title: π to π* Transitions
+            section_type: core_theory
+          - section_title: Benzenoid vs Non-benzenoid Absorption
+            section_type: core_theory
+          - section_title: Woodward-Fieser Rules for Conjugated Systems
+            section_type: related_concepts
+      - topic: Infrared and Mass Spectrometry
+        sections:
+          - section_title: C-H Stretching in Aromatic Systems
+            section_type: related_concepts
+          - section_title: Aromatic C=C Stretches
+            section_type: related_concepts
+          - section_title: Fragmentation Patterns in MS
+            section_type: related_concepts
+    milestone: Proficiency in spectroscopic identification and characterization of aromatic compounds
+    duration_days: 4
+    tags:
+      - NMR spectroscopy
+      - UV-Vis spectroscopy
+      - ring current
+      - characterization
+
+  - id: 12
+    title: Advanced Topics and Applications
+    learning_objectives:
+      - Analyze aromatic transition states in pericyclic reactions
+      - Explain Möbius aromaticity and twisted systems
+      - Describe three-dimensional and spherical aromaticity
+      - Apply aromaticity concepts to problem-solving in CSIR exams
+    textbook_style_content:
+      - topic: Pericyclic Reactions and Aromatic Transition States
+        sections:
+          - section_title: Aromatic vs Antiaromatic Transition States
+            section_type: core_theory
+          - section_title: Woodward-Hoffmann Rules
+            section_type: core_theory
+          - section_title: Examples from Electrocyclic and Cycloaddition Reactions
+            section_type: related_concepts
+      - topic: Extended Aromaticity Concepts
+        sections:
+          - section_title: Möbius Aromaticity and Twisted π-Systems
+            section_type: core_theory
+          - section_title: Homoaromaticity
+            section_type: related_concepts
+          - section_title: Three-Dimensional Aromaticity (Fullerenes, Carboranes)
+            section_type: related_concepts
+          - section_title: Spherical Aromaticity
+            section_type: related_concepts
+      - topic: Problem-Solving Strategies for CSIR
+        sections:
+          - section_title: Quick Recognition of Aromatic Systems
+            section_type: overview
+          - section_title: Mechanism Prediction Based on Aromaticity
+            section_type: core_theory
+          - section_title: Common Pitfalls and Exam Tips
+            section_type: related_concepts
+    milestone: Integration of all aromaticity concepts for advanced applications and exam preparation
+    duration_days: 6
+    tags:
+      - advanced topics
+      - Möbius aromaticity
+      - pericyclic reactions
+      - CSIR preparation

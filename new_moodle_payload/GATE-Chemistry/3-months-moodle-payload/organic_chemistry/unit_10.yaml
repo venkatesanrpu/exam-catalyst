@@ -1,0 +1,278 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Heterocyclic Compounds - Structure, preparation, properties and reactions of furan, pyrrole, thiophene, pyridine, indole, quinoline and isoquinoline
+
+concepts:
+  core:
+    - name: Aromaticity in Heterocycles
+      clarifier: Hückel's rule application, electron donation/withdrawal, resonance stabilization in five- and six-membered heterocycles
+    - name: Structure and Nomenclature
+      clarifier: Ring systems, atom hybridization, bond angles, resonance forms, tautomerism in heterocyclic compounds
+    - name: Electrophilic Aromatic Substitution
+      clarifier: Substitution patterns, regioselectivity, reactivity comparison with benzene, directing effects of heteroatoms
+    - name: Nucleophilic Aromatic Substitution
+      clarifier: Activation by electron-withdrawing heteroatoms, mechanisms, ring-opening reactions
+    - name: Preparation Methods
+      clarifier: Classical syntheses (Paal-Knorr, Skraup, Friedländer), modern multicomponent reactions, ring synthesis strategies
+    - name: Redox and Addition Reactions
+      clarifier: Oxidation/reduction of heterocycles, saturation, N-oxide formation, cycloadditions
+
+  related:
+    - name: Tautomerism
+      clarifier: Lactam-lactim equilibria in pyridones, ring-chain tautomerism in indoles
+    - name: Basicity and Nucleophilicity
+      clarifier: pKa values, protonation sites, lone pair availability in five- and six-membered rings
+    - name: Metal Coordination
+      clarifier: Chelation by nitrogen heterocycles, coordination chemistry relevance
+    - name: Biological Significance
+      clarifier: Alkaloids, nucleotide bases, pharmaceutical applications of heterocyclic scaffolds
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Heterocyclic Aromaticity
+    learning_objectives:
+      - Understand Hückel's rule and its application to five- and six-membered heterocycles
+      - Compare aromaticity of heterocycles with benzene
+      - Explain electron donation and withdrawal effects of heteroatoms
+      - Analyze resonance stabilization in furan, pyrrole, and thiophene
+    textbook_style_content:
+      - lesson: Introduction to Heterocyclic Chemistry
+        sections:
+          - section_heading: Definition and Classification
+            section_type: overview
+          - section_heading: Hückel's Rule and Aromatic Heterocycles
+            section_type: core_theory
+          - section_heading: Five-membered vs Six-membered Ring Comparison
+            section_type: core_theory
+      - lesson: Aromaticity in Five-Membered Rings
+        sections:
+          - section_heading: Furan - Structure and Electron Distribution
+            section_type: core_theory
+          - section_heading: Pyrrole - N-H Acidity and Resonance
+            section_type: core_theory
+          - section_heading: Thiophene - Sulfur Participation
+            section_type: core_theory
+          - section_heading: Comparative Aromaticity and Stability
+            section_type: related_concepts
+    milestone: Establish theoretical foundation for heterocyclic reactivity
+    duration_days: 6
+    tags:
+      - aromaticity
+      - five-membered rings
+      - hückel rule
+
+  - id: 2
+    topic: Five-Membered Heterocycles - Furan, Pyrrole, Thiophene
+    learning_objectives:
+      - Distinguish structural features and stability of furan, pyrrole, and thiophene
+      - Predict electrophilic and nucleophilic substitution patterns
+      - Explain preparation methods for each heterocycle
+      - Apply reactivity trends to synthetic problems
+    textbook_style_content:
+      - lesson: Furan - Properties and Reactivity
+        sections:
+          - section_heading: Structure and Aromatic Character
+            section_type: core_theory
+          - section_heading: Electrophilic Aromatic Substitution (EAS) at Furan
+            section_type: core_theory
+          - section_heading: Paal-Knorr Synthesis and Other Preparations
+            section_type: core_theory
+          - section_heading: Nucleophilic Attacks and Ring-Opening
+            section_type: related_concepts
+      - lesson: Pyrrole - NH Reactivity and Basicity
+        sections:
+          - section_heading: Structure, pKa, and Tautomerism
+            section_type: core_theory
+          - section_heading: EAS in Pyrrole - Position Selectivity
+            section_type: core_theory
+          - section_heading: N-Alkylation and N-Oxide Formation
+            section_type: core_theory
+          - section_heading: Synthesis from 1,4-Dicarbonyl Compounds
+            section_type: core_theory
+      - lesson: Thiophene - Sulfur Effects
+        sections:
+          - section_heading: Structure and Aromatic Stability
+            section_type: core_theory
+          - section_heading: Reactivity in Electrophilic Substitution
+            section_type: core_theory
+          - section_heading: Common Syntheses and Preparations
+            section_type: core_theory
+          - section_heading: Oxidation and Addition Reactions
+            section_type: related_concepts
+    milestone: Master five-membered heterocyclic chemistry and substitution patterns
+    duration_days: 10
+    tags:
+      - furan
+      - pyrrole
+      - thiophene
+      - electrophilic substitution
+
+  - id: 3
+    topic: Pyridine - Six-Membered N-Heterocycle
+    learning_objectives:
+      - Explain pyridine's reduced aromaticity relative to benzene
+      - Predict positions for electrophilic and nucleophilic aromatic substitution
+      - Describe pyridine preparation and synthetic applications
+      - Apply pyridine reactivity to nitrogen-containing pharmaceutical design
+    textbook_style_content:
+      - lesson: Pyridine Structure and Properties
+        sections:
+          - section_heading: Electronic Structure and Aromaticity
+            section_type: core_theory
+          - section_heading: Basicity and Protonation
+            section_type: core_theory
+          - section_heading: Comparison with Benzene and Aniline
+            section_type: related_concepts
+      - lesson: Electrophilic and Nucleophilic Substitutions in Pyridine
+        sections:
+          - section_heading: Why Pyridine Resists Electrophilic Aromatic Substitution
+            section_type: core_theory
+          - section_heading: Regioselectivity - 2, 3, and 4-Positions
+            section_type: core_theory
+          - section_heading: Nucleophilic Aromatic Substitution Mechanisms
+            section_type: core_theory
+      - lesson: Pyridine Preparation and Synthesis
+        sections:
+          - section_heading: Hantzsch Synthesis
+            section_type: core_theory
+          - section_heading: Pictet-Spengler and Modern Methods
+            section_type: core_theory
+      - lesson: Oxidation and Reactivity at Side Chains
+        sections:
+          - section_heading: N-Oxide Formation and Reimer-Tiemann Type Reactions
+            section_type: core_theory
+          - section_heading: Activation via N-Oxidation
+            section_type: related_concepts
+    milestone: Understand pyridine's unique reactivity as an electron-poor aromatic
+    duration_days: 8
+    tags:
+      - pyridine
+      - six-membered ring
+      - nucleophilic substitution
+
+  - id: 4
+    topic: Indole and Quinoline - Fused Ring Systems
+    learning_objectives:
+      - Analyze fused bicyclic heterocycle structures
+      - Predict reactivity at different ring positions
+      - Compare reactivity of indole (five-membered fused) vs. quinoline (six-membered fused)
+      - Apply synthesis strategies specific to indoles and quinolines
+    textbook_style_content:
+      - lesson: Indole - Benzofuran-like Fused System
+        sections:
+          - section_heading: Structure and Resonance Forms
+            section_type: core_theory
+          - section_heading: Reactivity Differences Between Pyrrole and Benzene Rings
+            section_type: core_theory
+          - section_heading: Electrophilic Substitution at C-2, C-3, and C-5 Positions
+            section_type: core_theory
+          - section_heading: Fischer Indole Synthesis
+            section_type: core_theory
+          - section_heading: Reissert and Madelung Syntheses
+            section_type: related_concepts
+      - lesson: Quinoline - Benzopyridine Fused System
+        sections:
+          - section_heading: Structure and Electronic Properties
+            section_type: core_theory
+          - section_heading: Aromaticity and Basicity
+            section_type: core_theory
+          - section_heading: Electrophilic Substitution Patterns
+            section_type: core_theory
+          - section_heading: Nucleophilic Substitution in Quinoline
+            section_type: core_theory
+          - section_heading: Skraup Synthesis
+            section_type: core_theory
+          - section_heading: Friedländer and Combes Syntheses
+            section_type: related_concepts
+    milestone: Master fused bicyclic heterocyclic chemistry and synthesis
+    duration_days: 10
+    tags:
+      - indole
+      - quinoline
+      - fused heterocycles
+      - fischer synthesis
+
+  - id: 5
+    topic: Isoquinoline and Comparative Analysis
+    learning_objectives:
+      - Distinguish isoquinoline from quinoline regiochemistry
+      - Predict substitution patterns in isoquinoline
+      - Compare all seven heterocycles studied
+      - Integrate knowledge for complex synthesis problems
+    textbook_style_content:
+      - lesson: Isoquinoline - Position Isomer of Quinoline
+        sections:
+          - section_heading: Structure and Electronic Distribution
+            section_type: core_theory
+          - section_heading: Basicity and Protonation Sites
+            section_type: core_theory
+          - section_heading: Electrophilic Aromatic Substitution Regioselectivity
+            section_type: core_theory
+          - section_heading: Nucleophilic Substitution Mechanisms
+            section_type: core_theory
+          - section_heading: Bischler-Napieralski and Pictet-Gams Syntheses
+            section_type: core_theory
+      - lesson: Comparative Heterocycle Reactivity
+        sections:
+          - section_heading: Aromaticity Ranking - Furan, Pyrrole, Thiophene, Pyridine
+            section_type: core_theory
+          - section_heading: Basicity and Nucleophilicity Trends
+            section_type: core_theory
+          - section_heading: EAS and NAS Reactivity Comparison
+            section_type: core_theory
+          - section_heading: Synthetic Strategy Selection for Target Heterocycles
+            section_type: related_concepts
+      - lesson: Biological and Industrial Applications
+        sections:
+          - section_heading: Natural Product Alkaloids Containing Heterocycles
+            section_type: related_concepts
+          - section_heading: Pharmaceutical Scaffold Design
+            section_type: related_concepts
+    milestone: Synthesize knowledge across all seven heterocycles and solve integrated problems
+    duration_days: 9
+    tags:
+      - isoquinoline
+      - comparative analysis
+      - synthesis planning
+      - alkaloids
+
+  - id: 6
+    topic: Advanced Reactions and Problem-Solving
+    learning_objectives:
+      - Apply multi-step synthesis strategies involving heterocycles
+      - Solve complex regioselectivity and reactivity prediction problems
+      - Integrate heterocyclic chemistry with other organic transformations
+      - Prepare for GATE-level comprehensive questions
+    textbook_style_content:
+      - lesson: Complex Synthesis Problems
+        sections:
+          - section_heading: Multi-Step Heterocyclic Synthesis Design
+            section_type: core_theory
+          - section_heading: Regioselectivity and Chemoselective Transformations
+            section_type: core_theory
+          - section_heading: Protecting Groups in Heterocyclic Synthesis
+            section_type: related_concepts
+      - lesson: Heterocycle Conversions and Transformations
+        sections:
+          - section_heading: Ring Expansion and Contraction
+            section_type: core_theory
+          - section_heading: Oxidation-Reduction State Changes
+            section_type: core_theory
+          - section_heading: Heterocycle-to-Heterocycle Transformations
+            section_type: related_concepts
+      - lesson: Practice Problem Analysis
+        sections:
+          - section_heading: GATE-Style Question Patterns
+            section_type: core_theory
+          - section_heading: Mechanism-Based Problem Solving
+            section_type: core_theory
+          - section_heading: Time-Management Strategies
+            section_type: related_concepts
+    milestone: Develop mastery-level problem-solving capability for GATE examination
+    duration_days: 7
+    tags:
+      - advanced synthesis
+      - problem solving
+      - gate preparation
+      - mechanisms

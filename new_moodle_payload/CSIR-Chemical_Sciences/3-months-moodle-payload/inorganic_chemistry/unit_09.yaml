@@ -1,0 +1,595 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Analytical chemistry - separation, spectroscopic, electro- and thermoanalytical methods
+
+concepts:
+  core:
+    - name: Separation Techniques
+      clarifier: Methods for isolating and purifying chemical species including chromatography, extraction, and precipitation
+    - name: Spectroscopic Methods
+      clarifier: Analytical techniques based on interaction of electromagnetic radiation with matter including UV-Vis, IR, NMR, AAS, ICP, and mass spectrometry
+    - name: Electroanalytical Methods
+      clarifier: Techniques based on electrochemical properties including potentiometry, voltammetry, coulometry, and conductometry
+    - name: Thermoanalytical Methods
+      clarifier: Techniques measuring physical and chemical properties as function of temperature including TGA, DSC, DTA, and TMA
+  related:
+    - name: Sample Preparation
+      clarifier: Pre-analytical procedures for matrix decomposition, dissolution, and preconcentration
+    - name: Calibration and Standardization
+      clarifier: Methods for establishing quantitative relationships between signal and analyte concentration
+    - name: Quality Assurance
+      clarifier: Precision, accuracy, detection limits, and validation protocols in analytical measurements
+    - name: Data Analysis and Interpretation
+      clarifier: Statistical treatment of analytical data and correlation with molecular structure
+
+learning_path:
+  - id: 1
+    title: Introduction to Analytical Chemistry and Sample Preparation
+    learning_objectives:
+      - Understand the role of analytical chemistry in chemical sciences
+      - Master fundamental concepts of qualitative and quantitative analysis
+      - Learn systematic approaches to sample preparation and matrix management
+    textbook_style_content:
+      - topic: Foundations of Analytical Chemistry
+        sections:
+          - section_title: Scope and Classification of Analytical Methods
+            section_type: overview
+          - section_title: Qualitative versus Quantitative Analysis
+            section_type: core_theory
+          - section_title: Sample Preparation Strategies
+            section_type: core_theory
+          - section_title: Matrix Effects and Interference Management
+            section_type: related_concepts
+    milestone: Master foundational principles and sample handling protocols
+    duration_days: 5
+    tags:
+      - fundamentals
+      - sample preparation
+      - analytical workflow
+
+  - id: 2
+    title: Separation Techniques I - Chromatographic Methods
+    learning_objectives:
+      - Understand principles of chromatographic separations
+      - Master theory of column efficiency and resolution
+      - Apply different chromatographic modes for inorganic species
+    textbook_style_content:
+      - topic: Fundamentals of Chromatography
+        sections:
+          - section_title: Principles of Chromatographic Separation
+            section_type: overview
+          - section_title: Retention Mechanisms and Partition Coefficients
+            section_type: core_theory
+          - section_title: van Deemter Equation and Band Broadening
+            section_type: core_theory
+          - section_title: Resolution and Selectivity Optimization
+            section_type: core_theory
+      - topic: Gas Chromatography
+        sections:
+          - section_title: GC Instrumentation and Detectors
+            section_type: core_theory
+          - section_title: Applications in Volatile Inorganic Analysis
+            section_type: related_concepts
+      - topic: Liquid Chromatography
+        sections:
+          - section_title: HPLC Principles and Column Technology
+            section_type: core_theory
+          - section_title: Ion Chromatography for Inorganic Anions and Cations
+            section_type: core_theory
+          - section_title: Size Exclusion and Affinity Chromatography
+            section_type: related_concepts
+    milestone: Proficiency in chromatographic theory and method selection
+    duration_days: 8
+    tags:
+      - separation
+      - chromatography
+      - HPLC
+      - GC
+      - ion chromatography
+
+  - id: 3
+    title: Separation Techniques II - Extraction and Classical Methods
+    learning_objectives:
+      - Master solvent extraction principles and distribution equilibria
+      - Understand precipitation and coprecipitation phenomena
+      - Apply membrane and electrophoretic separation techniques
+    textbook_style_content:
+      - topic: Solvent Extraction
+        sections:
+          - section_title: Distribution Laws and Extraction Equilibria
+            section_type: core_theory
+          - section_title: Liquid-Liquid Extraction Systems
+            section_type: core_theory
+          - section_title: Chelating Agents and Synergistic Extraction
+            section_type: core_theory
+          - section_title: Solid Phase Extraction and Microextraction
+            section_type: related_concepts
+      - topic: Precipitation Methods
+        sections:
+          - section_title: Solubility Product and Precipitation Conditions
+            section_type: core_theory
+          - section_title: Coprecipitation and Post-precipitation
+            section_type: core_theory
+      - topic: Advanced Separation Methods
+        sections:
+          - section_title: Membrane Separation and Dialysis
+            section_type: related_concepts
+          - section_title: Capillary Electrophoresis
+            section_type: related_concepts
+    milestone: Master extraction techniques and classical separation methods
+    duration_days: 6
+    tags:
+      - separation
+      - extraction
+      - precipitation
+      - electrophoresis
+
+  - id: 4
+    title: Spectroscopic Methods I - UV-Visible Spectroscopy
+    learning_objectives:
+      - Understand electronic transitions and Beer-Lambert law
+      - Master quantitative analysis using UV-Vis spectrophotometry
+      - Apply derivative and multicomponent spectroscopy
+    textbook_style_content:
+      - topic: Principles of UV-Visible Spectroscopy
+        sections:
+          - section_title: Electronic Transitions in Atoms and Molecules
+            section_type: overview
+          - section_title: Beer-Lambert Law and Absorption
+            section_type: core_theory
+          - section_title: Instrumentation and Optical Components
+            section_type: core_theory
+      - topic: Applications in Inorganic Analysis
+        sections:
+          - section_title: Transition Metal Complexes and d-d Transitions
+            section_type: core_theory
+          - section_title: Charge Transfer Spectra
+            section_type: core_theory
+          - section_title: Colorimetric Methods for Quantitative Analysis
+            section_type: core_theory
+          - section_title: Derivative and Multicomponent Spectroscopy
+            section_type: related_concepts
+    milestone: Proficiency in UV-Vis spectroscopy for inorganic species
+    duration_days: 5
+    tags:
+      - spectroscopy
+      - UV-Vis
+      - Beer-Lambert law
+      - quantitative analysis
+
+  - id: 5
+    title: Spectroscopic Methods II - Infrared and Raman Spectroscopy
+    learning_objectives:
+      - Understand molecular vibrations and selection rules
+      - Master IR spectroscopy for coordination compound characterization
+      - Apply Raman spectroscopy principles
+    textbook_style_content:
+      - topic: Infrared Spectroscopy
+        sections:
+          - section_title: Vibrational Modes and Selection Rules
+            section_type: overview
+          - section_title: FTIR Instrumentation and Sample Preparation
+            section_type: core_theory
+          - section_title: Group Frequencies in Inorganic Compounds
+            section_type: core_theory
+          - section_title: Metal-Ligand Vibrations in Coordination Complexes
+            section_type: core_theory
+          - section_title: Far-IR and Metal-Halide Stretching
+            section_type: related_concepts
+      - topic: Raman Spectroscopy
+        sections:
+          - section_title: Raman Effect and Selection Rules
+            section_type: core_theory
+          - section_title: Complementarity with IR Spectroscopy
+            section_type: core_theory
+          - section_title: Surface-Enhanced Raman Spectroscopy
+            section_type: related_concepts
+    milestone: Master vibrational spectroscopy for structural analysis
+    duration_days: 6
+    tags:
+      - spectroscopy
+      - IR
+      - FTIR
+      - Raman
+      - vibrational spectroscopy
+
+  - id: 6
+    title: Spectroscopic Methods III - Nuclear Magnetic Resonance
+    learning_objectives:
+      - Understand nuclear spin and resonance phenomena
+      - Master NMR spectroscopy principles for inorganic nuclei
+      - Interpret chemical shifts and coupling patterns
+    textbook_style_content:
+      - topic: Fundamentals of NMR Spectroscopy
+        sections:
+          - section_title: Nuclear Spin and Magnetic Properties
+            section_type: overview
+          - section_title: Resonance Condition and Energy Levels
+            section_type: core_theory
+          - section_title: Chemical Shift and Shielding
+            section_type: core_theory
+          - section_title: Spin-Spin Coupling and Multiplicity
+            section_type: core_theory
+      - topic: Multinuclear NMR in Inorganic Chemistry
+        sections:
+          - section_title: Instrumentation and FT-NMR Techniques
+            section_type: core_theory
+          - section_title: Phosphorus-31 and Fluorine-19 NMR
+            section_type: core_theory
+          - section_title: Metal Nuclei NMR - Platinum, Tin, and Others
+            section_type: core_theory
+          - section_title: 2D NMR Techniques for Complex Systems
+            section_type: related_concepts
+    milestone: Proficiency in NMR for inorganic compound characterization
+    duration_days: 7
+    tags:
+      - spectroscopy
+      - NMR
+      - multinuclear NMR
+      - structural elucidation
+
+  - id: 7
+    title: Spectroscopic Methods IV - Atomic Spectroscopy
+    learning_objectives:
+      - Master flame and electrothermal atomic absorption spectroscopy
+      - Understand atomic emission and inductively coupled plasma techniques
+      - Apply atomic fluorescence for trace analysis
+    textbook_style_content:
+      - topic: Atomic Absorption Spectroscopy
+        sections:
+          - section_title: Principles of Atomic Absorption
+            section_type: overview
+          - section_title: Flame Atomization and Burner Systems
+            section_type: core_theory
+          - section_title: Electrothermal Atomization and Graphite Furnace
+            section_type: core_theory
+          - section_title: Background Correction Techniques
+            section_type: core_theory
+      - topic: Atomic Emission Spectroscopy
+        sections:
+          - section_title: Flame Photometry and Emission Principles
+            section_type: core_theory
+          - section_title: Inductively Coupled Plasma Optical Emission
+            section_type: core_theory
+          - section_title: Arc and Spark Emission Spectroscopy
+            section_type: related_concepts
+      - topic: Atomic Fluorescence Spectroscopy
+        sections:
+          - section_title: Fluorescence Principles and Instrumentation
+            section_type: core_theory
+          - section_title: Applications in Trace Metal Analysis
+            section_type: related_concepts
+    milestone: Master atomic spectroscopy for elemental analysis
+    duration_days: 7
+    tags:
+      - spectroscopy
+      - AAS
+      - AES
+      - ICP-OES
+      - atomic spectroscopy
+
+  - id: 8
+    title: Spectroscopic Methods V - Mass Spectrometry
+    learning_objectives:
+      - Understand ion formation and mass analysis principles
+      - Master ICP-MS for multi-element determination
+      - Apply mass spectrometry for speciation studies
+    textbook_style_content:
+      - topic: Mass Spectrometry Fundamentals
+        sections:
+          - section_title: Ion Sources and Ionization Techniques
+            section_type: overview
+          - section_title: Mass Analyzers - Quadrupole, TOF, and Ion Trap
+            section_type: core_theory
+          - section_title: Detectors and Data Acquisition
+            section_type: core_theory
+      - topic: ICP-Mass Spectrometry
+        sections:
+          - section_title: ICP-MS Instrumentation and Interface
+            section_type: core_theory
+          - section_title: Spectral Interferences and Resolution
+            section_type: core_theory
+          - section_title: Multi-element and Isotope Ratio Analysis
+            section_type: core_theory
+      - topic: Advanced MS Applications
+        sections:
+          - section_title: Hyphenated Techniques - LC-MS and GC-MS
+            section_type: related_concepts
+          - section_title: Chemical Speciation and Metal-Ligand Studies
+            section_type: related_concepts
+    milestone: Proficiency in mass spectrometry for inorganic analysis
+    duration_days: 6
+    tags:
+      - spectroscopy
+      - mass spectrometry
+      - ICP-MS
+      - speciation
+
+  - id: 9
+    title: Electroanalytical Methods I - Potentiometry
+    learning_objectives:
+      - Understand electrode potentials and Nernst equation
+      - Master ion-selective electrodes and their applications
+      - Apply potentiometric titrations for quantitative analysis
+    textbook_style_content:
+      - topic: Fundamentals of Electrochemistry
+        sections:
+          - section_title: Electrode Potentials and Half-Cell Reactions
+            section_type: overview
+          - section_title: Nernst Equation and Activity
+            section_type: core_theory
+          - section_title: Reference Electrodes - Calomel and Silver-Silver Chloride
+            section_type: core_theory
+      - topic: Potentiometry and ISEs
+        sections:
+          - section_title: Glass Electrode and pH Measurement
+            section_type: core_theory
+          - section_title: Ion-Selective Electrodes - Principles and Types
+            section_type: core_theory
+          - section_title: Membrane Potentials and Selectivity Coefficients
+            section_type: core_theory
+          - section_title: Applications in Metal Ion Determination
+            section_type: core_theory
+      - topic: Potentiometric Titrations
+        sections:
+          - section_title: Titration Curves and Endpoint Detection
+            section_type: core_theory
+          - section_title: Redox and Precipitation Titrations
+            section_type: related_concepts
+    milestone: Master potentiometric techniques for chemical analysis
+    duration_days: 6
+    tags:
+      - electroanalytical
+      - potentiometry
+      - ISE
+      - pH measurement
+
+  - id: 10
+    title: Electroanalytical Methods II - Voltammetry and Polarography
+    learning_objectives:
+      - Understand current-potential relationships in voltammetry
+      - Master polarographic techniques and limiting currents
+      - Apply cyclic voltammetry for mechanistic studies
+    textbook_style_content:
+      - topic: Voltammetry Principles
+        sections:
+          - section_title: Mass Transport and Current-Voltage Curves
+            section_type: overview
+          - section_title: Dropping Mercury Electrode and Polarography
+            section_type: core_theory
+          - section_title: Ilkovic Equation and Limiting Currents
+            section_type: core_theory
+          - section_title: Half-Wave Potentials and Qualitative Analysis
+            section_type: core_theory
+      - topic: Modern Voltammetric Techniques
+        sections:
+          - section_title: Cyclic Voltammetry and Scan Rate Effects
+            section_type: core_theory
+          - section_title: Differential Pulse and Square Wave Voltammetry
+            section_type: core_theory
+          - section_title: Stripping Voltammetry for Trace Metals
+            section_type: core_theory
+          - section_title: Working Electrodes - Mercury, Glassy Carbon, and Platinum
+            section_type: related_concepts
+      - topic: Applications in Inorganic Chemistry
+        sections:
+          - section_title: Redox Behavior of Transition Metal Complexes
+            section_type: related_concepts
+          - section_title: Speciation and Stability Constant Determination
+            section_type: related_concepts
+    milestone: Proficiency in voltammetric methods for redox analysis
+    duration_days: 7
+    tags:
+      - electroanalytical
+      - voltammetry
+      - polarography
+      - cyclic voltammetry
+
+  - id: 11
+    title: Electroanalytical Methods III - Coulometry and Conductometry
+    learning_objectives:
+      - Master controlled potential and constant current coulometry
+      - Understand conductometric principles and applications
+      - Apply electrochemical methods for quantitative analysis
+    textbook_style_content:
+      - topic: Coulometric Analysis
+        sections:
+          - section_title: Faraday's Laws and Quantitative Electrolysis
+            section_type: overview
+          - section_title: Controlled Potential Coulometry
+            section_type: core_theory
+          - section_title: Coulometric Titrations and Current Efficiency
+            section_type: core_theory
+          - section_title: Applications in Oxidation State Determination
+            section_type: related_concepts
+      - topic: Conductometry
+        sections:
+          - section_title: Electrolytic Conductance and Cell Constants
+            section_type: core_theory
+          - section_title: Molar Conductivity and Kohlrausch's Law
+            section_type: core_theory
+          - section_title: Conductometric Titrations
+            section_type: core_theory
+          - section_title: Applications in Ionic Strength and Purity Assessment
+            section_type: related_concepts
+    milestone: Master coulometry and conductometry for quantitative work
+    duration_days: 5
+    tags:
+      - electroanalytical
+      - coulometry
+      - conductometry
+      - quantitative analysis
+
+  - id: 12
+    title: Thermoanalytical Methods I - Thermogravimetry
+    learning_objectives:
+      - Understand thermal decomposition and weight loss analysis
+      - Master TGA instrumentation and operational parameters
+      - Interpret TG curves for inorganic materials
+    textbook_style_content:
+      - topic: Fundamentals of Thermal Analysis
+        sections:
+          - section_title: Principles of Thermoanalytical Techniques
+            section_type: overview
+          - section_title: Temperature Measurement and Control
+            section_type: core_theory
+          - section_title: Atmosphere Control - Inert, Oxidizing, and Reducing
+            section_type: core_theory
+      - topic: Thermogravimetric Analysis
+        sections:
+          - section_title: TGA Instrumentation and Balance Systems
+            section_type: core_theory
+          - section_title: Thermogravimetric Curves and Data Interpretation
+            section_type: core_theory
+          - section_title: Kinetics of Thermal Decomposition
+            section_type: core_theory
+          - section_title: Derivative Thermogravimetry
+            section_type: related_concepts
+      - topic: Applications in Inorganic Chemistry
+        sections:
+          - section_title: Thermal Stability of Coordination Compounds
+            section_type: core_theory
+          - section_title: Composition Analysis of Hydrates and Solvates
+            section_type: core_theory
+          - section_title: Oxidation State and Stoichiometry Determination
+            section_type: related_concepts
+    milestone: Master TGA for thermal stability and composition analysis
+    duration_days: 6
+    tags:
+      - thermoanalytical
+      - TGA
+      - thermal decomposition
+      - thermal stability
+
+  - id: 13
+    title: Thermoanalytical Methods II - Differential Thermal Analysis and Calorimetry
+    learning_objectives:
+      - Understand heat flow measurements in DTA and DSC
+      - Master interpretation of thermal transitions
+      - Apply thermoanalytical methods for phase characterization
+    textbook_style_content:
+      - topic: Differential Thermal Analysis
+        sections:
+          - section_title: Principles of DTA and Heat Effects
+            section_type: overview
+          - section_title: DTA Instrumentation and Cell Design
+            section_type: core_theory
+          - section_title: Endothermic and Exothermic Processes
+            section_type: core_theory
+          - section_title: Applications in Phase Transitions
+            section_type: core_theory
+      - topic: Differential Scanning Calorimetry
+        sections:
+          - section_title: DSC Principles - Heat Flux and Power Compensation
+            section_type: core_theory
+          - section_title: Calibration and Temperature-Enthalpy Measurements
+            section_type: core_theory
+          - section_title: Glass Transitions and Melting Points
+            section_type: core_theory
+          - section_title: Purity Determination by DSC
+            section_type: related_concepts
+      - topic: Advanced Thermoanalytical Techniques
+        sections:
+          - section_title: Thermomechanical Analysis
+            section_type: related_concepts
+          - section_title: Evolved Gas Analysis - TGA-MS and TGA-FTIR
+            section_type: related_concepts
+          - section_title: Simultaneous Thermal Analysis
+            section_type: related_concepts
+    milestone: Proficiency in calorimetric and thermal analysis methods
+    duration_days: 6
+    tags:
+      - thermoanalytical
+      - DTA
+      - DSC
+      - calorimetry
+      - thermal transitions
+
+  - id: 14
+    title: Calibration, Standardization, and Quality Assurance
+    learning_objectives:
+      - Master calibration curve construction and validation
+      - Understand detection limits and quantification limits
+      - Apply statistical methods for quality control
+    textbook_style_content:
+      - topic: Calibration Methods
+        sections:
+          - section_title: External Standard and Internal Standard Methods
+            section_type: overview
+          - section_title: Linear Regression and Calibration Curves
+            section_type: core_theory
+          - section_title: Standard Addition Method
+            section_type: core_theory
+          - section_title: Matrix Matching and Interference Correction
+            section_type: related_concepts
+      - topic: Method Validation
+        sections:
+          - section_title: Accuracy, Precision, and Repeatability
+            section_type: core_theory
+          - section_title: Detection Limit and Quantification Limit
+            section_type: core_theory
+          - section_title: Linear Range and Sensitivity
+            section_type: core_theory
+          - section_title: Recovery Studies and Spike Analysis
+            section_type: related_concepts
+      - topic: Quality Assurance
+        sections:
+          - section_title: Control Charts and Statistical Process Control
+            section_type: core_theory
+          - section_title: Certified Reference Materials
+            section_type: related_concepts
+          - section_title: Good Laboratory Practices
+            section_type: related_concepts
+    milestone: Master quality assurance protocols for analytical methods
+    duration_days: 5
+    tags:
+      - calibration
+      - validation
+      - quality assurance
+      - statistics
+
+  - id: 15
+    title: Integrated Analytical Strategies and Method Development
+    learning_objectives:
+      - Develop comprehensive analytical strategies for complex samples
+      - Select appropriate techniques based on sample characteristics
+      - Apply hyphenated methods for challenging analytical problems
+    textbook_style_content:
+      - topic: Method Selection and Development
+        sections:
+          - section_title: Analytical Problem Solving Framework
+            section_type: overview
+          - section_title: Technique Selection Based on Analyte Properties
+            section_type: core_theory
+          - section_title: Method Optimization and Design of Experiments
+            section_type: core_theory
+      - topic: Hyphenated Techniques
+        sections:
+          - section_title: Chromatography-Mass Spectrometry Coupling
+            section_type: core_theory
+          - section_title: Chromatography-Atomic Spectroscopy
+            section_type: core_theory
+          - section_title: Thermal Analysis-Mass Spectrometry
+            section_type: related_concepts
+      - topic: Multi-Technique Approaches
+        sections:
+          - section_title: Complementary Analysis for Complete Characterization
+            section_type: core_theory
+          - section_title: Speciation Analysis Strategies
+            section_type: core_theory
+          - section_title: Case Studies in Inorganic Analysis
+            section_type: related_concepts
+      - topic: Data Integration and Chemometrics
+        sections:
+          - section_title: Multivariate Analysis and Pattern Recognition
+            section_type: related_concepts
+          - section_title: Principal Component Analysis
+            section_type: related_concepts
+    milestone: Synthesize knowledge into comprehensive analytical strategies
+    duration_days: 6
+    tags:
+      - method development
+      - hyphenated techniques
+      - problem solving
+      - integration

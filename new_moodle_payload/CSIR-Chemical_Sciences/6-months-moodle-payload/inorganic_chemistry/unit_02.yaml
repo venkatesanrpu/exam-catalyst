@@ -1,0 +1,503 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Structure and bonding in homo- and heteronuclear molecules, including shapes of molecules (VSEPR Theory)
+
+concepts:
+  core:
+    - name: Chemical Bonding Fundamentals
+      clarifier: Ionic, covalent, coordinate bonding; bond formation principles
+    - name: Valence Bond Theory
+      clarifier: Orbital overlap, sigma and pi bonds, bond strength and directionality
+    - name: Molecular Orbital Theory
+      clarifier: LCAO approach, bonding and antibonding orbitals, bond order for homo- and heteronuclear molecules
+    - name: VSEPR Theory
+      clarifier: Valence Shell Electron Pair Repulsion theory for predicting molecular geometry
+    - name: Molecular Geometry and Shapes
+      clarifier: Linear, trigonal planar, tetrahedral, trigonal bipyramidal, octahedral structures
+    - name: Hybridization
+      clarifier: sp, sp2, sp3, sp3d, sp3d2 hybridization and molecular shapes
+  related:
+    - name: Lewis Structures
+      clarifier: Electron dot representations, formal charge, resonance structures
+    - name: Bond Parameters
+      clarifier: Bond length, bond energy, bond angle, bond order
+    - name: Molecular Polarity
+      clarifier: Dipole moment, electronegativity differences, polar vs nonpolar molecules
+    - name: Isoelectronic Species
+      clarifier: Species with same number of electrons and their bonding characteristics
+    - name: Bent's Rule
+      clarifier: Effects of electronegativity on hybridization and bond angles
+    - name: Walsh Diagrams
+      clarifier: Correlation diagrams for molecular geometry changes
+    - name: Three-Center Bonding
+      clarifier: Electron-deficient bonding in boranes and related compounds
+
+learning_path:
+  - id: 1
+    title: Foundations of Chemical Bonding
+    learning_objectives:
+      - Understand the nature of chemical bonds and forces holding atoms together
+      - Differentiate between ionic, covalent, and coordinate bonding
+      - Apply Lewis structures to represent molecular bonding
+      - Calculate formal charges and identify resonance structures
+    textbook_style_content:
+      - topic: Introduction to Chemical Bonding
+        sections:
+          - section_title: Overview of Chemical Bonds
+            section_type: overview
+          - section_title: Types of Chemical Bonds
+            section_type: core_theory
+          - section_title: Electronegativity and Bond Polarity
+            section_type: core_theory
+          - section_title: Lewis Structures and Electron Dot Formulas
+            section_type: related_concepts
+          - section_title: Formal Charge Calculations
+            section_type: related_concepts
+          - section_title: Resonance Theory and Resonance Structures
+            section_type: related_concepts
+    milestone: Master fundamental bonding concepts and Lewis structure representation
+    duration_days: 5
+    tags:
+      - chemical bonding
+      - lewis structures
+      - formal charge
+      - resonance
+
+  - id: 2
+    title: Valence Bond Theory and Orbital Overlap
+    learning_objectives:
+      - Explain bond formation through atomic orbital overlap
+      - Distinguish between sigma and pi bonds
+      - Understand directional properties of covalent bonds
+      - Apply VBT to homonuclear and heteronuclear diatomic molecules
+    textbook_style_content:
+      - topic: Valence Bond Theory
+        sections:
+          - section_title: Historical Development and Postulates of VBT
+            section_type: overview
+          - section_title: Atomic Orbital Overlap and Bond Formation
+            section_type: core_theory
+          - section_title: Sigma and Pi Bonds
+            section_type: core_theory
+          - section_title: Bond Strength and Overlap Extent
+            section_type: core_theory
+          - section_title: VBT Treatment of Homonuclear Molecules
+            section_type: core_theory
+          - section_title: VBT Treatment of Heteronuclear Molecules
+            section_type: core_theory
+          - section_title: Limitations of Simple VBT
+            section_type: related_concepts
+    milestone: Apply valence bond theory to explain bonding in simple molecules
+    duration_days: 6
+    tags:
+      - valence bond theory
+      - orbital overlap
+      - sigma bonds
+      - pi bonds
+
+  - id: 3
+    title: Hybridization and Molecular Architecture
+    learning_objectives:
+      - Understand the concept of atomic orbital hybridization
+      - Identify hybridization states from molecular geometry
+      - Predict hybridization schemes for various molecules
+      - Relate hybridization to molecular shapes and bond angles
+    textbook_style_content:
+      - topic: Hybridization of Atomic Orbitals
+        sections:
+          - section_title: Need for Hybridization Concept
+            section_type: overview
+          - section_title: sp Hybridization and Linear Geometry
+            section_type: core_theory
+          - section_title: sp2 Hybridization and Trigonal Planar Geometry
+            section_type: core_theory
+          - section_title: sp3 Hybridization and Tetrahedral Geometry
+            section_type: core_theory
+          - section_title: sp3d Hybridization and Trigonal Bipyramidal Geometry
+            section_type: core_theory
+          - section_title: sp3d2 Hybridization and Octahedral Geometry
+            section_type: core_theory
+          - section_title: sp3d3 Hybridization and Pentagonal Bipyramidal Geometry
+            section_type: core_theory
+          - section_title: Hybridization in Molecules with Lone Pairs
+            section_type: core_theory
+          - section_title: Bent's Rule and Hybridization Effects
+            section_type: related_concepts
+    milestone: Master hybridization concepts and predict molecular geometry from hybridization
+    duration_days: 7
+    tags:
+      - hybridization
+      - molecular geometry
+      - bond angles
+      - bents rule
+
+  - id: 4
+    title: Molecular Orbital Theory - Homonuclear Molecules
+    learning_objectives:
+      - Understand LCAO-MO approach to molecular bonding
+      - Construct molecular orbital diagrams for homonuclear diatomic molecules
+      - Calculate bond order and predict magnetic properties
+      - Explain stability trends in homonuclear molecules
+    textbook_style_content:
+      - topic: Molecular Orbital Theory for Homonuclear Molecules
+        sections:
+          - section_title: Introduction to Molecular Orbital Theory
+            section_type: overview
+          - section_title: Linear Combination of Atomic Orbitals
+            section_type: core_theory
+          - section_title: Bonding and Antibonding Molecular Orbitals
+            section_type: core_theory
+          - section_title: MO Energy Level Diagrams
+            section_type: core_theory
+          - section_title: Bond Order and Molecular Stability
+            section_type: core_theory
+          - section_title: Homonuclear Diatomics of First Period Elements
+            section_type: core_theory
+          - section_title: Homonuclear Diatomics of Second Period Elements
+            section_type: core_theory
+          - section_title: Sigma-Pi Crossover in Second Period
+            section_type: core_theory
+          - section_title: Magnetic Properties from MO Theory
+            section_type: related_concepts
+          - section_title: Isoelectronic Species and Bonding
+            section_type: related_concepts
+    milestone: Apply MO theory to homonuclear diatomic molecules and predict their properties
+    duration_days: 8
+    tags:
+      - molecular orbital theory
+      - homonuclear molecules
+      - bond order
+      - magnetic properties
+
+  - id: 5
+    title: Molecular Orbital Theory - Heteronuclear Molecules
+    learning_objectives:
+      - Construct MO diagrams for heteronuclear diatomic molecules
+      - Account for electronegativity differences in MO theory
+      - Predict bonding characteristics in polar molecules
+      - Compare homonuclear and heteronuclear bonding
+    textbook_style_content:
+      - topic: Molecular Orbital Theory for Heteronuclear Molecules
+        sections:
+          - section_title: Modifications for Heteronuclear Systems
+            section_type: overview
+          - section_title: Effect of Electronegativity Differences
+            section_type: core_theory
+          - section_title: MO Diagrams for Heteronuclear Diatomics
+            section_type: core_theory
+          - section_title: CO Molecule - A Case Study
+            section_type: core_theory
+          - section_title: NO Molecule and Related Species
+            section_type: core_theory
+          - section_title: HF and Other Hydrides
+            section_type: core_theory
+          - section_title: Bond Polarity and Ionic Character
+            section_type: related_concepts
+          - section_title: Comparison with VBT Predictions
+            section_type: related_concepts
+    milestone: Master MO theory applications to heteronuclear molecules
+    duration_days: 7
+    tags:
+      - molecular orbital theory
+      - heteronuclear molecules
+      - electronegativity
+      - bond polarity
+
+  - id: 6
+    title: VSEPR Theory - Principles and Basic Geometries
+    learning_objectives:
+      - State the postulates of VSEPR theory
+      - Predict molecular shapes based on electron pair repulsions
+      - Distinguish between electron geometry and molecular geometry
+      - Apply VSEPR to molecules without lone pairs
+    textbook_style_content:
+      - topic: Valence Shell Electron Pair Repulsion Theory
+        sections:
+          - section_title: Historical Background and Postulates
+            section_type: overview
+          - section_title: Electron Pair Domains and Repulsions
+            section_type: core_theory
+          - section_title: Electron Geometry vs Molecular Geometry
+            section_type: core_theory
+          - section_title: Linear Geometry (AX2)
+            section_type: core_theory
+          - section_title: Trigonal Planar Geometry (AX3)
+            section_type: core_theory
+          - section_title: Tetrahedral Geometry (AX4)
+            section_type: core_theory
+          - section_title: Trigonal Bipyramidal Geometry (AX5)
+            section_type: core_theory
+          - section_title: Octahedral Geometry (AX6)
+            section_type: core_theory
+          - section_title: Pentagonal Bipyramidal Geometry (AX7)
+            section_type: core_theory
+    milestone: Predict basic molecular shapes using VSEPR theory
+    duration_days: 6
+    tags:
+      - vsepr theory
+      - molecular shapes
+      - electron geometry
+      - molecular geometry
+
+  - id: 7
+    title: VSEPR Theory - Molecules with Lone Pairs
+    learning_objectives:
+      - Apply VSEPR theory to molecules with lone pairs
+      - Understand relative repulsions between different electron pair types
+      - Predict bond angle deviations from ideal geometry
+      - Master the complete range of VSEPR molecular shapes
+    textbook_style_content:
+      - topic: VSEPR Theory with Lone Pairs
+        sections:
+          - section_title: Lone Pair Effects on Molecular Geometry
+            section_type: overview
+          - section_title: Relative Repulsion Strengths
+            section_type: core_theory
+          - section_title: Bent Geometry (AX2E and AX2E2)
+            section_type: core_theory
+          - section_title: Trigonal Pyramidal Geometry (AX3E)
+            section_type: core_theory
+          - section_title: T-shaped Geometry (AX3E2)
+            section_type: core_theory
+          - section_title: See-saw Geometry (AX4E)
+            section_type: core_theory
+          - section_title: Square Pyramidal Geometry (AX5E)
+            section_type: core_theory
+          - section_title: Square Planar Geometry (AX4E2)
+            section_type: core_theory
+          - section_title: Linear Geometry with Lone Pairs (AX2E3)
+            section_type: core_theory
+          - section_title: Bond Angle Variations and Predictions
+            section_type: related_concepts
+    milestone: Predict molecular shapes for all VSEPR categories including lone pairs
+    duration_days: 7
+    tags:
+      - vsepr theory
+      - lone pairs
+      - bond angles
+      - molecular shapes
+
+  - id: 8
+    title: Advanced VSEPR Applications and Special Cases
+    learning_objectives:
+      - Apply VSEPR to molecules with multiple bonds
+      - Handle expanded octets and hypervalent molecules
+      - Resolve ambiguous or complex VSEPR cases
+      - Integrate VSEPR with hybridization concepts
+    textbook_style_content:
+      - topic: Advanced VSEPR Theory
+        sections:
+          - section_title: VSEPR for Multiple Bonds
+            section_type: overview
+          - section_title: Treatment of Double and Triple Bonds
+            section_type: core_theory
+          - section_title: Resonance Structures and VSEPR
+            section_type: core_theory
+          - section_title: Molecules with Expanded Octets
+            section_type: core_theory
+          - section_title: d-Orbital Participation
+            section_type: core_theory
+          - section_title: Exceptions and Limitations of VSEPR
+            section_type: core_theory
+          - section_title: VSEPR and Hybridization Correlation
+            section_type: related_concepts
+          - section_title: Computational Validation of VSEPR Predictions
+            section_type: related_concepts
+    milestone: Handle complex VSEPR applications and understand theory limitations
+    duration_days: 6
+    tags:
+      - vsepr theory
+      - multiple bonds
+      - expanded octets
+      - exceptions
+
+  - id: 9
+    title: Molecular Geometry and Bond Parameters
+    learning_objectives:
+      - Define and measure bond parameters
+      - Understand factors affecting bond lengths and angles
+      - Relate molecular geometry to bond strength
+      - Apply bond parameter trends across periodic table
+    textbook_style_content:
+      - topic: Bond Parameters and Molecular Geometry
+        sections:
+          - section_title: Introduction to Bond Parameters
+            section_type: overview
+          - section_title: Bond Length and Factors Affecting It
+            section_type: core_theory
+          - section_title: Bond Energy and Dissociation Energy
+            section_type: core_theory
+          - section_title: Bond Angle and Molecular Geometry
+            section_type: core_theory
+          - section_title: Bond Order and Bond Properties
+            section_type: core_theory
+          - section_title: Periodic Trends in Bond Parameters
+            section_type: related_concepts
+          - section_title: Experimental Determination of Bond Parameters
+            section_type: related_concepts
+    milestone: Understand and predict bond parameters from molecular structure
+    duration_days: 5
+    tags:
+      - bond parameters
+      - bond length
+      - bond energy
+      - bond angle
+
+  - id: 10
+    title: Molecular Polarity and Dipole Moments
+    learning_objectives:
+      - Understand the concept of molecular polarity
+      - Calculate dipole moments from bond dipoles
+      - Predict molecular polarity from geometry
+      - Relate polarity to physical properties
+    textbook_style_content:
+      - topic: Molecular Polarity and Dipole Moments
+        sections:
+          - section_title: Introduction to Molecular Polarity
+            section_type: overview
+          - section_title: Bond Polarity and Electronegativity
+            section_type: core_theory
+          - section_title: Dipole Moment and Vector Addition
+            section_type: core_theory
+          - section_title: Molecular Geometry and Net Polarity
+            section_type: core_theory
+          - section_title: Polar vs Nonpolar Molecules
+            section_type: core_theory
+          - section_title: Symmetry and Molecular Polarity
+            section_type: core_theory
+          - section_title: Measurement of Dipole Moments
+            section_type: related_concepts
+          - section_title: Polarity and Physical Properties
+            section_type: related_concepts
+    milestone: Predict molecular polarity and dipole moments from structure
+    duration_days: 5
+    tags:
+      - molecular polarity
+      - dipole moment
+      - electronegativity
+      - symmetry
+
+  - id: 11
+    title: Special Bonding Cases and Electron-Deficient Molecules
+    learning_objectives:
+      - Understand three-center two-electron bonding
+      - Explain bonding in boranes and related compounds
+      - Apply bonding theories to electron-deficient systems
+      - Recognize multicenter bonding in inorganic molecules
+    textbook_style_content:
+      - topic: Special Bonding Situations
+        sections:
+          - section_title: Introduction to Electron-Deficient Bonding
+            section_type: overview
+          - section_title: Three-Center Two-Electron Bonds
+            section_type: core_theory
+          - section_title: Bonding in Diborane
+            section_type: core_theory
+          - section_title: Higher Boranes and Wade's Rules
+            section_type: core_theory
+          - section_title: Multicenter Bonding in Other Systems
+            section_type: core_theory
+          - section_title: Comparison with Classical Bonding
+            section_type: related_concepts
+    milestone: Understand non-classical bonding in electron-deficient molecules
+    duration_days: 5
+    tags:
+      - three-center bonding
+      - boranes
+      - electron-deficient
+      - multicenter bonding
+
+  - id: 12
+    title: Walsh Diagrams and Geometry Changes
+    learning_objectives:
+      - Understand the construction and interpretation of Walsh diagrams
+      - Predict geometry changes based on electron count
+      - Apply Walsh diagrams to triatomic and polyatomic molecules
+      - Relate MO theory to molecular geometry predictions
+    textbook_style_content:
+      - topic: Walsh Diagrams
+        sections:
+          - section_title: Introduction to Walsh Diagrams
+            section_type: overview
+          - section_title: Construction of Walsh Diagrams
+            section_type: core_theory
+          - section_title: Walsh Diagrams for AH2 Molecules
+            section_type: core_theory
+          - section_title: Predicting Bent vs Linear Geometry
+            section_type: core_theory
+          - section_title: Walsh Diagrams for Other Molecular Types
+            section_type: core_theory
+          - section_title: Correlation with VSEPR Predictions
+            section_type: related_concepts
+    milestone: Use Walsh diagrams to predict and explain molecular geometry
+    duration_days: 5
+    tags:
+      - walsh diagrams
+      - molecular geometry
+      - mo theory
+      - geometry changes
+
+  - id: 13
+    title: Integration and Problem-Solving Strategies
+    learning_objectives:
+      - Integrate VBT, MOT, and VSEPR approaches
+      - Choose appropriate theory for different problems
+      - Solve complex molecular structure problems
+      - Apply theories to predict and explain experimental observations
+    textbook_style_content:
+      - topic: Integrated Approach to Molecular Structure
+        sections:
+          - section_title: Comparing Bonding Theories
+            section_type: overview
+          - section_title: Strengths and Limitations of Each Theory
+            section_type: core_theory
+          - section_title: When to Apply VBT vs MOT
+            section_type: core_theory
+          - section_title: Complementary Use of VSEPR and Hybridization
+            section_type: core_theory
+          - section_title: Problem-Solving Frameworks
+            section_type: core_theory
+          - section_title: Case Studies of Complex Molecules
+            section_type: related_concepts
+          - section_title: Predicting Properties from Structure
+            section_type: related_concepts
+    milestone: Master integrated problem-solving using multiple bonding theories
+    duration_days: 6
+    tags:
+      - integration
+      - problem solving
+      - theory comparison
+      - applications
+
+  - id: 14
+    title: CSIR Exam-Focused Practice and Applications
+    learning_objectives:
+      - Solve CSIR-level problems on molecular structure and bonding
+      - Apply time-efficient strategies for exam questions
+      - Master quick prediction methods for molecular properties
+      - Review common pitfalls and difficult concepts
+    textbook_style_content:
+      - topic: CSIR Exam Preparation
+        sections:
+          - section_title: Overview of CSIR Question Patterns
+            section_type: overview
+          - section_title: Quick Methods for Structure Prediction
+            section_type: core_theory
+          - section_title: Common Question Types and Solving Strategies
+            section_type: core_theory
+          - section_title: Worked Examples from Previous CSIR Papers
+            section_type: core_theory
+          - section_title: Tricky Cases and Common Mistakes
+            section_type: related_concepts
+          - section_title: Time Management Strategies
+            section_type: related_concepts
+          - section_title: Practice Problem Sets
+            section_type: related_concepts
+    milestone: Achieve exam readiness for CSIR Chemical Sciences
+    duration_days: 7
+    tags:
+      - csir exam
+      - practice problems
+      - exam strategies
+      - review

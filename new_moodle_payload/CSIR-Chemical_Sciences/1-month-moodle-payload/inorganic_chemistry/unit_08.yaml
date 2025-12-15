@@ -1,0 +1,360 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Cages and metal clusters
+
+concepts:
+  core:
+    - name: Borane cages
+      clarifier: Three-dimensional polyhedral structures of boron hydrides including closo, nido, and arachno geometries
+    - name: Wade-Mingos rules
+      clarifier: Electron counting rules for predicting cluster structures and geometries
+    - name: Metal carbonyl clusters
+      clarifier: Polynuclear metal complexes with bridging and terminal carbonyl ligands
+    - name: Metal-metal bonding
+      clarifier: Direct bonding between metal atoms in cluster compounds and bond order determination
+    - name: Carboranes
+      clarifier: Boron-carbon cage compounds with polyhedral structures
+    - name: Zintl ions
+      clarifier: Anionic main group element clusters with cage structures
+  related:
+    - name: Polyhedral skeletal electron pair theory
+      clarifier: Theoretical framework for understanding bonding in cage compounds
+    - name: Cluster valence electrons
+      clarifier: Methods for counting and predicting cluster electron requirements
+    - name: Isolobal analogy
+      clarifier: Relationship between metal fragments and main group elements in cluster formation
+    - name: Interstitial atoms
+      clarifier: Atoms encapsulated within cluster cages
+    - name: Condensed clusters
+      clarifier: Fused polyhedral clusters sharing vertices, edges, or faces
+    - name: High nuclearity clusters
+      clarifier: Large metal clusters with applications in catalysis and materials science
+
+learning_path:
+  - id: 1
+    title: Introduction to Cage Compounds and Cluster Chemistry
+    learning_objectives:
+      - Define cage compounds and metal clusters with characteristic examples
+      - Distinguish between different types of cluster geometries
+      - Understand the historical development and significance of cluster chemistry
+      - Recognize the nomenclature and classification systems for clusters
+    textbook_style_content:
+      - topic: Fundamentals of Cage and Cluster Chemistry
+        sections:
+          - section_title: What are Cage Compounds and Clusters
+            section_type: overview
+          - section_title: Classification of Clusters by Geometry and Nuclearity
+            section_type: core_theory
+          - section_title: Historical Development from Boranes to Metal Clusters
+            section_type: related_concepts
+          - section_title: IUPAC Nomenclature for Cluster Compounds
+            section_type: core_theory
+    milestone: Mastery of fundamental definitions and classification systems
+    duration_days: 3
+    tags:
+      - fundamentals
+      - nomenclature
+      - cluster_geometry
+
+  - id: 2
+    title: Borane Structures and Bonding
+    learning_objectives:
+      - Describe the structures of simple and complex boranes
+      - Explain three-center two-electron bonding in electron-deficient compounds
+      - Classify boranes as closo, nido, arachno, and hypho structures
+      - Apply Lipscomb's topological approach to borane structures
+    textbook_style_content:
+      - topic: Boron Hydrides and Cage Structures
+        sections:
+          - section_title: Diborane and Simple Boranes
+            section_type: core_theory
+          - section_title: Three-Center Two-Electron Bonding
+            section_type: core_theory
+          - section_title: Polyhedral Boranes - Closo, Nido, Arachno, and Hypho
+            section_type: core_theory
+          - section_title: Styx Rules and Lipscomb's Topological Methods
+            section_type: related_concepts
+          - section_title: Synthesis and Reactivity of Boranes
+            section_type: related_concepts
+    milestone: Understanding of borane bonding principles and structural classification
+    duration_days: 5
+    tags:
+      - boranes
+      - three_center_bonding
+      - electron_deficient
+
+  - id: 3
+    title: Wade-Mingos Rules and Electron Counting
+    learning_objectives:
+      - Apply Wade's rules to predict cluster geometries
+      - Count skeletal electron pairs for various cluster types
+      - Extend Wade-Mingos rules to heteroboranes and metalloclusters
+      - Correlate electron count with deltahedron geometry
+    textbook_style_content:
+      - topic: Polyhedral Skeletal Electron Pair Theory
+        sections:
+          - section_title: Wade's Rules for Borane Clusters
+            section_type: core_theory
+          - section_title: Skeletal Electron Pair Counting
+            section_type: core_theory
+          - section_title: Deltahedra and Cluster Geometries
+            section_type: core_theory
+          - section_title: Extension to Mingos' Rules for Transition Metal Clusters
+            section_type: core_theory
+          - section_title: Exceptions and Limitations of Wade-Mingos Rules
+            section_type: related_concepts
+          - section_title: Worked Examples and Problem-Solving Strategies
+            section_type: related_concepts
+    milestone: Proficiency in predicting cluster structures using electron counting
+    duration_days: 6
+    tags:
+      - wade_rules
+      - electron_counting
+      - PSEPT
+      - structure_prediction
+
+  - id: 4
+    title: Carboranes and Heteroboranes
+    learning_objectives:
+      - Describe the structures of C2B10H12 isomers and other carboranes
+      - Explain the synthesis routes to carboranes
+      - Understand cage rearrangements and isomerization reactions
+      - Apply electron counting to predict carborane structures
+    textbook_style_content:
+      - topic: Boron-Carbon Cage Compounds
+        sections:
+          - section_title: Structure of ortho, meta, and para-Carboranes
+            section_type: core_theory
+          - section_title: Synthesis from Boranes and Alkynes
+            section_type: core_theory
+          - section_title: Deboronation and Cage Degradation Reactions
+            section_type: related_concepts
+          - section_title: Metallacarboranes and Sandwich Complexes
+            section_type: related_concepts
+          - section_title: Applications of Carboranes in Materials and Medicine
+            section_type: related_concepts
+    milestone: Comprehensive knowledge of carborane chemistry
+    duration_days: 4
+    tags:
+      - carboranes
+      - heteroboranes
+      - cage_rearrangements
+
+  - id: 5
+    title: Metal Carbonyl Clusters
+    learning_objectives:
+      - Describe structures of homonuclear and heteronuclear metal carbonyl clusters
+      - Explain metal-metal bonding and bond order calculations
+      - Apply the 18-electron rule and effective atomic number rule to clusters
+      - Understand the role of bridging carbonyl ligands
+    textbook_style_content:
+      - topic: Polynuclear Metal Carbonyls
+        sections:
+          - section_title: Dinuclear and Trinuclear Metal Carbonyls
+            section_type: core_theory
+          - section_title: Metal-Metal Bonding in Carbonyl Clusters
+            section_type: core_theory
+          - section_title: Terminal, Bridging, and Interstitial Carbonyl Ligands
+            section_type: core_theory
+          - section_title: High Nuclearity Clusters - Os, Rh, and Au Clusters
+            section_type: related_concepts
+          - section_title: Synthesis via Thermolysis and Reductive Carbonylation
+            section_type: related_concepts
+          - section_title: Fluxionality and Dynamic Behavior in Clusters
+            section_type: related_concepts
+    milestone: Understanding of metal carbonyl cluster structures and bonding
+    duration_days: 5
+    tags:
+      - metal_carbonyls
+      - metal_metal_bonding
+      - cluster_synthesis
+
+  - id: 6
+    title: Electron Counting in Metal Clusters
+    learning_objectives:
+      - Count cluster valence electrons using the CVE method
+      - Apply the 18n rule and polyhedral skeletal electron pair theory
+      - Understand isolobal analogy between metal fragments and main group elements
+      - Predict structures of mixed metal-main group clusters
+    textbook_style_content:
+      - topic: Electron Counting Methods for Metal Clusters
+        sections:
+          - section_title: Cluster Valence Electron (CVE) Counting
+            section_type: core_theory
+          - section_title: The 18n Rule for Metal Clusters
+            section_type: core_theory
+          - section_title: Isolobal Analogy and Fragment Molecular Orbitals
+            section_type: core_theory
+          - section_title: Application to Heterometallic Clusters
+            section_type: related_concepts
+          - section_title: Condensed and Fused Cluster Systems
+            section_type: related_concepts
+    milestone: Mastery of electron counting for various cluster types
+    duration_days: 5
+    tags:
+      - electron_counting
+      - CVE
+      - isolobal_principle
+      - 18n_rule
+
+  - id: 7
+    title: Zintl Ions and Main Group Clusters
+    learning_objectives:
+      - Describe structures of Zintl ions and their relationship to borane cages
+      - Explain the synthesis of naked clusters of group 14 and 15 elements
+      - Apply Wade's rules to main group clusters
+      - Understand the role of oxidation state and charge in cluster stability
+    textbook_style_content:
+      - topic: Anionic Main Group Element Clusters
+        sections:
+          - section_title: Zintl Phases and Zintl Ions
+            section_type: overview
+          - section_title: Structures of Pn clusters (Sn, Pb, Bi, Sb)
+            section_type: core_theory
+          - section_title: Application of Wade's Rules to Zintl Ions
+            section_type: core_theory
+          - section_title: Synthesis in Solution and Solid State
+            section_type: related_concepts
+          - section_title: Functionalization and Ligand Addition Reactions
+            section_type: related_concepts
+    milestone: Understanding of main group cluster chemistry
+    duration_days: 4
+    tags:
+      - zintl_ions
+      - main_group_clusters
+      - naked_clusters
+
+  - id: 8
+    title: Mixed Metal-Main Group Clusters
+    learning_objectives:
+      - Describe structures of clusters containing both metal and main group elements
+      - Explain bonding in metalloboranes and metallaboranes
+      - Apply combined electron counting rules
+      - Understand the synthesis and reactivity patterns
+    textbook_style_content:
+      - topic: Hybrid Cluster Systems
+        sections:
+          - section_title: Metalloboranes and Metallaboranes
+            section_type: core_theory
+          - section_title: Metal-Zintl Ion Complexes
+            section_type: core_theory
+          - section_title: Electron Counting in Mixed Systems
+            section_type: core_theory
+          - section_title: Ligand Substitution and Cage Expansion Reactions
+            section_type: related_concepts
+    milestone: Integration of metal and main group cluster concepts
+    duration_days: 4
+    tags:
+      - mixed_clusters
+      - metalloboranes
+      - hybrid_systems
+
+  - id: 9
+    title: High Nuclearity and Supramolecular Clusters
+    learning_objectives:
+      - Describe giant metal clusters and their structures
+      - Understand interstitial atoms in cluster cavities
+      - Explain the formation of nested and core-shell clusters
+      - Recognize the transition to nanoparticles
+    textbook_style_content:
+      - topic: Large Cluster Assemblies
+        sections:
+          - section_title: High Nuclearity Metal Clusters (>50 metal atoms)
+            section_type: core_theory
+          - section_title: Interstitial Atoms - C, N, P, H in Cluster Cavities
+            section_type: core_theory
+          - section_title: Gold Clusters and Thiolate-Protected Systems
+            section_type: related_concepts
+          - section_title: Transition from Molecular Clusters to Nanoparticles
+            section_type: related_concepts
+          - section_title: Characterization by X-ray Crystallography and Mass Spectrometry
+            section_type: related_concepts
+    milestone: Knowledge of advanced cluster architectures
+    duration_days: 4
+    tags:
+      - high_nuclearity
+      - interstitial_atoms
+      - nanoparticles
+
+  - id: 10
+    title: Spectroscopy and Characterization of Clusters
+    learning_objectives:
+      - Interpret IR spectra of carbonyl clusters and bridging modes
+      - Use NMR spectroscopy for borane and carborane structure determination
+      - Understand mass spectrometry fragmentation patterns
+      - Apply X-ray crystallography for structure determination
+    textbook_style_content:
+      - topic: Analytical Methods for Cluster Compounds
+        sections:
+          - section_title: Infrared Spectroscopy of Carbonyl Clusters
+            section_type: core_theory
+          - section_title: NMR Spectroscopy of Boranes and Carboranes
+            section_type: core_theory
+          - section_title: Mass Spectrometry and Fragmentation Patterns
+            section_type: related_concepts
+          - section_title: X-ray Crystallography and Structure Solution
+            section_type: related_concepts
+          - section_title: Computational Methods for Cluster Structure Prediction
+            section_type: related_concepts
+    milestone: Proficiency in characterization techniques
+    duration_days: 4
+    tags:
+      - spectroscopy
+      - characterization
+      - analytical_methods
+
+  - id: 11
+    title: Reactivity and Catalytic Applications
+    learning_objectives:
+      - Describe ligand substitution reactions in clusters
+      - Explain cluster fragmentation and aggregation processes
+      - Understand catalytic applications of metal clusters
+      - Recognize the role of clusters in Fischer-Tropsch synthesis
+    textbook_style_content:
+      - topic: Cluster Reactions and Applications
+        sections:
+          - section_title: Ligand Exchange and Substitution Mechanisms
+            section_type: core_theory
+          - section_title: Oxidative Addition and Reductive Elimination at Clusters
+            section_type: core_theory
+          - section_title: Cluster Fragmentation and Build-up Reactions
+            section_type: related_concepts
+          - section_title: Homogeneous Catalysis by Metal Clusters
+            section_type: related_concepts
+          - section_title: Fischer-Tropsch and Industrial Applications
+            section_type: related_concepts
+    milestone: Understanding of cluster reactivity and practical uses
+    duration_days: 4
+    tags:
+      - reactivity
+      - catalysis
+      - applications
+
+  - id: 12
+    title: Advanced Topics and Computational Approaches
+    learning_objectives:
+      - Apply DFT calculations to predict cluster structures
+      - Understand tensor surface harmonic theory
+      - Recognize current research frontiers in cluster science
+      - Integrate knowledge for solving complex problems
+    textbook_style_content:
+      - topic: Modern Developments in Cluster Chemistry
+        sections:
+          - section_title: Density Functional Theory for Cluster Systems
+            section_type: core_theory
+          - section_title: Tensor Surface Harmonic Theory
+            section_type: related_concepts
+          - section_title: Endohedral Clusters and Fullerene Analogues
+            section_type: related_concepts
+          - section_title: Clusters in Materials Science and Nanotechnology
+            section_type: related_concepts
+          - section_title: Current Research Directions and Future Perspectives
+            section_type: overview
+    milestone: Comprehensive mastery of cage and cluster chemistry
+    duration_days: 5
+    tags:
+      - computational_chemistry
+      - DFT
+      - advanced_topics
+      - research_frontiers

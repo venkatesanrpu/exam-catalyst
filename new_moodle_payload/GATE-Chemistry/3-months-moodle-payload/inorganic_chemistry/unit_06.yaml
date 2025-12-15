@@ -1,0 +1,435 @@
+metadata:
+  subject: "Inorganic Chemistry"
+  target: "GATE Chemistry Examination"
+  syllabus_line: "Lanthanides and Actinides: Recovery. Periodic properties, spectra and magnetic properties."
+
+concepts:
+  core:
+    - name: "Lanthanide series chemistry"
+      clarifier: "Electronic configuration, oxidation states and chemical behaviour of elements La–Lu."
+    - name: "Actinide series chemistry"
+      clarifier: "Electronic configuration, variable oxidation states and chemical behaviour of elements Ac–Lr."
+    - name: "Recovery and extraction of lanthanides"
+      clarifier: "Industrial methods for isolation and purification of lanthanide elements from ores."
+    - name: "Recovery and extraction of actinides"
+      clarifier: "Industrial and laboratory methods for separation and purification of actinide elements."
+    - name: "Periodic properties of lanthanides"
+      clarifier: "Lanthanide contraction, trends in atomic and ionic radii, and their consequences."
+    - name: "Periodic properties of actinides"
+      clarifier: "Actinide contraction, trends in atomic and ionic radii, and anomalous properties."
+    - name: "Oxidation states of lanthanides"
+      clarifier: "Common oxidation states, stability of +2, +3 and +4 states, and their variations."
+    - name: "Oxidation states of actinides"
+      clarifier: "Variable oxidation states from +2 to +7, stabilisation factors and electronic origins."
+    - name: "Electronic spectra of lanthanide complexes"
+      clarifier: "f–f transitions, weak intensity, ligand field effects and spectroscopic features."
+    - name: "Electronic spectra of actinide complexes"
+      clarifier: "f–f transitions, charge-transfer bands and effects of ligand environment."
+    - name: "Magnetic properties of lanthanides"
+      clarifier: "Spin–orbit coupling, Hund's rule, magnetic moments and their calculation."
+    - name: "Magnetic properties of actinides"
+      clarifier: "Spin–orbit effects, anomalous magnetism and role of 5f electrons."
+    - name: "Lanthanide contraction and its consequences"
+      clarifier: "Decrease in size across the lanthanide series and effects on chemistry and properties."
+    - name: "Actinide contraction"
+      clarifier: "Variation in ionic radius across actinide series and implications for coordination chemistry."
+    - name: "Coordination chemistry of lanthanides"
+      clarifier: "Coordination numbers, geometry and ligand preferences of lanthanide ions."
+    - name: "Coordination chemistry of actinides"
+      clarifier: "Coordination environments, chelation strategies and complex stability."
+  related:
+    - name: "f-block elements and position in periodic table"
+      clarifier: "Classification and historical context of lanthanides and actinides."
+    - name: "Shielding and effective nuclear charge in f-block"
+      clarifier: "Poor shielding of 4f and 5f electrons and its effect on chemistry."
+    - name: "Russell–Saunders coupling for f-electron systems"
+      clarifier: "Term symbol derivation and ground-state assignments for fⁿ configurations."
+    - name: "Spin–orbit coupling strength in heavy elements"
+      clarifier: "Relative importance compared to lanthanides and effects on properties."
+    - name: "Laporte selection rule and forbidden transitions"
+      clarifier: "Intensity patterns in lanthanide and actinide spectra."
+    - name: "Orgel diagrams for lanthanide complexes"
+      clarifier: "Energy level diagrams in crystal field for lanthanide ions."
+    - name: "Nephelauxetic effect in lanthanide spectra"
+      clarifier: "Covalency effects and parameter reduction in lanthanide complexes."
+    - name: "Ligand field theory for f electrons"
+      clarifier: "Crystal field and molecular orbital approaches to lanthanide and actinide bonding."
+    - name: "Radioactivity and nuclear properties of actinides"
+      clarifier: "Alpha, beta decay and half-lives relevant to actinide chemistry."
+    - name: "Environmental and biological effects of lanthanides and actinides"
+      clarifier: "Toxicity, bioaccumulation and regulatory aspects."
+    - name: "Applications of lanthanides in materials and catalysis"
+      clarifier: "Use in phosphors, catalysts, magnets and optical materials."
+    - name: "Applications of actinides in energy and medicine"
+      clarifier: "Nuclear fuel, radiotherapy and diagnostic uses."
+
+learning_path:
+  - id: 1
+    topic: "Introduction to lanthanides and actinides: Position and basic properties"
+    learning_objectives:
+      - "Position lanthanides and actinides in the periodic table and justify their classification as f-block elements."
+      - "State the general electronic configuration patterns for lanthanide and actinide atoms."
+      - "List common oxidation states and explain why +3 is dominant for lanthanides and variable for actinides."
+      - "Recognise shielding effects of 4f and 5f electrons and their consequences for reactivity."
+    textbook_style_content:
+      - lesson: "Classification and position of f-block elements"
+        sections:
+          - section_heading: "Historical discovery and naming of lanthanides and actinides"
+            section_type: overview
+          - section_heading: "Position in periodic table and relationship to s, p and d blocks"
+            section_type: core_theory
+          - section_heading: "Why lanthanides and actinides are separate in periodic table representations"
+            section_type: related concepts
+      - lesson: "Electronic configurations of lanthanides and actinides"
+        sections:
+          - section_heading: "General [Xe]4f^n and [Rn]5f^n configurations"
+            section_type: core_theory
+          - section_heading: "Exceptions and irregularities in f-electron filling"
+            section_type: core_theory
+          - section_heading: "Comparison with d-block configurations"
+            section_type: related concepts
+      - lesson: "Oxidation states and basic chemistry"
+        sections:
+          - section_heading: "Dominant +3 oxidation state for lanthanides and its stability"
+            section_type: core_theory
+          - section_heading: "Variable oxidation states in actinides: +2 to +7"
+            section_type: core_theory
+          - section_heading: "Cerium +4, europium +2 and exceptional stabilities"
+            section_type: related concepts
+          - section_heading: "Half-filled and filled f orbitals and their relative stability"
+            section_type: core_theory
+    milestone: "Able to recognise lanthanides and actinides, write their configurations and predict dominant oxidation states."
+    duration_days: 3
+    tags:
+      - "lanthanides"
+      - "actinides"
+      - "f-block"
+      - "oxidation_states"
+      - "gate_inorganic"
+
+  - id: 2
+    topic: "Periodic properties: Lanthanide and actinide contraction"
+    learning_objectives:
+      - "Explain the lanthanide contraction and its physical basis."
+      - "Describe trends in atomic and ionic radii across the lanthanide series."
+      - "Compare lanthanide and actinide contractions in magnitude and consequences."
+      - "Apply knowledge of contraction to predict and explain chemical and physical trends."
+    textbook_style_content:
+      - lesson: "Lanthanide contraction"
+        sections:
+          - section_heading: "Definition and cause: poor shielding of 4f electrons"
+            section_type: overview
+          - section_heading: "Trends in atomic radius La to Lu and anomalies"
+            section_type: core_theory
+          - section_heading: "Trends in ionic radius for Ln³⁺ across the series"
+            section_type: core_theory
+          - section_heading: "Quantitative extent of contraction compared to transition series"
+            section_type: related concepts
+      - lesson: "Consequences of lanthanide contraction"
+        sections:
+          - section_heading: "Effect on coordination chemistry and coordination numbers"
+            section_type: core_theory
+          - section_heading: "Similarity of later lanthanides to early lanthanides"
+            section_type: core_theory
+          - section_heading: "Impact on solubility and complex stability"
+            section_type: related concepts
+      - lesson: "Actinide contraction"
+        sections:
+          - section_heading: "Definition and comparison with lanthanide contraction"
+            section_type: core_theory
+          - section_heading: "Trends in ionic radii across actinide series"
+            section_type: core_theory
+          - section_heading: "Anomalies and relativistic effects in actinide chemistry"
+            section_type: related concepts
+    milestone: "Able to explain lanthanide and actinide contractions and use them to predict chemical trends."
+    duration_days: 3
+    tags:
+      - "lanthanide_contraction"
+      - "periodic_properties"
+      - "actinide_contraction"
+      - "gate_inorganic"
+
+  - id: 3
+    topic: "Recovery and extraction of lanthanides"
+    learning_objectives:
+      - "Describe common ores containing lanthanides and their mineral forms."
+      - "Outline industrial extraction methods from ore concentrates."
+      - "Explain separation techniques used to isolate individual lanthanides."
+      - "Discuss purification and production of high-purity lanthanide salts."
+    textbook_style_content:
+      - lesson: "Lanthanide ores and raw materials"
+        sections:
+          - section_heading: "Common ores: monazite, bastnasite and their compositions"
+            section_type: overview
+          - section_heading: "Mineral processing and initial concentration steps"
+            section_type: core_theory
+      - lesson: "Extraction from ore concentrates"
+        sections:
+          - section_heading: "Acid leaching of monazite and bastnasite"
+            section_type: core_theory
+          - section_heading: "Alkaline leaching methods for selected ores"
+            section_type: related concepts
+          - section_heading: "Precipitation and removal of impurities"
+            section_type: core_theory
+      - lesson: "Separation of individual lanthanides"
+        sections:
+          - section_heading: "Fractional crystallisation of lanthanide double salts"
+            section_type: core_theory
+          - section_heading: "Solvent extraction and liquid–liquid chromatography"
+            section_type: core_theory
+          - section_heading: "Ion-exchange chromatography for lanthanide separation"
+            section_type: core_theory
+          - section_heading: "Modern high-efficiency separation technologies"
+            section_type: related concepts
+      - lesson: "Purification and product forms"
+        sections:
+          - section_heading: "Conversion to high-purity oxides and chlorides"
+            section_type: core_theory
+          - section_heading: "Metallurgical reduction to metal form"
+            section_type: related concepts
+    milestone: "Understands lanthanide ore processing from mining to isolation of individual lanthanides at scale."
+    duration_days: 4
+    tags:
+      - "lanthanide_recovery"
+      - "extraction"
+      - "ore_processing"
+      - "gate_inorganic"
+
+  - id: 4
+    topic: "Recovery and extraction of actinides"
+    learning_objectives:
+      - "Describe occurrence and sources of actinide elements."
+      - "Outline industrial separation of uranium and thorium from ores."
+      - "Explain laboratory and industrial methods for isolating transuranium elements."
+      - "Discuss radioactive hazards and safety in actinide chemistry."
+    textbook_style_content:
+      - lesson: "Actinide ores and sources"
+        sections:
+          - section_heading: "Natural occurrence of uranium and thorium in minerals"
+            section_type: overview
+          - section_heading: "Pitchblende, uraninite and thorite as primary sources"
+            section_type: core_theory
+          - section_heading: "Transuranium elements: neutron-irradiated uranium and reactor products"
+            section_type: related concepts
+      - lesson: "Uranium and thorium extraction from ores"
+        sections:
+          - section_heading: "Acid and alkaline leaching of uranium ores"
+            section_type: core_theory
+          - section_heading: "Extraction of uranium by solvent extraction methods"
+            section_type: core_theory
+          - section_heading: "Uranium purification and conversion processes"
+            section_type: core_theory
+          - section_heading: "Thorium recovery from monazite and other sources"
+            section_type: related concepts
+      - lesson: "Separation of transuranium elements"
+        sections:
+          - section_heading: "Plutonium and neptunium separation from spent nuclear fuel"
+            section_type: core_theory
+          - section_heading: "PUREX (Plutonium–Uranium Redox Extraction) process principles"
+            section_type: core_theory
+          - section_heading: "Americium and curium recovery and purification"
+            section_type: related concepts
+      - lesson: "Radioactivity and safety considerations"
+        sections:
+          - section_heading: "Alpha, beta and gamma emissions in actinide decay"
+            section_type: related concepts
+          - section_heading: "Shielding, containment and handling protocols"
+            section_type: related concepts
+    milestone: "Understands extraction pathways for uranium, thorium and transuranium elements and appreciates radioactive safety issues."
+    duration_days: 4
+    tags:
+      - "actinide_recovery"
+      - "uranium"
+      - "thorium"
+      - "extraction"
+      - "gate_inorganic"
+
+  - id: 5
+    topic: "Electronic spectra of lanthanide complexes"
+    learning_objectives:
+      - "Explain why lanthanide spectra show weak f–f transitions."
+      - "Describe the origin of term symbols for lanthanide ions using Russell–Saunders coupling."
+      - "Interpret effects of crystal field on lanthanide electronic transitions."
+      - "Relate spectroscopic features to lanthanide identity and coordination environment."
+    textbook_style_content:
+      - lesson: "f–f transitions in lanthanides"
+        sections:
+          - section_heading: "Weak intensity of f–f transitions and Laporte selection rule"
+            section_type: overview
+          - section_heading: "Nature of 4f electrons and shielding by outer shells"
+            section_type: core_theory
+          - section_heading: "Comparison with d–d transitions in transition metals"
+            section_type: related concepts
+      - lesson: "Term symbols and ground states of Ln³⁺"
+        sections:
+          - section_heading: "Russell–Saunders (LS) coupling for fⁿ configurations"
+            section_type: core_theory
+          - section_heading: "Ground-state term symbols for Ln³⁺: Ce³⁺ to Lu³⁺"
+            section_type: core_theory
+          - section_heading: "Hund's rules and effective magnetic moments"
+            section_type: related concepts
+      - lesson: "Crystal field effects in lanthanide spectra"
+        sections:
+          - section_heading: "Weak crystal field splitting due to shielding"
+            section_type: core_theory
+          - section_heading: "Ligand field effects and fine structure splitting"
+            section_type: core_theory
+          - section_heading: "Hypersensitive transitions in lanthanide complexes"
+            section_type: related concepts
+      - lesson: "Spectroscopic applications and identification"
+        sections:
+          - section_heading: "Using emission and absorption spectra to identify lanthanides"
+            section_type: core_theory
+          - section_heading: "Lanthanide luminescence and fluorescence in materials"
+            section_type: related concepts
+          - section_heading: "Nephelauxetic effect and parameter reduction in complexes"
+            section_type: related concepts
+    milestone: "Interprets lanthanide electronic spectra qualitatively and relates spectroscopic data to structure and composition."
+    duration_days: 4
+    tags:
+      - "lanthanide_spectra"
+      - "f-f_transitions"
+      - "term_symbols"
+      - "gate_inorganic"
+
+  - id: 6
+    topic: "Electronic spectra of actinide complexes"
+    learning_objectives:
+      - "Explain characteristic features of actinide electronic spectra."
+      - "Compare f–f and charge-transfer transitions in actinides vs lanthanides."
+      - "Relate spectroscopic changes to actinide oxidation state and coordination."
+      - "Use spectroscopic data to infer oxidation state and complex structure."
+    textbook_style_content:
+      - lesson: "f–f transitions in actinides"
+        sections:
+          - section_heading: "Nature of 5f electrons and electronic configuration effects"
+            section_type: overview
+          - section_heading: "Intensity and spin–orbit coupling in actinide spectra"
+            section_type: core_theory
+          - section_heading: "Comparison with lanthanide f–f transitions"
+            section_type: related concepts
+      - lesson: "Charge-transfer spectra of actinides"
+        sections:
+          - section_heading: "Ligand-to-metal and metal-to-ligand CT transitions"
+            section_type: core_theory
+          - section_heading: "High intensity and broad features of CT bands"
+            section_type: core_theory
+          - section_heading: "Correlation of CT transition energy with oxidation state and ligand"
+            section_type: core_theory
+      - lesson: "Spectroscopic features of common actinide oxidation states"
+        sections:
+          - section_heading: "U(III), U(IV), U(V), U(VI) spectra and characteristic bands"
+            section_type: core_theory
+          - section_heading: "Pu oxidation states and spectral identification"
+            section_type: related concepts
+          - section_heading: "Americium and curium spectra"
+            section_type: related concepts
+      - lesson: "Structural and environmental effects on spectra"
+        sections:
+          - section_heading: "Effect of ligand type and coordination number"
+            section_type: core_theory
+          - section_heading: "Use of spectroscopy to monitor actinide chemistry in solution"
+            section_type: related concepts
+    milestone: "Recognises actinide oxidation states and coordination environments from electronic spectra and interprets charge-transfer features."
+    duration_days: 4
+    tags:
+      - "actinide_spectra"
+      - "charge_transfer"
+      - "oxidation_states"
+      - "gate_inorganic"
+
+  - id: 7
+    topic: "Magnetic properties of lanthanide complexes"
+    learning_objectives:
+      - "Calculate magnetic moments for lanthanide ions using Russell–Saunders coupling and Hund's rules."
+      - "Explain the origin of high magnetism in lanthanides due to spin–orbit coupling."
+      - "Account for deviations from spin-only magnetic moment predictions."
+      - "Use magnetic data to identify lanthanide oxidation state and coordination geometry."
+    textbook_style_content:
+      - lesson: "Spin–orbit coupling and lanthanide magnetism"
+        sections:
+          - section_heading: "Strong spin–orbit coupling in lanthanides and J-quantum number"
+            section_type: overview
+          - section_heading: "Ground-state J values derived from Hund's third rule"
+            section_type: core_theory
+          - section_heading: "Comparison with weak spin–orbit coupling in lighter elements"
+            section_type: related concepts
+      - lesson: "Magnetic moment calculations for Ln³⁺"
+        sections:
+          - section_heading: "Formula for effective magnetic moment including spin–orbit coupling"
+            section_type: core_theory
+          - section_heading: "Calculation of μ_eff for representative lanthanides"
+            section_type: core_theory
+          - section_heading: "Comparison of calculated vs experimental moments"
+            section_type: core_theory
+      - lesson: "Temperature dependence and Van Vleck paramagnetism"
+        sections:
+          - section_heading: "Curie law behaviour for lanthanides with non-zero J"
+            section_type: core_theory
+          - section_heading: "First-order orbital angular momentum contributions"
+            section_type: related concepts
+          - section_heading: "Anomalies and their interpretation"
+            section_type: related concepts
+      - lesson: "Magnetic properties in lanthanide complexes"
+        sections:
+          - section_heading: "Effect of crystal field on magnetic moment"
+            section_type: core_theory
+          - section_heading: "Quenching and enhancement of orbital contribution"
+            section_type: core_theory
+          - section_heading: "Identification of lanthanides using magnetic susceptibility"
+            section_type: related concepts
+    milestone: "Calculates and interprets magnetic moments for lanthanide ions and uses magnetism to infer electronic structure and coordination."
+    duration_days: 3
+    tags:
+      - "lanthanide_magnetism"
+      - "spin_orbit_coupling"
+      - "magnetic_moment"
+      - "gate_inorganic"
+
+  - id: 8
+    topic: "Magnetic properties of actinide complexes"
+    learning_objectives:
+      - "Explain anomalous magnetic behaviour in actinides compared to lanthanides."
+      - "Describe the role of 5f electrons in determining actinide magnetism."
+      - "Calculate or estimate magnetic moments for representative actinide ions."
+      - "Relate magnetic properties to actinide structure, oxidation state and crystal field environment."
+    textbook_style_content:
+      - lesson: "5f electrons and spin–orbit coupling in actinides"
+        sections:
+          - section_heading: "Role of 5f electrons in actinide magnetism"
+            section_type: overview
+          - section_heading: "Spin–orbit coupling strength in heavy actinides"
+            section_type: core_theory
+          - section_heading: "Comparison with lanthanide 4f magnetism and differences"
+            section_type: related concepts
+      - lesson: "Magnetic moments of actinide ions"
+        sections:
+          - section_heading: "Effective magnetic moments for U(III), U(IV), U(V), U(VI)"
+            section_type: core_theory
+          - section_heading: "Plutonium oxidation states and their magnetic signatures"
+            section_type: core_theory
+          - section_heading: "Americium and heavier actinides"
+            section_type: related concepts
+      - lesson: "Anomalies and orbital contributions"
+        sections:
+          - section_heading: "Deviations from calculated moments due to crystal field and covalency"
+            section_type: core_theory
+          - section_heading: "First-order orbital angular momentum effects"
+            section_type: related concepts
+          - section_heading: "Temperature dependence and Van Vleck contributions"
+            section_type: related concepts
+      - lesson: "Magnetic properties in actinide complexes and compounds"
+        sections:
+          - section_heading: "Effect of ligand field on actinide magnetic moment"
+            section_type: core_theory
+          - section_heading: "Ferromagnetism and antiferromagnetism in actinide compounds"
+            section_type: related concepts
+          - section_heading: "Use of magnetism in actinide chemistry and structure determination"
+            section_type: related concepts
+    milestone: "Understands and can estimate magnetic properties of actinide ions and relates them to electronic configuration and bonding."
+    duration_days: 3
+    tags:
+      - "actinide_magnetism"
+      - "5f_electrons"
+      - "magnetic_moment"
+      - "gate_inorganic"

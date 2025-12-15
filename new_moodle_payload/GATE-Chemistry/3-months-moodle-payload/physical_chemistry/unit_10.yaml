@@ -1,0 +1,286 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Kinetics - Elementary, parallel, opposing and consecutive reactions. Steady state approximation. Mechanisms of complex reactions, Kinetics of polymerization. Catalysis concepts and enzyme catalysis. Kinetic isotope effects.
+
+concepts:
+  core:
+    - name: Elementary Reactions
+      clarifier: Single-step reactions with rate law directly determined by stoichiometry; no intermediates
+    - name: Complex Reaction Types
+      clarifier: Parallel, opposing, and consecutive multi-step pathways with intermediates and rate-determining steps
+    - name: Steady State Approximation
+      clarifier: Mathematical treatment assuming intermediate concentrations remain constant; simplifies rate equations
+    - name: Reaction Mechanisms
+      clarifier: Detailed step-by-step pathways explaining how complex reactions proceed; consistency with experimental rate laws
+    - name: Catalysis
+      clarifier: Lowering activation energy without consumption; includes homogeneous, heterogeneous, and enzyme catalysis
+    - name: Kinetic Isotope Effects
+      clarifier: Changes in reaction rates due to isotope substitution; reveals transition state structure and bond-breaking patterns
+
+  related:
+    - name: Rate Laws and Order
+      clarifier: Experimental determination of rate expressions; zero, first, second, and mixed-order kinetics
+    - name: Activation Energy
+      clarifier: Energy barrier for reactions; Arrhenius equation and temperature dependence
+    - name: Intermediates and Rate-Determining Steps
+      clarifier: Species formed and consumed within mechanism; slowest step controls overall rate
+    - name: Polymerization Kinetics
+      clarifier: Chain initiation, propagation, termination in free-radical and ionic polymerization
+    - name: Enzyme Kinetics
+      clarifier: Michaelis-Menten model, substrate specificity, turnover numbers, inhibition types
+    - name: Collision Theory
+      clarifier: Molecular-level explanation of reaction rates based on frequency and orientation of collisions
+
+learning_path:
+  - id: 1
+    topic: Foundations of Reaction Kinetics and Rate Laws
+    learning_objectives:
+      - Define reaction order, rate law, and rate constant from experimental data
+      - Distinguish between elementary and complex reactions
+      - Apply integrated rate laws for zero, first, and second-order reactions
+      - Determine experimental rate laws using initial rate and half-life methods
+    textbook_style_content:
+      - lesson: Fundamentals of Chemical Kinetics
+        sections:
+          - section_heading: Overview of Reaction Rates
+            section_type: overview
+          - section_heading: Rate Laws, Order, and Rate Constants
+            section_type: core_theory
+          - section_heading: Integrated Rate Laws and Half-Life
+            section_type: core_theory
+          - section_heading: Experimental Methods for Determining Rate Laws
+            section_type: related concepts
+    milestone: Master rate law determination and differentiate reaction orders
+    duration_days: 5
+    tags:
+      - foundational
+      - experimental_kinetics
+      - rate_equations
+
+  - id: 2
+    topic: Elementary Reactions and Collision Theory
+    learning_objectives:
+      - Explain elementary reactions and their characteristics
+      - Apply collision theory to predict reaction rates
+      - Relate molecular parameters to rate expressions
+      - Understand activation energy and the Arrhenius equation
+    textbook_style_content:
+      - lesson: Elementary Reactions and Molecular Basis of Kinetics
+        sections:
+          - section_heading: Elementary Reaction Steps and Molecularity
+            section_type: core_theory
+          - section_heading: Collision Theory and Bimolecular Reactions
+            section_type: core_theory
+          - section_heading: Activation Energy and Arrhenius Equation
+            section_type: core_theory
+          - section_heading: Temperature Dependence of Reaction Rates
+            section_type: related concepts
+    milestone: Connect molecular-level events to macroscopic rate observations
+    duration_days: 4
+    tags:
+      - elementary_reactions
+      - activation_energy
+      - arrhenius_model
+
+  - id: 3
+    topic: Complex Reaction Mechanisms – Parallel and Opposing Reactions
+    learning_objectives:
+      - Analyze parallel (competing) reactions and their branching ratios
+      - Solve opposing (reversible) reaction kinetics to equilibrium
+      - Determine rate constants for forward and reverse steps
+      - Apply the principle of detailed balance
+    textbook_style_content:
+      - lesson: Parallel and Reversible Reactions
+        sections:
+          - section_heading: Overview of Complex Reaction Pathways
+            section_type: overview
+          - section_heading: Parallel Reactions and Product Selectivity
+            section_type: core_theory
+          - section_heading: Opposing (Reversible) Reactions
+            section_type: core_theory
+          - section_heading: Equilibrium and Pre-Equilibrium Conditions
+            section_type: related concepts
+    milestone: Solve kinetics for multi-pathway systems and relate to equilibrium
+    duration_days: 5
+    tags:
+      - parallel_reactions
+      - reversible_kinetics
+      - complex_mechanisms
+
+  - id: 4
+    topic: Consecutive Reactions and Intermediates
+    learning_objectives:
+      - Derive rate equations for consecutive (sequential) reaction schemes
+      - Calculate intermediate concentrations using coupled differential equations
+      - Identify rate-determining steps in multi-step pathways
+      - Apply Bodenstein's principle for long-lived vs. short-lived intermediates
+    textbook_style_content:
+      - lesson: Sequential Reaction Mechanisms
+        sections:
+          - section_heading: Consecutive Reactions A→B→C
+            section_type: core_theory
+          - section_heading: Solving Coupled Rate Equations
+            section_type: core_theory
+          - section_heading: Intermediate Concentrations and Rate-Determining Steps
+            section_type: core_theory
+          - section_heading: Pre-Equilibrium and Bodenstein Approximation
+            section_type: related concepts
+    milestone: Master consecutive kinetics and identify rate-limiting steps
+    duration_days: 5
+    tags:
+      - consecutive_reactions
+      - intermediates
+      - rds
+
+  - id: 5
+    topic: Steady State Approximation and Reaction Mechanisms
+    learning_objectives:
+      - Apply the steady state (stationary state) approximation to intermediates
+      - Derive rate laws for complex mechanisms using steady state
+      - Compare steady state and pre-equilibrium approximations
+      - Verify proposed mechanisms against experimental rate laws
+    textbook_style_content:
+      - lesson: Steady State Approximation and Mechanism Analysis
+        sections:
+          - section_heading: Overview of Approximation Methods
+            section_type: overview
+          - section_heading: Steady State Approximation – Theory and Application
+            section_type: core_theory
+          - section_heading: Derivation of Rate Laws from Mechanisms
+            section_type: core_theory
+          - section_heading: Comparison with Pre-Equilibrium; Mechanism Validation
+            section_type: related concepts
+    milestone: Derive rate laws from complex mechanisms using steady state
+    duration_days: 5
+    tags:
+      - steady_state
+      - mechanism_derivation
+      - intermediate_kinetics
+
+  - id: 6
+    topic: Catalysis – Concepts and Mechanisms
+    learning_objectives:
+      - Define catalysis and explain how catalysts lower activation energy
+      - Distinguish between homogeneous and heterogeneous catalysis
+      - Derive rate laws for catalyzed reactions
+      - Analyze catalyst regeneration and turnover cycles
+    textbook_style_content:
+      - lesson: Catalysis Theory and Applications
+        sections:
+          - section_heading: Overview of Catalysis
+            section_type: overview
+          - section_heading: Mechanisms of Catalysis – Homogeneous Systems
+            section_type: core_theory
+          - section_heading: Heterogeneous Catalysis and Surface Kinetics
+            section_type: core_theory
+          - section_heading: Catalytic Cycles and Turnover Numbers
+            section_type: related concepts
+    milestone: Understand catalyst function and derive catalyzed reaction rates
+    duration_days: 4
+    tags:
+      - catalysis
+      - activation_energy_lowering
+      - catalyst_mechanisms
+
+  - id: 7
+    topic: Enzyme Catalysis and Michaelis-Menten Kinetics
+    learning_objectives:
+      - Explain enzyme specificity and substrate binding
+      - Derive and apply the Michaelis-Menten equation
+      - Calculate Km and Vmax from experimental data
+      - Analyze enzyme inhibition (competitive, non-competitive, uncompetitive)
+      - Interpret turnover numbers and catalytic efficiency
+    textbook_style_content:
+      - lesson: Enzyme-Catalyzed Reactions
+        sections:
+          - section_heading: Overview of Enzyme Catalysis
+            section_type: overview
+          - section_heading: Enzyme-Substrate Complex and Michaelis-Menten Model
+            section_type: core_theory
+          - section_heading: Lineweaver-Burk Plot and Parameter Determination
+            section_type: core_theory
+          - section_heading: Enzyme Inhibition Types and Kinetic Analysis
+            section_type: related concepts
+    milestone: Master Michaelis-Menten kinetics and enzyme inhibition analysis
+    duration_days: 6
+    tags:
+      - enzyme_kinetics
+      - michaelis_menten
+      - enzyme_inhibition
+
+  - id: 8
+    topic: Polymerization Kinetics
+    learning_objectives:
+      - Distinguish between chain-growth and step-growth polymerization
+      - Analyze free-radical polymerization (initiation, propagation, termination)
+      - Derive kinetic expressions for polymer growth
+      - Calculate molecular weight and polydispersity index
+      - Compare ionic polymerization kinetics
+    textbook_style_content:
+      - lesson: Kinetics of Polymerization Reactions
+        sections:
+          - section_heading: Overview of Polymerization Types
+            section_type: overview
+          - section_heading: Free-Radical Polymerization Mechanisms
+            section_type: core_theory
+          - section_heading: Kinetic Analysis of Chain Growth
+            section_type: core_theory
+          - section_heading: Molecular Weight Distribution and Ionic Polymerization
+            section_type: related concepts
+    milestone: Analyze polymerization kinetics and predict polymer properties
+    duration_days: 5
+    tags:
+      - polymerization
+      - chain_growth
+      - polymer_kinetics
+
+  - id: 9
+    topic: Kinetic Isotope Effects
+    learning_objectives:
+      - Define primary, secondary, and inverse kinetic isotope effects
+      - Apply kinetic isotope effects to elucidate reaction mechanisms
+      - Relate isotope effects to transition state geometry and bond-breaking patterns
+      - Interpret experimental KIE data for mechanistic validation
+    textbook_style_content:
+      - lesson: Kinetic Isotope Effects and Transition State Structure
+        sections:
+          - section_heading: Overview of Isotope Effects on Reaction Rates
+            section_type: overview
+          - section_heading: Primary and Secondary Kinetic Isotope Effects
+            section_type: core_theory
+          - section_heading: Theoretical Framework and Zero-Point Energy
+            section_type: core_theory
+          - section_heading: Application to Mechanism Elucidation
+            section_type: related concepts
+    milestone: Use kinetic isotope effects to probe reaction mechanisms
+    duration_days: 4
+    tags:
+      - isotope_effects
+      - mechanism_elucidation
+      - transition_state
+
+  - id: 10
+    topic: Integration and Problem-Solving – Comprehensive Kinetics Analysis
+    learning_objectives:
+      - Integrate knowledge of mechanisms, catalysis, and approximations
+      - Solve multi-step kinetic problems combining several concepts
+      - Propose mechanisms consistent with rate laws and kinetic data
+      - Apply kinetics principles to novel reaction systems
+    textbook_style_content:
+      - lesson: Synthesis and Advanced Applications
+        sections:
+          - section_heading: Problem-Solving Strategies in Kinetics
+            section_type: overview
+          - section_heading: Mechanism Proposal and Rate Law Derivation
+            section_type: core_theory
+          - section_heading: Case Studies – Catalyzed, Enzymatic, and Polymerization Systems
+            section_type: related concepts
+          - section_heading: GATE Examination-Style Questions
+            section_type: related concepts
+    milestone: Demonstrate mastery through integrated problem-solving
+    duration_days: 4
+    tags:
+      - synthesis
+      - examination_prep
+      - case_studies

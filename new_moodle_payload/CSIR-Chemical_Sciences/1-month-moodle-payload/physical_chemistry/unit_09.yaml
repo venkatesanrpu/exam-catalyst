@@ -1,0 +1,500 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Electrochemistry: Nernst equation, redox systems, electrochemical cells; Debye-Huckel theory; electrolytic conductance – Kohlrausch's law and its applications; ionic equilibria; conductometric and potentiometric titrations."
+
+concepts:
+  core:
+    - name: Electrochemical Cells
+      clarifier: Galvanic and electrolytic cells, cell potential, standard electrode potential, cell notation
+    - name: Nernst Equation
+      clarifier: Derivation, applications to concentration cells, effect of temperature and concentration on cell potential
+    - name: Electrolytic Conductance
+      clarifier: Specific conductance, molar conductance, equivalent conductance, temperature dependence
+    - name: Kohlrausch's Law
+      clarifier: Law of independent migration of ions, limiting molar conductivity, applications to weak electrolytes
+    - name: Ionic Equilibria
+      clarifier: Degree of dissociation, ionization constants, common ion effect, buffer solutions
+    - name: Conductometric Titrations
+      clarifier: Acid-base, precipitation, and complexometric titrations, conductance curves
+    - name: Potentiometric Titrations
+      clarifier: Principle, indicator and reference electrodes, titration curves, determination of equivalence point
+  related:
+    - name: Redox Systems
+      clarifier: Oxidation-reduction reactions, half-reactions, balancing redox equations, standard reduction potentials
+    - name: Debye-Huckel Theory
+      clarifier: Ionic atmosphere, activity coefficients, ionic strength, limiting law and extended equation
+    - name: Activity and Activity Coefficients
+      clarifier: Mean ionic activity, mean ionic activity coefficient, relation to concentration
+    - name: Transport Numbers
+      clarifier: Transference numbers, Hittorf method, moving boundary method, relation to ionic mobilities
+    - name: Liquid Junction Potential
+      clarifier: Origin, Henderson equation, salt bridge, minimization techniques
+    - name: pH and Buffer Systems
+      clarifier: pH calculation, Henderson-Hasselbalch equation, buffer capacity, buffer range
+    - name: Reference Electrodes
+      clarifier: Standard hydrogen electrode, calomel electrode, silver-silver chloride electrode
+    - name: Indicator Electrodes
+      clarifier: Glass electrode, ion-selective electrodes, metal-metal ion electrodes
+    - name: Faraday's Laws
+      clarifier: Electrolysis, electrochemical equivalent, current efficiency
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Redox Chemistry and Electrochemical Principles
+    learning_objectives:
+      - Understand oxidation and reduction processes at the molecular level
+      - Master balancing redox reactions in acidic and basic media
+      - Comprehend the relationship between chemical energy and electrical energy
+      - Define electrochemical cells and distinguish between galvanic and electrolytic cells
+    textbook_style_content:
+      - topic: Redox Reactions and Half-Cell Processes
+        sections:
+          - section_title: Introduction to Oxidation-Reduction Reactions
+            section_type: overview
+          - section_title: Oxidation States and Electron Transfer
+            section_type: core_theory
+          - section_title: Half-Reactions and Their Representation
+            section_type: core_theory
+          - section_title: Balancing Redox Equations
+            section_type: core_theory
+          - section_title: Standard Reduction Potentials
+            section_type: related_concepts
+      - topic: Electrochemical Cell Fundamentals
+        sections:
+          - section_title: Types of Electrochemical Cells
+            section_type: overview
+          - section_title: Galvanic Cells and Spontaneous Reactions
+            section_type: core_theory
+          - section_title: Electrolytic Cells and Non-Spontaneous Reactions
+            section_type: core_theory
+          - section_title: Cell Notation and Conventions
+            section_type: core_theory
+          - section_title: Faraday's Laws of Electrolysis
+            section_type: related_concepts
+    milestone: Master redox chemistry fundamentals and electrochemical cell principles
+    duration_days: 5
+    tags:
+      - redox reactions
+      - electrochemical cells
+      - oxidation-reduction
+      - half-reactions
+      - galvanic cells
+
+  - id: 2
+    title: Electrode Potentials and the Nernst Equation
+    learning_objectives:
+      - Understand standard electrode potentials and their measurement
+      - Derive and apply the Nernst equation to various electrochemical systems
+      - Calculate cell potentials under non-standard conditions
+      - Analyze concentration cells and their applications
+      - Determine equilibrium constants from electrochemical measurements
+    textbook_style_content:
+      - topic: Standard Electrode Potentials and EMF Series
+        sections:
+          - section_title: Standard Hydrogen Electrode
+            section_type: overview
+          - section_title: Measurement of Standard Electrode Potentials
+            section_type: core_theory
+          - section_title: Electrochemical Series
+            section_type: core_theory
+          - section_title: Predicting Spontaneity of Redox Reactions
+            section_type: core_theory
+          - section_title: Reference Electrodes in Practice
+            section_type: related_concepts
+      - topic: Thermodynamics of Electrochemical Cells
+        sections:
+          - section_title: Relationship Between Cell Potential and Gibbs Free Energy
+            section_type: core_theory
+          - section_title: Effect of Temperature on Cell Potential
+            section_type: core_theory
+          - section_title: Entropy and Enthalpy Changes from EMF Measurements
+            section_type: related_concepts
+      - topic: The Nernst Equation
+        sections:
+          - section_title: Derivation of the Nernst Equation
+            section_type: core_theory
+          - section_title: Applications to Half-Cells and Complete Cells
+            section_type: core_theory
+          - section_title: Concentration Cells
+            section_type: core_theory
+          - section_title: Determination of pH Using Nernst Equation
+            section_type: core_theory
+          - section_title: Calculation of Equilibrium Constants
+            section_type: core_theory
+          - section_title: Liquid Junction Potentials
+            section_type: related_concepts
+    milestone: Apply Nernst equation to solve complex electrochemical problems
+    duration_days: 6
+    tags:
+      - Nernst equation
+      - electrode potentials
+      - cell EMF
+      - concentration cells
+      - thermodynamics
+
+  - id: 3
+    title: Electrolytic Conductance and Transport Properties
+    learning_objectives:
+      - Define specific conductance, molar conductance, and equivalent conductance
+      - Understand the variation of conductance with concentration
+      - Distinguish between strong and weak electrolytes based on conductance
+      - Calculate transport numbers and ionic mobilities
+      - Apply conductance measurements to determine degree of dissociation
+    textbook_style_content:
+      - topic: Fundamentals of Electrolytic Conductance
+        sections:
+          - section_title: Introduction to Ionic Conduction
+            section_type: overview
+          - section_title: Specific Conductance and Conductivity
+            section_type: core_theory
+          - section_title: Molar Conductance and Equivalent Conductance
+            section_type: core_theory
+          - section_title: Measurement of Conductance
+            section_type: core_theory
+          - section_title: Effect of Temperature on Conductance
+            section_type: related_concepts
+      - topic: Variation of Conductance with Concentration
+        sections:
+          - section_title: Strong Electrolytes and Debye-Huckel-Onsager Equation
+            section_type: core_theory
+          - section_title: Weak Electrolytes and Ostwald's Dilution Law
+            section_type: core_theory
+          - section_title: Limiting Molar Conductivity
+            section_type: core_theory
+      - topic: Ionic Transport and Mobility
+        sections:
+          - section_title: Transport Numbers (Transference Numbers)
+            section_type: core_theory
+          - section_title: Hittorf Method
+            section_type: related_concepts
+          - section_title: Moving Boundary Method
+            section_type: related_concepts
+          - section_title: Ionic Mobility and Its Relation to Conductance
+            section_type: core_theory
+    milestone: Master conductance principles and measurement techniques
+    duration_days: 5
+    tags:
+      - conductance
+      - molar conductivity
+      - ionic mobility
+      - transport numbers
+      - electrolytes
+
+  - id: 4
+    title: Kohlrausch's Law and Applications
+    learning_objectives:
+      - State and derive Kohlrausch's law of independent migration of ions
+      - Calculate limiting molar conductivities of weak electrolytes
+      - Determine degree of dissociation from conductance data
+      - Apply Kohlrausch's law to calculate ionic conductances
+      - Use conductance data to determine dissociation constants
+    textbook_style_content:
+      - topic: Kohlrausch's Law
+        sections:
+          - section_title: Statement of Kohlrausch's Law
+            section_type: overview
+          - section_title: Independent Migration of Ions
+            section_type: core_theory
+          - section_title: Mathematical Formulation
+            section_type: core_theory
+          - section_title: Experimental Verification
+            section_type: core_theory
+      - topic: Applications of Kohlrausch's Law
+        sections:
+          - section_title: Determination of Limiting Molar Conductivity of Weak Electrolytes
+            section_type: core_theory
+          - section_title: Calculation of Degree of Dissociation
+            section_type: core_theory
+          - section_title: Determination of Dissociation Constant
+            section_type: core_theory
+          - section_title: Calculation of Solubility of Sparingly Soluble Salts
+            section_type: core_theory
+          - section_title: Determination of Ionic Conductances at Infinite Dilution
+            section_type: core_theory
+      - topic: Ostwald's Dilution Law
+        sections:
+          - section_title: Relationship Between Conductance and Dissociation
+            section_type: related_concepts
+          - section_title: Applications to Weak Acids and Bases
+            section_type: related_concepts
+    milestone: Apply Kohlrausch's law to practical electrochemical problems
+    duration_days: 4
+    tags:
+      - Kohlrausch's law
+      - ionic conductance
+      - dissociation constant
+      - weak electrolytes
+      - limiting conductivity
+
+  - id: 5
+    title: Debye-Huckel Theory and Ionic Interactions
+    learning_objectives:
+      - Understand the concept of ionic atmosphere and ionic interactions in solutions
+      - Derive and apply the Debye-Huckel limiting law
+      - Calculate activity coefficients using Debye-Huckel equations
+      - Define and calculate ionic strength
+      - Distinguish between activity and concentration in ionic solutions
+    textbook_style_content:
+      - topic: Ionic Interactions in Electrolyte Solutions
+        sections:
+          - section_title: Non-Ideality in Electrolyte Solutions
+            section_type: overview
+          - section_title: Ionic Atmosphere Concept
+            section_type: core_theory
+          - section_title: Electrostatic Interactions Between Ions
+            section_type: core_theory
+      - topic: Debye-Huckel Theory
+        sections:
+          - section_title: Assumptions of Debye-Huckel Theory
+            section_type: core_theory
+          - section_title: Debye-Huckel Limiting Law
+            section_type: core_theory
+          - section_title: Extended Debye-Huckel Equation
+            section_type: core_theory
+          - section_title: Ionic Strength
+            section_type: core_theory
+          - section_title: Applications and Limitations
+            section_type: core_theory
+      - topic: Activity and Activity Coefficients
+        sections:
+          - section_title: Definition of Activity
+            section_type: core_theory
+          - section_title: Mean Ionic Activity and Activity Coefficient
+            section_type: core_theory
+          - section_title: Calculation of Activity Coefficients
+            section_type: core_theory
+          - section_title: Relation Between Activity and Concentration
+            section_type: core_theory
+          - section_title: Importance in Electrochemical Calculations
+            section_type: related_concepts
+    milestone: Apply Debye-Huckel theory to real electrolyte solutions
+    duration_days: 5
+    tags:
+      - Debye-Huckel theory
+      - activity coefficients
+      - ionic strength
+      - ionic atmosphere
+      - electrolyte solutions
+
+  - id: 6
+    title: Ionic Equilibria in Aqueous Solutions
+    learning_objectives:
+      - Apply equilibrium principles to ionic systems
+      - Calculate pH of strong and weak acid-base solutions
+      - Understand and apply the Henderson-Hasselbalch equation
+      - Analyze buffer systems and calculate buffer capacity
+      - Determine dissociation constants and solubility products
+    textbook_style_content:
+      - topic: Acid-Base Equilibria
+        sections:
+          - section_title: Strong and Weak Acids and Bases
+            section_type: overview
+          - section_title: Ionization Constants (Ka and Kb)
+            section_type: core_theory
+          - section_title: pH Calculations for Strong Acids and Bases
+            section_type: core_theory
+          - section_title: pH Calculations for Weak Acids and Bases
+            section_type: core_theory
+          - section_title: Polyprotic Acids
+            section_type: core_theory
+      - topic: Buffer Solutions
+        sections:
+          - section_title: Buffer Action and Mechanism
+            section_type: core_theory
+          - section_title: Henderson-Hasselbalch Equation
+            section_type: core_theory
+          - section_title: Buffer Capacity and Buffer Range
+            section_type: core_theory
+          - section_title: Preparation of Buffer Solutions
+            section_type: core_theory
+      - topic: Additional Ionic Equilibria
+        sections:
+          - section_title: Common Ion Effect
+            section_type: core_theory
+          - section_title: Solubility Equilibria
+            section_type: related_concepts
+          - section_title: Hydrolysis of Salts
+            section_type: related_concepts
+          - section_title: Amphoteric Species
+            section_type: related_concepts
+    milestone: Master ionic equilibria calculations and buffer chemistry
+    duration_days: 5
+    tags:
+      - ionic equilibria
+      - pH calculations
+      - buffer solutions
+      - Henderson-Hasselbalch
+      - acid-base chemistry
+
+  - id: 7
+    title: Conductometric Titrations
+    learning_objectives:
+      - Understand the principle of conductometric titrations
+      - Interpret conductance curves for various types of titrations
+      - Perform and analyze acid-base conductometric titrations
+      - Apply conductometry to precipitation titrations
+      - Determine equivalence points from conductance data
+    textbook_style_content:
+      - topic: Principles of Conductometric Titrations
+        sections:
+          - section_title: Introduction to Conductometric Analysis
+            section_type: overview
+          - section_title: Instrumentation and Measurement Technique
+            section_type: core_theory
+          - section_title: Conductance Curves and Equivalence Point Determination
+            section_type: core_theory
+          - section_title: Advantages and Limitations
+            section_type: core_theory
+      - topic: Acid-Base Conductometric Titrations
+        sections:
+          - section_title: Strong Acid vs Strong Base
+            section_type: core_theory
+          - section_title: Strong Acid vs Weak Base
+            section_type: core_theory
+          - section_title: Weak Acid vs Strong Base
+            section_type: core_theory
+          - section_title: Weak Acid vs Weak Base
+            section_type: core_theory
+          - section_title: Interpretation of Titration Curves
+            section_type: core_theory
+      - topic: Other Types of Conductometric Titrations
+        sections:
+          - section_title: Precipitation Titrations
+            section_type: core_theory
+          - section_title: Complexometric Titrations
+            section_type: related_concepts
+          - section_title: Replacement Titrations
+            section_type: related_concepts
+      - topic: Applications and Problem Solving
+        sections:
+          - section_title: Determination of Mixture Composition
+            section_type: core_theory
+          - section_title: Analysis of Colored and Turbid Solutions
+            section_type: related_concepts
+    milestone: Perform and interpret conductometric titrations accurately
+    duration_days: 4
+    tags:
+      - conductometric titrations
+      - titration curves
+      - equivalence point
+      - acid-base titrations
+      - analytical chemistry
+
+  - id: 8
+    title: Potentiometric Titrations
+    learning_objectives:
+      - Understand the principle of potentiometric titrations
+      - Select appropriate indicator and reference electrodes
+      - Construct and interpret potentiometric titration curves
+      - Determine equivalence points using derivative methods
+      - Apply potentiometry to redox, acid-base, and precipitation titrations
+    textbook_style_content:
+      - topic: Principles of Potentiometric Titrations
+        sections:
+          - section_title: Introduction to Potentiometric Analysis
+            section_type: overview
+          - section_title: Electrochemical Cells in Potentiometry
+            section_type: core_theory
+          - section_title: Reference Electrodes
+            section_type: core_theory
+          - section_title: Indicator Electrodes
+            section_type: core_theory
+          - section_title: Measurement Technique and Instrumentation
+            section_type: core_theory
+      - topic: Types of Indicator Electrodes
+        sections:
+          - section_title: Glass Electrode for pH Measurements
+            section_type: core_theory
+          - section_title: Metal-Metal Ion Electrodes
+            section_type: core_theory
+          - section_title: Ion-Selective Electrodes
+            section_type: related_concepts
+          - section_title: Redox Electrodes
+            section_type: related_concepts
+      - topic: Potentiometric Titration Curves
+        sections:
+          - section_title: Shape of Titration Curves
+            section_type: core_theory
+          - section_title: Determination of Equivalence Point
+            section_type: core_theory
+          - section_title: First and Second Derivative Methods
+            section_type: core_theory
+          - section_title: Gran Plot Method
+            section_type: related_concepts
+      - topic: Applications of Potentiometric Titrations
+        sections:
+          - section_title: Acid-Base Titrations
+            section_type: core_theory
+          - section_title: Redox Titrations
+            section_type: core_theory
+          - section_title: Precipitation Titrations
+            section_type: core_theory
+          - section_title: Complexometric Titrations
+            section_type: related_concepts
+          - section_title: Determination of Multiple Species
+            section_type: core_theory
+      - topic: Advantages and Practical Considerations
+        sections:
+          - section_title: Comparison with Other Titration Methods
+            section_type: overview
+          - section_title: Sources of Error and Precautions
+            section_type: related_concepts
+          - section_title: Automated Potentiometric Titrations
+            section_type: related_concepts
+    milestone: Master potentiometric titration techniques and applications
+    duration_days: 5
+    tags:
+      - potentiometric titrations
+      - indicator electrodes
+      - reference electrodes
+      - glass electrode
+      - redox titrations
+
+  - id: 9
+    title: Integration and Advanced Applications
+    learning_objectives:
+      - Integrate concepts from all previous topics
+      - Solve complex multi-step electrochemistry problems
+      - Apply electrochemical principles to research and industrial scenarios
+      - Analyze real-world electrochemical systems
+      - Prepare for CSIR examination problems in electrochemistry
+    textbook_style_content:
+      - topic: Comprehensive Problem Solving
+        sections:
+          - section_title: Multi-Concept Problems
+            section_type: overview
+          - section_title: Combining Nernst Equation with Ionic Equilibria
+            section_type: core_theory
+          - section_title: Conductance and Potentiometry in Analytical Applications
+            section_type: core_theory
+          - section_title: Activity Corrections in Electrochemical Calculations
+            section_type: core_theory
+      - topic: Advanced Topics and Applications
+        sections:
+          - section_title: Membrane Potentials and Biological Systems
+            section_type: related_concepts
+          - section_title: Corrosion and Its Electrochemical Basis
+            section_type: related_concepts
+          - section_title: Batteries and Fuel Cells
+            section_type: related_concepts
+          - section_title: Electroanalytical Techniques Overview
+            section_type: related_concepts
+      - topic: CSIR Examination Strategy
+        sections:
+          - section_title: Common Problem Types in CSIR Exams
+            section_type: overview
+          - section_title: Time Management and Problem-Solving Approach
+            section_type: overview
+          - section_title: Important Formulas and Constants
+            section_type: overview
+          - section_title: Practice Problems and Solutions
+            section_type: core_theory
+    milestone: Achieve examination readiness in electrochemistry
+    duration_days: 6
+    tags:
+      - problem solving
+      - CSIR preparation
+      - advanced applications
+      - integrated concepts
+      - examination strategy

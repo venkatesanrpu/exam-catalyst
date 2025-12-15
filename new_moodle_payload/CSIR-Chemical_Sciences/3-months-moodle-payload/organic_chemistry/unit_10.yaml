@@ -1,0 +1,745 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Pericyclic reactions – electrocyclisation, cycloaddition, sigmatropic rearrangements and other related concerted reactions
+
+concepts:
+  core:
+    - name: Woodward-Hoffmann rules
+      clarifier: Orbital symmetry conservation principles governing pericyclic reactions
+    - name: Frontier Molecular Orbital theory
+      clarifier: FMO analysis of HOMO-LUMO interactions in concerted reactions
+    - name: Electrocyclic reactions
+      clarifier: Ring-opening and ring-closing reactions with conrotatory and disrotatory pathways
+    - name: Cycloaddition reactions
+      clarifier: Concerted formation of cyclic products including Diels-Alder and 1,3-dipolar cycloadditions
+    - name: Sigmatropic rearrangements
+      clarifier: Intramolecular rearrangements involving migration across pi-systems
+    - name: Aromatic transition states
+      clarifier: Hückel and Möbius transition state aromaticity in pericyclic processes
+    - name: Selection rules for pericyclic reactions
+      clarifier: Thermal and photochemical allowed/forbidden pathways
+    - name: Stereochemistry of pericyclic reactions
+      clarifier: Suprafacial and antarafacial processes and stereochemical outcomes
+  related:
+    - name: Molecular orbital theory fundamentals
+      clarifier: Basis for understanding orbital symmetry and interactions
+    - name: Conjugated systems and resonance
+      clarifier: Electronic structure of dienes, polyenes, and allyl systems
+    - name: Reaction coordinate diagrams
+      clarifier: Energy profiles and transition state analysis
+    - name: Photochemistry principles
+      clarifier: Excited state reactions and photochemical pathways
+    - name: Retrosynthetic analysis
+      clarifier: Application of pericyclic reactions in synthesis planning
+    - name: Named pericyclic reactions
+      clarifier: Cope, Claisen, ene reactions, and other specific transformations
+    - name: Orbital correlation diagrams
+      clarifier: Graphical representation of orbital symmetry relationships
+    - name: Torquoselectivity
+      clarifier: Prediction of stereochemical outcomes in electrocyclic reactions
+
+learning_path:
+  - id: 1
+    title: Foundations of Molecular Orbital Theory and Symmetry
+    learning_objectives:
+      - Understand the construction and properties of molecular orbitals in conjugated systems
+      - Identify symmetry elements and orbital symmetry properties relevant to pericyclic reactions
+      - Analyze HOMO and LUMO energies and phases in simple pi-systems
+      - Apply the concept of orbital overlap to reaction feasibility
+    textbook_style_content:
+      - topic: Molecular Orbital Theory for Conjugated Systems
+        sections:
+          - section_title: Basic Principles of MO Theory
+            section_type: overview
+          - section_title: Construction of Pi Molecular Orbitals
+            section_type: core_theory
+          - section_title: Ethylene, Butadiene, and Allyl System MOs
+            section_type: core_theory
+          - section_title: Nodal Properties and Orbital Phases
+            section_type: core_theory
+      - topic: Symmetry in Organic Molecules
+        sections:
+          - section_title: Symmetry Elements and Operations
+            section_type: related_concepts
+          - section_title: Symmetric and Antisymmetric Orbitals
+            section_type: core_theory
+          - section_title: Conservation of Orbital Symmetry Concept
+            section_type: core_theory
+      - topic: Frontier Molecular Orbital Theory Introduction
+        sections:
+          - section_title: HOMO and LUMO Identification
+            section_type: core_theory
+          - section_title: FMO Interactions in Chemical Reactions
+            section_type: core_theory
+          - section_title: Donor-Acceptor Interactions
+            section_type: related_concepts
+    milestone: Master the theoretical foundation required for understanding pericyclic reaction mechanisms
+    duration_days: 4
+    tags:
+      - molecular orbitals
+      - symmetry
+      - FMO theory
+      - fundamentals
+
+  - id: 2
+    title: Woodward-Hoffmann Rules and Orbital Correlation
+    learning_objectives:
+      - Master the Woodward-Hoffmann rules for predicting allowed and forbidden reactions
+      - Construct and interpret orbital correlation diagrams
+      - Distinguish between thermal and photochemical reaction pathways
+      - Apply conservation of orbital symmetry to predict reaction outcomes
+    textbook_style_content:
+      - topic: The Principle of Conservation of Orbital Symmetry
+        sections:
+          - section_title: Historical Development and Significance
+            section_type: overview
+          - section_title: Woodward-Hoffmann Rules Framework
+            section_type: core_theory
+          - section_title: Correlation of Ground and Excited States
+            section_type: core_theory
+      - topic: Orbital Correlation Diagrams
+        sections:
+          - section_title: Construction of Correlation Diagrams
+            section_type: core_theory
+          - section_title: Symmetry-Allowed and Symmetry-Forbidden Pathways
+            section_type: core_theory
+          - section_title: Reading and Interpreting State Correlations
+            section_type: core_theory
+      - topic: Thermal versus Photochemical Reactions
+        sections:
+          - section_title: Ground State versus Excited State Reactivity
+            section_type: core_theory
+          - section_title: Selection Rules for Different Conditions
+            section_type: core_theory
+          - section_title: Jablonski Diagrams and Photochemical Pathways
+            section_type: related_concepts
+      - topic: Aromatic Transition States
+        sections:
+          - section_title: Hückel Aromatic Transition States
+            section_type: core_theory
+          - section_title: Möbius Aromatic Transition States
+            section_type: core_theory
+          - section_title: The 4n+2 and 4n Electron Rules
+            section_type: core_theory
+    milestone: Develop proficiency in applying Woodward-Hoffmann rules to predict pericyclic reaction pathways
+    duration_days: 5
+    tags:
+      - Woodward-Hoffmann
+      - orbital correlation
+      - selection rules
+      - aromatic transition states
+
+  - id: 3
+    title: Electrocyclic Reactions - Theory and Mechanisms
+    learning_objectives:
+      - Classify electrocyclic reactions by electron count and reaction conditions
+      - Predict conrotatory versus disrotatory ring-opening and ring-closing modes
+      - Determine stereochemical outcomes of electrocyclic processes
+      - Apply torquoselectivity principles to unsymmetrical systems
+    textbook_style_content:
+      - topic: Introduction to Electrocyclic Reactions
+        sections:
+          - section_title: Definition and General Features
+            section_type: overview
+          - section_title: Ring-Opening versus Ring-Closing Processes
+            section_type: core_theory
+          - section_title: Classification by Electron Number
+            section_type: core_theory
+      - topic: Orbital Symmetry in Electrocyclic Reactions
+        sections:
+          - section_title: Conrotatory and Disrotatory Motions
+            section_type: core_theory
+          - section_title: Four-Electron Electrocyclic Systems
+            section_type: core_theory
+          - section_title: Six-Electron Electrocyclic Systems
+            section_type: core_theory
+          - section_title: Higher-Order Systems
+            section_type: core_theory
+      - topic: Selection Rules for Electrocyclic Reactions
+        sections:
+          - section_title: Thermal Electrocyclic Selection Rules
+            section_type: core_theory
+          - section_title: Photochemical Electrocyclic Selection Rules
+            section_type: core_theory
+          - section_title: FMO Analysis of Electrocyclic Processes
+            section_type: core_theory
+      - topic: Stereochemistry of Electrocyclic Reactions
+        sections:
+          - section_title: Stereochemical Predictions from Selection Rules
+            section_type: core_theory
+          - section_title: Torquoselectivity in Ring-Opening Reactions
+            section_type: core_theory
+          - section_title: Conformational Effects on Electrocyclization
+            section_type: related_concepts
+    milestone: Master prediction of electrocyclic reaction outcomes including stereochemistry
+    duration_days: 5
+    tags:
+      - electrocyclic reactions
+      - conrotatory
+      - disrotatory
+      - stereochemistry
+
+  - id: 4
+    title: Electrocyclic Reactions - Examples and Applications
+    learning_objectives:
+      - Work through specific examples of electrocyclic reactions
+      - Apply electrocyclic concepts to synthesis problems
+      - Analyze complex and unsymmetrical electrocyclic systems
+      - Solve CSIR-level problems involving electrocyclization
+    textbook_style_content:
+      - topic: Classic Electrocyclic Transformations
+        sections:
+          - section_title: Butadiene-Cyclobutene Interconversion
+            section_type: core_theory
+          - section_title: Hexatriene-Cyclohexadiene Interconversion
+            section_type: core_theory
+          - section_title: Vitamin D Formation
+            section_type: core_theory
+      - topic: Heteroatom-Containing Electrocyclic Systems
+        sections:
+          - section_title: Azahexatriene Cyclizations
+            section_type: core_theory
+          - section_title: Nazarov Cyclization
+            section_type: core_theory
+          - section_title: Electrocyclic Reactions in Heterocycles
+            section_type: core_theory
+      - topic: Complex Electrocyclic Examples
+        sections:
+          - section_title: Polycyclic Systems
+            section_type: core_theory
+          - section_title: Cascade Electrocyclic Processes
+            section_type: related_concepts
+          - section_title: Substituent Effects on Electrocyclization
+            section_type: related_concepts
+      - topic: Problem-Solving Strategies
+        sections:
+          - section_title: Identifying Electrocyclic Reaction Types
+            section_type: overview
+          - section_title: Systematic Approach to Stereochemical Prediction
+            section_type: core_theory
+          - section_title: Practice with CSIR-Style Questions
+            section_type: related_concepts
+    milestone: Gain expertise in applying electrocyclic concepts to diverse chemical problems
+    duration_days: 4
+    tags:
+      - electrocyclic examples
+      - Nazarov
+      - vitamin D
+      - problem-solving
+
+  - id: 5
+    title: Cycloaddition Reactions - Fundamentals
+    learning_objectives:
+      - Classify cycloadditions by component electron counts
+      - Understand suprafacial and antarafacial terminology
+      - Apply selection rules to cycloaddition reactions
+      - Distinguish between concerted and stepwise mechanisms
+    textbook_style_content:
+      - topic: Introduction to Cycloaddition Reactions
+        sections:
+          - section_title: Definition and Classification
+            section_type: overview
+          - section_title: Notation for Cycloadditions
+            section_type: core_theory
+          - section_title: Thermal versus Photochemical Cycloadditions
+            section_type: core_theory
+      - topic: Suprafacial and Antarafacial Concepts
+        sections:
+          - section_title: Geometric Definitions
+            section_type: core_theory
+          - section_title: Orbital Topology in Cycloadditions
+            section_type: core_theory
+          - section_title: Allowed Component Combinations
+            section_type: core_theory
+      - topic: Selection Rules for Cycloadditions
+        sections:
+          - section_title: Woodward-Hoffmann Rules for Cycloadditions
+            section_type: core_theory
+          - section_title: "[2+2] Cycloadditions"
+            section_type: core_theory
+          - section_title: "[4+2] Cycloadditions"
+            section_type: core_theory
+          - section_title: Higher-Order Cycloadditions
+            section_type: core_theory
+      - topic: FMO Analysis of Cycloadditions
+        sections:
+          - section_title: HOMO-LUMO Interactions
+            section_type: core_theory
+          - section_title: Primary and Secondary Orbital Interactions
+            section_type: core_theory
+          - section_title: Regioselectivity Predictions
+            section_type: core_theory
+    milestone: Understand the theoretical framework governing cycloaddition reactions
+    duration_days: 5
+    tags:
+      - cycloaddition
+      - selection rules
+      - suprafacial
+      - antarafacial
+
+  - id: 6
+    title: Diels-Alder Reaction and [4+2] Cycloadditions
+    learning_objectives:
+      - Master the mechanism and stereochemistry of Diels-Alder reactions
+      - Predict regio- and stereoselectivity in Diels-Alder reactions
+      - Apply frontier molecular orbital theory to diene-dienophile combinations
+      - Recognize hetero-Diels-Alder variations
+    textbook_style_content:
+      - topic: The Diels-Alder Reaction
+        sections:
+          - section_title: Historical Background and Importance
+            section_type: overview
+          - section_title: Mechanism and Stereochemistry
+            section_type: core_theory
+          - section_title: Endo versus Exo Selectivity
+            section_type: core_theory
+          - section_title: Alder Rule and Secondary Orbital Interactions
+            section_type: core_theory
+      - topic: Regioselectivity in Diels-Alder Reactions
+        sections:
+          - section_title: Ortho, Meta, Para Orientation Prediction
+            section_type: core_theory
+          - section_title: FMO Analysis for Regioselectivity
+            section_type: core_theory
+          - section_title: Electronic Effects of Substituents
+            section_type: core_theory
+      - topic: Dienophile and Diene Reactivity
+        sections:
+          - section_title: Normal Electron Demand Diels-Alder
+            section_type: core_theory
+          - section_title: Inverse Electron Demand Diels-Alder
+            section_type: core_theory
+          - section_title: Activation and Acceleration Strategies
+            section_type: related_concepts
+      - topic: Stereochemistry and Conformational Control
+        sections:
+          - section_title: Syn Addition and Stereochemical Retention
+            section_type: core_theory
+          - section_title: Cisoid versus Transoid Diene Conformations
+            section_type: core_theory
+          - section_title: Stereogenic Center Formation
+            section_type: core_theory
+      - topic: Hetero-Diels-Alder Reactions
+        sections:
+          - section_title: Azadienes and Iminodienes
+            section_type: core_theory
+          - section_title: Oxadienes and Carbonyl Dienophiles
+            section_type: core_theory
+          - section_title: Applications in Heterocycle Synthesis
+            section_type: related_concepts
+    milestone: Achieve mastery in predicting and analyzing Diels-Alder reaction outcomes
+    duration_days: 6
+    tags:
+      - Diels-Alder
+      - regioselectivity
+      - endo-exo
+      - hetero-Diels-Alder
+
+  - id: 7
+    title: Other Cycloaddition Reactions
+    learning_objectives:
+      - Understand [2+2] cycloadditions under thermal and photochemical conditions
+      - Master 1,3-dipolar cycloadditions and their applications
+      - Explore [2+2+2], [4+4], and other higher-order cycloadditions
+      - Analyze cheletropic reactions as special cycloaddition cases
+    textbook_style_content:
+      - topic: "Thermal [2+2] Cycloadditions"
+        sections:
+          - section_title: Orbital Symmetry Forbidden Nature
+            section_type: core_theory
+          - section_title: Ketene Cycloadditions
+            section_type: core_theory
+          - section_title: "Alkene-Alkene Thermal [2+2] Mechanisms"
+            section_type: core_theory
+      - topic: Photochemical [2+2] Cycloadditions
+        sections:
+          - section_title: Excited State Allowed Pathways
+            section_type: core_theory
+          - section_title: Paterno-Büchi Reaction
+            section_type: core_theory
+          - section_title: Synthetic Applications and Stereochemistry
+            section_type: core_theory
+      - topic: 1,3-Dipolar Cycloadditions
+        sections:
+          - section_title: Overview of 1,3-Dipoles
+            section_type: overview
+          - section_title: Azide Cycloadditions and Click Chemistry
+            section_type: core_theory
+          - section_title: Nitrone, Nitrile Oxide, and Diazo Compound Cycloadditions
+            section_type: core_theory
+          - section_title: Regioselectivity and FMO Control
+            section_type: core_theory
+      - topic: Higher-Order Cycloadditions
+        sections:
+          - section_title: "[6+4] Cycloadditions"
+            section_type: core_theory
+          - section_title: "[4+4] and [8+2] Cycloadditions"
+            section_type: core_theory
+          - section_title: "[2+2+2] Trimerizations"
+            section_type: related_concepts
+      - topic: Cheletropic Reactions
+        sections:
+          - section_title: Definition and Classification
+            section_type: overview
+          - section_title: SO2 and CO Extrusion/Addition Reactions
+            section_type: core_theory
+          - section_title: Carbene Additions to Alkenes
+            section_type: core_theory
+          - section_title: Linear versus Non-Linear Approaches
+            section_type: core_theory
+    milestone: Expand cycloaddition knowledge beyond Diels-Alder to diverse reaction types
+    duration_days: 6
+    tags:
+      - "[2+2] cycloaddition"
+      - 1,3-dipolar
+      - cheletropic
+      - photochemical
+
+  - id: 8
+    title: Sigmatropic Rearrangements - Theory and Classification
+    learning_objectives:
+      - Define and classify sigmatropic rearrangements by order [i,j]
+      - Apply selection rules to sigmatropic shifts
+      - Distinguish suprafacial and antarafacial migrations
+      - Understand the relationship between transition state geometry and stereochemistry
+    textbook_style_content:
+      - topic: Introduction to Sigmatropic Rearrangements
+        sections:
+          - section_title: Definition and Nomenclature
+            section_type: overview
+          - section_title: "Order Notation [i,j]"
+            section_type: core_theory
+          - section_title: Symmetry-Allowed Pathways Overview
+            section_type: core_theory
+      - topic: Orbital Symmetry in Sigmatropic Shifts
+        sections:
+          - section_title: Suprafacial and Antarafacial Terminology
+            section_type: core_theory
+          - section_title: Retention and Inversion at Migrating Centers
+            section_type: core_theory
+          - section_title: Selection Rules Based on Electron Count
+            section_type: core_theory
+      - topic: "[1,2] Sigmatropic Shifts"
+        sections:
+          - section_title: "Thermal [1,2] Shifts - Forbidden Nature"
+            section_type: core_theory
+          - section_title: Carbocation and Radical Mechanisms
+            section_type: related_concepts
+          - section_title: "Photochemical [1,2] Shifts"
+            section_type: core_theory
+      - topic: "[1,3] Sigmatropic Shifts"
+        sections:
+          - section_title: "Thermal [1,3] Hydrogen Shifts"
+            section_type: core_theory
+          - section_title: "Thermal [1,3] Carbon Shifts"
+            section_type: core_theory
+          - section_title: Suprafacial versus Antarafacial Pathways
+            section_type: core_theory
+      - topic: "[1,5] Sigmatropic Shifts"
+        sections:
+          - section_title: "Thermal [1,5] Hydrogen Shifts"
+            section_type: core_theory
+          - section_title: Stereochemistry and Suprafacial Nature
+            section_type: core_theory
+          - section_title: Examples in Natural Product Chemistry
+            section_type: related_concepts
+      - topic: "[1,7] and Higher-Order [1,j] Shifts"
+        sections:
+          - section_title: "[1,7] Hydrogen Shifts"
+            section_type: core_theory
+          - section_title: Antarafacial Geometry Requirements
+            section_type: core_theory
+          - section_title: Rare Examples and Observations
+            section_type: related_concepts
+    milestone: Master the classification and prediction of sigmatropic rearrangement pathways
+    duration_days: 5
+    tags:
+      - sigmatropic
+      - "[1,j] shifts"
+      - selection rules
+      - stereochemistry
+
+  - id: 9
+    title: "[3,3] Sigmatropic Rearrangements"
+    learning_objectives:
+      - Master the mechanisms of Cope and Claisen rearrangements
+      - Predict stereochemical outcomes in [3,3] sigmatropic shifts
+      - Apply oxy-Cope, anionic oxy-Cope, and related variations
+      - Analyze chair and boat transition states
+    textbook_style_content:
+      - topic: The Cope Rearrangement
+        sections:
+          - section_title: General Mechanism and Chair Transition State
+            section_type: core_theory
+          - section_title: Boat Transition State Alternative
+            section_type: core_theory
+          - section_title: Stereochemistry of the Cope Rearrangement
+            section_type: core_theory
+          - section_title: Substituent Effects and Driving Forces
+            section_type: core_theory
+      - topic: Oxy-Cope and Anionic Oxy-Cope Rearrangements
+        sections:
+          - section_title: Oxy-Cope Mechanism
+            section_type: core_theory
+          - section_title: Anionic Oxy-Cope Acceleration
+            section_type: core_theory
+          - section_title: Synthetic Applications
+            section_type: related_concepts
+      - topic: The Claisen Rearrangement
+        sections:
+          - section_title: Overview and Historical Context
+            section_type: overview
+          - section_title: Aliphatic Claisen Rearrangement
+            section_type: core_theory
+          - section_title: Aromatic Claisen Rearrangement
+            section_type: core_theory
+          - section_title: Chair versus Boat Transition States
+            section_type: core_theory
+      - topic: Variations of the Claisen Rearrangement
+        sections:
+          - section_title: Carroll Rearrangement
+            section_type: core_theory
+          - section_title: Eschenmoser-Claisen Rearrangement
+            section_type: core_theory
+          - section_title: Johnson-Claisen Rearrangement
+            section_type: core_theory
+          - section_title: Ireland-Claisen Rearrangement
+            section_type: core_theory
+      - topic: Stereochemical Analysis of [3,3] Shifts
+        sections:
+          - section_title: Prediction of Product Configuration
+            section_type: core_theory
+          - section_title: Transition State Geometry and Stereochemistry
+            section_type: core_theory
+          - section_title: Complex Systems and Multiple Stereocenters
+            section_type: core_theory
+    milestone: Achieve expertise in Cope and Claisen rearrangements and their variations
+    duration_days: 6
+    tags:
+      - Cope rearrangement
+      - Claisen rearrangement
+      - "[3,3] shifts"
+      - named reactions
+
+  - id: 10
+    title: Additional Sigmatropic Rearrangements and Complex Cases
+    learning_objectives:
+      - Understand [2,3] sigmatropic rearrangements and their mechanisms
+      - Master [3,5] and [5,5] sigmatropic shifts
+      - Analyze systems with multiple possible sigmatropic pathways
+      - Apply sigmatropic concepts to complex synthetic problems
+    textbook_style_content:
+      - topic: "[2,3] Sigmatropic Rearrangements"
+        sections:
+          - section_title: "Overview of [2,3] Shifts"
+            section_type: overview
+          - section_title: Wittig Rearrangement
+            section_type: core_theory
+          - section_title: "[2,3]-Sigmatropic Rearrangement of Ylides"
+            section_type: core_theory
+          - section_title: Sulfoxide-Sulfenate and Related Rearrangements
+            section_type: core_theory
+      - topic: Higher-Order [i,j] Sigmatropic Shifts
+        sections:
+          - section_title: "[3,5] Sigmatropic Shifts"
+            section_type: core_theory
+          - section_title: "[5,5] Sigmatropic Shifts"
+            section_type: core_theory
+          - section_title: Selection Rules for Higher-Order Processes
+            section_type: core_theory
+      - topic: Tandem and Cascade Sigmatropic Processes
+        sections:
+          - section_title: Sequential Sigmatropic Rearrangements
+            section_type: core_theory
+          - section_title: Competition Between Different Pathways
+            section_type: core_theory
+          - section_title: Complex Natural Product Synthesis Examples
+            section_type: related_concepts
+      - topic: Special Topics in Sigmatropic Chemistry
+        sections:
+          - section_title: Heteroatom Migration
+            section_type: core_theory
+          - section_title: Ene Reactions as Related Processes
+            section_type: core_theory
+          - section_title: Fluxional Molecules and Degenerate Rearrangements
+            section_type: related_concepts
+    milestone: Complete mastery of all major sigmatropic rearrangement types
+    duration_days: 5
+    tags:
+      - "[2,3] shifts"
+      - Wittig rearrangement
+      - higher-order shifts
+      - complex systems
+
+  - id: 11
+    title: Other Concerted Reactions and Related Processes
+    learning_objectives:
+      - Understand ene reactions and their mechanisms
+      - Master group transfer reactions
+      - Explore chelotropic eliminations and additions
+      - Recognize pseudopericyclic reactions
+    textbook_style_content:
+      - topic: The Ene Reaction
+        sections:
+          - section_title: Definition and Mechanism
+            section_type: overview
+          - section_title: Thermal Ene Reactions
+            section_type: core_theory
+          - section_title: Retro-Ene Reactions
+            section_type: core_theory
+          - section_title: Stereochemistry and Regiochemistry
+            section_type: core_theory
+      - topic: Metallo-Ene and Hetero-Ene Reactions
+        sections:
+          - section_title: Carbonyl-Ene Reactions
+            section_type: core_theory
+          - section_title: Imino-Ene Reactions
+            section_type: core_theory
+          - section_title: Metal-Catalyzed Ene Processes
+            section_type: related_concepts
+      - topic: Group Transfer Reactions
+        sections:
+          - section_title: Overview of Concerted Group Transfers
+            section_type: overview
+          - section_title: Hydrogen Transfer Reactions
+            section_type: core_theory
+          - section_title: Alkyl and Acyl Group Transfers
+            section_type: core_theory
+      - topic: Dyotropic Rearrangements
+        sections:
+          - section_title: Definition and Characteristics
+            section_type: core_theory
+          - section_title: Mechanisms and Examples
+            section_type: core_theory
+          - section_title: Relationship to Sigmatropic Shifts
+            section_type: related_concepts
+      - topic: Pseudopericyclic Reactions
+        sections:
+          - section_title: Definition and Distinguishing Features
+            section_type: overview
+          - section_title: Orbital Disconnections
+            section_type: core_theory
+          - section_title: Examples and Mechanisms
+            section_type: core_theory
+    milestone: Expand understanding to encompass all concerted reaction types
+    duration_days: 4
+    tags:
+      - ene reaction
+      - group transfer
+      - dyotropic
+      - pseudopericyclic
+
+  - id: 12
+    title: Comprehensive Problem-Solving and Synthesis Applications
+    learning_objectives:
+      - Integrate knowledge of all pericyclic reaction types
+      - Solve complex multi-step problems involving pericyclic processes
+      - Apply retrosynthetic analysis using pericyclic disconnections
+      - Master CSIR examination-style questions
+    textbook_style_content:
+      - topic: Identifying Pericyclic Reaction Types
+        sections:
+          - section_title: Systematic Approach to Mechanism Identification
+            section_type: overview
+          - section_title: Distinguishing Between Reaction Classes
+            section_type: core_theory
+          - section_title: Recognizing Competing Pathways
+            section_type: core_theory
+      - topic: Stereochemical Problem-Solving
+        sections:
+          - section_title: Step-by-Step Stereochemical Analysis
+            section_type: core_theory
+          - section_title: Predicting Complex Stereochemical Outcomes
+            section_type: core_theory
+          - section_title: Analyzing Multiple Stereocenters
+            section_type: core_theory
+      - topic: Retrosynthetic Analysis with Pericyclic Reactions
+        sections:
+          - section_title: Key Pericyclic Disconnections
+            section_type: core_theory
+          - section_title: Strategic Use in Total Synthesis
+            section_type: core_theory
+          - section_title: Case Studies from Natural Product Synthesis
+            section_type: related_concepts
+      - topic: Tandem and Cascade Pericyclic Processes
+        sections:
+          - section_title: Designing Sequential Pericyclic Reactions
+            section_type: core_theory
+          - section_title: Domino Reactions in Synthesis
+            section_type: core_theory
+          - section_title: One-Pot Multiple Pericyclic Transformations
+            section_type: related_concepts
+      - topic: Advanced CSIR Problem Types
+        sections:
+          - section_title: Mechanism Prediction Questions
+            section_type: core_theory
+          - section_title: Product Prediction with Stereochemistry
+            section_type: core_theory
+          - section_title: Comparison of Thermal and Photochemical Pathways
+            section_type: core_theory
+          - section_title: Integration with Other Reaction Types
+            section_type: related_concepts
+    milestone: Achieve comprehensive mastery ready for CSIR Chemical Sciences examination
+    duration_days: 7
+    tags:
+      - problem-solving
+      - synthesis
+      - CSIR preparation
+      - integration
+
+  - id: 13
+    title: Special Topics and Advanced Concepts
+    learning_objectives:
+      - Explore frontier research areas in pericyclic chemistry
+      - Understand computational approaches to pericyclic reactions
+      - Master Lewis acid catalysis of pericyclic processes
+      - Analyze biomimetic pericyclic reactions
+    textbook_style_content:
+      - topic: Catalyzed Pericyclic Reactions
+        sections:
+          - section_title: Lewis Acid Catalyzed Diels-Alder Reactions
+            section_type: core_theory
+          - section_title: Organocatalytic Pericyclic Processes
+            section_type: core_theory
+          - section_title: Transition Metal Catalysis
+            section_type: related_concepts
+      - topic: Computational Methods
+        sections:
+          - section_title: DFT Studies of Pericyclic Reactions
+            section_type: overview
+          - section_title: Transition State Calculations
+            section_type: related_concepts
+          - section_title: Energy Barriers and Rate Predictions
+            section_type: related_concepts
+      - topic: Pericyclic Reactions in Biological Systems
+        sections:
+          - section_title: Enzymatic Diels-Alder Reactions
+            section_type: core_theory
+          - section_title: Biosynthetic Pathways Involving Pericyclic Steps
+            section_type: core_theory
+          - section_title: Chorismate Mutase and Claisen Rearrangements
+            section_type: core_theory
+      - topic: Exotic and Unusual Pericyclic Processes
+        sections:
+          - section_title: Inverse Electron Demand Hetero-Diels-Alder
+            section_type: core_theory
+          - section_title: Higher-Order Cycloadditions
+            section_type: core_theory
+          - section_title: Non-Classical Pericyclic Reactions
+            section_type: related_concepts
+      - topic: Review and Integration
+        sections:
+          - section_title: Comprehensive Summary of All Reaction Types
+            section_type: overview
+          - section_title: Unified Approach to Pericyclic Chemistry
+            section_type: core_theory
+          - section_title: Future Directions and Applications
+            section_type: related_concepts
+    milestone: Complete advanced understanding suitable for research and specialized applications
+    duration_days: 5
+    tags:
+      - catalysis
+      - computational
+      - biosynthesis
+      - advanced topics

@@ -1,0 +1,154 @@
+#!/usr/bin/env python3
+"""
+Generate HTML files with study notes and MCQ links from YAML concept files.
+"""
+
+import yaml
+import csv
+import os
+import argparse
+from pathlib import Path
+
+
+def load_csv_mapping(csv_path):
+    """Load the batch.csv file and create a mapping of filename_prefix to lesson/topic."""
+    mapping = {}
+    with open(csv_path, 'r', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            if len(row) >= 2:
+                lesson_topic = row[0].strip()
+                filename_prefix = row[1].strip()
+                mapping[filename_prefix] = lesson_topic
+    return mapping
+
+
+def convert_to_snake_case(text):
+    """Convert text to snake_case."""
+    return text.lower().replace(' ', '_').replace('-', '_')
+
+
+def generate_html_for_concept(concept, metadata, lesson_topic, subject_snake):
+    """Generate HTML links for a single concept."""
+    concept_name = concept['name']
+    concept_name_snake = convert_to_snake_case(concept['name'])
+    lesson_topic_snake = convert_to_snake_case(lesson_topic)
+    clarifier = concept['clarifier']
+
+    # Study Notes link
+    study_notes = f'<a href="#" \nclass="notes-link" \ndata-function="ask_agent" \ndata-subject="{subject_snake}" \ndata-topic="{lesson_topic_snake}" \ndata-lesson="{concept_name}" \ndata-tags="{concept_name_snake}" \ndata-agent-text="Generate detailed study notes: {clarifier}">Study Notes</a>'
+
+    # MCQ Basic link
+    mcq_basic = f'<a href="#" \nclass="mcq-flashcard-link" \ndata-function="mcq_widget"\ndata-level="basic"\ndata-number="5" \ndata-subject="{subject_snake}" \ndata-topic="{lesson_topic_snake}" \ndata-lesson="{concept_name}" \ndata-tags="{concept_name_snake}" \ndata-agent-text="Generate Basic MCQ: {clarifier}">MCQ Basic</a>'
+
+    # MCQ Intermediate link
+    mcq_intermediate = f'<a href="#" \nclass="mcq-flashcard-link" \ndata-function="mcq_widget"\ndata-level="intermediate"\ndata-number="3" \ndata-subject="{subject_snake}" \ndata-topic="{lesson_topic_snake}" \ndata-lesson="{concept_name}" \ndata-tags="{concept_name_snake}" \ndata-agent-text="Generate Intermediate MCQ: {clarifier}">MCQ Intermediate</a>'
+
+    # MCQ Advanced link
+    mcq_advanced = f'<a href="#" \nclass="mcq-flashcard-link" \ndata-function="mcq_widget"\ndata-level="advanced"\ndata-number="2" \ndata-subject="{subject_snake}" \ndata-topic="{lesson_topic_snake}" \ndata-lesson="{concept_name}" \ndata-tags="{concept_name_snake}" \ndata-agent-text="Generate Advanced MCQ: {clarifier}">MCQ Advanced</a>'
+
+    # Combine all links
+    all_links = f"<i class=\"fa fa-asterisk\" style=\"color: green\"></i>  Topic: {lesson_topic}\n <i class=\"fa fa-pen-to-square\" style=\"color: tomato\"></i>  Lesson: {concept_name} \n <i class=\"fa fa-angles-right\" style=\"color: blue\"></i>  Clarification: {clarifier} \n Show: {study_notes} | {mcq_basic} | {mcq_intermediate} | {mcq_advanced}"
+
+    return f"<li style=\"white-space: pre;\">{all_links}</li><br><br>"
+
+
+def process_yaml_file(yaml_path, csv_mapping, output_folder):
+    """Process a single YAML file and generate HTML output."""
+    # Extract filename prefix (e.g., "unit_01" from "unit_01_concepts.yaml")
+    filename = os.path.basename(yaml_path)
+    filename_prefix = filename.replace('_concepts.yaml', '').replace('_concept.yaml', '').replace('.yaml', '')
+
+    # Get lesson/topic from CSV mapping
+    if filename_prefix not in csv_mapping:
+        print(f"Warning: No mapping found for {filename_prefix} in batch.csv")
+        return
+
+    lesson_topic = csv_mapping[filename_prefix]
+
+    # Load YAML file
+    with open(yaml_path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+
+    # Extract metadata
+    metadata = data.get('metadata', {})
+    subject = metadata.get('subject', '')
+    subject_snake = convert_to_snake_case(subject)
+    syllabus_line = metadata.get('syllabus_line', '')
+
+    # Extract concepts
+    concepts = data.get('concepts', {})
+    core_concepts = concepts.get('core', [])
+    related_concepts = concepts.get('related', [])
+
+    # Generate HTML
+    html_content = f'<h4><blockquote>{syllabus_line}</blockquote></h4><hr><br>\n'
+
+    # Process Core Concepts
+    if core_concepts:
+        html_content += '<h3>Core Concepts</h3>\n<ol>\n'
+        for concept in core_concepts:
+            html_content += generate_html_for_concept(concept, metadata, lesson_topic, subject_snake)
+            html_content += "\n"
+        html_content += "</ol>\n\n"
+
+    # Process Related Concepts
+    if related_concepts:
+        html_content += '<h3>Related Concepts</h3>\n<ol>\n'
+        for concept in related_concepts:
+            html_content += generate_html_for_concept(concept, metadata, lesson_topic, subject_snake)
+            html_content += "\n"
+        html_content += "</ol>"
+
+    # Save HTML file
+    output_path = os.path.join(output_folder, f"{filename_prefix}_concepts.html")
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+
+    print(f"Generated: {output_path}")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description='Generate HTML files from YAML concept files using batch.csv mapping'
+    )
+    parser.add_argument('--folder', required=True, help='Folder containing YAML files')
+
+    args = parser.parse_args()
+
+    folder_path = args.folder
+
+    # Check if folder exists
+    if not os.path.exists(folder_path):
+        print(f"Error: Folder '{folder_path}' does not exist")
+        return
+
+    # Load CSV mapping
+    csv_path = os.path.join(folder_path, 'batch.csv')
+    if not os.path.exists(csv_path):
+        print(f"Error: batch.csv not found in '{folder_path}'")
+        return
+
+    csv_mapping = load_csv_mapping(csv_path)
+    print(f"Loaded {len(csv_mapping)} mappings from batch.csv")
+
+    # Process all YAML files in the folder (support both _concepts.yaml and _concept.yaml)
+    yaml_files = list(Path(folder_path).glob('*_concepts.yaml')) + list(Path(folder_path).glob('*_concept.yaml')) + list(Path(folder_path).glob('*.yaml'))
+
+    # Remove duplicates
+    yaml_files = list(set(yaml_files))
+
+    if not yaml_files:
+        print(f"No *_concepts.yaml or *_concept.yaml files found in '{folder_path}'")
+        return
+
+    print(f"Found {len(yaml_files)} YAML files to process")
+
+    for yaml_file in yaml_files:
+        process_yaml_file(str(yaml_file), csv_mapping, folder_path)
+
+    print(f"\nProcessing complete! HTML files saved in '{folder_path}'")
+
+
+if __name__ == '__main__':
+    main()

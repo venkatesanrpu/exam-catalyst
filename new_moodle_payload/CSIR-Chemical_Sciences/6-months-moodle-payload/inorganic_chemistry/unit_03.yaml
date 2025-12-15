@@ -1,0 +1,287 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Concepts of acids and bases, Hard-Soft acid base concept, Non-aqueous solvents
+
+concepts:
+  core:
+    - name: Arrhenius theory of acids and bases
+      clarifier: Definition based on H+ and OH- ions in aqueous solutions
+    - name: Brønsted-Lowry theory
+      clarifier: Proton donor-acceptor concept and conjugate acid-base pairs
+    - name: Lewis theory of acids and bases
+      clarifier: Electron pair acceptor-donor interactions
+    - name: Hard-Soft Acid-Base (HSAB) principle
+      clarifier: Classification and interaction preferences based on polarizability
+    - name: Non-aqueous solvent systems
+      clarifier: Properties, classification, and acid-base behavior in non-aqueous media
+  related:
+    - name: Solvent leveling and differentiating effects
+      clarifier: How solvents affect acid-base strength measurements
+    - name: Donor number and acceptor number
+      clarifier: Quantitative measures of solvent basicity and acidity
+    - name: Pearson's HSAB theory
+      clarifier: Quantitative aspects and symbiosis effect
+    - name: Coordination chemistry
+      clarifier: Ligand-metal interactions in context of acid-base behavior
+    - name: Electronegativity and polarizability
+      clarifier: Electronic properties governing hard-soft classification
+    - name: Protic and aprotic solvents
+      clarifier: Classification based on proton donation ability
+    - name: Acid-base reactions in ionic liquids
+      clarifier: Modern applications in non-conventional media
+
+learning_path:
+  - id: 1
+    title: Foundations of Acid-Base Theories
+    learning_objectives:
+      - Understand and compare Arrhenius, Brønsted-Lowry, and Lewis definitions of acids and bases
+      - Identify the limitations of each theory and their scope of application
+      - Recognize conjugate acid-base pairs and their relationships
+    textbook_style_content:
+      - topic: Classical Acid-Base Theories
+        sections:
+          - section_title: Historical Development of Acid-Base Concepts
+            section_type: overview
+          - section_title: Arrhenius Theory - Definitions and Limitations
+            section_type: core_theory
+          - section_title: Brønsted-Lowry Theory - Proton Transfer Mechanism
+            section_type: core_theory
+          - section_title: Conjugate Acid-Base Pairs and Amphoterism
+            section_type: core_theory
+    milestone: Master classical acid-base definitions and identify conjugate pairs
+    duration_days: 3
+    tags:
+      - acid-base theory
+      - Arrhenius
+      - Brønsted-Lowry
+      - conjugate pairs
+
+  - id: 2
+    title: Lewis Theory and Electronic Concepts
+    learning_objectives:
+      - Define Lewis acids and bases based on electron pair transfer
+      - Apply Lewis theory to reactions beyond proton transfer
+      - Understand the relationship between Lewis theory and coordination chemistry
+    textbook_style_content:
+      - topic: Lewis Acid-Base Theory
+        sections:
+          - section_title: Electron Pair Acceptor-Donor Concept
+            section_type: core_theory
+          - section_title: Examples of Lewis Acids and Bases
+            section_type: core_theory
+          - section_title: Lewis Theory in Coordination Compounds
+            section_type: related_concepts
+          - section_title: Comparison of Lewis with Brønsted-Lowry Theory
+            section_type: overview
+    milestone: Apply Lewis acid-base concepts to diverse chemical reactions
+    duration_days: 4
+    tags:
+      - Lewis theory
+      - electron pairs
+      - coordination chemistry
+
+  - id: 3
+    title: Introduction to HSAB Principle
+    learning_objectives:
+      - Understand the classification of acids and bases as hard or soft
+      - Learn the electronic basis for hard-soft classification
+      - Apply the HSAB principle to predict reaction preferences
+    textbook_style_content:
+      - topic: Hard-Soft Acid-Base Theory
+        sections:
+          - section_title: Pearson's HSAB Principle - Overview
+            section_type: overview
+          - section_title: Classification Criteria - Electronegativity and Polarizability
+            section_type: core_theory
+          - section_title: Hard Acids and Hard Bases
+            section_type: core_theory
+          - section_title: Soft Acids and Soft Bases
+            section_type: core_theory
+          - section_title: Borderline Species
+            section_type: core_theory
+    milestone: Classify chemical species as hard, soft, or borderline
+    duration_days: 5
+    tags:
+      - HSAB principle
+      - hard-soft classification
+      - Pearson theory
+
+  - id: 4
+    title: Applications and Quantitative Aspects of HSAB
+    learning_objectives:
+      - Apply HSAB principle to predict stability of complexes and reaction outcomes
+      - Understand the symbiosis effect in coordination chemistry
+      - Analyze trends in metal-ligand bonding using HSAB concepts
+    textbook_style_content:
+      - topic: HSAB Applications in Inorganic Chemistry
+        sections:
+          - section_title: Predicting Reaction Pathways and Product Stability
+            section_type: core_theory
+          - section_title: Metal-Ligand Stability and Chelate Effect
+            section_type: core_theory
+          - section_title: Symbiosis Effect in Mixed Ligand Complexes
+            section_type: related_concepts
+          - section_title: HSAB in Metallurgy and Environmental Chemistry
+            section_type: related_concepts
+    milestone: Predict and explain reaction outcomes using HSAB principles
+    duration_days: 4
+    tags:
+      - HSAB applications
+      - complex stability
+      - symbiosis effect
+
+  - id: 5
+    title: Classification of Non-Aqueous Solvents
+    learning_objectives:
+      - Classify non-aqueous solvents based on chemical properties
+      - Understand protic versus aprotic solvent characteristics
+      - Learn about protogenic, protophilic, amphiprotic, and aprotic solvents
+    textbook_style_content:
+      - topic: Non-Aqueous Solvent Systems
+        sections:
+          - section_title: Introduction to Non-Aqueous Solvents
+            section_type: overview
+          - section_title: Classification Schemes - Protic and Aprotic
+            section_type: core_theory
+          - section_title: Protogenic Solvents - Examples and Properties
+            section_type: core_theory
+          - section_title: Protophilic Solvents - Examples and Properties
+            section_type: core_theory
+          - section_title: Amphiprotic Solvents - Self-Ionization
+            section_type: core_theory
+          - section_title: Aprotic Solvents - Dipolar and Non-Polar
+            section_type: core_theory
+    milestone: Classify and characterize different types of non-aqueous solvents
+    duration_days: 5
+    tags:
+      - non-aqueous solvents
+      - solvent classification
+      - protic solvents
+
+  - id: 6
+    title: Solvent Properties and Acid-Base Behavior
+    learning_objectives:
+      - Understand dielectric constant, donor number, and acceptor number
+      - Explain leveling and differentiating effects in different solvents
+      - Analyze how solvent properties affect acid-base strength
+    textbook_style_content:
+      - topic: Solvent Effects on Acid-Base Behavior
+        sections:
+          - section_title: Key Solvent Properties - Dielectric Constant and Polarity
+            section_type: core_theory
+          - section_title: Donor Number and Acceptor Number
+            section_type: core_theory
+          - section_title: Leveling Effect in Solvents
+            section_type: core_theory
+          - section_title: Differentiating Effect in Solvents
+            section_type: core_theory
+          - section_title: Solvent Basicity and Acidity Scales
+            section_type: related_concepts
+    milestone: Predict and explain solvent effects on acid-base reactions
+    duration_days: 4
+    tags:
+      - solvent effects
+      - leveling effect
+      - donor-acceptor numbers
+
+  - id: 7
+    title: Specific Non-Aqueous Solvent Systems
+    learning_objectives:
+      - Study acid-base chemistry in liquid ammonia systems
+      - Understand reactions in sulfuric acid and other protogenic solvents
+      - Learn about aprotic solvents like acetonitrile and DMSO
+    textbook_style_content:
+      - topic: Common Non-Aqueous Solvent Systems
+        sections:
+          - section_title: Liquid Ammonia - Properties and Reactions
+            section_type: core_theory
+          - section_title: Sulfuric Acid as Solvent - Superacid Behavior
+            section_type: core_theory
+          - section_title: Acetic Acid and Glacial Acetic Acid Systems
+            section_type: core_theory
+          - section_title: Dimethyl Sulfoxide (DMSO) and Acetonitrile
+            section_type: core_theory
+          - section_title: Ionic Liquids as Designer Solvents
+            section_type: related_concepts
+    milestone: Analyze acid-base reactions in specific non-aqueous media
+    duration_days: 6
+    tags:
+      - liquid ammonia
+      - sulfuric acid
+      - aprotic solvents
+      - DMSO
+
+  - id: 8
+    title: Acid-Base Reactions in Non-Aqueous Media
+    learning_objectives:
+      - Apply acid-base theories to reactions in non-aqueous solvents
+      - Understand solvent autoionization and equilibria
+      - Predict reaction outcomes based on solvent properties
+    textbook_style_content:
+      - topic: Acid-Base Chemistry in Different Solvents
+        sections:
+          - section_title: Autoionization of Non-Aqueous Solvents
+            section_type: core_theory
+          - section_title: Acid-Base Equilibria in Ammonia
+            section_type: core_theory
+          - section_title: Neutralization Reactions in Non-Aqueous Systems
+            section_type: core_theory
+          - section_title: Solvolysis Reactions
+            section_type: related_concepts
+          - section_title: Precipitation and Complexation in Non-Aqueous Media
+            section_type: related_concepts
+    milestone: Master acid-base reaction mechanisms in non-aqueous environments
+    duration_days: 5
+    tags:
+      - acid-base reactions
+      - solvent autoionization
+      - solvolysis
+
+  - id: 9
+    title: Integration of HSAB and Solvent Effects
+    learning_objectives:
+      - Integrate HSAB principles with solvent effects on reactions
+      - Analyze complex formation in different solvent media
+      - Apply combined concepts to solve advanced problems
+    textbook_style_content:
+      - topic: Advanced Integration of Concepts
+        sections:
+          - section_title: HSAB Considerations in Solvent Selection
+            section_type: overview
+          - section_title: Hard-Soft Interactions Modified by Solvent
+            section_type: core_theory
+          - section_title: Coordination Chemistry in Non-Aqueous Solvents
+            section_type: related_concepts
+          - section_title: Spectroscopic Studies in Different Media
+            section_type: related_concepts
+    milestone: Synthesize multiple concepts to explain complex chemical behavior
+    duration_days: 4
+    tags:
+      - integration
+      - HSAB in solvents
+      - advanced applications
+
+  - id: 10
+    title: Applications and Problem-Solving
+    learning_objectives:
+      - Solve CSIR-level problems on acid-base theories
+      - Apply concepts to synthetic and analytical chemistry
+      - Analyze research-level questions and scenarios
+    textbook_style_content:
+      - topic: Comprehensive Applications
+        sections:
+          - section_title: Problem-Solving Strategies for CSIR Exam
+            section_type: overview
+          - section_title: Applications in Synthesis and Catalysis
+            section_type: related_concepts
+          - section_title: Environmental and Biological Applications
+            section_type: related_concepts
+          - section_title: Practice Problems and Solutions
+            section_type: core_theory
+    milestone: Demonstrate mastery through problem-solving and applications
+    duration_days: 5
+    tags:
+      - problem-solving
+      - CSIR preparation
+      - applications

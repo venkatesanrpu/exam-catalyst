@@ -1,0 +1,470 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Solid state: Crystal structures; Bragg's law and applications; point groups in crystals; band structure of solids; imperfections in solids"
+
+concepts:
+  core:
+    - name: Crystal structures
+      clarifier: Three-dimensional arrangement of atoms, ions, or molecules in crystalline solids including unit cells, lattice systems, and common crystal structures
+    - name: Bragg's law
+      clarifier: Fundamental law governing X-ray diffraction from crystal planes, relating wavelength, angle of incidence, and interplanar spacing
+    - name: Point groups in crystals
+      clarifier: Symmetry operations and their combinations that leave at least one point in space unchanged, classification of crystal symmetry
+    - name: Band structure of solids
+      clarifier: Energy band formation from atomic orbitals, distinction between conductors, semiconductors, and insulators based on band gaps
+    - name: Imperfections in solids
+      clarifier: Point defects, line defects, surface defects, and volume defects in crystalline materials and their effects on properties
+  related:
+    - name: Unit cells and Bravais lattices
+      clarifier: Seven crystal systems and fourteen Bravais lattices representing all possible space-filling patterns
+    - name: Miller indices
+      clarifier: Notation system for describing crystallographic planes and directions in crystals
+    - name: X-ray diffraction techniques
+      clarifier: Experimental methods including powder diffraction, single crystal diffraction, and structure determination
+    - name: Space groups
+      clarifier: Combination of point group symmetry with translational symmetry operations in three dimensions
+    - name: Reciprocal lattice
+      clarifier: Fourier transform of real lattice used in diffraction theory and band structure calculations
+    - name: Fermi level and band gaps
+      clarifier: Highest occupied energy level at absolute zero and energy separation between valence and conduction bands
+    - name: Bloch's theorem
+      clarifier: Wave function behavior of electrons in periodic potentials forming basis of band theory
+    - name: Defect chemistry
+      clarifier: Thermodynamics and kinetics of defect formation, migration, and their influence on material properties
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Crystal Structures and Lattice Systems
+    learning_objectives:
+      - Define crystalline solids and distinguish them from amorphous materials based on long-range order
+      - Identify and describe the seven crystal systems and their characteristic symmetry elements
+      - Explain the concept of unit cells and their relationship to crystal lattices
+      - Classify the fourteen Bravais lattices based on centering and symmetry
+      - Calculate atomic packing factors for common crystal structures including FCC, BCC, HCP, and diamond cubic
+      - Determine coordination numbers and nearest neighbor distances in various crystal structures
+      - Apply Miller indices notation to describe crystallographic planes and directions
+    textbook_style_content:
+      - topic: Introduction to Crystalline Solids
+        sections:
+          - section_title: Characteristics of Crystalline vs. Amorphous Solids
+            section_type: overview
+          - section_title: Long-Range Order and Periodicity
+            section_type: core_theory
+          - section_title: Anisotropy in Crystal Properties
+            section_type: related concepts
+      - topic: Crystal Lattices and Unit Cells
+        sections:
+          - section_title: Lattice Points and Translation Vectors
+            section_type: core_theory
+          - section_title: Primitive and Non-Primitive Unit Cells
+            section_type: core_theory
+          - section_title: Choice of Unit Cell and Conventions
+            section_type: related concepts
+      - topic: Seven Crystal Systems
+        sections:
+          - section_title: Cubic, Tetragonal, and Orthorhombic Systems
+            section_type: core_theory
+          - section_title: Monoclinic, Triclinic, Hexagonal, and Rhombohedral Systems
+            section_type: core_theory
+          - section_title: Axial Relationships and Interfacial Angles
+            section_type: core_theory
+      - topic: Bravais Lattices
+        sections:
+          - section_title: Fourteen Space-Filling Arrangements
+            section_type: overview
+          - section_title: Primitive, Body-Centered, Face-Centered, and Base-Centered Lattices
+            section_type: core_theory
+          - section_title: Symmetry Requirements for Each Bravais Lattice
+            section_type: core_theory
+      - topic: Common Crystal Structures
+        sections:
+          - section_title: Simple Cubic, Body-Centered Cubic, and Face-Centered Cubic
+            section_type: core_theory
+          - section_title: Hexagonal Close-Packed and Cubic Close-Packed Structures
+            section_type: core_theory
+          - section_title: Diamond, Zinc Blende, Wurtzite, Rock Salt, Cesium Chloride, and Fluorite Structures
+            section_type: core_theory
+          - section_title: Coordination Numbers and Interstitial Sites
+            section_type: related concepts
+      - topic: Crystallographic Notation
+        sections:
+          - section_title: Miller Indices for Planes
+            section_type: core_theory
+          - section_title: Direction Indices and Zone Axes
+            section_type: core_theory
+          - section_title: Interplanar Spacing Calculations
+            section_type: core_theory
+          - section_title: Hexagonal Miller-Bravais Indices
+            section_type: related concepts
+    milestone: Master the geometric description of crystalline solids and be able to identify, classify, and calculate structural parameters for common crystal types
+    duration_days: 12
+    tags:
+      - crystal structures
+      - unit cells
+      - Bravais lattices
+      - Miller indices
+      - packing factor
+      - coordination number
+
+  - id: 2
+    title: X-ray Crystallography and Bragg's Law
+    learning_objectives:
+      - Explain the physical basis of X-ray diffraction by crystal planes
+      - Derive Bragg's law from first principles and understand its geometric interpretation
+      - Apply Bragg's law to determine interplanar spacings from diffraction angles
+      - Distinguish between allowed and forbidden reflections using structure factor calculations
+      - Analyze powder X-ray diffraction patterns to identify crystal structures
+      - Determine lattice parameters from diffraction data for cubic, tetragonal, and orthorhombic systems
+      - Understand the reciprocal lattice and its relationship to diffraction patterns
+      - Explain systematic absences and their relationship to crystal symmetry
+    textbook_style_content:
+      - topic: Nature of X-rays and Interaction with Matter
+        sections:
+          - section_title: X-ray Generation and Characteristic Radiation
+            section_type: overview
+          - section_title: Scattering of X-rays by Electrons
+            section_type: core_theory
+          - section_title: Coherent vs. Incoherent Scattering
+            section_type: related concepts
+      - topic: Derivation and Understanding of Bragg's Law
+        sections:
+          - section_title: Geometric Derivation of Bragg Equation
+            section_type: core_theory
+          - section_title: Conditions for Constructive Interference
+            section_type: core_theory
+          - section_title: Relationship Between nλ = 2d sinθ and Physical Parameters
+            section_type: core_theory
+          - section_title: First Order vs. Higher Order Reflections
+            section_type: related concepts
+      - topic: Structure Factor and Reflection Intensities
+        sections:
+          - section_title: Atomic Scattering Factor
+            section_type: core_theory
+          - section_title: Calculation of Structure Factor for Different Lattices
+            section_type: core_theory
+          - section_title: Systematic Absences and Extinction Rules
+            section_type: core_theory
+          - section_title: Temperature Factor and Debye-Waller Factor
+            section_type: related concepts
+      - topic: Powder X-ray Diffraction
+        sections:
+          - section_title: Debye-Scherrer Method and Powder Diffractometers
+            section_type: overview
+          - section_title: Indexing Powder Patterns
+            section_type: core_theory
+          - section_title: Determination of Lattice Parameters
+            section_type: core_theory
+          - section_title: Phase Identification Using Database Matching
+            section_type: related concepts
+      - topic: Reciprocal Lattice
+        sections:
+          - section_title: Definition and Construction of Reciprocal Lattice
+            section_type: core_theory
+          - section_title: Ewald Sphere and Diffraction Geometry
+            section_type: core_theory
+          - section_title: Relationship to Direct Lattice
+            section_type: related concepts
+      - topic: Advanced Diffraction Methods
+        sections:
+          - section_title: Single Crystal X-ray Diffraction
+            section_type: overview
+          - section_title: Neutron and Electron Diffraction
+            section_type: related concepts
+          - section_title: Rietveld Refinement
+            section_type: related concepts
+    milestone: Apply Bragg's law confidently to solve diffraction problems, analyze powder patterns, and determine crystal structures from experimental data
+    duration_days: 10
+    tags:
+      - Bragg's law
+      - X-ray diffraction
+      - structure factor
+      - reciprocal lattice
+      - powder diffraction
+      - systematic absences
+
+  - id: 3
+    title: Symmetry Operations and Point Groups in Crystals
+    learning_objectives:
+      - Define and perform symmetry operations including rotation, reflection, inversion, and rotoinversion
+      - Identify all symmetry elements present in a given crystal structure
+      - Apply group theory concepts to classify crystal point groups
+      - Distinguish between the 32 crystallographic point groups
+      - Relate point group symmetry to physical properties like optical activity and piezoelectricity
+      - Understand the relationship between point groups and space groups
+      - Use Hermann-Mauguin and Schoenflies notation for symmetry operations
+      - Predict the absence or presence of physical properties based on symmetry constraints
+    textbook_style_content:
+      - topic: Fundamental Symmetry Operations
+        sections:
+          - section_title: Translation, Rotation, Reflection, and Inversion
+            section_type: core_theory
+          - section_title: Proper and Improper Rotations
+            section_type: core_theory
+          - section_title: Rotoinversion and Mirror-Rotation Operations
+            section_type: core_theory
+          - section_title: Identity Operation and Its Significance
+            section_type: related concepts
+      - topic: Symmetry Elements in Crystals
+        sections:
+          - section_title: Rotation Axes (1-fold, 2-fold, 3-fold, 4-fold, 6-fold)
+            section_type: core_theory
+          - section_title: Mirror Planes and Inversion Centers
+            section_type: core_theory
+          - section_title: Rotoinversion Axes and Their Equivalences
+            section_type: core_theory
+          - section_title: Crystallographic Restriction Theorem
+            section_type: related concepts
+      - topic: Point Groups and Their Classification
+        sections:
+          - section_title: Definition of Point Groups
+            section_type: overview
+          - section_title: Derivation of 32 Crystallographic Point Groups
+            section_type: core_theory
+          - section_title: Hermann-Mauguin Notation System
+            section_type: core_theory
+          - section_title: Schoenflies Notation and Comparison
+            section_type: related concepts
+      - topic: Crystal Classes and Systems
+        sections:
+          - section_title: Relationship Between Point Groups and Crystal Systems
+            section_type: core_theory
+          - section_title: Holohedry and Merohedral Point Groups
+            section_type: core_theory
+          - section_title: Laue Classes and Centrosymmetric Groups
+            section_type: related concepts
+      - topic: Symmetry and Physical Properties
+        sections:
+          - section_title: Neumann's Principle
+            section_type: overview
+          - section_title: Optical Activity and Chirality
+            section_type: core_theory
+          - section_title: Piezoelectricity and Pyroelectricity
+            section_type: core_theory
+          - section_title: Ferroelectricity and Non-Centrosymmetric Crystals
+            section_type: related concepts
+      - topic: Space Groups
+        sections:
+          - section_title: Combining Point Symmetry with Translation
+            section_type: overview
+          - section_title: Glide Planes and Screw Axes
+            section_type: core_theory
+          - section_title: 230 Space Groups and International Tables
+            section_type: related concepts
+    milestone: Identify and classify crystal symmetry using point groups, predict physical properties from symmetry considerations, and understand the connection to space group theory
+    duration_days: 11
+    tags:
+      - point groups
+      - symmetry operations
+      - crystallographic symmetry
+      - space groups
+      - Hermann-Mauguin notation
+      - Neumann's principle
+
+  - id: 4
+    title: Electronic Band Structure of Solids
+    learning_objectives:
+      - Explain the formation of energy bands from atomic orbitals in solids
+      - Distinguish between conductors, semiconductors, and insulators based on band structure
+      - Apply Bloch's theorem to describe electron wave functions in periodic potentials
+      - Calculate density of states and understand its role in electronic properties
+      - Explain the concept of effective mass and its dependence on band curvature
+      - Understand direct and indirect band gaps in semiconductors
+      - Describe the Fermi-Dirac distribution and the concept of Fermi level
+      - Analyze band structure diagrams and relate them to physical properties
+    textbook_style_content:
+      - topic: From Atomic Orbitals to Energy Bands
+        sections:
+          - section_title: Isolated Atoms vs. Atoms in Solids
+            section_type: overview
+          - section_title: Linear Combination of Atomic Orbitals (LCAO) Approach
+            section_type: core_theory
+          - section_title: Band Formation by Orbital Overlap
+            section_type: core_theory
+          - section_title: Width of Energy Bands and Orbital Overlap
+            section_type: related concepts
+      - topic: Bloch's Theorem and Periodic Potentials
+        sections:
+          - section_title: Periodic Potential in Crystalline Solids
+            section_type: overview
+          - section_title: Bloch Wave Functions and Crystal Momentum
+            section_type: core_theory
+          - section_title: Reduced Zone Scheme and Brillouin Zones
+            section_type: core_theory
+          - section_title: Extended and Repeated Zone Schemes
+            section_type: related concepts
+      - topic: Classification of Solids by Band Structure
+        sections:
+          - section_title: Conductors - Overlapping or Partially Filled Bands
+            section_type: core_theory
+          - section_title: Insulators - Large Band Gaps
+            section_type: core_theory
+          - section_title: Semiconductors - Moderate Band Gaps
+            section_type: core_theory
+          - section_title: Semimetals and Their Unique Properties
+            section_type: related concepts
+      - topic: Band Gaps and Optical Properties
+        sections:
+          - section_title: Direct vs. Indirect Band Gaps
+            section_type: core_theory
+          - section_title: Photon Absorption and Band Gap Transitions
+            section_type: core_theory
+          - section_title: Optical Properties and Color of Materials
+            section_type: related concepts
+      - topic: Density of States
+        sections:
+          - section_title: Definition and Calculation Methods
+            section_type: core_theory
+          - section_title: DOS for Free Electrons and Tight-Binding Models
+            section_type: core_theory
+          - section_title: Van Hove Singularities
+            section_type: related concepts
+      - topic: Fermi Energy and Electron Statistics
+        sections:
+          - section_title: Fermi-Dirac Distribution Function
+            section_type: core_theory
+          - section_title: Fermi Level and Its Temperature Dependence
+            section_type: core_theory
+          - section_title: Chemical Potential in Solids
+            section_type: core_theory
+          - section_title: Fermi Surface and Its Topology
+            section_type: related concepts
+      - topic: Effective Mass and Carrier Dynamics
+        sections:
+          - section_title: Concept of Effective Mass
+            section_type: core_theory
+          - section_title: Relationship to Band Curvature
+            section_type: core_theory
+          - section_title: Holes in Valence Bands
+            section_type: core_theory
+          - section_title: Mobility and Conductivity
+            section_type: related concepts
+      - topic: Advanced Band Structure Concepts
+        sections:
+          - section_title: Nearly Free Electron Model
+            section_type: overview
+          - section_title: Tight-Binding Approximation
+            section_type: related concepts
+          - section_title: k·p Perturbation Theory
+            section_type: related concepts
+    milestone: Understand the quantum mechanical basis of electrical conductivity in solids, interpret band structure diagrams, and predict electronic properties from band theory
+    duration_days: 14
+    tags:
+      - band structure
+      - Bloch's theorem
+      - conductors
+      - semiconductors
+      - insulators
+      - Fermi level
+      - density of states
+      - effective mass
+
+  - id: 5
+    title: Imperfections and Defects in Crystalline Solids
+    learning_objectives:
+      - Classify defects as point, line, surface, or volume defects
+      - Explain the thermodynamics of defect formation and calculate equilibrium defect concentrations
+      - Distinguish between intrinsic and extrinsic defects in ionic and covalent solids
+      - Analyze Schottky and Frenkel defects using Kröger-Vink notation
+      - Understand dislocations and their role in plastic deformation
+      - Describe grain boundaries, stacking faults, and twin boundaries
+      - Explain the influence of defects on electrical, optical, and mechanical properties
+      - Apply defect chemistry to doping in semiconductors and solid-state ionic conductors
+    textbook_style_content:
+      - topic: Introduction to Crystal Imperfections
+        sections:
+          - section_title: Perfect vs. Real Crystals
+            section_type: overview
+          - section_title: Classification of Defects by Dimensionality
+            section_type: core_theory
+          - section_title: Thermodynamic Necessity of Defects
+            section_type: core_theory
+      - topic: Point Defects - Zero-Dimensional Imperfections
+        sections:
+          - section_title: Vacancies in Pure Elements
+            section_type: core_theory
+          - section_title: Self-Interstitials and Their High Formation Energy
+            section_type: core_theory
+          - section_title: Substitutional and Interstitial Impurities
+            section_type: core_theory
+          - section_title: Equilibrium Concentration of Point Defects
+            section_type: core_theory
+      - topic: Point Defects in Ionic Crystals
+        sections:
+          - section_title: Schottky Defects - Cation-Anion Vacancy Pairs
+            section_type: core_theory
+          - section_title: Frenkel Defects - Cation Vacancies and Interstitials
+            section_type: core_theory
+          - section_title: Kröger-Vink Notation for Defect Chemistry
+            section_type: core_theory
+          - section_title: Color Centers (F-centers) and Optical Properties
+            section_type: related concepts
+      - topic: Thermodynamics and Kinetics of Defects
+        sections:
+          - section_title: Gibbs Free Energy of Defect Formation
+            section_type: core_theory
+          - section_title: Entropy Contribution to Defect Stability
+            section_type: core_theory
+          - section_title: Temperature Dependence of Defect Concentration
+            section_type: core_theory
+          - section_title: Defect Migration and Diffusion
+            section_type: related concepts
+      - topic: Dislocations - One-Dimensional Defects
+        sections:
+          - section_title: Edge Dislocations and Their Geometry
+            section_type: core_theory
+          - section_title: Screw Dislocations and Mixed Dislocations
+            section_type: core_theory
+          - section_title: Burgers Vector and Dislocation Characterization
+            section_type: core_theory
+          - section_title: Dislocation Glide and Climb
+            section_type: core_theory
+          - section_title: Role in Plastic Deformation and Mechanical Strength
+            section_type: related concepts
+      - topic: Surface Defects - Two-Dimensional Imperfections
+        sections:
+          - section_title: Grain Boundaries - High and Low Angle
+            section_type: core_theory
+          - section_title: Stacking Faults in Close-Packed Structures
+            section_type: core_theory
+          - section_title: Twin Boundaries and Twinning
+            section_type: core_theory
+          - section_title: External Surfaces and Surface Reconstruction
+            section_type: related concepts
+      - topic: Volume Defects and Extended Imperfections
+        sections:
+          - section_title: Precipitates and Second Phase Particles
+            section_type: overview
+          - section_title: Voids and Gas Bubbles
+            section_type: related concepts
+          - section_title: Amorphous Regions in Crystalline Matrix
+            section_type: related concepts
+      - topic: Defect Engineering and Applications
+        sections:
+          - section_title: Doping in Semiconductors - n-type and p-type
+            section_type: core_theory
+          - section_title: Solid Electrolytes and Ionic Conductivity
+            section_type: core_theory
+          - section_title: Defect Control for Optical and Electronic Devices
+            section_type: related concepts
+          - section_title: Defect-Mediated Phase Transitions
+            section_type: related concepts
+      - topic: Experimental Characterization of Defects
+        sections:
+          - section_title: Transmission Electron Microscopy
+            section_type: overview
+          - section_title: Positron Annihilation Spectroscopy
+            section_type: related concepts
+          - section_title: Electrical and Thermal Conductivity Measurements
+            section_type: related concepts
+    milestone: Comprehensively understand all types of crystal defects, calculate their equilibrium concentrations, and predict their effects on material properties for CSIR exam applications
+    duration_days: 13
+    tags:
+      - crystal defects
+      - point defects
+      - Schottky defects
+      - Frenkel defects
+      - dislocations
+      - grain boundaries
+      - defect chemistry
+      - Kröger-Vink notation

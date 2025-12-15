@@ -1,0 +1,1001 @@
+metadata:
+  subject: Organic Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Organic reaction mechanisms involving addition, elimination and substitution reactions with electrophilic, nucleophilic or radical species. Determination of reaction pathways."
+
+concepts:
+  core:
+    - name: Nucleophilic Substitution Mechanisms
+      clarifier: SN1 and SN2 mechanisms, reaction kinetics, stereochemical outcomes, and factors affecting substitution pathways
+    - name: Elimination Reaction Mechanisms
+      clarifier: E1, E2, and E1cB mechanisms, regioselectivity (Zaitsev vs Hofmann), stereochemistry (syn vs anti), and competition with substitution
+    - name: Electrophilic Addition Mechanisms
+      clarifier: Addition to alkenes and alkynes, Markovnikov and anti-Markovnikov orientation, carbocation intermediates, and stereochemistry
+    - name: Nucleophilic Addition Mechanisms
+      clarifier: Addition to carbonyl compounds, aldehydes, ketones, and α,β-unsaturated systems, reversibility and equilibria
+    - name: Radical Reaction Mechanisms
+      clarifier: Initiation, propagation, and termination steps in radical substitution and addition reactions, stability of radical intermediates
+    - name: Reaction Intermediate Identification
+      clarifier: Carbocations, carbanions, radicals, carbenes, and their stability, detection, and reactivity patterns
+    - name: Determination of Reaction Pathways
+      clarifier: Kinetic studies, isotope labeling, stereochemical analysis, product distribution analysis, and trapping experiments
+  related:
+    - name: Stereochemistry in Organic Reactions
+      clarifier: Retention, inversion, racemization, and stereospecific vs stereoselective reactions
+    - name: Carbocation Stability and Rearrangements
+      clarifier: Hyperconjugation, resonance stabilization, 1,2-hydride and 1,2-alkyl shifts, Wagner-Meerwein rearrangements
+    - name: Nucleophilicity and Basicity
+      clarifier: Factors affecting nucleophilic strength, solvent effects, α-effect, and the distinction between nucleophilicity and basicity
+    - name: Leaving Group Ability
+      clarifier: Factors affecting leaving group departure, conjugate acid strength, and methods to activate poor leaving groups
+    - name: Reaction Kinetics and Rate Laws
+      clarifier: First-order and second-order kinetics, rate-determining steps, and pre-equilibrium conditions
+    - name: Thermodynamic vs Kinetic Control
+      clarifier: Energy profiles, activation barriers, product stability, and reversibility of reactions
+    - name: Hammond Postulate and Transition State Theory
+      clarifier: Relationship between transition state structure and reactant/product stability, early vs late transition states
+    - name: Solvent Effects on Reaction Mechanisms
+      clarifier: Protic vs aprotic solvents, ion stabilization, and solvent polarity effects on reaction rates
+    - name: Regioselectivity and Chemoselectivity
+      clarifier: Markovnikov's rule, Zaitsev's rule, Hofmann elimination, and selective reactivity of functional groups
+    - name: Isotopic Labeling and Crossover Experiments
+      clarifier: Deuterium labeling, carbon-14 and tritium labeling, and mechanistic probes using isotopes
+    - name: Curtin-Hammett Principle
+      clarifier: Product distribution from rapidly equilibrating conformers and relationship to transition state energies
+    - name: Linear Free Energy Relationships
+      clarifier: Hammett equation, σ and ρ values, and structure-reactivity correlations
+
+learning_path:
+  - id: 1
+    title: Foundations of Reaction Mechanisms and Intermediates
+    learning_objectives:
+      - Understand the fundamental principles of organic reaction mechanisms and the concept of elementary steps
+      - Identify and classify reactive intermediates including carbocations, carbanions, radicals, and carbenes
+      - Analyze the stability factors governing different intermediates through resonance, hyperconjugation, and inductive effects
+      - Apply curved arrow notation to depict electron flow in organic reactions
+      - Distinguish between homolytic and heterolytic bond cleavage
+    textbook_style_content:
+      - topic: Introduction to Organic Reaction Mechanisms
+        sections:
+          - section_title: What is a Reaction Mechanism?
+            section_type: overview
+          - section_title: Elementary Steps and Molecularity
+            section_type: core_theory
+          - section_title: Thermodynamics vs Kinetics of Reactions
+            section_type: core_theory
+          - section_title: Energy Diagrams and Transition States
+            section_type: core_theory
+      - topic: Reactive Intermediates in Organic Chemistry
+        sections:
+          - section_title: Classification of Reactive Intermediates
+            section_type: overview
+          - section_title: Carbocations - Structure, Stability, and Reactivity
+            section_type: core_theory
+          - section_title: Carbanions - Formation and Stabilization
+            section_type: core_theory
+          - section_title: Free Radicals - Properties and Stability Factors
+            section_type: core_theory
+          - section_title: Carbenes and Nitrenes
+            section_type: related_concepts
+      - topic: Electron Flow and Curved Arrow Notation
+        sections:
+          - section_title: Principles of Curved Arrow Formalism
+            section_type: core_theory
+          - section_title: Homolytic vs Heterolytic Bond Cleavage
+            section_type: core_theory
+          - section_title: Common Mistakes in Arrow Pushing
+            section_type: related_concepts
+    milestone: Master the foundational concepts of reaction mechanisms and be able to identify and evaluate reactive intermediates
+    duration_days: 7
+    tags:
+      - fundamentals
+      - intermediates
+      - carbocations
+      - radicals
+      - mechanisms
+
+  - id: 2
+    title: Nucleophilic Substitution Reactions - SN2 Mechanism
+    learning_objectives:
+      - Describe the detailed mechanism of SN2 reactions including the concerted nature and transition state geometry
+      - Predict the stereochemical outcome of SN2 reactions and explain the inversion of configuration
+      - Identify the structural and environmental factors affecting SN2 reaction rates
+      - Analyze the effects of nucleophile strength, substrate structure, leaving group ability, and solvent on SN2 reactions
+      - Apply kinetic data to confirm SN2 mechanisms
+    textbook_style_content:
+      - topic: The SN2 Mechanism
+        sections:
+          - section_title: Overview of Bimolecular Nucleophilic Substitution
+            section_type: overview
+          - section_title: Detailed Mechanism and Transition State Structure
+            section_type: core_theory
+          - section_title: Stereochemical Course - Walden Inversion
+            section_type: core_theory
+          - section_title: Second-Order Kinetics and Rate Law
+            section_type: core_theory
+      - topic: Factors Affecting SN2 Reactivity
+        sections:
+          - section_title: Substrate Effects - Steric Hindrance
+            section_type: core_theory
+          - section_title: Nucleophile Strength and Structure
+            section_type: core_theory
+          - section_title: Leaving Group Ability and Activation
+            section_type: core_theory
+          - section_title: Solvent Effects - Aprotic vs Protic Solvents
+            section_type: core_theory
+      - topic: Applications and Special Cases
+        sections:
+          - section_title: SN2 Reactions at Allylic and Benzylic Positions
+            section_type: related_concepts
+          - section_title: Intramolecular SN2 Reactions
+            section_type: related_concepts
+          - section_title: Neighboring Group Participation
+            section_type: related_concepts
+    milestone: Predict SN2 reaction outcomes based on substrate structure, nucleophile, leaving group, and solvent conditions
+    duration_days: 6
+    tags:
+      - substitution
+      - SN2
+      - stereochemistry
+      - kinetics
+      - nucleophiles
+
+  - id: 3
+    title: Nucleophilic Substitution Reactions - SN1 Mechanism
+    learning_objectives:
+      - Describe the stepwise SN1 mechanism involving carbocation formation
+      - Explain the stereochemical outcomes including racemization and factors leading to partial retention
+      - Predict carbocation rearrangements including 1,2-hydride and 1,2-alkyl shifts
+      - Compare and contrast SN1 and SN2 mechanisms in terms of kinetics, stereochemistry, and substrate requirements
+      - Apply the rate law and kinetic isotope effects to distinguish SN1 mechanisms
+    textbook_style_content:
+      - topic: The SN1 Mechanism
+        sections:
+          - section_title: Overview of Unimolecular Nucleophilic Substitution
+            section_type: overview
+          - section_title: Stepwise Mechanism - Ionization and Nucleophilic Attack
+            section_type: core_theory
+          - section_title: Carbocation Intermediate Formation and Stability
+            section_type: core_theory
+          - section_title: First-Order Kinetics and Rate-Determining Step
+            section_type: core_theory
+          - section_title: Stereochemical Outcomes - Racemization and Ion Pairs
+            section_type: core_theory
+      - topic: Carbocation Rearrangements
+        sections:
+          - section_title: 1,2-Hydride Shifts
+            section_type: core_theory
+          - section_title: 1,2-Alkyl Shifts and Wagner-Meerwein Rearrangements
+            section_type: core_theory
+          - section_title: Ring Expansion and Contraction
+            section_type: related_concepts
+          - section_title: Pinacol-Pinacolone Rearrangement
+            section_type: related_concepts
+      - topic: Factors Influencing SN1 Reactions
+        sections:
+          - section_title: Substrate Structure and Carbocation Stability
+            section_type: core_theory
+          - section_title: Leaving Group Effects
+            section_type: core_theory
+          - section_title: Solvent Polarity and Ionization
+            section_type: core_theory
+          - section_title: Nucleophile Independence
+            section_type: related_concepts
+      - topic: SN1 vs SN2 Competition
+        sections:
+          - section_title: Structural Factors Determining Mechanism
+            section_type: core_theory
+          - section_title: Environmental Factors and Mechanistic Switches
+            section_type: related_concepts
+    milestone: Distinguish between SN1 and SN2 mechanisms and predict which pathway will dominate under given conditions
+    duration_days: 6
+    tags:
+      - substitution
+      - SN1
+      - carbocations
+      - rearrangements
+      - kinetics
+
+  - id: 4
+    title: Elimination Reactions - E2 Mechanism
+    learning_objectives:
+      - Describe the concerted E2 mechanism and the anti-periplanar transition state geometry
+      - Apply Zaitsev's rule and Hofmann's rule to predict regioselectivity in elimination reactions
+      - Analyze stereochemical requirements including anti-elimination and syn-elimination in special cases
+      - Identify structural and environmental factors favoring E2 over substitution
+      - Use deuterium labeling to confirm E2 mechanisms through kinetic isotope effects
+    textbook_style_content:
+      - topic: The E2 Mechanism
+        sections:
+          - section_title: Overview of Bimolecular Elimination
+            section_type: overview
+          - section_title: Concerted Mechanism and Transition State
+            section_type: core_theory
+          - section_title: Anti-Periplanar Geometry Requirement
+            section_type: core_theory
+          - section_title: Second-Order Kinetics
+            section_type: core_theory
+      - topic: Regioselectivity in E2 Reactions
+        sections:
+          - section_title: Zaitsev's Rule and Thermodynamic Control
+            section_type: core_theory
+          - section_title: Hofmann Elimination and Steric Effects
+            section_type: core_theory
+          - section_title: Bulky Bases and Regioselectivity Reversal
+            section_type: related_concepts
+      - topic: Stereochemistry of E2 Reactions
+        sections:
+          - section_title: Anti-Elimination - Predominant Pathway
+            section_type: core_theory
+          - section_title: Syn-Elimination in Constrained Systems
+            section_type: related_concepts
+          - section_title: E/Z Selectivity in Product Alkenes
+            section_type: related_concepts
+      - topic: Factors Affecting E2 Reactions
+        sections:
+          - section_title: Base Strength and Structure
+            section_type: core_theory
+          - section_title: Substrate Structure and β-Hydrogen Availability
+            section_type: core_theory
+          - section_title: Leaving Group Effects
+            section_type: core_theory
+          - section_title: Solvent Effects
+            section_type: related_concepts
+    milestone: Predict E2 reaction products including regioselectivity and stereochemistry based on substrate conformation and base selection
+    duration_days: 5
+    tags:
+      - elimination
+      - E2
+      - regioselectivity
+      - stereochemistry
+      - Zaitsev
+
+  - id: 5
+    title: Elimination Reactions - E1 and E1cB Mechanisms
+    learning_objectives:
+      - Describe the stepwise E1 mechanism involving carbocation formation
+      - Explain the E1cB mechanism proceeding through carbanion intermediates
+      - Compare E1, E2, and E1cB mechanisms in terms of kinetics, intermediates, and stereochemistry
+      - Predict the competition between elimination and substitution for unimolecular reactions
+      - Identify substrate and reaction conditions favoring each elimination mechanism
+    textbook_style_content:
+      - topic: The E1 Mechanism
+        sections:
+          - section_title: Overview of Unimolecular Elimination
+            section_type: overview
+          - section_title: Stepwise Mechanism via Carbocation
+            section_type: core_theory
+          - section_title: First-Order Kinetics and Rate-Determining Step
+            section_type: core_theory
+          - section_title: Regioselectivity and Zaitsev's Rule in E1
+            section_type: core_theory
+          - section_title: Carbocation Rearrangements in E1 Reactions
+            section_type: related_concepts
+      - topic: E1 vs SN1 Competition
+        sections:
+          - section_title: Factors Favoring Elimination over Substitution
+            section_type: core_theory
+          - section_title: Temperature Effects on E1/SN1 Ratio
+            section_type: related_concepts
+          - section_title: Base Strength and Product Distribution
+            section_type: related_concepts
+      - topic: The E1cB Mechanism
+        sections:
+          - section_title: Elimination via Conjugate Base Formation
+            section_type: overview
+          - section_title: Stepwise Mechanism - Deprotonation then Elimination
+            section_type: core_theory
+          - section_title: Substrate Requirements - Acidic β-Hydrogens
+            section_type: core_theory
+          - section_title: Evidence for Carbanion Intermediates
+            section_type: related_concepts
+      - topic: Comparison of Elimination Mechanisms
+        sections:
+          - section_title: E1 vs E2 vs E1cB - Kinetic and Mechanistic Features
+            section_type: core_theory
+          - section_title: Mechanistic Continuum and Borderline Cases
+            section_type: related_concepts
+    milestone: Distinguish between E1, E2, and E1cB mechanisms and predict elimination products under various conditions
+    duration_days: 5
+    tags:
+      - elimination
+      - E1
+      - E1cB
+      - carbocations
+      - carbanions
+
+  - id: 6
+    title: Electrophilic Addition to Alkenes and Alkynes
+    learning_objectives:
+      - Describe the mechanism of electrophilic addition involving π-complex and carbocation formation
+      - Apply Markovnikov's rule to predict regioselectivity in addition reactions
+      - Explain anti-Markovnikov addition via radical intermediates or hydroboration
+      - Analyze the stereochemistry of addition reactions including syn and anti addition
+      - Predict products of addition reactions with various electrophiles including halogens, hydrogen halides, and water
+    textbook_style_content:
+      - topic: Electrophilic Addition to Alkenes
+        sections:
+          - section_title: Overview of Addition Reactions to C=C Bonds
+            section_type: overview
+          - section_title: Mechanism of Electrophilic Addition
+            section_type: core_theory
+          - section_title: π-Complex Formation and Carbocation Intermediates
+            section_type: core_theory
+      - topic: Addition of Hydrogen Halides
+        sections:
+          - section_title: Mechanism and Markovnikov Regioselectivity
+            section_type: core_theory
+          - section_title: Carbocation Stability and Product Formation
+            section_type: core_theory
+          - section_title: Carbocation Rearrangements in Addition Reactions
+            section_type: related_concepts
+      - topic: Addition of Halogens
+        sections:
+          - section_title: Bromine and Chlorine Addition Mechanism
+            section_type: core_theory
+          - section_title: Bromonium and Chloronium Ion Intermediates
+            section_type: core_theory
+          - section_title: Stereochemistry - Anti Addition
+            section_type: core_theory
+          - section_title: Halohydrin Formation
+            section_type: related_concepts
+      - topic: Addition of Water and Alcohols
+        sections:
+          - section_title: Acid-Catalyzed Hydration Mechanism
+            section_type: core_theory
+          - section_title: Oxymercuration-Demercuration
+            section_type: related_concepts
+          - section_title: Alkoxymercuration and Ether Formation
+            section_type: related_concepts
+      - topic: Anti-Markovnikov Addition
+        sections:
+          - section_title: Hydroboration-Oxidation Mechanism
+            section_type: core_theory
+          - section_title: Radical Addition of HBr - Peroxide Effect
+            section_type: core_theory
+      - topic: Addition to Alkynes
+        sections:
+          - section_title: Electrophilic Addition to Carbon-Carbon Triple Bonds
+            section_type: core_theory
+          - section_title: Hydration of Alkynes - Enol and Keto-Enol Tautomerism
+            section_type: related_concepts
+    milestone: Predict products of electrophilic addition reactions to alkenes and alkynes with complete stereochemical and regiochemical control
+    duration_days: 7
+    tags:
+      - addition
+      - alkenes
+      - alkynes
+      - Markovnikov
+      - stereochemistry
+
+  - id: 7
+    title: Nucleophilic Addition to Carbonyl Compounds
+    learning_objectives:
+      - Describe the mechanism of nucleophilic addition to aldehydes and ketones
+      - Explain the role of acid and base catalysis in carbonyl addition reactions
+      - Analyze reversibility and equilibrium in nucleophilic addition reactions
+      - Predict products of addition reactions with various nucleophiles including Grignard reagents, hydrides, and enolates
+      - Understand conjugate addition to α,β-unsaturated carbonyl compounds
+    textbook_style_content:
+      - topic: Nucleophilic Addition to Aldehydes and Ketones
+        sections:
+          - section_title: Overview of Carbonyl Reactivity
+            section_type: overview
+          - section_title: Mechanism of Nucleophilic Addition
+            section_type: core_theory
+          - section_title: Tetrahedral Intermediate Formation
+            section_type: core_theory
+          - section_title: Reversibility and Equilibrium Considerations
+            section_type: core_theory
+      - topic: Addition of Carbon Nucleophiles
+        sections:
+          - section_title: Grignard and Organolithium Reagents
+            section_type: core_theory
+          - section_title: Cyanide Addition - Cyanohydrin Formation
+            section_type: core_theory
+          - section_title: Acetylide Anion Addition
+            section_type: related_concepts
+      - topic: Addition of Nitrogen Nucleophiles
+        sections:
+          - section_title: Imine and Enamine Formation
+            section_type: core_theory
+          - section_title: Oxime, Hydrazone, and Semicarbazone Formation
+            section_type: related_concepts
+      - topic: Addition of Oxygen and Sulfur Nucleophiles
+        sections:
+          - section_title: Hemiacetal and Acetal Formation
+            section_type: core_theory
+          - section_title: Thioacetal Formation
+            section_type: related_concepts
+      - topic: Hydride Reduction of Carbonyl Compounds
+        sections:
+          - section_title: Mechanism of Reduction with NaBH4 and LiAlH4
+            section_type: core_theory
+          - section_title: Stereochemistry of Carbonyl Reduction
+            section_type: related_concepts
+      - topic: Conjugate Addition to α,β-Unsaturated Carbonyls
+        sections:
+          - section_title: 1,2-Addition vs 1,4-Addition
+            section_type: overview
+          - section_title: Michael Addition Mechanism
+            section_type: core_theory
+          - section_title: Organocuprate Reagents
+            section_type: related_concepts
+    milestone: Predict products of nucleophilic addition to carbonyl compounds and distinguish between 1,2- and 1,4-addition pathways
+    duration_days: 7
+    tags:
+      - addition
+      - carbonyl
+      - nucleophiles
+      - Michael addition
+      - Grignard
+
+  - id: 8
+    title: Radical Substitution Reactions
+    learning_objectives:
+      - Describe the chain mechanism of radical substitution including initiation, propagation, and termination steps
+      - Analyze the selectivity of radical halogenation based on radical stability
+      - Apply bond dissociation energies to predict radical reaction thermodynamics
+      - Understand radical stability factors including resonance and hyperconjugation
+      - Predict products and stereochemistry of radical substitution reactions
+    textbook_style_content:
+      - topic: Free Radical Halogenation of Alkanes
+        sections:
+          - section_title: Overview of Radical Chain Reactions
+            section_type: overview
+          - section_title: Initiation Step - Homolytic Bond Cleavage
+            section_type: core_theory
+          - section_title: Propagation Steps - Hydrogen Abstraction and Halogen Transfer
+            section_type: core_theory
+          - section_title: Termination Steps - Radical Coupling
+            section_type: core_theory
+      - topic: Selectivity in Radical Halogenation
+        sections:
+          - section_title: Radical Stability - 3° > 2° > 1° > Methyl
+            section_type: core_theory
+          - section_title: Chlorination vs Bromination Selectivity
+            section_type: core_theory
+          - section_title: Bond Dissociation Energies and Selectivity Predictions
+            section_type: core_theory
+          - section_title: Hammond Postulate Application to Radical Reactions
+            section_type: related_concepts
+      - topic: Allylic and Benzylic Halogenation
+        sections:
+          - section_title: N-Bromosuccinimide (NBS) Mechanism
+            section_type: core_theory
+          - section_title: Allylic Radical Resonance Stabilization
+            section_type: core_theory
+          - section_title: Benzylic Radical Stability
+            section_type: related_concepts
+      - topic: Stereochemistry of Radical Reactions
+        sections:
+          - section_title: Radical Geometry and Racemization
+            section_type: core_theory
+          - section_title: Radical Clocks and Lifetime Measurements
+            section_type: related_concepts
+      - topic: Radical Initiators and Control
+        sections:
+          - section_title: Peroxides and Azo Compounds
+            section_type: related_concepts
+          - section_title: Photochemical Initiation
+            section_type: related_concepts
+    milestone: Predict products and selectivity of radical substitution reactions based on radical stability and reaction conditions
+    duration_days: 5
+    tags:
+      - radicals
+      - substitution
+      - halogenation
+      - selectivity
+      - NBS
+
+  - id: 9
+    title: Radical Addition Reactions
+    learning_objectives:
+      - Describe the mechanism of radical addition to alkenes
+      - Explain the anti-Markovnikov regioselectivity in radical additions
+      - Analyze radical polymerization mechanisms
+      - Understand autoxidation and radical chain oxidation reactions
+      - Apply radical addition in organic synthesis
+    textbook_style_content:
+      - topic: Radical Addition to Alkenes
+        sections:
+          - section_title: Overview of Radical Addition Mechanisms
+            section_type: overview
+          - section_title: Anti-Markovnikov Addition of HBr - Peroxide Effect
+            section_type: core_theory
+          - section_title: Regioselectivity Based on Radical Stability
+            section_type: core_theory
+      - topic: Radical Polymerization
+        sections:
+          - section_title: Initiation, Propagation, and Termination in Polymerization
+            section_type: core_theory
+          - section_title: Vinyl Monomer Polymerization
+            section_type: related_concepts
+      - topic: Radical Cyclization Reactions
+        sections:
+          - section_title: 5-Exo-Trig and 6-Endo-Trig Cyclizations
+            section_type: core_theory
+          - section_title: Baldwin's Rules for Ring Closure
+            section_type: related_concepts
+      - topic: Autoxidation and Radical Chain Oxidation
+        sections:
+          - section_title: Mechanism of Autoxidation
+            section_type: core_theory
+          - section_title: Peroxide Formation and Degradation
+            section_type: related_concepts
+          - section_title: Antioxidants and Radical Inhibitors
+            section_type: related_concepts
+    milestone: Predict products of radical addition reactions and understand radical chain processes in organic transformations
+    duration_days: 4
+    tags:
+      - radicals
+      - addition
+      - polymerization
+      - anti-Markovnikov
+      - cyclization
+
+  - id: 10
+    title: Determination of Reaction Pathways - Kinetic Methods
+    learning_objectives:
+      - Design and interpret kinetic experiments to determine reaction order
+      - Use rate laws to distinguish between different mechanistic pathways
+      - Apply the steady-state approximation to complex mechanisms
+      - Understand pre-equilibrium conditions and their effects on rate laws
+      - Determine rate-determining steps from kinetic data
+    textbook_style_content:
+      - topic: Reaction Kinetics and Rate Laws
+        sections:
+          - section_title: Overview of Kinetic Analysis in Mechanism Determination
+            section_type: overview
+          - section_title: Zero, First, and Second-Order Rate Laws
+            section_type: core_theory
+          - section_title: Integrated Rate Equations
+            section_type: core_theory
+          - section_title: Half-Life and Reaction Order Determination
+            section_type: core_theory
+      - topic: Complex Kinetics and Mechanism Elucidation
+        sections:
+          - section_title: Rate-Determining Steps
+            section_type: core_theory
+          - section_title: Steady-State Approximation
+            section_type: core_theory
+          - section_title: Pre-Equilibrium Treatment
+            section_type: core_theory
+      - topic: Kinetic Isotope Effects
+        sections:
+          - section_title: Primary Kinetic Isotope Effects
+            section_type: core_theory
+          - section_title: Secondary Kinetic Isotope Effects
+            section_type: related_concepts
+          - section_title: Deuterium Labeling in Mechanism Studies
+            section_type: related_concepts
+      - topic: Temperature Dependence and Activation Parameters
+        sections:
+          - section_title: Arrhenius Equation and Activation Energy
+            section_type: core_theory
+          - section_title: Eyring Equation and Transition State Theory
+            section_type: related_concepts
+          - section_title: Entropy and Enthalpy of Activation
+            section_type: related_concepts
+    milestone: Design kinetic experiments to determine reaction mechanisms and extract mechanistic information from rate data
+    duration_days: 6
+    tags:
+      - kinetics
+      - rate laws
+      - isotope effects
+      - mechanism determination
+      - activation energy
+
+  - id: 11
+    title: Determination of Reaction Pathways - Isotopic Labeling
+    learning_objectives:
+      - Design isotope labeling experiments to trace reaction pathways
+      - Interpret results from deuterium, carbon-14, oxygen-18, and nitrogen-15 labeling
+      - Use crossover experiments to distinguish inter- from intramolecular processes
+      - Apply isotopic scrambling to detect intermediates
+      - Understand limitations and artifacts in labeling studies
+    textbook_style_content:
+      - topic: Isotopic Labeling Strategies
+        sections:
+          - section_title: Overview of Isotopic Tracers in Mechanism Studies
+            section_type: overview
+          - section_title: Types of Isotopes Used - H, C, O, N, S
+            section_type: core_theory
+          - section_title: Detection Methods for Labeled Compounds
+            section_type: related_concepts
+      - topic: Deuterium Labeling
+        sections:
+          - section_title: Deuterium as a Mechanistic Probe
+            section_type: core_theory
+          - section_title: Tracking Hydrogen Transfer and Exchange
+            section_type: core_theory
+          - section_title: Deuterium in Kinetic Isotope Effect Studies
+            section_type: related_concepts
+      - topic: Carbon and Oxygen Isotope Labeling
+        sections:
+          - section_title: Carbon-14 and Carbon-13 Labeling
+            section_type: core_theory
+          - section_title: Oxygen-18 Labeling in Carbonyl and Ester Mechanisms
+            section_type: core_theory
+          - section_title: Positional Labeling and Product Analysis
+            section_type: related_concepts
+      - topic: Crossover and Scrambling Experiments
+        sections:
+          - section_title: Crossover Experiments to Test Intermediates
+            section_type: core_theory
+          - section_title: Isotopic Scrambling and Reversibility
+            section_type: related_concepts
+          - section_title: Intramolecular vs Intermolecular Pathways
+            section_type: related_concepts
+    milestone: Design and interpret isotopic labeling experiments to elucidate reaction mechanisms and intermediate structures
+    duration_days: 5
+    tags:
+      - isotope labeling
+      - deuterium
+      - mechanism determination
+      - crossover experiments
+      - tracers
+
+  - id: 12
+    title: Determination of Reaction Pathways - Stereochemical Methods
+    learning_objectives:
+      - Use stereochemical outcomes to distinguish between different mechanisms
+      - Analyze retention, inversion, and racemization as mechanistic indicators
+      - Apply chiral substrates and products to determine reaction pathways
+      - Understand stereospecific and stereoselective reactions
+      - Interpret stereochemical data in the context of transition state geometry
+    textbook_style_content:
+      - topic: Stereochemistry as a Mechanistic Tool
+        sections:
+          - section_title: Overview of Stereochemical Analysis
+            section_type: overview
+          - section_title: Retention vs Inversion of Configuration
+            section_type: core_theory
+          - section_title: Racemization and Partial Racemization
+            section_type: core_theory
+      - topic: Stereospecific Reactions
+        sections:
+          - section_title: Definition and Examples of Stereospecificity
+            section_type: core_theory
+          - section_title: SN2 - Complete Inversion
+            section_type: core_theory
+          - section_title: E2 - Anti-Periplanar Requirement
+            section_type: core_theory
+          - section_title: Electrophilic Addition - Anti Addition via Cyclic Intermediates
+            section_type: core_theory
+      - topic: Stereoselective Reactions
+        sections:
+          - section_title: Diastereoselectivity and Enantioselectivity
+            section_type: core_theory
+          - section_title: Felkin-Anh Model for Carbonyl Addition
+            section_type: related_concepts
+          - section_title: Cram's Rule and Prelog's Rule
+            section_type: related_concepts
+      - topic: Using Chiral Substrates and Reagents
+        sections:
+          - section_title: Designing Experiments with Chiral Starting Materials
+            section_type: core_theory
+          - section_title: Optical Activity and Enantiomeric Excess Measurements
+            section_type: related_concepts
+          - section_title: Asymmetric Synthesis and Mechanistic Insights
+            section_type: related_concepts
+    milestone: Apply stereochemical analysis to distinguish reaction mechanisms and predict stereochemical outcomes
+    duration_days: 5
+    tags:
+      - stereochemistry
+      - mechanism determination
+      - inversion
+      - retention
+      - stereospecific
+
+  - id: 13
+    title: Determination of Reaction Pathways - Product Analysis and Trapping
+    learning_objectives:
+      - Identify intermediates through product distribution analysis
+      - Design trapping experiments to detect reactive intermediates
+      - Use competitive reactions to probe mechanism
+      - Analyze rearrangement products as mechanistic evidence
+      - Apply spectroscopic methods to detect intermediates
+    textbook_style_content:
+      - topic: Product Distribution Analysis
+        sections:
+          - section_title: Overview of Product-Based Mechanism Elucidation
+            section_type: overview
+          - section_title: Regioisomer and Stereoisomer Ratios
+            section_type: core_theory
+          - section_title: Thermodynamic vs Kinetic Product Formation
+            section_type: core_theory
+      - topic: Intermediate Trapping Experiments
+        sections:
+          - section_title: Chemical Trapping of Carbocations
+            section_type: core_theory
+          - section_title: Radical Trapping and Spin Trapping
+            section_type: core_theory
+          - section_title: Carbanion and Enolate Trapping
+            section_type: related_concepts
+      - topic: Competition Experiments
+        sections:
+          - section_title: Competitive Kinetics and Relative Rates
+            section_type: core_theory
+          - section_title: Intermolecular vs Intramolecular Competition
+            section_type: related_concepts
+          - section_title: Chemoselectivity Studies
+            section_type: related_concepts
+      - topic: Rearrangement Products as Mechanistic Probes
+        sections:
+          - section_title: Identifying Carbocation Intermediates from Rearrangements
+            section_type: core_theory
+          - section_title: Skeletal Rearrangements and Pathway Determination
+            section_type: related_concepts
+      - topic: Spectroscopic Detection of Intermediates
+        sections:
+          - section_title: NMR Studies at Low Temperature
+            section_type: related_concepts
+          - section_title: UV-Vis Spectroscopy of Reactive Intermediates
+            section_type: related_concepts
+          - section_title: EPR Spectroscopy for Radicals
+            section_type: related_concepts
+    milestone: Design and execute experiments using product analysis and intermediate trapping to determine reaction mechanisms
+    duration_days: 5
+    tags:
+      - product analysis
+      - intermediate trapping
+      - competition experiments
+      - mechanism determination
+      - spectroscopy
+
+  - id: 14
+    title: Linear Free Energy Relationships and Structure-Reactivity
+    learning_objectives:
+      - Apply the Hammett equation to correlate structure and reactivity
+      - Interpret Hammett σ and ρ values for mechanistic insights
+      - Understand substituent effects on reaction rates and equilibria
+      - Use Brønsted plots for acid-base catalyzed reactions
+      - Apply Taft equation for separating steric and electronic effects
+    textbook_style_content:
+      - topic: Hammett Equation and Linear Free Energy Relationships
+        sections:
+          - section_title: Overview of Structure-Reactivity Correlations
+            section_type: overview
+          - section_title: The Hammett Equation - log(k/k₀) = σρ
+            section_type: core_theory
+          - section_title: Substituent Constants (σ) - Electronic Effects
+            section_type: core_theory
+          - section_title: Reaction Constants (ρ) - Mechanistic Sensitivity
+            section_type: core_theory
+      - topic: Applications of Hammett Relationships
+        sections:
+          - section_title: Determining Charge Development in Transition States
+            section_type: core_theory
+          - section_title: Positive vs Negative ρ Values
+            section_type: core_theory
+          - section_title: σ⁺ and σ⁻ for Resonance-Stabilized Intermediates
+            section_type: related_concepts
+      - topic: Other Linear Free Energy Relationships
+        sections:
+          - section_title: Brønsted Catalysis Law
+            section_type: core_theory
+          - section_title: Taft Equation for Aliphatic Systems
+            section_type: related_concepts
+          - section_title: Yukawa-Tsuno Equation
+            section_type: related_concepts
+      - topic: Mechanistic Interpretation of LFER Data
+        sections:
+          - section_title: Transition State Charge and Geometry
+            section_type: core_theory
+          - section_title: Mechanism Changes with Substituents
+            section_type: related_concepts
+    milestone: Use linear free energy relationships to extract mechanistic information and predict reactivity trends
+    duration_days: 4
+    tags:
+      - Hammett equation
+      - LFER
+      - structure-reactivity
+      - substituent effects
+      - mechanism determination
+
+  - id: 15
+    title: Advanced Topics - Neighboring Group Participation and Anchimeric Assistance
+    learning_objectives:
+      - Identify neighboring group participation in substitution and elimination reactions
+      - Understand anchimeric assistance and rate acceleration
+      - Predict stereochemical consequences of neighboring group participation
+      - Analyze cyclic intermediate formation
+      - Apply NGP concepts to solve complex mechanistic problems
+    textbook_style_content:
+      - topic: Neighboring Group Participation
+        sections:
+          - section_title: Overview of Intramolecular Assistance
+            section_type: overview
+          - section_title: Anchimeric Assistance and Rate Enhancement
+            section_type: core_theory
+          - section_title: Cyclic Intermediate Formation
+            section_type: core_theory
+      - topic: Common Neighboring Groups
+        sections:
+          - section_title: Acetoxy and Benzoyloxy Group Participation
+            section_type: core_theory
+          - section_title: Halogen Participation - Halonium Ions
+            section_type: core_theory
+          - section_title: Sulfur and Nitrogen Participation
+            section_type: related_concepts
+          - section_title: Aromatic Ring Participation - Phenonium Ions
+            section_type: related_concepts
+      - topic: Stereochemical Consequences
+        sections:
+          - section_title: Retention of Configuration via Double Inversion
+            section_type: core_theory
+          - section_title: Product Prediction with NGP
+            section_type: related_concepts
+      - topic: Evidence for Neighboring Group Participation
+        sections:
+          - section_title: Rate Enhancement
+            section_type: core_theory
+          - section_title: Stereochemical Outcomes
+            section_type: core_theory
+          - section_title: Product Distribution
+            section_type: related_concepts
+    milestone: Recognize and predict neighboring group participation in organic reactions and its stereochemical consequences
+    duration_days: 4
+    tags:
+      - neighboring group participation
+      - anchimeric assistance
+      - stereochemistry
+      - cyclic intermediates
+      - rate enhancement
+
+  - id: 16
+    title: Advanced Topics - Solvent Effects and Ion Pairing
+    learning_objectives:
+      - Understand how solvent polarity and hydrogen bonding affect reaction mechanisms
+      - Analyze solvent effects on SN1, SN2, E1, and E2 reactions
+      - Describe ion pair formation and its role in reaction mechanisms
+      - Apply solvent ionizing power and nucleophilicity concepts
+      - Predict mechanism changes with solvent variations
+    textbook_style_content:
+      - topic: Solvent Classification and Properties
+        sections:
+          - section_title: Overview of Solvent Effects in Organic Reactions
+            section_type: overview
+          - section_title: Protic vs Aprotic Solvents
+            section_type: core_theory
+          - section_title: Polar vs Nonpolar Solvents
+            section_type: core_theory
+          - section_title: Dielectric Constant and Ionizing Power
+            section_type: core_theory
+      - topic: Solvent Effects on Reaction Mechanisms
+        sections:
+          - section_title: SN1 Reactions - Favored by Polar Protic Solvents
+            section_type: core_theory
+          - section_title: SN2 Reactions - Favored by Polar Aprotic Solvents
+            section_type: core_theory
+          - section_title: E1 and E2 Solvent Preferences
+            section_type: related_concepts
+      - topic: Nucleophilicity vs Basicity in Different Solvents
+        sections:
+          - section_title: Solvation Effects on Nucleophile Strength
+            section_type: core_theory
+          - section_title: Naked Anions in Aprotic Solvents
+            section_type: core_theory
+          - section_title: Crown Ethers and Phase Transfer Catalysis
+            section_type: related_concepts
+      - topic: Ion Pairing
+        sections:
+          - section_title: Contact Ion Pairs vs Solvent-Separated Ion Pairs
+            section_type: core_theory
+          - section_title: Ion Pairing Effects on Stereochemistry
+            section_type: related_concepts
+          - section_title: Winstein's Studies on Solvolysis
+            section_type: related_concepts
+    milestone: Predict and rationalize solvent effects on organic reaction mechanisms and rates
+    duration_days: 4
+    tags:
+      - solvent effects
+      - ion pairing
+      - protic solvents
+      - aprotic solvents
+      - nucleophilicity
+
+  - id: 17
+    title: Comprehensive Mechanistic Problem Solving
+    learning_objectives:
+      - Integrate knowledge from all previous modules to solve complex mechanistic problems
+      - Propose mechanisms for multi-step transformations
+      - Design experiments to distinguish between alternative mechanisms
+      - Analyze experimental data to support or refute mechanistic proposals
+      - Apply critical thinking to evaluate mechanistic literature
+    textbook_style_content:
+      - topic: Systematic Approach to Mechanism Determination
+        sections:
+          - section_title: Steps in Mechanistic Analysis
+            section_type: overview
+          - section_title: Identifying Key Structural Changes
+            section_type: core_theory
+          - section_title: Proposing Alternative Mechanisms
+            section_type: core_theory
+          - section_title: Designing Discriminating Experiments
+            section_type: core_theory
+      - topic: Complex Mechanistic Problems
+        sections:
+          - section_title: Multi-Step Reaction Sequences
+            section_type: core_theory
+          - section_title: Competing Pathways and Selectivity
+            section_type: core_theory
+          - section_title: Rearrangements and Unexpected Products
+            section_type: related_concepts
+      - topic: Data Interpretation and Mechanism Validation
+        sections:
+          - section_title: Integrating Kinetic, Stereochemical, and Labeling Data
+            section_type: core_theory
+          - section_title: Consistency Checks for Proposed Mechanisms
+            section_type: related_concepts
+          - section_title: Common Pitfalls in Mechanistic Reasoning
+            section_type: related_concepts
+      - topic: Case Studies from Literature
+        sections:
+          - section_title: Classic Mechanistic Controversies
+            section_type: related_concepts
+          - section_title: Modern Mechanistic Studies
+            section_type: related_concepts
+          - section_title: Computational Support for Mechanisms
+            section_type: related_concepts
+    milestone: Demonstrate mastery of mechanistic analysis by solving complex problems integrating all mechanistic tools and concepts
+    duration_days: 6
+    tags:
+      - problem solving
+      - mechanism determination
+      - integration
+      - critical thinking
+      - case studies
+
+  - id: 18
+    title: Practice Problems and CSIR Exam Preparation
+    learning_objectives:
+      - Solve CSIR-level problems on reaction mechanisms
+      - Apply time management strategies for mechanism questions
+      - Review common question patterns in CSIR examinations
+      - Practice predicting products and intermediates under time constraints
+      - Identify key concepts frequently tested in CSIR exams
+    textbook_style_content:
+      - topic: CSIR Question Patterns and Strategy
+        sections:
+          - section_title: Overview of Mechanism Questions in CSIR
+            section_type: overview
+          - section_title: Common Question Types and Formats
+            section_type: core_theory
+          - section_title: Time Management and Problem Selection
+            section_type: related_concepts
+      - topic: Practice Problem Sets
+        sections:
+          - section_title: Substitution and Elimination Mechanisms
+            section_type: core_theory
+          - section_title: Addition Reactions to Multiple Bonds
+            section_type: core_theory
+          - section_title: Radical Reactions
+            section_type: core_theory
+          - section_title: Mechanism Determination from Experimental Data
+            section_type: core_theory
+      - topic: Review of High-Yield Topics
+        sections:
+          - section_title: Carbocation Rearrangements
+            section_type: related_concepts
+          - section_title: Stereochemistry and Regioselectivity
+            section_type: related_concepts
+          - section_title: Reaction Intermediate Identification
+            section_type: related_concepts
+      - topic: Mock Tests and Solutions
+        sections:
+          - section_title: Full-Length Practice Tests
+            section_type: related_concepts
+          - section_title: Detailed Solutions with Explanations
+            section_type: related_concepts
+          - section_title: Common Mistakes and How to Avoid Them
+            section_type: related_concepts
+    milestone: Achieve proficiency in solving CSIR-level mechanism problems efficiently and accurately
+    duration_days: 7
+    tags:
+      - CSIR preparation
+      - practice problems
+      - exam strategy
+      - problem solving
+      - review

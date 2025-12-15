@@ -1,0 +1,425 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Approximate methods of quantum mechanics: Variational principle; perturbation theory up to second order in energy; applications."
+
+concepts:
+  core:
+    - name: Variational principle
+      clarifier: Rayleigh-Ritz variational theorem for ground state energy estimation using trial wavefunctions
+    - name: First-order perturbation theory
+      clarifier: Energy and wavefunction corrections when Hamiltonian contains small perturbation term
+    - name: Second-order perturbation theory
+      clarifier: Higher accuracy energy corrections involving summation over intermediate states
+    - name: Degenerate perturbation theory
+      clarifier: Special treatment when unperturbed states have identical energies
+    - name: Applications to quantum systems
+      clarifier: Helium atom, hydrogen atom in fields, anharmonic oscillator, molecular systems
+  related:
+    - name: Exact vs approximate solutions
+      clarifier: Understanding when and why approximate methods are necessary in quantum mechanics
+    - name: Trial wavefunctions
+      clarifier: Selection criteria and optimization of variational parameters
+    - name: Hermitian operators and orthogonality
+      clarifier: Mathematical foundations required for perturbation expansion
+    - name: Rayleigh-Ritz linear variation method
+      clarifier: Linear combination approach using basis functions
+    - name: Stark effect
+      clarifier: Perturbation of atomic energy levels by external electric field
+    - name: Zeeman effect
+      clarifier: Splitting of energy levels in presence of magnetic field
+    - name: WKB approximation
+      clarifier: Semi-classical approach for slowly varying potentials
+    - name: Born-Oppenheimer approximation
+      clarifier: Separation of nuclear and electronic motion in molecules
+
+learning_path:
+  - id: 1
+    title: Foundations of Approximate Methods
+    learning_objectives:
+      - Understand limitations of exact analytical solutions in quantum mechanics
+      - Identify systems requiring approximate treatment
+      - Recognize criteria for choosing between variational and perturbation approaches
+      - Review mathematical prerequisites including linear algebra and Hermitian operators
+    textbook_style_content:
+      - topic: Introduction to Approximate Methods in Quantum Mechanics
+        sections:
+          - section_title: Why Approximate Methods Are Essential
+            section_type: overview
+          - section_title: The Schrödinger Equation and Solvable Systems
+            section_type: core_theory
+          - section_title: Classification of Approximate Techniques
+            section_type: related_concepts
+      - topic: Mathematical Foundations
+        sections:
+          - section_title: Hermitian Operators and Eigenvalue Problems
+            section_type: core_theory
+          - section_title: Expansion in Complete Basis Sets
+            section_type: core_theory
+          - section_title: Matrix Representation of Operators
+            section_type: related_concepts
+    milestone: Master the conceptual framework and mathematical tools needed for approximate quantum mechanics
+    duration_days: 3
+    tags:
+      - foundations
+      - mathematical prerequisites
+      - quantum mechanics review
+
+  - id: 2
+    title: Variational Principle - Theory and Formalism
+    learning_objectives:
+      - State and prove the variational theorem for ground state energy
+      - Understand upper bound property of variational energy
+      - Derive variational conditions for optimal wavefunction
+      - Apply calculus of variations to quantum mechanical problems
+    textbook_style_content:
+      - topic: The Variational Theorem
+        sections:
+          - section_title: Statement of the Variational Principle
+            section_type: overview
+          - section_title: Proof of the Variational Theorem
+            section_type: core_theory
+          - section_title: Physical Interpretation and Significance
+            section_type: core_theory
+      - topic: Mathematical Framework
+        sections:
+          - section_title: Energy Functional and Its Minimization
+            section_type: core_theory
+          - section_title: Variational Parameters and Optimization
+            section_type: core_theory
+          - section_title: Orthogonality Constraints and Excited States
+            section_type: related_concepts
+      - topic: Trial Wavefunction Selection
+        sections:
+          - section_title: Guidelines for Choosing Trial Functions
+            section_type: core_theory
+          - section_title: Flexible Functions with Adjustable Parameters
+            section_type: related_concepts
+    milestone: Develop complete understanding of variational principle theoretical framework
+    duration_days: 4
+    tags:
+      - variational principle
+      - theoretical foundations
+      - energy bounds
+
+  - id: 3
+    title: Rayleigh-Ritz Linear Variation Method
+    learning_objectives:
+      - Implement linear variation method using basis function expansion
+      - Set up and solve secular determinant for energy eigenvalues
+      - Apply method to multi-parameter optimization problems
+      - Compare efficiency of different basis set choices
+    textbook_style_content:
+      - topic: Linear Variation Theory
+        sections:
+          - section_title: Expansion in Basis Functions
+            section_type: overview
+          - section_title: Derivation of Secular Equation
+            section_type: core_theory
+          - section_title: Matrix Formulation and Generalized Eigenvalue Problem
+            section_type: core_theory
+      - topic: Computational Implementation
+        sections:
+          - section_title: Construction of Hamiltonian and Overlap Matrices
+            section_type: core_theory
+          - section_title: Solving the Secular Determinant
+            section_type: core_theory
+          - section_title: Basis Set Convergence and Completeness
+            section_type: related_concepts
+    milestone: Master systematic approach to variational calculations using basis sets
+    duration_days: 4
+    tags:
+      - Rayleigh-Ritz method
+      - linear variation
+      - basis sets
+      - secular equation
+
+  - id: 4
+    title: Applications of Variational Principle
+    learning_objectives:
+      - Calculate ground state energy of helium atom using trial wavefunctions
+      - Apply variational method to hydrogen molecular ion
+      - Determine optimal parameters for particle in a box with perturbed boundaries
+      - Solve harmonic and anharmonic oscillator problems variationally
+    textbook_style_content:
+      - topic: Helium Atom Ground State
+        sections:
+          - section_title: Two-Electron Problem and Electron Correlation
+            section_type: overview
+          - section_title: Simple Trial Wavefunction with Effective Nuclear Charge
+            section_type: core_theory
+          - section_title: Results and Accuracy Assessment
+            section_type: core_theory
+          - section_title: Advanced Trial Functions with Electron-Electron Distance
+            section_type: related_concepts
+      - topic: Hydrogen Molecular Ion
+        sections:
+          - section_title: LCAO Approach for H₂⁺
+            section_type: core_theory
+          - section_title: Bonding and Antibonding Orbitals
+            section_type: core_theory
+          - section_title: Energy Curves and Bond Formation
+            section_type: related_concepts
+      - topic: One-Dimensional Systems
+        sections:
+          - section_title: Particle in Modified Potentials
+            section_type: core_theory
+          - section_title: Anharmonic Oscillator Treatment
+            section_type: core_theory
+    milestone: Successfully apply variational principle to realistic atomic and molecular systems
+    duration_days: 5
+    tags:
+      - applications
+      - helium atom
+      - molecular systems
+      - variational calculations
+
+  - id: 5
+    title: Time-Independent Perturbation Theory - Non-Degenerate Case
+    learning_objectives:
+      - Understand perturbation theory assumptions and validity conditions
+      - Derive first-order energy and wavefunction corrections
+      - Derive second-order energy corrections with intermediate state summation
+      - Analyze convergence criteria for perturbation series
+    textbook_style_content:
+      - topic: Perturbation Theory Framework
+        sections:
+          - section_title: Hamiltonian Partitioning and Perturbation Parameter
+            section_type: overview
+          - section_title: Assumptions and Applicability Conditions
+            section_type: core_theory
+          - section_title: Series Expansion of Energy and Wavefunction
+            section_type: core_theory
+      - topic: First-Order Perturbation Theory
+        sections:
+          - section_title: First-Order Energy Correction Formula
+            section_type: core_theory
+          - section_title: First-Order Wavefunction Correction
+            section_type: core_theory
+          - section_title: Expectation Values to First Order
+            section_type: related_concepts
+      - topic: Second-Order Perturbation Theory
+        sections:
+          - section_title: Derivation of Second-Order Energy Correction
+            section_type: core_theory
+          - section_title: Sum Over Intermediate States
+            section_type: core_theory
+          - section_title: Physical Interpretation and Energy Lowering
+            section_type: related_concepts
+      - topic: Convergence and Validity
+        sections:
+          - section_title: Conditions for Perturbation Series Convergence
+            section_type: core_theory
+          - section_title: Comparison with Exact Solutions
+            section_type: related_concepts
+    milestone: Master derivation and application of perturbation theory up to second order
+    duration_days: 6
+    tags:
+      - perturbation theory
+      - first-order corrections
+      - second-order corrections
+      - non-degenerate case
+
+  - id: 6
+    title: Degenerate Perturbation Theory
+    learning_objectives:
+      - Identify degeneracy and understand why standard perturbation theory fails
+      - Construct proper zero-order basis by diagonalizing perturbation matrix
+      - Calculate energy level splitting in degenerate subspaces
+      - Apply degenerate perturbation theory to physical systems
+    textbook_style_content:
+      - topic: Problem of Degeneracy
+        sections:
+          - section_title: Failure of Non-Degenerate Theory
+            section_type: overview
+          - section_title: Correct Zero-Order Wavefunctions
+            section_type: core_theory
+          - section_title: Secular Matrix in Degenerate Subspace
+            section_type: core_theory
+      - topic: Formalism for Degenerate States
+        sections:
+          - section_title: Diagonalization of Perturbation Matrix
+            section_type: core_theory
+          - section_title: Lifting of Degeneracy
+            section_type: core_theory
+          - section_title: First-Order Corrections in Degenerate Case
+            section_type: core_theory
+      - topic: Higher-Order Corrections
+        sections:
+          - section_title: Second-Order Energy for Initially Degenerate Levels
+            section_type: core_theory
+          - section_title: Nearly Degenerate Perturbation Theory
+            section_type: related_concepts
+    milestone: Handle degenerate systems correctly using appropriate perturbation techniques
+    duration_days: 4
+    tags:
+      - degenerate perturbation theory
+      - degeneracy lifting
+      - secular matrix
+      - level splitting
+
+  - id: 7
+    title: Applications I - Atomic Systems in External Fields
+    learning_objectives:
+      - Calculate Stark effect in hydrogen atom using perturbation theory
+      - Analyze first-order and second-order contributions to energy shifts
+      - Apply degenerate perturbation theory to n=2 level of hydrogen
+      - Compute Zeeman effect and magnetic moment interactions
+    textbook_style_content:
+      - topic: Stark Effect in Hydrogen
+        sections:
+          - section_title: Electric Field Perturbation Hamiltonian
+            section_type: overview
+          - section_title: Ground State Stark Effect - Second Order
+            section_type: core_theory
+          - section_title: First Excited State - Degenerate Perturbation Treatment
+            section_type: core_theory
+          - section_title: Linear and Quadratic Stark Effects
+            section_type: related_concepts
+      - topic: Zeeman Effect
+        sections:
+          - section_title: Magnetic Field Interaction
+            section_type: overview
+          - section_title: Normal Zeeman Effect
+            section_type: core_theory
+          - section_title: Anomalous Zeeman Effect with Spin-Orbit Coupling
+            section_type: related_concepts
+      - topic: Fine Structure
+        sections:
+          - section_title: Relativistic and Spin-Orbit Corrections
+            section_type: core_theory
+          - section_title: Perturbative Treatment of Fine Structure
+            section_type: core_theory
+    milestone: Apply perturbation theory successfully to atoms in external electromagnetic fields
+    duration_days: 5
+    tags:
+      - Stark effect
+      - Zeeman effect
+      - external fields
+      - atomic perturbations
+
+  - id: 8
+    title: Applications II - Anharmonic Oscillator and Molecular Systems
+    learning_objectives:
+      - Treat cubic and quartic anharmonicity using perturbation theory
+      - Calculate vibrational energy corrections for diatomic molecules
+      - Apply perturbation methods to rotation-vibration coupling
+      - Analyze multi-electron atoms using both variational and perturbation approaches
+    textbook_style_content:
+      - topic: Anharmonic Oscillator
+        sections:
+          - section_title: Morse Potential and Polynomial Anharmonicity
+            section_type: overview
+          - section_title: First-Order Energy Correction for Cubic Term
+            section_type: core_theory
+          - section_title: Second-Order Treatment of Quartic Anharmonicity
+            section_type: core_theory
+          - section_title: Selection Rules and Matrix Elements
+            section_type: related_concepts
+      - topic: Molecular Vibrations and Rotations
+        sections:
+          - section_title: Vibration-Rotation Coupling
+            section_type: core_theory
+          - section_title: Centrifugal Distortion
+            section_type: core_theory
+          - section_title: Spectroscopic Constants from Perturbation Theory
+            section_type: related_concepts
+      - topic: Multi-Electron Atoms
+        sections:
+          - section_title: Helium Atom Revisited with Perturbation Theory
+            section_type: core_theory
+          - section_title: Electron Correlation Energy
+            section_type: core_theory
+          - section_title: Comparison of Variational and Perturbation Results
+            section_type: related_concepts
+    milestone: Master application of approximate methods to molecular and many-electron problems
+    duration_days: 5
+    tags:
+      - anharmonic oscillator
+      - molecular systems
+      - multi-electron atoms
+      - spectroscopy
+
+  - id: 9
+    title: Comparison and Integration of Methods
+    learning_objectives:
+      - Compare accuracy and efficiency of variational vs perturbation approaches
+      - Understand when to use each method for different problem types
+      - Combine variational and perturbation techniques
+      - Analyze error estimates and convergence behavior
+    textbook_style_content:
+      - topic: Method Comparison
+        sections:
+          - section_title: Strengths and Limitations Overview
+            section_type: overview
+          - section_title: Accuracy Analysis for Test Systems
+            section_type: core_theory
+          - section_title: Computational Efficiency Considerations
+            section_type: related_concepts
+      - topic: Hybrid Approaches
+        sections:
+          - section_title: Variational-Perturbation Combined Methods
+            section_type: core_theory
+          - section_title: Using Variational Results as Starting Point for Perturbation
+            section_type: core_theory
+      - topic: Advanced Topics
+        sections:
+          - section_title: Time-Dependent Perturbation Theory Connection
+            section_type: related_concepts
+          - section_title: Many-Body Perturbation Theory Preview
+            section_type: related_concepts
+          - section_title: Density Functional Theory as Modern Approach
+            section_type: related_concepts
+    milestone: Develop comprehensive understanding of when and how to apply approximate quantum methods
+    duration_days: 3
+    tags:
+      - method comparison
+      - integration
+      - hybrid approaches
+      - advanced topics
+
+  - id: 10
+    title: Problem-Solving and CSIR Exam Preparation
+    learning_objectives:
+      - Solve representative CSIR-level problems efficiently
+      - Identify problem type and select appropriate method quickly
+      - Perform calculations with required accuracy within time constraints
+      - Master common tricks and approximations for exam scenarios
+    textbook_style_content:
+      - topic: Problem-Solving Strategies
+        sections:
+          - section_title: Systematic Approach to Quantum Mechanics Problems
+            section_type: overview
+          - section_title: Quick Assessment of Method Applicability
+            section_type: core_theory
+          - section_title: Common Calculation Shortcuts
+            section_type: related_concepts
+      - topic: Representative Problems
+        sections:
+          - section_title: Variational Principle Problems with Solutions
+            section_type: core_theory
+          - section_title: First and Second-Order Perturbation Problems
+            section_type: core_theory
+          - section_title: Degenerate Cases and Field Effects
+            section_type: core_theory
+      - topic: CSIR Exam Patterns
+        sections:
+          - section_title: Previous Year Question Analysis
+            section_type: overview
+          - section_title: High-Yield Topics and Concepts
+            section_type: related_concepts
+          - section_title: Time Management and Strategy
+            section_type: related_concepts
+      - topic: Common Pitfalls
+        sections:
+          - section_title: Frequent Mistakes in Variational Calculations
+            section_type: related_concepts
+          - section_title: Errors in Perturbation Theory Applications
+            section_type: related_concepts
+    milestone: Achieve exam-ready proficiency in approximate quantum mechanics for CSIR Chemical Sciences
+    duration_days: 6
+    tags:
+      - problem solving
+      - CSIR preparation
+      - exam strategy
+      - practice problems

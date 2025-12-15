@@ -1,0 +1,526 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Carbon-carbon bond formation through coupling reactions - Heck, Suzuki, Stille, Sonogoshira, Negishi, Kumada, Hiyama, Tsuji-Trost, olefin metathesis and McMurry."
+
+concepts:
+  core:
+    - name: Palladium-Catalyzed Cross-Coupling Fundamentals
+      clarifier: "General mechanism, oxidative addition, transmetalation, reductive elimination, and catalyst cycles"
+    - name: Heck Reaction
+      clarifier: "Coupling of aryl/vinyl halides with alkenes; regioselectivity and stereoselectivity; asymmetric variants"
+    - name: Suzuki-Miyaura Cross-Coupling
+      clarifier: "Boronic acids/esters as nucleophiles; transmetalation mechanism; applications to aryl, vinyl, and alkyl substrates"
+    - name: Stille Cross-Coupling
+      clarifier: "Organotin reagents in coupling; mechanism; advantages and toxicity considerations"
+    - name: Sonogashira Coupling
+      clarifier: "Alkyne coupling with aryl/vinyl halides; copper co-catalyst role; terminal alkyne reactivity"
+    - name: Negishi Cross-Coupling
+      clarifier: "Organozinc reagents; mechanism and functional group tolerance; advantages over Grignard"
+    - name: Kumada Cross-Coupling
+      clarifier: "Organomagnesium and organoaluminum reagents; mechanism and scope"
+    - name: Hiyama Cross-Coupling
+      clarifier: "Organosilane reagents; fluoride-mediated transmetalation; mild conditions"
+    - name: Tsuji-Trost Allylic Substitution
+      clarifier: "Palladium-catalyzed allylic substitution; allyl coupling; regioselectivity and enantioselectivity"
+    - name: Olefin Metathesis
+      clarifier: "Ruthenium-based catalysts; ring-closing metathesis (RCM); ring-opening metathesis polymerization (ROMP); applications"
+    - name: McMurry Reaction
+      clarifier: "Titanium(III) coupling of carbonyls to olefins; mechanism and scope"
+
+  related:
+    - name: Catalyst Design and Optimization
+      clarifier: "Ligand effects, steric/electronic modulation, and catalyst performance"
+    - name: Mechanistic Pathways and Selectivity
+      clarifier: "Regioselectivity, stereoselectivity, and chemoselectivity in cross-coupling"
+    - name: Functional Group Tolerance
+      clarifier: "Compatibility with various substituents and protecting group strategies"
+    - name: Green Chemistry in Cross-Coupling
+      clarifier: "Atom economy, catalytic efficiency, and environmentally benign conditions"
+    - name: Synthetic Applications and Route Design
+      clarifier: "Integration of coupling reactions in multi-step synthesis and drug synthesis"
+
+learning_path:
+  - id: 1
+    topic: "Introduction to Palladium-Catalyzed Cross-Coupling: Mechanism and Fundamentals"
+    learning_objectives:
+      - "Explain the general catalytic cycle of palladium cross-coupling reactions"
+      - "Describe oxidative addition mechanism and factors affecting reactivity of organic halides"
+      - "Apply transmetalation principles and nucleophile-dependent selectivity"
+      - "Analyze reductive elimination and C-C bond formation"
+      - "Compare reactivity trends: aryl > vinyl > alkyl halides"
+      - "Explain the role of phosphine ligands in stabilizing Pd intermediates"
+      - "Distinguish between coupling reactions based on nucleophile type and mechanism"
+    textbook_style_content:
+      - lesson: "Palladium Catalytic Cycle"
+        sections:
+          - section_heading: "Overview of Cross-Coupling Reactions"
+            section_type: "overview"
+          - section_heading: "Oxidative Addition: Mechanism and Reactivity of Organic Halides"
+            section_type: "core_theory"
+          - section_heading: "Transmetalation: Role of Organometallic Nucleophiles"
+            section_type: "core_theory"
+          - section_heading: "Reductive Elimination and C-C Bond Formation"
+            section_type: "core_theory"
+      - lesson: "Factors Affecting Cross-Coupling Reactivity"
+        sections:
+          - section_heading: "Nature of Halide (I > Br > Cl) and Substrate Electronics"
+            section_type: "core_theory"
+          - section_heading: "Phosphine Ligand Effects and Steric/Electronic Modulation"
+            section_type: "core_theory"
+          - section_heading: "Base Selection and Reaction Conditions"
+            section_type: "related concepts"
+    milestone: "Understand fundamental palladium catalytic cycle and mechanistic principles"
+    duration_days: 5
+    tags:
+      - "Palladium Catalysis"
+      - "Oxidative Addition"
+      - "Transmetalation"
+      - "Reductive Elimination"
+
+  - id: 2
+    topic: "Heck Reaction: Coupling with Alkenes"
+    learning_objectives:
+      - "Describe the Heck reaction mechanism and β-hydride elimination pathway"
+      - "Explain regioselectivity in coupling of monosubstituted alkenes (Markovnikov-type)"
+      - "Predict stereochemistry outcomes (syn addition, E-alkene formation)"
+      - "Apply the Heck reaction to aryl and vinyl halides"
+      - "Execute asymmetric Heck reactions with chiral ligands"
+      - "Design synthetic routes utilizing intramolecular Heck reactions"
+      - "Compare reactivity of aryl iodides, bromides, and triflates"
+    textbook_style_content:
+      - lesson: "Heck Reaction Mechanism"
+        sections:
+          - section_heading: "Oxidative Addition and Alkene Insertion"
+            section_type: "core_theory"
+          - section_heading: "β-Hydride Elimination and E-Alkene Formation"
+            section_type: "core_theory"
+      - lesson: "Regioselectivity and Stereoselectivity"
+        sections:
+          - section_heading: "Regioselectivity in Coupling of Monosubstituted Alkenes"
+            section_type: "core_theory"
+          - section_heading: "Markovnikov vs. Anti-Markovnikov Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Stereochemistry: Syn Addition and E-Alkene Geometry"
+            section_type: "related concepts"
+      - lesson: "Scope and Applications"
+        sections:
+          - section_heading: "Aryl and Vinyl Halide Coupling"
+            section_type: "core_theory"
+          - section_heading: "Intramolecular Heck Reaction and Cyclization"
+            section_type: "core_theory"
+          - section_heading: "Asymmetric Heck Reactions with Chiral Ligands"
+            section_type: "related concepts"
+    milestone: "Execute Heck reactions with predictable regioselectivity and stereoselectivity"
+    duration_days: 6
+    tags:
+      - "Heck Reaction"
+      - "β-Hydride Elimination"
+      - "Regioselectivity"
+      - "Intramolecular Coupling"
+
+  - id: 3
+    topic: "Suzuki-Miyaura Cross-Coupling: Boronic Acids and Esters"
+    learning_objectives:
+      - "Explain organoboron reactivity and transmetalation mechanism with base"
+      - "Apply Suzuki coupling to aryl, vinyl, and alkyl bromides/iodides"
+      - "Describe boronic acid and boronic ester stability and synthetic convenience"
+      - "Execute coupling of electron-rich and electron-poor aromatic substrates"
+      - "Design synthesis of biaryl compounds and natural product analogs"
+      - "Optimize coupling via ligand and base selection"
+      - "Apply Suzuki coupling to heterocyclic systems"
+    textbook_style_content:
+      - lesson: "Organoboron Reagents and Mechanism"
+        sections:
+          - section_heading: "Formation of Boronic Acids and Boronic Esters"
+            section_type: "core_theory"
+          - section_heading: "Transmetalation Mechanism with Hydroxide/Alkoxide Base"
+            section_type: "core_theory"
+          - section_heading: "Stability Advantages of Boronic Esters vs. Boronic Acids"
+            section_type: "related concepts"
+      - lesson: "Scope and Applications"
+        sections:
+          - section_heading: "Aryl and Vinyl Halide Coupling"
+            section_type: "core_theory"
+          - section_heading: "Alkyl Bromide Coupling and Secondary/Tertiary Alkyl Substrates"
+            section_type: "core_theory"
+          - section_heading: "Electron-Rich and Electron-Poor Aromatic Substrates"
+            section_type: "core_theory"
+          - section_heading: "Heterocyclic Coupling and Drug Synthesis Applications"
+            section_type: "related concepts"
+      - lesson: "Optimization and Special Cases"
+        sections:
+          - section_heading: "Ligand and Base Selection for Enhanced Reactivity"
+            section_type: "core_theory"
+          - section_heading: "Boronic Acid Homocoupling Prevention"
+            section_type: "related concepts"
+    milestone: "Execute diverse Suzuki couplings for C-C bond formation in complex substrates"
+    duration_days: 7
+    tags:
+      - "Suzuki-Miyaura"
+      - "Boronic Acids"
+      - "Transmetalation"
+      - "Biaryl Synthesis"
+
+  - id: 4
+    topic: "Stille Cross-Coupling: Organotin Reagents"
+    learning_objectives:
+      - "Describe organotin compound synthesis and reactivity"
+      - "Explain transmetalation of stannanes to palladium"
+      - "Apply Stille coupling to aryl, vinyl, and alkyl halides"
+      - "Distinguish coupling of mono-, di-, and tetrasubstituted alkenes"
+      - "Execute Stille coupling with heterocycles and functionalized substrates"
+      - "Discuss toxicity and environmental concerns of organotin reagents"
+      - "Compare Stille coupling to Suzuki and other cross-couplings"
+    textbook_style_content:
+      - lesson: "Organotin Reagents and Formation"
+        sections:
+          - section_heading: "Stannane Synthesis and Structure"
+            section_type: "core_theory"
+          - section_heading: "Stabilization and Reactivity of Organotin Compounds"
+            section_type: "core_theory"
+      - lesson: "Stille Coupling Mechanism"
+        sections:
+          - section_heading: "Transmetalation from Tin to Palladium"
+            section_type: "core_theory"
+          - section_heading: "Reductive Elimination and C-C Bond Formation"
+            section_type: "core_theory"
+      - lesson: "Scope and Applications"
+        sections:
+          - section_heading: "Aryl and Vinyl Halide Coupling"
+            section_type: "core_theory"
+          - section_heading: "Alkyl Stannane Coupling"
+            section_type: "core_theory"
+          - section_heading: "Substitution Pattern and Selectivity (Mono-, Di-, Tetrasubstituted Alkenes)"
+            section_type: "related concepts"
+          - section_heading: "Heterocyclic and Functionalized Substrate Coupling"
+            section_type: "related concepts"
+      - lesson: "Toxicity and Comparison to Alternative Couplings"
+        sections:
+          - section_heading: "Environmental and Health Concerns of Organotin"
+            section_type: "related concepts"
+          - section_heading: "Comparison to Suzuki and Other Less Toxic Couplings"
+            section_type: "related concepts"
+    milestone: "Execute Stille couplings with versatile scope; understand toxicity trade-offs"
+    duration_days: 6
+    tags:
+      - "Stille Cross-Coupling"
+      - "Organotin Reagents"
+      - "Transmetalation"
+      - "Toxicity Considerations"
+
+  - id: 5
+    topic: "Sonogashira Coupling: Terminal Alkyne Coupling"
+    learning_objectives:
+      - "Describe alkyne activation and coupling to aryl/vinyl halides"
+      - "Explain the role of copper co-catalyst in Sonogashira coupling"
+      - "Apply Sonogashira coupling to terminal alkynes"
+      - "Execute internal alkyne coupling under modified conditions"
+      - "Design synthesis of aryl-alkyne and aryl-diene conjugates"
+      - "Optimize coupling conditions for sensitive substrates"
+      - "Integrate Sonogashira products into multi-step synthesis"
+    textbook_style_content:
+      - lesson: "Terminal Alkyne Activation"
+        sections:
+          - section_heading: "Alkyne Acidic Proton and Deprotonation"
+            section_type: "core_theory"
+          - section_heading: "Copper(I) Alkynide Complex Formation"
+            section_type: "core_theory"
+      - lesson: "Sonogashira Mechanism"
+        sections:
+          - section_heading: "Oxidative Addition of Aryl/Vinyl Halide to Palladium"
+            section_type: "core_theory"
+          - section_heading: "Transmetalation from Copper to Palladium"
+            section_type: "core_theory"
+          - section_heading: "Reductive Elimination and C-C Triple Bond Formation"
+            section_type: "core_theory"
+      - lesson: "Scope and Applications"
+        sections:
+          - section_heading: "Aryl and Vinyl Halide Coupling to Terminal Alkynes"
+            section_type: "core_theory"
+          - section_heading: "Internal Alkyne Coupling and Disubstituted Alkynes"
+            section_type: "core_theory"
+          - section_heading: "Synthesis of Aryl Enynes and Diynes"
+            section_type: "related concepts"
+          - section_heading: "Intramolecular Sonogashira and Cyclization"
+            section_type: "related concepts"
+      - lesson: "Optimization for Sensitive Substrates"
+        sections:
+          - section_heading: "Ligand-Free and Copper(I)-Free Conditions"
+            section_type: "core_theory"
+          - section_heading: "Functional Group Compatibility and Protecting Group Strategies"
+            section_type: "related concepts"
+    milestone: "Execute Sonogashira couplings to form aryl-alkyne and alkyne-alkyne bonds"
+    duration_days: 6
+    tags:
+      - "Sonogashira Coupling"
+      - "Terminal Alkynes"
+      - "Copper Co-catalyst"
+      - "C-C Triple Bond Formation"
+
+  - id: 6
+    topic: "Negishi, Kumada, and Hiyama Cross-Couplings"
+    learning_objectives:
+      - "Describe organozinc, organomagnesium, and organosilane formation"
+      - "Explain transmetalation mechanisms for zinc, magnesium, and silicon nucleophiles"
+      - "Apply Negishi coupling to primary and secondary alkyl halides"
+      - "Execute Kumada coupling with organomagnesium and organoaluminum reagents"
+      - "Apply Hiyama coupling with organosilane reagents"
+      - "Compare reactivity and functional group tolerance across three couplings"
+      - "Design multi-coupling strategies for complex molecule synthesis"
+    textbook_style_content:
+      - lesson: "Organozinc Reagents and Negishi Coupling"
+        sections:
+          - section_heading: "Organozinc Formation and Stability"
+            section_type: "core_theory"
+          - section_heading: "Negishi Transmetalation and Reactivity"
+            section_type: "core_theory"
+          - section_heading: "Coupling of Primary and Secondary Alkyl Halides"
+            section_type: "core_theory"
+          - section_heading: "Functional Group Tolerance and Selectivity"
+            section_type: "related concepts"
+      - lesson: "Organomagnesium/Organoaluminum and Kumada Coupling"
+        sections:
+          - section_heading: "Organomagnesium and Organoaluminum Formation"
+            section_type: "core_theory"
+          - section_heading: "Kumada Transmetalation Mechanism"
+            section_type: "core_theory"
+          - section_heading: "Aryl, Vinyl, and Alkyl Halide Coupling"
+            section_type: "core_theory"
+      - lesson: "Organosilane Reagents and Hiyama Coupling"
+        sections:
+          - section_heading: "Organosilane Synthesis and Structure"
+            section_type: "core_theory"
+          - section_heading: "Fluoride-Mediated Transmetalation and Activation"
+            section_type: "core_theory"
+          - section_heading: "Hiyama Coupling Advantages: Mild Conditions and Functional Group Tolerance"
+            section_type: "core_theory"
+      - lesson: "Comparison and Synthetic Applications"
+        sections:
+          - section_heading: "Reactivity and Selectivity Comparison (Negishi vs. Kumada vs. Hiyama)"
+            section_type: "related concepts"
+          - section_heading: "Multi-Coupling Strategies in Complex Synthesis"
+            section_type: "related concepts"
+    milestone: "Execute Negishi, Kumada, and Hiyama couplings with appropriate substrates"
+    duration_days: 8
+    tags:
+      - "Negishi Cross-Coupling"
+      - "Kumada Cross-Coupling"
+      - "Hiyama Cross-Coupling"
+      - "Organometallic Transmetalation"
+
+  - id: 7
+    topic: "Tsuji-Trost Allylic Substitution: Regioselectivity and Enantioselectivity"
+    learning_objectives:
+      - "Explain palladium-catalyzed allylic substitution mechanism"
+      - "Describe π-allyl palladium intermediate formation"
+      - "Predict regio- and enantioselectivity based on substrate and ligand"
+      - "Apply nucleophiles (C, N, O) in Tsuji-Trost reactions"
+      - "Execute intramolecular allylic coupling and cyclization"
+      - "Optimize enantioselectivity with chiral monodentate and bidentate ligands"
+      - "Design asymmetric synthesis using Tsuji-Trost substitution"
+    textbook_style_content:
+      - lesson: "Allylic Substitution Mechanism"
+        sections:
+          - section_heading: "Formation and Stabilization of π-Allyl Palladium Intermediate"
+            section_type: "core_theory"
+          - section_heading: "Nucleophilic Attack and Regioselectivity (Linear vs. Branched Products)"
+            section_type: "core_theory"
+      - lesson: "Regioselectivity"
+        sections:
+          - section_heading: "Steric and Electronic Effects on Regioselectivity"
+            section_type: "core_theory"
+          - section_heading: "Ligand-Induced Branched Product Selectivity"
+            section_type: "core_theory"
+      - lesson: "Enantioselectivity"
+        sections:
+          - section_heading: "Chiral Monodentate Ligands and Asymmetric Induction"
+            section_type: "core_theory"
+          - section_heading: "Chiral Bidentate Ligands (DPPBz, BINAP) and Enhanced Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Optimization of Ee and Regioselectivity"
+            section_type: "related concepts"
+      - lesson: "Nucleophile Scope"
+        sections:
+          - section_heading: "Carbon Nucleophiles (Malonate, Ketone Enolates)"
+            section_type: "core_theory"
+          - section_heading: "Nitrogen and Oxygen Nucleophiles (Amines, Phenols, Carboxylates)"
+            section_type: "core_theory"
+      - lesson: "Synthetic Applications"
+        sections:
+          - section_heading: "Intramolecular Tsuji-Trost and Ring Formation"
+            section_type: "core_theory"
+          - section_heading: "Applications in Natural Product and Drug Synthesis"
+            section_type: "related concepts"
+    milestone: "Execute enantioselective Tsuji-Trost allylic substitutions with predictable selectivity"
+    duration_days: 8
+    tags:
+      - "Tsuji-Trost Allylic Substitution"
+      - "π-Allyl Intermediate"
+      - "Regioselectivity"
+      - "Enantioselectivity"
+      - "Asymmetric Synthesis"
+
+  - id: 8
+    topic: "Olefin Metathesis: RCM, ROMP, and Synthetic Applications"
+    learning_objectives:
+      - "Describe ruthenium-based metathesis catalyst structure and mechanism"
+      - "Explain the metallacycle intermediate and [2+2] cycloaddition-retrocycloaddition pathway"
+      - "Execute ring-closing metathesis (RCM) for carbocyclization and heterocyclization"
+      - "Apply ring-opening metathesis polymerization (ROMP) for polymer synthesis"
+      - "Predict E/Z selectivity in olefin metathesis products"
+      - "Design multi-metathesis strategies in synthesis"
+      - "Optimize metathesis conditions for substrate-specific applications"
+    textbook_style_content:
+      - lesson: "Metathesis Catalyst and Mechanism"
+        sections:
+          - section_heading: "Ruthenium Alkylidene Catalyst Structure and Formation"
+            section_type: "core_theory"
+          - section_heading: "Metallacyclobutane Intermediate and [2+2] Cycloaddition-Retrocycloaddition"
+            section_type: "core_theory"
+          - section_heading: "First and Second Generation Catalysts (Grubbs, Hoveyda)"
+            section_type: "related concepts"
+      - lesson: "Ring-Closing Metathesis (RCM)"
+        sections:
+          - section_heading: "RCM for Formation of Carbocycles and Heterocycles"
+            section_type: "core_theory"
+          - section_heading: "Ring Size Effects and Macrocyclization"
+            section_type: "core_theory"
+          - section_heading: "E/Z Selectivity Prediction"
+            section_type: "core_theory"
+          - section_heading: "Stereocontrol in RCM and Formation of Trisubstituted Olefins"
+            section_type: "related concepts"
+      - lesson: "Ring-Opening Metathesis Polymerization (ROMP)"
+        sections:
+          - section_heading: "ROMP Mechanism and Polymer Chain Growth"
+            section_type: "core_theory"
+          - section_heading: "Living and Controlled ROMP"
+            section_type: "related concepts"
+      - lesson: "Cross-Metathesis and Self-Metathesis"
+        sections:
+          - section_heading: "Cross-Metathesis (CM) Selectivity and Homodimer Formation Prevention"
+            section_type: "core_theory"
+          - section_heading: "Self-Metathesis and Dimerization"
+            section_type: "related concepts"
+      - lesson: "Synthetic Applications"
+        sections:
+          - section_heading: "RCM in Natural Product Synthesis"
+            section_type: "core_theory"
+          - section_heading: "Sequential Metathesis Strategies"
+            section_type: "related concepts"
+    milestone: "Execute RCM and apply metathesis in complex cyclic and polymeric syntheses"
+    duration_days: 8
+    tags:
+      - "Olefin Metathesis"
+      - "Ring-Closing Metathesis"
+      - "ROMP"
+      - "Ruthenium Catalysis"
+      - "Carbocyclization"
+
+  - id: 9
+    topic: "McMurry Reaction: Titanium(III) Coupling of Carbonyls"
+    learning_objectives:
+      - "Describe titanium(III) reagent formation and activation"
+      - "Explain mechanism of carbonyl coupling to form olefins"
+      - "Apply McMurry reaction to aldehydes, ketones, and esters"
+      - "Predict stereochemistry and E/Z selectivity in products"
+      - "Execute intramolecular McMurry coupling and ring formation"
+      - "Distinguish stereoselective McMurry conditions (pinacol coupling)"
+      - "Design McMurry-based syntheses of complex alkenes"
+    textbook_style_content:
+      - lesson: "McMurry Reaction Overview"
+        sections:
+          - section_heading: "Titanium Trichloride and Reducing Agent Activation"
+            section_type: "core_theory"
+          - section_heading: "Low-Valent Titanium Species Generation"
+            section_type: "core_theory"
+      - lesson: "McMurry Coupling Mechanism"
+        sections:
+          - section_heading: "Carbonyl Reduction and Titanium Ketyl/Aldehyde Complex Formation"
+            section_type: "core_theory"
+          - section_heading: "Pinacol Coupling Intermediate (Ti-O-Ti Bridge)"
+            section_type: "core_theory"
+          - section_heading: "C=C Bond Formation via Reductive Elimination"
+            section_type: "core_theory"
+      - lesson: "Scope and Selectivity"
+        sections:
+          - section_heading: "Coupling of Aldehydes, Ketones, and Cyclic Ketones"
+            section_type: "core_theory"
+          - section_heading: "E/Z Selectivity and Factors Affecting Stereochemistry"
+            section_type: "core_theory"
+          - section_heading: "Esters and Carboxylic Acids as Coupling Partners"
+            section_type: "related concepts"
+      - lesson: "Intramolecular McMurry and Cyclization"
+        sections:
+          - section_heading: "Ring Formation via Intramolecular Coupling"
+            section_type: "core_theory"
+          - section_heading: "Macrocycle Formation and Ring Size Effects"
+            section_type: "related concepts"
+      - lesson: "Comparative Synthesis"
+        sections:
+          - section_heading: "McMurry vs. Wittig and Horner-Wadsworth-Emmons Olefination"
+            section_type: "related concepts"
+          - section_heading: "Applications to Complex Natural Products"
+            section_type: "related concepts"
+    milestone: "Execute McMurry coupling to form diverse alkene products with selectivity control"
+    duration_days: 6
+    tags:
+      - "McMurry Reaction"
+      - "Titanium(III) Coupling"
+      - "Carbonyl Coupling"
+      - "Olefin Synthesis"
+      - "Pinacol Coupling"
+
+  - id: 10
+    topic: "Integration and Multi-Coupling Strategies in Complex Synthesis"
+    learning_objectives:
+      - "Design multi-step syntheses incorporating 2-3 different coupling reactions"
+      - "Select appropriate coupling method based on functional group compatibility"
+      - "Apply protecting group strategies in multi-coupling sequences"
+      - "Optimize coupling selectivity through reagent choice and reaction conditions"
+      - "Execute 6-8 step syntheses of representative GATE-level targets"
+      - "Evaluate coupling strategies for atom economy and practicality"
+      - "Integrate knowledge of all coupling reactions for efficient route design"
+    textbook_style_content:
+      - lesson: "Coupling Reaction Comparison and Selection"
+        sections:
+          - section_heading: "Reactivity Chart: Substrate Scope, Functional Group Tolerance, Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Decision Tree for Coupling Method Selection"
+            section_type: "core_theory"
+      - lesson: "Protecting Group Strategy in Multi-Coupling Sequences"
+        sections:
+          - section_heading: "Orthogonal Protection for Multiple Coupling Sites"
+            section_type: "core_theory"
+          - section_heading: "Compatibility of Protecting Groups with Each Coupling Method"
+            section_type: "related concepts"
+      - lesson: "Case Studies"
+        sections:
+          - section_heading: "Case Study 1: Synthesis of Complex Biaryl via Sequential Suzuki and Negishi"
+            section_type: "core_theory"
+          - section_heading: "Case Study 2: Synthesis of Polysubstituted Aromatic via Heck and Sonogashira"
+            section_type: "core_theory"
+          - section_heading: "Case Study 3: Macrocyclic Synthesis via RCM and Tsuji-Trost"
+            section_type: "core_theory"
+          - section_heading: "Case Study 4: Complex Natural Product Fragment via Multi-Coupling Strategy"
+            section_type: "related concepts"
+      - lesson: "Selectivity Optimization"
+        sections:
+          - section_heading: "Regioselectivity and Chemoselectivity in Polyfunctional Substrates"
+            section_type: "core_theory"
+          - section_heading: "Temporal Control and Sequential Coupling"
+            section_type: "related concepts"
+      - lesson: "Green Chemistry and Practical Considerations"
+        sections:
+          - section_heading: "Atom Economy and Catalytic Efficiency Evaluation"
+            section_type: "related concepts"
+          - section_heading: "Scalability and Cost-Benefit Analysis of Coupling Methods"
+            section_type: "related concepts"
+    milestone: "Design and execute multi-coupling syntheses of complex molecules demonstrating comprehensive mastery"
+    duration_days: 10
+    tags:
+      - "Multi-Coupling Strategies"
+      - "Route Optimization"
+      - "Protecting Groups"
+      - "Selectivity Control"
+      - "Synthesis Integration"

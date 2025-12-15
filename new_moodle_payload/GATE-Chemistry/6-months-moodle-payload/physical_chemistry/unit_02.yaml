@@ -1,0 +1,235 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Multi-electron atoms: orbital approximation; electron spin; Pauli exclusion principle; Slater determinants. Approximation Methods: Variation method and secular determinants; first order perturbation techniques. Atomic units."
+
+concepts:
+  core:
+    - name: Multi-Electron Atoms
+      clarifier: Quantum description of atoms with more than one electron
+    - name: Orbital Approximation
+      clarifier: Treating electrons as moving independently in effective one-electron orbitals
+    - name: Electron Spin
+      clarifier: Intrinsic angular momentum; spin quantum number and spin functions
+    - name: Pauli Exclusion Principle
+      clarifier: No two electrons in an atom share the same set of quantum numbers
+    - name: Slater Determinants
+      clarifier: Antisymmetric many-electron wave functions built from spin-orbitals
+    - name: Variation Method
+      clarifier: Energy minimization principle for approximate ground states
+    - name: Secular Determinants
+      clarifier: Matrix form of variational equations for multi-parameter trial functions
+    - name: First-Order Perturbation Theory
+      clarifier: Correction to energies and wavefunctions for weak perturbations
+    - name: Atomic Units
+      clarifier: Natural unit system simplifying atomic-scale equations
+
+  related:
+    - name: Effective Nuclear Charge
+      clarifier: Net positive charge experienced by an electron in multi-electron atoms
+    - name: Screening and Shielding
+      clarifier: Reduction of nuclear attraction by other electrons
+    - name: Spin-Orbitals
+      clarifier: One-electron functions including spatial orbital and spin part
+    - name: Antisymmetry Requirement
+      clarifier: Many-electron wavefunction changes sign upon exchanging two electrons
+    - name: Hartree–Fock Idea
+      clarifier: Self-consistent field approach using orbital approximation
+    - name: Rayleigh–Ritz Principle
+      clarifier: Mathematical basis of variational method
+    - name: Degenerate vs Non-Degenerate Perturbation
+      clarifier: Different treatments when unperturbed levels are degenerate
+    - name: Unit Conversions in Atomic Units
+      clarifier: Relations between a.u. and SI units (energy, length, time)
+
+learning_path:
+  - id: 1
+    topic: Structure of Multi-Electron Atoms
+    learning_objectives:
+      - Explain why the hydrogenic solution does not directly extend to multi-electron atoms
+      - Describe the orbital approximation and its physical meaning
+      - Define effective nuclear charge, screening, and shielding qualitatively
+      - Write one-electron spin-orbitals including spatial and spin parts
+    textbook_style_content:
+      - lesson: From Hydrogen to Multi-Electron Atoms
+        sections:
+          - section_heading: Breakdown of Exact Solvability for Many-Electron Systems
+            section_type: overview
+          - section_heading: Electron–Electron Repulsion and Coupled Motion
+            section_type: core_theory
+          - section_heading: Effective Nuclear Charge, Screening and Shielding
+            section_type: related_concepts
+      - lesson: Orbital Approximation
+        sections:
+          - section_heading: Independent-Particle Picture and Central Field Approximation
+            section_type: core_theory
+          - section_heading: Hydrogen-Like Orbitals as First Approximation
+            section_type: core_theory
+          - section_heading: Qualitative Trends in Multi-Electron Energies
+            section_type: related_concepts
+      - lesson: Spin and Spin-Orbitals
+        sections:
+          - section_heading: Electron Spin, Spin Quantum Number and Spin Functions
+            section_type: core_theory
+          - section_heading: Construction of Spin-Orbitals (Spatial × Spin)
+            section_type: core_theory
+          - section_heading: Many-Electron Configurations in Orbital Approximation
+            section_type: related_concepts
+    milestone: "Qualitatively describe multi-electron atoms using orbital approximation and spin-orbitals"
+    duration_days: 4
+    tags:
+      - multi_electron_atoms
+      - orbital_approximation
+      - spin
+
+  - id: 2
+    topic: Pauli Principle and Slater Determinants
+    learning_objectives:
+      - State and apply the Pauli exclusion principle to electronic configurations
+      - Explain antisymmetry requirement for fermionic wavefunctions
+      - Construct Slater determinants from given spin-orbitals
+      - Relate Slater determinants to electron configuration notation
+    textbook_style_content:
+      - lesson: Pauli Exclusion Principle
+        sections:
+          - section_heading: Statement and Physical Consequences
+            section_type: core_theory
+          - section_heading: Application to Quantum Numbers and Electron Filling
+            section_type: core_theory
+          - section_heading: Relation to Periodic Table Structure
+            section_type: related_concepts
+      - lesson: Antisymmetry and Exchange
+        sections:
+          - section_heading: Exchange of Identical Electrons and Wavefunction Symmetry
+            section_type: core_theory
+          - section_heading: Fermions vs Bosons; Role of Spin
+            section_type: related_concepts
+          - section_heading: Spin Coupling and Microstates (Qualitative)
+            section_type: related_concepts
+      - lesson: Slater Determinants
+        sections:
+          - section_heading: Determinantal Form of Many-Electron Wavefunctions
+            section_type: core_theory
+          - section_heading: Building Determinants from Spin-Orbitals
+            section_type: core_theory
+          - section_heading: Normalization and Properties of Slater Determinants
+            section_type: related_concepts
+    milestone: "Write correct antisymmetric many-electron wavefunctions using Slater determinants"
+    duration_days: 4
+    tags:
+      - pauli_principle
+      - slater_determinants
+      - antisymmetry
+
+  - id: 3
+    topic: Variational Method and Secular Determinants
+    learning_objectives:
+      - State the variational principle and its inequality for ground-state energy
+      - Choose simple trial wavefunctions for model systems
+      - Derive variational equations for one-parameter and multi-parameter trials
+      - Set up and interpret secular determinants
+    textbook_style_content:
+      - lesson: Variational Principle
+        sections:
+          - section_heading: Rayleigh–Ritz Principle and Energy Upper Bound
+            section_type: core_theory
+          - section_heading: Expectation Value of Hamiltonian as Functional of Trial Function
+            section_type: core_theory
+          - section_heading: Choice of Trial Functions and Physical Intuition
+            section_type: related_concepts
+      - lesson: One-Parameter Variational Calculations
+        sections:
+          - section_heading: Minimization with Respect to a Single Parameter
+            section_type: core_theory
+          - section_heading: Example- Simple Model for Helium Ground State (Outline)
+            section_type: related_concepts
+          - section_heading: Assessing Quality of Variational Results
+            section_type: related_concepts
+      - lesson: Multi-Parameter Variational Method
+        sections:
+          - section_heading: Expansion in Basis Functions and Linear Combination of Functions
+            section_type: core_theory
+          - section_heading: Matrix Formulation and Secular Equations
+            section_type: core_theory
+          - section_heading: Secular Determinants and Energy Eigenvalues
+            section_type: core_theory
+    milestone: "Formulate and solve basic variational problems and secular determinants"
+    duration_days: 5
+    tags:
+      - variational_method
+      - secular_determinants
+      - approximation_methods
+
+  - id: 4
+    topic: First-Order Perturbation Theory
+    learning_objectives:
+      - Explain the idea of perturbation: splitting Hamiltonian into unperturbed and small correction
+      - Derive first-order energy correction formula
+      - Apply first-order perturbation to simple non-degenerate systems
+      - Distinguish qualitatively between non-degenerate and degenerate perturbation
+    textbook_style_content:
+      - lesson: Concept of Perturbation
+        sections:
+          - section_heading: Decomposition H = H₀ + λH′
+            section_type: core_theory
+          - section_heading: Conditions for Validity of Perturbation Theory
+            section_type: related_concepts
+          - section_heading: Comparison with Variational Approach
+            section_type: related_concepts
+      - lesson: Non-Degenerate First-Order Perturbation
+        sections:
+          - section_heading: Series Expansion of Energies and Wavefunctions
+            section_type: core_theory
+          - section_heading: First-Order Energy Correction Expression
+            section_type: core_theory
+          - section_heading: Example Applications (Stark or Zeeman-like Model, Qualitative)
+            section_type: related_concepts
+      - lesson: Degeneracy and Perturbations (Outline)
+        sections:
+          - section_heading: Issues with Degenerate Levels at First Order
+            section_type: core_theory
+          - section_heading: Qualitative Idea of Matrix Diagonalization in Degenerate Subspace
+            section_type: related_concepts
+    milestone: "Compute first-order energy corrections for simple model systems"
+    duration_days: 4
+    tags:
+      - perturbation_theory
+      - first_order
+      - approximation_methods
+
+  - id: 5
+    topic: Atomic Units and Integrated Applications
+    learning_objectives:
+      - Define main atomic units (length, energy, mass, charge, time)
+      - Rewrite Schrödinger equation in atomic units for atomic systems
+      - Convert between atomic units and SI units for basic quantities
+      - Combine orbital, Pauli, variational and perturbation ideas in atomic problems
+    textbook_style_content:
+      - lesson: Atomic Unit System
+        sections:
+          - section_heading: Motivation for Using Atomic Units in Quantum Chemistry
+            section_type: overview
+          - section_heading: Definitions of a.u. for Length, Mass, Charge, Energy and Time
+            section_type: core_theory
+          - section_heading: Conversion Relations Between a.u. and SI
+            section_type: related_concepts
+      - lesson: Schrödinger Equation in Atomic Units
+        sections:
+          - section_heading: Simplified Form of Hamiltonian in a.u.
+            section_type: core_theory
+          - section_heading: Example- Hydrogenic Hamiltonian in Atomic Units
+            section_type: related_concepts
+      - lesson: Integrated Problem Solving
+        sections:
+          - section_heading: Qualitative Treatment of Helium and Other Two-Electron Atoms
+            section_type: related_concepts
+          - section_heading: Using Variational Method with Atomic Units
+            section_type: related_concepts
+          - section_heading: Small Perturbations in Multi-Electron Context (Outline)
+            section_type: related_concepts
+    milestone: "Comfortably work in atomic units and apply approximation methods to atomic systems"
+    duration_days: 4
+    tags:
+      - atomic_units
+      - unit_systems
+      - integrated_applications

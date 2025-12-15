@@ -1,0 +1,832 @@
+metadata:
+  subject: Physical Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Statistical thermodynamics: Boltzmann distribution; kinetic theory of gases; partition functions and their relation to thermodynamic quantities – calculations for model systems."
+
+concepts:
+  core:
+    - name: Boltzmann Distribution
+      clarifier: Probability distribution of particles over energy states at thermal equilibrium
+    - name: Partition Functions
+      clarifier: Molecular and canonical partition functions for translational, rotational, vibrational, and electronic modes
+    - name: Thermodynamic Properties from Statistical Mechanics
+      clarifier: Derivation of energy, entropy, Helmholtz free energy, pressure, heat capacity from partition functions
+    - name: Kinetic Theory of Gases
+      clarifier: Molecular description of gas behavior including velocity distributions, mean free path, collision frequency, and transport properties
+    - name: Model Systems Calculations
+      clarifier: Statistical mechanical treatment of ideal gases, harmonic oscillators, rigid rotors, and two-level systems
+
+  related:
+    - name: Ensemble Theory
+      clarifier: Microcanonical, canonical, and grand canonical ensembles as frameworks for statistical mechanics
+    - name: Maxwell-Boltzmann Velocity Distribution
+      clarifier: Distribution of molecular speeds and velocities in ideal gases
+    - name: Quantum Statistical Mechanics
+      clarifier: Fermi-Dirac and Bose-Einstein statistics for indistinguishable particles
+    - name: Configurational Entropy and Microstates
+      clarifier: Relationship between microscopic states, degeneracy, and macroscopic entropy
+    - name: Classical vs Quantum Partition Functions
+      clarifier: Classical limit approximations and quantum corrections to partition functions
+
+learning_path:
+  - id: 1
+    title: Foundations of Statistical Thermodynamics
+    learning_objectives:
+      - Understand the bridge between microscopic molecular behavior and macroscopic thermodynamic properties
+      - Master the concept of statistical ensembles and probability distributions
+      - Derive the Boltzmann distribution from first principles
+      - Calculate statistical weights and degeneracies for simple systems
+    textbook_style_content:
+      - topic: Introduction to Statistical Thermodynamics
+        sections:
+          - section_title: Microscopic vs Macroscopic Description
+            section_type: overview
+          - section_title: Fundamental Postulates of Statistical Mechanics
+            section_type: core_theory
+          - section_title: Ensemble Theory and Types of Ensembles
+            section_type: related_concepts
+      - topic: Boltzmann Distribution Law
+        sections:
+          - section_title: Derivation of Boltzmann Distribution
+            section_type: core_theory
+          - section_title: Statistical Weight and Degeneracy
+            section_type: core_theory
+          - section_title: Most Probable Distribution
+            section_type: core_theory
+          - section_title: Temperature and Beta Parameter
+            section_type: related_concepts
+    milestone: Derive and apply Boltzmann distribution to simple two-level and three-level systems
+    duration_days: 8
+    tags:
+      - statistical mechanics
+      - Boltzmann distribution
+      - ensembles
+      - probability
+
+  - id: 2
+    title: Partition Functions - Theory and Formulation
+    learning_objectives:
+      - Define molecular and canonical partition functions rigorously
+      - Understand factorization of partition functions for independent modes
+      - Relate partition functions to the Boltzmann sum over states
+      - Master the mathematical structure of partition functions
+    textbook_style_content:
+      - topic: Molecular Partition Function
+        sections:
+          - section_title: Definition and Physical Significance
+            section_type: core_theory
+          - section_title: Partition Function as Sum Over States
+            section_type: core_theory
+          - section_title: Energy Level Diagrams and Counting States
+            section_type: overview
+      - topic: Canonical Partition Function
+        sections:
+          - section_title: System of N Distinguishable Particles
+            section_type: core_theory
+          - section_title: System of N Indistinguishable Particles
+            section_type: core_theory
+          - section_title: Classical Limit and Phase Space Integration
+            section_type: related_concepts
+      - topic: Factorization of Partition Functions
+        sections:
+          - section_title: Separation of Translational, Rotational, Vibrational, and Electronic Contributions
+            section_type: core_theory
+          - section_title: Independence Assumption and Its Validity
+            section_type: related_concepts
+    milestone: Write complete partition function expressions for molecules with multiple energy modes
+    duration_days: 10
+    tags:
+      - partition function
+      - molecular states
+      - canonical ensemble
+      - factorization
+
+  - id: 3
+    title: Translational Partition Function
+    learning_objectives:
+      - Derive the translational partition function for particles in a box
+      - Apply quantum mechanical particle-in-a-box energy levels
+      - Evaluate the translational partition function for ideal gases
+      - Calculate translational contributions to thermodynamic properties
+    textbook_style_content:
+      - topic: Quantum Mechanical Foundation
+        sections:
+          - section_title: Particle in a Three-Dimensional Box
+            section_type: overview
+          - section_title: Energy Levels and Quantum Numbers
+            section_type: core_theory
+          - section_title: Degeneracy of Translational States
+            section_type: core_theory
+      - topic: Derivation of Translational Partition Function
+        sections:
+          - section_title: Sum to Integral Approximation
+            section_type: core_theory
+          - section_title: Thermal de Broglie Wavelength
+            section_type: core_theory
+          - section_title: Final Expression for q_trans
+            section_type: core_theory
+      - topic: Numerical Calculations
+        sections:
+          - section_title: Model System - Ideal Gas Molecules
+            section_type: core_theory
+          - section_title: Temperature and Volume Dependence
+            section_type: related_concepts
+    milestone: Calculate translational partition functions for diatomic and polyatomic molecules at various temperatures
+    duration_days: 7
+    tags:
+      - translational motion
+      - particle in a box
+      - ideal gas
+      - quantum mechanics
+
+  - id: 4
+    title: Rotational Partition Function
+    learning_objectives:
+      - Derive rotational partition functions for linear and nonlinear molecules
+      - Apply rigid rotor approximation and rotational energy levels
+      - Evaluate rotational partition functions in high and low temperature limits
+      - Account for symmetry numbers in identical nuclei
+    textbook_style_content:
+      - topic: Rigid Rotor Model
+        sections:
+          - section_title: Rotational Energy Levels for Diatomic Molecules
+            section_type: core_theory
+          - section_title: Moment of Inertia and Rotational Constant
+            section_type: core_theory
+          - section_title: Degeneracy of Rotational States
+            section_type: core_theory
+      - topic: Rotational Partition Function for Linear Molecules
+        sections:
+          - section_title: Sum Over Rotational States
+            section_type: core_theory
+          - section_title: High Temperature Limit
+            section_type: core_theory
+          - section_title: Symmetry Number Correction
+            section_type: core_theory
+      - topic: Nonlinear Molecules
+        sections:
+          - section_title: Three Moments of Inertia
+            section_type: overview
+          - section_title: Rotational Partition Function for Spherical, Symmetric, and Asymmetric Tops
+            section_type: core_theory
+          - section_title: Symmetry Considerations
+            section_type: related_concepts
+      - topic: Numerical Examples
+        sections:
+          - section_title: Model System - H2, HCl, CO2, CH4
+            section_type: core_theory
+          - section_title: Temperature Effects on Rotational Populations
+            section_type: related_concepts
+    milestone: Calculate rotational partition functions and populations for various molecular geometries
+    duration_days: 9
+    tags:
+      - rotational motion
+      - rigid rotor
+      - symmetry number
+      - molecular structure
+
+  - id: 5
+    title: Vibrational Partition Function
+    learning_objectives:
+      - Derive vibrational partition function using harmonic oscillator model
+      - Apply quantum mechanical harmonic oscillator energy levels
+      - Evaluate vibrational contributions at different temperature regimes
+      - Extend to polyatomic molecules with multiple normal modes
+    textbook_style_content:
+      - topic: Harmonic Oscillator Model
+        sections:
+          - section_title: Quantum Mechanical Harmonic Oscillator
+            section_type: overview
+          - section_title: Energy Levels and Zero Point Energy
+            section_type: core_theory
+          - section_title: Characteristic Vibrational Temperature
+            section_type: core_theory
+      - topic: Vibrational Partition Function for Diatomic Molecules
+        sections:
+          - section_title: Geometric Series Summation
+            section_type: core_theory
+          - section_title: Closed Form Expression
+            section_type: core_theory
+          - section_title: High and Low Temperature Limits
+            section_type: core_theory
+      - topic: Polyatomic Molecules
+        sections:
+          - section_title: Multiple Normal Modes
+            section_type: core_theory
+          - section_title: Product of Individual Mode Partition Functions
+            section_type: core_theory
+          - section_title: Degeneracy of Vibrational Modes
+            section_type: related_concepts
+      - topic: Anharmonicity Corrections
+        sections:
+          - section_title: Limitations of Harmonic Approximation
+            section_type: related_concepts
+          - section_title: First Order Anharmonic Corrections
+            section_type: related_concepts
+      - topic: Model System Calculations
+        sections:
+          - section_title: Diatomic Molecules - HCl, I2, CO
+            section_type: core_theory
+          - section_title: Polyatomic Molecules - CO2, H2O
+            section_type: core_theory
+    milestone: Calculate vibrational partition functions for molecules with known vibrational frequencies and predict temperature-dependent populations
+    duration_days: 10
+    tags:
+      - vibrational motion
+      - harmonic oscillator
+      - normal modes
+      - spectroscopy
+
+  - id: 6
+    title: Electronic Partition Function
+    learning_objectives:
+      - Define electronic partition function and its typical simplifications
+      - Understand electronic state degeneracy and energy separations
+      - Apply electronic partition functions for atoms and molecules
+      - Recognize when electronic excitation is thermally accessible
+    textbook_style_content:
+      - topic: Electronic Energy Levels
+        sections:
+          - section_title: Ground and Excited Electronic States
+            section_type: overview
+          - section_title: Electronic Term Symbols and Degeneracy
+            section_type: core_theory
+          - section_title: Large Energy Gaps in Most Molecules
+            section_type: core_theory
+      - topic: Electronic Partition Function
+        sections:
+          - section_title: General Expression
+            section_type: core_theory
+          - section_title: Ground State Approximation
+            section_type: core_theory
+          - section_title: Cases with Low-Lying Excited States
+            section_type: core_theory
+      - topic: Special Cases
+        sections:
+          - section_title: Atoms with Unpaired Electrons
+            section_type: related_concepts
+          - section_title: Transition Metal Complexes
+            section_type: related_concepts
+          - section_title: Halogens and Radicals
+            section_type: related_concepts
+    milestone: Evaluate electronic partition functions and determine when excited states contribute significantly
+    duration_days: 5
+    tags:
+      - electronic states
+      - degeneracy
+      - term symbols
+      - atomic structure
+
+  - id: 7
+    title: Thermodynamic Properties from Partition Functions
+    learning_objectives:
+      - Derive relationships between partition functions and thermodynamic properties
+      - Calculate internal energy, entropy, Helmholtz free energy, and heat capacity from partition functions
+      - Apply thermodynamic relations to model systems
+      - Connect statistical mechanics to classical thermodynamics
+    textbook_style_content:
+      - topic: Fundamental Thermodynamic Relations
+        sections:
+          - section_title: Energy as Function of Partition Function
+            section_type: core_theory
+          - section_title: Entropy from Statistical Mechanics - Boltzmann Formula
+            section_type: core_theory
+          - section_title: Helmholtz Free Energy Connection
+            section_type: core_theory
+      - topic: Derivations of Thermodynamic Quantities
+        sections:
+          - section_title: Internal Energy U = kT² (∂lnQ/∂T)
+            section_type: core_theory
+          - section_title: Entropy S = k lnΩ and S = k lnQ + U/T
+            section_type: core_theory
+          - section_title: Helmholtz Free Energy A = -kT lnQ
+            section_type: core_theory
+          - section_title: Pressure P = kT (∂lnQ/∂V)
+            section_type: core_theory
+          - section_title: Heat Capacity CV = (∂U/∂T)
+            section_type: core_theory
+      - topic: Contributions from Different Modes
+        sections:
+          - section_title: Translational Contributions to U, S, CV
+            section_type: core_theory
+          - section_title: Rotational Contributions to U, S, CV
+            section_type: core_theory
+          - section_title: Vibrational Contributions to U, S, CV
+            section_type: core_theory
+          - section_title: Electronic Contributions
+            section_type: related_concepts
+      - topic: Total Thermodynamic Properties
+        sections:
+          - section_title: Additivity of Independent Mode Contributions
+            section_type: core_theory
+          - section_title: Complete Thermodynamic Description
+            section_type: overview
+    milestone: Calculate complete thermodynamic property sets for ideal gas molecules from spectroscopic data
+    duration_days: 12
+    tags:
+      - thermodynamic properties
+      - internal energy
+      - entropy
+      - heat capacity
+      - Helmholtz free energy
+
+  - id: 8
+    title: Kinetic Theory of Gases - Foundations
+    learning_objectives:
+      - Develop molecular picture of gas pressure and temperature
+      - Derive equations for molecular velocities and kinetic energy
+      - Understand mean free path and collision frequency
+      - Connect kinetic theory to macroscopic gas properties
+    textbook_style_content:
+      - topic: Molecular Model of Gases
+        sections:
+          - section_title: Assumptions of Kinetic Theory
+            section_type: overview
+          - section_title: Molecular Collisions and Pressure
+            section_type: core_theory
+          - section_title: Kinetic Energy and Temperature Relationship
+            section_type: core_theory
+      - topic: Molecular Velocities
+        sections:
+          - section_title: Average Speed, Root Mean Square Speed, Most Probable Speed
+            section_type: core_theory
+          - section_title: Relationships Between Different Speed Measures
+            section_type: core_theory
+          - section_title: Temperature Dependence of Molecular Speeds
+            section_type: core_theory
+      - topic: Collision Parameters
+        sections:
+          - section_title: Collision Diameter and Cross Section
+            section_type: core_theory
+          - section_title: Mean Free Path Derivation
+            section_type: core_theory
+          - section_title: Collision Frequency
+            section_type: core_theory
+          - section_title: Pressure and Temperature Dependence
+            section_type: related_concepts
+    milestone: Calculate molecular speeds, mean free path, and collision frequency for various gases
+    duration_days: 8
+    tags:
+      - kinetic theory
+      - molecular collisions
+      - mean free path
+      - gas pressure
+
+  - id: 9
+    title: Maxwell-Boltzmann Velocity Distribution
+    learning_objectives:
+      - Derive the Maxwell-Boltzmann velocity and speed distributions
+      - Understand the statistical origin of velocity distributions
+      - Calculate fraction of molecules in velocity ranges
+      - Apply velocity distribution to physical and chemical processes
+    textbook_style_content:
+      - topic: Velocity Distribution Function
+        sections:
+          - section_title: Three-Dimensional Velocity Distribution
+            section_type: core_theory
+          - section_title: Separability into x, y, z Components
+            section_type: core_theory
+          - section_title: Normalization Condition
+            section_type: core_theory
+      - topic: Speed Distribution Function
+        sections:
+          - section_title: Transformation from Velocity to Speed
+            section_type: core_theory
+          - section_title: Maxwell-Boltzmann Speed Distribution
+            section_type: core_theory
+          - section_title: Maximum of the Distribution
+            section_type: core_theory
+      - topic: Characteristic Speeds
+        sections:
+          - section_title: Most Probable Speed vmp = √(2kT/m)
+            section_type: core_theory
+          - section_title: Average Speed ⟨v⟩ = √(8kT/πm)
+            section_type: core_theory
+          - section_title: Root Mean Square Speed vrms = √(3kT/m)
+            section_type: core_theory
+      - topic: Applications
+        sections:
+          - section_title: Effusion and Graham's Law
+            section_type: related_concepts
+          - section_title: Fraction of Molecules with E > E*
+            section_type: related_concepts
+          - section_title: Temperature Dependence of Chemical Reaction Rates
+            section_type: related_concepts
+    milestone: Calculate and plot velocity distributions and determine fractions of molecules exceeding threshold energies
+    duration_days: 9
+    tags:
+      - Maxwell-Boltzmann distribution
+      - velocity distribution
+      - speed distribution
+      - molecular dynamics
+
+  - id: 10
+    title: Transport Properties from Kinetic Theory
+    learning_objectives:
+      - Derive expressions for viscosity, thermal conductivity, and diffusion
+      - Understand molecular basis of transport phenomena
+      - Calculate transport coefficients from molecular parameters
+      - Apply kinetic theory to real gas systems
+    textbook_style_content:
+      - topic: Viscosity
+        sections:
+          - section_title: Molecular Origin of Viscosity
+            section_type: overview
+          - section_title: Derivation of Viscosity from Kinetic Theory
+            section_type: core_theory
+          - section_title: Temperature Dependence of Viscosity
+            section_type: core_theory
+      - topic: Thermal Conductivity
+        sections:
+          - section_title: Heat Transfer by Molecular Motion
+            section_type: overview
+          - section_title: Kinetic Theory Expression for Thermal Conductivity
+            section_type: core_theory
+          - section_title: Relationship to Heat Capacity
+            section_type: related_concepts
+      - topic: Diffusion
+        sections:
+          - section_title: Fick's Laws of Diffusion
+            section_type: overview
+          - section_title: Diffusion Coefficient from Kinetic Theory
+            section_type: core_theory
+          - section_title: Graham's Law and Effusion
+            section_type: related_concepts
+      - topic: Interconnections
+        sections:
+          - section_title: Relationships Among Transport Coefficients
+            section_type: related_concepts
+          - section_title: Chapman-Enskog Theory Overview
+            section_type: related_concepts
+    milestone: Calculate transport properties for various gases and compare with experimental values
+    duration_days: 8
+    tags:
+      - transport properties
+      - viscosity
+      - thermal conductivity
+      - diffusion
+      - kinetic theory
+
+  - id: 11
+    title: Model System I - Ideal Monatomic Gas
+    learning_objectives:
+      - Apply complete statistical mechanical treatment to monatomic gases
+      - Calculate all thermodynamic properties from partition functions
+      - Verify consistency with experimental data
+      - Master the complete calculation workflow
+    textbook_style_content:
+      - topic: Partition Function for Monatomic Gas
+        sections:
+          - section_title: Translational Partition Function Only
+            section_type: overview
+          - section_title: Electronic Ground State Degeneracy
+            section_type: core_theory
+          - section_title: Total Molecular Partition Function
+            section_type: core_theory
+      - topic: Thermodynamic Properties
+        sections:
+          - section_title: Internal Energy Calculation
+            section_type: core_theory
+          - section_title: Entropy Calculation - Sackur-Tetrode Equation
+            section_type: core_theory
+          - section_title: Heat Capacity at Constant Volume
+            section_type: core_theory
+          - section_title: Pressure and Ideal Gas Law
+            section_type: core_theory
+      - topic: Worked Examples
+        sections:
+          - section_title: Argon Gas at Standard Conditions
+            section_type: core_theory
+          - section_title: Helium at Various Temperatures
+            section_type: core_theory
+          - section_title: Comparison with Experimental Data
+            section_type: related_concepts
+    milestone: Complete end-to-end calculation of thermodynamic properties for noble gases
+    duration_days: 6
+    tags:
+      - monatomic gas
+      - model system
+      - Sackur-Tetrode equation
+      - worked examples
+
+  - id: 12
+    title: Model System II - Ideal Diatomic Gas
+    learning_objectives:
+      - Apply statistical mechanics to diatomic molecules with multiple energy modes
+      - Calculate contributions from translational, rotational, and vibrational modes
+      - Understand temperature regimes for mode activation
+      - Compare theoretical predictions with experimental heat capacities
+    textbook_style_content:
+      - topic: Complete Partition Function
+        sections:
+          - section_title: Product of Translational, Rotational, Vibrational, and Electronic Partition Functions
+            section_type: core_theory
+          - section_title: Mode-by-Mode Contribution
+            section_type: overview
+      - topic: Energy Contributions
+        sections:
+          - section_title: Translational Energy - 3/2 kT per molecule
+            section_type: core_theory
+          - section_title: Rotational Energy - kT per molecule (linear molecule)
+            section_type: core_theory
+          - section_title: Vibrational Energy - Temperature Dependent
+            section_type: core_theory
+      - topic: Heat Capacity Analysis
+        sections:
+          - section_title: CV,trans = 3/2 R
+            section_type: core_theory
+          - section_title: CV,rot = R (classical limit)
+            section_type: core_theory
+          - section_title: CV,vib = R(Θv/T)² e^(-Θv/T) / (1 - e^(-Θv/T))²
+            section_type: core_theory
+          - section_title: Total Heat Capacity and Temperature Dependence
+            section_type: core_theory
+      - topic: Worked Examples
+        sections:
+          - section_title: H2 Molecule - High Rotational Temperature
+            section_type: core_theory
+          - section_title: HCl Molecule - Intermediate Temperatures
+            section_type: core_theory
+          - section_title: I2 Molecule - Low Vibrational Frequency
+            section_type: core_theory
+          - section_title: Comparison with Experimental CV(T) Curves
+            section_type: related_concepts
+    milestone: Calculate complete thermodynamic property sets for diatomic molecules and explain heat capacity temperature dependence
+    duration_days: 10
+    tags:
+      - diatomic molecules
+      - model system
+      - heat capacity
+      - temperature regimes
+
+  - id: 13
+    title: Model System III - Polyatomic Molecules
+    learning_objectives:
+      - Extend statistical mechanical treatment to polyatomic molecules
+      - Handle multiple rotational constants and vibrational modes
+      - Calculate thermodynamic properties for linear and nonlinear molecules
+      - Apply to molecules with various symmetries
+    textbook_style_content:
+      - topic: Rotational Partition Functions
+        sections:
+          - section_title: Linear Polyatomic Molecules
+            section_type: core_theory
+          - section_title: Nonlinear Molecules - Symmetric, Spherical, Asymmetric Tops
+            section_type: core_theory
+          - section_title: Symmetry Numbers for Various Point Groups
+            section_type: related_concepts
+      - topic: Vibrational Partition Functions
+        sections:
+          - section_title: 3N - 5 Modes for Linear Molecules
+            section_type: core_theory
+          - section_title: 3N - 6 Modes for Nonlinear Molecules
+            section_type: core_theory
+          - section_title: Degenerate Vibrational Modes
+            section_type: core_theory
+      - topic: Worked Examples
+        sections:
+          - section_title: CO2 - Linear Triatomic
+            section_type: core_theory
+          - section_title: H2O - Bent Triatomic
+            section_type: core_theory
+          - section_title: CH4 - Tetrahedral Molecule
+            section_type: core_theory
+          - section_title: Benzene - High Symmetry System
+            section_type: related_concepts
+      - topic: Thermodynamic Properties
+        sections:
+          - section_title: Mode Contributions to Energy and Entropy
+            section_type: core_theory
+          - section_title: Heat Capacity Calculations
+            section_type: core_theory
+    milestone: Calculate thermodynamic properties for polyatomic molecules of varying complexity
+    duration_days: 10
+    tags:
+      - polyatomic molecules
+      - model system
+      - symmetry
+      - normal modes
+
+  - id: 14
+    title: Model System IV - Two-Level Systems and Paramagnets
+    learning_objectives:
+      - Analyze simplest quantum system with statistical mechanics
+      - Calculate partition function and properties for two-level systems
+      - Apply to paramagnetic systems in magnetic fields
+      - Understand Schottky anomaly in heat capacity
+    textbook_style_content:
+      - topic: Two-Level System Fundamentals
+        sections:
+          - section_title: Energy Level Diagram
+            section_type: overview
+          - section_title: Partition Function for Two-Level System
+            section_type: core_theory
+          - section_title: Population Ratio and Boltzmann Factor
+            section_type: core_theory
+      - topic: Thermodynamic Properties
+        sections:
+          - section_title: Average Energy
+            section_type: core_theory
+          - section_title: Heat Capacity and Schottky Anomaly
+            section_type: core_theory
+          - section_title: Entropy and Residual Entropy
+            section_type: core_theory
+      - topic: Paramagnetic Systems
+        sections:
+          - section_title: Spin-1/2 Particles in Magnetic Field
+            section_type: core_theory
+          - section_title: Zeeman Splitting
+            section_type: related_concepts
+          - section_title: Magnetization
+            section_type: core_theory
+          - section_title: Curie's Law
+            section_type: related_concepts
+      - topic: Worked Examples
+        sections:
+          - section_title: Electronic Two-Level System
+            section_type: core_theory
+          - section_title: Nuclear Spin System
+            section_type: core_theory
+          - section_title: Temperature Dependence of Properties
+            section_type: related_concepts
+    milestone: Solve complete two-level system problems and explain Schottky heat capacity peak
+    duration_days: 7
+    tags:
+      - two-level system
+      - model system
+      - paramagnetism
+      - Schottky anomaly
+
+  - id: 15
+    title: Model System V - Harmonic Oscillator Systems
+    learning_objectives:
+      - Apply statistical mechanics to collections of quantum harmonic oscillators
+      - Calculate thermodynamic properties of oscillator ensembles
+      - Understand Einstein and Debye models of solids
+      - Compare quantum and classical treatments
+    textbook_style_content:
+      - topic: Quantum Harmonic Oscillator Ensemble
+        sections:
+          - section_title: Partition Function for N Oscillators
+            section_type: core_theory
+          - section_title: Average Energy and Zero-Point Energy
+            section_type: core_theory
+          - section_title: Heat Capacity of Oscillator System
+            section_type: core_theory
+      - topic: Einstein Model of Solids
+        sections:
+          - section_title: 3N Independent Oscillators
+            section_type: overview
+          - section_title: Heat Capacity Expression
+            section_type: core_theory
+          - section_title: High and Low Temperature Limits
+            section_type: core_theory
+          - section_title: Comparison with Experimental Data
+            section_type: related_concepts
+      - topic: Debye Model Overview
+        sections:
+          - section_title: Continuous Frequency Distribution
+            section_type: related_concepts
+          - section_title: Debye Temperature
+            section_type: related_concepts
+          - section_title: Low Temperature T³ Law
+            section_type: related_concepts
+      - topic: Worked Examples
+        sections:
+          - section_title: Single Oscillator at Various Temperatures
+            section_type: core_theory
+          - section_title: Collection of Oscillators with Different Frequencies
+            section_type: core_theory
+          - section_title: Application to Molecular Vibrations
+            section_type: core_theory
+    milestone: Calculate properties of harmonic oscillator systems and apply Einstein model to simple solids
+    duration_days: 8
+    tags:
+      - harmonic oscillator
+      - model system
+      - Einstein model
+      - solid state
+
+  - id: 16
+    title: Advanced Topics - Real Gas Corrections and Non-Ideal Systems
+    learning_objectives:
+      - Understand limitations of ideal gas statistical mechanics
+      - Introduce configurational partition function
+      - Apply virial expansion approach
+      - Connect to equations of state for real gases
+    textbook_style_content:
+      - topic: Intermolecular Interactions
+        sections:
+          - section_title: Limitations of Non-Interacting Particle Model
+            section_type: overview
+          - section_title: Potential Energy Functions
+            section_type: related_concepts
+          - section_title: Configuration Integral
+            section_type: core_theory
+      - topic: Virial Equation of State
+        sections:
+          - section_title: Statistical Mechanical Derivation
+            section_type: core_theory
+          - section_title: Second Virial Coefficient
+            section_type: core_theory
+          - section_title: Temperature Dependence
+            section_type: related_concepts
+      - topic: Cluster Expansions
+        sections:
+          - section_title: Mayer f-Function
+            section_type: related_concepts
+          - section_title: Higher Order Corrections
+            section_type: related_concepts
+    milestone: Calculate second virial coefficients and understand deviations from ideality
+    duration_days: 6
+    tags:
+      - real gases
+      - virial equation
+      - intermolecular forces
+      - non-ideal systems
+
+  - id: 17
+    title: Quantum Statistics - Fermi-Dirac and Bose-Einstein
+    learning_objectives:
+      - Understand quantum statistics for indistinguishable particles
+      - Distinguish fermions and bosons
+      - Apply Fermi-Dirac and Bose-Einstein distributions
+      - Connect to electron gas and photon gas
+    textbook_style_content:
+      - topic: Indistinguishability and Quantum Statistics
+        sections:
+          - section_title: Classical vs Quantum Distinguishability
+            section_type: overview
+          - section_title: Pauli Exclusion Principle
+            section_type: related_concepts
+          - section_title: Symmetric and Antisymmetric Wavefunctions
+            section_type: related_concepts
+      - topic: Fermi-Dirac Statistics
+        sections:
+          - section_title: Distribution Function for Fermions
+            section_type: core_theory
+          - section_title: Fermi Energy and Fermi Temperature
+            section_type: core_theory
+          - section_title: Application to Electron Gas in Metals
+            section_type: related_concepts
+      - topic: Bose-Einstein Statistics
+        sections:
+          - section_title: Distribution Function for Bosons
+            section_type: core_theory
+          - section_title: Bose-Einstein Condensation
+            section_type: related_concepts
+          - section_title: Application to Photon Gas and Planck Distribution
+            section_type: related_concepts
+      - topic: Classical Limit
+        sections:
+          - section_title: Convergence to Maxwell-Boltzmann Statistics
+            section_type: core_theory
+          - section_title: Conditions for Classical Behavior
+            section_type: related_concepts
+    milestone: Identify when quantum statistics are necessary and apply appropriate distribution functions
+    duration_days: 7
+    tags:
+      - quantum statistics
+      - Fermi-Dirac
+      - Bose-Einstein
+      - indistinguishable particles
+
+  - id: 18
+    title: Integration and Problem-Solving Practice
+    learning_objectives:
+      - Synthesize all concepts in comprehensive problems
+      - Develop systematic problem-solving approaches
+      - Apply statistical thermodynamics to CSIR exam-type questions
+      - Build speed and accuracy in calculations
+    textbook_style_content:
+      - topic: Systematic Problem-Solving Framework
+        sections:
+          - section_title: Identifying System Type and Applicable Models
+            section_type: overview
+          - section_title: Step-by-Step Calculation Protocol
+            section_type: core_theory
+          - section_title: Common Pitfalls and Error Checking
+            section_type: related_concepts
+      - topic: Comprehensive Problems
+        sections:
+          - section_title: Multi-Part Questions Covering Multiple Topics
+            section_type: core_theory
+          - section_title: Conceptual Questions on Statistical Interpretation
+            section_type: core_theory
+          - section_title: Numerical Calculations with Real Data
+            section_type: core_theory
+      - topic: CSIR Exam-Style Questions
+        sections:
+          - section_title: Previous Year Problems Analysis
+            section_type: related_concepts
+          - section_title: Time Management Strategies
+            section_type: related_concepts
+          - section_title: Quick Estimation Techniques
+            section_type: related_concepts
+    milestone: Successfully solve 20+ comprehensive problems covering all aspects of statistical thermodynamics
+    duration_days: 10
+    tags:
+      - problem solving
+      - practice
+      - CSIR preparation
+      - integration

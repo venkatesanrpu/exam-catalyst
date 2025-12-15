@@ -1,0 +1,433 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Molecular spectroscopy: Rotational and vibrational spectra of diatomic molecules; electronic spectra; IR and Raman activities – selection rules; basic principles of magnetic resonance."
+
+concepts:
+  core:
+    - name: Rotational spectroscopy
+      clarifier: Energy levels, transitions, and spectra arising from molecular rotation in diatomic molecules
+    - name: Vibrational spectroscopy
+      clarifier: Energy levels, transitions, and spectra arising from molecular vibrations in diatomic molecules
+    - name: Electronic spectroscopy
+      clarifier: Electronic transitions between molecular orbitals and resulting UV-Vis spectra
+    - name: IR spectroscopy
+      clarifier: Infrared absorption spectroscopy and its molecular basis
+    - name: Raman spectroscopy
+      clarifier: Inelastic scattering of light by molecules and vibrational information
+    - name: Selection rules
+      clarifier: Quantum mechanical rules governing allowed and forbidden spectroscopic transitions
+    - name: Magnetic resonance spectroscopy
+      clarifier: NMR and ESR principles based on nuclear and electron spin interactions with magnetic fields
+
+  related:
+    - name: Rigid rotor model
+      clarifier: Classical and quantum mechanical treatment of molecular rotation
+    - name: Harmonic oscillator model
+      clarifier: Classical and quantum mechanical treatment of molecular vibrations
+    - name: Anharmonicity
+      clarifier: Deviations from harmonic potential and overtone transitions
+    - name: Molecular orbital theory
+      clarifier: Electronic structure and bonding in molecules
+    - name: Dipole moment
+      clarifier: Molecular property determining IR activity
+    - name: Polarizability
+      clarifier: Molecular property determining Raman activity
+    - name: Franck-Condon principle
+      clarifier: Intensity distribution in electronic spectra
+    - name: Born-Oppenheimer approximation
+      clarifier: Separation of electronic and nuclear motion in molecules
+    - name: Nuclear spin
+      clarifier: Intrinsic angular momentum of nuclei relevant to NMR
+    - name: Electron spin
+      clarifier: Intrinsic angular momentum of electrons relevant to ESR
+    - name: Chemical shift
+      clarifier: NMR parameter reflecting electronic environment of nuclei
+    - name: Spin-spin coupling
+      clarifier: Interaction between nuclear spins in NMR
+
+learning_path:
+  - id: 1
+    title: Foundations of molecular spectroscopy
+    learning_objectives:
+      - Understand the electromagnetic spectrum and energy-matter interactions
+      - Learn the quantum mechanical basis of spectroscopy
+      - Apply the Born-Oppenheimer approximation to separate molecular motions
+      - Recognize different types of molecular spectroscopy and their energy scales
+    textbook_style_content:
+      - topic: Introduction to molecular spectroscopy
+        sections:
+          - section_title: Overview of spectroscopy
+            section_type: overview
+          - section_title: Electromagnetic radiation and molecular energy levels
+            section_type: core_theory
+          - section_title: Born-Oppenheimer approximation and separation of molecular motions
+            section_type: related_concepts
+          - section_title: Time-dependent perturbation theory and transition probabilities
+            section_type: core_theory
+          - section_title: Einstein coefficients and spectral intensities
+            section_type: related_concepts
+    milestone: Establish quantum mechanical foundations for understanding molecular spectra
+    duration_days: 5
+    tags:
+      - fundamentals
+      - quantum mechanics
+      - energy levels
+
+  - id: 2
+    title: Rotational spectroscopy of diatomic molecules
+    learning_objectives:
+      - Derive energy levels for rigid and non-rigid rotor models
+      - Calculate rotational constants from molecular parameters
+      - Analyze pure rotational spectra and determine molecular structure
+      - Apply selection rules for rotational transitions
+      - Understand isotope effects on rotational spectra
+    textbook_style_content:
+      - topic: Rotational energy levels and spectra
+        sections:
+          - section_title: Classical rotation and moment of inertia
+            section_type: overview
+          - section_title: Quantum mechanical rigid rotor model
+            section_type: core_theory
+          - section_title: Energy eigenvalues and rotational constant
+            section_type: core_theory
+          - section_title: Selection rules for pure rotational transitions
+            section_type: core_theory
+          - section_title: Rotational spectra of diatomic molecules
+            section_type: core_theory
+          - section_title: Centrifugal distortion and non-rigid rotor
+            section_type: related_concepts
+          - section_title: Determination of bond lengths from rotational constants
+            section_type: core_theory
+          - section_title: Isotopic substitution effects
+            section_type: related_concepts
+          - section_title: Population distribution and intensity patterns
+            section_type: related_concepts
+    milestone: Master analysis of rotational spectra to extract molecular structure information
+    duration_days: 7
+    tags:
+      - rotational spectroscopy
+      - microwave spectroscopy
+      - molecular structure
+      - diatomic molecules
+
+  - id: 3
+    title: Vibrational spectroscopy of diatomic molecules
+    learning_objectives:
+      - Derive vibrational energy levels using harmonic oscillator model
+      - Understand anharmonicity and its consequences
+      - Analyze vibrational spectra and determine force constants
+      - Apply selection rules for vibrational transitions
+      - Calculate dissociation energies using Birge-Sponer extrapolation
+    textbook_style_content:
+      - topic: Vibrational energy levels and spectra
+        sections:
+          - section_title: Classical harmonic oscillator
+            section_type: overview
+          - section_title: Quantum mechanical harmonic oscillator
+            section_type: core_theory
+          - section_title: Vibrational energy levels and zero-point energy
+            section_type: core_theory
+          - section_title: Selection rules for vibrational transitions
+            section_type: core_theory
+          - section_title: Morse potential and anharmonicity
+            section_type: core_theory
+          - section_title: Overtones and hot bands
+            section_type: related_concepts
+          - section_title: Determination of force constants and dissociation energy
+            section_type: core_theory
+          - section_title: Birge-Sponer extrapolation method
+            section_type: related_concepts
+    milestone: Analyze vibrational spectra to determine force constants and dissociation energies
+    duration_days: 7
+    tags:
+      - vibrational spectroscopy
+      - infrared spectroscopy
+      - harmonic oscillator
+      - anharmonicity
+
+  - id: 4
+    title: Rotation-vibration coupling and combined spectra
+    learning_objectives:
+      - Understand simultaneous rotation and vibration in diatomic molecules
+      - Analyze ro-vibrational spectra showing P, Q, and R branches
+      - Calculate vibration-rotation coupling constants
+      - Interpret band structures in infrared spectra
+    textbook_style_content:
+      - topic: Rotation-vibration spectra
+        sections:
+          - section_title: Coupling of rotational and vibrational motions
+            section_type: overview
+          - section_title: Combined rotation-vibration energy levels
+            section_type: core_theory
+          - section_title: Selection rules for ro-vibrational transitions
+            section_type: core_theory
+          - section_title: P, Q, and R branches in ro-vibrational spectra
+            section_type: core_theory
+          - section_title: Band structure and spacing patterns
+            section_type: core_theory
+          - section_title: Vibration-rotation coupling constant
+            section_type: related_concepts
+          - section_title: Band heads and convergence limits
+            section_type: related_concepts
+    milestone: Interpret complex ro-vibrational band structures in molecular spectra
+    duration_days: 6
+    tags:
+      - ro-vibrational spectroscopy
+      - infrared spectroscopy
+      - band structure
+
+  - id: 5
+    title: Electronic spectroscopy and electronic transitions
+    learning_objectives:
+      - Understand electronic energy levels in diatomic molecules
+      - Apply molecular orbital theory to electronic transitions
+      - Analyze UV-Vis spectra of diatomic molecules
+      - Learn electronic selection rules and forbidden transitions
+      - Understand vibrational progression in electronic spectra
+    textbook_style_content:
+      - topic: Electronic spectra of molecules
+        sections:
+          - section_title: Electronic energy levels in diatomic molecules
+            section_type: overview
+          - section_title: Molecular orbital theory and electronic configurations
+            section_type: related_concepts
+          - section_title: Term symbols and electronic states
+            section_type: core_theory
+          - section_title: Selection rules for electronic transitions
+            section_type: core_theory
+          - section_title: Allowed and forbidden transitions
+            section_type: core_theory
+          - section_title: Franck-Condon principle and vibrational progression
+            section_type: core_theory
+          - section_title: Electronic-vibrational-rotational spectra
+            section_type: related_concepts
+          - section_title: Dissociation and predissociation
+            section_type: related_concepts
+          - section_title: Spin-orbit coupling and fine structure
+            section_type: related_concepts
+    milestone: Analyze electronic spectra and understand transition mechanisms in molecules
+    duration_days: 8
+    tags:
+      - electronic spectroscopy
+      - UV-Vis spectroscopy
+      - molecular orbitals
+      - Franck-Condon principle
+
+  - id: 6
+    title: Infrared spectroscopy and IR activity
+    learning_objectives:
+      - Understand the physical basis of IR absorption
+      - Learn the role of dipole moment changes in IR activity
+      - Apply gross selection rules for IR spectroscopy
+      - Distinguish between IR-active and IR-inactive vibrations
+      - Analyze IR spectra of diatomic molecules
+    textbook_style_content:
+      - topic: Infrared spectroscopy principles
+        sections:
+          - section_title: Physical basis of infrared absorption
+            section_type: overview
+          - section_title: Dipole moment and its change during vibration
+            section_type: core_theory
+          - section_title: Gross selection rule for IR activity
+            section_type: core_theory
+          - section_title: Transition dipole moment
+            section_type: core_theory
+          - section_title: IR-active versus IR-inactive vibrations
+            section_type: core_theory
+          - section_title: Homonuclear and heteronuclear diatomic molecules
+            section_type: core_theory
+          - section_title: Intensity of IR absorption bands
+            section_type: related_concepts
+          - section_title: Practical IR spectroscopy and instrumentation
+            section_type: related_concepts
+    milestone: Predict IR activity of molecular vibrations using selection rules
+    duration_days: 6
+    tags:
+      - IR spectroscopy
+      - dipole moment
+      - selection rules
+      - IR activity
+
+  - id: 7
+    title: Raman spectroscopy and Raman activity
+    learning_objectives:
+      - Understand the physical basis of Raman scattering
+      - Learn the role of polarizability changes in Raman activity
+      - Apply gross selection rules for Raman spectroscopy
+      - Distinguish between Raman-active and Raman-inactive vibrations
+      - Compare and contrast IR and Raman spectroscopy
+    textbook_style_content:
+      - topic: Raman spectroscopy principles
+        sections:
+          - section_title: Physical basis of Raman scattering
+            section_type: overview
+          - section_title: Classical theory of Raman effect
+            section_type: core_theory
+          - section_title: Polarizability and its change during vibration
+            section_type: core_theory
+          - section_title: Gross selection rule for Raman activity
+            section_type: core_theory
+          - section_title: Stokes and anti-Stokes lines
+            section_type: core_theory
+          - section_title: Raman-active versus Raman-inactive vibrations
+            section_type: core_theory
+          - section_title: Mutual exclusion principle
+            section_type: related_concepts
+          - section_title: Comparison of IR and Raman spectroscopy
+            section_type: core_theory
+          - section_title: Resonance Raman spectroscopy
+            section_type: related_concepts
+    milestone: Predict Raman activity and apply complementarity of IR and Raman techniques
+    duration_days: 6
+    tags:
+      - Raman spectroscopy
+      - polarizability
+      - selection rules
+      - Raman activity
+
+  - id: 8
+    title: Comprehensive selection rules in molecular spectroscopy
+    learning_objectives:
+      - Master gross and specific selection rules for all spectroscopic techniques
+      - Understand quantum mechanical basis of selection rules
+      - Apply Laporte selection rule and spin selection rule
+      - Predict allowed and forbidden transitions
+      - Understand symmetry considerations in selection rules
+    textbook_style_content:
+      - topic: Selection rules in molecular spectroscopy
+        sections:
+          - section_title: Quantum mechanical origin of selection rules
+            section_type: overview
+          - section_title: Transition moment integral and matrix elements
+            section_type: core_theory
+          - section_title: Gross selection rules for rotational spectroscopy
+            section_type: core_theory
+          - section_title: Gross selection rules for vibrational spectroscopy
+            section_type: core_theory
+          - section_title: Gross selection rules for electronic spectroscopy
+            section_type: core_theory
+          - section_title: Specific selection rules and quantum number changes
+            section_type: core_theory
+          - section_title: Laporte selection rule and parity
+            section_type: core_theory
+          - section_title: Spin selection rule and multiplicity
+            section_type: core_theory
+          - section_title: Relaxation of selection rules and forbidden transitions
+            section_type: related_concepts
+          - section_title: Symmetry selection rules
+            section_type: related_concepts
+    milestone: Apply comprehensive selection rules to predict spectroscopic transitions
+    duration_days: 7
+    tags:
+      - selection rules
+      - transition moments
+      - quantum mechanics
+      - symmetry
+
+  - id: 9
+    title: Basic principles of nuclear magnetic resonance
+    learning_objectives:
+      - Understand nuclear spin and magnetic moment
+      - Learn Zeeman splitting in magnetic fields
+      - Understand the NMR phenomenon and resonance condition
+      - Learn chemical shift and its origin
+      - Understand spin-spin coupling fundamentals
+    textbook_style_content:
+      - topic: Nuclear magnetic resonance spectroscopy
+        sections:
+          - section_title: Nuclear spin and magnetic properties of nuclei
+            section_type: overview
+          - section_title: Nuclear spin angular momentum and magnetic moment
+            section_type: core_theory
+          - section_title: Zeeman effect and energy levels in magnetic field
+            section_type: core_theory
+          - section_title: Larmor frequency and resonance condition
+            section_type: core_theory
+          - section_title: Population distribution and signal intensity
+            section_type: related_concepts
+          - section_title: Chemical shift and shielding effects
+            section_type: core_theory
+          - section_title: Reference standards and chemical shift scale
+            section_type: related_concepts
+          - section_title: Spin-spin coupling and J-coupling
+            section_type: core_theory
+          - section_title: First-order splitting patterns
+            section_type: related_concepts
+          - section_title: Relaxation mechanisms T1 and T2
+            section_type: related_concepts
+    milestone: Understand fundamental principles of NMR spectroscopy and interpret simple spectra
+    duration_days: 8
+    tags:
+      - NMR spectroscopy
+      - nuclear spin
+      - magnetic resonance
+      - chemical shift
+
+  - id: 10
+    title: Basic principles of electron spin resonance
+    learning_objectives:
+      - Understand electron spin and magnetic moment
+      - Learn Zeeman splitting for unpaired electrons
+      - Understand the ESR phenomenon and resonance condition
+      - Learn g-factor and its significance
+      - Understand hyperfine coupling in ESR
+    textbook_style_content:
+      - topic: Electron spin resonance spectroscopy
+        sections:
+          - section_title: Electron spin and paramagnetic species
+            section_type: overview
+          - section_title: Electron spin angular momentum and magnetic moment
+            section_type: core_theory
+          - section_title: Zeeman splitting for electron spins
+            section_type: core_theory
+          - section_title: ESR resonance condition and spectrometer
+            section_type: core_theory
+          - section_title: g-factor and its deviations from free electron value
+            section_type: core_theory
+          - section_title: Hyperfine coupling with nuclear spins
+            section_type: core_theory
+          - section_title: Hyperfine splitting patterns
+            section_type: related_concepts
+          - section_title: Applications of ESR to free radicals and transition metal complexes
+            section_type: related_concepts
+          - section_title: Comparison of NMR and ESR techniques
+            section_type: related_concepts
+    milestone: Understand fundamental principles of ESR and its applications to paramagnetic systems
+    duration_days: 7
+    tags:
+      - ESR spectroscopy
+      - electron spin
+      - magnetic resonance
+      - hyperfine coupling
+
+  - id: 11
+    title: Integration and applications of molecular spectroscopy
+    learning_objectives:
+      - Integrate knowledge across different spectroscopic techniques
+      - Apply spectroscopy to structure determination problems
+      - Solve combined problems using multiple spectroscopic methods
+      - Understand practical applications in chemical research
+      - Prepare for CSIR exam-level problem solving
+    textbook_style_content:
+      - topic: Integrated spectroscopic analysis
+        sections:
+          - section_title: Overview of complementary spectroscopic techniques
+            section_type: overview
+          - section_title: Structure determination using combined spectroscopy
+            section_type: core_theory
+          - section_title: Problem-solving strategies for spectroscopic data
+            section_type: core_theory
+          - section_title: Quantitative analysis and spectroscopic constants
+            section_type: related_concepts
+          - section_title: Advanced topics and current research applications
+            section_type: related_concepts
+          - section_title: CSIR exam problem types and solution approaches
+            section_type: core_theory
+    milestone: Synthesize spectroscopic knowledge for comprehensive molecular characterization
+    duration_days: 6
+    tags:
+      - integration
+      - problem solving
+      - applications
+      - CSIR preparation

@@ -1,0 +1,449 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Molecular structure and Chemical bonding: Born-Oppenheimer approximation; Valence bond theory and linear combination of atomic orbitals – molecular orbital (LCAO-MO) theory. Hybrid orbitals. Applications of LCAO-MO theory to H2+, H2; orbital theory (MOT) of homo- and heteronuclear diatomic molecules. Hückel approximation and its application to annular π–electron systems."
+
+concepts:
+  core:
+    - name: Born-Oppenheimer Approximation
+      clarifier: Separation of nuclear and electronic motion; fixed nuclei assumption
+    - name: Valence Bond Theory
+      clarifier: Localized bonding orbitals and electron pair overlap concepts
+    - name: LCAO-MO Theory
+      clarifier: Linear combination of atomic orbitals to form molecular orbitals
+    - name: Molecular Orbital Formation
+      clarifier: Bonding and antibonding orbitals from atomic orbital overlap
+    - name: Hybrid Orbitals
+      clarifier: Mixed atomic orbitals (sp, sp², sp³) for localized bonding
+    - name: Homonuclear Diatomic Molecules
+      clarifier: Molecular orbital theory for H₂, O₂, N₂ and similar systems
+    - name: Heteronuclear Diatomic Molecules
+      clarifier: MOT with different nuclear charges; orbital energy differences
+    - name: Hückel Approximation
+      clarifier: Simplified π-electron treatment for conjugated and aromatic systems
+    - name: Annular π-Electron Systems
+      clarifier: Application to benzene, cyclopentadienyl, and other cyclic conjugates
+
+  related:
+    - name: Molecular Orbital Diagrams
+      clarifier: Energy level ordering and electron population patterns
+    - name: Bond Order
+      clarifier: Quantitative measure from difference of bonding and antibonding electrons
+    - name: Orbital Overlap Integral
+      clarifier: Mathematical measure of spatial overlap between atomic orbitals
+    - name: Σ and π Bonding
+      clarifier: Axially symmetric and lateral orbital interactions
+    - name: Aufbau Principle in Molecules
+      clarifier: Electron filling of molecular orbitals in order of increasing energy
+    - name: Variational Principle in LCAO
+      clarifier: Minimizing molecular orbital energy using secular equations
+    - name: Electronegativity Differences
+      clarifier: Effect on molecular orbital ordering in heteronuclear diatomics
+    - name: Aromaticity and Cyclic Conjugation
+      clarifier: Stability from cyclic π-electron delocalization
+    - name: Resonance and Delocalization
+      clarifier: Multiple contributing VB structures and continuous MO picture
+
+learning_path:
+  - id: 1
+    topic: Born-Oppenheimer Approximation and Molecular Problem Setup
+    learning_objectives:
+      - State the Born-Oppenheimer approximation and its physical justification
+      - Explain separation of electronic and nuclear motion
+      - Understand parameterization of molecular energy by internuclear distance
+      - Relate potential energy surface to molecular geometry and stability
+    textbook_style_content:
+      - lesson: Born-Oppenheimer Approximation
+        sections:
+          - section_heading: Mass Ratio of Electron to Nucleus and Timescale Separation
+            section_type: overview
+          - section_heading: Mathematical Separation of Total Wavefunction
+            section_type: core_theory
+          - section_heading: Fixed Nuclear Geometry and Parametric Dependence
+            section_type: core_theory
+      - lesson: Electronic Problem for Fixed Nuclei
+        sections:
+          - section_heading: Electronic Hamiltonian and Parametric Variables
+            section_type: core_theory
+          - section_heading: Potential Energy Surface as Function of Internuclear Distance
+            section_type: related_concepts
+          - section_heading: Molecular Geometry, Equilibrium Distance and Dissociation
+            section_type: related_concepts
+      - lesson: Scope and Limitations
+        sections:
+          - section_heading: Validity for Electronic Ground States
+            section_type: related_concepts
+          - section_heading: Breakdown for Nonadiabatic Processes
+            section_type: related_concepts
+    milestone: "Understand Born-Oppenheimer framework as foundation for molecular quantum mechanics"
+    duration_days: 3
+    tags:
+      - born_oppenheimer
+      - molecular_framework
+      - adiabatic_approximation
+
+  - id: 2
+    topic: Valence Bond Theory and Molecular Bonding Concepts
+    learning_objectives:
+      - Describe valence bond picture of electron pair bonding
+      - Draw Lewis structures and resonance forms
+      - Explain electronegativity and polarity in terms of VB
+      - Connect VB to bonding strength via orbital overlap
+      - Distinguish σ and π bonds in VB framework
+    textbook_style_content:
+      - lesson: Valence Bond Theory Fundamentals
+        sections:
+          - section_heading: Electron Pair Sharing and Orbital Overlap
+            section_type: core_theory
+          - section_heading: Exchange Integral and Bonding Strength
+            section_type: core_theory
+          - section_heading: Lewis Structures and Octet Rule
+            section_type: related_concepts
+      - lesson: σ and π Bonding
+        sections:
+          - section_heading: Cylindrically Symmetric Orbital Overlap (σ Bond)
+            section_type: core_theory
+          - section_heading: Lateral Overlap and π Bonding
+            section_type: core_theory
+          - section_heading: Multiple Bonds and Bond Order Concepts
+            section_type: related_concepts
+      - lesson: Resonance and Delocalization
+        sections:
+          - section_heading: Resonance Structures and Weighted Average
+            section_type: core_theory
+          - section_heading: Resonance Stabilization Energy
+            section_type: related_concepts
+          - section_heading: Conjugation and Extended Delocalization
+            section_type: related_concepts
+    milestone: "Draw and interpret valence bond descriptions with resonance forms"
+    duration_days: 4
+    tags:
+      - valence_bond_theory
+      - bonding_concepts
+      - resonance
+
+  - id: 3
+    topic: Linear Combination of Atomic Orbitals (LCAO) and MO Formation
+    learning_objectives:
+      - Explain LCAO principle for constructing molecular orbitals
+      - Derive molecular orbitals from linear combinations of atomic basis
+      - Distinguish bonding, antibonding, and nonbonding orbitals
+      - Calculate molecular orbital energies using secular equations
+      - Interpret qualitative orbital energy diagrams
+    textbook_style_content:
+      - lesson: LCAO Principle
+        sections:
+          - section_heading: Basis Set of Atomic Orbitals and Linear Combination
+            section_type: core_theory
+          - section_heading: Molecular Orbital as Superposition of Atomic Functions
+            section_type: core_theory
+          - section_heading: Variational Justification via Secular Determinant
+            section_type: related_concepts
+      - lesson: Bonding and Antibonding Orbitals
+        sections:
+          - section_heading: In-Phase (Bonding) and Out-of-Phase (Antibonding) Combinations
+            section_type: core_theory
+          - section_heading: Nodal Planes and Electron Density Distribution
+            section_type: core_theory
+          - section_heading: Energy Lowering and Raising from Overlap
+            section_type: related_concepts
+      - lesson: Secular Equations for Molecular Orbitals
+        sections:
+          - section_heading: Matrix Formulation for LCAO Coefficients
+            section_type: core_theory
+          - section_heading: Determinantal Equation and Molecular Orbital Energies
+            section_type: core_theory
+          - section_heading: Practical Solution via Orbital Diagrams
+            section_type: related_concepts
+    milestone: "Construct molecular orbitals from atomic orbitals and interpret energy diagrams"
+    duration_days: 6
+    tags:
+      - lcao_theory
+      - molecular_orbitals
+      - bonding_antibonding
+
+  - id: 4
+    topic: Hybrid Orbitals and Localized Bonding
+    learning_objectives:
+      - Explain hybrid orbital concept and sp, sp², sp³ geometries
+      - Derive localized molecular orbitals from hybrid combinations
+      - Predict molecular geometry from hybridization
+      - Relate hybridization to σ-bond arrangement
+      - Connect hybrid model to VSEPR and molecular shape
+    textbook_style_content:
+      - lesson: Hybridization Concept
+        sections:
+          - section_heading: Mixing of Atomic Orbitals to Produce Hybrid Orbitals
+            section_type: core_theory
+          - section_heading: sp Hybridization—Linear Geometry
+            section_type: core_theory
+          - section_heading: sp² Hybridization—Trigonal Planar Geometry
+            section_type: core_theory
+      - lesson: sp³ and Higher Hybridization
+        sections:
+          - section_heading: sp³ Hybridization—Tetrahedral Geometry
+            section_type: core_theory
+          - section_heading: Directionality and Bond Angles
+            section_type: related_concepts
+          - section_heading: sp³d and sp³d² for Expanded Octets (Outline)
+            section_type: related_concepts
+      - lesson: Hybrid Orbitals and Molecular Structure
+        sections:
+          - section_heading: σ-Bonding Framework from Hybrid Overlaps
+            section_type: core_theory
+          - section_heading: π Bonds Perpendicular to Hybrid σ Framework
+            section_type: related_concepts
+          - section_heading: Connection to VSEPR and Valence Bond Prediction
+            section_type: related_concepts
+    milestone: "Predict and rationalize molecular geometry using hybridization model"
+    duration_days: 4
+    tags:
+      - hybrid_orbitals
+      - hybridization
+      - molecular_geometry
+
+  - id: 5
+    topic: LCAO-MO Applications to H₂⁺ and H₂ Molecules
+    learning_objectives:
+      - Solve H₂⁺ ion using LCAO with 1s basis functions
+      - Calculate molecular orbital energies and bond order
+      - Interpret potential energy curves and bond dissociation
+      - Extend to neutral H₂ molecule
+      - Construct complete MO diagram for H₂
+      - Compare VB and MO descriptions of H₂
+    textbook_style_content:
+      - lesson: H₂⁺ Molecular Ion
+        sections:
+          - section_heading: Two-Center One-Electron Problem
+            section_type: overview
+          - section_heading: LCAO Expansion and Secular Equations
+            section_type: core_theory
+          - section_heading: Bonding and Antibonding Orbital Energies
+            section_type: core_theory
+      - lesson: Molecular Orbital Diagram for H₂⁺
+        sections:
+          - section_heading: Energy Ordering and Nodal Structure
+            section_type: core_theory
+          - section_heading: Bond Order and Dissociation Energy
+            section_type: related_concepts
+          - section_heading: Potential Energy Curve as Function of Internuclear Distance
+            section_type: related_concepts
+      - lesson: H₂ Neutral Molecule
+        sections:
+          - section_heading: Two Electrons in MO Framework (Aufbau)
+            section_type: core_theory
+          - section_heading: Ground State Configuration and Bond Order
+            section_type: core_theory
+          - section_heading: Comparison with Valence Bond Picture
+            section_type: related_concepts
+      - lesson: Properties and Applications
+        sections:
+          - section_heading: Bond Strength, Bond Length, and Dissociation Energy
+            section_type: related_concepts
+          - section_heading: Quantum Defect and Exchange Integrals (Outline)
+            section_type: related_concepts
+    milestone: "Completely describe H₂⁺ and H₂ using LCAO-MO; predict bonding character"
+    duration_days: 6
+    tags:
+      - lcao_applications
+      - h2_ion
+      - h2_molecule
+      - diatomic_molecules
+
+  - id: 6
+    topic: Homonuclear Diatomic Molecules—Orbital Theory
+    learning_objectives:
+      - Construct molecular orbital diagrams for Period 2 diatomics
+      - Explain order of σ and π orbital energies
+      - Account for s-p orbital mixing effects
+      - Calculate bond order from MO populations
+      - Predict molecular properties (magnetic, structural)
+      - Explain trends in bonding strength across Period 2
+    textbook_style_content:
+      - lesson: Atomic Orbital Basis and Molecular Orbitals
+        sections:
+          - section_heading: Basis from Valence Orbitals (2s, 2p of Period 2)
+            section_type: overview
+          - section_heading: Formation of σ and π Molecular Orbitals
+            section_type: core_theory
+          - section_heading: Orbital Symmetry and Linear Molecule Approximation
+            section_type: related_concepts
+      - lesson: Molecular Orbital Ordering
+        sections:
+          - section_heading: σ2s, σ*2s, σ2p, π2p, π*2p, σ*2p Sequence
+            section_type: core_theory
+          - section_heading: Effect of Orbital Mixing on Energy Ordering
+            section_type: core_theory
+          - section_heading: Variation with Atomic Number
+            section_type: related_concepts
+      - lesson: Homonuclear Diatomic Examples
+        sections:
+          - section_heading: O₂ (Paramagnetism, Bond Order, Double Bond)
+            section_type: core_theory
+          - section_heading: N₂ (Triple Bond, Extreme Stability, Inertness)
+            section_type: core_theory
+          - section_heading: Li₂, B₂, C₂, F₂ (Complete Orbital Diagrams and Properties)
+            section_type: related_concepts
+      - lesson: Molecular Properties from MOT
+        sections:
+          - section_heading: Bond Order, Dissociation Energy, and Bond Length
+            section_type: related_concepts
+          - section_heading: Magnetic Properties (Diamagnetic vs Paramagnetic)
+            section_type: related_concepts
+          - section_heading: Ionization Energy and Electron Affinity Trends
+            section_type: related_concepts
+    milestone: "Construct MO diagrams for homonuclear diatomics and predict their properties"
+    duration_days: 6
+    tags:
+      - homonuclear_diatomics
+      - orbital_theory
+      - bond_order
+
+  - id: 7
+    topic: Heteronuclear Diatomic Molecules—Orbital Theory
+    learning_objectives:
+      - Explain effect of electronegativity on orbital mixing and energy
+      - Construct MO diagrams for heteronuclear diatomics
+      - Determine orbital polarization and effective charges
+      - Calculate dipole moments and molecular polarity
+      - Predict bonding and antibonding character from electronegativity
+      - Apply MOT to CO, HF, NO, CN⁻ systems
+    textbook_style_content:
+      - lesson: Electronegativity and Orbital Asymmetry
+        sections:
+          - section_heading: Atomic Orbital Energy Differences in Heteronuclear Case
+            section_type: overview
+          - section_heading: Preferential Weighting in Molecular Orbitals
+            section_type: core_theory
+          - section_heading: Polar Character from Unequal Contributions
+            section_type: core_theory
+      - lesson: MO Diagrams for Heteronuclear Molecules
+        sections:
+          - section_heading: Modified Energy Level Ordering
+            section_type: core_theory
+          - section_heading: Bonding Orbital More Antibonding-Like Due to Large Δε
+            section_type: core_theory
+          - section_heading: Effect on Bond Dissociation and Reactivity
+            section_type: related_concepts
+      - lesson: Specific Examples and Applications
+        sections:
+          - section_heading: CO (Nearly Isotriptic Triple Bond, Dipole Reversal)
+            section_type: core_theory
+          - section_heading: HF (Highly Polar, Large Electronegativity Difference)
+            section_type: core_theory
+          - section_heading: NO, CN⁻, and Other Radicals/Ions
+            section_type: related_concepts
+      - lesson: Molecular Properties
+        sections:
+          - section_heading: Bond Dissociation Energies in Heteronuclear Systems
+            section_type: related_concepts
+          - section_heading: Permanent Dipole Moments from Asymmetric MOs
+            section_type: related_concepts
+          - section_heading: Reactivity Predictions from Frontier Orbital Concepts
+            section_type: related_concepts
+    milestone: "Construct heteronuclear MO diagrams and explain effects of electronegativity"
+    duration_days: 6
+    tags:
+      - heteronuclear_diatomics
+      - electronegativity
+      - polarity
+
+  - id: 8
+    topic: Hückel Approximation and π-Electron Systems
+    learning_objectives:
+      - Understand assumptions underlying Hückel approximation
+      - Apply Hückel method to linear and cyclic conjugates
+      - Calculate π-electron energies and orbital coefficients
+      - Predict aromaticity from Hückel orbital patterns
+      - Interpret charge distributions and bond orders
+      - Apply Hückel to benzene, annulenes, and heterocycles (outline)
+    textbook_style_content:
+      - lesson: Hückel Approximation Framework
+        sections:
+          - section_heading: Separation of σ and π Electrons
+            section_type: overview
+          - section_heading: Neglecting Electron-Electron Repulsion (Core Approximation)
+            section_type: core_theory
+          - section_heading: Nearest-Neighbor Interactions and Parameterization
+            section_type: core_theory
+      - lesson: Mathematical Setup and Secular Equations
+        sections:
+          - section_heading: Hamiltonian Matrix Elements (α and β)
+            section_type: core_theory
+          - section_heading: Secular Determinant for LCAO Coefficients
+            section_type: core_theory
+          - section_heading: Eigenvalues as π-Orbital Energies
+            section_type: related_concepts
+      - lesson: Linear Conjugated Systems
+        sections:
+          - section_heading: Butadiene (C₄H₆) Hückel Analysis
+            section_type: core_theory
+          - section_heading: Energy Levels and Orbital Diagram
+            section_type: related_concepts
+          - section_heading: Resonance Energy and Conjugation Stabilization
+            section_type: related_concepts
+      - lesson: Cyclic Conjugated and Annular Systems
+        sections:
+          - section_heading: Benzene (C₆H₆) and Aromaticity
+            section_type: core_theory
+          - section_heading: Cyclopentadienyl Anion and Tropylium Cation
+            section_type: core_theory
+          - section_heading: Annulenes and Hückel Rule (4n+2 Aromaticity)
+            section_type: related_concepts
+      - lesson: Molecular Properties from Hückel Calculations
+        sections:
+          - section_heading: π-Electron Density on Each Atom
+            section_type: related_concepts
+          - section_heading: π-Bond Orders Between Atoms
+            section_type: related_concepts
+          - section_heading: Chemical Reactivity and Substitution Patterns (Qualitative)
+            section_type: related_concepts
+    milestone: "Apply Hückel method to conjugated and aromatic systems; predict aromaticity"
+    duration_days: 7
+    tags:
+      - huckel_approximation
+      - pi_electron_systems
+      - conjugation
+      - aromaticity
+      - annulenes
+
+  - id: 9
+    topic: Integrated MO Applications and Comparison of Bonding Theories
+    learning_objectives:
+      - Compare predictions of VB, hybrid orbital, and MO theories
+      - Synthesize LCAO-MO and Hückel approaches for complex molecules
+      - Predict molecular properties using multiple bonding models
+      - Solve multi-step problems integrating structure and bonding
+      - Practice problem-solving under GATE conditions
+    textbook_style_content:
+      - lesson: Comparative Analysis of Bonding Models
+        sections:
+          - section_heading: VB vs MO for Simple Systems (H₂, F₂)
+            section_type: core_theory
+          - section_heading: Hybrid Orbitals as Bridge Between Localized and Delocalized Pictures
+            section_type: related_concepts
+          - section_heading: Strengths and Limitations of Each Approach
+            section_type: related_concepts
+      - lesson: Complex Molecular Systems
+        sections:
+          - section_heading: Multicenter Bonding and Extended Conjugation
+            section_type: related_concepts
+          - section_heading: Combining Hückel π Treatment with σ Skeleton
+            section_type: related_concepts
+          - section_heading: Heterocyclic and Substituted Aromatic Molecules (Outline)
+            section_type: related_concepts
+      - lesson: Comprehensive Problem Solving
+        sections:
+          - section_heading: Structure Determination from Spectroscopic Clues
+            section_type: related_concepts
+          - section_heading: Predicting Reactivity from Frontier Orbitals
+            section_type: related_concepts
+          - section_heading: Timed Problem Sets for GATE Examination
+            section_type: related_concepts
+    milestone: "Integrate bonding theories to analyze and predict molecular properties"
+    duration_days: 5
+    tags:
+      - integration
+      - comparative_analysis
+      - problem_solving
+      - gate_preparation

@@ -1,0 +1,478 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Polymer chemistry: Molar masses; kinetics of polymerization"
+
+concepts:
+  core:
+    - name: Number-average molar mass
+      clarifier: Statistical average based on the number of polymer chains of each molecular weight
+    - name: Weight-average molar mass
+      clarifier: Statistical average weighted by the mass fraction of each molecular species
+    - name: Polydispersity index
+      clarifier: Ratio of weight-average to number-average molar mass indicating distribution breadth
+    - name: Chain-growth polymerization kinetics
+      clarifier: Kinetics of addition polymerization including initiation, propagation, and termination steps
+    - name: Step-growth polymerization kinetics
+      clarifier: Kinetics of condensation polymerization based on functional group reactivity
+    - name: Degree of polymerization
+      clarifier: Number of repeating units in a polymer chain related to molar mass
+  related:
+    - name: Molar mass distribution functions
+      clarifier: Mathematical representations of polymer molecular weight distributions
+    - name: Viscosity-average molar mass
+      clarifier: Molar mass determined from intrinsic viscosity measurements
+    - name: Free radical polymerization
+      clarifier: Chain-growth mechanism involving radical intermediates
+    - name: Ionic polymerization
+      clarifier: Chain-growth via cationic or anionic active centers
+    - name: Living polymerization
+      clarifier: Polymerization without irreversible chain termination or transfer
+    - name: Copolymerization kinetics
+      clarifier: Kinetics when two or more monomers polymerize together
+    - name: Gel permeation chromatography
+      clarifier: Technique for determining molar mass distributions
+    - name: Carothers equation
+      clarifier: Relationship between extent of reaction and degree of polymerization in step-growth
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Polymer Molar Mass
+    learning_objectives:
+      - Define polymer molar mass and distinguish between monodisperse and polydisperse systems
+      - Understand the origin of molar mass distributions in synthetic polymers
+      - Relate degree of polymerization to molar mass and monomer molecular weight
+    textbook_style_content:
+      - topic: Introduction to Polymer Molar Mass
+        sections:
+          - section_title: What is Polymer Molar Mass
+            section_type: overview
+          - section_title: Monodisperse versus Polydisperse Polymers
+            section_type: core_theory
+          - section_title: Degree of Polymerization
+            section_type: core_theory
+          - section_title: Relationship Between DP and Molar Mass
+            section_type: core_theory
+    milestone: Understanding basic polymer molar mass concepts
+    duration_days: 2
+    tags:
+      - polymer fundamentals
+      - molar mass basics
+      - degree of polymerization
+
+  - id: 2
+    title: Statistical Averages of Molar Mass
+    learning_objectives:
+      - Calculate number-average molar mass from polymer composition data
+      - Calculate weight-average molar mass and understand its physical significance
+      - Derive and apply formulas for different molar mass averages
+    textbook_style_content:
+      - topic: Number-Average Molar Mass
+        sections:
+          - section_title: Definition and Derivation
+            section_type: core_theory
+          - section_title: Physical Meaning of Number-Average
+            section_type: core_theory
+          - section_title: Calculation from Composition Data
+            section_type: core_theory
+      - topic: Weight-Average Molar Mass
+        sections:
+          - section_title: Definition and Derivation
+            section_type: core_theory
+          - section_title: Physical Significance
+            section_type: core_theory
+          - section_title: Comparison with Number-Average
+            section_type: core_theory
+      - topic: Higher Molar Mass Averages
+        sections:
+          - section_title: Z-Average Molar Mass
+            section_type: related concepts
+          - section_title: Viscosity-Average Molar Mass
+            section_type: related concepts
+    milestone: Mastery of statistical molar mass calculations
+    duration_days: 3
+    tags:
+      - number-average
+      - weight-average
+      - statistical averages
+      - calculations
+
+  - id: 3
+    title: Polydispersity and Molar Mass Distributions
+    learning_objectives:
+      - Define and calculate the polydispersity index
+      - Interpret polydispersity values in terms of molecular weight distribution
+      - Understand factors affecting polydispersity in different polymerization methods
+    textbook_style_content:
+      - topic: Polydispersity Index
+        sections:
+          - section_title: Definition and Mathematical Expression
+            section_type: core_theory
+          - section_title: Physical Interpretation of PDI Values
+            section_type: core_theory
+          - section_title: Limits of Polydispersity
+            section_type: core_theory
+      - topic: Molar Mass Distribution Functions
+        sections:
+          - section_title: Continuous Distribution Functions
+            section_type: related concepts
+          - section_title: Most Probable Distribution
+            section_type: related concepts
+          - section_title: Gaussian and Other Distributions
+            section_type: related concepts
+    milestone: Understanding polymer distribution breadth
+    duration_days: 2
+    tags:
+      - polydispersity
+      - PDI
+      - distribution functions
+
+  - id: 4
+    title: Experimental Determination of Molar Mass
+    learning_objectives:
+      - Describe techniques for measuring different molar mass averages
+      - Understand the principles behind each characterization method
+      - Select appropriate methods for polymer analysis
+    textbook_style_content:
+      - topic: Techniques for Molar Mass Determination
+        sections:
+          - section_title: Overview of Methods
+            section_type: overview
+          - section_title: End-Group Analysis
+            section_type: related concepts
+          - section_title: Colligative Property Methods
+            section_type: related concepts
+          - section_title: Light Scattering Techniques
+            section_type: related concepts
+          - section_title: Gel Permeation Chromatography
+            section_type: related concepts
+          - section_title: Viscometry and Mark-Houwink Equation
+            section_type: related concepts
+    milestone: Knowledge of polymer characterization techniques
+    duration_days: 3
+    tags:
+      - characterization
+      - GPC
+      - light scattering
+      - viscometry
+
+  - id: 5
+    title: Introduction to Polymerization Kinetics
+    learning_objectives:
+      - Classify polymerization reactions into chain-growth and step-growth
+      - Understand the fundamental differences in mechanisms and kinetics
+      - Identify characteristics of each polymerization type
+    textbook_style_content:
+      - topic: Classification of Polymerizations
+        sections:
+          - section_title: Overview of Polymerization Types
+            section_type: overview
+          - section_title: Chain-Growth Polymerization
+            section_type: core_theory
+          - section_title: Step-Growth Polymerization
+            section_type: core_theory
+          - section_title: Key Differences in Mechanisms
+            section_type: core_theory
+      - topic: General Kinetic Principles
+        sections:
+          - section_title: Rate Expressions in Polymer Chemistry
+            section_type: core_theory
+          - section_title: Conversion versus Time Profiles
+            section_type: core_theory
+    milestone: Understanding polymerization classifications
+    duration_days: 2
+    tags:
+      - polymerization types
+      - chain-growth
+      - step-growth
+      - mechanisms
+
+  - id: 6
+    title: Step-Growth Polymerization Kinetics
+    learning_objectives:
+      - Derive kinetic equations for step-growth polymerization
+      - Apply the Carothers equation to predict degree of polymerization
+      - Understand the effect of stoichiometry on molar mass
+      - Calculate conversion and DP as functions of time
+    textbook_style_content:
+      - topic: Fundamentals of Step-Growth Kinetics
+        sections:
+          - section_title: Mechanism of Step-Growth
+            section_type: overview
+          - section_title: Equal Reactivity Assumption
+            section_type: core_theory
+          - section_title: Kinetic Rate Laws
+            section_type: core_theory
+      - topic: Carothers Equation
+        sections:
+          - section_title: Derivation of Carothers Equation
+            section_type: core_theory
+          - section_title: Relationship Between p and DP
+            section_type: core_theory
+          - section_title: Effect of Stoichiometric Imbalance
+            section_type: core_theory
+      - topic: Kinetics of Specific Systems
+        sections:
+          - section_title: Self-Catalyzed Systems
+            section_type: related concepts
+          - section_title: Externally Catalyzed Systems
+            section_type: related concepts
+          - section_title: Time Dependence of Conversion
+            section_type: core_theory
+      - topic: Molar Mass in Step-Growth
+        sections:
+          - section_title: Molar Mass Distribution in Step-Growth
+            section_type: core_theory
+          - section_title: Most Probable Distribution
+            section_type: related concepts
+          - section_title: Polydispersity in Step-Growth
+            section_type: core_theory
+    milestone: Mastery of step-growth polymerization kinetics
+    duration_days: 4
+    tags:
+      - step-growth
+      - Carothers equation
+      - condensation polymerization
+      - stoichiometry
+
+  - id: 7
+    title: Chain-Growth Polymerization Kinetics
+    learning_objectives:
+      - Identify the elementary steps in chain-growth polymerization
+      - Derive rate expressions for overall polymerization and degree of polymerization
+      - Apply steady-state approximation to radical concentrations
+      - Understand kinetic chain length and its relationship to DP
+    textbook_style_content:
+      - topic: Elementary Steps in Chain-Growth
+        sections:
+          - section_title: Overview of Chain Mechanism
+            section_type: overview
+          - section_title: Initiation Step
+            section_type: core_theory
+          - section_title: Propagation Step
+            section_type: core_theory
+          - section_title: Termination Mechanisms
+            section_type: core_theory
+          - section_title: Chain Transfer Reactions
+            section_type: core_theory
+      - topic: Kinetic Chain Length
+        sections:
+          - section_title: Definition of Kinetic Chain Length
+            section_type: core_theory
+          - section_title: Relationship to Degree of Polymerization
+            section_type: core_theory
+          - section_title: Effect of Termination Mode
+            section_type: core_theory
+    milestone: Understanding chain-growth mechanism steps
+    duration_days: 3
+    tags:
+      - chain-growth
+      - elementary steps
+      - kinetic chain length
+
+  - id: 8
+    title: Free Radical Polymerization Kinetics
+    learning_objectives:
+      - Derive the rate of polymerization for free radical systems
+      - Apply steady-state approximation to derive rate expressions
+      - Calculate the degree of polymerization in radical systems
+      - Understand the effect of initiator concentration and temperature
+    textbook_style_content:
+      - topic: Initiation in Free Radical Polymerization
+        sections:
+          - section_title: Thermal and Photochemical Initiation
+            section_type: related concepts
+          - section_title: Initiator Decomposition Kinetics
+            section_type: core_theory
+          - section_title: Initiator Efficiency Factor
+            section_type: core_theory
+      - topic: Rate of Polymerization
+        sections:
+          - section_title: Steady-State Approximation
+            section_type: core_theory
+          - section_title: Derivation of Rate Expression
+            section_type: core_theory
+          - section_title: Dependence on Monomer and Initiator
+            section_type: core_theory
+      - topic: Degree of Polymerization in Radical Systems
+        sections:
+          - section_title: Derivation for Termination by Coupling
+            section_type: core_theory
+          - section_title: Derivation for Termination by Disproportionation
+            section_type: core_theory
+          - section_title: Effect of Chain Transfer
+            section_type: core_theory
+      - topic: Chain Transfer Reactions
+        sections:
+          - section_title: Transfer to Monomer, Solvent, and Initiator
+            section_type: related concepts
+          - section_title: Chain Transfer Constants
+            section_type: related concepts
+          - section_title: Mayo Equation
+            section_type: related concepts
+    milestone: Mastery of free radical polymerization kinetics
+    duration_days: 4
+    tags:
+      - free radical
+      - rate of polymerization
+      - initiator
+      - chain transfer
+
+  - id: 9
+    title: Ionic Polymerization Kinetics
+    learning_objectives:
+      - Distinguish between cationic and anionic polymerization mechanisms
+      - Derive kinetic expressions for ionic polymerizations
+      - Understand the absence of termination in living systems
+      - Calculate molar mass in living polymerization
+    textbook_style_content:
+      - topic: Cationic Polymerization
+        sections:
+          - section_title: Mechanism of Cationic Polymerization
+            section_type: related concepts
+          - section_title: Initiators and Propagation
+            section_type: related concepts
+          - section_title: Termination and Chain Transfer
+            section_type: related concepts
+          - section_title: Kinetic Rate Laws
+            section_type: related concepts
+      - topic: Anionic Polymerization
+        sections:
+          - section_title: Mechanism of Anionic Polymerization
+            section_type: related concepts
+          - section_title: Initiators and Active Centers
+            section_type: related concepts
+          - section_title: Living Nature of Anionic Systems
+            section_type: related concepts
+          - section_title: Kinetic Expressions
+            section_type: related concepts
+      - topic: Living Polymerization
+        sections:
+          - section_title: Characteristics of Living Systems
+            section_type: related concepts
+          - section_title: Narrow Polydispersity in Living Polymerization
+            section_type: related concepts
+          - section_title: Control of Molar Mass
+            section_type: related concepts
+    milestone: Understanding ionic and living polymerization
+    duration_days: 3
+    tags:
+      - ionic polymerization
+      - cationic
+      - anionic
+      - living polymerization
+
+  - id: 10
+    title: Copolymerization Kinetics
+    learning_objectives:
+      - Define reactivity ratios and their significance
+      - Derive the copolymer composition equation
+      - Apply reactivity ratios to predict copolymer composition
+      - Understand different types of copolymerization behavior
+    textbook_style_content:
+      - topic: Introduction to Copolymerization
+        sections:
+          - section_title: Overview of Copolymerization
+            section_type: overview
+          - section_title: Types of Copolymers
+            section_type: related concepts
+      - topic: Reactivity Ratios
+        sections:
+          - section_title: Definition of Reactivity Ratios
+            section_type: related concepts
+          - section_title: Physical Meaning of r1 and r2
+            section_type: related concepts
+      - topic: Copolymer Composition Equation
+        sections:
+          - section_title: Derivation of Mayo-Lewis Equation
+            section_type: related concepts
+          - section_title: Application to Predict Composition
+            section_type: related concepts
+          - section_title: Ideal, Alternating, and Block Copolymerization
+            section_type: related concepts
+    milestone: Understanding copolymer formation kinetics
+    duration_days: 3
+    tags:
+      - copolymerization
+      - reactivity ratios
+      - Mayo-Lewis equation
+
+  - id: 11
+    title: Advanced Topics and Problem Solving
+    learning_objectives:
+      - Solve complex problems involving molar mass calculations
+      - Apply kinetic equations to real polymerization scenarios
+      - Integrate concepts of molar mass and kinetics
+      - Analyze experimental data from polymerization reactions
+    textbook_style_content:
+      - topic: Integrated Problem Solving
+        sections:
+          - section_title: Multi-Step Calculations
+            section_type: overview
+          - section_title: Relating Kinetics to Molar Mass Outcomes
+            section_type: core_theory
+          - section_title: Effect of Reaction Conditions
+            section_type: core_theory
+      - topic: Temperature Effects
+        sections:
+          - section_title: Arrhenius Behavior in Polymerization
+            section_type: related concepts
+          - section_title: Overall Activation Energy
+            section_type: related concepts
+          - section_title: Temperature Dependence of DP
+            section_type: related concepts
+      - topic: Industrial and Practical Considerations
+        sections:
+          - section_title: Reactor Design Considerations
+            section_type: related concepts
+          - section_title: Controlling Molar Mass in Practice
+            section_type: related concepts
+          - section_title: Quality Control in Polymer Production
+            section_type: related concepts
+    milestone: Application of polymer chemistry principles
+    duration_days: 4
+    tags:
+      - problem solving
+      - applications
+      - temperature effects
+      - industrial practice
+
+  - id: 12
+    title: CSIR Exam-Focused Review and Practice
+    learning_objectives:
+      - Review key formulas and concepts for CSIR examination
+      - Practice typical CSIR-level problems on polymer chemistry
+      - Identify common pitfalls and conceptual misunderstandings
+      - Develop speed and accuracy in problem-solving
+    textbook_style_content:
+      - topic: Formula Compilation
+        sections:
+          - section_title: Essential Equations for Molar Mass
+            section_type: overview
+          - section_title: Essential Equations for Kinetics
+            section_type: overview
+      - topic: Problem-Solving Strategies
+        sections:
+          - section_title: Identifying Problem Types
+            section_type: overview
+          - section_title: Step-by-Step Solution Approaches
+            section_type: core_theory
+          - section_title: Common Mistakes to Avoid
+            section_type: core_theory
+      - topic: Practice Problems
+        sections:
+          - section_title: Molar Mass Calculations
+            section_type: core_theory
+          - section_title: Step-Growth Kinetics Problems
+            section_type: core_theory
+          - section_title: Chain-Growth Kinetics Problems
+            section_type: core_theory
+          - section_title: Mixed Concept Problems
+            section_type: core_theory
+    milestone: Exam readiness for CSIR Chemical Sciences
+    duration_days: 3
+    tags:
+      - CSIR preparation
+      - review
+      - practice problems
+      - exam strategy

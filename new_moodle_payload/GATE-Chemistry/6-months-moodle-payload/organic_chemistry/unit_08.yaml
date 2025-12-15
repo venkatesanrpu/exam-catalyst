@@ -1,0 +1,607 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: "Carbon-carbon and carbon-heteroatom bond forming reactions through enolates (including boron enolates), enamines and silyl enol ethers. Stereoselective addition to C=O groups (Cram, Prelog and Felkin-Anh models)."
+
+concepts:
+  core:
+    - name: Enolate Formation and Reactivity
+      clarifier: "Generation of enolates via deprotonation of carbonyls; thermodynamic vs. kinetic enolates"
+    - name: Enolate Regioselectivity
+      clarifier: "α- vs. γ-regioselectivity in unsymmetrical carbonyl compounds; controlling regioisomer formation"
+    - name: Enolate Nucleophilicity
+      clarifier: "Carbon and heteroatom nucleophilic addition to electrophiles; SN2 displacement and acylation"
+    - name: Boron Enolates
+      clarifier: "Formation via enolization with boron reagents; selectivity and chelation effects"
+    - name: Aldol Reaction Through Enolates
+      clarifier: "Formation of C-C bonds between enolates and carbonyls; control of regio-, stereo-, and chemoselectivity"
+    - name: Enamines as Nucleophiles
+      clarifier: "Formation from secondary amines and carbonyls; alkylation and acylation through enamines"
+    - name: Enamine vs. Iminium Activation
+      clarifier: "Nucleophilic character of enamines and electrophilic character of iminium intermediates"
+    - name: Silyl Enol Ethers
+      clarifier: "Formation via silylation of enolates; regioselectivity and preparation strategies"
+    - name: Silyl Enol Ether Reactions
+      clarifier: "Aldol-type reactions, Mukaiyama aldol, Michael additions, and electrophilic additions"
+    - name: Cram's Rule for Carbonyl Addition
+      clarifier: "Predicting stereochemistry of nucleophilic addition to α-chiral carbonyls via steric approach"
+    - name: Prelog's Rule
+      clarifier: "Extension of Cram's rule for specific substrates; application to amino acid and chiral alcohol derivatives"
+    - name: Felkin-Anh Model
+      clarifier: "Modified steric model accounting for electronegative groups α to carbonyl"
+
+  related:
+    - name: Enolate Chelation Control
+      clarifier: "Chelation effects with Lewis acids on stereoselective aldol reactions"
+    - name: Evans Asymmetric Aldol
+      clarifier: "Chiral auxiliary-directed aldol using boron-based enolates from oxazolidinones"
+    - name: Zimmerman-Traxler Transition State Model
+      clarifier: "Stereoelectronic explanation for syn/anti selectivity in aldol reactions"
+    - name: Umpolung via Enamines and Silyl Enol Ethers
+      clarifier: "Reversing carbonyl polarity for carbon-carbon bond formation"
+    - name: Mukaiyama Aldol Reaction
+      clarifier: "Silyl enol ether reaction with aldehydes catalyzed by Lewis acids"
+    - name: Cascade and Tandem Reactions with Enolates
+      clarifier: "Sequential C-C and C-Het bond formations in single synthetic operation"
+
+learning_path:
+  - id: 1
+    topic: "Enolate Formation: Thermodynamic vs. Kinetic Control"
+    learning_objectives:
+      - "Explain enolization mechanism and identify α-hydrogen requirements"
+      - "Distinguish thermodynamic (more substituted) vs. kinetic (less hindered) enolates"
+      - "Apply base selection for kinetic vs. thermodynamic enolate formation"
+      - "Execute regioselective enolization of unsymmetrical carbonyls"
+      - "Predict enolate formation in methyl ketones, cyclic ketones, and esters"
+      - "Understand equilibration and conditions favoring each regioisomer"
+      - "Design syntheses selecting appropriate enolate regioisomer"
+    textbook_style_content:
+      - lesson: "Enolization Fundamentals"
+        sections:
+          - section_heading: "Keto-Enol Tautomerism and Enolate Formation"
+            section_type: "overview"
+          - section_heading: "Mechanism of Base-Catalyzed Deprotonation"
+            section_type: "core_theory"
+          - section_heading: "pKa of α-Hydrogens and Carbonyl Activation"
+            section_type: "core_theory"
+      - lesson: "Kinetic vs. Thermodynamic Enolates"
+        sections:
+          - section_heading: "Kinetic Enolate: Formation at Low Temperature with Strong Hindered Base"
+            section_type: "core_theory"
+          - section_heading: "Thermodynamic Enolate: Formation at Elevated Temperature with Mild Base"
+            section_type: "core_theory"
+          - section_heading: "LDA (Lithium Diisopropylamide) for Kinetic Enolization"
+            section_type: "core_theory"
+          - section_heading: "Potassium Hydride and Sodium Hydride for Thermodynamic Control"
+            section_type: "related concepts"
+      - lesson: "Regioselectivity in Enolate Formation"
+        sections:
+          - section_heading: "Unsymmetrical Ketones: Predicting Major Enolate Regioisomer"
+            section_type: "core_theory"
+          - section_heading: "Directing Effects: Alkyl Groups and Aryl Substituents"
+            section_type: "core_theory"
+          - section_heading: "Branching at α-Carbon and Steric Hindrance"
+            section_type: "core_theory"
+      - lesson: "Enolate Formation in Esters and Lactones"
+        sections:
+          - section_heading: "Enhanced α-Acidity of Esters vs. Ketones"
+            section_type: "core_theory"
+          - section_heading: "Enolate Stabilization via Resonance"
+            section_type: "core_theory"
+      - lesson: "Applications in Synthesis"
+        sections:
+          - section_heading: "Selective Enolate Trapping for Subsequent Reactions"
+            section_type: "core_theory"
+          - section_heading: "Multi-Enolization Strategies in Polycarbonyl Systems"
+            section_type: "related concepts"
+    milestone: "Execute selective kinetic and thermodynamic enolization with regiocontrol"
+    duration_days: 6
+    tags:
+      - "Enolate Formation"
+      - "Kinetic vs. Thermodynamic"
+      - "Regioselectivity"
+      - "LDA Enolization"
+
+  - id: 2
+    topic: "Enolates in Carbon-Carbon and Carbon-Heteroatom Bond Formation"
+    learning_objectives:
+      - "Apply enolates as nucleophiles in SN2 displacement reactions"
+      - "Execute alkylation of enolates by alkyl halides"
+      - "Describe selectivity in O- vs. C-alkylation of enolates"
+      - "Apply enolates in acylation reactions (ester and amide formation)"
+      - "Execute Michael addition of enolates to α,β-unsaturated carbonyls"
+      - "Describe intermolecular vs. intramolecular enolate reactions"
+      - "Design multi-component syntheses leveraging enolate reactivity"
+    textbook_style_content:
+      - lesson: "Enolate Nucleophilicity and Carbon Alkylation"
+        sections:
+          - section_heading: "Enolate as Carbon Nucleophile (vs. Oxygen)"
+            section_type: "core_theory"
+          - section_heading: "SN2 Alkylation of Enolates by Primary Alkyl Halides"
+            section_type: "core_theory"
+          - section_heading: "Regioselectivity: Monoalkylation vs. Dialkylation"
+            section_type: "core_theory"
+          - section_heading: "Preventing Over-alkylation via Stoichiometric Control"
+            section_type: "core_theory"
+      - lesson: "O- vs. C-Alkylation Selectivity"
+        sections:
+          - section_heading: "Enolate Ambident Nucleophilicity: Oxygen and Carbon Sites"
+            section_type: "core_theory"
+          - section_heading: "Hard-Soft Acid-Base (HSAB) Theory and Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Soft Electrophiles Favor C-Alkylation"
+            section_type: "core_theory"
+          - section_heading: "Hard Electrophiles and Allylic Systems Favor O-Alkylation"
+            section_type: "related concepts"
+      - lesson: "Acylation and Condensation Reactions"
+        sections:
+          - section_heading: "Enolate Addition to Acid Chlorides (C-Acylation)"
+            section_type: "core_theory"
+          - section_heading: "Formation of β-Keto Esters and β-Keto Amides"
+            section_type: "core_theory"
+          - section_heading: "Claisen Condensation and Related Transformations"
+            section_type: "related concepts"
+      - lesson: "Michael Addition via Enolates"
+        sections:
+          - section_heading: "Enolate Addition to Enones and Dienones"
+            section_type: "core_theory"
+          - section_heading: "1,4-Conjugate Addition Mechanism and Stereochemistry"
+            section_type: "core_theory"
+          - section_heading: "Robinson Annulation as Combination of Michael and Aldol"
+            section_type: "related concepts"
+      - lesson: "Intermolecular and Intramolecular Reactions"
+        sections:
+          - section_heading: "Intermolecular Enolate Reactions and Selectivity Issues"
+            section_type: "core_theory"
+          - section_heading: "Intramolecular Enolate Cyclization (Haworth Synthesis)"
+            section_type: "core_theory"
+          - section_heading: "Ring-Forming Enolate Reactions: 5- and 6-membered Ring Preference"
+            section_type: "related concepts"
+    milestone: "Execute C-alkylation, acylation, and conjugate addition via enolates"
+    duration_days: 7
+    tags:
+      - "Enolate Alkylation"
+      - "C-Acylation"
+      - "Michael Addition"
+      - "Claisen Condensation"
+      - "O- vs. C-Selectivity"
+
+  - id: 3
+    topic: "Boron Enolates: Formation, Selectivity, and Aldol Reactions"
+    learning_objectives:
+      - "Describe boron enolate formation via enolization with boron reagents"
+      - "Explain boron's role in enhancing facial selectivity and controlling stereochemistry"
+      - "Execute boron-mediated enolate formation with different boron sources (Bu₂BOTf, others)"
+      - "Apply boron enolates in highly selective aldol reactions"
+      - "Predict and control syn/anti aldol stereochemistry via boron chelation"
+      - "Describe formation of E/Z boron enolates and their stereochemical consequences"
+      - "Design aldol-based syntheses leveraging boron enolate control"
+    textbook_style_content:
+      - lesson: "Boron Enolate Formation"
+        sections:
+          - section_heading: "Enolization with Dibutylboron Triflate (Bu₂BOTf)"
+            section_type: "core_theory"
+          - section_heading: "Isopinocampheylboron (IPC) for Chiral Enolate Formation"
+            section_type: "core_theory"
+          - section_heading: "Z-Boron Enolate Formation and E/Z Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Base-Catalyzed Boron Enolization"
+            section_type: "related concepts"
+      - lesson: "Boron-Enhanced Aldol Stereoselectivity"
+        sections:
+          - section_heading: "Chelation Control via Boron Lewis Acid"
+            section_type: "core_theory"
+          - section_heading: "Six-Membered Transition State (Zimmerman-Traxler Model)"
+            section_type: "core_theory"
+          - section_heading: "Syn-Aldol Formation via Z-Boron Enolates"
+            section_type: "core_theory"
+          - section_heading: "Anti-Aldol Formation via E-Boron Enolates"
+            section_type: "core_theory"
+      - lesson: "Aldol Reaction Mechanism"
+        sections:
+          - section_heading: "Mechanism: Enolate Formation, Aldehyde Coordination, C-C Bond Formation"
+            section_type: "core_theory"
+          - section_heading: "Borax-Catalyzed Aldol: Mechanism and Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Workup and Boron Removal from Aldol Product"
+            section_type: "core_theory"
+      - lesson: "Evans Asymmetric Aldol"
+        sections:
+          - section_heading: "Chiral Oxazolidinone-Derived Boron Enolates"
+            section_type: "core_theory"
+          - section_heading: "Diastereoselective Aldol with High Facial Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Auxiliary Removal and Product Liberation"
+            section_type: "related concepts"
+      - lesson: "Aldol Variations and Applications"
+        sections:
+          - section_heading: "Mukaiyama Aldol with Silyl Enol Ethers"
+            section_type: "related concepts"
+          - section_heading: "Boron Enolates in Robinson Annulation"
+            section_type: "related concepts"
+    milestone: "Execute highly stereoselective aldol reactions via boron enolate chemistry"
+    duration_days: 8
+    tags:
+      - "Boron Enolates"
+      - "Aldol Reaction"
+      - "Syn/Anti Selectivity"
+      - "Chelation Control"
+      - "Evans Auxiliary"
+
+  - id: 4
+    topic: "Enamines: Formation, Reactivity, and Synthetic Applications"
+    learning_objectives:
+      - "Explain enamine formation from secondary amines and carbonyls"
+      - "Describe enamine nucleophilicity and regioselectivity"
+      - "Apply enamines in alkylation reactions"
+      - "Execute enamine-mediated acylation (Stork synthesis)"
+      - "Predict E/Z selectivity in enamine geometry"
+      - "Apply enamines vs. enamines through iminium for nucleophilic vs. electrophilic activation"
+      - "Design syntheses incorporating enamine chemistry"
+    textbook_style_content:
+      - lesson: "Enamine Formation and Structure"
+        sections:
+          - section_heading: "Formation from Secondary Amine and Carbonyl"
+            section_type: "core_theory"
+          - section_heading: "Mechanism: Iminium Formation and Proton Abstraction"
+            section_type: "core_theory"
+          - section_heading: "Stereoelectronic Requirements: Cis-Trans Geometry"
+            section_type: "core_theory"
+          - section_heading: "E/Z Selectivity Based on Steric Hindrance"
+            section_type: "core_theory"
+      - lesson: "Enamine Nucleophilicity"
+        sections:
+          - section_heading: "Enamine as Neutral Nucleophile (Unlike Enolates)"
+            section_type: "core_theory"
+          - section_heading: "Regioselectivity: α- vs. γ-Carbon Nucleophilicity"
+            section_type: "core_theory"
+          - section_heading: "Conjugate Addition via Enamines"
+            section_type: "core_theory"
+      - lesson: "Stork Synthesis: Enamine Acylation"
+        sections:
+          - section_heading: "Alkylation of Enamines by Alkyl Halides"
+            section_type: "core_theory"
+          - section_heading: "Acylation of Enamines via Acid Chlorides"
+            section_type: "core_theory"
+          - section_heading: "Hydrolysis to Regenerate Ketone/Aldehyde"
+            section_type: "core_theory"
+      - lesson: "Enamine-Iminium Duality"
+        sections:
+          - section_heading: "Enamine as Nucleophile in Neutral/Basic Conditions"
+            section_type: "core_theory"
+          - section_heading: "Iminium as Electrophile in Acidic/Lewis Acidic Conditions"
+            section_type: "core_theory"
+          - section_heading: "Proline and Organocatalysis via Iminium Activation"
+            section_type: "related concepts"
+      - lesson: "Synthetic Applications"
+        sections:
+          - section_heading: "Multi-Component Enamine Reactions"
+            section_type: "core_theory"
+          - section_heading: "One-Pot Transformations: Formation, Reaction, Hydrolysis"
+            section_type: "core_theory"
+          - section_heading: "Reductive Amination via Enamine Intermediate"
+            section_type: "related concepts"
+    milestone: "Execute alkylation and acylation reactions via enamine intermediates"
+    duration_days: 6
+    tags:
+      - "Enamines"
+      - "Enamine Alkylation"
+      - "Stork Synthesis"
+      - "Iminium Activation"
+      - "Organocatalysis"
+
+  - id: 5
+    topic: "Silyl Enol Ethers: Formation, Regioselectivity, and Reactivity"
+    learning_objectives:
+      - "Explain silyl enol ether formation from enolates or carbonyls"
+      - "Predict regioselectivity in silylation of unsymmetrical carbonyls"
+      - "Describe stability and protecting group properties of silyl enol ethers"
+      - "Apply silyl enol ethers as protected enolate equivalents"
+      - "Execute electrophilic additions to silyl enol ethers"
+      - "Apply Mukaiyama aldol and related Lewis acid-catalyzed reactions"
+      - "Design syntheses incorporating silyl enol ether chemistry"
+    textbook_style_content:
+      - lesson: "Silyl Enol Ether Formation"
+        sections:
+          - section_heading: "Silylation of Enolates with Silyl Halides"
+            section_type: "core_theory"
+          - section_heading: "Regioselectivity in Silylation: Kinetic vs. Thermodynamic"
+            section_type: "core_theory"
+          - section_heading: "Direct Silylation from Carbonyl (Base-Catalyzed)"
+            section_type: "core_theory"
+          - section_heading: "TMS (Trimethylsilyl) vs. TES (Triethylsilyl) vs. TBDMS Protection"
+            section_type: "core_theory"
+      - lesson: "Silyl Enol Ether as Enolate Equivalent"
+        sections:
+          - section_heading: "Reactivation with Electrophiles in Presence of Lewis Acid"
+            section_type: "core_theory"
+          - section_heading: "Advantage: Neutral Intermediate, Stability, Ease of Manipulation"
+            section_type: "core_theory"
+          - section_heading: "Disadvantage: Requires Activation with Lewis Acid"
+            section_type: "related concepts"
+      - lesson: "Electrophilic Addition to Silyl Enol Ethers"
+        sections:
+          - section_heading: "Protonation by Acids (HX) and Formal Mechanism"
+            section_type: "core_theory"
+          - section_heading: "Halogenation via I₂ or Br₂"
+            section_type: "core_theory"
+          - section_heading: "Cyanation and Other Electrophilic Additions"
+            section_type: "related concepts"
+      - lesson: "Mukaiyama Aldol Reaction"
+        sections:
+          - section_heading: "Aldol Coupling of Silyl Enol Ether and Aldehyde"
+            section_type: "core_theory"
+          - section_heading: "Lewis Acid Catalysis (TiCl₄, BF₃, SnCl₄)"
+            section_type: "core_theory"
+          - section_heading: "Stereoselectivity and Chelation Control"
+            section_type: "core_theory"
+          - section_heading: "Advantages over Conventional Aldol"
+            section_type: "related concepts"
+      - lesson: "Silyl Enol Ether in Other Reactions"
+        sections:
+          - section_heading: "Michael Addition of Silyl Enol Ether to Enones"
+            section_type: "core_theory"
+          - section_heading: "Friedel-Crafts-Type Acylation"
+            section_type: "related concepts"
+          - section_heading: "Diels-Alder Reactions Involving Silyl Enol Ethers"
+            section_type: "related concepts"
+    milestone: "Execute Mukaiyama aldol and other silyl enol ether reactions with control"
+    duration_days: 7
+    tags:
+      - "Silyl Enol Ethers"
+      - "Regioselectivity"
+      - "Mukaiyama Aldol"
+      - "Lewis Acid Catalysis"
+      - "Enolate Protection"
+
+  - id: 6
+    topic: "Cram's Rule: Predicting Stereochemistry of Carbonyl Addition"
+    learning_objectives:
+      - "State Cram's rule and its mechanistic basis"
+      - "Apply Cram's rule to α-chiral aldehydes and ketones"
+      - "Predict stereochemical outcome of nucleophilic addition to chiral carbonyls"
+      - "Understand steric approach control and Newman projection analysis"
+      - "Execute Cram's rule predictions for various nucleophiles"
+      - "Identify cases where Cram's rule applies successfully"
+      - "Discuss limitations and exceptions to Cram's rule"
+    textbook_style_content:
+      - lesson: "Cram's Rule Fundamentals"
+        sections:
+          - section_heading: "Definition and Empirical Basis of Cram's Rule"
+            section_type: "overview"
+          - section_heading: "Steric Approach Control: Approach from Less Hindered Face"
+            section_type: "core_theory"
+          - section_heading: "Newman Projection Analysis for Carbonyl Stereochemistry"
+            section_type: "core_theory"
+      - lesson: "Application to α-Chiral Aldehydes"
+        sections:
+          - section_heading: "Three Groups at α-Carbon: Assigning L (Large), M (Medium), S (Small)"
+            section_type: "core_theory"
+          - section_heading: "Orienting Aldehyde for Minimum Steric Clash"
+            section_type: "core_theory"
+          - section_heading: "Predicting Major Diastereomer from Re vs. Si Face Attack"
+            section_type: "core_theory"
+      - lesson: "Grignard and Hydride Addition Stereochemistry"
+        sections:
+          - section_heading: "Cram Selectivity in RMgX Addition to Chiral Aldehydes"
+            section_type: "core_theory"
+          - section_heading: "Reducing Agent Addition (LiAlH₄, NaBH₄) and Cram Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Predicting Alcohol Stereochemistry"
+            section_type: "core_theory"
+      - lesson: "Cram's Rule vs. Chelation Control"
+        sections:
+          - section_heading: "When Cram's Rule Dominates: Simple Aldehydes"
+            section_type: "core_theory"
+          - section_heading: "When Chelation Control Dominates: α-Hydroxy/Alkoxy Aldehydes"
+            section_type: "core_theory"
+          - section_heading: "Predicting Outcome Based on Substrate Structure"
+            section_type: "core_theory"
+      - lesson: "Limitations and Exceptions"
+        sections:
+          - section_heading: "Failure Cases: Geometric Constraints and Special Substrates"
+            section_type: "related concepts"
+          - section_heading: "Stereoelectronic Effects Beyond Pure Steric Arguments"
+            section_type: "related concepts"
+    milestone: "Accurately predict stereochemistry of nucleophilic carbonyl addition via Cram's rule"
+    duration_days: 6
+    tags:
+      - "Cram's Rule"
+      - "Stereoselectivity"
+      - "Steric Approach Control"
+      - "Newman Projection"
+      - "Carbonyl Addition"
+
+  - id: 7
+    topic: "Prelog's Rule and Felkin-Anh Model: Advanced Stereochemical Prediction"
+    learning_objectives:
+      - "Explain Prelog's rule as an extension of Cram's rule"
+      - "Apply Prelog's rule to amino acids and derivatives"
+      - "Understand the Felkin-Anh model and its basis"
+      - "Incorporate electronic effects of substituents (C-X bonds) into predictions"
+      - "Compare Cram, Prelog, and Felkin-Anh predictions"
+      - "Execute stereochemistry predictions for complex substrates"
+      - "Predict outcome of reactions with matched and mismatched substrate-reagent combinations"
+    textbook_style_content:
+      - lesson: "Prelog's Rule"
+        sections:
+          - section_heading: "Extension of Cram's Rule for Amino Acids and Amides"
+            section_type: "overview"
+          - section_heading: "Priority Assignment: C-C > C-N > C-O > C-H"
+            section_type: "core_theory"
+          - section_heading: "Application to Amino Acid Aldehydes"
+            section_type: "core_theory"
+          - section_heading: "Reduction Stereochemistry of Amino Acid-Derived Carbonyls"
+            section_type: "core_theory"
+      - lesson: "Felkin-Anh Model"
+        sections:
+          - section_heading: "Incorporation of Electronegative Groups (O, N, X) Effects"
+            section_type: "core_theory"
+          - section_heading: "Allylic 1,2-Strain and Importance of Bond Dipoles"
+            section_type: "core_theory"
+          - section_heading: "Preferred Conformations Considering C-X Electronegativity"
+            section_type: "core_theory"
+          - section_heading: "Predictive Power for β-Heteroatom-Substituted Carbonyls"
+            section_type: "core_theory"
+      - lesson: "Comparison: Cram, Prelog, and Felkin-Anh"
+        sections:
+          - section_heading: "When Each Model Applies Best"
+            section_type: "core_theory"
+          - section_heading: "Hierarchies of Factors: Steric vs. Electronic"
+            section_type: "core_theory"
+          - section_heading: "Case Studies: Predictions and Experimental Outcomes"
+            section_type: "core_theory"
+      - lesson: "Stereoelectronic Effects"
+        sections:
+          - section_heading: "C-H vs. C-X Bond Antiperiplanar Interactions"
+            section_type: "core_theory"
+          - section_heading: "Gauche Interactions and Newman Projection Preference"
+            section_type: "related concepts"
+      - lesson: "Matched and Mismatched Combinations"
+        sections:
+          - section_heading: "Substrate Stereochemistry vs. Reagent Control"
+            section_type: "core_theory"
+          - section_heading: "Predicting Outcome When Controls Reinforce or Oppose"
+            section_type: "related concepts"
+    milestone: "Apply Felkin-Anh model and Prelog's rule to predict complex stereochemistry"
+    duration_days: 7
+    tags:
+      - "Felkin-Anh Model"
+      - "Prelog's Rule"
+      - "Stereoelectronic Effects"
+      - "Amino Acid Reduction"
+      - "Steric vs. Electronic"
+
+  - id: 8
+    topic: "Aldol Reactions: Mechanism, Selectivity, and Synthetic Variations"
+    learning_objectives:
+      - "Describe aldol mechanism: enolate formation, aldehyde addition, product formation"
+      - "Predict syn vs. anti diastereomer via Zimmerman-Traxler transition state model"
+      - "Execute directed aldol reactions with controlled regioselectivity"
+      - "Apply crossed aldol with stoichiometric control"
+      - "Execute cross-aldol between different carbonyl partners"
+      - "Apply aldol variations (Mukaiyama, boron-mediated) for enhanced selectivity"
+      - "Design aldol-based syntheses of complex targets"
+    textbook_style_content:
+      - lesson: "Aldol Reaction Mechanism"
+        sections:
+          - section_heading: "General Mechanism: Enolate Formation, Aldehyde Attack, Dehydration"
+            section_type: "core_theory"
+          - section_heading: "Reversibility and Equilibration"
+            section_type: "core_theory"
+          - section_heading: "Base-Catalyzed vs. Acid-Catalyzed Aldol"
+            section_type: "core_theory"
+      - lesson: "Stereoselectivity via Zimmerman-Traxler Model"
+        sections:
+          - section_heading: "Six-Membered Transition State with Enolate and Aldehyde"
+            section_type: "core_theory"
+          - section_heading: "Chair-Like Geometry and Pseudo-Axial/Equatorial Positions"
+            section_type: "core_theory"
+          - section_heading: "Predicting syn (1,2-anti) vs. anti (1,2-syn) from Enolate Geometry"
+            section_type: "core_theory"
+          - section_heading: "Z-Enolates → Syn Aldol; E-Enolates → Anti Aldol"
+            section_type: "core_theory"
+      - lesson: "Directed Aldol Reactions"
+        sections:
+          - section_heading: "Regioselective Enolate Formation via LDA"
+            section_type: "core_theory"
+          - section_heading: "Aldol with Preformed Enolates"
+            section_type: "core_theory"
+      - lesson: "Crossed Aldol Reactions"
+        sections:
+          - section_heading: "Intermolecular Aldol Between Different Carbonyls"
+            section_type: "core_theory"
+          - section_heading: "Self-Condensation Prevention via Non-Enolizable Aldehydes"
+            section_type: "core_theory"
+          - section_heading: "Stoichiometric Control: Using Excess Aldehyde Partner"
+            section_type: "core_theory"
+      - lesson: "Aldol Variations"
+        sections:
+          - section_heading: "Mukaiyama Aldol with Silyl Enol Ethers"
+            section_type: "core_theory"
+          - section_heading: "Boron-Mediated Aldol with Enhanced Selectivity"
+            section_type: "core_theory"
+          - section_heading: "Catalytic Asymmetric Aldol (Organocatalysis, Auxiliaries)"
+            section_type: "related concepts"
+      - lesson: "Synthetic Applications"
+        sections:
+          - section_heading: "Robinson Annulation: Aldol followed by Michael"
+            section_type: "core_theory"
+          - section_heading: "Aldol Followed by Elimination to Form Enones"
+            section_type: "related concepts"
+          - section_heading: "Multi-Aldol Sequences in Polyene Synthesis"
+            section_type: "related concepts"
+    milestone: "Execute selective aldol reactions with controlled stereochemistry and regioselectivity"
+    duration_days: 8
+    tags:
+      - "Aldol Reaction"
+      - "Zimmerman-Traxler"
+      - "Syn/Anti Selectivity"
+      - "Crossed Aldol"
+      - "Robinson Annulation"
+
+  - id: 9
+    topic: "Integration: Enolates, Enamines, Silyl Enol Ethers, and Stereoselectivity"
+    learning_objectives:
+      - "Design multi-step syntheses combining enolate, enamine, and silyl enol ether chemistry"
+      - "Select appropriate nucleophilic species (enolate, enamine, silyl enol ether) for target reaction"
+      - "Integrate stereoselectivity models (Cram, Prelog, Felkin-Anh) into synthesis planning"
+      - "Execute transformations with predictable regio- and stereochemical outcomes"
+      - "Apply Aldol-based strategies in complex synthesis"
+      - "Execute tandem and cascade reactions utilizing multiple enolate-type intermediates"
+      - "Solve comprehensive synthesis problems leveraging all covered concepts"
+    textbook_style_content:
+      - lesson: "Selecting Nucleophilic Species for Synthetic Goals"
+        sections:
+          - section_heading: "Enolate: Strong Nucleophile, Controlled Regioselectivity, Anionic"
+            section_type: "core_theory"
+          - section_heading: "Enamine: Neutral Nucleophile, Mild Conditions, Organocatalytic Potential"
+            section_type: "core_theory"
+          - section_heading: "Silyl Enol Ether: Protected Enolate, Requires Lewis Acid Activation"
+            section_type: "core_theory"
+          - section_heading: "Decision Matrix: Substrate, Electrophile, Desired Selectivity"
+            section_type: "core_theory"
+      - lesson: "Multi-Step Synthesis Design"
+        sections:
+          - section_heading: "Case Study 1: Robinson Annulation via Enolate Formation and Michael"
+            section_type: "core_theory"
+          - section_heading: "Case Study 2: Stork Synthesis Integration with Subsequent Transformations"
+            section_type: "core_theory"
+          - section_heading: "Case Study 3: Mukaiyama Aldol Followed by Selective Reduction"
+            section_type: "core_theory"
+          - section_heading: "Case Study 4: Multi-Aldol Sequence with Stereochemical Control"
+            section_type: "core_theory"
+      - lesson: "Stereoselectivity Integration"
+        sections:
+          - section_heading: "Aldol Stereoselectivity via Enolate Geometry Selection"
+            section_type: "core_theory"
+          - section_heading: "Carbonyl Addition Stereoselectivity via Cram/Felkin-Anh Predictions"
+            section_type: "core_theory"
+          - section_heading: "Matching Substrate and Reagent Stereochemistry for Amplified Control"
+            section_type: "core_theory"
+      - lesson: "Cascade and Tandem Reactions"
+        sections:
+          - section_heading: "Aldol-Followed by In Situ Michael Addition"
+            section_type: "core_theory"
+          - section_heading: "Enamine Formation-Alkylation-Hydrolysis in Single Pot"
+            section_type: "core_theory"
+          - section_heading: "Sequential Enolization-Aldol-Dehydration-Michael"
+            section_type: "related concepts"
+      - lesson: "Comprehensive Problem-Solving"
+        sections:
+          - section_heading: "Target Analysis and Disconnection Strategy"
+            section_type: "core_theory"
+          - section_heading: "Route Design Selecting Appropriate Enolate-Type Intermediates"
+            section_type: "core_theory"
+          - section_heading: "Predicting and Controlling Stereochemistry Throughout Sequence"
+            section_type: "core_theory"
+          - section_heading: "Preparing Complete Synthesis Schemes with Mechanisms"
+            section_type: "related concepts"
+    milestone: "Design and execute complex syntheses integrating enolate chemistry with stereoselectivity control"
+    duration_days: 10
+    tags:
+      - "Enolate Integration"
+      - "Multi-Step Synthesis"
+      - "Stereoselectivity Control"
+      - "Cascade Reactions"
+      - "Aldol-Based Synthesis"

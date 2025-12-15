@@ -1,0 +1,194 @@
+metadata:
+  subject: Organic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Experimental Techniques in Organic Chemistry- Optical rotation (polarimetry). Applications of various chromatographic techniques such as thin-layer, column, HPLC and GC. Applications of UV-visible, IR, NMR and Mass spectrometry in the structural determination of organic molecules.
+
+concepts:
+  core:
+    - name: Optical rotation (polarimetry)
+      clarifier: Measurement of enantiomeric composition and optical purity using plane-polarized light
+    - name: Thin-layer chromatography (TLC)
+      clarifier: Qualitative analysis and monitoring of organic reactions using stationary and mobile phases
+    - name: Column chromatography
+      clarifier: Separation and purification of organic compounds based on differential adsorption
+    - name: High-performance liquid chromatography (HPLC)
+      clarifier: Quantitative analysis and separation of complex mixtures under high pressure
+    - name: Gas chromatography (GC)
+      clarifier: Separation and analysis of volatile organic compounds using gas mobile phase
+    - name: UV-visible spectroscopy
+      clarifier: Structural analysis based on electronic transitions and conjugation patterns
+    - name: Infrared spectroscopy
+      clarifier: Functional group identification through molecular vibration analysis
+    - name: Nuclear magnetic resonance spectroscopy
+      clarifier: Structural elucidation using proton and carbon chemical environments
+    - name: Mass spectrometry
+      clarifier: Molecular weight determination and structural analysis through ion fragmentation
+
+  related:
+    - name: Chirality and stereochemistry
+      clarifier: Fundamental concepts underlying optical activity and enantiomeric relationships
+    - name: Chromatographic principles
+      clarifier: Retention factor, resolution, plate theory, and van Deemter equation
+    - name: Detection systems
+      clarifier: UV, refractive index, flame ionization, and mass spectrometric detectors
+    - name: Beer-Lambert law
+      clarifier: Quantitative relationship between absorbance and concentration
+    - name: Vibrational modes
+      clarifier: Stretching, bending, and fingerprint region analysis
+    - name: Chemical shift and coupling
+      clarifier: Shielding effects, spin-spin splitting, and integration ratios
+    - name: Ionization techniques
+      clarifier: Electron impact, chemical ionization, electrospray, and MALDI
+    - name: Structural elucidation strategies
+      clarifier: Integrated approach using combined spectroscopic data
+
+learning_path:
+  - id: 1
+    topic: Polarimetry and Optical Rotation
+    learning_objectives:
+      - Understand the principles of plane-polarized light and optical activity
+      - Calculate specific rotation and enantiomeric excess
+      - Interpret polarimetric data for stereochemical analysis
+    textbook_style_content:
+      - lesson: Fundamentals of Optical Activity
+        sections:
+          - section_heading: Molecular Basis of Optical Rotation
+            section_type: core_theory
+          - section_heading: Polarimeter Instrumentation
+            section_type: overview
+          - section_heading: Specific Rotation Calculations
+            section_type: core_theory
+          - section_heading: Applications in Stereochemistry
+            section_type: related concepts
+    milestone: Master polarimetric analysis and stereochemical calculations
+    duration_days: 4
+    tags:
+      - polarimetry
+      - stereochemistry
+      - chiral analysis
+
+  - id: 2
+    topic: Classical Chromatographic Techniques
+    learning_objectives:
+      - Perform and interpret thin-layer chromatography for reaction monitoring
+      - Design column chromatography protocols for purification
+      - Calculate Rf values and understand adsorption mechanisms
+    textbook_style_content:
+      - lesson: Thin-Layer Chromatography
+        sections:
+          - section_heading: Principles and Stationary Phases
+            section_type: core_theory
+          - section_heading: Mobile Phase Selection
+            section_type: related concepts
+          - section_heading: Visualization Techniques
+            section_type: overview
+      - lesson: Column Chromatography
+        sections:
+          - section_heading: Adsorption and Separation Principles
+            section_type: core_theory
+          - section_heading: Gradient Elution Methods
+            section_type: related concepts
+          - section_heading: Practical Setup and Troubleshooting
+            section_type: overview
+    milestone: Execute classical chromatographic separations and interpret results
+    duration_days: 6
+    tags:
+      - TLC
+      - column chromatography
+      - purification
+
+  - id: 3
+    topic: Instrumental Chromatography
+    learning_objectives:
+      - Understand HPLC instrumentation and reverse-phase mechanisms
+      - Interpret GC chromatograms and retention times
+      - Compare quantitative detection methods for both techniques
+    textbook_style_content:
+      - lesson: High-Performance Liquid Chromatography
+        sections:
+          - section_heading: Instrumentation and Pump Systems
+            section_type: overview
+          - section_heading: Reverse-Phase and Normal-Phase Mechanisms
+            section_type: core_theory
+          - section_heading: Detectors and Quantitative Analysis
+            section_type: related concepts
+      - lesson: Gas Chromatography
+        sections:
+          - section_heading: Instrument Components and Carrier Gases
+            section_type: overview
+          - section_heading: Temperature Programming and Separation
+            section_type: core_theory
+          - section_heading: Mass Spectrometric Detection (GC-MS)
+            section_type: related concepts
+    milestone: Apply instrumental chromatography for complex mixture analysis
+    duration_days: 7
+    tags:
+      - HPLC
+      - GC
+      - instrumental analysis
+
+  - id: 4
+    topic: UV-Visible and Infrared Spectroscopy
+    learning_objectives:
+      - Predict UV-Vis absorption based on conjugation and chromophores
+      - Interpret IR spectra for functional group identification
+      - Apply Beer-Lambert law for quantitative analysis
+    textbook_style_content:
+      - lesson: UV-Visible Spectroscopy
+        sections:
+          - section_heading: Electronic Transitions and Chromophores
+            section_type: core_theory
+          - section_heading: Beer-Lambert Law and Quantitative Applications
+            section_type: core_theory
+          - section_heading: Woodward-Fieser Rules
+            section_type: related concepts
+      - lesson: Infrared Spectroscopy
+        sections:
+          - section_heading: Molecular Vibrations and Selection Rules
+            section_type: core_theory
+          - section_heading: Functional Group Region Analysis
+            section_type: core_theory
+          - section_heading: Fingerprint Region and Interpretation Strategies
+            section_type: related concepts
+    milestone: Determine organic structures using UV-Vis and IR spectroscopy
+    duration_days: 8
+    tags:
+      - UV-Vis
+      - IR spectroscopy
+      - functional groups
+
+  - id: 5
+    topic: NMR and Mass Spectrometry
+    learning_objectives:
+      - Interpret ¹H and ¹³C NMR spectra including chemical shift and coupling
+      - Determine molecular structure from mass spectrometric fragmentation
+      - Integrate multi-technique data for complete structural elucidation
+    textbook_style_content:
+      - lesson: Nuclear Magnetic Resonance Spectroscopy
+        sections:
+          - section_heading: Nuclear Spin and Resonance Phenomenon
+            section_type: core_theory
+          - section_heading: Chemical Shift and Shielding
+            section_type: core_theory
+          - section_heading: Spin-Spin Coupling and Multiplicity
+            section_type: core_theory
+          - section_heading: ¹³C NMR and DEPT Techniques
+            section_type: related concepts
+      - lesson: Mass Spectrometry
+        sections:
+          - section_heading: Ionization Methods and Molecular Ions
+            section_type: core_theory
+          - section_heading: Fragmentation Patterns and Mechanisms
+            section_type: core_theory
+          - section_heading: High-Resolution MS and Isotope Patterns
+            section_type: related concepts
+      - lesson: Integrated Structural Elucidation
+        sections:
+          - section_heading: Correlating Data from Multiple Techniques
+            section_type: related concepts
+    milestone: Solve complex structural problems using NMR and MS
+    duration_days: 10
+    tags:
+      - NMR
+      - mass spectrometry
+      - structural elucidation

@@ -1,0 +1,465 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Chemical periodicity
+
+concepts:
+  core:
+    - name: Periodic Table Structure
+      clarifier: Organization of elements based on atomic number, periods, groups, and blocks (s, p, d, f)
+    - name: Effective Nuclear Charge
+      clarifier: Net positive charge experienced by valence electrons after accounting for shielding
+    - name: Atomic Radius
+      clarifier: Periodic trends in atomic and ionic radii across periods and down groups
+    - name: Ionization Energy
+      clarifier: Energy required to remove electrons; successive ionization energies and periodic trends
+    - name: Electron Affinity
+      clarifier: Energy change when an electron is added to a neutral atom
+    - name: Electronegativity
+      clarifier: Tendency of an atom to attract shared electrons in a chemical bond
+  related:
+    - name: Shielding Effect
+      clarifier: Reduction of effective nuclear charge due to inner electron repulsion
+    - name: Slater's Rules
+      clarifier: Method to calculate effective nuclear charge quantitatively
+    - name: Lanthanide Contraction
+      clarifier: Decrease in atomic radii of lanthanides with increasing atomic number
+    - name: Actinide Contraction
+      clarifier: Similar contraction observed in actinide series
+    - name: Diagonal Relationships
+      clarifier: Similarity between elements diagonally placed in periodic table (Li-Mg, Be-Al, B-Si)
+    - name: Inert Pair Effect
+      clarifier: Reluctance of ns² electrons to participate in bonding in heavier p-block elements
+    - name: Anomalous Properties
+      clarifier: Unusual behavior of first elements in each group compared to congeners
+    - name: Metallic and Non-metallic Character
+      clarifier: Periodic trends in metallic character across periods and groups
+    - name: Oxidation States
+      clarifier: Variable oxidation states and their periodic trends
+    - name: Penetration Effect
+      clarifier: Ability of electrons in different orbitals to approach the nucleus
+
+learning_path:
+  - id: 1
+    title: Foundations of Periodic Classification
+    learning_objectives:
+      - Understand the historical development and modern basis of periodic classification
+      - Explain the organization of elements by atomic number and electronic configuration
+      - Identify and classify elements into blocks, periods, and groups
+      - Recognize the significance of periodicity in chemical properties
+    textbook_style_content:
+      - topic: Historical Development and Modern Periodic Law
+        sections:
+          - section_title: Early Classification Attempts
+            section_type: overview
+          - section_title: Mendeleev's Periodic Table and Predictions
+            section_type: core_theory
+          - section_title: Modern Periodic Law and Atomic Number
+            section_type: core_theory
+          - section_title: Quantum Mechanical Basis of Periodicity
+            section_type: core_theory
+      - topic: Structure and Organization of the Periodic Table
+        sections:
+          - section_title: Periods, Groups, and Block Classification
+            section_type: core_theory
+          - section_title: Electronic Configuration and Position
+            section_type: core_theory
+          - section_title: Representative Elements, Transition Metals, and Inner Transition Elements
+            section_type: overview
+    milestone: Master the fundamental organization and theoretical basis of the periodic table
+    duration_days: 3
+    tags:
+      - periodic table
+      - classification
+      - electronic configuration
+      - blocks and groups
+
+  - id: 2
+    title: Effective Nuclear Charge and Shielding
+    learning_objectives:
+      - Calculate effective nuclear charge using Slater's rules
+      - Understand the concept of shielding and penetration effects
+      - Explain how electron-electron repulsion affects atomic properties
+      - Predict trends in effective nuclear charge across periods and groups
+    textbook_style_content:
+      - topic: Nuclear Charge and Electron Shielding
+        sections:
+          - section_title: Concept of Effective Nuclear Charge
+            section_type: core_theory
+          - section_title: Shielding Effect and Screening Constant
+            section_type: core_theory
+          - section_title: Slater's Rules for Calculating Z-effective
+            section_type: core_theory
+      - topic: Penetration and Shielding Order
+        sections:
+          - section_title: Orbital Penetration to the Nucleus
+            section_type: related_concepts
+          - section_title: Shielding Order of Different Orbitals
+            section_type: core_theory
+          - section_title: Variation of Zeff Across Periods and Groups
+            section_type: core_theory
+    milestone: Calculate and predict effective nuclear charge trends quantitatively
+    duration_days: 4
+    tags:
+      - effective nuclear charge
+      - shielding
+      - Slater's rules
+      - penetration effect
+
+  - id: 3
+    title: Atomic and Ionic Radii Trends
+    learning_objectives:
+      - Define and differentiate between atomic, covalent, ionic, and van der Waals radii
+      - Explain periodic trends in atomic radii across periods and down groups
+      - Understand cation and anion size variations
+      - Analyze the lanthanide and actinide contractions and their consequences
+    textbook_style_content:
+      - topic: Types of Atomic Radii
+        sections:
+          - section_title: Definitions and Measurement Methods
+            section_type: overview
+          - section_title: Covalent, Metallic, and Ionic Radii
+            section_type: core_theory
+          - section_title: Van der Waals Radius
+            section_type: core_theory
+      - topic: Periodic Trends in Atomic Size
+        sections:
+          - section_title: Variation Across Periods
+            section_type: core_theory
+          - section_title: Variation Down Groups
+            section_type: core_theory
+          - section_title: Factors Affecting Atomic Radius
+            section_type: core_theory
+      - topic: Ionic Radii and Special Contractions
+        sections:
+          - section_title: Cation and Anion Size Comparison
+            section_type: core_theory
+          - section_title: Lanthanide Contraction
+            section_type: related_concepts
+          - section_title: Actinide Contraction
+            section_type: related_concepts
+          - section_title: Consequences of f-Block Contractions
+            section_type: core_theory
+    milestone: Predict and explain size trends including special contraction phenomena
+    duration_days: 5
+    tags:
+      - atomic radius
+      - ionic radius
+      - lanthanide contraction
+      - actinide contraction
+      - size trends
+
+  - id: 4
+    title: Ionization Energy and Electron Affinity
+    learning_objectives:
+      - Define ionization energy and explain successive ionization energies
+      - Analyze periodic trends in first and higher ionization energies
+      - Understand electron affinity and its periodic variation
+      - Identify exceptions and anomalies in IE and EA trends
+    textbook_style_content:
+      - topic: Ionization Energy Fundamentals
+        sections:
+          - section_title: Definition and Significance
+            section_type: core_theory
+          - section_title: First, Second, and Successive Ionization Energies
+            section_type: core_theory
+          - section_title: Factors Affecting Ionization Energy
+            section_type: core_theory
+      - topic: Periodic Trends in Ionization Energy
+        sections:
+          - section_title: Variation Across Periods
+            section_type: core_theory
+          - section_title: Variation Down Groups
+            section_type: core_theory
+          - section_title: Anomalies in Group 13 and Group 16
+            section_type: core_theory
+          - section_title: Half-Filled and Fully-Filled Stability
+            section_type: related_concepts
+      - topic: Electron Affinity
+        sections:
+          - section_title: Definition and Measurement
+            section_type: core_theory
+          - section_title: Periodic Trends in Electron Affinity
+            section_type: core_theory
+          - section_title: Exceptions and Anomalous Values
+            section_type: core_theory
+          - section_title: Second Electron Affinity
+            section_type: related_concepts
+    milestone: Master ionization energy and electron affinity trends with explanations for anomalies
+    duration_days: 5
+    tags:
+      - ionization energy
+      - electron affinity
+      - successive ionization
+      - periodic trends
+      - stability factors
+
+  - id: 5
+    title: Electronegativity and Chemical Bonding Trends
+    learning_objectives:
+      - Define electronegativity using different scales
+      - Compare Pauling, Mulliken, and Allred-Rochow electronegativity scales
+      - Explain periodic trends in electronegativity
+      - Relate electronegativity to bond character and polarity
+    textbook_style_content:
+      - topic: Electronegativity Scales
+        sections:
+          - section_title: Concept and Definition
+            section_type: core_theory
+          - section_title: Pauling Scale
+            section_type: core_theory
+          - section_title: Mulliken Scale
+            section_type: related_concepts
+          - section_title: Allred-Rochow Scale
+            section_type: related_concepts
+          - section_title: Comparison of Different Scales
+            section_type: overview
+      - topic: Periodic Trends in Electronegativity
+        sections:
+          - section_title: Variation Across Periods
+            section_type: core_theory
+          - section_title: Variation Down Groups
+            section_type: core_theory
+          - section_title: Factors Influencing Electronegativity
+            section_type: core_theory
+      - topic: Applications in Chemical Bonding
+        sections:
+          - section_title: Electronegativity Difference and Bond Character
+            section_type: related_concepts
+          - section_title: Bond Polarity and Dipole Moment
+            section_type: related_concepts
+          - section_title: Prediction of Reaction Mechanisms
+            section_type: overview
+    milestone: Apply electronegativity concepts to predict bonding and reactivity patterns
+    duration_days: 4
+    tags:
+      - electronegativity
+      - Pauling scale
+      - Mulliken scale
+      - bond polarity
+      - chemical bonding
+
+  - id: 6
+    title: Metallic and Non-metallic Character
+    learning_objectives:
+      - Distinguish between metallic and non-metallic properties
+      - Explain periodic trends in metallic character
+      - Understand amphoteric behavior and metalloids
+      - Predict reactivity patterns based on metallic/non-metallic nature
+    textbook_style_content:
+      - topic: Properties of Metals and Non-metals
+        sections:
+          - section_title: Physical and Chemical Properties
+            section_type: overview
+          - section_title: Criteria for Metallic Character
+            section_type: core_theory
+          - section_title: Metalloids and Their Properties
+            section_type: core_theory
+      - topic: Periodic Trends in Metallic Character
+        sections:
+          - section_title: Variation Across Periods
+            section_type: core_theory
+          - section_title: Variation Down Groups
+            section_type: core_theory
+          - section_title: Diagonal Line Separating Metals and Non-metals
+            section_type: overview
+      - topic: Amphoteric Behavior
+        sections:
+          - section_title: Elements and Compounds Showing Amphoterism
+            section_type: related_concepts
+          - section_title: Oxide and Hydroxide Behavior
+            section_type: core_theory
+          - section_title: Periodic Position and Amphoteric Nature
+            section_type: core_theory
+    milestone: Predict metallic/non-metallic behavior and amphoteric properties systematically
+    duration_days: 3
+    tags:
+      - metallic character
+      - non-metallic character
+      - metalloids
+      - amphoteric behavior
+      - reactivity trends
+
+  - id: 7
+    title: Diagonal Relationships in the Periodic Table
+    learning_objectives:
+      - Identify pairs of elements showing diagonal relationships
+      - Explain the basis for diagonal similarities
+      - Compare properties of diagonally related elements
+      - Understand the limitations of diagonal relationships
+    textbook_style_content:
+      - topic: Concept of Diagonal Relationship
+        sections:
+          - section_title: Definition and Occurrence
+            section_type: overview
+          - section_title: Basis for Diagonal Similarity
+            section_type: core_theory
+          - section_title: Role of Charge-to-Radius Ratio
+            section_type: core_theory
+      - topic: Specific Diagonal Pairs
+        sections:
+          - section_title: Lithium and Magnesium
+            section_type: related_concepts
+          - section_title: Beryllium and Aluminum
+            section_type: related_concepts
+          - section_title: Boron and Silicon
+            section_type: related_concepts
+      - topic: Comparative Properties
+        sections:
+          - section_title: Physical Properties Comparison
+            section_type: core_theory
+          - section_title: Chemical Properties and Reactivity
+            section_type: core_theory
+          - section_title: Compound Formation and Behavior
+            section_type: core_theory
+    milestone: Recognize and explain diagonal relationship patterns with specific examples
+    duration_days: 3
+    tags:
+      - diagonal relationship
+      - Li-Mg similarity
+      - Be-Al similarity
+      - B-Si similarity
+      - periodic anomalies
+
+  - id: 8
+    title: Anomalous Properties of First Elements
+    learning_objectives:
+      - Identify the unusual behavior of first elements in each group
+      - Explain the reasons for anomalous properties
+      - Compare first elements with their heavier congeners
+      - Apply understanding to predict reactivity and compound formation
+    textbook_style_content:
+      - topic: General Features of First Element Anomaly
+        sections:
+          - section_title: Definition and Scope
+            section_type: overview
+          - section_title: Factors Causing Anomalous Behavior
+            section_type: core_theory
+          - section_title: Small Size and High Electronegativity
+            section_type: core_theory
+          - section_title: Absence of d-Orbitals
+            section_type: core_theory
+      - topic: Group-wise Anomalies
+        sections:
+          - section_title: Lithium in Group 1
+            section_type: related_concepts
+          - section_title: Beryllium in Group 2
+            section_type: related_concepts
+          - section_title: Boron in Group 13
+            section_type: related_concepts
+          - section_title: Carbon in Group 14
+            section_type: related_concepts
+          - section_title: Nitrogen in Group 15
+            section_type: related_concepts
+          - section_title: Oxygen in Group 16
+            section_type: related_concepts
+          - section_title: Fluorine in Group 17
+            section_type: related_concepts
+      - topic: Consequences of Anomalous Properties
+        sections:
+          - section_title: Coordination Number Limitations
+            section_type: core_theory
+          - section_title: Bonding Characteristics
+            section_type: core_theory
+          - section_title: Compound Stability Patterns
+            section_type: core_theory
+    milestone: Systematically explain anomalous behavior of first elements across all groups
+    duration_days: 5
+    tags:
+      - anomalous properties
+      - first element
+      - size effects
+      - coordination chemistry
+      - group trends
+
+  - id: 9
+    title: Inert Pair Effect and Variable Oxidation States
+    learning_objectives:
+      - Define and explain the inert pair effect
+      - Identify elements exhibiting inert pair effect
+      - Understand the stability of lower oxidation states in heavy elements
+      - Predict oxidation state preferences in p-block chemistry
+    textbook_style_content:
+      - topic: Inert Pair Effect
+        sections:
+          - section_title: Definition and Concept
+            section_type: core_theory
+          - section_title: Origin of Inert Pair Effect
+            section_type: core_theory
+          - section_title: Relativistic Effects in Heavy Elements
+            section_type: related_concepts
+      - topic: Manifestation Across Groups
+        sections:
+          - section_title: Group 13 Elements (Tl+ vs Tl³+)
+            section_type: related_concepts
+          - section_title: Group 14 Elements (Pb²+ vs Pb⁴+)
+            section_type: related_concepts
+          - section_title: Group 15 Elements (Bi³+ vs Bi⁵+)
+            section_type: related_concepts
+      - topic: Oxidation State Trends
+        sections:
+          - section_title: Variable Oxidation States in p-Block
+            section_type: core_theory
+          - section_title: Stability of Different Oxidation States
+            section_type: core_theory
+          - section_title: Oxidation State Diagrams
+            section_type: overview
+          - section_title: Periodic Trends in Oxidation States
+            section_type: core_theory
+    milestone: Apply inert pair effect concepts to predict oxidation state stability
+    duration_days: 4
+    tags:
+      - inert pair effect
+      - oxidation states
+      - p-block elements
+      - stability
+      - relativistic effects
+
+  - id: 10
+    title: Comprehensive Periodic Trends Integration
+    learning_objectives:
+      - Integrate all periodic trends into a cohesive framework
+      - Solve complex problems involving multiple periodic properties
+      - Predict and rationalize chemical behavior using periodicity
+      - Apply periodic trends to exam-level problems
+    textbook_style_content:
+      - topic: Interrelationship of Periodic Properties
+        sections:
+          - section_title: How Properties Influence Each Other
+            section_type: overview
+          - section_title: Zeff as the Unifying Concept
+            section_type: core_theory
+          - section_title: Electronic Configuration and All Properties
+            section_type: core_theory
+      - topic: Problem-Solving Strategies
+        sections:
+          - section_title: Comparing Multiple Elements
+            section_type: overview
+          - section_title: Predicting Reactivity Patterns
+            section_type: core_theory
+          - section_title: Rationalizing Experimental Observations
+            section_type: core_theory
+      - topic: Advanced Applications
+        sections:
+          - section_title: Periodic Trends in Coordination Chemistry
+            section_type: related_concepts
+          - section_title: Trends in Acid-Base Behavior
+            section_type: related_concepts
+          - section_title: Redox Potential Trends
+            section_type: related_concepts
+      - topic: CSIR-Level Problem Analysis
+        sections:
+          - section_title: Multi-concept Questions
+            section_type: overview
+          - section_title: Data Interpretation Using Trends
+            section_type: core_theory
+          - section_title: Comparative Analysis Questions
+            section_type: core_theory
+    milestone: Master integrated application of all periodic trends for competitive exam success
+    duration_days: 6
+    tags:
+      - integrated trends
+      - problem solving
+      - CSIR preparation
+      - competitive exam
+      - applications

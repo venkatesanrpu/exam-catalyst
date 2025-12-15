@@ -1,0 +1,747 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Instrumental Methods of Analysis - UV-visible, fluorescence and FTIR spectrophotometry, NMR and ESR spectroscopy, mass spectrometry, atomic absorption spectroscopy, Mössbauer spectroscopy (Fe and Sn) and X-ray crystallography. Chromatography including GC and HPLC. Electroanalytical methods- polarography, cyclic voltammetry, ion-selective electrodes. Thermoanalytical methods.
+
+concepts:
+  core:
+    - name: Spectroscopic Techniques
+      clarifier: Absorption and emission spectroscopy methods for structural characterization and quantitative analysis
+    - name: Chromatographic Separation Methods
+      clarifier: Techniques for separation, identification, and quantification of chemical components
+    - name: Electroanalytical Methods
+      clarifier: Analysis based on electron transfer reactions and electrochemical potential measurements
+    - name: Thermal Analysis Methods
+      clarifier: Techniques measuring physical and chemical changes in samples with temperature variation
+    - name: Structural Determination Methods
+      clarifier: X-ray and nuclear/electron magnetic resonance methods for molecular structure elucidation
+
+  related:
+    - name: Quantitative Analysis
+      clarifier: Determination of analyte concentration using instrumental calibration and standard methods
+    - name: Qualitative Analysis
+      clarifier: Identification of functional groups, molecular structure, and chemical composition
+    - name: Sample Preparation
+      clarifier: Pre-treatment and standardization of samples for accurate instrumental analysis
+    - name: Beer-Lambert Law
+      clarifier: Fundamental principle relating absorbance to concentration in spectrophotometry
+    - name: Signal-to-Noise Ratio
+      clarifier: Instrumental sensitivity and detection limit considerations in analytical measurements
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Spectroscopy and Electromagnetic Radiation
+    learning_objectives:
+      - Understand the nature of electromagnetic radiation and energy quantization
+      - Learn the relationship between wavelength, frequency, and energy
+      - Grasp fundamental principles underlying all spectroscopic methods
+      - Apply Beer-Lambert Law to quantitative spectroscopic analysis
+    textbook_style_content:
+      - lesson: Electromagnetic Spectrum and Spectroscopy Basics
+        sections:
+          - section_heading: Introduction to Electromagnetic Radiation
+            section_type: overview
+          - section_heading: Energy Quantization and Photon Interactions
+            section_type: core_theory
+          - section_heading: Beer-Lambert Law and Quantitative Relationships
+            section_type: core_theory
+          - section_heading: Absorption vs Emission Processes
+            section_type: related_concepts
+    milestone: Establish theoretical foundation for spectroscopic analysis
+    duration_days: 3
+    tags:
+      - foundational
+      - spectroscopy
+      - quantitative_analysis
+
+  - id: 2
+    topic: UV-Visible and Fluorescence Spectrophotometry
+    learning_objectives:
+      - Understand electronic transitions and allowed transitions (π-π*, n-π*, σ-σ*)
+      - Learn applications of UV-visible spectrophotometry in structural analysis and quantitation
+      - Grasp fluorescence phenomenon, Jablonski diagram, and radiative/non-radiative processes
+      - Distinguish between fluorescence and phosphorescence
+      - Apply these methods to analytical determinations
+    textbook_style_content:
+      - lesson: UV-Visible Spectrophotometry
+        sections:
+          - section_heading: Electronic Transitions and Chromophores
+            section_type: core_theory
+          - section_heading: Instrumentation and Measurement Setup
+            section_type: overview
+          - section_heading: Quantitative Applications and Calibration Methods
+            section_type: core_theory
+      - lesson: Fluorescence Spectrophotometry
+        sections:
+          - section_heading: Jablonski Diagram and Energy Transitions
+            section_type: core_theory
+          - section_heading: Fluorescence vs Phosphorescence
+            section_type: related_concepts
+          - section_heading: Instrumentation and Measurement Parameters
+            section_type: overview
+          - section_heading: Analytical Applications and Sensitivity
+            section_type: core_theory
+    milestone: Master absorption and emission spectroscopic methods
+    duration_days: 5
+    tags:
+      - spectroscopy
+      - absorption
+      - emission
+      - quantitative_analysis
+
+  - id: 3
+    topic: FTIR Spectrophotometry
+    learning_objectives:
+      - Understand infrared absorption and molecular vibrations (stretching and bending)
+      - Learn the principle of Fourier Transform infrared spectroscopy
+      - Grasp instrumentation and operational considerations
+      - Develop skill in interpreting IR spectra for functional group identification
+      - Apply FTIR to qualitative and quantitative analysis
+    textbook_style_content:
+      - lesson: Infrared Spectroscopy Principles
+        sections:
+          - section_heading: Molecular Vibrations and Infrared Absorption
+            section_type: core_theory
+          - section_heading: Wavenumber and Frequency-Wavenumber Relationships
+            section_type: related_concepts
+      - lesson: Fourier Transform Infrared Spectroscopy
+        sections:
+          - section_heading: Michelson Interferometer and Fourier Transform Theory
+            section_type: core_theory
+          - section_heading: FTIR Instrumentation Components
+            section_type: overview
+          - section_heading: Advantages over Dispersive IR
+            section_type: related_concepts
+      - lesson: Spectral Interpretation and Applications
+        sections:
+          - section_heading: Functional Group Identification via Characteristic Frequencies
+            section_type: core_theory
+          - section_heading: Quantitative FTIR Analysis
+            section_type: core_theory
+    milestone: Develop proficiency in infrared spectroscopic analysis
+    duration_days: 5
+    tags:
+      - spectroscopy
+      - vibrational
+      - qualitative_analysis
+      - functional_groups
+
+  - id: 4
+    topic: Nuclear Magnetic Resonance (NMR) Spectroscopy
+    learning_objectives:
+      - Understand nuclear spin states and energy level splitting in magnetic field
+      - Learn the principles of NMR resonance and radiofrequency excitation
+      - Grasp chemical shift, spin-spin coupling, and multiplicity patterns
+      - Master interpretation of \(^1\)H and \(^{13}\)C NMR spectra
+      - Develop skill in 2D NMR techniques and structure determination
+      - Apply NMR to molecular structure elucidation
+    textbook_style_content:
+      - lesson: NMR Fundamentals
+        sections:
+          - section_heading: Nuclear Spin and Magnetic Properties
+            section_type: core_theory
+          - section_heading: Resonance Condition and Energy Level Transitions
+            section_type: core_theory
+          - section_heading: Relaxation Processes and Spin-Lattice/Spin-Spin Relaxation
+            section_type: related_concepts
+      - lesson: Chemical Shift and Shielding Effects
+        sections:
+          - section_heading: Electronic Environment and Shielding Constants
+            section_type: core_theory
+          - section_heading: Chemical Shift Scales and Reference Standards
+            section_type: overview
+      - lesson: Spin-Spin Coupling
+        sections:
+          - section_heading: Coupling Constants and J-Values
+            section_type: core_theory
+          - section_heading: Multiplicity Patterns and n+1 Rule
+            section_type: core_theory
+          - section_heading: Complex Multiplets and Second-Order Effects
+            section_type: related_concepts
+      - lesson: Proton and Carbon-13 NMR Applications
+        sections:
+          - section_heading: \(^1\)H NMR Spectrum Interpretation
+            section_type: core_theory
+          - section_heading: \(^{13}\)C NMR Spectrum Interpretation
+            section_type: core_theory
+          - section_heading: DEPT and Multiplicity Information
+            section_type: related_concepts
+      - lesson: 2D NMR Techniques
+        sections:
+          - section_heading: COSY, HSQC, and HMBC Principles
+            section_type: core_theory
+          - section_heading: Structure Determination via 2D Methods
+            section_type: core_theory
+    milestone: Achieve advanced proficiency in NMR structure elucidation
+    duration_days: 8
+    tags:
+      - spectroscopy
+      - nmr
+      - structure_determination
+      - advanced_spectroscopy
+
+  - id: 5
+    topic: Electron Spin Resonance (ESR) Spectroscopy
+    learning_objectives:
+      - Understand electron spin and electron magnetic properties
+      - Learn ESR resonance conditions and energy transitions
+      - Grasp hyperfine coupling and fine structure
+      - Develop skill in ESR spectrum interpretation
+      - Apply ESR to paramagnetic species and radical detection
+    textbook_style_content:
+      - lesson: ESR Fundamentals
+        sections:
+          - section_heading: Electron Spin and Paramagnetic Properties
+            section_type: core_theory
+          - section_heading: ESR Resonance Condition and g-Factor
+            section_type: core_theory
+      - lesson: Hyperfine Coupling
+        sections:
+          - section_heading: Hyperfine Structure and Coupling Constants
+            section_type: core_theory
+          - section_heading: Splitting Patterns and Intensity Distributions
+            section_type: core_theory
+      - lesson: Fine Structure
+        sections:
+          - section_heading: Zero-Field Splitting
+            section_type: related_concepts
+          - section_heading: Strain and Environmental Effects
+            section_type: related_concepts
+      - lesson: ESR Applications
+        sections:
+          - section_heading: Detection of Radicals and Paramagnetic Species
+            section_type: core_theory
+          - section_heading: Spectrum Interpretation and Analysis
+            section_type: core_theory
+    milestone: Master ESR spectroscopy for paramagnetic analysis
+    duration_days: 4
+    tags:
+      - spectroscopy
+      - esr
+      - paramagnetic_species
+      - radical_detection
+
+  - id: 6
+    topic: Mass Spectrometry
+    learning_objectives:
+      - Understand ionization methods (EI, CI, ESI, MALDI)
+      - Learn principles of mass analyzers and mass separation
+      - Grasp fragmentation patterns and mass spectrum interpretation
+      - Develop skill in molecular weight determination
+      - Apply MS to structure determination and identification
+    textbook_style_content:
+      - lesson: Ionization Techniques
+        sections:
+          - section_heading: Electron Impact (EI) Ionization
+            section_type: core_theory
+          - section_heading: Chemical Ionization (CI)
+            section_type: related_concepts
+          - section_heading: Electrospray Ionization (ESI) and Soft Ionization Methods
+            section_type: related_concepts
+          - section_heading: Matrix-Assisted Laser Desorption/Ionization (MALDI)
+            section_type: related_concepts
+      - lesson: Mass Analyzers
+        sections:
+          - section_heading: Quadrupole and Magnetic Sector Analyzers
+            section_type: core_theory
+          - section_heading: Time-of-Flight (TOF) Analyzer
+            section_type: related_concepts
+          - section_heading: Fourier Transform Ion Cyclotron Resonance (FT-ICR)
+            section_type: related_concepts
+      - lesson: Fragmentation and Mass Spectra
+        sections:
+          - section_heading: Fragmentation Pathways and Rules
+            section_type: core_theory
+          - section_heading: Base Peak and Molecular Ion Peak
+            section_type: overview
+          - section_heading: Spectrum Interpretation and Structure Determination
+            section_type: core_theory
+      - lesson: Applications
+        sections:
+          - section_heading: Molecular Weight Determination
+            section_type: core_theory
+          - section_heading: Compound Identification and Structure Elucidation
+            section_type: core_theory
+    milestone: Develop expertise in mass spectrometric analysis
+    duration_days: 6
+    tags:
+      - spectroscopy
+      - mass_spectrometry
+      - ionization
+      - structure_determination
+
+  - id: 7
+    topic: Atomic Absorption Spectroscopy (AAS)
+    learning_objectives:
+      - Understand atomic absorption process and atomic line spectra
+      - Learn instrumentation components (lamp, atomizer, monochromator, detector)
+      - Grasp quantitative analysis principles and calibration
+      - Master different atomization techniques (flame, graphite furnace, hydride generation)
+      - Apply AAS to elemental analysis and trace metal determination
+    textbook_style_content:
+      - lesson: Atomic Absorption Principles
+        sections:
+          - section_heading: Atomic Spectra and Resonance Lines
+            section_type: core_theory
+          - section_heading: Beer-Lambert Law Application to Atomic Absorption
+            section_type: core_theory
+      - lesson: Instrumentation
+        sections:
+          - section_heading: Hollow Cathode Lamps and Light Sources
+            section_type: overview
+          - section_heading: Atomization Techniques (Flame, Furnace, Hydride Generation)
+            section_type: core_theory
+          - section_heading: Monochromators and Detectors
+            section_type: overview
+      - lesson: Quantitative Analysis
+        sections:
+          - section_heading: Calibration Methods and Standard Curves
+            section_type: core_theory
+          - section_heading: Detection Limits and Sensitivity
+            section_type: related_concepts
+      - lesson: Interferences and Applications
+        sections:
+          - section_heading: Spectral and Chemical Interferences
+            section_type: core_theory
+          - section_heading: Elemental Analysis and Trace Metal Determination
+            section_type: core_theory
+    milestone: Master atomic absorption spectroscopy for elemental analysis
+    duration_days: 5
+    tags:
+      - spectroscopy
+      - atomic_spectroscopy
+      - elemental_analysis
+      - quantitative_analysis
+
+  - id: 8
+    topic: Mössbauer Spectroscopy
+    learning_objectives:
+      - Understand recoilless nuclear resonance and the Mössbauer effect
+      - Learn applications specific to Fe and Sn isotopes
+      - Grasp isomer shift, quadrupole splitting, and magnetic hyperfine splitting
+      - Develop skill in Mössbauer spectrum interpretation
+      - Apply to oxidation state and local environment determination
+    textbook_style_content:
+      - lesson: Mössbauer Effect Fundamentals
+        sections:
+          - section_heading: Nuclear Recoil and Recoilless Emission/Absorption
+            section_type: core_theory
+          - section_heading: Energy Resolution and Advantages
+            section_type: related_concepts
+      - lesson: Spectral Parameters
+        sections:
+          - section_heading: Isomer Shift and Electron Density
+            section_type: core_theory
+          - section_heading: Quadrupole Splitting and Electric Field Gradient
+            section_type: core_theory
+          - section_heading: Magnetic Hyperfine Splitting
+            section_type: core_theory
+      - lesson: Iron-57 Mössbauer Spectroscopy
+        sections:
+          - section_heading: Fe(II) and Fe(III) State Identification
+            section_type: core_theory
+          - section_heading: Spin State and Coordination Environment Information
+            section_type: core_theory
+          - section_heading: Applications in Iron Chemistry
+            section_type: core_theory
+      - lesson: Tin-119 Mössbauer Spectroscopy
+        sections:
+          - section_heading: Sn(II) and Sn(IV) Differentiation
+            section_type: core_theory
+          - section_heading: Applications in Tin Compounds
+            section_type: core_theory
+      - lesson: Spectrum Interpretation
+        sections:
+          - section_heading: Reading and Analyzing Mössbauer Spectra
+            section_type: core_theory
+          - section_heading: Determining Oxidation States and Local Environments
+            section_type: core_theory
+    milestone: Develop proficiency in Mössbauer spectroscopy analysis
+    duration_days: 5
+    tags:
+      - spectroscopy
+      - mossbauer
+      - nuclear_resonance
+      - iron_tin_chemistry
+
+  - id: 9
+    topic: X-ray Crystallography
+    learning_objectives:
+      - Understand X-ray diffraction and Bragg's Law
+      - Learn crystal systems and lattice parameters
+      - Grasp structure factor and diffraction patterns
+      - Master crystal structure determination methodology
+      - Develop skill in interpreting crystallographic data
+    textbook_style_content:
+      - lesson: X-ray Diffraction Fundamentals
+        sections:
+          - section_heading: X-ray Production and Properties
+            section_type: overview
+          - section_heading: Bragg's Law and Diffraction Condition
+            section_type: core_theory
+          - section_heading: Miller Indices and Crystal Planes
+            section_type: core_theory
+      - lesson: Crystal Symmetry
+        sections:
+          - section_heading: Crystal Systems and Lattice Parameters
+            section_type: core_theory
+          - section_heading: Space Groups and Symmetry Operations
+            section_type: related_concepts
+      - lesson: Structure Factor and Intensity
+        sections:
+          - section_heading: Scattering from Atoms and Structure Factor
+            section_type: core_theory
+          - section_heading: Systematic Absences and Allowed Reflections
+            section_type: related_concepts
+      - lesson: Data Collection and Processing
+        sections:
+          - section_heading: Diffractometer Setup and Measurement
+            section_type: overview
+          - section_heading: Indexing and Unit Cell Determination
+            section_type: core_theory
+          - section_heading: Data Reduction and Error Analysis
+            section_type: related_concepts
+      - lesson: Structure Determination
+        sections:
+          - section_heading: Phase Problem and Phase Determination Methods
+            section_type: core_theory
+          - section_heading: Fourier Synthesis and Electron Density Maps
+            section_type: core_theory
+          - section_heading: Refinement and Structure Validation
+            section_type: core_theory
+    milestone: Achieve proficiency in X-ray crystallographic analysis
+    duration_days: 7
+    tags:
+      - spectroscopy
+      - crystallography
+      - structure_determination
+      - x-ray
+
+  - id: 10
+    topic: Gas Chromatography (GC)
+    learning_objectives:
+      - Understand separation principles and retention time
+      - Learn GC instrumentation and column types
+      - Grasp temperature programming and optimization
+      - Master qualitative and quantitative analysis
+      - Develop skill in GC detector selection and operation
+    textbook_style_content:
+      - lesson: GC Separation Principles
+        sections:
+          - section_heading: Gas-Liquid and Gas-Solid Partitioning
+            section_type: core_theory
+          - section_heading: Retention Time and Separation Factor
+            section_type: core_theory
+          - section_heading: Resolution and Peak Efficiency
+            section_type: related_concepts
+      - lesson: Instrumentation
+        sections:
+          - section_heading: Injection Port and Sampling Techniques
+            section_type: overview
+          - section_heading: Column Types and Stationary Phases
+            section_type: core_theory
+          - section_heading: Carrier Gas Selection and Flow Control
+            section_type: overview
+      - lesson: Operating Parameters
+        sections:
+          - section_heading: Temperature Programming and Isothermal Operation
+            section_type: core_theory
+          - section_heading: Optimization of Separation Conditions
+            section_type: core_theory
+      - lesson: Detectors for GC
+        sections:
+          - section_heading: Flame Ionization Detector (FID)
+            section_type: core_theory
+          - section_heading: Thermal Conductivity Detector (TCD)
+            section_type: related_concepts
+          - section_heading: Electron Capture Detector (ECD) and Other Detectors
+            section_type: related_concepts
+      - lesson: Qualitative and Quantitative Analysis
+        sections:
+          - section_heading: Peak Identification via Retention Time
+            section_type: core_theory
+          - section_heading: Calibration and Quantitation Methods
+            section_type: core_theory
+          - section_heading: GC-MS Coupling and Structure Confirmation
+            section_type: related_concepts
+    milestone: Master gas chromatographic separation and analysis
+    duration_days: 6
+    tags:
+      - chromatography
+      - separation
+      - quantitative_analysis
+      - gc
+
+  - id: 11
+    topic: High-Performance Liquid Chromatography (HPLC)
+    learning_objectives:
+      - Understand HPLC separation principles and modes
+      - Learn HPLC instrumentation and component functions
+      - Grasp mobile phase selection and optimization
+      - Master reversed-phase, normal-phase, and ion-exchange HPLC
+      - Develop skill in method development and quantitative analysis
+    textbook_style_content:
+      - lesson: HPLC Fundamentals
+        sections:
+          - section_heading: Liquid-Solid Partitioning and Separation Mechanism
+            section_type: core_theory
+          - section_heading: Resolution, Efficiency, and Selectivity
+            section_type: core_theory
+          - section_heading: Retention Factor and Capacity Factor
+            section_type: related_concepts
+      - lesson: Instrumentation
+        sections:
+          - section_heading: Solvent Delivery Systems and Pumps
+            section_type: overview
+          - section_heading: Injection Systems and Sample Loop
+            section_type: overview
+          - section_heading: Separation Columns and Stationary Phases
+            section_type: core_theory
+          - section_heading: Detectors (UV-Vis, RI, Fluorescence)
+            section_type: overview
+      - lesson: Chromatographic Modes
+        sections:
+          - section_heading: Reversed-Phase HPLC (RP-HPLC)
+            section_type: core_theory
+          - section_heading: Normal-Phase HPLC (NP-HPLC)
+            section_type: related_concepts
+          - section_heading: Ion-Exchange Chromatography
+            section_type: related_concepts
+          - section_heading: Size-Exclusion Chromatography
+            section_type: related_concepts
+      - lesson: Mobile Phase and Optimization
+        sections:
+          - section_heading: Solvent Selection and Gradient Programming
+            section_type: core_theory
+          - section_heading: pH, Buffer, and Ionic Strength Effects
+            section_type: core_theory
+          - section_heading: Method Development Strategy
+            section_type: core_theory
+      - lesson: Quantitative Analysis
+        sections:
+          - section_heading: Detector Calibration and Response Factors
+            section_type: core_theory
+          - section_heading: Peak Area and Height Measurement
+            section_type: core_theory
+          - section_heading: Internal and External Standards
+            section_type: core_theory
+    milestone: Develop expertise in HPLC method development and analysis
+    duration_days: 7
+    tags:
+      - chromatography
+      - separation
+      - hplc
+      - method_development
+      - quantitative_analysis
+
+  - id: 12
+    topic: Electroanalytical Methods - Polarography and Cyclic Voltammetry
+    learning_objectives:
+      - Understand electrode reactions and electrochemical cells
+      - Learn principles of polarography and dropping mercury electrode
+      - Grasp diffusion-limited current and Ilkovic equation
+      - Master cyclic voltammetry principles and volt-ammogram interpretation
+      - Develop skill in electrochemical mechanism elucidation
+    textbook_style_content:
+      - lesson: Electroanalytical Fundamentals
+        sections:
+          - section_heading: Electrochemical Cells and Electrode Reactions
+            section_type: core_theory
+          - section_heading: Nernst Equation and Electrochemical Potential
+            section_type: core_theory
+          - section_heading: Electron Transfer Kinetics
+            section_type: related_concepts
+      - lesson: Polarography
+        sections:
+          - section_heading: Dropping Mercury Electrode and Electrode Reactions
+            section_type: core_theory
+          - section_heading: Diffusion-Limited Current and Ilkovic Equation
+            section_type: core_theory
+          - section_heading: Half-Wave Potential and Polarographic Waves
+            section_type: core_theory
+          - section_heading: Quantitative Analysis via Polarography
+            section_type: core_theory
+      - lesson: Cyclic Voltammetry
+        sections:
+          - section_heading: Cyclic Voltammetry Principles and Waveform
+            section_type: core_theory
+          - section_heading: Volt-Ammogram Features (Peak Potential, Current)
+            section_type: core_theory
+          - section_heading: Reversible, Quasi-Reversible, and Irreversible Systems
+            section_type: core_theory
+          - section_heading: Scan Rate Effects and Kinetic Information
+            section_type: related_concepts
+      - lesson: Mechanism Elucidation
+        sections:
+          - section_heading: EC, CE, and EE Mechanisms in CV
+            section_type: core_theory
+          - section_heading: Coupled Electron Transfer and Chemical Reactions
+            section_type: related_concepts
+    milestone: Master electroanalytical techniques for redox analysis
+    duration_days: 6
+    tags:
+      - electroanalytical
+      - electrochemistry
+      - polarography
+      - cyclic_voltammetry
+      - redox
+
+  - id: 13
+    topic: Ion-Selective Electrodes (ISE)
+    learning_objectives:
+      - Understand ion-selective electrode principles and membrane types
+      - Learn glass electrode and solid-state electrode construction
+      - Grasp potentiometric measurement and the Nernst equation
+      - Master pH measurement and ion concentration determination
+      - Develop skill in ISE calibration and analytical applications
+    textbook_style_content:
+      - lesson: Ion-Selective Electrode Fundamentals
+        sections:
+          - section_heading: Membrane Potential and Selectivity
+            section_type: core_theory
+          - section_heading: Gibbs-Donnan Equilibrium
+            section_type: related_concepts
+      - lesson: Electrode Types
+        sections:
+          - section_heading: Glass Electrodes for pH Measurement
+            section_type: core_theory
+          - section_heading: Solid-State Ion-Selective Electrodes
+            section_type: core_theory
+          - section_heading: Liquid Membrane and Polymer Membrane Electrodes
+            section_type: related_concepts
+      - lesson: Potentiometric Measurement
+        sections:
+          - section_heading: Potentiometric Cell and EMF Measurement
+            section_type: overview
+          - section_heading: Nernst Equation Application to ISE
+            section_type: core_theory
+          - section_heading: Selectivity Coefficient and Interference
+            section_type: core_theory
+      - lesson: pH Measurement and Calibration
+        sections:
+          - section_heading: pH Scale and Buffer Solutions
+            section_type: core_theory
+          - section_heading: pH Electrode Calibration Procedures
+            section_type: core_theory
+      - lesson: Quantitative Analysis
+        sections:
+          - section_heading: Ion Concentration Determination
+            section_type: core_theory
+          - section_heading: Direct Potentiometry and Potentiometric Titration
+            section_type: core_theory
+          - section_heading: Applications in Analytical Chemistry
+            section_type: core_theory
+    milestone: Develop proficiency in potentiometric analysis with ISEs
+    duration_days: 5
+    tags:
+      - electroanalytical
+      - potentiometry
+      - ion_selective_electrodes
+      - quantitative_analysis
+
+  - id: 14
+    topic: Thermoanalytical Methods
+    learning_objectives:
+      - Understand thermal analysis principles and decomposition processes
+      - Learn thermogravimetric analysis (TGA) and weight change measurement
+      - Grasp differential thermal analysis (DTA) and heat flow measurement
+      - Master differential scanning calorimetry (DSC) and thermal transitions
+      - Develop skill in interpreting thermal curves and phase diagrams
+    textbook_style_content:
+      - lesson: Thermoanalytical Fundamentals
+        sections:
+          - section_heading: Thermal Transitions and Phase Changes
+            section_type: core_theory
+          - section_heading: Decomposition Pathways and Kinetics
+            section_type: related_concepts
+      - lesson: Thermogravimetric Analysis (TGA)
+        sections:
+          - section_heading: Mass Change with Temperature
+            section_type: core_theory
+          - section_heading: TGA Instrumentation and Experimental Setup
+            section_type: overview
+          - section_heading: Decomposition Steps and Thermal Stability
+            section_type: core_theory
+          - section_heading: Kinetic Information from TGA
+            section_type: related_concepts
+      - lesson: Differential Thermal Analysis (DTA)
+        sections:
+          - section_heading: Temperature Difference Measurement
+            section_type: core_theory
+          - section_heading: Endothermic and Exothermic Transitions
+            section_type: core_theory
+          - section_heading: Phase Transitions and Polymorphism Detection
+            section_type: related_concepts
+      - lesson: Differential Scanning Calorimetry (DSC)
+        sections:
+          - section_heading: Heat Flow Measurement and DSC Principles
+            section_type: core_theory
+          - section_heading: Melting Point, Glass Transition, and Crystallization
+            section_type: core_theory
+          - section_heading: Quantitative Calorimetry and Enthalpy Determination
+            section_type: core_theory
+      - lesson: Applications and Interpretation
+        sections:
+          - section_heading: Material Purity and Thermal Stability Assessment
+            section_type: core_theory
+          - section_heading: Phase Diagram Determination
+            section_type: related_concepts
+          - section_heading: Polymorphism and Crystal Form Identification
+            section_type: core_theory
+    milestone: Master thermoanalytical techniques for materials characterization
+    duration_days: 6
+    tags:
+      - thermal_analysis
+      - characterization
+      - tga
+      - dsc
+      - phase_transitions
+
+  - id: 15
+    topic: Integrated Case Studies and Instrument Selection Strategy
+    learning_objectives:
+      - Integrate knowledge across multiple instrumental methods
+      - Learn instrument selection criteria for specific analytical problems
+      - Master complementary technique combinations for structure determination
+      - Develop problem-solving approach to analytical challenges
+      - Prepare for GATE examination scenario-based questions
+    textbook_style_content:
+      - lesson: Multi-Method Structure Determination
+        sections:
+          - section_heading: Combining Spectroscopy and Diffraction for Complete Characterization
+            section_type: core_theory
+          - section_heading: IR, NMR, and MS for Organic Structure Elucidation
+            section_type: core_theory
+          - section_heading: AAS and ICP-OES for Elemental Analysis
+            section_type: related_concepts
+      - lesson: Instrument Selection Framework
+        sections:
+          - section_heading: Qualitative vs Quantitative Analysis Selection
+            section_type: core_theory
+          - section_heading: Sensitivity, Selectivity, and Sample Requirements
+            section_type: core_theory
+          - section_heading: Cost-Benefit and Practical Considerations
+            section_type: related_concepts
+      - lesson: Problem-Solving in Analytical Chemistry
+        sections:
+          - section_heading: Unknown Sample Identification Workflow
+            section_type: core_theory
+          - section_heading: Choosing Complementary Methods
+            section_type: core_theory
+          - section_heading: Troubleshooting and Error Analysis
+            section_type: related_concepts
+      - lesson: GATE Examination Strategy
+        sections:
+          - section_heading: Common Question Patterns
+            section_type: overview
+          - section_heading: Sample Calculations and Numerical Problems
+            section_type: core_theory
+          - section_heading: Conceptual Understanding and Application
+            section_type: core_theory
+    milestone: Synthesize instrumental methods knowledge for advanced application
+    duration_days: 5
+    tags:
+      - integration
+      - case_studies
+      - problem_solving
+      - gate_preparation

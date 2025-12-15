@@ -1,0 +1,423 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Asymmetric synthesis: Chiral auxiliaries, methods of asymmetric induction – substrate, reagent and catalyst controlled reactions; determination of enantiomeric and diastereomeric excess; enantio-discrimination. Resolution – optical and kinetic."
+
+concepts:
+  core:
+    - name: Asymmetric synthesis
+      clarifier: Methods for preferential formation of one enantiomer over another in chemical reactions
+    - name: Chiral auxiliaries
+      clarifier: Removable chiral groups temporarily attached to substrates to induce stereoselectivity
+    - name: Substrate-controlled asymmetric induction
+      clarifier: Stereochemical control arising from chirality inherent in the substrate molecule
+    - name: Reagent-controlled asymmetric induction
+      clarifier: Stereochemical control achieved through use of chiral reagents
+    - name: Catalyst-controlled asymmetric induction
+      clarifier: Stereochemical control mediated by chiral catalysts in substoichiometric amounts
+    - name: Enantiomeric excess determination
+      clarifier: Quantitative measurement of enantiomeric purity in asymmetric synthesis products
+    - name: Diastereomeric excess determination
+      clarifier: Quantitative measurement of diastereomeric purity in reactions forming multiple stereocenters
+    - name: Enantio-discrimination
+      clarifier: Ability of chiral environment to distinguish between enantiomers
+    - name: Resolution methods
+      clarifier: Techniques for separating enantiomers from racemic mixtures
+  related:
+    - name: Stereochemistry fundamentals
+      clarifier: Three-dimensional arrangement of atoms in molecules and its consequences
+    - name: Chirality and optical activity
+      clarifier: Molecular handedness and rotation of plane-polarized light
+    - name: Prochirality and enantiotopic groups
+      clarifier: Potential chirality in molecules and differentiation of enantiotopic faces or groups
+    - name: Stereoselective and stereospecific reactions
+      clarifier: Reactions showing preference for particular stereochemical outcomes
+    - name: Chiral pool synthesis
+      clarifier: Use of naturally occurring chiral compounds as starting materials
+    - name: Organocatalysis
+      clarifier: Asymmetric catalysis using small organic molecules
+    - name: Transition metal catalyzed asymmetric reactions
+      clarifier: Chiral metal complexes enabling enantioselective transformations
+    - name: Chiral chromatography
+      clarifier: Analytical and preparative separation techniques using chiral stationary phases
+    - name: Circular dichroism spectroscopy
+      clarifier: Spectroscopic technique for studying chiral molecules and determining absolute configuration
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Stereochemistry and Chirality
+    learning_objectives:
+      - Understand the principles of molecular chirality and stereoisomerism
+      - Distinguish between enantiomers and diastereomers
+      - Recognize prochiral centers and enantiotopic relationships
+      - Apply R/S nomenclature and Fischer projections
+    textbook_style_content:
+      - topic: Stereochemical Foundations
+        sections:
+          - section_title: Overview of Stereochemistry in Asymmetric Synthesis
+            section_type: overview
+          - section_title: Chirality, Enantiomers, and Optical Activity
+            section_type: core_theory
+          - section_title: Diastereomers and Stereoisomer Relationships
+            section_type: core_theory
+          - section_title: Prochirality and Enantiotopic Relationships
+            section_type: related concepts
+          - section_title: Nomenclature Systems for Chiral Molecules
+            section_type: core_theory
+    milestone: Master stereochemical concepts essential for understanding asymmetric synthesis
+    duration_days: 4
+    tags:
+      - stereochemistry
+      - chirality
+      - enantiomers
+      - foundations
+
+  - id: 2
+    title: Introduction to Asymmetric Synthesis
+    learning_objectives:
+      - Define asymmetric synthesis and its importance in chemistry
+      - Understand thermodynamic and kinetic aspects of enantioselectivity
+      - Differentiate between stereoselective and stereospecific reactions
+      - Recognize the significance of asymmetric synthesis in pharmaceutical chemistry
+    textbook_style_content:
+      - topic: Principles of Asymmetric Synthesis
+        sections:
+          - section_title: Overview of Asymmetric Synthesis Strategies
+            section_type: overview
+          - section_title: Thermodynamic and Kinetic Control in Enantioselective Reactions
+            section_type: core_theory
+          - section_title: Stereoselective versus Stereospecific Reactions
+            section_type: core_theory
+          - section_title: Chiral Pool Synthesis from Natural Sources
+            section_type: related concepts
+          - section_title: Applications in Drug Discovery and Development
+            section_type: related concepts
+    milestone: Understand the fundamental approaches and importance of asymmetric synthesis
+    duration_days: 3
+    tags:
+      - asymmetric synthesis
+      - enantioselectivity
+      - pharmaceutical chemistry
+
+  - id: 3
+    title: Chiral Auxiliaries in Asymmetric Synthesis
+    learning_objectives:
+      - Understand the concept and mechanism of chiral auxiliary-mediated reactions
+      - Identify common chiral auxiliaries and their applications
+      - Analyze the attachment and removal strategies for chiral auxiliaries
+      - Evaluate the advantages and limitations of auxiliary-based approaches
+    textbook_style_content:
+      - topic: Chiral Auxiliary Methodology
+        sections:
+          - section_title: Overview of Chiral Auxiliary Strategy
+            section_type: overview
+          - section_title: Evans Oxazolidinones and Aldol Reactions
+            section_type: core_theory
+          - section_title: Oppolzer's Camphor-Based Sultams
+            section_type: core_theory
+          - section_title: Enders SAMP/RAMP Hydrazones
+            section_type: core_theory
+          - section_title: Myers' Pseudoephedrine Auxiliary
+            section_type: core_theory
+          - section_title: Auxiliary Attachment and Cleavage Strategies
+            section_type: core_theory
+          - section_title: Comparison with Chiral Pool and Catalytic Methods
+            section_type: related concepts
+    milestone: Master the use of chiral auxiliaries in controlling stereochemistry
+    duration_days: 5
+    tags:
+      - chiral auxiliaries
+      - Evans auxiliary
+      - stereocontrol
+      - aldol reactions
+
+  - id: 4
+    title: Substrate-Controlled Asymmetric Induction
+    learning_objectives:
+      - Understand how substrate chirality directs stereochemical outcomes
+      - Apply Cram's rule and Felkin-Ahn model for carbonyl additions
+      - Analyze chelation-controlled reactions
+      - Predict stereochemistry based on substrate structure
+    textbook_style_content:
+      - topic: Substrate-Directed Stereoselectivity
+        sections:
+          - section_title: Overview of Substrate Control Mechanisms
+            section_type: overview
+          - section_title: Cram's Rule for Nucleophilic Additions
+            section_type: core_theory
+          - section_title: Felkin-Ahn Model and Polar Effects
+            section_type: core_theory
+          - section_title: Chelation-Controlled Additions to α- and β-Hydroxy Carbonyls
+            section_type: core_theory
+          - section_title: 1,2- and 1,3-Asymmetric Induction
+            section_type: core_theory
+          - section_title: Conformational Analysis in Substrate Control
+            section_type: related concepts
+          - section_title: Remote Stereocontrol in Complex Molecules
+            section_type: related concepts
+    milestone: Master substrate-controlled stereoselective reactions and predictive models
+    duration_days: 5
+    tags:
+      - substrate control
+      - Cram's rule
+      - Felkin-Ahn model
+      - asymmetric induction
+
+  - id: 5
+    title: Reagent-Controlled Asymmetric Induction
+    learning_objectives:
+      - Understand the use of chiral reagents in asymmetric synthesis
+      - Study chiral reducing agents and oxidizing agents
+      - Analyze chiral organometallic reagents
+      - Evaluate selectivity and practical applications
+    textbook_style_content:
+      - topic: Chiral Reagent Methodology
+        sections:
+          - section_title: Overview of Reagent-Controlled Asymmetric Synthesis
+            section_type: overview
+          - section_title: Chiral Hydride Reducing Agents (Alpine-Borane, CBS Reduction)
+            section_type: core_theory
+          - section_title: Chiral Oxidizing Agents (Sharpless Epoxidation)
+            section_type: core_theory
+          - section_title: Chiral Organolithium and Grignard Reagents
+            section_type: core_theory
+          - section_title: Chiral Ylides and Wittig-Type Reactions
+            section_type: core_theory
+          - section_title: Stoichiometric versus Catalytic Approaches
+            section_type: related concepts
+    milestone: Master reagent-controlled asymmetric transformations and key chiral reagents
+    duration_days: 5
+    tags:
+      - reagent control
+      - chiral reagents
+      - CBS reduction
+      - Sharpless epoxidation
+
+  - id: 6
+    title: Catalyst-Controlled Asymmetric Induction
+    learning_objectives:
+      - Understand catalytic asymmetric synthesis principles
+      - Study transition metal-catalyzed enantioselective reactions
+      - Analyze organocatalytic transformations
+      - Evaluate catalyst design and ligand effects
+    textbook_style_content:
+      - topic: Catalytic Asymmetric Synthesis
+        sections:
+          - section_title: Overview of Asymmetric Catalysis Strategies
+            section_type: overview
+          - section_title: Chiral Ligands and Catalyst Design Principles
+            section_type: core_theory
+          - section_title: Asymmetric Hydrogenation (Wilkinson, Noyori, Knowles)
+            section_type: core_theory
+          - section_title: Sharpless Asymmetric Dihydroxylation and Aminohydroxylation
+            section_type: core_theory
+          - section_title: Jacobsen-Katsuki Epoxidation
+            section_type: core_theory
+          - section_title: Organocatalysis (Proline-Catalyzed Reactions, Cinchona Alkaloids)
+            section_type: related concepts
+          - section_title: Phase-Transfer Catalysis and Bifunctional Catalysts
+            section_type: related concepts
+          - section_title: Enzymatic Asymmetric Catalysis
+            section_type: related concepts
+    milestone: Master catalytic methods for asymmetric synthesis including metal and organocatalysis
+    duration_days: 7
+    tags:
+      - catalyst control
+      - asymmetric catalysis
+      - organocatalysis
+      - transition metals
+      - ligand design
+
+  - id: 7
+    title: Quantification of Stereoselectivity
+    learning_objectives:
+      - Define and calculate enantiomeric excess and enantiomeric ratio
+      - Define and calculate diastereomeric excess and diastereomeric ratio
+      - Understand the relationship between selectivity and product distribution
+      - Apply mathematical relationships in stereoselective synthesis planning
+    textbook_style_content:
+      - topic: Measuring Stereoselectivity
+        sections:
+          - section_title: Overview of Stereoselectivity Metrics
+            section_type: overview
+          - section_title: Enantiomeric Excess (ee) and Enantiomeric Ratio (er)
+            section_type: core_theory
+          - section_title: Diastereomeric Excess (de) and Diastereomeric Ratio (dr)
+            section_type: core_theory
+          - section_title: Mathematical Relationships and Conversions
+            section_type: core_theory
+          - section_title: Temperature Dependence and Selectivity Factors
+            section_type: related concepts
+    milestone: Master quantitative methods for expressing stereochemical outcomes
+    duration_days: 3
+    tags:
+      - enantiomeric excess
+      - diastereomeric excess
+      - selectivity
+      - quantification
+
+  - id: 8
+    title: Analytical Methods for Determining Stereochemical Purity
+    learning_objectives:
+      - Understand chiral chromatographic techniques (HPLC, GC)
+      - Apply NMR spectroscopy methods for ee and de determination
+      - Use polarimetry and optical rotation measurements
+      - Analyze circular dichroism and other spectroscopic techniques
+    textbook_style_content:
+      - topic: Analytical Techniques for Enantiomeric Analysis
+        sections:
+          - section_title: Overview of Stereochemical Analysis Methods
+            section_type: overview
+          - section_title: Chiral HPLC and Chiral Stationary Phases
+            section_type: core_theory
+          - section_title: Chiral Gas Chromatography
+            section_type: core_theory
+          - section_title: NMR Methods Using Chiral Derivatizing Agents (Mosher's Acid)
+            section_type: core_theory
+          - section_title: Chiral Shift Reagents and Chiral Solvating Agents
+            section_type: core_theory
+          - section_title: Polarimetry and Specific Rotation Measurements
+            section_type: related concepts
+          - section_title: Circular Dichroism Spectroscopy
+            section_type: related concepts
+          - section_title: X-ray Crystallography for Absolute Configuration
+            section_type: related concepts
+    milestone: Master analytical techniques for determining enantiomeric and diastereomeric purity
+    duration_days: 5
+    tags:
+      - analytical methods
+      - chiral HPLC
+      - NMR spectroscopy
+      - polarimetry
+      - circular dichroism
+
+  - id: 9
+    title: Enantio-discrimination and Chiral Recognition
+    learning_objectives:
+      - Understand the molecular basis of chiral recognition
+      - Analyze three-point interaction model
+      - Study enantioselective binding and complexation
+      - Apply concepts to catalyst and auxiliary design
+    textbook_style_content:
+      - topic: Chiral Recognition Principles
+        sections:
+          - section_title: Overview of Enantio-discrimination Phenomena
+            section_type: overview
+          - section_title: Three-Point Interaction Model for Chiral Recognition
+            section_type: core_theory
+          - section_title: Molecular Basis of Enantioselectivity in Catalysis
+            section_type: core_theory
+          - section_title: Transition State Analysis and Energy Diagrams
+            section_type: core_theory
+          - section_title: Chiral Recognition in Biological Systems
+            section_type: related concepts
+          - section_title: Host-Guest Chemistry and Chiral Selectors
+            section_type: related concepts
+          - section_title: Computational Modeling of Enantioselectivity
+            section_type: related concepts
+    milestone: Understand the fundamental principles governing enantio-discrimination
+    duration_days: 4
+    tags:
+      - enantio-discrimination
+      - chiral recognition
+      - selectivity mechanisms
+      - transition states
+
+  - id: 10
+    title: Resolution of Racemates - Classical Methods
+    learning_objectives:
+      - Understand the principles of classical optical resolution
+      - Study diastereomeric salt formation and crystallization
+      - Analyze chromatographic resolution techniques
+      - Evaluate efficiency and limitations of resolution methods
+    textbook_style_content:
+      - topic: Classical Resolution Techniques
+        sections:
+          - section_title: Overview of Resolution Strategies
+            section_type: overview
+          - section_title: Diastereomeric Salt Formation with Chiral Acids and Bases
+            section_type: core_theory
+          - section_title: Fractional Crystallization and Eutectic Compositions
+            section_type: core_theory
+          - section_title: Formation and Separation of Diastereomeric Derivatives
+            section_type: core_theory
+          - section_title: Preparative Chiral Chromatography
+            section_type: core_theory
+          - section_title: Entrainment and Preferential Crystallization
+            section_type: related concepts
+          - section_title: Industrial-Scale Resolution Methods
+            section_type: related concepts
+    milestone: Master classical resolution techniques for enantiomer separation
+    duration_days: 4
+    tags:
+      - resolution
+      - diastereomeric salts
+      - crystallization
+      - chromatography
+
+  - id: 11
+    title: Kinetic Resolution Methods
+    learning_objectives:
+      - Understand the principles of kinetic resolution
+      - Calculate selectivity factors and theoretical yields
+      - Study enzymatic kinetic resolution
+      - Analyze dynamic kinetic resolution strategies
+    textbook_style_content:
+      - topic: Kinetic Resolution Strategies
+        sections:
+          - section_title: Overview of Kinetic Resolution Principles
+            section_type: overview
+          - section_title: Selectivity Factor (s) and Maximum Theoretical Yield
+            section_type: core_theory
+          - section_title: Enzymatic Kinetic Resolution (Lipases, Esterases)
+            section_type: core_theory
+          - section_title: Nonenzymatic Catalytic Kinetic Resolution
+            section_type: core_theory
+          - section_title: Sharpless Kinetic Resolution of Secondary Alcohols
+            section_type: core_theory
+          - section_title: Dynamic Kinetic Resolution (DKR) and Racemization
+            section_type: related concepts
+          - section_title: Parallel Kinetic Resolution (PKR)
+            section_type: related concepts
+          - section_title: Kinetic Resolution in Total Synthesis
+            section_type: related concepts
+    milestone: Master kinetic resolution techniques and understand dynamic resolution strategies
+    duration_days: 5
+    tags:
+      - kinetic resolution
+      - enzymatic resolution
+      - dynamic kinetic resolution
+      - selectivity factor
+
+  - id: 12
+    title: Integration and Advanced Topics
+    learning_objectives:
+      - Compare and contrast different asymmetric synthesis strategies
+      - Design retrosynthetic routes incorporating asymmetric steps
+      - Analyze case studies from natural product and drug synthesis
+      - Understand current trends and future directions in asymmetric synthesis
+    textbook_style_content:
+      - topic: Comprehensive Asymmetric Synthesis Strategies
+        sections:
+          - section_title: Overview of Strategic Choices in Asymmetric Synthesis
+            section_type: overview
+          - section_title: Comparing Auxiliary, Reagent, and Catalyst Approaches
+            section_type: core_theory
+          - section_title: Retrosynthetic Analysis with Stereocontrol
+            section_type: core_theory
+          - section_title: Case Studies in Natural Product Total Synthesis
+            section_type: related concepts
+          - section_title: Case Studies in Drug Synthesis and Process Chemistry
+            section_type: related concepts
+          - section_title: Emerging Methods (C-H Activation, Photocatalysis)
+            section_type: related concepts
+          - section_title: Green Chemistry Aspects of Asymmetric Synthesis
+            section_type: related concepts
+    milestone: Synthesize knowledge to design comprehensive asymmetric synthesis strategies
+    duration_days: 6
+    tags:
+      - integration
+      - retrosynthesis
+      - total synthesis
+      - case studies
+      - advanced topics

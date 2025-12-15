@@ -1,0 +1,500 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Organic reactive intermediates: Generation, stability and reactivity of carbocations, carbanions, free radicals, carbenes, benzynes and nitrenes."
+
+concepts:
+  core:
+    - name: Carbocations
+      clarifier: Positively charged carbon intermediates with electron-deficient centers
+    - name: Carbanions
+      clarifier: Negatively charged carbon intermediates with electron-rich centers
+    - name: Free radicals
+      clarifier: Neutral intermediates with unpaired electrons
+    - name: Carbenes
+      clarifier: Neutral divalent carbon species with two nonbonding electrons
+    - name: Benzynes
+      clarifier: Highly reactive aromatic intermediates with formal triple bond in benzene ring
+    - name: Nitrenes
+      clarifier: Neutral monovalent nitrogen species with electron-deficient center
+  related:
+    - name: Hyperconjugation and resonance
+      clarifier: Electronic delocalization mechanisms stabilizing reactive intermediates
+    - name: Inductive and mesomeric effects
+      clarifier: Electronic effects influencing stability and reactivity patterns
+    - name: Rearrangement reactions
+      clarifier: Molecular reorganizations involving intermediate migration and transformation
+    - name: Stereochemistry of intermediates
+      clarifier: Three-dimensional spatial arrangements and their mechanistic implications
+    - name: Orbital hybridization theory
+      clarifier: Quantum mechanical framework for understanding intermediate geometry and reactivity
+    - name: Solvent effects
+      clarifier: Role of reaction medium in stabilization and reactivity of intermediates
+    - name: Spectroscopic detection methods
+      clarifier: Techniques for identifying and characterizing short-lived intermediates
+    - name: Neighboring group participation
+      clarifier: Intramolecular assistance in intermediate formation and reactions
+
+learning_path:
+  - id: 1
+    title: Foundations of Reactive Intermediates
+    learning_objectives:
+      - Define reactive intermediates and explain their role in organic reaction mechanisms
+      - Classify intermediates based on charge and electron configuration
+      - Understand the relationship between structure, stability, and reactivity
+      - Apply molecular orbital theory to predict intermediate behavior
+    textbook_style_content:
+      - topic: Introduction to Reactive Intermediates
+        sections:
+          - section_title: What are Reactive Intermediates
+            section_type: overview
+          - section_title: Classification and General Characteristics
+            section_type: core_theory
+          - section_title: Energy Profiles and Reaction Coordinates
+            section_type: core_theory
+          - section_title: Methods of Detection and Characterization
+            section_type: related concepts
+    milestone: Establish foundational understanding of reactive intermediate chemistry
+    duration_days: 3
+    tags:
+      - fundamentals
+      - classification
+      - detection methods
+
+  - id: 2
+    title: Carbocations - Generation and Stability
+    learning_objectives:
+      - Describe various methods for carbocation generation
+      - Explain stability trends using electronic effects and structural factors
+      - Apply Markovnikov's rule and carbocation rearrangements
+      - Predict products based on carbocation stability
+    textbook_style_content:
+      - topic: Carbocation Chemistry Part I
+        sections:
+          - section_title: Structure and Bonding in Carbocations
+            section_type: overview
+          - section_title: Methods of Generation
+            section_type: core_theory
+          - section_title: Stability Factors - Hyperconjugation and Resonance
+            section_type: core_theory
+          - section_title: Inductive Effects and Substituent Influence
+            section_type: related concepts
+          - section_title: Carbocation Stability Order
+            section_type: core_theory
+    milestone: Master carbocation generation mechanisms and stability principles
+    duration_days: 4
+    tags:
+      - carbocations
+      - stability
+      - electronic effects
+      - hyperconjugation
+
+  - id: 3
+    title: Carbocations - Reactivity and Rearrangements
+    learning_objectives:
+      - Analyze carbocation reactivity patterns and reaction pathways
+      - Explain Wagner-Meerwein, hydride, and alkyl shifts
+      - Predict rearrangement products using stability arguments
+      - Apply carbocation chemistry to synthesis problems
+    textbook_style_content:
+      - topic: Carbocation Chemistry Part II
+        sections:
+          - section_title: Reaction Pathways of Carbocations
+            section_type: overview
+          - section_title: 1,2-Hydride and 1,2-Alkyl Shifts
+            section_type: core_theory
+          - section_title: Wagner-Meerwein Rearrangement
+            section_type: core_theory
+          - section_title: Pinacol-Pinacolone Rearrangement
+            section_type: core_theory
+          - section_title: Non-Classical Carbocations
+            section_type: related concepts
+          - section_title: Solvent Effects on Carbocation Stability
+            section_type: related concepts
+    milestone: Complete understanding of carbocation reactivity and rearrangement mechanisms
+    duration_days: 5
+    tags:
+      - carbocations
+      - rearrangements
+      - reactivity
+      - mechanisms
+
+  - id: 4
+    title: Carbanions - Generation and Stability
+    learning_objectives:
+      - Identify methods for carbanion generation
+      - Explain factors affecting carbanion stability
+      - Compare acidity trends and pKa values
+      - Understand hybridization effects on carbanion stability
+    textbook_style_content:
+      - topic: Carbanion Chemistry Part I
+        sections:
+          - section_title: Structure and Geometry of Carbanions
+            section_type: overview
+          - section_title: Methods of Carbanion Generation
+            section_type: core_theory
+          - section_title: Stability Factors - Electronegativity and Hybridization
+            section_type: core_theory
+          - section_title: Resonance Stabilization in Carbanions
+            section_type: core_theory
+          - section_title: Inductive Effects and Substituent Influence
+            section_type: related concepts
+          - section_title: Solvent and Counterion Effects
+            section_type: related concepts
+    milestone: Develop comprehensive understanding of carbanion stability principles
+    duration_days: 4
+    tags:
+      - carbanions
+      - stability
+      - acidity
+      - resonance
+
+  - id: 5
+    title: Carbanions - Reactivity and Applications
+    learning_objectives:
+      - Analyze reactivity patterns of different carbanion types
+      - Apply carbanion chemistry to carbon-carbon bond formation
+      - Understand ambident nucleophile behavior
+      - Predict stereochemical outcomes of carbanion reactions
+    textbook_style_content:
+      - topic: Carbanion Chemistry Part II
+        sections:
+          - section_title: Reactivity Patterns and Nucleophilicity
+            section_type: overview
+          - section_title: Carbon-Carbon Bond Formation Reactions
+            section_type: core_theory
+          - section_title: Aldol and Claisen Condensations
+            section_type: core_theory
+          - section_title: Ambident Nucleophiles - Enolates and Allyl Anions
+            section_type: core_theory
+          - section_title: Stereochemistry of Carbanion Reactions
+            section_type: related concepts
+          - section_title: Ylides and Stabilized Carbanions
+            section_type: related concepts
+    milestone: Master carbanion reactivity and synthetic applications
+    duration_days: 5
+    tags:
+      - carbanions
+      - reactivity
+      - synthesis
+      - nucleophilicity
+
+  - id: 6
+    title: Free Radicals - Generation and Stability
+    learning_objectives:
+      - Describe homolytic bond cleavage and radical generation methods
+      - Explain factors affecting radical stability
+      - Understand the concept of radical chain reactions
+      - Apply Bond Dissociation Energy concepts
+    textbook_style_content:
+      - topic: Free Radical Chemistry Part I
+        sections:
+          - section_title: Nature and Structure of Free Radicals
+            section_type: overview
+          - section_title: Methods of Radical Generation
+            section_type: core_theory
+          - section_title: Thermal and Photochemical Homolysis
+            section_type: core_theory
+          - section_title: Radical Initiators and Generators
+            section_type: core_theory
+          - section_title: Stability Factors - Resonance and Hyperconjugation
+            section_type: core_theory
+          - section_title: Bond Dissociation Energies
+            section_type: related concepts
+          - section_title: Persistent and Stable Radicals
+            section_type: related concepts
+    milestone: Understand radical generation mechanisms and stability principles
+    duration_days: 4
+    tags:
+      - free radicals
+      - homolysis
+      - stability
+      - BDE
+
+  - id: 7
+    title: Free Radicals - Reactivity and Chain Reactions
+    learning_objectives:
+      - Analyze radical chain reaction mechanisms
+      - Explain halogenation, autoxidation, and polymerization
+      - Predict regioselectivity and stereoselectivity in radical reactions
+      - Understand radical rearrangements and fragmentation
+    textbook_style_content:
+      - topic: Free Radical Chemistry Part II
+        sections:
+          - section_title: Radical Chain Reactions - Initiation, Propagation, Termination
+            section_type: overview
+          - section_title: Halogenation of Alkanes
+            section_type: core_theory
+          - section_title: Allylic and Benzylic Halogenation
+            section_type: core_theory
+          - section_title: Anti-Markovnikov Addition - HBr and Peroxide Effect
+            section_type: core_theory
+          - section_title: Autoxidation and Radical Inhibitors
+            section_type: core_theory
+          - section_title: Radical Rearrangements and Fragmentations
+            section_type: related concepts
+          - section_title: Stereochemistry of Radical Reactions
+            section_type: related concepts
+          - section_title: Radical Polymerization Mechanisms
+            section_type: related concepts
+    milestone: Complete mastery of free radical reactivity and applications
+    duration_days: 5
+    tags:
+      - free radicals
+      - chain reactions
+      - reactivity
+      - mechanisms
+
+  - id: 8
+    title: Carbenes - Generation, Structure and Stability
+    learning_objectives:
+      - Describe methods for carbene generation
+      - Distinguish between singlet and triplet carbene states
+      - Explain factors affecting carbene stability
+      - Understand electronic configuration and spin states
+    textbook_style_content:
+      - topic: Carbene Chemistry Part I
+        sections:
+          - section_title: Introduction to Carbenes and Electronic States
+            section_type: overview
+          - section_title: Methods of Carbene Generation
+            section_type: core_theory
+          - section_title: Alpha-Elimination Reactions
+            section_type: core_theory
+          - section_title: Decomposition of Diazo Compounds
+            section_type: core_theory
+          - section_title: Singlet vs Triplet Carbenes - Energy States
+            section_type: core_theory
+          - section_title: Factors Affecting Spin State
+            section_type: related concepts
+          - section_title: Persistent Carbenes - N-Heterocyclic Carbenes
+            section_type: related concepts
+    milestone: Understand carbene generation and electronic structure fundamentals
+    duration_days: 4
+    tags:
+      - carbenes
+      - spin states
+      - generation
+      - electronic structure
+
+  - id: 9
+    title: Carbenes - Reactivity and Reactions
+    learning_objectives:
+      - Analyze reactivity differences between singlet and triplet carbenes
+      - Explain insertion reactions and cyclopropanation
+      - Predict stereochemical outcomes based on spin state
+      - Apply carbene chemistry to organic synthesis
+    textbook_style_content:
+      - topic: Carbene Chemistry Part II
+        sections:
+          - section_title: Reactivity Patterns of Singlet and Triplet Carbenes
+            section_type: overview
+          - section_title: Cyclopropanation of Alkenes
+            section_type: core_theory
+          - section_title: Insertion into C-H and X-H Bonds
+            section_type: core_theory
+          - section_title: Rearrangement Reactions of Carbenes
+            section_type: core_theory
+          - section_title: Stereochemistry of Carbene Additions
+            section_type: related concepts
+          - section_title: Simmons-Smith Reaction
+            section_type: related concepts
+          - section_title: Carbenoids and Metal-Carbene Complexes
+            section_type: related concepts
+    milestone: Master carbene reactivity and synthetic applications
+    duration_days: 5
+    tags:
+      - carbenes
+      - reactivity
+      - cyclopropanation
+      - stereochemistry
+
+  - id: 10
+    title: Benzynes - Generation and Characteristics
+    learning_objectives:
+      - Describe methods for benzyne generation
+      - Explain the unusual bonding in benzynes
+      - Understand steric and electronic effects on benzyne formation
+      - Predict regioselectivity in benzyne reactions
+    textbook_style_content:
+      - topic: Benzyne Chemistry Part I
+        sections:
+          - section_title: Introduction to Arynes and Benzynes
+            section_type: overview
+          - section_title: Methods of Benzyne Generation
+            section_type: core_theory
+          - section_title: Elimination from Aryl Halides
+            section_type: core_theory
+          - section_title: Decomposition of Anthranilic Acid Derivatives
+            section_type: core_theory
+          - section_title: Structure and Bonding in Benzynes
+            section_type: core_theory
+          - section_title: Distortion and Ring Strain
+            section_type: related concepts
+          - section_title: Evidence for Benzyne Intermediates
+            section_type: related concepts
+    milestone: Understand benzyne structure and generation mechanisms
+    duration_days: 3
+    tags:
+      - benzynes
+      - arynes
+      - generation
+      - bonding
+
+  - id: 11
+    title: Benzynes - Reactivity and Synthetic Applications
+    learning_objectives:
+      - Analyze reactivity patterns of benzyne intermediates
+      - Explain Diels-Alder reactions and nucleophilic additions
+      - Predict regioselectivity using symmetry arguments
+      - Apply benzyne chemistry to synthesis of complex aromatics
+    textbook_style_content:
+      - topic: Benzyne Chemistry Part II
+        sections:
+          - section_title: Reactivity Overview and Reaction Types
+            section_type: overview
+          - section_title: Nucleophilic Addition to Benzynes
+            section_type: core_theory
+          - section_title: Diels-Alder Cycloaddition Reactions
+            section_type: core_theory
+          - section_title: Insertion Reactions
+            section_type: core_theory
+          - section_title: Regioselectivity in Unsymmetrical Benzynes
+            section_type: related concepts
+          - section_title: Synthetic Applications and Complex Molecule Synthesis
+            section_type: related concepts
+    milestone: Master benzyne reactivity and synthetic utility
+    duration_days: 4
+    tags:
+      - benzynes
+      - reactivity
+      - cycloaddition
+      - synthesis
+
+  - id: 12
+    title: Nitrenes - Generation, Structure and Stability
+    learning_objectives:
+      - Describe methods for nitrene generation
+      - Distinguish between singlet and triplet nitrene states
+      - Explain electronic configuration and geometry
+      - Compare nitrenes with carbenes in terms of reactivity
+    textbook_style_content:
+      - topic: Nitrene Chemistry Part I
+        sections:
+          - section_title: Introduction to Nitrenes and Electronic States
+            section_type: overview
+          - section_title: Methods of Nitrene Generation
+            section_type: core_theory
+          - section_title: Thermal and Photochemical Decomposition of Azides
+            section_type: core_theory
+          - section_title: Alpha-Elimination from Amine Derivatives
+            section_type: core_theory
+          - section_title: Singlet vs Triplet Nitrenes - Electronic Configuration
+            section_type: core_theory
+          - section_title: Factors Affecting Spin Multiplicity
+            section_type: related concepts
+          - section_title: Comparison with Carbenes
+            section_type: related concepts
+    milestone: Understand nitrene generation and electronic structure
+    duration_days: 3
+    tags:
+      - nitrenes
+      - generation
+      - spin states
+      - electronic structure
+
+  - id: 13
+    title: Nitrenes - Reactivity and Applications
+    learning_objectives:
+      - Analyze reactivity differences between singlet and triplet nitrenes
+      - Explain C-H insertion and aziridine formation
+      - Understand Curtius rearrangement and related reactions
+      - Apply nitrene chemistry to nitrogen heterocycle synthesis
+    textbook_style_content:
+      - topic: Nitrene Chemistry Part II
+        sections:
+          - section_title: Reactivity Patterns of Singlet and Triplet Nitrenes
+            section_type: overview
+          - section_title: Addition to Alkenes - Aziridine Formation
+            section_type: core_theory
+          - section_title: C-H Insertion Reactions
+            section_type: core_theory
+          - section_title: Rearrangement Reactions - Curtius and Hofmann
+            section_type: core_theory
+          - section_title: Stereochemistry of Nitrene Reactions
+            section_type: related concepts
+          - section_title: Nitrenoids and Metal-Nitrene Complexes
+            section_type: related concepts
+          - section_title: Applications in Heterocyclic Synthesis
+            section_type: related concepts
+    milestone: Master nitrene reactivity and synthetic applications
+    duration_days: 4
+    tags:
+      - nitrenes
+      - reactivity
+      - rearrangements
+      - synthesis
+
+  - id: 14
+    title: Comparative Analysis and Mechanistic Principles
+    learning_objectives:
+      - Compare and contrast all six reactive intermediate types
+      - Apply intermediate chemistry to predict reaction mechanisms
+      - Analyze competition between different intermediates
+      - Solve complex mechanistic problems involving multiple intermediates
+    textbook_style_content:
+      - topic: Integrated Understanding of Reactive Intermediates
+        sections:
+          - section_title: Comparative Overview of All Intermediates
+            section_type: overview
+          - section_title: Structure-Reactivity Relationships Across Intermediates
+            section_type: core_theory
+          - section_title: Electronic Effects and Stabilization Mechanisms
+            section_type: core_theory
+          - section_title: Competing Pathways and Intermediate Selection
+            section_type: core_theory
+          - section_title: Mechanistic Problem-Solving Strategies
+            section_type: related concepts
+          - section_title: Kinetic vs Thermodynamic Control
+            section_type: related concepts
+          - section_title: Advanced Topics and Research Frontiers
+            section_type: related concepts
+    milestone: Achieve integrated mastery of all reactive intermediate chemistry
+    duration_days: 5
+    tags:
+      - comparative analysis
+      - mechanisms
+      - problem solving
+      - integration
+
+  - id: 15
+    title: Practice Problems and CSIR Exam Preparation
+    learning_objectives:
+      - Solve CSIR-level problems on reactive intermediates
+      - Apply concepts to predict products and mechanisms
+      - Analyze spectroscopic data for intermediate identification
+      - Master time management for exam success
+    textbook_style_content:
+      - topic: Comprehensive Problem Solving and Exam Strategy
+        sections:
+          - section_title: Problem-Solving Framework
+            section_type: overview
+          - section_title: Carbocation and Carbanion Problems
+            section_type: core_theory
+          - section_title: Free Radical Mechanism Problems
+            section_type: core_theory
+          - section_title: Carbene, Benzyne and Nitrene Problems
+            section_type: core_theory
+          - section_title: Multi-Step Synthesis Using Intermediates
+            section_type: related concepts
+          - section_title: Spectroscopic Identification Problems
+            section_type: related concepts
+          - section_title: Previous CSIR Questions Analysis
+            section_type: related concepts
+    milestone: Complete exam readiness for CSIR Chemical Sciences
+    duration_days: 7
+    tags:
+      - problem solving
+      - exam preparation
+      - CSIR
+      - practice

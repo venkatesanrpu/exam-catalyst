@@ -1,0 +1,393 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Equilibrium - Laws of thermodynamics, Standard states, Thermochemistry, Thermodynamic functions and their relationships, Criteria of spontaneity and equilibrium, Absolute entropy, Partial molar quantities, Thermodynamics of mixing, Chemical potential, Fugacity, activity and activity coefficients, Ideal and Non-ideal solutions, Chemical equilibria, Dependence of equilibrium constant on temperature and pressure
+
+concepts:
+  core:
+    - name: Laws of Thermodynamics
+      clarifier: First, second, and third laws governing energy and entropy changes in systems
+    - name: Thermodynamic Functions and Relations
+      clarifier: Enthalpy, entropy, Gibbs free energy, Helmholtz free energy and their interrelationships
+    - name: Gibbs-Helmholtz and Maxwell Relations
+      clarifier: Mathematical relationships connecting thermodynamic properties and enabling predictive calculations
+    - name: Criteria of Spontaneity and Equilibrium
+      clarifier: Thermodynamic conditions determining spontaneous processes and equilibrium states
+    - name: Chemical Potential and Partial Molar Quantities
+      clarifier: Intensive properties describing component behavior in multicomponent systems
+    - name: Fugacity and Activity
+      clarifier: Effective concentrations accounting for non-ideal behavior of substances
+    - name: Ideal and Non-ideal Solutions
+      clarifier: Solution behavior under ideal assumptions and real deviations therefrom
+    - name: Chemical Equilibrium
+      clarifier: Quantitative relationships at equilibrium described by equilibrium constants
+    - name: Temperature and Pressure Dependence of Equilibrium
+      clarifier: van't Hoff and related equations describing equilibrium shifts
+
+  related:
+    - name: Standard States
+      clarifier: Reference states for calculating thermodynamic properties and functions
+    - name: Thermochemistry
+      clarifier: Enthalpy changes accompanying chemical reactions and phase transitions
+    - name: Absolute Entropy
+      clarifier: Entropy values relative to a true zero reference based on third law
+    - name: Gibbs-Duhem Equation
+      clarifier: Constraint relating changes in chemical potentials of system components
+    - name: Thermodynamics of Mixing
+      clarifier: Entropy, enthalpy, and volume changes when pure substances combine
+    - name: Raoult's Law and Henry's Law
+      clarifier: Empirical descriptions of vapor pressure behavior in ideal and dilute solutions
+
+learning_path:
+  - id: 1
+    topic: Foundations of Thermodynamics and Laws
+    learning_objectives:
+      - Understand the first law of thermodynamics and internal energy concepts
+      - Apply the second law to identify spontaneous processes
+      - Comprehend the third law and absolute entropy
+      - Distinguish between state and path functions
+    textbook_style_content:
+      - lesson: First Law of Thermodynamics
+        sections:
+          - section_heading: Internal Energy and Work
+            section_type: core_theory
+          - section_heading: Heat, Work, and Energy Conservation
+            section_type: core_theory
+          - section_heading: State Functions and Path Functions
+            section_type: overview
+      - lesson: Second Law of Thermodynamics
+        sections:
+          - section_heading: Entropy as a State Function
+            section_type: core_theory
+          - section_heading: Spontaneity and Direction of Processes
+            section_type: core_theory
+          - section_heading: Clausius Inequality and Entropy Change
+            section_type: core_theory
+      - lesson: Third Law and Absolute Entropy
+        sections:
+          - section_heading: Third Law of Thermodynamics
+            section_type: core_theory
+          - section_heading: Calculation of Absolute Entropy Values
+            section_type: related concepts
+    milestone: Mastery of thermodynamic laws and entropy fundamentals
+    duration_days: 8
+    tags:
+      - fundamentals
+      - laws
+      - entropy
+
+  - id: 2
+    topic: Thermodynamic Functions and Standard States
+    learning_objectives:
+      - Define and calculate enthalpy, Gibbs free energy, and Helmholtz free energy
+      - Apply standard states in thermodynamic calculations
+      - Understand thermochemistry and enthalpy of reactions
+      - Connect different thermodynamic properties
+    textbook_style_content:
+      - lesson: Standard States and Reference Conditions
+        sections:
+          - section_heading: Definition of Standard States
+            section_type: overview
+          - section_heading: Standard Thermodynamic Properties
+            section_type: core_theory
+          - section_heading: Temperature and Pressure Dependence of Standard States
+            section_type: related concepts
+      - lesson: Enthalpy and Thermochemistry
+        sections:
+          - section_heading: Enthalpy as a State Function
+            section_type: core_theory
+          - section_heading: Hess's Law and Reaction Enthalpies
+            section_type: core_theory
+          - section_heading: Born-Haber Cycle Applications
+            section_type: related concepts
+      - lesson: Gibbs Free Energy and Helmholtz Free Energy
+        sections:
+          - section_heading: Definition and Physical Significance
+            section_type: core_theory
+          - section_heading: Relationship between G, H, and S
+            section_type: core_theory
+          - section_heading: Maximum Work and Non-expansion Work
+            section_type: related concepts
+    milestone: Proficiency in calculating and applying thermodynamic functions
+    duration_days: 10
+    tags:
+      - functions
+      - thermochemistry
+      - standard_states
+
+  - id: 3
+    topic: Thermodynamic Relations and Mathematical Framework
+    learning_objectives:
+      - Derive and apply Maxwell relations
+      - Understand Gibbs-Helmholtz equation and its applications
+      - Apply Gibbs-Duhem equation to multicomponent systems
+      - Recognize functional relationships between properties
+    textbook_style_content:
+      - lesson: Maxwell Relations
+        sections:
+          - section_heading: Derivation from Exact Differentials
+            section_type: core_theory
+          - section_heading: Four Principal Maxwell Relations
+            section_type: core_theory
+          - section_heading: Applications to Thermodynamic Properties
+            section_type: related concepts
+      - lesson: Gibbs-Helmholtz Equation
+        sections:
+          - section_heading: Temperature Dependence of Gibbs Free Energy
+            section_type: core_theory
+          - section_heading: Enthalpy-Entropy Trade-off Analysis
+            section_type: core_theory
+          - section_heading: Pressure Dependence of Equilibrium
+            section_type: related concepts
+      - lesson: Gibbs-Duhem Equation
+        sections:
+          - section_heading: Constraint on Intensive Variables
+            section_type: core_theory
+          - section_heading: Application to Multicomponent Systems
+            section_type: core_theory
+          - section_heading: Relation to Activity Coefficients
+            section_type: related concepts
+    milestone: Mastery of thermodynamic mathematical relationships
+    duration_days: 9
+    tags:
+      - relations
+      - mathematics
+      - multicomponent
+
+  - id: 4
+    topic: Spontaneity, Equilibrium, and Chemical Potential
+    learning_objectives:
+      - Apply thermodynamic criteria for spontaneity and equilibrium
+      - Understand chemical potential as a driving force
+      - Calculate partial molar quantities
+      - Analyze thermodynamics of mixing
+    textbook_style_content:
+      - lesson: Criteria of Spontaneity and Equilibrium
+        sections:
+          - section_heading: Gibbs Free Energy as Spontaneity Criterion
+            section_type: core_theory
+          - section_heading: Helmholtz Free Energy Criterion
+            section_type: core_theory
+          - section_heading: Direction and Extent of Spontaneous Change
+            section_type: related concepts
+      - lesson: Chemical Potential
+        sections:
+          - section_heading: Definition and Thermodynamic Significance
+            section_type: core_theory
+          - section_heading: Escaping Tendency and Fugacity Relation
+            section_type: core_theory
+          - section_heading: Chemical Potential in Phase and Chemical Equilibria
+            section_type: related concepts
+      - lesson: Partial Molar Quantities
+        sections:
+          - section_heading: Concept of Partial Molar Properties
+            section_type: core_theory
+          - section_heading: Gibbs-Duhem Integration and Determination Methods
+            section_type: core_theory
+          - section_heading: Partial Molar Enthalpy and Entropy
+            section_type: related concepts
+      - lesson: Thermodynamics of Mixing
+        sections:
+          - section_heading: Gibbs Free Energy of Mixing
+            section_type: core_theory
+          - section_heading: Entropy and Enthalpy of Mixing
+            section_type: core_theory
+          - section_heading: Ideal Mixing Behavior
+            section_type: related concepts
+    milestone: Understanding of driving forces and equilibrium conditions in systems
+    duration_days: 11
+    tags:
+      - equilibrium
+      - chemical_potential
+      - mixing
+
+  - id: 5
+    topic: Fugacity, Activity, and Non-ideal Behavior
+    learning_objectives:
+      - Understand fugacity as corrected pressure for real gases
+      - Define and calculate activity coefficients
+      - Apply activity corrections to equilibrium expressions
+      - Distinguish between ideal and non-ideal solution behavior
+    textbook_style_content:
+      - lesson: Fugacity Concept
+        sections:
+          - section_heading: Definition and Relation to Chemical Potential
+            section_type: core_theory
+          - section_heading: Fugacity Coefficient and Real Gases
+            section_type: core_theory
+          - section_heading: Fugacity in Pure Liquids and Solids
+            section_type: related concepts
+      - lesson: Activity and Activity Coefficients
+        sections:
+          - section_heading: Definition of Activity
+            section_type: core_theory
+          - section_heading: Standard States and Activity Calculations
+            section_type: core_theory
+          - section_heading: Activity Coefficients from Experimental Data
+            section_type: related concepts
+      - lesson: Non-ideal Solutions
+        sections:
+          - section_heading: Deviations from Ideal Behavior
+            section_type: core_theory
+          - section_heading: Excess Thermodynamic Functions
+            section_type: core_theory
+          - section_heading: Models for Non-ideal Solutions (Margules, Van Laar)
+            section_type: related concepts
+    milestone: Competency in handling real system thermodynamics
+    duration_days: 10
+    tags:
+      - fugacity
+      - activity
+      - non_ideal
+
+  - id: 6
+    topic: Ideal Solutions and Colligative Properties
+    learning_objectives:
+      - Apply Raoult's Law to ideal solutions
+      - Understand Henry's Law for dilute solutions
+      - Analyze vapor-liquid equilibria
+      - Calculate colligative properties
+    textbook_style_content:
+      - lesson: Raoult's Law and Ideal Solutions
+        sections:
+          - section_heading: Raoult's Law Definition and Derivation
+            section_type: core_theory
+          - section_heading: Ideal Solution Behavior and Mixing Properties
+            section_type: core_theory
+          - section_heading: Total Vapor Pressure and Composition Diagrams
+            section_type: related concepts
+      - lesson: Henry's Law
+        sections:
+          - section_heading: Henry's Law for Dilute Solutions
+            section_type: core_theory
+          - section_heading: Solubility of Gases and Henry's Constant
+            section_type: core_theory
+          - section_heading: Transition from Henry's to Raoult's Law
+            section_type: related concepts
+      - lesson: Vapor-Liquid Equilibrium
+        sections:
+          - section_heading: Phase Diagrams and Composition Relations
+            section_type: core_theory
+          - section_heading: Azeotropic Behavior and Non-ideal Systems
+            section_type: related concepts
+    milestone: Understanding of solution equilibria and colligative phenomena
+    duration_days: 8
+    tags:
+      - solutions
+      - raoult
+      - henry
+
+  - id: 7
+    topic: Chemical Equilibria and Equilibrium Constants
+    learning_objectives:
+      - Calculate equilibrium constants from thermodynamic data
+      - Understand relationship between Gibbs free energy and equilibrium constant
+      - Apply equilibrium expressions to chemical systems
+      - Analyze equilibrium shifts and perturbations
+    textbook_style_content:
+      - lesson: Chemical Equilibrium Fundamentals
+        sections:
+          - section_heading: Equilibrium Constant Definition and Types
+            section_type: core_theory
+          - section_heading: Gibbs Free Energy and K Relationship
+            section_type: core_theory
+          - section_heading: Standard State Dependence of Equilibrium Constants
+            section_type: related concepts
+      - lesson: Calculation of Equilibrium Constants
+        sections:
+          - section_heading: From Standard Thermodynamic Properties
+            section_type: core_theory
+          - section_heading: Temperature Dependence (van't Hoff Equation)
+            section_type: core_theory
+          - section_heading: Pressure Dependence in Gas-Phase Equilibria
+            section_type: core_theory
+      - lesson: Equilibrium Analysis
+        sections:
+          - section_heading: Reaction Quotient and Direction Prediction
+            section_type: core_theory
+          - section_heading: Equilibrium Shifts and Le Chatelier's Principle
+            section_type: related concepts
+    milestone: Mastery of chemical equilibrium calculations and predictions
+    duration_days: 10
+    tags:
+      - equilibrium
+      - constants
+      - van_t_hoff
+
+  - id: 8
+    topic: Temperature and Pressure Effects on Equilibrium
+    learning_objectives:
+      - Apply van't Hoff equation for temperature dependence
+      - Understand pressure effects on chemical equilibria
+      - Predict equilibrium shifts under varying conditions
+      - Integrate Gibbs-Helmholtz with equilibrium theory
+    textbook_style_content:
+      - lesson: van't Hoff Equation
+        sections:
+          - section_heading: Derivation and Physical Meaning
+            section_type: core_theory
+          - section_heading: Temperature Dependence of Equilibrium Constant
+            section_type: core_theory
+          - section_heading: Applications to Exothermic and Endothermic Reactions
+            section_type: related concepts
+      - lesson: Pressure Effects on Equilibrium
+        sections:
+          - section_heading: Effect of Pressure on Gas-Phase Equilibria
+            section_type: core_theory
+          - section_heading: Le Chatelier's Principle Application
+            section_type: core_theory
+          - section_heading: Equilibrium Constant vs. Reaction Quotient
+            section_type: related concepts
+      - lesson: Integrated Thermodynamic Analysis
+        sections:
+          - section_heading: Combined Temperature and Pressure Effects
+            section_type: core_theory
+          - section_heading: Quantitative Prediction of Equilibrium Position
+            section_type: core_theory
+          - section_heading: Real System Corrections Using Activity
+            section_type: related concepts
+    milestone: Comprehensive understanding of equilibrium behavior under variable conditions
+    duration_days: 10
+    tags:
+      - van_t_hoff
+      - temperature_dependence
+      - pressure_effects
+
+  - id: 9
+    topic: Integrated Problem-Solving and Synthesis
+    learning_objectives:
+      - Synthesize multiple thermodynamic concepts for complex problems
+      - Apply appropriate tools (relations, equations, criteria) systematically
+      - Solve multistep equilibrium problems
+      - Validate solutions using different approaches
+    textbook_style_content:
+      - lesson: Multi-concept Problem Integration
+        sections:
+          - section_heading: Identification of Relevant Thermodynamic Framework
+            section_type: core_theory
+          - section_heading: Sequential Application of Laws and Relations
+            section_type: core_theory
+          - section_heading: Solution Validation and Error Analysis
+            section_type: related concepts
+      - lesson: Real-world Equilibrium Systems
+        sections:
+          - section_heading: Coupled Reactions and Equilibria
+            section_type: core_theory
+          - section_heading: Phase Equilibria with Chemical Reactions
+            section_type: related concepts
+          - section_heading: Industrial Applications
+            section_type: related concepts
+      - lesson: GATE Examination Strategy
+        sections:
+          - section_heading: Rapid Problem Classification
+            section_type: overview
+          - section_heading: Time-efficient Solution Methods
+            section_type: overview
+          - section_heading: Common Pitfalls and Avoidance
+            section_type: overview
+    milestone: Expert-level problem-solving proficiency for GATE examination
+    duration_days: 8
+    tags:
+      - synthesis
+      - problem_solving
+      - examination

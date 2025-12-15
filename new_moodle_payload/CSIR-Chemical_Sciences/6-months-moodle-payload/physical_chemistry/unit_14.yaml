@@ -1,0 +1,317 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Data analysis: Mean and standard deviation; absolute and relative errors; linear regression; covariance and correlation coefficient."
+
+concepts:
+  core:
+    - name: Mean and Standard Deviation
+      clarifier: Measures of central tendency and dispersion for quantitative data characterization
+    - name: Absolute and Relative Errors
+      clarifier: Quantification of measurement uncertainty in experimental chemistry
+    - name: Linear Regression
+      clarifier: Statistical method for modeling linear relationships between variables
+    - name: Covariance and Correlation Coefficient
+      clarifier: Metrics for measuring the strength and direction of linear relationships
+  related:
+    - name: Normal Distribution
+      clarifier: Theoretical probability distribution underlying error analysis
+    - name: Least Squares Method
+      clarifier: Mathematical optimization technique for fitting regression models
+    - name: Confidence Intervals
+      clarifier: Statistical ranges for parameter estimation with specified probability
+    - name: Residual Analysis
+      clarifier: Diagnostic technique for validating regression model assumptions
+    - name: Propagation of Errors
+      clarifier: Mathematical framework for combining uncertainties in derived quantities
+    - name: Hypothesis Testing
+      clarifier: Statistical inference procedure for validating correlations and regression parameters
+
+learning_path:
+  - id: 1
+    title: Foundations of Descriptive Statistics
+    learning_objectives:
+      - Define and calculate arithmetic mean as a measure of central tendency
+      - Compute variance and standard deviation for sample and population data
+      - Interpret standard deviation in the context of data spread and precision
+      - Apply statistical measures to analyze experimental chemistry data sets
+    textbook_style_content:
+      - topic: Introduction to Data Analysis in Chemistry
+        sections:
+          - section_title: The Role of Statistics in Chemical Sciences
+            section_type: overview
+          - section_title: Population versus Sample Statistics
+            section_type: core_theory
+          - section_title: Types of Chemical Data and Measurement Scales
+            section_type: related_concepts
+      - topic: Measures of Central Tendency
+        sections:
+          - section_title: The Arithmetic Mean
+            section_type: core_theory
+          - section_title: Properties and Limitations of the Mean
+            section_type: core_theory
+          - section_title: Median and Mode as Alternative Measures
+            section_type: related_concepts
+      - topic: Measures of Dispersion
+        sections:
+          - section_title: Variance and Standard Deviation
+            section_type: core_theory
+          - section_title: Computational Formulas and Shortcuts
+            section_type: core_theory
+          - section_title: Coefficient of Variation and Range
+            section_type: related_concepts
+      - topic: Applications in Chemical Measurements
+        sections:
+          - section_title: Precision and Reproducibility Assessment
+            section_type: core_theory
+          - section_title: Normal Distribution and the 68-95-99.7 Rule
+            section_type: related_concepts
+    milestone: Master calculation and interpretation of mean and standard deviation for chemical data analysis
+    duration_days: 4
+    tags:
+      - descriptive statistics
+      - central tendency
+      - dispersion
+      - precision
+
+  - id: 2
+    title: Error Analysis and Uncertainty Quantification
+    learning_objectives:
+      - Distinguish between systematic and random errors in measurements
+      - Calculate absolute error as the difference between measured and true values
+      - Compute relative error and percent error for comparative assessment
+      - Apply error propagation rules to derived quantities
+    textbook_style_content:
+      - topic: Nature of Experimental Errors
+        sections:
+          - section_title: Sources of Error in Chemical Measurements
+            section_type: overview
+          - section_title: Systematic versus Random Errors
+            section_type: core_theory
+          - section_title: Accuracy and Precision Concepts
+            section_type: core_theory
+      - topic: Absolute Error Calculations
+        sections:
+          - section_title: Definition and Mathematical Representation
+            section_type: core_theory
+          - section_title: Absolute Uncertainty in Direct Measurements
+            section_type: core_theory
+          - section_title: Reporting Measured Values with Uncertainties
+            section_type: core_theory
+      - topic: Relative Error Analysis
+        sections:
+          - section_title: Relative Error and Percent Error Formulas
+            section_type: core_theory
+          - section_title: Significance of Relative Errors in Comparative Studies
+            section_type: core_theory
+          - section_title: Parts Per Million and Parts Per Billion Errors
+            section_type: related_concepts
+      - topic: Error Propagation
+        sections:
+          - section_title: Propagation in Addition and Subtraction
+            section_type: related_concepts
+          - section_title: Propagation in Multiplication and Division
+            section_type: related_concepts
+          - section_title: General Propagation Formula Using Partial Derivatives
+            section_type: related_concepts
+    milestone: Quantify and report measurement uncertainties using absolute and relative error metrics
+    duration_days: 5
+    tags:
+      - error analysis
+      - uncertainty
+      - accuracy
+      - precision
+
+  - id: 3
+    title: Bivariate Relationships and Covariance
+    learning_objectives:
+      - Calculate covariance to measure joint variability between two variables
+      - Interpret positive and negative covariance in chemical contexts
+      - Compute Pearson correlation coefficient from covariance
+      - Assess the strength and direction of linear relationships using correlation
+    textbook_style_content:
+      - topic: Introduction to Bivariate Analysis
+        sections:
+          - section_title: Paired Data in Chemical Studies
+            section_type: overview
+          - section_title: Scatter Plots for Visualizing Relationships
+            section_type: related_concepts
+          - section_title: Linear versus Nonlinear Associations
+            section_type: related_concepts
+      - topic: Covariance Theory and Calculation
+        sections:
+          - section_title: Definition of Covariance
+            section_type: core_theory
+          - section_title: Computational Formula for Sample Covariance
+            section_type: core_theory
+          - section_title: Interpretation of Covariance Sign and Magnitude
+            section_type: core_theory
+          - section_title: Limitations of Covariance as a Measure
+            section_type: core_theory
+      - topic: Correlation Coefficient
+        sections:
+          - section_title: Pearson Correlation Coefficient Formula
+            section_type: core_theory
+          - section_title: Properties and Range of Correlation Coefficient
+            section_type: core_theory
+          - section_title: Perfect Positive and Negative Correlations
+            section_type: core_theory
+          - section_title: Correlation Does Not Imply Causation
+            section_type: related_concepts
+      - topic: Statistical Significance of Correlations
+        sections:
+          - section_title: Hypothesis Testing for Correlation Coefficient
+            section_type: related_concepts
+          - section_title: Critical Values and p-values
+            section_type: related_concepts
+    milestone: Quantify linear relationships between chemical variables using covariance and correlation
+    duration_days: 5
+    tags:
+      - bivariate analysis
+      - covariance
+      - correlation
+      - relationships
+
+  - id: 4
+    title: Linear Regression Modeling
+    learning_objectives:
+      - Derive the least squares estimates for regression slope and intercept
+      - Construct linear regression models for chemical calibration curves
+      - Interpret regression parameters in physical chemistry contexts
+      - Validate regression assumptions through residual analysis
+    textbook_style_content:
+      - topic: Fundamentals of Regression Analysis
+        sections:
+          - section_title: The Regression Problem in Chemistry
+            section_type: overview
+          - section_title: Simple Linear Regression Model
+            section_type: core_theory
+          - section_title: Dependent and Independent Variables
+            section_type: core_theory
+      - topic: Method of Least Squares
+        sections:
+          - section_title: Principle of Least Squares Minimization
+            section_type: core_theory
+          - section_title: Derivation of Slope and Intercept Formulas
+            section_type: core_theory
+          - section_title: Normal Equations for Parameter Estimation
+            section_type: related_concepts
+      - topic: Regression Coefficients and Interpretation
+        sections:
+          - section_title: Slope as Rate of Change
+            section_type: core_theory
+          - section_title: Intercept and Its Physical Meaning
+            section_type: core_theory
+          - section_title: Standardized Regression Coefficients
+            section_type: related_concepts
+      - topic: Goodness of Fit Assessment
+        sections:
+          - section_title: Coefficient of Determination (R-squared)
+            section_type: core_theory
+          - section_title: Residual Sum of Squares
+            section_type: core_theory
+          - section_title: Standard Error of Regression
+            section_type: related_concepts
+      - topic: Residual Analysis and Diagnostics
+        sections:
+          - section_title: Definition and Calculation of Residuals
+            section_type: related_concepts
+          - section_title: Residual Plots for Assumption Validation
+            section_type: related_concepts
+          - section_title: Detecting Outliers and Influential Points
+            section_type: related_concepts
+    milestone: Develop and validate linear regression models for quantitative chemical analysis
+    duration_days: 6
+    tags:
+      - linear regression
+      - least squares
+      - calibration
+      - modeling
+
+  - id: 5
+    title: Confidence Intervals and Prediction Intervals
+    learning_objectives:
+      - Construct confidence intervals for regression parameters
+      - Calculate prediction intervals for new observations
+      - Apply t-distribution in small sample regression analysis
+      - Assess uncertainty in predicted values from regression models
+    textbook_style_content:
+      - topic: Statistical Inference in Regression
+        sections:
+          - section_title: Sampling Distribution of Regression Estimates
+            section_type: overview
+          - section_title: Standard Errors of Slope and Intercept
+            section_type: related_concepts
+          - section_title: Degrees of Freedom in Regression
+            section_type: related_concepts
+      - topic: Confidence Intervals for Parameters
+        sections:
+          - section_title: Confidence Interval for Regression Slope
+            section_type: related_concepts
+          - section_title: Confidence Interval for Regression Intercept
+            section_type: related_concepts
+          - section_title: Confidence Band for Regression Line
+            section_type: related_concepts
+      - topic: Prediction and Uncertainty
+        sections:
+          - section_title: Point Prediction from Regression Equation
+            section_type: related_concepts
+          - section_title: Prediction Interval for Individual Observations
+            section_type: related_concepts
+          - section_title: Difference Between Confidence and Prediction Intervals
+            section_type: related_concepts
+    milestone: Quantify uncertainty in regression predictions using confidence and prediction intervals
+    duration_days: 4
+    tags:
+      - confidence intervals
+      - prediction intervals
+      - uncertainty quantification
+      - statistical inference
+
+  - id: 6
+    title: Integrated Data Analysis Applications
+    learning_objectives:
+      - Execute complete data analysis workflows for chemical experiments
+      - Select appropriate statistical methods for given research questions
+      - Interpret statistical output in the context of physical chemistry
+      - Present statistical results with proper uncertainty quantification
+    textbook_style_content:
+      - topic: Case Study - Spectrophotometric Analysis
+        sections:
+          - section_title: Beer-Lambert Law Calibration Curves
+            section_type: overview
+          - section_title: Linear Regression for Absorbance-Concentration Relationships
+            section_type: core_theory
+          - section_title: Error Analysis in Concentration Determination
+            section_type: core_theory
+      - topic: Case Study - Kinetics Data Analysis
+        sections:
+          - section_title: Rate Law Determination from Experimental Data
+            section_type: overview
+          - section_title: Correlation Analysis of Concentration-Time Profiles
+            section_type: core_theory
+          - section_title: Uncertainty Propagation in Rate Constants
+            section_type: core_theory
+      - topic: Case Study - Thermodynamic Property Correlations
+        sections:
+          - section_title: Van't Hoff Equation and Temperature Dependence
+            section_type: overview
+          - section_title: Regression Analysis for Enthalpy and Entropy Estimation
+            section_type: core_theory
+          - section_title: Confidence Intervals for Thermodynamic Parameters
+            section_type: related_concepts
+      - topic: Best Practices in Chemical Data Analysis
+        sections:
+          - section_title: Data Quality Assessment and Outlier Detection
+            section_type: related_concepts
+          - section_title: Assumption Checking and Model Validation
+            section_type: related_concepts
+          - section_title: Reporting Statistical Results in Scientific Publications
+            section_type: related_concepts
+    milestone: Apply comprehensive data analysis methods to solve real-world physical chemistry problems
+    duration_days: 5
+    tags:
+      - applications
+      - case studies
+      - integrated analysis
+      - problem solving

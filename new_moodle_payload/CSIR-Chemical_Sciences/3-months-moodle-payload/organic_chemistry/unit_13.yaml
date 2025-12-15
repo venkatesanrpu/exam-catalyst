@@ -1,0 +1,715 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Structure determination of organic compounds by IR, UV-Vis, 1H & 13C NMR and Mass spectroscopic techniques
+
+concepts:
+  core:
+    - name: Infrared (IR) Spectroscopy
+      clarifier: Vibrational spectroscopy for functional group identification through characteristic absorption frequencies
+    - name: Ultraviolet-Visible (UV-Vis) Spectroscopy
+      clarifier: Electronic spectroscopy for analyzing conjugated systems and chromophores
+    - name: Proton Nuclear Magnetic Resonance (1H NMR)
+      clarifier: Spectroscopic technique revealing hydrogen atom environments, chemical shifts, and coupling patterns
+    - name: Carbon-13 Nuclear Magnetic Resonance (13C NMR)
+      clarifier: Spectroscopic method identifying carbon frameworks and environments in organic molecules
+    - name: Mass Spectrometry (MS)
+      clarifier: Analytical technique determining molecular mass and fragmentation patterns
+    - name: Integrated Structure Elucidation
+      clarifier: Systematic combination of multiple spectroscopic data to deduce complete molecular structures
+  related:
+    - name: Molecular Vibrations and Selection Rules
+      clarifier: Theoretical basis for IR absorption including symmetric and asymmetric stretching
+    - name: Electronic Transitions and Conjugation
+      clarifier: π to π* and n to π* transitions in chromophoric systems
+    - name: Chemical Shift and Shielding Effects
+      clarifier: Factors affecting nuclear magnetic resonance frequencies in different molecular environments
+    - name: Spin-Spin Coupling and Multiplicity
+      clarifier: J-coupling between neighboring nuclei creating splitting patterns
+    - name: Fragmentation Mechanisms
+      clarifier: Common pathways for molecular ion breakdown in mass spectrometry
+    - name: Isotope Patterns
+      clarifier: Recognition of isotopic abundances in mass spectra
+    - name: Advanced NMR Techniques
+      clarifier: DEPT, COSY, HETCOR, and other two-dimensional methods
+    - name: Sample Preparation and Instrumentation
+      clarifier: Practical aspects of spectroscopic measurements
+
+learning_path:
+  - id: 1
+    title: Introduction to Spectroscopy and Structure Determination
+    learning_objectives:
+      - Understand the electromagnetic spectrum and its relationship to molecular spectroscopy
+      - Recognize the complementary nature of different spectroscopic techniques
+      - Identify the information content provided by each spectroscopic method
+      - Develop a systematic approach to structure elucidation problems
+    textbook_style_content:
+      - topic: Fundamentals of Spectroscopy in Organic Chemistry
+        sections:
+          - section_title: The Role of Spectroscopy in Structure Determination
+            section_type: overview
+          - section_title: Electromagnetic Radiation and Molecular Interactions
+            section_type: core_theory
+          - section_title: Overview of Spectroscopic Techniques
+            section_type: core_theory
+          - section_title: Systematic Approach to Structure Elucidation
+            section_type: related_concepts
+    milestone: Grasp fundamental principles connecting spectroscopy to molecular structure
+    duration_days: 3
+    tags:
+      - introduction
+      - electromagnetic spectrum
+      - structure elucidation strategy
+
+  - id: 2
+    title: Infrared (IR) Spectroscopy - Principles and Theory
+    learning_objectives:
+      - Explain the theoretical basis of IR spectroscopy and molecular vibrations
+      - Understand selection rules for IR activity
+      - Identify types of molecular vibrations (stretching and bending)
+      - Calculate vibrational frequencies using Hooke's law approximation
+    textbook_style_content:
+      - topic: Theoretical Foundations of IR Spectroscopy
+        sections:
+          - section_title: Introduction to Vibrational Spectroscopy
+            section_type: overview
+          - section_title: Molecular Vibrations and Degrees of Freedom
+            section_type: core_theory
+          - section_title: Selection Rules and IR Activity
+            section_type: core_theory
+          - section_title: Hooke's Law and Vibrational Frequencies
+            section_type: core_theory
+          - section_title: Factors Affecting Vibrational Frequencies
+            section_type: related_concepts
+    milestone: Master theoretical principles underlying IR spectroscopy
+    duration_days: 4
+    tags:
+      - IR spectroscopy
+      - molecular vibrations
+      - selection rules
+      - quantum mechanics
+
+  - id: 3
+    title: IR Spectroscopy - Functional Group Identification
+    learning_objectives:
+      - Recognize characteristic IR absorption frequencies for major functional groups
+      - Interpret IR spectra to identify functional groups in unknown compounds
+      - Distinguish between similar functional groups using IR data
+      - Apply fingerprint region analysis for structural confirmation
+    textbook_style_content:
+      - topic: Functional Group Analysis by IR Spectroscopy
+        sections:
+          - section_title: Overview of Functional Group Regions
+            section_type: overview
+          - section_title: Carbonyl Compounds (1850-1650 cm⁻¹)
+            section_type: core_theory
+          - section_title: Hydroxyl and Amine Groups (3700-3100 cm⁻¹)
+            section_type: core_theory
+          - section_title: Carbon-Hydrogen Stretching (3300-2700 cm⁻¹)
+            section_type: core_theory
+          - section_title: Aromatic and Alkene C=C Stretching (1680-1450 cm⁻¹)
+            section_type: core_theory
+          - section_title: Triple Bond Region (2300-2000 cm⁻¹)
+            section_type: core_theory
+          - section_title: Fingerprint Region and Its Applications
+            section_type: related_concepts
+          - section_title: Effect of Conjugation and Hydrogen Bonding
+            section_type: related_concepts
+    milestone: Accurately identify functional groups from IR spectra
+    duration_days: 5
+    tags:
+      - IR spectroscopy
+      - functional groups
+      - carbonyl compounds
+      - spectral interpretation
+
+  - id: 4
+    title: UV-Visible Spectroscopy - Theory and Chromophores
+    learning_objectives:
+      - Explain electronic transitions in organic molecules
+      - Understand the Beer-Lambert law and its applications
+      - Identify chromophores and auxochromes in organic structures
+      - Recognize the effects of conjugation on UV-Vis absorption
+    textbook_style_content:
+      - topic: Electronic Spectroscopy of Organic Compounds
+        sections:
+          - section_title: Introduction to UV-Vis Spectroscopy
+            section_type: overview
+          - section_title: Electronic Transitions (σ→σ*, n→σ*, π→π*, n→π*)
+            section_type: core_theory
+          - section_title: Beer-Lambert Law and Quantitative Analysis
+            section_type: core_theory
+          - section_title: Chromophores and Auxochromes
+            section_type: core_theory
+          - section_title: Effect of Conjugation on λmax
+            section_type: core_theory
+          - section_title: Solvent Effects on Electronic Spectra
+            section_type: related_concepts
+    milestone: Understand electronic transitions and their spectroscopic manifestations
+    duration_days: 4
+    tags:
+      - UV-Vis spectroscopy
+      - electronic transitions
+      - chromophores
+      - conjugation
+
+  - id: 5
+    title: UV-Visible Spectroscopy - Empirical Rules and Applications
+    learning_objectives:
+      - Apply Woodward-Fieser rules for predicting λmax in conjugated systems
+      - Use Fieser-Kuhn rules for conjugated dienes
+      - Interpret UV-Vis spectra of aromatic compounds
+      - Employ UV-Vis data in structure elucidation
+    textbook_style_content:
+      - topic: Predictive Methods and Applications in UV-Vis Spectroscopy
+        sections:
+          - section_title: Empirical Rules for λmax Prediction
+            section_type: overview
+          - section_title: Woodward-Fieser Rules for Carbonyl Compounds
+            section_type: core_theory
+          - section_title: Fieser-Kuhn Rules for Conjugated Dienes
+            section_type: core_theory
+          - section_title: Aromatic Compounds and Benzenoid Chromophores
+            section_type: core_theory
+          - section_title: Applications in Natural Product Chemistry
+            section_type: related_concepts
+    milestone: Apply empirical rules to predict and interpret UV-Vis spectra
+    duration_days: 4
+    tags:
+      - UV-Vis spectroscopy
+      - Woodward-Fieser rules
+      - conjugated systems
+      - spectral prediction
+
+  - id: 6
+    title: Introduction to Nuclear Magnetic Resonance (NMR) Spectroscopy
+    learning_objectives:
+      - Understand the physical basis of NMR spectroscopy
+      - Explain nuclear spin and magnetic properties
+      - Describe the NMR phenomenon and resonance condition
+      - Recognize factors affecting chemical shift
+    textbook_style_content:
+      - topic: Fundamental Principles of NMR Spectroscopy
+        sections:
+          - section_title: Introduction to NMR and Its Importance
+            section_type: overview
+          - section_title: Nuclear Spin and Magnetic Moment
+            section_type: core_theory
+          - section_title: Energy Levels in Magnetic Fields
+            section_type: core_theory
+          - section_title: The Resonance Condition and Larmor Frequency
+            section_type: core_theory
+          - section_title: Relaxation Processes (T1 and T2)
+            section_type: related_concepts
+          - section_title: Instrumentation and Fourier Transform NMR
+            section_type: related_concepts
+    milestone: Grasp fundamental physics underlying NMR spectroscopy
+    duration_days: 5
+    tags:
+      - NMR spectroscopy
+      - nuclear spin
+      - quantum mechanics
+      - instrumentation
+
+  - id: 7
+    title: Proton (1H) NMR Spectroscopy - Chemical Shift
+    learning_objectives:
+      - Define chemical shift and its reference standard (TMS)
+      - Explain factors influencing chemical shift values
+      - Recognize typical chemical shift ranges for different proton environments
+      - Interpret chemical shift data for structure determination
+    textbook_style_content:
+      - topic: Chemical Shift in 1H NMR Spectroscopy
+        sections:
+          - section_title: Overview of 1H NMR Parameters
+            section_type: overview
+          - section_title: Chemical Shift Scale and TMS Reference
+            section_type: core_theory
+          - section_title: Shielding and Deshielding Effects
+            section_type: core_theory
+          - section_title: Electronegativity and Inductive Effects
+            section_type: core_theory
+          - section_title: Anisotropic Effects (Aromatic Rings, Carbonyl Groups, C=C)
+            section_type: core_theory
+          - section_title: Hydrogen Bonding Effects on Chemical Shift
+            section_type: related_concepts
+          - section_title: Typical Chemical Shift Ranges for Functional Groups
+            section_type: core_theory
+    milestone: Interpret chemical shift values to determine proton environments
+    duration_days: 5
+    tags:
+      - 1H NMR
+      - chemical shift
+      - shielding effects
+      - spectral interpretation
+
+  - id: 8
+    title: Proton (1H) NMR Spectroscopy - Integration and Peak Area
+    learning_objectives:
+      - Understand the relationship between integration and number of protons
+      - Calculate relative numbers of protons from integration curves
+      - Use integration data to support structural assignments
+      - Recognize limitations and practical considerations in integration
+    textbook_style_content:
+      - topic: Integration in 1H NMR Spectroscopy
+        sections:
+          - section_title: Principles of Signal Integration
+            section_type: overview
+          - section_title: Integration Curves and Step Heights
+            section_type: core_theory
+          - section_title: Determining Relative Proton Numbers
+            section_type: core_theory
+          - section_title: Equivalent and Non-equivalent Protons
+            section_type: related_concepts
+          - section_title: Practical Aspects and Common Pitfalls
+            section_type: related_concepts
+    milestone: Use integration data effectively in structure determination
+    duration_days: 3
+    tags:
+      - 1H NMR
+      - integration
+      - quantitative analysis
+      - proton counting
+
+  - id: 9
+    title: Proton (1H) NMR Spectroscopy - Spin-Spin Coupling
+    learning_objectives:
+      - Explain the origin of spin-spin coupling (J-coupling)
+      - Apply the n+1 rule to predict splitting patterns
+      - Distinguish between first-order and complex coupling systems
+      - Recognize coupling constants and their structural significance
+    textbook_style_content:
+      - topic: Spin-Spin Coupling and Multiplicity
+        sections:
+          - section_title: Introduction to Spin-Spin Coupling
+            section_type: overview
+          - section_title: Mechanism of J-Coupling Through Bonds
+            section_type: core_theory
+          - section_title: The n+1 Rule and Simple Splitting Patterns
+            section_type: core_theory
+          - section_title: Coupling Constants (J Values) and Their Significance
+            section_type: core_theory
+          - section_title: Vicinal (³J) and Geminal (²J) Coupling
+            section_type: core_theory
+          - section_title: Karplus Equation for Dihedral Angle Relationships
+            section_type: related_concepts
+          - section_title: Complex Coupling Patterns and Second-Order Effects
+            section_type: related_concepts
+          - section_title: Long-Range Coupling and Allylic Coupling
+            section_type: related_concepts
+    milestone: Analyze and interpret splitting patterns in 1H NMR spectra
+    duration_days: 6
+    tags:
+      - 1H NMR
+      - spin-spin coupling
+      - J-coupling
+      - multiplicity
+      - Karplus equation
+
+  - id: 10
+    title: Advanced Topics in 1H NMR Spectroscopy
+    learning_objectives:
+      - Recognize chemical and magnetic equivalence
+      - Interpret exchangeable protons and D2O shake experiments
+      - Understand aromatic coupling patterns
+      - Analyze spectra with complex multiplets
+    textbook_style_content:
+      - topic: Special Cases and Advanced Concepts in 1H NMR
+        sections:
+          - section_title: Chemical vs Magnetic Equivalence
+            section_type: overview
+          - section_title: Homotopic, Enantiotopic, and Diastereotopic Protons
+            section_type: core_theory
+          - section_title: Exchangeable Protons (OH, NH, COOH)
+            section_type: core_theory
+          - section_title: Aromatic Protons and Substitution Patterns
+            section_type: core_theory
+          - section_title: ABX and AB Quartet Systems
+            section_type: related_concepts
+          - section_title: Temperature and Solvent Effects
+            section_type: related_concepts
+    milestone: Handle complex 1H NMR spectral features confidently
+    duration_days: 5
+    tags:
+      - 1H NMR
+      - magnetic equivalence
+      - exchangeable protons
+      - aromatic systems
+      - advanced NMR
+
+  - id: 11
+    title: Carbon-13 (13C) NMR Spectroscopy - Fundamentals
+    learning_objectives:
+      - Understand the unique properties of 13C nucleus
+      - Explain differences between 1H and 13C NMR spectroscopy
+      - Recognize the importance of decoupling techniques
+      - Interpret broadband decoupled 13C NMR spectra
+    textbook_style_content:
+      - topic: Principles of 13C NMR Spectroscopy
+        sections:
+          - section_title: Introduction to 13C NMR
+            section_type: overview
+          - section_title: Properties of 13C Nucleus and Natural Abundance
+            section_type: core_theory
+          - section_title: Sensitivity Considerations in 13C NMR
+            section_type: core_theory
+          - section_title: Proton Decoupling Techniques
+            section_type: core_theory
+          - section_title: Nuclear Overhauser Effect (NOE)
+            section_type: related_concepts
+          - section_title: Pulse Sequences and Acquisition Parameters
+            section_type: related_concepts
+    milestone: Understand fundamental differences and advantages of 13C NMR
+    duration_days: 4
+    tags:
+      - 13C NMR
+      - carbon spectroscopy
+      - decoupling
+      - NOE
+
+  - id: 12
+    title: Carbon-13 (13C) NMR Spectroscopy - Chemical Shifts
+    learning_objectives:
+      - Recognize chemical shift ranges for different carbon environments
+      - Identify sp³, sp², and sp hybridized carbons
+      - Distinguish carbonyl, aromatic, and aliphatic carbons
+      - Apply 13C chemical shift data for structural assignments
+    textbook_style_content:
+      - topic: Chemical Shifts in 13C NMR Spectroscopy
+        sections:
+          - section_title: Overview of 13C Chemical Shift Ranges
+            section_type: overview
+          - section_title: Aliphatic Carbons (0-80 ppm)
+            section_type: core_theory
+          - section_title: Sp² Carbons - Alkenes and Aromatics (100-160 ppm)
+            section_type: core_theory
+          - section_title: Carbonyl Carbons (160-220 ppm)
+            section_type: core_theory
+          - section_title: Effects of Substituents on 13C Shifts
+            section_type: core_theory
+          - section_title: Additive Shift Parameters and Prediction Methods
+            section_type: related_concepts
+    milestone: Assign carbon environments using 13C chemical shift data
+    duration_days: 5
+    tags:
+      - 13C NMR
+      - chemical shifts
+      - carbon environments
+      - spectral interpretation
+
+  - id: 13
+    title: DEPT and Other 13C NMR Techniques
+    learning_objectives:
+      - Understand the DEPT (Distortionless Enhancement by Polarization Transfer) technique
+      - Distinguish between CH₃, CH₂, CH, and quaternary carbons
+      - Interpret DEPT-45, DEPT-90, and DEPT-135 spectra
+      - Apply DEPT data to solve structural problems
+    textbook_style_content:
+      - topic: Multiplicity Determination in 13C NMR
+        sections:
+          - section_title: Need for Carbon Multiplicity Information
+            section_type: overview
+          - section_title: DEPT Technique and Pulse Sequences
+            section_type: core_theory
+          - section_title: Interpretation of DEPT Spectra
+            section_type: core_theory
+          - section_title: Distinguishing CH₃, CH₂, CH, and Quaternary Carbons
+            section_type: core_theory
+          - section_title: APT (Attached Proton Test) as Alternative
+            section_type: related_concepts
+          - section_title: Off-Resonance Decoupling
+            section_type: related_concepts
+    milestone: Determine carbon multiplicities using DEPT and related techniques
+    duration_days: 4
+    tags:
+      - 13C NMR
+      - DEPT
+      - carbon multiplicity
+      - APT
+
+  - id: 14
+    title: Mass Spectrometry - Principles and Instrumentation
+    learning_objectives:
+      - Understand the basic principles of mass spectrometry
+      - Explain ionization methods (EI, CI, ESI, MALDI)
+      - Describe mass analyzers (quadrupole, TOF, magnetic sector)
+      - Interpret molecular ion peaks and isotope patterns
+    textbook_style_content:
+      - topic: Fundamentals of Mass Spectrometry
+        sections:
+          - section_title: Introduction to Mass Spectrometry
+            section_type: overview
+          - section_title: Ionization Techniques
+            section_type: core_theory
+          - section_title: Mass Analyzers and Detection
+            section_type: core_theory
+          - section_title: Molecular Ion (M⁺•) and Base Peak
+            section_type: core_theory
+          - section_title: Resolution and Mass Accuracy
+            section_type: related_concepts
+          - section_title: Sample Introduction Methods
+            section_type: related_concepts
+    milestone: Understand how mass spectrometers generate and analyze ions
+    duration_days: 4
+    tags:
+      - mass spectrometry
+      - ionization
+      - instrumentation
+      - molecular ion
+
+  - id: 15
+    title: Isotope Patterns and Molecular Formula Determination
+    learning_objectives:
+      - Recognize isotope patterns for common elements (Cl, Br, S)
+      - Calculate molecular formulas from high-resolution mass spectra
+      - Apply the nitrogen rule
+      - Determine degree of unsaturation from molecular formulas
+    textbook_style_content:
+      - topic: Isotope Patterns and Formula Determination
+        sections:
+          - section_title: Natural Isotopic Abundances
+            section_type: overview
+          - section_title: Characteristic Isotope Patterns (Cl, Br, S)
+            section_type: core_theory
+          - section_title: High-Resolution Mass Spectrometry
+            section_type: core_theory
+          - section_title: Molecular Formula Determination
+            section_type: core_theory
+          - section_title: The Nitrogen Rule
+            section_type: core_theory
+          - section_title: Degree of Unsaturation (DBE or Ring Plus Double Bond Equivalents)
+            section_type: related_concepts
+    milestone: Determine molecular formulas and calculate unsaturation indices
+    duration_days: 4
+    tags:
+      - mass spectrometry
+      - isotope patterns
+      - molecular formula
+      - nitrogen rule
+      - degree of unsaturation
+
+  - id: 16
+    title: Fragmentation Patterns in Mass Spectrometry
+    learning_objectives:
+      - Understand the mechanisms of common fragmentation pathways
+      - Recognize characteristic fragmentations for functional groups
+      - Identify α-cleavage, McLafferty rearrangement, and other processes
+      - Use fragmentation patterns for structure elucidation
+    textbook_style_content:
+      - topic: Fragmentation Mechanisms and Patterns
+        sections:
+          - section_title: Overview of Fragmentation Processes
+            section_type: overview
+          - section_title: General Rules of Fragmentation
+            section_type: core_theory
+          - section_title: α-Cleavage in Carbonyl Compounds
+            section_type: core_theory
+          - section_title: McLafferty Rearrangement
+            section_type: core_theory
+          - section_title: Benzylic Cleavage in Aromatic Compounds
+            section_type: core_theory
+          - section_title: Allylic Cleavage and Retro-Diels-Alder Reactions
+            section_type: core_theory
+          - section_title: Loss of Small Neutral Molecules (H₂O, CO, CO₂)
+            section_type: core_theory
+          - section_title: Fragmentation of Alcohols, Ethers, and Amines
+            section_type: related_concepts
+          - section_title: Nitrogen-Containing Compounds
+            section_type: related_concepts
+    milestone: Predict and interpret fragmentation patterns in mass spectra
+    duration_days: 6
+    tags:
+      - mass spectrometry
+      - fragmentation
+      - McLafferty rearrangement
+      - α-cleavage
+      - reaction mechanisms
+
+  - id: 17
+    title: Two-Dimensional NMR Spectroscopy
+    learning_objectives:
+      - Understand the principles of 2D NMR techniques
+      - Interpret COSY spectra for identifying coupled protons
+      - Use HETCOR/HSQC for proton-carbon correlations
+      - Apply HMBC for long-range correlations
+    textbook_style_content:
+      - topic: Advanced NMR Techniques for Structure Elucidation
+        sections:
+          - section_title: Introduction to Two-Dimensional NMR
+            section_type: overview
+          - section_title: COSY (Correlation Spectroscopy)
+            section_type: core_theory
+          - section_title: HETCOR and HSQC (Heteronuclear Single Quantum Coherence)
+            section_type: core_theory
+          - section_title: HMBC (Heteronuclear Multiple Bond Correlation)
+            section_type: core_theory
+          - section_title: NOESY and ROESY for Spatial Relationships
+            section_type: related_concepts
+          - section_title: TOCSY and INADEQUATE
+            section_type: related_concepts
+    milestone: Utilize 2D NMR methods for complex structure determination
+    duration_days: 5
+    tags:
+      - 2D NMR
+      - COSY
+      - HSQC
+      - HMBC
+      - advanced spectroscopy
+
+  - id: 18
+    title: Integrated Structure Elucidation - Systematic Approach
+    learning_objectives:
+      - Develop a systematic strategy for structure determination
+      - Combine data from multiple spectroscopic techniques
+      - Extract complementary information from each method
+      - Build molecular structures from spectroscopic evidence
+    textbook_style_content:
+      - topic: Systematic Strategy for Structure Determination
+        sections:
+          - section_title: Overview of the Integrated Approach
+            section_type: overview
+          - section_title: Step 1 - Molecular Formula from MS and HRMS
+            section_type: core_theory
+          - section_title: Step 2 - Degree of Unsaturation Calculation
+            section_type: core_theory
+          - section_title: Step 3 - Functional Group Identification from IR
+            section_type: core_theory
+          - section_title: Step 4 - Chromophore Analysis from UV-Vis
+            section_type: core_theory
+          - section_title: Step 5 - Carbon Framework from 13C NMR and DEPT
+            section_type: core_theory
+          - section_title: Step 6 - Proton Environments and Connectivity from 1H NMR
+            section_type: core_theory
+          - section_title: Step 7 - Structure Assembly and Verification
+            section_type: core_theory
+          - section_title: Use of 2D NMR for Ambiguous Cases
+            section_type: related_concepts
+    milestone: Apply systematic methodology to solve unknown structures
+    duration_days: 5
+    tags:
+      - integrated analysis
+      - structure elucidation
+      - problem solving
+      - systematic approach
+
+  - id: 19
+    title: Practice Problems - Simple Structures
+    learning_objectives:
+      - Solve structure determination problems for simple organic molecules
+      - Apply spectroscopic data systematically
+      - Identify common functional groups and simple frameworks
+      - Build confidence in basic structure elucidation
+    textbook_style_content:
+      - topic: Worked Examples of Simple Structures
+        sections:
+          - section_title: Approach to Simple Structure Problems
+            section_type: overview
+          - section_title: Aliphatic Compounds with Simple Functional Groups
+            section_type: core_theory
+          - section_title: Monosubstituted Benzene Derivatives
+            section_type: core_theory
+          - section_title: Simple Carbonyl Compounds
+            section_type: core_theory
+          - section_title: Alcohols and Ethers
+            section_type: core_theory
+          - section_title: Common Pitfalls and How to Avoid Them
+            section_type: related_concepts
+    milestone: Successfully determine structures of simple organic compounds
+    duration_days: 4
+    tags:
+      - practice problems
+      - simple structures
+      - worked examples
+      - problem solving
+
+  - id: 20
+    title: Practice Problems - Intermediate Complexity
+    learning_objectives:
+      - Solve structure problems involving multiple functional groups
+      - Handle disubstituted aromatic compounds
+      - Interpret more complex NMR patterns
+      - Deal with overlapping signals and ambiguous data
+    textbook_style_content:
+      - topic: Intermediate Level Structure Determination
+        sections:
+          - section_title: Compounds with Multiple Functional Groups
+            section_type: overview
+          - section_title: Disubstituted and Trisubstituted Aromatic Rings
+            section_type: core_theory
+          - section_title: Bifunctional Aliphatic Compounds
+            section_type: core_theory
+          - section_title: Compounds with Conjugated Systems
+            section_type: core_theory
+          - section_title: Handling Ambiguous or Incomplete Data
+            section_type: related_concepts
+          - section_title: Verification of Proposed Structures
+            section_type: related_concepts
+    milestone: Determine structures of moderate complexity with confidence
+    duration_days: 5
+    tags:
+      - practice problems
+      - intermediate level
+      - multifunctional compounds
+      - problem solving
+
+  - id: 21
+    title: Practice Problems - Advanced Structures
+    learning_objectives:
+      - Solve complex structure determination problems
+      - Handle polyfunctional molecules and natural products
+      - Integrate 2D NMR data when necessary
+      - Develop expert-level analytical skills
+    textbook_style_content:
+      - topic: Advanced Structure Elucidation Challenges
+        sections:
+          - section_title: Complex Molecular Architectures
+            section_type: overview
+          - section_title: Polycyclic and Heterocyclic Systems
+            section_type: core_theory
+          - section_title: Natural Product-Type Structures
+            section_type: core_theory
+          - section_title: Stereochemical Determination
+            section_type: core_theory
+          - section_title: Using 2D NMR for Complex Connectivity
+            section_type: related_concepts
+          - section_title: Rare Functional Groups and Unusual Patterns
+            section_type: related_concepts
+    milestone: Master advanced structure elucidation techniques
+    duration_days: 6
+    tags:
+      - practice problems
+      - advanced level
+      - natural products
+      - stereochemistry
+      - expert skills
+
+  - id: 22
+    title: CSIR NET Exam-Focused Problem Solving
+    learning_objectives:
+      - Practice spectroscopy problems in CSIR NET exam format
+      - Develop time management strategies for spectroscopy questions
+      - Recognize common question patterns and traps
+      - Review previous year CSIR questions on spectroscopy
+    textbook_style_content:
+      - topic: Exam Strategy and Problem-Solving Techniques
+        sections:
+          - section_title: CSIR NET Spectroscopy Question Patterns
+            section_type: overview
+          - section_title: Time-Efficient Problem-Solving Strategies
+            section_type: core_theory
+          - section_title: Common Traps and How to Avoid Them
+            section_type: core_theory
+          - section_title: Analysis of Previous Year Questions
+            section_type: core_theory
+          - section_title: Mock Tests and Timed Practice
+            section_type: related_concepts
+          - section_title: Key Concepts to Memorize
+            section_type: related_concepts
+    milestone: Achieve exam readiness for CSIR NET spectroscopy questions
+    duration_days: 5
+    tags:
+      - CSIR NET
+      - exam preparation
+      - previous year questions
+      - test strategy
+      - time management

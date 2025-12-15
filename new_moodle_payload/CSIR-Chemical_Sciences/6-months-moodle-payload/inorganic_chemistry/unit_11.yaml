@@ -1,0 +1,569 @@
+metadata:
+  subject: inorganic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Characterisation of inorganic compounds by IR, Raman, EPR, Mössbauer, UV-Vis, electron spectroscopy and microscopic techniques.
+
+concepts:
+  core:
+    - name: Vibrational Spectroscopy Principles
+      clarifier: IR and Raman spectroscopy fundamentals, selection rules, and group frequency correlations
+    - name: Electronic Spectroscopy
+      clarifier: UV-Vis spectroscopy principles, ligand field theory, charge transfer transitions
+    - name: Magnetic Resonance Techniques
+      clarifier: EPR spectroscopy principles, g-factors, hyperfine coupling, and paramagnetic species
+    - name: Nuclear Techniques
+      clarifier: Mössbauer spectroscopy principles, isomer shift, quadrupole splitting, magnetic hyperfine splitting
+    - name: Electron Spectroscopy Methods
+      clarifier: XPS, UPS, AES, EELS principles and surface analysis
+    - name: Microscopic Characterization
+      clarifier: SEM, TEM, STM, AFM principles and morphological analysis
+    - name: Instrumentation and Sample Preparation
+      clarifier: Operational principles, sample handling, and experimental considerations for each technique
+    - name: Data Interpretation and Structural Elucidation
+      clarifier: Spectral analysis, peak assignment, and structure determination strategies
+  related:
+    - name: Electromagnetic Radiation-Matter Interactions
+      clarifier: Absorption, emission, scattering processes and energy transfer mechanisms
+    - name: Quantum Mechanical Foundation
+      clarifier: Quantum states, transitions, selection rules, and perturbation theory
+    - name: Molecular Symmetry and Group Theory
+      clarifier: Point groups, character tables, and symmetry-based selection rules
+    - name: Coordination Chemistry Principles
+      clarifier: Ligand field theory, crystal field splitting, Jahn-Teller effects
+    - name: Solid State Properties
+      clarifier: Crystal structures, defects, electronic band structure
+    - name: Surface Chemistry
+      clarifier: Surface composition, adsorption, catalysis, and interface phenomena
+    - name: Magnetic Properties of Complexes
+      clarifier: Spin states, magnetic coupling, spin-orbit coupling
+
+learning_path:
+  - id: 1
+    title: Foundational Concepts for Spectroscopic Characterization
+    learning_objectives:
+      - Understand electromagnetic radiation properties and interaction with matter
+      - Apply quantum mechanical principles to spectroscopic transitions
+      - Utilize molecular symmetry and group theory for predicting spectroscopic activity
+      - Identify selection rules for various spectroscopic techniques
+    textbook_style_content:
+      - topic: Electromagnetic Radiation and Matter Interactions
+        sections:
+          - section_title: Nature of Electromagnetic Radiation
+            section_type: overview
+          - section_title: Quantization of Energy and Photon Properties
+            section_type: core_theory
+          - section_title: Absorption, Emission, and Scattering Processes
+            section_type: core_theory
+          - section_title: Time-Dependent Perturbation Theory
+            section_type: related_concepts
+      - topic: Quantum Mechanical Basis of Spectroscopy
+        sections:
+          - section_title: Wavefunctions and Quantum States
+            section_type: core_theory
+          - section_title: Transition Dipole Moments and Selection Rules
+            section_type: core_theory
+          - section_title: Fermi Golden Rule and Transition Probabilities
+            section_type: related_concepts
+      - topic: Molecular Symmetry Applications
+        sections:
+          - section_title: Point Groups and Symmetry Operations
+            section_type: overview
+          - section_title: Character Tables and Irreducible Representations
+            section_type: core_theory
+          - section_title: Symmetry-Based Selection Rules
+            section_type: core_theory
+    milestone: Master foundational quantum and symmetry principles required for all spectroscopic techniques
+    duration_days: 7
+    tags:
+      - foundations
+      - quantum_mechanics
+      - symmetry
+      - selection_rules
+
+  - id: 2
+    title: Infrared Spectroscopy of Inorganic Compounds
+    learning_objectives:
+      - Explain the physical basis of IR absorption and molecular vibrations
+      - Predict IR-active vibrations using symmetry and selection rules
+      - Interpret IR spectra to identify functional groups and coordination modes
+      - Distinguish between metal-ligand stretching frequencies and their variations
+    textbook_style_content:
+      - topic: Principles of Infrared Spectroscopy
+        sections:
+          - section_title: Vibrational Energy Levels and Transitions
+            section_type: overview
+          - section_title: IR Selection Rules and Dipole Moment Changes
+            section_type: core_theory
+          - section_title: Harmonic Oscillator and Anharmonicity
+            section_type: core_theory
+          - section_title: Normal Modes and Vibrational Degrees of Freedom
+            section_type: core_theory
+      - topic: IR Instrumentation and Techniques
+        sections:
+          - section_title: Dispersive and FTIR Spectrometers
+            section_type: core_theory
+          - section_title: Sample Preparation Methods
+            section_type: core_theory
+          - section_title: ATR, Transmission, and Reflectance Modes
+            section_type: related_concepts
+      - topic: Characteristic IR Frequencies in Inorganic Chemistry
+        sections:
+          - section_title: Metal-Ligand Stretching Vibrations
+            section_type: core_theory
+          - section_title: Carbonyl, Nitrosyl, and Cyanide Complexes
+            section_type: core_theory
+          - section_title: Bridging vs Terminal Ligands
+            section_type: core_theory
+          - section_title: Coordination Mode Determination
+            section_type: core_theory
+      - topic: Advanced IR Spectral Interpretation
+        sections:
+          - section_title: Factor Group Analysis for Crystalline Solids
+            section_type: related_concepts
+          - section_title: Isotopic Substitution Studies
+            section_type: related_concepts
+    milestone: Proficiently interpret IR spectra to determine coordination modes and identify inorganic functional groups
+    duration_days: 8
+    tags:
+      - vibrational_spectroscopy
+      - IR
+      - coordination_chemistry
+      - functional_groups
+
+  - id: 3
+    title: Raman Spectroscopy of Inorganic Compounds
+    learning_objectives:
+      - Differentiate between Rayleigh, Stokes, and anti-Stokes scattering
+      - Apply Raman selection rules based on polarizability changes
+      - Utilize complementarity of IR and Raman for complete vibrational analysis
+      - Interpret Raman spectra for symmetric vibrations and metal-metal bonds
+    textbook_style_content:
+      - topic: Principles of Raman Spectroscopy
+        sections:
+          - section_title: Classical and Quantum Theory of Light Scattering
+            section_type: overview
+          - section_title: Raman Selection Rules and Polarizability Tensors
+            section_type: core_theory
+          - section_title: Stokes and Anti-Stokes Intensity Relationships
+            section_type: core_theory
+          - section_title: Resonance Raman Effect
+            section_type: related_concepts
+      - topic: Raman Instrumentation
+        sections:
+          - section_title: Laser Sources and Monochromators
+            section_type: core_theory
+          - section_title: Sample Considerations and Fluorescence Interference
+            section_type: core_theory
+          - section_title: Micro-Raman and Surface-Enhanced Raman
+            section_type: related_concepts
+      - topic: IR-Raman Complementarity
+        sections:
+          - section_title: Mutual Exclusion Rule in Centrosymmetric Molecules
+            section_type: core_theory
+          - section_title: Combined Vibrational Analysis Strategy
+            section_type: core_theory
+      - topic: Applications to Inorganic Systems
+        sections:
+          - section_title: Metal-Metal and Metal-Halide Vibrations
+            section_type: core_theory
+          - section_title: Symmetric Stretching Modes in Coordination Complexes
+            section_type: core_theory
+          - section_title: Lattice Modes in Crystalline Materials
+            section_type: related_concepts
+    milestone: Apply combined IR-Raman analysis for comprehensive vibrational characterization of inorganic compounds
+    duration_days: 6
+    tags:
+      - vibrational_spectroscopy
+      - Raman
+      - complementarity
+      - metal_bonds
+
+  - id: 4
+    title: Electronic Spectroscopy - UV-Visible Methods
+    learning_objectives:
+      - Describe electronic transitions in transition metal complexes
+      - Apply ligand field theory to interpret d-d transitions
+      - Identify charge transfer bands and their diagnostic significance
+      - Calculate ligand field parameters from electronic spectra
+    textbook_style_content:
+      - topic: Electronic Transitions in Coordination Compounds
+        sections:
+          - section_title: Types of Electronic Transitions
+            section_type: overview
+          - section_title: Selection Rules for Electronic Spectroscopy
+            section_type: core_theory
+          - section_title: Franck-Condon Principle and Band Shapes
+            section_type: core_theory
+      - topic: Ligand Field Theory and d-d Transitions
+        sections:
+          - section_title: Crystal Field Splitting in Various Geometries
+            section_type: core_theory
+          - section_title: Orgel and Tanabe-Sugano Diagrams
+            section_type: core_theory
+          - section_title: Spectroscopic Term Symbols and Energy States
+            section_type: core_theory
+          - section_title: Calculation of 10Dq, B, and β Parameters
+            section_type: core_theory
+      - topic: Charge Transfer Transitions
+        sections:
+          - section_title: Ligand-to-Metal Charge Transfer (LMCT)
+            section_type: core_theory
+          - section_title: Metal-to-Ligand Charge Transfer (MLCT)
+            section_type: core_theory
+          - section_title: Intervalence Charge Transfer
+            section_type: related_concepts
+      - topic: UV-Vis Instrumentation and Applications
+        sections:
+          - section_title: Spectrophotometer Components
+            section_type: core_theory
+          - section_title: Solution and Solid-State Measurements
+            section_type: core_theory
+          - section_title: Diffuse Reflectance Spectroscopy
+            section_type: related_concepts
+          - section_title: Determination of Oxidation States and Coordination Numbers
+            section_type: core_theory
+    milestone: Interpret UV-Vis spectra to determine electronic structure and ligand field parameters of coordination complexes
+    duration_days: 10
+    tags:
+      - electronic_spectroscopy
+      - UV-Vis
+      - ligand_field
+      - charge_transfer
+      - transition_metals
+
+  - id: 5
+    title: Electron Paramagnetic Resonance Spectroscopy
+    learning_objectives:
+      - Explain the physical basis of EPR and resonance conditions
+      - Calculate g-factors and interpret deviations from free electron value
+      - Analyze hyperfine coupling patterns to determine coordination environment
+      - Apply EPR to characterize paramagnetic inorganic species
+    textbook_style_content:
+      - topic: Fundamentals of EPR Spectroscopy
+        sections:
+          - section_title: Electron Spin and Magnetic Moments
+            section_type: overview
+          - section_title: Zeeman Splitting and Resonance Condition
+            section_type: core_theory
+          - section_title: Energy Levels in Magnetic Fields
+            section_type: core_theory
+          - section_title: Spin-Orbit Coupling Effects
+            section_type: related_concepts
+      - topic: EPR Parameters and Their Interpretation
+        sections:
+          - section_title: g-Factor and Its Physical Significance
+            section_type: core_theory
+          - section_title: Anisotropic g-Tensors in Low-Symmetry Systems
+            section_type: core_theory
+          - section_title: Hyperfine Coupling Constants
+            section_type: core_theory
+          - section_title: Nuclear Quadrupole Interactions
+            section_type: related_concepts
+      - topic: EPR Instrumentation
+        sections:
+          - section_title: Continuous Wave EPR Spectrometers
+            section_type: core_theory
+          - section_title: Cavity Resonators and Microwave Bridges
+            section_type: core_theory
+          - section_title: Temperature-Dependent and Liquid Solution EPR
+            section_type: related_concepts
+      - topic: Applications to Inorganic Systems
+        sections:
+          - section_title: Transition Metal Complexes with Unpaired Electrons
+            section_type: core_theory
+          - section_title: Spin States and High-Spin vs Low-Spin Complexes
+            section_type: core_theory
+          - section_title: Radical Ligands and Metal-Organic Systems
+            section_type: core_theory
+          - section_title: Exchange Coupling in Polynuclear Complexes
+            section_type: related_concepts
+    milestone: Analyze EPR spectra to determine electronic structure and coordination environment of paramagnetic species
+    duration_days: 9
+    tags:
+      - magnetic_resonance
+      - EPR
+      - paramagnetic
+      - g_factor
+      - hyperfine_coupling
+
+  - id: 6
+    title: Mössbauer Spectroscopy
+    learning_objectives:
+      - Understand the recoilless nuclear resonance absorption principle
+      - Interpret isomer shift to determine oxidation state and electronic environment
+      - Analyze quadrupole splitting for information on electron distribution
+      - Utilize magnetic hyperfine splitting to probe magnetic ordering
+    textbook_style_content:
+      - topic: Principles of Mössbauer Spectroscopy
+        sections:
+          - section_title: Nuclear Resonance and Recoilless Emission
+            section_type: overview
+          - section_title: Mössbauer Effect and Lamb-Mössbauer Factor
+            section_type: core_theory
+          - section_title: Gamma-Ray Absorption and Transmission
+            section_type: core_theory
+          - section_title: Suitable Mössbauer Isotopes
+            section_type: related_concepts
+      - topic: Mössbauer Parameters
+        sections:
+          - section_title: Isomer Shift and Chemical Applications
+            section_type: core_theory
+          - section_title: Quadrupole Splitting and Electric Field Gradients
+            section_type: core_theory
+          - section_title: Magnetic Hyperfine Splitting
+            section_type: core_theory
+          - section_title: Line Intensity and Area Ratios
+            section_type: core_theory
+      - topic: Iron-57 Mössbauer Spectroscopy
+        sections:
+          - section_title: Iron Oxidation State Determination
+            section_type: core_theory
+          - section_title: Spin State Assignment
+            section_type: core_theory
+          - section_title: Iron Coordination Environments
+            section_type: core_theory
+      - topic: Instrumentation and Other Isotopes
+        sections:
+          - section_title: Mössbauer Spectrometer Components
+            section_type: core_theory
+          - section_title: Cryogenic Measurements
+            section_type: related_concepts
+          - section_title: Tin-119 and Other Applications
+            section_type: related_concepts
+    milestone: Interpret Mössbauer spectra to determine oxidation states, spin states, and coordination geometry
+    duration_days: 7
+    tags:
+      - nuclear_spectroscopy
+      - Mössbauer
+      - iron
+      - isomer_shift
+      - quadrupole_splitting
+
+  - id: 7
+    title: Electron Spectroscopy Techniques
+    learning_objectives:
+      - Differentiate between XPS, UPS, AES, and EELS methods
+      - Interpret XPS spectra for elemental composition and oxidation states
+      - Apply binding energy shifts to understand chemical environment
+      - Utilize electron spectroscopy for surface and interface analysis
+    textbook_style_content:
+      - topic: Overview of Electron Spectroscopy Methods
+        sections:
+          - section_title: Classification of Electron Spectroscopy Techniques
+            section_type: overview
+          - section_title: Photoelectron Effect and Kinetic Energy Analysis
+            section_type: core_theory
+          - section_title: Surface Sensitivity and Mean Free Path
+            section_type: core_theory
+      - topic: X-ray Photoelectron Spectroscopy (XPS)
+        sections:
+          - section_title: Photoionization Process and Core-Level Electrons
+            section_type: core_theory
+          - section_title: Binding Energy and Chemical Shifts
+            section_type: core_theory
+          - section_title: Quantitative Analysis and Peak Fitting
+            section_type: core_theory
+          - section_title: Oxidation State Determination
+            section_type: core_theory
+          - section_title: Satellite Peaks and Shake-Up Features
+            section_type: related_concepts
+      - topic: Ultraviolet Photoelectron Spectroscopy (UPS)
+        sections:
+          - section_title: Valence Band Structure Analysis
+            section_type: core_theory
+          - section_title: Work Function Measurements
+            section_type: related_concepts
+      - topic: Auger Electron Spectroscopy (AES)
+        sections:
+          - section_title: Auger Process and Energy Analysis
+            section_type: core_theory
+          - section_title: Chemical State Information from Auger Parameters
+            section_type: core_theory
+          - section_title: Scanning Auger Microscopy
+            section_type: related_concepts
+      - topic: Electron Energy Loss Spectroscopy (EELS)
+        sections:
+          - section_title: Inelastic Scattering Mechanisms
+            section_type: core_theory
+          - section_title: Core-Loss and Valence-Loss Regions
+            section_type: core_theory
+      - topic: Instrumentation and Sample Requirements
+        sections:
+          - section_title: Ultrahigh Vacuum Systems
+            section_type: core_theory
+          - section_title: Electron Energy Analyzers
+            section_type: core_theory
+          - section_title: Sample Preparation and Charge Compensation
+            section_type: core_theory
+    milestone: Apply electron spectroscopy methods for surface composition and electronic structure characterization
+    duration_days: 11
+    tags:
+      - electron_spectroscopy
+      - XPS
+      - surface_analysis
+      - binding_energy
+      - oxidation_states
+
+  - id: 8
+    title: Microscopic Techniques for Inorganic Materials
+    learning_objectives:
+      - Compare principles of electron and scanning probe microscopies
+      - Interpret SEM images for morphology and microstructure analysis
+      - Utilize TEM for crystal structure and defect characterization
+      - Apply AFM and STM for surface topography at atomic resolution
+    textbook_style_content:
+      - topic: Introduction to Microscopic Characterization
+        sections:
+          - section_title: Resolution Limits and Magnification Concepts
+            section_type: overview
+          - section_title: Classification of Microscopy Techniques
+            section_type: overview
+      - topic: Scanning Electron Microscopy (SEM)
+        sections:
+          - section_title: Electron Beam-Sample Interactions
+            section_type: core_theory
+          - section_title: Secondary and Backscattered Electron Imaging
+            section_type: core_theory
+          - section_title: SEM Instrumentation and Operating Principles
+            section_type: core_theory
+          - section_title: Sample Preparation and Coating Requirements
+            section_type: core_theory
+          - section_title: Energy Dispersive X-ray Spectroscopy (EDX) Integration
+            section_type: core_theory
+      - topic: Transmission Electron Microscopy (TEM)
+        sections:
+          - section_title: Electron Diffraction and Wave Properties
+            section_type: core_theory
+          - section_title: Bright Field and Dark Field Imaging
+            section_type: core_theory
+          - section_title: Selected Area Electron Diffraction (SAED)
+            section_type: core_theory
+          - section_title: High-Resolution TEM and Lattice Imaging
+            section_type: core_theory
+          - section_title: Sample Preparation by Ion Milling
+            section_type: related_concepts
+      - topic: Scanning Probe Microscopy
+        sections:
+          - section_title: Principles of Scanning Tunneling Microscopy (STM)
+            section_type: core_theory
+          - section_title: Atomic Force Microscopy (AFM) Modes
+            section_type: core_theory
+          - section_title: Contact, Non-Contact, and Tapping Modes
+            section_type: core_theory
+          - section_title: Surface Topography and Roughness Analysis
+            section_type: core_theory
+      - topic: Advanced Microscopy Techniques
+        sections:
+          - section_title: Scanning Transmission Electron Microscopy (STEM)
+            section_type: related_concepts
+          - section_title: Environmental SEM and Cryo-Microscopy
+            section_type: related_concepts
+          - section_title: Focused Ion Beam (FIB) Techniques
+            section_type: related_concepts
+    milestone: Select and apply appropriate microscopy techniques for morphological and structural characterization
+    duration_days: 10
+    tags:
+      - microscopy
+      - SEM
+      - TEM
+      - AFM
+      - morphology
+      - microstructure
+
+  - id: 9
+    title: Integrated Multi-Technique Characterization Strategies
+    learning_objectives:
+      - Design comprehensive characterization plans using complementary techniques
+      - Correlate information from multiple spectroscopic methods
+      - Solve complex structural problems through integrated analysis
+      - Evaluate advantages and limitations of each technique
+    textbook_style_content:
+      - topic: Strategic Selection of Characterization Methods
+        sections:
+          - section_title: Matching Techniques to Analytical Questions
+            section_type: overview
+          - section_title: Complementarity of Spectroscopic and Microscopic Methods
+            section_type: core_theory
+          - section_title: Sample Requirements and Destructive vs Non-Destructive Methods
+            section_type: core_theory
+      - topic: Case Studies in Multi-Technique Analysis
+        sections:
+          - section_title: Complete Characterization of Coordination Complexes
+            section_type: core_theory
+          - section_title: Structural and Electronic Properties of Mixed-Valence Compounds
+            section_type: core_theory
+          - section_title: Surface Analysis of Catalytic Materials
+            section_type: core_theory
+          - section_title: Nanoparticle Characterization Workflows
+            section_type: core_theory
+      - topic: Data Correlation and Interpretation
+        sections:
+          - section_title: Cross-Validation of Results
+            section_type: core_theory
+          - section_title: Resolving Contradictory Information
+            section_type: core_theory
+          - section_title: Building Comprehensive Structural Models
+            section_type: core_theory
+      - topic: Limitations and Troubleshooting
+        sections:
+          - section_title: Common Artifacts and Their Recognition
+            section_type: related_concepts
+          - section_title: Sensitivity and Detection Limits
+            section_type: related_concepts
+          - section_title: Sample Preparation Effects
+            section_type: related_concepts
+    milestone: Develop and execute comprehensive characterization strategies integrating multiple analytical techniques
+    duration_days: 8
+    tags:
+      - integration
+      - multi_technique
+      - problem_solving
+      - case_studies
+      - strategy
+
+  - id: 10
+    title: Advanced Topics and Emerging Techniques
+    learning_objectives:
+      - Explore time-resolved spectroscopic methods
+      - Understand synchrotron-based characterization techniques
+      - Review advances in operando and in situ methods
+      - Assess future directions in inorganic characterization
+    textbook_style_content:
+      - topic: Time-Resolved Spectroscopy
+        sections:
+          - section_title: Transient Absorption and Emission Techniques
+            section_type: core_theory
+          - section_title: Pump-Probe Methods
+            section_type: related_concepts
+          - section_title: Ultrafast Spectroscopy Applications
+            section_type: related_concepts
+      - topic: Synchrotron Radiation Methods
+        sections:
+          - section_title: X-ray Absorption Spectroscopy (XAS, XANES, EXAFS)
+            section_type: core_theory
+          - section_title: Synchrotron-Based X-ray Diffraction
+            section_type: related_concepts
+          - section_title: X-ray Magnetic Circular Dichroism
+            section_type: related_concepts
+      - topic: In Situ and Operando Characterization
+        sections:
+          - section_title: Real-Time Monitoring During Chemical Reactions
+            section_type: core_theory
+          - section_title: High-Temperature and High-Pressure Spectroscopy
+            section_type: related_concepts
+          - section_title: Electrochemical Cells with Spectroscopic Probes
+            section_type: related_concepts
+      - topic: Computational Integration
+        sections:
+          - section_title: DFT Calculations for Spectral Prediction
+            section_type: related_concepts
+          - section_title: Machine Learning in Spectral Analysis
+            section_type: related_concepts
+    milestone: Understand cutting-edge characterization methods and their applications to advanced inorganic systems
+    duration_days: 7
+    tags:
+      - advanced_topics
+      - time_resolved
+      - synchrotron
+      - in_situ
+      - computational

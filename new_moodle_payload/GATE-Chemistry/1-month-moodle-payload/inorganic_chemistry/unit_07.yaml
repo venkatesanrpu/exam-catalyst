@@ -1,0 +1,470 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Organometallics - 18-Electron rule; metal-alkyl, metal-carbonyl, metal-olefin and metal-carbene complexes and metallocenes. Fluxionality in organometallic complexes. Types of organometallic reactions. Homogeneous catalysis - Hydrogenation, hydroformylation, acetic acid synthesis, metathesis and olefin oxidation. Heterogeneous catalysis - Fischer-Tropsch reaction, Ziegler-Natta polymerization.
+
+concepts:
+  core:
+    - name: 18-Electron Rule
+      clarifier: Fundamental principle governing stability and electron count in organometallic complexes analogous to octet rule for main group elements
+    - name: Metal-Alkyl Complexes
+      clarifier: Organometallic compounds with direct metal-carbon sigma bonds formed between transition metals and alkyl ligands
+    - name: Metal-Carbonyl Complexes
+      clarifier: Coordination complexes with carbon monoxide as ligand; important for understanding pi-acidity and backbonding in organometallics
+    - name: Metal-Olefin Complexes
+      clarifier: Transition metal complexes with alkene ligands showing pi-bonding interactions and variable hapticity
+    - name: Metal-Carbene Complexes
+      clarifier: Organometallic species with metal-carbon double bonds; divided into Fischer and Schrock carbenes based on electronic properties
+    - name: Metallocenes
+      clarifier: Sandwich complexes with metal centre sandwiched between two cyclopentadienyl ligands; prototypical organometallic compounds
+    - name: Fluxionality in Organometallic Complexes
+      clarifier: Dynamic behavior and rapid intramolecular rearrangements in organometallic molecules observed through NMR spectroscopy
+    - name: Types of Organometallic Reactions
+      clarifier: Classification of elementary steps including oxidative addition, reductive elimination, insertion, migration and abstraction reactions
+    - name: Homogeneous Catalysis
+      clarifier: Catalytic processes where catalyst exists in same phase as reactants; applications in hydrogenation, hydroformylation and metathesis
+    - name: Heterogeneous Catalysis
+      clarifier: Catalytic processes occurring at solid-liquid or solid-gas interfaces; includes Fischer-Tropsch and Ziegler-Natta polymerization
+
+  related:
+    - name: Hapticity and Coordination Modes
+      clarifier: Description of the number of atoms through which a ligand bonds to metal centre; determines reactivity and properties
+    - name: Backbonding and Ligand Field Theory
+      clarifier: Metal-to-ligand pi-donation explaining CO pi-acidity and stabilization of low oxidation states
+    - name: Oxidation States in Organometallics
+      clarifier: Formal oxidation state assignment in complexes with hydridic, organic and anionic ligands
+    - name: Wilkinson Catalyst
+      clarifier: Specific example of homogeneous hydrogenation catalyst; illustrates mechanism of catalytic cycle
+    - name: Hydroformylation Mechanism
+      clarifier: Addition of CO and H to unsaturated organic compounds using metal catalyst; industrial importance in aldehyde synthesis
+    - name: Acetic Acid Synthesis
+      clarifier: Monsanto process using rhodium-based carbonylation catalyst; major industrial application of homogeneous catalysis
+    - name: Metathesis Reactions
+      clarifier: Rearrangement of carbon-carbon double bonds using metal carbene intermediates; Grubbs and Schrock catalysts
+    - name: Olefin Oxidation Catalysis
+      clarifier: Wacker process and related catalytic oxidations of alkenes to carbonyl compounds using palladium catalysts
+    - name: Fischer-Tropsch Process
+      clarifier: Conversion of syngas to liquid hydrocarbons on iron or cobalt catalysts; heterogeneous catalytic process
+    - name: Ziegler-Natta Catalysis
+      clarifier: Polymerization of alkenes using titanium-based catalysts; stereospecific polymerization producing crystalline polymers
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Organometallic Complexes
+    learning_objectives:
+      - Understand the 18-electron rule and its application to stability prediction
+      - Classify organometallic complexes based on ligand types
+      - Recognize and name metal-alkyl, metal-carbonyl and metal-olefin species
+      - Distinguish between different coordination modes and hapticity
+    textbook_style_content:
+      - lesson: Introduction to Organometallics and Electron Counting
+        sections:
+          - section_heading: Definition and Scope of Organometallic Chemistry
+            section_type: overview
+          - section_heading: The 18-Electron Rule - Analogue to the Octet Rule
+            section_type: core_theory
+          - section_heading: Electron Counting Methodology for d-block Metals
+            section_type: core_theory
+          - section_heading: Effective Nuclear Charge and Stability Trends
+            section_type: related_concepts
+      - lesson: Metal-Alkyl Complexes
+        sections:
+          - section_heading: Structure and Bonding in Metal-Alkyl Compounds
+            section_type: core_theory
+          - section_heading: Sigma Bonding and Metal-Carbon Interactions
+            section_type: core_theory
+          - section_heading: Thermal Stability and Beta-Hydride Elimination
+            section_type: related_concepts
+      - lesson: Metal-Carbonyl Complexes
+        sections:
+          - section_heading: Carbon Monoxide as a Ligand - Bonding Model
+            section_type: core_theory
+          - section_heading: Backbonding and Pi-Acidity of CO
+            section_type: core_theory
+          - section_heading: Infrared Spectroscopy of Metal Carbonyls
+            section_type: related_concepts
+          - section_heading: Mononuclear and Polynuclear Carbonyl Complexes
+            section_type: related_concepts
+    milestone: Establish foundational understanding of organometallic bonding and electron counting principles
+    duration_days: 7
+    tags:
+      - fundamentals
+      - electron_counting
+      - ligand_classification
+
+  - id: 2
+    topic: Ligand Diversity and Coordination Modes
+    learning_objectives:
+      - Comprehend metal-olefin and metal-alkyne coordination mechanisms
+      - Explain Fischer and Schrock carbene structures and electronic properties
+      - Analyze metallocene structures and bonding
+      - Apply hapticity notation to complex organometallic compounds
+    textbook_style_content:
+      - lesson: Metal-Olefin and Metal-Alkyne Complexes
+        sections:
+          - section_heading: Pi-Bonding Between Metal and Unsaturated Ligands
+            section_type: core_theory
+          - section_heading: Dewar-Chatt-Duncanson Model of Olefin Coordination
+            section_type: core_theory
+          - section_heading: Relative Stability and Reactivity of Metal-Olefin Species
+            section_type: related_concepts
+      - lesson: Metal-Carbene Complexes
+        sections:
+          - section_heading: Fischer Carbenes - Structure and Synthesis
+            section_type: core_theory
+          - section_heading: Schrock Carbenes - High-Valent Metal Carbenes
+            section_type: core_theory
+          - section_heading: Comparison of Fischer and Schrock Carbenes
+            section_type: core_theory
+          - section_heading: Reactivity and Applications in Catalysis
+            section_type: related_concepts
+      - lesson: Metallocenes and Sandwich Complexes
+        sections:
+          - section_heading: Ferrocene - Prototypical Metallocene Structure
+            section_type: core_theory
+          - section_heading: Aromatic Character and Hapticity in Metallocenes
+            section_type: core_theory
+          - section_heading: Extended Metallocene Family and Variations
+            section_type: related_concepts
+    milestone: Master diverse organometallic ligand classes and their coordination chemistry
+    duration_days: 7
+    tags:
+      - ligand_diversity
+      - coordination_modes
+      - metallocenes
+      - carbenes
+
+  - id: 3
+    topic: Dynamic Behavior in Organometallic Systems
+    learning_objectives:
+      - Explain fluxionality mechanisms in organometallic complexes
+      - Analyze NMR evidence for dynamic rearrangements
+      - Classify rapid intramolecular processes
+      - Predict fluxional behavior from structural considerations
+    textbook_style_content:
+      - lesson: Fluxionality in Organometallic Complexes
+        sections:
+          - section_heading: Definition and Classification of Fluxional Processes
+            section_type: overview
+          - section_heading: Mechanisms of Fluxionality - Ligand Rotation and Rearrangement
+            section_type: core_theory
+          - section_heading: Intramolecular Rearrangements in Carbonyls and Cyclopentadienyl Complexes
+            section_type: core_theory
+          - section_heading: NMR Spectroscopy Evidence for Fluxionality
+            section_type: related_concepts
+          - section_heading: Coalescence Temperatures and Rate Constants
+            section_type: related_concepts
+          - section_heading: Examples - Fe(CO)5, C5H5Mo(CO)3 and Other Fluxional Species
+            section_type: related_concepts
+    milestone: Understand dynamic nature of organometallic complexes and spectroscopic characterization
+    duration_days: 5
+    tags:
+      - fluxionality
+      - dynamic_behavior
+      - NMR_spectroscopy
+
+  - id: 4
+    topic: Elementary Reactions in Organometallic Chemistry
+    learning_objectives:
+      - Classify and explain types of organometallic reactions
+      - Understand oxidative addition and reductive elimination mechanisms
+      - Analyze insertion, migration and abstraction reactions
+      - Apply reaction types to catalytic cycles
+    textbook_style_content:
+      - lesson: Fundamental Organometallic Reaction Types
+        sections:
+          - section_heading: Classification of Elementary Organometallic Reactions
+            section_type: overview
+          - section_heading: Oxidative Addition Mechanisms and Stereochemistry
+            section_type: core_theory
+          - section_heading: Reductive Elimination and its Reverse Processes
+            section_type: core_theory
+          - section_heading: Migratory Insertion of Carbonyls and Olefins
+            section_type: core_theory
+          - section_heading: Migration and Rearrangement Reactions
+            section_type: core_theory
+          - section_heading: Abstraction Reactions - H-Abstraction and X-Abstraction
+            section_type: core_theory
+          - section_heading: Transmetalation and Coupling Reactions
+            section_type: related_concepts
+          - section_heading: Mechanistic Analysis Using Electron Counting
+            section_type: related_concepts
+    milestone: Master elementary reaction types as foundation for catalytic mechanisms
+    duration_days: 8
+    tags:
+      - reaction_mechanisms
+      - elementary_steps
+      - catalytic_cycles
+
+  - id: 5
+    topic: Homogeneous Catalysis - Hydrogenation and Hydroformylation
+    learning_objectives:
+      - Understand Wilkinson catalyst and hydrogenation mechanism
+      - Explain hydroformylation process and aldehyde synthesis
+      - Analyze factors affecting selectivity and regioselectivity
+      - Apply mechanistic principles to industrial processes
+    textbook_style_content:
+      - lesson: Homogeneous Hydrogenation Catalysis
+        sections:
+          - section_heading: Hydrogenation as a Catalytic Process
+            section_type: overview
+          - section_heading: Wilkinson Catalyst - Structure and Activity
+            section_type: core_theory
+          - section_heading: Mechanism of Catalytic Hydrogenation
+            section_type: core_theory
+          - section_heading: Stereochemistry of Hydrogenation Reactions
+            section_type: related_concepts
+          - section_heading: Other Homogeneous Hydrogenation Catalysts
+            section_type: related_concepts
+      - lesson: Hydroformylation - Oxo Process
+        sections:
+          - section_heading: Hydroformylation Reaction Overview
+            section_type: overview
+          - section_heading: Catalytic Cycle and Mechanism
+            section_type: core_theory
+          - section_heading: Regioselectivity - Linear vs Branched Aldehydes
+            section_type: core_theory
+          - section_heading: Ligand Effects on Selectivity and Activity
+            section_type: related_concepts
+          - section_heading: Industrial Applications and Economic Significance
+            section_type: related_concepts
+    milestone: Comprehend mechanism and industrial application of hydrogenation and hydroformylation catalysis
+    duration_days: 8
+    tags:
+      - homogeneous_catalysis
+      - hydrogenation
+      - hydroformylation
+      - industrial_catalysis
+
+  - id: 6
+    topic: Homogeneous Catalysis - Carbonylation and Metathesis
+    learning_objectives:
+      - Explain acetic acid synthesis via Monsanto process
+      - Understand carbonylation mechanisms and selectivity
+      - Analyze olefin metathesis reactions and catalysts
+      - Compare Grubbs and Schrock metathesis catalysts
+    textbook_style_content:
+      - lesson: Carbonylation - Acetic Acid Synthesis
+        sections:
+          - section_heading: Monsanto Process Overview
+            section_type: overview
+          - section_heading: Catalytic Cycle - Oxidative Addition and CO Insertion
+            section_type: core_theory
+          - section_heading: Rhodium Catalyst System and Promoters
+            section_type: core_theory
+          - section_heading: Mechanistic Details and Rate-Determining Steps
+            section_type: core_theory
+          - section_heading: Industrial Scale and Economic Impact
+            section_type: related_concepts
+      - lesson: Olefin Metathesis Catalysis
+        sections:
+          - section_heading: Metathesis Reaction - Mechanism and Applications
+            section_type: overview
+          - section_heading: Metal Carbene Intermediate Formation
+            section_type: core_theory
+          - section_heading: Ring-Opening Metathesis Polymerization (ROMP)
+            section_type: core_theory
+          - section_heading: Grubbs Catalyst - First and Second Generation
+            section_type: core_theory
+          - section_heading: Schrock Molybdenum Carbene Catalysts
+            section_type: core_theory
+          - section_heading: Selectivity and Functional Group Tolerance
+            section_type: related_concepts
+          - section_heading: Industrial and Synthetic Applications
+            section_type: related_concepts
+    milestone: Master carbonylation chemistry and metathesis catalysis with industrial relevance
+    duration_days: 9
+    tags:
+      - homogeneous_catalysis
+      - carbonylation
+      - metathesis
+      - Grubbs_catalyst
+      - Schrock_catalyst
+
+  - id: 7
+    topic: Homogeneous Catalysis - Oxidation Reactions
+    learning_objectives:
+      - Understand olefin oxidation mechanisms
+      - Explain Wacker process and palladium catalysis
+      - Analyze oxidation selectivity and regioselectivity
+      - Apply oxidative catalysis to synthetic transformations
+    textbook_style_content:
+      - lesson: Olefin Oxidation Catalysis
+        sections:
+          - section_heading: Olefin Oxidation as a Catalytic Process
+            section_type: overview
+          - section_heading: Wacker Process - Palladium-Catalyzed Oxidation
+            section_type: core_theory
+          - section_heading: Catalytic Cycle and PdII/Pd0 Interconversion
+            section_type: core_theory
+          - section_heading: Role of Copper Chloride as Reoxidant
+            section_type: core_theory
+          - section_heading: Mechanistic Details - Insertion and Beta-Hydride Elimination
+            section_type: core_theory
+          - section_heading: Selectivity and Regioselectivity in Oxidation
+            section_type: related_concepts
+          - section_heading: Other Homogeneous Oxidation Catalysts
+            section_type: related_concepts
+          - section_heading: Industrial Applications in Acetaldehyde and Vinyl Acetate Synthesis
+            section_type: related_concepts
+    milestone: Understand oxidation catalysis mechanisms with emphasis on Wacker process
+    duration_days: 7
+    tags:
+      - homogeneous_catalysis
+      - olefin_oxidation
+      - Wacker_process
+      - palladium_catalysis
+
+  - id: 8
+    topic: Heterogeneous Catalysis - Fischer-Tropsch Reaction
+    learning_objectives:
+      - Explain Fischer-Tropsch process and syngas conversion
+      - Understand CO hydrogenation mechanisms
+      - Analyze catalyst composition and activity
+      - Compare iron and cobalt catalysts
+      - Evaluate product selectivity and chain growth
+    textbook_style_content:
+      - lesson: Fischer-Tropsch Synthesis Overview
+        sections:
+          - section_heading: Fischer-Tropsch Process - Historical and Industrial Context
+            section_type: overview
+          - section_heading: Syngas Preparation and Composition Effects
+            section_type: related_concepts
+      - lesson: Fischer-Tropsch Catalysis Mechanism
+        sections:
+          - section_heading: CO Activation on Metal Surfaces
+            section_type: core_theory
+          - section_heading: Proposed Mechanisms - Carbide vs Hydroxycarbonyl Routes
+            section_type: core_theory
+          - section_heading: Chain Growth and Termination Mechanisms
+            section_type: core_theory
+          - section_heading: Selectivity Control - Anderson-Schulz-Flory Distribution
+            section_type: core_theory
+      - lesson: Fischer-Tropsch Catalysts
+        sections:
+          - section_heading: Iron Catalysts - Composition and Activity
+            section_type: core_theory
+          - section_heading: Cobalt Catalysts - Advantages and Selectivity
+            section_type: core_theory
+          - section_heading: Promoters and Support Materials
+            section_type: related_concepts
+          - section_heading: Deactivation and Catalyst Regeneration
+            section_type: related_concepts
+      - lesson: Fischer-Tropsch Process Parameters
+        sections:
+          - section_heading: Effect of Temperature, Pressure and H2/CO Ratio
+            section_type: related_concepts
+          - section_heading: Product Selectivity and Economic Considerations
+            section_type: related_concepts
+    milestone: Comprehend Fischer-Tropsch heterogeneous catalysis and syngas-to-liquid technology
+    duration_days: 9
+    tags:
+      - heterogeneous_catalysis
+      - Fischer_Tropsch
+      - syngas_conversion
+      - CO_hydrogenation
+
+  - id: 9
+    topic: Heterogeneous Catalysis - Ziegler-Natta Polymerization
+    learning_objectives:
+      - Understand Ziegler-Natta catalyst composition and mechanism
+      - Explain stereospecific polymerization of alkenes
+      - Analyze factors controlling tacticity and molecular weight
+      - Compare titanium and chromium-based catalysts
+      - Apply mechanistic principles to polymer synthesis
+    textbook_style_content:
+      - lesson: Ziegler-Natta Polymerization Overview
+        sections:
+          - section_heading: Development and Industrial Significance
+            section_type: overview
+          - section_heading: Historical Context and Impact on Polymer Industry
+            section_type: related_concepts
+      - lesson: Ziegler-Natta Catalyst System
+        sections:
+          - section_heading: Catalyst Composition - TiCl4 and Organometallic Cocatalyst
+            section_type: core_theory
+          - section_heading: Cocatalyst Role - Alkylaluminum Compounds
+            section_type: core_theory
+          - section_heading: Heterogeneous vs Homogeneous Ziegler-Natta Systems
+            section_type: core_theory
+          - section_heading: Catalyst Activation and Active Site Formation
+            section_type: related_concepts
+      - lesson: Mechanism of Stereospecific Polymerization
+        sections:
+          - section_heading: Olefin Insertion into Ti-Carbon Bond
+            section_type: core_theory
+          - section_heading: Chain Propagation and Growth Kinetics
+            section_type: core_theory
+          - section_heading: Origin of Stereoselectivity - Coordination Control
+            section_type: core_theory
+          - section_heading: Tacticity Control - Isotactic, Syndiotactic, Atactic Polymers
+            section_type: core_theory
+          - section_heading: Cossee-Arlman Mechanism and Its Variations
+            section_type: related_concepts
+      - lesson: Factors Controlling Polymer Properties
+        sections:
+          - section_heading: Molecular Weight and Chain Termination Reactions
+            section_type: core_theory
+          - section_heading: Effect of Temperature and Monomer Concentration
+            section_type: related_concepts
+          - section_heading: Cocatalyst Structure and Selectivity Effects
+            section_type: related_concepts
+          - section_heading: Deactivation Mechanisms and Catalyst Lifetime
+            section_type: related_concepts
+      - lesson: Chromium-Based Catalysts
+        sections:
+          - section_heading: Phillips Catalyst - Chromium on Silica
+            section_type: core_theory
+          - section_heading: Comparison with Titanium-Based Ziegler-Natta Catalysts
+            section_type: related_concepts
+    milestone: Master Ziegler-Natta polymerization mechanism and control of polymer stereochemistry
+    duration_days: 10
+    tags:
+      - heterogeneous_catalysis
+      - Ziegler_Natta
+      - polymerization
+      - stereospecific_catalysis
+      - tacticity_control
+
+  - id: 10
+    topic: Comprehensive Integration and GATE Problem Solving
+    learning_objectives:
+      - Integrate all organometallic chemistry concepts
+      - Apply electron counting to complex scenarios
+      - Solve multi-step catalytic mechanism problems
+      - Analyze comparative catalytic efficiency questions
+      - Practice GATE-style examination questions
+    textbook_style_content:
+      - lesson: Synthesis of Organometallic Knowledge
+        sections:
+          - section_heading: Electron Counting Applications Across Complex Systems
+            section_type: core_theory
+          - section_heading: Structure-Reactivity Correlations in Organometallics
+            section_type: core_theory
+          - section_heading: Comparative Analysis of Catalytic Systems
+            section_type: related_concepts
+      - lesson: Problem-Solving Strategies
+        sections:
+          - section_heading: Mechanism Prediction Using Elementary Reaction Types
+            section_type: core_theory
+          - section_heading: Analysis of Regioselectivity and Stereoselectivity
+            section_type: related_concepts
+          - section_heading: Troubleshooting Catalyst Deactivation Issues
+            section_type: related_concepts
+      - lesson: GATE Examination Preparation
+        sections:
+          - section_heading: Numerical Problems on Electron Counting and Oxidation States
+            section_type: related_concepts
+          - section_heading: Multiple-Choice Questions on Catalyst Structure-Function
+            section_type: related_concepts
+          - section_heading: Mechanism Elucidation and Inference Questions
+            section_type: related_concepts
+          - section_heading: Comparative Analysis of Homogeneous vs Heterogeneous Systems
+            section_type: related_concepts
+    milestone: Synthesize all learning outcomes and demonstrate examination readiness
+    duration_days: 8
+    tags:
+      - integration
+      - problem_solving
+      - GATE_preparation
+      - examination_practice

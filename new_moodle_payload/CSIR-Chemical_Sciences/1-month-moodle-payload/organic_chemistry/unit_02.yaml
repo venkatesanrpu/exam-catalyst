@@ -1,0 +1,567 @@
+metadata:
+  subject: Organic Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Principles of stereochemistry: Configurational and conformational isomerism in acyclic and cyclic compounds; stereogenicity, stereoselectivity, enantioselectivity, diastereoselectivity and asymmetric induction."
+
+concepts:
+  core:
+    - name: Configurational isomerism
+      clarifier: Isomers differing in spatial arrangement of atoms that cannot be interconverted without breaking bonds
+    - name: Conformational isomerism
+      clarifier: Isomers differing in spatial arrangement due to rotation about single bonds
+    - name: Stereogenicity
+      clarifier: Property of molecular elements that give rise to stereoisomers
+    - name: Stereoselectivity
+      clarifier: Preferential formation of one stereoisomer over others in a chemical reaction
+    - name: Enantioselectivity
+      clarifier: Preferential formation of one enantiomer over its mirror image
+    - name: Diastereoselectivity
+      clarifier: Preferential formation of one diastereomer over others
+    - name: Asymmetric induction
+      clarifier: Creation of new stereogenic centers influenced by existing chirality
+  related:
+    - name: Chirality and optical activity
+      clarifier: Molecular handedness and interaction with plane-polarized light
+    - name: R/S nomenclature
+      clarifier: Cahn-Ingold-Prelog priority rules for absolute configuration assignment
+    - name: E/Z nomenclature
+      clarifier: Geometric isomer designation for alkenes
+    - name: Fischer projections
+      clarifier: Two-dimensional representation of three-dimensional molecular structures
+    - name: Newman projections
+      clarifier: Visualization of conformational arrangements along carbon-carbon bonds
+    - name: Enantiomeric excess
+      clarifier: Measure of enantiopurity in product mixtures
+    - name: Diastereomeric ratio
+      clarifier: Quantitative measure of diastereomer distribution
+    - name: Prochirality
+      clarifier: Property of achiral molecules that can become chiral in one step
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Stereochemistry and Molecular Representations
+    learning_objectives:
+      - Define stereoisomerism and distinguish between constitutional and stereoisomers
+      - Identify chiral molecules and understand the relationship between chirality and optical activity
+      - Apply Cahn-Ingold-Prelog priority rules to assign R/S configurations
+      - Construct and interpret Fischer projections for acyclic molecules
+    textbook_style_content:
+      - topic: Introduction to Stereochemistry
+        sections:
+          - section_title: Historical perspective and importance in organic chemistry
+            section_type: overview
+          - section_title: Classification of isomers - constitutional vs stereoisomers
+            section_type: core_theory
+          - section_title: Three-dimensional nature of molecules and spatial arrangements
+            section_type: core_theory
+      - topic: Chirality and Optical Activity
+        sections:
+          - section_title: Definition of chirality and mirror image relationships
+            section_type: core_theory
+          - section_title: Enantiomers and their properties
+            section_type: core_theory
+          - section_title: Optical rotation and specific rotation measurements
+            section_type: related_concepts
+          - section_title: Racemic mixtures and resolution techniques
+            section_type: related_concepts
+      - topic: Nomenclature and Representation Systems
+        sections:
+          - section_title: Cahn-Ingold-Prelog priority rules
+            section_type: core_theory
+          - section_title: R/S designation for stereogenic centers
+            section_type: core_theory
+          - section_title: Fischer projection conventions and manipulations
+            section_type: core_theory
+          - section_title: Wedge-dash notation and three-dimensional representations
+            section_type: related_concepts
+    milestone: Master foundational stereochemical concepts and nomenclature systems
+    duration_days: 7
+    tags:
+      - chirality
+      - optical activity
+      - nomenclature
+      - Fischer projections
+      - R/S configuration
+
+  - id: 2
+    title: Configurational Isomerism in Acyclic Compounds
+    learning_objectives:
+      - Identify and assign configurations to molecules with multiple stereogenic centers
+      - Determine meso compounds and recognize internal symmetry planes
+      - Calculate maximum number of stereoisomers for molecules with multiple stereocenters
+      - Apply erythro/threo nomenclature to acyclic diasteromers
+    textbook_style_content:
+      - topic: Single Stereogenic Centers in Acyclic Systems
+        sections:
+          - section_title: Tetrahedral carbon as the most common stereogenic center
+            section_type: core_theory
+          - section_title: Stereoisomers with one stereogenic center
+            section_type: core_theory
+          - section_title: Properties of enantiomers - physical and chemical behavior
+            section_type: related_concepts
+      - topic: Multiple Stereogenic Centers
+        sections:
+          - section_title: Diastereomers vs enantiomers - defining relationships
+            section_type: core_theory
+          - section_title: Maximum stereoisomer formula - 2^n rule and exceptions
+            section_type: core_theory
+          - section_title: Meso compounds and internal planes of symmetry
+            section_type: core_theory
+          - section_title: Optical inactivity in meso forms
+            section_type: related_concepts
+      - topic: Diastereomeric Relationships in Acyclic Molecules
+        sections:
+          - section_title: Erythro and threo nomenclature systems
+            section_type: core_theory
+          - section_title: syn and anti relationships
+            section_type: related_concepts
+          - section_title: Physical property differences between diastereomers
+            section_type: related_concepts
+      - topic: Geometric Isomerism in Alkenes
+        sections:
+          - section_title: Cis-trans isomerism and restricted rotation
+            section_type: core_theory
+          - section_title: E/Z nomenclature using CIP rules
+            section_type: core_theory
+          - section_title: Stability considerations in geometric isomers
+            section_type: related_concepts
+    milestone: Analyze and assign configurations in complex acyclic stereoisomeric systems
+    duration_days: 8
+    tags:
+      - configurational isomers
+      - diastereomers
+      - meso compounds
+      - geometric isomers
+      - E/Z nomenclature
+
+  - id: 3
+    title: Configurational Isomerism in Cyclic Compounds
+    learning_objectives:
+      - Identify stereogenic centers in cyclic systems
+      - Determine cis/trans relationships in cyclic compounds
+      - Assign R/S configurations to substituents on rings
+      - Recognize and analyze bicyclic and polycyclic stereochemistry
+    textbook_style_content:
+      - topic: Stereochemistry of Monocyclic Compounds
+        sections:
+          - section_title: Cycloalkanes with substituents - cis/trans isomerism
+            section_type: core_theory
+          - section_title: Disubstituted cycloalkanes and stereoisomer enumeration
+            section_type: core_theory
+          - section_title: Ring as a stereogenic element
+            section_type: core_theory
+      - topic: Decalins and Fused Ring Systems
+        sections:
+          - section_title: cis-Decalin and trans-decalin structures
+            section_type: core_theory
+          - section_title: Conformational rigidity in fused bicyclic systems
+            section_type: related_concepts
+          - section_title: Stereochemistry in steroid frameworks
+            section_type: related_concepts
+      - topic: Bridged and Spiro Systems
+        sections:
+          - section_title: Norbornane and related bridged bicyclic compounds
+            section_type: core_theory
+          - section_title: Exo/endo nomenclature in bridged systems
+            section_type: core_theory
+          - section_title: Spirocyclic stereochemistry
+            section_type: related_concepts
+      - topic: Advanced Cyclic Stereochemistry
+        sections:
+          - section_title: Heterocyclic ring stereochemistry
+            section_type: related_concepts
+          - section_title: Anomeric effects in cyclic acetals and sugars
+            section_type: related_concepts
+    milestone: Master configurational analysis of diverse cyclic molecular architectures
+    duration_days: 8
+    tags:
+      - cyclic compounds
+      - cis-trans isomerism
+      - bicyclic systems
+      - bridged compounds
+      - decalins
+
+  - id: 4
+    title: Conformational Analysis of Acyclic Systems
+    learning_objectives:
+      - Construct and interpret Newman projections for conformational analysis
+      - Identify staggered and eclipsed conformations and their energy profiles
+      - Analyze conformational preferences using torsional and steric strain concepts
+      - Apply conformational analysis to substituted ethanes and butanes
+    textbook_style_content:
+      - topic: Fundamentals of Conformational Isomerism
+        sections:
+          - section_title: Definition and distinction from configurational isomerism
+            section_type: overview
+          - section_title: Rotation about single bonds and energy barriers
+            section_type: core_theory
+          - section_title: Conformers as distinct molecular geometries
+            section_type: core_theory
+      - topic: Newman Projection Method
+        sections:
+          - section_title: Construction rules and viewing conventions
+            section_type: core_theory
+          - section_title: Dihedral angles and torsional relationships
+            section_type: core_theory
+          - section_title: Sawhorse projections as alternative representations
+            section_type: related_concepts
+      - topic: Ethane and Simple Alkanes
+        sections:
+          - section_title: Staggered vs eclipsed conformations in ethane
+            section_type: core_theory
+          - section_title: Torsional strain and rotational energy barrier
+            section_type: core_theory
+          - section_title: Energy diagrams for bond rotation
+            section_type: related_concepts
+      - topic: Substituted Alkanes
+        sections:
+          - section_title: Butane conformations - anti, gauche, and eclipsed
+            section_type: core_theory
+          - section_title: Steric strain and gauche interactions
+            section_type: core_theory
+          - section_title: Relative conformer populations and Boltzmann distributions
+            section_type: related_concepts
+          - section_title: A-values and conformational free energy differences
+            section_type: related_concepts
+    milestone: Predict and analyze conformational preferences in acyclic molecules
+    duration_days: 6
+    tags:
+      - conformational analysis
+      - Newman projections
+      - torsional strain
+      - steric strain
+      - rotational barriers
+
+  - id: 5
+    title: Conformational Analysis of Cyclic Systems
+    learning_objectives:
+      - Analyze ring strain in cycloalkanes of varying ring sizes
+      - Draw and evaluate chair conformations of cyclohexane
+      - Predict axial/equatorial preferences for substituted cyclohexanes
+      - Assess conformational equilibria in disubstituted cyclohexanes
+    textbook_style_content:
+      - topic: Ring Strain in Cycloalkanes
+        sections:
+          - section_title: Baeyer strain theory and angle strain
+            section_type: overview
+          - section_title: Torsional strain in small and medium rings
+            section_type: core_theory
+          - section_title: Relative stabilities of cyclopropane through cycloheptane
+            section_type: core_theory
+      - topic: Cyclohexane Conformations
+        sections:
+          - section_title: Chair conformation as the most stable form
+            section_type: core_theory
+          - section_title: Axial and equatorial positions
+            section_type: core_theory
+          - section_title: Ring flip mechanism and conformational interconversion
+            section_type: core_theory
+          - section_title: Boat and twist-boat conformations
+            section_type: related_concepts
+      - topic: Monosubstituted Cyclohexanes
+        sections:
+          - section_title: Equatorial preference and A-values
+            section_type: core_theory
+          - section_title: 1,3-Diaxial interactions
+            section_type: core_theory
+          - section_title: Conformational energy calculations
+            section_type: related_concepts
+      - topic: Disubstituted Cyclohexanes
+        sections:
+          - section_title: cis and trans isomers in chair conformations
+            section_type: core_theory
+          - section_title: Diequatorial vs diaxial preferences
+            section_type: core_theory
+          - section_title: Conformational analysis of 1,2-, 1,3-, and 1,4-substitution patterns
+            section_type: core_theory
+      - topic: Other Cyclic Systems
+        sections:
+          - section_title: Cyclopentane envelope and half-chair conformations
+            section_type: related_concepts
+          - section_title: Medium ring conformations and transannular interactions
+            section_type: related_concepts
+    milestone: Master conformational preferences and equilibria in cyclic systems
+    duration_days: 7
+    tags:
+      - cyclohexane
+      - chair conformation
+      - axial-equatorial
+      - ring strain
+      - A-values
+
+  - id: 6
+    title: Stereogenicity and Stereogenic Elements
+    learning_objectives:
+      - Distinguish between stereogenic centers, axes, and planes
+      - Identify prochiral centers and faces in molecules
+      - Apply re/si nomenclature to prochiral faces
+      - Recognize enantiotopic and diastereotopic groups and faces
+    textbook_style_content:
+      - topic: Types of Stereogenic Elements
+        sections:
+          - section_title: Overview of stereogenic centers, axes, and planes
+            section_type: overview
+          - section_title: Stereogenic centers - classical tetrahedral chirality
+            section_type: core_theory
+          - section_title: Stereogenic axes in allenes and biaryls
+            section_type: core_theory
+          - section_title: Stereogenic planes in cyclophanes and metallocenes
+            section_type: related_concepts
+      - topic: Prochirality Concepts
+        sections:
+          - section_title: Definition of prochirality and prostereogenic centers
+            section_type: core_theory
+          - section_title: Enantiotopic groups, faces, and atoms
+            section_type: core_theory
+          - section_title: Diastereotopic groups, faces, and atoms
+            section_type: core_theory
+          - section_title: Homotopic relationships
+            section_type: related_concepts
+      - topic: Nomenclature for Prochiral Elements
+        sections:
+          - section_title: pro-R and pro-S designation for enantiotopic groups
+            section_type: core_theory
+          - section_title: re and si face nomenclature
+            section_type: core_theory
+          - section_title: Applications in mechanistic studies and enzyme catalysis
+            section_type: related_concepts
+      - topic: Topicity in Chemical Reactions
+        sections:
+          - section_title: Distinguishing enantiotopic vs diastereotopic in NMR spectroscopy
+            section_type: related_concepts
+          - section_title: Stereochemical consequences of adding reagents to prochiral centers
+            section_type: related_concepts
+    milestone: Identify and classify all stereogenic elements and prochiral relationships
+    duration_days: 6
+    tags:
+      - stereogenic centers
+      - prochirality
+      - enantiotopic
+      - diastereotopic
+      - re/si nomenclature
+
+  - id: 7
+    title: Principles of Stereoselectivity
+    learning_objectives:
+      - Define and distinguish stereospecific and stereoselective reactions
+      - Understand thermodynamic vs kinetic stereocontrol
+      - Analyze product distributions using stereoselectivity metrics
+      - Apply Curtin-Hammett principle to stereochemical outcomes
+    textbook_style_content:
+      - topic: Fundamental Concepts in Stereoselectivity
+        sections:
+          - section_title: Definitions - stereospecific, stereoselective, and stereoconvergent
+            section_type: overview
+          - section_title: Relationship between substrate structure and product stereochemistry
+            section_type: core_theory
+          - section_title: Thermodynamic vs kinetic stereocontrol
+            section_type: core_theory
+      - topic: Measuring Stereoselectivity
+        sections:
+          - section_title: Enantiomeric excess and enantiomeric ratio
+            section_type: core_theory
+          - section_title: Diastereomeric ratio and diastereomeric excess
+            section_type: core_theory
+          - section_title: Relationship between selectivity and product distribution
+            section_type: related_concepts
+      - topic: Factors Affecting Stereoselectivity
+        sections:
+          - section_title: Steric effects and conformational preferences
+            section_type: core_theory
+          - section_title: Electronic effects and orbital symmetry considerations
+            section_type: core_theory
+          - section_title: Solvent and temperature effects
+            section_type: related_concepts
+      - topic: Curtin-Hammett Principle
+        sections:
+          - section_title: Conformational equilibria and reaction rates
+            section_type: core_theory
+          - section_title: Product ratios determined by transition state energies
+            section_type: core_theory
+          - section_title: Applications in stereoselective synthesis
+            section_type: related_concepts
+    milestone: Understand principles governing stereochemical outcomes in reactions
+    duration_days: 5
+    tags:
+      - stereoselectivity
+      - stereospecificity
+      - enantiomeric excess
+      - Curtin-Hammett
+      - kinetic control
+
+  - id: 8
+    title: Enantioselectivity and Chiral Synthesis
+    learning_objectives:
+      - Distinguish enantioselective from non-enantioselective processes
+      - Analyze chiral auxiliary strategies for asymmetric synthesis
+      - Understand chiral catalyst design and asymmetric catalysis principles
+      - Evaluate kinetic resolution and dynamic kinetic resolution methods
+    textbook_style_content:
+      - topic: Introduction to Enantioselective Synthesis
+        sections:
+          - section_title: Importance of single enantiomers in pharmaceuticals and materials
+            section_type: overview
+          - section_title: Strategies for accessing enantiomerically enriched compounds
+            section_type: core_theory
+          - section_title: Chiral pool approach using natural products
+            section_type: related_concepts
+      - topic: Chiral Auxiliaries
+        sections:
+          - section_title: Definition and operating principles
+            section_type: core_theory
+          - section_title: Evans oxazolidinones and aldol reactions
+            section_type: core_theory
+          - section_title: Oppolzer's camphorsultam derivatives
+            section_type: related_concepts
+          - section_title: Auxiliary removal and recovery strategies
+            section_type: related_concepts
+      - topic: Asymmetric Catalysis
+        sections:
+          - section_title: Principles of catalytic asymmetric synthesis
+            section_type: core_theory
+          - section_title: Chiral ligands and metal complexes
+            section_type: core_theory
+          - section_title: Sharpless asymmetric epoxidation
+            section_type: related_concepts
+          - section_title: Organocatalysis and small molecule catalysts
+            section_type: related_concepts
+      - topic: Resolution Methods
+        sections:
+          - section_title: Classical resolution via diastereomeric salt formation
+            section_type: core_theory
+          - section_title: Kinetic resolution - preferential reaction of one enantiomer
+            section_type: core_theory
+          - section_title: Dynamic kinetic resolution combining racemization and resolution
+            section_type: core_theory
+          - section_title: Chromatographic resolution techniques
+            section_type: related_concepts
+    milestone: Apply enantioselective strategies to design asymmetric syntheses
+    duration_days: 8
+    tags:
+      - enantioselectivity
+      - chiral auxiliaries
+      - asymmetric catalysis
+      - kinetic resolution
+      - chiral synthesis
+
+  - id: 9
+    title: Diastereoselectivity in Organic Reactions
+    learning_objectives:
+      - Predict diastereomeric outcomes in nucleophilic additions to carbonyls
+      - Apply Cram's rule and Felkin-Anh model to substrate-controlled reactions
+      - Analyze chelation-controlled diastereoselectivity
+      - Understand substrate and reagent control in determining stereochemistry
+    textbook_style_content:
+      - topic: Fundamentals of Diastereoselective Reactions
+        sections:
+          - section_title: Creation of new stereogenic centers adjacent to existing ones
+            section_type: overview
+          - section_title: Substrate control vs reagent control
+            section_type: core_theory
+          - section_title: Matching vs mismatching in double stereodifferentiation
+            section_type: core_theory
+      - topic: Acyclic Diastereocontrol Models
+        sections:
+          - section_title: Cram's rule for nucleophilic additions
+            section_type: core_theory
+          - section_title: Felkin-Anh model and antiperiplanar approach
+            section_type: core_theory
+          - section_title: Polar Felkin-Anh modification
+            section_type: related_concepts
+      - topic: Chelation-Controlled Diastereoselectivity
+        sections:
+          - section_title: Cram chelate model
+            section_type: core_theory
+          - section_title: Coordinating substituents and metal chelation
+            section_type: core_theory
+          - section_title: α-Alkoxy and α-amino carbonyl selectivity
+            section_type: related_concepts
+      - topic: Cyclic Transition States
+        sections:
+          - section_title: Zimmerman-Traxler model for aldol reactions
+            section_type: core_theory
+          - section_title: Chair vs boat transition states
+            section_type: core_theory
+          - section_title: syn vs anti aldol selectivity
+            section_type: core_theory
+      - topic: Additional Diastereoselective Reactions
+        sections:
+          - section_title: Diastereocontrol in conjugate additions
+            section_type: related_concepts
+          - section_title: Facial selectivity in cyclic ketone reductions
+            section_type: related_concepts
+          - section_title: Diastereoselective cycloadditions
+            section_type: related_concepts
+    milestone: Predict and rationalize diastereomeric product distributions
+    duration_days: 8
+    tags:
+      - diastereoselectivity
+      - Cram's rule
+      - Felkin-Anh
+      - chelation control
+      - Zimmerman-Traxler
+
+  - id: 10
+    title: Asymmetric Induction and Advanced Applications
+    learning_objectives:
+      - Define asymmetric induction and understand chirality transfer mechanisms
+      - Analyze 1,2- and 1,3-asymmetric induction patterns
+      - Apply memory of chirality concepts
+      - Integrate stereochemical principles for complex molecule synthesis planning
+    textbook_style_content:
+      - topic: Principles of Asymmetric Induction
+        sections:
+          - section_title: Definition and historical development
+            section_type: overview
+          - section_title: Transfer of chiral information in bond-forming reactions
+            section_type: core_theory
+          - section_title: Substrate-controlled asymmetric induction
+            section_type: core_theory
+      - topic: 1,2-Asymmetric Induction
+        sections:
+          - section_title: Influence of adjacent stereogenic centers
+            section_type: core_theory
+          - section_title: Felkin-Anh and Cram models as 1,2-induction
+            section_type: core_theory
+          - section_title: Houk model and computational analysis
+            section_type: related_concepts
+      - topic: 1,3-Asymmetric Induction
+        sections:
+          - section_title: Remote stereocontrol through conformational bias
+            section_type: core_theory
+          - section_title: Evans model for β-hydroxy ketone reductions
+            section_type: core_theory
+          - section_title: Applications in polyketide synthesis
+            section_type: related_concepts
+      - topic: Memory of Chirality
+        sections:
+          - section_title: Retention of stereochemical information through achiral intermediates
+            section_type: core_theory
+          - section_title: Enolate memory effects
+            section_type: related_concepts
+          - section_title: Dynamic processes and stereochemical relay
+            section_type: related_concepts
+      - topic: Complex Molecule Applications
+        sections:
+          - section_title: Multiple stereogenic center installation strategies
+            section_type: related_concepts
+          - section_title: Stereochemical analysis of natural product targets
+            section_type: related_concepts
+          - section_title: Retrosynthetic analysis incorporating stereocontrol
+            section_type: related_concepts
+      - topic: Advanced Topics
+        sections:
+          - section_title: Atroposelectivity in biaryl synthesis
+            section_type: related_concepts
+          - section_title: Planar chirality and stereogenic planes
+            section_type: related_concepts
+          - section_title: Stereochemistry in cascade and domino reactions
+            section_type: related_concepts
+    milestone: Apply comprehensive stereochemical knowledge to complex synthetic problems
+    duration_days: 9
+    tags:
+      - asymmetric induction
+      - 1,2-induction
+      - 1,3-induction
+      - memory of chirality
+      - complex synthesis

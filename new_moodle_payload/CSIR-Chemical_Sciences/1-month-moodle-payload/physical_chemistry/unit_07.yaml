@@ -1,0 +1,672 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Chemical thermodynamics: Laws, state and path functions and their applications; thermodynamic description of various types of processes; Maxwell's relations; spontaneity and equilibria; temperature and pressure dependence of thermodynamic quantities; Le Chatelier principle; elementary description of phase transitions; phase equilibria and phase rule; thermodynamics of ideal and non-ideal gases, and solutions."
+
+concepts:
+  core:
+    - name: Laws of thermodynamics
+      clarifier: Zeroth, First, Second, and Third laws with mathematical formulations and physical interpretations
+    - name: State functions and path functions
+      clarifier: Distinction between state variables (U, H, S, G, A) and path-dependent quantities (q, w)
+    - name: Maxwell relations
+      clarifier: Four fundamental Maxwell relations derived from thermodynamic potentials
+    - name: Spontaneity and equilibrium criteria
+      clarifier: Gibbs energy, Helmholtz energy, and entropy criteria for spontaneous processes
+    - name: Temperature and pressure dependence
+      clarifier: Variation of thermodynamic quantities with T and P; Gibbs-Helmholtz equation
+    - name: Le Chatelier principle
+      clarifier: Response of equilibrium systems to external perturbations
+    - name: Phase transitions
+      clarifier: First-order and second-order transitions, latent heat, and enthalpy changes
+    - name: Phase equilibria and phase rule
+      clarifier: Gibbs phase rule, phase diagrams, and Clausius-Clapeyron equation
+    - name: Thermodynamics of ideal gases
+      clarifier: Equations of state, thermodynamic properties, and mixing processes
+    - name: Thermodynamics of non-ideal gases
+      clarifier: Fugacity, compressibility factor, and real gas equations
+    - name: Thermodynamics of ideal solutions
+      clarifier: Raoult's law, colligative properties, and mixing functions
+    - name: Thermodynamics of non-ideal solutions
+      clarifier: Activity, activity coefficients, excess functions, and solution models
+  related:
+    - name: Exact and inexact differentials
+      clarifier: Mathematical foundation for state and path functions
+    - name: Thermodynamic potentials
+      clarifier: Internal energy, enthalpy, Helmholtz energy, and Gibbs energy
+    - name: Chemical potential
+      clarifier: Partial molar Gibbs energy and its role in phase and chemical equilibria
+    - name: Partial molar properties
+      clarifier: Partial molar volume, enthalpy, and other extensive properties
+    - name: Gibbs-Duhem equation
+      clarifier: Relationship between partial molar quantities in mixtures
+    - name: Joule-Thomson effect
+      clarifier: Temperature change during isenthalpic expansion
+    - name: Carnot cycle
+      clarifier: Reversible heat engine and efficiency calculations
+    - name: Clausius-Clapeyron equation
+      clarifier: Temperature-pressure relationship along phase boundaries
+    - name: Activity and fugacity concepts
+      clarifier: Measures of effective concentration and pressure in non-ideal systems
+    - name: Equations of state
+      clarifier: van der Waals, Redlich-Kwong, and virial equations
+    - name: Statistical thermodynamics foundations
+      clarifier: Connection between microscopic and macroscopic properties
+    - name: Thermochemistry
+      clarifier: Enthalpy of formation, combustion, and reaction
+
+learning_path:
+  - id: 1
+    title: Foundations of Thermodynamics and the Zeroth and First Laws
+    learning_objectives:
+      - Define thermodynamic systems, surroundings, and boundaries (isolated, closed, open)
+      - Explain thermal equilibrium and the concept of temperature via the Zeroth Law
+      - State and apply the First Law of Thermodynamics to various processes
+      - Distinguish between internal energy as a state function and heat and work as path functions
+      - Calculate work done in reversible and irreversible processes (expansion, compression)
+    textbook_style_content:
+      - topic: Introduction to thermodynamic systems and the Zeroth Law
+        sections:
+          - section_title: Thermodynamic systems and classifications
+            section_type: overview
+          - section_title: The Zeroth Law and temperature concept
+            section_type: core_theory
+          - section_title: Thermal equilibrium and thermometry
+            section_type: related_concepts
+      - topic: The First Law of Thermodynamics
+        sections:
+          - section_title: Statement and mathematical formulation
+            section_type: core_theory
+          - section_title: Internal energy as a state function
+            section_type: core_theory
+          - section_title: Heat and work as path functions
+            section_type: core_theory
+      - topic: Work and heat in various processes
+        sections:
+          - section_title: PV work in expansion and compression
+            section_type: core_theory
+          - section_title: Reversible vs irreversible work
+            section_type: core_theory
+          - section_title: Other forms of work (electrical, surface)
+            section_type: related_concepts
+    milestone: Master the First Law and calculate energy changes in simple processes
+    duration_days: 6
+    tags:
+      - first law
+      - internal energy
+      - work and heat
+      - thermodynamic systems
+
+  - id: 2
+    title: Thermodynamic Processes and State Functions
+    learning_objectives:
+      - Analyze isothermal, adiabatic, isobaric, and isochoric processes
+      - Define and apply enthalpy in constant pressure processes
+      - Understand exact and inexact differentials mathematically
+      - Identify state functions from their mathematical properties
+      - Apply cyclic rule and reciprocity relations
+    textbook_style_content:
+      - topic: Classification of thermodynamic processes
+        sections:
+          - section_title: Isothermal processes
+            section_type: core_theory
+          - section_title: Adiabatic processes
+            section_type: core_theory
+          - section_title: Isobaric and isochoric processes
+            section_type: core_theory
+          - section_title: Cyclic and polytropic processes
+            section_type: related_concepts
+      - topic: Enthalpy and heat capacities
+        sections:
+          - section_title: Definition and physical significance of enthalpy
+            section_type: core_theory
+          - section_title: Relationship between Cp and Cv
+            section_type: core_theory
+          - section_title: Temperature dependence of heat capacities
+            section_type: related_concepts
+      - topic: Exact and inexact differentials
+        sections:
+          - section_title: Mathematical criteria for exact differentials
+            section_type: core_theory
+          - section_title: State functions vs path functions
+            section_type: core_theory
+          - section_title: Cyclic rule and reciprocity theorem
+            section_type: related_concepts
+    milestone: Perform calculations for different thermodynamic processes and identify state functions
+    duration_days: 7
+    tags:
+      - processes
+      - enthalpy
+      - state functions
+      - heat capacity
+
+  - id: 3
+    title: The Second Law of Thermodynamics and Entropy
+    learning_objectives:
+      - State and explain various formulations of the Second Law
+      - Define entropy and calculate entropy changes for reversible and irreversible processes
+      - Apply the Carnot cycle to understand thermodynamic efficiency
+      - Establish entropy as a state function and criterion for spontaneity
+      - Calculate entropy changes for phase transitions and chemical reactions
+    textbook_style_content:
+      - topic: The Second Law formulations
+        sections:
+          - section_title: Kelvin-Planck and Clausius statements
+            section_type: core_theory
+          - section_title: Heat engines and refrigerators
+            section_type: core_theory
+          - section_title: Carnot cycle and Carnot efficiency
+            section_type: core_theory
+      - topic: Entropy concept and calculations
+        sections:
+          - section_title: Clausius inequality and entropy definition
+            section_type: core_theory
+          - section_title: Entropy as a state function
+            section_type: core_theory
+          - section_title: Entropy changes in reversible processes
+            section_type: core_theory
+          - section_title: Entropy changes in irreversible processes
+            section_type: core_theory
+      - topic: Entropy and spontaneity
+        sections:
+          - section_title: Entropy of the universe criterion
+            section_type: core_theory
+          - section_title: Entropy changes in isolated systems
+            section_type: core_theory
+          - section_title: Statistical interpretation of entropy
+            section_type: related_concepts
+    milestone: Calculate entropy changes and apply the Second Law to determine process spontaneity
+    duration_days: 8
+    tags:
+      - second law
+      - entropy
+      - carnot cycle
+      - spontaneity
+
+  - id: 4
+    title: Thermodynamic Potentials and Maxwell Relations
+    learning_objectives:
+      - Define Helmholtz energy and Gibbs energy as thermodynamic potentials
+      - Derive and apply the four fundamental Maxwell relations
+      - Use Maxwell relations to connect measurable and non-measurable properties
+      - Understand natural variables for each thermodynamic potential
+      - Apply thermodynamic potentials to determine equilibrium conditions
+    textbook_style_content:
+      - topic: Helmholtz and Gibbs energies
+        sections:
+          - section_title: Definition of Helmholtz energy (A)
+            section_type: core_theory
+          - section_title: Definition of Gibbs energy (G)
+            section_type: core_theory
+          - section_title: Physical significance and natural variables
+            section_type: core_theory
+      - topic: Fundamental thermodynamic equations
+        sections:
+          - section_title: Combined First and Second Law equations
+            section_type: core_theory
+          - section_title: Differential forms of U, H, A, and G
+            section_type: core_theory
+          - section_title: Legendre transformations
+            section_type: related_concepts
+      - topic: Maxwell relations derivation and applications
+        sections:
+          - section_title: Four fundamental Maxwell relations
+            section_type: core_theory
+          - section_title: Derivation from thermodynamic potentials
+            section_type: core_theory
+          - section_title: Applications to relate thermodynamic properties
+            section_type: core_theory
+          - section_title: Internal pressure and other derived relations
+            section_type: related_concepts
+    milestone: Derive Maxwell relations and use them to solve thermodynamic problems
+    duration_days: 7
+    tags:
+      - gibbs energy
+      - helmholtz energy
+      - maxwell relations
+      - thermodynamic potentials
+
+  - id: 5
+    title: Spontaneity, Equilibrium, and the Third Law
+    learning_objectives:
+      - Apply Gibbs energy criteria for spontaneity in closed systems
+      - Determine equilibrium conditions using thermodynamic potentials
+      - State and apply the Third Law of Thermodynamics
+      - Calculate absolute entropies using the Third Law
+      - Understand residual entropy and its implications
+    textbook_style_content:
+      - topic: Criteria for spontaneity and equilibrium
+        sections:
+          - section_title: Gibbs energy criterion at constant T and P
+            section_type: core_theory
+          - section_title: Helmholtz energy criterion at constant T and V
+            section_type: core_theory
+          - section_title: General equilibrium conditions
+            section_type: core_theory
+      - topic: Chemical equilibrium thermodynamics
+        sections:
+          - section_title: Standard Gibbs energy of reaction
+            section_type: core_theory
+          - section_title: Equilibrium constant and its relation to ΔG°
+            section_type: core_theory
+          - section_title: Van't Hoff equation
+            section_type: related_concepts
+      - topic: The Third Law of Thermodynamics
+        sections:
+          - section_title: Nernst heat theorem and Third Law statement
+            section_type: core_theory
+          - section_title: Absolute entropies and their calculation
+            section_type: core_theory
+          - section_title: Residual entropy in non-perfect crystals
+            section_type: related_concepts
+    milestone: Apply spontaneity criteria and calculate absolute entropies using the Third Law
+    duration_days: 6
+    tags:
+      - spontaneity
+      - equilibrium
+      - third law
+      - absolute entropy
+
+  - id: 6
+    title: Temperature and Pressure Dependence of Thermodynamic Quantities
+    learning_objectives:
+      - Derive Gibbs-Helmholtz equation and its applications
+      - Analyze temperature dependence of equilibrium constants
+      - Determine pressure dependence of Gibbs energy and chemical potential
+      - Apply Kirchhoff's law for enthalpy and entropy variations
+      - Calculate thermodynamic quantities at different temperatures and pressures
+    textbook_style_content:
+      - topic: Temperature dependence of thermodynamic functions
+        sections:
+          - section_title: Gibbs-Helmholtz equation
+            section_type: core_theory
+          - section_title: Temperature variation of equilibrium constant
+            section_type: core_theory
+          - section_title: Kirchhoff's law for enthalpy changes
+            section_type: core_theory
+      - topic: Pressure dependence of thermodynamic properties
+        sections:
+          - section_title: Pressure dependence of Gibbs energy
+            section_type: core_theory
+          - section_title: Effect of pressure on equilibrium
+            section_type: core_theory
+          - section_title: Isothermal compressibility and thermal expansion
+            section_type: related_concepts
+      - topic: Integrated forms and applications
+        sections:
+          - section_title: Integration of Gibbs-Helmholtz equation
+            section_type: core_theory
+          - section_title: Calculation of thermodynamic data at non-standard conditions
+            section_type: core_theory
+          - section_title: Temperature and pressure corrections in chemical equilibria
+            section_type: related_concepts
+    milestone: Calculate thermodynamic properties at various temperatures and pressures
+    duration_days: 6
+    tags:
+      - temperature dependence
+      - pressure dependence
+      - gibbs-helmholtz
+      - kirchhoff's law
+
+  - id: 7
+    title: Le Chatelier Principle and Chemical Equilibrium
+    learning_objectives:
+      - State and apply Le Chatelier principle to equilibrium systems
+      - Predict qualitative effects of temperature, pressure, and concentration changes
+      - Connect Le Chatelier principle to thermodynamic principles
+      - Analyze coupled equilibria and buffering effects
+      - Apply to practical chemical systems
+    textbook_style_content:
+      - topic: Le Chatelier principle fundamentals
+        sections:
+          - section_title: Statement and qualitative predictions
+            section_type: core_theory
+          - section_title: Response to concentration changes
+            section_type: core_theory
+          - section_title: Response to temperature changes
+            section_type: core_theory
+          - section_title: Response to pressure changes
+            section_type: core_theory
+      - topic: Thermodynamic basis of Le Chatelier principle
+        sections:
+          - section_title: Connection to equilibrium constant variations
+            section_type: core_theory
+          - section_title: Free energy minimization perspective
+            section_type: related_concepts
+      - topic: Applications to chemical systems
+        sections:
+          - section_title: Gas phase equilibria (Haber process, contact process)
+            section_type: core_theory
+          - section_title: Acid-base equilibria and buffer solutions
+            section_type: related_concepts
+          - section_title: Solubility equilibria
+            section_type: related_concepts
+    milestone: Apply Le Chatelier principle to predict equilibrium shifts in various systems
+    duration_days: 5
+    tags:
+      - le chatelier
+      - equilibrium
+      - chemical reactions
+      - perturbations
+
+  - id: 8
+    title: Phase Transitions and Phase Diagrams
+    learning_objectives:
+      - Classify phase transitions as first-order and second-order
+      - Analyze phase diagrams for one-component systems
+      - Apply Clausius-Clapeyron equation to phase equilibria
+      - Calculate latent heats and entropy changes during phase transitions
+      - Understand critical phenomena and supercritical fluids
+    textbook_style_content:
+      - topic: Classification and characteristics of phase transitions
+        sections:
+          - section_title: First-order phase transitions
+            section_type: core_theory
+          - section_title: Second-order phase transitions
+            section_type: core_theory
+          - section_title: Latent heat and entropy of transition
+            section_type: core_theory
+      - topic: Phase diagrams for pure substances
+        sections:
+          - section_title: PT diagrams and phase boundaries
+            section_type: core_theory
+          - section_title: Triple point and critical point
+            section_type: core_theory
+          - section_title: Water phase diagram and its anomalies
+            section_type: core_theory
+          - section_title: Supercritical fluids
+            section_type: related_concepts
+      - topic: Clausius-Clapeyron equation
+        sections:
+          - section_title: Derivation and general form
+            section_type: core_theory
+          - section_title: Integrated form for vapor pressure
+            section_type: core_theory
+          - section_title: Applications to solid-liquid and solid-vapor equilibria
+            section_type: core_theory
+          - section_title: Trouton's rule
+            section_type: related_concepts
+    milestone: Interpret phase diagrams and apply Clausius-Clapeyron equation to phase transitions
+    duration_days: 7
+    tags:
+      - phase transitions
+      - phase diagrams
+      - clausius-clapeyron
+      - critical point
+
+  - id: 9
+    title: Phase Equilibria and the Gibbs Phase Rule
+    learning_objectives:
+      - State and derive the Gibbs phase rule
+      - Apply the phase rule to one and two-component systems
+      - Analyze binary phase diagrams (liquid-vapor, solid-liquid)
+      - Understand eutectic, peritectic, and azeotropic systems
+      - Interpret ternary phase diagrams at elementary level
+    textbook_style_content:
+      - topic: Gibbs phase rule derivation and applications
+        sections:
+          - section_title: Derivation of F = C - P + 2
+            section_type: core_theory
+          - section_title: Degrees of freedom concept
+            section_type: core_theory
+          - section_title: Application to one-component systems
+            section_type: core_theory
+      - topic: Binary phase diagrams
+        sections:
+          - section_title: Liquid-vapor equilibria and boiling point diagrams
+            section_type: core_theory
+          - section_title: Lever rule for composition determination
+            section_type: core_theory
+          - section_title: Azeotropes and their types
+            section_type: core_theory
+      - topic: Solid-liquid binary systems
+        sections:
+          - section_title: Eutectic systems
+            section_type: core_theory
+          - section_title: Solid solutions and phase separation
+            section_type: core_theory
+          - section_title: Peritectic and other invariant points
+            section_type: related_concepts
+      - topic: Ternary systems introduction
+        sections:
+          - section_title: Triangular composition diagrams
+            section_type: overview
+          - section_title: Simple ternary phase diagrams
+            section_type: related_concepts
+    milestone: Apply the Gibbs phase rule and interpret binary phase diagrams
+    duration_days: 7
+    tags:
+      - phase rule
+      - binary systems
+      - eutectic
+      - azeotrope
+
+  - id: 10
+    title: Thermodynamics of Ideal Gases
+    learning_objectives:
+      - Apply ideal gas equation of state to thermodynamic calculations
+      - Calculate thermodynamic properties for ideal gas processes
+      - Determine mixing properties for ideal gas mixtures
+      - Apply Dalton's law and Amagat's law
+      - Calculate entropy of mixing and Gibbs energy of mixing
+    textbook_style_content:
+      - topic: Ideal gas law and thermodynamic properties
+        sections:
+          - section_title: Equation of state and molecular assumptions
+            section_type: core_theory
+          - section_title: Internal energy and enthalpy of ideal gases
+            section_type: core_theory
+          - section_title: Entropy of ideal gases
+            section_type: core_theory
+          - section_title: Adiabatic relationships for ideal gases
+            section_type: core_theory
+      - topic: Ideal gas mixtures
+        sections:
+          - section_title: Dalton's law of partial pressures
+            section_type: core_theory
+          - section_title: Amagat's law of partial volumes
+            section_type: core_theory
+          - section_title: Mole fraction and partial pressure relationships
+            section_type: core_theory
+      - topic: Mixing properties of ideal gases
+        sections:
+          - section_title: Entropy of mixing derivation
+            section_type: core_theory
+          - section_title: Gibbs energy of mixing
+            section_type: core_theory
+          - section_title: Volume and enthalpy of mixing (zero for ideal gases)
+            section_type: core_theory
+    milestone: Perform complete thermodynamic analysis of ideal gas systems and mixtures
+    duration_days: 6
+    tags:
+      - ideal gases
+      - gas mixtures
+      - dalton's law
+      - mixing properties
+
+  - id: 11
+    title: Thermodynamics of Real (Non-Ideal) Gases
+    learning_objectives:
+      - Understand deviations from ideal behavior and compressibility factor
+      - Apply van der Waals equation and other real gas equations of state
+      - Define and calculate fugacity and fugacity coefficient
+      - Apply corresponding states principle
+      - Analyze Joule-Thomson effect and inversion temperature
+    textbook_style_content:
+      - topic: Deviations from ideality
+        sections:
+          - section_title: Compressibility factor Z
+            section_type: core_theory
+          - section_title: Boyle temperature
+            section_type: core_theory
+          - section_title: Intermolecular forces and real gas behavior
+            section_type: related_concepts
+      - topic: Equations of state for real gases
+        sections:
+          - section_title: Van der Waals equation
+            section_type: core_theory
+          - section_title: Virial equation of state
+            section_type: core_theory
+          - section_title: Redlich-Kwong and other cubic equations
+            section_type: related_concepts
+      - topic: Fugacity concept and calculations
+        sections:
+          - section_title: Definition of fugacity
+            section_type: core_theory
+          - section_title: Fugacity coefficient and its calculation
+            section_type: core_theory
+          - section_title: Fugacity from equations of state
+            section_type: core_theory
+      - topic: Joule-Thomson effect
+        sections:
+          - section_title: Joule-Thomson coefficient derivation
+            section_type: core_theory
+          - section_title: Inversion temperature
+            section_type: core_theory
+          - section_title: Applications in gas liquefaction
+            section_type: related_concepts
+    milestone: Calculate fugacity and analyze real gas behavior using equations of state
+    duration_days: 8
+    tags:
+      - real gases
+      - fugacity
+      - van der waals
+      - joule-thomson
+
+  - id: 12
+    title: Thermodynamics of Ideal Solutions
+    learning_objectives:
+      - Define ideal solutions and state Raoult's law
+      - Calculate vapor pressure and composition for ideal binary solutions
+      - Determine mixing properties for ideal solutions
+      - Understand and apply colligative properties
+      - Analyze boiling point elevation, freezing point depression, and osmotic pressure
+    textbook_style_content:
+      - topic: Ideal solution fundamentals
+        sections:
+          - section_title: Definition and molecular basis
+            section_type: core_theory
+          - section_title: Raoult's law for ideal solutions
+            section_type: core_theory
+          - section_title: Vapor pressure of binary ideal solutions
+            section_type: core_theory
+      - topic: Thermodynamic properties of ideal solutions
+        sections:
+          - section_title: Chemical potential in ideal solutions
+            section_type: core_theory
+          - section_title: Gibbs energy of mixing
+            section_type: core_theory
+          - section_title: Entropy of mixing
+            section_type: core_theory
+          - section_title: Volume and enthalpy of mixing (zero for ideal)
+            section_type: core_theory
+      - topic: Colligative properties
+        sections:
+          - section_title: Vapor pressure lowering
+            section_type: core_theory
+          - section_title: Boiling point elevation
+            section_type: core_theory
+          - section_title: Freezing point depression
+            section_type: core_theory
+          - section_title: Osmotic pressure and van't Hoff equation
+            section_type: core_theory
+          - section_title: Applications to molecular weight determination
+            section_type: related_concepts
+    milestone: Apply Raoult's law and calculate colligative properties for ideal solutions
+    duration_days: 7
+    tags:
+      - ideal solutions
+      - raoult's law
+      - colligative properties
+      - mixing
+
+  - id: 13
+    title: Thermodynamics of Non-Ideal Solutions
+    learning_objectives:
+      - Understand deviations from Raoult's law (positive and negative)
+      - Define and calculate activity and activity coefficient
+      - Determine excess thermodynamic properties
+      - Apply Henry's law for dilute solutions
+      - Understand partial molar properties and Gibbs-Duhem equation
+    textbook_style_content:
+      - topic: Deviations from ideal behavior
+        sections:
+          - section_title: Positive and negative deviations from Raoult's law
+            section_type: core_theory
+          - section_title: Molecular origins of non-ideality
+            section_type: related_concepts
+      - topic: Activity and activity coefficients
+        sections:
+          - section_title: Definition of activity
+            section_type: core_theory
+          - section_title: Activity coefficient and standard states
+            section_type: core_theory
+          - section_title: Determination of activity from vapor pressure
+            section_type: core_theory
+      - topic: Excess functions
+        sections:
+          - section_title: Excess Gibbs energy
+            section_type: core_theory
+          - section_title: Excess enthalpy and entropy
+            section_type: core_theory
+          - section_title: Models for excess properties (Margules, van Laar)
+            section_type: related_concepts
+      - topic: Henry's law and partial molar properties
+        sections:
+          - section_title: Henry's law for dilute solutions
+            section_type: core_theory
+          - section_title: Partial molar volume and other properties
+            section_type: core_theory
+          - section_title: Gibbs-Duhem equation
+            section_type: core_theory
+          - section_title: Chemical potential in non-ideal solutions
+            section_type: core_theory
+    milestone: Calculate activity coefficients and analyze non-ideal solution behavior
+    duration_days: 8
+    tags:
+      - non-ideal solutions
+      - activity
+      - excess properties
+      - henry's law
+      - gibbs-duhem
+
+  - id: 14
+    title: Integration and Problem-Solving in Chemical Thermodynamics
+    learning_objectives:
+      - Integrate concepts across all thermodynamic topics
+      - Solve multi-step thermodynamic problems
+      - Apply thermodynamics to real chemical systems
+      - Analyze complex equilibria involving multiple phases
+      - Prepare for CSIR examination-style questions
+    textbook_style_content:
+      - topic: Comprehensive problem-solving strategies
+        sections:
+          - section_title: Identifying relevant thermodynamic principles
+            section_type: overview
+          - section_title: Multi-step calculations involving laws, potentials, and equilibria
+            section_type: core_theory
+          - section_title: Combining phase rule, equilibria, and solution thermodynamics
+            section_type: core_theory
+      - topic: Advanced applications
+        sections:
+          - section_title: Industrial processes analysis (ammonia synthesis, petroleum refining)
+            section_type: related_concepts
+          - section_title: Biological thermodynamics applications
+            section_type: related_concepts
+          - section_title: Electrochemical systems thermodynamics
+            section_type: related_concepts
+      - topic: CSIR examination preparation
+        sections:
+          - section_title: Typical question patterns and problem types
+            section_type: overview
+          - section_title: Time management and strategic approaches
+            section_type: overview
+          - section_title: Common pitfalls and how to avoid them
+            section_type: related_concepts
+    milestone: Demonstrate mastery of chemical thermodynamics through comprehensive problem-solving
+    duration_days: 7
+    tags:
+      - integration
+      - problem-solving
+      - applications
+      - exam preparation

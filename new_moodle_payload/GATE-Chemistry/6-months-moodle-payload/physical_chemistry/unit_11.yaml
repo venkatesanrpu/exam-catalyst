@@ -1,0 +1,282 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Unimolecular reactions. Potential energy surfaces and classical trajectories, Concept of Saddle points, Transition state theory - Eyring equation, thermodynamic aspects
+
+concepts:
+  core:
+    - name: Unimolecular Reactions
+      clarifier: Single-molecule decomposition or isomerization; Lindemann-Hinshelwood mechanism; first-order kinetics at high and low pressure limits
+    - name: Potential Energy Surfaces (PES)
+      clarifier: Multidimensional energy landscape mapping reactants through transition state to products; fundamental to understanding reaction pathways
+    - name: Saddle Points
+      clarifier: Transition state geometry on PES; first-order saddle point with one negative eigenvalue of Hessian; separates reactants from products
+    - name: Transition State Theory (TST)
+      clarifier: Eyring equation relating rate constant to free energy of activation; activated complex hypothesis and reaction coordinate
+    - name: Thermodynamic Aspects of TST
+      clarifier: Entropy and enthalpy of activation; temperature dependence; relationship to equilibrium and partition functions
+
+  related:
+    - name: Classical Trajectories
+      clarifier: Molecular dynamics simulations on PES; Newton equations of motion; trajectory branching at transition state
+    - name: Reaction Coordinate
+      clarifier: Path of minimum energy connecting reactants to products through transition state; collective coordinate in multidimensional space
+    - name: Activation Energy
+      clarifier: Energy difference between transition state and reactants; Arrhenius vs. Eyring descriptions
+    - name: Partition Functions
+      clarifier: Statistical mechanics connection to activation parameters; vibrational, rotational, translational contributions
+    - name: First-Order Phase Transitions in Kinetics
+      clarifier: Pressure and temperature effects on unimolecular rate constants; Kassel integral
+    - name: Comparison of TST to Other Theories
+      clarifier: Activated complex theory vs. Collision theory; assumptions and limitations
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Unimolecular Reactions
+    learning_objectives:
+      - Define unimolecular reactions and distinguish from bimolecular processes
+      - Explain pressure and temperature dependence of unimolecular rates
+      - Derive rate expressions for high and low pressure limits
+      - Understand the role of internal energy distribution
+    textbook_style_content:
+      - lesson: Unimolecular Reaction Kinetics
+        sections:
+          - section_heading: Overview of Unimolecular Processes
+            section_type: overview
+          - section_heading: Lindemann-Hinshelwood Mechanism and Collision Activation
+            section_type: core_theory
+          - section_heading: High and Low Pressure Limits
+            section_type: core_theory
+          - section_heading: Experimental Pressure and Temperature Dependence
+            section_type: related concepts
+    milestone: Master unimolecular reaction behavior across pressure regimes
+    duration_days: 5
+    tags:
+      - unimolecular_reactions
+      - pressure_dependence
+      - lindemann_mechanism
+
+  - id: 2
+    topic: Potential Energy Surfaces – Concept and Structure
+    learning_objectives:
+      - Construct and interpret multidimensional potential energy surfaces
+      - Identify stationary points on PES (minima, maxima, saddle points)
+      - Relate PES topology to reaction pathways and mechanisms
+      - Understand energy landscapes in terms of molecular geometry changes
+    textbook_style_content:
+      - lesson: Potential Energy Surfaces and Reaction Landscapes
+        sections:
+          - section_heading: Overview of Potential Energy Surfaces
+            section_type: overview
+          - section_heading: Multidimensional PES and Stationary Points
+            section_type: core_theory
+          - section_heading: Reaction Valley and Minimum Energy Path
+            section_type: core_theory
+          - section_heading: Intrinsic Reaction Coordinate (IRC) Analysis
+            section_type: related concepts
+    milestone: Interpret PES topology and identify reaction pathways
+    duration_days: 4
+    tags:
+      - potential_energy_surfaces
+      - pes_topology
+      - reaction_pathways
+
+  - id: 3
+    topic: Saddle Points and Transition State Geometry
+    learning_objectives:
+      - Define saddle points and their role as transition states
+      - Calculate Hessian matrix eigenvalues to characterize stationary points
+      - Interpret frequency analysis (imaginary frequencies at transition states)
+      - Relate saddle point geometry to reaction mechanism details
+    textbook_style_content:
+      - lesson: Transition State Structure and Saddle Point Analysis
+        sections:
+          - section_heading: Overview of Transition State Geometry
+            section_type: overview
+          - section_heading: Saddle Point Definition and First-Order Character
+            section_type: core_theory
+          - section_heading: Hessian Analysis and Vibrational Modes
+            section_type: core_theory
+          - section_heading: Imaginary Frequencies and Reaction Coordinate Modes
+            section_type: related concepts
+    milestone: Identify and characterize transition states on PES
+    duration_days: 4
+    tags:
+      - saddle_points
+      - transition_state_geometry
+      - hessian_analysis
+
+  - id: 4
+    topic: Classical Trajectories on Potential Energy Surfaces
+    learning_objectives:
+      - Apply Newton's equations of motion to molecular systems on PES
+      - Simulate classical trajectories from reactants through transition state
+      - Interpret trajectory branching and product formation
+      - Relate classical trajectories to quantum mechanical tunneling and dynamics
+    textbook_style_content:
+      - lesson: Molecular Dynamics and Classical Trajectory Analysis
+        sections:
+          - section_heading: Overview of Classical Dynamics on PES
+            section_type: overview
+          - section_heading: Equations of Motion and Force Calculations
+            section_type: core_theory
+          - section_heading: Trajectory Integration and Product Branching
+            section_type: core_theory
+          - section_heading: Statistical Analysis of Reactive Trajectories
+            section_type: related concepts
+    milestone: Analyze reaction dynamics using classical trajectory methods
+    duration_days: 5
+    tags:
+      - classical_trajectories
+      - molecular_dynamics
+      - reaction_dynamics
+
+  - id: 5
+    topic: Transition State Theory – Eyring Equation and Rate Theory
+    learning_objectives:
+      - Develop the Eyring equation from activated complex theory
+      - Relate rate constant to partition functions and free energy of activation
+      - Compare Eyring and Arrhenius formulations
+      - Calculate rate constants from transition state properties
+    textbook_style_content:
+      - lesson: Eyring Transition State Theory
+        sections:
+          - section_heading: Overview of Transition State Theory
+            section_type: overview
+          - section_heading: Activated Complex Hypothesis and Ensemble Concept
+            section_type: core_theory
+          - section_heading: Derivation of the Eyring Equation
+            section_type: core_theory
+          - section_heading: Connection to Partition Functions and Statistical Mechanics
+            section_type: related concepts
+    milestone: Apply Eyring equation to predict and analyze reaction rates
+    duration_days: 5
+    tags:
+      - eyring_equation
+      - transition_state_theory
+      - rate_prediction
+
+  - id: 6
+    topic: Thermodynamic Aspects of Activation – Entropy and Enthalpy
+    learning_objectives:
+      - Define entropy and enthalpy of activation
+      - Relate activation parameters to transition state structure
+      - Interpret temperature dependence of rate constants
+      - Apply Eyring-Polanyi equation to extract ΔH‡ and ΔS‡
+    textbook_style_content:
+      - lesson: Thermodynamic Analysis of Reaction Rates
+        sections:
+          - section_heading: Overview of Activation Thermodynamics
+            section_type: overview
+          - section_heading: Enthalpy and Entropy of Activation
+            section_type: core_theory
+          - section_heading: Free Energy of Activation and Temperature Effects
+            section_type: core_theory
+          - section_heading: Eyring-Polanyi Plots and Parameter Extraction
+            section_type: related concepts
+    milestone: Extract and interpret activation parameters from kinetic data
+    duration_days: 5
+    tags:
+      - activation_enthalpy
+      - activation_entropy
+      - thermodynamic_analysis
+
+  - id: 7
+    topic: Partition Functions and Statistical Mechanics in TST
+    learning_objectives:
+      - Calculate translational, rotational, and vibrational partition functions
+      - Relate partition functions to rate constant expressions
+      - Understand zero-point energy effects on activation barriers
+      - Apply statistical mechanics to predict rate constant temperature dependence
+    textbook_style_content:
+      - lesson: Statistical Mechanical Foundations of Rate Theory
+        sections:
+          - section_heading: Overview of Partition Functions in Kinetics
+            section_type: overview
+          - section_heading: Molecular Partition Functions – Translation, Rotation, Vibration
+            section_type: core_theory
+          - section_heading: Rate Constants from Statistical Mechanics
+            section_type: core_theory
+          - section_heading: Zero-Point Energy and Quantum Effects
+            section_type: related concepts
+    milestone: Connect partition functions to experimental rate observations
+    duration_days: 5
+    tags:
+      - partition_functions
+      - statistical_mechanics
+      - rate_theory
+
+  - id: 8
+    topic: Reaction Coordinate and Intrinsic Reaction Coordinate (IRC)
+    learning_objectives:
+      - Define reaction coordinate and collective variables
+      - Calculate intrinsic reaction coordinate paths
+      - Connect IRC to minimum energy path on PES
+      - Relate IRC to experimental reaction mechanisms
+    textbook_style_content:
+      - lesson: Reaction Pathways and Coordinate Analysis
+        sections:
+          - section_heading: Overview of Reaction Coordinates
+            section_type: overview
+          - section_heading: Defining the Reaction Coordinate
+            section_type: core_theory
+          - section_heading: Intrinsic Reaction Coordinate (IRC) Calculation
+            section_type: core_theory
+          - section_heading: Connection to Mechanism and Intermediate Identification
+            section_type: related concepts
+    milestone: Trace reaction pathways and validate mechanisms using IRC
+    duration_days: 4
+    tags:
+      - reaction_coordinate
+      - irc_analysis
+      - pathway_identification
+
+  - id: 9
+    topic: Comparison of TST with Alternative Rate Theories
+    learning_objectives:
+      - Compare transition state theory with collision theory
+      - Discuss assumptions and limitations of TST
+      - Explain tunneling effects and deviations from TST predictions
+      - Evaluate applicability of TST to different reaction classes
+    textbook_style_content:
+      - lesson: Rate Theory Comparison and Limitations
+        sections:
+          - section_heading: Overview of Alternative Approaches
+            section_type: overview
+          - section_heading: TST vs. Collision Theory
+            section_type: core_theory
+          - section_heading: Quantum Tunneling and Non-Classical Effects
+            section_type: core_theory
+          - section_heading: Modern Extensions and Variational TST
+            section_type: related concepts
+    milestone: Understand when TST is applicable and when modifications are needed
+    duration_days: 4
+    tags:
+      - tst_limitations
+      - tunneling
+      - theory_comparison
+
+  - id: 10
+    topic: Applications and Problem-Solving – TST and PES Analysis
+    learning_objectives:
+      - Apply TST to diverse unimolecular and bimolecular reactions
+      - Solve problems combining PES, trajectories, and kinetic analysis
+      - Interpret experimental data using transition state concepts
+      - Design kinetic experiments to test TST predictions
+    textbook_style_content:
+      - lesson: Integrated TST Applications
+        sections:
+          - section_heading: Overview of TST Applications
+            section_type: overview
+          - section_heading: Case Studies – Isomerization and Decomposition
+            section_type: core_theory
+          - section_heading: Analysis of Complex Reactions on Multidimensional PES
+            section_type: core_theory
+          - section_heading: GATE Examination-Style Problems
+            section_type: related concepts
+    milestone: Demonstrate mastery through integrated problem-solving
+    duration_days: 5
+    tags:
+      - applications
+      - case_studies
+      - examination_prep

@@ -1,0 +1,463 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Inner transition elements - spectral and magnetic properties, redox chemistry, analytical applications
+
+concepts:
+  core:
+    - name: Inner transition elements
+      clarifier: Lanthanides (4f series) and actinides (5f series) electronic configuration and periodic position
+    - name: Spectral properties
+      clarifier: Electronic transitions, f-f and f-d transitions, absorption spectra, luminescence
+    - name: Magnetic properties
+      clarifier: Paramagnetism, spin-orbit coupling, magnetic moments, temperature dependence
+    - name: Redox chemistry
+      clarifier: Oxidation states, stability, electrode potentials, disproportionation reactions
+    - name: Analytical applications
+      clarifier: Separation techniques, complexometric titrations, spectroscopic detection, reagents
+  related:
+    - name: Lanthanide contraction
+      clarifier: Effect on atomic and ionic radii, chemical properties, and separation
+    - name: Crystal field theory for f-orbitals
+      clarifier: Weak field effects, shielding of 4f electrons, spectroscopic consequences
+    - name: Russell-Saunders coupling
+      clarifier: Term symbols, ground state determination, selection rules for transitions
+    - name: Nephelauxetic effect
+      clarifier: Covalency in complexes, spectral shifts, bonding characteristics
+    - name: Coordination chemistry
+      clarifier: High coordination numbers, chelating ligands, stability constants
+    - name: Radioactivity
+      clarifier: Alpha, beta, gamma decay in actinides, half-lives, nuclear stability
+    - name: Organo-lanthanide and organo-actinide compounds
+      clarifier: Metal-carbon bonds, cyclopentadienyl complexes, catalytic applications
+
+learning_path:
+  - id: 1
+    title: Electronic Structure and General Properties of Inner Transition Elements
+    learning_objectives:
+      - Understand the position of lanthanides and actinides in the periodic table
+      - Explain the electronic configuration of f-block elements
+      - Describe the lanthanide contraction phenomenon and its consequences
+      - Compare and contrast lanthanides with actinides
+    textbook_style_content:
+      - topic: Introduction to Inner Transition Elements
+        sections:
+          - section_title: Position in Periodic Table and Classification
+            section_type: overview
+          - section_title: Electronic Configuration of Lanthanides
+            section_type: core_theory
+          - section_title: Electronic Configuration of Actinides
+            section_type: core_theory
+          - section_title: Filling of 4f and 5f Orbitals
+            section_type: core_theory
+      - topic: Lanthanide Contraction
+        sections:
+          - section_title: Definition and Origin
+            section_type: core_theory
+          - section_title: Effect on Atomic and Ionic Radii
+            section_type: core_theory
+          - section_title: Consequences on Chemical Properties
+            section_type: related_concepts
+          - section_title: Comparison with d-Block Contraction
+            section_type: related_concepts
+      - topic: General Properties and Trends
+        sections:
+          - section_title: Oxidation States and Stability
+            section_type: overview
+          - section_title: Metallic Character and Physical Properties
+            section_type: related_concepts
+          - section_title: Comparison between Lanthanides and Actinides
+            section_type: core_theory
+    milestone: Master fundamental electronic structure and periodic trends of inner transition elements
+    duration_days: 7
+    tags:
+      - electronic configuration
+      - lanthanide contraction
+      - periodic trends
+      - oxidation states
+
+  - id: 2
+    title: Spectral Properties of Inner Transition Elements
+    learning_objectives:
+      - Understand the origin of electronic spectra in f-block elements
+      - Apply Russell-Saunders coupling to determine term symbols
+      - Explain the selection rules for f-f and f-d transitions
+      - Interpret absorption and emission spectra of lanthanide and actinide complexes
+      - Describe luminescence properties and their applications
+    textbook_style_content:
+      - topic: Electronic Spectra Fundamentals
+        sections:
+          - section_title: Nature of f-f Transitions
+            section_type: core_theory
+          - section_title: Laporte Selection Rule and Forbidden Transitions
+            section_type: core_theory
+          - section_title: Intensity of f-f Transitions
+            section_type: core_theory
+          - section_title: Comparison with d-d Transitions
+            section_type: related_concepts
+      - topic: Russell-Saunders Coupling Scheme
+        sections:
+          - section_title: Angular Momentum Coupling in f-Electrons
+            section_type: core_theory
+          - section_title: Derivation of Term Symbols
+            section_type: core_theory
+          - section_title: Ground State Determination Using Hund's Rules
+            section_type: core_theory
+          - section_title: Worked Examples for Lanthanides
+            section_type: core_theory
+      - topic: Crystal Field Effects on f-Orbitals
+        sections:
+          - section_title: Weak Crystal Field Splitting
+            section_type: core_theory
+          - section_title: Shielding of 4f Electrons by 5s and 5p
+            section_type: core_theory
+          - section_title: Stark Splitting of Energy Levels
+            section_type: related_concepts
+          - section_title: Nephelauxetic Effect and Covalency
+            section_type: related_concepts
+      - topic: Absorption Spectra
+        sections:
+          - section_title: Characteristic Absorption Bands of Lanthanides
+            section_type: core_theory
+          - section_title: Hypersensitive Transitions
+            section_type: core_theory
+          - section_title: Solvent and Ligand Effects on Spectra
+            section_type: related_concepts
+          - section_title: Actinide Spectra and Differences from Lanthanides
+            section_type: core_theory
+      - topic: Luminescence Properties
+        sections:
+          - section_title: Fluorescence and Phosphorescence
+            section_type: core_theory
+          - section_title: Energy Transfer Mechanisms
+            section_type: related_concepts
+          - section_title: Quantum Efficiency and Lifetime
+            section_type: core_theory
+          - section_title: Applications in Lasers and Display Devices
+            section_type: related_concepts
+    milestone: Comprehensively understand and interpret spectral properties of inner transition elements
+    duration_days: 10
+    tags:
+      - electronic spectra
+      - Russell-Saunders coupling
+      - term symbols
+      - luminescence
+      - crystal field theory
+
+  - id: 3
+    title: Magnetic Properties of Inner Transition Elements
+    learning_objectives:
+      - Calculate magnetic moments of lanthanide and actinide ions
+      - Explain the role of spin-orbit coupling in determining magnetic behavior
+      - Understand temperature dependence of magnetic susceptibility
+      - Distinguish between spin-only and orbital contributions
+      - Apply Van Vleck equation for magnetic moment calculations
+    textbook_style_content:
+      - topic: Fundamentals of Magnetism in f-Block Elements
+        sections:
+          - section_title: Types of Magnetic Behavior
+            section_type: overview
+          - section_title: Origin of Paramagnetism in Unpaired f-Electrons
+            section_type: core_theory
+          - section_title: Magnetic Susceptibility and Measurement
+            section_type: core_theory
+      - topic: Spin-Orbit Coupling
+        sections:
+          - section_title: Strong Spin-Orbit Coupling in Heavy Elements
+            section_type: core_theory
+          - section_title: J-J Coupling vs Russell-Saunders Coupling
+            section_type: core_theory
+          - section_title: Effect on Energy Levels and Magnetic Properties
+            section_type: core_theory
+      - topic: Calculation of Magnetic Moments
+        sections:
+          - section_title: Spin-Only Formula and Its Limitations
+            section_type: core_theory
+          - section_title: Inclusion of Orbital Angular Momentum
+            section_type: core_theory
+          - section_title: Van Vleck Formula for Lanthanides
+            section_type: core_theory
+          - section_title: Calculation of μeff Using L-S Coupling
+            section_type: core_theory
+          - section_title: Worked Examples for Different Lanthanide Ions
+            section_type: core_theory
+      - topic: Magnetic Properties of Lanthanides
+        sections:
+          - section_title: Systematic Variation Across Series
+            section_type: core_theory
+          - section_title: Exceptions - Eu3+ and Sm3+
+            section_type: core_theory
+          - section_title: Temperature Independence for Most Lanthanides
+            section_type: core_theory
+          - section_title: Experimental vs Theoretical Magnetic Moments
+            section_type: related_concepts
+      - topic: Magnetic Properties of Actinides
+        sections:
+          - section_title: Differences from Lanthanides
+            section_type: core_theory
+          - section_title: Greater Covalency and 5f Orbital Participation
+            section_type: core_theory
+          - section_title: Deviation from Van Vleck Formula
+            section_type: core_theory
+          - section_title: Temperature Dependent Behavior
+            section_type: related_concepts
+      - topic: Applications of Magnetic Measurements
+        sections:
+          - section_title: Structural Determination of Complexes
+            section_type: related_concepts
+          - section_title: Oxidation State Confirmation
+            section_type: related_concepts
+          - section_title: MRI Contrast Agents
+            section_type: related_concepts
+    milestone: Master magnetic property calculations and interpretations for inner transition elements
+    duration_days: 9
+    tags:
+      - magnetic properties
+      - spin-orbit coupling
+      - magnetic moments
+      - Van Vleck equation
+      - paramagnetism
+
+  - id: 4
+    title: Redox Chemistry of Inner Transition Elements
+    learning_objectives:
+      - Identify stable oxidation states of lanthanides and actinides
+      - Explain factors affecting oxidation state stability
+      - Calculate and interpret standard electrode potentials
+      - Predict redox reactions and disproportionation tendencies
+      - Compare redox behavior of lanthanides and actinides
+    textbook_style_content:
+      - topic: Oxidation States in Lanthanides
+        sections:
+          - section_title: Predominant +3 Oxidation State
+            section_type: core_theory
+          - section_title: Stability of +3 State and Electronic Configuration
+            section_type: core_theory
+          - section_title: Variable Oxidation States - Ce, Eu, Tb, Yb
+            section_type: core_theory
+          - section_title: +2 State in Eu, Yb, Sm
+            section_type: core_theory
+          - section_title: +4 State in Ce, Pr, Tb
+            section_type: core_theory
+      - topic: Factors Affecting Oxidation State Stability
+        sections:
+          - section_title: Electronic Configuration and Stability
+            section_type: core_theory
+          - section_title: Half-Filled and Fully-Filled f-Orbitals
+            section_type: core_theory
+          - section_title: Ionization Energies and Trends
+            section_type: core_theory
+          - section_title: Hydration and Lattice Energies
+            section_type: related_concepts
+      - topic: Oxidation States in Actinides
+        sections:
+          - section_title: Variable Oxidation States from +3 to +7
+            section_type: core_theory
+          - section_title: Most Common States - +3, +4, +5, +6
+            section_type: core_theory
+          - section_title: Actinyl Ions UO2+, UO22+, NpO2+
+            section_type: core_theory
+          - section_title: Comparison with Lanthanides
+            section_type: core_theory
+      - topic: Electrode Potentials and Redox Reactions
+        sections:
+          - section_title: Standard Reduction Potentials of Ln3+/Ln2+ Couples
+            section_type: core_theory
+          - section_title: Ce4+/Ce3+ Redox Couple
+            section_type: core_theory
+          - section_title: Eu3+/Eu2+ and Yb3+/Yb2+ Couples
+            section_type: core_theory
+          - section_title: Actinide Reduction Potentials
+            section_type: core_theory
+          - section_title: Uranium Redox Chemistry
+            section_type: core_theory
+      - topic: Disproportionation Reactions
+        sections:
+          - section_title: Thermodynamic Stability and Disproportionation
+            section_type: core_theory
+          - section_title: Examples in Lanthanides and Actinides
+            section_type: core_theory
+          - section_title: Effect of pH and Complexation
+            section_type: related_concepts
+      - topic: Oxidizing and Reducing Agents
+        sections:
+          - section_title: Ce(IV) as Oxidizing Agent
+            section_type: core_theory
+          - section_title: Sm(II) and Eu(II) as Reducing Agents
+            section_type: core_theory
+          - section_title: Applications in Organic Synthesis
+            section_type: related_concepts
+    milestone: Understand and predict redox behavior of inner transition elements
+    duration_days: 8
+    tags:
+      - redox chemistry
+      - oxidation states
+      - electrode potentials
+      - disproportionation
+      - cerium chemistry
+
+  - id: 5
+    title: Analytical Applications of Inner Transition Elements
+    learning_objectives:
+      - Describe separation techniques for lanthanides and actinides
+      - Explain complexometric titrations using lanthanide reagents
+      - Apply spectroscopic methods for detection and quantification
+      - Understand nuclear analytical techniques for actinides
+      - Identify industrial and environmental analytical applications
+    textbook_style_content:
+      - topic: Separation of Lanthanides
+        sections:
+          - section_title: Challenges Due to Chemical Similarity
+            section_type: overview
+          - section_title: Ion Exchange Chromatography
+            section_type: core_theory
+          - section_title: Solvent Extraction Methods
+            section_type: core_theory
+          - section_title: Fractional Crystallization
+            section_type: related_concepts
+          - section_title: Selective Precipitation Techniques
+            section_type: related_concepts
+      - topic: Separation of Actinides
+        sections:
+          - section_title: Extraction from Nuclear Fuel
+            section_type: core_theory
+          - section_title: PUREX Process
+            section_type: core_theory
+          - section_title: Separation Based on Oxidation States
+            section_type: core_theory
+          - section_title: Safety and Radiological Considerations
+            section_type: related_concepts
+      - topic: Complexometric Titrations
+        sections:
+          - section_title: EDTA and Lanthanide Complexes
+            section_type: core_theory
+          - section_title: Stability Constants and Selectivity
+            section_type: core_theory
+          - section_title: Indicators for Lanthanide Titrations
+            section_type: core_theory
+          - section_title: Applications in Water Hardness Determination
+            section_type: related_concepts
+      - topic: Spectroscopic Detection Methods
+        sections:
+          - section_title: UV-Visible Spectroscopy
+            section_type: core_theory
+          - section_title: Atomic Absorption and Emission Spectroscopy
+            section_type: core_theory
+          - section_title: Fluorescence Spectroscopy and Lanthanide Probes
+            section_type: core_theory
+          - section_title: ICP-MS for Trace Analysis
+            section_type: core_theory
+          - section_title: X-ray Fluorescence
+            section_type: related_concepts
+      - topic: Nuclear and Radiochemical Analysis
+        sections:
+          - section_title: Alpha Spectrometry for Actinides
+            section_type: core_theory
+          - section_title: Gamma Spectroscopy
+            section_type: core_theory
+          - section_title: Neutron Activation Analysis
+            section_type: core_theory
+          - section_title: Environmental Monitoring
+            section_type: related_concepts
+      - topic: Lanthanides as Analytical Reagents
+        sections:
+          - section_title: Shift Reagents in NMR Spectroscopy
+            section_type: core_theory
+          - section_title: Luminescent Labels in Bioassays
+            section_type: core_theory
+          - section_title: Catalysts in Analytical Procedures
+            section_type: related_concepts
+      - topic: Industrial and Environmental Applications
+        sections:
+          - section_title: Rare Earth Element Analysis in Ores
+            section_type: related_concepts
+          - section_title: Nuclear Waste Characterization
+            section_type: related_concepts
+          - section_title: Pharmaceutical and Clinical Analysis
+            section_type: related_concepts
+          - section_title: Quality Control in Materials Science
+            section_type: related_concepts
+    milestone: Apply knowledge of inner transition elements to analytical chemistry problems
+    duration_days: 9
+    tags:
+      - analytical applications
+      - separation techniques
+      - spectroscopic methods
+      - complexometric titrations
+      - nuclear analysis
+
+  - id: 6
+    title: Coordination Chemistry and Special Topics
+    learning_objectives:
+      - Understand coordination behavior of lanthanides and actinides
+      - Explain high coordination numbers and geometries
+      - Describe chelate effect and stability of complexes
+      - Explore organometallic chemistry of f-block elements
+      - Discuss applications in catalysis and materials
+    textbook_style_content:
+      - topic: Coordination Compounds of Lanthanides
+        sections:
+          - section_title: High Coordination Numbers (8-12)
+            section_type: core_theory
+          - section_title: Hard Acid Character and Oxygen Donor Preference
+            section_type: core_theory
+          - section_title: Common Geometries - Square Antiprismatic, Dodecahedral
+            section_type: core_theory
+          - section_title: Hydration and Aqua Complexes
+            section_type: related_concepts
+      - topic: Chelating Ligands
+        sections:
+          - section_title: EDTA and Polyaminocarboxylate Complexes
+            section_type: core_theory
+          - section_title: β-Diketonates and Their Applications
+            section_type: core_theory
+          - section_title: Crown Ethers and Cryptands
+            section_type: related_concepts
+          - section_title: Macrocyclic Ligands
+            section_type: related_concepts
+      - topic: Stability of Complexes
+        sections:
+          - section_title: Formation Constants Across Lanthanide Series
+            section_type: core_theory
+          - section_title: Chelate and Macrocyclic Effects
+            section_type: core_theory
+          - section_title: Effect of Lanthanide Contraction on Stability
+            section_type: related_concepts
+      - topic: Coordination Chemistry of Actinides
+        sections:
+          - section_title: Comparison with Lanthanides
+            section_type: core_theory
+          - section_title: Greater Covalent Character
+            section_type: core_theory
+          - section_title: Complexes with Soft Donors
+            section_type: core_theory
+          - section_title: Actinyl Ion Coordination
+            section_type: core_theory
+      - topic: Organometallic Compounds
+        sections:
+          - section_title: Cyclopentadienyl Complexes of Lanthanides
+            section_type: core_theory
+          - section_title: Uranocene and Actinide Sandwich Compounds
+            section_type: core_theory
+          - section_title: Metal-Carbon σ-Bonds
+            section_type: related_concepts
+          - section_title: Applications in Homogeneous Catalysis
+            section_type: related_concepts
+      - topic: Applications in Materials and Technology
+        sections:
+          - section_title: Phosphors and Light-Emitting Materials
+            section_type: related_concepts
+          - section_title: Magnetic Materials and Permanent Magnets
+            section_type: related_concepts
+          - section_title: Nuclear Fuel and Reactor Materials
+            section_type: related_concepts
+          - section_title: Medical Imaging and Radiotherapy
+            section_type: related_concepts
+    milestone: Integrate coordination chemistry principles with applications of inner transition elements
+    duration_days: 8
+    tags:
+      - coordination chemistry
+      - high coordination numbers
+      - organometallic chemistry
+      - chelate complexes
+      - applications

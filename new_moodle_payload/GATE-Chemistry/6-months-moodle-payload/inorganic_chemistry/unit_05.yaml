@@ -1,0 +1,444 @@
+metadata:
+  subject: "Inorganic Chemistry"
+  target: "GATE Chemistry Examination"
+  syllabus_line: "Transition Elements: Coordination chemistry – structure and isomerism, theories of bonding (VBT, CFT, and MOT). Energy level diagrams in various crystal fields, CFSE, applications of CFT, Jahn-Teller distortion. Electronic spectra of transition metal complexes: spectroscopic term symbols, selection rules, Orgel and Tanabe-Sugano diagrams, nephelauxetic effect and Racah parameter, charge-transfer spectra. Magnetic properties of transition metal complexes. Ray- Dutt and Bailar twists, Reaction mechanisms: kinetic and thermodynamic stability, substitution and redox reactions. Metal-metal multiple bond."
+
+concepts:
+  core:
+    - name: "Coordination chemistry of transition metals"
+      clarifier: "Fundamental description of transition metal complexes, their components, and overall behaviour."
+    - name: "Structure of coordination complexes"
+      clarifier: "Coordination number, common geometries (octahedral, tetrahedral, square planar) and structural features."
+    - name: "Isomerism in coordination compounds"
+      clarifier: "Structural and stereoisomerism including linkage, coordination, ionisation, geometric and optical isomers."
+    - name: "Valence Bond Theory (VBT) for complexes"
+      clarifier: "Hybridisation and magnetic properties of complexes in terms of valence bond concepts."
+    - name: "Crystal Field Theory (CFT)"
+      clarifier: "Electrostatic model explaining d-orbital splitting patterns and their energetic consequences."
+    - name: "Molecular Orbital Theory (MOT) for metal complexes"
+      clarifier: "Bonding description based on overlap of metal and ligand orbitals and formation of molecular orbitals."
+    - name: "Energy level diagrams in crystal fields"
+      clarifier: "d-orbital splitting schemes and energy levels in octahedral, tetrahedral, and square planar fields."
+    - name: "Crystal Field Stabilization Energy (CFSE)"
+      clarifier: "Quantitative measure of energy lowering due to crystal field splitting for different d-electron configurations."
+    - name: "Applications of Crystal Field Theory"
+      clarifier: "Explanation of colour, magnetism, stability and geometry of transition metal complexes."
+    - name: "Jahn–Teller distortion"
+      clarifier: "Geometrical distortion in degenerate electronic states, especially for octahedral d⁹ and high-spin d⁴ complexes."
+    - name: "Electronic spectra of transition metal complexes"
+      clarifier: "d–d and charge-transfer transitions responsible for colour and spectral features."
+    - name: "Spectroscopic term symbols for dⁿ ions"
+      clarifier: "Derivation and interpretation of LS term symbols and their use in assigning ground and excited states."
+    - name: "Electronic selection rules"
+      clarifier: "Spin and Laporte selection rules controlling the intensities of electronic transitions."
+    - name: "Orgel diagrams"
+      clarifier: "Simplified correlation diagrams for high-spin dⁿ configurations in weak fields."
+    - name: "Tanabe–Sugano diagrams"
+      clarifier: "Energy level diagrams for dⁿ configurations covering weak to strong field regimes."
+    - name: "Nephelauxetic effect"
+      clarifier: "Reduction in interelectronic repulsion parameters due to covalency in metal–ligand bonds."
+    - name: "Racah parameters"
+      clarifier: "Parameters B and C describing electron–electron repulsion in d-electron systems."
+    - name: "Charge-transfer spectra"
+      clarifier: "Ligand-to-metal and metal-to-ligand charge-transfer transitions and their spectral characteristics."
+    - name: "Magnetic properties of transition metal complexes"
+      clarifier: "Spin-only and spin–orbit contributions, effective magnetic moments, and magnetic behaviour."
+    - name: "Ray–Dutt twist"
+      clarifier: "Stereochemical pathway for rearrangement of octahedral complexes involving a twist mechanism."
+    - name: "Bailar twist"
+      clarifier: "Trigonal twist mechanism leading to racemisation or isomerisation of octahedral complexes."
+    - name: "Reaction mechanisms of coordination complexes"
+      clarifier: "Pathways and intermediates in substitution and redox processes of metal complexes."
+    - name: "Kinetic versus thermodynamic stability"
+      clarifier: "Rate-based vs energy-based stability criteria for coordination complexes."
+    - name: "Substitution reactions in coordination chemistry"
+      clarifier: "Associative, dissociative, and interchange mechanisms in ligand substitution."
+    - name: "Redox reactions of transition metal complexes"
+      clarifier: "Inner-sphere and outer-sphere electron transfer mechanisms."
+    - name: "Metal–metal multiple bonds"
+      clarifier: "Bonding, structure and properties of complexes containing M–M double, triple and quadruple bonds."
+  related:
+    - name: "Electronic configuration of transition metals"
+      clarifier: "d-block element configurations, common oxidation states, and their implications for complex formation."
+    - name: "Oxidation state and coordination number"
+      clarifier: "Relationship between metal oxidation state, ligand denticity and achievable coordination numbers."
+    - name: "Nature of ligands and spectrochemical series"
+      clarifier: "Ligand field strength ordering and its effect on d-orbital splitting and spin-state."
+    - name: "Hard and soft acids and bases (HSAB)"
+      clarifier: "Qualitative prediction of metal–ligand preferences and stability."
+    - name: "Ligand field vs crystal field theory"
+      clarifier: "Extension of pure electrostatic CFT to include covalent metal–ligand interactions."
+    - name: "Group theory basics for complexes"
+      clarifier: "Symmetry elements and point groups relevant to orbital splitting and selection rules."
+    - name: "Russell–Saunders coupling and free-ion terms"
+      clarifier: "Origin of term symbols for free ions prior to crystal field splitting."
+    - name: "Types of magnetism"
+      clarifier: "Diamagnetism, paramagnetism, ferromagnetism and antiferromagnetism concepts."
+    - name: "Magnetic susceptibility measurements"
+      clarifier: "Experimental determination of magnetic moments and their interpretation."
+    - name: "UV–Vis spectroscopy of coordination compounds"
+      clarifier: "Instrumentation and basic interpretation of absorption spectra."
+    - name: "Kinetics of inorganic reactions"
+      clarifier: "Rate laws, activation parameters and methods of mechanism determination in solution."
+    - name: "Stereochemical non-rigidity in octahedral complexes"
+      clarifier: "Fluxional behaviour and dynamic processes leading to isomer interconversion."
+    - name: "Bioinorganic and catalytic relevance"
+      clarifier: "Examples where bonding, spectra, magnetism and mechanisms underpin real systems and catalysts."
+
+learning_path:
+  - id: 1
+    topic: "Foundations of coordination chemistry and isomerism"
+    learning_objectives:
+      - "Define coordination compounds and identify their key components: central metal, ligands, coordination sphere and counterions."
+      - "Explain coordination number and common geometries for transition metal complexes."
+      - "Classify and draw different types of isomerism in coordination compounds."
+      - "Relate structural features to properties such as colour, solubility and reactivity at a descriptive level."
+    textbook_style_content:
+      - lesson: "Basic concepts of coordination chemistry"
+        sections:
+          - section_heading: "Definition and classification of coordination compounds"
+            section_type: overview
+          - section_heading: "Components of a complex: central metal, ligands, coordination sphere"
+            section_type: core_theory
+          - section_heading: "Oxidation state, coordination number and denticity"
+            section_type: core_theory
+          - section_heading: "IUPAC nomenclature of coordination compounds"
+            section_type: related concepts
+      - lesson: "Structures and geometries of complexes"
+        sections:
+          - section_heading: "Common geometries: octahedral, tetrahedral, square planar"
+            section_type: core_theory
+          - section_heading: "Less common geometries and distortion patterns"
+            section_type: related concepts
+          - section_heading: "Structure–property correlations in simple complexes"
+            section_type: related concepts
+      - lesson: "Isomerism in coordination complexes"
+        sections:
+          - section_heading: "Structural isomerism: linkage, coordination, ionisation, hydrate isomers"
+            section_type: core_theory
+          - section_heading: "Stereoisomerism: geometric and optical isomers"
+            section_type: core_theory
+          - section_heading: "Identification and drawing of isomers for common geometries"
+            section_type: core_theory
+          - section_heading: "Relevance of isomerism to reactivity and biological activity"
+            section_type: related concepts
+    milestone: "Able to write formulas, names and structures of coordination complexes and systematically enumerate their isomers."
+    duration_days: 4
+    tags:
+      - "coordination_chemistry"
+      - "structure"
+      - "isomerism"
+      - "gate_inorganic"
+
+  - id: 2
+    topic: "Bonding theories: VBT, CFT and MOT for complexes"
+    learning_objectives:
+      - "Describe the basic assumptions and limitations of Valence Bond Theory for coordination compounds."
+      - "Construct crystal field splitting diagrams for common geometries and d-electron counts."
+      - "Explain bonding in metal complexes using simple molecular orbital diagrams."
+      - "Compare VBT, CFT and MOT in terms of predictive power for geometry, magnetism and spectra."
+    textbook_style_content:
+      - lesson: "Valence Bond Theory for transition metal complexes"
+        sections:
+          - section_heading: "Assumptions of VBT and hybridisation concept"
+            section_type: overview
+          - section_heading: "Inner-orbital vs outer-orbital complexes and magnetic properties"
+            section_type: core_theory
+          - section_heading: "Successes and limitations of VBT in coordination chemistry"
+            section_type: related concepts
+      - lesson: "Crystal Field Theory"
+        sections:
+          - section_heading: "Electrostatic model and metal–ligand interactions"
+            section_type: overview
+          - section_heading: "d-orbital splitting in octahedral, tetrahedral and square planar fields"
+            section_type: core_theory
+          - section_heading: "Strong-field vs weak-field ligands and spectrochemical series"
+            section_type: core_theory
+          - section_heading: "Relation of CFT to observed colour and magnetism (qualitative)"
+            section_type: related concepts
+      - lesson: "Molecular Orbital Theory for metal complexes"
+        sections:
+          - section_heading: "Construction of MO diagrams for octahedral complexes (σ-bonding)"
+            section_type: core_theory
+          - section_heading: "Extension to π-bonding and back-bonding concepts"
+            section_type: core_theory
+          - section_heading: "Comparison of MO, CFT and VBT predictions"
+            section_type: related concepts
+    milestone: "Able to rationalise structures and basic properties of complexes using VBT, CFT and simple MO arguments."
+    duration_days: 5
+    tags:
+      - "bonding_theory"
+      - "vbt"
+      - "cft"
+      - "mot"
+      - "gate_inorganic"
+
+  - id: 3
+    topic: "Crystal field effects, CFSE and Jahn–Teller distortion"
+    learning_objectives:
+      - "Calculate crystal field stabilization energies for different dⁿ configurations in octahedral and tetrahedral fields."
+      - "Predict high-spin and low-spin configurations using ligand field strength and pairing energy concepts."
+      - "Explain the origin and consequences of Jahn–Teller distortion in certain complexes."
+      - "Use CFT to account for thermodynamic and kinetic trends in stability and geometry."
+    textbook_style_content:
+      - lesson: "Quantitative crystal field theory and CFSE"
+        sections:
+          - section_heading: "Definition of splitting parameter Δ and pairing energy P"
+            section_type: core_theory
+          - section_heading: "CFSE calculations for octahedral and tetrahedral complexes"
+            section_type: core_theory
+          - section_heading: "High-spin vs low-spin complexes and factors controlling spin state"
+            section_type: core_theory
+          - section_heading: "Correlation of CFSE with ionic radii, hydration energies and stability constants"
+            section_type: related concepts
+      - lesson: "Applications of CFT"
+        sections:
+          - section_heading: "Colour of complexes in terms of d–d transitions and Δ"
+            section_type: overview
+          - section_heading: "Magnetic properties explained by electron occupancy and CFSE"
+            section_type: core_theory
+          - section_heading: "Thermodynamic and kinetic aspects related to CFSE"
+            section_type: related concepts
+      - lesson: "Jahn–Teller distortion"
+        sections:
+          - section_heading: "Jahn–Teller theorem and degenerate electronic states"
+            section_type: overview
+          - section_heading: "Typical cases: octahedral d⁹ and high-spin d⁴ complexes"
+            section_type: core_theory
+          - section_heading: "Axial elongation vs compression and their structural signatures"
+            section_type: core_theory
+          - section_heading: "Consequences for spectra, magnetism and reactivity"
+            section_type: related concepts
+    milestone: "Comfortably performs CFSE-based predictions and recognises when Jahn–Teller distortion will influence structure and properties."
+    duration_days: 4
+    tags:
+      - "crystal_field"
+      - "cfse"
+      - "jahn_teller"
+      - "gate_inorganic"
+
+  - id: 4
+    topic: "Electronic spectra of transition metal complexes"
+    learning_objectives:
+      - "Assign spectroscopic term symbols to common dⁿ electronic configurations."
+      - "Apply spin and Laporte selection rules to rationalise spectral intensities."
+      - "Use Orgel and Tanabe–Sugano diagrams to interpret and predict electronic transitions."
+      - "Explain nephelauxetic effect and Racah parameters and relate them to covalency."
+      - "Distinguish between d–d and charge-transfer spectra in coordination compounds."
+    textbook_style_content:
+      - lesson: "Term symbols and free-ion states"
+        sections:
+          - section_heading: "Russell–Saunders coupling and derivation of term symbols"
+            section_type: core_theory
+          - section_heading: "Ground-state term symbols for d¹–d¹⁰ configurations"
+            section_type: core_theory
+          - section_heading: "Effect of crystal field on free-ion terms"
+            section_type: related concepts
+      - lesson: "Selection rules in electronic spectroscopy"
+        sections:
+          - section_heading: "Laporte selection rule and parity considerations"
+            section_type: core_theory
+          - section_heading: "Spin selection rule and spin-forbidden transitions"
+            section_type: core_theory
+          - section_heading: "Relaxation of selection rules: vibronic and spin–orbit coupling"
+            section_type: related concepts
+      - lesson: "Orgel and Tanabe–Sugano diagrams"
+        sections:
+          - section_heading: "Construction and interpretation of Orgel diagrams for high-spin dⁿ"
+            section_type: core_theory
+          - section_heading: "Structure and reading of Tanabe–Sugano diagrams"
+            section_type: core_theory
+          - section_heading: "Extraction of Δ and B from electronic spectra"
+            section_type: core_theory
+          - section_heading: "Worked examples for typical octahedral and tetrahedral complexes"
+            section_type: related concepts
+      - lesson: "Nephelauxetic effect and Racah parameters"
+        sections:
+          - section_heading: "Definition and physical meaning of Racah parameters B and C"
+            section_type: core_theory
+          - section_heading: "Nephelauxetic effect and covalency in metal–ligand bonding"
+            section_type: core_theory
+          - section_heading: "Variation of B with ligand type and metal ion"
+            section_type: related concepts
+      - lesson: "Charge-transfer spectra"
+        sections:
+          - section_heading: "Ligand-to-metal and metal-to-ligand charge-transfer transitions"
+            section_type: overview
+          - section_heading: "Spectral characteristics of CT bands vs d–d bands"
+            section_type: core_theory
+          - section_heading: "Examples from coloured complexes used in analysis and catalysis"
+            section_type: related concepts
+    milestone: "Able to interpret UV–Vis spectra of coordination complexes using term symbols, diagrams and charge-transfer concepts."
+    duration_days: 6
+    tags:
+      - "electronic_spectra"
+      - "orgel_diagrams"
+      - "tanabe_sugano"
+      - "nephelauxetic"
+      - "racah"
+      - "gate_inorganic"
+
+  - id: 5
+    topic: "Magnetic properties of transition metal complexes"
+    learning_objectives:
+      - "Explain origins of magnetic behaviour in d-block complexes from unpaired electrons."
+      - "Calculate spin-only magnetic moments and compare with experimental values."
+      - "Recognise situations where orbital contributions and spin–orbit coupling are important."
+      - "Correlate magnetism with electronic configuration, geometry and ligand field strength."
+    textbook_style_content:
+      - lesson: "Fundamentals of magnetism"
+        sections:
+          - section_heading: "Types of magnetism: dia-, para-, ferro-, antiferro- and ferrimagnetism"
+            section_type: overview
+          - section_heading: "Magnetic susceptibility and Curie/Curie–Weiss laws"
+            section_type: related concepts
+      - lesson: "Spin-only magnetic moment"
+        sections:
+          - section_heading: "Spin-only formula and calculation of μ_eff"
+            section_type: core_theory
+          - section_heading: "Relating μ_eff to number of unpaired electrons"
+            section_type: core_theory
+          - section_heading: "High-spin vs low-spin complexes and magnetic signatures"
+            section_type: core_theory
+      - lesson: "Orbital contribution and spin–orbit coupling"
+        sections:
+          - section_heading: "Quenching of orbital angular momentum in octahedral and tetrahedral fields"
+            section_type: core_theory
+          - section_heading: "Deviations from spin-only values and qualitative explanations"
+            section_type: related concepts
+      - lesson: "Experimental methods and applications"
+        sections:
+          - section_heading: "Overview of Gouy and SQUID methods"
+            section_type: related concepts
+          - section_heading: "Use of magnetic data to deduce structure and electronic configuration"
+            section_type: core_theory
+    milestone: "Can use magnetic data to infer electronic structure, spin state and sometimes geometry of transition metal complexes."
+    duration_days: 3
+    tags:
+      - "magnetism"
+      - "spin_only"
+      - "transition_metals"
+      - "gate_inorganic"
+
+  - id: 6
+    topic: "Ray–Dutt and Bailar twists and stereochemical non-rigidity"
+    learning_objectives:
+      - "Describe stereochemical non-rigidity in octahedral coordination complexes."
+      - "Explain the Ray–Dutt and Bailar twist mechanisms for geometric and optical isomer interconversion."
+      - "Relate twist mechanisms to observed dynamic behaviour in solution."
+      - "Recognise complexes likely to undergo these twist processes under given conditions."
+    textbook_style_content:
+      - lesson: "Stereochemical non-rigidity in octahedral complexes"
+        sections:
+          - section_heading: "Fluxional behaviour and dynamic stereochemistry"
+            section_type: overview
+          - section_heading: "Factors promoting non-rigidity in six-coordinate complexes"
+            section_type: related concepts
+      - lesson: "Bailar twist mechanism"
+        sections:
+          - section_heading: "Trigonal prismatic intermediate in Bailar twist"
+            section_type: core_theory
+          - section_heading: "Racemisation and isomerisation via Bailar twist"
+            section_type: core_theory
+          - section_heading: "Examples and experimental evidence"
+            section_type: related concepts
+      - lesson: "Ray–Dutt twist mechanism"
+        sections:
+          - section_heading: "Distortion pathway described by Ray–Dutt twist"
+            section_type: core_theory
+          - section_heading: "Comparison of Ray–Dutt and Bailar twists"
+            section_type: core_theory
+          - section_heading: "Implications for reaction mechanisms and NMR timescales"
+            section_type: related concepts
+    milestone: "Understands key stereochemical twist mechanisms and can apply them to rationalise isomerisation and fluxionality in complexes."
+    duration_days: 2
+    tags:
+      - "ray_dutt"
+      - "bailar_twist"
+      - "stereochemistry"
+      - "gate_inorganic"
+
+  - id: 7
+    topic: "Reaction mechanisms of transition metal complexes"
+    learning_objectives:
+      - "Distinguish between kinetic and thermodynamic stability in coordination compounds."
+      - "Describe associative, dissociative and interchange mechanisms for ligand substitution."
+      - "Explain inner-sphere and outer-sphere pathways in redox reactions of complexes."
+      - "Use experimental evidence such as rate laws and activation parameters to infer mechanisms qualitatively."
+    textbook_style_content:
+      - lesson: "Kinetic vs thermodynamic stability"
+        sections:
+          - section_heading: "Definitions of kinetic and thermodynamic stability in complexes"
+            section_type: overview
+          - section_heading: "Factors controlling lability and inertness"
+            section_type: core_theory
+          - section_heading: "Role of CFSE and ligand field effects in stability"
+            section_type: related concepts
+      - lesson: "Substitution reactions in coordination chemistry"
+        sections:
+          - section_heading: "Associative (A), dissociative (D) and interchange (I) mechanisms"
+            section_type: core_theory
+          - section_heading: "Rate laws characteristic of A and D mechanisms"
+            section_type: core_theory
+          - section_heading: "Solvent effects and trans effect (qualitative) on substitution"
+            section_type: related concepts
+          - section_heading: "Substitution in octahedral vs square planar complexes"
+            section_type: core_theory
+      - lesson: "Redox reactions of metal complexes"
+        sections:
+          - section_heading: "Outer-sphere electron transfer"
+            section_type: core_theory
+          - section_heading: "Inner-sphere electron transfer and bridging ligands"
+            section_type: core_theory
+          - section_heading: "Marcus-type ideas qualitatively for electron transfer"
+            section_type: related concepts
+      - lesson: "Link between reaction mechanisms and stereochemical changes"
+        sections:
+          - section_heading: "Mechanistic pathways leading to isomerisation or racemisation"
+            section_type: core_theory
+          - section_heading: "Examples connecting substitution/redox and Ray–Dutt/Bailar twists"
+            section_type: related concepts
+    milestone: "Able to propose plausible mechanisms for substitution and redox reactions and relate them to observed kinetics and stereochemical outcomes."
+    duration_days: 5
+    tags:
+      - "reaction_mechanisms"
+      - "substitution"
+      - "redox"
+      - "stability"
+      - "gate_inorganic"
+
+  - id: 8
+    topic: "Metal–metal multiple bonds in transition metal complexes"
+    learning_objectives:
+      - "Describe the nature of metal–metal bonding and the concept of bond order in transition metal complexes."
+      - "Recognise common structural motifs exhibiting M–M double, triple and quadruple bonds."
+      - "Construct qualitative MO descriptions of metal–metal multiple bonds."
+      - "Relate M–M bonding to magnetic, spectroscopic and reactivity properties."
+    textbook_style_content:
+      - lesson: "Introduction to metal–metal bonding"
+        sections:
+          - section_heading: "Conditions favouring formation of metal–metal bonds"
+            section_type: overview
+          - section_heading: "Examples of complexes with M–M multiple bonds"
+            section_type: core_theory
+      - lesson: "Molecular orbital description of M–M multiple bonds"
+        sections:
+          - section_heading: "σ, π and δ components in metal–metal bonding"
+            section_type: core_theory
+          - section_heading: "Bond order and electron counting in M–M systems"
+            section_type: core_theory
+          - section_heading: "Correlation of bond order with bond length and strength"
+            section_type: related concepts
+      - lesson: "Properties and reactivity of M–M bonded complexes"
+        sections:
+          - section_heading: "Magnetic and spectroscopic signatures of M–M bonds"
+            section_type: related concepts
+          - section_heading: "Reactivity patterns and relevance to catalysis"
+            section_type: related concepts
+    milestone: "Understands how and why metal–metal multiple bonds form and can discuss their structures and key properties."
+    duration_days: 3
+    tags:
+      - "metal_metal_bonds"
+      - "bonding"
+      - "transition_metals"
+      - "gate_inorganic"

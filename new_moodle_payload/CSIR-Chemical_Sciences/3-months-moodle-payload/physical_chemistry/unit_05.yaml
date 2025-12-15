@@ -1,0 +1,441 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Chemical applications of group theory; symmetry elements; point groups; character tables; selection rules."
+
+concepts:
+  core:
+    - name: Symmetry elements
+      clarifier: "Identity, rotation axes, mirror planes, inversion center, and improper rotation axes in molecules"
+    - name: Symmetry operations
+      clarifier: "Mathematical operations that move a molecule to an indistinguishable configuration"
+    - name: Point groups
+      clarifier: "Classification systems for molecules based on their complete set of symmetry elements"
+    - name: Character tables
+      clarifier: "Tabular representations of irreducible representations and their characters for point groups"
+    - name: Selection rules
+      clarifier: "Quantum mechanical rules determining allowed and forbidden transitions in spectroscopy"
+    - name: Group theory applications
+      clarifier: "Practical uses of symmetry in predicting molecular properties, spectroscopy, and bonding"
+  related:
+    - name: Matrix representations
+      clarifier: "Mathematical representation of symmetry operations using matrices"
+    - name: Reducible and irreducible representations
+      clarifier: "Decomposition of representations into fundamental irreducible components"
+    - name: Great orthogonality theorem
+      clarifier: "Fundamental theorem relating characters of irreducible representations"
+    - name: Direct products
+      clarifier: "Mathematical combination of irreducible representations for transition moment analysis"
+    - name: Symmetry-adapted linear combinations (SALCs)
+      clarifier: "Linear combinations of atomic orbitals that transform according to irreducible representations"
+    - name: Vibrational modes analysis
+      clarifier: "Determination of IR and Raman active vibrations using symmetry"
+    - name: Electronic transitions
+      clarifier: "Application of selection rules to electronic spectroscopy"
+    - name: Hybrid orbital symmetry
+      clarifier: "Use of group theory in determining bonding schemes and molecular orbitals"
+    - name: Crystal field theory
+      clarifier: "Application of symmetry to d-orbital splitting in coordination compounds"
+
+learning_path:
+  - id: 1
+    title: "Foundation: Symmetry Elements and Operations"
+    learning_objectives:
+      - "Identify all symmetry elements present in a given molecule"
+      - "Distinguish between symmetry elements and symmetry operations"
+      - "Perform symmetry operations on molecular coordinates"
+      - "Recognize the relationship between molecular geometry and symmetry"
+    textbook_style_content:
+      - topic: "Introduction to Molecular Symmetry"
+        sections:
+          - section_title: "Why Symmetry Matters in Chemistry"
+            section_type: overview
+          - section_title: "Definition of Symmetry in Molecular Context"
+            section_type: core_theory
+          - section_title: "Historical Development of Group Theory in Chemistry"
+            section_type: related_concepts
+      - topic: "Symmetry Elements"
+        sections:
+          - section_title: "The Identity Element (E)"
+            section_type: core_theory
+          - section_title: "Rotation Axes (Cn)"
+            section_type: core_theory
+          - section_title: "Mirror Planes (σ): σv, σh, σd"
+            section_type: core_theory
+          - section_title: "Inversion Center (i)"
+            section_type: core_theory
+          - section_title: "Improper Rotation Axes (Sn)"
+            section_type: core_theory
+      - topic: "Symmetry Operations"
+        sections:
+          - section_title: "Distinction Between Elements and Operations"
+            section_type: overview
+          - section_title: "Mathematical Description of Operations"
+            section_type: core_theory
+          - section_title: "Multiple Operations and Equivalent Atoms"
+            section_type: core_theory
+          - section_title: "Practice: Identifying Elements in Common Molecules"
+            section_type: related_concepts
+    milestone: "Ability to systematically identify and list all symmetry elements in any molecule"
+    duration_days: 4
+    tags:
+      - symmetry
+      - molecular_structure
+      - foundations
+
+  - id: 2
+    title: "Point Groups and Molecular Classification"
+    learning_objectives:
+      - "Assign any molecule to its correct point group using systematic procedures"
+      - "Understand the relationship between molecular geometry and point group symmetry"
+      - "Navigate flowcharts for point group determination"
+      - "Recognize common point groups and their characteristic symmetry"
+    textbook_style_content:
+      - topic: "Introduction to Point Groups"
+        sections:
+          - section_title: "Definition and Concept of Point Groups"
+            section_type: overview
+          - section_title: "Mathematical Group Requirements"
+            section_type: core_theory
+          - section_title: "Closure, Associativity, Identity, and Inverse"
+            section_type: core_theory
+      - topic: "Major Point Group Families"
+        sections:
+          - section_title: "Special Groups: C1, Cs, Ci"
+            section_type: core_theory
+          - section_title: "Cn Groups: Cyclic Symmetry"
+            section_type: core_theory
+          - section_title: "Cnv Groups: Molecules with Mirror Planes"
+            section_type: core_theory
+          - section_title: "Cnh Groups: Horizontal Mirror Symmetry"
+            section_type: core_theory
+          - section_title: "Dn Groups: Multiple C2 Axes Perpendicular to Cn"
+            section_type: core_theory
+          - section_title: "Dnd Groups: Dihedral with Diagonal Mirrors"
+            section_type: core_theory
+          - section_title: "Dnh Groups: Dihedral with Horizontal Mirrors"
+            section_type: core_theory
+          - section_title: "Sn Groups: Improper Rotation as Principal Element"
+            section_type: core_theory
+      - topic: "High Symmetry Point Groups"
+        sections:
+          - section_title: "Tetrahedral (Td) and Cubic (Oh) Symmetry"
+            section_type: core_theory
+          - section_title: "Icosahedral (Ih) Symmetry"
+            section_type: core_theory
+          - section_title: "Linear Molecules: C∞v and D∞h"
+            section_type: core_theory
+      - topic: "Point Group Assignment Procedures"
+        sections:
+          - section_title: "Systematic Flowchart Method"
+            section_type: core_theory
+          - section_title: "Common Pitfalls in Assignment"
+            section_type: related_concepts
+          - section_title: "Practice Problems: Organic and Inorganic Examples"
+            section_type: related_concepts
+    milestone: "Accurate point group assignment for 95% of common molecular structures"
+    duration_days: 5
+    tags:
+      - point_groups
+      - classification
+      - molecular_symmetry
+
+  - id: 3
+    title: "Matrix Representations and Group Theory Mathematics"
+    learning_objectives:
+      - "Represent symmetry operations as matrices"
+      - "Understand the concept of representations in group theory"
+      - "Calculate matrix representations for simple operations"
+      - "Distinguish between reducible and irreducible representations"
+    textbook_style_content:
+      - topic: "Matrix Representations of Symmetry Operations"
+        sections:
+          - section_title: "Introduction to Matrix Representation"
+            section_type: overview
+          - section_title: "Transformation Matrices for Rotations"
+            section_type: core_theory
+          - section_title: "Matrices for Reflections and Inversions"
+            section_type: core_theory
+          - section_title: "Matrix Multiplication and Successive Operations"
+            section_type: core_theory
+      - topic: "Representations and Their Properties"
+        sections:
+          - section_title: "Definition of Group Representations"
+            section_type: core_theory
+          - section_title: "Basis Sets for Representations"
+            section_type: core_theory
+          - section_title: "Trace (Character) of a Matrix"
+            section_type: core_theory
+          - section_title: "Reducible vs Irreducible Representations"
+            section_type: core_theory
+      - topic: "Mathematical Framework"
+        sections:
+          - section_title: "Similarity Transformations and Equivalent Representations"
+            section_type: related_concepts
+          - section_title: "Block Diagonal Form and Reduction"
+            section_type: core_theory
+          - section_title: "The Great Orthogonality Theorem"
+            section_type: core_theory
+          - section_title: "Reduction Formula for Decomposing Representations"
+            section_type: core_theory
+    milestone: "Construct matrix representations and reduce them to irreducible components"
+    duration_days: 5
+    tags:
+      - matrices
+      - representations
+      - mathematical_foundations
+
+  - id: 4
+    title: "Character Tables: Structure and Interpretation"
+    learning_objectives:
+      - "Read and interpret all components of character tables"
+      - "Use character tables to determine symmetry properties of molecular orbitals and vibrations"
+      - "Apply direct product rules using character tables"
+      - "Understand the significance of characters in chemical applications"
+    textbook_style_content:
+      - topic: "Character Table Components"
+        sections:
+          - section_title: "Overview of Character Table Structure"
+            section_type: overview
+          - section_title: "Point Group Symmetry Operations (Columns)"
+            section_type: core_theory
+          - section_title: "Irreducible Representations (Rows)"
+            section_type: core_theory
+          - section_title: "Characters: Meaning and Significance"
+            section_type: core_theory
+          - section_title: "Functions and Basis Sets (Right Columns)"
+            section_type: core_theory
+      - topic: "Properties of Character Tables"
+        sections:
+          - section_title: "Orthogonality Relations"
+            section_type: core_theory
+          - section_title: "Number of Irreducible Representations"
+            section_type: core_theory
+          - section_title: "Dimension and Total Number of Symmetry Operations"
+            section_type: core_theory
+      - topic: "Using Character Tables"
+        sections:
+          - section_title: "Determining Representation from Symmetry Behavior"
+            section_type: core_theory
+          - section_title: "Direct Products of Representations"
+            section_type: core_theory
+          - section_title: "Symmetric and Antisymmetric Direct Products"
+            section_type: core_theory
+          - section_title: "Finding Totally Symmetric Representations"
+            section_type: core_theory
+      - topic: "Detailed Examples"
+        sections:
+          - section_title: "Character Tables for Common Point Groups (C2v, C3v, D2h, D3h)"
+            section_type: related_concepts
+          - section_title: "Character Tables for High Symmetry Groups (Td, Oh)"
+            section_type: related_concepts
+          - section_title: "Mulliken Symbols and Notation Conventions"
+            section_type: related_concepts
+    milestone: "Proficient use of character tables for symmetry analysis of chemical problems"
+    duration_days: 6
+    tags:
+      - character_tables
+      - irreducible_representations
+      - direct_products
+
+  - id: 5
+    title: "Vibrational Spectroscopy and Symmetry"
+    learning_objectives:
+      - "Determine the number and symmetry of normal modes of vibration"
+      - "Predict IR and Raman activity of vibrational modes using selection rules"
+      - "Construct symmetry-adapted linear combinations for molecular vibrations"
+      - "Apply group theory to interpret vibrational spectra"
+    textbook_style_content:
+      - topic: "Molecular Vibrations and Symmetry"
+        sections:
+          - section_title: "Introduction to Normal Modes"
+            section_type: overview
+          - section_title: "3N-6 and 3N-5 Degrees of Freedom"
+            section_type: core_theory
+          - section_title: "Reducible Representation for All Motions"
+            section_type: core_theory
+      - topic: "Determining Vibrational Modes"
+        sections:
+          - section_title: "Constructing Γ3N from Cartesian Coordinates"
+            section_type: core_theory
+          - section_title: "Separating Translations and Rotations"
+            section_type: core_theory
+          - section_title: "Reducing Γvib to Normal Mode Symmetries"
+            section_type: core_theory
+          - section_title: "Worked Examples: H2O, NH3, CH4"
+            section_type: related_concepts
+      - topic: "Selection Rules for Vibrational Spectroscopy"
+        sections:
+          - section_title: "IR Activity: Dipole Moment Selection Rules"
+            section_type: core_theory
+          - section_title: "Raman Activity: Polarizability Selection Rules"
+            section_type: core_theory
+          - section_title: "Mutual Exclusion Principle in Centrosymmetric Molecules"
+            section_type: core_theory
+          - section_title: "Using Character Tables to Predict Activity"
+            section_type: core_theory
+      - topic: "Advanced Vibrational Analysis"
+        sections:
+          - section_title: "Symmetry-Adapted Linear Combinations (SALCs) for Vibrations"
+            section_type: related_concepts
+          - section_title: "Combination and Overtone Bands"
+            section_type: related_concepts
+          - section_title: "Fermi Resonance and Symmetry"
+            section_type: related_concepts
+    milestone: "Complete vibrational analysis and spectroscopic prediction for polyatomic molecules"
+    duration_days: 6
+    tags:
+      - vibrational_spectroscopy
+      - IR_spectroscopy
+      - Raman_spectroscopy
+      - selection_rules
+
+  - id: 6
+    title: "Electronic Spectroscopy and Selection Rules"
+    learning_objectives:
+      - "Apply selection rules to electronic transitions"
+      - "Determine allowed and forbidden transitions using symmetry"
+      - "Understand spin and orbital selection rules"
+      - "Use direct products to evaluate transition moments"
+    textbook_style_content:
+      - topic: "Electronic Transitions and Symmetry"
+        sections:
+          - section_title: "Electronic States and Term Symbols"
+            section_type: overview
+          - section_title: "Transition Dipole Moment Integral"
+            section_type: core_theory
+          - section_title: "Symmetry Requirements for Non-Zero Integrals"
+            section_type: core_theory
+      - topic: "Selection Rules for Electronic Transitions"
+        sections:
+          - section_title: "Spin Selection Rule (ΔS = 0)"
+            section_type: core_theory
+          - section_title: "Orbital Symmetry Selection Rules"
+            section_type: core_theory
+          - section_title: "Laporte Selection Rule (g ↔ u)"
+            section_type: core_theory
+          - section_title: "Direct Product Analysis of Transitions"
+            section_type: core_theory
+      - topic: "Applications to Molecular Systems"
+        sections:
+          - section_title: "Electronic Transitions in Organic Molecules"
+            section_type: related_concepts
+          - section_title: "d-d Transitions in Coordination Compounds"
+            section_type: related_concepts
+          - section_title: "Charge Transfer Transitions"
+            section_type: related_concepts
+          - section_title: "Vibronic Coupling and Forbidden Transitions"
+            section_type: related_concepts
+      - topic: "Polarization and Transition Moments"
+        sections:
+          - section_title: "x-, y-, z-Polarized Transitions"
+            section_type: core_theory
+          - section_title: "Orientation Dependence of Absorption"
+            section_type: related_concepts
+    milestone: "Predict allowed electronic transitions and interpret UV-Vis spectra using symmetry"
+    duration_days: 5
+    tags:
+      - electronic_spectroscopy
+      - UV_Vis_spectroscopy
+      - transition_moments
+      - selection_rules
+
+  - id: 7
+    title: "Molecular Orbital Theory and Bonding Applications"
+    learning_objectives:
+      - "Construct symmetry-adapted linear combinations (SALCs) of atomic orbitals"
+      - "Apply group theory to determine bonding and antibonding combinations"
+      - "Predict molecular orbital diagrams using symmetry"
+      - "Understand hybrid orbital formation through symmetry analysis"
+    textbook_style_content:
+      - topic: "Group Theory in Molecular Orbital Theory"
+        sections:
+          - section_title: "Introduction to Symmetry in Bonding"
+            section_type: overview
+          - section_title: "Overlap Integrals and Symmetry"
+            section_type: core_theory
+          - section_title: "Non-Zero Overlap Conditions"
+            section_type: core_theory
+      - topic: "Symmetry-Adapted Linear Combinations"
+        sections:
+          - section_title: "Projection Operator Method"
+            section_type: core_theory
+          - section_title: "Constructing SALCs for Ligand Orbitals"
+            section_type: core_theory
+          - section_title: "SALCs in Coordination Compounds"
+            section_type: core_theory
+          - section_title: "Examples: Octahedral and Tetrahedral Complexes"
+            section_type: related_concepts
+      - topic: "Molecular Orbital Diagrams"
+        sections:
+          - section_title: "Combining Central Atom and Ligand SALCs"
+            section_type: core_theory
+          - section_title: "σ and π Bonding Analysis"
+            section_type: core_theory
+          - section_title: "Qualitative MO Diagrams for Common Geometries"
+            section_type: related_concepts
+      - topic: "Hybrid Orbitals and Symmetry"
+        sections:
+          - section_title: "Determining Hybrid Orbital Types from Point Group"
+            section_type: core_theory
+          - section_title: "sp, sp2, sp3, sp3d, sp3d2 Hybridization"
+            section_type: related_concepts
+          - section_title: "Symmetry of Lone Pairs"
+            section_type: related_concepts
+    milestone: "Construct complete molecular orbital diagrams using group theoretical methods"
+    duration_days: 6
+    tags:
+      - molecular_orbitals
+      - chemical_bonding
+      - SALCs
+      - coordination_chemistry
+
+  - id: 8
+    title: "Advanced Applications and Crystal Field Theory"
+    learning_objectives:
+      - "Apply group theory to crystal field splitting in coordination compounds"
+      - "Understand ligand field theory using symmetry principles"
+      - "Predict spectroscopic properties of transition metal complexes"
+      - "Integrate group theory concepts across multiple chemical applications"
+    textbook_style_content:
+      - topic: "Crystal Field Theory and Symmetry"
+        sections:
+          - section_title: "d-Orbital Splitting in Different Geometries"
+            section_type: overview
+          - section_title: "Oh Symmetry: eg and t2g Orbitals"
+            section_type: core_theory
+          - section_title: "Td Symmetry: e and t2 Orbitals"
+            section_type: core_theory
+          - section_title: "Lower Symmetry Fields: D4h, D3h"
+            section_type: core_theory
+      - topic: "Term Symbols and Symmetry"
+        sections:
+          - section_title: "Correlation of Free Ion Terms with Ligand Field States"
+            section_type: core_theory
+          - section_title: "Tanabe-Sugano Diagrams and Symmetry"
+            section_type: related_concepts
+          - section_title: "Jahn-Teller Distortions and Symmetry Lowering"
+            section_type: related_concepts
+      - topic: "Comprehensive Applications"
+        sections:
+          - section_title: "Predicting Magnetic Properties"
+            section_type: related_concepts
+          - section_title: "Color and Electronic Structure"
+            section_type: related_concepts
+          - section_title: "Stereochemistry and Reaction Mechanisms"
+            section_type: related_concepts
+      - topic: "Problem-Solving Integration"
+        sections:
+          - section_title: "Multi-Step Group Theory Problems"
+            section_type: related_concepts
+          - section_title: "CSIR-Style Application Questions"
+            section_type: related_concepts
+          - section_title: "Common Exam Pitfalls and Strategies"
+            section_type: related_concepts
+    milestone: "Master comprehensive application of group theory to diverse chemical problems"
+    duration_days: 5
+    tags:
+      - crystal_field_theory
+      - coordination_chemistry
+      - advanced_applications
+      - exam_preparation

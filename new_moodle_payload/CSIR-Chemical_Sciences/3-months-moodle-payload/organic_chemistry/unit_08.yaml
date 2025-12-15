@@ -1,0 +1,432 @@
+metadata:
+  subject: organic chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Concepts in organic synthesis: Retrosynthesis, disconnection, synthons, linear and convergent synthesis, umpolung of reactivity and protecting groups."
+
+concepts:
+  core:
+    - name: Retrosynthesis
+      clarifier: Backward planning of synthetic routes from target molecule to available starting materials
+    - name: Disconnection
+      clarifier: Mental breaking of bonds in target molecule to identify strategic bond formations
+    - name: Synthons
+      clarifier: Idealized charged fragments representing reactive intermediates in retrosynthetic analysis
+    - name: Synthetic equivalents
+      clarifier: Real reagents that correspond to idealized synthons
+    - name: Linear synthesis
+      clarifier: Sequential synthesis where target is assembled in stepwise manner from one starting material
+    - name: Convergent synthesis
+      clarifier: Parallel synthesis of fragments that are combined in later stages
+    - name: Umpolung
+      clarifier: Reversal of natural polarity of functional groups to enable unusual disconnections
+    - name: Protecting groups
+      clarifier: Temporary masking of functional groups to prevent unwanted reactions
+  related:
+    - name: Functional group interconversions
+      clarifier: Transformation of one functional group to another
+    - name: Chemoselectivity
+      clarifier: Selective reaction at one functional group in presence of others
+    - name: Regioselectivity
+      clarifier: Preference for bond formation at specific position in molecule
+    - name: Stereoselectivity
+      clarifier: Control of stereochemical outcome in synthetic transformations
+    - name: Strategic bond analysis
+      clarifier: Identifying which bonds to form and in what order
+    - name: C-C bond forming reactions
+      clarifier: Key reactions that create carbon-carbon bonds
+    - name: Reaction mechanisms
+      clarifier: Stepwise description of how reactions proceed
+    - name: Reagent selection criteria
+      clarifier: Choosing appropriate reagents based on reactivity and selectivity
+
+learning_path:
+  - id: 1
+    title: Foundations of Retrosynthetic Analysis
+    learning_objectives:
+      - Define retrosynthesis and understand its importance in organic synthesis planning
+      - Identify target molecules and recognize available starting materials
+      - Apply arrow notation and conventions in retrosynthetic analysis
+      - Distinguish between synthesis (forward) and retrosynthesis (backward) directions
+    textbook_style_content:
+      - topic: Introduction to Retrosynthetic Analysis
+        sections:
+          - section_title: The Logic of Retrosynthesis
+            section_type: overview
+          - section_title: Retrosynthetic Arrow and Notation
+            section_type: core_theory
+          - section_title: Target Molecules and Starting Materials
+            section_type: core_theory
+          - section_title: Functional Group Analysis in Planning
+            section_type: related_concepts
+    milestone: Master basic retrosynthetic notation and thinking backward from target to starting materials
+    duration_days: 3
+    tags:
+      - retrosynthesis
+      - synthesis planning
+      - notation
+
+  - id: 2
+    title: Disconnection Strategies
+    learning_objectives:
+      - Identify strategic bonds for disconnection in target molecules
+      - Apply one-group and two-group disconnection approaches
+      - Recognize functional group relationships that guide disconnection
+      - Evaluate multiple disconnection options for same target
+    textbook_style_content:
+      - topic: Principles of Disconnection
+        sections:
+          - section_title: Strategic Bond Identification
+            section_type: core_theory
+          - section_title: One-Group C-X Disconnections
+            section_type: core_theory
+          - section_title: Two-Group C-C Disconnections
+            section_type: core_theory
+          - section_title: Functional Group Interconversions and FGI
+            section_type: related_concepts
+          - section_title: Evaluation Criteria for Disconnections
+            section_type: core_theory
+    milestone: Systematically identify and evaluate strategic bond disconnections
+    duration_days: 4
+    tags:
+      - disconnection
+      - strategic bonds
+      - functional groups
+
+  - id: 3
+    title: Synthons and Synthetic Equivalents
+    learning_objectives:
+      - Define synthons as idealized fragments in retrosynthetic analysis
+      - Distinguish between synthons and real reagents (synthetic equivalents)
+      - Identify donor and acceptor synthons from disconnections
+      - Match common synthons with their synthetic equivalents
+    textbook_style_content:
+      - topic: From Disconnection to Real Reagents
+        sections:
+          - section_title: Concept of Synthons
+            section_type: core_theory
+          - section_title: Donor and Acceptor Synthons
+            section_type: core_theory
+          - section_title: Synthetic Equivalents for Common Synthons
+            section_type: core_theory
+          - section_title: Nucleophilic and Electrophilic Reagents
+            section_type: related_concepts
+          - section_title: Reagent Selection Based on Synthon Requirements
+            section_type: related_concepts
+    milestone: Convert retrosynthetic disconnections into practical synthetic steps using appropriate reagents
+    duration_days: 4
+    tags:
+      - synthons
+      - synthetic equivalents
+      - reagents
+
+  - id: 4
+    title: C-C Bond Forming Reactions as Synthetic Equivalents
+    learning_objectives:
+      - Apply aldol reactions as d1-a1 synthetic equivalents
+      - Use Grignard and organolithium reagents for nucleophilic addition
+      - Recognize alkylation reactions of enolates and enamines
+      - Apply Wittig reaction for carbonyl olefination
+      - Understand Claisen condensation and related reactions
+    textbook_style_content:
+      - topic: Key C-C Bond Formations
+        sections:
+          - section_title: Aldol and Related Condensations
+            section_type: core_theory
+          - section_title: Organometallic Additions to Carbonyls
+            section_type: core_theory
+          - section_title: Enolate Alkylations
+            section_type: core_theory
+          - section_title: Wittig and Related Olefination Reactions
+            section_type: core_theory
+          - section_title: Michael Addition and Conjugate Addition
+            section_type: related_concepts
+          - section_title: Stereochemical Control in C-C Bond Formation
+            section_type: related_concepts
+    milestone: Apply major C-C bond forming reactions as tools for executing retrosynthetic plans
+    duration_days: 5
+    tags:
+      - C-C bonds
+      - aldol
+      - organometallics
+      - enolates
+
+  - id: 5
+    title: Linear Synthesis Strategies
+    learning_objectives:
+      - Define linear synthesis and recognize its characteristics
+      - Design step-by-step linear synthetic routes
+      - Calculate overall yield in linear sequences
+      - Identify advantages and limitations of linear approaches
+    textbook_style_content:
+      - topic: Linear Synthetic Planning
+        sections:
+          - section_title: Characteristics of Linear Synthesis
+            section_type: core_theory
+          - section_title: Step Economy and Yield Calculations
+            section_type: core_theory
+          - section_title: Functional Group Manipulation in Linear Routes
+            section_type: related_concepts
+          - section_title: When to Choose Linear Approaches
+            section_type: core_theory
+          - section_title: Examples of Linear Natural Product Syntheses
+            section_type: core_theory
+    milestone: Design and evaluate linear synthetic routes with attention to step economy
+    duration_days: 3
+    tags:
+      - linear synthesis
+      - step economy
+      - yield
+
+  - id: 6
+    title: Convergent Synthesis Strategies
+    learning_objectives:
+      - Define convergent synthesis and its strategic advantages
+      - Design synthetic routes with multiple fragments assembled in parallel
+      - Compare efficiency of convergent versus linear approaches
+      - Identify ideal coupling points for fragment assembly
+    textbook_style_content:
+      - topic: Convergent Synthetic Planning
+        sections:
+          - section_title: Principles of Convergent Synthesis
+            section_type: core_theory
+          - section_title: Fragment Identification and Disconnection
+            section_type: core_theory
+          - section_title: Coupling Strategies for Fragment Assembly
+            section_type: core_theory
+          - section_title: Yield Advantages of Convergent Routes
+            section_type: core_theory
+          - section_title: Regioselectivity in Fragment Coupling
+            section_type: related_concepts
+          - section_title: Case Studies in Convergent Natural Product Synthesis
+            section_type: core_theory
+    milestone: Design efficient convergent synthetic routes with strategic fragment coupling
+    duration_days: 4
+    tags:
+      - convergent synthesis
+      - fragment assembly
+      - efficiency
+
+  - id: 7
+    title: Umpolung of Reactivity
+    learning_objectives:
+      - Define umpolung and its role in expanding synthetic options
+      - Recognize natural polarity patterns of common functional groups
+      - Apply dithiane chemistry for acyl anion equivalents
+      - Use cyanohydrins and related umpolung reagents
+      - Identify organocatalytic umpolung strategies
+    textbook_style_content:
+      - topic: Polarity Reversal in Synthesis
+        sections:
+          - section_title: Concept of Umpolung
+            section_type: overview
+          - section_title: Natural Polarity of Functional Groups
+            section_type: core_theory
+          - section_title: Dithiane Anions as Acyl Anion Equivalents
+            section_type: core_theory
+          - section_title: Corey-Seebach Reaction and Applications
+            section_type: core_theory
+          - section_title: Cyanohydrin Chemistry
+            section_type: core_theory
+          - section_title: N-Heterocyclic Carbenes in Umpolung
+            section_type: related_concepts
+          - section_title: Benzoin Condensation and Stetter Reaction
+            section_type: related_concepts
+          - section_title: Strategic Use of Umpolung in Retrosynthesis
+            section_type: core_theory
+    milestone: Apply umpolung strategies to access disconnections not available through natural polarity
+    duration_days: 5
+    tags:
+      - umpolung
+      - polarity reversal
+      - dithianes
+      - acyl anions
+
+  - id: 8
+    title: Protecting Group Strategies
+    learning_objectives:
+      - Explain the necessity of protecting groups in multistep synthesis
+      - Select appropriate protecting groups based on stability and removal conditions
+      - Apply standard protection and deprotection protocols
+      - Recognize orthogonal protection strategies
+      - Minimize protecting group steps in synthetic planning
+    textbook_style_content:
+      - topic: Temporary Functional Group Masking
+        sections:
+          - section_title: Rationale for Protecting Groups
+            section_type: overview
+          - section_title: Criteria for Selecting Protecting Groups
+            section_type: core_theory
+          - section_title: Alcohol Protecting Groups
+            section_type: core_theory
+          - section_title: Carbonyl Protecting Groups
+            section_type: core_theory
+          - section_title: Amine Protecting Groups
+            section_type: core_theory
+          - section_title: Carboxylic Acid Protecting Groups
+            section_type: core_theory
+          - section_title: Orthogonal Protection Strategies
+            section_type: core_theory
+          - section_title: Chemoselectivity and Protection
+            section_type: related_concepts
+          - section_title: Protection-Deprotection Sequences in Total Synthesis
+            section_type: related_concepts
+    milestone: Strategically incorporate protecting groups to enable selective transformations
+    duration_days: 5
+    tags:
+      - protecting groups
+      - chemoselectivity
+      - orthogonal protection
+
+  - id: 9
+    title: Advanced Disconnection Patterns
+    learning_objectives:
+      - Recognize common structural motifs and their disconnection patterns
+      - Apply a-disconnections adjacent to functional groups
+      - Use b-disconnections for 1,3-difunctionalized systems
+      - Identify ring-forming disconnections
+      - Apply heteroatom disconnections
+    textbook_style_content:
+      - topic: Systematic Disconnection Approaches
+        sections:
+          - section_title: Alpha-Disconnections and 1,2-Relationships
+            section_type: core_theory
+          - section_title: Beta-Disconnections and 1,3-Relationships
+            section_type: core_theory
+          - section_title: Longer Chain Disconnections
+            section_type: core_theory
+          - section_title: Ring-Forming Disconnections
+            section_type: core_theory
+          - section_title: Heterocyclic Disconnections
+            section_type: related_concepts
+          - section_title: Stereochemical Considerations in Disconnections
+            section_type: related_concepts
+    milestone: Systematically apply disconnection patterns to complex multifunctional targets
+    duration_days: 4
+    tags:
+      - disconnection patterns
+      - ring formation
+      - heterocycles
+
+  - id: 10
+    title: Integration of Synthetic Concepts
+    learning_objectives:
+      - Combine retrosynthesis, protecting groups, and umpolung in complex syntheses
+      - Evaluate trade-offs between linear and convergent approaches
+      - Design complete synthetic routes incorporating all strategic elements
+      - Analyze published total syntheses using learned concepts
+    textbook_style_content:
+      - topic: Comprehensive Synthesis Planning
+        sections:
+          - section_title: Multi-Step Retrosynthetic Analysis
+            section_type: core_theory
+          - section_title: Integrating Protection and Umpolung Strategies
+            section_type: core_theory
+          - section_title: Optimizing Synthetic Routes
+            section_type: core_theory
+          - section_title: Case Study Analysis of Total Syntheses
+            section_type: core_theory
+          - section_title: Green Chemistry Considerations
+            section_type: related_concepts
+          - section_title: Industrial versus Academic Synthesis Approaches
+            section_type: related_concepts
+          - section_title: Common Pitfalls and Problem-Solving
+            section_type: related_concepts
+    milestone: Design comprehensive synthetic routes integrating all concepts for complex target molecules
+    duration_days: 6
+    tags:
+      - total synthesis
+      - integration
+      - case studies
+      - optimization
+
+  - id: 11
+    title: Functional Group Interconversions and Strategic Redox
+    learning_objectives:
+      - Apply FGI as key retrosynthetic operation
+      - Recognize oxidation level changes in synthesis planning
+      - Use strategic oxidations and reductions
+      - Combine FGI with disconnections for complex targets
+    textbook_style_content:
+      - topic: Functional Group Manipulation
+        sections:
+          - section_title: Functional Group Interconversion Concept
+            section_type: core_theory
+          - section_title: Oxidation Level Analysis
+            section_type: related_concepts
+          - section_title: Strategic Oxidations in Synthesis
+            section_type: core_theory
+          - section_title: Strategic Reductions in Synthesis
+            section_type: core_theory
+          - section_title: FGI Combined with Disconnection
+            section_type: core_theory
+          - section_title: Selectivity in Functional Group Transformations
+            section_type: related_concepts
+    milestone: Incorporate functional group interconversions strategically in retrosynthetic planning
+    duration_days: 4
+    tags:
+      - FGI
+      - oxidation
+      - reduction
+      - functional groups
+
+  - id: 12
+    title: Selectivity in Organic Synthesis
+    learning_objectives:
+      - Distinguish between chemoselectivity, regioselectivity, and stereoselectivity
+      - Design synthetic routes that maximize selectivity
+      - Use protecting groups to achieve chemoselectivity
+      - Apply substrate control and reagent control for selectivity
+    textbook_style_content:
+      - topic: Achieving Selective Transformations
+        sections:
+          - section_title: Types of Selectivity in Synthesis
+            section_type: overview
+          - section_title: Chemoselectivity Strategies
+            section_type: core_theory
+          - section_title: Regioselectivity Control
+            section_type: core_theory
+          - section_title: Stereoselectivity and Stereocontrol
+            section_type: core_theory
+          - section_title: Substrate versus Reagent Control
+            section_type: related_concepts
+          - section_title: Protecting Groups for Selectivity
+            section_type: related_concepts
+          - section_title: Kinetic versus Thermodynamic Control
+            section_type: related_concepts
+    milestone: Design selective synthetic transformations by controlling reaction conditions and protecting groups
+    duration_days: 4
+    tags:
+      - selectivity
+      - chemoselectivity
+      - regioselectivity
+      - stereoselectivity
+
+  - id: 13
+    title: Practice Problems and Exam Strategies
+    learning_objectives:
+      - Apply all synthesis concepts to complex practice problems
+      - Develop systematic approach to retrosynthetic problems
+      - Analyze and critique proposed synthetic routes
+      - Prepare for CSIR Chemical Sciences examination format
+    textbook_style_content:
+      - topic: Application and Problem-Solving
+        sections:
+          - section_title: Systematic Problem-Solving Approach
+            section_type: core_theory
+          - section_title: Worked Examples from Simple to Complex Targets
+            section_type: core_theory
+          - section_title: Common Mistakes and How to Avoid Them
+            section_type: related_concepts
+          - section_title: Previous Year CSIR Questions Analysis
+            section_type: related_concepts
+          - section_title: Time Management in Exam Setting
+            section_type: related_concepts
+          - section_title: Route Evaluation and Critique
+            section_type: core_theory
+    milestone: Confidently solve retrosynthetic problems and design synthetic routes under exam conditions
+    duration_days: 7
+    tags:
+      - practice problems
+      - exam preparation
+      - CSIR
+      - problem-solving

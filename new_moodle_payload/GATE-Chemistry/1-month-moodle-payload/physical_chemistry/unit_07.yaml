@@ -1,0 +1,434 @@
+metadata:
+  subject: Physical Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Phase rule, Clausius-Clapeyron equation, Phase diagram of one component systems (CO2, H2O, S), two component systems (liquid-vapour, liquid-liquid, solid-liquid), Fractional distillation, Azeotropes and eutectics
+
+concepts:
+  core:
+    - name: Phase Rule
+      clarifier: Gibbs phase rule relating degrees of freedom, phases, and components in equilibrium systems
+    - name: Clausius-Clapeyron Equation
+      clarifier: Quantitative relationship between vapor pressure and temperature for phase transitions
+    - name: One-Component Phase Diagrams
+      clarifier: P-T diagrams showing phase boundaries and critical phenomena for pure substances
+    - name: Two-Component Liquid-Vapor Systems
+      clarifier: Phase diagrams depicting vapor-liquid equilibrium and boiling behavior in binary mixtures
+    - name: Two-Component Liquid-Liquid Systems
+      clarifier: Phase diagrams showing immiscibility and consolute points in partially miscible systems
+    - name: Two-Component Solid-Liquid Systems
+      clarifier: Phase diagrams illustrating eutectic points, peritectic reactions, and solid solutions
+    - name: Azeotropes
+      clarifier: Binary compositions where liquid and vapor have identical composition at constant pressure
+    - name: Eutectics
+      clarifier: Invariant solid-liquid equilibrium points in solid-liquid phase diagrams
+
+  related:
+    - name: Triple Point and Critical Point
+      clarifier: Characteristic points on one-component phase diagrams with special thermodynamic significance
+    - name: Fractional Distillation
+      clarifier: Separation technique exploiting differential volatility in multicomponent liquid mixtures
+    - name: Vapor Pressure Curves
+      clarifier: Boundary lines separating liquid and vapor phases on P-T diagrams
+    - name: Congruent and Incongruent Melting
+      clarifier: Types of solid phase behavior during melting in two-component systems
+    - name: Lever Rule
+      clarifier: Graphical method for calculating composition and relative amounts of phases
+    - name: Degrees of Freedom
+      clarifier: Number of intensive variables that can be independently varied without changing phase equilibrium
+
+learning_path:
+  - id: 1
+    topic: Foundations of Phase Equilibria and Phase Rule
+    learning_objectives:
+      - Understand the concept of phases and thermodynamic phases
+      - Apply Gibbs phase rule to systems with varying complexity
+      - Determine degrees of freedom for different systems
+      - Distinguish between intensive and extensive variables
+    textbook_style_content:
+      - lesson: Definition of Phases and Components
+        sections:
+          - section_heading: Thermodynamic Definition of a Phase
+            section_type: overview
+          - section_heading: Pure Substances and Mixtures
+            section_type: overview
+          - section_heading: Components vs. Species
+            section_type: related concepts
+      - lesson: Gibbs Phase Rule
+        sections:
+          - section_heading: Derivation of the Phase Rule
+            section_type: core_theory
+          - section_heading: Variables, Phases, and Components
+            section_type: core_theory
+          - section_heading: Calculation of Degrees of Freedom
+            section_type: core_theory
+      - lesson: Application of Phase Rule to Systems
+        sections:
+          - section_heading: One-Component Systems
+            section_type: core_theory
+          - section_heading: Two-Component Systems
+            section_type: core_theory
+          - section_heading: Multicomponent Systems and Constraints
+            section_type: related concepts
+    milestone: Proficiency in phase rule application and degrees of freedom calculation
+    duration_days: 7
+    tags:
+      - phase_rule
+      - fundamentals
+      - degrees_of_freedom
+
+  - id: 2
+    topic: Clausius-Clapeyron Equation and Phase Transitions
+    learning_objectives:
+      - Derive the Clausius-Clapeyron equation from thermodynamic principles
+      - Relate vapor pressure to temperature quantitatively
+      - Apply the equation to different phase transitions
+      - Understand enthalpy of vaporization and sublimation
+    textbook_style_content:
+      - lesson: Clausius-Clapeyron Equation Derivation
+        sections:
+          - section_heading: Starting from Gibbs-Helmholtz Relation
+            section_type: core_theory
+          - section_heading: Equilibrium Condition at Phase Boundary
+            section_type: core_theory
+          - section_heading: Mathematical Form and Rearrangements
+            section_type: core_theory
+      - lesson: Clausius-Clapeyron Applications
+        sections:
+          - section_heading: Vapor Pressure as Function of Temperature
+            section_type: core_theory
+          - section_heading: Estimating Enthalpy of Phase Transitions
+            section_type: core_theory
+          - section_heading: Vapor-Liquid, Liquid-Solid, and Vapor-Solid Transitions
+            section_type: related concepts
+      - lesson: Limitations and Refinements
+        sections:
+          - section_heading: Assumptions in Derivation
+            section_type: overview
+          - section_heading: Temperature Range Validity
+            section_type: related concepts
+          - section_heading: Adjusted Forms Near Critical Point
+            section_type: related concepts
+    milestone: Mastery of Clausius-Clapeyron equation and vapor pressure calculations
+    duration_days: 8
+    tags:
+      - clausius_clapeyron
+      - vapor_pressure
+      - phase_transitions
+
+  - id: 3
+    topic: One-Component Phase Diagrams
+    learning_objectives:
+      - Interpret P-T phase diagrams for pure substances
+      - Identify triple point, critical point, and phase boundaries
+      - Understand anomalous behavior of water
+      - Analyze CO₂, H₂O, and S phase diagrams
+    textbook_style_content:
+      - lesson: General One-Component Phase Diagram Structure
+        sections:
+          - section_heading: Phase Regions and Boundary Lines
+            section_type: core_theory
+          - section_heading: Triple Point Definition and Significance
+            section_type: core_theory
+          - section_heading: Critical Point and Supercritical Region
+            section_type: core_theory
+      - lesson: Phase Diagram of Water (H₂O)
+        sections:
+          - section_heading: Solid Polymorphism and Ice Structures
+            section_type: core_theory
+          - section_heading: Unusual Negative Slope of Fusion Curve
+            section_type: core_theory
+          - section_heading: Vapor-Liquid Boundary and Critical Point
+            section_type: related concepts
+      - lesson: Phase Diagram of Carbon Dioxide (CO₂)
+        sections:
+          - section_heading: Triple Point at 5.1 atm
+            section_type: core_theory
+          - section_heading: Absence of Stable Liquid at 1 atm
+            section_type: core_theory
+          - section_heading: Sublimation and Reverse Condensation
+            section_type: related concepts
+      - lesson: Phase Diagram of Sulfur (S)
+        sections:
+          - section_heading: Allotropic Forms and Transitions
+            section_type: core_theory
+          - section_heading: Solid-Solid Phase Transitions
+            section_type: core_theory
+          - section_heading: Triple Points and Polymorphism
+            section_type: related concepts
+    milestone: Expertise in reading and interpreting one-component phase diagrams
+    duration_days: 10
+    tags:
+      - one_component
+      - water
+      - co2
+      - sulfur
+      - critical_point
+
+  - id: 4
+    topic: Two-Component Liquid-Vapor Phase Diagrams
+    learning_objectives:
+      - Construct and interpret T-x and P-x phase diagrams
+      - Apply Raoult's Law and Henry's Law to ideal systems
+      - Identify bubble point and dew point lines
+      - Understand partial miscibility in vapor-liquid systems
+    textbook_style_content:
+      - lesson: Ideal Binary Liquid-Vapor Systems
+        sections:
+          - section_heading: Raoult's Law and Ideal Solution Behavior
+            section_type: core_theory
+          - section_heading: Vapor Composition from Liquid Composition
+            section_type: core_theory
+          - section_heading: Construction of T-x and P-x Diagrams
+            section_type: core_theory
+      - lesson: Phase Diagram Features
+        sections:
+          - section_heading: Bubble Point and Dew Point Curves
+            section_type: core_theory
+          - section_heading: Lever Rule for Phase Quantities
+            section_type: core_theory
+          - section_heading: Two-Phase Region Interpretation
+            section_type: related concepts
+      - lesson: Non-ideal Binary Liquid-Vapor Systems
+        sections:
+          - section_heading: Positive and Negative Deviations from Ideality
+            section_type: core_theory
+          - section_heading: Relative Volatility and Separation Efficiency
+            section_type: related concepts
+          - section_heading: Henry's Law in Dilute Solutions
+            section_type: related concepts
+    milestone: Proficiency in constructing and analyzing liquid-vapor phase diagrams
+    duration_days: 10
+    tags:
+      - liquid_vapor
+      - two_component
+      - raoult_law
+      - phase_diagram
+
+  - id: 5
+    topic: Azeotropes in Binary Systems
+    learning_objectives:
+      - Define and identify azeotropic compositions
+      - Distinguish between positive and negative azeotropes
+      - Understand azeotropic behavior thermodynamically
+      - Analyze implications for separation by distillation
+    textbook_style_content:
+      - lesson: Azeotrope Definition and Characteristics
+        sections:
+          - section_heading: Composition where Liquid and Vapor are Identical
+            section_type: core_theory
+          - section_heading: Positive Azeotropes (Maximum or Minimum Boiling)
+            section_type: core_theory
+          - section_heading: Maximum Boiling Azeotropes and Negative Deviations
+            section_type: core_theory
+      - lesson: Thermodynamic Basis of Azeotropes
+        sections:
+          - section_heading: Activity Coefficients at Azeotropic Point
+            section_type: core_theory
+          - section_heading: Non-ideal Solutions and Azeotrope Formation
+            section_type: core_theory
+          - section_heading: Effect of Temperature and Pressure on Azeotropic Point
+            section_type: related concepts
+      - lesson: Azeotropes in Phase Diagrams
+        sections:
+          - section_heading: Appearance as Singular Point in T-x Diagram
+            section_type: core_theory
+          - section_heading: Common Examples (Ethanol-Water, Chloroform-Acetone)
+            section_type: related concepts
+          - section_heading: Separation Limitations and Bypass Techniques
+            section_type: related concepts
+    milestone: Understanding of azeotropic phenomena and distillation limitations
+    duration_days: 8
+    tags:
+      - azeotropes
+      - non_ideal
+      - distillation
+
+  - id: 6
+    topic: Two-Component Liquid-Liquid Phase Diagrams
+    learning_objectives:
+      - Interpret upper and lower critical solution temperature (UCST and LCST)
+      - Analyze partial miscibility regions
+      - Understand consolute points and binodal curves
+      - Apply lever rule to liquid-liquid systems
+    textbook_style_content:
+      - lesson: Partial Miscibility and Immiscibility
+        sections:
+          - section_heading: Complete vs. Partial Miscibility
+            section_type: overview
+          - section_heading: Binodal and Spinodal Curves
+            section_type: core_theory
+          - section_heading: Two-Phase Liquid Coexistence Region
+            section_type: core_theory
+      - lesson: Critical Solution Temperature
+        sections:
+          - section_heading: Upper Critical Solution Temperature (UCST)
+            section_type: core_theory
+          - section_heading: Lower Critical Solution Temperature (LCST)
+            section_type: core_theory
+          - section_heading: Consolute Point Definition and Thermodynamics
+            section_type: related concepts
+      - lesson: Liquid-Liquid Phase Diagrams
+        sections:
+          - section_heading: Temperature-Composition Diagrams
+            section_type: core_theory
+          - section_heading: Lever Rule Application
+            section_type: core_theory
+          - section_heading: Tie Lines and Coexisting Compositions
+            section_type: related concepts
+      - lesson: Common Examples
+        sections:
+          - section_heading: Water-Phenol System
+            section_type: related concepts
+          - section_heading: Water-Nicotine System
+            section_type: related concepts
+          - section_heading: Polymer-Solvent Systems
+            section_type: related concepts
+    milestone: Competency in analyzing partial miscibility and liquid-liquid equilibria
+    duration_days: 9
+    tags:
+      - liquid_liquid
+      - partial_miscibility
+      - consolute_point
+
+  - id: 7
+    topic: Two-Component Solid-Liquid Phase Diagrams and Eutectics
+    learning_objectives:
+      - Construct and interpret solid-liquid phase diagrams
+      - Identify eutectic points and eutectic compositions
+      - Understand congruent and incongruent melting
+      - Analyze peritectic reactions and compound formation
+    textbook_style_content:
+      - lesson: Eutectic Systems
+        sections:
+          - section_heading: Eutectic Point Definition and Characteristics
+            section_type: core_theory
+          - section_heading: Eutectic Composition and Temperature
+            section_type: core_theory
+          - section_heading: Invariant Equilibrium at Eutectic Point
+            section_type: core_theory
+      - lesson: Simple Eutectic Phase Diagrams
+        sections:
+          - section_heading: Complete Immiscibility in Solid State
+            section_type: core_theory
+          - section_heading: Liquidus and Solidus Curves
+            section_type: core_theory
+          - section_heading: Cooling Curves and Phase Identification
+            section_type: related concepts
+      - lesson: Solid Solutions and Extended Solubility
+        sections:
+          - section_heading: Partial Solid Miscibility
+            section_type: core_theory
+          - section_heading: Continuous Solid Solutions
+            section_type: core_theory
+          - section_heading: Limited Solid Solutions and Phase Boundaries
+            section_type: related concepts
+      - lesson: Complex Solid-Liquid Diagrams
+        sections:
+          - section_heading: Congruent and Incongruent Melting
+            section_type: core_theory
+          - section_heading: Peritectic Reactions
+            section_type: core_theory
+          - section_heading: Intermediate Compound Formation
+            section_type: related concepts
+    milestone: Expertise in interpreting solid-liquid phase diagrams and eutectic behavior
+    duration_days: 11
+    tags:
+      - solid_liquid
+      - eutectics
+      - solid_solutions
+      - peritectic
+
+  - id: 8
+    topic: Fractional Distillation and Separation Techniques
+    learning_objectives:
+      - Understand principles of fractional distillation
+      - Apply relative volatility and separation factor concepts
+      - Analyze distillation efficiency and stage calculations
+      - Distinguish between simple, fractional, and vacuum distillation
+    textbook_style_content:
+      - lesson: Fundamentals of Distillation
+        sections:
+          - section_heading: Simple Distillation Principles
+            section_type: overview
+          - section_heading: Fractional Distillation Concept
+            section_type: core_theory
+          - section_heading: Equilibrium Stages and Theoretical Plates
+            section_type: core_theory
+      - lesson: Relative Volatility
+        sections:
+          - section_heading: Definition and Calculation
+            section_type: core_theory
+          - section_heading: Effect on Separation Efficiency
+            section_type: core_theory
+          - section_heading: Relationship to Phase Diagram Characteristics
+            section_type: related concepts
+      - lesson: Vapor-Liquid Equilibrium in Distillation
+        sections:
+          - section_heading: McCabe-Thiele Diagram Method
+            section_type: core_theory
+          - section_heading: Operating Line and Stage Calculations
+            section_type: core_theory
+          - section_heading: Effect of Reflux Ratio
+            section_type: related concepts
+      - lesson: Special Distillation Techniques
+        sections:
+          - section_heading: Vacuum Distillation
+            section_type: related concepts
+          - section_heading: Azeotropic and Extractive Distillation
+            section_type: related concepts
+          - section_heading: Pressure Swing Distillation
+            section_type: related concepts
+    milestone: Understanding of fractional distillation principles and practical applications
+    duration_days: 10
+    tags:
+      - distillation
+      - separation
+      - relative_volatility
+
+  - id: 9
+    topic: Integration and Advanced Phase Diagram Analysis
+    learning_objectives:
+      - Synthesize one- and two-component phase diagram concepts
+      - Apply phase rule to predict phase behavior
+      - Use lever rule quantitatively in multicomponent contexts
+      - Solve comprehensive phase equilibrium problems
+    textbook_style_content:
+      - lesson: Multi-system Analysis
+        sections:
+          - section_heading: Connecting One-Component to Binary Systems
+            section_type: core_theory
+          - section_heading: Predicting Phase Behavior from Phase Rule
+            section_type: core_theory
+          - section_heading: Composition and Temperature Effects
+            section_type: related concepts
+      - lesson: Quantitative Phase Calculations
+        sections:
+          - section_heading: Lever Rule in Different Diagram Types
+            section_type: core_theory
+          - section_heading: Mass Balance and Composition Calculations
+            section_type: core_theory
+          - section_heading: Multiple Phase Regions and Complex Trajectories
+            section_type: related concepts
+      - lesson: Practical Problem-Solving
+        sections:
+          - section_heading: Identifying Diagram Type from Description
+            section_type: core_theory
+          - section_heading: Reading Compositions and Temperatures from Diagrams
+            section_type: core_theory
+          - section_heading: Predicting Phase Separation and Equilibrium States
+            section_type: related concepts
+      - lesson: GATE Examination Strategy
+        sections:
+          - section_heading: Common Question Patterns
+            section_type: overview
+          - section_heading: Time-Efficient Diagram Interpretation
+            section_type: overview
+          - section_heading: Calculation Shortcuts and Verification Methods
+            section_type: overview
+    milestone: Expert-level proficiency in phase equilibria analysis for examinations
+    duration_days: 9
+    tags:
+      - synthesis
+      - lever_rule
+      - problem_solving
+      - examination

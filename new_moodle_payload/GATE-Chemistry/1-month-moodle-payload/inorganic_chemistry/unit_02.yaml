@@ -1,0 +1,669 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Structure and bonding of boranes, carboranes, silicones, silicates, boron nitride, borazines and phosphazenes. Allotropes of carbon, phosphorous and sulphur. Industrial synthesis of compounds of main group elements.
+
+concepts:
+  core:
+    - name: Boranes
+      clarifier: Electron-deficient boron hydrides; three-center two-electron bonding; structural types and Wade's rules
+    - name: Carboranes
+      clarifier: Boron-carbon cluster compounds; icosahedral and nido/arachno structures; isomerism and reactivity
+    - name: Silicones
+      clarifier: Organosilicon polymers; Si-O backbone with organic substituents; synthesis and applications
+    - name: Silicates
+      clarifier: Silicon-oxygen frameworks; classification by polymerization degree; structural diversity and mineral chemistry
+    - name: Boron Nitride
+      clarifier: BN compounds; polymorphic forms (h-BN, c-BN); isoelectronic analogs of carbon allotropes
+    - name: Borazines
+      clarifier: B-N heterocyclic compounds; aromatic character; synthesis from boranes and ammonia
+    - name: Phosphazenes
+      clarifier: P-N ring and cage compounds; inorganic polymers; structural types and bonding modes
+    - name: Carbon Allotropes
+      clarifier: Diamond, graphite, fullerenes, graphene; structural features and property relationships
+    - name: Phosphorus Allotropes
+      clarifier: White, red, black, and polymeric forms; structural transformations and reactivity differences
+    - name: Sulfur Allotropes
+      clarifier: S₈ and polymeric forms; ring systems and chain structures; thermal transformations
+    - name: Industrial Synthesis of Main Group Compounds
+      clarifier: Large-scale production methods; economic viability; environmental considerations; reaction conditions
+
+  related:
+    - name: Electron-Deficient Bonding
+      clarifier: Multi-center bonding; hypervalency; molecular orbital treatment of unusual bonding
+    - name: Cluster Chemistry
+      clarifier: Wade's rules and skeletal electron counting; polyhedral structures; cluster bonding
+    - name: Cage Compounds
+      clarifier: Three-dimensional closed structures; polyhedral geometry; entrapped atoms and guest-host chemistry
+    - name: Polymeric Structures
+      clarifier: Cross-linking and chain formation; network solids; degree of polymerization
+    - name: Mineral Chemistry
+      clarifier: Rock-forming silicates; crystal structures; geochemical significance
+    - name: Structure-Property Relationships
+      clarifier: How structure determines hardness, conductivity, thermal stability, and reactivity
+    - name: Spectroscopic Characterization
+      clarifier: NMR, IR, Raman spectroscopy for structural determination of complex compounds
+    - name: Phase Diagrams and Polymorphism
+      clarifier: Conditions for allotrope formation; thermodynamic stability; kinetic factors
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Electron-Deficient Bonding and Cluster Chemistry
+    learning_objectives:
+      - Understand three-center two-electron bonding in electron-deficient compounds
+      - Apply Wade's rules to predict borane and carborane structures
+      - Classify skeletal types (closo, nido, arachno)
+      - Explain hypervalency and multi-center bonding concepts
+    textbook_style_content:
+      - lesson: Electron-Deficient Bonding Overview
+        sections:
+          - section_heading: Conventional vs. Electron-Deficient Bonding
+            section_type: overview
+          - section_heading: Three-Center Two-Electron (3c-2e) Bonding
+            section_type: core_theory
+          - section_heading: Molecular Orbital Treatment of Bridge Bonding
+            section_type: core_theory
+      - lesson: Wade's Rules and Cluster Classification
+        sections:
+          - section_heading: Skeletal Electron Counting Method
+            section_type: core_theory
+          - section_heading: Closo, Nido, and Arachno Structures
+            section_type: core_theory
+          - section_heading: Hypercloso and Hypernido Variations
+            section_type: related_concepts
+      - lesson: Structural Principles
+        sections:
+          - section_heading: Polyhedral Geometry in Clusters
+            section_type: core_theory
+          - section_heading: Vertex, Edge, and Face Bonding
+            section_type: core_theory
+          - section_heading: Relationship Between Electron Count and Structure
+            section_type: core_theory
+    milestone: Master electron-deficient bonding concepts and Wade's rules application
+    duration_days: 10
+    tags:
+      - cluster_chemistry
+      - Wade's_rules
+      - 3c2e_bonding
+
+  - id: 2
+    topic: Boranes - Structure, Bonding, and Reactivity
+    learning_objectives:
+      - Classify boranes by size and structural type
+      - Predict borane structures using Wade's rules
+      - Explain thermal stability and fragmentation patterns
+      - Analyze reactivity toward nucleophiles and oxidation agents
+    textbook_style_content:
+      - lesson: Borane Structures and Classification
+        sections:
+          - section_heading: Simple Boranes (B₂H₆, B₅H₉, B₁₀H₁₄)
+            section_type: core_theory
+          - section_heading: The Pentaborane Family (B₅H₉, B₆H₁₀, B₁₀H₁₄)
+            section_type: core_theory
+          - section_heading: Large Polyhedral Boranes (B₁₀H₁₄, B₁₂H₁₂²⁻)
+            section_type: core_theory
+      - lesson: Bonding in Boranes
+        sections:
+          - section_heading: Bridge vs. Terminal Hydrogen
+            section_type: core_theory
+          - section_heading: Localization and Delocalization of 3c-2e Bonds
+            section_type: core_theory
+          - section_heading: NMR Spectroscopy of Boranes
+            section_type: related_concepts
+      - lesson: Borane Reactivity and Chemistry
+        sections:
+          - section_heading: Nucleophilic Attack and Lewis Acidity
+            section_type: core_theory
+          - section_heading: Thermal Decomposition and Fragmentation
+            section_type: core_theory
+          - section_heading: Oxidation and Reduction Reactions
+            section_type: core_theory
+          - section_heading: Synthetic Utility in Organic Chemistry
+            section_type: related_concepts
+    milestone: Understand borane structural types and predict reactivity patterns
+    duration_days: 11
+    tags:
+      - boranes
+      - 3c2e_bonding
+      - polyhedral_structures
+
+  - id: 3
+    topic: Carboranes - Boron-Carbon Cluster Compounds
+    learning_objectives:
+      - Distinguish carborane structural types (ortho, meta, para)
+      - Predict carborane structures using Wade's rules
+      - Explain isomerism and rearrangement mechanisms
+      - Analyze reactivity and synthetic applications
+    textbook_style_content:
+      - lesson: Carborane Structure and Classification
+        sections:
+          - section_heading: General Structural Features of Carboranes
+            section_type: core_theory
+          - section_heading: Icosahedral Carboranes (C₂B₁₀H₁₂)
+            section_type: core_theory
+          - section_heading: Ortho, Meta, and Para Isomers
+            section_type: core_theory
+          - section_heading: Nido and Arachno Carboranes
+            section_type: related_concepts
+      - lesson: Bonding and Electron Distribution
+        sections:
+          - section_heading: B-C and B-H Bonding in Carboranes
+            section_type: core_theory
+          - section_heading: Aromaticity Considerations
+            section_type: core_theory
+          - section_heading: Polyhedral Skeletal Electron Pairs (PSEP)
+            section_type: core_theory
+      - lesson: Carborane Reactivity and Chemistry
+        sections:
+          - section_heading: Electrophilic and Nucleophilic Substitution
+            section_type: core_theory
+          - section_heading: Isomerization and Rearrangement
+            section_type: core_theory
+          - section_heading: Metallacarboranes and Transition Metal Complexes
+            section_type: related_concepts
+          - section_heading: Applications in Drug Design and Material Science
+            section_type: related_concepts
+    milestone: Master carborane structures, isomerism, and synthetic applications
+    duration_days: 11
+    tags:
+      - carboranes
+      - icosahedral_structures
+      - cluster_isomerism
+
+  - id: 4
+    topic: Silicones - Organosilicon Polymers and Chemistry
+    learning_objectives:
+      - Understand silicone backbone structure (Si-O chains)
+      - Explain synthesis routes for silicone production
+      - Predict silicone properties from structure
+      - Analyze thermal and chemical stability
+    textbook_style_content:
+      - lesson: Silicone Structure and Composition
+        sections:
+          - section_heading: Si-O Backbone and Organic Substituents
+            section_type: core_theory
+          - section_heading: Linear, Cyclic, and Cross-Linked Silicones
+            section_type: core_theory
+          - section_heading: Degree of Polymerization and Molecular Weight
+            section_type: core_theory
+      - lesson: Synthesis of Silicones
+        sections:
+          - section_heading: Hydrolysis and Condensation of Chlorosilanes
+            section_type: core_theory
+          - section_heading: Equilibration Reactions and Ring Opening
+            section_type: core_theory
+          - section_heading: Cross-Linking Mechanisms
+            section_type: core_theory
+      - lesson: Silicone Properties and Applications
+        sections:
+          - section_heading: Thermal Stability and Heat Resistance
+            section_type: core_theory
+          - section_heading: Chemical Resistance and Inertness
+            section_type: core_theory
+          - section_heading: Water Repellency and Surface Properties
+            section_type: core_theory
+          - section_heading: Industrial Applications (Lubricants, Sealants, Coatings)
+            section_type: related_concepts
+    milestone: Understand silicone synthesis, structure, and industrial applications
+    duration_days: 10
+    tags:
+      - silicones
+      - organosilicon
+      - polymers
+
+  - id: 5
+    topic: Silicates - Silicon-Oxygen Frameworks and Mineral Chemistry
+    learning_objectives:
+      - Classify silicates by SiO₄ polymerization degree
+      - Predict silicate structures and stoichiometry
+      - Explain isomorphism and solid solution formation
+      - Analyze weathering and geological significance
+    textbook_style_content:
+      - lesson: Silicate Classification and Structure
+        sections:
+          - section_heading: Neso-, Soro-, Cyclo-, Ino-, Phyllo-, and Tecto-Silicates
+            section_type: core_theory
+          - section_heading: SiO₄ Tetrahedra Polymerization Patterns
+            section_type: core_theory
+          - section_heading: Charge Balance and Cation Substitution
+            section_type: core_theory
+      - lesson: Important Silicate Types
+        sections:
+          - section_heading: Orthosilicates (Olivine, Garnet)
+            section_type: core_theory
+          - section_heading: Pyroxenes and Amphiboles (Chain Silicates)
+            section_type: core_theory
+          - section_heading: Sheet Silicates (Micas, Clay Minerals)
+            section_type: core_theory
+          - section_heading: Framework Silicates (Feldspars, Quartz, Zeolites)
+            section_type: core_theory
+      - lesson: Silicate Chemistry and Properties
+        sections:
+          - section_heading: Thermal Stability and Phase Diagrams
+            section_type: core_theory
+          - section_heading: Isomorphism and Solid Solutions
+            section_type: core_theory
+          - section_heading: Chemical Weathering and Hydrolysis
+            section_type: core_theory
+          - section_heading: Geochemical Cycles and Mineral Genesis
+            section_type: related_concepts
+    milestone: Master silicate classification and understand mineral chemistry fundamentals
+    duration_days: 12
+    tags:
+      - silicates
+      - mineral_chemistry
+      - framework_structures
+
+  - id: 6
+    topic: Boron Nitride and Related Compounds
+    learning_objectives:
+      - Compare structural forms of boron nitride (h-BN, c-BN)
+      - Analyze isoelectronic relationships with carbon allotropes
+      - Explain synthesis methods for BN polymorphs
+      - Predict properties and applications
+    textbook_style_content:
+      - lesson: Boron Nitride Structure and Polymorphs
+        sections:
+          - section_heading: Hexagonal Boron Nitride (h-BN)
+            section_type: core_theory
+          - section_heading: Cubic Boron Nitride (c-BN)
+            section_type: core_theory
+          - section_heading: Wurtzite and Other BN Forms
+            section_type: related_concepts
+      - lesson: B-N Bonding and Aromaticity
+        sections:
+          - section_heading: Isoelectronic Nature with Carbon
+            section_type: core_theory
+          - section_heading: Aromaticity in h-BN Layers
+            section_type: core_theory
+          - section_heading: Polarity Effects on Structure and Properties
+            section_type: core_theory
+      - lesson: Synthesis and Characterization
+        sections:
+          - section_heading: High-Pressure Synthesis of c-BN
+            section_type: core_theory
+          - section_heading: Chemical Vapor Deposition (CVD) Methods
+            section_type: core_theory
+          - section_heading: Spectroscopic Identification
+            section_type: related_concepts
+      - lesson: Properties and Applications
+        sections:
+          - section_heading: Thermal Conductivity and Hardness
+            section_type: core_theory
+          - section_heading: Electrical and Optical Properties
+            section_type: core_theory
+          - section_heading: Industrial Applications (Lubricants, Abrasives, Electronics)
+            section_type: related_concepts
+    milestone: Understand BN polymorphs and their relationship to carbon allotropes
+    duration_days: 9
+    tags:
+      - boron_nitride
+      - polymorphs
+      - isoelectronic_analogs
+
+  - id: 7
+    topic: Borazines and Inorganic Ring Compounds
+    learning_objectives:
+      - Understand borazine structure and aromaticity
+      - Predict borazine derivatives and substitution products
+      - Explain synthesis from boranes and ammonia
+      - Analyze reactivity and polymerization
+    textbook_style_content:
+      - lesson: Borazine Structure and Bonding
+        sections:
+          - section_heading: Borazine (B₃N₃H₆) Core Structure
+            section_type: core_theory
+          - section_heading: Aromaticity and π-Electron Distribution
+            section_type: core_theory
+          - section_heading: Isoelectronic Relationship with Benzene
+            section_type: core_theory
+      - lesson: Borazine Synthesis and Derivatives
+        sections:
+          - section_heading: Synthesis from Boranes and Ammonia
+            section_type: core_theory
+          - section_heading: N-Substituted and B-Substituted Borazines
+            section_type: core_theory
+          - section_heading: Higher Analogues and Fused Rings
+            section_type: related_concepts
+      - lesson: Borazine Reactivity and Chemistry
+        sections:
+          - section_heading: Electrophilic and Nucleophilic Substitution
+            section_type: core_theory
+          - section_heading: Addition Reactions and Opening of B-N Ring
+            section_type: core_theory
+          - section_heading: Polymerization and Boron Nitride Formation
+            section_type: core_theory
+          - section_heading: Catalytic Applications
+            section_type: related_concepts
+    milestone: Master borazine chemistry and its applications
+    duration_days: 8
+    tags:
+      - borazines
+      - inorganic_aromatics
+      - ring_compounds
+
+  - id: 8
+    topic: Phosphazenes - Inorganic Polymers and Cage Compounds
+    learning_objectives:
+      - Understand phosphazene ring and cage structures
+      - Classify phosphazenes by P-N bonding types
+      - Explain phosphazene synthesis and polymerization
+      - Analyze reactivity and polymer properties
+    textbook_style_content:
+      - lesson: Phosphazene Structure and Classification
+        sections:
+          - section_heading: Phosphazene Ring Systems (P=N Bonds)
+            section_type: core_theory
+          - section_heading: Linear and Cyclic Phosphazenes
+            section_type: core_theory
+          - section_heading: Cage Phosphazenes and 3D Structures
+            section_type: core_theory
+      - lesson: Bonding in Phosphazenes
+        sections:
+          - section_heading: P-N σ and π Bonding
+            section_type: core_theory
+          - section_heading: Resonance and Delocalization
+            section_type: core_theory
+          - section_heading: Role of d-Orbitals in Bonding
+            section_type: core_theory
+      - lesson: Phosphazene Synthesis and Polymerization
+        sections:
+          - section_heading: Ring-Opening Polymerization
+            section_type: core_theory
+          - section_heading: Substitution Reactions with Nucleophiles
+            section_type: core_theory
+          - section_heading: Cross-Linking and Network Formation
+            section_type: core_theory
+      - lesson: Properties and Applications
+        sections:
+          - section_heading: Thermal Stability and Fire Resistance
+            section_type: core_theory
+          - section_heading: Elastomeric and Polymeric Forms
+            section_type: core_theory
+          - section_heading: Biomedical and Industrial Applications
+            section_type: related_concepts
+    milestone: Understand phosphazene structures and polymer chemistry
+    duration_days: 10
+    tags:
+      - phosphazenes
+      - inorganic_polymers
+      - cage_compounds
+
+  - id: 9
+    topic: Carbon Allotropes - Structure, Properties, and Synthesis
+    learning_objectives:
+      - Describe structural forms of carbon (diamond, graphite, fullerenes, graphene)
+      - Explain structure-property relationships in carbon allotropes
+      - Predict reactivity based on bonding and structure
+      - Analyze synthetic routes and characterization methods
+    textbook_style_content:
+      - lesson: Carbon Allotropes Overview
+        sections:
+          - section_heading: Diamond - Tetrahedral Sp³ Network
+            section_type: core_theory
+          - section_heading: Graphite - Layered Sp² Structure
+            section_type: core_theory
+          - section_heading: Fullerenes - Closed Polyhedral Cages (C₆₀, C₇₀)
+            section_type: core_theory
+          - section_heading: Graphene - Two-Dimensional Sp² Sheet
+            section_type: core_theory
+      - lesson: Structure and Bonding Details
+        sections:
+          - section_heading: Sp³ Hybridization in Diamond
+            section_type: core_theory
+          - section_heading: Sp² Hybridization and π-Systems in Graphite
+            section_type: core_theory
+          - section_heading: Pentagon-Heptagon Defects in Fullerenes
+            section_type: core_theory
+          - section_heading: Van der Waals Interactions in Graphite Layers
+            section_type: core_theory
+      - lesson: Properties of Carbon Allotropes
+        sections:
+          - section_heading: Hardness, Density, and Mechanical Properties
+            section_type: core_theory
+          - section_heading: Electrical Conductivity and Band Structure
+            section_type: core_theory
+          - section_heading: Thermal Properties and Stability
+            section_type: core_theory
+          - section_heading: Chemical Reactivity and Oxidation
+            section_type: core_theory
+      - lesson: Synthesis and Characterization
+        sections:
+          - section_heading: Natural Formation and High-Pressure Synthesis
+            section_type: core_theory
+          - section_heading: Fullerene Production (Arc, Combustion, CVD)
+            section_type: core_theory
+          - section_heading: Graphene Preparation (Mechanical Exfoliation, CVD, Chemical Reduction)
+            section_type: core_theory
+          - section_heading: Spectroscopic Methods (Raman, X-ray, Electron Microscopy)
+            section_type: related_concepts
+    milestone: Comprehensively understand carbon allotropes and their relationships
+    duration_days: 12
+    tags:
+      - carbon_allotropes
+      - graphene
+      - fullerenes
+      - nanostructures
+
+  - id: 10
+    topic: Phosphorus Allotropes - Structure and Reactivity
+    learning_objectives:
+      - Describe structural forms of phosphorus (white, red, black, polymeric)
+      - Explain thermal and kinetic factors in allotrope stability
+      - Predict reactivity differences among allotropes
+      - Analyze transformations and industrial significance
+    textbook_style_content:
+      - lesson: Phosphorus Allotropes Classification
+        sections:
+          - section_heading: White Phosphorus (P₄ Tetrahedral Molecules)
+            section_type: core_theory
+          - section_heading: Red Phosphorus (Polymeric Network Structure)
+            section_type: core_theory
+          - section_heading: Black Phosphorus (Layered Structure)
+            section_type: core_theory
+          - section_heading: Violet and Other Polymeric Forms
+            section_type: related_concepts
+      - lesson: Structure and Bonding in Phosphorus Allotropes
+        sections:
+          - section_heading: P₄ Molecule - Tetrahedral Geometry and Bonding
+            section_type: core_theory
+          - section_heading: Polymeric Network in Red Phosphorus
+            section_type: core_theory
+          - section_heading: Layered Structure in Black Phosphorus
+            section_type: core_theory
+          - section_heading: Ring Systems in Polymeric Forms
+            section_type: related_concepts
+      - lesson: Reactivity and Transformations
+        sections:
+          - section_heading: Thermal Transformation of White to Red Phosphorus
+            section_type: core_theory
+          - section_heading: Oxidation Reactivity (White > Red > Black)
+            section_type: core_theory
+          - section_heading: Chemical Reactivity with Halogens and Oxygen
+            section_type: core_theory
+          - section_heading: Self-Combustion and Safety Considerations
+            section_type: related_concepts
+      - lesson: Industrial and Analytical Significance
+        sections:
+          - section_heading: Production and Commercial Use of White and Red Phosphorus
+            section_type: core_theory
+          - section_heading: Spectroscopic Identification Methods
+            section_type: core_theory
+          - section_heading: Role in Semiconductors and Electronics
+            section_type: related_concepts
+    milestone: Understand phosphorus allotropes and their structure-reactivity relationships
+    duration_days: 10
+    tags:
+      - phosphorus_allotropes
+      - polymeric_structures
+      - thermal_transformations
+
+  - id: 11
+    topic: Sulfur Allotropes - Structures and Chemistry
+    learning_objectives:
+      - Describe structural forms of sulfur (cyclooctasulfur, polymeric chains)
+      - Explain thermodynamic and kinetic stability factors
+      - Predict reactivity patterns in different allotropes
+      - Analyze thermal transitions and industrial relevance
+    textbook_style_content:
+      - lesson: Sulfur Allotropes Overview
+        sections:
+          - section_heading: Cyclooctasulfur (S₈) - Stable Room Temperature Form
+            section_type: core_theory
+          - section_heading: Polymeric Sulfur (S_n) - High-Temperature Form
+            section_type: core_theory
+          - section_heading: Monoclinic Sulfur (S₈ Polymorph)
+            section_type: core_theory
+          - section_heading: Rhombic and Other Minor Forms
+            section_type: related_concepts
+      - lesson: Structure and Bonding in Sulfur Allotropes
+        sections:
+          - section_heading: S₈ Ring - Puckered Crown Conformation
+            section_type: core_theory
+          - section_heading: Sulfur-Sulfur Bond Characteristics
+            section_type: core_theory
+          - section_heading: Polymeric Chain Structure
+            section_type: core_theory
+          - section_heading: Hydrogen Bonding in Polymeric Forms
+            section_type: related_concepts
+      - lesson: Thermal Transitions and Reactivity
+        sections:
+          - section_heading: Crystalline to Liquid Transition (λ-Point)
+            section_type: core_theory
+          - section_heading: Viscosity Changes and Polymerization
+            section_type: core_theory
+          - section_heading: Chemical Reactivity of S₈ vs. Polymeric Sulfur
+            section_type: core_theory
+          - section_heading: Oxidation and Reduction Reactions
+            section_type: core_theory
+      - lesson: Industrial and Analytical Aspects
+        sections:
+          - section_heading: Vulcanization and Polymeric Applications
+            section_type: core_theory
+          - section_heading: Spectroscopic Characterization (Raman, UV-Vis)
+            section_type: core_theory
+          - section_heading: Extraction and Purification Methods
+            section_type: related_concepts
+    milestone: Master sulfur allotrope chemistry and structure-property relationships
+    duration_days: 9
+    tags:
+      - sulfur_allotropes
+      - cyclooctasulfur
+      - polymeric_sulfur
+
+  - id: 12
+    topic: Industrial Synthesis of Main Group Compounds - Processes and Scale-Up
+    learning_objectives:
+      - Understand large-scale production methods for industrially important compounds
+      - Analyze economic viability and cost-benefit factors
+      - Explain optimization strategies for yield and purity
+      - Evaluate environmental and safety considerations
+    textbook_style_content:
+      - lesson: Industrial Production Fundamentals
+        sections:
+          - section_heading: Raw Materials and Feedstocks
+            section_type: overview
+          - section_heading: Reaction Conditions (Temperature, Pressure, Catalysts)
+            section_type: core_theory
+          - section_heading: Reactor Types and Design Considerations
+            section_type: core_theory
+          - section_heading: Separation and Purification Technologies
+            section_type: core_theory
+      - lesson: Industrial Synthesis of Key Main Group Compounds
+        sections:
+          - section_heading: Ammonia Synthesis (Haber-Bosch Process)
+            section_type: core_theory
+          - section_heading: Sulfuric Acid Production (Contact Process)
+            section_type: core_theory
+          - section_heading: Phosphoric Acid Manufacture (Wet vs. Thermal)
+            section_type: core_theory
+          - section_heading: Chlor-Alkali Process for NaOH and Cl₂
+            section_type: core_theory
+          - section_heading: Production of Silicones and Boron Compounds
+            section_type: core_theory
+      - lesson: Process Optimization and Economics
+        sections:
+          - section_heading: Yield Optimization and Thermodynamic Equilibrium
+            section_type: core_theory
+          - section_heading: Energy Efficiency and Cost Reduction
+            section_type: core_theory
+          - section_heading: Catalyst Development and Selection
+            section_type: core_theory
+          - section_heading: Product Quality Control and Specifications
+            section_type: core_theory
+      - lesson: Environmental and Safety Aspects
+        sections:
+          - section_heading: Waste Management and By-Product Utilization
+            section_type: core_theory
+          - section_heading: Emission Control and Air Quality
+            section_type: core_theory
+          - section_heading: Process Safety and Hazard Analysis
+            section_type: core_theory
+          - section_heading: Sustainability and Green Chemistry Principles
+            section_type: related_concepts
+      - lesson: Case Studies and Recent Developments
+        sections:
+          - section_heading: Modern Variations of Classic Processes
+            section_type: related_concepts
+          - section_heading: Emerging Alternative Routes
+            section_type: related_concepts
+          - section_heading: Integration of Advanced Technologies (Membrane, Microreactors)
+            section_type: related_concepts
+    milestone: Understand industrial-scale compound synthesis and process optimization
+    duration_days: 12
+    tags:
+      - industrial_synthesis
+      - process_engineering
+      - scale_up
+      - catalysis
+
+  - id: 13
+    topic: Comprehensive Integration - Structure, Bonding, and Properties
+    learning_objectives:
+      - Integrate knowledge across all compound classes
+      - Predict properties from structural information
+      - Compare and contrast different structural motifs
+      - Solve complex multi-concept problems
+      - Apply integrated knowledge to GATE examination scenarios
+    textbook_style_content:
+      - lesson: Structural Principles Across Compound Classes
+        sections:
+          - section_heading: Electron-Deficient Bonding vs. Normal Bonding
+            section_type: core_theory
+          - section_heading: Polymerization and Network Formation Strategies
+            section_type: core_theory
+          - section_heading: Role of Lone Pairs and Polarity
+            section_type: core_theory
+      - lesson: Property-Structure Relationships
+        sections:
+          - section_heading: Thermal Stability Prediction from Bonding
+            section_type: core_theory
+          - section_heading: Reactivity Trends Across Isomorphous Series
+            section_type: core_theory
+          - section_heading: Predicting Electrical, Thermal, and Mechanical Properties
+            section_type: core_theory
+      - lesson: Analytical and Synthetic Strategies
+        sections:
+          - section_heading: Identifying Unknown Compounds from Spectroscopy
+            section_type: core_theory
+          - section_heading: Retrosynthetic Analysis for Complex Molecules
+            section_type: core_theory
+          - section_heading: Structure Determination via Multiple Techniques
+            section_type: related_concepts
+      - lesson: GATE Problem-Solving Workshop
+        sections:
+          - section_heading: Multi-Concept Numerical Problems
+            section_type: core_theory
+          - section_heading: Comparative Structure and Property Questions
+            section_type: core_theory
+          - section_heading: Industrial Chemistry and Scale-Up Scenarios
+            section_type: core_theory
+          - section_heading: Mixed Conceptual and Numerical Question Types
+            section_type: core_theory
+    milestone: Demonstrate comprehensive mastery across all learning modules and exam readiness
+    duration_days: 13
+    tags:
+      - integration
+      - GATE_preparation
+      - problem_solving
+      - comprehensive_review

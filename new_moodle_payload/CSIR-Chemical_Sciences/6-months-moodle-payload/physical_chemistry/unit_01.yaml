@@ -1,0 +1,492 @@
+metadata:
+  subject: Physical Chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Basic principles of quantum mechanics: Postulates; operator algebra; exactly-solvable systems: particle-in-a-box, harmonic oscillator and the hydrogen atom, including shapes of atomic orbitals; orbital and spin angular momenta; tunneling."
+
+concepts:
+  core:
+    - name: Postulates of quantum mechanics
+      clarifier: Fundamental axioms governing quantum mechanical description of physical systems including wavefunction interpretation and measurement
+    - name: Operator algebra
+      clarifier: Mathematical framework of linear operators, commutators, eigenvalues, and expectation values
+    - name: Particle-in-a-box
+      clarifier: One-dimensional and three-dimensional confined systems with infinite potential walls
+    - name: Quantum harmonic oscillator
+      clarifier: Treatment of vibrational motion using ladder operators and energy quantization
+    - name: Hydrogen atom
+      clarifier: Exact solution of Schrödinger equation for one-electron system yielding quantum numbers and orbital energies
+    - name: Atomic orbitals
+      clarifier: Spatial distribution functions and nodal patterns of s, p, d, and f orbitals
+    - name: Orbital angular momentum
+      clarifier: Quantization of angular momentum operators and their eigenvalue spectra
+    - name: Spin angular momentum
+      clarifier: Intrinsic angular momentum of particles and spin quantum numbers
+    - name: Quantum tunneling
+      clarifier: Barrier penetration phenomenon absent in classical mechanics
+  related:
+    - name: Wave-particle duality
+      clarifier: Complementary nature of matter exhibiting both wave and particle characteristics
+    - name: Eigenvalue problems
+      clarifier: Mathematical solutions to operator equations yielding observable quantities
+    - name: Hermitian operators
+      clarifier: Operators with real eigenvalues representing physical observables
+    - name: Commutation relations
+      clarifier: Algebraic relationships determining simultaneous measurability of observables
+    - name: Uncertainty principle
+      clarifier: Fundamental limit on precision of complementary measurements
+    - name: Degeneracy
+      clarifier: Multiple quantum states sharing identical energy eigenvalues
+    - name: Quantum numbers
+      clarifier: Discrete indices specifying quantum states (n, l, m, s)
+    - name: Radial and angular wavefunctions
+      clarifier: Separable components of three-dimensional quantum systems
+    - name: Normalization and orthogonality
+      clarifier: Mathematical conditions ensuring physical validity and independence of wavefunctions
+    - name: Probability density
+      clarifier: Spatial distribution of finding a particle from wavefunction squared
+    - name: Zero-point energy
+      clarifier: Minimum energy of quantum system precluding classical rest state
+    - name: Transmission and reflection coefficients
+      clarifier: Probabilities of barrier penetration and rebound in tunneling
+
+learning_path:
+  - id: 1
+    title: Foundations of Quantum Mechanics
+    learning_objectives:
+      - Articulate and apply the five fundamental postulates of quantum mechanics
+      - Distinguish between classical and quantum mechanical descriptions of physical systems
+      - Interpret the wavefunction as a probability amplitude
+      - Apply normalization conditions to wavefunctions
+      - Understand the measurement process and wavefunction collapse
+    textbook_style_content:
+      - topic: Postulates of Quantum Mechanics
+        sections:
+          - section_title: Historical Context and Need for Quantum Theory
+            section_type: overview
+          - section_title: Postulate 1 - Wavefunction and State Description
+            section_type: core_theory
+          - section_title: Postulate 2 - Observable Operators
+            section_type: core_theory
+          - section_title: Postulate 3 - Measurement and Eigenvalues
+            section_type: core_theory
+          - section_title: Postulate 4 - Expectation Values
+            section_type: core_theory
+          - section_title: Postulate 5 - Time Evolution and Schrödinger Equation
+            section_type: core_theory
+          - section_title: Wave-Particle Duality and de Broglie Hypothesis
+            section_type: related_concepts
+          - section_title: Probability Interpretation and Born Rule
+            section_type: related_concepts
+          - section_title: Normalization and Physical Constraints
+            section_type: related_concepts
+    milestone: Master fundamental axioms and probabilistic interpretation of quantum mechanics
+    duration_days: 7
+    tags:
+      - postulates
+      - wavefunction
+      - measurement
+      - foundations
+
+  - id: 2
+    title: Operator Algebra and Mathematical Framework
+    learning_objectives:
+      - Construct and manipulate quantum mechanical operators
+      - Solve eigenvalue equations for observables
+      - Apply commutator algebra to determine compatible observables
+      - Distinguish Hermitian from non-Hermitian operators
+      - Calculate expectation values and uncertainties
+      - Derive and apply the uncertainty principle
+    textbook_style_content:
+      - topic: Linear Operators in Quantum Mechanics
+        sections:
+          - section_title: Definition and Properties of Quantum Operators
+            section_type: overview
+          - section_title: Position and Momentum Operators
+            section_type: core_theory
+          - section_title: Hermitian Operators and Observable Properties
+            section_type: core_theory
+          - section_title: Eigenvalue Problems and Physical Measurement
+            section_type: core_theory
+          - section_title: Commutators and Simultaneous Observables
+            section_type: core_theory
+          - section_title: Heisenberg Uncertainty Principle Derivation
+            section_type: core_theory
+          - section_title: Orthogonality and Completeness of Eigenfunctions
+            section_type: related_concepts
+          - section_title: Operator Algebra Rules and Properties
+            section_type: related_concepts
+          - section_title: Expectation Values and Standard Deviation
+            section_type: related_concepts
+    milestone: Develop proficiency in operator formalism and mathematical techniques of quantum mechanics
+    duration_days: 8
+    tags:
+      - operators
+      - eigenvalues
+      - commutators
+      - hermitian
+      - uncertainty
+
+  - id: 3
+    title: Particle-in-a-Box - One-Dimensional Confinement
+    learning_objectives:
+      - Solve the Schrödinger equation for particle in one-dimensional infinite potential well
+      - Derive energy eigenvalues and eigenfunctions
+      - Understand energy quantization from boundary conditions
+      - Calculate transition energies and absorption spectra
+      - Apply particle-in-a-box model to conjugated systems
+    textbook_style_content:
+      - topic: One-Dimensional Infinite Potential Well
+        sections:
+          - section_title: Model Setup and Physical Assumptions
+            section_type: overview
+          - section_title: Time-Independent Schrödinger Equation Solution
+            section_type: core_theory
+          - section_title: Boundary Conditions and Quantization
+            section_type: core_theory
+          - section_title: Energy Levels and Wavefunctions
+            section_type: core_theory
+          - section_title: Probability Distributions and Nodal Patterns
+            section_type: core_theory
+          - section_title: Zero-Point Energy Concept
+            section_type: related_concepts
+          - section_title: Orthonormality of Particle-in-Box Wavefunctions
+            section_type: related_concepts
+          - section_title: Applications to Conjugated Molecules and Quantum Dots
+            section_type: related_concepts
+    milestone: Solve first exactly-solvable quantum system and understand quantization
+    duration_days: 6
+    tags:
+      - particle-in-box
+      - quantization
+      - boundary-conditions
+      - conjugated-systems
+
+  - id: 4
+    title: Particle-in-a-Box - Higher Dimensions
+    learning_objectives:
+      - Extend one-dimensional solutions to two and three dimensions
+      - Apply separation of variables technique
+      - Identify degenerate energy states
+      - Understand symmetry and degeneracy relationships
+    textbook_style_content:
+      - topic: Two and Three-Dimensional Boxes
+        sections:
+          - section_title: Extension to Higher Dimensions
+            section_type: overview
+          - section_title: Separation of Variables Method
+            section_type: core_theory
+          - section_title: Energy Eigenvalues for 2D and 3D Systems
+            section_type: core_theory
+          - section_title: Degeneracy Analysis
+            section_type: core_theory
+          - section_title: Symmetry Considerations
+            section_type: related_concepts
+          - section_title: Applications to Particle Confinement
+            section_type: related_concepts
+    milestone: Master multidimensional quantum confinement and degeneracy concepts
+    duration_days: 5
+    tags:
+      - multidimensional
+      - separation-of-variables
+      - degeneracy
+      - symmetry
+
+  - id: 5
+    title: Quantum Harmonic Oscillator
+    learning_objectives:
+      - Solve Schrödinger equation for harmonic oscillator potential
+      - Apply ladder operator method
+      - Determine vibrational energy levels and selection rules
+      - Calculate vibrational wavefunctions and probability distributions
+      - Relate quantum oscillator to molecular vibrations
+    textbook_style_content:
+      - topic: One-Dimensional Harmonic Oscillator
+        sections:
+          - section_title: Classical Harmonic Motion and Quantum Analog
+            section_type: overview
+          - section_title: Schrödinger Equation for Parabolic Potential
+            section_type: core_theory
+          - section_title: Analytical Solution via Power Series Method
+            section_type: core_theory
+          - section_title: Creation and Annihilation Operators
+            section_type: core_theory
+          - section_title: Energy Eigenvalues and Equally-Spaced Levels
+            section_type: core_theory
+          - section_title: Hermite Polynomials and Wavefunctions
+            section_type: core_theory
+          - section_title: Zero-Point Energy and Quantum Fluctuations
+            section_type: related_concepts
+          - section_title: Classical Turning Points and Tunneling Probability
+            section_type: related_concepts
+          - section_title: Selection Rules for Vibrational Transitions
+            section_type: related_concepts
+          - section_title: Applications to Molecular Vibrations and IR Spectroscopy
+            section_type: related_concepts
+    milestone: Complete understanding of vibrational quantum mechanics with operator methods
+    duration_days: 9
+    tags:
+      - harmonic-oscillator
+      - ladder-operators
+      - hermite-polynomials
+      - vibrations
+      - spectroscopy
+
+  - id: 6
+    title: Hydrogen Atom - Radial Solutions
+    learning_objectives:
+      - Set up Schrödinger equation for hydrogen atom in spherical coordinates
+      - Apply separation of variables to obtain radial and angular equations
+      - Solve radial equation for different angular momentum quantum numbers
+      - Derive Bohr radius and energy level formula
+      - Understand effective potential and radial probability distributions
+    textbook_style_content:
+      - topic: Hydrogen Atom Radial Problem
+        sections:
+          - section_title: Central Force Problem and Spherical Coordinates
+            section_type: overview
+          - section_title: Separation into Radial and Angular Components
+            section_type: core_theory
+          - section_title: Radial Schrödinger Equation
+            section_type: core_theory
+          - section_title: Associated Laguerre Polynomials Solution
+            section_type: core_theory
+          - section_title: Principal Quantum Number and Energy Levels
+            section_type: core_theory
+          - section_title: Radial Wavefunctions R_nl
+            section_type: core_theory
+          - section_title: Bohr Radius and Atomic Units
+            section_type: related_concepts
+          - section_title: Effective Potential and Centrifugal Barrier
+            section_type: related_concepts
+          - section_title: Radial Probability Density and Most Probable Radius
+            section_type: related_concepts
+          - section_title: Nodal Structure of Radial Functions
+            section_type: related_concepts
+    milestone: Solve hydrogen atom radial component and understand energy quantization
+    duration_days: 8
+    tags:
+      - hydrogen-atom
+      - central-force
+      - radial-equation
+      - energy-levels
+      - laguerre-polynomials
+
+  - id: 7
+    title: Hydrogen Atom - Angular Solutions and Spherical Harmonics
+    learning_objectives:
+      - Solve angular part of Schrödinger equation
+      - Derive spherical harmonics as angular eigenfunctions
+      - Understand azimuthal and magnetic quantum numbers
+      - Relate angular solutions to orbital angular momentum
+    textbook_style_content:
+      - topic: Angular Momentum and Spherical Harmonics
+        sections:
+          - section_title: Angular Equation in Theta and Phi
+            section_type: overview
+          - section_title: Separation into Theta and Phi Components
+            section_type: core_theory
+          - section_title: Associated Legendre Polynomials
+            section_type: core_theory
+          - section_title: Spherical Harmonics Y_lm
+            section_type: core_theory
+          - section_title: Quantum Numbers l and m_l
+            section_type: core_theory
+          - section_title: Orthonormality of Spherical Harmonics
+            section_type: related_concepts
+          - section_title: Angular Nodal Surfaces
+            section_type: related_concepts
+    milestone: Master angular solutions and spherical harmonic functions
+    duration_days: 7
+    tags:
+      - spherical-harmonics
+      - legendre-polynomials
+      - angular-momentum
+      - quantum-numbers
+
+  - id: 8
+    title: Complete Hydrogen Atom Wavefunctions
+    learning_objectives:
+      - Combine radial and angular solutions to construct complete wavefunctions
+      - Understand quantum number relationships and restrictions
+      - Calculate probability distributions in three dimensions
+      - Interpret degeneracy of hydrogen energy levels
+    textbook_style_content:
+      - topic: Complete Hydrogen Atom Description
+        sections:
+          - section_title: Product of Radial and Angular Functions
+            section_type: overview
+          - section_title: Quantum Numbers n, l, m_l and Their Relationships
+            section_type: core_theory
+          - section_title: Complete Wavefunction Psi_nlm
+            section_type: core_theory
+          - section_title: Energy Dependence on Principal Quantum Number Only
+            section_type: core_theory
+          - section_title: Degeneracy of Energy Levels
+            section_type: related_concepts
+          - section_title: Three-Dimensional Probability Distributions
+            section_type: related_concepts
+    milestone: Synthesize complete hydrogen atom solution with all quantum numbers
+    duration_days: 6
+    tags:
+      - complete-wavefunctions
+      - quantum-numbers
+      - probability-density
+      - degeneracy
+
+  - id: 9
+    title: Shapes and Visualization of Atomic Orbitals
+    learning_objectives:
+      - Visualize s, p, d, and f orbital shapes and angular distributions
+      - Identify nodal planes and radial nodes
+      - Understand electron density distributions
+      - Relate orbital shapes to bonding and molecular structure
+      - Distinguish between real and complex forms of orbitals
+    textbook_style_content:
+      - topic: Atomic Orbital Shapes
+        sections:
+          - section_title: Orbital Nomenclature and Classification
+            section_type: overview
+          - section_title: s Orbitals - Spherical Symmetry
+            section_type: core_theory
+          - section_title: p Orbitals - Dumbbell Shapes and Directionality
+            section_type: core_theory
+          - section_title: d Orbitals - Cloverleaf and Complex Patterns
+            section_type: core_theory
+          - section_title: f Orbitals - Higher Angular Momentum Shapes
+            section_type: core_theory
+          - section_title: Angular and Radial Nodes
+            section_type: core_theory
+          - section_title: Real Linear Combinations vs Complex Spherical Forms
+            section_type: related_concepts
+          - section_title: Electron Density Contours and Boundary Surfaces
+            section_type: related_concepts
+          - section_title: Phase and Sign of Wavefunctions
+            section_type: related_concepts
+          - section_title: Relationship to Chemical Bonding
+            section_type: related_concepts
+    milestone: Develop three-dimensional visualization skills for atomic orbitals
+    duration_days: 7
+    tags:
+      - orbital-shapes
+      - s-orbitals
+      - p-orbitals
+      - d-orbitals
+      - f-orbitals
+      - nodes
+      - visualization
+
+  - id: 10
+    title: Orbital Angular Momentum Theory
+    learning_objectives:
+      - Derive angular momentum operators in quantum mechanics
+      - Solve eigenvalue equations for L² and L_z
+      - Understand quantization of orbital angular momentum magnitude and z-component
+      - Apply commutation relations for angular momentum components
+      - Interpret vector model of angular momentum
+    textbook_style_content:
+      - topic: Quantum Theory of Orbital Angular Momentum
+        sections:
+          - section_title: Classical to Quantum Angular Momentum
+            section_type: overview
+          - section_title: Angular Momentum Operator Components
+            section_type: core_theory
+          - section_title: Commutation Relations [L_i, L_j]
+            section_type: core_theory
+          - section_title: L² and L_z as Compatible Observables
+            section_type: core_theory
+          - section_title: Eigenvalues of L² and L_z
+            section_type: core_theory
+          - section_title: Quantum Numbers l and m_l Interpretation
+            section_type: core_theory
+          - section_title: Ladder Operators L_+ and L_-
+            section_type: related_concepts
+          - section_title: Space Quantization and Vector Model
+            section_type: related_concepts
+          - section_title: Uncertainty in Angular Momentum Components
+            section_type: related_concepts
+    milestone: Master quantum mechanical treatment of orbital angular momentum
+    duration_days: 8
+    tags:
+      - angular-momentum
+      - operators
+      - quantization
+      - commutators
+      - vector-model
+
+  - id: 11
+    title: Spin Angular Momentum
+    learning_objectives:
+      - Introduce intrinsic spin as fundamental particle property
+      - Distinguish spin from orbital angular momentum
+      - Apply spin operators and Pauli matrices
+      - Understand spin quantum numbers s and m_s
+      - Calculate total angular momentum from orbital and spin contributions
+    textbook_style_content:
+      - topic: Spin Angular Momentum and Spinors
+        sections:
+          - section_title: Discovery and Nature of Electron Spin
+            section_type: overview
+          - section_title: Spin as Intrinsic Angular Momentum
+            section_type: core_theory
+          - section_title: Spin Quantum Numbers s and m_s
+            section_type: core_theory
+          - section_title: Spin Operators and Pauli Spin Matrices
+            section_type: core_theory
+          - section_title: Spin Eigenfunctions Alpha and Beta
+            section_type: core_theory
+          - section_title: Stern-Gerlach Experiment
+            section_type: related_concepts
+          - section_title: Spin-Orbit Coupling
+            section_type: related_concepts
+          - section_title: Total Angular Momentum J = L + S
+            section_type: related_concepts
+          - section_title: Addition of Angular Momenta
+            section_type: related_concepts
+    milestone: Understand intrinsic spin and its combination with orbital angular momentum
+    duration_days: 7
+    tags:
+      - spin
+      - intrinsic-angular-momentum
+      - pauli-matrices
+      - total-angular-momentum
+      - stern-gerlach
+
+  - id: 12
+    title: Quantum Tunneling Phenomenon
+    learning_objectives:
+      - Explain quantum tunneling as barrier penetration
+      - Solve Schrödinger equation for potential barriers
+      - Calculate transmission and reflection coefficients
+      - Understand exponential decay in classically forbidden regions
+      - Apply tunneling to chemical and physical processes
+    textbook_style_content:
+      - topic: Barrier Penetration and Tunneling
+        sections:
+          - section_title: Classical vs Quantum Barrier Crossing
+            section_type: overview
+          - section_title: Rectangular Barrier Problem Setup
+            section_type: core_theory
+          - section_title: Wavefunction Behavior in Three Regions
+            section_type: core_theory
+          - section_title: Boundary Condition Matching
+            section_type: core_theory
+          - section_title: Transmission Coefficient Derivation
+            section_type: core_theory
+          - section_title: Reflection Coefficient and Conservation of Probability
+            section_type: core_theory
+          - section_title: WKB Approximation for Arbitrary Barriers
+            section_type: related_concepts
+          - section_title: Tunneling Time and Interpretation
+            section_type: related_concepts
+          - section_title: Applications - Alpha Decay, STM, Chemical Reactions
+            section_type: related_concepts
+          - section_title: Resonant Tunneling and Quantum Wells
+            section_type: related_concepts
+    milestone: Complete understanding of quantum tunneling mechanisms and applications
+    duration_days: 8
+    tags:
+      - tunneling
+      - barrier-penetration
+      - transmission-coefficient
+      - WKB-approximation
+      - applications

@@ -1,0 +1,831 @@
+metadata:
+  subject: Inorganic Chemistry
+  target: GATE Chemistry Examination
+  syllabus_line: Acid-base concepts and principles (Lewis, Brønsted, HSAB and acid-base catalysis).
+
+concepts:
+  core:
+    - name: Brønsted-Lowry Acid-Base Theory
+      clarifier: Proton (H⁺) donor-acceptor definition; conjugate acid-base pairs; pH and pOH relationships
+    - name: Lewis Acid-Base Theory
+      clarifier: Electron pair acceptor-donor definition; coordination chemistry; broader scope than Brønsted
+    - name: Hard-Soft Acid-Base (HSAB) Principle
+      clarifier: Classification of acids and bases by hardness/softness; predictive tool for stability and reactivity
+    - name: Acid Strength and pKa
+      clarifier: Ionization constants; factors affecting acid strength; polyprotic acids
+    - name: Base Strength and pKb
+      clarifier: Basicity constants; conjugate base strength; buffer systems
+    - name: Amphoteric Species
+      clarifier: Substances acting as both acids and bases; water as amphoteric solvent
+    - name: Acid-Base Equilibria
+      clarifier: Ka, Kb, and Kw relationships; buffer capacity; titration curves
+    - name: Acid-Base Catalysis
+      clarifier: Mechanisms of catalysis by acids and bases; proton transfer in reactions; enzyme catalysis
+
+  related:
+    - name: Solvent Effects on Acid-Base Behavior
+      clarifier: Autoionization of solvents; protophilic and protogenic solvents; leveling effect
+    - name: Superacids and Superbases
+      clarifier: Extremely strong acids and bases; SbF₅, HF systems; definition and properties
+    - name: Non-aqueous Acid-Base Systems
+      clarifier: Liquid ammonia, glacial acetic acid, sulfuric acid as solvents
+    - name: Redox vs. Acid-Base Reactions
+      clarifier: Distinguishing proton transfer from electron transfer; coupled processes
+    - name: Polarizability and Polarization
+      clarifier: Softness of acids and bases; π-donor and σ-acceptor character
+    - name: Resonance Stabilization of Conjugate Bases
+      clarifier: How delocalization affects acid strength
+    - name: Inductive Effects
+      clarifier: Electron-withdrawing and electron-donating substituents; impact on pKa
+    - name: Coordination Chemistry Perspective
+      clarifier: Lewis bases as ligands; chelation effects; coordination number preferences
+
+learning_path:
+  - id: 1
+    topic: Fundamentals of Acid-Base Theory and Definitions
+    learning_objectives:
+      - Understand and distinguish between Brønsted and Lewis definitions
+      - Explain the historical development of acid-base concepts
+      - Classify substances as acids, bases, or amphoteric
+      - Apply definitions to predict acid-base behavior
+    textbook_style_content:
+      - lesson: Historical Evolution of Acid-Base Concepts
+        sections:
+          - section_heading: Arrhenius Definition - Limited Scope
+            section_type: overview
+          - section_heading: Brønsted-Lowry Theory Development
+            section_type: core_theory
+          - section_heading: Lewis Electron Pair Definition
+            section_type: core_theory
+          - section_heading: Comparative Advantages and Limitations
+            section_type: core_theory
+      - lesson: Brønsted-Lowry Acid-Base Theory
+        sections:
+          - section_heading: Acid as Proton Donor, Base as Proton Acceptor
+            section_type: core_theory
+          - section_heading: Conjugate Acid-Base Pairs and Relationships
+            section_type: core_theory
+          - section_heading: Autoionization of Water
+            section_type: core_theory
+          - section_heading: pH, pOH, and pKw Definitions
+            section_type: core_theory
+      - lesson: Lewis Acid-Base Theory
+        sections:
+          - section_heading: Acid as Electron Pair Acceptor, Base as Donor
+            section_type: core_theory
+          - section_heading: Coordination Bonding and Lewis Adducts
+            section_type: core_theory
+          - section_heading: Extension to Non-Aqueous Systems
+            section_type: core_theory
+          - section_heading: Examples of Lewis Acids and Bases
+            section_type: core_theory
+      - lesson: Comparative Analysis of Theories
+        sections:
+          - section_heading: Scope Differences - Brønsted vs. Lewis
+            section_type: core_theory
+          - section_heading: Situations Where Lewis is More Useful
+            section_type: core_theory
+          - section_heading: Complementary Nature of Definitions
+            section_type: core_theory
+    milestone: Master fundamental acid-base definitions and their applications
+    duration_days: 9
+    tags:
+      - Brønsted_Lowry
+      - Lewis_theory
+      - definitions
+      - pH
+
+  - id: 2
+    topic: Brønsted-Lowry Acid Strength, pKa, and Ionization Equilibria
+    learning_objectives:
+      - Calculate Ka values and predict acid strength
+      - Understand factors affecting acid ionization
+      - Apply Henderson-Hasselbalch equation
+      - Solve quantitative acid-base equilibrium problems
+    textbook_style_content:
+      - lesson: Acid Ionization and Ka Expression
+        sections:
+          - section_heading: Ionization Equilibrium and Constant
+            section_type: core_theory
+          - section_heading: Weak vs. Strong Acids
+            section_type: core_theory
+          - section_heading: Calculation of pH from Ka
+            section_type: core_theory
+          - section_heading: Percent Ionization Concept
+            section_type: core_theory
+      - lesson: Factors Affecting Acid Strength
+        sections:
+          - section_heading: Electronegativity of the Atom Bonded to Hydrogen
+            section_type: core_theory
+          - section_heading: Oxidation State Effects in Polyprotic Acids
+            section_type: core_theory
+          - section_heading: Bond Strength and H-A Polarity
+            section_type: core_theory
+          - section_heading: Inductive Effects from Substituents
+            section_type: core_theory
+      - lesson: Polyprotic Acids
+        sections:
+          - section_heading: Sequential Ionization Constants (Ka1, Ka2, Ka3)
+            section_type: core_theory
+          - section_heading: Relative Strength Trends (Ka1 >> Ka2 >> Ka3)
+            section_type: core_theory
+          - section_heading: pH Calculations for Polyprotic Systems
+            section_type: core_theory
+          - section_heading: Amphiprotic Species and Intermediate pH
+            section_type: core_theory
+      - lesson: Oxoacid Strength Relationships
+        sections:
+          - section_heading: Pauling Rules for Oxoacid pKa Prediction
+            section_type: core_theory
+          - section_heading: Effect of Oxygen Atoms and Oxidation States
+            section_type: core_theory
+          - section_heading: Comparing HOCl, HClO₂, HClO₃, HClO₄
+            section_type: core_theory
+      - lesson: Buffer Systems and Henderson-Hasselbalch Equation
+        sections:
+          - section_heading: Buffer Composition and Mechanism
+            section_type: core_theory
+          - section_heading: Henderson-Hasselbalch Equation Derivation
+            section_type: core_theory
+          - section_heading: Buffer Capacity and Optimal pH Range
+            section_type: core_theory
+          - section_heading: Buffer Calculations and Design
+            section_type: core_theory
+    milestone: Master acid strength calculations and quantitative equilibrium analysis
+    duration_days: 12
+    tags:
+      - Ka
+      - pKa
+      - buffer
+      - polyprotic_acids
+      - oxoacids
+
+  - id: 3
+    topic: Brønsted-Lowry Base Strength, pKb, and Conjugate Relationships
+    learning_objectives:
+      - Calculate Kb values and predict base strength
+      - Understand conjugate acid-base relationships
+      - Solve quantitative base ionization problems
+      - Analyze salt hydrolysis and pH effects
+    textbook_style_content:
+      - lesson: Base Ionization and Kb Expression
+        sections:
+          - section_heading: Base Ionization Equilibrium and Constant
+            section_type: core_theory
+          - section_heading: Weak vs. Strong Bases
+            section_type: core_theory
+          - section_heading: Calculation of pOH and pH from Kb
+            section_type: core_theory
+          - section_heading: Percent Ionization for Bases
+            section_type: core_theory
+      - lesson: Conjugate Acid-Base Relationships
+        sections:
+          - section_heading: Ka × Kb = Kw Relationship
+            section_type: core_theory
+          - section_heading: Predicting Relative Strengths from Conjugate Pairs
+            section_type: core_theory
+          - section_heading: Strength of Conjugate Bases from Acid pKa
+            section_type: core_theory
+          - section_heading: Inverse Relationship Verification
+            section_type: core_theory
+      - lesson: Factors Affecting Base Strength
+        sections:
+          - section_heading: Availability of Lone Pairs
+            section_type: core_theory
+          - section_heading: Electronegativity Effects on Nitrogen and Oxygen Bases
+            section_type: core_theory
+          - section_heading: Resonance Stabilization of Conjugate Acids
+            section_type: core_theory
+          - section_heading: Size Effects in Halide and Chalcogenide Bases
+            section_type: core_theory
+      - lesson: Salt Hydrolysis and pH
+        sections:
+          - section_heading: Hydrolysis of Salt Solutions
+            section_type: core_theory
+          - section_heading: Cation Hydrolysis (M^n+ + H₂O)
+            section_type: core_theory
+          - section_heading: Anion Hydrolysis (A⁻ + H₂O)
+            section_type: core_theory
+          - section_heading: pH Prediction for Salt Solutions
+            section_type: core_theory
+      - lesson: Amphiprotic Species and Zwitterions
+        sections:
+          - section_heading: Substances Acting as Both Acid and Base
+            section_type: core_theory
+          - section_heading: Amino Acids and Isoelectric Point
+            section_type: related_concepts
+          - section_heading: HCO₃⁻ and Similar Species
+            section_type: core_theory
+          - section_heading: Calculating pH of Amphiprotic Solutions
+            section_type: core_theory
+    milestone: Master base strength calculations and conjugate relationships
+    duration_days: 11
+    tags:
+      - Kb
+      - pKb
+      - conjugate_pairs
+      - salt_hydrolysis
+      - amphiprotic
+
+  - id: 4
+    topic: Acid-Base Titrations, Curves, and Analytical Applications
+    learning_objectives:
+      - Understand titration principles and endpoint detection
+      - Interpret and predict titration curves
+      - Calculate equivalence point pH for different acid-base combinations
+      - Select appropriate indicators and titrants
+    textbook_style_content:
+      - lesson: Titration Fundamentals
+        sections:
+          - section_heading: Titration Definition and Procedure
+            section_type: overview
+          - section_heading: Equivalence Point vs. Endpoint
+            section_type: core_theory
+          - section_heading: Standardization and Standard Solutions
+            section_type: core_theory
+          - section_heading: Calculations Using Molarity and Volume
+            section_type: core_theory
+      - lesson: Strong Acid-Strong Base Titrations
+        sections:
+          - section_heading: HCl-NaOH Titration Curve Profile
+            section_type: core_theory
+          - section_heading: pH at Different Stages (Before, At, After Equivalence)
+            section_type: core_theory
+          - section_heading: Equivalence Point pH = 7
+            section_type: core_theory
+          - section_heading: Steep Rise Near Equivalence Point
+            section_type: core_theory
+      - lesson: Weak Acid-Strong Base Titrations
+        sections:
+          - section_heading: Acetic Acid-NaOH Curve Characteristics
+            section_type: core_theory
+          - section_heading: Buffer Region and Henderson-Hasselbalch Application
+            section_type: core_theory
+          - section_heading: pH at Half-Equivalence Point (pH = pKa)
+            section_type: core_theory
+          - section_heading: Equivalence Point pH > 7 (Hydrolysis of Conjugate Base)
+            section_type: core_theory
+      - lesson: Weak Base-Strong Acid Titrations
+        sections:
+          - section_heading: NH₃-HCl Titration Curve Profile
+            section_type: core_theory
+          - section_heading: Initial pH and Buffer Region
+            section_type: core_theory
+          - section_heading: Equivalence Point pH < 7
+            section_type: core_theory
+          - section_heading: Comparison with Weak Acid-Strong Base
+            section_type: core_theory
+      - lesson: Polyprotic Acid Titrations
+        sections:
+          - section_heading: Multiple Equivalence Points
+            section_type: core_theory
+          - section_heading: H₂CO₃ Titration with Multiple Breaks
+            section_type: core_theory
+          - section_heading: Identifying Individual pKa Values from Curve
+            section_type: core_theory
+          - section_heading: pH Calculations for Each Stage
+            section_type: core_theory
+      - lesson: Indicator Selection and Theory
+        sections:
+          - section_heading: Indicator Definition and Properties
+            section_type: core_theory
+          - section_heading: Color Change Range and pKa of Indicators
+            section_type: core_theory
+          - section_heading: Matching Indicator to Titration Type
+            section_type: core_theory
+          - section_heading: Common Indicators (Phenolphthalein, Methyl Orange, Methyl Red)
+            section_type: core_theory
+    milestone: Master titration curves and quantitative acid-base analysis
+    duration_days: 12
+    tags:
+      - titrations
+      - equivalence_point
+      - indicator
+      - curves
+      - analytical
+
+  - id: 5
+    topic: Lewis Acid-Base Theory - Advanced Applications
+    learning_objectives:
+      - Classify substances using Lewis electron pair definitions
+      - Predict Lewis acid-base reactions and product stability
+      - Understand coordination chemistry from Lewis perspective
+      - Analyze driving forces for Lewis acid-base interactions
+    textbook_style_content:
+      - lesson: Lewis Acid-Base Classifications
+        sections:
+          - section_heading: Hard Lewis Acids - Electron Deficient Metal Ions
+            section_type: core_theory
+          - section_heading: Soft Lewis Acids - Polarizable Metal Centers
+            section_type: core_theory
+          - section_heading: Hard Lewis Bases - Electronegative Atoms (N, O, F)
+            section_type: core_theory
+          - section_heading: Soft Lewis Bases - Polarizable Ligands (S, I, π-systems)
+            section_type: core_theory
+      - lesson: Lewis Adduct Formation
+        sections:
+          - section_heading: Lewis Acid-Base Adducts and Coordination Bonds
+            section_type: core_theory
+          - section_heading: BF₃ + NH₃ → F₃B-NH₃ Complex Formation
+            section_type: core_theory
+          - section_heading: Stability of Adducts from Electrostatic and Orbital Factors
+            section_type: core_theory
+          - section_heading: Examples of Lewis Acid-Base Reactions
+            section_type: core_theory
+      - lesson: Metal Coordination Chemistry
+        sections:
+          - section_heading: Metal Ions as Lewis Acids
+            section_type: core_theory
+          - section_heading: Ligands as Lewis Bases
+            section_type: core_theory
+          - section_heading: Chelation and Chelate Effect
+            section_type: core_theory
+          - section_heading: Preference for Hard-Soft Matching in Complexes
+            section_type: core_theory
+      - lesson: Non-Aqueous Lewis Acid-Base Systems
+        sections:
+          - section_heading: BrF₅ as Super-Lewis Acid
+            section_type: core_theory
+          - section_heading: Lewis Acid Catalysis in Organic Reactions
+            section_type: core_theory
+          - section_heading: Friedel-Crafts Acylation/Alkylation (Lewis Acid Catalysis)
+            section_type: related_concepts
+          - section_heading: Gas-Phase Lewis Acid-Base Reactions
+            section_type: related_concepts
+      - lesson: Comparative Analysis - Brønsted vs. Lewis
+        sections:
+          - section_heading: Reactions That are Lewis but Not Brønsted
+            section_type: core_theory
+          - section_heading: Reactions That are Both Brønsted and Lewis
+            section_type: core_theory
+          - section_heading: Choosing Appropriate Theory for Analysis
+            section_type: core_theory
+    milestone: Master Lewis acid-base theory and its applications
+    duration_days: 11
+    tags:
+      - Lewis_acids
+      - Lewis_bases
+      - coordination_chemistry
+      - adducts
+
+  - id: 6
+    topic: Hard-Soft Acid-Base (HSAB) Principle - Theory and Applications
+    learning_objectives:
+      - Understand hardness and softness classification
+      - Apply HSAB principle to predict complex stability
+      - Predict product formation in competing reactions
+      - Understand orbital and thermodynamic basis of HSAB
+    textbook_style_content:
+      - lesson: HSAB Principle Foundation
+        sections:
+          - section_heading: Definition of Hard and Soft Acids
+            section_type: overview
+          - section_heading: Definition of Hard and Soft Bases
+            section_type: core_theory
+          - section_heading: Chemical Hardness and Softness Parameters
+            section_type: core_theory
+          - section_heading: Pearson's Hard-Soft Acid-Base Principle Statement
+            section_type: core_theory
+      - lesson: Classification of Acids and Bases
+        sections:
+          - section_heading: Hard Acids - Small, Highly Charged Metal Ions
+            section_type: core_theory
+          - section_heading: Soft Acids - Large, Highly Polarizable Metal Centers
+            section_type: core_theory
+          - section_heading: Borderline Acids - Intermediate Properties
+            section_type: core_theory
+          - section_heading: Hard Bases - Small, Highly Electronegative Atoms
+            section_type: core_theory
+          - section_heading: Soft Bases - Large, Easily Polarizable Atoms
+            section_type: core_theory
+      - lesson: HSAB Matching and Stability
+        sections:
+          - section_heading: Hard-Hard and Soft-Soft Combinations are Stable
+            section_type: core_theory
+          - section_heading: Hard-Soft Combinations are Less Stable
+            section_type: core_theory
+          - section_heading: Stability Prediction from HSAB Matching
+            section_type: core_theory
+          - section_heading: Examples of Favorable and Unfavorable Combinations
+            section_type: core_theory
+      - lesson: Predicting Reaction Products
+        sections:
+          - section_heading: Ligand Displacement Reactions
+            section_type: core_theory
+          - section_heading: Formation of Binary Compounds
+            section_type: core_theory
+          - section_heading: Preferential Chelation Based on HSAB
+            section_type: core_theory
+          - section_heading: Solubility Predictions (Hard-Hard vs. Soft-Soft Salts)
+            section_type: core_theory
+      - lesson: Theoretical Basis of HSAB
+        sections:
+          - section_heading: Electronegativity and Hardness Relationship
+            section_type: core_theory
+          - section_heading: Polarizability and Softness
+            section_type: core_theory
+          - section_heading: Orbital Overlap and Soft Acid-Base Interactions
+            section_type: core_theory
+          - section_heading: π-Backbonding in Soft Complexes
+            section_type: core_theory
+      - lesson: HSAB Applications
+        sections:
+          - section_heading: Predicting Stable Complex Formation
+            section_type: core_theory
+          - section_heading: Chelation Therapy and Heavy Metal Toxicity
+            section_type: related_concepts
+          - section_heading: Precipitation Reactions and Ksp Predictions
+            section_type: core_theory
+          - section_heading: Biological Significance - Metal Protein Binding
+            section_type: related_concepts
+    milestone: Understand and apply HSAB principle systematically
+    duration_days: 12
+    tags:
+      - HSAB
+      - hard_acid
+      - soft_acid
+      - stability_prediction
+      - ligand_preference
+
+  - id: 7
+    topic: Acid-Base Catalysis - Mechanisms and Applications
+    learning_objectives:
+      - Understand general and specific acid catalysis mechanisms
+      - Explain base catalysis in organic reactions
+      - Apply catalysis concepts to reaction mechanisms
+      - Predict catalyst effectiveness
+    textbook_style_content:
+      - lesson: Fundamentals of Acid-Base Catalysis
+        sections:
+          - section_heading: Catalysis Definition and Requirements
+            section_type: overview
+          - section_heading: Activation Energy Reduction by Catalysts
+            section_type: core_theory
+          - section_heading: Role of Proton Transfer in Catalysis
+            section_type: core_theory
+          - section_heading: Catalyst Regeneration
+            section_type: core_theory
+      - lesson: Specific Acid Catalysis
+        sections:
+          - section_heading: H⁺ or H₃O⁺ as Catalyst
+            section_type: core_theory
+          - section_heading: Protonation of Substrate and Activation
+            section_type: core_theory
+          - section_heading: Examples - Ester Hydrolysis, Acetal Formation
+            section_type: core_theory
+          - section_heading: pH Rate Profiles for Acid-Catalyzed Reactions
+            section_type: core_theory
+      - lesson: General Acid Catalysis
+        sections:
+          - section_heading: Weak Acids as Catalysts
+            section_type: core_theory
+          - section_heading: Proton Transfer from Weak Acid to Substrate
+            section_type: core_theory
+          - section_heading: Rate Enhancement vs. Concentration
+            section_type: core_theory
+          - section_heading: Buffer Effects in General Acid Catalysis
+            section_type: core_theory
+      - lesson: Specific Base Catalysis
+        sections:
+          - section_heading: OH⁻ as Catalyst
+            section_type: core_theory
+          - section_heading: Deprotonation and Nucleophilic Activation
+            section_type: core_theory
+          - section_heading: Examples - Saponification, Condensation Reactions
+            section_type: core_theory
+          - section_heading: pH Rate Profiles for Base-Catalyzed Reactions
+            section_type: core_theory
+      - lesson: General Base Catalysis
+        sections:
+          - section_heading: Weak Bases as Catalysts
+            section_type: core_theory
+          - section_heading: Proton Removal by Weak Base
+            section_type: core_theory
+          - section_heading: Nucleophile Generation and Enhanced Reactivity
+            section_type: core_theory
+          - section_heading: Buffer Effects in General Base Catalysis
+            section_type: core_theory
+      - lesson: Bifunctional Catalysis and Enzyme Catalysis
+        sections:
+          - section_heading: Simultaneous Acid and Base Catalysis
+            section_type: core_theory
+          - section_heading: General Acid-Base Catalysis
+            section_type: core_theory
+          - section_heading: Enzyme Catalysis - Proton Relay Mechanisms
+            section_type: related_concepts
+          - section_heading: Lysine and Aspartate as Enzyme Acid-Base Centers
+            section_type: related_concepts
+    milestone: Understand acid-base catalysis mechanisms and applications
+    duration_days: 11
+    tags:
+      - catalysis
+      - mechanism
+      - proton_transfer
+      - enzyme
+      - pH_rate_profiles
+
+  - id: 8
+    topic: Advanced Acid-Base Systems and Special Topics
+    learning_objectives:
+      - Understand non-aqueous acid-base systems
+      - Explain superacids and superbases
+      - Analyze solvent effects on acid-base behavior
+      - Apply concepts to unusual systems
+    textbook_style_content:
+      - lesson: Non-Aqueous Solvents
+        sections:
+          - section_heading: Liquid Ammonia as Solvent
+            section_type: core_theory
+          - section_heading: Autoionization of Ammonia (2 NH₃ ⇌ NH₄⁺ + NH₂⁻)
+            section_type: core_theory
+          - section_heading: Glacial Acetic Acid as Solvent
+            section_type: core_theory
+          - section_heading: Sulfuric Acid as Solvent and Super-Acid Medium
+            section_type: core_theory
+      - lesson: Protophilic and Protogenic Solvents
+        sections:
+          - section_heading: Definition and Classification
+            section_type: core_theory
+          - section_heading: Leveling Effect - All Strong Acids Appear Equally Strong
+            section_type: core_theory
+          - section_heading: Differentiating Effect - Weak Acids Show Different Strengths
+            section_type: core_theory
+          - section_heading: Choice of Solvent for Titrations
+            section_type: core_theory
+      - lesson: Superacids
+        sections:
+          - section_heading: Definition - pKa < -10
+            section_type: core_theory
+          - section_heading: Fluorosulfuric Acid and Magic Acid
+            section_type: core_theory
+          - section_heading: SbF₅ and Related Lewis Super-Acids
+            section_type: core_theory
+          - section_heading: Protonation of Extremely Weak Bases
+            section_type: core_theory
+      - lesson: Superbases
+        sections:
+          - section_heading: Definition and Strong Base Examples
+            section_type: core_theory
+          - section_heading: Alkoxides and Amides as Superbases
+            section_type: core_theory
+          - section_heading: t-BuOK and Other Non-Nucleophilic Bases
+            section_type: core_theory
+          - section_heading: Applications in Organic Synthesis
+            section_type: related_concepts
+      - lesson: Solvent Effects on Acid-Base Equilibria
+        sections:
+          - section_heading: Dielectric Constant and Ion Pairing
+            section_type: core_theory
+          - section_heading: Hydrogen Bonding in Different Solvents
+            section_type: core_theory
+          - section_heading: pKa Variation with Solvent
+            section_type: core_theory
+          - section_heading: Hammett Acidity Function
+            section_type: related_concepts
+      - lesson: Redox vs. Acid-Base Reactions
+        sections:
+          - section_heading: Distinguishing Proton Transfer from Electron Transfer
+            section_type: core_theory
+          - section_heading: Coupled Acid-Base and Redox Processes
+            section_type: core_theory
+          - section_heading: Examples - Hydrolysis vs. Redox Decomposition
+            section_type: core_theory
+    milestone: Understand advanced acid-base systems and special applications
+    duration_days: 11
+    tags:
+      - non_aqueous
+      - superacids
+      - superbases
+      - solvent_effects
+      - leveling_effect
+
+  - id: 9
+    topic: Structural Factors Affecting Acid-Base Strength
+    learning_objectives:
+      - Explain electronegativity effects on acid strength
+      - Analyze inductive and resonance effects on pKa
+      - Predict acid-base strength from structure
+      - Apply Pauling rules systematically
+    textbook_style_content:
+      - lesson: Electronegativity and Acid Strength
+        sections:
+          - section_heading: H-A Bond Polarity and Ionization
+            section_type: core_theory
+          - section_heading: Effect of Atom Electronegativity on pKa
+            section_type: core_theory
+          - section_heading: Haloacids - HF vs. HCl vs. HBr vs. HI
+            section_type: core_theory
+          - section_heading: Oxyacids - HClO₄ vs. HBrO₄ (Halogen Effect)
+            section_type: core_theory
+      - lesson: Oxidation State Effects
+        sections:
+          - section_heading: Nitrogen Oxyacids - HNO₃ vs. HNO₂
+            section_type: core_theory
+          - section_heading: Sulfur Oxyacids - H₂SO₄ vs. H₂SO₃
+            section_type: core_theory
+          - section_heading: Chlorine Oxyacids - HClO₄, HClO₃, HClO₂, HClO
+            section_type: core_theory
+          - section_heading: Pauling Rules for Oxyacid pKa Prediction
+            section_type: core_theory
+      - lesson: Inductive Effects
+        sections:
+          - section_heading: Electron-Withdrawing Groups and Acid Strength
+            section_type: core_theory
+          - section_heading: Electron-Donating Groups and Reduced Acidity
+            section_type: core_theory
+          - section_heading: Carboxylic Acids - CF₃COOH vs. CH₃COOH
+            section_type: core_theory
+          - section_heading: Phenols - OH vs. NO₂ Substituent Effects
+            section_type: core_theory
+      - lesson: Resonance Stabilization
+        sections:
+          - section_heading: Delocalization of Negative Charge in Conjugate Base
+            section_type: core_theory
+          - section_heading: Carboxylate Anion Resonance (RCOO⁻)
+            section_type: core_theory
+          - section_heading: Phenoxide Anion Stabilization
+            section_type: core_theory
+          - section_heading: Effect on pKa Reduction
+            section_type: core_theory
+      - lesson: Size Effects on Base Strength
+        sections:
+          - section_heading: Halide Basicity - F⁻ > Cl⁻ > Br⁻ > I⁻
+            section_type: core_theory
+          - section_heading: Charge Density and Stabilization
+            section_type: core_theory
+          - section_heading: Hydration Energy Effects
+            section_type: core_theory
+          - section_heading: Anomalies and Explanations
+            section_type: core_theory
+      - lesson: Combined Effects and Predictions
+        sections:
+          - section_heading: Competing Factors in pKa Prediction
+            section_type: core_theory
+          - section_heading: Quantitative Structure-Activity Relationships (QSAR)
+            section_type: related_concepts
+          - section_heading: Problem-Solving with Multiple Factors
+            section_type: core_theory
+    milestone: Predict acid-base strength from structural features
+    duration_days: 11
+    tags:
+      - electronegativity
+      - inductive_effects
+      - resonance
+      - structure_property
+      - Pauling_rules
+
+  - id: 10
+    topic: Quantitative Problem-Solving and Calculations
+    learning_objectives:
+      - Solve complex acid-base equilibrium problems
+      - Calculate pH for various acid-base systems
+      - Perform titration calculations
+      - Address common problem types systematically
+    textbook_style_content:
+      - lesson: Strong Acid-Base Calculations
+        sections:
+          - section_heading: pH of Strong Acid Solutions
+            section_type: core_theory
+          - section_heading: pOH of Strong Base Solutions
+            section_type: core_theory
+          - section_heading: pH After Mixing Acid and Base
+            section_type: core_theory
+          - section_heading: Dilution Effects on pH
+            section_type: core_theory
+      - lesson: Weak Acid Equilibrium Problems
+        sections:
+          - section_heading: Ka Expression and Relationship to pH
+            section_type: core_theory
+          - section_heading: Approximation Method for Weak Acids
+            section_type: core_theory
+          - section_heading: When Approximation Fails (5% Rule)
+            section_type: core_theory
+          - section_heading: Quadratic Equation Solutions
+            section_type: core_theory
+      - lesson: Weak Base Equilibrium Problems
+        sections:
+          - section_heading: Kb Expression and Relationship to pOH
+            section_type: core_theory
+          - section_heading: Approximation Method for Weak Bases
+            section_type: core_theory
+          - section_heading: Exact vs. Approximate Solutions
+            section_type: core_theory
+          - section_heading: Ammonia and Amine Base Calculations
+            section_type: core_theory
+      - lesson: Buffer Calculations
+        sections:
+          - section_heading: Henderson-Hasselbalch Equation Application
+            section_type: core_theory
+          - section_heading: Buffer Capacity and Range
+            section_type: core_theory
+          - section_heading: pH Change Upon Adding Acid or Base
+            section_type: core_theory
+          - section_heading: Buffer Design Problems
+            section_type: core_theory
+      - lesson: Salt Hydrolysis Calculations
+        sections:
+          - section_heading: Weak Acid Salt Hydrolysis (pH > 7)
+            section_type: core_theory
+          - section_heading: Weak Base Salt Hydrolysis (pH < 7)
+            section_type: core_theory
+          - section_heading: Amphiprotic Salt pH Calculations
+            section_type: core_theory
+          - section_heading: Multiple Hydrolysis Equilibria
+            section_type: core_theory
+      - lesson: Titration Stoichiometry and Calculations
+        sections:
+          - section_heading: Moles at Equivalence Point
+            section_type: core_theory
+          - section_heading: Molarity and Volume Calculations
+            section_type: core_theory
+          - section_heading: Endpoint vs. Equivalence Point Distinction
+            section_type: core_theory
+          - section_heading: Percent Purity and Assay Calculations
+            section_type: core_theory
+    milestone: Solve complex acid-base problems systematically
+    duration_days: 12
+    tags:
+      - calculations
+      - problem_solving
+      - pH
+      - equilibrium
+      - quantitative
+
+  - id: 11
+    topic: Comprehensive Integration and GATE Examination Preparation
+    learning_objectives:
+      - Integrate all acid-base concepts and theories
+      - Compare and choose appropriate concepts for given scenarios
+      - Solve multi-concept complex problems
+      - Achieve examination readiness
+    textbook_style_content:
+      - lesson: Comparative Analysis of Acid-Base Theories
+        sections:
+          - section_heading: When to Use Brønsted Theory
+            section_type: core_theory
+          - section_heading: When to Use Lewis Theory
+            section_type: core_theory
+          - section_heading: Advantages and Limitations of Each
+            section_type: core_theory
+          - section_heading: Integrated Problem-Solving Approach
+            section_type: core_theory
+      - lesson: Predicting Reaction Outcomes
+        sections:
+          - section_heading: Brønsted Acid-Base Reactions
+            section_type: core_theory
+          - section_heading: Lewis Acid-Base Adduct Formation
+            section_type: core_theory
+          - section_heading: HSAB Prediction of Products
+            section_type: core_theory
+          - section_heading: Multi-Step Reaction Analysis
+            section_type: core_theory
+      - lesson: Complex System Analysis
+        sections:
+          - section_heading: Polyprotic Acid Solutions
+            section_type: core_theory
+          - section_heading: Buffer Systems with Weak Acid Mixtures
+            section_type: core_theory
+          - section_heading: Competing Equilibria
+            section_type: core_theory
+          - section_heading: Non-Aqueous Systems
+            section_type: core_theory
+      - lesson: Reaction Mechanism Analysis
+        sections:
+          - section_heading: Acid-Base Catalysis in Multi-Step Mechanisms
+            section_type: core_theory
+          - section_heading: Rate-Determining Step and pH Dependence
+            section_type: core_theory
+          - section_heading: Proton Transfer as Elementary Step
+            section_type: core_theory
+          - section_heading: Enzyme Catalysis Applications
+            section_type: related_concepts
+      - lesson: GATE Problem Types Workshop
+        sections:
+          - section_heading: Theoretical Questions on Acid-Base Definitions
+            section_type: core_theory
+          - section_heading: Quantitative pH and pKa Calculations
+            section_type: core_theory
+          - section_heading: Titration Curve Analysis and Indicator Selection
+            section_type: core_theory
+          - section_heading: HSAB Principle Application Problems
+            section_type: core_theory
+          - section_heading: Catalysis Mechanism Prediction
+            section_type: core_theory
+      - lesson: Common Pitfalls and Misconceptions
+        sections:
+          - section_heading: Confusion Between Ka, Kb, and Kw
+            section_type: core_theory
+          - section_heading: Approximation Validity Criteria
+            section_type: core_theory
+          - section_heading: Buffer Capacity Misconceptions
+            section_type: core_theory
+          - section_heading: Lewis vs. Brønsted Theory Scope Issues
+            section_type: core_theory
+    milestone: Demonstrate comprehensive mastery for GATE examination
+    duration_days: 13
+    tags:
+      - integration
+      - GATE_preparation
+      - problem_solving
+      - comprehensive_review
+      - misconceptions

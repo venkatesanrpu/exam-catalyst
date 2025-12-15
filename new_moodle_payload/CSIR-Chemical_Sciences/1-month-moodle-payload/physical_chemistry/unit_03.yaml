@@ -1,0 +1,511 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: Atomic structure and spectroscopy; term symbols; many-electron systems and antisymmetry principle.
+
+concepts:
+  core:
+    - name: Atomic structure
+      clarifier: Electronic configurations, orbital energies, radial and angular wavefunctions
+    - name: Atomic spectroscopy
+      clarifier: Electronic transitions, selection rules, spectroscopic notation
+    - name: Term symbols
+      clarifier: Russell-Saunders coupling, L-S notation, ground state determination
+    - name: Many-electron systems
+      clarifier: Electron-electron repulsion, correlation effects, configuration interaction
+    - name: Antisymmetry principle
+      clarifier: Pauli exclusion principle, Slater determinants, exchange symmetry
+  related:
+    - name: Quantum mechanical foundations
+      clarifier: Operators, eigenvalues, wavefunctions, probability interpretation
+    - name: Angular momentum theory
+      clarifier: Orbital angular momentum, spin angular momentum, coupling schemes
+    - name: Hydrogen atom solutions
+      clarifier: Energy levels, quantum numbers, degeneracy
+    - name: Perturbation theory
+      clarifier: First-order corrections, degenerate perturbation theory
+    - name: Spin-orbit coupling
+      clarifier: Fine structure, j-j coupling, relativistic effects
+    - name: Hund's rules
+      clarifier: Maximum multiplicity, maximum orbital angular momentum
+    - name: Multi-electron approximations
+      clarifier: Central field approximation, self-consistent field methods
+
+learning_path:
+  - id: 1
+    title: Quantum Mechanical Framework for Atoms
+    learning_objectives:
+      - Understand the operator formalism and wavefunction representation in quantum mechanics
+      - Master the Schrödinger equation and its application to atomic systems
+      - Recognize the role of quantum numbers in describing atomic states
+      - Apply boundary conditions and normalization to atomic wavefunctions
+    textbook_style_content:
+      - topic: Quantum Mechanics Foundations
+        sections:
+          - section_title: Postulates of Quantum Mechanics
+            section_type: overview
+          - section_title: Operators and Observables
+            section_type: core_theory
+          - section_title: Wavefunction Interpretation and Probability
+            section_type: core_theory
+          - section_title: Commutation Relations and Uncertainty
+            section_type: related_concepts
+      - topic: Time-Independent Schrödinger Equation
+        sections:
+          - section_title: General Form and Physical Significance
+            section_type: core_theory
+          - section_title: Particle in Potential Wells
+            section_type: related_concepts
+          - section_title: Boundary Conditions and Quantum Numbers
+            section_type: core_theory
+    milestone: Establish quantum mechanical language and mathematical tools required for atomic structure analysis
+    duration_days: 5
+    tags:
+      - quantum mechanics
+      - operators
+      - wavefunctions
+      - foundations
+
+  - id: 2
+    title: Hydrogen Atom and One-Electron Systems
+    learning_objectives:
+      - Solve the Schrödinger equation for hydrogen-like atoms
+      - Interpret quantum numbers n, l, m_l and their physical meanings
+      - Understand radial and angular parts of atomic wavefunctions
+      - Calculate energy levels and degeneracy for one-electron systems
+    textbook_style_content:
+      - topic: Hydrogen Atom Solutions
+        sections:
+          - section_title: Separation of Variables in Spherical Coordinates
+            section_type: overview
+          - section_title: Radial Equation and Solutions
+            section_type: core_theory
+          - section_title: Angular Momentum and Spherical Harmonics
+            section_type: core_theory
+          - section_title: Energy Eigenvalues and Quantum Numbers
+            section_type: core_theory
+      - topic: Atomic Orbitals
+        sections:
+          - section_title: Orbital Shapes and Nodal Properties
+            section_type: core_theory
+          - section_title: Probability Densities and Radial Distribution
+            section_type: related_concepts
+          - section_title: Hydrogen-Like Ions and Effective Nuclear Charge
+            section_type: related_concepts
+    milestone: Master the complete quantum mechanical description of single-electron atomic systems
+    duration_days: 6
+    tags:
+      - hydrogen atom
+      - atomic orbitals
+      - quantum numbers
+      - wavefunctions
+
+  - id: 3
+    title: Angular Momentum Theory
+    learning_objectives:
+      - Derive angular momentum operators and their algebra
+      - Apply ladder operators to construct angular momentum eigenstates
+      - Understand orbital and spin angular momentum independently
+      - Master the addition of angular momenta using Clebsch-Gordan coefficients
+    textbook_style_content:
+      - topic: Orbital Angular Momentum
+        sections:
+          - section_title: Angular Momentum Operators and Commutation Relations
+            section_type: core_theory
+          - section_title: Eigenvalues and Quantum Numbers l and m_l
+            section_type: core_theory
+          - section_title: Ladder Operators and Matrix Elements
+            section_type: related_concepts
+      - topic: Spin Angular Momentum
+        sections:
+          - section_title: Intrinsic Angular Momentum of Electrons
+            section_type: overview
+          - section_title: Spin Operators and Pauli Matrices
+            section_type: core_theory
+          - section_title: Spin States and Quantum Numbers s and m_s
+            section_type: core_theory
+      - topic: Addition of Angular Momenta
+        sections:
+          - section_title: Coupling Schemes and Vector Model
+            section_type: overview
+          - section_title: Clebsch-Gordan Coefficients
+            section_type: related_concepts
+          - section_title: Total Angular Momentum Quantum Numbers
+            section_type: core_theory
+    milestone: Develop expertise in angular momentum quantum mechanics essential for multi-electron atoms
+    duration_days: 7
+    tags:
+      - angular momentum
+      - spin
+      - coupling
+      - operators
+
+  - id: 4
+    title: Many-Electron Atoms and Antisymmetry
+    learning_objectives:
+      - Understand the limitations of independent particle models for many-electron atoms
+      - Apply the antisymmetry principle to construct proper electronic wavefunctions
+      - Construct Slater determinants for multi-electron configurations
+      - Recognize the role of electron exchange and correlation
+    textbook_style_content:
+      - topic: Many-Electron Hamiltonian
+        sections:
+          - section_title: Electron-Electron Repulsion Terms
+            section_type: overview
+          - section_title: Central Field Approximation
+            section_type: related_concepts
+          - section_title: Screening and Effective Nuclear Charge
+            section_type: related_concepts
+      - topic: Antisymmetry Principle
+        sections:
+          - section_title: Pauli Exclusion Principle
+            section_type: core_theory
+          - section_title: Fermion Wavefunction Symmetry
+            section_type: core_theory
+          - section_title: Exchange Symmetry and Electronic States
+            section_type: core_theory
+      - topic: Slater Determinants
+        sections:
+          - section_title: Construction of Antisymmetric Wavefunctions
+            section_type: core_theory
+          - section_title: Properties of Slater Determinants
+            section_type: core_theory
+          - section_title: Two-Electron Systems and Singlet-Triplet States
+            section_type: related_concepts
+    milestone: Master the quantum mechanical treatment of electron indistinguishability and antisymmetry
+    duration_days: 6
+    tags:
+      - many-electron systems
+      - antisymmetry
+      - Slater determinants
+      - Pauli principle
+
+  - id: 5
+    title: Electronic Configurations and Atomic Structure
+    learning_objectives:
+      - Determine ground state electronic configurations using the Aufbau principle
+      - Apply Hund's rules to predict ground state terms
+      - Understand the origin of exchange energy and electron correlation
+      - Calculate orbital energies in multi-electron atoms
+    textbook_style_content:
+      - topic: Aufbau Principle and Configuration Building
+        sections:
+          - section_title: Orbital Energy Ordering in Multi-Electron Atoms
+            section_type: overview
+          - section_title: Electronic Configurations of Elements
+            section_type: core_theory
+          - section_title: Exceptions to Aufbau Principle
+            section_type: related_concepts
+      - topic: Hund's Rules
+        sections:
+          - section_title: Empirical Rules for Ground State Determination
+            section_type: overview
+          - section_title: Maximum Multiplicity Rule
+            section_type: core_theory
+          - section_title: Maximum Orbital Angular Momentum Rule
+            section_type: core_theory
+          - section_title: Spin-Orbit Coupling Rule
+            section_type: related_concepts
+      - topic: Exchange and Correlation Effects
+        sections:
+          - section_title: Exchange Energy and Parallel Spin Stabilization
+            section_type: core_theory
+          - section_title: Electron Correlation and Configuration Interaction
+            section_type: core_theory
+          - section_title: Self-Consistent Field Methods
+            section_type: related_concepts
+    milestone: Apply antisymmetry and angular momentum principles to determine atomic structure
+    duration_days: 5
+    tags:
+      - electronic configurations
+      - Hund's rules
+      - exchange energy
+      - atomic structure
+
+  - id: 6
+    title: Russell-Saunders Term Symbols
+    learning_objectives:
+      - Derive term symbols using L-S coupling scheme
+      - Calculate total orbital and spin angular momentum quantum numbers
+      - Determine microstates and construct term diagrams
+      - Identify ground state terms using Hund's rules
+    textbook_style_content:
+      - topic: L-S Coupling Scheme
+        sections:
+          - section_title: Russell-Saunders Coupling Overview
+            section_type: overview
+          - section_title: Coupling of Orbital Angular Momenta
+            section_type: core_theory
+          - section_title: Coupling of Spin Angular Momenta
+            section_type: core_theory
+          - section_title: Total Angular Momentum J
+            section_type: core_theory
+      - topic: Term Symbol Notation
+        sections:
+          - section_title: General Form 2S+1LJ
+            section_type: core_theory
+          - section_title: Spectroscopic Letter Notation for L
+            section_type: core_theory
+          - section_title: Multiplicity and Degeneracy
+            section_type: core_theory
+      - topic: Deriving Term Symbols
+        sections:
+          - section_title: Microstate Analysis Method
+            section_type: overview
+          - section_title: Systematic Term Symbol Determination
+            section_type: core_theory
+          - section_title: Equivalent Electrons and Term Restrictions
+            section_type: core_theory
+          - section_title: Examples for p², d³, and Other Configurations
+            section_type: related_concepts
+    milestone: Master the complete procedure for determining term symbols from electronic configurations
+    duration_days: 7
+    tags:
+      - term symbols
+      - Russell-Saunders coupling
+      - L-S coupling
+      - spectroscopic notation
+
+  - id: 7
+    title: Ground State Term Determination
+    learning_objectives:
+      - Apply Hund's rules systematically to identify ground state terms
+      - Understand the energy ordering of terms arising from a configuration
+      - Calculate L, S, and J values for ground states
+      - Predict magnetic properties from ground state terms
+    textbook_style_content:
+      - topic: Application of Hund's Rules to Term Symbols
+        sections:
+          - section_title: Energy Ordering of Terms
+            section_type: overview
+          - section_title: Maximum Multiplicity for Ground State
+            section_type: core_theory
+          - section_title: Maximum L Value Selection
+            section_type: core_theory
+          - section_title: J Value Selection Based on Subshell Filling
+            section_type: core_theory
+      - topic: Ground State Examples
+        sections:
+          - section_title: First Transition Series Elements
+            section_type: related_concepts
+          - section_title: Lanthanides and f-Electron Systems
+            section_type: related_concepts
+          - section_title: Verification with Spectroscopic Data
+            section_type: related_concepts
+      - topic: Physical Significance of Terms
+        sections:
+          - section_title: Magnetic Moment Calculations
+            section_type: core_theory
+          - section_title: Paramagnetic vs Diamagnetic Behavior
+            section_type: related_concepts
+    milestone: Confidently determine and interpret ground state term symbols for any atomic configuration
+    duration_days: 4
+    tags:
+      - ground state
+      - Hund's rules
+      - term symbols
+      - magnetic properties
+
+  - id: 8
+    title: Atomic Spectroscopy Fundamentals
+    learning_objectives:
+      - Understand electronic transitions between atomic energy levels
+      - Apply selection rules for allowed optical transitions
+      - Interpret atomic spectra using term symbols
+      - Calculate transition energies and frequencies
+    textbook_style_content:
+      - topic: Electronic Transitions
+        sections:
+          - section_title: Excitation and Emission Processes
+            section_type: overview
+          - section_title: Energy Level Diagrams and Term Schemes
+            section_type: core_theory
+          - section_title: Transition Probabilities and Lifetimes
+            section_type: related_concepts
+      - topic: Selection Rules
+        sections:
+          - section_title: Derivation from Transition Dipole Moment
+            section_type: overview
+          - section_title: ΔL, ΔS, and ΔJ Selection Rules
+            section_type: core_theory
+          - section_title: Parity Selection Rules
+            section_type: core_theory
+          - section_title: Forbidden Transitions and Relaxation
+            section_type: related_concepts
+      - topic: Spectroscopic Analysis
+        sections:
+          - section_title: Line Spectra and Series
+            section_type: core_theory
+          - section_title: Spectroscopic Notation and Labeling
+            section_type: core_theory
+          - section_title: Intensity Patterns and Multiplicity
+            section_type: related_concepts
+    milestone: Apply term symbol framework to understand and predict atomic spectroscopic phenomena
+    duration_days: 6
+    tags:
+      - atomic spectroscopy
+      - selection rules
+      - transitions
+      - spectra
+
+  - id: 9
+    title: Fine Structure and Spin-Orbit Coupling
+    learning_objectives:
+      - Understand the origin of fine structure in atomic spectra
+      - Apply spin-orbit coupling theory to calculate energy splittings
+      - Distinguish between L-S and j-j coupling regimes
+      - Calculate fine structure constants and intervals
+    textbook_style_content:
+      - topic: Spin-Orbit Interaction
+        sections:
+          - section_title: Physical Origin and Relativistic Effects
+            section_type: overview
+          - section_title: Spin-Orbit Coupling Operator
+            section_type: core_theory
+          - section_title: Energy Contribution to Term Splitting
+            section_type: core_theory
+      - topic: Fine Structure Analysis
+        sections:
+          - section_title: Splitting of Terms into Levels
+            section_type: core_theory
+          - section_title: Landé Interval Rule
+            section_type: core_theory
+          - section_title: Fine Structure Constant Calculation
+            section_type: related_concepts
+      - topic: Alternative Coupling Schemes
+        sections:
+          - section_title: j-j Coupling for Heavy Atoms
+            section_type: overview
+          - section_title: Intermediate Coupling Cases
+            section_type: related_concepts
+          - section_title: Comparison of L-S and j-j Coupling
+            section_type: related_concepts
+    milestone: Extend term symbol theory to include spin-orbit effects and fine structure
+    duration_days: 5
+    tags:
+      - spin-orbit coupling
+      - fine structure
+      - j-j coupling
+      - energy levels
+
+  - id: 10
+    title: Multi-Electron Correlation and Configuration Interaction
+    learning_objectives:
+      - Understand electron correlation beyond the independent particle model
+      - Apply configuration interaction method to improve wavefunction accuracy
+      - Recognize the role of electron correlation in atomic properties
+      - Evaluate the accuracy of different approximation methods
+    textbook_style_content:
+      - topic: Electron Correlation Effects
+        sections:
+          - section_title: Limitations of Hartree-Fock Theory
+            section_type: overview
+          - section_title: Dynamic and Static Correlation
+            section_type: core_theory
+          - section_title: Correlation Energy Definition
+            section_type: core_theory
+      - topic: Configuration Interaction
+        sections:
+          - section_title: Linear Combination of Configurations
+            section_type: core_theory
+          - section_title: CI Matrix Elements and Diagonalization
+            section_type: related_concepts
+          - section_title: Full CI and Truncated CI Methods
+            section_type: related_concepts
+      - topic: Many-Electron Methods
+        sections:
+          - section_title: Coupled Cluster Theory
+            section_type: related_concepts
+          - section_title: Density Functional Theory for Atoms
+            section_type: related_concepts
+          - section_title: Comparison of Multi-Electron Approximations
+            section_type: overview
+    milestone: Appreciate advanced treatments of electron correlation in many-electron atomic systems
+    duration_days: 5
+    tags:
+      - electron correlation
+      - configuration interaction
+      - many-electron systems
+      - advanced methods
+
+  - id: 11
+    title: Complex Spectra and Multiplet Splitting
+    learning_objectives:
+      - Analyze complex atomic spectra with multiple terms
+      - Understand the origin of multiplet structure in spectra
+      - Interpret spectroscopic data for many-electron atoms
+      - Connect term symbols to observed spectral lines
+    textbook_style_content:
+      - topic: Multiplet Structure
+        sections:
+          - section_title: Energy Level Splittings in Multi-Electron Atoms
+            section_type: overview
+          - section_title: Multiplet Terms and J-Levels
+            section_type: core_theory
+          - section_title: Spectral Line Intensity Patterns
+            section_type: core_theory
+      - topic: Complex Atomic Spectra
+        sections:
+          - section_title: Alkali Metal Spectra and Fine Structure
+            section_type: related_concepts
+          - section_title: Transition Metal Spectra
+            section_type: related_concepts
+          - section_title: Rare Earth Element Spectra
+            section_type: related_concepts
+      - topic: Advanced Spectroscopic Phenomena
+        sections:
+          - section_title: Hyperfine Structure
+            section_type: overview
+          - section_title: Zeeman and Stark Effects
+            section_type: related_concepts
+          - section_title: Autoionization and Rydberg States
+            section_type: related_concepts
+    milestone: Master the interpretation of real atomic spectra using comprehensive term symbol analysis
+    duration_days: 6
+    tags:
+      - multiplet structure
+      - complex spectra
+      - spectroscopic analysis
+      - transition metals
+
+  - id: 12
+    title: Integration and Problem Solving
+    learning_objectives:
+      - Synthesize all concepts to solve complex problems
+      - Apply term symbol theory to predict atomic properties
+      - Analyze CSIR-level examination problems systematically
+      - Connect atomic structure theory to experimental observations
+    textbook_style_content:
+      - topic: Comprehensive Problem Types
+        sections:
+          - section_title: Configuration to Term Symbol Problems
+            section_type: overview
+          - section_title: Ground State Determination Exercises
+            section_type: core_theory
+          - section_title: Selection Rule and Transition Problems
+            section_type: core_theory
+          - section_title: Spectroscopic Analysis Questions
+            section_type: core_theory
+      - topic: Advanced Integration
+        sections:
+          - section_title: Combining Antisymmetry and Angular Momentum
+            section_type: core_theory
+          - section_title: Multi-Step Problems Involving Multiple Concepts
+            section_type: related_concepts
+          - section_title: Numerical Calculations and Estimations
+            section_type: related_concepts
+      - topic: CSIR Examination Strategy
+        sections:
+          - section_title: Common Question Patterns
+            section_type: overview
+          - section_title: Time Management and Approach
+            section_type: related_concepts
+          - section_title: Verification and Error Checking
+            section_type: related_concepts
+    milestone: Achieve comprehensive mastery of atomic structure and spectroscopy for CSIR examination
+    duration_days: 7
+    tags:
+      - problem solving
+      - integration
+      - CSIR preparation
+      - examination strategy

@@ -1,0 +1,774 @@
+metadata:
+  subject: physical chemistry
+  target: CSIR Chemical Sciences
+  syllabus_line: "Chemical kinetics: Empirical rate laws and temperature dependence; complex reactions; steady state approximation; determination of reaction mechanisms; collision and transition state theories of rate constants; unimolecular reactions; enzyme kinetics; salt effects; homogeneous catalysis; photochemical reactions."
+
+concepts:
+  core:
+    - name: Rate laws and reaction order
+      clarifier: Mathematical expressions describing reaction rate dependence on concentration; zero, first, second, and nth order kinetics
+    - name: Temperature dependence of rate constants
+      clarifier: Arrhenius equation, activation energy, pre-exponential factor, and temperature coefficient
+    - name: Complex reaction mechanisms
+      clarifier: Elementary steps, molecularity, parallel, consecutive, and reversible reactions
+    - name: Steady state approximation
+      clarifier: Mathematical treatment of reactive intermediates with constant concentration during reaction
+    - name: Collision theory
+      clarifier: Kinetic molecular theory applied to bimolecular reactions; collision frequency, orientation factor, and steric factor
+    - name: Transition state theory
+      clarifier: Activated complex, Eyring equation, thermodynamic formulation of rate constants
+    - name: Unimolecular reactions
+      clarifier: Lindemann-Hinshelwood mechanism, pressure dependence, RRKM theory
+    - name: Enzyme kinetics
+      clarifier: Michaelis-Menten mechanism, Lineweaver-Burk plot, enzyme inhibition types
+    - name: Salt effects on reaction rates
+      clarifier: Primary and secondary salt effects, ionic strength influence on rate constants
+    - name: Homogeneous catalysis
+      clarifier: Acid-base catalysis, specific and general catalysis, catalytic mechanisms
+    - name: Photochemical reactions
+      clarifier: Light absorption, quantum yield, primary and secondary photochemical processes
+  related:
+    - name: Integrated rate equations
+      clarifier: Time-dependent concentration expressions for different reaction orders
+    - name: Half-life and reaction lifetime
+      clarifier: Time required for reactant concentration to decrease by specified amounts
+    - name: Pseudo-order reactions
+      clarifier: Simplification of rate laws when one reactant is in large excess
+    - name: Chain reactions
+      clarifier: Initiation, propagation, branching, and termination steps in radical mechanisms
+    - name: Explosive reactions
+      clarifier: Thermal and chain branching explosions, explosion limits
+    - name: Pre-equilibrium approximation
+      clarifier: Fast equilibrium followed by slow step in sequential reactions
+    - name: Reaction coordinate diagrams
+      clarifier: Energy profiles showing reactants, transition states, intermediates, and products
+    - name: Kinetic and thermodynamic control
+      clarifier: Product distribution based on reaction rates versus stability
+    - name: Isotope effects
+      clarifier: Primary and secondary kinetic isotope effects in mechanism determination
+    - name: Debye-Hückel theory
+      clarifier: Activity coefficients and ionic atmosphere effects on charged species
+    - name: Brønsted catalysis law
+      clarifier: Relationship between catalytic constant and acid-base strength
+    - name: Photosensitization
+      clarifier: Energy transfer processes in photochemical reactions
+    - name: Fluorescence and phosphorescence
+      clarifier: Radiative deactivation processes and Jablonski diagram
+
+learning_path:
+  - id: 1
+    title: Fundamentals of Rate Laws and Empirical Kinetics
+    learning_objectives:
+      - Define reaction rate and understand the factors affecting reaction velocity
+      - Derive and apply integrated rate equations for zero, first, and second order reactions
+      - Determine reaction order from experimental data using differential and integral methods
+      - Calculate half-lives and relate them to reaction order and rate constants
+    textbook_style_content:
+      - topic: Introduction to Chemical Kinetics
+        sections:
+          - section_title: Definition and Scope of Chemical Kinetics
+            section_type: overview
+          - section_title: Rate of Reaction and Rate Laws
+            section_type: core_theory
+          - section_title: Reaction Order and Rate Constants
+            section_type: core_theory
+      - topic: Zero Order Reactions
+        sections:
+          - section_title: Characteristics of Zero Order Kinetics
+            section_type: core_theory
+          - section_title: Integrated Rate Equation for Zero Order
+            section_type: core_theory
+          - section_title: Half-life of Zero Order Reactions
+            section_type: core_theory
+      - topic: First Order Reactions
+        sections:
+          - section_title: First Order Kinetics and Exponential Decay
+            section_type: core_theory
+          - section_title: Derivation of Integrated Rate Law
+            section_type: core_theory
+          - section_title: Half-life Independence from Initial Concentration
+            section_type: core_theory
+          - section_title: Radioactive Decay as First Order Process
+            section_type: related_concepts
+      - topic: Second Order Reactions
+        sections:
+          - section_title: Types of Second Order Reactions
+            section_type: core_theory
+          - section_title: Integrated Rate Laws for Second Order
+            section_type: core_theory
+          - section_title: Half-life Dependence on Initial Concentration
+            section_type: core_theory
+      - topic: Determination of Reaction Order
+        sections:
+          - section_title: Differential Method and Initial Rates
+            section_type: core_theory
+          - section_title: Integral Method and Graphical Analysis
+            section_type: core_theory
+          - section_title: Half-life Method
+            section_type: core_theory
+          - section_title: Pseudo-Order Reactions and Isolation Method
+            section_type: related_concepts
+    milestone: Master empirical rate laws and experimental determination of reaction orders
+    duration_days: 7
+    tags:
+      - rate laws
+      - reaction order
+      - integrated rate equations
+      - half-life
+      - experimental methods
+
+  - id: 2
+    title: Temperature Dependence and Activation Energy
+    learning_objectives:
+      - Apply the Arrhenius equation to relate rate constants with temperature
+      - Calculate activation energy from experimental kinetic data
+      - Understand the physical significance of pre-exponential factor and activation energy
+      - Analyze the effect of temperature on reaction rates quantitatively
+    textbook_style_content:
+      - topic: Arrhenius Equation
+        sections:
+          - section_title: Empirical Temperature Dependence of Rate Constants
+            section_type: overview
+          - section_title: Derivation and Form of Arrhenius Equation
+            section_type: core_theory
+          - section_title: Activation Energy and Its Physical Meaning
+            section_type: core_theory
+          - section_title: Pre-exponential Factor and Frequency of Collisions
+            section_type: core_theory
+      - topic: Experimental Determination of Activation Energy
+        sections:
+          - section_title: Arrhenius Plot Method
+            section_type: core_theory
+          - section_title: Two-Temperature Method
+            section_type: core_theory
+          - section_title: Sources of Error in Ea Determination
+            section_type: related_concepts
+      - topic: Temperature Coefficient and Rule of Thumb
+        sections:
+          - section_title: Van't Hoff Temperature Rule
+            section_type: related_concepts
+          - section_title: Relationship Between Temperature Coefficient and Ea
+            section_type: core_theory
+      - topic: Modified Arrhenius Equations
+        sections:
+          - section_title: Temperature Dependence of Pre-exponential Factor
+            section_type: related_concepts
+          - section_title: Three-Parameter Arrhenius Equation
+            section_type: related_concepts
+    milestone: Quantitatively analyze temperature effects and calculate activation energies
+    duration_days: 5
+    tags:
+      - Arrhenius equation
+      - activation energy
+      - temperature dependence
+      - pre-exponential factor
+
+  - id: 3
+    title: Complex Reaction Mechanisms
+    learning_objectives:
+      - Distinguish between elementary and complex reactions
+      - Analyze parallel, consecutive, and reversible reaction systems
+      - Derive rate expressions for complex mechanisms
+      - Apply the principle of microscopic reversibility
+    textbook_style_content:
+      - topic: Elementary Reactions and Molecularity
+        sections:
+          - section_title: Definition of Elementary Steps
+            section_type: overview
+          - section_title: Molecularity versus Reaction Order
+            section_type: core_theory
+          - section_title: Unimolecular, Bimolecular, and Termolecular Steps
+            section_type: core_theory
+      - topic: Parallel Reactions
+        sections:
+          - section_title: Competing First Order Pathways
+            section_type: core_theory
+          - section_title: Product Distribution in Parallel Reactions
+            section_type: core_theory
+          - section_title: Temperature Effects on Product Selectivity
+            section_type: related_concepts
+      - topic: Consecutive Reactions
+        sections:
+          - section_title: Sequential First Order Reactions
+            section_type: core_theory
+          - section_title: Formation and Decay of Intermediates
+            section_type: core_theory
+          - section_title: Time of Maximum Intermediate Concentration
+            section_type: core_theory
+      - topic: Reversible Reactions
+        sections:
+          - section_title: Forward and Reverse Rate Constants
+            section_type: core_theory
+          - section_title: Approach to Equilibrium
+            section_type: core_theory
+          - section_title: Relationship Between Equilibrium Constant and Rate Constants
+            section_type: core_theory
+          - section_title: Principle of Microscopic Reversibility
+            section_type: related_concepts
+      - topic: Chain Reactions
+        sections:
+          - section_title: Initiation, Propagation, and Termination Steps
+            section_type: related_concepts
+          - section_title: Chain Length and Quantum Yield
+            section_type: related_concepts
+          - section_title: Branching Chains and Explosions
+            section_type: related_concepts
+    milestone: Analyze and solve kinetics problems involving complex multi-step mechanisms
+    duration_days: 8
+    tags:
+      - complex reactions
+      - parallel reactions
+      - consecutive reactions
+      - reversible reactions
+      - chain reactions
+      - molecularity
+
+  - id: 4
+    title: Steady State Approximation and Pre-Equilibrium
+    learning_objectives:
+      - Apply steady state approximation to derive rate laws for complex mechanisms
+      - Identify appropriate conditions for using steady state treatment
+      - Use pre-equilibrium approximation for fast equilibrium steps
+      - Compare steady state and pre-equilibrium approaches
+    textbook_style_content:
+      - topic: Steady State Approximation
+        sections:
+          - section_title: Concept of Reactive Intermediates
+            section_type: overview
+          - section_title: Mathematical Formulation of Steady State
+            section_type: core_theory
+          - section_title: Conditions for Validity of Steady State
+            section_type: core_theory
+          - section_title: Application to Hydrogen-Bromine Reaction
+            section_type: core_theory
+      - topic: Derivation of Rate Laws Using SSA
+        sections:
+          - section_title: General Procedure for Applying SSA
+            section_type: core_theory
+          - section_title: Lindemann Mechanism and SSA
+            section_type: core_theory
+          - section_title: Enzyme Kinetics and SSA
+            section_type: core_theory
+      - topic: Pre-Equilibrium Approximation
+        sections:
+          - section_title: Fast Equilibrium Before Rate-Determining Step
+            section_type: core_theory
+          - section_title: Derivation of Rate Laws Using Pre-Equilibrium
+            section_type: core_theory
+          - section_title: Comparison with Steady State Results
+            section_type: related_concepts
+      - topic: Rate-Determining Step
+        sections:
+          - section_title: Concept of Bottleneck in Reaction Pathway
+            section_type: related_concepts
+          - section_title: Identification of Rate-Determining Steps
+            section_type: core_theory
+    milestone: Master approximation methods for deriving rate laws from complex mechanisms
+    duration_days: 6
+    tags:
+      - steady state approximation
+      - pre-equilibrium
+      - reactive intermediates
+      - rate determining step
+
+  - id: 5
+    title: Determination of Reaction Mechanisms
+    learning_objectives:
+      - Design experiments to elucidate reaction mechanisms
+      - Use kinetic isotope effects to identify bond-breaking steps
+      - Analyze product distributions and stereochemistry
+      - Apply kinetic and non-kinetic methods for mechanism determination
+    textbook_style_content:
+      - topic: Experimental Approaches to Mechanism Determination
+        sections:
+          - section_title: Role of Kinetic Studies in Mechanism Elucidation
+            section_type: overview
+          - section_title: Rate Law Determination and Mechanism Consistency
+            section_type: core_theory
+          - section_title: Detection and Identification of Intermediates
+            section_type: core_theory
+      - topic: Kinetic Isotope Effects
+        sections:
+          - section_title: Primary Kinetic Isotope Effects
+            section_type: core_theory
+          - section_title: Secondary Kinetic Isotope Effects
+            section_type: core_theory
+          - section_title: Theoretical Basis of Isotope Effects
+            section_type: related_concepts
+          - section_title: Applications in Mechanism Studies
+            section_type: core_theory
+      - topic: Product Analysis and Stereochemistry
+        sections:
+          - section_title: Product Distribution Studies
+            section_type: core_theory
+          - section_title: Kinetic versus Thermodynamic Control
+            section_type: related_concepts
+          - section_title: Stereochemical Evidence for Mechanisms
+            section_type: related_concepts
+      - topic: Crossover Experiments and Labeling Studies
+        sections:
+          - section_title: Use of Isotopic Labels
+            section_type: core_theory
+          - section_title: Crossover Experiments
+            section_type: related_concepts
+      - topic: Reaction Coordinate Diagrams
+        sections:
+          - section_title: Energy Profiles for Reaction Pathways
+            section_type: related_concepts
+          - section_title: Transition States and Intermediates on Diagrams
+            section_type: core_theory
+          - section_title: Hammond Postulate
+            section_type: related_concepts
+    milestone: Apply multiple experimental techniques to propose and validate reaction mechanisms
+    duration_days: 7
+    tags:
+      - mechanism determination
+      - kinetic isotope effects
+      - intermediates
+      - product analysis
+      - reaction coordinate
+
+  - id: 6
+    title: Collision Theory of Reaction Rates
+    learning_objectives:
+      - Derive the collision theory expression for bimolecular rate constants
+      - Calculate collision frequencies and collision diameters
+      - Understand the role of orientation factor and steric hindrance
+      - Compare collision theory predictions with experimental values
+    textbook_style_content:
+      - topic: Kinetic Molecular Theory and Collisions
+        sections:
+          - section_title: Basic Postulates of Kinetic Theory
+            section_type: overview
+          - section_title: Collision Frequency in Gases
+            section_type: core_theory
+          - section_title: Mean Free Path and Collision Diameter
+            section_type: core_theory
+      - topic: Collision Theory for Bimolecular Reactions
+        sections:
+          - section_title: Derivation of Collision Theory Rate Expression
+            section_type: core_theory
+          - section_title: Energy Threshold and Activation Energy
+            section_type: core_theory
+          - section_title: Temperature Dependence in Collision Theory
+            section_type: core_theory
+      - topic: Steric Factor and Orientation Requirements
+        sections:
+          - section_title: Probability Factor in Collisions
+            section_type: core_theory
+          - section_title: Steric Hindrance and Molecular Complexity
+            section_type: core_theory
+          - section_title: Experimental Determination of Steric Factors
+            section_type: related_concepts
+      - topic: Limitations of Simple Collision Theory
+        sections:
+          - section_title: Comparison with Experimental Rate Constants
+            section_type: core_theory
+          - section_title: Reactions with Steric Factors Greater Than Unity
+            section_type: related_concepts
+          - section_title: Applicability to Solution Phase Reactions
+            section_type: related_concepts
+    milestone: Apply collision theory to calculate and interpret bimolecular rate constants
+    duration_days: 5
+    tags:
+      - collision theory
+      - collision frequency
+      - steric factor
+      - orientation factor
+      - bimolecular reactions
+
+  - id: 7
+    title: Transition State Theory and Activated Complex
+    learning_objectives:
+      - Understand the concept of activated complex and transition state
+      - Derive the Eyring equation for rate constants
+      - Calculate thermodynamic parameters of activation from kinetic data
+      - Compare transition state theory with collision theory
+    textbook_style_content:
+      - topic: Concept of Transition State
+        sections:
+          - section_title: Potential Energy Surfaces and Reaction Paths
+            section_type: overview
+          - section_title: Activated Complex at the Saddle Point
+            section_type: core_theory
+          - section_title: Distinction Between Transition State and Intermediate
+            section_type: core_theory
+      - topic: Eyring Equation and Absolute Rate Theory
+        sections:
+          - section_title: Statistical Mechanical Derivation of Rate Expression
+            section_type: core_theory
+          - section_title: Transmission Coefficient and Partition Functions
+            section_type: core_theory
+          - section_title: The Eyring Equation
+            section_type: core_theory
+          - section_title: Thermodynamic Formulation of Rate Constants
+            section_type: core_theory
+      - topic: Activation Parameters
+        sections:
+          - section_title: Enthalpy of Activation
+            section_type: core_theory
+          - section_title: Entropy of Activation
+            section_type: core_theory
+          - section_title: Free Energy of Activation
+            section_type: core_theory
+          - section_title: Relationship Between Arrhenius and Eyring Parameters
+            section_type: core_theory
+      - topic: Experimental Determination of Activation Parameters
+        sections:
+          - section_title: Eyring Plot Construction
+            section_type: core_theory
+          - section_title: Interpretation of Entropy of Activation
+            section_type: core_theory
+          - section_title: Volume of Activation in Solution Reactions
+            section_type: related_concepts
+      - topic: Linear Free Energy Relationships
+        sections:
+          - section_title: Hammett Equation
+            section_type: related_concepts
+          - section_title: Brønsted Catalysis Law
+            section_type: related_concepts
+    milestone: Master transition state theory and thermodynamic interpretation of rate constants
+    duration_days: 8
+    tags:
+      - transition state theory
+      - activated complex
+      - Eyring equation
+      - activation parameters
+      - enthalpy of activation
+      - entropy of activation
+
+  - id: 8
+    title: Unimolecular Reactions and Lindemann Theory
+    learning_objectives:
+      - Understand the paradox of unimolecular reactions
+      - Derive the Lindemann-Hinshelwood mechanism
+      - Analyze pressure dependence of unimolecular rate constants
+      - Apply RRKM theory concepts to unimolecular processes
+    textbook_style_content:
+      - topic: Nature of Unimolecular Reactions
+        sections:
+          - section_title: Examples of Unimolecular Gas Phase Reactions
+            section_type: overview
+          - section_title: The Unimolecular Problem
+            section_type: core_theory
+          - section_title: Energy Acquisition by Molecular Collisions
+            section_type: core_theory
+      - topic: Lindemann-Hinshelwood Mechanism
+        sections:
+          - section_title: Two-Step Mechanism with Activation and Deactivation
+            section_type: core_theory
+          - section_title: Derivation of Rate Expression Using SSA
+            section_type: core_theory
+          - section_title: High and Low Pressure Limiting Behaviors
+            section_type: core_theory
+      - topic: Pressure Dependence of Unimolecular Reactions
+        sections:
+          - section_title: First Order to Second Order Transition
+            section_type: core_theory
+          - section_title: Fall-off Region and Experimental Observations
+            section_type: core_theory
+          - section_title: Determination of High Pressure Rate Constant
+            section_type: related_concepts
+      - topic: Rice-Ramsperger-Kassel-Marcus Theory
+        sections:
+          - section_title: Energy Redistribution in Molecules
+            section_type: related_concepts
+          - section_title: Microcanonical Rate Constants
+            section_type: related_concepts
+          - section_title: Comparison of RRK and RRKM Theories
+            section_type: related_concepts
+      - topic: Strong Collision and Weak Collision Models
+        sections:
+          - section_title: Efficiency of Energy Transfer
+            section_type: related_concepts
+          - section_title: Modifications to Lindemann Theory
+            section_type: related_concepts
+    milestone: Explain pressure dependence and mechanism of unimolecular reactions
+    duration_days: 6
+    tags:
+      - unimolecular reactions
+      - Lindemann mechanism
+      - pressure dependence
+      - RRKM theory
+      - fall-off region
+
+  - id: 9
+    title: Enzyme Kinetics and Biological Catalysis
+    learning_objectives:
+      - Derive the Michaelis-Menten equation for enzyme catalysis
+      - Calculate kinetic parameters KM and Vmax from experimental data
+      - Analyze different types of enzyme inhibition
+      - Apply Lineweaver-Burk and other plots for data analysis
+    textbook_style_content:
+      - topic: Introduction to Enzyme Catalysis
+        sections:
+          - section_title: Enzymes as Biological Catalysts
+            section_type: overview
+          - section_title: Enzyme-Substrate Complex Formation
+            section_type: core_theory
+          - section_title: Specificity and Efficiency of Enzymes
+            section_type: core_theory
+      - topic: Michaelis-Menten Mechanism
+        sections:
+          - section_title: The E+S ⇌ ES → E+P Mechanism
+            section_type: core_theory
+          - section_title: Derivation Using Steady State Approximation
+            section_type: core_theory
+          - section_title: The Michaelis-Menten Equation
+            section_type: core_theory
+      - topic: Kinetic Parameters
+        sections:
+          - section_title: Michaelis Constant KM and Its Significance
+            section_type: core_theory
+          - section_title: Maximum Velocity Vmax and Turnover Number
+            section_type: core_theory
+          - section_title: Catalytic Efficiency kcat/KM
+            section_type: core_theory
+      - topic: Graphical Methods for Parameter Determination
+        sections:
+          - section_title: Lineweaver-Burk Plot (Double Reciprocal)
+            section_type: core_theory
+          - section_title: Eadie-Hofstee Plot
+            section_type: related_concepts
+          - section_title: Hanes-Woolf Plot
+            section_type: related_concepts
+          - section_title: Direct Fitting Methods
+            section_type: related_concepts
+      - topic: Enzyme Inhibition
+        sections:
+          - section_title: Competitive Inhibition Mechanism and Kinetics
+            section_type: core_theory
+          - section_title: Non-competitive Inhibition
+            section_type: core_theory
+          - section_title: Uncompetitive Inhibition
+            section_type: core_theory
+          - section_title: Mixed Inhibition
+            section_type: related_concepts
+          - section_title: Graphical Distinction of Inhibition Types
+            section_type: core_theory
+      - topic: Allosteric Enzymes and Cooperativity
+        sections:
+          - section_title: Sigmoidal Kinetics and Hill Equation
+            section_type: related_concepts
+          - section_title: Positive and Negative Cooperativity
+            section_type: related_concepts
+    milestone: Master enzyme kinetics and analyze catalytic mechanisms quantitatively
+    duration_days: 7
+    tags:
+      - enzyme kinetics
+      - Michaelis-Menten
+      - enzyme inhibition
+      - Lineweaver-Burk plot
+      - KM and Vmax
+
+  - id: 10
+    title: Salt Effects on Reaction Rates
+    learning_objectives:
+      - Understand primary and secondary salt effects on ionic reactions
+      - Apply Debye-Hückel theory to calculate activity coefficients
+      - Derive the Brønsted-Bjerrum equation for primary salt effect
+      - Analyze kinetic data to determine charges on transition states
+    textbook_style_content:
+      - topic: Ionic Strength and Activity
+        sections:
+          - section_title: Definition of Ionic Strength
+            section_type: overview
+          - section_title: Activity and Activity Coefficients
+            section_type: core_theory
+          - section_title: Debye-Hückel Limiting Law
+            section_type: core_theory
+          - section_title: Extended Debye-Hückel Equation
+            section_type: related_concepts
+      - topic: Primary Salt Effect
+        sections:
+          - section_title: Effect of Ionic Strength on Reactions Between Ions
+            section_type: core_theory
+          - section_title: Transition State and Activity Coefficients
+            section_type: core_theory
+          - section_title: Brønsted-Bjerrum Equation
+            section_type: core_theory
+          - section_title: Derivation from Transition State Theory
+            section_type: core_theory
+      - topic: Kinetic Salt Effect and Charge Determination
+        sections:
+          - section_title: Log k versus Square Root of Ionic Strength Plots
+            section_type: core_theory
+          - section_title: Determination of Charge Product ZAZB
+            section_type: core_theory
+          - section_title: Reaction Between Ions of Like and Unlike Charges
+            section_type: core_theory
+      - topic: Secondary Salt Effect
+        sections:
+          - section_title: Ionic Strength Effect on Acid-Base Equilibria
+            section_type: core_theory
+          - section_title: Impact on Acid-Base Catalyzed Reactions
+            section_type: core_theory
+          - section_title: Kinetic Consequences of Equilibrium Shifts
+            section_type: related_concepts
+      - topic: Experimental Considerations
+        sections:
+          - section_title: Choice of Inert Electrolytes
+            section_type: related_concepts
+          - section_title: Limitations at High Ionic Strength
+            section_type: related_concepts
+    milestone: Quantitatively analyze ionic strength effects and determine transition state charges
+    duration_days: 5
+    tags:
+      - salt effects
+      - ionic strength
+      - Debye-Hückel theory
+      - Brønsted-Bjerrum equation
+      - primary salt effect
+      - secondary salt effect
+
+  - id: 11
+    title: Homogeneous Catalysis
+    learning_objectives:
+      - Distinguish between different types of homogeneous catalysis
+      - Derive rate laws for acid-base catalyzed reactions
+      - Understand specific and general acid-base catalysis
+      - Apply the Brønsted catalysis law to predict catalytic activity
+    textbook_style_content:
+      - topic: Principles of Catalysis
+        sections:
+          - section_title: Definition and Characteristics of Catalysts
+            section_type: overview
+          - section_title: Catalytic Cycles and Regeneration
+            section_type: core_theory
+          - section_title: Homogeneous versus Heterogeneous Catalysis
+            section_type: core_theory
+      - topic: Acid-Base Catalysis
+        sections:
+          - section_title: Proton Transfer in Reaction Mechanisms
+            section_type: core_theory
+          - section_title: Specific Acid Catalysis (H3O+ Only)
+            section_type: core_theory
+          - section_title: Specific Base Catalysis (OH- Only)
+            section_type: core_theory
+          - section_title: General Acid-Base Catalysis
+            section_type: core_theory
+      - topic: Kinetics of Acid-Base Catalyzed Reactions
+        sections:
+          - section_title: Rate Laws for Specific Catalysis
+            section_type: core_theory
+          - section_title: Buffer Solutions and General Catalysis
+            section_type: core_theory
+          - section_title: Distinction Between Specific and General Catalysis
+            section_type: core_theory
+      - topic: Brønsted Catalysis Law
+        sections:
+          - section_title: Relationship Between Catalytic Constant and pKa
+            section_type: core_theory
+          - section_title: Brønsted Coefficients α and β
+            section_type: core_theory
+          - section_title: Linear Free Energy Relationships
+            section_type: related_concepts
+          - section_title: Prediction of Catalytic Activity
+            section_type: core_theory
+      - topic: Mechanisms in Acid-Base Catalysis
+        sections:
+          - section_title: A1 and A2 Mechanisms (Acid-Catalyzed)
+            section_type: related_concepts
+          - section_title: B1 and B2 Mechanisms (Base-Catalyzed)
+            section_type: related_concepts
+          - section_title: Bifunctional Catalysis
+            section_type: related_concepts
+      - topic: Organometallic and Transition Metal Catalysis
+        sections:
+          - section_title: Coordinate Bond Formation in Catalytic Cycles
+            section_type: related_concepts
+          - section_title: Examples of Homogeneous Metal Catalysis
+            section_type: related_concepts
+    milestone: Analyze and predict behavior of homogeneously catalyzed reactions
+    duration_days: 6
+    tags:
+      - homogeneous catalysis
+      - acid-base catalysis
+      - specific catalysis
+      - general catalysis
+      - Brønsted catalysis law
+
+  - id: 12
+    title: Photochemical Reactions and Photophysics
+    learning_objectives:
+      - Understand laws of photochemistry and light absorption
+      - Calculate quantum yields for photochemical processes
+      - Distinguish between primary and secondary photochemical reactions
+      - Analyze photosensitization and energy transfer mechanisms
+    textbook_style_content:
+      - topic: Fundamentals of Photochemistry
+        sections:
+          - section_title: Interaction of Light with Matter
+            section_type: overview
+          - section_title: Grotthuss-Draper Law (First Law)
+            section_type: core_theory
+          - section_title: Stark-Einstein Law (Second Law)
+            section_type: core_theory
+          - section_title: Lambert-Beer Law and Light Absorption
+            section_type: core_theory
+      - topic: Quantum Yield
+        sections:
+          - section_title: Definition and Measurement of Quantum Yield
+            section_type: core_theory
+          - section_title: Quantum Yield Greater Than and Less Than Unity
+            section_type: core_theory
+          - section_title: Factors Affecting Quantum Yield
+            section_type: core_theory
+      - topic: Primary and Secondary Photochemical Processes
+        sections:
+          - section_title: Primary Photochemical Act
+            section_type: core_theory
+          - section_title: Secondary Thermal Reactions
+            section_type: core_theory
+          - section_title: Chain Reactions Initiated by Light
+            section_type: core_theory
+          - section_title: Hydrogen-Chlorine Photochemical Reaction
+            section_type: core_theory
+      - topic: Photophysical Processes
+        sections:
+          - section_title: Jablonski Diagram and Energy Levels
+            section_type: core_theory
+          - section_title: Internal Conversion and Vibrational Relaxation
+            section_type: core_theory
+          - section_title: Fluorescence and Phosphorescence
+            section_type: core_theory
+          - section_title: Intersystem Crossing
+            section_type: core_theory
+          - section_title: Quantum Yields of Emission
+            section_type: related_concepts
+      - topic: Photosensitization and Energy Transfer
+        sections:
+          - section_title: Sensitized Photoreactions
+            section_type: core_theory
+          - section_title: Singlet-Singlet Energy Transfer
+            section_type: core_theory
+          - section_title: Triplet-Triplet Energy Transfer
+            section_type: core_theory
+          - section_title: Dexter and Förster Mechanisms
+            section_type: related_concepts
+      - topic: Kinetics of Photochemical Reactions
+        sections:
+          - section_title: Steady State Treatment of Excited States
+            section_type: core_theory
+          - section_title: Stern-Volmer Equation for Quenching
+            section_type: core_theory
+          - section_title: Fluorescence Lifetime and Quenching
+            section_type: related_concepts
+      - topic: Applications and Examples
+        sections:
+          - section_title: Photodissociation and Photoisomerization
+            section_type: related_concepts
+          - section_title: Atmospheric Photochemistry
+            section_type: related_concepts
+          - section_title: Vision and Photobiology
+            section_type: related_concepts
+    milestone: Master photochemical principles and analyze light-induced reactions
+    duration_days: 8
+    tags:
+      - photochemistry
+      - quantum yield
+      - photophysics
+      - Jablonski diagram
+      - energy transfer
+      - photosensitization
+      - Stern-Volmer equation
