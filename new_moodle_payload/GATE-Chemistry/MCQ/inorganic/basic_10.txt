@@ -1,0 +1,101 @@
+1) In crystallography, a solid is most directly classified as **crystalline** when it shows:
+A. Long-range periodic arrangement of constituent particles
+B. Random arrangement with only short-range order
+C. No sharp diffraction features under X-ray diffraction
+D. A continuously varying local structure with position
+
+Correct answer: A  
+
+Explanation: Crystalline solids have long-range periodicity, meaning a repeating arrangement extends over large distances in the solid.  Amorphous solids lack this long-range order and typically show only short-range order.  Because of periodicity, crystalline solids produce sharp diffraction peaks in X-ray diffraction, unlike amorphous solids which show broad halos.
+
+2) The correct count of crystal systems and Bravais lattices is:
+A. 7 crystal systems and 14 Bravais lattices
+B. 7 crystal systems and 7 Bravais lattices
+C. 14 crystal systems and 7 Bravais lattices
+D. 14 crystal systems and 14 Bravais lattices
+
+Correct answer: A  
+
+Explanation: Crystal systems classify crystals into seven categories based on unit-cell parameter relationships and symmetry.  Bravais lattices enumerate the distinct three-dimensional lattice types and there are fourteen such lattices.  Confusing the numbers often comes from mixing “systems” (a broader symmetry/metric classification) with “lattices” (distinct translational lattice types).
+
+3) In the “lattice + basis” description of a crystal, the lattice points represent:
+A. A periodic array showing translational symmetry
+B. The actual atoms present at every point in space
+C. Only the positions of defects such as vacancies and interstitials
+D. The set of all Miller planes present in the crystal
+
+Correct answer: A  
+
+Explanation: A lattice is an abstract periodic array of points that captures translational symmetry of the crystal.  The basis (motif) is attached to each lattice point to generate the actual crystal structure.  Defects are deviations from ideal periodicity and are not what defines the lattice itself.
+
+4) Miller indices for a crystallographic plane are obtained by:
+A. Taking reciprocals of intercepts (in lattice units) and clearing fractions
+B. Taking intercepts directly as integers without reciprocals
+C. Squaring the intercepts and reducing to lowest terms
+D. Adding intercepts along axes and reducing the sum
+
+Correct answer: A  
+
+Explanation: Miller indices provide a systematic notation for planes using reciprocal intercepts with crystallographic axes.  The procedure uses intercepts in units of lattice parameters, then reciprocals, then scaling to the smallest integers.  Using raw intercepts without reciprocals labels planes incorrectly and fails to match standard crystallographic convention.
+
+5) In close-packed structures, the interstitial site that is coordinated by four surrounding spheres is called a:
+A. Tetrahedral void
+B. Octahedral void
+C. Cubic void
+D. Schottky void
+
+Correct answer: A  
+
+Explanation: A tetrahedral void is an interstitial site surrounded by four atoms/ions positioned at the corners of a tetrahedron.  An octahedral void is surrounded by six neighbors and is therefore a different coordination environment.  A Schottky defect is a vacancy-type defect in ionic crystals and is not a geometric interstitial site in close packing.
+
+6) The defect in an ionic crystal where a cation leaves its lattice site and occupies an interstitial site (creating a vacancy–interstitial pair) is a:
+A. Frenkel defect
+B. Schottky defect
+C. Line defect
+D. Substitutional impurity defect
+
+Correct answer: A  
+
+Explanation: A Frenkel defect consists of a vacancy and an interstitial formed when an ion (commonly a smaller cation) moves from its lattice site into an interstitial position.  A Schottky defect involves paired vacancies (typically one cation vacancy and one anion vacancy) without creating interstitial ions.  Line defects and substitutional impurities are different defect classes and do not describe the vacancy–interstitial pair mechanism.
+
+7) Bragg’s law used in X-ray diffraction is:
+A. \(n\lambda = 2d\sin\theta\)
+B. \(n\lambda = d\sin\theta\)
+C. \(n\lambda = 2d\cos\theta\)
+D. \(\lambda = 2n d^2 \sin\theta\)
+
+Correct answer: A  
+
+Explanation: Bragg’s law relates the X-ray wavelength \(\lambda\), interplanar spacing \(d\), diffraction angle \(\theta\), and integer order \(n\) through \(n\lambda = 2d\sin\theta\).  The factor of 2 arises from the path difference between rays reflected from successive lattice planes.  Replacing \(\sin\theta\) with \(\cos\theta\) or dropping the factor of 2 gives an incorrect condition for constructive interference from planes.
+
+8) Which pair correctly matches an AX-type ionic structure with a standard prototype?
+A. AX (6:6 coordination): NaCl-type
+B. AX (8:8 coordination): ZnS-type
+C. AX (4:4 coordination): CsCl-type
+D. AX (6:6 coordination): Fluorite-type
+
+Correct answer: A  
+
+Explanation: NaCl-type is a common AX structure featuring 6:6 (octahedral) coordination.  CsCl-type is associated with 8:8 coordination, while ZnS-type corresponds to 4:4 coordination in tetrahedral environments.  Fluorite is an AX2 structure type rather than AX, so assigning it to AX is a structure-class mismatch.
+
+9) A normal spinel has the general formula and cation distribution best described as:
+A. AB2X4 with A in tetrahedral sites and B in octahedral sites
+B. ABX3 with A at cube corners and B at body center
+C. AX2 with cations in all tetrahedral voids of an FCC anion lattice
+D. AB2X4 with both A and B randomly occupying only tetrahedral sites
+
+Correct answer: A  
+
+Explanation: Spinels are complex oxides of formula AB2X4, and in a normal spinel the A cations occupy tetrahedral sites while B cations occupy octahedral sites.  ABX3 corresponds to the perovskite family rather than spinel.  Putting both cation types only in tetrahedral sites contradicts the defining tetrahedral–octahedral site partition central to spinel crystal chemistry.
+
+10) According to band theory classification, a material is most directly identified as a semiconductor when it has:
+A. A small band gap that allows carrier generation under thermal/impurity effects
+B. A completely filled valence band with a very large band gap
+C. No band gap and a partially filled band at 0 K
+D. Identical valence and conduction bands with no distinction
+
+Correct answer: A  
+
+Explanation: In band theory, semiconductors have a band gap smaller than insulators, enabling conductivity via thermally excited carriers and via doping that changes carrier concentration.  A very large band gap corresponds to insulators, where carrier generation is minimal under ordinary conditions.  No band gap with a partially filled band is characteristic of metals, not semiconductors.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/5d502e9e-092b-46f4-8408-a3ef07ba2c84/inorganic_unit_10.txt)

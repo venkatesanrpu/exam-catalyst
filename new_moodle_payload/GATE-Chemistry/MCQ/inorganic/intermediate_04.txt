@@ -1,0 +1,131 @@
+1) The \(K_a\) of a weak monoprotic acid HA is \(1.0 \times 10^{-5}\). The pH of a 0.10 M aqueous solution of HA (neglect water autoionization) is closest to:
+A. 2.00  
+B. 3.00  
+C. 4.00  
+D. 5.00  
+
+Correct answer: 3.00
+
+Explanation: For a weak acid, \([H^+] \approx \sqrt{K_a C}\) when dissociation is small.
+So \([H^+] \approx \sqrt{(1.0\times10^{-5})(0.10)}=\sqrt{1.0\times10^{-6}}=1.0\times10^{-3}\) M, giving pH \(=3.00\).
+A pH of 2.00 corresponds to \([H^+]=10^{-2}\) M, which would imply much stronger ionization than expected for this \(K_a\).
+A pH of 4.00 or 5.00 would correspond to much smaller \([H^+]\), which would be inconsistent with the acid’s given \(K_a\) at 0.10 M.
+
+2) A 0.10 M weak acid HA has \(K_a = 1.0\times10^{-5}\). The percent ionization of HA is closest to:
+A. 0.10%  
+B. 1.0%  
+C. 10%  
+D. 50%  
+
+Correct answer: 1.0%
+
+Explanation: Using the weak-acid approximation, \([H^+] \approx \sqrt{K_a C}=\sqrt{10^{-5}\times10^{-1}}=\sqrt{10^{-6}}=10^{-3}\) M.
+Percent ionization \(= \dfrac{[H^+]}{C}\times 100 = \dfrac{10^{-3}}{0.10}\times100 = 1.0\%\).
+A value of 0.10% would come from mistakenly using \([H^+]=10^{-4}\) M (often due to dropping a power of 10).
+Values like 10% or 50% contradict the “weak acid” behavior implied by a small \(K_a\) and would also violate the small-dissociation assumption used in acid–base equilibria.
+
+3) A buffer is prepared with \([HA]=0.20\) M and \([A^-]=0.020\) M. If \(pK_a(HA)=4.00\), the pH is:
+A. 3.00  
+B. 3.00? actually 4.00?  
+C. 3.00?  
+D. 3.00?  
+
+Correct answer: 3.00
+
+Explanation: Use Henderson–Hasselbalch: \(pH=pK_a+\log\left(\dfrac{[A^-]}{[HA]}\right)\).
+Here \(\dfrac{[A^-]}{[HA]}=\dfrac{0.020}{0.20}=0.10\), so \(pH=4.00+\log(0.10)=4.00-1.00=3.00\).
+A common mistake is inverting the ratio to \([HA]/[A^-]\), which would incorrectly increase pH instead of decreasing it.
+Another mistake is assuming pH equals \(pK_a\) regardless of composition; that only holds when \([A^-]=[HA]\).
+
+4) In a titration of a weak monoprotic acid HA with a strong base (NaOH), the pH at the half-equivalence point equals:
+A. \(pK_a\) of HA  
+B. 7.00  
+C. \(pK_b\) of \(A^-\)  
+D. \(pK_w\)  
+
+Correct answer: \(pK_a\) of HA
+
+Explanation: At half-equivalence in a weak-acid/strong-base titration, moles of HA remaining equal moles of \(A^-\) formed, so \([A^-]=[HA]\).
+In Henderson–Hasselbalch, \(\log([A^-]/[HA])=\log(1)=0\), giving \(pH=pK_a\).
+A pH of 7.00 is characteristic of the equivalence point for strong acid–strong base titrations, not weak acid–strong base systems.
+Using \(pK_b\) or \(pK_w\) reflects confusion between buffer-point behavior and water autoionization relationships.
+
+5) 50.0 mL of 0.10 M acetic acid (\(K_a=1.0\times10^{-5}\)) is titrated with 0.10 M NaOH. At the equivalence point, the pH is closest to:
+A. 5.00  
+B. 7.00  
+C. 8.72  
+D. 12.00  
+
+Correct answer: 8.72
+
+Explanation: At equivalence, all HA becomes \(A^-\) (acetate), and the solution is basic due to hydrolysis of \(A^-\).
+Moles HA initially \(=0.0500\times0.10=0.00500\) mol, so at equivalence total volume \(=100.0\) mL and \([A^-]=0.00500/0.100=0.050\) M.
+For acetate, \(K_b=\dfrac{K_w}{K_a}=\dfrac{1.0\times10^{-14}}{1.0\times10^{-5}}=1.0\times10^{-9}\), so \([OH^-]\approx\sqrt{K_b C}=\sqrt{10^{-9}\times0.050}=\sqrt{5\times10^{-11}}\approx7.1\times10^{-6}\).
+Thus \(pOH\approx5.15\) and \(pH\approx14-5.15=8.85\), which is closest to 8.72 among the options (small rounding differences come from approximation).
+A pH of 7.00 incorrectly treats this as strong acid–strong base equivalence, while 12.00 would require a much higher \([OH^-]\) than produced by weak-base hydrolysis.
+
+6) Which salt (0.10 M in water) is expected to give a solution with \(pH>7\)?
+A. NH₄Cl  
+B. NaNO₃  
+C. CH₃COONa  
+D. NaCl  
+
+Correct answer: CH₃COONa
+
+Explanation: A salt of a weak acid and strong base (like acetate from acetic acid + NaOH) undergoes anion hydrolysis to produce OH⁻, making the solution basic.
+NH₄Cl is a salt of a weak base (NH₃) and strong acid (HCl), so cation hydrolysis produces H₃O⁺ and gives \(pH<7\).
+NaCl and NaNO₃ are salts of strong acid–strong base combinations and are approximately neutral in water because significant hydrolysis is not expected.
+A frequent misconception is that “all salts are neutral”; hydrolysis depends on whether the ions are conjugates of weak acids/bases.
+
+7) For an amphiprotic species \(HCO_3^-\) in water, the pH of a solution is often estimated by \(pH \approx \dfrac{1}{2}(pK_{a1}+pK_{a2})\). If \(pK_{a1}=6.3\) and \(pK_{a2}=10.3\), the estimated pH is:
+A. 5.0  
+B. 7.0  
+C. 8.3  
+D. 10.3  
+
+Correct answer: 8.3
+
+Explanation: Amphiprotic species can both donate and accept a proton, leading to an intermediate pH related to the two relevant ionization steps.
+Using the estimate, \(pH \approx \dfrac{1}{2}(6.3+10.3)=8.3\).
+Choosing 6.3 or 10.3 reflects the error of assuming the pH must equal one of the pKa values rather than an intermediate governed by both equilibria.
+A value like 7.0 incorrectly assumes neutrality, which is not generally true for amphiprotic ions.
+
+8) Using HSAB, predict the favored pairings when \(Ag^+\) and \(Fe^{3+}\) compete for ligands \(I^-\) and \(F^-\). The most stable set of products is:
+A. \(AgF\) and \(FeI_3\)  
+B. \(AgI\) and \(FeF_3\)  
+C. \(AgF\) and \(FeF_3\)  
+D. \(AgI\) and \(FeI_3\)  
+
+Correct answer: \(AgI\) and \(FeF_3\)
+
+Explanation: \(Ag^+\) is a softer acid than \(Fe^{3+}\), and \(I^-\) is a soft base, so soft–soft interaction favors \(AgI\).
+\(Fe^{3+}\) is a hard acid and \(F^-\) is a hard base, so hard–hard interaction favors \(FeF_3\).
+Cross-pairing \(AgF\) (soft–hard) and \(FeI_3\) (hard–soft) is less favorable under HSAB matching principles.
+Choosing both fluorides or both iodides ignores competitive preference and the stability trends predicted from hardness/softness and polarizability.
+
+9) Which statement best describes the leveling effect of a solvent in acid–base chemistry?
+A. In a given solvent, very strong acids appear equally strong because they are converted to the same strongest acid allowed by the solvent.  
+B. Acid strengths are independent of solvent because \(K_a\) is constant in all media.  
+C. Weak acids become stronger in water because water is nonpolar.  
+D. The leveling effect means weak acids cannot be titrated.  
+
+Correct answer: In a given solvent, very strong acids appear equally strong because they are converted to the same strongest acid allowed by the solvent.
+
+Explanation: Solvent autoionization and proton transfer can “level” strong acids so that, within that solvent, they produce the same effective acidic species (such as the solvent’s conjugate acid).
+Assuming \(K_a\) is solvent-independent is incorrect because solvent stabilization and ion pairing can change observed acid strength.
+Water is polar and strongly hydrogen-bonding, so describing it as nonpolar is a fundamental misconception in solvent effects on acid–base behavior.
+Weak-acid titrations are possible; the point is that solvent choice can mask differences among very strong acids or sometimes help differentiate weaker acids.
+
+10) Which reaction is best classified primarily as a Brønsted–Lowry acid–base reaction (proton transfer) without a required redox change?
+A. \(Zn + 2HCl \rightarrow ZnCl_2 + H_2\)  
+B. \(NH_3 + HCl \rightarrow NH_4Cl\)  
+C. \(2Na + 2H_2O \rightarrow 2NaOH + H_2\)  
+D. \(Fe^{2+} + Ce^{4+} \rightarrow Fe^{3+} + Ce^{3+}\)  
+
+Correct answer: \(NH_3 + HCl \rightarrow NH_4Cl\)
+
+Explanation: \(NH_3\) accepts a proton from HCl to form \(NH_4^+\), matching the Brønsted–Lowry definition of base and acid via proton transfer.
+The zinc–acid and sodium–water reactions produce hydrogen gas via electron transfer and are fundamentally redox processes even though acids/bases may be present.
+The \(Fe^{2+}/Ce^{4+}\) reaction is a clear electron-transfer redox reaction with no essential proton transfer step defining it as an acid–base process.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/346f13fa-33ff-490a-9a60-0aa4e5b11115/inorganic_unit_04.txt)

@@ -1,0 +1,120 @@
+1) A cell has \([\mathrm{K^+}]_\text{in}=140\,\mathrm{mM}\) and \([\mathrm{K^+}]_\text{out}=5\,\mathrm{mM}\). Ignoring activity coefficients, which expression best represents the Nernst potential for \(\mathrm{K^+}\) at temperature \(T\)?
+
+A. \(E_K=\dfrac{RT}{F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{out}}{[\mathrm{K^+}]_\text{in}}\right)\)  
+B. \(E_K=\dfrac{RT}{F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{in}}{[\mathrm{K^+}]_\text{out}}\right)\)  
+C. \(E_K=\dfrac{RT}{2F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{out}}{[\mathrm{K^+}]_\text{in}}\right)\)  
+D. \(E_K=\dfrac{2RT}{F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{out}}{[\mathrm{K^+}]_\text{in}}\right)\)
+
+Correct answer: A
+
+Explanation: For a monovalent cation, the Nernst potential is \(E = \dfrac{RT}{zF}\ln\left(\dfrac{[\text{out}]}{[\text{in}]}\right)\) with \(z=+1\), giving option A.  Option B corresponds to reversing the concentration ratio, which flips the sign and predicts the wrong direction of electrochemical driving force.  Options C and D incorrectly change the effective charge factor, which would apply only if the ionic valence were 2 or if an erroneous prefactor were introduced.
+
+
+2) Na+/K+-ATPase moves 3 Na+ out and 2 K+ in per ATP. If a cell uses 100 ATP molecules solely for this pump, what is the net number of positive charges transported out of the cell?
+
+A. 0  
+B. 100  
+C. 200  
+D. 300  
+
+Correct answer: B
+
+Explanation: Each pump cycle exports 3 positive charges (Na+) and imports 2 positive charges (K+), so the net is 1 positive charge moved outward per ATP.  For 100 ATP, net outward charge movement is 100 positive charges.  The other options reflect either assuming electroneutral exchange (0) or counting only Na+ export (300) or total ions moved (500, not listed) rather than net charge.
+
+
+3) Hemoglobin shows cooperative binding because binding at one site alters affinity at others. Which qualitative binding curve is expected for hemoglobin vs. myoglobin (O2 saturation vs. \(p\mathrm{O_2}\))?
+
+A. Hemoglobin: sigmoidal; Myoglobin: hyperbolic  
+B. Hemoglobin: hyperbolic; Myoglobin: sigmoidal  
+C. Both sigmoidal  
+D. Both linear over physiological \(p\mathrm{O_2}\)
+
+Correct answer: A
+
+Explanation: Hemoglobin’s quaternary structure enables allosteric coupling and cooperativity, producing a sigmoidal O2-binding curve.  Myoglobin is monomeric and lacks inter-subunit allostery, so it follows a hyperbolic binding profile.  Linear behavior is not expected because ligand binding saturates as sites fill.
+
+
+4) In tissues with higher CO2 and lower pH, hemoglobin releases O2 more readily. Which statement best captures the reason?
+
+A. Lower pH stabilizes the T state, decreasing O2 affinity (Bohr effect)  
+B. Lower pH oxidizes heme Fe(II) to Fe(III), preventing O2 binding  
+C. CO2 irreversibly blocks the heme site like CO  
+D. CO2 increases O2 affinity by strengthening the Fe–O2 bond
+
+Correct answer: A
+
+Explanation: The Bohr effect describes how increased \(\mathrm{H^+}\) (lower pH) and CO2 shift hemoglobin toward a low-affinity conformation, promoting O2 unloading in tissues.  Oxidation to Fe(III) would form methemoglobin and is a different phenomenon not required to explain normal physiological O2 release.  CO is the classic strong competitive ligand at heme iron; CO2 modulates affinity mainly through allosteric/proton-linked effects rather than irreversible site blocking.
+
+
+5) A protein electron transfer step is thermodynamically favorable when electrons move from:
+
+A. Lower (more negative) redox potential donor to higher (more positive) redox potential acceptor  
+B. Higher redox potential donor to lower redox potential acceptor  
+C. Any donor to any acceptor; only distance matters  
+D. Any acceptor to any donor; only proton pumping matters
+
+Correct answer: A
+
+Explanation: Redox potential ranks the tendency to accept electrons; electrons flow spontaneously from a species with lower reduction potential to one with higher reduction potential under comparable conditions.  Distance and protein matrix control kinetics (rates), but they do not override the basic thermodynamic direction set by potentials.  Proton pumping is coupled in electron transport chains, but it does not define the intrinsic sign of electron-transfer driving force between two redox couples.
+
+
+6) Which pair best matches “electron transfer mediator” and “role” in bioenergetics?
+
+A. Iron–sulfur clusters; one-electron transfer between redox partners  
+B. Zn2+ in carbonic anhydrase; long-range electron tunneling  
+C. Mg2+ in kinases; terminal O2 reduction  
+D. Vitamin B12 cobalt center; proton pumping across membranes
+
+Correct answer: A
+
+Explanation: Iron–sulfur clusters are classic electron-transfer cofactors that shuttle single electrons with tunable redox potentials in electron transport chains and enzymes.  Zn2+ in carbonic anhydrase is primarily catalytic for hydration chemistry (Lewis acid activation of water) rather than electron transfer.  Mg2+ commonly assists ATP-dependent phosphoryl transfer, while terminal O2 reduction is associated with respiratory chain components such as cytochrome oxidase rather than Mg-dependent kinases.
+
+
+7) Nitrogenase contains MoFe and Fe proteins and is sensitive to oxygen. Which combination best explains why N2 reduction is biologically challenging?
+
+A. Strong N≡N bond demands multi-electron/proton delivery with tight control; enzyme is O2-sensitive  
+B. N2 is already highly reactive, so the problem is only to avoid over-reduction of metals  
+C. N2 reduction requires Zn2+ to form a stable Zn–N2 adduct; oxygen prevents Zn binding  
+D. The reaction is fast but endothermic only because of weak N–N bonding
+
+Correct answer: A
+
+Explanation: Biological N2 fixation is difficult due to both thermodynamic/kinetic barriers of activating the strong N≡N bond and the need to coordinate multiple electron/proton transfers at the FeMo-co active site.  The nitrogenase system is also regulated and notably oxygen-sensitive, adding a key biological constraint.  The distractor options misstate the nature of N2 (it is inert), invoke incorrect metals (Zn) for nitrogenase chemistry, or contradict the bond-strength argument.
+
+
+8) Which statement best distinguishes the molybdenum cofactor used broadly in Mo-enzymes (Moco) from the FeMo-cofactor of nitrogenase?
+
+A. Moco is a general Mo cofactor in oxidoreductases, while FeMo-co is a specialized cluster for N2 reduction  
+B. Both are identical cofactors found in all molybdenum enzymes  
+C. FeMo-co is used in sulfite oxidase, whereas Moco is used only in nitrogenase  
+D. Moco is a copper-containing cofactor, while FeMo-co contains only iron
+
+Correct answer: A
+
+Explanation: The syllabus distinguishes nitrogenase (with FeMo-co at the active site for N2-to-NH3 conversion) from other molybdenum enzymes that use a molybdenum cofactor (Moco) in oxidoreductase chemistry.  The cofactors are not identical and appear in different enzyme families with different mechanistic tasks.  Options C and D swap or misassign cofactors and metals relative to the known bioinorganic classifications emphasized in the unit.
+
+
+9) In carbonic anhydrase, Zn2+ assists CO2 hydration primarily by:
+
+A. Lowering the pKa of coordinated water to generate Zn–OH as a nucleophile  
+B. Undergoing Zn2+/Zn3+ redox cycling to activate CO2  
+C. Binding CO2 irreversibly to store it in the active site  
+D. Providing a Type 1 “blue copper” electron-transfer site
+
+Correct answer: A
+
+Explanation: Zinc metalloenzymes often use Zn2+ as a Lewis acid; in carbonic anhydrase it polarizes water and facilitates formation of a hydroxide that attacks CO2, accelerating conversion to bicarbonate.  Zn does not typically participate in biological redox cycling (unlike Fe or Cu centers) because Zn2+ is redox-inert under physiological conditions.  The “blue copper” description belongs to Type 1 copper centers, not Zn enzymes.
+
+
+10) A Cu/Zn superoxide dismutase contains both copper and zinc. Which assignment of roles is most consistent with bioinorganic function?
+
+A. Copper performs redox chemistry; zinc mainly stabilizes structure/active-site geometry  
+B. Zinc performs redox chemistry; copper is purely structural  
+C. Both copper and zinc must cycle oxidation states for catalysis  
+D. Neither metal participates; the protein backbone alone catalyzes dismutation
+
+Correct answer: A
+
+Explanation: In metalloenzymes, copper commonly serves as the redox-active center (Cu(I)/Cu(II)) for electron transfer chemistry, while zinc often plays a structural/Lewis-acid role and helps organize the active-site environment.  The unit explicitly groups copper enzymes with electron-transfer roles and zinc enzymes with structural/catalytic (non-redox) functions, supporting this division of labor.  Options B–D contradict these typical oxidation-state capabilities and the functional classification highlighted in the copper and zinc metalloenzyme sections.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e97c6845-56f8-4fc5-92b8-e32adaf1fcea/inorganic_unit_09.txt)

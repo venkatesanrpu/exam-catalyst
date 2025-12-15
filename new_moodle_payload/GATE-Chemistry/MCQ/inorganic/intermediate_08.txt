@@ -1,0 +1,113 @@
+## Part 2: Intermediate (10 MCQs)
+
+1) A radioactive nuclide has half-life 10 days. If the initial number of nuclei is \(N_0\), what fraction remains undecayed after 30 days?
+A. \(1/2\)  
+B. \(1/4\)  
+C. \(1/8\)  
+D. \(1/16\)  
+
+Correct answer: C  
+
+Explanation: After each half-life, the number of undecayed nuclei halves, so after \(n\) half-lives the remaining fraction is \((1/2)^n\). Here, 30 days corresponds to \(30/10 = 3\) half-lives, so remaining fraction is \((1/2)^3 = 1/8\). Values like \(1/4\) and \(1/2\) correspond to only 2 and 1 half-lives respectively, while \(1/16\) corresponds to 4 half-lives.
+
+2) A sample shows an activity of 1600 disintegrations per second at \(t=0\). The half-life is 5 s. What is the activity after 15 s (ignore detector effects)?
+A. 800 dps  
+B. 400 dps  
+C. 200 dps  
+D. 100 dps  
+
+Correct answer: C  
+
+Explanation: Activity is proportional to the number of undecayed nuclei, so it halves every half-life just like \(N\). 15 s corresponds to \(15/5 = 3\) half-lives, so \(A = 1600 \times (1/2)^3 = 200\) dps. 800 dps and 400 dps correspond to 1 and 2 half-lives respectively. 100 dps would correspond to 4 half-lives (20 s), not 15 s.
+
+3) A nuclide has decay constant \(\lambda = 0.0693\ \text{day}^{-1}\). Its half-life is closest to:
+A. 5 days  
+B. 10 days  
+C. 15 days  
+D. 20 days  
+
+Correct answer: B  
+
+Explanation: The relation between half-life and decay constant is \(t_{1/2} = \ln 2 / \lambda\). Since \(\ln 2 \approx 0.693\), \(t_{1/2} \approx 0.693/0.0693 = 10\) days. 5 days would require \(\lambda\) roughly twice as large. 15–20 days would require a smaller \(\lambda\) than given.
+
+4) A detector records 240 counts in 2 minutes from a source. The background is 30 counts in 2 minutes. If the detector efficiency is 20%, the source activity (disintegrations per second) is:
+A. 0.875 dps  
+B. 1.75 dps  
+C. 8.75 dps  
+D. 10.5 dps  
+
+Correct answer: C  
+
+Explanation: First subtract background to get net source counts: \(240-30=210\) counts in 2 minutes.
+Convert to net count rate: \(210/120 = 1.75\ \text{counts s}^{-1}\).
+Efficiency \(\varepsilon = 0.20\) means \(\text{count rate} = \varepsilon \times \text{activity}\), so \(\text{activity} = \frac{1.75}{0.20} = 8.75\ \text{dps}\).
+0.875 dps results from multiplying by efficiency instead of dividing (a common efficiency misconception).
+1.75 dps results from assuming 100% efficiency (forgetting the efficiency correction).
+10.5 dps results from a time-conversion/rounding error (using an incorrect seconds conversion or inconsistent rate basis).
+
+
+5) A nucleus undergoes \(\beta^-\) decay. Which change occurs in \((A,Z)\) of the nucleus?
+A. \(A\) decreases by 4, \(Z\) decreases by 2  
+B. \(A\) unchanged, \(Z\) increases by 1  
+C. \(A\) unchanged, \(Z\) decreases by 1  
+D. \(A\) increases by 1, \(Z\) unchanged  
+
+Correct answer: B  
+
+Explanation: In \(\beta^-\) decay, a neutron converts to a proton, so mass number \(A\) stays the same while atomic number \(Z\) increases by 1. A decrease of \(A\) by 4 and \(Z\) by 2 corresponds to alpha decay. A decrease in \(Z\) by 1 (with same \(A\)) corresponds to \(\beta^+\) decay or electron capture. Increasing \(A\) by 1 is not a result of beta decay.
+
+6) A nuclear reaction has reactant mass (total) 236.0526 u and product mass (total) 236.0504 u. Using \(1\ \text{u} = 931.5\ \text{MeV}\), the Q-value (in MeV) is closest to:
+A. 0.2 MeV  
+B. 2.0 MeV  
+C. 20 MeV  
+D. 200 MeV  
+
+Correct answer: C  
+
+Explanation: Mass defect \(\Delta m = 236.0526 - 236.0504 = 0.0022\ \text{u}\). Q-value \(Q = \Delta m \times 931.5 \approx 0.0022 \times 931.5 \approx 2.05\ \text{MeV}\), which matches 2.0 MeV, not 20 MeV. The common misconception is misplacing the decimal (treating 0.0022 as 0.022). Very small Q-values like 0.2 MeV would require \(\Delta m\) about 10 times smaller, and 200 MeV would require \(\Delta m\) about 0.2 u.
+
+Correct answer: B  
+
+7) The mean lifetime \(\tau\) of a radioactive nuclide is 2 hours. Its half-life is closest to:
+A. 0.69 h  
+B. 1.39 h  
+C. 2.00 h  
+D. 2.89 h  
+
+Correct answer: B  
+
+Explanation: Mean lifetime \(\tau = 1/\lambda\) and half-life \(t_{1/2} = (\ln 2)/\lambda\). Eliminating \(\lambda\) gives \(t_{1/2} = \tau \ln 2 \approx 2 \times 0.693 = 1.386\) h. 2.00 h incorrectly assumes half-life equals mean life. 0.69 h corresponds to \(\tau = 1\) h. 2.89 h corresponds to multiplying by \(1/\ln 2\), which is the inverse relation.
+
+8) A radioactive sample follows \(N=N_0 e^{-\lambda t}\). If after 4 hours the sample retains 25% of its original nuclei, the half-life is:
+A. 1 hour  
+B. 2 hours  
+C. 4 hours  
+D. 8 hours  
+
+Correct answer: B  
+
+Explanation: Retaining 25% means \(N/N_0 = 1/4 = (1/2)^2\), i.e., two half-lives have passed. If 2 half-lives correspond to 4 hours, then one half-life is 2 hours. 1 hour would imply four half-lives in 4 hours, leaving \(1/16\). 4 hours would imply one half-life, leaving \(1/2\). 8 hours would imply half-life longer than the observation time, inconsistent with reaching 25%.
+
+9) A fission chain reaction has multiplication factor \(k=1.05\). Which statement best describes the reactor state?
+A. Subcritical: neutron population decreases with time  
+B. Critical: neutron population remains steady  
+C. Supercritical: neutron population increases with time  
+D. Cannot be inferred without knowing the half-life of the fuel  
+
+Correct answer: C  
+
+Explanation: The multiplication factor \(k\) indicates whether each generation produces more, equal, or fewer neutrons than the previous generation. If \(k>1\), the chain reaction is supercritical and the neutron population grows. If \(k=1\), it is critical and steady. If \(k<1\), it is subcritical and dies out. Fuel half-life is unrelated to the prompt neutron multiplication condition.
+
+10) For a given nuclide, which instrument primarily relies on gas ionization to produce measurable electrical pulses, making it suitable for count-rate measurements?
+A. Geiger–Müller counter  
+B. Photographic film badge  
+C. Chemical dosimeter solution  
+D. Cloud chamber only (without electrodes)  
+
+Correct answer: A  
+
+Explanation: A Geiger–Müller counter is a gas-filled ionization detector that produces pulses from ionization avalanches, enabling direct counting. Film badges record cumulative exposure rather than producing real-time electronic pulses. Chemical dosimeters rely on radiation-induced chemical changes and are not pulse-counting instruments. A cloud chamber visualizes tracks by condensation and is not primarily an electronic pulse detector in the usual measurement sense.
+
+If Q4 should be corrected and re-issued with consistent options, say so and it will be regenerated with a clean single correct choice.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d13e1942-f9f7-4189-9aa9-1f84857a7358/inorganic_unit_08.txt)

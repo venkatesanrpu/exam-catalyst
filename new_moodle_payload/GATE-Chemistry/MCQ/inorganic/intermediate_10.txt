@@ -1,0 +1,101 @@
+1) A cubic crystal has lattice parameter \(a = 4.00\ \text{Å}\); for the (210) planes, the first-order Bragg reflection is observed using X-rays of wavelength \( \lambda = 1.54\ \text{Å}\).  The diffraction angle \(\theta\) is closest to:
+A. 12.8°
+B. 25.5°
+C. 51.0°
+D. 77.2°
+
+Correct answer: B
+
+Explanation: For cubic crystals, interplanar spacing is \(d_{hkl} = a/\sqrt{h^2+k^2+l^2}\), so \(d_{210} = 4.00/\sqrt{5} = 1.79\ \text{Å}\) (approx.).  Using Bragg’s law \(n\lambda = 2d\sin\theta\) with \(n=1\), \(\sin\theta = 1.54/(2\times 1.79) \approx 0.431\), giving \(\theta \approx 25.5^\circ\).  A smaller angle would correspond to a larger \(d\) than computed, while larger angles would require \(\sin\theta\) closer to 1 than allowed by the given \(d\) and \(\lambda\).
+
+2) A metal crystallizes in the BCC structure with unit-cell edge \(a = 3.00\ \text{Å}\).  The atomic radius \(r\) is closest to:
+A. 0.75 Å
+B. 1.06 Å
+C. 1.30 Å
+D. 1.50 Å
+
+Correct answer: C
+
+Explanation: In BCC packing, atoms touch along the body diagonal, so \(4r = \sqrt{3}\,a\) relates atomic radius and lattice parameter.  Substituting \(a=3.00\ \text{Å}\) gives \(r = (\sqrt{3}\times 3.00)/4 \approx 1.30\ \text{Å}\).  The smaller radii correspond to using the face diagonal or edge contact relations (appropriate to other lattices), while a much larger radius would imply overlapping atoms beyond the BCC geometry.
+
+3) Anions \(X^-\) form an FCC array, and cations \(M^+\) occupy 75% of the tetrahedral voids.  The empirical formula is:
+A. MX
+B. M2X
+C. M3X2
+D. MX2
+
+Correct answer: C
+
+Explanation: An FCC unit cell contains 4 anions, and it has 8 tetrahedral voids associated with that close-packed arrangement.  Occupying 75% of tetrahedral voids gives \(0.75\times 8 = 6\) cations per unit cell, so the ratio \(M:X = 6:4 = 3:2\), hence \( \mathrm{M_3X_2}\).  MX would correspond to filling all octahedral voids (not tetrahedral), and MX2 would correspond to filling all tetrahedral voids (100% occupancy).
+
+4) For an ionic solid of type AX, the radius ratio \(r_+/r_- = 0.50\).  The most likely coordination number for the cation and a matching prototype are:
+A. 4 coordination; ZnS-type
+B. 6 coordination; NaCl-type
+C. 8 coordination; CsCl-type
+D. 12 coordination; close-packed metallic
+
+Correct answer: B
+
+Explanation: Radius ratio rules connect \(r_+/r_-\) to likely coordination environments, and a mid-range value like 0.50 is consistent with octahedral (6-fold) coordination.  For AX compounds, a common 6:6 coordinated ionic structure is the NaCl-type arrangement.  Tetrahedral (4-fold) coordination is expected at smaller ratios, while 8-fold coordination requires a larger cation-to-anion size ratio than 0.50.
+
+5) In an NaCl-type crystal, \(1\) in \(10^6\) formula units contains a Schottky defect pair at equilibrium.  The total number of vacancies (cation vacancies + anion vacancies) per mole is closest to:
+A. \(6.0\times 10^{17}\)
+B. \(1.2\times 10^{18}\)
+C. \(6.0\times 10^{23}\)
+D. \(1.2\times 10^{24}\)
+
+Correct answer: B
+
+Explanation: A Schottky defect pair in an ionic crystal corresponds to one cation vacancy plus one anion vacancy, maintaining overall stoichiometry and charge balance.  If \(1\) in \(10^6\) formula units has a Schottky pair, then in 1 mole the number of pairs is \(N_A/10^6 \approx 6.022\times 10^{17}\), so total vacancies are \(2\times 6.022\times 10^{17} \approx 1.2\times 10^{18}\).  The smaller value counts only pairs (not total vacancies), while values near \(10^{23}\)–\(10^{24}\) incorrectly treat the defect fraction as order unity.
+
+6) Which statement best describes what Kröger–Vink notation helps represent in defect chemistry?
+A. It gives the Miller indices of defect planes responsible for diffraction broadening
+B. It systematically describes point defects, their lattice site, and effective charge relative to the perfect crystal
+C. It classifies crystals into 7 systems and 14 Bravais lattices
+D. It directly computes packing efficiencies of FCC, HCP, and BCC lattices
+
+Correct answer: B
+
+Explanation: Kröger–Vink notation is used in ionic solids to describe point defects in a structured way, including where the defect sits (site information) and how its effective charge compares with the ideal lattice.  Miller indices label planes and directions, not defect species.  Crystal-system/Bravais-lattice classification and packing-efficiency calculations are separate crystallography topics and are not the role of Kröger–Vink notation.
+
+7) In a powder XRD experiment using \( \lambda = 1.54\ \text{Å}\), a first-order peak occurs at \(2\theta = 30^\circ\).  The corresponding interplanar spacing \(d\) is closest to:
+A. 0.77 Å
+B. 1.49 Å
+C. 2.97 Å
+D. 5.94 Å
+
+Correct answer: C
+
+Explanation: Bragg’s law is \(n\lambda = 2d\sin\theta\), and \(2\theta=30^\circ\) implies \(\theta=15^\circ\).  With \(n=1\), \(d = \lambda/(2\sin 15^\circ) \approx 1.54/(2\times 0.259) \approx 2.97\ \text{Å}\).  The smaller spacings arise from mistakenly using \(2\theta\) in place of \(\theta\), while the largest spacing corresponds to doubling \(d\) by missing the factor of 2 in Bragg’s law.
+
+8) In the fluorite (AX2) structure type, the correct assignment of the FCC sublattice and interstitial occupancy is:
+A. Cations form FCC; anions occupy all tetrahedral voids
+B. Anions form FCC; cations occupy all tetrahedral voids
+C. Cations form FCC; anions occupy all octahedral voids
+D. Anions form FCC; cations occupy all octahedral voids
+
+Correct answer: A
+
+Explanation: AX2 structures include fluorite as a key prototype, and understanding them relies on identifying which species forms the close-packed (FCC) framework and which occupies interstitial sites.  In fluorite-type description, one ion forms the FCC lattice and the counter-ion fills tetrahedral positions consistent with AX2 stoichiometry.  Choosing octahedral void filling would instead lead to an AX stoichiometry for an FCC framework, not AX2.
+
+9) For an inverse spinel of composition AB2O4, the cation distribution among tetrahedral (Td) and octahedral (Oh) sites is best represented as:
+A. (A)Td [B2]Oh
+B. (B)Td [AB]Oh
+C. (AB)Td [B]Oh
+D. (A2)Td [B]Oh
+
+Correct answer: B
+
+Explanation: Spinel structures are AB2X4-type complex oxides where “normal” and “inverse” forms differ by how cations distribute between tetrahedral and octahedral sites.  In an inverse spinel, the tetrahedral sites are occupied by B cations, while octahedral sites are occupied by A plus the remaining B cations, matching (B)Td[AB]Oh.  The distribution (A)Td[B2]Oh corresponds to a normal spinel arrangement, while the other distributions violate the AB2 stoichiometry across available Td/Oh site types.
+
+10) Silicon is doped with a small amount of phosphorus.  Relative to intrinsic Si, the correct statement about majority carriers and Fermi level shift is:
+A. Holes become majority carriers; Fermi level shifts toward the valence band
+B. Electrons become majority carriers; Fermi level shifts toward the conduction band
+C. Electrons become majority carriers; Fermi level shifts toward the valence band
+D. Holes become majority carriers; Fermi level remains fixed at mid-gap
+
+Correct answer: B
+
+Explanation: Doping and carrier concentration concepts explain how adding impurities changes semiconductor conductivity by changing the dominant charge carriers.  A group-15 dopant like phosphorus donates extra electrons in Si, making electrons the majority carriers and shifting the Fermi level upward toward the conduction band compared with the intrinsic case.  A shift toward the valence band and hole-majority behavior would correspond to acceptor (p-type) doping, not donor doping.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/5d502e9e-092b-46f4-8408-a3ef07ba2c84/inorganic_unit_10.txt)
