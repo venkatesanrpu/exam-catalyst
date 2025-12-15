@@ -1,0 +1,56 @@
+1) A sample shows \(\alpha_{\text{obs}}=0^\circ\) in a polarimeter cell, but chiral HPLC (on a chiral stationary phase) clearly shows two enantiomer peaks with unequal areas. Which statement best explains this situation?
+
+A. The compound must be achiral because optical rotation is zero  
+B. The sample can be optically inactive due to racemization, cancellation, or compensating contributions even if enantiomers are present in solution  
+C. Chiral HPLC cannot separate enantiomers; the peaks must be impurities  
+D. Optical rotation depends only on molecular weight, so a low value is expected  
+
+Correct answer: B  
+
+Explanation: Polarimetry measures net optical rotation of the bulk sample, so the observed rotation can be zero if optical contributions cancel (e.g., a racemate) or if other cancelling effects occur, even though the molecule itself is chiral and separable into enantiomers by a chiral chromatographic method.  Chiral chromatographic separation and polarimetric response probe different aspects: one resolves species based on differential interactions, while the other measures a summed macroscopic optical effect.  Zero rotation does not logically prove achirality; it only indicates no net optical activity under those measurement conditions.
+
+2) Two compounds separate well on TLC (distinct \(R_f\) values), but the same solvent system gives poor resolution on a preparative silica column (overlapping bands). Which explanation is most defensible?
+
+A. TLC and column chromatography have unrelated separation principles  
+B. Column resolution depends on band broadening/plate theory and loading; TLC spot separation does not guarantee preparative resolution under higher load and longer path length  
+C. TLC always overestimates polarity, so \(R_f\) values cannot be used  
+D. Column chromatography depends only on detector choice, not on separation conditions  
+
+Correct answer: B  
+
+Explanation: Both TLC and column chromatography rely on differential interactions with stationary/mobile phases, but column performance additionally depends strongly on chromatographic principles such as resolution, plate behavior/band broadening, and practical factors like sample loading and flow/packing quality.  A TLC separation can look clean at microgram scale, while a preparative column with high loading can cause band overlap and reduced effective resolution.  Detector choice does not create separation; it only measures what elutes, so poor separation is fundamentally a chromatographic (not detection-only) issue.
+
+3) A mixture contains a nonvolatile polar compound and a volatile compound. Which workflow is most logically consistent with the strengths/limits of GC, HPLC, and detectors mentioned in the syllabus?
+
+A. Analyze both directly by GC-FID without modification  
+B. Analyze the volatile compound by GC (optionally GC-MS) and the nonvolatile polar compound by HPLC with an appropriate detector (e.g., UV or RI as applicable)  
+C. Analyze both by polarimetry because it is universal  
+D. Analyze both by IR only because IR gives molecular weight  
+
+Correct answer: B  
+
+Explanation: GC is best suited to volatile, thermally stable analytes and can be coupled to detectors such as FID or MS for sensitive detection and identification.  Nonvolatile polar analytes are generally better handled by liquid-phase separation such as HPLC, where different detectors (UV, refractive index, etc.) can be chosen based on analyte properties.  Polarimetry is not a universal detector and requires optical activity, while IR does not directly provide molecular weight (that role is characteristic of mass spectrometry).
+
+4) An unknown compound shows: IR strong band near 1715 \(\text{cm}^{-1}\), UV–Vis shows absorption consistent with conjugation, \(^{1}\)H NMR shows an aldehydic proton signal region feature, and MS shows a clear molecular ion. Which integrated conclusion is most consistent?
+
+A. The compound is most consistent with a conjugated carbonyl system, and the combined techniques jointly constrain functional group, conjugation, and molecular mass  
+B. IR alone determines the complete structure; the other data are redundant  
+C. UV–Vis can replace NMR for full connectivity determination  
+D. MS fragmentation cannot contribute to structural analysis once molecular ion is known  
+
+Correct answer: A  
+
+Explanation: The syllabus emphasizes structural elucidation strategies using combined spectroscopic data: IR helps identify functional groups (e.g., carbonyl), UV–Vis informs on electronic transitions and conjugation, NMR provides proton environments and coupling patterns, and MS provides molecular weight and fragmentation-based structural clues.  No single technique generally yields complete connectivity and stereochemical detail for complex unknowns; integration is the intended approach.  Treating MS fragmentation as useless after finding a molecular ion ignores a major use of MS in structural analysis.
+
+5) In choosing an MS ionization method for structural determination, which pairing is most appropriate for the stated “molecular ions and fragmentation” versus “ionization techniques” concepts?
+
+A. EI gives extensive fragmentation; ESI is softer and often preserves molecular ions for polar/ionic analytes  
+B. EI is softer than ESI and always preserves intact molecular ions  
+C. MALDI is only for volatile small molecules in GC  
+D. Chemical ionization never produces a molecular ion-related peak  
+
+Correct answer: A  
+
+Explanation: The learning goals include understanding ionization techniques (electron impact, chemical ionization, electrospray, MALDI) alongside molecular ions and fragmentation patterns, implying the key contrast between “hard” ionization that promotes fragmentation and “soft” ionization that better preserves molecular-ion information for many analytes.  EI is classically associated with rich fragmentation useful for structure, while ESI is commonly used to obtain intact ion signals for more polar/less volatile compounds (often with less fragmentation).  The other options assert incorrect absolutes that contradict the conceptual roles of these ionization approaches in structural analysis.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/fa558902-8288-49aa-b0b9-cf2a1f590342/organic_unit_12.txt)

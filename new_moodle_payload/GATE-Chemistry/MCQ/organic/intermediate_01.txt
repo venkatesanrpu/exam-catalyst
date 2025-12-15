@@ -1,0 +1,133 @@
+1) Consider the stereocentre in \(\mathrm{CH_3-CH(Br)-CH_2OH}\) (2-bromopropan-1-ol). Using CIP rules, the correct priority order at the stereogenic carbon is:
+
+A. \(\mathrm{Br > CH_3 > CH_2OH > H}\)  
+B. \(\mathrm{Br > CH_2OH > CH_3 > H}\)  
+C. \(\mathrm{CH_2OH > Br > CH_3 > H}\)  
+D. \(\mathrm{Br > H > CH_2OH > CH_3}\)  
+
+Correct answer: B  
+
+Explanation: CIP priority depends first on the atomic number of the directly attached atoms: \(\mathrm{Br}\) (Z=35) outranks carbon (Z=6), and carbon outranks hydrogen (Z=1), so \(\mathrm{Br}\) is highest and \(\mathrm{H}\) is lowest. To compare \(\mathrm{CH_2OH}\) vs \(\mathrm{CH_3}\), both are attached through carbon, so look at the next atoms: the carbon of \(\mathrm{CH_2OH}\) is attached to \(\mathrm{O,H,H}\) whereas the carbon of \(\mathrm{CH_3}\) is attached to \(\mathrm{H,H,H}\); oxygen outranks hydrogen, so \(\mathrm{CH_2OH}\) has higher priority than \(\mathrm{CH_3}\). This tests CIP priority assignment in a common “tie-break” situation.
+
+***
+
+2) A chiral molecule must necessarily:
+
+A. Lack a mirror plane, a centre of inversion, and an improper rotation axis \(\mathrm{S_n}\)  
+B. Have at least one tetrahedral carbon with four different substituents  
+C. Have only one stereogenic centre  
+D. Show non-zero optical rotation in every solvent and at every wavelength  
+
+Correct answer: A  
+
+Explanation: Chirality is ruled out by the presence of improper symmetry elements (especially \(\mathrm{S_n}\), including a mirror plane as \(\mathrm{S_1}\) and inversion as \(\mathrm{S_2}\)); therefore, a chiral object must lack these symmetry operations. A tetrahedral carbon with four different substituents is a sufficient but not necessary condition because axial chirality (atropisomerism) can produce chirality without a classical chiral centre. The number of stereogenic centres can be zero, one, or many depending on the type of chirality. Optical rotation can depend on conditions and does not define chirality as a symmetry property.
+
+***
+
+3) In \(^1\)H NMR, the two hydrogens of a \(\mathrm{-CH_2-}\) group next to an existing stereogenic centre are typically:
+
+A. Homotopic and always equivalent  
+B. Enantiotopic and always give separate signals even in achiral solvent  
+C. Diastereotopic and can be chemically non-equivalent in achiral solvent  
+D. Identical because free rotation averages them completely  
+
+Correct answer: C  
+
+Explanation: When a \(\mathrm{-CH_2-}\) group is adjacent to a stereogenic centre, the two hydrogens often become diastereotopic because replacing one versus the other creates diastereomers (not enantiomers). Diastereotopic hydrogens are commonly non-equivalent and can show different chemical shifts and coupling patterns even in achiral media, which is a key stereochemical-NMR application. Homotopic hydrogens would remain equivalent under all conditions, which is not generally true next to a chiral centre. Free rotation does not remove diastereotopicity because the molecule is still not symmetry-equivalent under exchange of those two hydrogens.
+
+***
+
+4) A compound has two stereocentres but only three stereoisomers exist. The most likely reason is:
+
+A. It undergoes rapid racemization  
+B. It has a meso form due to an internal plane of symmetry  
+C. It is an atropisomer  
+D. One stereocentre is always R by CIP rules  
+
+Correct answer: B  
+
+Explanation: For two stereocentres, the maximum is \(2^2=4\), but if one of the four is a meso form (internally symmetric and achiral), the total count becomes three distinct stereoisomers (one meso + one enantiomeric pair). Racemization changes optical purity but does not change the number of possible configurational stereoisomers. Atropisomerism is a different source of stereoisomerism and does not explain the specific “3 from 2 centres” pattern. CIP rules never force a centre to be always R; configuration depends on the actual 3D arrangement.
+
+***
+
+5) Which statement correctly distinguishes stereospecific and stereoselective reactions?
+
+A. Stereospecific reactions always produce racemic mixtures; stereoselective reactions never do  
+B. Stereospecific reactions give a defined stereochemical outcome for each stereoisomer of the reactant; stereoselective reactions preferentially form one stereoisomer from a single reactant  
+C. Stereoselective reactions require chiral catalysts; stereospecific reactions do not  
+D. Stereospecific reactions occur only by \(\mathrm{S_N1}\); stereoselective reactions occur only by \(\mathrm{S_N2}\)  
+
+Correct answer: B  
+
+Explanation: A stereospecific reaction has a one-to-one relationship between reactant stereochemistry and product stereochemistry (different stereoisomeric reactants give different stereoisomeric products), reflecting a mechanistic constraint. A stereoselective reaction means multiple stereoisomeric products are possible from the same reactant, but one is favored (kinetically or thermodynamically). The need for a chiral catalyst is not the definition; stereoselectivity can be substrate-controlled as well. Neither stereospecificity nor stereoselectivity is uniquely tied to \(\mathrm{S_N1}\) or \(\mathrm{S_N2}\); it depends on mechanism details.
+
+***
+
+6) For butane conformations viewed down the C2–C3 bond (Newman projection), the correct stability order is:
+
+A. Eclipsed (Me–Me) > eclipsed (Me–H) > gauche > anti  
+B. Anti > gauche > eclipsed (Me–H) > eclipsed (Me–Me)  
+C. Gauche > anti > eclipsed (Me–H) > eclipsed (Me–Me)  
+D. Anti > eclipsed (Me–H) > gauche > eclipsed (Me–Me)  
+
+Correct answer: B  
+
+Explanation: In butane, the anti staggered conformer minimizes steric repulsion between methyl groups and is most stable, while the gauche staggered conformer is slightly less stable due to gauche interaction between methyl groups. Eclipsed conformations are higher in energy due to torsional strain, and the eclipsed form with Me–Me eclipse is the highest because it combines torsional strain with maximal steric repulsion. The common misconception is to treat all eclipsed conformers as equal; in butane they are not. This aligns with conformational analysis learning objectives involving Newman diagrams and energy ranking.
+
+***
+
+7) For a monosubstituted cyclohexane with a bulky group \(\mathrm{t\!-\!Bu}\), the major conformer at equilibrium has the substituent predominantly:
+
+A. Axial, because it minimizes gauche interactions  
+B. Axial, because ring flipping is blocked completely  
+C. Equatorial, because it avoids 1,3-diaxial interactions  
+D. Equatorial, because it makes the ring planar  
+
+Correct answer: C  
+
+Explanation: In cyclohexane chair conformations, axial substituents experience 1,3-diaxial interactions (a form of steric strain) with axial hydrogens (or substituents) on the same side of the ring, destabilizing the axial conformer. Bulky groups like \(\mathrm{t\!-\!Bu}\) strongly prefer the equatorial position to reduce this steric penalty, shifting equilibrium heavily toward the equatorial conformer. Ring flipping generally still occurs, but the population of the axial form becomes very small for bulky substituents, which is often misinterpreted as “no ring flip.” The ring is not planar in the chair form; planarity would increase strain.
+
+***
+
+8) In E/Z assignment for the alkene \(\mathrm{CH_3-CH=CH-CH_2Cl}\), the higher priority group on the right-hand alkene carbon is:
+
+A. \(\mathrm{H}\)  
+B. \(\mathrm{CH_3}\)  
+C. \(\mathrm{CH_2Cl}\)  
+D. Priority cannot be assigned because both are carbon-containing groups  
+
+Correct answer: C  
+
+Explanation: E/Z nomenclature applies CIP rules separately to each alkene carbon, comparing the two substituents attached to that carbon by atomic number at the first point of difference. On the right-hand alkene carbon, the substituents are \(\mathrm{H}\) and \(\mathrm{CH_2Cl}\); carbon (Z=6) outranks hydrogen (Z=1), so \(\mathrm{CH_2Cl}\) has higher priority. A frequent error is thinking that “carbon vs carbon” ambiguity blocks assignment; CIP proceeds by looking outward along the substituent chain when needed. This question reinforces E/Z nomenclature and priority rules.
+
+***
+
+9) A sample contains 70% of one enantiomer and 30% of the other enantiomer. The enantiomeric excess (ee) is:
+
+A. 30%  
+B. 40%  
+C. 70%  
+D. 100%  
+
+Correct answer: B  
+
+Explanation: Enantiomeric excess is defined as \(\mathrm{ee = | \%major - \%minor |}\) for a two-enantiomer mixture, so \(\mathrm{ee = |70-30| = 40\%}\). A common mistake is to report the major enantiomer percentage (70%) as ee, but ee measures excess over a racemic 50:50 baseline. Another misconception is to use \(\%minor\) (30%) as “impurity,” but ee is not simply impurity percentage. This ties directly to optical isomerism and quantitative stereochemical descriptors. 
+
+***
+
+10) In a reaction where neighbouring group participation (anchimeric assistance) occurs, the most characteristic mechanistic feature is:
+
+A. Formation of a bridged intermediate that can alter rate and stereochemical outcome  
+B. A fully concerted backside attack identical to classical \(\mathrm{S_N2}\)  
+C. Complete loss of stereochemical information due to a free planar carbocation only  
+D. Exclusive formation of elimination products due to strong base  
+
+Correct answer: A  
+
+Explanation: Neighbouring group participation involves a neighboring heteroatom or \(\pi\)-system assisting departure of the leaving group to form a bridged (often three-membered) intermediate, which can accelerate the reaction and modify stereochemical outcomes. Treating it as a standard \(\mathrm{S_N2}\) misses the key intermediate and the possibility of atypical stereochemical results (often net retention via double inversion or rearranged pathways). It is also not necessarily a free carbocation; anchimeric assistance often prevents a fully “free” cation by internal trapping. Elimination is not the defining feature; the hallmark is intermediate stabilization and stereoelectronic control.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8e891cd7-93c2-45ab-b55b-f9bb7cff4b54/inorganic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e060820a-2d31-40e4-9eb3-489f8d4f9770/organic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)

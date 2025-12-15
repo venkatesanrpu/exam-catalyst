@@ -1,0 +1,50 @@
+1) A polyfunctional substrate contains an aryl bromide, a terminal alkyne, and an allylic acetate (all present in the same molecule). The goal is to form (i) an aryl–alkyne bond and (ii) an allylic substitution product, while minimizing cross-reactivity and controlling selectivity. Which strategy is most defensible based on the mechanistic “decision tree” logic of coupling-method selection and the distinct intermediate types involved?
+A. Perform Tsuji–Trost first (π-allyl–Pd chemistry), then Sonogashira, because allylic substitution and alkyne coupling use fundamentally different Pd intermediates and can be sequenced with orthogonal condition control  
+B. Perform Sonogashira first, then Suzuki, because boronic acids prevent allylic substitution side reactions  
+C. Perform Heck first on the aryl bromide, then Tsuji–Trost, because β-hydride elimination improves allylic regioselectivity  
+D. Perform McMurry first to “lock in” the allylic acetate as an alkene, then do Sonogashira  
+
+Correct answer: A  
+Explanation: Sonogashira forms aryl–alkyne bonds via Pd oxidative addition to aryl/vinyl halides and (commonly) Cu-assisted alkynyl transmetalation, whereas Tsuji–Trost proceeds via a π-allyl–Pd intermediate from an allylic substrate and then nucleophilic attack, so the two transformations are mechanistically distinct and lend themselves to planned sequencing with selective conditions.  The route-planning emphasis in the unit is to choose coupling methods based on functional group tolerance/compatibility and to use strategy/sequence control in multi-coupling settings rather than assuming one coupling universally suppresses another.  The other options mix unrelated steps (Suzuki not directly required here), misattribute β-hydride elimination to allylic regioselection, or invoke McMurry which is carbonyl–carbonyl coupling and does not “stabilize” an allylic acetate in the stated way.
+
+2) Two allylic substrates are subjected to Pd-catalyzed allylic substitution with the same nucleophile; one substrate gives mainly linear product, the other gives mainly branched product after changing only the ligand environment. Which statement best explains how ligand choice can flip regioselectivity in this reaction family?
+A. Ligands control whether oxidative addition occurs, which directly determines linear vs branched products  
+B. Ligands alter steric/electronic environment of the π-allyl palladium intermediate, biasing nucleophilic attack toward one terminus (linear vs branched)  
+C. Ligands change the nucleophile from hard to soft, which changes the reaction into Suzuki coupling  
+D. Ligands suppress π-allyl formation and instead force β-hydride elimination  
+
+Correct answer: B  
+Explanation: Tsuji–Trost chemistry proceeds through a π-allyl palladium intermediate, and the unit highlights steric/electronic effects plus ligand-induced control as key determinants of linear vs branched regioselectivity (and also enantioselectivity).  Oxidative addition is not the step that “chooses” linear vs branched, and β-hydride elimination is a Heck-related feature rather than the defining selectivity control element here.
+
+3) A synthesis plan uses ring-closing metathesis (RCM) to form a macrocycle from a diene, but the major outcome is oligomerization/polymerization instead of cyclization. Which factor is most consistent with the unit’s treatment of ring-size/macrocyclization issues and metathesis selectivity challenges?
+A. Macrocyclization competes unfavorably with intermolecular metathesis events unless conditions/strategy favor intramolecular closure  
+B. The metallacyclobutane intermediate cannot form for dienes longer than six carbons  
+C. RCM requires copper(I) co-catalyst to avoid oligomerization  
+D. Using Pd instead of Ru is the standard fix for macrocyclization failure  
+
+Correct answer: A  
+Explanation: The unit explicitly connects RCM outcomes to ring-size effects and macrocyclization considerations and discusses selectivity issues (including competing pathways) in metathesis applications.  Metallacyclobutane formation is fundamental to metathesis for a broad range of alkenes (not limited by “six carbons”), Cu(I) is not the defining co-catalyst for metathesis, and Pd is not the catalyst family highlighted for the metathesis mechanism in this syllabus segment.
+
+4) A student proposes replacing Suzuki coupling with Stille coupling in a late-stage synthesis of a heterocycle-containing intermediate because “Stille is always greener and more scalable.” Which response best evaluates this claim using the unit’s emphasis on green chemistry/practicality and reagent trade-offs?
+A. The claim is correct because organotin reagents are environmentally benign and universally preferred  
+B. The claim is incorrect because Stille involves organotin reagents with known toxicity/environmental concerns, so “greener” is not automatic despite potential scope advantages  
+C. The claim is correct because Suzuki requires oxidative addition, which generates toxic halide waste  
+D. The claim is incorrect because Stille cannot couple heterocycles, while Suzuki can  
+
+Correct answer: B  
+Explanation: The unit explicitly flags toxicity and environmental concerns of organotin reagents in Stille coupling and frames coupling-method choice as a trade-off among scope, functional group tolerance, and practical/green considerations rather than a universal ranking.  Suzuki is often chosen for practical reasons including reagent convenience, and the presence of oxidative addition is not itself a sufficient “green vs not green” discriminator because many Pd couplings share that step.
+
+5) In designing a multi-step route that uses two different Pd-catalyzed C–C forming reactions, a chemist wants to minimize unintended reaction at an “extra” electrophilic site (e.g., a second halide) until later in the synthesis. Which conceptual approach most directly matches the unit’s guidance on multi-coupling strategy and selectivity optimization?
+A. Run all couplings in one pot without regard to timing, because Pd cycles are self-selective  
+B. Use temporal control (sequential couplings) and compatibility-aware choices (method/conditions/protecting strategies) to direct chemoselectivity among multiple reactive sites  
+C. Replace Pd with Ti(III) to eliminate chemoselectivity problems  
+D. Switch to only metathesis because it ignores functional groups  
+
+Correct answer: B  
+Explanation: The unit’s integration section emphasizes multi-coupling strategies, decision-based method selection, and selectivity optimization including chemoselectivity/regioselectivity in polyfunctional substrates, explicitly pointing to sequential/temporal control and protecting-group/compatibility planning.  The other options contradict the stated need for controlled sequencing and overgeneralize catalyst swaps or metathesis scope beyond what is justified for diverse electrophilic sites.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0d13af76-414f-4c3b-8d8c-2f6b625d3637/organic_unit_05.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
