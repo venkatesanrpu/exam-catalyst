@@ -1,0 +1,55 @@
+1) In a two-electron atom, a proposed total wavefunction is written as a product \(\Psi(1,2)=\psi(1)\psi(2)\chi(1,2)\) where \(\psi(1)\psi(2)\) is symmetric under exchange \(1 \leftrightarrow 2\) and \(\chi(1,2)\) is also symmetric. Which statement is most accurate?
+A. This is acceptable because orbital approximation allows symmetric total wavefunctions  
+B. This violates the antisymmetry requirement for electrons unless the wavefunction is antisymmetrized (e.g., via a Slater determinant)  
+C. This becomes acceptable only in atomic units  
+D. This is acceptable only if the electrons have different principal quantum numbers  
+
+Correct answer: B  
+
+Explanation: Electrons are fermions, so the total electronic wavefunction must be antisymmetric under exchange of two electrons (antisymmetry requirement).  A symmetric spatial part multiplied by a symmetric spin part gives an overall symmetric product, which violates this requirement.  Slater determinants provide a standard way to enforce antisymmetry using spin-orbitals, and atomic units are just a unit system and do not alter exchange symmetry.
+
+
+2) A linear-variational calculation uses a trial function \(\psi=\sum_i c_i\phi_i\), and the secular determinant yields multiple eigenvalues. Which statement correctly interprets these variational roots?
+A. All roots are guaranteed to be lower bounds to the exact ground-state energy  
+B. The lowest root is the best variational estimate of the ground-state energy within the chosen basis, and it is an upper bound to the exact ground-state energy  
+C. The highest root is always the most accurate because it uses more basis mixing  
+D. Variational roots are exact if the basis functions are hydrogen-like orbitals  
+
+Correct answer: B  
+
+Explanation: The Rayleigh–Ritz (variational) principle implies that, for the ground state, the minimum energy obtained by optimizing the trial function gives an upper bound to the true ground-state energy.  In a multi-parameter (basis expansion) treatment, the secular equation produces several stationary energies; the lowest root corresponds to the best ground-state estimate achievable in that chosen subspace.  Hydrogen-like orbitals can be a useful starting point in the orbital approximation, but they do not make multi-electron energies exact because electron–electron repulsion remains.
+
+
+3) In degenerate first-order perturbation theory, why is it necessary to diagonalize \(H'\) within the degenerate subspace rather than directly using \(E^{(1)}=\langle \psi^{(0)}|H'|\psi^{(0)}\rangle\) on the original degenerate eigenfunctions?   
+A. Because the perturbation changes the value of \(\hbar\) in atomic units  
+B. Because within a degenerate subspace, the unperturbed eigenfunctions are not uniquely defined, and \(H'\) can mix them, so correct first-order states/energies come from diagonalization in that subspace  
+C. Because Slater determinants cannot be formed for degenerate states  
+D. Because the orbital approximation forbids degeneracy  
+
+Correct answer: B  
+
+Explanation: When levels are degenerate, any linear combination of degenerate eigenfunctions is also an acceptable unperturbed eigenfunction, so the “original” \(\psi^{(0)}\) choices are not unique.  A perturbation can couple (mix) these states, and the correct first-order energies and zeroth-order combinations are obtained by diagonalizing the perturbation matrix restricted to the degenerate manifold.  This requirement is independent of atomic units, and degeneracy is a common feature of central-field/orbital pictures rather than something forbidden by them.
+
+
+4) Which option best explains, at a conceptual level, how the Slater determinant simultaneously enforces Pauli exclusion and the antisymmetry requirement?
+A. It forces all electrons to occupy different principal quantum numbers, and therefore they cannot be exchanged  
+B. It becomes zero if any two electrons occupy the same spin-orbital, and it changes sign upon exchange of two electrons’ coordinates  
+C. It makes the wavefunction symmetric in space and antisymmetric in spin for all configurations  
+D. It works only when effective nuclear charge is constant for all electrons  
+
+Correct answer: B  
+
+Explanation: The determinant changes sign when two electron labels are exchanged, automatically giving antisymmetry under exchange.  If two electrons are assigned the same spin-orbital, two columns (or rows) become identical and the determinant becomes zero, encoding Pauli exclusion directly.  The determinant does not force a particular “always symmetric space/antisymmetric spin” pattern; the symmetry of space and spin parts depends on the specific state construction.
+
+
+5) In the orbital approximation for multi-electron atoms, introducing an effective nuclear charge is often viewed as a crude way to incorporate screening. If a variational parameter is chosen to mimic this effective nuclear charge in a helium-like atom, what is the key reason the variational estimate improves compared to using the bare \(Z\) of the nucleus in a hydrogenic orbital?
+A. The variational method removes the need for electron–electron repulsion terms in the Hamiltonian  
+B. A tunable parameter lets the trial wavefunction adjust to electron–electron screening, lowering the expectation value of energy and moving closer to the true ground state  
+C. Screening is a purely spin effect, so optimizing \(Z_{\text{eff}}\) optimizes spin directly  
+D. The secular determinant becomes unnecessary when an effective nuclear charge is used  
+
+Correct answer: B  
+
+Explanation: Multi-electron atoms are not exactly hydrogenic because electron–electron repulsion alters the effective attraction experienced by each electron, often described qualitatively as screening/shielding and effective nuclear charge.  A variational parameter that adjusts the orbital “tightness” can partially account for this physics, thereby lowering the energy expectation value relative to a poor fixed choice and improving the approximation within the chosen trial family.  Electron–electron repulsion is not removed; it is indirectly accommodated by a better-shaped trial function, and secular-determinant machinery is still relevant whenever multiple parameters/basis functions are used.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)

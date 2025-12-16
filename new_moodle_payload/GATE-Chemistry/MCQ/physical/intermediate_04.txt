@@ -1,0 +1,120 @@
+1) Water (\(\mathrm{H_2O}\)) belongs to \(C_{2v}\). Consider the set of three Cartesian displacement vectors of the oxygen atom \((x_O, y_O, z_O)\). Which set correctly identifies how these transform in \(C_{2v}\)?
+
+A. They transform as \(A_1 + B_1 + B_2\)  
+B. They transform as \(A_2 + B_1 + B_2\)  
+C. They transform as \(A_1 + A_2 + B_2\)  
+D. They transform as \(2A_1 + B_1\)  
+
+Correct answer: They transform as \(A_1 + B_1 + B_2\)
+
+Explanation: In a \(C_{2v}\) character table, the Cartesian coordinates \(x,y,z\) are listed as basis functions belonging to three different one-dimensional irreducible representations.  For the usual axis convention used in character tables, one coordinate (commonly \(z\)) transforms as \(A_1\), and the other two (\(x,y\)) transform as \(B_1\) and \(B_2\).  Therefore the three oxygen displacements (being equivalent to \(x,y,z\) basis functions) reduce to \(A_1 + B_1 + B_2\).  Options involving \(A_2\) incorrectly assign a pure Cartesian translation to a rotational-type symmetry species, which is a common confusion when mixing \(x,y,z\) with \(R_x,R_y,R_z\).
+
+
+2) A nonlinear triatomic molecule has \(N=3\). Using the \(3N-6\) rule and symmetry separation ideas, how many vibrational normal modes must it have?
+
+A. 2  
+B. 3  
+C. 4  
+D. 6  
+
+Correct answer: 3
+
+Explanation: For a nonlinear molecule, total degrees of freedom are \(3N\), with 3 translational and 3 rotational degrees removed, leaving \(3N-6\) vibrational modes.  With \(N=3\), this gives \(3\times 3-6=3\) normal modes.  Answers 2 and 4 typically come from incorrectly using the linear-molecule rule \(3N-5\) or from double-counting degeneracy as additional modes.  Answer 6 incorrectly treats all Cartesian motions as vibrations without subtracting translations and rotations.
+
+
+3) \(\mathrm{CO_2}\) is linear and belongs to \(D_{\infty h}\). Which statement about its vibrational mode counting is correct?
+
+A. It has \(3N-6\) vibrational modes because it is triatomic  
+B. It has \(3N-5\) vibrational modes because it is linear  
+C. It has \(3N\) vibrational modes because it is linear  
+D. It has \(2N-1\) vibrational modes because it is centrosymmetric  
+
+Correct answer: It has \(3N-5\) vibrational modes because it is linear
+
+Explanation: The learning content explicitly distinguishes the nonlinear rule \(3N-6\) from the linear-molecule rule \(3N-5\).  Linear molecules have only 2 rotational degrees of freedom (rotation about the molecular axis does not change the orientation), so only 5 non-vibrational degrees (3 translations + 2 rotations) are removed from \(3N\).  The remaining \(3N-5\) are vibrations, independent of whether the molecule is centrosymmetric.  The other formulas are not the standard degrees-of-freedom relations used for normal-mode counting.
+
+
+4) For a molecule in a point group where \(x, y, z\) belong to certain irreducible representations, a vibrational normal mode will be IR active when:
+
+A. Its symmetry species matches at least one of the symmetry species of \(x, y,\) or \(z\)  
+B. Its symmetry species matches at least one of \(R_x, R_y,\) or \(R_z\)  
+C. Its symmetry species is totally symmetric only  
+D. Its symmetry species is antisymmetric with respect to all operations  
+
+Correct answer: Its symmetry species matches at least one of the symmetry species of \(x, y,\) or \(z\)
+
+Explanation: IR activity is determined using the “\(x,y,z\) basis” criterion in the character table, because IR absorption requires a changing dipole moment component along \(x\), \(y\), or \(z\).  Rotational basis functions \(R_x, R_y, R_z\) are used for identifying rotational motions and for separating rotations from vibrations, not for the IR selection rule.  Totally symmetric modes may be IR active in some groups, but the correct general criterion is matching \(x,y,z\).  “Antisymmetric with respect to all operations” is not a meaningful universal condition for IR activity.
+
+
+5) A vibrational mode is Raman active if its symmetry species matches which kind of basis functions in the character table?
+
+A. Quadratic functions such as \(x^2, y^2, z^2, xy, xz, yz\)  
+B. Linear functions \(x, y, z\) only  
+C. Rotational functions \(R_x, R_y, R_z\) only  
+D. Only the identity operation character  
+
+Correct answer: Quadratic functions such as \(x^2, y^2, z^2, xy, xz, yz\)
+
+Explanation: Raman activity is predicted from the quadratic-function entries in character tables, reflecting that Raman scattering depends on changes in polarizability (a second-rank tensor).  Linear functions \(x,y,z\) correspond to dipole moment components and thus to IR activity, not the Raman criterion.  Rotational functions are used in constructing and reducing the full \(3N\) displacement representation, but they are not the Raman activity test.  Referring only to the identity character does not capture the required symmetry matching for polarizability components.
+
+
+6) In \(C_{3v}\), ammonia (\(\mathrm{NH_3}\)) has three equivalent \(\sigma\)-donor ligand orbitals (one from each H) forming ligand group orbitals. Which statement best describes the symmetry outcome for these three ligand orbitals before matching with N atomic orbitals?
+
+A. They form one totally symmetric combination and one doubly degenerate pair of combinations  
+B. They form three totally symmetric combinations because all H atoms are equivalent  
+C. They form one antisymmetric combination only because there is no inversion center  
+D. They cannot be classified without constructing the full MO diagram  
+
+Correct answer: They form one totally symmetric combination and one doubly degenerate pair of combinations
+
+Explanation: The learning path emphasizes building SALCs for \(\sigma\)-bonding in \(C_{3v}\) and using degeneracy/irrep dimensionality ideas.  Three equivalent ligand \(\sigma\) orbitals in \(C_{3v}\) reduce into irreducible representations consisting of one one-dimensional totally symmetric combination and one two-dimensional (doubly degenerate) set.  Equivalence of ligands does not imply all SALCs are totally symmetric; symmetry operations mix ligand functions into different combinations that fall into different irreps.  The absence of inversion affects g/u labels (in centrosymmetric groups) but does not prevent SALC classification in \(C_{3v}\).
+
+
+7) During vibrational analysis using group theory, the standard procedure begins with a reducible representation for atomic displacements and then removes translations and rotations. Which set corresponds to motions that must be removed from the total \(3N\) to obtain vibrational modes for a nonlinear molecule?
+
+A. 3 translations and 3 rotations  
+B. 2 translations and 3 rotations  
+C. 3 translations and 2 rotations  
+D. 1 translation and 5 rotations  
+
+Correct answer: 3 translations and 3 rotations
+
+Explanation: The internal-coordinates/vibrations section states that for nonlinear molecules the vibrational count is \(3N-6\), which is obtained by removing 3 translational and 3 rotational degrees from \(3N\).  Removing only 5 motions corresponds to the linear-molecule case \(3N-5\), not the nonlinear case.  The other choices incorrectly allocate degrees of freedom and lead to incorrect vibrational mode counts.  This removal step aligns with the learning objective of separating translational, rotational, and vibrational contributions from a reducible representation.
+
+
+8) In SALC-based LCAO-MO construction, why is it useful to form SALCs before setting up the secular determinant?
+
+A. SALCs block-diagonalize the problem by symmetry, reducing the size of coupled mixing sets  
+B. SALCs force all molecular orbitals to have the same energy  
+C. SALCs eliminate the need for normalization of orbitals  
+D. SALCs guarantee that all resulting MOs are IR active  
+
+Correct answer: SALCs block-diagonalize the problem by symmetry, reducing the size of coupled mixing sets
+
+Explanation: The SALC topic explicitly highlights using symmetry to reduce the secular problem, which is the practical reason for forming symmetry-adapted combinations.  Orbitals of different irreducible representations do not mix, so the MO problem separates into smaller independent blocks.  SALCs do not equalize energies; energies still depend on overlap and Hamiltonian matrix elements.  SALCs must be normalized, and symmetry does not guarantee IR activity of MOs (IR activity concerns vibrational modes, not MO existence).
+
+
+9) A student claims: “If a mode is Raman active, it must also be IR active because both involve interaction with light.” Which is the best symmetry-based correction?
+
+A. Raman activity depends on transforming like quadratic functions, whereas IR activity depends on transforming like \(x,y,z\); these are different criteria  
+B. Raman activity depends only on the identity representation, while IR activity depends only on antisymmetric representations  
+C. Raman activity occurs only in centrosymmetric molecules, while IR activity occurs only in non-centrosymmetric molecules  
+D. Raman and IR activity are identical because both use the same selection rule from \(R_x,R_y,R_z\)  
+
+Correct answer: Raman activity depends on transforming like quadratic functions, whereas IR activity depends on transforming like \(x,y,z\); these are different criteria
+
+Explanation: The file explicitly separates “IR activity criteria” (from \(x,y,z\) basis) and “Raman activity criteria” (from quadratic functions) in character tables.  Because these criteria are different, a mode may be Raman active, IR active, both, or neither depending on its symmetry species.  Centrosymmetry influences mutual exclusion trends in some cases, but it is not the definition of activity in the character table method described.  Using rotational functions \(R_x,R_y,R_z\) is not the selection rule for either IR or Raman activity.
+
+
+10) In symmetry-based hybrid orbital construction on a central atom, the key idea is to choose hybrid sets that:
+
+A. Span the same irreducible representations as the directions toward ligands (i.e., match ligand symmetry)  
+B. Always maximize s-character regardless of symmetry  
+C. Always correspond to the totally symmetric representation only  
+D. Avoid mixing p orbitals because p orbitals are antisymmetric  
+
+Correct answer: Span the same irreducible representations as the directions toward ligands (i.e., match ligand symmetry)
+
+Explanation: The hybrid-orbital section emphasizes using irreducible representations and matching central orbitals to ligand symmetry via irreps, which is the symmetry logic behind deriving sp, sp\(^2\), and sp\(^3\) sets.  Hybridization is not determined by “maximize s-character” as a symmetry rule; it is constrained by the symmetry of the bonding environment.  Hybrids are not restricted to only totally symmetric symmetry species; rather, the set of hybrids must collectively transform in a way compatible with the ligand directions and bonding combinations.  p orbitals are not “forbidden” by antisymmetry; they are routinely part of symmetry-allowed hybrid sets depending on the point group.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eac9bba8-3ab9-429e-8b85-34ae49fc31cf/physical_unit_04.txt)

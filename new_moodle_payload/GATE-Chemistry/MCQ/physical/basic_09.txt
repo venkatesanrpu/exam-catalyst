@@ -1,0 +1,131 @@
+1) In statistical thermodynamics, a **microstate** is best described as:
+A. A macroscopic condition specified by \(P, V, T\)  
+B. A single detailed specification of the system at the microscopic level consistent with given constraints  
+C. The average energy of an ensemble at equilibrium  
+D. The partition function value at a given temperature  
+
+Correct answer: B
+
+Explanation: A microstate refers to one specific microscopic configuration of a system (e.g., a particular arrangement of particles/energies/coordinates) that is consistent with the imposed macroscopic constraints.
+The macroscopic condition \(P, V, T\) describes a macrostate, not a microstate.
+The average energy is an ensemble average (a derived quantity), not a specification of a single configuration.
+The partition function is a generating/normalization quantity for probabilities in the canonical description, not a definition of a microstate.
+
+2) The **macrostate** of a system is most directly specified by:
+A. A complete list of all particle positions and momenta  
+B. A probability for each microstate  
+C. A small set of thermodynamic variables (constraints) that can correspond to many microstates  
+D. The chemical potential of the system only  
+
+Correct answer: C
+
+Explanation: A macrostate is defined by macroscopic observables/constraints (such as \(E,V,N\) or \(T,V,N\)), and many microstates can realize the same macrostate.
+A complete list of positions and momenta describes one microstate.
+A probability distribution over microstates is part of an ensemble description, not the definition of a macrostate itself.
+Chemical potential alone is insufficient to specify a macrostate in general; additional variables/constraints are needed.
+
+3) The statistical definition of entropy (Boltzmann formula) is:
+A. \(S = k_B \ln W\)  
+B. \(S = -k_B T \ln Z\)  
+C. \(S = -(\partial \ln Z/\partial \beta)\)  
+D. \(S = k_B \ln Z\)  
+
+Correct answer: A
+
+Explanation: Boltzmann’s formula connects entropy to multiplicity \(W\) (number of accessible microstates) via \(S = k_B \ln W\).
+\(-k_B T \ln Z\) corresponds to Helmholtz free energy \(F\), not entropy.
+\(-(\partial \ln Z/\partial \beta)\) gives internal energy \(U\) in the canonical ensemble, not entropy directly.
+\(k_B \ln Z\) is not the entropy; \(Z\) is the canonical partition function and entropy requires additional derivatives/relations.
+
+4) The **microcanonical ensemble** is appropriate for a system that is:
+A. In contact with a heat bath at fixed \(T\)  
+B. Isolated with fixed \(E, V, N\)  
+C. In contact with a particle reservoir at fixed \(\mu\)  
+D. At fixed pressure and temperature  
+
+Correct answer: B
+
+Explanation: The microcanonical ensemble describes isolated systems with fixed energy \(E\), volume \(V\), and particle number \(N\).
+Contact with a heat bath implies canonical conditions (\(T,V,N\)).
+Contact with a particle reservoir with fixed chemical potential \(\mu\) is grand canonical.
+Fixed pressure and temperature corresponds to other ensembles (not the microcanonical ensemble described in this unit).
+
+5) In the microcanonical ensemble, the postulate of **equal a priori probability** means:
+A. All microstates (accessible under the given constraints) are equally probable  
+B. The lowest-energy microstate is the most probable  
+C. The probability of a microstate is proportional to \(e^{-\beta E}\)  
+D. Probability depends only on the degeneracy of energy levels in the canonical ensemble  
+
+Correct answer: A
+
+Explanation: Equal a priori probability states that for an isolated system with fixed \(E,V,N\), every accessible microstate consistent with these constraints has the same probability.
+Choosing the lowest-energy microstate as most probable is not correct because energy is fixed in the microcanonical ensemble, and no Boltzmann weighting is used.
+The factor \(e^{-\beta E}\) is the Boltzmann factor from the canonical ensemble, not microcanonical.
+Degeneracy matters for counting \(W\), but the statement in option D mixes canonical ideas and is not the microcanonical postulate.
+
+6) The **canonical ensemble** describes a system with fixed:
+A. \(T, V, N\)  
+B. \(E, V, N\)  
+C. \(T, V, \mu\)  
+D. \(P, T, N\)  
+
+Correct answer: A
+
+Explanation: In the canonical ensemble, the system exchanges energy with a heat reservoir, so temperature \(T\) is fixed along with \(V\) and \(N\), while the system energy fluctuates.
+Fixed \(E,V,N\) is microcanonical.
+Fixed \(T,V,\mu\) is grand canonical.
+Fixed \(P,T,N\) is not the canonical ensemble as defined here.
+
+7) The **Boltzmann distribution** in the canonical ensemble states that the probability of occupying a state of energy \(E_i\) is proportional to:
+A. \(E_i\)  
+B. \(e^{-\beta E_i}\)  
+C. \(e^{+\beta E_i}\)  
+D. \(\ln E_i\)  
+
+Correct answer: B
+
+Explanation: The Boltzmann distribution assigns probabilities \(p_i \propto e^{-\beta E_i}\), where \(\beta = 1/(k_B T)\).
+Direct proportionality to \(E_i\) is incorrect; higher energy states are typically less probable at fixed \(T\).
+\(e^{+\beta E_i}\) would incorrectly favor higher energies and does not represent equilibrium canonical probabilities.
+\(\ln E_i\) has no role as the weighting factor in the canonical probability distribution.
+
+8) In the canonical ensemble, the **partition function** \(Z\) is defined as:
+A. \(Z=\sum_i E_i\)  
+B. \(Z=\sum_i e^{-\beta E_i}\)  
+C. \(Z=\prod_i e^{-\beta E_i}\)  
+D. \(Z=\sum_i \beta E_i\)  
+
+Correct answer: B
+
+Explanation: The canonical partition function is \(Z=\sum_i e^{-\beta E_i}\), summing the Boltzmann factors over all microstates (or energy eigenstates).
+Summing energies \(\sum_i E_i\) is not a normalization and does not generate thermodynamics.
+A product form \(\prod_i e^{-\beta E_i}\) is not the definition of the canonical partition function.
+\(\sum_i \beta E_i\) is not dimensionally or conceptually the canonical partition function.
+
+9) The **Helmholtz free energy** \(F\) is related to the canonical partition function by:
+A. \(F = k_B T \ln Z\)  
+B. \(F = -k_B T \ln Z\)  
+C. \(F = -\partial \ln Z/\partial \beta\)  
+D. \(F = k_B \ln Z\)  
+
+Correct answer: B
+
+Explanation: In the canonical ensemble, the Helmholtz free energy is given by \(F = -k_B T \ln Z\), making \(Z\) the central generating function for thermodynamic properties.
+The expression \(k_B T \ln Z\) has the wrong sign and would give incorrect temperature dependence.
+\(-\partial \ln Z/\partial \beta\) corresponds to internal energy \(U\), not \(F\).
+\(k_B \ln Z\) misses the factor of \(T\) and does not represent Helmholtz free energy.
+
+10) The **grand canonical ensemble** is characterized by fixed \(T\), \(V\), and:
+A. \(E\)  
+B. \(N\)  
+C. \(\mu\)  
+D. \(S\)  
+
+Correct answer: C
+
+Explanation: The grand canonical ensemble applies when a system can exchange both energy and particles with a reservoir, so \(T\), \(V\), and chemical potential \(\mu\) are fixed while \(E\) and \(N\) fluctuate.
+Fixed \(E\) would correspond to an isolated-energy constraint (microcanonical-like), not grand canonical.
+Fixed \(N\) corresponds to the canonical ensemble rather than grand canonical.
+Entropy \(S\) is not taken as a fixed control variable for defining the grand canonical ensemble in this context.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)

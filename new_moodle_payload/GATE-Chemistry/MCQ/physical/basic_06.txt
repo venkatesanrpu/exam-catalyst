@@ -1,0 +1,111 @@
+1) For a closed system, the **first law of thermodynamics** is best stated as:
+
+A. The entropy of the universe is always constant  
+B. The change in internal energy equals heat added to the system minus work done by the system  
+C. The change in enthalpy equals heat absorbed at constant volume  
+D. The Gibbs free energy of a system always decreases in a spontaneous process  
+
+Correct answer: B  
+
+Explanation: The first law expresses conservation of energy for a system as \(\Delta U = q - w\), where \(q\) is heat absorbed by the system and \(w\) is work done by the system (with the chemistry sign convention).  Option stating entropy is constant is incorrect because the second law states entropy of the universe increases for spontaneous processes, not remains constant.  The enthalpy statement is wrong because at constant pressure (not constant volume), \(q_p=\Delta H\) for PV work only.  The Gibbs free energy criterion (\(\Delta G<0\) for spontaneity) applies under constant temperature and pressure, so it is not an “always” condition for any spontaneous process.
+
+2) Which of the following is a **state function**?
+
+A. Heat  
+B. Work  
+C. Internal energy  
+D. Path length of a process  
+
+Correct answer: C  
+
+Explanation: A state function depends only on the state of the system, not on how the state was reached; internal energy \(U\) is a state function.  Heat and work depend on the path taken during a process, so they are path functions rather than state functions.  “Path length” is not a thermodynamic property and is inherently path dependent, so it cannot be a state function.
+
+3) The entropy change for a **reversible** process is defined by:
+
+A. \(\Delta S = \int \frac{\delta q_\text{rev}}{T}\)  
+B. \(\Delta S = \int \frac{\delta q_\text{irrev}}{T}\)  
+C. \(\Delta S = \int \delta q_\text{rev}\,T\)  
+D. \(\Delta S = \int \delta w_\text{rev}/T\)  
+
+Correct answer: A  
+
+Explanation: Entropy is a state function and its change between two equilibrium states can be computed using a reversible path: \(\Delta S = \int \delta q_\text{rev}/T\).  Using irreversible heat directly in that integral is not valid because \(\delta q_\text{irrev}/T\) does not generally give the state-function change.  Multiplying by \(T\) (instead of dividing) is dimensionally and conceptually incorrect for entropy change.  Work does not define entropy change; entropy is tied to reversible heat transfer divided by temperature.
+
+4) The **third law of thermodynamics** implies that:
+
+A. Entropy of a perfect crystal is zero at 0 K  
+B. Enthalpy of a perfect crystal is zero at 0 K  
+C. Gibbs free energy is zero at 0 K for any system  
+D. Internal energy is zero at 0 K for all substances  
+
+Correct answer: A  
+
+Explanation: The third law provides the reference for absolute entropy: a perfect crystal has \(S=0\) at 0 K.  It does not claim that \(H\), \(G\), or \(U\) must be zero at 0 K; those depend on chosen reference states and zero-point energies.  The key use is enabling calculation of absolute entropies by integrating heat capacity contributions from 0 K upward (with appropriate phase transitions).
+
+5) Under constant temperature and pressure, a process is spontaneous if:
+
+A. \(\Delta U < 0\)  
+B. \(\Delta H < 0\)  
+C. \(\Delta G < 0\)  
+D. \(\Delta S_\text{system} < 0\)  
+
+Correct answer: C  
+
+Explanation: At constant \(T\) and \(P\), the Gibbs free energy criterion applies: \(\Delta G < 0\) indicates spontaneity and \(\Delta G = 0\) indicates equilibrium.  \(\Delta U<0\) is not a general spontaneity criterion because spontaneous processes can occur with \(\Delta U\) positive or negative depending on heat and work interactions.  \(\Delta H<0\) alone is insufficient because entropy effects also matter in determining spontaneity at given \(T,P\).  \(\Delta S_\text{system}\) can be negative for a spontaneous process if the surroundings’ entropy increase outweighs it, so it is not a standalone criterion.
+
+6) The **chemical potential** of a component in a mixture is best described as:
+
+A. The average kinetic energy of molecules of that component  
+B. The change in Gibbs free energy with respect to moles of that component at constant \(T,P\) and other components fixed  
+C. The total Gibbs free energy divided by total moles  
+D. The change in enthalpy with pressure at constant temperature  
+
+Correct answer: B  
+
+Explanation: Chemical potential \(\mu_i\) is defined as \(\mu_i=\left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\neq i}}\), making it the driving force for mass transfer and phase/chemical equilibrium.  Average kinetic energy relates to temperature and molecular motion, not directly to chemical potential.  Total \(G\) divided by total moles is molar Gibbs free energy of the mixture, not the partial molar quantity for a specific component.  The enthalpy–pressure derivative is linked to other thermodynamic relations, not the definition of chemical potential.
+
+7) For an **ideal solution**, Raoult’s law for component \(i\) states:
+
+A. \(p_i = x_i\,p_i^\*\)  
+B. \(p_i = \gamma_i x_i\,p_i^\*\) with \(\gamma_i \neq 1\) necessarily  
+C. \(p_i = k_H x_i\) for all compositions  
+D. \(p_i = p_i^\*/x_i\)  
+
+Correct answer: A  
+
+Explanation: In an ideal solution, each component obeys Raoult’s law: the partial vapor pressure \(p_i\) equals mole fraction in the liquid \(x_i\) times the pure-component vapor pressure \(p_i^\*\) at the same temperature.  Introducing \(\gamma_i\) (activity coefficient) is the non-ideal correction; for ideal solutions \(\gamma_i=1\).  Henry’s law is typically used for dilute solutions/solute behavior and is not generally valid for all compositions.  Dividing by \(x_i\) is an incorrect rearrangement and violates limiting behavior as \(x_i \to 1\).
+
+8) The most appropriate statement about **fugacity** is:
+
+A. Fugacity equals pressure for all real gases at all conditions  
+B. Fugacity is an effective pressure that accounts for non-ideality in the chemical potential  
+C. Fugacity is only defined for liquids and solids, not gases  
+D. Fugacity is identical to molarity for solutions  
+
+Correct answer: B  
+
+Explanation: Fugacity is introduced so that the chemical potential of a real gas can be written in a form analogous to an ideal gas, using an effective pressure \(f\) that captures deviations from ideality.  Fugacity approaches pressure in the ideal-gas limit (low pressure), but it is not equal to pressure under all conditions for real gases.  Fugacity is widely used for gases and also extended to condensed phases with suitable conventions, so it is not restricted away from gases.  Molarity is a concentration unit; fugacity is a thermodynamic “effective pressure,” so they are not identical.
+
+9) The condition for **chemical equilibrium** at constant \(T\) and \(P\) is:
+
+A. \(\Delta H = 0\)  
+B. \(\Delta S = 0\)  
+C. \(\Delta G = 0\)  
+D. \(\Delta U = 0\)  
+
+Correct answer: C  
+
+Explanation: At constant temperature and pressure, equilibrium corresponds to a minimum in Gibbs free energy and the criterion is \(\Delta G = 0\) for the reaction progress at equilibrium.  \(\Delta H=0\), \(\Delta S=0\), or \(\Delta U=0\) are not general equilibrium conditions; they may hold in special cases but are not universal criteria.  This connects directly to the link between \(\Delta G^\circ\) and equilibrium constants, which is central to equilibrium thermodynamics.
+
+10) The relationship between standard Gibbs free energy change and equilibrium constant is:
+
+A. \(\Delta G^\circ = RT \ln K\)  
+B. \(\Delta G^\circ = -RT \ln K\)  
+C. \(\Delta G^\circ = -RT/K\)  
+D. \(\Delta G^\circ = R \ln(K/T)\)  
+
+Correct answer: B  
+
+Explanation: For a reaction at temperature \(T\), \(\Delta G^\circ = -RT\ln K\), linking thermodynamics to chemical equilibrium quantitatively.  The sign in option with \(+RT\ln K\) is incorrect and would predict the wrong trend (large \(K\) should correspond to negative \(\Delta G^\circ\)).  The forms \(-RT/K\) and \(R\ln(K/T)\) do not match the correct derivation based on chemical potentials and standard states.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/95e78c24-4572-43af-908b-a9631322ce3a/physical_unit_06.txt)

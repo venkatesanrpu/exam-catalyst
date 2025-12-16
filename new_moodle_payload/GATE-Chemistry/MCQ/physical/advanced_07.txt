@@ -1,0 +1,66 @@
+1) A binary liquid–vapour system at fixed pressure shows an azeotropic point in the \(T\)-\(x\) diagram. Considering Gibbs phase rule and the defining condition of an azeotrope, which statement best describes the degrees of freedom at the azeotropic point (at fixed \(P\))?
+
+A. One intensive variable can be changed independently while retaining two phases and azeotropic condition.  
+B. No intensive variable can be changed independently while retaining two phases and azeotropic condition.  
+C. Two intensive variables can be changed independently while retaining two phases and azeotropic condition.  
+D. Degrees of freedom is the same everywhere in the two-phase region, so the azeotropic point is not special.  
+
+Correct answer: No intensive variable can be changed independently while retaining two phases and azeotropic condition.
+
+Explanation: In a binary two-phase (L+V) region at fixed pressure, the reduced phase rule gives \(F' = C - P + 1 = 2-2+1=1\), so normally one variable (e.g., \(T\)) can be varied and the equilibrium compositions adjust.
+At an azeotrope there is an additional constraint: liquid and vapour compositions are identical (a singular point in the \(T\)-\(x\) diagram), which removes that remaining freedom, making the azeotropic state effectively invariant at that pressure.
+Why others are wrong: Claiming one or two degrees of freedom ignores the extra azeotropic constraint; stating it is “not special” contradicts the text’s emphasis that the azeotrope appears as a singular point and imposes a distillation limitation.
+
+2) In a one-component \(P\)–\(T\) diagram, the liquid–vapour equilibrium curve terminates at a critical point. Using phase-rule reasoning, which statement is the most accurate about how degrees of freedom changes when moving from (i) a two-phase point on the liquid–vapour curve to (ii) the critical point?
+
+A. \(F\) changes from 0 to 1 because two phases become one phase at the critical point.  
+B. \(F\) remains 1 at both locations because both still lie on a phase boundary.  
+C. \(F\) changes from 1 on the coexistence curve to 2 at the critical point because it becomes a single-phase region endpoint.  
+D. \(F\) changes from 2 to 1 because a critical point is an invariant point like a triple point.  
+
+Correct answer: \(F\) changes from 1 on the coexistence curve to 2 at the critical point because it becomes a single-phase region endpoint.
+
+Explanation: For a one-component system, Gibbs phase rule is \(F=C-P+2\).
+On a liquid–vapour coexistence curve, \(C=1\), \(P=2\) so \(F=1\); at the critical point the distinction between liquid and vapour disappears, effectively yielding a single phase (\(P=1\)) and thus \(F=2\), consistent with being able to vary \(T\) and \(P\) within a one-phase region.
+Why others are wrong: Treating the critical point like a triple point (invariant) is incorrect; also, the critical point is not a generic two-phase boundary point because the two phases become indistinguishable there.
+
+3) A binary liquid–liquid system shows a UCST with a consolute point. At a temperature slightly below UCST, a mixture splits into two liquid phases with compositions given by the ends of a tie line. Which statement correctly links the lever rule to the binodal/tie-line picture?
+
+A. The lever rule applies only to solid–liquid eutectic diagrams, not to liquid–liquid diagrams.  
+B. The overall composition must lie outside the binodal for the lever rule to be used.  
+C. The overall composition lies on the tie line connecting the two coexisting compositions, and phase amounts are inversely proportional to the segment lengths.  
+D. Tie lines exist only at the consolute point, so lever rule can be applied only at UCST.  
+
+Correct answer: The overall composition lies on the tie line connecting the two coexisting compositions, and phase amounts are inversely proportional to the segment lengths.
+
+Explanation: In partially miscible liquid–liquid systems, the two-phase region is bounded by the binodal curve, and tie lines connect compositions of the two coexisting liquid phases at a given temperature.
+The lever rule is explicitly used in liquid–liquid phase diagrams (as in the learning path) to determine relative phase amounts from the overall composition’s position along the tie line.
+Why others are wrong: The lever rule is not restricted to eutectics; it applies wherever two phases coexist and a tie line can be drawn; the consolute point is where tie lines shrink to zero length, not where they uniquely exist.
+
+4) Consider a binary solid–liquid phase diagram where an intermediate compound forms and undergoes incongruent melting (peritectic reaction). Which qualitative statement is most consistent with “incongruent melting” in such diagrams?
+
+A. The solid melts to a liquid of the same composition as the solid at a single temperature.  
+B. On heating, the solid decomposes to a liquid plus a different solid phase rather than producing a liquid of identical composition.  
+C. The liquid and vapour compositions become identical at the melting point.  
+D. The solid becomes completely miscible with the other solid phase at all temperatures.  
+
+Correct answer: On heating, the solid decomposes to a liquid plus a different solid phase rather than producing a liquid of identical composition.
+
+Explanation: The syllabus explicitly distinguishes congruent vs. incongruent melting as different solid-phase behaviors during melting in two-component systems.
+Incongruent melting means the solid does not melt to a liquid of the same composition; instead it participates in a reaction (often peritectic) producing a liquid and another solid of different composition.
+Why others are wrong: “Same composition liquid” defines congruent melting; “liquid and vapour identical” describes azeotropy (liquid–vapour), not melting; complete solid miscibility refers to solid solutions, not incongruent melting behavior.
+
+5) A distillation column is used for a binary mixture that forms an azeotrope at the operating pressure. Which statement best captures why increasing the number of equilibrium stages (theoretical plates) alone cannot yield a product composition beyond the azeotrope?
+
+A. Because at the azeotrope the system is at a triple point.  
+B. Because at the azeotrope the relative volatility effectively becomes 1 since liquid and vapour compositions are identical.  
+C. Because the phase rule forbids two phases in binary systems at constant pressure.  
+D. Because the azeotrope corresponds to a eutectic point that blocks vapour formation.  
+
+Correct answer: Because at the azeotrope the relative volatility effectively becomes 1 since liquid and vapour compositions are identical.
+
+Explanation: Fractional distillation relies on vapour–liquid equilibrium giving a vapour composition different from the liquid composition (enrichment driven by differential volatility).
+At an azeotrope, the liquid and vapour compositions are identical, so the driving force for separation vanishes and adding more equilibrium stages cannot cross that composition limit at the same pressure.
+Why others are wrong: Triple point and eutectic are different equilibria (one-component three-phase; binary solid–liquid invariant) and do not explain distillation limits; the phase rule allows two phases in binary systems at constant pressure and is routinely used for such diagrams.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)

@@ -1,0 +1,59 @@
+1) For a time-independent Hamiltonian \(\hat{H}\), a system prepared in an energy eigenstate \(|E\rangle\) is called a stationary state. Which statement best captures the physically testable meaning of “stationary” in this context?   
+A. The wave function \(\psi(x,t)\) is completely time-independent everywhere.
+B. The probability density \(|\psi(x,t)|^2\) is time-independent, even though \(\psi(x,t)\) may acquire a phase factor.   
+C. The expectation value of every operator is time-independent for all observables.
+D. The particle’s position is fixed (does not fluctuate) because the energy is definite.
+
+Correct answer: B
+
+Explanation: Stationary states arise from the time-independent Schrödinger equation as energy eigenstates, and their time evolution in the time-dependent Schrödinger equation introduces only a global phase factor \(e^{-iEt/\hbar}\).  A global phase changes \(\psi(x,t)\) but cancels in \(|\psi(x,t)|^2\), so the Born probability density remains time-independent, which is the operational content of “stationary.”  A fully time-independent \(\psi\) is not required because a phase can still vary with time while leaving all probabilities unchanged.  It is not generally true that expectation values of all operators are time-independent; only those commuting with \(\hat{H}\) are guaranteed constant in time for such a state.  A definite energy does not imply a definite position; that would contradict the wave nature and the role of incompatible observables.   
+
+***
+
+2) Two observables \(\hat{A}\) and \(\hat{B}\) are represented by Hermitian operators. Which condition is most directly tied to the possibility of preparing a state that has definite values of both observables simultaneously (i.e., a common eigenstate)?
+A. \([\hat{A},\hat{B}]=0\) (they commute).
+B. \(\hat{A}\hat{B}\) is Hermitian.
+C. \(\hat{A}\) has discrete eigenvalues.
+D. \(\langle \psi|\hat{A}|\psi\rangle=\langle \psi|\hat{B}|\psi\rangle\) in that state.   
+
+Correct answer: A
+
+Explanation: The operator-algebra link between commutators and simultaneous observability states that if two observables commute, they can share a complete set of eigenfunctions (common eigenstates), enabling definite values for both in one state.  The Hermiticity of \(\hat{A}\hat{B}\) is not the fundamental criterion for common eigenstates; noncommuting operators can produce a non-Hermitian product even if each operator is Hermitian.  Whether \(\hat{A}\) has discrete eigenvalues does not ensure compatibility with \(\hat{B}\); compatibility is governed by commutation relations.  Equality of expectation values is not the same as certainty (zero uncertainty) and does not imply the state is an eigenstate of either operator.
+
+***
+
+3) Consider an infinite square well and a finite square well of the same width. Which reasoning best explains why the ground-state energy in the finite well is lower than that in the infinite well (for the same well width)?
+A. In the finite well, the wave function penetrates into the classically forbidden region, effectively increasing the spatial extent and reducing kinetic-energy cost from confinement.
+B. In the finite well, the boundary conditions force the wave function to have more nodes, raising wavelength and lowering energy.
+C. In the finite well, the particle has higher probability density at the walls, which always lowers potential energy to negative infinity.
+D. In the finite well, the Hamiltonian is non-Hermitian, so the eigenvalues shift downward.
+
+Correct answer: A
+
+Explanation: The finite square well requires wave function continuity at boundaries and permits an exponentially decaying tail outside the well, reflecting partial barrier penetration (a tunnelling-related feature).  This penetration effectively reduces confinement compared with an infinite well, lowering the kinetic-energy contribution and hence lowering the bound-state energy relative to the infinitely rigid confinement case.  More nodes correspond to higher quantum numbers and higher energies, not to the ground state being lowered.  Probability density at the wall does not imply the potential becomes unboundedly negative; the potential is finite (not \(-\infty\)) and the key effect is altered boundary behavior and penetration.  The Hamiltonian for these standard bound-state problems is taken as Hermitian; non-Hermiticity would undermine real energy eigenvalues for observables.
+
+***
+
+4) In the quantum harmonic oscillator, Hermite polynomials appear in the wave functions. Which statement best connects the appearance of Hermite polynomials to the physical requirements on acceptable wave functions?
+A. Hermite polynomials are chosen because they make \(\psi\) discontinuous at the turning points, matching classical motion.
+B. Hermite polynomials arise because the Schrödinger equation with a quadratic potential reduces to a differential equation whose normalizable solutions exist only for specific polynomial orders, leading to quantization.
+C. Hermite polynomials are used to enforce that all energies are continuous rather than quantized.
+D. Hermite polynomials ensure the oscillator has zero-point energy equal to zero.
+
+Correct answer: B
+
+Explanation: For a harmonic (quadratic) potential, solving the Schrödinger equation leads to a Hermite-type differential equation, and normalizability (finite probability on all space) restricts solutions to those terminating as Hermite polynomials.  This termination condition is what enforces discrete allowed energies, producing quantized levels and a nonzero zero-point energy.  Discontinuities are not allowed for physically acceptable wave functions in these standard quantum models; continuity and normalizability are central constraints.  Quantization is a defining outcome here, not continuity of energies.  Zero-point energy is a core prediction of the harmonic oscillator solution, not something eliminated by special functions.
+
+***
+
+5) For hydrogenic orbitals, nodal structure and the radial distribution function are used to interpret electron probability in space. Which statement correctly links “radial nodes” to the radial probability distribution?
+A. A radial node is an angle where the probability becomes zero, so it appears only in the angular distribution.
+B. A radial node is a value of \(r\) (distance from nucleus) at which the radial part of the wave function changes sign, producing zero probability density at that radius and affecting the radial distribution function.
+C. Radial nodes occur only for \(l=0\) (s orbitals) and never for p or d orbitals.
+D. The radial distribution function is uniform in \(r\), so nodes do not influence it.
+
+Correct answer: B
+
+Explanation: In the hydrogen-atom solution, separation into radial and angular parts means that “radial nodes” are zeros in the radial factor at particular distances \(r\), which directly influences electron probability as a function of distance and thus the radial distribution function.  Angular nodes correspond to nodal planes/cones from the angular factor (spherical harmonics), not to specific radii.  Radial nodes are not restricted to s orbitals; nodal structure depends on the quantum numbers and appears across orbital types as described by the hydrogenic orbital framework.  The radial distribution function is not uniform; it reflects how probability varies with distance, so nodes necessarily affect its shape.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/2ed08a49-6201-4865-b260-c92e0bc9b093/physical_unit_01.txt)

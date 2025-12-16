@@ -1,0 +1,121 @@
+1) A rigid diatomic molecule shows adjacent rotational absorption lines separated by 4.0 cm\(^{-1}\). The rotational constant \(B\) (in cm\(^{-1}\)) is:
+A. 1.0  
+B. 2.0  
+C. 4.0  
+D. 8.0  
+
+Correct answer: 2.0
+
+Explanation: For a rigid rotor with dipole-allowed transitions, the line positions follow \(\tilde{\nu}(J\to J+1)=2B(J+1)\), so adjacent lines are separated by \(2B\).  Given spacing \(=4.0\) cm\(^{-1}\), \(2B=4.0\Rightarrow B=2.0\) cm\(^{-1}\).  The other options come from common slips: taking spacing as \(B\) (gives 4.0), halving twice (gives 1.0), or doubling incorrectly (gives 8.0).
+
+2) In rotational spectroscopy, the main reason homonuclear diatomic molecules (e.g., N\(_2\), O\(_2\)) do not show a pure rotational microwave spectrum is that they:
+A. Have zero permanent dipole moment  
+B. Have no rotational energy levels  
+C. Violate the \(\Delta J=\pm 1\) selection rule  
+D. Undergo only electronic transitions  
+
+Correct answer: Have zero permanent dipole moment
+
+Explanation: A dipole-allowed pure rotational transition requires interaction with the radiation field through a permanent dipole moment; homonuclear diatomics have symmetry that makes the permanent dipole moment zero.  Rotational levels still exist, but the transition moment integral becomes zero for microwave rotational absorption in such cases.  The selection rule \(\Delta J=\pm1\) is not the issue; rather, the intensity is essentially absent because the dipole requirement is not met.
+
+3) A diatomic molecule is approximated as a harmonic oscillator with force constant \(k\). If one atom is replaced by a heavier isotope (so reduced mass \(\mu\) increases), the fundamental vibrational wavenumber \(\tilde{\nu}\) will:
+A. Decrease  
+B. Increase  
+C. Remain unchanged  
+D. Become zero for all isotopic substitutions  
+
+Correct answer: Decrease
+
+Explanation: In the harmonic oscillator model, the vibrational frequency scales as \(\nu \propto \sqrt{k/\mu}\), hence the wavenumber \(\tilde{\nu}=\nu/c\) also scales as \(1/\sqrt{\mu}\) for fixed \(k\).  Increasing \(\mu\) therefore lowers \(\tilde{\nu}\), which is the isotope shift used to interpret vibrational spectra.  The “unchanged” option ignores reduced mass, and “increase” corresponds to incorrectly placing \(\mu\) in the numerator.
+
+4) An IR band at 2000 cm\(^{-1}\) is assigned as the fundamental (\(v=0\to1\)) of a harmonic oscillator. Neglecting anharmonicity, the \(v=1\to2\) transition is expected near:
+A. 1000 cm\(^{-1}\)  
+B. 2000 cm\(^{-1}\)  
+C. 4000 cm\(^{-1}\)  
+D. Not allowed by selection rules  
+
+Correct answer: 2000 cm\(^{-1}\)
+
+Explanation: For an ideal harmonic oscillator, energy levels are equally spaced, so the transition energy for \(0\to1\) equals that for \(1\to2\).  The selection rule remains \(\Delta v=\pm 1\), so \(1\to2\) is allowed and appears at essentially the same wavenumber as the fundamental in the harmonic limit.  Values like 4000 cm\(^{-1}\) arise from confusing the overtone \(0\to2\) with the hot band \(1\to2\).
+
+5) A UV-Vis absorption measurement gives absorbance \(A=0.60\) for path length \(l=1.0\) cm and concentration \(c=2.0\times10^{-4}\) mol L\(^{-1}\). The molar extinction coefficient \(\varepsilon\) (L mol\(^{-1}\) cm\(^{-1}\)) is:
+A. \(1.5\times10^{3}\)  
+B. \(3.0\times10^{3}\)  
+C. \(6.0\times10^{3}\)  
+D. \(1.2\times10^{4}\)  
+
+Correct answer: \(3.0\times10^{3}\)
+
+Explanation: Beer–Lambert law states \(A=\varepsilon l c\), so \(\varepsilon = A/(lc) = 0.60/(1.0\times2.0\times10^{-4}) = 3.0\times10^{3}\) L mol\(^{-1}\) cm\(^{-1}\).  \(6.0\times10^{3}\) comes from using \(c=10^{-4}\) instead of \(2\times10^{-4}\), while \(1.5\times10^{3}\) comes from halving \(A\) or doubling \(c\) incorrectly.  \(1.2\times10^{4}\) typically results from misplacing the decimal in \(c\).
+
+6) In an electronic spectrum, a pronounced vibrational progression (many vibronic peaks with varying intensities) is most directly rationalized by the:
+A. Franck–Condon principle (overlap of vibrational wavefunctions)  
+B. Doppler effect (thermal motion)  
+C. Pressure broadening (collisions)  
+D. Zeeman effect (magnetic splitting)  
+
+Correct answer: Franck–Condon principle (overlap of vibrational wavefunctions)
+
+Explanation: The Franck–Condon principle states that electronic transitions are effectively vertical (nuclei do not move during the fast transition), so intensities depend on vibrational wavefunction overlap between initial and final states.  A displaced equilibrium geometry between electronic states produces a progression because multiple final vibrational levels have significant overlap.  Doppler/pressure broadening affect line widths, and Zeeman splitting requires an applied magnetic field and explains splitting, not vibronic progression intensities.
+
+7) A Raman experiment at temperature \(T\) shows both Stokes and anti-Stokes lines. Compared to the Stokes line, the anti-Stokes line intensity is generally:
+A. Lower, because fewer molecules are thermally in excited vibrational/rotational states  
+B. Higher, because scattering to lower molecular energy is favored  
+C. The same, because Raman scattering is elastic  
+D. Zero, because anti-Stokes transitions are forbidden  
+
+Correct answer: Lower, because fewer molecules are thermally in excited vibrational/rotational states
+
+Explanation: Anti-Stokes scattering requires the molecule to start in an excited rotational/vibrational level, and Boltzmann populations make these initial excited states less populated at ordinary temperatures.  Therefore anti-Stokes lines are typically weaker than Stokes lines.  Equal intensity would contradict population statistics, and “forbidden” is incorrect because anti-Stokes lines are allowed but population-limited.
+
+8) If the natural (lifetime) broadening dominates, the spectral line shape is expected to be mainly:
+A. Lorentzian  
+B. Gaussian  
+C. Rectangular  
+D. Delta function (infinitely sharp)  
+
+Correct answer: Lorentzian
+
+Explanation: Natural broadening arises from finite excited-state lifetime (uncertainty in energy), which leads to a Lorentzian line shape in the simplest treatment.  Gaussian profiles are characteristic of Doppler broadening from velocity distributions, not lifetime broadening.  A delta function would require infinite lifetime (no uncertainty), and a rectangular profile is not the standard physical model for natural linewidth.
+
+9) In NMR, two equivalent protons do not split each other’s signal primarily because:
+A. Equivalent nuclei have the same chemical shift, so mutual coupling does not create separate observable lines  
+B. Equivalent nuclei have zero gyromagnetic ratio  
+C. Equivalent nuclei cannot have nuclear spin  
+D. Coupling requires different isotopes (heteronuclear only)  
+
+Correct answer: Equivalent nuclei have the same chemical shift, so mutual coupling does not create separate observable lines
+
+Explanation: Spin–spin coupling leads to multiplets when coupling partners are magnetically nonequivalent; equivalent nuclei resonate at the same frequency and do not produce an observable splitting of each other in first-order analysis.  They certainly have nonzero \(\gamma\) and can have spin, and homonuclear coupling is common (e.g., \(^{1}\)H–\(^{1}\)H).  The misconception is thinking coupling always splits regardless of equivalence.
+
+10) A proton in \(^{1}\)H NMR is coupled to two equivalent neighboring protons (first-order). The expected multiplicity is:
+A. Doublet  
+B. Triplet  
+C. Quartet  
+D. Quintet  
+
+Correct answer: Triplet
+
+Explanation: For first-order splitting by \(n\) equivalent spin-1/2 neighbors, the signal is split into \(n+1\) lines, so \(n=2\) gives 3 lines (a triplet).  The relative intensities follow Pascal’s triangle (1:2:1 for \(n=2\)), which is part of basic first-order NMR analysis.  Doublet corresponds to \(n=1\), quartet to \(n=3\), and quintet to \(n=4\).
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/065ae3cc-ba52-4a98-beb8-27f6d5393003/physical_unit_05.txt)
+(https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/05:_The_Harmonic_Oscillator_and_the_Rigid_Rotor/5.09:_The_Rigid_Rotator_is_a_Model_for_a_Rotating_Diatomic_Molecule)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/05:_The_Harmonic_Oscillator_and_the_Rigid_Rotor/5.02:_The_Equation_for_a_Harmonic-Oscillator_Model_of_a_Diatomic_Molecule_Contains_the_Reduced_Mass_of_the_Molecule)
+(https://en.wikipedia.org/wiki/Franck%E2%80%93Condon_principle)
+(https://www.jsscacs.edu.in/sites/default/files/Department%20Files/Dr.%20Kavya%20H%20V%20Rotational%20spectroscopy.pdf)
+(https://scilearn.sydney.edu.au/spectroscopy/rovibrational_energy_difference.php?res=low)
+(https://faculty.fiu.edu/~mebela/chm3411_chapter16_rot.pdf)
+(http://www.iiserpune.ac.in/~p.hazra/lecture_Partha_full.pdf)
+(https://www.youtube.com/watch?v=3XPOn-5QuE0)
+(https://ebooks.inflibnet.ac.in/phyp10/chapter/franck-condon-principle/)
+(http://mahendrapublications.com/Document/MP898700.pdf)
+(https://en.wikipedia.org/wiki/Rigid_rotor)
+(https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/13:_Molecular_Spectroscopy/13.07:_The_Franck-Condon_Principle)
+(https://research.ece.ncsu.edu/daryoosh/files/Note%204.pdf)
+(https://testbook.com/question-answer/the-fundamental-vibrational-frequency-of1h12--60901bd069bdba87bb19dfa0)
+(https://www.spjainsasaram.co.in/epdf/220.pdf)
+(https://www.sciencedirect.com/topics/physics-and-astronomy/rotational-spectrum)
+(http://mahendrapublications.com/Document/MP073952.pdf)
+(https://www.sciencedirect.com/topics/chemistry/franck-condon-principle)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Rotational_Spectroscopy/Rotational_Spectroscopy_of_Diatomic_Molecules)

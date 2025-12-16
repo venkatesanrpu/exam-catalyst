@@ -1,0 +1,103 @@
+## Part 1: Basic (10 MCQs)
+
+1) Ionic mobility of an ion is best defined as:
+A. The drift velocity of the ion per unit electric field  
+B. The diffusion coefficient of the ion per unit concentration gradient  
+C. The number of ions crossing a unit area per unit time  
+D. The resistance offered by the ion to current flow  
+
+Correct answer: A
+
+Explanation: Ionic mobility is defined as the drift velocity acquired by an ion per unit applied electric field, so it directly connects ion motion to an external field.  Drift velocity per unit concentration gradient corresponds to diffusion-related quantities, not mobility.  Flux across an area is a transport rate but does not normalize by electric field and is not the definition of mobility.  Resistance is a macroscopic property of a medium/circuit element; mobility is a microscopic transport parameter of ions.
+
+2) The quantity “specific conductivity” (conductivity) of an electrolyte solution refers to:
+A. Conductance of a solution column with unit length and unit cross-sectional area  
+B. Conductance of the entire solution present in the beaker  
+C. Molar conductivity divided by concentration  
+D. Resistance of 1 mol of electrolyte solution  
+
+Correct answer: A
+
+Explanation: Specific conductivity is the conductance of a solution of unit length and unit cross-sectional area (i.e., a property of the solution independent of the cell geometry when properly defined).  Conductance of the whole beaker depends on geometry and is not an intrinsic conductivity definition.  Molar conductivity divided by concentration does not define specific conductivity; rather, molar conductivity is related to conductivity and concentration.  Resistance of “1 mol” is not the definition of specific conductivity and mixes extensive and intensive ideas incorrectly.
+
+3) On dilution of a strong electrolyte solution, the molar conductivity generally:
+A. Increases  
+B. Decreases  
+C. Remains constant  
+D. Becomes zero at infinite dilution  
+
+Correct answer: A
+
+Explanation: For strong electrolytes, dilution reduces inter-ionic interactions, so ions move more independently and molar conductivity increases toward its limiting value at infinite dilution.  A decrease would contradict the typical trend for molar conductivity of strong electrolytes.  It is not constant because ion–ion effects change with concentration.  It does not become zero; instead, it approaches a finite limiting molar conductivity.
+
+4) Kohlrausch’s law of independent migration of ions states that at infinite dilution:
+A. Each ion contributes independently to the limiting molar conductivity  
+B. Only cations contribute to conductivity  
+C. Only anions contribute to conductivity  
+D. Conductivity becomes independent of temperature  
+
+Correct answer: A
+
+Explanation: Kohlrausch’s law says that at infinite dilution the limiting molar conductivity is the sum of independent ionic contributions from the cation and the anion.  Excluding either cations or anions is incorrect because both carry current.  Temperature still affects ionic mobility (via viscosity and thermal motion), so conductivity is not temperature-independent.
+
+5) Ionic strength is a measure that depends on:
+A. Concentrations of ions and the squares of their charges  
+B. Only the total molar concentration of solute (ignoring charge)  
+C. Only the charge on the cation  
+D. Only the conductivity of the solution  
+
+Correct answer: A
+
+Explanation: Ionic strength accounts for both how many ions are present and how strongly they interact electrostatically, so it depends on ion concentrations and charge magnitude (charge-squared weighting).  Ignoring charge misses the central reason ionic strength controls non-ideality.  Considering only the cation ignores contributions from anions, which also shape the ionic environment.  Conductivity is related to mobility and concentration but is not the defining basis of ionic strength.
+
+6) The Debye–Hückel limiting law is primarily used to relate:
+A. Mean ionic activity coefficient to ionic strength in very dilute solutions  
+B. Cell EMF to temperature coefficient  
+C. Molar conductivity to viscosity for concentrated electrolytes  
+D. Standard electrode potential to electrode surface area  
+
+Correct answer: A
+
+Explanation: The Debye–Hückel limiting law describes how the mean ionic activity coefficient varies with ionic strength in very dilute electrolyte solutions.  Temperature coefficients of EMF relate to thermodynamic connections of cell potentials, not to the limiting law.  Concentrated-electrolyte conductivity–viscosity relations are outside the limiting law’s scope and validity range.  Standard electrode potentials do not depend on electrode surface area under reversible measurement conditions.
+
+7) The Nernst equation connects electrode (or cell) potential to:
+A. Activities (or concentrations) of reacting species  
+B. Surface tension of the electrolyte  
+C. Only the ionic mobility of the cation  
+D. Only the temperature, independent of composition  
+
+Correct answer: A
+
+Explanation: The Nernst equation expresses how electrode/cell potential varies with the activities (often approximated by concentrations in ideal cases) of species involved in the redox process.  Surface tension is not part of the Nernst relation.  Potential depends on the redox reaction quotient, not solely on cation mobility.  Temperature affects the Nernst slope, but composition (activities) is essential to determine the potential.
+
+8) A standard electrode potential is defined as the electrode potential measured:
+A. Under standard conditions with reference to the standard hydrogen electrode  
+B. Only at zero current but without specifying conditions  
+C. Only for concentration cells  
+D. Only when a salt bridge is absent  
+
+Correct answer: A
+
+Explanation: Standard electrode potentials are tabulated values measured under standard-state conditions relative to the standard hydrogen electrode reference.  Zero current (reversible measurement) is important, but “standard potential” additionally requires standard conditions and a defined reference.  Standard electrode potentials apply to half-cells in general, not just concentration cells.  Removing the salt bridge typically introduces large junction potentials and does not define standard potentials.
+
+9) In conventional electrochemical cell notation, the anode is the electrode where:
+A. Oxidation occurs  
+B. Reduction occurs  
+C. The standard hydrogen electrode must always be placed  
+D. No electron transfer occurs  
+
+Correct answer: A
+
+Explanation: By definition, oxidation occurs at the anode (for galvanic cells as well as electrolytic cells, although the sign of the electrode may differ).  Reduction occurs at the cathode, not the anode.  The standard hydrogen electrode is a reference electrode and does not have to be the anode in every cell.  Electron transfer is essential at the anode because oxidation produces electrons.
+
+10) In a potentiometric titration, the equivalence point is located primarily by monitoring the change in:
+A. Electrode potential as titrant is added  
+B. Colour of an indicator dye  
+C. Mass of precipitate formed  
+D. Volume change of the solution  
+
+Correct answer: A
+
+Explanation: Potentiometric titrations identify the equivalence point from the variation of electrode potential with titrant volume (often using curve features or derivative methods).  Indicator colour change is used in visual indicator titrations, not potentiometry.  Precipitate mass is not the standard monitored signal in potentiometry (even in precipitation titrations, potential is monitored).  Volume change alone does not define the equivalence point without an electrochemical response.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0a4dcd97-40dc-45f4-bebc-c5290b9a9579/physical_unit_08.txt)

@@ -1,0 +1,119 @@
+1) In Born interpretation, the quantity \(|\psi(x,t)|^2\) represents:   
+A. Probability density of finding the particle at position \(x\) at time \(t\)
+B. Total energy of the particle at position \(x\)
+C. Momentum of the particle at time \(t\)
+D. Potential energy of the particle at position \(x\)
+
+Correct answer: A
+
+Explanation: Born interpretation assigns physical meaning to the wave function by stating that \(|\psi(x,t)|^2\) is the probability density in space (and time).  Energy and momentum are obtained via operators acting on \(\psi\), not directly from \(|\psi|^2\).  Treating \(|\psi|^2\) as potential or total energy confuses the role of the Hamiltonian with the role of probability density.   
+
+***
+
+2) A wave function \(\psi(x)\) in one dimension is said to be normalized if:
+A. \(\int_{-\infty}^{\infty} |\psi(x)|^2\,dx = 1\)   
+B. \(\int_{-\infty}^{\infty} \psi(x)\,dx = 0\)
+C. \(\int_{-\infty}^{\infty} \psi(x)\,dx = 1\)
+D. \(\int_{-\infty}^{\infty} |\psi(x)|\,dx = 1\)   
+
+Correct answer: A
+
+Explanation: Normalization ensures the total probability of finding the particle somewhere in space is 1, which requires integrating \(|\psi|^2\), not \(\psi\) or \(|\psi|\).  The condition \(\int \psi\,dx = 1\) is not physically meaningful because \(\psi\) can be positive or negative (or complex) and does not represent probability directly.  The condition \(\int \psi\,dx = 0\) may occur for some states but is not the definition of normalization.   
+
+***
+
+3) A key reason Hermitian operators are used for observables in quantum mechanics is that they guarantee:
+A. Real eigenvalues for measurable quantities
+B. Complex eigenvalues for measurable quantities
+C. Nonlinear evolution of the wave function
+D. Violation of normalization during time evolution
+
+Correct answer: A
+
+Explanation: Observables must produce real measurement outcomes, and Hermitian operators have real eigenvalues, matching this requirement.  Complex eigenvalues would imply non-real measurement values, which is not acceptable for physical observables like energy or position.  Nonlinearity of evolution is not implied by Hermiticity; standard quantum time evolution is governed by the Schrödinger equation with a Hermitian Hamiltonian.
+
+***
+
+4) A measurement postulate most directly implies that if a system is in an eigenstate of an observable \(\hat{A}\), then a measurement of \(A\):
+A. Yields the corresponding eigenvalue with certainty
+B. Always yields a random value not related to eigenvalues
+C. Forces the state to become orthogonal to the eigenstate
+D. Makes the wave function unnormalizable
+
+Correct answer: A
+
+Explanation: One of the central postulates states that measurement outcomes are eigenvalues of the operator, and an eigenstate gives its eigenvalue with probability 1.  Random values unrelated to eigenvalues contradict the operator–eigenvalue structure of observables.  Measurement collapse is toward an eigenstate associated with the measured eigenvalue, not toward an orthogonal state.
+
+***
+
+5) In Dirac notation, the expression \(\langle \phi | \psi \rangle\) denotes the:   
+A. Inner product (overlap amplitude) between states \(|\phi\rangle\) and \(|\psi\rangle\)   
+B. Potential energy operator acting on \(|\psi\rangle\)   
+C. Commutator of \(|\phi\rangle\) and \(|\psi\rangle\)   
+D. Probability density \(|\psi|^2\) at a point   
+
+Correct answer: A
+
+Explanation: The bra-ket formalism treats kets as vectors and bras as dual vectors, so \(\langle \phi | \psi \rangle\) is the inner product capturing the overlap between two states.  Operators are written with hats (or as symbols acting on kets), not as an inner product of two states.  Probability density in position space is \(|\psi(x)|^2\), not a general inner product between two abstract states.   
+
+***
+
+6) The expectation value of an observable represented by operator \(\hat{A}\) in a normalized state \(|\psi\rangle\) is given by:   
+A. \(\langle \psi | \hat{A} | \psi \rangle\)   
+B. \(\langle \hat{A} | \psi \rangle\)   
+C. \(|\langle \psi | \hat{A} \rangle|^2\)   
+D. \(\langle \psi | \psi \rangle\,\hat{A}\)   
+
+Correct answer: A
+
+Explanation: Expectation values are computed using the operator sandwiched between the bra and ket of the same state, giving the average measurement result over many identical preparations.  Writing \(\langle \hat{A}|\) treats an operator like a state vector, which is not correct in standard operator formalism.  A modulus-squared expression generally describes probabilities of projection, not the mean value of an observable.   
+
+***
+
+7) The time-independent Schrödinger equation is most directly associated with:
+A. Stationary states and energy eigenvalues
+B. Any time-varying Hamiltonian with arbitrary forcing
+C. Classical trajectories in phase space
+D. Deterministic particle paths without probability
+
+Correct answer: A
+
+Explanation: The time-independent Schrödinger equation is an eigenvalue problem for the Hamiltonian, and its solutions correspond to stationary states with definite energy.  Arbitrary time-dependent forcing generally requires the time-dependent Schrödinger equation rather than the stationary form.  Classical deterministic paths are not the central object in quantum postulates; the wave function and probability interpretation are.
+
+***
+
+8) For a particle in a one-dimensional infinite potential well of length \(L\), a key boundary condition on the wave function is:
+A. \(\psi(0)=\psi(L)=0\)
+B. \(\psi(0)=\psi(L)=1\)
+C. \(\frac{d\psi}{dx}\big|_{0}=\frac{d\psi}{dx}\big|_{L}=0\) only   
+D. \(\psi(x)\) is discontinuous at \(x=0\) and \(x=L\)
+
+Correct answer: A
+
+Explanation: In an infinite well, the potential is infinite outside the box, so the wave function must vanish at the walls (and outside), leading to \(\psi(0)=\psi(L)=0\).  Setting the wave function to 1 at the boundaries violates the physical confinement requirement used to obtain quantized solutions.  Discontinuity is not allowed for acceptable wave functions in standard quantum mechanics, and derivative-only conditions are not the defining boundary constraint for the infinite well.
+
+***
+
+9) Quantum tunnelling refers to the phenomenon where a particle:
+A. Has a nonzero probability of penetrating a finite barrier even when its energy is below the barrier height
+B. Always reflects with probability 1 when its energy is below the barrier height
+C. Gains extra energy inside the barrier due to classical acceleration
+D. Can only cross a barrier if its energy exceeds the barrier height
+
+Correct answer: A
+
+Explanation: Tunnelling arises because the wave function decays exponentially in a classically forbidden region but does not necessarily become exactly zero for a finite barrier, giving a nonzero transmission probability.  Total reflection is a classical expectation, but quantum mechanics allows transmission through finite barriers.  The particle does not classically accelerate inside the barrier; instead, the wave function behavior determines transmission and reflection.
+
+***
+
+10) For angular momentum operators, a fundamental commutation relation is:
+A. \([\hat{L}_x,\hat{L}_y]= i\hbar \hat{L}_z\)
+B. \([\hat{L}_x,\hat{L}_y]= 0\)
+C. \([\hat{L}^2,\hat{L}_z]= i\hbar \hat{L}_z\)
+D. \([\hat{L}^2,\hat{L}_z]= i\hbar \hat{L}^2\)
+
+Correct answer: A
+
+Explanation: Angular momentum components do not commute; their nonzero commutator encodes the impossibility of simultaneous exact measurement of two perpendicular components and underlies spatial quantization.  Treating \([\hat{L}_x,\hat{L}_y]=0\) is a common mistake from classical intuition where components are just numbers rather than operators.  A key compatible pair is \(\hat{L}^2\) with one component (such as \(\hat{L}_z\)), which is why \(\hat{L}^2\) and \(\hat{L}_z\) share eigenfunctions in rotational problems like the rigid rotor.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/2ed08a49-6201-4865-b260-c92e0bc9b093/physical_unit_01.txt)

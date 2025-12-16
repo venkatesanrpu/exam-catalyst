@@ -1,0 +1,129 @@
+1) A solute follows Langmuir adsorption on a uniform surface: \(\theta=\dfrac{KP}{1+KP}\). If \(KP=3\), the fractional coverage \(\theta\) is:
+
+A. 0.25  
+B. 0.50  
+C. 0.75  
+D. 1.00  
+
+Correct answer: C  
+
+Explanation: For Langmuir monolayer adsorption, \(\theta=\dfrac{KP}{1+KP}\) where \(K\) is the adsorption equilibrium constant-like parameter and \(P\) is pressure (or concentration analogue).  Substituting \(KP=3\): \(\theta=\dfrac{3}{1+3}=\dfrac{3}{4}=0.75\).  0.25 results from mistakenly using \(\theta=\dfrac{1}{1+KP}\); 0.50 corresponds to \(KP=1\); 1.00 would require \(KP\to\infty\) (complete saturation).
+
+***
+
+2) For Langmuir adsorption, the amount adsorbed is \(q=q_\text{max}\dfrac{KP}{1+KP}\). If \(q_\text{max}=2.0\) (arbitrary units) and \(KP=1\), \(q\) equals:
+
+A. 0.50  
+B. 1.00  
+C. 1.50  
+D. 2.00  
+
+Correct answer: B  
+
+Explanation: The Langmuir model relates adsorption to coverage via a saturation capacity \(q_\text{max}\) (monolayer limit) and parameter \(K\).  With \(KP=1\), \(\dfrac{KP}{1+KP}=\dfrac{1}{2}\), so \(q=2.0\times \dfrac{1}{2}=1.0\).  0.50 corresponds to forgetting to multiply by \(q_\text{max}\); 1.50 corresponds to incorrectly using \(\dfrac{KP}{1-KP}\); 2.00 corresponds to assuming full saturation at \(KP=1\).
+
+***
+
+3) A Freundlich isotherm is \(q=K P^{1/n}\). If doubling pressure changes adsorption from \(q_1\) to \(q_2=1.414\,q_1\), the value of \(1/n\) is closest to:
+
+A. 0.25  
+B. 0.50  
+C. 1.00  
+D. 2.00  
+
+Correct answer: B  
+
+Explanation: Freundlich adsorption is a power-law often used for heterogeneous surfaces: \(q\propto P^{1/n}\).  If \(P\) doubles, \(q\) multiplies by \(2^{1/n}\); given \(q_2/q_1=1.414\approx\sqrt{2}=2^{0.5}\), so \(1/n=0.5\).  0.25 would give \(2^{0.25}\approx1.19\); 1.00 would give \(2\); 2.00 would give \(4\), none match.
+
+***
+
+4) A BET experiment is used to obtain the monolayer capacity \(n_m\) for nitrogen adsorption to estimate surface area. The key conceptual reason BET can yield surface area is that it:
+
+A. Forces adsorption to be only chemisorption  
+B. Treats adsorption as multilayer but extracts the monolayer amount \(n_m\) from the isotherm  
+C. Ignores saturation and assumes infinite adsorption at all pressures  
+D. Assumes adsorption occurs only on heterogeneous surfaces with varying site energies  
+
+Correct answer: B  
+
+Explanation: BET extends Langmuir’s monolayer concept to multilayer adsorption and allows determination of monolayer capacity \(n_m\), which then connects to surface area (monolayer coverage corresponds to a known cross-sectional area per molecule).  BET is not restricted to chemisorption; it is typically applied to physisorption (e.g., nitrogen) for surface characterization.  Assuming infinite adsorption would remove the ability to define a monolayer capacity, and “heterogeneous surfaces” is more directly associated with empirical Freundlich behavior.
+
+***
+
+5) In a Langmuir–Hinshelwood surface reaction, assume the surface reaction between two adsorbed species is rate-limiting and requires both to occupy sites. If the surface coverage of each reactant scales approximately as \(\theta\), the rate is most consistent with:
+
+A. \(r\propto \theta\)  
+B. \(r\propto \theta^2\)  
+C. \(r\propto 1/\theta\)  
+D. \(r\) is independent of coverage  
+
+Correct answer: B  
+
+Explanation: In Langmuir–Hinshelwood kinetics, adsorption creates surface coverage and the rate can depend on coverages when the surface reaction step involves adsorbed species.  If two adsorbed reactants must meet on the surface and each has coverage \(\theta\), the probability of encounter (and thus rate) scales like \(\theta\times\theta=\theta^2\).  A linear dependence is typical when only one adsorbed species controls the rate; inverse or independent forms correspond to different limiting cases not matching a bimolecular surface reaction.
+
+***
+
+6) Young’s equation relates interfacial tensions at a solid–liquid–gas contact line. If a liquid droplet shows a small contact angle on a solid surface, the wetting behavior is best described as:
+
+A. Poor wetting (non-wetting), dominated by high solid–liquid interfacial tension  
+B. Good wetting, indicating the surface energetically favors spreading of the liquid  
+C. Wetting behavior is unrelated to interfacial tensions  
+D. Complete non-wetting always occurs when surface tension of the liquid is high  
+
+Correct answer: B  
+
+Explanation: The learning unit specifies Young’s equation and contact angle as the framework for wetting, where a smaller contact angle corresponds to better wetting/spreading.  Poor wetting corresponds to large contact angle, not small.  Wetting is directly governed by the balance of solid–gas, solid–liquid, and liquid–gas interfacial tensions, so it is not unrelated.
+
+***
+
+7) Surface tension \(\gamma\) is an energy per unit area. The work needed to create additional surface area \(\Delta A\) at constant \(\gamma\) is:
+
+A. \(w=\gamma/\Delta A\)  
+B. \(w=\Delta A/\gamma\)  
+C. \(w=\gamma\,\Delta A\)  
+D. \(w=\gamma+\Delta A\)  
+
+Correct answer: C  
+
+Explanation: Surface tension is defined as surface free energy per unit area, so creating new area requires energy proportional to area: \(w=\gamma\,\Delta A\).  Dividing instead of multiplying inverts the physical meaning and gives incorrect units.  Adding \(\gamma\) and \(\Delta A\) is dimensionally inconsistent.
+
+***
+
+8) Which statement correctly distinguishes **dynamic** and **kinematic** viscosity?
+
+A. Dynamic viscosity depends on density; kinematic viscosity does not  
+B. Kinematic viscosity is dynamic viscosity divided by density  
+C. Dynamic viscosity is kinematic viscosity divided by density  
+D. They are identical quantities with different names  
+
+Correct answer: B  
+
+Explanation: The unit explicitly targets distinguishing dynamic and kinematic viscosity as part of the viscosity learning objectives.  The correct relationship is \(\nu=\mu/\rho\), where \(\nu\) is kinematic viscosity, \(\mu\) is dynamic viscosity, and \(\rho\) is density, so kinematic viscosity is dynamic viscosity divided by density.  Reversing the division is a common error; treating them as identical ignores the role of density.
+
+***
+
+9) In surfactant solutions, the critical micelle concentration (CMC) can be estimated experimentally from a plot of surface tension vs concentration because:
+
+A. Surface tension typically decreases with concentration up to CMC and then changes slope near CMC  
+B. Surface tension is constant below CMC and increases sharply above CMC  
+C. CMC is defined as the concentration at which surface tension becomes zero  
+D. Surface tension and micellization are unrelated phenomena  
+
+Correct answer: A  
+
+Explanation: The learning objectives emphasize using surface tension (and conductivity) data to determine CMC, reflecting that adsorption at the interface reduces surface tension until micelles start forming, often producing a breakpoint/slope change.  Surface tension does not generally increase sharply above CMC; it tends to level off because additional surfactant forms micelles rather than further reducing interfacial tension.  CMC is not the concentration where surface tension becomes zero, and micellization is strongly linked to interfacial/surface activity of amphiphiles.
+
+***
+
+10) DLVO theory is used to discuss colloidal stability by considering competing interactions. The most appropriate pair is:
+
+A. Covalent bonding attraction and magnetic repulsion  
+B. Van der Waals attraction and electrostatic double-layer repulsion  
+C. Hydrogen bonding attraction and gravitational repulsion  
+D. Dipole–dipole attraction and nuclear repulsion  
+
+Correct answer: B  
+
+Explanation: The colloids section explicitly highlights DLVO theory and colloidal stability, where stability is rationalized by the balance between attractive van der Waals forces and repulsive electrostatic double-layer interactions.  Covalent bonding is not the general interaction governing colloidal stability, and gravity is not a repulsive interparticle interaction in DLVO.  “Nuclear repulsion” is not the relevant scale for colloidal particles in solution.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/05b8dcdd-1242-4c0d-93c3-7b80e9ac6fa7/physical_unit_13.txt)

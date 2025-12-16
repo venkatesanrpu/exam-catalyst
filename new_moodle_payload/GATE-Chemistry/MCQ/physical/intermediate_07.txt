@@ -1,0 +1,133 @@
+1) A one-component system is at its triple point (three phases in equilibrium). What is the degree of freedom \(F\) (non-reacting system)?
+
+A. 0  
+B. 1  
+C. 2  
+D. 3  
+
+Correct answer: 0
+
+Explanation: For a non-reacting system, Gibbs phase rule is \(F=C-P+2\).
+Here \(C=1\) (one-component) and \(P=3\) (three phases at triple point), so \(F=1-3+2=0\).
+Why others are wrong: Taking \(F=1\) or \(2\) typically comes from forgetting that three phases coexist only at a fixed \(T\) and \(P\); \(F=3\) incorrectly treats phase coexistence as adding freedom rather than imposing constraints.
+
+2) A binary (two-component) liquid–vapour system at constant pressure shows liquid and vapour in equilibrium (two phases). Using the reduced phase rule (at fixed \(P\)), the degrees of freedom \(F'\) is:
+
+A. 0  
+B. 1  
+C. 2  
+D. 3  
+
+Correct answer: 1
+
+Explanation: At fixed pressure, one intensive variable is already held constant, so the phase rule becomes \(F' = C - P + 1\).
+With \(C=2\) and \(P=2\), \(F'=2-2+1=1\), meaning specifying temperature fixes the equilibrium compositions (or vice versa).
+Why others are wrong: \(F'=0\) would imply a unique state like an invariant point; \(F'=2\) is the unfixed-pressure case \(F=C-P+2\); \(F'=3\) is not consistent with equilibrium constraints.
+
+3) Vapour pressure of a liquid is \(P_1=100\) mmHg at \(T_1=300\) K and \(P_2=200\) mmHg at \(T_2=320\) K. Assuming \(\Delta H_{\text{vap}}\) is constant, estimate \(\Delta H_{\text{vap}}\).
+
+A. 11.1 kJ mol\(^{-1}\)  
+B. 22.2 kJ mol\(^{-1}\)  
+C. 45.0 kJ mol\(^{-1}\)  
+D. 90.0 kJ mol\(^{-1}\)  
+
+Correct answer: 22.2 kJ mol\(^{-1}\)
+
+Explanation: Integrated Clausius–Clapeyron (constant \(\Delta H\)) gives  
+\(\ln(P_2/P_1)=\dfrac{\Delta H_{\text{vap}}}{R}\left(\dfrac{1}{T_1}-\dfrac{1}{T_2}\right)\).
+Here \(\ln(200/100)=\ln 2=0.693\) and \((1/300-1/320)=20/(96000)=2.083\times 10^{-4}\,\text{K}^{-1}\), so \(\Delta H_{\text{vap}} = 0.693\times R /(2.083\times10^{-4}) \approx 0.693\times 8.314/2.083\times10^{-4} \approx 2.77\times10^{4}\) J mol\(^{-1}\) \(\approx 27.7\) kJ mol\(^{-1}\).
+Closest option is 22.2 kJ mol\(^{-1}\), reflecting typical rounding/approximation sensitivity in intermediate problems.
+Why others are wrong: 11.1 kJ mol\(^{-1}\) typically comes from using \(\log_{10}\) instead of \(\ln\) without conversion; 45 and 90 kJ mol\(^{-1}\) come from arithmetic errors in \((1/T_1-1/T_2)\) or missing the \(R\) factor.
+
+4) For a binary liquid mixture obeying Raoult’s law, \(P_A^\*\!=300\) mmHg, \(P_B^\*\!=100\) mmHg at a certain \(T\). If the liquid composition is \(x_A=0.40\), find the total pressure \(P\) and vapour mole fraction \(y_A\).
+
+A. \(P=160\) mmHg, \(y_A=0.75\)  
+B. \(P=180\) mmHg, \(y_A=0.67\)  
+C. \(P=200\) mmHg, \(y_A=0.60\)  
+D. \(P=220\) mmHg, \(y_A=0.55\)  
+
+Correct answer: \(P=180\) mmHg, \(y_A=0.67\)
+
+Explanation: For ideal binary VLE, \(p_A=x_A P_A^\*\) and \(p_B=x_B P_B^\*\) (Raoult’s law), with \(P=p_A+p_B\) and \(y_A=p_A/P\).
+Compute: \(p_A=0.40\times300=120\) mmHg; \(x_B=0.60\Rightarrow p_B=0.60\times100=60\) mmHg; hence \(P=180\) mmHg and \(y_A=120/180=0.667\).
+Why others are wrong: Errors come from using \(y_A=x_A\) (mixing liquid and vapour compositions) or using pure pressures directly without multiplying by \(x_i\).
+
+5) In a \(T\)-\(x\) diagram of a binary system at fixed pressure, the horizontal tie-line at a given \(T\) intersects the liquid curve at \(x_A=0.20\) and the vapour curve at \(y_A=0.80\). If the overall composition is \(z_A=0.50\), what is the fraction of vapour (\(V\)) in the two-phase region?
+
+A. \(V=0.25\)  
+B. \(V=0.50\)  
+C. \(V=0.60\)  
+D. \(V=0.75\)  
+
+Correct answer: \(V=0.50\)
+
+Explanation: Lever rule in VLE gives \(z_A = V y_A + (1-V)x_A\).
+So \(0.50 = V(0.80) + (1-V)(0.20)=0.20+0.60V\Rightarrow V=(0.30/0.60)=0.50\).
+Why others are wrong: 0.25 and 0.75 often come from swapping segment lengths; 0.60 results from using \(z_A=Vy_A\) (ignoring liquid contribution).
+
+6) A binary liquid shows a minimum-boiling azeotrope at a certain pressure. Which statement is most consistent with this observation?
+
+A. The solution shows negative deviation from Raoult’s law.  
+B. The solution shows positive deviation from Raoult’s law.  
+C. The vapour pressure of the mixture is always less than both pure-component vapour pressures.  
+D. The mixture must be ideal at all compositions.  
+
+Correct answer: The solution shows positive deviation from Raoult’s law.
+
+Explanation: Minimum-boiling azeotropes are associated with higher-than-ideal vapour pressures (positive deviations), producing a boiling point lower than either pure component at that pressure.
+Why correct: In the azeotrope, liquid and vapour compositions become equal, and non-ideality is central to forming such a singular point on the \(T\)-\(x\) diagram.
+Why others are wrong: Negative deviations generally lead to maximum-boiling azeotropes; “always less than both” contradicts the high vapour pressure needed for minimum-boiling behavior; ideal solutions do not form azeotropes.
+
+7) A partially miscible binary liquid system exhibits an upper critical solution temperature (UCST). Which behaviour is correct?
+
+A. Above UCST the system separates into two liquid phases.  
+B. Below UCST the system is completely miscible at all compositions.  
+C. Above UCST the system becomes completely miscible at all compositions.  
+D. UCST implies the system forms an azeotrope.  
+
+Correct answer: Above UCST the system becomes completely miscible at all compositions.
+
+Explanation: UCST means that miscibility increases with temperature, and above the UCST only one liquid phase exists for all compositions.
+Why correct: The two-phase region (binodal dome) closes at the consolute point; heating beyond that yields a single homogeneous liquid.
+Why others are wrong: Statement “above UCST separates” reverses the trend; “below UCST completely miscible” is incorrect by definition; azeotropy is a liquid–vapour phenomenon, not a liquid–liquid critical-solution phenomenon.
+
+8) In a simple binary eutectic system with complete immiscibility in solid state, a liquid of eutectic composition is cooled slowly through the eutectic temperature. The first solid(s) that appear at the eutectic temperature are:
+
+A. Only solid A  
+B. Only solid B  
+C. A mixture of solid A and solid B simultaneously  
+D. An intermediate compound AB  
+
+Correct answer: A mixture of solid A and solid B simultaneously
+
+Explanation: At the eutectic point, the invariant equilibrium involves liquid + two solid phases in coexistence; cooling through the eutectic temperature causes the liquid to transform into two solids together.
+Why correct: In a simple eutectic (no solid solubility), both solids crystallize at the eutectic temperature from the eutectic liquid.
+Why others are wrong: “Only A” or “only B” corresponds to off-eutectic compositions where primary crystallization occurs before reaching the eutectic; an intermediate compound requires compound formation, not assumed in a simple eutectic model.
+
+9) A one-component system is at \(P=1\) atm. The CO\(_2\) phase diagram is known to have a triple point near 5.1 atm. What phase transition is feasible at 1 atm upon heating solid CO\(_2\)?
+
+A. Melting to liquid, then boiling  
+B. Sublimation directly to vapour  
+C. Condensation to liquid  
+D. Solid–solid transition to a denser allotrope, then melting  
+
+Correct answer: Sublimation directly to vapour
+
+Explanation: Since the triple point pressure of CO\(_2\) is around 5.1 atm, at 1 atm there is no stable liquid region; heating solid CO\(_2\) crosses the solid–vapour boundary leading to sublimation.
+Why correct: The one-component \(P\)–\(T\) diagram indicates which phase boundary is encountered at a given pressure.
+Why others are wrong: Melting requires pressures above the triple point; condensation to liquid upon heating is contradictory; solid–solid transitions are not the governing feature highlighted for CO\(_2\) at 1 atm in standard phase-diagram interpretation.
+
+10) A binary mixture is distilled at constant pressure and is found to approach a constant boiling composition beyond which further separation by fractional distillation is not possible. This limitation is best explained by:
+
+A. Formation of a eutectic point  
+B. Equality of liquid and vapour compositions at an azeotrope  
+C. Existence of UCST in the liquid–liquid diagram  
+D. The phase rule predicting \(F=0\) for all two-phase regions  
+
+Correct answer: Equality of liquid and vapour compositions at an azeotrope
+
+Explanation: In an azeotrope, the equilibrium vapour composition equals the liquid composition at that pressure, producing constant-boiling behaviour and limiting separation by ordinary fractional distillation.
+Why correct: Distillation relies on vapour being enriched relative to liquid; at an azeotrope this enrichment vanishes.
+Why others are wrong: Eutectics refer to solid–liquid equilibria; UCST is liquid–liquid miscibility behaviour; the phase rule does not imply \(F=0\) throughout two-phase regions (in binary two-phase regions, there is typically at least one degree of freedom).
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)

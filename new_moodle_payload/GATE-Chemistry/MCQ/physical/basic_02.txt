@@ -1,0 +1,110 @@
+1) The main reason the exact hydrogen-atom solution does not directly extend to multi-electron atoms is the presence of:
+A. Relativistic mass increase of electrons  
+B. Electron–electron repulsion leading to coupled motion  
+C. Absence of nuclear attraction in heavier atoms  
+D. Quantization of angular momentum only in hydrogen  
+
+Correct answer: B  
+
+Explanation: In multi-electron atoms, electrons repel each other, so the Hamiltonian contains electron–electron interaction terms that couple the motions of different electrons.  This coupling destroys the simple separability that makes the hydrogen atom exactly solvable in closed form.  Relativistic effects can matter for very heavy atoms but are not the fundamental reason the hydrogenic solution fails for all multi-electron atoms.
+
+
+2) The orbital approximation in multi-electron atoms most directly assumes that electrons:
+A. Move independently in effective one-electron orbitals  
+B. Always occupy the same spatial orbital with opposite spins  
+C. Follow classical elliptical orbits around the nucleus  
+D. Cannot be described using any one-electron functions  
+
+Correct answer: A  
+
+Explanation: The orbital approximation treats each electron as moving in an average (effective) field created by the nucleus and the other electrons, giving effective one-electron orbitals.  This is often described as an independent-particle or central-field type picture used as a starting point for more accurate approaches.  It does not mean all electrons share the same orbital, and it does not revert to classical trajectories.
+
+
+3) “Effective nuclear charge” experienced by an electron in a multi-electron atom is best described as:
+A. The full nuclear charge \(Z\) with no modification  
+B. The net positive charge after accounting for screening/shielding by other electrons  
+C. The electron’s own charge magnitude  
+D. A charge that depends only on the electron’s spin quantum number  
+
+Correct answer: B  
+
+Explanation: Effective nuclear charge refers to the net attraction an electron feels from the nucleus after other electrons partially screen (shield) the nuclear charge.  Screening/shielding reduces the nuclear pull on a given electron compared with the full \(Z\).  Spin affects state labeling and microstates, but effective nuclear charge is qualitatively tied to electron distribution and screening, not spin alone.
+
+
+4) A one-electron spin-orbital is constructed as:
+A. Product of a spatial orbital and a spin function  
+B. Sum of two different nuclei’s wavefunctions  
+C. Product of two spatial orbitals only (no spin part)  
+D. A many-electron antisymmetric determinant by itself  
+
+Correct answer: A  
+
+Explanation: A spin-orbital is built by combining the spatial part of the electron wavefunction with a spin function (spatial × spin).  This construction is used within the orbital approximation to describe individual electrons in atoms.  A Slater determinant is then built from multiple spin-orbitals to represent many-electron states, so it is not itself a one-electron object.
+
+
+5) The Pauli exclusion principle states that no two electrons in an atom can have:
+A. The same principal quantum number  
+B. The same set of all quantum numbers  
+C. Different spin quantum numbers  
+D. The same orbital angular momentum quantum number  
+
+Correct answer: B  
+
+Explanation: Pauli exclusion states that two electrons cannot share an identical complete set of quantum numbers.  This leads directly to restrictions on how electrons fill spin-orbitals in electronic configurations.  Electrons can share the same principal quantum number or the same \(l\) value as long as the overall set of quantum numbers is not identical.
+
+
+6) The antisymmetry requirement for a fermionic (electron) many-electron wavefunction means that exchanging two electrons causes the wavefunction to:
+A. Remain unchanged  
+B. Change sign  
+C. Become zero for all positions  
+D. Become symmetric only if spins are parallel  
+
+Correct answer: B  
+
+Explanation: For identical electrons (fermions), the many-electron wavefunction must be antisymmetric under exchange of any two electrons, meaning it changes sign upon exchange.  This requirement is a fundamental quantum-statistical property tied to electrons being fermions.  Symmetry behavior is not conditional on “parallel spins” as a general rule; antisymmetry is a global requirement for the total electron wavefunction.
+
+
+7) The key purpose of using a Slater determinant is to ensure that the many-electron wavefunction is:
+A. Always symmetric under exchange of electrons  
+B. Antisymmetric under exchange of any two electrons  
+C. Independent of the choice of spin-orbitals  
+D. Valid only for hydrogen-like atoms  
+
+Correct answer: B  
+
+Explanation: Slater determinants provide a standard way to build antisymmetric many-electron wavefunctions from a set of one-electron spin-orbitals.  The determinant form automatically changes sign when two electron coordinates are exchanged, satisfying the antisymmetry requirement.  This construction is used broadly in multi-electron atom and quantum chemistry descriptions, not only for hydrogen-like atoms.
+
+
+8) The variational principle (Rayleigh–Ritz idea) is most directly summarized by the statement that the trial energy is:
+A. Always lower than the exact ground-state energy  
+B. Always an upper bound to the exact ground-state energy (for a proper normalized trial function)  
+C. Always equal to the exact excited-state energy  
+D. Independent of the chosen trial wavefunction  
+
+Correct answer: B  
+
+Explanation: The variational method is based on minimizing the expectation value of the Hamiltonian computed with a chosen trial wavefunction, and this value provides an upper bound to the true ground-state energy when the trial function is properly handled.  Improving the physical quality/flexibility of the trial function can lower the variational estimate toward the exact value.  The method does not guarantee values below the exact ground state, and results do depend on the trial function choice.
+
+
+9) In a multi-parameter variational approach using a linear combination of basis functions, the variational conditions commonly lead to:
+A. A single algebraic equation with no matrix form  
+B. A set of linear equations that can be written as secular equations/determinants  
+C. A direct formula for exact energies without approximation  
+D. A requirement that the Hamiltonian must be time-dependent  
+
+Correct answer: B  
+
+Explanation: When the trial function is expanded as a linear combination of basis functions, minimizing energy with respect to multiple coefficients produces a matrix form of equations.  Non-trivial solutions exist when the associated secular determinant (secular equations) condition is satisfied, giving approximate energy eigenvalues.  This is an approximation framework and does not imply exact energies, nor does it require a time-dependent Hamiltonian.
+
+
+10) The standard starting point of perturbation theory is to write the Hamiltonian as:
+A. \(H = H_0 - H'\) with no scaling  
+B. \(H = H_0 + \lambda H'\), where \(H'\) is a small correction  
+C. \(H = \lambda H_0 + H'\), where \(H_0\) is always negligible  
+D. \(H = H'\) only, because \(H_0\) is not defined  
+
+Correct answer: B  
+
+Explanation: Perturbation theory begins by decomposing the Hamiltonian into an exactly solvable part \(H_0\) plus a small correction \(H'\) scaled by a parameter (often written as \(\lambda\)).  The approach assumes the correction is sufficiently small so that energies and wavefunctions can be expanded in a series and corrected order-by-order.  Writing the Hamiltonian without a clear unperturbed part defeats the core idea of using known solutions as the reference.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)

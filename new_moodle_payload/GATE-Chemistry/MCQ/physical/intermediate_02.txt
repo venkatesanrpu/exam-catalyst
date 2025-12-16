@@ -1,0 +1,110 @@
+1) In the orbital approximation, consider a subshell with 3 available spatial orbitals (like a p-subshell) and 2 possible spin states per spatial orbital. What is the maximum number of electrons that can occupy this subshell without violating the Pauli exclusion principle?
+A. 3  
+B. 4  
+C. 6  
+D. 8  
+
+Correct answer: C  
+
+Explanation: In the orbital approximation, each spatial orbital combined with a spin function forms a distinct spin-orbital, and Pauli exclusion allows at most one electron per spin-orbital.  With 3 spatial orbitals and 2 spins each, there are \(3 \times 2 = 6\) spin-orbitals, so the maximum occupancy is 6 electrons.  Options giving 3 or 4 forget that each spatial orbital can hold two opposite-spin electrons, while 8 exceeds the number of available spin-orbitals.
+
+
+2) Two-electron wavefunctions must satisfy antisymmetry under exchange of electrons. If the spin part is symmetric (triplet-like), what must be the symmetry of the spatial part?
+A. Symmetric  
+B. Antisymmetric  
+C. Always zero  
+D. Symmetry is not constrained  
+
+Correct answer: B  
+
+Explanation: For electrons (fermions), the total (spatial × spin) wavefunction must be antisymmetric upon exchanging the two electrons.  If the spin function is symmetric, the spatial function must be antisymmetric so that the product changes sign under exchange.  A symmetric spatial part would make the total symmetric, violating the antisymmetry requirement, and “always zero” is not generally true.
+
+
+3) A Slater determinant built from two identical spin-orbitals (the same spin-orbital repeated for both electrons) evaluates to:
+A. A normalized nonzero wavefunction  
+B. A non-normalizable wavefunction  
+C. Zero  
+D. A symmetric wavefunction  
+
+Correct answer: C  
+
+Explanation: In a Slater determinant, if two columns (or rows) are identical because the same spin-orbital is repeated, the determinant becomes zero.  This directly encodes the Pauli exclusion principle: two electrons cannot occupy the same spin-orbital.  A nonzero determinant corresponds to linearly independent spin-orbitals and an antisymmetric wavefunction rather than a symmetric one.
+
+
+4) In non-degenerate first-order perturbation theory, if \(\langle \psi_n^{(0)}|H'|\psi_n^{(0)}\rangle = 0\), then the first-order energy correction \(E_n^{(1)}\) is:   
+A. Zero  
+B. Equal to \(E_n^{(0)}\)  
+C. Equal to \(\langle \psi_n^{(0)}|H_0|\psi_n^{(0)}\rangle\)  
+D. Undefined because perturbation theory fails automatically  
+
+Correct answer: A  
+
+Explanation: For non-degenerate first-order perturbation, the energy correction is \(E_n^{(1)}=\langle \psi_n^{(0)}|H'|\psi_n^{(0)}\rangle\).  If that expectation value is zero, the first-order correction is zero (though higher-order corrections may still exist).  This does not imply the unperturbed energy changes, and a zero first-order term does not by itself imply perturbation theory is invalid.   
+
+
+5) A 2-parameter variational trial function \(\psi(\mathbf{r}) = c_1\phi_1(\mathbf{r}) + c_2\phi_2(\mathbf{r})\) is used. The variational conditions lead to a matrix equation whose non-trivial solutions require:
+A. The trace of the matrix to be zero  
+B. The determinant of the secular matrix to be zero  
+C. \(c_1=c_2\) always  
+D. \(\phi_1\) and \(\phi_2\) to be identical  
+
+Correct answer: B  
+
+Explanation: In the multi-parameter variational method (Rayleigh–Ritz approach), minimizing the energy with respect to coefficients produces linear equations that can be written in matrix form.  Non-trivial coefficients exist only when the secular determinant condition is satisfied, which is that the determinant of the coefficient matrix is zero.  Equal coefficients are not required, and taking identical basis functions removes linear independence and breaks the purpose of the expansion.
+
+
+6) Consider a one-parameter variational energy expression \(E(\alpha)=\alpha^2+\frac{1}{\alpha}\) (in some consistent units). The variational estimate corresponds to the \(\alpha\) that:
+A. Maximizes \(E(\alpha)\)  
+B. Minimizes \(E(\alpha)\)  
+C. Makes \(E(\alpha)=0\)  
+D. Makes \(\alpha=0\)  
+
+Correct answer: B  
+
+Explanation: The variational method determines the best parameter(s) by minimizing the expectation value of the Hamiltonian with respect to those parameter(s).  This implements the Rayleigh–Ritz idea that the computed energy is an upper bound to the true ground-state energy and should be minimized for the optimal trial function within that family.  Setting energy to zero or forcing \(\alpha=0\) is not the variational criterion and can be unphysical or undefined for the expression shown.
+
+
+7) In the orbital approximation, three electrons occupy three different spatial orbitals within the same subshell. How many distinct spin assignments are possible if only spin-up or spin-down is allowed for each electron?
+A. 2  
+B. 4  
+C. 6  
+D. 8  
+
+Correct answer: D  
+
+Explanation: Each electron can independently be assigned one of two spin functions (spin-up or spin-down) when placed in different spatial orbitals in the orbital approximation.  With 3 electrons, the number of spin assignments is \(2^3 = 8\), representing different spin configurations before considering further coupling details.  Smaller numbers arise from incorrectly treating spins as constrained to be paired even when electrons occupy different spatial orbitals.
+
+
+8) Which statement correctly contrasts variational and first-order perturbation approaches for estimating energies?
+A. Variational method always gives a lower bound to the exact ground-state energy, while perturbation gives an upper bound  
+B. Variational method provides an upper bound to the exact ground-state energy, while perturbation relies on splitting \(H=H_0+\lambda H'\) with a “small” correction  
+C. Both methods require degenerate unperturbed states to work  
+D. Perturbation theory does not require any reference Hamiltonian \(H_0\)  
+
+Correct answer: B  
+
+Explanation: The variational method (Rayleigh–Ritz) uses trial functions and yields an energy upper bound for the ground state when applied correctly.  Perturbation theory is built on decomposing the Hamiltonian as \(H=H_0+\lambda H'\) and assumes the correction is small enough for a series expansion, which is conceptually different from variational minimization.  Degeneracy is a special case in perturbation (treated differently), and perturbation theory fundamentally depends on a reference \(H_0\).
+
+
+9) A perturbation is applied to a system with two unperturbed states that are exactly degenerate in energy. At first order, the correct qualitative procedure is to:
+A. Use the non-degenerate formula directly for each state without modification  
+B. Diagonalize the perturbation within the degenerate subspace  
+C. Ignore the perturbation because degeneracy makes corrections zero  
+D. Replace the variational method with perturbation automatically  
+
+Correct answer: B  
+
+Explanation: Degenerate and non-degenerate perturbation require different treatments because the usual first-order non-degenerate expressions can become ambiguous within a degenerate manifold.  The standard qualitative idea is to form and diagonalize the perturbation matrix within the degenerate subspace to obtain correct first-order energies and states.  Degeneracy does not imply zero correction, and choosing variational instead is not an automatic rule but a methodological choice.
+
+
+10) In an “atomic units” framework used for atomic-scale quantum problems, the main motivation is to:
+A. Make the Schrödinger equation more complex but more accurate  
+B. Simplify atomic equations by using a natural unit system appropriate to electron–nucleus problems  
+C. Remove the need for wavefunctions  
+D. Ensure electron–electron repulsion becomes exactly zero  
+
+Correct answer: B  
+
+Explanation: Atomic units are defined to simplify atomic-scale equations, making common constants take convenient values and streamlining the Hamiltonian form for atomic systems.  This is especially helpful when combining orbital approximation ideas and approximation methods (variational/perturbation) in atomic calculations.  The unit choice does not eliminate electron–electron repulsion, does not remove wavefunctions, and does not inherently increase complexity.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)

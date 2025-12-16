@@ -1,0 +1,130 @@
+1) A system has two non-degenerate energy levels: \(E_0=0\) and \(E_1=\varepsilon\). In the canonical ensemble at temperature \(T\), the ratio of populations \(p_1/p_0\) is:
+A. \(e^{+\beta \varepsilon}\)  
+B. \(e^{-\beta \varepsilon}\)  
+C. \(\beta \varepsilon\)  
+D. \(1-\beta \varepsilon\)  
+
+Correct answer: B
+
+Explanation: In the canonical ensemble, probabilities follow the Boltzmann distribution \(p_i \propto e^{-\beta E_i}\), where \(\beta = 1/(k_B T)\).
+Thus \(p_1/p_0 = e^{-\beta(E_1-E_0)} = e^{-\beta \varepsilon}\).
+The positive exponent would incorrectly predict more population in the higher level at low \(T\).
+The linear forms \(\beta\varepsilon\) and \(1-\beta\varepsilon\) are not valid population ratios (they resemble crude expansions and can even become negative).
+
+2) For the same two-level system (\(E_0=0\), \(E_1=\varepsilon\)), the canonical partition function \(Z\) is:
+A. \(Z = 1 + e^{+\beta \varepsilon}\)  
+B. \(Z = 1 + e^{-\beta \varepsilon}\)  
+C. \(Z = e^{-\beta \varepsilon}\)  
+D. \(Z = 1 - e^{-\beta \varepsilon}\)  
+
+Correct answer: B
+
+Explanation: By definition, \(Z=\sum_i e^{-\beta E_i}\).
+Here, \(Z=e^{-\beta\cdot 0}+e^{-\beta\varepsilon}=1+e^{-\beta\varepsilon}\).
+Using \(e^{+\beta\varepsilon}\) flips the sign in the Boltzmann factor, violating canonical statistics.
+Options C and D omit the ground-state contribution or use an unphysical subtraction.
+
+3) For a canonical ensemble, internal energy is obtained from the partition function as:
+A. \(U = -\dfrac{\partial \ln Z}{\partial \beta}\)  
+B. \(U = -k_B T \ln Z\)  
+C. \(U = k_B T \ln Z\)  
+D. \(U = \dfrac{\partial Z}{\partial \beta}\)  
+
+Correct answer: A
+
+Explanation: The canonical result relating thermodynamics to \(Z\) is \(U = -\partial(\ln Z)/\partial \beta\).
+\(-k_B T\ln Z\) gives Helmholtz free energy \(F\), not \(U\).
+\(k_B T\ln Z\) has the wrong sign even for \(F\), so it cannot represent \(U\).
+\(\partial Z/\partial\beta\) is not directly \(U\); the logarithm is essential because probabilities are normalized by \(Z\).
+
+4) For the two-level system (\(E_0=0\), \(E_1=\varepsilon\)) in the canonical ensemble, the probability of finding the system in the excited state is:
+A. \(p_1=\dfrac{e^{-\beta \varepsilon}}{1+e^{-\beta \varepsilon}}\)  
+B. \(p_1=\dfrac{e^{+\beta \varepsilon}}{1+e^{+\beta \varepsilon}}\)  
+C. \(p_1=\dfrac{1}{1+e^{-\beta \varepsilon}}\)  
+D. \(p_1=\dfrac{1}{1+\beta \varepsilon}\)  
+
+Correct answer: A
+
+Explanation: Canonical probabilities are \(p_i = e^{-\beta E_i}/Z\) with \(Z=\sum_i e^{-\beta E_i}\).
+So \(p_1 = e^{-\beta\varepsilon}/(1+e^{-\beta\varepsilon})\).
+Option C is actually \(p_0\) (ground-state probability).
+Option B uses the wrong sign in the Boltzmann factor, and option D is not derived from partition-function normalization.
+
+5) A system is in thermal contact with a heat reservoir, but the number of particles is strictly fixed. The most appropriate ensemble is:
+A. Microcanonical  
+B. Canonical  
+C. Grand canonical  
+D. No ensemble applies because energy fluctuates  
+
+Correct answer: B
+
+Explanation: Thermal contact with a reservoir fixes \(T\) while allowing energy exchange (energy fluctuations), and fixed particle number implies fixed \(N\); together this is the canonical ensemble (\(T,V,N\) fixed).
+Microcanonical would require isolation with fixed \(E,V,N\).
+Grand canonical would be used if both energy and particles could be exchanged (fixed \(T,V,\mu\)).
+Energy fluctuations are expected in canonical ensemble and do not invalidate the ensemble description.
+
+6) A small subsystem can exchange both energy and particles with a large reservoir at fixed \(T\) and \(\mu\). The correct weight factor for a microstate with energy \(E\) and particle number \(N\) is proportional to:
+A. \(e^{-\beta E}\)  
+B. \(e^{-\beta (E-\mu N)}\)  
+C. \(e^{-\beta (E+\mu N)}\)  
+D. \(e^{+\beta (E-\mu N)}\)  
+
+Correct answer: B
+
+Explanation: In the grand canonical ensemble, probabilities are proportional to \(e^{-\beta(E-\mu N)}\), reflecting exchange of both energy and particles with the reservoir.
+Option A is the canonical Boltzmann factor (no particle exchange).
+Option C has the wrong sign for \(\mu N\), leading to incorrect dependence of probability on particle number.
+Option D flips the overall sign and would favor large \(E-\mu N\), contradicting equilibrium statistics.
+
+7) The grand partition function \(\Xi\) is defined as:
+A. \(\Xi=\sum_i e^{-\beta E_i}\)  
+B. \(\Xi=\sum_N \sum_i e^{-\beta(E_{iN}-\mu N)}\)  
+C. \(\Xi=\sum_N \sum_i e^{-\beta(E_{iN}+\mu N)}\)  
+D. \(\Xi=\prod_N \sum_i e^{-\beta(E_{iN}-\mu N)}\)  
+
+Correct answer: B
+
+Explanation: The grand partition function sums over both particle numbers \(N\) and microstates \(i\) at each \(N\): \(\Xi=\sum_N \sum_i e^{-\beta(E_{iN}-\mu N)}\).
+Option A is the canonical partition function \(Z\), not \(\Xi\).
+Option C uses the wrong sign convention for the \(\mu N\) term in the exponent.
+Option D incorrectly replaces a sum over \(N\) by a product and changes the ensemble definition.
+
+8) In the canonical ensemble, Helmholtz free energy \(F\) is connected to the partition function via:
+A. \(F = -k_B T \ln Z\)  
+B. \(F = -\dfrac{\partial \ln Z}{\partial \beta}\)  
+C. \(F = k_B \ln Z\)  
+D. \(F = k_B T Z\)  
+
+Correct answer: A
+
+Explanation: Canonical thermodynamics gives \(F=-k_B T\ln Z\).
+\(-\partial\ln Z/\partial\beta\) corresponds to internal energy \(U\), not \(F\).
+\(k_B\ln Z\) misses the factor \(T\) and does not have the correct thermodynamic meaning.
+\(k_B T Z\) is dimensionally inconsistent and not a standard thermodynamic relation.
+
+9) In a microcanonical description, entropy is expressed in terms of the multiplicity (density of accessible states) \(\Omega\) as:
+A. \(S(E,V,N)=k_B \ln \Omega(E,V,N)\)  
+B. \(S(E,V,N)=k_B \Omega(E,V,N)\)  
+C. \(S(E,V,N)=-k_B \ln \Omega(E,V,N)\)  
+D. \(S(E,V,N)=\Omega(E,V,N)/k_B\)  
+
+Correct answer: A
+
+Explanation: The microcanonical entropy is defined by \(S(E,V,N)=k_B \ln \Omega(E,V,N)\), consistent with the statistical definition of entropy.
+Not taking the logarithm (option B) breaks the additive property of entropy for independent subsystems.
+The negative sign (option C) would make entropy decrease with increasing number of accessible states, contradicting the probabilistic interpretation.
+Dividing by \(k_B\) (option D) is dimensionally wrong and not the entropy definition.
+
+10) In canonical calculations, a common mistake is to compute the average energy as \(\sum_i E_i\) without weighting. The correct ensemble-average internal energy is:
+A. \(U=\sum_i E_i\)  
+B. \(U=\sum_i p_i E_i\) with \(p_i=\dfrac{e^{-\beta E_i}}{Z}\)  
+C. \(U=\prod_i p_i E_i\)  
+D. \(U=\sum_i \ln(p_i E_i)\)  
+
+Correct answer: B
+
+Explanation: Canonical ensemble averages must be probability-weighted: \(U=\langle E\rangle = \sum_i p_i E_i\), where \(p_i=e^{-\beta E_i}/Z\) comes from the Boltzmann distribution and partition-function normalization.
+Unweighted sums ignore the fact that high-energy states are less probable at finite temperature.
+Products of probabilities and energies or logarithmic combinations are not definitions of ensemble averages.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)

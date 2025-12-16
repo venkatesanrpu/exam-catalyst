@@ -1,0 +1,53 @@
+## Part 3: Advanced (5 MCQs)
+
+1) A student uses concentrations directly in the Nernst equation for a 1:1 electrolyte cell at ionic strength \(I=0.10\) and obtains a significantly wrong EMF. Which correction most directly targets the root cause?
+A. Replace concentrations by activities using activity coefficients estimated from Debye–Hückel limiting law (within its validity)  
+B. Replace the salt bridge with a longer bridge to increase solution resistance  
+C. Use molar conductivity data to compute EMF instead of Nernst equation  
+D. Ignore liquid junction potential because it cancels for all cell types  
+
+Correct answer: A
+
+Explanation: The Nernst equation is fundamentally written in terms of activities, not bare concentrations, and non-ideality is captured through activity coefficients.  Debye–Hückel theory provides a way (in very dilute solutions) to connect ionic strength to activity coefficients, making it the most direct conceptual fix when concentration-use fails.  Changing salt-bridge length mainly affects resistance and practical measurement stability, not the thermodynamic activity term controlling equilibrium potential.  Conductivity/molar conductivity concerns ionic transport and does not replace the thermodynamic dependence of EMF on activities in the Nernst equation.  Liquid junction potential may be reduced by a salt bridge, but it does not universally cancel for all cells, so ignoring it is a conceptual trap.
+
+2) For a concentration cell, the measured EMF differs depending on whether transference is allowed. The most accurate reason is that allowing transference introduces:
+A. A contribution from ionic transport numbers and junction potential into the observed EMF  
+B. A change in standard electrode potentials of the half-cells  
+C. A breakdown of charge neutrality in each half-cell bulk solution  
+D. A mandatory change in number of electrons \(n\) for the same redox couple  
+
+Correct answer: A
+
+Explanation: Concentration cells “with transference” are influenced by how current is carried by ions (transport numbers) and by liquid junction potentials, both of which affect the measured EMF.  Standard electrode potentials are defined under standard conditions and do not change simply because the cell is measured with/without transference.  Bulk solutions remain nearly electroneutral; deviations are localized and do not explain the systematic EMF difference.  The number of electrons \(n\) is fixed by the redox couple stoichiometry and does not change with measurement conditions.
+
+3) A galvanic cell has \(E^\circ_\text{cell} > 0\). Which statement correctly links this to both equilibrium and thermodynamics?
+A. \(\Delta G^\circ < 0\) and \(K>1\) for the cell reaction under standard conditions  
+B. \(\Delta H^\circ < 0\) must be true, and \(K=1\) always  
+C. \(\Delta G^\circ > 0\) and \(K<1\), but the cell can still run due to kinetics  
+D. \(\Delta S^\circ\) must be positive for any galvanic cell  
+
+Correct answer: A
+
+Explanation: The electrochemical–thermodynamic relationships included in the syllabus connect \(E^\circ_\text{cell}\) to \(\Delta G^\circ\) via \(\Delta G^\circ = -nFE^\circ\), so \(E^\circ_\text{cell}>0\) implies \(\Delta G^\circ<0\).  The same framework ties \(\Delta G^\circ\) to equilibrium via \(\Delta G^\circ = -RT\ln K\), so \(\Delta G^\circ<0\) implies \(K>1\).  \(\Delta H^\circ\) and \(\Delta S^\circ\) can have either sign; spontaneity at standard conditions is governed by \(\Delta G^\circ\), not by forcing \(\Delta H^\circ<0\) or \(\Delta S^\circ>0\).  Kinetics may affect rate, but it does not change the sign relation between \(E^\circ\), \(\Delta G^\circ\), and \(K\).
+
+4) Which statement best explains why the Debye–Hückel limiting law and Debye–Hückel–Onsager equation both have restricted ranges of validity, even though they are widely used?
+A. They rely on approximations valid mainly at low ionic strength/low concentration where inter-ionic interactions are weak enough to be treated in a simplified way  
+B. They assume electrodes are ideally polarizable, which never holds  
+C. They require the electrolyte to be non-aqueous and fail in water  
+D. They assume the electrolyte is weak and fully dissociated  
+
+Correct answer: A
+
+Explanation: Debye–Hückel concepts model ionic atmosphere effects and predict activity coefficient behavior in very dilute solutions, while Onsager-type treatment similarly addresses low-concentration deviations of molar conductivity for strong electrolytes.  As concentration increases, stronger inter-ionic correlations, ion pairing, finite ion size effects, and other non-idealities cause deviations beyond what these simplified theories capture, giving a limited validity domain.  The restriction is not because electrodes must be ideally polarizable, nor because the solvent must be non-aqueous.  Onsager treatment is especially associated with strong electrolytes (high dissociation), not weak electrolytes being “fully dissociated,” so that premise is self-contradictory.
+
+5) In a strong acid–strong base potentiometric titration using an appropriate indicator electrode and a reference electrode, which reasoning best identifies the equivalence point location from the potential–volume curve?
+A. It occurs near the inflection point of the \(E\) vs volume curve and is sharpened by derivative (first/second derivative) analysis  
+B. It occurs where conductivity is minimum because potential and conductivity endpoints are identical  
+C. It occurs when the measured potential becomes exactly zero relative to the reference electrode  
+D. It occurs when the salt bridge is removed, eliminating junction potentials  
+
+Correct answer: A
+
+Explanation: Potentiometric titrations locate equivalence by tracking electrode potential change with added titrant, and the equivalence is associated with the steepest change (an inflection in the raw curve), which derivative methods help pinpoint.  Conductometric and potentiometric endpoints can coincide in some systems, but they rely on different measured properties and are not guaranteed identical.  The potential need not become zero at equivalence because absolute potential depends on the electrode system and reference; only the curve shape is diagnostic.  Removing the salt bridge typically worsens junction potential issues rather than “fixing” equivalence detection.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0a4dcd97-40dc-45f4-bebc-c5290b9a9579/physical_unit_08.txt)

@@ -1,0 +1,131 @@
+1) For a non-reacting system at equilibrium, the Gibbs phase rule is:
+
+A. \(F = C - P + 2\)  
+B. \(F = P - C + 2\)  
+C. \(F = C + P - 2\)  
+D. \(F = C - P - 2\)  
+
+Correct answer: \(F = C - P + 2\)
+
+Explanation: Gibbs phase rule relates the number of degrees of freedom \(F\) (independent intensive variables), number of components \(C\), and number of phases \(P\) at equilibrium as \(F = C - P + 2\) for a non-reacting system.
+Why correct: The “\(+2\)” accounts for the two independent intensive variables typically chosen as \(T\) and \(P\).
+Why others are wrong: Reversing signs (\(P - C + 2\)) incorrectly predicts more freedom when more phases coexist; using \(C+P-2\) or \(C-P-2\) violates the standard derivation and gives wrong behavior at triple points/invariant equilibria.
+
+2) In the phase rule expression, “degrees of freedom” refers to the number of:
+
+A. Extensive variables that can be independently varied  
+B. Intensive variables that can be independently varied without changing the number of phases  
+C. Moles of each species present in the system  
+D. Possible chemical reactions occurring simultaneously  
+
+Correct answer: Intensive variables that can be independently varied without changing the number of phases
+
+Explanation: Degrees of freedom \(F\) is the number of independent intensive variables (such as temperature, pressure, and composition variables) that can be changed while maintaining phase equilibrium.
+Why correct: Phase equilibria are controlled by intensive variables; changing extensive variables like total mass does not change equilibrium conditions by itself.
+Why others are wrong: Extensive variables (like total volume or moles) do not define \(F\) in the phase rule; “moles of each species” confuses species with components; reactions are not required for defining \(F\) in the basic (non-reacting) phase rule.
+
+3) A triple point in a one-component system corresponds to:
+
+A. One phase in equilibrium  
+B. Two phases in equilibrium  
+C. Three phases in equilibrium  
+D. Two components in equilibrium  
+
+Correct answer: Three phases in equilibrium
+
+Explanation: In a one-component phase diagram, a triple point is the unique condition where three phases of the same substance coexist in equilibrium.
+Why correct: “Triple” denotes three phases meeting at a single \(P\)-\(T\) point (e.g., solid–liquid–vapour).
+Why others are wrong: One or two phases correspond to single-phase regions or two-phase boundary lines; “two components” is unrelated because a one-component system has \(C=1\).
+
+4) The critical point on a one-component phase diagram is best described as the point where:
+
+A. Solid and liquid become identical  
+B. Liquid and vapour become indistinguishable  
+C. Three phases coexist  
+D. The vapour pressure becomes zero  
+
+Correct answer: Liquid and vapour become indistinguishable
+
+Explanation: The critical point is the end of the liquid–vapour coexistence curve, beyond which a distinct liquid and vapour phase cannot be defined and a supercritical fluid region exists.
+Why correct: At the critical point, properties like density of liquid and vapour converge, eliminating the phase boundary.
+Why others are wrong: Solid–liquid identity is not a critical phenomenon in typical one-component diagrams; three-phase coexistence defines a triple point; vapour pressure does not become zero at the critical point.
+
+5) The Clausius–Clapeyron equation primarily connects vapour pressure with:
+
+A. Temperature  
+B. Volume  
+C. Internal energy  
+D. Heat capacity  
+
+Correct answer: Temperature
+
+Explanation: The Clausius–Clapeyron equation gives a quantitative relationship between vapour pressure and temperature for phase transitions such as vaporization or sublimation.
+Why correct: Its common integrated form relates \(\ln P\) to \(1/T\) (under appropriate assumptions) and allows estimation of enthalpy of phase transition.
+Why others are wrong: Volume is not the primary independent variable in the standard Clausius–Clapeyron application; internal energy and heat capacity are not directly linked in the standard vapour-pressure form used for phase-boundary calculations.
+
+6) In a one-component \(P\)–\(T\) phase diagram, a phase boundary line (two-phase equilibrium line) indicates:
+
+A. Only one phase is stable along the line  
+B. Two phases coexist in equilibrium along the line  
+C. Three phases coexist in equilibrium along the line  
+D. The system must be at constant volume  
+
+Correct answer: Two phases coexist in equilibrium along the line
+
+Explanation: A boundary line separates two single-phase regions and represents conditions where the two phases coexist in equilibrium (e.g., liquid–vapour line).
+Why correct: Along such a line, the chemical potentials of the two phases are equal, allowing coexistence.
+Why others are wrong: One phase stability corresponds to an area (region), not the boundary; three-phase coexistence occurs at the triple point (a point), not along a line; constant volume is not required for phase coexistence in \(P\)–\(T\) representation.
+
+7) The unusual negative slope of the fusion curve of water in the \(P\)–\(T\) diagram implies that:
+
+A. Increasing pressure raises the melting point of ice  
+B. Increasing pressure lowers the melting point of ice  
+C. Ice is denser than liquid water  
+D. Vapour pressure of water is zero at 1 atm  
+
+Correct answer: Increasing pressure lowers the melting point of ice
+
+Explanation: Water shows an “anomalous” fusion curve with negative slope in the \(P\)–\(T\) diagram, meaning increased pressure favors the phase with smaller molar volume (liquid water), lowering the melting temperature.
+Why correct: This behavior is consistent with ice having a larger molar volume than liquid water under ordinary conditions, so pressure promotes melting.
+Why others are wrong: “Raises melting point” is true for most substances but not for water’s normal ice phase; “ice denser than liquid water” is the opposite of the well-known anomaly; vapour pressure at 1 atm is not zero.
+
+8) An azeotrope in a binary liquid–vapour system is defined as a composition at which:
+
+A. The liquid phase is pure component 1  
+B. The vapour phase is pure component 2  
+C. Liquid and vapour have the same composition  
+D. The mixture freezes at a constant temperature  
+
+Correct answer: Liquid and vapour have the same composition
+
+Explanation: An azeotrope is a special binary composition where the equilibrium vapour composition equals the liquid composition at a given pressure, leading to constant-boiling behavior.
+Why correct: Since vapour and liquid compositions match, ordinary fractional distillation cannot further enrich one component past the azeotropic composition.
+Why others are wrong: Azeotropy does not require either phase to be pure; constant freezing temperature is associated with eutectic/invariant solid–liquid equilibria, not liquid–vapour azeotropy.
+
+9) The eutectic point in a two-component solid–liquid phase diagram is best described as:
+
+A. A point where liquid and vapour compositions are identical  
+B. An invariant point where two solid phases and one liquid phase coexist  
+C. A point where two liquids become completely miscible  
+D. A point where a supercritical fluid forms  
+
+Correct answer: An invariant point where two solid phases and one liquid phase coexist
+
+Explanation: A eutectic is an invariant equilibrium in a binary solid–liquid system where (typically) two solid phases coexist with a liquid at a fixed temperature and composition.
+Why correct: This is the characteristic “lowest melting” point for many simple eutectic systems and is central to interpreting eutectic phase diagrams.
+Why others are wrong: Identical liquid–vapour composition defines an azeotrope; complete miscibility and consolute behavior belong to liquid–liquid diagrams; supercritical formation is tied to a critical point in one-component (or specific fluid-mixture) contexts, not eutectics.
+
+10) Fractional distillation separates components mainly because different components (or compositions) have different:
+
+A. Magnetic susceptibility  
+B. Volatility (boiling tendency)  
+C. Density of the solid phase  
+D. Heat of fusion  
+
+Correct answer: Volatility (boiling tendency)
+
+Explanation: Fractional distillation is a separation technique that exploits differences in volatility and the associated vapour–liquid equilibrium behavior across stages (theoretical plates).
+Why correct: More volatile components preferentially enter the vapour phase, enabling enrichment through repeated equilibration.
+Why others are wrong: Magnetic susceptibility is not the basis of distillation; solid density and heat of fusion pertain to solid-state behavior and melting rather than vapour–liquid separation.
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)

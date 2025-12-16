@@ -1,0 +1,162 @@
+1) The decomposition of \(A\) follows first-order kinetics. If \(t_{1/2}=20\ \text{min}\), then the fraction of \(A\) remaining after \(60\ \text{min}\) is:
+
+A. \(1/2\)  
+B. \(1/4\)  
+C. \(1/8\)  
+D. \(1/16\)  
+
+Correct answer: C  
+
+Explanation: For a first-order reaction, each half-life reduces concentration by a factor of 2, and the half-life is constant (independent of initial concentration).
+Here \(60\ \text{min} = 3\) half-lives, so remaining fraction \(=(1/2)^3=1/8\).
+\(1/2\) and \(1/4\) correspond to 1 and 2 half-lives, which would be 20 min and 40 min, not 60 min.
+\(1/16\) would correspond to 4 half-lives (80 min), so it overestimates the decay.
+
+***
+
+2) A reaction has rate law \(\text{rate}=k[A]^2\). If \([A]\) is doubled while temperature is constant, the rate changes by a factor of:
+
+A. 2  
+B. 4  
+C. 8  
+D. 1/4  
+
+Correct answer: B  
+
+Explanation: Reaction order is taken from the exponents in the experimentally determined rate law, and here the reaction is second order in \(A\).
+Doubling \([A]\) gives \(\text{rate}'=k(2[A])^2=4k[A]^2\), so rate increases fourfold.
+A factor of 2 would correspond to first order, and a factor of 8 would correspond to third order in \(A\).
+A factor of \(1/4\) would occur if \([A]\) were halved, not doubled.
+
+***
+
+3) Consider the mechanism: \(A \xrightarrow{k_1} B \xrightarrow{k_2} C\). If \(k_2 \gg k_1\), the best statement about the concentration of intermediate \(B\) is:
+
+A. \(B\) accumulates to a large concentration because the first step is slow  
+B. \(B\) remains small because it is consumed much faster than it is formed  
+C. \(B\) must be equal to \(A\) at all times  
+D. \(B\) is constant only if the reaction is at equilibrium  
+
+Correct answer: B  
+
+Explanation: In consecutive reactions, intermediate concentration depends on relative rates of formation and consumption.
+If \(k_2 \gg k_1\), \(B\) is rapidly converted to \(C\) and thus does not build up significantly; this aligns with the idea behind treating certain intermediates as short-lived.
+Slow formation (small \(k_1\)) does not guarantee accumulation; accumulation requires formation faster than consumption.
+The condition is kinetic, not an equilibrium requirement, so equilibrium is not needed for \(B\) to be small.
+
+***
+
+4) In a parallel reaction network \(A \xrightarrow{k_1} P\) and \(A \xrightarrow{k_2} Q\), both first order in \(A\). Starting from only \(A\), the ratio of formation rates of products at any time is:
+
+A. \(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_1}{k_2}\)  
+B. \(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_2}{k_1}\)  
+C. \(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{[P]}{[Q]}\)  
+D. \(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_1[A]^2}{k_2}\)  
+
+Correct answer: A  
+
+Explanation: For competing (parallel) reactions, selectivity/branching depends on relative pathway rate constants when the order in \(A\) is the same.
+Here \(d[P]/dt=k_1[A]\) and \(d[Q]/dt=k_2[A]\), so the ratio is \((k_1[A])/(k_2[A])=k_1/k_2\), independent of time.
+The inverse ratio would swap products.
+The ratio \([P]/[Q]\) is a consequence of integrated behavior and need not equal the instantaneous rate ratio unless specific conditions apply; the asked quantity is the rate ratio.
+
+***
+
+5) For a reversible first-order system \(A \rightleftharpoons B\) with forward rate constant \(k_f\) and reverse rate constant \(k_r\), which statement is correct?
+
+A. At equilibrium, \([A]/[B]=k_f/k_r\)  
+B. At equilibrium, \([B]/[A]=k_f/k_r\)  
+C. At equilibrium, \(k_f=k_r\) must hold  
+D. Equilibrium cannot be reached if the reaction is first order  
+
+Correct answer: B  
+
+Explanation: For opposing (reversible) reactions, the forward and reverse rate constants govern approach to equilibrium and are related to the equilibrium composition.
+At equilibrium, forward rate equals reverse rate: \(k_f[A]_{eq}=k_r[B]_{eq}\), giving \([B]_{eq}/[A]_{eq}=k_f/k_r\).
+Equilibrium does not require \(k_f=k_r\); it requires equality of *rates*, not equality of rate constants.
+First-order reversible systems do reach equilibrium; first order does not prevent equilibration.
+
+***
+
+6) A proposed mechanism is:
+Step 1 (fast): \(A + B \rightleftharpoons I\)  
+Step 2 (slow): \(I + B \rightarrow P\)  
+If step 1 is treated as a pre-equilibrium, the predicted overall rate law is:
+
+A. \(\text{rate}=k[A]\)  
+B. \(\text{rate}=k[A][B]\)  
+C. \(\text{rate}=k[A][B]^2\)  
+D. \(\text{rate}=k[B]^2\)  
+
+Correct answer: C  
+
+Explanation: Mechanism-based rate laws must be consistent with the elementary steps and how intermediates relate to reactants using approximations like pre-equilibrium/steady state.
+With pre-equilibrium in step 1, \([I]=K[A][B]\) where \(K=k_1/k_{-1}\) is the equilibrium constant for step 1, and the slow step rate is \(\text{rate}=k_2[I][B]=k_2K[A][B]^2\).
+A and B correspond to missing dependence on \(B\) from the slow-step consumption of \(B\).
+D ignores the requirement that \(I\) is generated from \(A\) and \(B\).
+
+***
+
+7) In Michaelis–Menten kinetics, \(v=\dfrac{V_{\max}[S]}{K_m+[S]}\). If \([S]=K_m\), then the initial rate \(v\) equals:
+
+A. \(V_{\max}\)  
+B. \(V_{\max}/2\)  
+C. \(2V_{\max}\)  
+D. \(K_m/2\)  
+
+Correct answer: B  
+
+Explanation: The Michaelis–Menten model relates rate to substrate concentration through \(K_m\) and \(V_{\max}\).
+Substituting \([S]=K_m\) gives \(v=V_{\max}K_m/(K_m+K_m)=V_{\max}/2\).
+\(V_{\max}\) occurs only in the saturation limit \([S]\gg K_m\).
+\(2V_{\max}\) is impossible because \(V_{\max}\) is the maximum achievable rate in this model.
+
+***
+
+8) An enzyme shows \(V_{\max}\) unchanged but apparent \(K_m\) increases upon adding an inhibitor. The inhibition is most consistent with:
+
+A. Competitive inhibition  
+B. Non-competitive inhibition  
+C. Uncompetitive inhibition  
+D. Irreversible inhibition that always lowers \(K_m\)  
+
+Correct answer: A  
+
+Explanation: Enzyme inhibition types are distinguished by how they affect \(K_m\) and \(V_{\max}\) in Michaelis–Menten analysis.
+Competitive inhibition reduces effective substrate binding (increases apparent \(K_m\)) while leaving \(V_{\max}\) unchanged at sufficiently high \([S]\).
+Non-competitive inhibition typically decreases \(V_{\max}\) (since active enzyme fraction is reduced), which contradicts the observation.
+Uncompetitive inhibition decreases both \(K_m\) and \(V_{\max}\), so it also contradicts the observation.
+
+***
+
+9) In Arrhenius behavior, if the activation energy \(E_a\) is unchanged but temperature increases, the rate constant \(k\) will:
+
+A. Decrease because collisions become less effective  
+B. Increase because \(k\) depends exponentially on temperature in the Arrhenius equation  
+C. Remain constant because \(E_a\) is constant  
+D. Become independent of temperature for elementary reactions  
+
+Correct answer: B  
+
+Explanation: The Arrhenius equation links the temperature dependence of reaction rates to activation energy and temperature.
+With higher temperature, a larger fraction of molecules can overcome the activation barrier, so \(k\) increases according to Arrhenius temperature dependence.
+A contradicts collision/Arrhenius concepts used to interpret temperature effects on rates.
+A constant \(E_a\) does not imply constant \(k\); \(T\) still changes \(k\).
+
+***
+
+10) A primary kinetic isotope effect is measured as \(k_H/k_D \approx 6\) for a reaction where H is replaced by D. The most reasonable inference is:
+
+A. The isotopic atom is not involved in the rate-controlling step  
+B. Bond to H is significantly involved in the transition state of the rate-controlling step  
+C. The reaction is necessarily diffusion-controlled  
+D. The equilibrium constant must have changed by a factor of 6  
+
+Correct answer: B  
+
+Explanation: Kinetic isotope effects are used to infer transition-state involvement and bond-breaking/forming patterns.
+A large \(k_H/k_D\) (typical of a substantial primary isotope effect) indicates that the bond to H (vs D) is involved in the rate-determining transition state, consistent with zero-point energy differences affecting the barrier.
+Diffusion control is a separate kinetic regime and is not implied solely by observing a large KIE.
+KIE refers to rate constants (kinetics), not necessarily a proportional change in equilibrium constant (thermodynamics).
+
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)
