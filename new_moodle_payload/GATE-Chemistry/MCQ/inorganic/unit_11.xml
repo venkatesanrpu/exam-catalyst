@@ -1,0 +1,1128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>An unknown crystalline coordination compound</text>
+    </name>
+    <questiontext format="html">
+      <text>An unknown crystalline coordination compound is suspected to contain iron and also an organic ligand (possible carboxylate). A minimal, logically consistent combination that can (i) determine long-range crystal structure, (ii) distinguish Fe(II) vs Fe(III) and local electronic environment, and (iii) identify key ligand functional groups is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>X-ray crystallography is the direct structural method for long-range periodic order and crystal structure determination, using diffraction concepts and Bragg-type relationships.
+Mössbauer spectroscopy (notably Fe-57) is specifically suited to probing iron oxidation state and local environment through parameters such as isomer shift, quadrupole splitting, and magnetic hyperfine effects.
+FTIR identifies ligand functional groups via characteristic vibrational absorptions, providing complementary chemical-bond information to diffraction and Mössbauer local probes.
+The other combinations either miss long-range structure determination, lack a technique targeted to Fe/Sn nuclear environment, or do not directly provide functional-group vibrational signatures.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>X-ray crystallography + Mössbauer spectroscopy (Fe-57) + FTIR</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>UV–Visible + GC + ion-selective electrode</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>ESR + HPLC + TGA</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mass spectrometry + polarography + DTA</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In cyclic voltammetry, a redox</text>
+    </name>
+    <questiontext format="html">
+      <text>In cyclic voltammetry, a redox couple shows a clear reduction peak on the forward scan, but the corresponding oxidation peak on the reverse scan becomes progressively smaller (and can disappear) as the scan rate is decreased. The most consistent mechanistic interpretation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cyclic voltammetry is used to diagnose reversible, quasi-reversible, and irreversible behavior and also coupled mechanisms such as EC/CE/EE.
+In an EC mechanism, electron transfer generates a product that is consumed by a chemical step, so at slower scan rates there is more time for the chemical reaction to proceed before the reverse scan, reducing the amount available to re-oxidize and thereby shrinking the reverse peak.
+A fully reversible couple without follow-up chemistry typically retains a strong return peak because the oxidized/reduced forms interconvert reversibly at the electrode on the CV timescale.
+Calling it purely capacitive ignores the presence of distinct faradaic peaks, and assigning electron count from peak appearance alone is not valid because kinetics and coupled chemistry also control peak shape.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A reversible electron transfer with no follow-up chemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>An EC mechanism where the electro-generated species undergoes a chemical reaction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A purely capacitive (non-faradaic) process with no redox chemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A system that must be two-electron because peak separation is observed</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Mössbauer spectrum of an</text>
+    </name>
+    <questiontext format="html">
+      <text>A Mössbauer spectrum of an Fe-containing solid shows a clear quadrupole-split doublet but no magnetic hyperfine splitting at the measurement temperature. The most defensible conclusion is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Mössbauer parameters include quadrupole splitting (linked to an electric field gradient at the nucleus) and magnetic hyperfine splitting (linked to internal magnetic fields and magnetic ordering).
+A quadrupole doublet indicates a non-zero electric field gradient, which typically arises from a non-cubic or electronically/structurally anisotropic environment at the Fe nucleus.
+Absence of magnetic splitting at a given temperature does not eliminate paramagnetism or Fe(III); it may simply indicate no static magnetic ordering (or fast relaxation) on the Mössbauer timescale under those conditions.
+Geometry assignment cannot be made uniquely from “doublet present” alone, because many non-cubic environments (including multiple coordination geometries) can produce quadrupole splitting.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The iron site experiences an electric field gradient but does not show magnetic ordering on the Mössbauer timescale</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The sample must be diamagnetic and cannot contain any Fe(III)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The material must be amorphous because crystalline solids always show magnetic splitting</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The spectrum proves the compound is tetrahedral because only tetrahedral sites show doublets</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For cubic crystals, reflection conditions</text>
+    </name>
+    <questiontext format="html">
+      <text>For cubic crystals, reflection conditions are commonly used to infer lattice centering from systematic absences (allowed/forbidden sets of Miller indices), which is connected to the structure factor concept. Which statement is consistent with such reasoning?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>X-ray crystallography uses the structure factor idea to decide which reflections are allowed and explains systematic absences arising from additional lattice translations (centering) beyond a primitive lattice.
+For a body-centered cubic lattice, the extra translation leads to cancellation of scattering for reflections where \(h+k+l\) is odd, producing systematic absences in the diffraction pattern.
+A face-centered cubic lattice has a different selection rule (not “all even allowed only”), so claiming that all even sums are absent is the opposite of what centering rules imply.
+Systematic absences are not forbidden by cubic symmetry; they are a key diagnostic feature for identifying centering and space-group symmetry elements.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>In a body-centered cubic lattice, reflections with \(h+k+l\) odd are systematically absent</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In a face-centered cubic lattice, reflections with \(h+k+l\) even are systematically absent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In a primitive cubic lattice, only reflections with all-even indices occur</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In any cubic lattice, systematic absences cannot occur because cubic symmetry forbids them</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In reversed-phase HPLC method development</text>
+    </name>
+    <questiontext format="html">
+      <text>In reversed-phase HPLC method development for an ionizable analyte (weak acid or weak base), changing mobile-phase pH often produces large changes in retention. The best explanation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>HPLC separation principles involve partitioning and selectivity; for ionizable compounds, the ionized and neutral forms have different interactions with the stationary phase, strongly impacting retention.
+Mobile-phase pH controls the equilibrium between ionized and unionized forms, so adjusting pH is a central lever in optimizing retention and selectivity during method development.
+Detector calibration influences measured signal intensity and quantitative response factors, but it does not create the fundamental chromatographic retention changes driven by analyte–phase interactions.
+Retention is not determined only by flow rate or molecular weight; chemical interactions, solvent composition, and analyte ionization state are core determinants of HPLC behavior.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e55afefa-596e-4a12-b284-48bde32e8986/inorganic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Changing pH changes the fraction ionized, which changes polarity and hence partitioning between mobile and stationary phases</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Changing pH directly changes the detector wavelength calibration, shifting retention time</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Changing pH affects only peak area, not retention, because retention is purely a function of flow rate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Changing pH is irrelevant in HPLC because separations are governed only by molecular weight</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In UV–Visible spectrophotometry, the Beer–Lambert</text>
+    </name>
+    <questiontext format="html">
+      <text>In UV–Visible spectrophotometry, the Beer–Lambert law for absorbance is correctly represented by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Beer–Lambert law states that absorbance is directly proportional to concentration \(c\) and path length \(l\), with proportionality constant \(\varepsilon\) (molar absorptivity).
+This is the basis for constructing calibration curves for quantitative analysis using UV–Vis instruments.
+Expressions that place \(c\) or \(l\) in the denominator incorrectly predict lower absorbance for higher concentration or longer path length, which contradicts the law’s proportionality.
+Such incorrect forms commonly arise from algebraic mistakes or confusing absorbance with transmittance relationships.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(A=\varepsilon l c\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(A=\varepsilon l /c\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(A=\varepsilon c /l\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(A=\varepsilon /(lc)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The key feature that most</text>
+    </name>
+    <questiontext format="html">
+      <text>The key feature that most directly indicates **phosphorescence** (rather than fluorescence) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Phosphorescence generally involves emission from a triplet excited state to a singlet ground state, making it slower due to spin-forbidden character.
+Fluorescence is typically singlet-to-singlet emission and is therefore comparatively fast.
+IR absorption is associated with vibrational transitions, not the electronic excited-state emission processes described in a Jablonski framework.
+Restricting UV–Visible absorption to only σ–σ* transitions is incorrect because common bands also arise from π–π* and n–π* transitions.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Radiative transition between two singlet states, typically very fast</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Radiative transition involving a triplet state, typically longer-lived</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Absorption of IR radiation causing vibrational excitation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Absorption in the UV–Visible region due to σ–σ* transitions only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In FTIR spectroscopy, the Michelson</text>
+    </name>
+    <questiontext format="html">
+      <text>In FTIR spectroscopy, the Michelson interferometer is primarily used to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>FTIR uses an interferometer to encode all IR frequencies into an interferogram, which is mathematically converted (Fourier transform) into intensity versus wavenumber.
+A prism/grating dispersion description corresponds to dispersive IR instruments rather than FTIR.
+Multiple reflections relate to certain sampling accessories (like ATR or multipass cells), not the fundamental role of the interferometer in FTIR signal generation.
+A detector is still required; the interferometer does not eliminate detection electronics.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Directly disperse IR light into individual frequencies using a prism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Generate an interferogram that is Fourier-transformed to obtain the spectrum</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Increase sample path length by multiple reflections (only)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Convert absorbed IR energy directly into electrical current without a detector</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In NMR spectroscopy, the most</text>
+    </name>
+    <questiontext format="html">
+      <text>In NMR spectroscopy, the most common reference compound for defining chemical shift (\(\delta\)) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chemical shift is reported relative to a reference standard, and TMS is widely used because it provides a convenient reference signal.
+D\(_2\)O is commonly a solvent in NMR but does not serve as the universal chemical shift reference standard.
+NaCl and KBr are associated with other laboratory contexts (e.g., ionic salts, IR pellet preparation) and do not define the NMR \(\delta\) scale.
+Using a consistent reference is essential for comparing spectra across instruments and conditions.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Tetramethylsilane (TMS)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Heavy water (D\(_2\)O)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Sodium chloride (NaCl)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Potassium bromide (KBr)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A fundamental requirement for obtaining</text>
+    </name>
+    <questiontext format="html">
+      <text>A fundamental requirement for obtaining an ESR (EPR) signal is that the sample must:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>ESR detects transitions associated with electron spin states in a magnetic field, so unpaired electrons are essential.
+Nuclear-spin requirements are relevant to NMR, not ESR; ESR focuses on electron magnetic properties and the g-factor concept.
+UV–Visible transparency is unrelated to ESR resonance conditions and does not determine ESR detectability.
+Volatility and injection stability are considerations for GC, not for ESR spectroscopy.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Contain nuclei with spin \(I=0\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Contain unpaired electrons (paramagnetic species)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Be transparent in the UV–Visible region</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Be volatile and thermally stable for injection</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a mass spectrum, the</text>
+    </name>
+    <questiontext format="html">
+      <text>In a mass spectrum, the base peak is best defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The base peak is the most intense peak in the spectrum and is used as the reference for reporting relative intensities.
+The highest m/z peak may or may not be the most intense, and it is not the definition of the base peak.
+The molecular ion peak indicates molecular weight information but is not necessarily the most intense due to fragmentation patterns.
+Solvent-related signals can appear depending on conditions, but they do not define what a base peak is.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The peak with the highest m/z value</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The peak corresponding to the molecular ion only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The most intense peak, assigned 100% relative intensity</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The peak corresponding to the solvent signal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In atomic absorption spectroscopy (AAS)</text>
+    </name>
+    <questiontext format="html">
+      <text>In atomic absorption spectroscopy (AAS), the hollow cathode lamp is used mainly to provide:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>AAS relies on absorption of element-specific radiation by free ground-state atoms, so a line source matched to the element is required.
+A continuous broadband source is more typical of many molecular absorption spectrometers, whereas AAS commonly uses element-specific lamps.
+Ion beams and m/z separation belong to mass spectrometry, not atomic absorption.
+A radioactive gamma source is associated with Mössbauer spectroscopy, not AAS.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A continuous broadband radiation source for all elements simultaneously</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Element-specific resonance line radiation for absorption by ground-state atoms</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An ion beam for mass-to-charge separation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A radioactive gamma source for nuclear resonance absorption</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement is correct regarding</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement is correct regarding X-ray crystallography and Mössbauer spectroscopy?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>X-ray crystallography uses diffraction and Bragg’s law to relate diffraction angles to lattice plane spacing \(d\), enabling structure determination.
+Retention time is a chromatography concept (GC/HPLC), not a Mössbauer measurement.
+g-Factor values are characteristic of ESR spectroscopy for paramagnetic species, not X-ray crystallography.
+Mössbauer spectroscopy involves recoilless nuclear resonance absorption (commonly for Fe and Sn), not vibrational IR absorption.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Bragg’s law \(n\lambda=2d\sin\theta\) is central to X-ray diffraction for determining interplanar spacing</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mössbauer spectroscopy primarily measures retention time to separate compounds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>X-ray crystallography directly provides g-factor values for radicals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mössbauer spectroscopy is based on IR absorption from molecular vibrations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A primary reason GC is</text>
+    </name>
+    <questiontext format="html">
+      <text>A primary reason GC is generally unsuitable for many ionic salts compared to HPLC is that GC typically requires analytes to be:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>GC separation depends on volatilizing the sample and transporting it in a carrier gas through a column, so volatility and thermal stability are crucial.
+HPLC can handle many non-volatile or thermally labile analytes because separation occurs in the liquid phase under pressure.
+Paramagnetism is relevant to ESR, not chromatographic suitability.
+Recoilless gamma absorption is the Mössbauer effect and has no role in GC/HPLC separations.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Non-volatile and strongly solvated in water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Volatile and thermally stable under column/injector conditions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Strongly paramagnetic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Capable of nuclear recoil-free gamma absorption</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which pair of technique–measured quantity</text>
+    </name>
+    <questiontext format="html">
+      <text>Which pair of technique–measured quantity is correctly matched?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>TGA tracks sample mass as temperature changes, making it ideal for studying decomposition steps and thermal stability.
+Ion-selective electrodes measure a potential (EMF) that depends on ion activity/concentration, commonly interpreted using Nernst-type relationships for potentiometry.
+DSC measures heat flow (not mass), while retention time is a chromatography metric rather than an ISE output.
+Assigning molecular-ion m/z to DTA, lattice spacing to CV, diffraction patterns to polarography, or electron-spin transitions to FTIR confuses fundamentally different instrumental principles.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e55afefa-596e-4a12-b284-48bde32e8986/inorganic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>TGA – mass change with temperature; ISE – EMF related to ion activity (via Nernst-type dependence)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>DSC – mass change with temperature; ISE – chromatographic retention time</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>DTA – molecular ion m/z values; CV – crystal lattice plane spacing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Polarography – X-ray diffraction intensity pattern; FTIR – electron spin transitions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A solution shows absorbance \(A=0.650\)</text>
+    </name>
+    <questiontext format="html">
+      <text>A solution shows absorbance \(A=0.650\) at a given wavelength in a 1.00 cm cuvette, and the molar absorptivity is \(\varepsilon = 1.30\times 10^4\ \mathrm{L\,mol^{-1}\,cm^{-1}}\). The concentration of the absorbing species is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Quantitative UV–Visible analysis commonly uses Beer–Lambert law \(A=\varepsilon l c\).
+Rearranging gives \(c = A/(\varepsilon l) = 0.650/(1.30\times 10^4 \times 1.00)=5.0\times 10^{-5}\ \mathrm{mol\,L^{-1}}\).
+Answers differing by factors of 10 typically come from power-of-ten slips in \(\varepsilon\) or treating 1 cm as 10 cm.
+Very large concentrations here would imply unrealistically high absorbance for typical UV–Vis linear ranges, indicating misuse of the proportionality.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(5.0\times 10^{-6}\ \mathrm{mol\,L^{-1}}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(5.0\times 10^{-5}\ \mathrm{mol\,L^{-1}}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(5.0\times 10^{-4}\ \mathrm{mol\,L^{-1}}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(5.0\times 10^{-3}\ \mathrm{mol\,L^{-1}}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In fluorescence measurements, a sample</text>
+    </name>
+    <questiontext format="html">
+      <text>In fluorescence measurements, a sample has radiative rate constant \(k_r = 2.0\times 10^8\ \mathrm{s^{-1}}\) and non-radiative rate constant \(k_{nr} = 8.0\times 10^8\ \mathrm{s^{-1}}\). The fluorescence quantum yield \(\Phi_F\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fluorescence efficiency depends on competition between radiative and non-radiative deactivation pathways discussed via Jablonski-type reasoning.
+The quantum yield is \(\Phi_F = \dfrac{k_r}{k_r+k_{nr}} = \dfrac{2.0}{2.0+8.0} = 0.20\).
+Higher values arise if \(k_{nr}\) is mistakenly subtracted or ignored, which incorrectly assumes no quenching or internal conversion.
+Values above 0.5 would require radiative decay to dominate, which is not the case for the given rate constants.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>0.20</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.40</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.60</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.80</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An FTIR band appears at</text>
+    </name>
+    <questiontext format="html">
+      <text>An FTIR band appears at 1700 cm\(^{-1}\). The corresponding frequency (in Hz) is closest to: (Use \(c=3.0\times 10^{10}\ \mathrm{cm\,s^{-1}}\)).</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>FTIR interpretation uses the frequency–wavenumber relationship \(\nu = c\tilde{\nu}\), where \(\tilde{\nu}\) is in cm\(^{-1}\).
+So \(\nu = (3.0\times 10^{10})(1700)=5.1\times 10^{13}\ \mathrm{s^{-1}}\).
+A common mistake is using \(c=3.0\times 10^8\ \mathrm{m\,s^{-1}}\) without converting 1700 cm\(^{-1}\) into m\(^{-1}\), causing a factor-of-100 error.
+Another error is treating wavenumber as wavelength directly, which inverts the relationship.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(5.1\times 10^{11}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(5.1\times 10^{12}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(5.1\times 10^{13}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(5.1\times 10^{14}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a \(^1\)H NMR spectrum</text>
+    </name>
+    <questiontext format="html">
+      <text>In a \(^1\)H NMR spectrum, a proton signal at 2.50 ppm is observed on a 400 MHz instrument. The frequency separation from TMS (in Hz) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chemical shift is defined by \(\delta(\mathrm{ppm})=\dfrac{\Delta \nu(\mathrm{Hz})}{\nu_0(\mathrm{MHz})}\), consistent with chemical-shift scale concepts used for NMR interpretation.
+Thus \(\Delta\nu = \delta \nu_0 = 2.50\times 400=1000\ \mathrm{Hz}\).
+Using 400 as Hz instead of MHz incorrectly reduces the answer by a factor of \(10^6\).
+Taking ppm as percent (dividing by 100) is another common misconception that yields much smaller incorrect separations.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>100 Hz</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>400 Hz</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>1000 Hz</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2500 Hz</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An ESR experiment uses microwave</text>
+    </name>
+    <questiontext format="html">
+      <text>An ESR experiment uses microwave frequency \(\nu = 9.5\ \mathrm{GHz}\). For a radical with \(g\approx 2.00\), the approximate magnetic field \(B\) at resonance is closest to (Use \(h=6.63\times 10^{-34}\ \mathrm{J\,s}\), \(\mu_B=9.27\times 10^{-24}\ \mathrm{J\,T^{-1}}\), and \(h\nu=g\mu_B B\)).</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>ESR resonance condition connects microwave frequency, g-factor, and magnetic field, aligning with ESR resonance and g-factor concepts.
+Compute \(B=\dfrac{h\nu}{g\mu_B}=\dfrac{6.63\times 10^{-34}\times 9.5\times 10^9}{2.00\times 9.27\times 10^{-24}}\approx 0.34\ \mathrm{T}\).
+An answer ten times smaller usually comes from using \(\nu\) in MHz rather than GHz.
+An answer ten times larger can come from forgetting the factor \(g\) in the denominator or misplacing powers of ten in \(\mu_B\).
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.034 T</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>0.34 T</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3.4 T</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>34 T</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In EI mass spectrometry, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In EI mass spectrometry, a molecule of molecular mass 78 gives a molecular ion at \(m/z=78\) and a fragment at \(m/z=77\). The most plausible interpretation of the \(m/z=77\) peak is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>EI commonly produces a radical cation molecular ion that undergoes fragmentation, and a 1 unit decrease in m/z is typically consistent with loss of a hydrogen radical.
+A 1 unit increase is more characteristic of protonation processes common in soft ionization methods like CI/ESI, not classic EI behavior.
+Loss of CO would shift m/z by 28 units, which does not match the observed 78 to 77 change.
+A doubly charged ion would appear at roughly half the m/z value (about 39), not at 77.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Loss of H-  from the molecular ion to give \([M - H]^+\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Gain of H-  to give \([M + H]^+\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Loss of CO to give \([M - 28]^+\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of a doubly charged molecular ion \([M]^{2+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In AAS, an element is</text>
+    </name>
+    <questiontext format="html">
+      <text>In AAS, an element is measured using a calibration curve where absorbance varies linearly with concentration. If the absorbance of a standard solution (2.0 ppm) is 0.300 and a sample gives 0.450 under identical conditions, the sample concentration is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Quantitative AAS commonly relies on calibration and Beer–Lambert-type proportionality between absorbance and concentration in a linear working range.
+With direct proportionality, \(C_{sample}=C_{std}\times(A_{sample}/A_{std})=2.0\times(0.450/0.300)=3.0\ \mathrm{ppm}\).
+Choosing 4.5 ppm results from assuming absorbance equals concentration numerically without scaling.
+Choosing 1.0 ppm results from inverting the ratio, which would incorrectly imply higher absorbance means lower concentration.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>1.0 ppm</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2.0 ppm</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>3.0 ppm</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4.5 ppm</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In X-ray diffraction using Cu</text>
+    </name>
+    <questiontext format="html">
+      <text>In X-ray diffraction using Cu K\(\alpha\) radiation (\(\lambda=1.54\) Å), a first-order reflection occurs at \(2\theta=30^\circ\). The interplanar spacing \(d\) is closest to: (Use Bragg’s law \(n\lambda=2d\sin\theta\)).</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>X-ray crystallography uses Bragg’s law to relate diffraction angle to lattice plane spacing.
+Here \(\theta=15^\circ\) and \(n=1\), so \(d=\dfrac{\lambda}{2\sin\theta}=\dfrac{1.54}{2\sin15^\circ}\approx \dfrac{1.54}{0.518}\approx 2.97\) Å is close, but the more accurate \(\sin 15^\circ \approx 0.2588\) gives \(d\approx 2.98\) Å; however note that \(2\sin15^\circ = 0.5176\), so \(d\approx 2.97\) Å.
+The option 3.08 Å corresponds to using \(\theta=14^\circ\) (a common angle-reading error) or rounding inconsistently, whereas 1.54 Å comes from forgetting the factor \(2\sin\theta\).
+The largest value arises if \(\sin\theta\) is mistakenly replaced by \(\sin 2\theta\), which is not Bragg’s condition.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>1.54 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2.97 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>3.08 Å</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>5.94 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a monovalent cation-selective electrode</text>
+    </name>
+    <questiontext format="html">
+      <text>For a monovalent cation-selective electrode at 25°C, the Nernst slope magnitude is approximately 59 mV per decade change in activity. If the measured potential changes by +118 mV when moving from solution 1 to solution 2, the activity ratio \(a_2/a_1\) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Ion-selective electrodes are interpreted using a Nernst-type dependence of potential on logarithm of ion activity.
+A change of 59 mV corresponds to a 10-fold change for a monovalent ion, so 118 mV corresponds to two decades, i.e., a factor \(10^2=100\).
+Choosing 10 corresponds to treating 118 mV as one decade, which ignores the approximate doubling of the Nernst slope steps.
+Choosing 1000 corresponds to assuming 118 mV equals three decades, which would require about 177 mV for a monovalent ion at 25°C.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>10</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>100</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1000</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In cyclic voltammetry, a one-electron</text>
+    </name>
+    <questiontext format="html">
+      <text>In cyclic voltammetry, a one-electron reversible redox couple at 25°C is often identified by a peak-to-peak separation \(\Delta E_p\) close to 59 mV. If an experimental voltammogram shows \(\Delta E_p \approx 120\) mV under otherwise similar conditions, the best interpretation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>CV interpretation uses features like peak potentials and their separation to assess reversible, quasi-reversible, and irreversible behavior.
+A significantly larger \(\Delta E_p\) than the typical reversible benchmark indicates slower electron-transfer kinetics and departure from ideal Nernstian behavior at the electrode surface.
+Assigning this directly to a 2-electron process is unreliable because \(\Delta E_p\) also depends on kinetics, uncompensated resistance, and experimental factors, not only electron count.
+Peak separation is expected in CV, and the presence of anodic/cathodic peaks is itself consistent with electrochemical redox processes.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e55afefa-596e-4a12-b284-48bde32e8986/inorganic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The system is more reversible than ideal and electron transfer is faster than diffusion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The system is quasi-reversible or has kinetic limitations relative to an ideal reversible case</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of electrons transferred must be exactly 2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The redox process cannot be electrochemical because peaks are separated</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

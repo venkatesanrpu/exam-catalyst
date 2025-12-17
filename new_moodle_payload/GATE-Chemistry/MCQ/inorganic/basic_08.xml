@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Radioactivity is best described as]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Radioactivity is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Radioactivity is a nuclear phenomenon in which an unstable nucleus transforms and emits radiation (such as alpha, beta, or gamma). Emission of visible light from excited atoms is an electronic transition, not a nuclear change. Chemical decomposition concerns rearrangement of electrons in bonds, not changes in the nucleus. Heating can cause thermionic emission or ionization, but that is not radioactivity.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Spontaneous emission of radiation from unstable nuclei]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Emission of visible light from excited atoms only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Chemical decomposition of unstable molecules into radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Loss of electrons from atoms due to heating]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In terms of nucleon numbers]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In terms of nucleon numbers, alpha decay of a nuclide \(\,^{A}_{Z}X\,\) produces a daughter nuclide with:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[An alpha particle is a \(\,^{4}_{2}\mathrm{He}\,\) nucleus, so emission reduces the parent mass number by 4 and atomic number by 2. A reduction by 2 in mass number corresponds to losing two nucleons only, which is not an alpha particle. Reducing atomic number by 4 would imply loss of four protons, which is not the alpha process. Keeping mass number unchanged would contradict emission of a massive particle.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mass number \(A-2\) and atomic number \(Z-2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Mass number \(A-4\) and atomic number \(Z-2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mass number \(A-4\) and atomic number \(Z-4\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mass number \(A\) and atomic number \(Z-2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement correctly distinguishes gamma]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement correctly distinguishes gamma emission from alpha and beta decay?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Gamma rays are high-energy photons emitted when an excited nucleus de-excites, so nucleon counts (A and Z) remain unchanged while nuclear energy decreases. Changing mass number requires emission of massive particles (like alpha) or nucleon loss. Changing atomic number occurs in beta processes or electron capture, not in pure gamma emission. Converting a proton into a neutron is characteristic of positron emission or electron capture, not gamma emission.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Gamma emission changes the mass number of the nucleus.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Gamma emission changes the atomic number of the nucleus.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Gamma emission changes neither mass number nor atomic number, but lowers nuclear energy.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Gamma emission converts a proton into a neutron.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The mass defect of a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The mass defect of a nucleus is defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Mass defect is the “missing mass” when separated protons and neutrons bind to form a nucleus, reflecting conversion of mass into binding energy. Mass number is a count, not a mass, so comparing it directly to measured mass is not the definition. Neutron–proton difference relates to stability trends but is not mass defect. Radii differences are geometric properties and do not define mass defect.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Difference between the measured atomic mass and the mass number]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Difference between the total mass of separated nucleons and the actual nuclear mass]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Difference between the number of neutrons and the number of protons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Difference between the nucleus radius and atomic radius]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Binding energy is most directly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Binding energy is most directly related to mass defect by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Nuclear binding energy corresponds to the energy equivalent of mass defect via Einstein’s mass–energy equivalence, \(E=\Delta m c^2\). Dividing by \(c^2\) would convert energy into mass, not mass into energy. Inverting \(\Delta m\) has no physical basis here. Multiplying by \(c\) gives incorrect units and does not represent mass–energy equivalence.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(E = \Delta m\,c^2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E = \Delta m/c^2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E = c^2/\Delta m\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E = \Delta m\,c\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In \(\beta^-\) decay, the nuclear]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In \(\beta^-\) decay, the nuclear change responsible for electron emission is best represented as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In \(\beta^-\) decay, a neutron converts into a proton with emission of an electron (and an antineutrino, often omitted in basic notation). Converting a proton into a neutron with electron emission is not the \(\beta^-\) process. Positron emission corresponds to \(\beta^+\) decay, not \(\beta^-\). Electron capture corresponds to a proton capturing an inner electron to form a neutron, which is a different mode.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{p} \rightarrow \mathrm{n} + e^- \)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{n} \rightarrow \mathrm{p} + e^- \)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{n} \rightarrow \mathrm{p} + e^+ \)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{p} + e^- \rightarrow \mathrm{n}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A Geiger–Müller (GM) counter primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A Geiger–Müller (GM) counter primarily detects radiation by measuring:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A GM counter is a gas-filled ionization detector; radiation creates ion pairs and triggers an avalanche, producing detectable pulses. Heating is not the operating principle of GM tubes. Photographic film detection is a separate dosimetry/recording method, not GM counting. Radiation can induce chemical changes, but GM counters do not measure chemical kinetics.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase in temperature of the gas due to radiation heating]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ionization produced in a gas-filled tube leading to an electrical pulse]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of photographic images on a film inside the detector]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Chemical reaction rate changes caused by radiation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a radioactive sample, after]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a radioactive sample, after exactly two half-lives, the fraction of nuclei remaining is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Each half-life reduces the number of undecayed nuclei by a factor of 2, so after two half-lives the remaining fraction is \((1/2)^2 = 1/4\). A remaining fraction of \(1/2\) corresponds to only one half-life. A fraction \(1/3\) does not arise from repeated halving. A fraction \(1/8\) corresponds to three half-lives.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(1/2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(1/3\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(1/4\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(1/8\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Q-value of a nuclear]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Q-value of a nuclear reaction is best interpreted as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Q-value is the net energy change of a nuclear process, determined by mass–energy differences between reactants and products. Neutron yield is a different quantity and depends on the specific reaction channel. Decay rate constants describe spontaneous decay kinetics, not reaction energetics. Detector registration probability depends on efficiency and geometry, not on the reaction Q-value.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The total number of neutrons produced in the reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The energy released (positive) or absorbed (negative) by the reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The rate constant of radioactive decay]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The probability that a detector will register a count]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement correctly identifies a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement correctly identifies a key distinction between nuclear fission and nuclear fusion?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fission is the splitting of a heavy nucleus into lighter fragments, while fusion is the combination of light nuclei to form a heavier nucleus. Reversing these descriptions swaps the processes incorrectly. Both are nuclear processes, not chemical electron-transfer reactions. Many fission and fusion reactions release energy, so they are not always endothermic.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d13e1942-f9f7-4189-9aa9-1f84857a7358/inorganic_unit_08.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fission combines light nuclei; fusion splits heavy nuclei.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fission splits heavy nuclei; fusion combines light nuclei.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both processes are chemical reactions involving electron transfer.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both processes always require absorption of energy (endothermic).]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

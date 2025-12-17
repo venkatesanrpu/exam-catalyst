@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A gaseous main-group halide \(\mathrm{EX_3}\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A gaseous main-group halide \(\mathrm{EX_3}\) (E = Group 13 element, X = halogen) shows rapid hydrolysis in moist air. The most consistent explanation is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hydrolysis trends in main-group halides are commonly rationalized using Lewis acidity of the halide (electron-deficient E center), enabling nucleophilic attack by water and subsequent cleavage/substitution reactions.
+Nonpolar bonds do not generally explain rapid hydrolysis; polar/activated bonds and electrophilic centers are more relevant.
+Many hydrolyzing halides are predominantly covalent rather than ionic, so “only ionic halides hydrolyze” is incorrect.
+Boiling point may affect exposure/handling but does not control hydrolysis mechanism in the way Lewis acidity and bonding do.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The central atom behaves as a Lewis acid and is attacked by water, leading to E–X bond cleavage]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hydrolysis is fastest because E–X bonds are nonpolar and cannot resist water]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hydrolysis occurs only if the halide is ionic and forms \(\mathrm{X^-}\) immediately]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hydrolysis is independent of bonding; only the boiling point matters]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A main-group halide has formula]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A main-group halide has formula \(\mathrm{EX_5}\) and VSEPR is used to predict its molecular shape (considering lone pairs on E). If E has 6 electron pairs around it (5 bonding pairs + 1 lone pair), the expected molecular shape is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Six electron domains correspond to an octahedral electron-pair arrangement; with one lone pair (\(\mathrm{AX_5E}\)), the molecular shape becomes square pyramidal.
+Trigonal bipyramidal would correspond to five electron domains, not six.
+Octahedral is the electron-domain geometry for six domains, but with a lone pair the molecular shape is not octahedral.
+T-shaped corresponds to five electron domains with two lone pairs (\(\mathrm{AX_3E_2}\)).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Square pyramidal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Trigonal bipyramidal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Octahedral]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[T-shaped]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider oxoacids of chlorine: \(\mathrm{HClO}\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider oxoacids of chlorine: \(\mathrm{HClO}\), \(\mathrm{HClO_2}\), \(\mathrm{HClO_3}\), \(\mathrm{HClO_4}\). The correct qualitative order of acid strength is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For oxoacids of the same central atom, increasing number of oxygen atoms (and associated higher oxidation state/greater electron withdrawal) generally increases acidity by stabilizing the conjugate base.
+The reverse order contradicts the oxygen/oxidation-state factor emphasized for oxoacid acidity trends.
+A mixed order that breaks monotonic oxygen dependence is not consistent with the standard trend used for this family.
+Even with the same central element, changing the number of oxygen atoms changes structure and conjugate-base stabilization, so strengths are not equal.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{HClO_4 > HClO_3 > HClO_2 > HClO}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{HClO > HClO_2 > HClO_3 > HClO_4}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{HClO_2 > HClO_4 > HClO > HClO_3}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[All have equal acid strength because chlorine is the same element]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In an “oxoacid series” of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In an “oxoacid series” of a given element, which factor most directly increases acid strength according to structure–property arguments?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Acid strength trends in oxoacids are linked to central-atom oxidation state and electron withdrawal through oxygen, which stabilizes the conjugate base and increases acidity.
+Hydrogen atomic radius is not the controlling parameter for acid strength in these comparisons.
+Oxygen electronegativity is constant; trends arise from the environment/oxidation state and bonding, not “lower EN of oxygen.”
+Resonance stabilization generally strengthens acids by stabilizing conjugate bases, so “eliminating resonance” would not increase acidity.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Higher oxidation state of the central atom and greater electron-withdrawing effect through oxygen]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Larger atomic radius of hydrogen in the O–H bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Lower electronegativity of oxygen atoms attached to the central atom]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Elimination of resonance possibilities in the conjugate base]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A binary oxide \(\mathrm{EO}\) reacts]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A binary oxide \(\mathrm{EO}\) reacts with both strong acids and strong bases to form salts. Based on oxide classification, \(\mathrm{EO}\) is best classified as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[An oxide that reacts with both acids and bases is amphoteric by definition, matching the classification scheme for main-group oxides.
+Acidic oxides mainly react with bases, while basic oxides mainly react with acids; neither fits “both.”
+Neutral oxides show minimal acid–base reactivity, so they do not match the described behavior.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Amphoteric oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Acidic oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Basic oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Neutral oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A compound \(\mathrm{E_2O_3}\) shows two]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A compound \(\mathrm{E_2O_3}\) shows two oxidation states of E in the solid and can vary slightly in composition (non-stoichiometry). This behavior is most closely associated with:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The oxide section explicitly highlights mixed-valence and non-stoichiometric oxides as a category, consistent with variable composition and multiple oxidation states in solids.
+Purely molecular oxides typically have well-defined stoichiometry and do not show non-stoichiometric lattice behavior in the same way.
+Oxoacids are different compound classes (contain H and O in acid structures), not binary oxides.
+Halide hydrolysis is unrelated to mixed-valence oxide non-stoichiometry.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Mixed-valence / non-stoichiometric oxides]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only purely molecular oxides with fixed stoichiometry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oxoacids with extensive hydrogen bonding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Halides undergoing hydrolysis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A hydride \(\mathrm{EH_4}\) of a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A hydride \(\mathrm{EH_4}\) of a Group 14 element is compared to \(\mathrm{EH_3}\) of a Group 15 element (same period). Which comparison is most consistent with hydride classification and bonding ideas?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Many p-block hydrides such as Group 14 tetrahydrides and Group 15 trihydrides are treated as covalent hydrides; however, VSEPR predicts different shapes due to different numbers of bonding pairs and lone pairs.
+Hydrogen is not always present as \(\mathrm{H^-}\); ionic hydrides are a specific class typically associated with highly electropositive metals.
+Bridge hydrides and electron-deficient bonding apply to specific systems (not “all p-block hydrides”).
+Metallic hydrides are again a distinct class and are not implied merely because E is main-group.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Both are primarily covalent hydrides, but their geometry predictions differ because electron-domain counts differ]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both are ionic hydrides because hydrogen is always \(\mathrm{H^-}\) in hydrides]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both must contain bridge hydrogens because p-block hydrides are always electron-deficient]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both are metallic hydrides because E is a main-group element]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A nitride is classified as]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A nitride is classified as ionic rather than covalent/network if its dominant anionic unit is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ionic nitrides are described using \(\mathrm{N^{3-}}\) and show characteristic reactivity such as hydrolysis, aligning with the nitride classification and “\(\mathrm{N^{3-}}\) ion reactivity” focus.
+Neutral \(\mathrm{N_2}\) trapped is not the defining feature of ionic nitrides.
+Polymeric network structures are characteristic of covalent/network nitrides (e.g., BN, Si\(_3\)N\(_4\)-type descriptions), not ionic nitrides.
+\(\mathrm{N^+}\) centers are not the standard description used for classifying ionic nitrides in main-group binary nitride chemistry.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{N^{3-}}\) with strong basic character and hydrolysis tendency]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Neutral \(\mathrm{N_2}\) molecules trapped in a lattice]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A polymeric \(\mathrm{(EN)_n}\) network with extensive covalent bonding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A cationic nitrogen center \(\mathrm{N^+}\) bonded to metals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A sulfide sample contains \(\mathrm{S^{2-}}\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A sulfide sample contains \(\mathrm{S^{2-}}\) and also shows S–S bonding leading to higher sulfur aggregation. This is most consistent with the presence of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The sulfide section explicitly includes polysulfides and mixed-valence sulfides, where S–S bonding and multiple sulfur units are expected structural features.
+Simple ionic sulfides are typically described by \(\mathrm{S^{2-}}\) without invoking S–S bonds; the presence of S–S bonding indicates different speciation.
+Oxides represent an oxidized class (O-containing), not S–S aggregated sulfide chemistry.
+Hydrogen sulfide is a covalent molecular sulfide, not the general descriptor for S–S aggregation in inorganic sulfide solids/salts.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Polysulfides (and/or mixed-valence sulfides)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only simple ionic sulfides with fixed \(\mathrm{S^{2-}}\) and no S–S bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oxides formed by complete oxidation of sulfur]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only hydrogen sulfide as the sulfide representative]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An unknown binary compound of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An unknown binary compound of a p-block element reacts vigorously with water to give a basic solution and hydrogen gas, and the bonding is inferred to involve \(\mathrm{H^-}\). Which classification is most appropriate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ionic hydrides contain hydride ion \(\mathrm{H^-}\) and are strongly basic/reactive toward water, often producing hydrogen gas and hydroxide, fitting the classification and reactivity patterns for hydrides.
+Covalent hydrides do not generally behave as salts containing \(\mathrm{H^-}\) and typically do not generate strongly basic solutions in this manner.
+Oxoacids contain oxygen and acidic hydrogen; they would not produce a basic solution by reacting with water as described.
+Amphoteric oxides involve oxygen and acid–base amphoterism, not hydride-ion chemistry.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/1f657058-509e-4057-ad33-3e519f1d9672/inorganic_unit_01.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/05b8dcdd-1242-4c0d-93c3-7b80e9ac6fa7/physical_unit_13.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/851d31c2-99cf-4f1d-964a-940ec8b03542/inorganic_unit_05.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/3d0aaf0d-87cb-4fac-abf3-4fe5e9c478f8/inorganic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ionic hydride]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Covalent hydride]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oxoacid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Amphoteric oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

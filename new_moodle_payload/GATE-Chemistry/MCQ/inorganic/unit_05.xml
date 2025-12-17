@@ -1,0 +1,1030 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>An octahedral complex shows one</text>
+    </name>
+    <questiontext format="html">
+      <text>An octahedral complex shows one or more weak d–d absorption bands even though it is centrosymmetric. The most appropriate explanation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In centrosymmetric complexes, d–d transitions are Laporte-forbidden, so their intensities are intrinsically weak.  The relaxation of selection rules can occur via vibronic coupling (and also via spin–orbit coupling), which allows weak intensity borrowing.  Charge-transfer transitions are a different class of transitions and are not required to explain every weak band observed in a centrosymmetric complex.  The spin selection rule can make transitions spin-forbidden (weaker), not automatically intense.  Racah parameters describe electron–electron repulsion and covalency trends (nephelauxetic effect), not a “switch” that becomes zero due to centrosymmetry.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Laporte rule is strictly obeyed in all complexes, so any observed band must be charge-transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Vibronic coupling can relax the Laporte-forbidden nature of d–d transitions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Spin selection rule forces all d–d bands to be intense</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Racah parameter \(B\) becomes zero in centrosymmetric complexes, enabling transitions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A \(d^9\) octahedral complex commonly</text>
+    </name>
+    <questiontext format="html">
+      <text>A \(d^9\) octahedral complex commonly shows strong tetragonal distortion. Which statement best captures the underlying cause-and-effect chain?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Jahn–Teller distortion is expected when the electronic ground state is orbitally degenerate, and octahedral \(d^9\) is a classic strong case.  For \(d^9\), uneven occupancy of the \(e_g\) set creates an energetic incentive to distort (often axial elongation or compression) to remove degeneracy and lower total energy.  The effect is not restricted to fully filled shells; it is associated with degeneracy and partial occupancy.  The relative ordering \(t_{2g}\) vs \(e_g\) in octahedral fields is fixed by geometry, but the distortion is specifically tied to degeneracy removal, not a reversal of ordering.  Counterions can influence lattice strain in solids, but the primary driver described here is electronic structure.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Jahn–Teller effect removes degeneracy in a partially occupied \(e_g\) level, stabilizing a distorted geometry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Jahn–Teller effect occurs only when all orbitals are fully filled, forcing symmetry breaking</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Distortion happens because \(t_{2g}\) orbitals are always higher in energy than \(e_g\) orbitals in octahedral fields</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Distortion is driven primarily by counterion size, not by electronic structure</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two cobalt(III) octahedral complexes have</text>
+    </name>
+    <questiontext format="html">
+      <text>Two cobalt(III) octahedral complexes have similar thermodynamic stability constants, but one is substitution-inert while the other is substitution-labile. Which interpretation best matches coordination chemistry principles?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Thermodynamic stability refers to equilibrium preference, while kinetic stability refers to reaction rate (lability/inertness), so they are not equivalent properties.  Ligand field effects and CFSE are part of the framework used to rationalize stability and reactivity trends in coordination complexes.  Similar equilibrium constants do not force the same activation barriers, so substitution rates can differ substantially even if thermodynamic stabilities are comparable.  Inertness is not determined only by charge; electronic structure and ligand field effects are central to mechanistic trends.  Inert complexes can still be thermodynamically stable, so inertness does not imply thermodynamic instability.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Kinetic stability (inert/labile) can differ from thermodynamic stability because they describe rate vs equilibrium, and ligand field/CFSE can influence lability</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Similar thermodynamic stability constants guarantee identical substitution rates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Inertness depends only on charge of the complex ion and never on electronic configuration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>If a complex is substitution-inert, it must be thermodynamically unstable</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A redox reaction between two</text>
+    </name>
+    <questiontext format="html">
+      <text>A redox reaction between two coordination complexes proceeds only when a ligand capable of bridging is present, and products show ligand transfer consistent with a transient bridged intermediate. The electron-transfer pathway is best classified as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Inner-sphere electron transfer involves a bridging ligand that links the two metal centers during the electron-transfer event.  The requirement of a bridge and evidence consistent with a bridged intermediate align with the inner-sphere description.  Outer-sphere electron transfer typically occurs without forming a bridging ligand connection between the coordination spheres.  Dissociative substitution is a ligand exchange classification and does not describe the hallmark bridging-ligand requirement of inner-sphere redox.  Bailar twist is a stereochemical isomerisation pathway in octahedral complexes, not an electron-transfer mechanism classification.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Outer-sphere electron transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Inner-sphere electron transfer</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Purely dissociative substitution (D) with no redox involvement</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bailar twist-driven electron transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A complex containing an M–M</text>
+    </name>
+    <questiontext format="html">
+      <text>A complex containing an M–M quadruple bond is discussed using an MO picture with σ, π, and δ components. Which qualitative statement is most consistent with this description?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The metal–metal multiple bond topic explicitly includes σ, π, and δ components, and quadruple bonds are rationalized by including a δ component in addition to σ and π bonding.  Treating δ as “σ counted twice” is not a valid symmetry-based MO description of bonding components.  Quadruple bonding is not restricted to \(d^{10}\) metals; it is treated using electron counting and MO descriptions of M–M bonding.  The stated learning objective links M–M bonding to magnetic and spectroscopic signatures, so claiming no effect contradicts the expected property correlations.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/851d31c2-99cf-4f1d-964a-940ec8b03542/inorganic_unit_05.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A δ bond arises from side-on overlap of metal d orbitals with appropriate symmetry and contributes to multiple bonding beyond σ and π</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A δ bond is identical to a σ bond but counted twice to increase bond order</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Quadruple bonding is possible only if both metals are \(d^{10}\) so that all bonds are filled</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Metal–metal multiple bonds cannot affect magnetic or spectroscopic properties</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the complex \([\mathrm{Co(NH_3)_6}] \mathrm{Cl_3}\)</text>
+    </name>
+    <questiontext format="html">
+      <text>In the complex \([\mathrm{Co(NH_3)_6}] \mathrm{Cl_3}\), which species are the counterions (outside the coordination sphere)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Counterions are ions that balance charge but are not directly bonded to the metal inside the coordination sphere.  In \([\mathrm{Co(NH_3)_6}] \mathrm{Cl_3}\), the three chloride ions are outside the bracket, so they are counterions.  The bracketed \([\mathrm{Co(NH_3)_6}]^{3+}\) is the complex (coordination entity), not a counterion.  \(\mathrm{NH_3}\) are ligands inside the coordination sphere, not counterions.  \(\mathrm{Co^{3+}}\) is the central metal ion within the complex, not a counterion.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Co(NH_3)_6}]^{3+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{NH_3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\mathrm{Cl^-}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{Co^{3+}}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The coordination number of a</text>
+    </name>
+    <questiontext format="html">
+      <text>The coordination number of a metal in a complex is best defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Coordination number counts metal–donor atom bonds, so a bidentate ligand contributes 2 to coordination number.  Total charge is a separate property determined by oxidation state and ligand charges.  Counting ligands “regardless of denticity” fails for chelates (for example, one bidentate ligand would be counted as one ligand but contributes two donor atoms).  Oxidation state is an electron-counting/charge concept and does not directly equal coordination number.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The number of donor atoms directly bonded to the metal center</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The total charge on the complex ion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of ligands present, regardless of denticity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The oxidation state of the metal ion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A common geometry for coordination</text>
+    </name>
+    <questiontext format="html">
+      <text>A common geometry for coordination number 6 in transition-metal complexes is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Six-coordinate transition-metal complexes most commonly adopt octahedral geometry.  Trigonal planar is typical for coordination number 3, not 6.  Square planar is common for coordination number 4 (especially d⁸ metals like Pt(II)), not 6.  Linear geometry is typically coordination number 2.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Octahedral</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Trigonal planar</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Square planar</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Linear</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The pair \([\mathrm{Co(NH_3)_5NO_2}]^{2+}\) (nitro) and</text>
+    </name>
+    <questiontext format="html">
+      <text>The pair \([\mathrm{Co(NH_3)_5NO_2}]^{2+}\) (nitro) and \([\mathrm{Co(NH_3)_5ONO}]^{2+}\) (nitrito) illustrates which type of isomerism?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Linkage isomerism arises when an ambidentate ligand binds through different donor atoms (here \(\mathrm{NO_2^-}\) binds via N or O).  Geometric isomerism involves different spatial arrangements (cis/trans, fac/mer) without changing the binding atom of a ligand.  Ionisation isomerism involves exchange between a ligand in the coordination sphere and a counterion.  Optical isomerism requires non-superimposable mirror images (chirality), which is not the key feature here.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Linkage isomerism</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Geometric isomerism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ionisation isomerism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Optical isomerism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which complex can show cis–trans</text>
+    </name>
+    <questiontext format="html">
+      <text>Which complex can show cis–trans (geometric) isomerism in a square-planar arrangement?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Square-planar complexes of the form \([\mathrm{MA_2B_2}]\) can exist as cis and trans isomers.  \([\mathrm{Co(NH_3)_6}]^{3+}\) is octahedral with all identical ligands, so no geometric isomerism occurs.  \([\mathrm{Ni(CO)_4}]\) is tetrahedral with identical ligands, so cis/trans is not possible.  \([\mathrm{ZnCl_4}]^{2-}\) is tetrahedral with identical ligands, so cis/trans is not defined.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\([\mathrm{Pt(NH_3)_2Cl_2}]\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Co(NH_3)_6}]^{3+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Ni(CO)_4}]\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{ZnCl_4}]^{2-}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Valence Bond Theory (VBT)</text>
+    </name>
+    <questiontext format="html">
+      <text>In Valence Bond Theory (VBT), an “inner-orbital” octahedral complex is associated with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>VBT describes inner-orbital octahedral complexes via \(d^2sp^3\) hybridisation using \((n-1)d\) orbitals, commonly linked with electron pairing in strong fields.  Using \(nd\) orbitals corresponds to “outer-orbital” \(sp^3d^2\) description and is not “always high-spin” as a universal rule in the way stated.  VBT explicitly uses hybridisation ideas, so denying hybridisation contradicts the model’s assumptions.  Coordination number 6 is typically octahedral rather than square planar.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Use of \((n-1)d\) orbitals in hybridisation (often low-spin for strong-field ligands)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use of \(nd\) orbitals in hybridisation (always high-spin)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No hybridisation concept is used in describing complexes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Square-planar geometry for coordination number 6</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an octahedral crystal field</text>
+    </name>
+    <questiontext format="html">
+      <text>In an octahedral crystal field, which d-orbital set lies at higher energy?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In octahedral fields, ligands approach along axes, increasing repulsion for \(d_{x^2-y^2}\) and \(d_{z^2}\), making the \(e_g\) set higher in energy than \(t_{2g}\).  The \(t_{2g}\) orbitals point between axes and experience less repulsion, so they are lower in energy.  Degeneracy is broken in a crystal field, so “all five remain degenerate” is incorrect for octahedral splitting.  Oxidation state can affect the magnitude of splitting, but the basic ordering is determined by geometry (octahedral vs tetrahedral vs square planar).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(e_g\) set \((d_{x^2-y^2}, d_{z^2})\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(t_{2g}\) set \((d_{xy}, d_{xz}, d_{yz})\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>All five d orbitals remain degenerate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The ordering depends only on oxidation state, not geometry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Jahn–Teller distortion is most strongly</text>
+    </name>
+    <questiontext format="html">
+      <text>Jahn–Teller distortion is most strongly associated with octahedral complexes having:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Jahn–Teller distortion occurs when electronic degeneracy allows stabilization by lowering symmetry, and classic strong cases include octahedral \(d^9\) and high-spin \(d^4\).  \(d^{10}\) and \(d^0\) have no uneven occupancy of degenerate orbitals in the same way, so they generally do not show strong Jahn–Teller effects.  \(d^3\) in octahedral fields typically gives a more symmetric occupancy pattern in \(t_{2g}\), so it is not the “most strongly associated” case.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A degenerate electronic ground state such as \(d^9\) (or high-spin \(d^4\))</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Completely filled d orbitals \(d^{10}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No electrons in d orbitals \(d^0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only \(d^3\) configurations in any field strength</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In many octahedral complexes with</text>
+    </name>
+    <questiontext format="html">
+      <text>In many octahedral complexes with a center of symmetry, d–d absorption bands are weak mainly because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Laporte selection rule makes \(d \rightarrow d\) transitions symmetry-forbidden in centrosymmetric complexes, so the bands are weak (though vibronic coupling can relax this).  Spin selection rules can forbid some transitions, but many d–d transitions are spin-allowed, so “always spin-forbidden” is incorrect.  Charge-transfer bands are a different class of transitions and are often much more intense than d–d bands, not the reason d–d bands are weak.  Ligand dissociation is not required for an electronic transition in UV–Vis spectroscopy.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>They are Laporte-forbidden in centrosymmetric environments</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are always spin-forbidden for any dⁿ configuration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They involve charge-transfer rather than d–d transitions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They require ligand dissociation before absorption can occur</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best distinguishes kinetic</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best distinguishes kinetic stability from thermodynamic stability in coordination compounds?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Kinetic stability is about how fast ligand substitution/redox occurs (inert vs labile behavior), while thermodynamic stability is about how favorable a complex is at equilibrium.  Ionic radius and colour can correlate with some properties, but they do not define kinetic vs thermodynamic stability.  A complex can be thermodynamically stable yet kinetically labile (or vice versa), so they do not always increase together.  Magnetism and oxidation state may influence stability trends, but they do not constitute the definition of thermodynamic vs kinetic stability.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/851d31c2-99cf-4f1d-964a-940ec8b03542/inorganic_unit_05.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Kinetic stability concerns reaction rate (lability/inertness), while thermodynamic stability concerns equilibrium preference (overall free-energy favorability).</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Kinetic stability depends only on ionic radius, while thermodynamic stability depends only on colour.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Kinetic stability and thermodynamic stability always increase together for all complexes.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Thermodynamic stability refers to magnetic moment, while kinetic stability refers to oxidation state.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For the octahedral complex \([\mathrm{CoF_6}]^{3-}\)</text>
+    </name>
+    <questiontext format="html">
+      <text>For the octahedral complex \([\mathrm{CoF_6}]^{3-}\), assuming \(\mathrm{F^-}\) is a weak-field ligand, the spin-only magnetic moment (in BM) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In \([\mathrm{CoF_6}]^{3-}\), cobalt is +3, so it is a \(d^6\) metal ion.  With weak-field \(\mathrm{F^-}\), an octahedral \(d^6\) complex is high spin, giving 4 unpaired electrons.  The spin-only moment is \(\mu_\mathrm{so}=\sqrt{n(n+2)}\) BM, so \(\mu=\sqrt{4(6)}=\sqrt{24}\approx 4.90\) BM.  The values 0.00 and 1.73 BM correspond to 0 and 1 unpaired electron, which do not match high-spin \(d^6\).  The value 5.92 BM corresponds to 5 unpaired electrons (typical of high-spin \(d^5\)), not \(d^6\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.00 BM</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.73 BM</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>4.90 BM</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>5.92 BM</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The crystal field stabilization energy</text>
+    </name>
+    <questiontext format="html">
+      <text>The crystal field stabilization energy (CFSE) for a high-spin octahedral \(d^4\) complex, expressed only in terms of \(\Delta_o\) (ignoring pairing-energy terms), is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>High-spin octahedral \(d^4\) has the configuration \(t_{2g}^3 e_g^1\).  Using the octahedral energy contributions \((-0.4\Delta_o\) per \(t_{2g}\) electron and \(+0.6\Delta_o\) per \(e_g\) electron\(),\) CFSE \(=3(-0.4\Delta_o)+1(+0.6\Delta_o)=-0.6\Delta_o\).  The value \(-1.6\Delta_o\) corresponds to \(t_{2g}^4 e_g^0\) (low-spin \(d^4\)), not high-spin \(d^4\).  A positive CFSE is inconsistent with the usual octahedral stabilization relative to the barycenter for occupied \(t_{2g}\) levels.  CFSE = 0 would apply to cases like high-spin octahedral \(d^5\) when expressed only in \(\Delta_o\) terms.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(-0.6\Delta_o\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-1.6\Delta_o\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(+0.6\Delta_o\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which complex is most likely</text>
+    </name>
+    <questiontext format="html">
+      <text>Which complex is most likely to be low-spin (at the same oxidation state and octahedral geometry)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Spin state in octahedral complexes depends strongly on ligand field strength (spectrochemical series) relative to pairing energy.  \(\mathrm{CN^-}\) is a strong-field ligand, so it tends to produce a large \(\Delta_o\) and favor electron pairing, giving low-spin configurations when possible.  \(\mathrm{F^-}\), \(\mathrm{Cl^-}\), and often \(\mathrm{H_2O}\) are weaker-field ligands compared with \(\mathrm{CN^-}\), making high-spin more likely.  The key reasoning is the strong-field vs weak-field ligand effect highlighted in crystal field theory applications.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{FeF_6}]^{3-}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\([\mathrm{Fe(CN)_6}]^{3-}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Fe(H_2O)_6}]^{3+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{FeCl_6}]^{3-}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The total number of stereoisomers</text>
+    </name>
+    <questiontext format="html">
+      <text>The total number of stereoisomers (including optical isomers) possible for an octahedral complex of the form \([\mathrm{M(en)_2Cl_2}]^{+}\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>\([\mathrm{M(en)_2Cl_2}]^{+}\) can show geometric isomerism (cis and trans) in an octahedral arrangement.  The trans form is typically achiral (no pair of enantiomers), so it contributes one stereoisomer.  The cis form is chiral for this chelated arrangement and exists as a pair of enantiomers, contributing two more stereoisomers.  Therefore the total is \(1+2=3\).  Any answer giving 2 ignores optical isomerism of the cis form, while 4 overcounts distinct arrangements beyond cis/trans plus enantiomerism.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>1</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>3</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which complex is expected to</text>
+    </name>
+    <questiontext format="html">
+      <text>Which complex is expected to show especially weak d–d bands primarily due to spin-forbidden transitions (not just Laporte effects)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>\(\mathrm{Mn^{2+}}\) is \(d^5\), and in weak-field octahedral environments it is typically high spin with a \(^6A\) ground state.  Many excited states accessible by d–d transitions are of different spin multiplicity (quartet), making transitions spin-forbidden and therefore very weak.  \(\mathrm{Ti^{3+}}\) is \(d^1\) and does not face the same spin-forbidden issue for its basic d–d transition pattern.  \(\mathrm{Ni^{2+}}\) (\(d^8\)) and \(\mathrm{Co^{3+}}\) (\(d^6\), often low-spin with strong ligands) can show spin-allowed transitions, so their d–d bands are not suppressed mainly by spin-forbiddenness.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\([\mathrm{Mn(H_2O)_6}]^{2+}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Ni(H_2O)_6}]^{2+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Ti(H_2O)_6}]^{3+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\mathrm{Co(NH_3)_6}]^{3+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a metal ion, the</text>
+    </name>
+    <questiontext format="html">
+      <text>For a metal ion, the Racah parameter changes from \(B_\text{free}=1000\ \text{cm}^{-1}\) (free ion) to \(B_\text{complex}=800\ \text{cm}^{-1}\) in a complex. The nephelauxetic ratio \(\beta\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The nephelauxetic ratio is defined as \(\beta = B_\text{complex}/B_\text{free}\), so \(\beta=800/1000=0.80\).  A value of \(\beta&lt;1\) indicates reduction in interelectronic repulsion upon complexation, consistent with increased covalency (nephelauxetic effect).  A value like 1.25 would imply \(B\) increased on complexation, opposite to the nephelauxetic trend described for many complexes.  A very small value like 0.20 would require a much larger reduction in \(B\) than given by the data.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.20</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>0.80</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.25</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.80</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a ligand substitution reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In a ligand substitution reaction of an octahedral complex \([\mathrm{ML_5X}]\) by an entering ligand \(\mathrm{Y}\), the experimentally observed rate is independent of \([\mathrm{Y}]\) (at constant temperature and ionic strength). The most likely mechanism is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A rate independent of the entering ligand concentration is characteristic of a dissociative pathway where loss of the leaving group (or formation of a coordinatively unsaturated intermediate) controls the rate.  Associative substitution commonly shows dependence on the entering ligand (often second-order overall) because bond formation to \(\mathrm{Y}\) is involved in or before the rate-determining step.  Oxidative addition is not the standard description for typical octahedral ligand substitution in classical coordination chemistry contexts here.  Inner-sphere electron transfer is a redox mechanism, not a simple ligand substitution mechanism classification (A/D/I).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Associative (A)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Dissociative (D)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Concerted oxidative addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Inner-sphere electron transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which observation most strongly supports</text>
+    </name>
+    <questiontext format="html">
+      <text>Which observation most strongly supports an inner-sphere electron-transfer mechanism rather than an outer-sphere mechanism?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Inner-sphere electron transfer proceeds through a bridged intermediate in which a ligand connects the two metal centers, enabling electron transfer through that bridge.  Outer-sphere electron transfer typically occurs without direct ligand bridging and often leaves the coordination spheres intact.  A process with “no change in ligands” is more consistent with outer-sphere pathways than inner-sphere pathways.  Claiming rate depends only on temperature and not ligand identity contradicts the role of coordination environment emphasized in mechanistic treatment of redox reactions in coordination chemistry.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>No change in ligands on either complex after electron transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Fast electron transfer between two complexes with inert ligands and no common ligands</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Evidence that a ligand temporarily bridges the two metal centers during electron transfer</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reaction rate depends only on temperature and not on the identity of ligands</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The stereochemical twist mechanism that</text>
+    </name>
+    <questiontext format="html">
+      <text>The stereochemical twist mechanism that involves a trigonal-prismatic-like intermediate and can lead to racemisation/isomerisation in octahedral complexes is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Bailar twist is described as a trigonal twist pathway that passes through a trigonal-prismatic-type geometry and enables interconversion of octahedral stereoisomers (including racemisation).  The Ray–Dutt twist is another octahedral rearrangement pathway but is distinguished from Bailar by a different distortion route.  Berry pseudorotation is primarily associated with five-coordinate trigonal bipyramidal systems, not standard octahedral fluxionality.  “Walden inversion” is a classic tetrahedral-carbon concept and is not the named stereochemical pathway emphasized for octahedral coordination complexes here.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Bailar twist</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ray–Dutt twist</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Berry pseudorotation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Walden inversion at metal center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A metal–metal quadruple bond is</text>
+    </name>
+    <questiontext format="html">
+      <text>A metal–metal quadruple bond is best described (in qualitative MO component terms) as consisting of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Metal–metal multiple bonding can include σ, π, and δ components, and a quadruple bond is classically described as σ + 2π + δ.  A single σ bond corresponds to a single bond (bond order 1), not a quadruple bond.  σ + π corresponds to a double bond (bond order 2), not a quadruple bond.  Two σ bonds is not the usual qualitative decomposition for a single metal–metal axis in this context, whereas δ bonding is the distinctive extra component enabling bond order 4.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>One σ bond only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>One σ bond + one π bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>One σ bond + two π bonds + one δ bond</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two σ bonds + two π bonds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

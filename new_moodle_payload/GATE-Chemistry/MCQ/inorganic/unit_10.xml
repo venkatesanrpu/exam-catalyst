@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>In an X-ray diffraction experiment</text>
+    </name>
+    <questiontext format="html">
+      <text>In an X-ray diffraction experiment, a set of lattice planes satisfies Bragg’s law geometrically, yet the corresponding reflection is systematically absent (or extremely weak). The most plausible crystallographic reason is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Even when Bragg’s law allows a reflection (pure geometry), the observed intensity depends on the structure factor, which is controlled by the atomic positions in the unit cell (basis) and the scattering factors.  If contributions from atoms in the basis cancel for a particular \((hkl)\), the structure factor becomes zero (or very small), giving an absent/very weak peak despite satisfying the diffraction angle condition.  Treating \(d\) as independent of \((hkl)\) contradicts the need to calculate interplanar spacing from lattice geometry and Miller indices.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The structure factor for that reflection is (nearly) zero due to destructive interference from the basis/atomic positions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The interplanar spacing \(d\) is independent of Miller indices in all lattices</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bragg’s law is not applicable to crystalline solids and applies only to amorphous solids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The wavelength \(\lambda\) changes inside the crystal so Bragg’s condition becomes meaningless</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two different sets of planes</text>
+    </name>
+    <questiontext format="html">
+      <text>Two different sets of planes in a crystal give reflections at angles that satisfy Bragg’s law, but one peak is far more intense than the other. The best explanation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Bragg’s law determines where a reflection can occur (angles for constructive interference from planes), but peak intensities depend strongly on how atoms are arranged in the unit cell via the structure factor and their scattering factors.  Different \((hkl)\) reflections “sample” different phase relationships among atoms in the basis, so intensities can vary widely even when both peaks are allowed.  Assuming intensity is set only by \(d\) ignores the explicit role of structure factor in diffraction intensity.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Intensity depends only on \(d\); smaller \(d\) always gives higher intensity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Intensity is governed by the structure factor and scattering factors (atomic arrangement within the unit cell), not only by Bragg geometry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Intensity depends only on the crystal system (cubic, tetragonal, etc.), not on atomic positions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Intensity is fixed for all reflections of a given solid because lattice points scatter identically</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two oxides have the same</text>
+    </name>
+    <questiontext format="html">
+      <text>Two oxides have the same spinel stoichiometry AB\(_2\)O\(_4\), but one is normal spinel and the other is inverse spinel. If strong magnetic coupling arises primarily via superexchange pathways in such oxides, which situation is most likely to produce strong A–B superexchange (and hence robust magnetic ordering) in the spinel framework?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Spinel properties depend on cation distribution between tetrahedral and octahedral sites, and magnetic coupling in such complex oxides is commonly discussed in terms of superexchange interactions.  When magnetic ions populate both sublattices, exchange pathways between the sublattices can dominate and produce strong long-range ordering, whereas placing only non-magnetic ions removes the magnetic exchange network.  Explaining magnetism purely using packing efficiency misses the structure–property emphasis of spinels/perovskites and the role of superexchange.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only non-magnetic cations occupy both tetrahedral and octahedral sites</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Magnetic cations occupy both tetrahedral and octahedral sublattices, enabling strong superexchange between the sublattices</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Magnetic cations occupy only tetrahedral sites and octahedral sites remain empty</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Magnetic behavior is determined only by crystal packing efficiency (FCC/HCP/BCC), not by cation distribution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An oxide shows non-stoichiometry due</text>
+    </name>
+    <questiontext format="html">
+      <text>An oxide shows non-stoichiometry due to oxygen deficiency, and its conductivity increases. Which defect/charge-compensation picture is most consistent with this observation in defect-chemistry terms?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Non-stoichiometry and point defects in ionic solids are central to defect chemistry, and such defects can strongly affect physical properties such as electrical conductivity.  Oxygen deficiency is naturally associated with oxygen vacancies, and charge compensation can occur by creating electronic carriers, often increasing conductivity through donor-like behavior.  Oxygen interstitials contradict oxygen deficiency, and cation-vacancy models do not directly match the simplest oxygen-loss scenario being described.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Formation of oxygen vacancies accompanied by extra electrons (donor-like behavior)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of oxygen interstitials accompanied by extra electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of cation vacancies accompanied by extra electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of cation interstitials accompanied by holes as majority carriers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider an n-type semiconductor created</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider an n-type semiconductor created by donor doping. As temperature increases from low to moderate values, which trend best matches band-theory concepts of doping, carrier concentration, and Fermi level temperature dependence?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Band theory distinguishes semiconductors and emphasizes how doping controls carrier concentration, while also noting that the Fermi level depends on temperature.  In an n-type semiconductor, donor doping makes electrons the majority carriers at low/moderate temperature, but increasing temperature enhances intrinsic excitation and shifts the effective Fermi level toward the intrinsic position compared to the heavily donor-controlled limit.  Claims that holes always dominate regardless of donor doping or that the material becomes a perfect insulator with heating conflict with the intended band-theory classification and temperature-dependent carrier ideas.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/5d502e9e-092b-46f4-8408-a3ef07ba2c84/inorganic_unit_10.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Electron concentration decreases to zero; the Fermi level moves deeper into the valence band</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Electron concentration remains dominant initially; the Fermi level tends to move toward the intrinsic level as intrinsic carriers become more important with temperature</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hole concentration immediately exceeds electron concentration at any temperature; the Fermi level locks at mid-gap regardless of doping</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The band gap increases without limit, converting the semiconductor into a perfect insulator at higher temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In crystallography, a solid is</text>
+    </name>
+    <questiontext format="html">
+      <text>In crystallography, a solid is most directly classified as **crystalline** when it shows:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Crystalline solids have long-range periodicity, meaning a repeating arrangement extends over large distances in the solid.  Amorphous solids lack this long-range order and typically show only short-range order.  Because of periodicity, crystalline solids produce sharp diffraction peaks in X-ray diffraction, unlike amorphous solids which show broad halos.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Long-range periodic arrangement of constituent particles</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Random arrangement with only short-range order</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No sharp diffraction features under X-ray diffraction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A continuously varying local structure with position</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The correct count of crystal</text>
+    </name>
+    <questiontext format="html">
+      <text>The correct count of crystal systems and Bravais lattices is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Crystal systems classify crystals into seven categories based on unit-cell parameter relationships and symmetry.  Bravais lattices enumerate the distinct three-dimensional lattice types and there are fourteen such lattices.  Confusing the numbers often comes from mixing “systems” (a broader symmetry/metric classification) with “lattices” (distinct translational lattice types).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>7 crystal systems and 14 Bravais lattices</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>7 crystal systems and 7 Bravais lattices</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>14 crystal systems and 7 Bravais lattices</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>14 crystal systems and 14 Bravais lattices</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the “lattice + basis”</text>
+    </name>
+    <questiontext format="html">
+      <text>In the “lattice + basis” description of a crystal, the lattice points represent:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A lattice is an abstract periodic array of points that captures translational symmetry of the crystal.  The basis (motif) is attached to each lattice point to generate the actual crystal structure.  Defects are deviations from ideal periodicity and are not what defines the lattice itself.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A periodic array showing translational symmetry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The actual atoms present at every point in space</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the positions of defects such as vacancies and interstitials</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The set of all Miller planes present in the crystal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Miller indices for a crystallographic</text>
+    </name>
+    <questiontext format="html">
+      <text>Miller indices for a crystallographic plane are obtained by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Miller indices provide a systematic notation for planes using reciprocal intercepts with crystallographic axes.  The procedure uses intercepts in units of lattice parameters, then reciprocals, then scaling to the smallest integers.  Using raw intercepts without reciprocals labels planes incorrectly and fails to match standard crystallographic convention.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Taking reciprocals of intercepts (in lattice units) and clearing fractions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Taking intercepts directly as integers without reciprocals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Squaring the intercepts and reducing to lowest terms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Adding intercepts along axes and reducing the sum</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In close-packed structures, the interstitial</text>
+    </name>
+    <questiontext format="html">
+      <text>In close-packed structures, the interstitial site that is coordinated by four surrounding spheres is called a:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A tetrahedral void is an interstitial site surrounded by four atoms/ions positioned at the corners of a tetrahedron.  An octahedral void is surrounded by six neighbors and is therefore a different coordination environment.  A Schottky defect is a vacancy-type defect in ionic crystals and is not a geometric interstitial site in close packing.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Tetrahedral void</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Octahedral void</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cubic void</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Schottky void</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The defect in an ionic</text>
+    </name>
+    <questiontext format="html">
+      <text>The defect in an ionic crystal where a cation leaves its lattice site and occupies an interstitial site (creating a vacancy–interstitial pair) is a:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A Frenkel defect consists of a vacancy and an interstitial formed when an ion (commonly a smaller cation) moves from its lattice site into an interstitial position.  A Schottky defect involves paired vacancies (typically one cation vacancy and one anion vacancy) without creating interstitial ions.  Line defects and substitutional impurities are different defect classes and do not describe the vacancy–interstitial pair mechanism.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Frenkel defect</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Schottky defect</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Line defect</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Substitutional impurity defect</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Bragg’s law used in X-ray</text>
+    </name>
+    <questiontext format="html">
+      <text>Bragg’s law used in X-ray diffraction is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Bragg’s law relates the X-ray wavelength \(\lambda\), interplanar spacing \(d\), diffraction angle \(\theta\), and integer order \(n\) through \(n\lambda = 2d\sin\theta\).  The factor of 2 arises from the path difference between rays reflected from successive lattice planes.  Replacing \(\sin\theta\) with \(\cos\theta\) or dropping the factor of 2 gives an incorrect condition for constructive interference from planes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(n\lambda = 2d\sin\theta\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(n\lambda = d\sin\theta\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(n\lambda = 2d\cos\theta\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\lambda = 2n d^2 \sin\theta\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which pair correctly matches an</text>
+    </name>
+    <questiontext format="html">
+      <text>Which pair correctly matches an AX-type ionic structure with a standard prototype?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>NaCl-type is a common AX structure featuring 6:6 (octahedral) coordination.  CsCl-type is associated with 8:8 coordination, while ZnS-type corresponds to 4:4 coordination in tetrahedral environments.  Fluorite is an AX2 structure type rather than AX, so assigning it to AX is a structure-class mismatch.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>AX (6:6 coordination): NaCl-type</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>AX (8:8 coordination): ZnS-type</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>AX (4:4 coordination): CsCl-type</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>AX (6:6 coordination): Fluorite-type</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A normal spinel has the</text>
+    </name>
+    <questiontext format="html">
+      <text>A normal spinel has the general formula and cation distribution best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Spinels are complex oxides of formula AB2X4, and in a normal spinel the A cations occupy tetrahedral sites while B cations occupy octahedral sites.  ABX3 corresponds to the perovskite family rather than spinel.  Putting both cation types only in tetrahedral sites contradicts the defining tetrahedral–octahedral site partition central to spinel crystal chemistry.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>AB2X4 with A in tetrahedral sites and B in octahedral sites</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>ABX3 with A at cube corners and B at body center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>AX2 with cations in all tetrahedral voids of an FCC anion lattice</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>AB2X4 with both A and B randomly occupying only tetrahedral sites</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>According to band theory classification</text>
+    </name>
+    <questiontext format="html">
+      <text>According to band theory classification, a material is most directly identified as a semiconductor when it has:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In band theory, semiconductors have a band gap smaller than insulators, enabling conductivity via thermally excited carriers and via doping that changes carrier concentration.  A very large band gap corresponds to insulators, where carrier generation is minimal under ordinary conditions.  No band gap with a partially filled band is characteristic of metals, not semiconductors.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/5d502e9e-092b-46f4-8408-a3ef07ba2c84/inorganic_unit_10.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A small band gap that allows carrier generation under thermal/impurity effects</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A completely filled valence band with a very large band gap</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No band gap and a partially filled band at 0 K</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Identical valence and conduction bands with no distinction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A cubic crystal has lattice</text>
+    </name>
+    <questiontext format="html">
+      <text>A cubic crystal has lattice parameter \(a = 4.00\ \text{Å}\); for the (210) planes, the first-order Bragg reflection is observed using X-rays of wavelength \( \lambda = 1.54\ \text{Å}\).  The diffraction angle \(\theta\) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For cubic crystals, interplanar spacing is \(d_{hkl} = a/\sqrt{h^2+k^2+l^2}\), so \(d_{210} = 4.00/\sqrt{5} = 1.79\ \text{Å}\) (approx.).  Using Bragg’s law \(n\lambda = 2d\sin\theta\) with \(n=1\), \(\sin\theta = 1.54/(2\times 1.79) \approx 0.431\), giving \(\theta \approx 25.5^\circ\).  A smaller angle would correspond to a larger \(d\) than computed, while larger angles would require \(\sin\theta\) closer to 1 than allowed by the given \(d\) and \(\lambda\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>12.8°</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>25.5°</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>51.0°</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>77.2°</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A metal crystallizes in the</text>
+    </name>
+    <questiontext format="html">
+      <text>A metal crystallizes in the BCC structure with unit-cell edge \(a = 3.00\ \text{Å}\).  The atomic radius \(r\) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In BCC packing, atoms touch along the body diagonal, so \(4r = \sqrt{3}\,a\) relates atomic radius and lattice parameter.  Substituting \(a=3.00\ \text{Å}\) gives \(r = (\sqrt{3}\times 3.00)/4 \approx 1.30\ \text{Å}\).  The smaller radii correspond to using the face diagonal or edge contact relations (appropriate to other lattices), while a much larger radius would imply overlapping atoms beyond the BCC geometry.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.75 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.06 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>1.30 Å</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.50 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Anions \(X^-\) form an FCC</text>
+    </name>
+    <questiontext format="html">
+      <text>Anions \(X^-\) form an FCC array, and cations \(M^+\) occupy 75% of the tetrahedral voids.  The empirical formula is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>An FCC unit cell contains 4 anions, and it has 8 tetrahedral voids associated with that close-packed arrangement.  Occupying 75% of tetrahedral voids gives \(0.75\times 8 = 6\) cations per unit cell, so the ratio \(M:X = 6:4 = 3:2\), hence \( \mathrm{M_3X_2}\).  MX would correspond to filling all octahedral voids (not tetrahedral), and MX2 would correspond to filling all tetrahedral voids (100% occupancy).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>MX</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>M2X</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>M3X2</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>MX2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For an ionic solid of</text>
+    </name>
+    <questiontext format="html">
+      <text>For an ionic solid of type AX, the radius ratio \(r_+/r_- = 0.50\).  The most likely coordination number for the cation and a matching prototype are:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Radius ratio rules connect \(r_+/r_-\) to likely coordination environments, and a mid-range value like 0.50 is consistent with octahedral (6-fold) coordination.  For AX compounds, a common 6:6 coordinated ionic structure is the NaCl-type arrangement.  Tetrahedral (4-fold) coordination is expected at smaller ratios, while 8-fold coordination requires a larger cation-to-anion size ratio than 0.50.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>4 coordination; ZnS-type</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>6 coordination; NaCl-type</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>8 coordination; CsCl-type</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>12 coordination; close-packed metallic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an NaCl-type crystal, \(1\)</text>
+    </name>
+    <questiontext format="html">
+      <text>In an NaCl-type crystal, \(1\) in \(10^6\) formula units contains a Schottky defect pair at equilibrium.  The total number of vacancies (cation vacancies + anion vacancies) per mole is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A Schottky defect pair in an ionic crystal corresponds to one cation vacancy plus one anion vacancy, maintaining overall stoichiometry and charge balance.  If \(1\) in \(10^6\) formula units has a Schottky pair, then in 1 mole the number of pairs is \(N_A/10^6 \approx 6.022\times 10^{17}\), so total vacancies are \(2\times 6.022\times 10^{17} \approx 1.2\times 10^{18}\).  The smaller value counts only pairs (not total vacancies), while values near \(10^{23}\)–\(10^{24}\) incorrectly treat the defect fraction as order unity.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(6.0\times 10^{17}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(1.2\times 10^{18}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(6.0\times 10^{23}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(1.2\times 10^{24}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best describes what</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best describes what Kröger–Vink notation helps represent in defect chemistry?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Kröger–Vink notation is used in ionic solids to describe point defects in a structured way, including where the defect sits (site information) and how its effective charge compares with the ideal lattice.  Miller indices label planes and directions, not defect species.  Crystal-system/Bravais-lattice classification and packing-efficiency calculations are separate crystallography topics and are not the role of Kröger–Vink notation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>It gives the Miller indices of defect planes responsible for diffraction broadening</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>It systematically describes point defects, their lattice site, and effective charge relative to the perfect crystal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It classifies crystals into 7 systems and 14 Bravais lattices</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It directly computes packing efficiencies of FCC, HCP, and BCC lattices</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a powder XRD experiment</text>
+    </name>
+    <questiontext format="html">
+      <text>In a powder XRD experiment using \( \lambda = 1.54\ \text{Å}\), a first-order peak occurs at \(2\theta = 30^\circ\).  The corresponding interplanar spacing \(d\) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Bragg’s law is \(n\lambda = 2d\sin\theta\), and \(2\theta=30^\circ\) implies \(\theta=15^\circ\).  With \(n=1\), \(d = \lambda/(2\sin 15^\circ) \approx 1.54/(2\times 0.259) \approx 2.97\ \text{Å}\).  The smaller spacings arise from mistakenly using \(2\theta\) in place of \(\theta\), while the largest spacing corresponds to doubling \(d\) by missing the factor of 2 in Bragg’s law.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.77 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.49 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>2.97 Å</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>5.94 Å</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the fluorite (AX2) structure</text>
+    </name>
+    <questiontext format="html">
+      <text>In the fluorite (AX2) structure type, the correct assignment of the FCC sublattice and interstitial occupancy is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>AX2 structures include fluorite as a key prototype, and understanding them relies on identifying which species forms the close-packed (FCC) framework and which occupies interstitial sites.  In fluorite-type description, one ion forms the FCC lattice and the counter-ion fills tetrahedral positions consistent with AX2 stoichiometry.  Choosing octahedral void filling would instead lead to an AX stoichiometry for an FCC framework, not AX2.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Cations form FCC; anions occupy all tetrahedral voids</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Anions form FCC; cations occupy all tetrahedral voids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cations form FCC; anions occupy all octahedral voids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Anions form FCC; cations occupy all octahedral voids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For an inverse spinel of</text>
+    </name>
+    <questiontext format="html">
+      <text>For an inverse spinel of composition AB2O4, the cation distribution among tetrahedral (Td) and octahedral (Oh) sites is best represented as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Spinel structures are AB2X4-type complex oxides where “normal” and “inverse” forms differ by how cations distribute between tetrahedral and octahedral sites.  In an inverse spinel, the tetrahedral sites are occupied by B cations, while octahedral sites are occupied by A plus the remaining B cations, matching (B)Td[AB]Oh.  The distribution (A)Td[B2]Oh corresponds to a normal spinel arrangement, while the other distributions violate the AB2 stoichiometry across available Td/Oh site types.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>(A)Td [B2]Oh</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>(B)Td [AB]Oh</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(AB)Td [B]Oh</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(A2)Td [B]Oh</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Silicon is doped with a</text>
+    </name>
+    <questiontext format="html">
+      <text>Silicon is doped with a small amount of phosphorus.  Relative to intrinsic Si, the correct statement about majority carriers and Fermi level shift is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Doping and carrier concentration concepts explain how adding impurities changes semiconductor conductivity by changing the dominant charge carriers.  A group-15 dopant like phosphorus donates extra electrons in Si, making electrons the majority carriers and shifting the Fermi level upward toward the conduction band compared with the intrinsic case.  A shift toward the valence band and hole-majority behavior would correspond to acceptor (p-type) doping, not donor doping.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/5d502e9e-092b-46f4-8408-a3ef07ba2c84/inorganic_unit_10.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Holes become majority carriers; Fermi level shifts toward the valence band</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Electrons become majority carriers; Fermi level shifts toward the conduction band</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electrons become majority carriers; Fermi level shifts toward the valence band</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Holes become majority carriers; Fermi level remains fixed at mid-gap</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

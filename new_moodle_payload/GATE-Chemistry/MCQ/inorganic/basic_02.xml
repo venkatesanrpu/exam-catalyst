@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In diborane (B₂H₆), the two]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In diborane (B₂H₆), the two hydrogen atoms that bridge the boron atoms are best described as being involved in:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Diborane is electron-deficient and contains two bridging hydrogens that form 3-center–2-electron (3c–2e) “banana” bonds over a B–H–B framework, which helps stabilize the structure despite insufficient electrons for all classical 2c–2e bonds.  The normal terminal B–H bonds are 2c–2e, but the *bridging* hydrogens are not.  Hydrogen bonding does not explain diborane’s bonding and there is no standard 4c–4e description needed here.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Normal 2-center–2-electron B–H σ bonds to one boron each]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Three-center–two-electron bonding involving B–H–B]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hydrogen bonding between BH₃ units]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Four-center–four-electron bonding involving B–B–H–H]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Wade’s rules are primarily used]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Wade’s rules are primarily used to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Wade’s rules are part of cluster chemistry and are used to predict/relate cluster structure types such as closo, nido, and arachno based on skeletal electron counting.  They are central for boranes and carboranes where electron-deficient bonding and polyhedral structures occur.  The other options refer to different topics (oxoacid trends, coordination chemistry, ionic solids) not targeted by Wade’s rules.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Predict the acidity of oxoacids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Predict the shapes of coordination complexes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Classify and predict structures of borane/carborane clusters]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Determine lattice energies of ionic solids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The terms closo, nido, and]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The terms closo, nido, and arachno in borane chemistry refer to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Closo, nido, and arachno describe how “complete” the polyhedral cluster is: closo is a closed polyhedron, while nido/arachno are progressively more open frameworks derived conceptually by removing vertices from a closo parent.  This classification links directly to skeletal electron counting and cluster geometry.  Hybridization language alone does not capture these polyhedral cluster types, and isotopes/solvents are unrelated.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Types of hybridization at boron]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Skeletal types of cluster frameworks (closed vs. open)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Types of boron isotopes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Types of solvents used to prepare boranes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Carboranes are best defined as]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Carboranes are best defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Carboranes are boron–carbon cluster (cage) compounds, often with icosahedral or related nido/arachno structures, and are treated using cluster concepts similar to boranes.  They are not simple ionic salts and are not primarily described as linear polymers.  Their bonding is delocalized and polyhedral rather than being dominated by isolated B=C double bonds.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Simple ionic salts of boron and carbon]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Boron–carbon cluster compounds with cage-like structures]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Linear polymers containing alternating B and C atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Compounds containing only B–C double bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The backbone of silicones (organosilicon]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The backbone of silicones (organosilicon polymers) consists mainly of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Silicones have a Si–O–Si backbone (a siloxane chain/network) with organic substituents attached to silicon, giving characteristic flexibility and stability.  Si–Si chains correspond more to polysilanes, while Si–N backbones are characteristic of other inorganic polymer families (e.g., phosphazene-related themes involve P–N, not Si–N).  A pure carbon backbone would describe organic polymers rather than silicones.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Si–Si chains]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Si–O chains with organic substituents on Si]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[C–C chains with Si side groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Alternating Si–N chains]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Silicates are commonly classified (neso-]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Silicates are commonly classified (neso-, soro-, cyclo-, ino-, phyllo-, tecto-) based on:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Silicate classes are defined by how SiO₄ tetrahedra share oxygen atoms to form isolated units, pairs, rings, chains, sheets, or 3D frameworks (increasing polymerization/connectivity).  This structural basis explains their diverse stoichiometries and mineral structures.  Oxidation state of Si is typically +4 in most silicates and does not define these categories.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oxidation state of silicon]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Degree of polymerization/connectivity of SiO₄ tetrahedra]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Number of neutrons in silicon isotopes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Magnetic properties of minerals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Hexagonal boron nitride (h-BN) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Hexagonal boron nitride (h-BN) is most closely analogous (isoelectronic/structural motif) to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[h-BN has a layered structure analogous to graphite and is often discussed as an isoelectronic analog within the carbon allotrope theme.  Diamond is a 3D tetrahedral network (closer to cubic BN, c-BN, by analogy), not layered like h-BN.  NaCl and P₄ do not match the layered sp²-like sheet motif.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Diamond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Graphite]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Sodium chloride]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[White phosphorus (P₄)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Borazine (B₃N₃H₆) is often called]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Borazine (B₃N₃H₆) is often called “inorganic benzene” mainly because it:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Borazine is a six-membered ring compound with alternating B and N atoms and is discussed for its aromaticity and π-electron distribution, giving a benzene-like ring analogy.  It is not ionic by default, and similarity is not based on boiling point.  It contains B–N bonds rather than C–C bonds, so “same bonding as benzene” is incorrect.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Is ionic and forms benzene-like salts]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Has a six-membered ring with alternating atoms and shows aromatic character]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Has the same boiling point as benzene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Contains only carbon–carbon bonds like benzene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Phosphazenes are characterized by the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Phosphazenes are characterized by the presence of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Phosphazenes are inorganic ring/chain (and sometimes cage) compounds built on a P–N framework, and are treated as an important class of inorganic polymers.  P–P-only or N–N-only bonding would not describe phosphazenes.  A Si–O backbone is the defining motif of silicones, not phosphazenes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A P–N ring/chain framework with P–N bonding (often with P=N character)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only P–P single bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only N–N single bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A Si–O backbone]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement correctly matches a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement correctly matches a carbon allotrope to its bonding/structure?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Graphene is a single two-dimensional sheet of sp²-bonded carbon atoms and is explicitly treated as a distinct carbon allotrope alongside diamond, graphite, and fullerenes.  Diamond is a 3D sp³ network, while graphite is layered sp² sheets with weak van der Waals interlayer interactions, so options A and B swap key features.  Fullerenes are closed cages (e.g., C₆₀) rather than an infinite 3D sp³ framework.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/3d0aaf0d-87cb-4fac-abf3-4fe5e9c478f8/inorganic_unit_02.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Diamond: layered sp² sheets with weak interlayer forces]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Graphite: 3D sp³ tetrahedral network]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Graphene: a two-dimensional sp² sheet]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fullerenes: infinite 3D sp³ framework only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

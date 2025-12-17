@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In UV–Visible spectrophotometry, the Beer–Lambert]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In UV–Visible spectrophotometry, the Beer–Lambert law for absorbance is correctly represented by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Beer–Lambert law states that absorbance is directly proportional to concentration \(c\) and path length \(l\), with proportionality constant \(\varepsilon\) (molar absorptivity).
+This is the basis for constructing calibration curves for quantitative analysis using UV–Vis instruments.
+Expressions that place \(c\) or \(l\) in the denominator incorrectly predict lower absorbance for higher concentration or longer path length, which contradicts the law’s proportionality.
+Such incorrect forms commonly arise from algebraic mistakes or confusing absorbance with transmittance relationships.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(A=\varepsilon l c\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(A=\varepsilon l /c\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(A=\varepsilon c /l\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(A=\varepsilon /(lc)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The key feature that most]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The key feature that most directly indicates **phosphorescence** (rather than fluorescence) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Phosphorescence generally involves emission from a triplet excited state to a singlet ground state, making it slower due to spin-forbidden character.
+Fluorescence is typically singlet-to-singlet emission and is therefore comparatively fast.
+IR absorption is associated with vibrational transitions, not the electronic excited-state emission processes described in a Jablonski framework.
+Restricting UV–Visible absorption to only σ–σ* transitions is incorrect because common bands also arise from π–π* and n–π* transitions.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Radiative transition between two singlet states, typically very fast]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Radiative transition involving a triplet state, typically longer-lived]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Absorption of IR radiation causing vibrational excitation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Absorption in the UV–Visible region due to σ–σ* transitions only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In FTIR spectroscopy, the Michelson]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In FTIR spectroscopy, the Michelson interferometer is primarily used to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[FTIR uses an interferometer to encode all IR frequencies into an interferogram, which is mathematically converted (Fourier transform) into intensity versus wavenumber.
+A prism/grating dispersion description corresponds to dispersive IR instruments rather than FTIR.
+Multiple reflections relate to certain sampling accessories (like ATR or multipass cells), not the fundamental role of the interferometer in FTIR signal generation.
+A detector is still required; the interferometer does not eliminate detection electronics.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Directly disperse IR light into individual frequencies using a prism]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Generate an interferogram that is Fourier-transformed to obtain the spectrum]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase sample path length by multiple reflections (only)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Convert absorbed IR energy directly into electrical current without a detector]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In NMR spectroscopy, the most]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In NMR spectroscopy, the most common reference compound for defining chemical shift (\(\delta\)) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemical shift is reported relative to a reference standard, and TMS is widely used because it provides a convenient reference signal.
+D\(_2\)O is commonly a solvent in NMR but does not serve as the universal chemical shift reference standard.
+NaCl and KBr are associated with other laboratory contexts (e.g., ionic salts, IR pellet preparation) and do not define the NMR \(\delta\) scale.
+Using a consistent reference is essential for comparing spectra across instruments and conditions.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Tetramethylsilane (TMS)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heavy water (D\(_2\)O)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Sodium chloride (NaCl)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Potassium bromide (KBr)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A fundamental requirement for obtaining]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A fundamental requirement for obtaining an ESR (EPR) signal is that the sample must:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[ESR detects transitions associated with electron spin states in a magnetic field, so unpaired electrons are essential.
+Nuclear-spin requirements are relevant to NMR, not ESR; ESR focuses on electron magnetic properties and the g-factor concept.
+UV–Visible transparency is unrelated to ESR resonance conditions and does not determine ESR detectability.
+Volatility and injection stability are considerations for GC, not for ESR spectroscopy.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Contain nuclei with spin \(I=0\) only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Contain unpaired electrons (paramagnetic species)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Be transparent in the UV–Visible region]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Be volatile and thermally stable for injection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a mass spectrum, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a mass spectrum, the base peak is best defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The base peak is the most intense peak in the spectrum and is used as the reference for reporting relative intensities.
+The highest m/z peak may or may not be the most intense, and it is not the definition of the base peak.
+The molecular ion peak indicates molecular weight information but is not necessarily the most intense due to fragmentation patterns.
+Solvent-related signals can appear depending on conditions, but they do not define what a base peak is.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The peak with the highest m/z value]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The peak corresponding to the molecular ion only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The most intense peak, assigned 100% relative intensity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The peak corresponding to the solvent signal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In atomic absorption spectroscopy (AAS)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In atomic absorption spectroscopy (AAS), the hollow cathode lamp is used mainly to provide:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[AAS relies on absorption of element-specific radiation by free ground-state atoms, so a line source matched to the element is required.
+A continuous broadband source is more typical of many molecular absorption spectrometers, whereas AAS commonly uses element-specific lamps.
+Ion beams and m/z separation belong to mass spectrometry, not atomic absorption.
+A radioactive gamma source is associated with Mössbauer spectroscopy, not AAS.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A continuous broadband radiation source for all elements simultaneously]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Element-specific resonance line radiation for absorption by ground-state atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An ion beam for mass-to-charge separation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A radioactive gamma source for nuclear resonance absorption]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement is correct regarding]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement is correct regarding X-ray crystallography and Mössbauer spectroscopy?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[X-ray crystallography uses diffraction and Bragg’s law to relate diffraction angles to lattice plane spacing \(d\), enabling structure determination.
+Retention time is a chromatography concept (GC/HPLC), not a Mössbauer measurement.
+g-Factor values are characteristic of ESR spectroscopy for paramagnetic species, not X-ray crystallography.
+Mössbauer spectroscopy involves recoilless nuclear resonance absorption (commonly for Fe and Sn), not vibrational IR absorption.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bragg’s law \(n\lambda=2d\sin\theta\) is central to X-ray diffraction for determining interplanar spacing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mössbauer spectroscopy primarily measures retention time to separate compounds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[X-ray crystallography directly provides g-factor values for radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mössbauer spectroscopy is based on IR absorption from molecular vibrations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A primary reason GC is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A primary reason GC is generally unsuitable for many ionic salts compared to HPLC is that GC typically requires analytes to be:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[GC separation depends on volatilizing the sample and transporting it in a carrier gas through a column, so volatility and thermal stability are crucial.
+HPLC can handle many non-volatile or thermally labile analytes because separation occurs in the liquid phase under pressure.
+Paramagnetism is relevant to ESR, not chromatographic suitability.
+Recoilless gamma absorption is the Mössbauer effect and has no role in GC/HPLC separations.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Non-volatile and strongly solvated in water]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Volatile and thermally stable under column/injector conditions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Strongly paramagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Capable of nuclear recoil-free gamma absorption]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which pair of technique–measured quantity]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which pair of technique–measured quantity is correctly matched?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[TGA tracks sample mass as temperature changes, making it ideal for studying decomposition steps and thermal stability.
+Ion-selective electrodes measure a potential (EMF) that depends on ion activity/concentration, commonly interpreted using Nernst-type relationships for potentiometry.
+DSC measures heat flow (not mass), while retention time is a chromatography metric rather than an ISE output.
+Assigning molecular-ion m/z to DTA, lattice spacing to CV, diffraction patterns to polarography, or electron-spin transitions to FTIR confuses fundamentally different instrumental principles.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e55afefa-596e-4a12-b284-48bde32e8986/inorganic_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[TGA – mass change with temperature; ISE – EMF related to ion activity (via Nernst-type dependence)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[DSC – mass change with temperature; ISE – chromatographic retention time]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[DTA – molecular ion m/z values; CV – crystal lattice plane spacing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Polarography – X-ray diffraction intensity pattern; FTIR – electron spin transitions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

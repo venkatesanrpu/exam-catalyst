@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Arrange the following Ln3+ ions]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Arrange the following Ln3+ ions in decreasing ionic radius (assume the same coordination number): La3+, Nd3+, Gd3+, Lu3+.]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Across La to Lu, radii decrease steadily due to the lanthanide contraction arising from poor 4f shielding.  This contraction makes earlier lanthanides larger and later lanthanides smaller when compared at the same charge and coordination number.  The trend therefore gives La3+ as the largest and Lu3+ as the smallest, with intermediate ions like Nd3+ and Gd3+ falling in between.  Statements implying an increase across the series or non-monotonic changes contradict the established contraction trend.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La3+ > Nd3+ > Gd3+ > Lu3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[La3+ > Gd3+ > Nd3+ > Lu3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Lu3+ > Gd3+ > Nd3+ > La3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nd3+ > La3+ > Gd3+ > Lu3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In aqueous coordination chemistry, how]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In aqueous coordination chemistry, how does coordination number typically change from early to late Ln3+ ions as a consequence of lanthanide contraction?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The decreasing ionic size across the lanthanide series leads to a gradual reduction in preferred coordination numbers for Ln3+ in many ligand environments.  Early, larger Ln3+ ions accommodate higher coordination (often 9–10), whereas later, smaller Ln3+ ions more commonly adopt 8–9.  This behavior reflects the impact of the lanthanide contraction on steric crowding and metal–ligand packing around the ion.  Claims of increasing or constant coordination number miss the size-driven steric rationale central to this trend.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increases from ~8 to ~10]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Decreases from ~9–10 to ~8–9]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remains constant at 6]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Becomes unpredictable with no trend]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which single change most directly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which single change most directly enhances the intensity of f–f bands in lanthanide complexes?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[f–f transitions are parity-forbidden by the Laporte rule, so the presence of an inversion center suppresses intensity.  Lowering symmetry to remove inversion symmetry partially relaxes the selection rule via vibronic coupling, increasing band intensity.  Changes that retain or increase centrosymmetry will not strengthen these transitions, and simple dilution does not alter intrinsic transition probabilities.  Ligand hardness alone does not guarantee symmetry changes required to lift parity restrictions significantly.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Introducing an inversion center at the metal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Lowering site symmetry to remove inversion symmetry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Replacing hard ligands with harder ligands only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Diluting the complex to reduce concentration effects]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which actinide spectral feature is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which actinide spectral feature is typically more intense and broader than f–f transitions?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Actinide spectra commonly display intense, broad charge-transfer (CT) bands that overshadow weak f–f transitions.  The higher covalency and variable oxidation states in actinides favor LMCT/MLCT processes with large oscillator strengths.  In contrast, f–f transitions remain relatively weak due to parity and selection-rule constraints, even with spin–orbit coupling.  d–d and intra-ligand bands are not the defining intense features for f-element complexes in this context.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Spin-forbidden f–f bands]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[d–d transitions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Charge-transfer bands]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Intra-ligand π–π* bands]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For U in different oxidation]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For U in different oxidation states, which state is most likely to show the strongest CT character in its electronic spectrum under comparable ligand environments?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Increasing metal oxidation state typically lowers metal-centered orbital energies and enhances ligand-to-metal CT likelihood and intensity.  In actinides, higher oxidation states like U(VI) often exhibit strong CT bands compared with lower states such as U(III) or U(IV).  The file emphasizes that actinide spectra include both f–f and CT features, with CT transitions being especially intense.  Options favoring lower oxidation states overlook the general trend of increasing CT prominence with higher oxidation state.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[U(III)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[U(IV)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[U(V)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[U(VI)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which technique exploits small differences]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which technique exploits small differences in complex formation and exchange equilibria to separate adjacent lanthanides efficiently at laboratory scale?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ion-exchange chromatography is a classic high-resolution method for separating adjacent lanthanides that differ subtly in complexation behavior.  It leverages differential affinities of Ln3+–ligand species for the resin and eluent gradients to resolve closely similar ions.  Filtration cannot separate ions in solution, and distillation is inapplicable to nonvolatile salts.  Electrolysis does not selectively resolve closely similar trivalent f-element cations under standard conditions.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Simple filtration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Distillation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ion-exchange chromatography]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Electrolysis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which process is used at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which process is used at industrial scale to separate and purify U and Pu from spent nuclear fuel?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The PUREX (Plutonium–Uranium Redox Extraction) process is a solvent extraction method designed to co-extract and then separate U and Pu from irradiated fuel.  It employs selective complexation in tributyl phosphate phases coupled with redox control to partition actinides.  The other listed processes are not applicable to nuclear-fuel reprocessing and do not address U/Pu separations.  This aligns with the learning objective on industrial actinide separations.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mond process]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[PUREX process]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Zone refining]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Kroll process]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Among the following ions, which]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Among the following ions, which is expected to have an effective magnetic moment closest to 7.9 BM?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For Gd3+ (4f7), L ≈ 0 and J = S = 7/2, giving μeff ≈ gJ√[J(J+1)] ≈ 2√[7/2·9/2] ≈ 7.94 BM.  Lanthanide magnetic moments must include spin–orbit coupling via LS coupling and Hund’s rules, not just spin-only estimates.  Ce3+ (4f1), Eu3+ (4f6), and Yb3+ (4f13) yield smaller μeff values due to nonzero L and differing J.  Recognizing L = 0 for half-filled 4f7 rationalizes why Gd3+ reaches the maximum typical μeff among Ln3+.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Ce3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Gd3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eu3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Yb3+]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best compares magnetism]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best compares magnetism in actinides vs lanthanides?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Actinide 5f orbitals are more spatially extended and interact more strongly with ligands, increasing covalency and crystal-field effects.  These factors produce larger deviations from simple spin-only predictions and more complex temperature dependencies.  Lanthanides exhibit strong spin–orbit coupling but 4f orbitals are more shielded, giving comparatively modest covalency.  Statements suggesting spin-only behavior or negligible orbital contributions contradict the emphasized role of spin–orbit and orbital terms.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Actinides follow spin-only moments more closely than lanthanides.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Actinides show greater deviations due to stronger 5f–ligand interactions and covalency.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both series strictly obey Curie law with negligible orbital effects.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Lanthanides show larger deviations because 4f orbitals are more diffuse.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In solvent extraction-based separation of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In solvent extraction-based separation of adjacent lanthanides, which adjustment generally increases selectivity between two neighboring Ln3+ ions?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Solvent extraction resolves neighboring lanthanides by exploiting slight differences in complex stability and distribution ratios under tailored extractant and acidity conditions.  Optimizing ligand type and phase composition magnifies separation factors without requiring large intrinsic chemical differences.  Adjustments that do not change coordination equilibria (inert electrolyte, pure thermal changes, or absence of complexants) provide little selectivity.  This aligns with the emphasis on solvent extraction as a core separation method for lanthanides.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8e891cd7-93c2-45ab-b55b-f9bb7cff4b54/inorganic_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Using an extractant/conditions that amplify small differences in complex stability]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Saturating the aqueous phase with inert electrolyte only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increasing temperature without changing ligand chemistry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Removing all complexing agents from both phases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

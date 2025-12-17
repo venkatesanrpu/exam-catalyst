@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider a nucleus that undergoes]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider a nucleus that undergoes \(\beta^-\) decay followed by \(\gamma\) emission from an excited state of the daughter nucleus. Which statement about the net changes in \((A,Z)\) and the physical origin of the emitted radiations is most accurate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In \(\beta^-\) decay, a neutron converts to a proton, so \(A\) stays constant while \(Z\) increases by 1.
+\(\gamma\) emission is a nuclear de-excitation process (photon emission) that does not change either \(A\) or \(Z\), but reduces the nuclear energy.
+A decrease by 4 in \(A\) and 2 in \(Z\) describes alpha decay, not \(\beta^-\) decay.
+A claim that \(\gamma\) emission causes nucleon conversion confuses it with beta processes, while describing \(\gamma\) as an electronic transition confuses nuclear radiation with atomic spectroscopy.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(A\) decreases by 4 and \(Z\) decreases by 2; \(\gamma\) emission occurs due to electron transitions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(A\) remains the same and \(Z\) increases by 1; \(\gamma\) emission corresponds to de-excitation of the nucleus without changing \((A,Z)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(A\) remains the same and \(Z\) decreases by 1; \(\gamma\) emission converts a neutron into a proton]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(A\) increases by 1 and \(Z\) remains the same; \(\gamma\) emission is the emission of a helium nucleus]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student claims: “A nuclear]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student claims: “A nuclear reaction is exothermic whenever products have larger total mass than reactants, because extra mass becomes energy.” Which correction best aligns with the Q-value concept and mass–energy relation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Q-value represents the energy released (positive) or absorbed (negative) in a nuclear reaction and is determined by the mass difference between reactants and products.
+If the products have lower total mass than reactants, the mass defect corresponds to released energy via \(Q=(m_\text{reactants}-m_\text{products})c^2\).
+Saying “extra mass becomes energy” reverses the direction: energy release corresponds to a decrease in mass, not an increase.
+Half-life governs spontaneous decay kinetics and is not the criterion for whether an arbitrary nuclear reaction is exothermic.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exothermic reactions require product mass greater than reactant mass; Q-value is negative]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Exothermic reactions require product mass less than reactant mass; Q-value is positive and equals \((m_\text{reactants}-m_\text{products})c^2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exothermicity cannot be inferred from masses because Q-value depends only on half-life]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exothermic reactions require product mass equal to reactant mass; Q-value is always zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two nuclei are compared for]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two nuclei are compared for stability reasoning: one has a notably higher binding energy per nucleon than the other. Which inference is most defensible about their relative nuclear stability and tendency toward radioactivity?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Binding energy reflects how strongly nucleons are held together, so higher binding energy per nucleon generally indicates greater nuclear stability.
+Interpreting higher binding energy as “more stored energy that must be released” is a misconception; stronger binding typically means the nucleus is less eager to rearrange spontaneously.
+Detector choice affects measurement, not the intrinsic stability of the nucleus.
+Decay mode selection (alpha, beta, gamma) depends on specific stability factors and conservation requirements, so no single decay type is guaranteed solely from “higher binding energy per nucleon.”]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The nucleus with higher binding energy per nucleon is generally more stable against spontaneous change]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The nucleus with higher binding energy per nucleon is necessarily more radioactive because it “contains more energy”]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Binding energy per nucleon is unrelated to stability; only detector choice determines apparent stability]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Higher binding energy per nucleon guarantees the nucleus must undergo beta decay]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a fission reactor discussion]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a fission reactor discussion, which statement best links criticality, the multiplication factor \(k\), and reactor safety considerations without mixing them up with radioactive half-life concepts?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The multiplication factor \(k\) governs whether the neutron population decreases (\(k<1\)), stays steady (\(k=1\)), or increases (\(k>1\)), which directly defines subcritical, critical, and supercritical states.
+Reactor control and safety revolve around managing neutron multiplication and chain reactions, not changing the half-life of the fuel.
+Q-value describes energy release per reaction, but sustaining a chain reaction depends on neutron production, losses, and the overall neutron economy captured qualitatively by \(k\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Criticality is achieved when half-life of the fuel equals the neutron generation time]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A reactor is critical when \(k=1\); safety systems aim to keep the system from becoming supercritical (\(k>1\)) in an uncontrolled manner]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A reactor is subcritical when \(k>1\); it then requires shielding to reduce half-life]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Criticality is determined only by the Q-value and does not involve neutron economy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Fusion between light nuclei in]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Fusion between light nuclei in stars occurs at energies lower than the classical Coulomb barrier would suggest. Which explanation best integrates the Coulomb barrier idea with the mechanism enabling fusion?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Coulomb barrier is the electrostatic repulsion between positively charged nuclei that must be overcome or penetrated for fusion to occur.
+Quantum tunneling provides a finite probability for nuclei to pass through the barrier even when classical kinetic energy is insufficient, enabling fusion under stellar conditions.
+The barrier is repulsive (not attractive) at relevant separations until the strong nuclear force dominates at very short range, so long-distance attraction is incorrect.
+Electrons can screen repulsion partially but do not remove it completely, and gamma emission does not “increase charge to reduce repulsion” (it does not change \(Z\)).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d13e1942-f9f7-4189-9aa9-1f84857a7358/inorganic_unit_08.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fusion proceeds because the Coulomb barrier becomes attractive at long distances]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fusion proceeds because electrons eliminate the Coulomb repulsion completely in stellar cores]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fusion proceeds because quantum tunneling allows nuclei to penetrate the Coulomb barrier with nonzero probability]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fusion proceeds because gamma emission increases the charge of nuclei, reducing repulsion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

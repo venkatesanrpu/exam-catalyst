@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider the conjugate pair relationship]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider the conjugate pair relationship and the equilibrium link \(K_a \times K_b = K_w\). If acid strength increases along a series of acids \(HA_1, HA_2, HA_3\) (so \(K_a\) increases), which statement must be true for the conjugate bases \(A_1^-, A_2^-, A_3^-\) in the same solvent?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a conjugate acid–base pair in a given solvent, the equilibrium relationship \(K_a \times K_b = K_w\) links acid strength and conjugate base strength.
+If \(K_a\) increases while \(K_w\) is fixed for that solvent, \(K_b\) must decrease correspondingly, meaning a stronger acid has a weaker conjugate base.
+The idea that both \(K_a\) and \(K_b\) increase together contradicts the conjugate-pair inverse relationship emphasized in Brønsted–Lowry equilibrium analysis.
+The claim that \(K_b\) must be constant misuses the constancy of \(K_w\); \(K_w\) being constant forces reciprocal change between \(K_a\) and \(K_b\), not invariance of either.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(K_b\) increases in the same order as \(K_a\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(K_b\) decreases in the same order as \(K_a\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(K_b\) remains constant because \(K_w\) is constant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(K_b\) changes unpredictably and cannot be inferred from \(K_a\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a weak acid–strong base]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a weak acid–strong base titration, the curve shows a buffer region and a half-equivalence point. Which reasoning best explains why the half-equivalence point satisfies \(pH = pK_a\) without requiring detailed equilibrium solving?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In a weak acid–strong base titration, before equivalence a buffer mixture of HA and \(A^-\) forms, creating the characteristic buffer region described in the titration-curve discussion.
+At half-equivalence, stoichiometry ensures moles of HA remaining equal moles of \(A^-\) produced, giving \([A^-]=[HA]\) in the mixture.
+Applying Henderson–Hasselbalch to the buffer then makes the ratio term \(\log([A^-]/[HA])=\log(1)=0\), so \(pH=pK_a\).
+Assuming pH = 7 confuses this system with strong acid–strong base titrations where the equivalence point is neutral, and invoking complete ionization or full hydrolysis is inconsistent with weak-acid behavior.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At half-equivalence, \([H^+]=[OH^-]\), so pH must be 7]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[At half-equivalence, \([A^-]=[HA]\), so Henderson–Hasselbalch gives \(pH=pK_a\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At half-equivalence, the acid is completely ionized, so pH depends only on the initial concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At half-equivalence, the conjugate base hydrolyzes fully, so pH equals \(pK_b\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[HSAB theory links stability trends]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[HSAB theory links stability trends to hardness/softness and polarizability. Which scenario best illustrates a case where HSAB reasoning is strengthened by an orbital interaction argument (not purely electrostatics)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[HSAB classification uses hardness/softness and emphasizes polarizability as a key contributor to “soft” behavior.
+Soft acids and soft bases often gain additional stabilization when bonding has significant covalent character, which is consistent with the related idea that softness correlates with polarizability and favorable orbital interactions such as π-effects.
+Treating stability as only a function of charge ignores the HSAB distinction between hard (more ionic) and soft (more covalent/polarizable) interactions.
+Arrhenius theory is explicitly limited in scope, and equating Brønsted strength with Lewis strength across all media contradicts the broader Lewis framework and solvent-dependence highlighted in the learning path.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A hard metal ion forms a stable complex only because it is highly charged]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A soft metal center forms especially stable complexes with ligands capable of π-interactions (including π-backbonding)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Any acid–base interaction is predicted correctly by Arrhenius theory in water]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A strong Brønsted acid is always a strong Lewis acid in all solvents]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A solvent can show leveling]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A solvent can show leveling and differentiating behavior in acid–base chemistry, tied to solvent autoionization and its ability to stabilize ions. Which statement best captures the key implication of the leveling effect for comparing very strong acids in that solvent?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Solvent effects on acid–base behavior are tied to solvent autoionization and to protogenic/protophilic character, which control how far proton transfer proceeds.
+In a leveling solvent, acids stronger than the solvent’s conjugate acid are effectively converted to that common acidic species, making them appear similarly strong within that solvent.
+This reduces the ability to distinguish among very strong acids in that medium, which is the opposite of “differentiating” behavior.
+Assuming \(K_a\) is solvent-independent contradicts the stated solvent effects on equilibria (ion pairing, hydrogen bonding, dielectric influences) that can shift apparent acid strengths.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Very strong acids are distinguished more clearly because the solvent suppresses proton transfer]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Very strong acids appear similarly strong because they are converted to the solvent’s strongest acidic species]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Weak acids become strong because the solvent always donates protons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(K_a\) values become solvent-independent, so acid strengths become intrinsic constants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For oxyacids of the same]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For oxyacids of the same central atom (for example, chlorine oxyacids), acid strength trends are rationalized using oxygen count and oxidation state arguments (Pauling-type reasoning). Which qualitative trend is consistent with that framework?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The learning path emphasizes oxoacid strength relationships using Pauling-type rules and the effect of oxygen atoms and oxidation state for predicting pKa trends.
+Adding more oxygen atoms generally increases electron withdrawal and stabilizes the conjugate base through delocalization/inductive effects, which increases acidity.
+Saying acidity decreases with more oxygen confuses the basicity of isolated oxide with the net electron-withdrawing and conjugate-base stabilization effects in oxyanions.
+Claiming acid strength is constant because the proton is on oxygen ignores the documented role of oxidation state and structural stabilization factors in oxoacid acidity trends.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/346f13fa-33ff-490a-9a60-0aa4e5b11115/inorganic_unit_04.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Acid strength decreases as the number of oxygen atoms increases because O is basic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Acid strength increases as the number of oxygen atoms increases because the conjugate base is better stabilized]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Acid strength is constant because the acidic proton is always on an O–H bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Acid strength depends only on the H–O bond length and not on oxidation state or substituent effects]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

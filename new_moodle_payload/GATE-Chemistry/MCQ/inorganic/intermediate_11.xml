@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A solution shows absorbance \(A=0.650\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A solution shows absorbance \(A=0.650\) at a given wavelength in a 1.00 cm cuvette, and the molar absorptivity is \(\varepsilon = 1.30\times 10^4\ \mathrm{L\,mol^{-1}\,cm^{-1}}\). The concentration of the absorbing species is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quantitative UV–Visible analysis commonly uses Beer–Lambert law \(A=\varepsilon l c\).
+Rearranging gives \(c = A/(\varepsilon l) = 0.650/(1.30\times 10^4 \times 1.00)=5.0\times 10^{-5}\ \mathrm{mol\,L^{-1}}\).
+Answers differing by factors of 10 typically come from power-of-ten slips in \(\varepsilon\) or treating 1 cm as 10 cm.
+Very large concentrations here would imply unrealistically high absorbance for typical UV–Vis linear ranges, indicating misuse of the proportionality.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.0\times 10^{-6}\ \mathrm{mol\,L^{-1}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(5.0\times 10^{-5}\ \mathrm{mol\,L^{-1}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.0\times 10^{-4}\ \mathrm{mol\,L^{-1}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.0\times 10^{-3}\ \mathrm{mol\,L^{-1}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In fluorescence measurements, a sample]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In fluorescence measurements, a sample has radiative rate constant \(k_r = 2.0\times 10^8\ \mathrm{s^{-1}}\) and non-radiative rate constant \(k_{nr} = 8.0\times 10^8\ \mathrm{s^{-1}}\). The fluorescence quantum yield \(\Phi_F\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fluorescence efficiency depends on competition between radiative and non-radiative deactivation pathways discussed via Jablonski-type reasoning.
+The quantum yield is \(\Phi_F = \dfrac{k_r}{k_r+k_{nr}} = \dfrac{2.0}{2.0+8.0} = 0.20\).
+Higher values arise if \(k_{nr}\) is mistakenly subtracted or ignored, which incorrectly assumes no quenching or internal conversion.
+Values above 0.5 would require radiative decay to dominate, which is not the case for the given rate constants.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.20]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.40]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.60]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.80]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An FTIR band appears at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An FTIR band appears at 1700 cm\(^{-1}\). The corresponding frequency (in Hz) is closest to: (Use \(c=3.0\times 10^{10}\ \mathrm{cm\,s^{-1}}\)).]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[FTIR interpretation uses the frequency–wavenumber relationship \(\nu = c\tilde{\nu}\), where \(\tilde{\nu}\) is in cm\(^{-1}\).
+So \(\nu = (3.0\times 10^{10})(1700)=5.1\times 10^{13}\ \mathrm{s^{-1}}\).
+A common mistake is using \(c=3.0\times 10^8\ \mathrm{m\,s^{-1}}\) without converting 1700 cm\(^{-1}\) into m\(^{-1}\), causing a factor-of-100 error.
+Another error is treating wavenumber as wavelength directly, which inverts the relationship.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.1\times 10^{11}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.1\times 10^{12}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(5.1\times 10^{13}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.1\times 10^{14}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a \(^1\)H NMR spectrum]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a \(^1\)H NMR spectrum, a proton signal at 2.50 ppm is observed on a 400 MHz instrument. The frequency separation from TMS (in Hz) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemical shift is defined by \(\delta(\mathrm{ppm})=\dfrac{\Delta \nu(\mathrm{Hz})}{\nu_0(\mathrm{MHz})}\), consistent with chemical-shift scale concepts used for NMR interpretation.
+Thus \(\Delta\nu = \delta \nu_0 = 2.50\times 400=1000\ \mathrm{Hz}\).
+Using 400 as Hz instead of MHz incorrectly reduces the answer by a factor of \(10^6\).
+Taking ppm as percent (dividing by 100) is another common misconception that yields much smaller incorrect separations.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[100 Hz]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[400 Hz]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[1000 Hz]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2500 Hz]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An ESR experiment uses microwave]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An ESR experiment uses microwave frequency \(\nu = 9.5\ \mathrm{GHz}\). For a radical with \(g\approx 2.00\), the approximate magnetic field \(B\) at resonance is closest to (Use \(h=6.63\times 10^{-34}\ \mathrm{J\,s}\), \(\mu_B=9.27\times 10^{-24}\ \mathrm{J\,T^{-1}}\), and \(h\nu=g\mu_B B\)).]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[ESR resonance condition connects microwave frequency, g-factor, and magnetic field, aligning with ESR resonance and g-factor concepts.
+Compute \(B=\dfrac{h\nu}{g\mu_B}=\dfrac{6.63\times 10^{-34}\times 9.5\times 10^9}{2.00\times 9.27\times 10^{-24}}\approx 0.34\ \mathrm{T}\).
+An answer ten times smaller usually comes from using \(\nu\) in MHz rather than GHz.
+An answer ten times larger can come from forgetting the factor \(g\) in the denominator or misplacing powers of ten in \(\mu_B\).
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.034 T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.34 T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3.4 T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[34 T]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In EI mass spectrometry, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In EI mass spectrometry, a molecule of molecular mass 78 gives a molecular ion at \(m/z=78\) and a fragment at \(m/z=77\). The most plausible interpretation of the \(m/z=77\) peak is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[EI commonly produces a radical cation molecular ion that undergoes fragmentation, and a 1 unit decrease in m/z is typically consistent with loss of a hydrogen radical.
+A 1 unit increase is more characteristic of protonation processes common in soft ionization methods like CI/ESI, not classic EI behavior.
+Loss of CO would shift m/z by 28 units, which does not match the observed 78 to 77 change.
+A doubly charged ion would appear at roughly half the m/z value (about 39), not at 77.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Loss of H-  from the molecular ion to give \([M - H]^+\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Gain of H-  to give \([M + H]^+\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Loss of CO to give \([M - 28]^+\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of a doubly charged molecular ion \([M]^{2+}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In AAS, an element is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In AAS, an element is measured using a calibration curve where absorbance varies linearly with concentration. If the absorbance of a standard solution (2.0 ppm) is 0.300 and a sample gives 0.450 under identical conditions, the sample concentration is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quantitative AAS commonly relies on calibration and Beer–Lambert-type proportionality between absorbance and concentration in a linear working range.
+With direct proportionality, \(C_{sample}=C_{std}\times(A_{sample}/A_{std})=2.0\times(0.450/0.300)=3.0\ \mathrm{ppm}\).
+Choosing 4.5 ppm results from assuming absorbance equals concentration numerically without scaling.
+Choosing 1.0 ppm results from inverting the ratio, which would incorrectly imply higher absorbance means lower concentration.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.0 ppm]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2.0 ppm]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[3.0 ppm]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4.5 ppm]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In X-ray diffraction using Cu]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In X-ray diffraction using Cu K\(\alpha\) radiation (\(\lambda=1.54\) Å), a first-order reflection occurs at \(2\theta=30^\circ\). The interplanar spacing \(d\) is closest to: (Use Bragg’s law \(n\lambda=2d\sin\theta\)).]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[X-ray crystallography uses Bragg’s law to relate diffraction angle to lattice plane spacing.
+Here \(\theta=15^\circ\) and \(n=1\), so \(d=\dfrac{\lambda}{2\sin\theta}=\dfrac{1.54}{2\sin15^\circ}\approx \dfrac{1.54}{0.518}\approx 2.97\) Å is close, but the more accurate \(\sin 15^\circ \approx 0.2588\) gives \(d\approx 2.98\) Å; however note that \(2\sin15^\circ = 0.5176\), so \(d\approx 2.97\) Å.
+The option 3.08 Å corresponds to using \(\theta=14^\circ\) (a common angle-reading error) or rounding inconsistently, whereas 1.54 Å comes from forgetting the factor \(2\sin\theta\).
+The largest value arises if \(\sin\theta\) is mistakenly replaced by \(\sin 2\theta\), which is not Bragg’s condition.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1.54 Å]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2.97 Å]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[3.08 Å]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[5.94 Å]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a monovalent cation-selective electrode]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a monovalent cation-selective electrode at 25°C, the Nernst slope magnitude is approximately 59 mV per decade change in activity. If the measured potential changes by +118 mV when moving from solution 1 to solution 2, the activity ratio \(a_2/a_1\) is closest to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ion-selective electrodes are interpreted using a Nernst-type dependence of potential on logarithm of ion activity.
+A change of 59 mV corresponds to a 10-fold change for a monovalent ion, so 118 mV corresponds to two decades, i.e., a factor \(10^2=100\).
+Choosing 10 corresponds to treating 118 mV as one decade, which ignores the approximate doubling of the Nernst slope steps.
+Choosing 1000 corresponds to assuming 118 mV equals three decades, which would require about 177 mV for a monovalent ion at 25°C.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[10]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[100]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1000]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In cyclic voltammetry, a one-electron]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In cyclic voltammetry, a one-electron reversible redox couple at 25°C is often identified by a peak-to-peak separation \(\Delta E_p\) close to 59 mV. If an experimental voltammogram shows \(\Delta E_p \approx 120\) mV under otherwise similar conditions, the best interpretation is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[CV interpretation uses features like peak potentials and their separation to assess reversible, quasi-reversible, and irreversible behavior.
+A significantly larger \(\Delta E_p\) than the typical reversible benchmark indicates slower electron-transfer kinetics and departure from ideal Nernstian behavior at the electrode surface.
+Assigning this directly to a 2-electron process is unreliable because \(\Delta E_p\) also depends on kinetics, uncompensated resistance, and experimental factors, not only electron count.
+Peak separation is expected in CV, and the presence of anodic/cathodic peaks is itself consistent with electrochemical redox processes.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e55afefa-596e-4a12-b284-48bde32e8986/inorganic_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The system is more reversible than ideal and electron transfer is faster than diffusion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The system is quasi-reversible or has kinetic limitations relative to an ideal reversible case]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The number of electrons transferred must be exactly 2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The redox process cannot be electrochemical because peaks are separated]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

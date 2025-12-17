@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A white solid \(\mathrm{A}\) reacts]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A white solid \(\mathrm{A}\) reacts with water to give a strongly basic solution and a gas \(\mathrm{B}\). The gas \(\mathrm{B}\) burns in oxygen, and the resulting product dissolves in water to give an acid \(\mathrm{C}\). The acid \(\mathrm{C}\) is significantly stronger when it contains more oxygen atoms bound to the same central atom. Which identification set is most consistent with these observations?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ionic hydrides contain \(\mathrm{H^-}\) and typically react with water to produce hydroxide (basic solution) and hydrogen gas, matching \(\mathrm{A \rightarrow B}\).
+Hydrogen combustion yields water, and subsequent “acid \(\mathrm{C}\)” points to an additional step: the scenario is designed to test integration with oxoacid acidity trends (acid strength increasing with oxygen count/oxidation state for a given central atom).
+Covalent hydrides do not generally yield strongly basic solution by direct hydrolysis in the same “salt-like hydride” sense, and \(\mathrm{NH_3}\) does not match “burns in oxygen” to give an oxoacid trend statement.
+A hydrogen halide cannot “contain more oxygen atoms” (that describes oxoacids, not binary hydrogen halides), so that option contradicts oxoacid structure–property rules.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{A}\) = ionic hydride; \(\mathrm{B}\) = \(\mathrm{H_2}\); \(\mathrm{C}\) = an oxoacid whose strength increases with oxidation state/oxygen count]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{A}\) = covalent hydride; \(\mathrm{B}\) = \(\mathrm{NH_3}\); \(\mathrm{C}\) = amphoteric oxide in water]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{A}\) = acidic oxide; \(\mathrm{B}\) = \(\mathrm{CO_2}\); \(\mathrm{C}\) = ionic nitride hydrolysis product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{A}\) = neutral oxide; \(\mathrm{B}\) = \(\mathrm{O_2}\); \(\mathrm{C}\) = hydrogen halide whose acidity increases with oxygen atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two covalent halides \(\mathrm{ECl_3}\) and]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two covalent halides \(\mathrm{ECl_3}\) and \(\mathrm{ECl_4}\) are compared for hydrolysis in water. \(\mathrm{ECl_3}\) hydrolyzes more vigorously and acts as a stronger Lewis acid than \(\mathrm{ECl_4}\). Which reasoning best supports this difference?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The halide section links hydrolysis trends to Lewis acidity of halides; a more electron-deficient central atom accepts electron density from water more readily, accelerating hydrolysis.
+Being \(\mathrm{ECl_4}\) does not automatically make the compound ionic; ionic vs covalent character depends on bonding and polarization arguments, not formula alone.
+Hydrolysis rate is not controlled only by the count of halogens; the mechanism depends on electrophilicity/Lewis acidity, structure, and bonding.
+Greater covalent character does not automatically mean lower Lewis acidity; in many p-block halides, covalent yet electron-deficient species are strong Lewis acids and hydrolyze readily.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{ECl_3}\) is more electron-deficient at E and more able to accept lone pairs from water, enhancing hydrolysis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{ECl_4}\) must be ionic, so it cannot hydrolyze at all]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hydrolysis depends only on the number of chloride atoms, so \(\mathrm{ECl_4}\) must hydrolyze faster]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Lewis acidity decreases as covalency increases, so the more covalent halide must hydrolyze least]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A binary oxide \(\mathrm{E_xO_y}\) exists]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A binary oxide \(\mathrm{E_xO_y}\) exists in multiple polymorphs and also forms a slightly non-stoichiometric solid with mixed oxidation states of E. Which combined statement best connects these two observations to main-group oxide chemistry themes?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The oxide content explicitly treats polymorphism/phase transitions as structural phenomena in solids and separately highlights mixed-valence/non-stoichiometric oxides as a common solid-state feature.
+Molecular oxides are not the only class that can show polymorphism, and oxoacids are a different compound class than binary oxides.
+Acidic/basic/amphoteric classification is about acid–base behavior and does not by itself force polymorphism or non-stoichiometry assignments.
+Mixed valence does not prevent polymorph formation; both can coexist as solid-state behaviors.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Polymorphism reflects different crystal structures, while non-stoichiometry often signals mixed valence in solids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Polymorphism occurs only in molecular oxides, and non-stoichiometry occurs only in oxoacids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Polymorphism implies the oxide must be amphoteric, and non-stoichiometry implies it must be neutral]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mixed valence rules out any possibility of phase transitions or polymorphs]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An unknown compound \(\mathrm{X}\) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An unknown compound \(\mathrm{X}\) is a main-group nitride that hydrolyzes readily to give ammonia. Another nitride \(\mathrm{Y}\) is extremely resistant to hydrolysis and is best described as a network solid. Which paired classification is most consistent?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The nitride section highlights hydrolysis of ionic nitrides (via strongly basic \(\mathrm{N^{3-}}\)) and contrasts them with covalent/network nitrides that exhibit high stability and reduced hydrolysis reactivity.
+Swapping these assignments contradicts the reactivity–bonding correlation emphasized for nitride classes.
+Oxoacids and hydrides are different compound families and do not classify nitrides in the given framework.
+The option mixing unrelated classes fails to connect to nitride classification principles.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{X}\) = ionic nitride; \(\mathrm{Y}\) = covalent/network nitride]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{X}\) = covalent nitride; \(\mathrm{Y}\) = ionic nitride]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{X}\) = interstitial nitride; \(\mathrm{Y}\) = oxoacid derivative]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{X}\) = metallic hydride; \(\mathrm{Y}\) = amphoteric oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A sulfur-containing solid \(\mathrm{S}\) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A sulfur-containing solid \(\mathrm{S}\) is oxidized to give an oxide, which in turn can yield an oxoacid on hydration. The solid \(\mathrm{S}\) also shows disproportionation behavior under certain conditions. Which statement best integrates the “sulfides → oxides/oxoacids” pathway with redox/disproportionation ideas?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The sulfide section explicitly connects sulfides to hydrolysis/redox behavior and mentions oxidation to oxides and oxoacids, while also listing disproportionation as a relevant redox pattern.
+Calling sulfides redox-inert contradicts the “redox chemistry of main group elements” and sulfide reactivity themes.
+Disproportionation is not exclusive to halides; it is treated as a general redox concept relevant across main-group compound classes.
+Oxoacid formation and stability trends depend strongly on oxidation state and bonding/structure, not only on hydrogen bonding.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/1f657058-509e-4057-ad33-3e519f1d9672/inorganic_unit_01.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Sulfides can participate in redox chemistry; oxidation can convert sulfides to oxides and further to oxoacids, and disproportionation reflects sulfur’s accessible oxidation-state chemistry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Sulfides are redox-inert, so oxidation to oxides/oxoacids is not expected; any observed changes must be physical only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Disproportionation is exclusive to halides, so sulfur compounds cannot show it]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of oxoacids from sulfur compounds cannot involve oxidation states, only hydrogen bonding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

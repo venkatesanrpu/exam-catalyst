@@ -1,0 +1,1030 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>In hemoglobin, cooperative O\(_2\) binding</text>
+    </name>
+    <questiontext format="html">
+      <text>In hemoglobin, cooperative O\(_2\) binding is coupled to a structural transition. Which mechanism best links ligand field effects at the heme iron to cooperativity and allosteric regulation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cooperative binding in hemoglobin is explicitly tied to allosteric regulation, and the heme site is where O\(_2\) binding perturbs iron coordination/electronic structure (a ligand-field/coordination-chemistry issue) that can be communicated to the protein scaffold.  A coordination-driven structural perturbation provides a chemically grounded route for a local binding event to influence quaternary structure and hence other binding sites, matching the idea of cooperativity emphasized for hemoglobin.  Oxidation of Fe(II) to Fe(III) would undermine reversible oxygen binding rather than enable it, so a redox-change requirement is inconsistent with reversible transport.  Membrane electrochemical gradients (Nernst potential) are relevant to ion transport, not to the intraprotein allostery of a soluble oxygen carrier.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>O\(_2\) binding increases electron density on porphyrin, forcing Fe to move further out of the porphyrin plane and stabilizing the low-affinity state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>O\(_2\) binding changes the heme Fe(II) electronic structure in a way that alters Fe position relative to the porphyrin plane, transmitting a conformational change to the protein and shifting affinity at other subunits</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>O\(_2\) binding requires oxidation of Fe(II) to Fe(III), and the resulting charge change drives subunit rearrangement responsible for cooperativity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>O\(_2\) binding is independent of heme coordination chemistry; cooperativity arises only from changes in membrane potential (Nernst-type control)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider biological electron transfer in</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider biological electron transfer in proteins where both redox potentials (thermodynamics) and electron tunneling (kinetics) matter. Which statement is most consistent with how an electron transfer step can be thermodynamically allowed but kinetically slow?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit separates electron-transfer thermodynamics (redox potentials) from mechanisms and rate constants (electron tunneling/transfer kinetics), so it is valid for a reaction to have favorable driving force yet exhibit a small rate constant due to poor electronic coupling through the protein matrix.  Electron tunneling is a distance- and pathway-sensitive kinetic phenomenon, so increasing separation can slow transfer without reversing thermodynamic direction.  A favorable potential difference does not automatically imply ATP synthesis at that exact step because coupling to ATP production involves the broader chain architecture (including proton pumping/chemiosmosis).  Slow kinetics do not require equal redox potentials; they can arise from kinetic barriers and weak coupling even with substantial driving force.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>If the donor has a lower redox potential than the acceptor, electron transfer is spontaneous and always fast regardless of distance</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Electron tunneling rate can decrease strongly with increasing donor–acceptor separation even when the redox potential difference favors transfer</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A favorable redox potential difference guarantees that ATP synthesis must occur in the same step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>If electron tunneling is slow, the redox potentials must be equal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Nitrogenase must deliver multiple electrons</text>
+    </name>
+    <questiontext format="html">
+      <text>Nitrogenase must deliver multiple electrons and protons to reduce N\(_2\) to NH\(_3\) and is regulated by strong biological constraints. Which explanation best integrates the need for ATP consumption with electron/proton flow and oxygen sensitivity?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit highlights nitrogenase complex structure (Fe protein + MoFe protein), the FeMo-co active site, and the electron/proton flow needed for N\(_2\) to NH\(_3\), along with oxygen sensitivity as a biological constraint.  A key integrated idea is that ATP usage supports the demanding catalytic cycle by gating/energizing electron delivery steps to the active site where multi-electron chemistry occurs.  Oxygen is described as problematic (sensitivity/regulation), not as an activator, so making O\(_2\) a required trigger conflicts with the stated constraint.  Protonation and reduction of N\(_2\) are not simple bulk-solution processes; they depend on the metal cofactor environment and controlled delivery of reducing equivalents.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>ATP hydrolysis is required because FeMo-co cannot accept electrons unless oxygen is present as a mandatory activator</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>ATP hydrolysis in the Fe protein is coupled to controlled electron transfer into the MoFe protein/FeMo-co, enabling stepwise multi-electron/proton chemistry for N\(_2\) reduction while the enzyme remains vulnerable to O\(_2\) damage</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>ATP hydrolysis directly protonates N\(_2\) in solution, while the metal cluster only serves as a spectator binding site</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>ATP hydrolysis is only needed to regenerate NAD\(^+\) for zinc enzymes and is unrelated to N\(_2\) reduction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A researcher must choose a</text>
+    </name>
+    <questiontext format="html">
+      <text>A researcher must choose a biological redox cofactor for fast, long-range electron transfer between proteins with minimal chemical reactivity toward substrates (pure electron transfer role). Which choice and rationale best fit the classification of metal centers emphasized in the unit?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The copper section explicitly distinguishes Type 1 copper centers (blue copper proteins) and connects them to electron transfer, making them the best match for a dedicated electron-transfer module.  Zinc enzymes in the unit are framed around structural/catalytic roles (often Lewis-acid chemistry) rather than redox cycling, so assigning Zn as a redox shuttle is inconsistent with typical bioinorganic roles discussed.  Mg(II) is highlighted for ATP-related catalysis and structural roles, not for redox chemistry or direct O\(_2\) activation in electron-transfer chains.  Vitamin B\(_{12}\) chemistry is emphasized for methyl transfer and radical/rearrangement mechanisms, not as a universal long-range one-electron transfer cofactor.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Zn(II) center, because Zn readily cycles oxidation states and enables rapid electron transport</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Type 1 copper center (blue copper protein), because it is specialized for electron transfer and is classified accordingly in copper metalloenzymes</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mg(II) center, because Mg activates O\(_2\) and therefore accelerates electron flow</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Vitamin B\(_{12}\) cobalt center, because all cobalt enzymes are dedicated solely to one-electron transfer chains</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Metal homeostasis and correct metal</text>
+    </name>
+    <questiontext format="html">
+      <text>Metal homeostasis and correct metal insertion are crucial for enzyme function. Which scenario best illustrates how metal homeostasis links to both catalysis and prevention of incorrect chemistry in cells?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit includes metal homeostasis (storage, sequestration, detoxification) and separately emphasizes iron–sulfur clusters as electron mediators, so correct handling of iron connects directly to both preventing harmful chemistry and enabling essential electron transfer.  Zinc is typically redox-inert under physiological conditions and is not the classic driver of Fenton-type radical formation, so portraying Zn as the main Fenton hazard reflects a mechanistic misconception.  Ferritin is associated with iron storage rather than magnesium, and Mg does not normally undergo biologically relevant redox cycling in enzymes as framed by the Mg-metalloenzyme section.  Copper homeostasis is emphasized because excess copper can be toxic; simply increasing free copper would not guarantee improved enzyme performance and can disrupt metal balance and protein integrity.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Sequestering redox-active iron limits uncontrolled side reactions, while ensuring proper delivery allows iron–sulfur clusters to function as electron mediators in electron transfer chains</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Sequestering zinc is necessary mainly to prevent Zn(II) from generating reactive oxygen species via Fenton-type chemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Storing magnesium in ferritin is essential because Mg(II) must be protected from oxidation to Mg(III)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Increasing free copper concentration always improves cytochrome oxidase efficiency because more metal guarantees faster catalysis without toxicity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Na+/K+-ATPase cycle, what</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Na+/K+-ATPase cycle, what is the net stoichiometry of ion movement per ATP hydrolyzed?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Na+/K+-ATPase is a primary active transporter that exports three sodium ions and imports two potassium ions for each ATP consumed, creating and maintaining transmembrane Na+ and K+ gradients.  These gradients are central to membrane potential and secondary transport processes in cells.  The options with reversed or equal stoichiometry are incorrect because they would not reproduce the known electrogenic 3:2 exchange that contributes to a net outward positive charge movement.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>3 Na+ out, 2 K+ in</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2 Na+ out, 3 K+ in</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1 Na+ out, 1 K+ in</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3 Na+ in, 2 K+ out</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Nernst potential for a</text>
+    </name>
+    <questiontext format="html">
+      <text>The Nernst potential for a monovalent cation primarily relates which pair of quantities?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Nernst equation links the equilibrium membrane potential for an ion to its intracellular and extracellular concentrations and charge, reflecting the electrochemical driving force at equilibrium.  For a monovalent ion at temperature T, the equation is E = (RT/F) ln([ion]out/[ion]in), showing direct dependence on concentration ratio and ionic valence.  Other options describe kinetic or energetic parameters not captured by the equilibrium form of the Nernst relation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Membrane potential and concentration gradient of the ion</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>ATP hydrolysis free energy and ion flux rate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Temperature and membrane capacitance</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Channel conductance and gating kinetics</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which protein exhibits cooperative oxygen</text>
+    </name>
+    <questiontext format="html">
+      <text>Which protein exhibits cooperative oxygen binding under physiological conditions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hemoglobin displays sigmoidal O2-binding behavior due to allosteric T↔R transitions between subunits, enabling cooperative loading and unloading in tissues and lungs.  Myoglobin binds O2 hyperbolically without cooperativity because it is a monomer and lacks inter-subunit allostery.  Cytochrome c and carbonic anhydrase are not O2 storage/transport proteins and do not exhibit cooperative O2 binding.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Hemoglobin</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Myoglobin</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cytochrome c</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Carbonic anhydrase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>According to the Bohr effect</text>
+    </name>
+    <questiontext format="html">
+      <text>According to the Bohr effect, how does a decrease in pH affect hemoglobin’s oxygen affinity?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Lower pH and higher CO2 stabilize the T state of hemoglobin, reducing oxygen affinity and shifting the dissociation curve to the right to favor O2 release in metabolically active tissues.  This allosteric regulation enables physiological matching of O2 delivery to tissue demand.  Statements suggesting increased affinity or unchanged affinity contradict the established direction of the Bohr effect.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Affinity decreases, shifting the O2 curve to the right</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Affinity increases, shifting the O2 curve to the left</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Affinity remains unchanged, but capacity increases</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Affinity and capacity both increase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Cytochrome c oxidase corresponds to</text>
+    </name>
+    <questiontext format="html">
+      <text>Cytochrome c oxidase corresponds to which mitochondrial respiratory chain complex?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cytochrome c oxidase is Complex IV, the terminal oxidase that accepts electrons from cytochrome c and reduces O2 to water while contributing to proton pumping.  Complexes I–III handle upstream steps: NADH dehydrogenase (I), succinate dehydrogenase (II), and cytochrome bc1 complex (III).  Assigning cytochrome c oxidase to I–III is incorrect because these complexes have distinct subunit compositions and redox cofactors.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Complex IV</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complex I</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complex II</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complex III</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The active site cofactor directly</text>
+    </name>
+    <questiontext format="html">
+      <text>The active site cofactor directly responsible for N2 reduction in molybdenum nitrogenase is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The FeMo-cofactor (FeMo-co) is the unique multimetallic cluster at the nitrogenase active site where N2 is reduced to NH3 under ATP-dependent conditions.  Alternatives such as heme a3 and simple [2Fe-2S] clusters do not perform N2 fixation chemistry in nitrogenase.  A molybdopterin-free Mo aqua complex is not the biological cofactor and lacks the required electronic structure for multi-electron/proton transfer to N2.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>FeMo-cofactor containing Mo, Fe, S, and homocitrate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Heme a3 binuclear center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Molybdopterin-free Mo6+ aqua complex</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Single [2Fe-2S] cluster without Mo</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which is a common iron–sulfur</text>
+    </name>
+    <questiontext format="html">
+      <text>Which is a common iron–sulfur cluster motif used for biological electron transfer?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Iron–sulfur clusters such as [2Fe-2S] and [4Fe-4S] are ubiquitous protein cofactors that mediate one-electron transfers through tunable redox potentials.  Porphyrin Fe(III) refers to heme centers, Mn4CaO5 is the oxygen-evolving cluster of photosystem II, and CuA is a binuclear copper site; these are not Fe–S motifs.  The prevalence and modularity of Fe–S clusters make them central to electron transfer chains and metabolic enzymes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>[4Fe-4S]</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Porphyrin Fe(III)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mn4CaO5</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CuA binuclear site</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The central metal ion in</text>
+    </name>
+    <questiontext format="html">
+      <text>The central metal ion in vitamin B12 (cobalamin) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cobalamin contains a cobalt ion coordinated within a corrin macrocycle, supporting methyl transfer and radical-based rearrangement chemistry in enzymes.  Iron and zinc are key biological metals but are not the macrocyclic center in vitamin B12.  Nickel features in other metalloenzymes (e.g., some hydrogenases) but not in cobalamin.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Cobalt</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Iron</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Zinc</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nickel</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A defining property of Type</text>
+    </name>
+    <questiontext format="html">
+      <text>A defining property of Type 1 copper centers in proteins is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Type 1 copper centers (blue copper proteins) show intense blue absorption due to strong thiolate (Cys)–Cu charge-transfer and are optimized for fast long-range electron transfer.  Binuclear O2-binding behavior is characteristic of Type 3 copper sites such as in tyrosinase, not Type 1.  Sulfur ligation is a hallmark of Type 1 sites, and superoxide dismutase involves a distinct Cu/Zn heterodimer where copper cycles redox states while zinc plays a structural role.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Intense blue color with rapid electron transfer in blue copper proteins</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Binuclear O2-binding site that forms peroxo intermediates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Absence of sulfur ligation and purely nitrogen coordination</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive role in superoxide dismutation with zinc</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In carbonic anhydrase, the primary</text>
+    </name>
+    <questiontext format="html">
+      <text>In carbonic anhydrase, the primary catalytic role of the Zn2+ center is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Zn2+ in carbonic anhydrase coordinates water and histidines, lowering the pKa of water to form hydroxide that rapidly attacks CO2 to yield bicarbonate.  Zinc does not bind or transport O2 in this enzyme, nor does it undergo redox cycling because Zn remains in the +2 oxidation state.  Carbonic anhydrase is a hydrolase, not an electron transfer protein in the respiratory chain.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e97c6845-56f8-4fc5-92b8-e32adaf1fcea/inorganic_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Polarize and deprotonate bound water to generate a nucleophilic hydroxide for CO2 hydration</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bind O2 reversibly and transport it to tissues</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Undergo redox cycling between Zn2+ and Zn3+ during catalysis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Serve as an electron carrier in the respiratory chain</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A cell has \([\mathrm{K^+}]_\text{in}=140\,\mathrm{mM}\) and</text>
+    </name>
+    <questiontext format="html">
+      <text>A cell has \([\mathrm{K^+}]_\text{in}=140\,\mathrm{mM}\) and \([\mathrm{K^+}]_\text{out}=5\,\mathrm{mM}\). Ignoring activity coefficients, which expression best represents the Nernst potential for \(\mathrm{K^+}\) at temperature \(T\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a monovalent cation, the Nernst potential is \(E = \dfrac{RT}{zF}\ln\left(\dfrac{[\text{out}]}{[\text{in}]}\right)\) with \(z=+1\), giving option A.  Option B corresponds to reversing the concentration ratio, which flips the sign and predicts the wrong direction of electrochemical driving force.  Options C and D incorrectly change the effective charge factor, which would apply only if the ionic valence were 2 or if an erroneous prefactor were introduced.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(E_K=\dfrac{RT}{F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{out}}{[\mathrm{K^+}]_\text{in}}\right)\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E_K=\dfrac{RT}{F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{in}}{[\mathrm{K^+}]_\text{out}}\right)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E_K=\dfrac{RT}{2F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{out}}{[\mathrm{K^+}]_\text{in}}\right)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E_K=\dfrac{2RT}{F}\ln\!\left(\dfrac{[\mathrm{K^+}]_\text{out}}{[\mathrm{K^+}]_\text{in}}\right)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Na+/K+-ATPase moves 3 Na+ out</text>
+    </name>
+    <questiontext format="html">
+      <text>Na+/K+-ATPase moves 3 Na+ out and 2 K+ in per ATP. If a cell uses 100 ATP molecules solely for this pump, what is the net number of positive charges transported out of the cell?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Each pump cycle exports 3 positive charges (Na+) and imports 2 positive charges (K+), so the net is 1 positive charge moved outward per ATP.  For 100 ATP, net outward charge movement is 100 positive charges.  The other options reflect either assuming electroneutral exchange (0) or counting only Na+ export (300) or total ions moved (500, not listed) rather than net charge.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>100</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>200</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>300</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Hemoglobin shows cooperative binding because</text>
+    </name>
+    <questiontext format="html">
+      <text>Hemoglobin shows cooperative binding because binding at one site alters affinity at others. Which qualitative binding curve is expected for hemoglobin vs. myoglobin (O2 saturation vs. \(p\mathrm{O_2}\))?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hemoglobin’s quaternary structure enables allosteric coupling and cooperativity, producing a sigmoidal O2-binding curve.  Myoglobin is monomeric and lacks inter-subunit allostery, so it follows a hyperbolic binding profile.  Linear behavior is not expected because ligand binding saturates as sites fill.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Hemoglobin: sigmoidal; Myoglobin: hyperbolic</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hemoglobin: hyperbolic; Myoglobin: sigmoidal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both sigmoidal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both linear over physiological \(p\mathrm{O_2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In tissues with higher CO2</text>
+    </name>
+    <questiontext format="html">
+      <text>In tissues with higher CO2 and lower pH, hemoglobin releases O2 more readily. Which statement best captures the reason?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Bohr effect describes how increased \(\mathrm{H^+}\) (lower pH) and CO2 shift hemoglobin toward a low-affinity conformation, promoting O2 unloading in tissues.  Oxidation to Fe(III) would form methemoglobin and is a different phenomenon not required to explain normal physiological O2 release.  CO is the classic strong competitive ligand at heme iron; CO2 modulates affinity mainly through allosteric/proton-linked effects rather than irreversible site blocking.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lower pH stabilizes the T state, decreasing O2 affinity (Bohr effect)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Lower pH oxidizes heme Fe(II) to Fe(III), preventing O2 binding</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CO2 irreversibly blocks the heme site like CO</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CO2 increases O2 affinity by strengthening the Fe–O2 bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A protein electron transfer step</text>
+    </name>
+    <questiontext format="html">
+      <text>A protein electron transfer step is thermodynamically favorable when electrons move from:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Redox potential ranks the tendency to accept electrons; electrons flow spontaneously from a species with lower reduction potential to one with higher reduction potential under comparable conditions.  Distance and protein matrix control kinetics (rates), but they do not override the basic thermodynamic direction set by potentials.  Proton pumping is coupled in electron transport chains, but it does not define the intrinsic sign of electron-transfer driving force between two redox couples.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lower (more negative) redox potential donor to higher (more positive) redox potential acceptor</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Higher redox potential donor to lower redox potential acceptor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Any donor to any acceptor; only distance matters</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Any acceptor to any donor; only proton pumping matters</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which pair best matches “electron</text>
+    </name>
+    <questiontext format="html">
+      <text>Which pair best matches “electron transfer mediator” and “role” in bioenergetics?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Iron–sulfur clusters are classic electron-transfer cofactors that shuttle single electrons with tunable redox potentials in electron transport chains and enzymes.  Zn2+ in carbonic anhydrase is primarily catalytic for hydration chemistry (Lewis acid activation of water) rather than electron transfer.  Mg2+ commonly assists ATP-dependent phosphoryl transfer, while terminal O2 reduction is associated with respiratory chain components such as cytochrome oxidase rather than Mg-dependent kinases.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Iron–sulfur clusters; one-electron transfer between redox partners</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Zn2+ in carbonic anhydrase; long-range electron tunneling</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mg2+ in kinases; terminal O2 reduction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Vitamin B12 cobalt center; proton pumping across membranes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Nitrogenase contains MoFe and Fe</text>
+    </name>
+    <questiontext format="html">
+      <text>Nitrogenase contains MoFe and Fe proteins and is sensitive to oxygen. Which combination best explains why N2 reduction is biologically challenging?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Biological N2 fixation is difficult due to both thermodynamic/kinetic barriers of activating the strong N≡N bond and the need to coordinate multiple electron/proton transfers at the FeMo-co active site.  The nitrogenase system is also regulated and notably oxygen-sensitive, adding a key biological constraint.  The distractor options misstate the nature of N2 (it is inert), invoke incorrect metals (Zn) for nitrogenase chemistry, or contradict the bond-strength argument.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Strong N≡N bond demands multi-electron/proton delivery with tight control; enzyme is O2-sensitive</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>N2 is already highly reactive, so the problem is only to avoid over-reduction of metals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>N2 reduction requires Zn2+ to form a stable Zn–N2 adduct; oxygen prevents Zn binding</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction is fast but endothermic only because of weak N–N bonding</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best distinguishes the</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best distinguishes the molybdenum cofactor used broadly in Mo-enzymes (Moco) from the FeMo-cofactor of nitrogenase?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The syllabus distinguishes nitrogenase (with FeMo-co at the active site for N2-to-NH3 conversion) from other molybdenum enzymes that use a molybdenum cofactor (Moco) in oxidoreductase chemistry.  The cofactors are not identical and appear in different enzyme families with different mechanistic tasks.  Options C and D swap or misassign cofactors and metals relative to the known bioinorganic classifications emphasized in the unit.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Moco is a general Mo cofactor in oxidoreductases, while FeMo-co is a specialized cluster for N2 reduction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both are identical cofactors found in all molybdenum enzymes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>FeMo-co is used in sulfite oxidase, whereas Moco is used only in nitrogenase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Moco is a copper-containing cofactor, while FeMo-co contains only iron</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In carbonic anhydrase, Zn2+ assists</text>
+    </name>
+    <questiontext format="html">
+      <text>In carbonic anhydrase, Zn2+ assists CO2 hydration primarily by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Zinc metalloenzymes often use Zn2+ as a Lewis acid; in carbonic anhydrase it polarizes water and facilitates formation of a hydroxide that attacks CO2, accelerating conversion to bicarbonate.  Zn does not typically participate in biological redox cycling (unlike Fe or Cu centers) because Zn2+ is redox-inert under physiological conditions.  The “blue copper” description belongs to Type 1 copper centers, not Zn enzymes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lowering the pKa of coordinated water to generate Zn–OH as a nucleophile</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Undergoing Zn2+/Zn3+ redox cycling to activate CO2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Binding CO2 irreversibly to store it in the active site</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Providing a Type 1 “blue copper” electron-transfer site</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Cu/Zn superoxide dismutase contains</text>
+    </name>
+    <questiontext format="html">
+      <text>A Cu/Zn superoxide dismutase contains both copper and zinc. Which assignment of roles is most consistent with bioinorganic function?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In metalloenzymes, copper commonly serves as the redox-active center (Cu(I)/Cu(II)) for electron transfer chemistry, while zinc often plays a structural/Lewis-acid role and helps organize the active-site environment.  The unit explicitly groups copper enzymes with electron-transfer roles and zinc enzymes with structural/catalytic (non-redox) functions, supporting this division of labor.  Options B–D contradict these typical oxidation-state capabilities and the functional classification highlighted in the copper and zinc metalloenzyme sections.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e97c6845-56f8-4fc5-92b8-e32adaf1fcea/inorganic_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Copper performs redox chemistry; zinc mainly stabilizes structure/active-site geometry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Zinc performs redox chemistry; copper is purely structural</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both copper and zinc must cycle oxidation states for catalysis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Neither metal participates; the protein backbone alone catalyzes dismutation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>In the Monsanto acetic acid</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Monsanto acetic acid process (Rh-catalyzed carbonylation), the catalytic cycle explicitly features which paired elementary steps as highlighted in the syllabus outline?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Monsanto process is presented as a Rh-based carbonylation cycle in which oxidative addition and CO insertion are key elementary organometallic steps used to build the acyl functionality leading to acetic acid.  Oxidative addition is consistent with increasing metal oxidation state/coordination number and is one of the named elementary reactions emphasized for catalytic cycles in organometallic chemistry.  CO migratory insertion is the characteristic step that converts a metal–alkyl (or related) bond into a metal–acyl linkage, which aligns with carbonylation chemistry.  β-hydride elimination is discussed in the context of metal–alkyl stability and is central to some oxidation/hydride chemistry, but it is not the defining pair of steps highlighted for Monsanto carbonylation in the provided outline.  Purely radical abstraction or “ligand rotation only” does not capture the named mechanistic framework of oxidative addition/insertion used in organometallic catalytic cycles.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Oxidative addition followed by CO migratory insertion</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reductive elimination followed by β-hydride elimination</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>σ-bond metathesis followed by radical abstraction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Associative substitution followed by ligand rotation only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Olefin metathesis is taught as</text>
+    </name>
+    <questiontext format="html">
+      <text>Olefin metathesis is taught as proceeding through metal–carbene intermediates, and the syllabus explicitly contrasts Grubbs and Schrock catalysts.  Which statement best matches the mechanistic implication of this emphasis?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The outline explicitly connects metathesis to metal–carbene complexes and names Grubbs and Schrock catalysts, which signals that a metal–carbene intermediate is central to C=C bond rearrangement.  This framing distinguishes metathesis from catalytic manifolds dominated by oxidative addition/reductive elimination at a metal center acting mainly on σ-bonds.  β-hydride elimination is an important elementary step for metal–alkyl complexes, but it does not explain the hallmark exchange of alkylidene fragments and redistribution of C=C bonds in metathesis.  The syllabus places metathesis under homogeneous catalysis topics, so “must be heterogeneous” is inconsistent with the stated categorization.  Denying metal–carbon bond formation contradicts the stated involvement of metal–carbene species, which are defined by strong metal–carbon multiple-bond character.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The key bond reorganization involves a metal–carbene-mediated interchange of C=C fragments rather than a simple oxidative addition/reductive elimination pair on a saturated alkyl.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The key step is always β-hydride elimination from a metal–alkyl to generate the new alkene distribution.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The catalyst must be heterogeneous and surface-bound for metathesis to occur.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Metathesis proceeds without any metal–carbon bond formation at any point in the cycle.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>\(\mathrm{Fe(CO)_5}\) is listed as a</text>
+    </name>
+    <questiontext format="html">
+      <text>\(\mathrm{Fe(CO)_5}\) is listed as a classic example in the fluxionality section.  Which interpretation best explains why room-temperature NMR can show fewer distinct CO environments than expected from a static trigonal-bipyramidal structure?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The fluxionality topic is defined as dynamic intramolecular rearrangement observable by NMR, and \(\mathrm{Fe(CO)_5}\) is specifically listed as a representative example.  When exchange is fast relative to the NMR timescale, nuclei in distinct sites become time-averaged, giving fewer signals and often a single averaged resonance set at sufficiently high temperature.  Permanent dissociation/reassociation would imply a different chemical speciation rather than classic fluxional averaging and is not required to explain the NMR behavior emphasized in the fluxionality section.  Diamagnetism changes do not inherently collapse inequivalent-site resonances into one unless an exchange process averages them, and the provided framework points to dynamics rather than spin-state switching.  IR selection rules govern vibrational transitions and do not directly force NMR coalescence, which is tied to chemical exchange kinetics and coalescence behavior described in the NMR-focused fluxionality content.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Rapid intramolecular rearrangement exchanges axial and equatorial positions on the NMR timescale, averaging environments.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CO ligands permanently dissociate and reassociate, changing the molecular formula during measurement.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The complex becomes diamagnetic only at high temperature, which collapses peaks by changing spin state.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>IR spectroscopy selection rules directly force NMR signals to merge.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Hydroformylation is emphasized with “linear</text>
+    </name>
+    <questiontext format="html">
+      <text>Hydroformylation is emphasized with “linear vs branched aldehydes” and “ligand effects on selectivity and activity.”  Which statement best captures how ligand choice is used mechanistically in such a catalytic cycle?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The hydroformylation learning objectives explicitly connect regioselectivity (linear vs branched aldehydes) with ligand effects on selectivity and activity, implying ligands control key coordination and insertion steps in the catalytic cycle.  In organometallic reaction language, such control is naturally discussed in terms of how ligands affect binding modes, migratory insertion preferences, and the relative rates of competing pathways.  Treating ligands as merely cosmetic contradicts the stated focus on ligand effects as a conceptual learning point.  Hydroformylation is categorized under homogeneous catalysis in the outline, so attributing selectivity primarily to heterogeneous surface growth conflicts with the given context.  CO is a core reagent in hydroformylation as presented in the mechanism-focused section headings, so claiming ligands remove the need for CO misrepresents the process emphasis.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Ligands tune the steric/electronic environment at the metal to bias alkene coordination/insertion pathways, shifting the linear-to-branched aldehyde ratio.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ligands only change the color of the catalyst solution and do not affect regioselectivity.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ligands enforce heterogeneous surface growth, which is the primary cause of linear selectivity.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ligands eliminate the need for CO in hydroformylation by generating CO in situ from the alkene.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Ziegler–Natta polymerization is presented with</text>
+    </name>
+    <questiontext format="html">
+      <text>Ziegler–Natta polymerization is presented with “olefin insertion into Ti–carbon bond,” “coordination control,” and “tacticity control.”  Which statement best integrates these ideas into a mechanistic rationale for stereospecificity?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The outline explicitly ties stereospecific polymerization to olefin insertion into a Ti–C bond and highlights coordination control and tacticity, which together indicate that active-site geometry governs monomer approach and orientation during each insertion step.  This is a direct mechanism-level explanation for how isotactic, syndiotactic, or atactic outcomes can arise from catalyst-controlled propagation rather than from post-processing.  Monomer optical activity is not required for tacticity control in the framework presented, because the focus is on catalyst-based stereocontrol at coordination/insertion.  Thermal annealing can change crystallinity and morphology, but it cannot retroactively impose a stereochemical sequence that was not created during chain propagation.  The text emphasizes an insertion mechanism at a transition-metal center rather than free-radical chain growth, so a purely radical pathway contradicts the stated mechanistic focus.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A chiral or stereoregulating environment at the active site controls how the alkene coordinates before repeated insertions into the metal–carbon bond, producing tactic polymers.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stereospecificity arises mainly because the monomer is optically active, independent of the catalyst.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Tacticity is determined after polymerization by thermal annealing, not during chain growth.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The polymer grows by radical chain reactions in solution, so insertion into a metal–carbon bond is not involved.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The 18-electron rule in organometallic</text>
+    </name>
+    <questiontext format="html">
+      <text>The 18-electron rule in organometallic chemistry is best stated as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The 18-electron rule is an electron-counting stability guideline stating that many stable transition-metal organometallic complexes achieve a total of 18 valence electrons at the metal center (metal electrons plus electrons donated by ligands).  The +18 oxidation state idea is not chemically meaningful for these systems, and “18 d-electrons” confuses total valence electron count with only d-electrons.  Stability is not determined by having 18 ligands; typical complexes have far fewer ligands and still satisfy (or violate) the 18-electron guideline depending on electron donation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Complexes are most stable when the metal valence shell has 18 electrons (metal + ligand donation), similar in spirit to the octet rule</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complexes are most stable when the metal oxidation state is +18</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complexes are most stable only when the metal has 18 d-electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complexes are most stable when there are exactly 18 ligands around the metal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The total valence electron count</text>
+    </name>
+    <questiontext format="html">
+      <text>The total valence electron count at Fe in Fe(CO)5 (neutral/covalent counting) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In neutral counting, Fe contributes 8 valence electrons (group 8 metal), and each CO donates 2 electrons as an L-type ligand, so \(8 + 5\times 2 = 18\).  Getting 16 usually comes from forgetting one CO donation or using an inconsistent counting method.  Getting 20 typically results from double-counting ligand donation or incorrectly treating CO as a 4-electron donor.  Getting 14 is a larger undercount that does not match the standard electron-counting approach for metal carbonyls.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>16</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>18</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>20</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>14</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Stronger metal-to-CO π backbonding in</text>
+    </name>
+    <questiontext format="html">
+      <text>Stronger metal-to-CO π backbonding in a metal carbonyl typically causes the CO stretching frequency in IR to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>π backbonding involves donation of electron density from metal dπ orbitals into the π* orbitals of CO, which weakens the internal C–O bond and lowers the IR stretching frequency.  An increase in frequency would correspond to a stronger C–O bond, which is opposite to the effect of enhanced π backbonding.  CO is not a spectator in metal carbonyls because backbonding strongly affects bonding and spectroscopy, and the CO stretch does not vanish simply due to coordination.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increase, because the C–O bond becomes stronger</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Decrease, because the C–O bond order is reduced</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Remain unchanged, because CO is a “spectator” ligand</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Disappear completely, because CO becomes IR-inactive</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In organometallic notation, η5 (eta-five)</text>
+    </name>
+    <questiontext format="html">
+      <text>In organometallic notation, η5 (eta-five) hapticity for a cyclopentadienyl ligand most directly means:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hapticity (ηn) describes how many atoms of a π-bonded ligand are simultaneously coordinated to the metal, and η5 indicates coordination through five atoms (as in the Cp ring of metallocenes).  It does not mean donation of five lone pairs, nor does it describe five different ligands making sigma bonds.  Hapticity notation is not an oxidation-state label and does not fix the metal oxidation state to a particular value.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The ligand binds through five contiguous atoms to the metal center</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The ligand donates five lone pairs to the metal center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The ligand forms five separate sigma bonds from five different ligands</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The ligand forces the metal to have oxidation state +5</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Dewar–Chatt–Duncanson model for metal–olefin</text>
+    </name>
+    <questiontext format="html">
+      <text>The Dewar–Chatt–Duncanson model for metal–olefin bonding emphasizes which combination of interactions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the Dewar–Chatt–Duncanson description, an alkene donates electron density from its filled π orbital to the metal (σ-type interaction) and the metal can backdonate from d orbitals into the alkene π* orbital (π backbonding), stabilizing the complex.  A purely ionic picture misses the key donor–acceptor orbital interactions used to explain bonding and reactivity in metal–olefin complexes.  Omitting either the donation or backdonation half of the model gives an incomplete bonding description for many metal–olefin systems.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>σ donation from olefin to metal and π backdonation from metal to olefin π*</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Purely ionic attraction between a positively charged metal and a negatively charged olefin</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only π donation from olefin to metal with no backbonding component</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only σ donation from metal to olefin with no donation from the olefin</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An alkyl ligand that is</text>
+    </name>
+    <questiontext format="html">
+      <text>An alkyl ligand that is intrinsically incapable of undergoing β-hydride elimination (for structural reasons) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>β-hydride elimination requires at least one hydrogen on the β-carbon (the carbon adjacent to the metal-bound carbon), but a methyl group has no β-carbon at all, so the process cannot occur.  Ethyl and isopropyl have β-hydrogens available, so β-hydride elimination is possible in principle.  tert-Butyl has β-carbons (the methyl groups) bearing hydrogens, so it is not intrinsically forbidden by “no β-H,” even though steric and geometric factors may affect feasibility in real complexes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>M–CH3 (metal–methyl)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>M–CH2CH3 (metal–ethyl)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>M–CH(CH3)2 (metal–isopropyl)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>M–C(CH3)3 (metal–tert-butyl)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A key characteristic more typical</text>
+    </name>
+    <questiontext format="html">
+      <text>A key characteristic more typical of Fischer-type metal carbenes (rather than Schrock-type) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fischer carbenes are commonly described as having an electrophilic carbene carbon and are often associated with features consistent with lower-valent, π-backbonding-capable metals and stabilizing substituents.  The nucleophilic-carbene, early-metal, high-oxidation-state description aligns with Schrock-type carbenes rather than Fischer-type.  Being a metallocene is not required for carbene chemistry, and a metal carbene is defined by a metal–carbon multiple-bond interaction rather than a free (unbound) carbene.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Carbene carbon is electrophilic, commonly stabilized by heteroatom substituents, and associated with relatively low-valent metals</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Carbene carbon is strongly nucleophilic, typically on early high-valent metals, and lacks π-acceptor stabilization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The complex must always be a metallocene (Cp2M)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The carbene carbon is always a free singlet carbene not bonded to a metal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Fluxionality in organometallic complexes is</text>
+    </name>
+    <questiontext format="html">
+      <text>Fluxionality in organometallic complexes is most directly evidenced (and quantified) by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fluxionality refers to rapid intramolecular rearrangements that can average distinct environments on the NMR timescale, and variable-temperature NMR can show coalescence and allow extraction of kinetic information.  UV–Vis may change for many unrelated reasons and does not uniquely diagnose fluxional averaging of nuclear environments.  Mass spectrometry and elemental analysis do not track rapid, reversible intramolecular rearrangements in solution on the relevant timescale.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Variable-temperature NMR showing signal coalescence due to rapid intramolecular rearrangements</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only UV–Vis spectroscopy showing color change with time</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only mass spectrometry showing different isotopic patterns</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only elemental analysis showing changing percent composition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an oxidative addition step</text>
+    </name>
+    <questiontext format="html">
+      <text>In an oxidative addition step at a transition-metal center, the most typical changes are:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Oxidative addition adds fragments (often two new ligands derived from one substrate) to the metal, commonly increasing the metal oxidation state and increasing the coordination number.  A simultaneous decrease in oxidation state and coordination number corresponds more to reductive elimination than oxidative addition.  The coordination number change is not inherently “+4,” and decreasing coordination number contradicts the defining feature of adding groups to the metal center in oxidative addition.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Increase in metal oxidation state and increase in coordination number</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Decrease in metal oxidation state and decrease in coordination number</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No change in oxidation state, but coordination number increases by 4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidation state increases, but coordination number must decrease</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A typical Ziegler–Natta catalyst system</text>
+    </name>
+    <questiontext format="html">
+      <text>A typical Ziegler–Natta catalyst system for alkene polymerization uses:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Ziegler–Natta polymerization commonly uses a titanium halide (such as TiCl4) together with an alkylaluminum cocatalyst to generate active sites for stereospecific alkene insertion.  The PdCl2/CuCl2-type system is characteristic of olefin oxidation chemistry rather than Ziegler–Natta polymerization.  RhCl(PPh3)3 is best known as a homogeneous hydrogenation catalyst, and Fe(CO)5 is a metal carbonyl not used as the standard Ziegler–Natta catalyst pair.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>TiCl4 with an organoaluminum cocatalyst such as AlEt3</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>PdCl2 with CuCl as reoxidant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>RhCl(PPh3)3 with H2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Fe(CO)5 with excess CO</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Using the neutral (covalent) electron-counting</text>
+    </name>
+    <questiontext format="html">
+      <text>Using the neutral (covalent) electron-counting method, the total valence electron count at Fe in \(\mathrm{Fe(\eta^5\!-\!C_5H_5)(CO)_2CH_3}\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In neutral counting, Fe contributes 8 electrons (group 8 metal).  The \(\eta^5\)-cyclopentadienyl ligand contributes 5 electrons, each CO contributes 2 electrons, and the methyl (alkyl) contributes 1 electron, giving \(8 + 5 + 2+2 + 1 = 18\).  The 16-electron result typically comes from incorrectly treating Cp as a 6-electron donor in the neutral method or forgetting the alkyl contribution.  The 17-electron result usually comes from dropping one electron contribution (often the alkyl) or mixing ionic and neutral conventions.  The 20-electron result generally reflects double-counting the Cp donation or assigning incorrect electron donation numbers.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>16</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>17</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>18</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>20</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The formal oxidation state of</text>
+    </name>
+    <questiontext format="html">
+      <text>The formal oxidation state of Mn in \(\mathrm{[Mn(CO)_5Br]}\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In oxidation-state assignment for organometallics, CO is treated as a neutral ligand, while bromide is treated as \(\mathrm{Br^-}\).  Since the overall complex is neutral, the metal must balance the −1 charge from bromide, so Mn is +1.  Assigning Mn as 0 incorrectly treats bromide as neutral, and +2 would require an additional anionic ligand or overall positive charge.  A −1 oxidation state would require the ligand set to be net positive (not the case here).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>+1</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>+2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>−1</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an oxidative addition of</text>
+    </name>
+    <questiontext format="html">
+      <text>In an oxidative addition of \(\mathrm{H_2}\) to a 16-electron square-planar \(\mathrm{d^8}\) complex (typical late metal chemistry), the electron count at the metal center most commonly becomes:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Oxidative addition adds two new metal–ligand bonds and typically increases both oxidation state and coordination number.  In electron-counting terms, adding \(\mathrm{H_2}\) as two hydride ligands commonly increases the metal valence electron count by 2, converting a 16-electron species to an 18-electron species.  A drop to 14 would correspond to ligand loss or reductive elimination-like behavior rather than oxidative addition.  A final count of 20 would exceed the common 18-electron stability guideline for many low-spin organometallic complexes and usually indicates incorrect counting.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>14 electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>16 electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>18 electrons</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>20 electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A metal–alkyl complex \(\mathrm{M{-}CH_2CH_3}\) undergoes</text>
+    </name>
+    <questiontext format="html">
+      <text>A metal–alkyl complex \(\mathrm{M{-}CH_2CH_3}\) undergoes β-hydride elimination to give a metal hydride and an alkene. The alkene formed is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>β-hydride elimination removes a hydrogen from the β-carbon (the carbon adjacent to the metal-bound carbon) and forms a C=C bond between the α and β carbons while generating \(\mathrm{M{-}H}\).  For an ethyl ligand (\(\mathrm{-CH_2CH_3}\)), the α–β pair is exactly two carbons, so the resulting alkene is ethene (\(\mathrm{CH_2{=}CH_2}\)).  Methane would correspond to protonation/hydrogenolysis, propene would require a three-carbon chain, and ethyne would require a different elimination pathway that creates a triple bond.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Methane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Ethene</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Propene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ethyne</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a metal carbonyl series</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a metal carbonyl series where the metal oxidation state becomes more negative (more electron-rich metal center). The \(\nu_{\mathrm{CO}}\) stretching frequency in IR is expected to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Increased electron density at the metal generally enhances metal-to-CO π backbonding into CO π* orbitals, weakening the C–O bond.  Weakening the internal C–O bond lowers the CO stretching frequency, so \(\nu_{\mathrm{CO}}\) decreases.  An increase would be consistent with less backbonding and a stronger C–O bond, which contradicts the electron-rich metal premise.  The number of CO ligands matters for patterns, but the frequency is strongly influenced by bonding (especially backbonding), and vibrational motion does not vanish upon coordination.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increase due to reduced backbonding</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Decrease due to increased backbonding</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stay constant because \(\nu_{\mathrm{CO}}\) depends only on the number of CO ligands</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Become zero because CO no longer vibrates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Dewar–Chatt–Duncanson model, stronger</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Dewar–Chatt–Duncanson model, stronger metal→olefin π backdonation most directly leads to which change in the coordinated alkene?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>π backdonation populates the olefin π* orbital, reducing the C=C bond order and therefore lengthening the C=C bond.  Reduced bond order typically lowers the C=C stretching frequency relative to the free alkene.  Claiming “no change” ignores the central predictive value of the model for structure–bonding correlations in metal–olefin complexes.  Formation of an alkane requires additional reaction steps (such as hydrogenation) and is not an automatic consequence of coordination alone.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Shorter C=C bond and higher C=C stretching frequency</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Longer C=C bond and lower C=C stretching frequency</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No change in C=C bond length; only metal–carbon bonds change</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conversion of the alkene into an alkane without any reaction step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student proposes that in</text>
+    </name>
+    <questiontext format="html">
+      <text>A student proposes that in a catalytic cycle, “migratory insertion of CO into a metal–alkyl bond” directly forms:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Migratory insertion of CO into a metal–alkyl bond inserts CO between the metal and the alkyl group, converting \(\mathrm{M{-}R}\) into an acyl linkage \(\mathrm{M{-}C(O)R}\).  A metal–alkoxide would typically arise from insertion of an oxygen-containing molecule or from nucleophilic attack on a coordinated CO followed by further transformations, not the elementary CO insertion step itself.  Metal hydride formation is more directly tied to steps like oxidative addition of \(\mathrm{H_2}\), β-hydride elimination, or hydride transfer processes.  Metal carbenes are characteristic intermediates in carbene chemistry and metathesis, not the standard direct outcome of CO insertion into an alkyl bond.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A metal–alkoxide (M–OR)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A metal–acyl (M–C(O)R)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A metal–hydride (M–H)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A metal–carbene (M=CR2)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A complex shows two distinct</text>
+    </name>
+    <questiontext format="html">
+      <text>A complex shows two distinct ligand environments at low temperature in NMR, but only one averaged signal at higher temperature due to fluxionality. The temperature at which the two signals merge into one is called:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fluxional organometallic complexes can undergo rapid intramolecular rearrangements that average NMR environments on the NMR timescale.  The specific temperature where two separate resonances merge into a single resonance is termed the coalescence temperature and is used along with models to estimate rate constants.  Decomposition temperature is unrelated to dynamic exchange averaging, and melting/boiling points are bulk phase-change properties not defined by NMR line-shape behavior.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Decomposition temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Coalescence temperature</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Melting point</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Boiling point</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Wacker-type Pd-catalyzed oxidation</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Wacker-type Pd-catalyzed oxidation of an alkene, the role commonly attributed to \(\mathrm{CuCl_2}\) (or related copper salt) is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In Pd-catalyzed olefin oxidation (Wacker-type chemistry), the palladium center cycles between Pd(II) and Pd(0), and a reoxidant is needed to regenerate Pd(II).  Copper chloride is commonly used to reoxidize Pd(0) back to Pd(II), enabling turnover of the catalytic cycle.  Copper salts are not the alkene source, do not primarily generate metathesis carbenes in this context, and do not function as a heterogeneous solid support in the typical homogeneous Wacker system.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Act as the alkene source</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Reoxidize Pd(0) back to Pd(II) in the catalytic cycle</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Convert the alkene into a metal carbene for metathesis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Serve as the solid support for heterogeneous catalysis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Ziegler–Natta catalyst system is</text>
+    </name>
+    <questiontext format="html">
+      <text>A Ziegler–Natta catalyst system is best described as a combination of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Ziegler–Natta polymerization is taught as a heterogeneous catalytic system where titanium-based halides are activated by organoaluminum cocatalysts to form active centers that insert alkenes and control stereochemistry (tacticity).  Rhodium phosphine complexes are highlighted in homogeneous hydrogenation (Wilkinson-type) rather than Ziegler–Natta polymerization.  Iron/cobalt surface catalysts align with Fischer–Tropsch syngas conversion, and ruthenium carbene complexes align with olefin metathesis catalysis rather than Ziegler–Natta insertion polymerization.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A titanium halide and an alkylaluminum cocatalyst that generates active sites for olefin insertion polymerization</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A rhodium phosphine complex used mainly for alkene hydrogenation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An iron or cobalt surface catalyst used mainly for syngas-to-hydrocarbon conversion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A ruthenium carbene complex used mainly for C=C bond metathesis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

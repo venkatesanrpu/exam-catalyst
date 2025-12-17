@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student compares boranes (e.g]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student compares boranes (e.g., diborane-type bonding) with borazine \(\mathrm{B_3N_3H_6}\) and wants a single statement that best explains why the bonding descriptions emphasize multi-center bonding in boranes but aromaticity in borazine.]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Boranes are classic electron-deficient clusters where multi-center bonding (not enough electrons for all localized 2c–2e bonds) is central, so 3c–2e bonding language is used.  Borazine is a B–N hetero-ring whose bonding discussion highlights aromatic character and \(\pi\)-electron distribution (isoelectronic analogy to benzene), so aromaticity concepts become more appropriate than bridge bonding.  Option B reverses the key ideas (boranes are not described as electron-rich B=B systems, and borazine is not introduced as a 3c–2e bridge-bonded cluster).  Options C and D conflict with the unit’s focus on electron-deficient bonding/cluster rules for boranes and aromatic ring bonding for borazine.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Boranes are electron-deficient and stabilize via 3-center–2-electron bonds, whereas borazine has a delocalized \(\pi\) system in a B–N ring that is discussed using aromaticity concepts.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Boranes are electron-rich and therefore form B=B multiple bonds, whereas borazine is electron-deficient and must use 3-center–2-electron bonds.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both boranes and borazine are best described as purely ionic compounds, so bonding models are not needed.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Boranes and borazine are both metallic clusters, so band theory is the most appropriate description.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A materials scientist must choose]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A materials scientist must choose between h-BN and c-BN for two roles: a solid lubricant coating and a hard abrasive component, respectively.  Which pairing is most consistent with the structure–property reasoning emphasized for BN polymorphs and their carbon-allotrope analogies?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[h-BN is highlighted as a layered polymorph analogous to graphite, so it aligns with lubrication-type applications where easy shear between layers is advantageous.  c-BN is highlighted as the diamond-analog polymorph, aligning with hardness-driven abrasive applications.  Option A swaps these structure–property links, while C and D incorrectly claim “always hardest” or “always layered,” ignoring BN polymorphism and the distinct analogies to carbon allotropes.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[h-BN for abrasive; c-BN for lubricant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[h-BN for lubricant; c-BN for abrasive]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[h-BN for both because it is always the hardest BN form]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[c-BN for both because it is always layered like graphite]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Silicones and phosphazenes are both]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Silicones and phosphazenes are both treated as inorganic/poly-inorganic materials in this unit, but their backbone chemistry differs and that difference is used to rationalize distinct properties and reactivity patterns.  Which statement best integrates backbone type with expected chemical behavior?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The silicone module emphasizes Si–O backbones (linear/cyclic/cross-linked) produced via chlorosilane hydrolysis/condensation and related equilibration/cross-linking chemistry.  The phosphazene module emphasizes P–N ring/chain/cage frameworks and discusses bonding in terms of σ/π contributions and delocalization/resonance, connecting structure to polymer properties (e.g., stability/fire resistance themes).  Options B and C swap or erase the defining backbones, while D contradicts the unit’s explicit polymeric-structure framing for both families.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Silicones have an Si–O backbone formed via hydrolysis/condensation of chlorosilanes, while phosphazenes have a P–N framework where delocalization/resonance considerations are part of the bonding description.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both silicones and phosphazenes have identical Si–O backbones, but differ only in molecular weight.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Silicones are built from P–N rings that undergo ring-opening polymerization, whereas phosphazenes are built only from Si–O chains.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both are best treated as simple ionic lattices, so polymer concepts do not apply.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In silicate mineral chemistry, polymerization]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In silicate mineral chemistry, polymerization class and charge balance are linked: substitution within a framework must preserve electroneutrality and enables isomorphism/solid solutions.  Which scenario best matches that integrated idea?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The silicate unit emphasizes classification by \(\mathrm{SiO_4}\) connectivity (polymerization degree) and separately highlights “charge balance and cation substitution,” which is the basis for isomorphism and solid solution behavior in many silicate frameworks.  Substituting \(\mathrm{Al^{3+}}\) for \(\mathrm{Si^{4+}}\) introduces a charge deficit that is typically compensated by additional/interstitial cations, which is exactly the kind of reasoning tested under mineral chemistry and solid solutions.  Options B–D reflect common misconceptions: isolated tetrahedra are not “automatically neutral,” polymerization does not forbid cation substitution, and classification is not primarily by Si oxidation state (which is usually +4 in silicates).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[In a tectosilicate framework, replacing some \(\mathrm{Si^{4+}}\) by \(\mathrm{Al^{3+}}\) requires compensating cations to maintain charge balance, enabling cation substitution trends and solid solutions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In a nesosilicate, replacing \(\mathrm{Si^{4+}}\) by \(\mathrm{Al^{3+}}\) automatically increases negative charge but never requires compensation because isolated tetrahedra are always neutral.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Inosilicate chains cannot show isomorphism because polymerization prevents any cation substitution.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Silicate classification is determined only by the oxidation state of silicon, so substitution does not affect stoichiometry.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider how the unit connects]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider how the unit connects industrial synthesis (reaction conditions, catalysts, separations, and safety/environmental constraints) to equilibrium-limited processes such as ammonia production.  Which strategy best fits that integrated industrial-chemistry perspective for improving overall plant performance rather than just “pushing equilibrium”?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The industrial synthesis module emphasizes reaction conditions (temperature/pressure/catalysts), reactor design, separation/purification technologies, and environmental/safety considerations as a coupled optimization problem rather than a single-variable change.  This matches real process logic for equilibrium-limited systems (e.g., Haber–Bosch is explicitly listed) where catalysts address kinetics, conditions affect equilibrium/throughput, and recycle/separation improve overall conversion and product specs.  Options B–D each isolate one lever or assume unrealistic behavior (ignoring catalyst/kinetics, ignoring separation, or assuming complete single-pass conversion), contradicting the stated process-engineering focus.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/3d0aaf0d-87cb-4fac-abf3-4fe5e9c478f8/inorganic_unit_02.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Use suitable catalysts and optimized temperature/pressure, and combine the reactor with effective separation/recycle to improve yield and purity while managing safety/environmental constraints.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase temperature as high as possible to maximize conversion in all cases, and avoid separation units to reduce capital cost.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eliminate catalysts to prevent contamination, and rely only on very high pressure so kinetics are irrelevant.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Avoid recycling unreacted feed because equilibrium conversion is always 100% in industrial reactors.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

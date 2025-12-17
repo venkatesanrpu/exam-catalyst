@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An unknown crystalline coordination compound]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An unknown crystalline coordination compound is suspected to contain iron and also an organic ligand (possible carboxylate). A minimal, logically consistent combination that can (i) determine long-range crystal structure, (ii) distinguish Fe(II) vs Fe(III) and local electronic environment, and (iii) identify key ligand functional groups is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[X-ray crystallography is the direct structural method for long-range periodic order and crystal structure determination, using diffraction concepts and Bragg-type relationships.
+Mössbauer spectroscopy (notably Fe-57) is specifically suited to probing iron oxidation state and local environment through parameters such as isomer shift, quadrupole splitting, and magnetic hyperfine effects.
+FTIR identifies ligand functional groups via characteristic vibrational absorptions, providing complementary chemical-bond information to diffraction and Mössbauer local probes.
+The other combinations either miss long-range structure determination, lack a technique targeted to Fe/Sn nuclear environment, or do not directly provide functional-group vibrational signatures.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[X-ray crystallography + Mössbauer spectroscopy (Fe-57) + FTIR]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[UV–Visible + GC + ion-selective electrode]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[ESR + HPLC + TGA]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mass spectrometry + polarography + DTA]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In cyclic voltammetry, a redox]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In cyclic voltammetry, a redox couple shows a clear reduction peak on the forward scan, but the corresponding oxidation peak on the reverse scan becomes progressively smaller (and can disappear) as the scan rate is decreased. The most consistent mechanistic interpretation is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Cyclic voltammetry is used to diagnose reversible, quasi-reversible, and irreversible behavior and also coupled mechanisms such as EC/CE/EE.
+In an EC mechanism, electron transfer generates a product that is consumed by a chemical step, so at slower scan rates there is more time for the chemical reaction to proceed before the reverse scan, reducing the amount available to re-oxidize and thereby shrinking the reverse peak.
+A fully reversible couple without follow-up chemistry typically retains a strong return peak because the oxidized/reduced forms interconvert reversibly at the electrode on the CV timescale.
+Calling it purely capacitive ignores the presence of distinct faradaic peaks, and assigning electron count from peak appearance alone is not valid because kinetics and coupled chemistry also control peak shape.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A reversible electron transfer with no follow-up chemistry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[An EC mechanism where the electro-generated species undergoes a chemical reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A purely capacitive (non-faradaic) process with no redox chemistry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A system that must be two-electron because peak separation is observed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A Mössbauer spectrum of an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A Mössbauer spectrum of an Fe-containing solid shows a clear quadrupole-split doublet but no magnetic hyperfine splitting at the measurement temperature. The most defensible conclusion is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Mössbauer parameters include quadrupole splitting (linked to an electric field gradient at the nucleus) and magnetic hyperfine splitting (linked to internal magnetic fields and magnetic ordering).
+A quadrupole doublet indicates a non-zero electric field gradient, which typically arises from a non-cubic or electronically/structurally anisotropic environment at the Fe nucleus.
+Absence of magnetic splitting at a given temperature does not eliminate paramagnetism or Fe(III); it may simply indicate no static magnetic ordering (or fast relaxation) on the Mössbauer timescale under those conditions.
+Geometry assignment cannot be made uniquely from “doublet present” alone, because many non-cubic environments (including multiple coordination geometries) can produce quadrupole splitting.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The iron site experiences an electric field gradient but does not show magnetic ordering on the Mössbauer timescale]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The sample must be diamagnetic and cannot contain any Fe(III)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The material must be amorphous because crystalline solids always show magnetic splitting]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The spectrum proves the compound is tetrahedral because only tetrahedral sites show doublets]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For cubic crystals, reflection conditions]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For cubic crystals, reflection conditions are commonly used to infer lattice centering from systematic absences (allowed/forbidden sets of Miller indices), which is connected to the structure factor concept. Which statement is consistent with such reasoning?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[X-ray crystallography uses the structure factor idea to decide which reflections are allowed and explains systematic absences arising from additional lattice translations (centering) beyond a primitive lattice.
+For a body-centered cubic lattice, the extra translation leads to cancellation of scattering for reflections where \(h+k+l\) is odd, producing systematic absences in the diffraction pattern.
+A face-centered cubic lattice has a different selection rule (not “all even allowed only”), so claiming that all even sums are absent is the opposite of what centering rules imply.
+Systematic absences are not forbidden by cubic symmetry; they are a key diagnostic feature for identifying centering and space-group symmetry elements.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[In a body-centered cubic lattice, reflections with \(h+k+l\) odd are systematically absent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In a face-centered cubic lattice, reflections with \(h+k+l\) even are systematically absent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In a primitive cubic lattice, only reflections with all-even indices occur]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In any cubic lattice, systematic absences cannot occur because cubic symmetry forbids them]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In reversed-phase HPLC method development]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In reversed-phase HPLC method development for an ionizable analyte (weak acid or weak base), changing mobile-phase pH often produces large changes in retention. The best explanation is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[HPLC separation principles involve partitioning and selectivity; for ionizable compounds, the ionized and neutral forms have different interactions with the stationary phase, strongly impacting retention.
+Mobile-phase pH controls the equilibrium between ionized and unionized forms, so adjusting pH is a central lever in optimizing retention and selectivity during method development.
+Detector calibration influences measured signal intensity and quantitative response factors, but it does not create the fundamental chromatographic retention changes driven by analyte–phase interactions.
+Retention is not determined only by flow rate or molecular weight; chemical interactions, solvent composition, and analyte ionization state are core determinants of HPLC behavior.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e55afefa-596e-4a12-b284-48bde32e8986/inorganic_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Changing pH changes the fraction ionized, which changes polarity and hence partitioning between mobile and stationary phases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Changing pH directly changes the detector wavelength calibration, shifting retention time]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Changing pH affects only peak area, not retention, because retention is purely a function of flow rate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Changing pH is irrelevant in HPLC because separations are governed only by molecular weight]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

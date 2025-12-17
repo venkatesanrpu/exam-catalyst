@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Na+/K+-ATPase cycle, what]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Na+/K+-ATPase cycle, what is the net stoichiometry of ion movement per ATP hydrolyzed?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Na+/K+-ATPase is a primary active transporter that exports three sodium ions and imports two potassium ions for each ATP consumed, creating and maintaining transmembrane Na+ and K+ gradients.  These gradients are central to membrane potential and secondary transport processes in cells.  The options with reversed or equal stoichiometry are incorrect because they would not reproduce the known electrogenic 3:2 exchange that contributes to a net outward positive charge movement.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[3 Na+ out, 2 K+ in]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2 Na+ out, 3 K+ in]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1 Na+ out, 1 K+ in]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3 Na+ in, 2 K+ out]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Nernst potential for a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Nernst potential for a monovalent cation primarily relates which pair of quantities?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Nernst equation links the equilibrium membrane potential for an ion to its intracellular and extracellular concentrations and charge, reflecting the electrochemical driving force at equilibrium.  For a monovalent ion at temperature T, the equation is E = (RT/F) ln([ion]out/[ion]in), showing direct dependence on concentration ratio and ionic valence.  Other options describe kinetic or energetic parameters not captured by the equilibrium form of the Nernst relation.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Membrane potential and concentration gradient of the ion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[ATP hydrolysis free energy and ion flux rate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Temperature and membrane capacitance]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Channel conductance and gating kinetics]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which protein exhibits cooperative oxygen]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which protein exhibits cooperative oxygen binding under physiological conditions?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hemoglobin displays sigmoidal O2-binding behavior due to allosteric T↔R transitions between subunits, enabling cooperative loading and unloading in tissues and lungs.  Myoglobin binds O2 hyperbolically without cooperativity because it is a monomer and lacks inter-subunit allostery.  Cytochrome c and carbonic anhydrase are not O2 storage/transport proteins and do not exhibit cooperative O2 binding.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Hemoglobin]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Myoglobin]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cytochrome c]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Carbonic anhydrase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[According to the Bohr effect]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[According to the Bohr effect, how does a decrease in pH affect hemoglobin’s oxygen affinity?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Lower pH and higher CO2 stabilize the T state of hemoglobin, reducing oxygen affinity and shifting the dissociation curve to the right to favor O2 release in metabolically active tissues.  This allosteric regulation enables physiological matching of O2 delivery to tissue demand.  Statements suggesting increased affinity or unchanged affinity contradict the established direction of the Bohr effect.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Affinity decreases, shifting the O2 curve to the right]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Affinity increases, shifting the O2 curve to the left]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Affinity remains unchanged, but capacity increases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Affinity and capacity both increase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Cytochrome c oxidase corresponds to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Cytochrome c oxidase corresponds to which mitochondrial respiratory chain complex?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Cytochrome c oxidase is Complex IV, the terminal oxidase that accepts electrons from cytochrome c and reduces O2 to water while contributing to proton pumping.  Complexes I–III handle upstream steps: NADH dehydrogenase (I), succinate dehydrogenase (II), and cytochrome bc1 complex (III).  Assigning cytochrome c oxidase to I–III is incorrect because these complexes have distinct subunit compositions and redox cofactors.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Complex IV]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Complex I]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Complex II]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Complex III]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The active site cofactor directly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The active site cofactor directly responsible for N2 reduction in molybdenum nitrogenase is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The FeMo-cofactor (FeMo-co) is the unique multimetallic cluster at the nitrogenase active site where N2 is reduced to NH3 under ATP-dependent conditions.  Alternatives such as heme a3 and simple [2Fe-2S] clusters do not perform N2 fixation chemistry in nitrogenase.  A molybdopterin-free Mo aqua complex is not the biological cofactor and lacks the required electronic structure for multi-electron/proton transfer to N2.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[FeMo-cofactor containing Mo, Fe, S, and homocitrate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heme a3 binuclear center]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Molybdopterin-free Mo6+ aqua complex]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Single [2Fe-2S] cluster without Mo]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which is a common iron–sulfur]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which is a common iron–sulfur cluster motif used for biological electron transfer?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Iron–sulfur clusters such as [2Fe-2S] and [4Fe-4S] are ubiquitous protein cofactors that mediate one-electron transfers through tunable redox potentials.  Porphyrin Fe(III) refers to heme centers, Mn4CaO5 is the oxygen-evolving cluster of photosystem II, and CuA is a binuclear copper site; these are not Fe–S motifs.  The prevalence and modularity of Fe–S clusters make them central to electron transfer chains and metabolic enzymes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[[4Fe-4S]]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Porphyrin Fe(III)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mn4CaO5]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[CuA binuclear site]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The central metal ion in]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The central metal ion in vitamin B12 (cobalamin) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Cobalamin contains a cobalt ion coordinated within a corrin macrocycle, supporting methyl transfer and radical-based rearrangement chemistry in enzymes.  Iron and zinc are key biological metals but are not the macrocyclic center in vitamin B12.  Nickel features in other metalloenzymes (e.g., some hydrogenases) but not in cobalamin.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Cobalt]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Iron]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Zinc]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nickel]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A defining property of Type]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A defining property of Type 1 copper centers in proteins is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Type 1 copper centers (blue copper proteins) show intense blue absorption due to strong thiolate (Cys)–Cu charge-transfer and are optimized for fast long-range electron transfer.  Binuclear O2-binding behavior is characteristic of Type 3 copper sites such as in tyrosinase, not Type 1.  Sulfur ligation is a hallmark of Type 1 sites, and superoxide dismutase involves a distinct Cu/Zn heterodimer where copper cycles redox states while zinc plays a structural role.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Intense blue color with rapid electron transfer in blue copper proteins]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Binuclear O2-binding site that forms peroxo intermediates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Absence of sulfur ligation and purely nitrogen coordination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exclusive role in superoxide dismutation with zinc]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In carbonic anhydrase, the primary]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In carbonic anhydrase, the primary catalytic role of the Zn2+ center is to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Zn2+ in carbonic anhydrase coordinates water and histidines, lowering the pKa of water to form hydroxide that rapidly attacks CO2 to yield bicarbonate.  Zinc does not bind or transport O2 in this enzyme, nor does it undergo redox cycling because Zn remains in the +2 oxidation state.  Carbonic anhydrase is a hydrolase, not an electron transfer protein in the respiratory chain.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e97c6845-56f8-4fc5-92b8-e32adaf1fcea/inorganic_unit_09.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Polarize and deprotonate bound water to generate a nucleophilic hydroxide for CO2 hydration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bind O2 reversibly and transport it to tissues]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Undergo redox cycling between Zn2+ and Zn3+ during catalysis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Serve as an electron carrier in the respiratory chain]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

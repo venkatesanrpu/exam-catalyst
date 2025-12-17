@@ -1,0 +1,1086 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Consider the conjugate pair relationship</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider the conjugate pair relationship and the equilibrium link \(K_a \times K_b = K_w\). If acid strength increases along a series of acids \(HA_1, HA_2, HA_3\) (so \(K_a\) increases), which statement must be true for the conjugate bases \(A_1^-, A_2^-, A_3^-\) in the same solvent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a conjugate acid–base pair in a given solvent, the equilibrium relationship \(K_a \times K_b = K_w\) links acid strength and conjugate base strength.
+If \(K_a\) increases while \(K_w\) is fixed for that solvent, \(K_b\) must decrease correspondingly, meaning a stronger acid has a weaker conjugate base.
+The idea that both \(K_a\) and \(K_b\) increase together contradicts the conjugate-pair inverse relationship emphasized in Brønsted–Lowry equilibrium analysis.
+The claim that \(K_b\) must be constant misuses the constancy of \(K_w\); \(K_w\) being constant forces reciprocal change between \(K_a\) and \(K_b\), not invariance of either.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(K_b\) increases in the same order as \(K_a\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(K_b\) decreases in the same order as \(K_a\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(K_b\) remains constant because \(K_w\) is constant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(K_b\) changes unpredictably and cannot be inferred from \(K_a\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a weak acid–strong base</text>
+    </name>
+    <questiontext format="html">
+      <text>In a weak acid–strong base titration, the curve shows a buffer region and a half-equivalence point. Which reasoning best explains why the half-equivalence point satisfies \(pH = pK_a\) without requiring detailed equilibrium solving?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a weak acid–strong base titration, before equivalence a buffer mixture of HA and \(A^-\) forms, creating the characteristic buffer region described in the titration-curve discussion.
+At half-equivalence, stoichiometry ensures moles of HA remaining equal moles of \(A^-\) produced, giving \([A^-]=[HA]\) in the mixture.
+Applying Henderson–Hasselbalch to the buffer then makes the ratio term \(\log([A^-]/[HA])=\log(1)=0\), so \(pH=pK_a\).
+Assuming pH = 7 confuses this system with strong acid–strong base titrations where the equivalence point is neutral, and invoking complete ionization or full hydrolysis is inconsistent with weak-acid behavior.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>At half-equivalence, \([H^+]=[OH^-]\), so pH must be 7</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>At half-equivalence, \([A^-]=[HA]\), so Henderson–Hasselbalch gives \(pH=pK_a\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>At half-equivalence, the acid is completely ionized, so pH depends only on the initial concentration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>At half-equivalence, the conjugate base hydrolyzes fully, so pH equals \(pK_b\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>HSAB theory links stability trends</text>
+    </name>
+    <questiontext format="html">
+      <text>HSAB theory links stability trends to hardness/softness and polarizability. Which scenario best illustrates a case where HSAB reasoning is strengthened by an orbital interaction argument (not purely electrostatics)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>HSAB classification uses hardness/softness and emphasizes polarizability as a key contributor to “soft” behavior.
+Soft acids and soft bases often gain additional stabilization when bonding has significant covalent character, which is consistent with the related idea that softness correlates with polarizability and favorable orbital interactions such as π-effects.
+Treating stability as only a function of charge ignores the HSAB distinction between hard (more ionic) and soft (more covalent/polarizable) interactions.
+Arrhenius theory is explicitly limited in scope, and equating Brønsted strength with Lewis strength across all media contradicts the broader Lewis framework and solvent-dependence highlighted in the learning path.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A hard metal ion forms a stable complex only because it is highly charged</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A soft metal center forms especially stable complexes with ligands capable of π-interactions (including π-backbonding)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Any acid–base interaction is predicted correctly by Arrhenius theory in water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A strong Brønsted acid is always a strong Lewis acid in all solvents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A solvent can show leveling</text>
+    </name>
+    <questiontext format="html">
+      <text>A solvent can show leveling and differentiating behavior in acid–base chemistry, tied to solvent autoionization and its ability to stabilize ions. Which statement best captures the key implication of the leveling effect for comparing very strong acids in that solvent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Solvent effects on acid–base behavior are tied to solvent autoionization and to protogenic/protophilic character, which control how far proton transfer proceeds.
+In a leveling solvent, acids stronger than the solvent’s conjugate acid are effectively converted to that common acidic species, making them appear similarly strong within that solvent.
+This reduces the ability to distinguish among very strong acids in that medium, which is the opposite of “differentiating” behavior.
+Assuming \(K_a\) is solvent-independent contradicts the stated solvent effects on equilibria (ion pairing, hydrogen bonding, dielectric influences) that can shift apparent acid strengths.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Very strong acids are distinguished more clearly because the solvent suppresses proton transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Very strong acids appear similarly strong because they are converted to the solvent’s strongest acidic species</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Weak acids become strong because the solvent always donates protons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(K_a\) values become solvent-independent, so acid strengths become intrinsic constants</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For oxyacids of the same</text>
+    </name>
+    <questiontext format="html">
+      <text>For oxyacids of the same central atom (for example, chlorine oxyacids), acid strength trends are rationalized using oxygen count and oxidation state arguments (Pauling-type reasoning). Which qualitative trend is consistent with that framework?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning path emphasizes oxoacid strength relationships using Pauling-type rules and the effect of oxygen atoms and oxidation state for predicting pKa trends.
+Adding more oxygen atoms generally increases electron withdrawal and stabilizes the conjugate base through delocalization/inductive effects, which increases acidity.
+Saying acidity decreases with more oxygen confuses the basicity of isolated oxide with the net electron-withdrawing and conjugate-base stabilization effects in oxyanions.
+Claiming acid strength is constant because the proton is on oxygen ignores the documented role of oxidation state and structural stabilization factors in oxoacid acidity trends.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/346f13fa-33ff-490a-9a60-0aa4e5b11115/inorganic_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Acid strength decreases as the number of oxygen atoms increases because O is basic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Acid strength increases as the number of oxygen atoms increases because the conjugate base is better stabilized</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Acid strength is constant because the acidic proton is always on an O–H bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Acid strength depends only on the H–O bond length and not on oxidation state or substituent effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best defines a</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best defines a Brønsted–Lowry acid?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the Brønsted–Lowry concept, an acid is defined by its ability to donate a proton (H⁺) to another species, forming its conjugate base.
+Electron-pair donor/acceptor definitions belong to Lewis theory, and oxide-ion transfer is not the defining criterion for Brønsted–Lowry acidity.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Proton donor</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electron pair donor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electron pair acceptor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxide ion acceptor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Brønsted–Lowry framework, what</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Brønsted–Lowry framework, what is the conjugate base of H₂SO₄ after donating one proton?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A conjugate base is formed by removal of one proton from the acid, so loss of H⁺ from H₂SO₄ gives HSO₄⁻.
+SO₄²⁻ requires loss of two protons, H₃SO₄⁺ would result from proton gain, and H₂SO₃ is a different acid with different composition.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>SO₄²⁻</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>HSO₄⁻</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>H₃SO₄⁺</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>H₂SO₃</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which pair represents a conjugate</text>
+    </name>
+    <questiontext format="html">
+      <text>Which pair represents a conjugate acid–base pair?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Conjugate acid–base pairs differ by exactly one proton (H⁺), so H₃O⁺ and H₂O are conjugates.
+Sets involving more than one proton difference, redox-related pairs, or unrelated acids/bases do not satisfy the conjugate-pair definition.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>H₃O⁺ / H₂O</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>H₂O / OH⁻ / O²⁻ (all three together)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Na⁺ / Na</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>HCl / ClO₄⁻</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement correctly describes the</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement correctly describes the autoionization of water?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Water is amphoteric and undergoes autoionization to generate hydronium (H₃O⁺) and hydroxide (OH⁻), which underlies \(K_w\) and pH concepts.
+Formation of free O²⁻ is not the normal aqueous equilibrium, amphoterism contradicts “cannot act,” and self-ionization does not require added acid.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Water produces H₃O⁺ and OH⁻ by self-ionization.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Water produces H⁺ and O²⁻ in significant concentration.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Water cannot act as an acid or base.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Water ionizes only in the presence of a strong acid.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>At 25°C in aqueous solution</text>
+    </name>
+    <questiontext format="html">
+      <text>At 25°C in aqueous solution, which relationship is consistent with the definitions of pH, pOH, and pKw?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The definitions based on water autoionization lead to the relationship pH + pOH = pKw in water (commonly pKw = 14 at 25°C).
+The other expressions misuse the defined logarithmic relationships between \(K_w\), \([H^+]\), and \([OH^-]\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>pH + pOH = pKw</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>pH − pOH = pKw</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>pH × pOH = pKw</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>pH + pKw = pOH</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best defines a</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best defines a Lewis acid?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Lewis theory defines acids as electron-pair acceptors and bases as electron-pair donors, allowing analysis beyond proton-transfer reactions.
+Proton donor/acceptor descriptions correspond to Brønsted–Lowry, and “in water only” reflects the limited scope associated with Arrhenius-type thinking.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Electron pair acceptor</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Proton acceptor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Proton donor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Species that increases [H⁺] only in water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The reaction BF₃ + NH₃</text>
+    </name>
+    <questiontext format="html">
+      <text>The reaction BF₃ + NH₃ → F₃B–NH₃ is best classified as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>BF₃ accepts an electron pair from NH₃ to form a coordinate bond, so the product is a Lewis adduct formed by Lewis acid–base interaction.
+No proton transfer to form water occurs, the key step is electron-pair donation rather than a redox electron-transfer process, and there is no precipitation criterion involved.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lewis acid–base adduct formation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Brønsted acid–base neutralization producing water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Redox reaction with electron transfer from B to N</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Precipitation reaction driven by low solubility</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which species is amphoteric (can</text>
+    </name>
+    <questiontext format="html">
+      <text>Which species is amphoteric (can act as both acid and base) under Brønsted–Lowry ideas?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Amphoteric species can donate or accept a proton, and water is a central example because it can form H₃O⁺ (as a base) or OH⁻ (as an acid).
+Ions like Na⁺ and Cl⁻ are not generally amphiprotic in water, and methane lacks the typical tendency to donate or accept H⁺ under ordinary acid–base conditions.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>H₂O</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Na⁺</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cl⁻</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CH₄</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement correctly relates the</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement correctly relates the strengths of a conjugate acid–base pair in water?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Brønsted–Lowry conjugate pairs show an inverse relationship: greater acid ionization (stronger acid) corresponds to a conjugate base that is less able to accept a proton.
+Treating both as simultaneously strong or independent conflicts with the conjugate-pair equilibrium viewpoint used in acid–base equilibria.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A stronger acid has a weaker conjugate base.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A stronger acid has a stronger conjugate base.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Acid strength and conjugate base strength are independent.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conjugate base strength increases with lower Ka of the acid.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>According to the HSAB principle</text>
+    </name>
+    <questiontext format="html">
+      <text>According to the HSAB principle, which combination is generally expected to be the most stable?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>HSAB states that hard–hard and soft–soft interactions are favored, so a hard acid binding to a hard base is generally more stable than hard–soft mismatches.
+Hard–soft pairings are typically less favorable because hardness/softness reflects charge density and polarizability matching, which influences stability and reactivity trends.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/346f13fa-33ff-490a-9a60-0aa4e5b11115/inorganic_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Hard acid with hard base</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hard acid with soft base</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Soft acid with hard base</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stability is unrelated to hardness/softness</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The \(K_a\) of a weak</text>
+    </name>
+    <questiontext format="html">
+      <text>The \(K_a\) of a weak monoprotic acid HA is \(1.0 \times 10^{-5}\). The pH of a 0.10 M aqueous solution of HA (neglect water autoionization) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a weak acid, \([H^+] \approx \sqrt{K_a C}\) when dissociation is small.
+So \([H^+] \approx \sqrt{(1.0\times10^{-5})(0.10)}=\sqrt{1.0\times10^{-6}}=1.0\times10^{-3}\) M, giving pH \(=3.00\).
+A pH of 2.00 corresponds to \([H^+]=10^{-2}\) M, which would imply much stronger ionization than expected for this \(K_a\).
+A pH of 4.00 or 5.00 would correspond to much smaller \([H^+]\), which would be inconsistent with the acid’s given \(K_a\) at 0.10 M.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>3.00</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>5.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A 0.10 M weak acid</text>
+    </name>
+    <questiontext format="html">
+      <text>A 0.10 M weak acid HA has \(K_a = 1.0\times10^{-5}\). The percent ionization of HA is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Using the weak-acid approximation, \([H^+] \approx \sqrt{K_a C}=\sqrt{10^{-5}\times10^{-1}}=\sqrt{10^{-6}}=10^{-3}\) M.
+Percent ionization \(= \dfrac{[H^+]}{C}\times 100 = \dfrac{10^{-3}}{0.10}\times100 = 1.0\%\).
+A value of 0.10% would come from mistakenly using \([H^+]=10^{-4}\) M (often due to dropping a power of 10).
+Values like 10% or 50% contradict the “weak acid” behavior implied by a small \(K_a\) and would also violate the small-dissociation assumption used in acid–base equilibria.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.10%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>1.0%</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>10%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>50%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A buffer is prepared with</text>
+    </name>
+    <questiontext format="html">
+      <text>A buffer is prepared with \([HA]=0.20\) M and \([A^-]=0.020\) M. If \(pK_a(HA)=4.00\), the pH is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Use Henderson–Hasselbalch: \(pH=pK_a+\log\left(\dfrac{[A^-]}{[HA]}\right)\).
+Here \(\dfrac{[A^-]}{[HA]}=\dfrac{0.020}{0.20}=0.10\), so \(pH=4.00+\log(0.10)=4.00-1.00=3.00\).
+A common mistake is inverting the ratio to \([HA]/[A^-]\), which would incorrectly increase pH instead of decreasing it.
+Another mistake is assuming pH equals \(pK_a\) regardless of composition; that only holds when \([A^-]=[HA]\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>3.00</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3.00? actually 4.00?</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3.00?</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3.00?</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a titration of a</text>
+    </name>
+    <questiontext format="html">
+      <text>In a titration of a weak monoprotic acid HA with a strong base (NaOH), the pH at the half-equivalence point equals:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>At half-equivalence in a weak-acid/strong-base titration, moles of HA remaining equal moles of \(A^-\) formed, so \([A^-]=[HA]\).
+In Henderson–Hasselbalch, \(\log([A^-]/[HA])=\log(1)=0\), giving \(pH=pK_a\).
+A pH of 7.00 is characteristic of the equivalence point for strong acid–strong base titrations, not weak acid–strong base systems.
+Using \(pK_b\) or \(pK_w\) reflects confusion between buffer-point behavior and water autoionization relationships.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(pK_a\) of HA</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>7.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(pK_b\) of \(A^-\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(pK_w\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>50.0 mL of 0.10 M</text>
+    </name>
+    <questiontext format="html">
+      <text>50.0 mL of 0.10 M acetic acid (\(K_a=1.0\times10^{-5}\)) is titrated with 0.10 M NaOH. At the equivalence point, the pH is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>At equivalence, all HA becomes \(A^-\) (acetate), and the solution is basic due to hydrolysis of \(A^-\).
+Moles HA initially \(=0.0500\times0.10=0.00500\) mol, so at equivalence total volume \(=100.0\) mL and \([A^-]=0.00500/0.100=0.050\) M.
+For acetate, \(K_b=\dfrac{K_w}{K_a}=\dfrac{1.0\times10^{-14}}{1.0\times10^{-5}}=1.0\times10^{-9}\), so \([OH^-]\approx\sqrt{K_b C}=\sqrt{10^{-9}\times0.050}=\sqrt{5\times10^{-11}}\approx7.1\times10^{-6}\).
+Thus \(pOH\approx5.15\) and \(pH\approx14-5.15=8.85\), which is closest to 8.72 among the options (small rounding differences come from approximation).
+A pH of 7.00 incorrectly treats this as strong acid–strong base equivalence, while 12.00 would require a much higher \([OH^-]\) than produced by weak-base hydrolysis.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>5.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>7.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>8.72</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>12.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which salt (0.10 M in</text>
+    </name>
+    <questiontext format="html">
+      <text>Which salt (0.10 M in water) is expected to give a solution with \(pH&gt;7\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A salt of a weak acid and strong base (like acetate from acetic acid + NaOH) undergoes anion hydrolysis to produce OH⁻, making the solution basic.
+NH₄Cl is a salt of a weak base (NH₃) and strong acid (HCl), so cation hydrolysis produces H₃O⁺ and gives \(pH&lt;7\).
+NaCl and NaNO₃ are salts of strong acid–strong base combinations and are approximately neutral in water because significant hydrolysis is not expected.
+A frequent misconception is that “all salts are neutral”; hydrolysis depends on whether the ions are conjugates of weak acids/bases.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>NH₄Cl</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>NaNO₃</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>CH₃COONa</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>NaCl</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For an amphiprotic species \(HCO_3^-\)</text>
+    </name>
+    <questiontext format="html">
+      <text>For an amphiprotic species \(HCO_3^-\) in water, the pH of a solution is often estimated by \(pH \approx \dfrac{1}{2}(pK_{a1}+pK_{a2})\). If \(pK_{a1}=6.3\) and \(pK_{a2}=10.3\), the estimated pH is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Amphiprotic species can both donate and accept a proton, leading to an intermediate pH related to the two relevant ionization steps.
+Using the estimate, \(pH \approx \dfrac{1}{2}(6.3+10.3)=8.3\).
+Choosing 6.3 or 10.3 reflects the error of assuming the pH must equal one of the pKa values rather than an intermediate governed by both equilibria.
+A value like 7.0 incorrectly assumes neutrality, which is not generally true for amphiprotic ions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>5.0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>7.0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>8.3</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>10.3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Using HSAB, predict the favored</text>
+    </name>
+    <questiontext format="html">
+      <text>Using HSAB, predict the favored pairings when \(Ag^+\) and \(Fe^{3+}\) compete for ligands \(I^-\) and \(F^-\). The most stable set of products is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>\(Ag^+\) is a softer acid than \(Fe^{3+}\), and \(I^-\) is a soft base, so soft–soft interaction favors \(AgI\).
+\(Fe^{3+}\) is a hard acid and \(F^-\) is a hard base, so hard–hard interaction favors \(FeF_3\).
+Cross-pairing \(AgF\) (soft–hard) and \(FeI_3\) (hard–soft) is less favorable under HSAB matching principles.
+Choosing both fluorides or both iodides ignores competitive preference and the stability trends predicted from hardness/softness and polarizability.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(AgF\) and \(FeI_3\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(AgI\) and \(FeF_3\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(AgF\) and \(FeF_3\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(AgI\) and \(FeI_3\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best describes the</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best describes the leveling effect of a solvent in acid–base chemistry?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Solvent autoionization and proton transfer can “level” strong acids so that, within that solvent, they produce the same effective acidic species (such as the solvent’s conjugate acid).
+Assuming \(K_a\) is solvent-independent is incorrect because solvent stabilization and ion pairing can change observed acid strength.
+Water is polar and strongly hydrogen-bonding, so describing it as nonpolar is a fundamental misconception in solvent effects on acid–base behavior.
+Weak-acid titrations are possible; the point is that solvent choice can mask differences among very strong acids or sometimes help differentiate weaker acids.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>In a given solvent, very strong acids appear equally strong because they are converted to the same strongest acid allowed by the solvent.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Acid strengths are independent of solvent because \(K_a\) is constant in all media.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Weak acids become stronger in water because water is nonpolar.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The leveling effect means weak acids cannot be titrated.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which reaction is best classified</text>
+    </name>
+    <questiontext format="html">
+      <text>Which reaction is best classified primarily as a Brønsted–Lowry acid–base reaction (proton transfer) without a required redox change?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>\(NH_3\) accepts a proton from HCl to form \(NH_4^+\), matching the Brønsted–Lowry definition of base and acid via proton transfer.
+The zinc–acid and sodium–water reactions produce hydrogen gas via electron transfer and are fundamentally redox processes even though acids/bases may be present.
+The \(Fe^{2+}/Ce^{4+}\) reaction is a clear electron-transfer redox reaction with no essential proton transfer step defining it as an acid–base process.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/346f13fa-33ff-490a-9a60-0aa4e5b11115/inorganic_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(Zn + 2HCl \rightarrow ZnCl_2 + H_2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(NH_3 + HCl \rightarrow NH_4Cl\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2Na + 2H_2O \rightarrow 2NaOH + H_2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(Fe^{2+} + Ce^{4+} \rightarrow Fe^{3+} + Ce^{3+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

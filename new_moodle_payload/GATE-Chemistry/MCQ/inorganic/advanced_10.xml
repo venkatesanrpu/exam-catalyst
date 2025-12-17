@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In an X-ray diffraction experiment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In an X-ray diffraction experiment, a set of lattice planes satisfies Bragg’s law geometrically, yet the corresponding reflection is systematically absent (or extremely weak). The most plausible crystallographic reason is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Even when Bragg’s law allows a reflection (pure geometry), the observed intensity depends on the structure factor, which is controlled by the atomic positions in the unit cell (basis) and the scattering factors.  If contributions from atoms in the basis cancel for a particular \((hkl)\), the structure factor becomes zero (or very small), giving an absent/very weak peak despite satisfying the diffraction angle condition.  Treating \(d\) as independent of \((hkl)\) contradicts the need to calculate interplanar spacing from lattice geometry and Miller indices.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The structure factor for that reflection is (nearly) zero due to destructive interference from the basis/atomic positions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The interplanar spacing \(d\) is independent of Miller indices in all lattices]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bragg’s law is not applicable to crystalline solids and applies only to amorphous solids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The wavelength \(\lambda\) changes inside the crystal so Bragg’s condition becomes meaningless]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two different sets of planes]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two different sets of planes in a crystal give reflections at angles that satisfy Bragg’s law, but one peak is far more intense than the other. The best explanation is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Bragg’s law determines where a reflection can occur (angles for constructive interference from planes), but peak intensities depend strongly on how atoms are arranged in the unit cell via the structure factor and their scattering factors.  Different \((hkl)\) reflections “sample” different phase relationships among atoms in the basis, so intensities can vary widely even when both peaks are allowed.  Assuming intensity is set only by \(d\) ignores the explicit role of structure factor in diffraction intensity.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Intensity depends only on \(d\); smaller \(d\) always gives higher intensity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Intensity is governed by the structure factor and scattering factors (atomic arrangement within the unit cell), not only by Bragg geometry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Intensity depends only on the crystal system (cubic, tetragonal, etc.), not on atomic positions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Intensity is fixed for all reflections of a given solid because lattice points scatter identically]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two oxides have the same]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two oxides have the same spinel stoichiometry AB\(_2\)O\(_4\), but one is normal spinel and the other is inverse spinel. If strong magnetic coupling arises primarily via superexchange pathways in such oxides, which situation is most likely to produce strong A–B superexchange (and hence robust magnetic ordering) in the spinel framework?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Spinel properties depend on cation distribution between tetrahedral and octahedral sites, and magnetic coupling in such complex oxides is commonly discussed in terms of superexchange interactions.  When magnetic ions populate both sublattices, exchange pathways between the sublattices can dominate and produce strong long-range ordering, whereas placing only non-magnetic ions removes the magnetic exchange network.  Explaining magnetism purely using packing efficiency misses the structure–property emphasis of spinels/perovskites and the role of superexchange.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only non-magnetic cations occupy both tetrahedral and octahedral sites]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Magnetic cations occupy both tetrahedral and octahedral sublattices, enabling strong superexchange between the sublattices]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Magnetic cations occupy only tetrahedral sites and octahedral sites remain empty]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Magnetic behavior is determined only by crystal packing efficiency (FCC/HCP/BCC), not by cation distribution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An oxide shows non-stoichiometry due]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An oxide shows non-stoichiometry due to oxygen deficiency, and its conductivity increases. Which defect/charge-compensation picture is most consistent with this observation in defect-chemistry terms?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Non-stoichiometry and point defects in ionic solids are central to defect chemistry, and such defects can strongly affect physical properties such as electrical conductivity.  Oxygen deficiency is naturally associated with oxygen vacancies, and charge compensation can occur by creating electronic carriers, often increasing conductivity through donor-like behavior.  Oxygen interstitials contradict oxygen deficiency, and cation-vacancy models do not directly match the simplest oxygen-loss scenario being described.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Formation of oxygen vacancies accompanied by extra electrons (donor-like behavior)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of oxygen interstitials accompanied by extra electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of cation vacancies accompanied by extra electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of cation interstitials accompanied by holes as majority carriers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider an n-type semiconductor created]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider an n-type semiconductor created by donor doping. As temperature increases from low to moderate values, which trend best matches band-theory concepts of doping, carrier concentration, and Fermi level temperature dependence?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Band theory distinguishes semiconductors and emphasizes how doping controls carrier concentration, while also noting that the Fermi level depends on temperature.  In an n-type semiconductor, donor doping makes electrons the majority carriers at low/moderate temperature, but increasing temperature enhances intrinsic excitation and shifts the effective Fermi level toward the intrinsic position compared to the heavily donor-controlled limit.  Claims that holes always dominate regardless of donor doping or that the material becomes a perfect insulator with heating conflict with the intended band-theory classification and temperature-dependent carrier ideas.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/5d502e9e-092b-46f4-8408-a3ef07ba2c84/inorganic_unit_10.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Electron concentration decreases to zero; the Fermi level moves deeper into the valence band]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Electron concentration remains dominant initially; the Fermi level tends to move toward the intrinsic level as intrinsic carriers become more important with temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hole concentration immediately exceeds electron concentration at any temperature; the Fermi level locks at mid-gap regardless of doping]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The band gap increases without limit, converting the semiconductor into a perfect insulator at higher temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
