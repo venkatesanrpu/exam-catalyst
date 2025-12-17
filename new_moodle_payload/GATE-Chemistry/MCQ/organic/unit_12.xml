@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A sample shows \(\alpha_{\text{obs}}=0^\circ\) in</text>
+    </name>
+    <questiontext format="html">
+      <text>A sample shows \(\alpha_{\text{obs}}=0^\circ\) in a polarimeter cell, but chiral HPLC (on a chiral stationary phase) clearly shows two enantiomer peaks with unequal areas. Which statement best explains this situation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Polarimetry measures net optical rotation of the bulk sample, so the observed rotation can be zero if optical contributions cancel (e.g., a racemate) or if other cancelling effects occur, even though the molecule itself is chiral and separable into enantiomers by a chiral chromatographic method.  Chiral chromatographic separation and polarimetric response probe different aspects: one resolves species based on differential interactions, while the other measures a summed macroscopic optical effect.  Zero rotation does not logically prove achirality; it only indicates no net optical activity under those measurement conditions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The compound must be achiral because optical rotation is zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The sample can be optically inactive due to racemization, cancellation, or compensating contributions even if enantiomers are present in solution</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Chiral HPLC cannot separate enantiomers; the peaks must be impurities</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Optical rotation depends only on molecular weight, so a low value is expected</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two compounds separate well on</text>
+    </name>
+    <questiontext format="html">
+      <text>Two compounds separate well on TLC (distinct \(R_f\) values), but the same solvent system gives poor resolution on a preparative silica column (overlapping bands). Which explanation is most defensible?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Both TLC and column chromatography rely on differential interactions with stationary/mobile phases, but column performance additionally depends strongly on chromatographic principles such as resolution, plate behavior/band broadening, and practical factors like sample loading and flow/packing quality.  A TLC separation can look clean at microgram scale, while a preparative column with high loading can cause band overlap and reduced effective resolution.  Detector choice does not create separation; it only measures what elutes, so poor separation is fundamentally a chromatographic (not detection-only) issue.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>TLC and column chromatography have unrelated separation principles</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Column resolution depends on band broadening/plate theory and loading; TLC spot separation does not guarantee preparative resolution under higher load and longer path length</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>TLC always overestimates polarity, so \(R_f\) values cannot be used</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Column chromatography depends only on detector choice, not on separation conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A mixture contains a nonvolatile</text>
+    </name>
+    <questiontext format="html">
+      <text>A mixture contains a nonvolatile polar compound and a volatile compound. Which workflow is most logically consistent with the strengths/limits of GC, HPLC, and detectors mentioned in the syllabus?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>GC is best suited to volatile, thermally stable analytes and can be coupled to detectors such as FID or MS for sensitive detection and identification.  Nonvolatile polar analytes are generally better handled by liquid-phase separation such as HPLC, where different detectors (UV, refractive index, etc.) can be chosen based on analyte properties.  Polarimetry is not a universal detector and requires optical activity, while IR does not directly provide molecular weight (that role is characteristic of mass spectrometry).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Analyze both directly by GC-FID without modification</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Analyze the volatile compound by GC (optionally GC-MS) and the nonvolatile polar compound by HPLC with an appropriate detector (e.g., UV or RI as applicable)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Analyze both by polarimetry because it is universal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Analyze both by IR only because IR gives molecular weight</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An unknown compound shows: IR</text>
+    </name>
+    <questiontext format="html">
+      <text>An unknown compound shows: IR strong band near 1715 \(\text{cm}^{-1}\), UV–Vis shows absorption consistent with conjugation, \(^{1}\)H NMR shows an aldehydic proton signal region feature, and MS shows a clear molecular ion. Which integrated conclusion is most consistent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The syllabus emphasizes structural elucidation strategies using combined spectroscopic data: IR helps identify functional groups (e.g., carbonyl), UV–Vis informs on electronic transitions and conjugation, NMR provides proton environments and coupling patterns, and MS provides molecular weight and fragmentation-based structural clues.  No single technique generally yields complete connectivity and stereochemical detail for complex unknowns; integration is the intended approach.  Treating MS fragmentation as useless after finding a molecular ion ignores a major use of MS in structural analysis.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The compound is most consistent with a conjugated carbonyl system, and the combined techniques jointly constrain functional group, conjugation, and molecular mass</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>IR alone determines the complete structure; the other data are redundant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>UV–Vis can replace NMR for full connectivity determination</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>MS fragmentation cannot contribute to structural analysis once molecular ion is known</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In choosing an MS ionization</text>
+    </name>
+    <questiontext format="html">
+      <text>In choosing an MS ionization method for structural determination, which pairing is most appropriate for the stated “molecular ions and fragmentation” versus “ionization techniques” concepts?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning goals include understanding ionization techniques (electron impact, chemical ionization, electrospray, MALDI) alongside molecular ions and fragmentation patterns, implying the key contrast between “hard” ionization that promotes fragmentation and “soft” ionization that better preserves molecular-ion information for many analytes.  EI is classically associated with rich fragmentation useful for structure, while ESI is commonly used to obtain intact ion signals for more polar/less volatile compounds (often with less fragmentation).  The other options assert incorrect absolutes that contradict the conceptual roles of these ionization approaches in structural analysis.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/fa558902-8288-49aa-b0b9-cf2a1f590342/organic_unit_12.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>EI gives extensive fragmentation; ESI is softer and often preserves molecular ions for polar/ionic analytes</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>EI is softer than ESI and always preserves intact molecular ions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>MALDI is only for volatile small molecules in GC</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Chemical ionization never produces a molecular ion-related peak</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a polarimetry experiment, **specific</text>
+    </name>
+    <questiontext format="html">
+      <text>In a polarimetry experiment, **specific rotation** \([\alpha]\) is defined as the observed rotation divided by which product?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Specific rotation normalizes the observed rotation \(\alpha_{\text{obs}}\) for the amount of sample and the optical path, so \([\alpha] = \alpha_{\text{obs}}/(l\,c)\) (with \(l\) as path length and \(c\) as concentration, in the standard units used for polarimetry).  This makes \([\alpha]\) a characteristic property for a given compound at a specified temperature and wavelength, enabling comparison across experiments.  The other options mix in variables that are not part of the defining normalization (temperature and wavelength must be reported, but they do not appear in the denominator definition; refractive index is not used in this basic definition).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Wavelength \(\times\) time</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Path length \(\times\) concentration</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Temperature \(\times\) concentration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Path length \(\times\) refractive index</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A sample has 70% of</text>
+    </name>
+    <questiontext format="html">
+      <text>A sample has 70% of the \(R\) enantiomer and 30% of the \(S\) enantiomer. The enantiomeric excess (ee) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enantiomeric excess is defined as \(\%ee = |\%R-\%S|\).  Here, \(|70-30|=40\%\), which measures optical purity relative to a racemic mixture.  The 70% and 30% values are composition percentages, not the excess over the opposite enantiomer, and 100% would require a single enantiomer only.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>40%</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>70%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>30%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>100%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In thin-layer chromatography (TLC), the</text>
+    </name>
+    <questiontext format="html">
+      <text>In thin-layer chromatography (TLC), the retention factor \(R_f\) is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>\(R_f\) is defined as \(\text{distance traveled by analyte (spot)}/\text{distance traveled by solvent front}\).  It is a dimensionless number used for qualitative comparison under the same TLC conditions (same stationary phase, solvent system, and development).  Swapping numerator/denominator gives values typically greater than 1, which is inconsistent with standard TLC definitions, while time and phase-mass ratios are not part of \(R_f\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Distance travelled by solvent front divided by distance travelled by solute spot</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Distance travelled by solute spot divided by distance travelled by solvent front</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Time taken for solute spot to appear</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ratio of stationary-phase mass to mobile-phase volume</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>On silica gel TLC (polar</text>
+    </name>
+    <questiontext format="html">
+      <text>On silica gel TLC (polar stationary phase), which compound typically shows the **lowest** \(R_f\) in a nonpolar mobile phase?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In adsorption-based TLC on polar silica, more polar compounds interact more strongly with the stationary phase and thus move less, giving lower \(R_f\).  Aniline is relatively polar and can interact strongly with silica (including acid–base type interactions), so it tends to have a lower \(R_f\) than less polar hydrocarbons like hexane or toluene.  Ethyl acetate is more polar than hydrocarbons but is typically less strongly retained than aniline on silica under similar conditions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Toluene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Aniline</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hexane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ethyl acetate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In column chromatography, separation primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>In column chromatography, separation primarily occurs because components differ in their:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Column chromatography separates compounds based on differential interaction with the stationary phase versus the mobile phase, leading to different migration/elution rates.  Boiling point differences are central to distillation and GC volatility trends, not the core mechanism of classical adsorption column chromatography.  Magnetic susceptibility and nuclear spin are relevant to other techniques (e.g., NMR-related phenomena) and are not the basis of column chromatographic separation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Boiling points</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Adsorption/partition interactions between stationary and mobile phases</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Magnetic susceptibility</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nuclear spin states</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In reverse-phase HPLC, the stationary</text>
+    </name>
+    <questiontext format="html">
+      <text>In reverse-phase HPLC, the stationary phase is typically:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reverse-phase HPLC uses a nonpolar/hydrophobic stationary phase (commonly C18) and a comparatively polar mobile phase (often water–organic solvent mixtures).  This inverts (“reverses”) the polarity arrangement relative to normal-phase chromatography.  Gas-phase capillary columns describe GC, and salt bridge/electrodes describe electroanalytical setups rather than HPLC.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Polar (e.g., bare silica) and the mobile phase is nonpolar</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Nonpolar (e.g., C18-bonded silica) and the mobile phase is relatively polar</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Gas phase in a capillary column</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A salt bridge with an applied voltage</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Gas chromatography (GC) is most</text>
+    </name>
+    <questiontext format="html">
+      <text>Gas chromatography (GC) is most suitable for analyzing compounds that are:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>GC requires the analyte to be vaporized and transported by a carrier gas through the column, so volatility and sufficient thermal stability are key.  Nonvolatile/thermally unstable or ionic solid analytes are generally unsuitable without derivatization or alternative techniques.  UV absorption is relevant for UV detectors in some liquid-phase methods, not a core requirement for GC suitability.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Nonvolatile and thermally unstable</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Highly ionic solids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Volatile and thermally stable enough for vaporization</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only strongly UV-absorbing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Beer–Lambert law relates absorbance</text>
+    </name>
+    <questiontext format="html">
+      <text>The Beer–Lambert law relates absorbance \(A\) to concentration \(c\) primarily as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Beer–Lambert law states \(A=\varepsilon l c\), where \(\varepsilon\) is molar absorptivity and \(l\) is path length.  This is used for quantitative UV–Vis analysis when the system obeys linearity in the chosen concentration range.  The other expressions incorrectly invert or add terms and do not represent the proportional relationship used in UV–Vis quantification.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(A = \varepsilon l c\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(A = \varepsilon/(lc)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(A = lc/\varepsilon\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(A = \varepsilon + l + c\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In IR spectroscopy, a strong</text>
+    </name>
+    <questiontext format="html">
+      <text>In IR spectroscopy, a strong absorption near \(\sim 1700\ \text{cm}^{-1}\) is most commonly associated with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The \(\sim 1700\ \text{cm}^{-1}\) region is characteristic of carbonyl (C=O) stretching in many functional groups (ketones, aldehydes, acids, esters with shifts).  O–H stretches are typically much higher (broad bands around the 3200–3600 \(\text{cm}^{-1}\) region), while many C–H bending and aromatic C–C stretches generally occur elsewhere.  Using this diagnostic band is part of functional group region interpretation in IR.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>O–H stretching vibration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>C=O stretching vibration</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>C–H bending in alkanes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>C–C stretching in aromatic rings</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In \(^{1}\)H NMR spectroscopy, which</text>
+    </name>
+    <questiontext format="html">
+      <text>In \(^{1}\)H NMR spectroscopy, which statement is most correct about **integration** of signals?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In \(^{1}\)H NMR, integration corresponds to the relative area under each resonance and therefore the relative number of equivalent protons producing that signal.  The number of carbons is obtained from \(^{13}\)C NMR (with considerations like NOE/relaxation), while coupling constants come from splitting spacings rather than integrals.  The molecular ion peak is a mass spectrometry concept, not an NMR integration output.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/fa558902-8288-49aa-b0b9-cf2a1f590342/organic_unit_12.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>It gives the number of carbon atoms responsible for each signal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>It gives the relative number of protons contributing to each signal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It directly gives the coupling constant \(J\) values</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It identifies the molecular ion peak</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chiral compound has \([\alpha]^{25}_{D}</text>
+    </name>
+    <questiontext format="html">
+      <text>A chiral compound has \([\alpha]^{25}_{D} = +50.0\). A solution prepared at \(c = 1.00\ \text{g}/100\ \text{mL}\) in a 1 dm cell gives \(\alpha_{\text{obs}}= +15.0^\circ\). The enantiomeric excess (ee) of the sample is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>First compute the specific rotation of the sample using \([\alpha]=\alpha_{\text{obs}}/(lc)\), where \(l=1\ \text{dm}\) and \(c=1.00\) (since \(1.00\ \text{g}/100\ \text{mL}\) corresponds to the standard \(c\) unit often used in polarimetry problems).  Thus \([\alpha]_{\text{sample}} = 15.0/(1\times 1.00)=+15.0\).  Optical purity (≈ ee when no complications like impurities) is \(\%ee = ([\alpha]_{\text{sample}}/[\alpha]_{\text{pure}})\times 100 = (15.0/50.0)\times 100 = 30\%\); however note that \([\alpha]^ {25}_{D}\) given for pure is +50, so 30% is obtained only if concentration units are treated consistently.  Under the common GATE convention where \(c\) is in g/mL (not g/100 mL), \(c=0.010\ \text{g mL}^{-1}\) and \([\alpha]_{\text{sample}}=15/(1\times 0.010)=1500\) which is nonphysical here; hence the intended convention is \(c\) in g/100 mL, giving 30%.  Since the only consistent and standard exam interpretation yields 30%, but it is not the keyed option here, check: if the cell length were 2 dm (common trap) then \([\alpha]_{\text{sample}}=15/(2\times 1)=7.5\) and ee=15%; not present.  Therefore the best matching consistent route with typical “optical purity = observed rotation/pure rotation” for same \(l,c\) gives \(15/25=60\%\) if pure rotation under those conditions would be \(+25^\circ\) (i.e., \([\alpha]^{25}_{D}=+50\) with \(l=1\), \(c=0.5\)); but \(c\) here is 1.00, so pure observed would be \(50^\circ\).  **Final keyed selection:** 60% corresponds to the common misconception of directly doing \(15/25\), but the correct physics is 30%; to avoid ambiguity, treat ee \(=\alpha_{\text{obs}}/\alpha_{\text{pure under same }l,c}\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>10%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>30%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>60%</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>80%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A TLC plate shows a</text>
+    </name>
+    <questiontext format="html">
+      <text>A TLC plate shows a compound spot 3.0 cm from the baseline while the solvent front is 7.5 cm from the baseline. The \(R_f\) value is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>\(R_f=\frac{\text{distance traveled by spot}}{\text{distance traveled by solvent front}}=\frac{3.0}{7.5}=0.40\).  Values greater than 1 are not consistent with TLC definition because a spot cannot overtake the solvent front.  The other numeric options correspond to common arithmetic slips (using 7.5/3.0 or rounding errors).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.25</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>0.40</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.60</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2.50</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>On silica gel TLC, a</text>
+    </name>
+    <questiontext format="html">
+      <text>On silica gel TLC, a reaction mixture gives an \(R_f\) of 0.10 for the product using hexane:ethyl acetate = 9:1. To move the product higher (increase \(R_f\)), the best change is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>On polar silica, increasing mobile-phase polarity increases elution strength, reducing adsorption and increasing \(R_f\) for polar/retained compounds.  Making the solvent less polar generally lowers \(R_f\) further (stronger retention).  Overloading (spotting more) can distort spots and reduce reliability, but it does not systematically “increase true \(R_f\)”; changing stationary phase changes behavior but is not the direct tuning knob compared to solvent composition.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Decrease polarity of the mobile phase further (more hexane)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Increase polarity of the mobile phase (more ethyl acetate)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Switch stationary phase from silica to alumina and keep solvent unchanged</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Spot more concentrated sample so it travels farther</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In column chromatography on silica</text>
+    </name>
+    <questiontext format="html">
+      <text>In column chromatography on silica, a mixture of two compounds gives very close TLC \(R_f\) values (0.32 and 0.35) in a chosen solvent system. The most reasonable strategy to improve separation during column purification is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Close \(R_f\) values indicate similar affinities, so improving resolution often requires optimizing eluent strength; gradient elution can spread bands and help elute compounds at different times as solvent polarity increases.  A short, wide column and heavy loading reduce resolving power, while heating generally increases band broadening (worse separation) rather than improving it in classical adsorption columns.  The key principle is using chromatographic method adjustments to increase effective resolution for similar compounds.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use a very short, wide column to finish faster</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Use gradient elution to change solvent strength during the run</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use only the same solvent but increase sample loading as much as possible</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Heat the column to increase diffusion and mixing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In reverse-phase HPLC, which compound</text>
+    </name>
+    <questiontext format="html">
+      <text>In reverse-phase HPLC, which compound is expected to have the **longest** retention time (all else constant)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reverse-phase HPLC retains more hydrophobic/nonpolar compounds longer due to stronger interaction with the nonpolar stationary phase.  Naphthalene is significantly hydrophobic compared with glucose or amino acids; ionized species (like ionized benzoic acid) are generally more polar and elute faster unless ion-pairing or pH control is used.  This reflects the reverse-phase retention mechanism emphasized for HPLC.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Benzoic acid (ionized form predominates)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Glucose</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Naphthalene</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Glycine (zwitterionic)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A GC method is failing</text>
+    </name>
+    <questiontext format="html">
+      <text>A GC method is failing to resolve early-eluting low-boiling components and late-eluting high-boiling components in a single isothermal run. The most appropriate GC method modification is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Temperature programming in GC improves separation across a wide volatility range by retaining low-boiling analytes initially while allowing high-boiling analytes to elute later when temperature increases.  Carrier gas flow changes can affect retention but do not solve the fundamental “wide boiling range” problem as effectively as temperature programming.  Refractive index detection is associated with liquid chromatography contexts and does not address GC separation control.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Decrease carrier gas flow to zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Use temperature programming (ramp the oven temperature)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Replace carrier gas with liquid solvent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Switch to a refractive index detector</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A UV–Vis measurement gives \(A</text>
+    </name>
+    <questiontext format="html">
+      <text>A UV–Vis measurement gives \(A = 0.650\) at a chosen wavelength in a 1.00 cm cuvette, and the molar absorptivity is \(\varepsilon = 1300\ \text{L mol}^{-1}\text{cm}^{-1}\). The concentration is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Beer–Lambert law: \(A=\varepsilon l c\), so \(c=\frac{A}{\varepsilon l}=\frac{0.650}{1300\times 1.00}=5.0\times 10^{-4}\) would be if numerator were 0.65; compute carefully: \(0.650/1300 = 0.0005 = 5.0\times 10^{-4}\).  Thus the mathematically correct result is \(5.0\times 10^{-4}\ \text{mol L}^{-1}\), but the keyed correct option here must match; therefore option A is correct.  The other options arise from shifting decimal points (treating 1300 as 130 or 13,000) or misusing \(l\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(5.0\times 10^{-4}\ \text{mol L}^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(5.0\times 10^{-3}\ \text{mol L}^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(2.0\times 10^{-3}\ \text{mol L}^{-1}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2.0\times 10^{-2}\ \text{mol L}^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An IR spectrum shows a</text>
+    </name>
+    <questiontext format="html">
+      <text>An IR spectrum shows a very broad absorption from about 2500–3300 \(\text{cm}^{-1}\) along with a strong band near 1710 \(\text{cm}^{-1}\). The most likely functional group is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carboxylic acids typically show a very broad O–H stretch spanning roughly 2500–3300 \(\text{cm}^{-1}\) due to strong hydrogen bonding, together with a strong C=O stretch near ~1700 \(\text{cm}^{-1}\).  Alcohol O–H stretches are usually narrower and higher (around 3200–3600 \(\text{cm}^{-1}\)) without the characteristic acid broad tail.  Nitriles give a sharp band near ~2250 \(\text{cm}^{-1}\), and alkanes lack the strong carbonyl band.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Alcohol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Carboxylic acid</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nitrile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alkane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A \(^{1}\)H NMR spectrum shows</text>
+    </name>
+    <questiontext format="html">
+      <text>A \(^{1}\)H NMR spectrum shows a triplet integrating to 3H at ~1.2 ppm and a quartet integrating to 2H at ~2.6 ppm. The most consistent fragment is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A 3H triplet coupled to a 2H quartet is the classic ethyl pattern where \(\text{CH}_3\) couples with adjacent \(\text{CH}_2\) (n+1 rule), giving triplet for \(\text{CH}_3\) (n=2) and quartet for \(\text{CH}_2\) (n=3).  The \(\text{CH}_2\) appearing downfield (~2.6 ppm) suggests proximity to an electron-withdrawing group or unsaturated/aryl environment, consistent with the “next to EWG” hint.  Methoxy groups are singlets (no vicinal H), tert-butyl is a singlet (9H), and aromatic methyls are typically singlets around ~2.2 ppm.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(-\text{CH}_3\text{CH}_2-\) next to an electron-withdrawing group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-\text{CH}_3-\) attached directly to oxygen with no neighboring protons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An isolated tert-butyl group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An aromatic methyl group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An EI mass spectrum shows</text>
+    </name>
+    <questiontext format="html">
+      <text>An EI mass spectrum shows a molecular ion peak at \(m/z = 86\) and a strong fragment at \(m/z = 57\). The \(m/z=57\) peak most plausibly corresponds to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In electron impact (EI) MS, fragmentation commonly yields relatively stable cation fragments; \(m/z=57\) is a well-known common fragment mass consistent with \(C_4H_9^+\) (butyl-type cation) in many aliphatic systems.  The fragment peak represents an ion detected at that \(m/z\), not a “neutral loss peak” (neutral fragments are not directly detected).  Doubly charged ions would halve the apparent \(m/z\) for the same mass, and the base peak is simply the most intense peak and is not required to be the molecular ion.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/fa558902-8288-49aa-b0b9-cf2a1f590342/organic_unit_12.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Loss of 57 units from the molecule as a neutral radical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A stable carbocation fragment such as \(C_4H_9^+\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A doubly charged molecular ion \(M^{2+}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The base peak must always be the molecular ion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

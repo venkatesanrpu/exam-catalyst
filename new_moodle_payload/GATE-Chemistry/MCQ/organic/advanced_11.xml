@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A disaccharide is found to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A disaccharide is found to be **non-reducing** and on complete hydrolysis gives D-glucose and D-fructose. Which structural conclusion is most consistent with these observations?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A disaccharide is non-reducing only when **no free anomeric carbon** is available to equilibrate to an open-chain carbonyl; this occurs when both anomeric centers are tied up in the glycosidic linkage, consistent with a sucrose-type connectivity between glucose and fructose.  If glucose retained a free anomeric center, the molecule would be reducing (contradicting the data), so option B is wrong.  The linkage position (such as \(1\rightarrow 6\)) does not by itself guarantee non-reducing character unless anomeric participation removes the free reducing end, so option C is not sufficient.  Ketoses can still act as reducing sugars via enediol/tautomerization under test conditions when a free anomeric center exists, so option D is conceptually incorrect.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The glycosidic bond involves the anomeric carbon of glucose and the anomeric carbon of fructose, leaving no free hemiacetal/hemiketal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The disaccharide must contain a free anomeric carbon on the glucose unit but not on fructose]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The disaccharide must be linked only through a \(1\rightarrow 6\) bond to prevent ring opening]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The disaccharide is reducing because fructose is a ketose and cannot form a reducing end]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A peptide is sequenced by]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A peptide is sequenced by Edman degradation, but after a few cycles the sequencing yield collapses even though the peptide is known to be longer. Which peptide feature most plausibly explains premature termination of Edman sequencing?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Edman degradation requires a **free N-terminus**; if the N-terminus is blocked (e.g., acylated) or chemically modified, the derivatization step cannot proceed and the sequencing effectively stops.  Secondary structure like \(\alpha\)-helix does not chemically prevent the Edman reaction because the chemistry targets the terminal amino group and peptide bond cleavage stepwise.  Poor solubility can reduce efficiency but does not inherently cause a sharp termination pattern as directly as N-terminal blockage, and peptides do not contain phosphodiester linkages in the backbone (that would indicate nucleic-acid chemistry).
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A blocked or modified N-terminus preventing stepwise N-terminal derivatization/cleavage]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Presence of \(\alpha\)-helix secondary structure stabilizing the peptide bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[High content of nonpolar residues causing peptide insolubility in water only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Existence of a phosphodiester linkage in the peptide backbone]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A protein loses enzymatic activity]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A protein loses enzymatic activity upon addition of urea, but after removing urea slowly, the activity returns substantially. Which interpretation best matches these observations regarding protein structure?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Urea is a denaturant that primarily perturbs **noncovalent interactions** (hydrogen bonding, hydrophobic effect, etc.), leading to loss of secondary/tertiary structure and hence activity; removal can allow refolding if the primary structure remains intact.  Peptide bond hydrolysis would change primary structure and is not reversed by simple removal of urea, so option B is wrong.  Disulfide reduction requires reducing agents, not urea alone, and disulfide chemistry is not the only determinant of denaturation here, so option C is not the best explanation.  Primary sequence cannot be “converted” by urea under these conditions, so option D is incorrect.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Denaturation disrupted noncovalent interactions governing higher-order structure, and renaturation restored the native fold]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Denaturation irreversibly hydrolyzed peptide bonds, and refolding re-formed them]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Urea selectively cleaved disulfide bonds and later re-oxidized them quantitatively without assistance]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Urea converted the protein into a different primary sequence that still retains the same function]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A DNA segment is observed]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A DNA segment is observed to shift from B-form to Z-form under specific conditions. Which combined structural/features set best supports formation of Z-DNA rather than B-DNA?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Z-DNA is characterized by a **left-handed** double helix and is commonly associated with alternating purine–pyrimidine sequences (classically alternating GC), consistent with a B→Z transition without losing base pairing.  Poly(A) stretches do not specifically favor Z-form, and a right-handed helix describes B-DNA rather than Z-DNA.  Strand separation would eliminate double-helix forms altogether and is not a B→Z conformational change.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Left-handed helix favored by alternating purine–pyrimidine sequence patterns]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Left-handed helix favored by poly(A) stretches due to maximal base stacking]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Right-handed helix favored by alternating purine–pyrimidine patterns]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Strand separation with loss of Watson–Crick base pairing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A lipid sample undergoes base-catalyzed]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A lipid sample undergoes base-catalyzed hydrolysis to give glycerol and fatty acid salts. Another sample under similar treatment gives glycerol, fatty acid salts, and an additional phosphate-containing product. Which inference best distinguishes the two original lipid classes?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Formation of glycerol plus fatty acid salts under saponification is characteristic of triacylglycerols (triester hydrolysis).  If hydrolysis additionally yields a phosphate-containing product, the starting lipid must contain phosphate ester linkages, consistent with phospholipids (glycerophospholipids).  Carotenoids, steroids, nucleic acids, and peptides do not match the described saponification products, and phosphate is not universal to all lipid classes.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The first sample is a triacylglycerol, while the second is a phospholipid containing phosphate ester functionality]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The first sample is a carotenoid, while the second is a steroid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The first sample is a nucleic acid, while the second is a peptide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both samples must be triacylglycerols because all lipids contain phosphate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

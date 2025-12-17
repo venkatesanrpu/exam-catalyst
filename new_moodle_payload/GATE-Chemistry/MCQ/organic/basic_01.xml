@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A molecule is chiral if]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A molecule is chiral if it:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chirality is fundamentally defined as the property of a molecule that cannot be superimposed on its mirror image, and this occurs when the molecule lacks a plane of symmetry. While tetrahedral carbon atoms bonded to four different groups are common chiral centres, chirality is not restricted to carbon—other atoms like sulfur, phosphorus, or nitrogen can also be chiral centres. An axis of rotation (such as a \(C_2\) axis) does not necessarily make a molecule achiral. The presence of only sp³-hybridized carbons does not guarantee chirality; the molecule must lack symmetry elements like planes or centres of inversion.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Contains a carbon atom bonded to four different groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Lacks a plane of symmetry and cannot be superimposed on its mirror image]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Has an axis of rotation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Contains only sp³-hybridized carbon atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Cahn-Ingold-Prelog (CIP) priority]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Cahn-Ingold-Prelog (CIP) priority rules, which group has the highest priority?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The CIP priority rules assign higher priority to atoms with higher atomic number directly attached to the stereogenic centre. Bromine has an atomic number of 35, which is higher than carbon (6) in \(-\mathrm{CH_2OH}\) and \(-\mathrm{CH_3}\), and hydrogen (1). Therefore, \(-\mathrm{Br}\) receives the highest priority. \(-\mathrm{CH_2OH}\) has higher priority than \(-\mathrm{CH_3}\) based on the second-tier comparison (oxygen vs. hydrogen). Hydrogen, with the lowest atomic number, has the lowest priority.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-\mathrm{CH_2OH}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-\mathrm{CH_3}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(-\mathrm{Br}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-\mathrm{H}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A compound with two chiral]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A compound with two chiral centres can have a maximum of how many stereoisomers?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The maximum number of stereoisomers for a compound with \(n\) chiral centres is given by \(2^n\). For two chiral centres, \(2^2 = 4\) stereoisomers are possible. These consist of two pairs of enantiomers or a mixture of diastereomers depending on the relative configuration of the stereocentres. If the molecule has an internal plane of symmetry, it may have fewer than 4 stereoisomers due to the formation of meso compounds. Eight or sixteen stereoisomers would require three or four chiral centres, respectively.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[16]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which of the following molecules]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which of the following molecules is achiral?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A meso compound contains chiral centres but possesses an internal plane of symmetry that makes the molecule achiral overall. The meso form of 2,3-dichlorobutane has two chiral centres but is superimposable on its mirror image due to the plane of symmetry. 2-Chlorobutane, lactic acid, and 2-bromobutanoic acid all contain a single chiral centre and no plane of symmetry, making them chiral compounds. Meso compounds are a special class where chirality at individual centres is canceled out by molecular symmetry.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2-Chlorobutane]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[2,3-Dichlorobutane (meso form)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Lactic acid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2-Bromobutanoic acid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The R/S nomenclature is used]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The R/S nomenclature is used to describe:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The R/S nomenclature system, based on the Cahn-Ingold-Prelog priority rules, assigns absolute configuration to each stereogenic centre independently of optical rotation. Optical rotation (dextrorotatory or levorotatory) is an experimental property that does not directly correlate with R or S configuration. Relative stereochemistry between multiple stereocentres is described using terms like erythro/threo or syn/anti, not R/S. Conformational preferences are analyzed using Newman projections or energy diagrams, not R/S descriptors.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The optical rotation of a compound]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The absolute configuration at a stereogenic centre]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The relative stereochemistry between two stereocentres]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The conformational preference of a molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which projection is most commonly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which projection is most commonly used to represent the three-dimensional arrangement of atoms in open-chain compounds with multiple chiral centres?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fischer projections are specifically designed for representing open-chain compounds with multiple chiral centres in a standardized vertical format where horizontal lines represent bonds coming out of the plane and vertical lines represent bonds going into the plane. Newman projections are used for conformational analysis along a single bond. Haworth projections depict cyclic sugars. Chair conformations are used for cyclohexane and similar ring systems. Fischer projections allow easy comparison of relative stereochemistry in polystereocentered molecules.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Newman projection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fischer projection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Haworth projection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Chair conformation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Enantiomers are stereoisomers that]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Enantiomers are stereoisomers that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Enantiomers are defined as stereoisomers that are non-superimposable mirror images. They have identical physical properties such as boiling points, melting points, and solubility in achiral environments but differ in their interaction with plane-polarized light—one rotates it clockwise (dextrorotatory) and the other counterclockwise (levorotatory). Diastereomers differ in configuration at one or more (but not all) stereocentres and have different physical properties. The defining characteristic of enantiomers is the mirror-image relationship, not differences in configuration at all stereocentres.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Differ in configuration at all stereocentres]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Are non-superimposable mirror images of each other]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Have different boiling points]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rotate plane-polarized light in the same direction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two hydrogen atoms on the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two hydrogen atoms on the same carbon are described as **enantiotopic** if:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Enantiotopic atoms are those that, when separately replaced by a different group, generate enantiomers. This occurs when the two hydrogens are in a prochiral environment, such as on a carbon adjacent to a chiral centre or in an otherwise asymmetric molecule. If replacement produces diastereomers, the hydrogens are diastereotopic. Homotopic hydrogens are chemically and magnetically equivalent in all environments and yield identical products upon replacement. Enantiotopic relationships are determined by the molecule's symmetry, not by the position of atoms on adjacent carbons.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Replacing either one with a different group produces enantiomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Replacing either one with a different group produces diastereomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are chemically and magnetically equivalent in all environments]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are on adjacent carbon atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In conformational analysis of ethane]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In conformational analysis of ethane, the staggered conformation is more stable than the eclipsed conformation because:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The staggered conformation of ethane is more stable because it minimizes torsional strain (also known as eclipsing strain), which arises from repulsion between electron clouds of adjacent C-H bonds when they are eclipsed. In the staggered form, the C-H bonds are maximally separated, reducing this repulsion. Bond strength is not affected by conformation. Dipole moments are not relevant in ethane as C-H bonds have minimal polarity. Van der Waals attractions are maximized when atoms are at optimal distances, not when bonds are eclipsed.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Staggered has lower torsional strain]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Staggered has stronger C-H bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eclipsed has higher bond dipole moments]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eclipsed has stronger van der Waals attractions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The term **(E)** in E/Z]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The term **(E)** in E/Z nomenclature indicates:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In the E/Z nomenclature system for alkene geometry, **(E)** (from German *entgegen*, meaning "opposite") indicates that the higher-priority substituents on each carbon of the double bond are on opposite sides. **(Z)** (from German *zusammen*, meaning "together") indicates they are on the same side. E/Z nomenclature applies to the geometric arrangement around double bonds and is unrelated to chirality or the presence of ring systems. This system uses Cahn-Ingold-Prelog priority rules to assign configurations unambiguously.
+---
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The higher-priority groups on each carbon of a double bond are on opposite sides]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The higher-priority groups on each carbon of a double bond are on the same side]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule is chiral]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The double bond is in a ring system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

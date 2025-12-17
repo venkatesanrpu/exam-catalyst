@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A substrate \(\mathrm{(R)\!-\!CH(OTs)\!-\!CH_2\!-\!SMe}\) undergoes solvolysis]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A substrate \(\mathrm{(R)\!-\!CH(OTs)\!-\!CH_2\!-\!SMe}\) undergoes solvolysis in a polar protic solvent. The major stereochemical outcome at the carbon bearing OTs is most consistent with:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Neighbouring group participation (anchimeric assistance) occurs when a neighboring heteroatom (here sulfur) donates electron density to stabilize developing positive charge and forms a bridged intermediate. This changes both rate and stereochemical course: the initial intramolecular participation can produce inversion at the carbon (as the bridge forms), and subsequent opening of the bridged intermediate by external nucleophile often gives a second inversion, leading to net retention overall (or strong deviation from simple \(\mathrm{S_N1}\) racemization). A purely \(\mathrm{S_N2}\) pathway is unlikely for solvolysis conditions and would not invoke a bridged intermediate. A fully free carbocation would predict substantial racemization, but anchimeric assistance typically reduces “free-ion” character by internal trapping. Neighbouring group participation does not stop reaction; it usually accelerates it and controls stereochemistry.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Predominant inversion, because the mechanism must be classical \(\mathrm{S_N2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Predominant racemization, because a free planar carbocation forms and rotates freely]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Predominant retention (often via double-inversion overall), due to neighbouring group participation by sulfur forming a bridged intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No substitution, because neighbouring group participation always blocks ionization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a disubstituted cyclohexane, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a disubstituted cyclohexane, a reaction requires an anti-periplanar arrangement between a leaving group and a \(\beta\)-hydrogen (E2-like stereoelectronic requirement). Which statement best captures the conformational logic needed to predict the major elimination stereochemistry?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In cyclohexane chairs, the stereoelectronic requirement for E2 is typically met through a trans-diaxial arrangement: the leaving group must be axial and the eliminated \(\beta\)-hydrogen must be axial on the adjacent carbon (anti-periplanar in the chair). This forces the predictor to first identify the populated chair conformer(s) and then see whether a trans-diaxial pair exists. Assuming “any conformer works” ignores that rings restrict dihedral angles. An equatorial leaving group generally cannot achieve the needed anti-periplanar geometry in a cyclohexane chair without ring flip. Zaitsev considerations matter only after the stereoelectronic feasibility is satisfied.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Any chair conformer works because rotation about \(\sigma\) bonds always provides anti-periplanar alignment in rings]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The leaving group must be equatorial to be antiperiplanar to a \(\beta\)-hydrogen]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The leaving group must be axial so that an axial \(\beta\)-hydrogen can align anti-periplanar (trans-diaxial requirement), making conformational analysis decisive]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction is controlled only by Zaitsev substitution pattern, independent of conformation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A biaryl with bulky ortho]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A biaryl with bulky ortho substituents shows two isolable enantiomeric forms at room temperature, despite having no tetrahedral stereogenic centre. The best explanation is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Atropisomerism arises when rotation about a single bond (commonly the biaryl bond) is sufficiently hindered that conformers become configurationally stable and can be isolated as enantiomers. This is a form of chirality without a traditional stereogenic centre, consistent with the “restricted rotation” concept. A meso compound is achiral due to internal symmetry and would not yield an enantiomeric pair. Optical activity “only in chiral solvents” confuses induced CD/solvent effects with the existence of isolable enantiomers; the isolability implies a real rotational barrier and persistent chirality. Rapid interconversion would indeed prevent isolation, which is precisely why restricted rotation is the key condition.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule is meso due to an internal mirror plane]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The molecule exhibits atropisomerism due to restricted rotation about the aryl–aryl bond, creating stable conformational enantiomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule is achiral but becomes optically active only in chiral solvents]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule must rapidly interconvert, so isolable enantiomers are impossible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For nucleophilic addition to an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For nucleophilic addition to an \(\alpha\)-heteroatom-substituted chiral aldehyde (for example, an \(\alpha\)-alkoxy aldehyde), which predictive framework most appropriately rationalizes the major diastereomer when chelation is disfavored and electronic effects matter?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For \(\alpha\)-heteroatom-substituted carbonyls under non-chelating conditions, Felkin–Anh reasoning is widely used: it combines steric approach control with conformational preferences and electronic effects associated with the \(\alpha\)-C–X bond. A purely steric “largest group” model can fail when electronegative substituents alter the preferred conformation and transition-state stabilization. E/Z nomenclature is irrelevant because it describes alkene geometry, not facial selectivity at carbonyl addition. Chair analysis applies to cyclic conformations like cyclohexanes and is not the general framework for acyclic \(\alpha\)-chiral aldehydes.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the original Cram model based purely on “largest group blocks attack”]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Felkin–Anh type reasoning emphasizing preferred conformations and stereoelectronic/electronic effects of the C–X bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[E/Z nomenclature rules because the carbonyl is planar]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Chair conformational analysis of cyclohexane]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A molecule contains two stereogenic]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A molecule contains two stereogenic centres and no symmetry elements (no mirror plane, no inversion centre, no improper axis). Under these conditions, how many stereoisomers are expected, and what stereochemical relationships must be present?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[With two stereogenic centres, the maximum is \(2^2=4\) stereoisomers. The absence of symmetry elements rules out a meso form, so the full set of four is expected: \((R,R)\), \((S,S)\), \((R,S)\), and \((S,R)\). These group into two enantiomeric pairs: \((R,R)\) vs \((S,S)\) and \((R,S)\) vs \((S,R)\), and any member of one pair is diastereomeric with any member of the other pair. The common error is to claim “all four are enantiomers”; enantiomerism is strictly pairwise and requires mirror-image relationship.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exactly 2 stereoisomers, which must be enantiomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exactly 3 stereoisomers, because one must be meso]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Up to 4 stereoisomers, consisting of two enantiomeric pairs that are diastereomeric to each other]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exactly 4 stereoisomers, all of which are enantiomers of each other]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

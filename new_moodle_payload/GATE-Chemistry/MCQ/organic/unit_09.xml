@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A substrate can, in principle</text>
+    </name>
+    <questiontext format="html">
+      <text>A substrate can, in principle, undergo either a concerted pericyclic cycloaddition or a stepwise radical pathway under irradiation. Which single observation most strongly supports a *concerted* photochemical cycloaddition (rather than a stepwise radical addition)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A concerted pericyclic cycloaddition is expected to be stereospecific because bonding changes occur in one organized transition state governed by orbital symmetry, so the alkene’s initial stereochemistry is mapped directly into the product. A stepwise radical pathway commonly allows bond rotation in intermediates, often eroding stereospecificity and giving stereochemical scrambling. Increasing rate with radical inhibitors contradicts radical involvement, while strong solvent polarity or acid dependence points toward ionic or acid-catalyzed stepwise mechanisms rather than a symmetry-controlled pericyclic photoprocess.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The product shows complete stereospecificity with respect to the alkene geometry (stereochemistry is transferred without scrambling)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction rate increases when a radical inhibitor is added</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction requires a polar solvent to proceed</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The product distribution changes dramatically with acid concentration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student claims: “Woodward–Hoffmann rules</text>
+    </name>
+    <questiontext format="html">
+      <text>A student claims: “Woodward–Hoffmann rules are just another way of doing FMO theory; they always make identical predictions and there is no added value in correlation diagrams.” Which statement best evaluates this claim?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Woodward–Hoffmann analysis is rooted in conservation of orbital symmetry and is often expressed via orbital and state correlation diagrams that track how symmetry-adapted orbitals correlate from reactants to products along an adiabatic pathway. FMO is extremely useful (especially for regioselectivity and substituent effects), but correlation approaches can more directly address “allowed vs forbidden” character and the thermal vs photochemical inversion by explicit ground- vs excited-state correlations. Claims that correlation diagrams never address stereochemistry, only apply to photochemistry, or that FMO predicts only rates/equilibria are conceptual misclassifications.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Incorrect: orbital/state correlation diagrams provide a symmetry-continuity (adiabatic) argument and can diagnose allowedness/forbiddenness even when simple HOMO–LUMO pictures are ambiguous</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Correct: FMO and Woodward–Hoffmann are interchangeable, and correlation diagrams never address stereochemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Incorrect: FMO predicts only rates, whereas Woodward–Hoffmann predicts only equilibrium constants</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Correct: correlation diagrams apply only to photochemistry and not to thermal pericyclic reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider sigmatropic rearrangements where both</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider sigmatropic rearrangements where both suprafacial and antarafacial pathways are symmetry possibilities. Which factor most plausibly explains why many thermal sigmatropic shifts are observed as suprafacial rather than antarafacial for typical acyclic systems?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Woodward–Hoffmann treatment distinguishes suprafacial vs antarafacial pathways as orbital-topology options, but feasibility also depends on whether the molecule can adopt the required geometry in the transition state. In many real acyclic substrates, antarafacial shifts are symmetry-allowed only at the cost of severe conformational distortion, so the reaction follows the stereochemically and conformationally accessible suprafacial route. The idea that suprafacial is always symmetry-allowed regardless of electron count is false, and invoking radical intermediates misrepresents concerted sigmatropic mechanisms.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Antarafacial migration often demands geometries (large distortions/long chains) that are difficult to achieve, so the symmetry-allowed path can be geometrically inaccessible</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Suprafacial migration is always symmetry-allowed for all electron counts, so it dominates universally</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Antarafacial migration is impossible because σ-bonds cannot migrate in pericyclic reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Suprafacial migration requires radical intermediates that are more stable than antarafacial radicals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A carbonyl compound can undergo</text>
+    </name>
+    <questiontext format="html">
+      <text>A carbonyl compound can undergo either Norrish type-I or type-II photochemistry. Which substrate feature most directly *biases* toward Norrish type-II over type-I under otherwise comparable irradiation conditions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Norrish type-II cleavage begins with γ-hydrogen abstraction by the excited carbonyl to form a 1,4-diradical, so availability and geometric accessibility of a γ-C–H is a decisive structural requirement. Norrish type-I instead involves α-cleavage; it does not require a γ-hydrogen. Leaving groups on oxygen and α-enolization acidity are not the defining determinants of the Norrish I vs II branching described for carbonyl photochemistry in this syllabus.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Presence of an accessible γ-hydrogen that can be abstracted intramolecularly to form a 1,4-diradical</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Absence of any α-bonds adjacent to the carbonyl carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Presence of a good leaving group on the carbonyl oxygen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Strong acidity at the α-position enabling fast enolization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A photoredox system can proceed</text>
+    </name>
+    <questiontext format="html">
+      <text>A photoredox system can proceed by either oxidative quenching or reductive quenching of an excited sensitizer. Which statement best captures the *unifying* idea behind photooxidation/photoreduction in this context?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Photooxidation and photoreduction in the learning path are framed around excited-state redox chemistry, where absorption of light produces an excited state with altered reduction potentials, making electron-transfer pathways accessible. This is the key reason oxidative vs reductive quenching manifolds exist and why sensitizers can mediate redox transformations under mild conditions. Treating light as mere heating ignores excited-state chemistry, singlet oxygen is specific to sensitized oxygenation (not all photooxidations), and electron-transfer photochemistry commonly generates radical ions/radicals rather than being purely ionic.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/00bf4220-38b7-4615-9d99-427b9a8f50a1/organic_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Excitation changes the effective redox power of the sensitizer, enabling electron-transfer steps that are not feasible in the ground state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Light only provides heat, so redox outcomes are identical to thermal redox chemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Photooxidation must involve singlet oxygen, while photoreduction cannot involve any electron transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Photoredox pathways are always ionic and cannot involve radical intermediates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A defining feature of a</text>
+    </name>
+    <questiontext format="html">
+      <text>A defining feature of a pericyclic reaction is that it proceeds via:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Pericyclic reactions are concerted processes where bonds reorganize through a cyclic array of interacting orbitals in a single transition state, typically without isolable intermediates. This cyclic, concerted nature is what distinguishes them from stepwise ionic and radical-chain pathways. Stepwise ionic mechanisms involve intermediates like carbocations/carbanions, radical-chain mechanisms require propagating radical steps, and metal-catalyzed cycles depend on organometallic elementary steps rather than a pericyclic cyclic orbital transition state.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A cyclic transition state with concerted bond reorganization</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A stepwise ionic mechanism with a discrete carbocation intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A radical-chain mechanism with initiation and termination steps</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A metal-catalyzed cycle involving oxidative addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Electrocyclic reactions are best described</text>
+    </name>
+    <questiontext format="html">
+      <text>Electrocyclic reactions are best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Electrocyclic reactions are intramolecular processes in which a conjugated polyene undergoes ring closure (forming a σ-bond) or ring opening (breaking a σ-bond) with predictable stereochemical outcomes. A bimolecular diene–dienophile process is a cycloaddition (Diels–Alder type). σ-bond migration across a π-system is sigmatropic rearrangement, and α-cleavage of carbonyls is characteristic of Norrish type-I photochemistry rather than electrocyclic behavior.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Intramolecular ring opening/closing of conjugated polyenes with stereospecific outcomes</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bimolecular addition of a diene and a dienophile to form a cyclohexene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Migration of a σ-bond across a π-system to form an isomeric product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Photochemical cleavage of carbonyl compounds at the α-position</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Cycloaddition reactions are characterized by</text>
+    </name>
+    <questiontext format="html">
+      <text>Cycloaddition reactions are characterized by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cycloaddition reactions join two π-systems (or a π-system and another unsaturated component) to generate a new cyclic framework, often in a concerted pericyclic manner with stereochemical control. σ-bond migration defines sigmatropic rearrangements, not cycloadditions. Nucleophile–electrophile substitutions and leaving-group-dependent steps describe polar mechanisms and are not defining features of pericyclic cycloadditions.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Combination of two unsaturated components to form a ring in a concerted step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Intramolecular σ-bond migration along a conjugated framework</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of products via classical nucleophile–electrophile substitution steps</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Required involvement of a leaving group for bond formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A sigmatropic rearrangement involves</text>
+    </name>
+    <questiontext format="html">
+      <text>A sigmatropic rearrangement involves:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Sigmatropic rearrangements are pericyclic shifts where a σ-bond migrates across a π-system in a concerted fashion, producing a new connectivity pattern while reorganizing π-bonds. Thermal formation of cyclobutanes from two alkenes is not generally allowed as a simple thermal [2+2] cycloaddition in pericyclic terms. Simple bond rotation does not capture the defining σ-migration event, and electron-transfer photoredox is a different mechanistic class from sigmatropic shifts.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Migration of a σ-bond within a conjugated π-system with concomitant π-bond reorganization</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Direct formation of a cyclobutane from two alkenes under heat</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ring opening of a cyclohexadiene to a triene by bond rotation only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electron transfer from an excited sensitizer to form radical ions exclusively</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Woodward–Hoffmann rules are primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>The Woodward–Hoffmann rules are primarily used to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Woodward–Hoffmann rules apply orbital symmetry conservation to determine whether a pericyclic process is allowed under thermal or photochemical conditions. They are not tools for acid–base equilibria, radical-chain kinetics, or stereochemical assignment rules like R/S nomenclature. Their core utility is predicting feasibility and stereochemical mode based on orbital symmetry considerations.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Predict whether a pericyclic reaction is symmetry-allowed or symmetry-forbidden</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Calculate equilibrium constants of acid–base reactions in water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Identify the rate law order for radical-chain polymerizations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Assign R/S configuration of chiral centers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Frontier Molecular Orbital (FMO) theory</text>
+    </name>
+    <questiontext format="html">
+      <text>Frontier Molecular Orbital (FMO) theory rationalizes pericyclic outcomes mainly by analyzing:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>FMO theory explains reactivity and selectivity by focusing on the interaction of frontier orbitals, typically HOMO–LUMO matching, which governs phase compatibility and activation barriers in many pericyclic reactions. Chain length and pKa values do not define pericyclic orbital-allowedness. Metal oxidation-state cycling is central to organometallic catalysis, not the typical FMO framework used for pericyclic reactions.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Interactions between the HOMO of one reactant and the LUMO of the other</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of σ-bonds in the longest carbon chain of the substrate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The pKa values of all acidic hydrogens in the reactants</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The presence of a metal catalyst and its oxidation state changes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>“Photochemistry fundamentals” most directly concerns</text>
+    </name>
+    <questiontext format="html">
+      <text>“Photochemistry fundamentals” most directly concerns reactions initiated by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Photochemistry is driven by photon absorption that promotes molecules to excited electronic states, opening reaction pathways unavailable (or less accessible) in the ground state. Heating relates to thermal activation, enolate generation is a ground-state ionic strategy, and pressure effects are thermodynamic manipulations not specific to photochemical excitation. The defining trigger is light-induced electronic excitation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Absorption of light leading to electronically excited states</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Heating a reaction mixture to increase collision frequency only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Adding a strong base to generate an enolate intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Applying pressure to shift equilibrium toward fewer moles of gas</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>“Photooxidation” is best described as</text>
+    </name>
+    <questiontext format="html">
+      <text>“Photooxidation” is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Photooxidation refers to oxidation chemistry facilitated by light, often involving excited states and electron-transfer events (directly or via sensitizers) that alter redox behavior relative to the ground state. Dark permanganate oxidation is not photochemical, hydride transfer from NaBH4 is reduction (not oxidation), and carbocation intermediates are not a defining requirement for photooxidation. The key idea is light-enabled redox reactivity.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Oxidation processes enabled by excited-state species and light-driven electron-transfer pathways</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidation that occurs only through reaction with aqueous permanganate in the dark</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reduction of a substrate by hydride transfer from NaBH4 under UV light</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidation that must proceed through a carbocation intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In carbonyl photochemistry, Norrish type-I</text>
+    </name>
+    <questiontext format="html">
+      <text>In carbonyl photochemistry, Norrish type-I cleavage is commonly identified as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Norrish type-I is defined by α-cleavage (bond breaking at the α-position relative to the carbonyl) from an excited carbonyl, generating radical fragments. γ-hydrogen abstraction is the hallmark of Norrish type-II, not type-I. Oxetane formation from carbonyl + alkene is characteristic of the Paternò–Büchi reaction, and a thermal cyclic transition state describes pericyclic behavior rather than the specific Norrish type-I photofragmentation pathway.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>α-cleavage adjacent to the carbonyl group in an excited state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>γ-hydrogen abstraction followed by bond cleavage</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Concerted cycloaddition of a carbonyl to an alkene to form an oxetane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A thermal rearrangement proceeding via a cyclic transition state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The di-π-methane rearrangement is categorized</text>
+    </name>
+    <questiontext format="html">
+      <text>The di-π-methane rearrangement is categorized in this syllabus as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The di-π-methane rearrangement is explicitly listed among named photochemical reactions, indicating it is a recognized light-induced transformation with characteristic mechanistic features. Diels–Alder is a thermal cycloaddition class (not this named photorearrangement), aldol is a polar carbonyl condensation, and SN1 is a stepwise substitution mechanism—none match the named photochemical reaction category.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/00bf4220-38b7-4615-9d99-427b9a8f50a1/organic_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A named photochemical reaction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A standard thermal [4+2] cycloaddition (Diels–Alder)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A base-catalyzed aldol reaction of carbonyl compounds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A typical SN1 substitution reaction of alkyl halides</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A conjugated triene undergoes a</text>
+    </name>
+    <questiontext format="html">
+      <text>A conjugated triene undergoes a thermal electrocyclic ring closure to a cyclohexadiene. If the system involves six π-electrons in the ground state, the stereochemical mode of ring closure is expected to be:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For electrocyclic reactions, Woodward–Hoffmann rules state that thermal 4n+2 π-electron systems (e.g., 6 π-electron triene) undergo disrotatory ring closure, while thermal 4n π-electron systems (e.g., 4 π-electron diene) undergo conrotatory closure. The incorrect options either mix up 4n and 4n+2 classifications or swap the associated stereomodes, which is a common exam misconception.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Conrotatory, because thermal 4n systems close conrotatorily</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Disrotatory, because thermal 4n+2 systems close disrotatorily</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conrotatory, because thermal 4n+2 systems close conrotatorily</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Disrotatory, because thermal 4n systems close disrotatorily</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A substituted diene undergoes a</text>
+    </name>
+    <questiontext format="html">
+      <text>A substituted diene undergoes a Diels–Alder [4+2] cycloaddition with an electron-poor alkene. Using FMO analysis, which interaction mainly controls the reaction feasibility?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a typical Diels–Alder reaction, the diene is electron-rich and the dienophile is electron-poor, so the key interaction is between the HOMO of the diene and the LUMO of the dienophile, which dictates reaction rate and orientation. LUMO–LUMO or HOMO–HOMO overlaps are not symmetry-matched driving forces, and core orbitals are energetically too deep and not involved in bonding changes; assuming they govern reactivity is a common error.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>HOMO(diene)–LUMO(dienophile) overlap leading to bonding interactions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>LUMO(diene)–LUMO(dienophile) overlap lowering overall energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>HOMO(dienophile)–HOMO(diene) overlap stabilizing the ground state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Overlap of core orbitals, which are least affected by substituents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a thermal [2+2] cycloaddition</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a thermal [2+2] cycloaddition between two simple alkenes. Using orbital symmetry rules, this process is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For simple alkenes, a concerted thermal [2+2] cycloaddition is symmetry-forbidden by Woodward–Hoffmann rules because the required orbital phase alignment cannot be achieved in the ground state. Under photochemical excitation, one alkene’s orbital occupancy changes, making [2+2] cycloadditions symmetry-allowed; claiming they are forbidden photochemically or under all conditions ignores the excited-state correlation analysis.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Symmetry-forbidden in a purely concerted thermal pathway</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Symmetry-allowed thermally but forbidden photochemically</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Allowed both thermally and photochemically in concerted fashion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Forbidden under all conditions and must proceed stepwise</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A -sigmatropic rearrangement of an</text>
+    </name>
+    <questiontext format="html">
+      <text>A -sigmatropic rearrangement of an allyl vinyl ether proceeds thermally. According to sigmatropic nomenclature and orbital symmetry, this rearrangement:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A -sigmatropic shift (such as the Claisen rearrangement) is a concerted pericyclic rearrangement with a six-electron cyclic transition state that is thermally allowed and follows Woodward–Hoffmann rules. Stepwise radical or ionic pathways are not inherent to sigmatropic classification, and photochemical activation is not required for its symmetry-allowedness. Calling it  miscounts the connectivity change and reflects confusion between different sigmatropic orders.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Is a concerted pericyclic process involving six electrons in a cyclic transition state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Proceeds stepwise via discrete radical intermediates by definition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always requires photochemical activation to be symmetry-allowed</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Is classified as a -shift because one group moves five atoms away</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a 4 π-electron butadiene</text>
+    </name>
+    <questiontext format="html">
+      <text>For a 4 π-electron butadiene undergoing electrocyclic ring closure, how does photochemical activation change the stereochemical mode relative to the thermal case?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A 4 π-electron system follows the rule that thermal electrocyclic closure is conrotatory, whereas photochemical excitation inverts the selection rules, giving a disrotatory mode. Saying both pathways share the same rotation mode ignores the fundamental thermal–photochemical complementarity of Woodward–Hoffmann rules and is a frequent conceptual mistake.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Thermal: conrotatory; photochemical: disrotatory</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Thermal: disrotatory; photochemical: conrotatory</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both thermal and photochemical: disrotatory</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both thermal and photochemical: conrotatory</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In cis–trans photoisomerization of a</text>
+    </name>
+    <questiontext format="html">
+      <text>In cis–trans photoisomerization of a simple alkene, which statement best reflects the role of excited states?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Upon electronic excitation, the π–π* transition reduces the effective bond order between the alkene carbons, facilitating rotation around what was a rigid double bond, so cis and trans forms can interconvert before relaxation. Strengthening the bond or insisting only n-π* states exist contradicts alkene UV–vis behavior, and invoking carbocation intermediates misattributes a polar, stepwise mechanism to a process that is fundamentally excited-state and often near-concerted.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Promotion to an excited state reduces the effective π-bond order, allowing rotation around the C–C bond</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Excitation strengthens the π-bond, preventing any rotation and locking configuration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only n-π* excitation is possible for alkenes, which never leads to isomerization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Photoisomerization must always proceed through a carbocation intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A carbonyl compound primarily excited</text>
+    </name>
+    <questiontext format="html">
+      <text>A carbonyl compound primarily excited to its n-π* state displays Norrish type-II reactivity. Which key step initiates this pathway?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Norrish type-II cleavage begins with intramolecular γ-hydrogen abstraction by the excited carbonyl (often n-π*), producing a 1,4-diradical that can undergo β-scission or cyclization. Direct α-cleavage is Norrish type-I, while [2+2] cycloaddition of carbonyls with alkenes corresponds to Paternò–Büchi chemistry. Base-generated enolates are ground-state ionic species, not photochemically initiated diradicals.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>γ-C–H abstraction by the excited carbonyl oxygen, generating a 1,4-diradical</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Direct α-cleavage next to the carbonyl, forming two radical fragments</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Concerted [2+2] cycloaddition with another carbonyl to give an oxetane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Deprotonation at the α-position by base to form an enolate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A photochemical process generates singlet</text>
+    </name>
+    <questiontext format="html">
+      <text>A photochemical process generates singlet oxygen using a sensitizer. Which description best matches the roles of reactants?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In sensitized photooxidation, a chromophoric sensitizer absorbs light, undergoes intersystem crossing to a triplet state, and transfers energy to ground-state triplet oxygen, populating the reactive singlet oxygen state that then reacts with substrates. Oxygen does not typically act as a simple nucleophile in this context, and direct two-electron transfer from substrate to oxygen bypasses the defining role of the sensitizer. Treating the sensitizer as stoichiometrically consumed ignores its catalytic, cyclic function.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The sensitizer absorbs light, reaches an excited state, and transfers energy to ground-state oxygen, forming reactive singlet oxygen</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxygen absorbs light directly and becomes a strong nucleophile for substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The substrate absorbs light and donates two electrons to oxygen, forming peroxide without any sensitizer involvement</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The sensitizer only acts as a stoichiometric oxidant consumed in each cycle</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a di-π-methane rearrangement of</text>
+    </name>
+    <questiontext format="html">
+      <text>In a di-π-methane rearrangement of an aryl-substituted 1,4-diene under UV light, which feature is crucial for enabling the rearrangement pathway?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The di-π-methane rearrangement involves an excited 1,4-diene (or similar system) where two π-systems flank a saturated center; excitation allows formation of a transient three-center arrangement and subsequent skeletal rearrangement. Leaving groups and carbocations are not characteristic steps, and no metal catalyst or pre-existing aromaticity is required; suggesting either is confusing this named photorearrangement with unrelated substitution or organometallic processes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Presence of two π-systems connected by a saturated carbon that can form a three-center intermediate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Existence of a strong leaving group that departs to generate a carbocation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Necessity of a metal catalyst to provide vacant d-orbitals for backbonding</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Requirement that the molecule be fully aromatic before irradiation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Barton–McCombie deoxygenation, an</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Barton–McCombie deoxygenation, an alcohol is converted via its xanthate ester and irradiated. Which mechanistic feature best characterizes this photochemical transformation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Barton–McCombie reaction proceeds through radical intermediates: photolysis of a xanthate ester leads to radical formation, and subsequent radical steps ultimately replace the hydroxyl group by hydrogen, effecting deoxygenation. SN2 displacement by hydride, [4+2] cycloadditions, or simple E2 pathways with later hydrogenation do not capture the radical, photochemical nature defined in the learning path and represent common but incorrect mechanistic assumptions.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/00bf4220-38b7-4615-9d99-427b9a8f50a1/organic_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Homolytic cleavage of the xanthate under photolysis, generating carbon-centered radicals that lead to C–O bond removal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Direct SN2 displacement of the xanthate by hydride, giving the corresponding alkane in one step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Concerted [4+2] cycloaddition of the xanthate to the alcohol, forming a cyclic sulfate intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Purely thermal E2 elimination of the xanthate, followed by hydrogenation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For the solvolysis of tert-butyl]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For the solvolysis of tert-butyl chloride in aqueous ethanol, the observed rate law is \( \text{Rate} = k[\text{tert-butyl chloride}] \). Which mechanistic conclusion is most consistent with this observation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A first-order rate law in substrate indicates a unimolecular rate-determining step, consistent with SN1 ionization to a carbocation. In SN2, rate depends on both substrate and nucleophile concentration. E2 requires base participation in the rate law and typically shows bimolecular kinetics. Ethanol/water (polar protic) also stabilizes ions, supporting carbocation formation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The rate-determining step is nucleophilic attack by ethanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The rate-determining step is ionization to form a carbocation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The mechanism must be SN2 because ethanol is a nucleophile]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The mechanism must be E2 because a base is present]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A chiral secondary alkyl bromide]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A chiral secondary alkyl bromide reacts with NaCN in DMSO to give a nitrile product with predominant inversion of configuration. The most likely pathway is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[CN⁻ is a strong nucleophile and DMSO is polar aprotic, which enhances nucleophilicity and favors SN2. SN2 gives inversion due to backside attack. SN1 would give substantial racemization because of planar carbocation intermediates. SNi retention is characteristic in special cases (e.g., thionyl chloride conditions), not typical for CN⁻ in DMSO.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[SN1 via free carbocation and racemization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[SN2 via backside attack by CN⁻]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[SNi via internal return with retention]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[E1 followed by addition of CN⁻]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider hydrolysis of tert-butyl acetate]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider hydrolysis of tert-butyl acetate under acidic conditions. If the rate increases strongly with increasing electron-withdrawing substituents on the acyl group in an analogous series, the best interpretation is that the rate-determining step has:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In acyl substitution/addition-elimination manifolds, electron-withdrawing groups increase carbonyl electrophilicity and stabilize a transition state with increased positive character at the carbonyl carbon, accelerating nucleophilic attack or related steps. This aligns with substituent effects and LFER reasoning. Options invoking negative charge development or radical pathways do not match typical acid-catalyzed acyl processes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Development of positive charge on the carbonyl carbon (increased electrophilicity controls rate)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Development of negative charge on the carbonyl oxygen (stabilized by electron donation)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No charge development; rate depends only on steric effects]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Radical character at the carbonyl carbon]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In an E2 elimination on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In an E2 elimination on a substituted cyclohexyl halide, the reaction is fast only when the leaving group is axial. This is best explained by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[E2 requires an anti-periplanar arrangement of the breaking C–H bond and C–X bond for optimal orbital overlap. In cyclohexanes, anti-periplanar alignment is achieved when both the leaving group and the β-hydrogen are axial (trans-diaxial). Carbocation intermediates correspond to E1, not E2, and syn pathways are not the general E2 requirement.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Requirement of a planar carbocation intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Requirement of anti-periplanar geometry between β-H and leaving group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Requirement of syn addition prior to elimination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Requirement that the base be weak and sterically hindered]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A substrate can undergo substitution]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A substrate can undergo substitution or elimination. Switching from a strong nucleophile/weak base to a strong bulky base shifts the product distribution toward elimination mainly because:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Bulky strong bases have reduced nucleophilic substitution efficiency (steric hindrance reduces backside attack in SN2), but they can still abstract accessible β-hydrogens, promoting E2. Carbocation stability is not directly increased by bulky bases, and SN1 requires favorable ionization conditions rather than “bulky base” effects. The key idea is competition between SN and E pathways governed by base/nucleophile character and sterics.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bulky bases are poor at abstracting β-hydrogen]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bulky bases are sterically hindered for substitution but still remove β-hydrogen efficiently]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bulky bases increase carbocation stability]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bulky bases convert SN2 into SN1 by solvating the leaving group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An alkene reacts with Br2]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An alkene reacts with Br2 in CCl4 to give a vicinal dibromide, predominantly as an anti-addition product. The best mechanistic rationale is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Halogenation of alkenes proceeds through a cyclic halonium ion intermediate; nucleophilic attack by Br⁻ occurs from the backside, leading to anti addition. A carbocation pathway would typically allow rearrangements and different stereochemical outcomes. Radical chain addition is not the standard pathway in CCl4 for Br2 addition to alkenes. A fully concerted syn cycloaddition is inconsistent with observed anti stereochemistry.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of a carbocation followed by rearrangement and capture by Br⁻]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Formation of a bromonium ion followed by backside attack of Br⁻]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Radical chain addition leading to syn addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Concerted cycloaddition of Br2 giving syn addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In electrophilic addition of HBr]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In electrophilic addition of HBr to an unsymmetrical alkene, a rearranged bromide product is observed. The presence of rearrangement most strongly supports:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Rearrangements (hydride/alkyl shifts) are characteristic of carbocation intermediates formed during ionic electrophilic addition (Markovnikov pathway). Concerted mechanisms do not allow rearrangement. Bromonium ions are typical for halogen additions (Br2/Cl2), which generally do not rearrange. Benzyne pertains to aromatic nucleophilic substitution, not alkene hydrohalogenation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A concerted mechanism with no intermediates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A carbocation intermediate prior to bromide capture]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A bromonium ion intermediate as in Br2 addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A benzyne intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A para-substituted benzoate series shows]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A para-substituted benzoate series shows a Hammett plot with a negative slope (ρ < 0) for a reaction. This indicates that electron-donating substituents:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A negative ρ means electron-donating groups accelerate the reaction, consistent with a transition state that develops positive charge (or loses negative charge) that is stabilized by donation. If electron-withdrawing groups accelerated, ρ would be positive. Negative ρ does not make σ irrelevant, and it does not automatically imply radical chemistry; it is an electronic substituent-effect signature.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decrease the rate by destabilizing positive charge in the transition state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Increase the rate by stabilizing positive charge development in the transition state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Have no effect; σ constants are irrelevant when ρ is negative]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always imply a radical mechanism]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In an SNAr reaction on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In an SNAr reaction on an aromatic fluoride, the reaction is significantly faster when a nitro group is present ortho or para to the leaving group. The most direct reason is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[SNAr (addition–elimination) proceeds via nucleophilic addition to form a Meisenheimer complex (anionic intermediate), which is strongly stabilized by electron-withdrawing groups like nitro at ortho/para positions. Arenium ions relate to electrophilic aromatic substitution, not SNAr. Fluoride can be an effective leaving group in SNAr because addition is facilitated and elimination is driven by re-aromatization. Carbocation formation on an aromatic ring is not the SNAr mechanism.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitro group stabilizes the arenium ion formed in electrophilic substitution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Nitro group stabilizes the anionic Meisenheimer intermediate in addition–elimination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitro group makes fluoride a worse leaving group, forcing a different pathway]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitro group promotes carbocation formation on the ring]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A β-dicarbonyl compound undergoes base-promoted]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A β-dicarbonyl compound undergoes base-promoted elimination via an E1cb pathway rather than E2. The key feature favoring E1cb is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[E1cb involves deprotonation first to form a carbanion (conjugate base) that is stabilized by electron-withdrawing groups (such as carbonyls), followed by expulsion of the leaving group. An unstable carbanion would disfavor E1cb. Strong nucleophile/polar aprotic considerations are more central to substitution pathways like SN2. Carbocation formation corresponds to E1, not E1cb.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A very unstable carbanion intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Formation of a stabilized carbanion intermediate prior to leaving group departure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Requirement of a strong nucleophile in polar aprotic solvent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rate-determining formation of a carbocation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

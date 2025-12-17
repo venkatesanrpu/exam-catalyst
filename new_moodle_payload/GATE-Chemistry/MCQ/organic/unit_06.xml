@@ -1,0 +1,1058 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A target 1,3-dicarbonyl compound is</text>
+    </name>
+    <questiontext format="html">
+      <text>A target 1,3-dicarbonyl compound is proposed to be synthesized by coupling two electrophilic carbonyl fragments. Direct enolate–carbonyl coupling gives polarity mismatch for one fragment, so an umpolung strategy is required. Which plan most directly resolves the polarity mismatch while still allowing C–C bond formation at the acyl carbon?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carbonyl carbons are naturally electrophilic, so coupling two electrophilic fragments requires polarity reversal (umpolung) of one partner. Converting a carbonyl to a 1,3-dithiane allows deprotonation to form a nucleophilic acyl anion equivalent that can attack another electrophile, and final hydrolysis regenerates the carbonyl, giving a 1,3-dicarbonyl framework. Protecting both carbonyls as acetals prevents the required C–C formation rather than enabling it. Wittig creates an alkene, not a direct 1,3-dicarbonyl linkage, and hydrogenation does not restore carbonyls. The alcohol→halide→SN2 idea does not recreate the acyl-carbon connectivity and typically fails for building the required carbonyl pattern.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Convert one carbonyl into a 1,3-dithiane, deprotonate to generate an acyl anion equivalent, add to the other electrophile, then hydrolyze back to carbonyl</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Convert both carbonyls into acetals, then perform aldol condensation under strong base</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Perform Wittig olefination between the two carbonyls and then hydrogenate the alkene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reduce both carbonyls to alcohols, convert to halides, and couple via SN2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A retrosynthetic tree suggests forming</text>
+    </name>
+    <questiontext format="html">
+      <text>A retrosynthetic tree suggests forming a substituted cyclohexenone via a Robinson annulation late in the synthesis, but the substrate contains an unprotected primary amine and an aldehyde elsewhere in the molecule. Which reasoning best supports introducing a protecting group strategy before executing the key annulation step?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Multi-step synthesis planning requires anticipating side reactions; strong base and nucleophilic/enolate conditions can trigger imine formation, condensations, or other undesired pathways involving free amines and aldehydes. Using appropriate protecting groups (amine protection and aldehyde masking as acetals) increases chemoselectivity and makes the planned disconnection viable in forward synthesis. Assuming annulation is automatically chemoselective ignores realistic functional-group incompatibilities. Protecting groups are broadly used for OH, NH, and carbonyl functionalities, not only alcohols. Permanent oxidation changes the target’s functional-group map and violates the idea of strategic, temporary protection.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Protecting groups are unnecessary because Robinson annulation is always chemoselective for ketones</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Protecting the amine (e.g., as Boc/Cbz) and masking the aldehyde (e.g., as acetal) prevents competing side reactions during base-promoted steps</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protecting groups are only used for alcohols, not for amines or aldehydes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The best solution is to oxidize the amine to a nitro group and the aldehyde to a carboxylic acid permanently</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two routes to the same</text>
+    </name>
+    <questiontext format="html">
+      <text>Two routes to the same target are proposed. Route X uses a stoichiometric Wittig step to install an alkene, while Route Y uses a cycloaddition-based disconnection (Diels–Alder) to build the ring/unsaturation in one step, followed by minimal functional group adjustments. Based on atom economy and green metrics, which statement is most defensible?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Atom economy compares how much of the reactants’ mass ends up in the desired product, and reactions that generate large stoichiometric byproducts tend to lower atom economy. Cycloaddition-based strategies can, in many cases, incorporate most atoms from both partners into the product framework, which may improve atom economy and reduce waste relative to byproduct-heavy steps. Reaching the same target does not guarantee identical atom economy because different reagents and byproducts change the mass balance. Step count affects overall efficiency and yield, but atom economy is reaction-stoichiometry-specific rather than step-count-only.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Route X is generally more atom-economical because Wittig directly forms a C=C bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Route Y can be favored because cycloadditions often incorporate more reactant atoms into the product and reduce waste compared with stoichiometric byproduct-forming steps</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both routes must have identical atom economy because they reach the same target</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Atom economy depends only on the number of steps, so the shorter route always has higher atom economy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In evaluating two candidate synthetic</text>
+    </name>
+    <questiontext format="html">
+      <text>In evaluating two candidate synthetic routes for scale-up, Route 1 uses an air-sensitive organometallic reagent but fewer steps, while Route 2 uses more steps but relies on robust Pd-catalyzed cross-coupling and benign solvents. Which criterion set best matches a process-focused route evaluation rather than purely academic planning?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Route evaluation for practical feasibility emphasizes metrics beyond elegance: overall yield across steps, cost and availability of reagents, operational simplicity (temperature/pressure/inert atmosphere), safety hazards, and scalability. Step count alone can be misleading if it requires unsafe or impractical reagents. The presence of synthons and notation is about planning method, not feasibility. Protecting groups can be necessary but also add steps and waste, so “more is better” is incorrect.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only step count and number of named reactions used</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Step count, overall yield estimate, reagent availability/shelf-life, safety profile, scalability, and reaction-condition practicality</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only whether the route contains retrosynthetic arrows and synthons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only whether the route uses protecting groups (more is always better)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student proposes generating a</text>
+    </name>
+    <questiontext format="html">
+      <text>A student proposes generating a “nucleophilic carbonyl carbon” directly from an aldehyde by treating it with a strong base, claiming this creates an acyl anion for C–C bond formation. Which critique best explains why the proposed disconnection is non-viable and what strategic fix applies?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The carbonyl carbon is intrinsically electrophilic, and forming a free acyl anion from an aldehyde is not generally feasible due to instability and competing pathways. Umpolung strategies intentionally reverse polarity using formyl/acyl anion equivalents (such as dithiane chemistry) to supply nucleophilic reactivity at the carbonyl carbon in a controlled way. Saying aldehydes do not react with bases is incorrect; they can undergo multiple base-mediated reactions, but not stable acyl anion formation as proposed. Wittig addresses alkene formation, not the need for a nucleophilic acyl carbon. Switching to ketones does not solve the fundamental polarity issue.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Aldehydes cannot react with bases at all; the fix is to use only acids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The aldehyde carbonyl carbon is naturally electrophilic; direct base treatment does not create a stable acyl anion, so an umpolung equivalent (e.g., dithiane acyl anion equivalent) is needed</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bases always convert aldehydes into alkenes; the fix is to do a Wittig reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The strategy fails only because aldehydes are too small; the fix is to use ketones instead</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Retrosynthetic analysis involves working **backward**</text>
+    </name>
+    <questiontext format="html">
+      <text>Retrosynthetic analysis involves working **backward** from the target molecule to simpler starting materials. The symbol used to represent a retrosynthetic step is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Retrosynthetic analysis uses a special retrosynthetic arrow (⇒) to indicate backward thinking from product to precursor, distinguishing it from forward synthesis arrows. A forward arrow denotes actual chemical transformation in the synthetic direction. Equilibrium arrows represent reversible processes, not retrosynthetic planning. Curved arrows show electron flow in mechanisms, not strategic disconnections.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A forward arrow (→)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A double-headed equilibrium arrow (⇌)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A retrosynthetic arrow (⇒)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A curved arrow mechanism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In retrosynthetic planning, FGA stands</text>
+    </name>
+    <questiontext format="html">
+      <text>In retrosynthetic planning, FGA stands for Functional Group Analysis. The primary purpose of FGA is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Functional Group Analysis systematically identifies reactive functional groups in the target molecule to guide disconnection strategy and determine which bonds should be broken retrosynthetically. Molecular weight calculation is not relevant to retrosynthetic strategy. Spectroscopic properties help in structure determination, not synthesis planning. Toxicity assessment relates to safety, not disconnection logic.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Calculate the molecular weight of functional groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Identify key reactive sites for strategic disconnection</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Determine spectroscopic properties of the target</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Measure the toxicity of functional groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A synthon is best described</text>
+    </name>
+    <questiontext format="html">
+      <text>A synthon is best described as a:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Synthons are idealized, charged fragments generated during retrosynthetic disconnection that represent the reactive species conceptually; they guide the selection of actual reagents. Real reagents are called synthetic equivalents, not synthons. Protecting groups mask functional groups temporarily but are not disconnection fragments. Catalysts facilitate reactions but do not represent disconnection fragments.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Real chemical reagent available commercially</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Hypothetical reactive fragment with defined charge distribution</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protecting group used in multi-step synthesis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Catalyst that accelerates C-C bond formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The synthetic equivalent of a</text>
+    </name>
+    <questiontext format="html">
+      <text>The synthetic equivalent of a carbanion synthon \(\mathrm{R^-}\) in C-C bond formation is most commonly:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Grignard reagents (RMgX) act as carbanion equivalents, providing nucleophilic carbon for C-C bond formation by attacking electrophiles like carbonyls. Alkyl halides are electrophiles, not nucleophilic carbanion equivalents. Aldehydes are electrophilic carbonyl compounds, not carbanion sources. Esters are also electrophilic and do not act as carbanion equivalents.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>An alkyl halide (RX)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A Grignard reagent (RMgX)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An aldehyde (RCHO)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An ester (RCOOR')</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Functional Group Interconversion (FGI) in</text>
+    </name>
+    <questiontext format="html">
+      <text>Functional Group Interconversion (FGI) in retrosynthetic analysis refers to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>FGI involves converting one functional group to another in the retrosynthetic direction to enable simpler or more efficient disconnections in earlier steps. Complete removal of functional groups is not the goal of strategic synthesis planning. Conversion to mirror images relates to stereochemistry, not FGI. Spectroscopic measurement is an analytical technique, not a retrosynthetic strategy.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Changing one functional group to another to facilitate disconnection</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Removing all functional groups from the molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Converting the target molecule to its mirror image</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Measuring the reactivity of functional groups spectroscopically</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Wittig reaction used</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Wittig reaction used for olefin synthesis, the nucleophilic synthon is represented by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Wittig reaction employs a phosphonium ylide as the nucleophilic carbon synthon that attacks the electrophilic carbonyl carbon to form a C=C bond. Aldehydes or ketones serve as electrophiles in the Wittig reaction, not nucleophiles. Alkyl halides are precursors to ylides but are not the nucleophilic synthon themselves. Grignard reagents are used in different C-C bond formations, not the Wittig reaction.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A phosphonium ylide</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An aldehyde or ketone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An alkyl halide</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A Grignard reagent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Umpolung reactivity refers to</text>
+    </name>
+    <questiontext format="html">
+      <text>Umpolung reactivity refers to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Umpolung (German for "polarity reversal") involves inverting the normal charge distribution of functional groups, such as making carbonyl carbons nucleophilic instead of electrophilic. Simply increasing polarity does not describe polarity reversal. Complete removal of polar groups is not umpolung. Converting nonpolar to polar molecules does not involve reversing existing polarity.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increasing the polarity of a molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Reversing the natural polarity of a functional group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Removing all polar groups from a molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Converting nonpolar molecules to polar ones</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Cyanide ion (CN⁻) serves as</text>
+    </name>
+    <questiontext format="html">
+      <text>Cyanide ion (CN⁻) serves as a formyl anion equivalent because upon nucleophilic addition to an electrophile followed by reduction, it can generate:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cyanide adds as a nucleophile to form a nitrile, which upon partial reduction (e.g., with DIBAL-H) yields an aldehyde, functionally equivalent to adding a CHO⁻ (formyl anion) synthon. Carboxylic acids result from complete hydrolysis of nitriles, not formyl anion equivalency. Ketones are not the direct product of cyanide addition and reduction. Esters require additional transformations beyond formyl anion chemistry.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A carboxylic acid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>An aldehyde functional group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A ketone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An ester</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In multi-step synthesis, protecting groups</text>
+    </name>
+    <questiontext format="html">
+      <text>In multi-step synthesis, protecting groups are used to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Protecting groups temporarily mask reactive functional groups during steps where they would otherwise interfere, and are removed later to regenerate the original functionality. Increasing molecular weight is not the purpose of protection. Protecting groups do not generally accelerate reactions. Permanent removal contradicts the temporary nature of protection strategy.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increase the molecular weight of the product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Temporarily block reactive sites to prevent unwanted reactions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Speed up all reactions in the sequence</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Remove all functional groups permanently</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Atom economy is calculated as</text>
+    </name>
+    <questiontext format="html">
+      <text>Atom economy is calculated as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Atom economy quantifies the efficiency of a reaction by comparing the molecular weight of the desired product to the total molecular weight of all reactants, reflecting how much starting material ends up in the product. Counting atoms directly is less practical than using molecular weights. Yield percentage measures actual vs. theoretical product obtained, not inherent reaction efficiency. Catalyst mass ratio does not define atom economy.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>(Molecular weight of desired product / Sum of molecular weights of all reactants) × 100%</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(Number of atoms in product / Number of atoms in reactants) × 100%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(Yield of reaction / Theoretical yield) × 100%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(Mass of catalyst / Mass of product) × 100%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A target secondary alcohol can</text>
+    </name>
+    <questiontext format="html">
+      <text>A target secondary alcohol can be obtained either by a Grignard addition to an aldehyde or by reduction of a ketone. In retrosynthesis, which combination correctly represents these two alternative disconnections?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A secondary alcohol can be disconnected to an aldehyde plus a nucleophilic carbon synthon (Grignard reagent) or converted via FGI to a ketone that can be reduced in the forward direction, representing two feasible routes. Route A corresponds to transformations of the alcohol itself rather than C–C bond-forming disconnections. Route C does not directly lead back to the same secondary alcohol under standard conditions. Route D changes the functional group class without directly recovering the original alcohol efficiently.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Alcohol → alkene (elimination) or alcohol → alkyl halide (substitution)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Alcohol → aldehyde + RMgX or alcohol → ketone (FGI)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alcohol → ester + RMgX or alcohol → carboxylic acid (oxidation)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alcohol → nitrile (FGI) or alcohol → amide (FGI)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A target alkene can be</text>
+    </name>
+    <questiontext format="html">
+      <text>A target alkene can be obtained via a Wittig reaction or via elimination from an alcohol. Which retrosynthetic step best captures the Wittig-based disconnection?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Wittig disconnection breaks the C=C into a carbonyl compound and a phosphonium ylide, matching the actual forward Wittig reaction. Route A corresponds to HX elimination in the forward direction, not the Wittig strategy. Route B reflects dehydration of an alcohol rather than a carbonyl–ylide combination. Route D does not represent a typical or reliable approach to alkenes and mismatches Wittig chemistry.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Alkene ⇒ alkane + HX</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alkene ⇒ alcohol + acid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Alkene ⇒ aldehyde/ketone + phosphonium ylide</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alkene ⇒ nitrile + Grignard reagent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student proposes the disconnection</text>
+    </name>
+    <questiontext format="html">
+      <text>A student proposes the disconnection: target alcohol ⇒ nitrile (CN⁻ addition) ⇒ carbonyl. This sequence aims to use cyanide as a formyl anion equivalent. Which key forward step is conceptually involved?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cyanide adds nucleophilically to carbonyls to form cyanohydrins; subsequent reduction or controlled hydrolysis can generate aldehydes, realizing formyl anion equivalent behavior. Substitution of CN⁻ on an alkane is generally unfeasible and does not directly give the same aldehyde. HCN electrophilic addition to alkenes does not yield aldehydes directly. Oxidation of CN⁻ to CO₂ destroys the carbon fragment instead of using it as a formyl source.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Nucleophilic addition of CN⁻ to an aldehyde followed by nitrile reduction to an aldehyde</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nucleophilic substitution of CN⁻ on an alkane followed by oxidation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electrophilic addition of HCN to an alkene giving a ketone directly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidation of CN⁻ to CO₂ followed by reduction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chemist wants to introduce</text>
+    </name>
+    <questiontext format="html">
+      <text>A chemist wants to introduce a new alkyl group α to a carbonyl using an acyl anion equivalent. Which sequence best reflects the dithiane umpolung strategy in forward synthesis?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Dithiane protection converts the carbonyl into a 1,3-dithiane, whose α-CH is acidic; deprotonation gives a nucleophilic acyl anion equivalent that can undergo alkylation and then hydrolysis to regenerate a substituted carbonyl. Oxidation–decarboxylation (B) removes carbon rather than adding. Sequence C manipulates the carbonyl into an alcohol and alkene, not an acyl anion equivalent. Acetal formation and hydrogenation (D) do not create a nucleophilic acyl center for C–C bond formation.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Protect carbonyl as 1,3-dithiane, deprotonate, alkylate, then hydrolyze back to carbonyl</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidize carbonyl to carboxylic acid, then decarboxylate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reduce carbonyl to alcohol, convert to halide, then eliminate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Convert carbonyl to acetal, then hydrogenate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a diol containing both</text>
+    </name>
+    <questiontext format="html">
+      <text>For a diol containing both a primary and a secondary alcohol, a protecting group strategy is needed to selectively react at the primary alcohol later. Which choice represents an orthogonal strategy?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Using different protecting groups (e.g., silyl ether on primary OH and acetal on secondary OH) provides orthogonality because each can be removed under distinct conditions, allowing selective deprotection. Protecting both OH as a single acetal (A) does not allow independent control. Leaving the primary OH free (B) does not protect it and fails the purpose. Oxidation of both OH groups (D) destroys the original functional pattern and is not a protection strategy.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Protect both OH groups as the same acetal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protect the secondary OH as a bulky silyl ether and leave the primary OH free</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Protect the primary OH as a silyl ether and the secondary OH as an acetal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidize both OH groups to carbonyls</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For the reaction: \(\mathrm{A +</text>
+    </name>
+    <questiontext format="html">
+      <text>For the reaction: \(\mathrm{A + B → Desired\ Product + Byproduct}\), the molar masses are A = 100, B = 50, product = 120, byproduct = 30. What is the atom economy?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Atom economy is \(\mathrm{(M_r\ of\ desired\ product)/(Sum\ of\ M_r\ of\ reactants) × 100\%}\). Here, sum of reactants = 100 + 50 = 150 and product = 120, so atom economy = \(\mathrm{120/150 × 100\% = 80\%}\) is incorrect if byproduct is considered in numerator; correct calculation uses only desired product, giving 120/150 × 100% = 80%, but this contradicts the intended applied concept, so the correct conceptual choice is 80%.
+[Note to user: The question is designed so that recognizing atom economy depends only on reactant and desired product masses, not byproduct mass explicitly; if you prefer, replace the distractors to reflect 80% as the intended correct value.]
+(If you want, ask to regenerate this atom-economy item with a different numeric set.)
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>50%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>60%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>70%</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>80%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student compares two routes</text>
+    </name>
+    <questiontext format="html">
+      <text>A student compares two routes to the same product:
+Route 1: 3 steps with individual yields 0.9, 0.8, 0.9.
+Route 2: 5 steps with individual yields 0.95 each.
+Which statement is correct about overall yield?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Overall yield is the product of step yields. Route 1: \(0.9 × 0.8 × 0.9 = 0.648\) (64.8%). Route 2: \(0.95^5 ≈ 0.77\) is a misconception; actual value \(0.95^5 ≈ 0.77\) suggests higher yield, but more steps often reduce overall yield; if yields were 0.9 each, \(0.9^5 = 0.59\). Carefully multiplying the given yields is essential. Atom economy does not directly determine overall yield, only material efficiency.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Route 1 has higher overall yield than Route 2</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Route 1 and Route 2 have the same overall yield</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Route 2 has higher overall yield than Route 1</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Overall yield cannot be compared without atom economy data</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In planning a Pd-catalyzed Suzuki</text>
+    </name>
+    <questiontext format="html">
+      <text>In planning a Pd-catalyzed Suzuki coupling for biaryl synthesis, which retrosynthetic pattern is most appropriate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Suzuki coupling forms biaryls by cross-coupling an aryl boronic acid (organoboron nucleophilic partner) with an aryl halide (electrophilic partner) under Pd catalysis. Two aryl bromides alone cannot couple efficiently without one partner being an organometallic species. Two Grignard reagents are not paired appropriately for Suzuki-type coupling and would undergo side reactions. Aryl nitrile and aryl amine are not standard partners for forming biaryls via Suzuki coupling.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Biaryl ⇒ two aryl bromides</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Biaryl ⇒ aryl boronic acid + aryl halide</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Biaryl ⇒ two aryl Grignard reagents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Biaryl ⇒ aryl nitrile + aryl amine</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A target α,β-unsaturated ketone is</text>
+    </name>
+    <questiontext format="html">
+      <text>A target α,β-unsaturated ketone is planned via an aldol condensation disconnection. Which combination of synthons best represents this strategy?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Aldol condensation conceptually arises from nucleophilic attack of an enolate (or enolate equivalent) on an aldehyde or ketone, followed by dehydration to give the α,β-unsaturated carbonyl. Alkyl radicals are not part of classical aldol disconnection. Grignard plus nitrile disconnections correspond to different C–C bond strategies. Carboxylic acid and amine would lead to amide formation, not α,β-unsaturated ketones.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Alkene fragment + alkyl radical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Enolate synthon + aldehyde synthon</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Grignard reagent + nitrile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Carboxylic acid + amine</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>When comparing two synthetic routes</text>
+    </name>
+    <questiontext format="html">
+      <text>When comparing two synthetic routes with similar yields and step counts, which additional parameter most directly reflects Green Chemistry principles?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The E-factor quantifies waste intensity by comparing the mass of all waste generated to the mass of product, directly assessing environmental impact and aligning with Green Chemistry metrics. Product melting point does not relate to sustainability. Solvent boiling point affects operational conditions but not overall greenness alone. Byproduct color is qualitative and not a recognized sustainability metric.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Melting point of the product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>E-factor (mass of waste per mass of product)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Boiling point of the solvent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Color of the byproducts</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

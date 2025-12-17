@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best defines chemoselectivity]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best defines chemoselectivity in organic synthesis?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemoselectivity refers to a reagent reacting with one functional group selectively when multiple functional groups are present in a molecule. This contrasts with enantioselectivity (one enantiomer favored) and regioselectivity (site preference within similar sites). Selecting reagents/conditions that differentiate functional groups exemplifies chemoselectivity. Options describing enantioselectivity or regioselectivity do not define this principle.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Preference for formation of one enantiomer over the other]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Preference for reaction at one functional group in the presence of others]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Preference for addition to one face of a planar electrophile]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Preference for substitution at the least hindered site within the same group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In electrophilic aromatic substitution, an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In electrophilic aromatic substitution, an electron-donating substituent such as –OCH3 typically directs incoming electrophiles to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Electron-donating groups activate the ring and stabilize sigma complexes at ortho and para positions via resonance, increasing substitution there. Exclusive para or ortho selection is not guaranteed at the basic level; both are favored depending on sterics and conditions. Meta-directing behavior is characteristic of strong electron-withdrawing groups, not –OCH3.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Meta position due to deactivation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ortho/para positions due to activation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only para position due to steric hindrance]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only ortho position due to resonance donation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which choice describes enantioselectivity most]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which choice describes enantioselectivity most accurately?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Enantioselectivity refers to the preferential formation of one enantiomer when a prochiral substrate reacts in a chiral environment (catalyst, auxiliary, enzyme). Diastereoselectivity pertains to preference among diastereomers when stereocenters influence outcomes. Kinetic vs thermodynamic control and aldehyde vs ketone reactivity are unrelated to enantioselectivity definitions.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of one diastereomer preferentially in presence of an existing stereocenter]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Formation of one enantiomer preferentially from a prochiral substrate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of the kinetic product over the thermodynamic product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Preferential reaction of aldehyde over ketone within the same molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A primary purpose of installing]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A primary purpose of installing a protecting group during a multistep synthesis is to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Protecting groups are temporary masks that prevent undesired reactions on sensitive functional groups, enabling selective transformations elsewhere. They must be removable under orthogonal conditions. They do not permanently deactivate or necessarily improve leaving group ability as a goal, and increased molecular weight is incidental, not the purpose.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase molecular weight for easier purification]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Permanently deactivate all reactive sites]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Temporarily mask a functional group incompatible with planned steps]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Enhance the leaving group ability of the protected site permanently]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which alcohol protecting group is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which alcohol protecting group is commonly chosen for acid-sensitive sequences due to base- or fluoride-labile deprotection?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Trialkylsilyl ethers like TBS are stable to many acids and can be removed with fluoride (e.g., TBAF) or base, fitting orthogonal strategies where acid is used elsewhere. Benzyl ethers are typically removed by hydrogenolysis; trityl groups are acid-labile; acetals are acid-labile carbonyl protections, not primarily alcohol protections for acid-sensitive sequences.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzyl ether]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Silyl ether (e.g., TBS)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Trityl ether (Tr)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Acetal from a diol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best describes resolution]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best describes resolution of enantiomers by diastereomeric salt formation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemical resolution often forms diastereomeric salts by reacting a racemic acid or base with a single enantiomer of a resolving agent; the salts have different solubilities/melting points, enabling separation and subsequent recovery. It does not inherently convert both to a single enantiomer without separation, and it creates diastereomers, not enantiomeric salts of identical properties.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Converts a racemate directly into a single enantiomer without separation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Produces diastereomeric salts with different physical properties for separation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Requires a chiral catalyst to convert both enantiomers to the same product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Relies on forming enantiomeric salts with identical solubilities]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Desymmetrization is most directly defined]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Desymmetrization is most directly defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Desymmetrization transforms a prochiral or meso compound such that symmetry is broken, creating a chiral center or axis, often using selective reagents or enzymes. Resolution is the separation of racemates via diastereomeric derivatives; converting to meso is the opposite of introducing chirality.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Separation of racemates into single enantiomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Converting a racemic mixture into a meso compound]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Selectively transforming a prochiral or meso substrate to generate chirality]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Converting enantiomers to diastereomers for separation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Evans oxazolidinone is primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Evans oxazolidinone is primarily used in synthesis as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Evans oxazolidinone functions as a temporary chiral auxiliary attached to carboxylic acid derivatives to direct diastereoselective transformations (e.g., aldol), and is later removed and recovered. It is not a catalyst, not permanent, and is not a hydrogen-bond donor organocatalyst.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A permanent chiral auxiliary embedded in the final product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A temporary chiral auxiliary to control diastereoselectivity in reactions like aldol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A chiral phase-transfer catalyst for SN2 substitutions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A hydrogen-bond donor organocatalyst for Diels–Alder reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Proline in asymmetric organocatalysis typically]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Proline in asymmetric organocatalysis typically operates via which activation mode?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Proline and related secondary amines form enamines (nucleophile activation) or iminium ions (electrophile activation), enabling enantioselective aldol and Michael additions through chiral enamine/iminium pathways. Organocatalysis here does not involve metal backbonding, radical pathways, or strong acid activation of alkenes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Iminium/enamine activation enabling enantioselective aldol and Michael reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Metal–ligand backbonding to lower LUMO of carbonyls]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Generation of free radicals via single-electron transfer]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Strong Brønsted acid activation of alkenes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best captures the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best captures the concept of double stereodifferentiation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Double stereodifferentiation arises when both substrate and reagent/catalyst possess stereochemical information; matched cases reinforce selectivity, while mismatched cases reduce or invert it. Exclusive dependence on substrate or reagent alone does not describe the phenomenon, and independence from both is incorrect.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/1f657058-509e-4057-ad33-3e519f1d9672/inorganic_unit_01.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only substrate control dictates stereochemical outcome]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only reagent/catalyst control dictates stereochemical outcome]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Substrate and reagent/catalyst chirality act together, leading to matched or mismatched cases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Stereochemical outcomes are independent of both substrate and reagent chirality]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

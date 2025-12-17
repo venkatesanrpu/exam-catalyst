@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a Pd-catalyzed cross-coupling, an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a Pd-catalyzed cross-coupling, an aryl iodide and an aryl chloride are reacted separately under identical conditions with the same Pd(0)/phosphine catalyst. Which statement best predicts the relative rate of oxidative addition?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Oxidative addition of Pd(0) into a C–X bond is strongly influenced by the nature of the halide, and aryl iodides are generally more reactive than aryl chlorides toward oxidative addition because the C–I bond is weaker and iodide is a better leaving group in this context.  The other choices ignore the standard reactivity trend emphasized for cross-coupling electrophiles and incorrectly attribute the rate to sterics or “bond polarization only” without considering oxidative addition feasibility.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aryl chloride undergoes oxidative addition faster due to stronger C–Cl bond polarization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Aryl iodide undergoes oxidative addition faster due to better leaving group ability of iodide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both proceed at the same rate because oxidative addition depends only on palladium, not halide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aryl chloride undergoes oxidative addition faster because chloride is smaller and less steric]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student wants to form]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student wants to form a biaryl bond using a coupling that typically requires a base to enable transmetalation. Which reagent pair best matches this requirement?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Suzuki–Miyaura coupling uses boronic acids/esters and commonly relies on hydroxide/alkoxide base to facilitate transmetalation from boron to palladium.  Organotin partners correspond to Stille coupling (not base-driven in the same defining way), organozinc corresponds to Negishi coupling, and Grignard corresponds to Kumada coupling and is typically less functionally tolerant.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aryl bromide + organotin (R–SnBu3)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Aryl bromide + boronic acid/boronic ester]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aryl bromide + organozinc reagent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aryl bromide + Grignard reagent (RMgX)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Heck reaction, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Heck reaction, the formation of an alkene product is closely associated with which elementary step after migratory insertion?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Heck mechanism features oxidative addition, alkene insertion, and then β-hydride elimination to generate the substituted alkene (commonly giving E-alkene) and a Pd–H species.  Reductive elimination is the C–C bond-forming step in many cross-couplings, but the Heck product alkene arises via β-hydride elimination after insertion rather than a final reductive elimination to create the alkene framework.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Transmetalation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[β-Hydride elimination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reductive elimination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Radical recombination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A terminal alkyne is coupled]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A terminal alkyne is coupled with an aryl bromide to give an aryl-alkyne under Pd catalysis. Which additional component most directly explains the commonly used co-catalyst role in this transformation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In Sonogashira coupling, Cu(I) commonly forms a copper acetylide from the terminal alkyne, enabling efficient transfer of the alkynyl group to palladium during transmetalation.  Fluoride activation is characteristic of Hiyama coupling (organosilanes), while strong-acid vinyl cation pathways and Ti(III) radical reductions are not the defining mechanistic features described for Sonogashira in this unit.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Copper(I) helps generate a metal acetylide that transfers the alkynyl group during transmetalation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fluoride activates the alkyne by forming a pentavalent silicon ate complex]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Strong acid protonates the alkyne to form a vinyl cation intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Titanium(III) reduces the aryl bromide to an aryl radical]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A chemist must choose among]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A chemist must choose among Negishi, Kumada, and Hiyama couplings for a substrate bearing a base-sensitive functional group. Which choice is most consistent with selecting the coupling that is described as operating under comparatively mild activation (via fluoride) and improved functional group tolerance?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hiyama coupling uses organosilane partners and is described as fluoride-mediated in transmetalation/activation, often allowing mild conditions and good functional group tolerance.  Kumada uses organomagnesium/organometallic partners that are typically more reactive and less tolerant, Negishi uses organozinc (not fluoride activation as a defining feature here), and Stille still proceeds via transmetalation (and is not among the three options being compared in the prompt).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Kumada, because organomagnesium reagents are mild and tolerate many groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Negishi, because organozinc reagents require fluoride activation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Hiyama, because organosilanes can be fluoride-activated and are used under mild conditions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Stille, because it avoids transmetalation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A palladium-catalyzed allylic substitution proceeds]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A palladium-catalyzed allylic substitution proceeds via a π-allyl palladium intermediate and can give either linear or branched products depending on steric/electronic effects and ligand choice. Which named reaction best matches this description?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Tsuji–Trost reactions are defined by formation of a π-allyl–Pd intermediate followed by nucleophilic attack, with regioselectivity (linear vs branched) and enantioselectivity influenced by substrate and ligands.  Heck and Suzuki are cross-coupling families with different key intermediates/steps, while McMurry is a low-valent titanium-mediated carbonyl coupling to alkenes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Tsuji–Trost allylic substitution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heck reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Suzuki–Miyaura coupling]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[McMurry reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student observes formation of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student observes formation of an unwanted “biaryl byproduct” when performing Suzuki coupling with a boronic acid. Which adjustment is most directly targeted at the stated special-case issue in Suzuki reactions?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit explicitly highlights “boronic acid homocoupling prevention” as a special consideration in Suzuki coupling and links optimization to ligand and base selection.  Fluoride activation is tied to Hiyama, titanium reagents are tied to McMurry, and copper(I) co-catalysis is characteristic of Sonogashira rather than Suzuki.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Add fluoride to activate silicon]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Choose conditions that prevent boronic acid homocoupling (optimize ligand/base)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Replace Pd with low-valent titanium reagent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use copper(I) to generate an alkynide intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A ring-closing metathesis (RCM) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A ring-closing metathesis (RCM) is planned to convert a diene into a cyclic alkene. Which catalyst family is most directly associated with this transformation in the syllabus unit?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Olefin metathesis in this unit is described as proceeding with ruthenium-based catalysts (including common Grubbs/Hoveyda families) and includes RCM as a key application.  Palladium-phosphine cycles describe cross-coupling; copper acetylide chemistry is Sonogashira; and Ti(III) conditions describe McMurry carbonyl coupling.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ruthenium alkylidene (Grubbs/Hoveyda-type) catalysts]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Palladium-phosphine catalysts used for oxidative addition/transmetalation cycles]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Copper(I) acetylide catalysts used for terminal alkyne coupling]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Titanium(III) reagents used for carbonyl–carbonyl coupling]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A vinyl halide is coupled]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A vinyl halide is coupled with an alkene under Heck conditions. The product is predominantly an E-alkene. Which mechanistic feature best rationalizes the typical E-alkene outcome in this reaction family?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Heck reaction is described with syn addition (insertion) and a β-hydride elimination pathway, and this sequence is associated with formation of E-alkene products in typical cases.  π-allyl palladium intermediates define Tsuji–Trost chemistry, transmetalation is not the defining step for Heck (it uses alkene insertion instead), and radical-chain framing is not the core mechanism emphasized here.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction proceeds through a π-allyl palladium intermediate that enforces E geometry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Syn addition followed by β-hydride elimination commonly leads to E-alkene formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The base-catalyzed transmetalation step sets the E/Z ratio]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction is a radical chain process that selectively forms E-alkenes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two aldehydes are subjected to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two aldehydes are subjected to low-valent titanium conditions to form an alkene. Which statement best captures the reaction’s key mechanistic logic at the 2-mark (intermediate) level?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[McMurry coupling is described as a titanium(III)/low-valent titanium-mediated carbonyl coupling where carbonyl reduction and coupling give a pinacol-like intermediate (often represented as a Ti–O–Ti bridged species) that leads to net deoxygenative olefination.  The other options incorrectly import Pd cross-coupling steps (oxidative addition/transmetalation/reductive elimination), Suzuki logic, or π-allyl chemistry from Tsuji–Trost.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0d13af76-414f-4c3b-8d8c-2f6b625d3637/organic_unit_05.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aldehydes first undergo oxidative addition to titanium, then transmetalation, then reductive elimination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Carbonyls are reduced to ketyl-like species that couple (pinacol-type intermediate) and ultimately deoxygenate to an alkene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aldehydes undergo base-promoted transmetalation from boron, then reductive elimination]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aldehydes form a π-allyl complex that is attacked by a nucleophile]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

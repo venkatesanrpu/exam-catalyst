@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A substrate can, in principle]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A substrate can, in principle, undergo either a concerted pericyclic cycloaddition or a stepwise radical pathway under irradiation. Which single observation most strongly supports a *concerted* photochemical cycloaddition (rather than a stepwise radical addition)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A concerted pericyclic cycloaddition is expected to be stereospecific because bonding changes occur in one organized transition state governed by orbital symmetry, so the alkene’s initial stereochemistry is mapped directly into the product. A stepwise radical pathway commonly allows bond rotation in intermediates, often eroding stereospecificity and giving stereochemical scrambling. Increasing rate with radical inhibitors contradicts radical involvement, while strong solvent polarity or acid dependence points toward ionic or acid-catalyzed stepwise mechanisms rather than a symmetry-controlled pericyclic photoprocess.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The product shows complete stereospecificity with respect to the alkene geometry (stereochemistry is transferred without scrambling)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction rate increases when a radical inhibitor is added]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction requires a polar solvent to proceed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The product distribution changes dramatically with acid concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student claims: “Woodward–Hoffmann rules]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student claims: “Woodward–Hoffmann rules are just another way of doing FMO theory; they always make identical predictions and there is no added value in correlation diagrams.” Which statement best evaluates this claim?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Woodward–Hoffmann analysis is rooted in conservation of orbital symmetry and is often expressed via orbital and state correlation diagrams that track how symmetry-adapted orbitals correlate from reactants to products along an adiabatic pathway. FMO is extremely useful (especially for regioselectivity and substituent effects), but correlation approaches can more directly address “allowed vs forbidden” character and the thermal vs photochemical inversion by explicit ground- vs excited-state correlations. Claims that correlation diagrams never address stereochemistry, only apply to photochemistry, or that FMO predicts only rates/equilibria are conceptual misclassifications.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Incorrect: orbital/state correlation diagrams provide a symmetry-continuity (adiabatic) argument and can diagnose allowedness/forbiddenness even when simple HOMO–LUMO pictures are ambiguous]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Correct: FMO and Woodward–Hoffmann are interchangeable, and correlation diagrams never address stereochemistry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Incorrect: FMO predicts only rates, whereas Woodward–Hoffmann predicts only equilibrium constants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Correct: correlation diagrams apply only to photochemistry and not to thermal pericyclic reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider sigmatropic rearrangements where both]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider sigmatropic rearrangements where both suprafacial and antarafacial pathways are symmetry possibilities. Which factor most plausibly explains why many thermal sigmatropic shifts are observed as suprafacial rather than antarafacial for typical acyclic systems?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Woodward–Hoffmann treatment distinguishes suprafacial vs antarafacial pathways as orbital-topology options, but feasibility also depends on whether the molecule can adopt the required geometry in the transition state. In many real acyclic substrates, antarafacial shifts are symmetry-allowed only at the cost of severe conformational distortion, so the reaction follows the stereochemically and conformationally accessible suprafacial route. The idea that suprafacial is always symmetry-allowed regardless of electron count is false, and invoking radical intermediates misrepresents concerted sigmatropic mechanisms.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Antarafacial migration often demands geometries (large distortions/long chains) that are difficult to achieve, so the symmetry-allowed path can be geometrically inaccessible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Suprafacial migration is always symmetry-allowed for all electron counts, so it dominates universally]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Antarafacial migration is impossible because σ-bonds cannot migrate in pericyclic reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Suprafacial migration requires radical intermediates that are more stable than antarafacial radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A carbonyl compound can undergo]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A carbonyl compound can undergo either Norrish type-I or type-II photochemistry. Which substrate feature most directly *biases* toward Norrish type-II over type-I under otherwise comparable irradiation conditions?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Norrish type-II cleavage begins with γ-hydrogen abstraction by the excited carbonyl to form a 1,4-diradical, so availability and geometric accessibility of a γ-C–H is a decisive structural requirement. Norrish type-I instead involves α-cleavage; it does not require a γ-hydrogen. Leaving groups on oxygen and α-enolization acidity are not the defining determinants of the Norrish I vs II branching described for carbonyl photochemistry in this syllabus.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Presence of an accessible γ-hydrogen that can be abstracted intramolecularly to form a 1,4-diradical]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Absence of any α-bonds adjacent to the carbonyl carbon]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Presence of a good leaving group on the carbonyl oxygen]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Strong acidity at the α-position enabling fast enolization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A photoredox system can proceed]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A photoredox system can proceed by either oxidative quenching or reductive quenching of an excited sensitizer. Which statement best captures the *unifying* idea behind photooxidation/photoreduction in this context?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Photooxidation and photoreduction in the learning path are framed around excited-state redox chemistry, where absorption of light produces an excited state with altered reduction potentials, making electron-transfer pathways accessible. This is the key reason oxidative vs reductive quenching manifolds exist and why sensitizers can mediate redox transformations under mild conditions. Treating light as mere heating ignores excited-state chemistry, singlet oxygen is specific to sensitized oxygenation (not all photooxidations), and electron-transfer photochemistry commonly generates radical ions/radicals rather than being purely ionic.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/00bf4220-38b7-4615-9d99-427b9a8f50a1/organic_unit_09.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Excitation changes the effective redox power of the sensitizer, enabling electron-transfer steps that are not feasible in the ground state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Light only provides heat, so redox outcomes are identical to thermal redox chemistry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Photooxidation must involve singlet oxygen, while photoreduction cannot involve any electron transfer]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Photoredox pathways are always ionic and cannot involve radical intermediates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

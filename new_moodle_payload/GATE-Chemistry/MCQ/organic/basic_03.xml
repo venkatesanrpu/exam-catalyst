@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which feature most directly stabilizes]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which feature most directly stabilizes a tertiary carbocation relative to a secondary one?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Tertiary carbocations are more stable because more adjacent σ-bonds donate electron density via hyperconjugation into the vacant p-orbital of the cationic center. This delocalization lowers energy. Increased s-character is relevant to carbanions, not cations; alkyl groups exert a weakly electron-donating inductive effect (not negative); classical carbocations are planar sp2, not non-planar sp3.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increased s-character at the cationic center]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Hyperconjugation from additional C–H/C–C σ-bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Negative inductive effect from alkyl groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of a non-planar sp3 cation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For carbanions, which factor most]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For carbanions, which factor most increases stability?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Carbanions are stabilized when the negative charge is delocalized by resonance (e.g., allylic or benzylic systems). Higher s-character (sp > sp2 > sp3) also stabilizes, not decreases stability; simple alkyl donors may destabilize; protonation removes the anionic character rather than stabilizing it as an anion.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decreased s-character in the lone-pair orbital]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Resonance delocalization into a π-system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Proximity to electron-donating alkyl substituents]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conversion to a carbocation by protonation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best distinguishes singlet]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best distinguishes singlet and triplet carbenes?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Carbenes are neutral divalent carbon species with six valence electrons; singlet carbenes have paired electrons (often leading to concerted additions), while triplet carbenes have two unpaired electrons (often leading to stepwise reactivity). Reactivity depends on context and substrate; triplet does not have paired electrons.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Singlet carbenes are always less reactive than triplet carbenes.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Triplet carbenes have paired electrons in the same orbital.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Singlet carbenes have paired electrons; triplet carbenes have two unpaired electrons.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both singlet and triplet carbenes possess two paired electrons.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[What is the defining feature]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[What is the defining feature of nitrenes compared to carbenes?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Nitrenes are neutral monovalent nitrogen intermediates, analogous to carbenes, and can exist in singlet or triplet states depending on substituents and conditions. They are not cationic; they are not restricted to triplet; stabilization mechanisms include resonance and substituent effects, not just hyperconjugation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitrenes possess a positive charge on nitrogen.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Nitrenes are neutral monovalent nitrogen species with six valence electrons.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitrenes are always triplet only.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitrenes are stabilized solely by hyperconjugation.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement correctly characterizes arynes]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement correctly characterizes arynes (e.g., benzyne)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Arynes are highly strained benzene derivatives with a formal triple bond, commonly formed by base-induced elimination from aryl halides; the in-ring triple bond causes significant strain and high reactivity. They are not purely resonance-stabilized nor formed exclusively by radical initiation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are benzene rings with an extra double bond added.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[They feature a formal triple bond within the aromatic framework, generating strain.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are stabilized by strong resonance delocalization with no strain.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are generated via radical initiation exclusively.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a radical chain reaction]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a radical chain reaction, which sequence is correct?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Radical mechanisms proceed via initiation (radical generation), propagation (radical transfer steps), and termination (radical-radical recombination or disproportionation that removes radicals). Termination decreases, not increases, radical concentration.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Initiation → propagation → rearrangement only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Propagation → termination → initiation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Initiation generates radicals; propagation sustains the chain; termination quenches radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Termination increases radical concentration for steady state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which rearrangement most directly involves]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which rearrangement most directly involves a 1,2-migration in a carbocation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Wagner–Meerwein rearrangements are cationic 1,2-shifts (alkyl or hydride) that rearrange carbocation skeletons. Claisen and Cope are pericyclic (sigmatropic) rearrangements; Barton–McCombie is a radical deoxygenation, not a cationic 1,2-shift.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Claisen rearrangement]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cope rearrangement]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Wagner–Meerwein rearrangement]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Barton–McCombie deoxygenation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement about allylic and]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement about allylic and benzylic radicals is most accurate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Allylic and benzylic radicals are stabilized by resonance; the unpaired electron is delocalized over the π-system. This stabilization is greater than for simple alkyl radicals. Hyperconjugation stabilizes, not destabilizes; allylic radicals do resonate effectively.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are destabilized due to hyperconjugation.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[They are stabilized by resonance delocalization of the unpaired electron.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzylic radicals are less stable than primary alkyl radicals.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Allylic radicals cannot undergo resonance due to orthogonal orbitals.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which best differentiates SNAr from]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which best differentiates SNAr from aryne mechanisms in aromatic substitution?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[SNAr typically needs an electron-withdrawing group (e.g., nitro) ortho/para to the leaving group and proceeds via a Meisenheimer complex, whereas aryne pathways arise from base-induced elimination to form the strained aryne that undergoes addition by nucleophiles.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[SNAr requires nitro activation and proceeds via a Meisenheimer intermediate; arynes proceed via base-induced elimination-addition.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both require strong electron-donating groups para to the leaving group.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both must proceed through radical intermediates.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Arynes and SNAr are identical but named differently.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement about pinacol and]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement about pinacol and semipinacol processes is correct at the basic level?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The pinacol rearrangement involves protonation and dehydration of vicinal diols to give carbocations that undergo 1,2-migration to yield carbonyl compounds; semipinacol rearrangements are related cationic shifts triggered by leaving-group generation adjacent to an alcohol. These are not radical-only or base-driven carbanion processes.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e060820a-2d31-40e4-9eb3-489f8d4f9770/organic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/1f657058-509e-4057-ad33-3e519f1d9672/inorganic_unit_01.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Pinacol rearrangement converts vicinal diols to carbonyls via carbocation 1,2-shifts under acidic conditions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pinacol rearrangement is a radical-only process.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Semipinacol rearrangement is unrelated to carbocations.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pinacol rearrangement requires strong base to form a carbanion that migrates.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,1040 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A solvolysis substrate can form</text>
+    </name>
+    <questiontext format="html">
+      <text>A solvolysis substrate can form either a classical tertiary carbocation or a bridged (non-classical) carbocation through neighboring group participation. Which observation most strongly supports **anchimeric assistance** as the dominant pathway?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Anchimeric assistance (neighboring group participation) stabilizes developing positive charge by forming a bridged intermediate, often causing strong rate acceleration and altered stereochemical outcomes (commonly higher retention or reduced racemization compared with a fully free classical carbocation). A first-order rate law is consistent with many SN1-like ionizations and is not diagnostic; racemization is typical for classical SN1 and does not support strong neighboring participation; peroxide/radical-trap effects diagnose radical pathways, not cationic neighboring group participation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>First-order rate law is observed.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Product mixture shows racemization at the reacting center.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Rate acceleration occurs along with predominant substitution giving retention-like stereochemical outcome compared to normal SN1 expectations.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reaction requires peroxide initiator and shows inhibition by radical traps.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a rearrangement-prone carbocation that</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a rearrangement-prone carbocation that can undergo either a 1,2-hydride shift or a 1,2-alkyl shift. Which mechanistic criterion most reliably predicts which group migrates in a Wagner–Meerwein rearrangement?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Wagner–Meerwein rearrangements are driven by formation of a more stable carbocation (via resonance and/or hyperconjugation), so the preferred migrating group is the one that produces the more stabilized cationic center after the 1,2-shift. Bond dissociation energy is not the controlling metric because migration is not simple homolysis; strong −I groups typically destabilize carbocations; transition states are not identical because the developing cation stability differs.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The group with the lowest bond dissociation energy migrates.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The group that leads to the most stabilized carbocation after migration migrates preferentially.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The group with the strongest −I effect migrates first.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Migration is random because both shifts proceed through identical transition states.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A substrate undergoes rearrangement under</text>
+    </name>
+    <questiontext format="html">
+      <text>A substrate undergoes rearrangement under acidic conditions to give a carbonyl compound via migration from a vicinal diol-like framework. Which statement best distinguishes pinacol vs semipinacol logic in predicting the migrating group?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Pinacol and semipinacol rearrangements proceed through cationic character created after leaving-group generation (often dehydration), and migratory aptitude reflects how well the migrating group supports positive charge development in the rearranging framework (commonly aryl or hydride shifts can be strongly favored depending on context). Radical stability is irrelevant here; “stronger C–O bond” is not the mechanistic driver; medium acidity enables ionization but does not eliminate substituent-controlled migratory preferences.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>In both, the migrating group is determined only by radical stability.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In both, the migrating group is the one that forms the strongest C–O bond in the product.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Migration is governed by relative ability to stabilize the developing carbocationic character during the rearrangement step, often favoring groups that can better support positive charge development.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Migration is governed solely by the acidity of the medium, not substituent effects.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A reaction sequence generates an</text>
+    </name>
+    <questiontext format="html">
+      <text>A reaction sequence generates an intermediate that could be either an aryne (benzyne-type) or a Meisenheimer complex (SNAr). Which single diagnostic outcome most strongly supports an **aryne** pathway?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Aryne intermediates are highly strained and can be attacked at either aryne carbon; with unsymmetrical systems this often produces regioisomer mixtures governed by distortion/inductive effects rather than the strict EWG requirements of SNAr. SNAr is classically promoted by strong EWGs that stabilize the Meisenheimer intermediate; solvent effects described here align more with anionic intermediates; strong fixed para selectivity is not a hallmark of aryne chemistry.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Reaction proceeds only when a strong electron-withdrawing group is ortho/para to the leaving group.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A mixture of regioisomeric substitution products is obtained from an unsymmetrical aryl precursor and a single nucleophile.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction is accelerated by polar protic solvents due to stabilization of the Meisenheimer complex.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction shows strong para selectivity regardless of substitution pattern.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A transformation could proceed via</text>
+    </name>
+    <questiontext format="html">
+      <text>A transformation could proceed via (i) a singlet carbene pathway giving stereospecific cyclopropanation, or (ii) a triplet carbene pathway giving stepwise addition. Which product-level observation best supports a **triplet carbene** mechanism?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Triplet carbenes commonly react stepwise through diradical character, which can scramble stereochemical information and reduce stereospecificity compared with singlet carbenes that often cyclopropanate alkenes in a concerted, stereospecific manner. Anti-Markovnikov HBr addition is a radical-chain halogenation topic, not carbene cyclopropanation; Meisenheimer complexes pertain to SNAr, not carbene pathways.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e060820a-2d31-40e4-9eb3-489f8d4f9770/organic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/00bf4220-38b7-4615-9d99-427b9a8f50a1/organic_unit_09.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Complete retention of alkene stereochemistry in the cyclopropane product.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Loss of stereospecificity (formation of products inconsistent with a single concerted addition geometry).</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive formation of anti-Markovnikov addition product of HBr.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of a Meisenheimer complex observed spectroscopically.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which feature most directly stabilizes</text>
+    </name>
+    <questiontext format="html">
+      <text>Which feature most directly stabilizes a tertiary carbocation relative to a secondary one?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Tertiary carbocations are more stable because more adjacent σ-bonds donate electron density via hyperconjugation into the vacant p-orbital of the cationic center. This delocalization lowers energy. Increased s-character is relevant to carbanions, not cations; alkyl groups exert a weakly electron-donating inductive effect (not negative); classical carbocations are planar sp2, not non-planar sp3.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increased s-character at the cationic center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Hyperconjugation from additional C–H/C–C σ-bonds</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Negative inductive effect from alkyl groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of a non-planar sp3 cation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For carbanions, which factor most</text>
+    </name>
+    <questiontext format="html">
+      <text>For carbanions, which factor most increases stability?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carbanions are stabilized when the negative charge is delocalized by resonance (e.g., allylic or benzylic systems). Higher s-character (sp &gt; sp2 &gt; sp3) also stabilizes, not decreases stability; simple alkyl donors may destabilize; protonation removes the anionic character rather than stabilizing it as an anion.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Decreased s-character in the lone-pair orbital</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Resonance delocalization into a π-system</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Proximity to electron-donating alkyl substituents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conversion to a carbocation by protonation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best distinguishes singlet</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best distinguishes singlet and triplet carbenes?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carbenes are neutral divalent carbon species with six valence electrons; singlet carbenes have paired electrons (often leading to concerted additions), while triplet carbenes have two unpaired electrons (often leading to stepwise reactivity). Reactivity depends on context and substrate; triplet does not have paired electrons.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Singlet carbenes are always less reactive than triplet carbenes.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Triplet carbenes have paired electrons in the same orbital.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Singlet carbenes have paired electrons; triplet carbenes have two unpaired electrons.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both singlet and triplet carbenes possess two paired electrons.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>What is the defining feature</text>
+    </name>
+    <questiontext format="html">
+      <text>What is the defining feature of nitrenes compared to carbenes?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Nitrenes are neutral monovalent nitrogen intermediates, analogous to carbenes, and can exist in singlet or triplet states depending on substituents and conditions. They are not cationic; they are not restricted to triplet; stabilization mechanisms include resonance and substituent effects, not just hyperconjugation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Nitrenes possess a positive charge on nitrogen.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Nitrenes are neutral monovalent nitrogen species with six valence electrons.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nitrenes are always triplet only.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nitrenes are stabilized solely by hyperconjugation.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement correctly characterizes arynes</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement correctly characterizes arynes (e.g., benzyne)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Arynes are highly strained benzene derivatives with a formal triple bond, commonly formed by base-induced elimination from aryl halides; the in-ring triple bond causes significant strain and high reactivity. They are not purely resonance-stabilized nor formed exclusively by radical initiation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>They are benzene rings with an extra double bond added.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>They feature a formal triple bond within the aromatic framework, generating strain.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are stabilized by strong resonance delocalization with no strain.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are generated via radical initiation exclusively.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a radical chain reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In a radical chain reaction, which sequence is correct?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Radical mechanisms proceed via initiation (radical generation), propagation (radical transfer steps), and termination (radical-radical recombination or disproportionation that removes radicals). Termination decreases, not increases, radical concentration.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Initiation → propagation → rearrangement only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Propagation → termination → initiation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Initiation generates radicals; propagation sustains the chain; termination quenches radicals</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Termination increases radical concentration for steady state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which rearrangement most directly involves</text>
+    </name>
+    <questiontext format="html">
+      <text>Which rearrangement most directly involves a 1,2-migration in a carbocation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Wagner–Meerwein rearrangements are cationic 1,2-shifts (alkyl or hydride) that rearrange carbocation skeletons. Claisen and Cope are pericyclic (sigmatropic) rearrangements; Barton–McCombie is a radical deoxygenation, not a cationic 1,2-shift.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Claisen rearrangement</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cope rearrangement</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Wagner–Meerwein rearrangement</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Barton–McCombie deoxygenation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement about allylic and</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement about allylic and benzylic radicals is most accurate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Allylic and benzylic radicals are stabilized by resonance; the unpaired electron is delocalized over the π-system. This stabilization is greater than for simple alkyl radicals. Hyperconjugation stabilizes, not destabilizes; allylic radicals do resonate effectively.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>They are destabilized due to hyperconjugation.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>They are stabilized by resonance delocalization of the unpaired electron.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Benzylic radicals are less stable than primary alkyl radicals.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Allylic radicals cannot undergo resonance due to orthogonal orbitals.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which best differentiates SNAr from</text>
+    </name>
+    <questiontext format="html">
+      <text>Which best differentiates SNAr from aryne mechanisms in aromatic substitution?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>SNAr typically needs an electron-withdrawing group (e.g., nitro) ortho/para to the leaving group and proceeds via a Meisenheimer complex, whereas aryne pathways arise from base-induced elimination to form the strained aryne that undergoes addition by nucleophiles.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>SNAr requires nitro activation and proceeds via a Meisenheimer intermediate; arynes proceed via base-induced elimination-addition.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both require strong electron-donating groups para to the leaving group.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both must proceed through radical intermediates.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Arynes and SNAr are identical but named differently.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement about pinacol and</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement about pinacol and semipinacol processes is correct at the basic level?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The pinacol rearrangement involves protonation and dehydration of vicinal diols to give carbocations that undergo 1,2-migration to yield carbonyl compounds; semipinacol rearrangements are related cationic shifts triggered by leaving-group generation adjacent to an alcohol. These are not radical-only or base-driven carbanion processes.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e060820a-2d31-40e4-9eb3-489f8d4f9770/organic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/1f657058-509e-4057-ad33-3e519f1d9672/inorganic_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Pinacol rearrangement converts vicinal diols to carbonyls via carbocation 1,2-shifts under acidic conditions.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pinacol rearrangement is a radical-only process.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Semipinacol rearrangement is unrelated to carbocations.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pinacol rearrangement requires strong base to form a carbanion that migrates.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The correct order of stability</text>
+    </name>
+    <questiontext format="html">
+      <text>The correct order of stability for the following carbocations is:
+(i) tert-butyl, (ii) benzyl, (iii) allyl, (iv) ethyl</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Benzyl carbocations are highly stabilized by resonance over the aromatic ring; allyl carbocations are also resonance-stabilized but less than benzyl; tert-butyl benefits only from hyperconjugation; ethyl is the least stabilized primary cation. Thus ii (benzyl) &gt; iii (allyl) &gt; i (tert-butyl) &gt; iv (ethyl). Treating hyperconjugation as stronger than benzylic resonance or ignoring resonance in allylic species leads to the incorrect orders in the other options.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>ii &gt; iii &gt; i &gt; iv</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>i &gt; ii &gt; iii &gt; iv</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>ii &gt; i &gt; iii &gt; iv</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>iii &gt; ii &gt; i &gt; iv</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A secondary carbocation undergoes a</text>
+    </name>
+    <questiontext format="html">
+      <text>A secondary carbocation undergoes a Wagner–Meerwein rearrangement more readily when one adjacent group is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a Wagner–Meerwein rearrangement, the migrating group is typically the one that leads to a more stabilized carbocation after migration; phenyl migration generates a benzylic-type cation, strongly stabilized by resonance. A hydrogen shift is less beneficial than aryl migration in this scenario; equivalent methyl groups give no driving force; two fluorines are strongly −I and do not create a more stable cation upon migration.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A hydrogen and the other a methyl group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A methyl and the other a phenyl group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two equivalent methyl groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two fluorine substituents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which carbanion is expected to</text>
+    </name>
+    <questiontext format="html">
+      <text>Which carbanion is expected to be most stable?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Ethynyl anion is sp-hybridized, giving the lone pair highest s-character and greatest stabilization of negative charge. Benzyl and allyl anions are resonance-stabilized but with lower s-character at the charged center; a simple primary alkyl anion lacks both resonance and high s-character. Confusing radical/carbenium stabilization orders with anionic stability leads to choosing benzyl or allyl incorrectly.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>CH3–CH2–CH2⁻</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ph–CH2⁻ (benzyl)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>H2C=CH–CH2⁻ (allyl)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>HC≡C⁻ (ethynyl)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A diazomethane-derived carbene is generated</text>
+    </name>
+    <questiontext format="html">
+      <text>A diazomethane-derived carbene is generated and reacts with cyclohexene. Which major transformation is expected?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carbenes generated from diazo compounds add across C=C bonds to form cyclopropanes; this is a classic carbene–alkene transformation. Dihalide formation is associated with halogen addition; hydride shifts are carbocation-based rearrangements; electrophilic aromatic substitution involves aromatic π-systems, not an isolated cyclohexene double bond.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Formation of a vicinal dihalide</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Cyclopropanation of the double bond</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1,2-hydride shift to give a rearranged alkane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electrophilic aromatic substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A singlet carbene adds to</text>
+    </name>
+    <questiontext format="html">
+      <text>A singlet carbene adds to an alkene. Compared with a triplet carbene, the addition pathway is more likely to be:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Singlet carbenes, with paired electrons, typically undergo concerted cyclopropanation, giving stereospecific products that reflect the original alkene geometry. Triplet carbenes often react stepwise via diradical pathways, which can reduce stereospecificity. Assuming all carbenes behave identically or all pathways are radical-chain leads to the wrong choices.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Stepwise with radical intermediates and racemic mixture</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Concerted and stereospecific, retaining alkene stereochemistry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical-chain with initiation and propagation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Non-stereoselective due to planar intermediates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An aryne is generated from</text>
+    </name>
+    <questiontext format="html">
+      <text>An aryne is generated from o-fluorotoluene with strong base. A nucleophile attacks the benzyne at either of the two triple-bond carbons. Which statement best describes the product distribution?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In unsymmetrical arynes, nucleophilic attack can occur at both triple-bond carbons, giving mixtures whose ratios depend on electronic and steric effects (here, the methyl group influences regiochemistry, but does not enforce exclusivity). Benzyne can be formed from aryl fluorides under appropriately strong base conditions; it does not give a single regioisomer only.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only substitution ortho to the methyl group is formed.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only substitution meta to the methyl group is formed.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A mixture of isomeric products forms due to unsymmetrical aryne and directing effects of Me.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No product forms because benzyne cannot be generated from aryl fluorides.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a radical addition of</text>
+    </name>
+    <questiontext format="html">
+      <text>In a radical addition of HBr to propene under peroxide and light, which product predominates?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Radical HBr addition proceeds via anti-Markovnikov orientation: Br· adds first to the less substituted carbon of the double bond to form the more stable secondary radical, followed by H-atom transfer to give 1-bromopropane (CH3–CH2–CH2–Br). Markovnikov addition (2-bromopropane) arises from ionic conditions without peroxides; extending the chain or adding Br at the wrong carbon reflects misunderstanding of the chain mechanism.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>CH3–CH2–CH2–Br</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CH3–CH(Br)–CH3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CH3–CH(Br)–CH2–CH3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CH2Br–CH2–CH3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a pinacol rearrangement of</text>
+    </name>
+    <questiontext format="html">
+      <text>In a pinacol rearrangement of a symmetrical vicinal diol, which step gives rise to skeletal rearrangement?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The key step is loss of water from the protonated alcohol to generate a carbocation; subsequent 1,2-migration of an adjacent group (alkyl or aryl) occurs from the carbon bearing the remaining OH to the cationic center, leading to rearranged carbonyl. Protonation and final deprotonation are acid–base steps without skeletal change; nucleophilic water attack is typical of hydration, not the rearrangement pathway itself.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Initial protonation of one hydroxyl group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Dehydration to form a carbocation adjacent to the other OH</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nucleophilic attack of water on the carbocation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Final deprotonation of the carbonyl product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A substrate capable of forming</text>
+    </name>
+    <questiontext format="html">
+      <text>A substrate capable of forming both an allylic carbocation and a non-allylic tertiary carbocation is ionized. Under typical solvolysis conditions, which intermediate is usually preferred?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carbocation formation favors the more stabilized intermediate, and stability reflects both resonance (as in allylic systems) and hyperconjugation (as in highly substituted centers). Thus whichever arrangement maximizes these effects will dominate. Assuming tertiary always wins (ignoring resonance) or that allylic always wins (ignoring substitution) oversimplifies the stability analysis.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Non-allylic tertiary carbocation only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Allylic carbocation only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Whichever carbocation is more stabilized by the combination of resonance and hyperconjugation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Neither, because such substrates never ionize</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which feature helps distinguish a</text>
+    </name>
+    <questiontext format="html">
+      <text>Which feature helps distinguish a radical 1,2-shift from a cationic Wagner–Meerwein rearrangement in a multi-step synthesis problem?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Radical rearrangements typically occur in the presence of radical initiation conditions (peroxides, heat, or light) and involve neutral radicals, whereas Wagner–Meerwein rearrangements arise in strongly acidic, ionizing conditions through carbocations. Radicals can and do undergo rearrangements; diazo precursors are associated with carbene chemistry, not generic rearrangements.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e060820a-2d31-40e4-9eb3-489f8d4f9770/organic_unit_03.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Presence of peroxides, light, or radical initiators vs. strong acid</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive formation of carbocations in both cases</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Requirement of diazo precursors in both cases</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Inability of radicals to undergo rearrangements</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,1062 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A substrate \(\mathrm{(R)\!-\!CH(OTs)\!-\!CH_2\!-\!SMe}\) undergoes solvolysis</text>
+    </name>
+    <questiontext format="html">
+      <text>A substrate \(\mathrm{(R)\!-\!CH(OTs)\!-\!CH_2\!-\!SMe}\) undergoes solvolysis in a polar protic solvent. The major stereochemical outcome at the carbon bearing OTs is most consistent with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Neighbouring group participation (anchimeric assistance) occurs when a neighboring heteroatom (here sulfur) donates electron density to stabilize developing positive charge and forms a bridged intermediate. This changes both rate and stereochemical course: the initial intramolecular participation can produce inversion at the carbon (as the bridge forms), and subsequent opening of the bridged intermediate by external nucleophile often gives a second inversion, leading to net retention overall (or strong deviation from simple \(\mathrm{S_N1}\) racemization). A purely \(\mathrm{S_N2}\) pathway is unlikely for solvolysis conditions and would not invoke a bridged intermediate. A fully free carbocation would predict substantial racemization, but anchimeric assistance typically reduces “free-ion” character by internal trapping. Neighbouring group participation does not stop reaction; it usually accelerates it and controls stereochemistry.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Predominant inversion, because the mechanism must be classical \(\mathrm{S_N2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Predominant racemization, because a free planar carbocation forms and rotates freely</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Predominant retention (often via double-inversion overall), due to neighbouring group participation by sulfur forming a bridged intermediate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No substitution, because neighbouring group participation always blocks ionization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a disubstituted cyclohexane, a</text>
+    </name>
+    <questiontext format="html">
+      <text>For a disubstituted cyclohexane, a reaction requires an anti-periplanar arrangement between a leaving group and a \(\beta\)-hydrogen (E2-like stereoelectronic requirement). Which statement best captures the conformational logic needed to predict the major elimination stereochemistry?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In cyclohexane chairs, the stereoelectronic requirement for E2 is typically met through a trans-diaxial arrangement: the leaving group must be axial and the eliminated \(\beta\)-hydrogen must be axial on the adjacent carbon (anti-periplanar in the chair). This forces the predictor to first identify the populated chair conformer(s) and then see whether a trans-diaxial pair exists. Assuming “any conformer works” ignores that rings restrict dihedral angles. An equatorial leaving group generally cannot achieve the needed anti-periplanar geometry in a cyclohexane chair without ring flip. Zaitsev considerations matter only after the stereoelectronic feasibility is satisfied.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Any chair conformer works because rotation about \(\sigma\) bonds always provides anti-periplanar alignment in rings</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The leaving group must be equatorial to be antiperiplanar to a \(\beta\)-hydrogen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The leaving group must be axial so that an axial \(\beta\)-hydrogen can align anti-periplanar (trans-diaxial requirement), making conformational analysis decisive</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction is controlled only by Zaitsev substitution pattern, independent of conformation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A biaryl with bulky ortho</text>
+    </name>
+    <questiontext format="html">
+      <text>A biaryl with bulky ortho substituents shows two isolable enantiomeric forms at room temperature, despite having no tetrahedral stereogenic centre. The best explanation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Atropisomerism arises when rotation about a single bond (commonly the biaryl bond) is sufficiently hindered that conformers become configurationally stable and can be isolated as enantiomers. This is a form of chirality without a traditional stereogenic centre, consistent with the “restricted rotation” concept. A meso compound is achiral due to internal symmetry and would not yield an enantiomeric pair. Optical activity “only in chiral solvents” confuses induced CD/solvent effects with the existence of isolable enantiomers; the isolability implies a real rotational barrier and persistent chirality. Rapid interconversion would indeed prevent isolation, which is precisely why restricted rotation is the key condition.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The molecule is meso due to an internal mirror plane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The molecule exhibits atropisomerism due to restricted rotation about the aryl–aryl bond, creating stable conformational enantiomers</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The molecule is achiral but becomes optically active only in chiral solvents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The molecule must rapidly interconvert, so isolable enantiomers are impossible</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For nucleophilic addition to an</text>
+    </name>
+    <questiontext format="html">
+      <text>For nucleophilic addition to an \(\alpha\)-heteroatom-substituted chiral aldehyde (for example, an \(\alpha\)-alkoxy aldehyde), which predictive framework most appropriately rationalizes the major diastereomer when chelation is disfavored and electronic effects matter?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For \(\alpha\)-heteroatom-substituted carbonyls under non-chelating conditions, Felkin–Anh reasoning is widely used: it combines steric approach control with conformational preferences and electronic effects associated with the \(\alpha\)-C–X bond. A purely steric “largest group” model can fail when electronegative substituents alter the preferred conformation and transition-state stabilization. E/Z nomenclature is irrelevant because it describes alkene geometry, not facial selectivity at carbonyl addition. Chair analysis applies to cyclic conformations like cyclohexanes and is not the general framework for acyclic \(\alpha\)-chiral aldehydes.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only the original Cram model based purely on “largest group blocks attack”</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Felkin–Anh type reasoning emphasizing preferred conformations and stereoelectronic/electronic effects of the C–X bond</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>E/Z nomenclature rules because the carbonyl is planar</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Chair conformational analysis of cyclohexane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A molecule contains two stereogenic</text>
+    </name>
+    <questiontext format="html">
+      <text>A molecule contains two stereogenic centres and no symmetry elements (no mirror plane, no inversion centre, no improper axis). Under these conditions, how many stereoisomers are expected, and what stereochemical relationships must be present?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>With two stereogenic centres, the maximum is \(2^2=4\) stereoisomers. The absence of symmetry elements rules out a meso form, so the full set of four is expected: \((R,R)\), \((S,S)\), \((R,S)\), and \((S,R)\). These group into two enantiomeric pairs: \((R,R)\) vs \((S,S)\) and \((R,S)\) vs \((S,R)\), and any member of one pair is diastereomeric with any member of the other pair. The common error is to claim “all four are enantiomers”; enantiomerism is strictly pairwise and requires mirror-image relationship.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Exactly 2 stereoisomers, which must be enantiomers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exactly 3 stereoisomers, because one must be meso</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Up to 4 stereoisomers, consisting of two enantiomeric pairs that are diastereomeric to each other</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exactly 4 stereoisomers, all of which are enantiomers of each other</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A molecule is chiral if</text>
+    </name>
+    <questiontext format="html">
+      <text>A molecule is chiral if it:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chirality is fundamentally defined as the property of a molecule that cannot be superimposed on its mirror image, and this occurs when the molecule lacks a plane of symmetry. While tetrahedral carbon atoms bonded to four different groups are common chiral centres, chirality is not restricted to carbon—other atoms like sulfur, phosphorus, or nitrogen can also be chiral centres. An axis of rotation (such as a \(C_2\) axis) does not necessarily make a molecule achiral. The presence of only sp³-hybridized carbons does not guarantee chirality; the molecule must lack symmetry elements like planes or centres of inversion.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Contains a carbon atom bonded to four different groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Lacks a plane of symmetry and cannot be superimposed on its mirror image</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Has an axis of rotation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Contains only sp³-hybridized carbon atoms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Cahn-Ingold-Prelog (CIP) priority</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Cahn-Ingold-Prelog (CIP) priority rules, which group has the highest priority?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The CIP priority rules assign higher priority to atoms with higher atomic number directly attached to the stereogenic centre. Bromine has an atomic number of 35, which is higher than carbon (6) in \(-\mathrm{CH_2OH}\) and \(-\mathrm{CH_3}\), and hydrogen (1). Therefore, \(-\mathrm{Br}\) receives the highest priority. \(-\mathrm{CH_2OH}\) has higher priority than \(-\mathrm{CH_3}\) based on the second-tier comparison (oxygen vs. hydrogen). Hydrogen, with the lowest atomic number, has the lowest priority.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(-\mathrm{CH_2OH}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-\mathrm{CH_3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(-\mathrm{Br}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-\mathrm{H}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A compound with two chiral</text>
+    </name>
+    <questiontext format="html">
+      <text>A compound with two chiral centres can have a maximum of how many stereoisomers?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The maximum number of stereoisomers for a compound with \(n\) chiral centres is given by \(2^n\). For two chiral centres, \(2^2 = 4\) stereoisomers are possible. These consist of two pairs of enantiomers or a mixture of diastereomers depending on the relative configuration of the stereocentres. If the molecule has an internal plane of symmetry, it may have fewer than 4 stereoisomers due to the formation of meso compounds. Eight or sixteen stereoisomers would require three or four chiral centres, respectively.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>8</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>16</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which of the following molecules</text>
+    </name>
+    <questiontext format="html">
+      <text>Which of the following molecules is achiral?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A meso compound contains chiral centres but possesses an internal plane of symmetry that makes the molecule achiral overall. The meso form of 2,3-dichlorobutane has two chiral centres but is superimposable on its mirror image due to the plane of symmetry. 2-Chlorobutane, lactic acid, and 2-bromobutanoic acid all contain a single chiral centre and no plane of symmetry, making them chiral compounds. Meso compounds are a special class where chirality at individual centres is canceled out by molecular symmetry.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2-Chlorobutane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>2,3-Dichlorobutane (meso form)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Lactic acid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2-Bromobutanoic acid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The R/S nomenclature is used</text>
+    </name>
+    <questiontext format="html">
+      <text>The R/S nomenclature is used to describe:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The R/S nomenclature system, based on the Cahn-Ingold-Prelog priority rules, assigns absolute configuration to each stereogenic centre independently of optical rotation. Optical rotation (dextrorotatory or levorotatory) is an experimental property that does not directly correlate with R or S configuration. Relative stereochemistry between multiple stereocentres is described using terms like erythro/threo or syn/anti, not R/S. Conformational preferences are analyzed using Newman projections or energy diagrams, not R/S descriptors.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The optical rotation of a compound</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The absolute configuration at a stereogenic centre</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The relative stereochemistry between two stereocentres</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The conformational preference of a molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which projection is most commonly</text>
+    </name>
+    <questiontext format="html">
+      <text>Which projection is most commonly used to represent the three-dimensional arrangement of atoms in open-chain compounds with multiple chiral centres?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fischer projections are specifically designed for representing open-chain compounds with multiple chiral centres in a standardized vertical format where horizontal lines represent bonds coming out of the plane and vertical lines represent bonds going into the plane. Newman projections are used for conformational analysis along a single bond. Haworth projections depict cyclic sugars. Chair conformations are used for cyclohexane and similar ring systems. Fischer projections allow easy comparison of relative stereochemistry in polystereocentered molecules.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Newman projection</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Fischer projection</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Haworth projection</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Chair conformation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Enantiomers are stereoisomers that</text>
+    </name>
+    <questiontext format="html">
+      <text>Enantiomers are stereoisomers that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enantiomers are defined as stereoisomers that are non-superimposable mirror images. They have identical physical properties such as boiling points, melting points, and solubility in achiral environments but differ in their interaction with plane-polarized light—one rotates it clockwise (dextrorotatory) and the other counterclockwise (levorotatory). Diastereomers differ in configuration at one or more (but not all) stereocentres and have different physical properties. The defining characteristic of enantiomers is the mirror-image relationship, not differences in configuration at all stereocentres.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Differ in configuration at all stereocentres</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Are non-superimposable mirror images of each other</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Have different boiling points</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rotate plane-polarized light in the same direction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two hydrogen atoms on the</text>
+    </name>
+    <questiontext format="html">
+      <text>Two hydrogen atoms on the same carbon are described as **enantiotopic** if:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enantiotopic atoms are those that, when separately replaced by a different group, generate enantiomers. This occurs when the two hydrogens are in a prochiral environment, such as on a carbon adjacent to a chiral centre or in an otherwise asymmetric molecule. If replacement produces diastereomers, the hydrogens are diastereotopic. Homotopic hydrogens are chemically and magnetically equivalent in all environments and yield identical products upon replacement. Enantiotopic relationships are determined by the molecule's symmetry, not by the position of atoms on adjacent carbons.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Replacing either one with a different group produces enantiomers</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Replacing either one with a different group produces diastereomers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are chemically and magnetically equivalent in all environments</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are on adjacent carbon atoms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In conformational analysis of ethane</text>
+    </name>
+    <questiontext format="html">
+      <text>In conformational analysis of ethane, the staggered conformation is more stable than the eclipsed conformation because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The staggered conformation of ethane is more stable because it minimizes torsional strain (also known as eclipsing strain), which arises from repulsion between electron clouds of adjacent C-H bonds when they are eclipsed. In the staggered form, the C-H bonds are maximally separated, reducing this repulsion. Bond strength is not affected by conformation. Dipole moments are not relevant in ethane as C-H bonds have minimal polarity. Van der Waals attractions are maximized when atoms are at optimal distances, not when bonds are eclipsed.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Staggered has lower torsional strain</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Staggered has stronger C-H bonds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Eclipsed has higher bond dipole moments</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Eclipsed has stronger van der Waals attractions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The term **(E)** in E/Z</text>
+    </name>
+    <questiontext format="html">
+      <text>The term **(E)** in E/Z nomenclature indicates:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the E/Z nomenclature system for alkene geometry, **(E)** (from German *entgegen*, meaning "opposite") indicates that the higher-priority substituents on each carbon of the double bond are on opposite sides. **(Z)** (from German *zusammen*, meaning "together") indicates they are on the same side. E/Z nomenclature applies to the geometric arrangement around double bonds and is unrelated to chirality or the presence of ring systems. This system uses Cahn-Ingold-Prelog priority rules to assign configurations unambiguously.
+---
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The higher-priority groups on each carbon of a double bond are on opposite sides</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The higher-priority groups on each carbon of a double bond are on the same side</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The molecule is chiral</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The double bond is in a ring system</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider the stereocentre in \(\mathrm{CH_3-CH(Br)-CH_2OH}\)</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider the stereocentre in \(\mathrm{CH_3-CH(Br)-CH_2OH}\) (2-bromopropan-1-ol). Using CIP rules, the correct priority order at the stereogenic carbon is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>CIP priority depends first on the atomic number of the directly attached atoms: \(\mathrm{Br}\) (Z=35) outranks carbon (Z=6), and carbon outranks hydrogen (Z=1), so \(\mathrm{Br}\) is highest and \(\mathrm{H}\) is lowest. To compare \(\mathrm{CH_2OH}\) vs \(\mathrm{CH_3}\), both are attached through carbon, so look at the next atoms: the carbon of \(\mathrm{CH_2OH}\) is attached to \(\mathrm{O,H,H}\) whereas the carbon of \(\mathrm{CH_3}\) is attached to \(\mathrm{H,H,H}\); oxygen outranks hydrogen, so \(\mathrm{CH_2OH}\) has higher priority than \(\mathrm{CH_3}\). This tests CIP priority assignment in a common “tie-break” situation.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{Br &gt; CH_3 &gt; CH_2OH &gt; H}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\mathrm{Br &gt; CH_2OH &gt; CH_3 &gt; H}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{CH_2OH &gt; Br &gt; CH_3 &gt; H}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{Br &gt; H &gt; CH_2OH &gt; CH_3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chiral molecule must necessarily</text>
+    </name>
+    <questiontext format="html">
+      <text>A chiral molecule must necessarily:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chirality is ruled out by the presence of improper symmetry elements (especially \(\mathrm{S_n}\), including a mirror plane as \(\mathrm{S_1}\) and inversion as \(\mathrm{S_2}\)); therefore, a chiral object must lack these symmetry operations. A tetrahedral carbon with four different substituents is a sufficient but not necessary condition because axial chirality (atropisomerism) can produce chirality without a classical chiral centre. The number of stereogenic centres can be zero, one, or many depending on the type of chirality. Optical rotation can depend on conditions and does not define chirality as a symmetry property.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lack a mirror plane, a centre of inversion, and an improper rotation axis \(\mathrm{S_n}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Have at least one tetrahedral carbon with four different substituents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Have only one stereogenic centre</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Show non-zero optical rotation in every solvent and at every wavelength</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In \(^1\)H NMR, the two</text>
+    </name>
+    <questiontext format="html">
+      <text>In \(^1\)H NMR, the two hydrogens of a \(\mathrm{-CH_2-}\) group next to an existing stereogenic centre are typically:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>When a \(\mathrm{-CH_2-}\) group is adjacent to a stereogenic centre, the two hydrogens often become diastereotopic because replacing one versus the other creates diastereomers (not enantiomers). Diastereotopic hydrogens are commonly non-equivalent and can show different chemical shifts and coupling patterns even in achiral media, which is a key stereochemical-NMR application. Homotopic hydrogens would remain equivalent under all conditions, which is not generally true next to a chiral centre. Free rotation does not remove diastereotopicity because the molecule is still not symmetry-equivalent under exchange of those two hydrogens.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Homotopic and always equivalent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Enantiotopic and always give separate signals even in achiral solvent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Diastereotopic and can be chemically non-equivalent in achiral solvent</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Identical because free rotation averages them completely</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A compound has two stereocentres</text>
+    </name>
+    <questiontext format="html">
+      <text>A compound has two stereocentres but only three stereoisomers exist. The most likely reason is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For two stereocentres, the maximum is \(2^2=4\), but if one of the four is a meso form (internally symmetric and achiral), the total count becomes three distinct stereoisomers (one meso + one enantiomeric pair). Racemization changes optical purity but does not change the number of possible configurational stereoisomers. Atropisomerism is a different source of stereoisomerism and does not explain the specific “3 from 2 centres” pattern. CIP rules never force a centre to be always R; configuration depends on the actual 3D arrangement.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>It undergoes rapid racemization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>It has a meso form due to an internal plane of symmetry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It is an atropisomer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>One stereocentre is always R by CIP rules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement correctly distinguishes stereospecific</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement correctly distinguishes stereospecific and stereoselective reactions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A stereospecific reaction has a one-to-one relationship between reactant stereochemistry and product stereochemistry (different stereoisomeric reactants give different stereoisomeric products), reflecting a mechanistic constraint. A stereoselective reaction means multiple stereoisomeric products are possible from the same reactant, but one is favored (kinetically or thermodynamically). The need for a chiral catalyst is not the definition; stereoselectivity can be substrate-controlled as well. Neither stereospecificity nor stereoselectivity is uniquely tied to \(\mathrm{S_N1}\) or \(\mathrm{S_N2}\); it depends on mechanism details.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Stereospecific reactions always produce racemic mixtures; stereoselective reactions never do</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Stereospecific reactions give a defined stereochemical outcome for each stereoisomer of the reactant; stereoselective reactions preferentially form one stereoisomer from a single reactant</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stereoselective reactions require chiral catalysts; stereospecific reactions do not</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stereospecific reactions occur only by \(\mathrm{S_N1}\); stereoselective reactions occur only by \(\mathrm{S_N2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For butane conformations viewed down</text>
+    </name>
+    <questiontext format="html">
+      <text>For butane conformations viewed down the C2–C3 bond (Newman projection), the correct stability order is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In butane, the anti staggered conformer minimizes steric repulsion between methyl groups and is most stable, while the gauche staggered conformer is slightly less stable due to gauche interaction between methyl groups. Eclipsed conformations are higher in energy due to torsional strain, and the eclipsed form with Me–Me eclipse is the highest because it combines torsional strain with maximal steric repulsion. The common misconception is to treat all eclipsed conformers as equal; in butane they are not. This aligns with conformational analysis learning objectives involving Newman diagrams and energy ranking.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Eclipsed (Me–Me) &gt; eclipsed (Me–H) &gt; gauche &gt; anti</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Anti &gt; gauche &gt; eclipsed (Me–H) &gt; eclipsed (Me–Me)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Gauche &gt; anti &gt; eclipsed (Me–H) &gt; eclipsed (Me–Me)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Anti &gt; eclipsed (Me–H) &gt; gauche &gt; eclipsed (Me–Me)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a monosubstituted cyclohexane with</text>
+    </name>
+    <questiontext format="html">
+      <text>For a monosubstituted cyclohexane with a bulky group \(\mathrm{t\!-\!Bu}\), the major conformer at equilibrium has the substituent predominantly:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In cyclohexane chair conformations, axial substituents experience 1,3-diaxial interactions (a form of steric strain) with axial hydrogens (or substituents) on the same side of the ring, destabilizing the axial conformer. Bulky groups like \(\mathrm{t\!-\!Bu}\) strongly prefer the equatorial position to reduce this steric penalty, shifting equilibrium heavily toward the equatorial conformer. Ring flipping generally still occurs, but the population of the axial form becomes very small for bulky substituents, which is often misinterpreted as “no ring flip.” The ring is not planar in the chair form; planarity would increase strain.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Axial, because it minimizes gauche interactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Axial, because ring flipping is blocked completely</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Equatorial, because it avoids 1,3-diaxial interactions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equatorial, because it makes the ring planar</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In E/Z assignment for the</text>
+    </name>
+    <questiontext format="html">
+      <text>In E/Z assignment for the alkene \(\mathrm{CH_3-CH=CH-CH_2Cl}\), the higher priority group on the right-hand alkene carbon is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>E/Z nomenclature applies CIP rules separately to each alkene carbon, comparing the two substituents attached to that carbon by atomic number at the first point of difference. On the right-hand alkene carbon, the substituents are \(\mathrm{H}\) and \(\mathrm{CH_2Cl}\); carbon (Z=6) outranks hydrogen (Z=1), so \(\mathrm{CH_2Cl}\) has higher priority. A frequent error is thinking that “carbon vs carbon” ambiguity blocks assignment; CIP proceeds by looking outward along the substituent chain when needed. This question reinforces E/Z nomenclature and priority rules.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{H}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\mathrm{CH_3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\mathrm{CH_2Cl}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Priority cannot be assigned because both are carbon-containing groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A sample contains 70% of</text>
+    </name>
+    <questiontext format="html">
+      <text>A sample contains 70% of one enantiomer and 30% of the other enantiomer. The enantiomeric excess (ee) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enantiomeric excess is defined as \(\mathrm{ee = | \%major - \%minor |}\) for a two-enantiomer mixture, so \(\mathrm{ee = |70-30| = 40\%}\). A common mistake is to report the major enantiomer percentage (70%) as ee, but ee measures excess over a racemic 50:50 baseline. Another misconception is to use \(\%minor\) (30%) as “impurity,” but ee is not simply impurity percentage. This ties directly to optical isomerism and quantitative stereochemical descriptors.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>30%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>40%</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>70%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>100%</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a reaction where neighbouring</text>
+    </name>
+    <questiontext format="html">
+      <text>In a reaction where neighbouring group participation (anchimeric assistance) occurs, the most characteristic mechanistic feature is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Neighbouring group participation involves a neighboring heteroatom or \(\pi\)-system assisting departure of the leaving group to form a bridged (often three-membered) intermediate, which can accelerate the reaction and modify stereochemical outcomes. Treating it as a standard \(\mathrm{S_N2}\) misses the key intermediate and the possibility of atypical stereochemical results (often net retention via double inversion or rearranged pathways). It is also not necessarily a free carbocation; anchimeric assistance often prevents a fully “free” cation by internal trapping. Elimination is not the defining feature; the hallmark is intermediate stabilization and stereoelectronic control.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8e891cd7-93c2-45ab-b55b-f9bb7cff4b54/inorganic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/e060820a-2d31-40e4-9eb3-489f8d4f9770/organic_unit_03.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/26588078-225d-4384-895e-f69546b64bf1/inorganic_unit_03.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Formation of a bridged intermediate that can alter rate and stereochemical outcome</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A fully concerted backside attack identical to classical \(\mathrm{S_N2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complete loss of stereochemical information due to a free planar carbocation only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive formation of elimination products due to strong base</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

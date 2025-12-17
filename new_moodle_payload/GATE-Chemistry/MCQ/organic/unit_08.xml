@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A chemist needs to install</text>
+    </name>
+    <questiontext format="html">
+      <text>A chemist needs to install an α‑branch on an unsymmetrical ketone with precise regiocontrol and then perform a stereoselective aldol reaction with an aldehyde. Which sequence best combines kinetic/thermodynamic control and boron enolate chemistry to achieve both regio- and stereocontrol?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>LDA at low temperature affords the kinetic enolate, enabling regioselective α‑alkylation at the less hindered position in the unsymmetrical ketone.  The resulting ketone can then be enolized with dibutylboron triflate/base to give a Z‑boron enolate that undergoes a chelation‑controlled, Zimmerman–Traxler chair transition state aldol, providing high syn diastereoselectivity.  Sodium ethoxide at reflux (first option) gives less predictable regiocontrol; NaH plus radical addition (third option) does not use boron‑mediated aldol control; the enamine/Michael/oxidation route (fourth option) alters the overall strategy and does not directly integrate boron enolate stereocontrol.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use NaOEt/EtOH at reflux to form the thermodynamic enolate, trap as a silyl enol ether, then perform a base‑catalyzed aldol with an aldehyde</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Use LDA at low temperature to generate the kinetic enolate and alkylate; then convert the product to a Z‑boron enolate (Bu₂BOTf/base) and react with an aldehyde under Zimmerman–Traxler control</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use NaH at high temperature to form the thermodynamic enolate, then perform a radical addition followed by dehydration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use a secondary amine to form an enamine, perform a Michael addition, and finally oxidize to regenerate the ketone before aldol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An α‑alkoxy aldehyde is treated</text>
+    </name>
+    <questiontext format="html">
+      <text>An α‑alkoxy aldehyde is treated with a Grignard reagent under two different conditions: (i) no additional Lewis acid; (ii) in the presence of Mg²⁺ or another chelating Lewis acid. How do Cram’s rule, chelation control, and the Felkin–Anh model together rationalize the change in diastereoselectivity observed between (i) and (ii)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Without an added Lewis acid, the α‑alkoxy group is less strongly chelating, so stereochemical outcome often follows a Felkin–Anh or simple Cram steric model, where the nucleophile approaches opposite the smallest group with minimal steric and dipole interactions.  In the presence of a chelating metal, the carbonyl oxygen and α‑OR group bind the metal, enforcing a distinct chelation‑controlled conformation that can alter which face is less hindered, thus switching the major diastereomer relative to the non‑chelating case.  The idea that Felkin–Anh alone always dominates, that Cram chelation control operates without metal, or that only Prelog/HSAB explain the outcome ignores the crucial role of metal‑induced chelation vs. non‑chelation regimes.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>In both (i) and (ii), Felkin–Anh always dominates, so no change is expected</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>In (i) Felkin–Anh/Cram steric control operates with the α‑OR group non‑chelating, but in (ii) chelation between metal and carbonyl/OR locks a different conformation, reversing the preferred attack face</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In (i) Cram chelation control dominates, whereas in (ii) chelation is completely suppressed, giving random attack</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In (i) only Prelog’s rule applies, while in (ii) only HSAB theory applies</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chiral amino acid–derived aldehyde</text>
+    </name>
+    <questiontext format="html">
+      <text>A chiral amino acid–derived aldehyde undergoes reduction with a chiral hydride reagent. Experimentally, a “matched” combination gives very high diastereoselectivity, whereas a “mismatched” pair is much less selective. Which integrated stereochemical rationale best explains this observation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Prelog’s rule extends Cram’s approach to amino acid–type substrates, defining a preferred face of attack based on priority assignment (C–C &gt; C–N &gt; C–O &gt; C–H) at the α‑carbon.  When the chiral hydride reagent’s own facial preference coincides with the substrate’s Prelog/Felkin bias (matched), both controls reinforce the same trajectory, giving high diastereoselectivity; in the mismatched case, the chiral influences oppose each other, partially canceling and lowering selectivity.  Attributing everything to solvent, ignoring substrate stereochemistry, or invoking complete racemization contradicts the documented matched/mismatched concept in chiral substrate–reagent combinations.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Prelog’s rule and the chiral reagent’s intrinsic preference both direct hydride delivery to the same face in the matched case, while they compete in the mismatched case, reducing selectivity</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cram’s rule predicts the same product in all cases, so the difference must be due only to solvent effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The chiral reagent controls stereochemistry exclusively, so substrate configuration is irrelevant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amino acid chirality is destroyed before reduction, so any selectivity must arise from racemization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a planned cascade sequence</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a planned cascade sequence: an enolate formed from a β‑dicarbonyl compound undergoes intramolecular Michael addition onto a tethered enone, followed by an intramolecular aldol cyclization and dehydration to furnish a polycyclic enone. Which conceptual combination best describes the design logic?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The sequence uses enolate nucleophilicity in a conjugate Michael addition to a tethered enone, then a new enolate engages in an intramolecular aldol condensation, each step forming C–C bonds and building rings in a cascade fashion.  The stereochemistry of the aldol step can be rationalized by enolate E/Z geometry and Zimmerman–Traxler chair transition states, a key part of advanced aldol design.  Radical cyclization, pericyclic electrocyclizations, or Cannizzaro/Claisen processes do not match the described 1,4‑addition plus aldol–dehydration pathway.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Umpolung of the β‑dicarbonyl with a silyl enol ether, followed only by radical cyclization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Sequential enolate‑type 1,4‑addition (Michael) and aldol condensation governed by enolate geometry and Zimmerman–Traxler transition states</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only pericyclic reactions (electrocyclizations) are involved, so enolate chemistry is irrelevant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A Cannizzaro reaction followed by a Claisen condensation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A synthetic route to a</text>
+    </name>
+    <questiontext format="html">
+      <text>A synthetic route to a densely functionalized chiral alcohol uses the following steps: (1) generation of a kinetic enolate and alkylation; (2) conversion of the resulting carbonyl compound into an enamine and conjugate addition to an enone; (3) formation of a silyl enol ether from the new ketone and Mukaiyama aldol with an aldehyde under Lewis acid catalysis. Which statement best captures the strategic integration of reactivity and stereocontrol in this sequence?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The kinetic enolate controls α‑regiochemistry under strong basic conditions, the enamine allows mild, neutral conjugate addition (Stork/Michael‑type) compatible with sensitive groups, and the silyl enol ether serves as a stable enolate equivalent for Lewis acid–mediated Mukaiyama aldol.  Throughout, stereocenters created in carbonyl additions and aldol steps can be predicted and designed using Cram/Felkin–Anh models for carbonyl additions and Zimmerman–Traxler analysis for aldol syn/anti outcomes, embodying the integration goal of the learning unit.  Claiming random choice, single‑step stereocontrol, or merely temperature adjustment ignores how these distinct enolate‑type nucleophiles and stereochemical models are deliberately combined in multistep synthesis.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Each step randomly chooses a different nucleophile without any predictive control over regiochemistry or stereochemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The route systematically uses enolate (anionic), enamine (neutral), and silyl enol ether (protected) nucleophiles to match conditions and functional‑group tolerance, while aldol and Michael steps are planned with Cram/Felkin–Anh/Zimmerman–Traxler models to control stereochemistry</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the first step determines all stereocenters; the subsequent steps are stereochemically irrelevant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The purpose of switching between enolate, enamine, and silyl enol ether is solely to change reaction temperature, not reactivity or selectivity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the context of carbonyl</text>
+    </name>
+    <questiontext format="html">
+      <text>In the context of carbonyl chemistry, an enolate is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>An enolate is generated when a base removes an α‑hydrogen adjacent to a carbonyl, giving an anion delocalized between carbon and oxygen.  The resonance-stabilized anion is not neutral (so the neutral tautomer in the first option actually refers to the enol, not the enolate), nor is it cationic or radical in nature, so the other descriptions are incorrect.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A neutral tautomeric form of a ketone formed by protonation at oxygen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>An anionic species formed by deprotonation at the α‑carbon of a carbonyl compound</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A cationic intermediate formed by protonation of the carbonyl oxygen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A radical species generated at the β‑carbon of an enone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Under kinetic control, enolate formation</text>
+    </name>
+    <questiontext format="html">
+      <text>Under kinetic control, enolate formation from an unsymmetrical ketone preferentially gives:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Kinetic enolates form faster at the less hindered α‑position using a strong, bulky base at low temperature, leading to the less substituted enolate.  Thermodynamic control instead favors the more substituted, more stable enolate, while the other options ignore the role of steric hindrance and reaction conditions, so they do not describe kinetic control correctly.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The more substituted, thermodynamically more stable enolate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The less substituted enolate formed by deprotonation at the less hindered α‑position</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the enolate stabilized by conjugation with an aromatic ring</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A 1:1 mixture of all possible enolates independent of conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Lithium diisopropylamide (LDA) is typically</text>
+    </name>
+    <questiontext format="html">
+      <text>Lithium diisopropylamide (LDA) is typically employed in enolate chemistry because it:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>LDA is a non‑nucleophilic, strongly basic, sterically bulky amide that rapidly deprotonates the least hindered α‑position, favoring kinetic enolate formation at low temperature.  It is not weak, not mainly nucleophilic toward carbonyls, and does not initiate radical pathways in this context, so the other descriptions are inconsistent with its typical role.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Acts as a weak base giving thermodynamic enolates at high temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Functions primarily as a nucleophile adding to carbonyls</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Is a strong, sterically hindered base that favors kinetic enolate formation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Generates radicals at the α‑position of carbonyl compounds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Enolates are often described as</text>
+    </name>
+    <questiontext format="html">
+      <text>Enolates are often described as ambident nucleophiles because they can:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enolates possess nucleophilic character at both the α‑carbon and the oxygen due to resonance, enabling C‑ or O‑alkylation and other ambident reactions.  Limiting reactivity to oxygen alone, invoking β‑radicals, or denying nucleophilicity contradicts the well‑established ambident nature of enolates.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>React only at oxygen with electrophiles</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>React at either the α‑carbon or the oxygen atom with electrophiles</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>React exclusively through a radical mechanism at the β‑carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Act only as bases and never as nucleophiles</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a simple aldol reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In a simple aldol reaction between an enolate and an aldehyde, the newly formed bond is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The aldol reaction forms a carbon–carbon bond when the nucleophilic α‑carbon of the enolate attacks the electrophilic carbonyl carbon of the aldehyde, generating a β‑hydroxy carbonyl product.  The other options misidentify the reacting centers, since neither O–O bonds nor direct coupling of two aldehyde carbonyl carbons is characteristic of a standard aldol step.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A C–C bond between the enolate α‑carbon and the aldehyde carbonyl carbon</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A C–O bond between the enolate oxygen and the aldehyde carbonyl oxygen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An O–O bond between two enolate oxygens</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A C–C bond between two aldehyde carbonyl carbons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An enamine is most accurately</text>
+    </name>
+    <questiontext format="html">
+      <text>An enamine is most accurately described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enamines arise when secondary amines condense with aldehydes or ketones to give a C=C–N motif that is neutral yet nucleophilic at the α‑carbon.  Amide anions and iminium ions represent different charged species, and radical intermediates do not describe the typical structure or reactivity of enamines.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A neutral nucleophile formed by condensation of a secondary amine with a carbonyl compound</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A negatively charged amide anion formed from a primary amine</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A cationic iminium species formed under strong acid conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A radical intermediate formed by oxidation of an amine</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Stork enamine synthesis</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Stork enamine synthesis, the key role of the enamine is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In Stork chemistry, the enamine behaves as a neutral enolate equivalent, undergoing alkylation or acylation at the α‑carbon and then hydrolysis to regenerate the carbonyl with a new substituent.  The enamine is not primarily electrophilic, does not simply protect the carbonyl without reaction, and is not used as a radical precursor in this context.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Act as an electrophile toward nucleophiles</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Serve as a nucleophilic equivalent of an enolate for alkylation or acylation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protect the carbonyl from any reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Generate radicals for chain reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Silyl enol ethers are commonly</text>
+    </name>
+    <questiontext format="html">
+      <text>Silyl enol ethers are commonly used in synthesis because they:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Silyl enol ethers are formed by silylation of enolates or carbonyls, giving stable, neutral species that act as protected enolates and can be activated by Lewis acids for reactions such as Mukaiyama aldol.  They are more stable than enolates rather than less, they do participate in C–C bond formation, and they are distinct from typical alcohol protecting groups, so the other statements are inaccurate.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Are less stable than enolates and therefore react immediately</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Serve as protected enolate equivalents that can be stored and later activated</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cannot participate in carbon–carbon bond‑forming reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Are purely protecting groups for alcohols and not related to enol chemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Cram’s rule for nucleophilic</text>
+    </name>
+    <questiontext format="html">
+      <text>In Cram’s rule for nucleophilic addition to an α‑chiral carbonyl, the major product arises from nucleophile attack:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cram’s rule states that nucleophiles approach an α‑chiral carbonyl from the less hindered side in a conformation where the largest α‑substituent is oriented away, minimizing steric clash and governing diastereoselectivity.  Approaching from the most hindered face or enforcing syn orientation to the largest group contradicts the steric approach control at the heart of the rule, while a completely nonselective racemic outcome is not what Cram’s rule predicts.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>From the most sterically hindered face of the carbonyl</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>From the less hindered face of the carbonyl, avoiding the largest substituent at the α‑carbon</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equally from both faces, giving a racemic mixture</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only after rotation to place the largest group syn to the incoming nucleophile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Felkin–Anh model refines Cram’s</text>
+    </name>
+    <questiontext format="html">
+      <text>The Felkin–Anh model refines Cram’s rule primarily by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Felkin–Anh model incorporates both steric and electronic factors, particularly the orientation of C–X bonds (X = electronegative atoms) and their dipoles, to refine predictions of nucleophilic approach to chiral carbonyls.  It does not ignore sterics, is especially useful for heteroatom‑substituted substrates rather than excluding them, and does not rely on a simplistic perpendicular‑attack rule, so the other statements misrepresent the model.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Ignoring steric effects and using only electronic effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Emphasizing the influence of electronegative α‑substituents and bond dipoles on the preferred approach of the nucleophile</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Applying only to substrates without heteroatoms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Predicting that nucleophiles always attack perpendicular to the carbonyl plane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An unsymmetrical ketone is treated</text>
+    </name>
+    <questiontext format="html">
+      <text>An unsymmetrical ketone is treated with LDA at low temperature, followed by reaction with a primary alkyl bromide. Which outcome is most consistent with these conditions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>LDA is a strong, sterically hindered base that at low temperature favors deprotonation at the least hindered α‑position, giving the kinetic enolate, which undergoes SN2 alkylation with a primary bromide.  Formation of the thermodynamic enolate requires milder bases and higher temperature, O‑alkylation is not predominant with a soft primary alkyl halide, and LDA is not too weak to deprotonate the ketone, so the other outcomes are inconsistent.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Predominant formation of the more substituted thermodynamic enolate and its alkylation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Predominant formation of the less substituted kinetic enolate and its SN2 alkylation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive O‑alkylation at oxygen to give an enol ether</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No reaction, because LDA is too weak a base to deprotonate the ketone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A β‑keto ester enolate is</text>
+    </name>
+    <questiontext format="html">
+      <text>A β‑keto ester enolate is reacted with a soft electrophile such as an allylic bromide. Which statement best describes the expected selectivity?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Soft electrophiles such as allylic bromides preferentially react at the carbon center of ambident nucleophiles, so β‑keto ester enolates give predominant C‑alkylation at the α‑carbon.  Hard electrophiles tend to favor O‑attack, acylation at the carbonyl carbon describes a different reaction class, and β‑keto ester enolates are strongly nucleophilic, so the other options are incorrect.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Predominant O‑alkylation due to hard–hard interaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Predominant C‑alkylation at the α‑carbon favored by soft–soft interaction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive acylation at the carbonyl carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No reaction because β‑keto ester enolates are non‑nucleophilic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A methyl ketone is subjected</text>
+    </name>
+    <questiontext format="html">
+      <text>A methyl ketone is subjected first to base to form its enolate, then treated with an α,β‑unsaturated ketone. Which transformation is described?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enolate addition to an α,β‑unsaturated carbonyl typically proceeds via conjugate 1,4‑addition (Michael addition), generating a new C–C bond at the β‑position of the enone partner.  Claisen condensation involves acyl substitution between esters, 1,2‑addition attacks the carbonyl carbon directly, and Cannizzaro involves disproportionation of non‑enolizable aldehydes, so these do not match the described sequence.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Claisen condensation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Direct 1,2‑addition to the carbonyl group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Michael addition forming a 1,4‑addition product</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cannizzaro reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a boron‑mediated aldol reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In a boron‑mediated aldol reaction using a Z‑boron enolate and an aldehyde, which diastereomer is typically favored according to the Zimmerman–Traxler model?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Z‑enolates (including Z‑boron enolates) generally react via a chair‑like Zimmerman–Traxler transition state to give syn aldol products, where the new substituents on adjacent carbons adopt a syn relationship.  E‑enolates favor anti products, a 1:1 mixture indicates no stereocontrol, and dehydration to enone is a subsequent step rather than the intrinsic stereochemical outcome of the aldol step.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Anti aldol product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Syn aldol product</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equal mixture of syn and anti products</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only dehydrated enone product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chiral oxazolidinone auxiliary is</text>
+    </name>
+    <questiontext format="html">
+      <text>A chiral oxazolidinone auxiliary is attached to a carboxylic acid derivative, and a boron enolate is generated and subjected to an aldol reaction. What is the primary purpose of the auxiliary?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In Evans asymmetric aldol chemistry, the chiral oxazolidinone auxiliary controls the conformation and face of attack of the boron enolate, leading to high diastereoselectivity in the aldol product.  It does not primarily serve to acidify the α‑position, block reactivity, or introduce radical mechanisms, so the other explanations misrepresent the role of the auxiliary.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>To increase the acidity of the α‑hydrogens only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>To impose facial selectivity on the enolate, giving a highly diastereoselective aldol product</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>To prevent any reaction at the α‑position</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>To convert the reaction into a radical chain process</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A ketone is converted to</text>
+    </name>
+    <questiontext format="html">
+      <text>A ketone is converted to its enamine with a secondary amine, then treated with an alkyl iodide, followed by acidic hydrolysis. What is the net transformation on the original ketone?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the Stork enamine sequence, the enamine undergoes alkylation at the α‑position and subsequent hydrolysis regenerates the carbonyl, resulting in net α‑alkylation of the starting ketone.  No reduction or oxidation of the carbonyl function occurs, and the imine/enamine intermediate is not the final product, so the other options do not describe the overall reaction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Reduction of the carbonyl to an alcohol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidation of the ketone to a carboxylic acid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Introduction of an alkyl group at the α‑carbon of the ketone</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conversion of the ketone to an imine without substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a Mukaiyama aldol reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In a Mukaiyama aldol reaction, a silyl enol ether is reacted with an aldehyde in the presence of a Lewis acid such as TiCl₄. Compared to a classical aldol using metal enolates, which advantage is most characteristic?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Mukaiyama aldol reactions use neutral, preformed silyl enol ethers activated by Lewis acids, allowing milder and more functional‑group‑tolerant conditions than strongly basic metal‑enolate aldol reactions.  Strong base is not required, C–C bond formation is central to the transformation, and the methodology applies to both inter‑ and intramolecular variants, so the other options are incorrect.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The reaction must be carried out under strongly basic conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The reaction tolerates acid‑sensitive functional groups due to neutral silyl enol ethers and controlled Lewis acidity</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction cannot form new C–C bonds but only C–O bonds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction proceeds only intramolecularly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An α‑chiral aldehyde bearing three</text>
+    </name>
+    <questiontext format="html">
+      <text>An α‑chiral aldehyde bearing three different substituents at the α‑carbon undergoes addition of a Grignard reagent. Applying Cram’s rule, which factor mainly determines the preferred face of attack?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cram’s rule is based on steric approach control, arranging the substituents at the α‑carbon so that the largest group is oriented away from the incoming nucleophile in a Newman projection, minimizing steric clash and dictating the favored diastereomer.  Hydrogen bonding is not the primary factor, electronic orientation is introduced more explicitly in the Felkin–Anh model, and meso formation is not a general requirement, making the other options inconsistent with Cram’s model.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Maximization of hydrogen bonding with the Grignard reagent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Minimization of steric interactions by orienting the largest α‑substituent away from the incoming nucleophile</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alignment of the most electronegative substituent anti to the nucleophile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Exclusive attack on the face that gives a meso product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a chiral carbonyl compound</text>
+    </name>
+    <questiontext format="html">
+      <text>For a chiral carbonyl compound bearing an electronegative substituent (such as OR) at the α‑position, the Felkin–Anh model predicts that the preferred conformation for nucleophilic attack will:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Felkin–Anh model arranges the α‑substituents so that the electronegative C–X bond is roughly orthogonal to the carbonyl, minimizing unfavorable dipole interactions while allowing attack opposite the smallest group, combining steric and electronic control.  Antiperiplanar alignment that increases dipole repulsion, enforced attack from the most hindered side, or ignoring electronic effects contradicts the core principles of this model.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Place the C–X bond orthogonal to the carbonyl to minimize dipole interactions and align the smallest group toward the nucleophile</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Align the C–X bond antiperiplanar to the carbonyl C=O bond to maximize dipole repulsion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Force the nucleophile to attack from the most hindered side</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Deny any role of electronic effects from heteroatoms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A preformed Z‑enolate of a</text>
+    </name>
+    <questiontext format="html">
+      <text>A preformed Z‑enolate of a ketone reacts with an aldehyde under conditions favoring a Zimmerman–Traxler six‑membered transition state. Which statement correctly correlates enolate geometry and aldol stereochemistry?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the Zimmerman–Traxler chair transition state, Z‑enolates place substituents to favor syn relationships in the product, whereas E‑enolates favor anti aldol products, providing a direct link between enolate geometry and diastereoselectivity.  Equal diastereomer ratios or stereochemistry independent of enolate geometry ignore this well‑established correlation, so the other options are incorrect.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Z‑enolate gives predominantly syn aldol; E‑enolate gives predominantly anti aldol</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Z‑enolate gives predominantly anti aldol; E‑enolate gives predominantly syn aldol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both Z‑ and E‑enolates give the same diastereomeric ratio</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Enolate geometry has no influence on aldol stereochemistry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

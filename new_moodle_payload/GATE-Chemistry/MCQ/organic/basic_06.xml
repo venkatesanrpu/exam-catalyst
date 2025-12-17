@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Retrosynthetic analysis involves working **backward**]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Retrosynthetic analysis involves working **backward** from the target molecule to simpler starting materials. The symbol used to represent a retrosynthetic step is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Retrosynthetic analysis uses a special retrosynthetic arrow (⇒) to indicate backward thinking from product to precursor, distinguishing it from forward synthesis arrows. A forward arrow denotes actual chemical transformation in the synthetic direction. Equilibrium arrows represent reversible processes, not retrosynthetic planning. Curved arrows show electron flow in mechanisms, not strategic disconnections.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A forward arrow (→)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A double-headed equilibrium arrow (⇌)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A retrosynthetic arrow (⇒)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A curved arrow mechanism]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In retrosynthetic planning, FGA stands]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In retrosynthetic planning, FGA stands for Functional Group Analysis. The primary purpose of FGA is to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Functional Group Analysis systematically identifies reactive functional groups in the target molecule to guide disconnection strategy and determine which bonds should be broken retrosynthetically. Molecular weight calculation is not relevant to retrosynthetic strategy. Spectroscopic properties help in structure determination, not synthesis planning. Toxicity assessment relates to safety, not disconnection logic.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Calculate the molecular weight of functional groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Identify key reactive sites for strategic disconnection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Determine spectroscopic properties of the target]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Measure the toxicity of functional groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A synthon is best described]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A synthon is best described as a:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Synthons are idealized, charged fragments generated during retrosynthetic disconnection that represent the reactive species conceptually; they guide the selection of actual reagents. Real reagents are called synthetic equivalents, not synthons. Protecting groups mask functional groups temporarily but are not disconnection fragments. Catalysts facilitate reactions but do not represent disconnection fragments.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Real chemical reagent available commercially]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Hypothetical reactive fragment with defined charge distribution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Protecting group used in multi-step synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Catalyst that accelerates C-C bond formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The synthetic equivalent of a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The synthetic equivalent of a carbanion synthon \(\mathrm{R^-}\) in C-C bond formation is most commonly:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Grignard reagents (RMgX) act as carbanion equivalents, providing nucleophilic carbon for C-C bond formation by attacking electrophiles like carbonyls. Alkyl halides are electrophiles, not nucleophilic carbanion equivalents. Aldehydes are electrophilic carbonyl compounds, not carbanion sources. Esters are also electrophilic and do not act as carbanion equivalents.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An alkyl halide (RX)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A Grignard reagent (RMgX)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An aldehyde (RCHO)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An ester (RCOOR')]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Functional Group Interconversion (FGI) in]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Functional Group Interconversion (FGI) in retrosynthetic analysis refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[FGI involves converting one functional group to another in the retrosynthetic direction to enable simpler or more efficient disconnections in earlier steps. Complete removal of functional groups is not the goal of strategic synthesis planning. Conversion to mirror images relates to stereochemistry, not FGI. Spectroscopic measurement is an analytical technique, not a retrosynthetic strategy.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Changing one functional group to another to facilitate disconnection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Removing all functional groups from the molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Converting the target molecule to its mirror image]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Measuring the reactivity of functional groups spectroscopically]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Wittig reaction used]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Wittig reaction used for olefin synthesis, the nucleophilic synthon is represented by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Wittig reaction employs a phosphonium ylide as the nucleophilic carbon synthon that attacks the electrophilic carbonyl carbon to form a C=C bond. Aldehydes or ketones serve as electrophiles in the Wittig reaction, not nucleophiles. Alkyl halides are precursors to ylides but are not the nucleophilic synthon themselves. Grignard reagents are used in different C-C bond formations, not the Wittig reaction.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A phosphonium ylide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An aldehyde or ketone]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An alkyl halide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A Grignard reagent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Umpolung reactivity refers to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Umpolung reactivity refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Umpolung (German for "polarity reversal") involves inverting the normal charge distribution of functional groups, such as making carbonyl carbons nucleophilic instead of electrophilic. Simply increasing polarity does not describe polarity reversal. Complete removal of polar groups is not umpolung. Converting nonpolar to polar molecules does not involve reversing existing polarity.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increasing the polarity of a molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Reversing the natural polarity of a functional group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Removing all polar groups from a molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Converting nonpolar molecules to polar ones]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Cyanide ion (CN⁻) serves as]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Cyanide ion (CN⁻) serves as a formyl anion equivalent because upon nucleophilic addition to an electrophile followed by reduction, it can generate:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Cyanide adds as a nucleophile to form a nitrile, which upon partial reduction (e.g., with DIBAL-H) yields an aldehyde, functionally equivalent to adding a CHO⁻ (formyl anion) synthon. Carboxylic acids result from complete hydrolysis of nitriles, not formyl anion equivalency. Ketones are not the direct product of cyanide addition and reduction. Esters require additional transformations beyond formyl anion chemistry.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A carboxylic acid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[An aldehyde functional group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A ketone]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An ester]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In multi-step synthesis, protecting groups]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In multi-step synthesis, protecting groups are used to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Protecting groups temporarily mask reactive functional groups during steps where they would otherwise interfere, and are removed later to regenerate the original functionality. Increasing molecular weight is not the purpose of protection. Protecting groups do not generally accelerate reactions. Permanent removal contradicts the temporary nature of protection strategy.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase the molecular weight of the product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Temporarily block reactive sites to prevent unwanted reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Speed up all reactions in the sequence]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remove all functional groups permanently]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Atom economy is calculated as]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Atom economy is calculated as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Atom economy quantifies the efficiency of a reaction by comparing the molecular weight of the desired product to the total molecular weight of all reactants, reflecting how much starting material ends up in the product. Counting atoms directly is less practical than using molecular weights. Yield percentage measures actual vs. theoretical product obtained, not inherent reaction efficiency. Catalyst mass ratio does not define atom economy.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[(Molecular weight of desired product / Sum of molecular weights of all reactants) × 100%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(Number of atoms in product / Number of atoms in reactants) × 100%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(Yield of reaction / Theoretical yield) × 100%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(Mass of catalyst / Mass of product) × 100%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

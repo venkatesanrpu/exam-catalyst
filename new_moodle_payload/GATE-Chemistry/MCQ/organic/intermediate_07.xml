@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A molecule bears an aldehyde]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A molecule bears an aldehyde and an ester. Which single reagent-condition set most directly gives the primary alcohol from the aldehyde with minimal ester reduction at low temperature?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At −78 °C, DIBAL-H reduces aldehydes rapidly, while esters are reduced more slowly and often stop at the aldehyde after controlled quench; this enables chemoselective reduction of the aldehyde in the presence of an ester. LiAlH4 and LiBH4 are too reactive and reduce esters; NaBH4 is mild but may still reduce aldehydes while leaving esters mostly untouched, not delivering the desired selectivity profile as reliably as low-temperature DIBAL control.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[LiAlH4, THF, 0–25 °C]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[NaBH4, MeOH, 0–25 °C]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[DIBAL-H, toluene, −78 °C, then MeOH quench]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[LiBH4, THF, reflux]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a substrate containing both]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a substrate containing both an aldehyde and a ketone, which condition favors chemoselective nucleophilic addition at the aldehyde?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Aldehydes are more electrophilic and less sterically hindered than ketones, so a strong, fast nucleophile at low temperature (e.g., RLi) will preferentially add to the aldehyde under kinetic control. Softer cuprates may favor conjugate additions and be less reactive to simple carbonyls; hindered Grignards at reflux can cause side reactions; “bulky, less basic hydride” is vague and may not ensure selectivity in C–C bond formation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use of a hindered Grignard reagent at reflux]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use of a softer cuprate at −78 °C]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use of a bulky, less basic hydride at −78 °C]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Use of a strong organolithium at −78 °C]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For EAS on a ring]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For EAS on a ring bearing both –OCH3 and –NO2, the predominant regioisomer with Br2/FeBr3 is expected at:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[–OCH3 is a strong ortho/para director and activates the ring, while –NO2 is a strong meta director but deactivating; the activated sites ortho/para to –OCH3 are favored for electrophilic substitution, typically overriding the deactivated positions influenced by –NO2. Thus bromination occurs mainly ortho/para to –OCH3.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Meta to –OCH3 due to deactivation by –NO2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ortho/para to –OCH3 because it is strongly activating and outcompetes –NO2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Meta to –NO2 because –NO2 is a meta director and dominates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Ortho to –NO2 due to its strong –I effect]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Addition of a nucleophile to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Addition of a nucleophile to an α-chiral aldehyde lacking coordinating heteroatoms usually follows:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Absent coordinating substituents, classical Cram steric approach control often predicts major diastereomer via attack from the less hindered face at the carbonyl. Chelation control becomes important with α-alkoxy/amine substituents under Lewis acidic conditions; Felkin–Anh refines Cram by including electronic effects with electronegative α-substituents.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Chelation-controlled model with synclinal approach]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Cram’s steric approach model favoring attack from the least hindered face]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Prelog’s rule mandating opposite facial selectivity to Cram]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Felkin–Anh model dominated exclusively by electronic effects with no steric input]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A meso-1,2-diol undergoes selective monoacylation]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A meso-1,2-diol undergoes selective monoacylation by a lipase to give a single optically active monoester. This process exemplifies:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Selective transformation of one enantiotopic OH in a meso diol breaks symmetry to give a chiral product, i.e., desymmetrization. Classical salt resolution addresses racemates; simple kinetic resolution caps at 50% conversion to isolate one enantiomer; DKR needs in situ racemization of the unreacted enantiomer, which is not a meso case.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Classical resolution via diastereomeric salt formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Kinetic resolution limited to 50% theoretical maximum]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Desymmetrization generating chirality from a meso substrate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Dynamic kinetic resolution requiring racemization catalyst]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Choosing between Boc and Cbz]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Choosing between Boc and Cbz for protecting a primary amine in a sequence that uses strong acid but prohibits hydrogenation, the better choice is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Boc is acid-labile and typically removed by TFA; it avoids hydrogenation. Cbz is removed by hydrogenolysis, which is prohibited by the sequence; it is not generally base-labile nor acid-labile like tert-butyl esters.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Boc, because it is removed by TFA and avoids hydrogenolysis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cbz, because it is removed under basic conditions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Boc, because it requires hydrogenolysis for removal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cbz, because it is acid-labile like tert-butyl esters]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A racemic secondary alcohol is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A racemic secondary alcohol is subjected to lipase-catalyzed acetate formation, giving 40% conversion and 96% ee in the acetate. The selectivity factor s is closest to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For kinetic resolution, s = ln[(1−c)(1−ee_s)]/ln[(1−c)(1+ee_s)] or using product ee and conversion relations; at c = 0.40 and product ee_p = 0.96, the calculated s is approximately in the 10–12 range; 12 is the closest of the options. Lower values underestimate the high enantiodiscrimination implied by 96% ee at only 40% conversion.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[6]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[12]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[24]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In an Evans auxiliary-controlled aldol]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In an Evans auxiliary-controlled aldol using a Z-boron enolate, the dominant diastereomer arises from a Zimmerman–Traxler chair in which:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Under boron-mediated aldol conditions with Z-boron enolates, the chair-like Zimmerman–Traxler transition state typically delivers syn aldol products; the Evans auxiliary enforces facial selectivity, enhancing diastereocontrol. E enolates generally favor anti products in this model.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both large groups occupy axial positions, giving anti product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The chiral auxiliary biases approach to give syn aldol from Z enolate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The enolate geometry is irrelevant to syn/anti outcome]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[E enolates give syn aldol preferentially under boron mediation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a proline-catalyzed asymmetric aldol]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a proline-catalyzed asymmetric aldol between acetone and p-nitrobenzaldehyde, the origin of enantioselectivity is best attributed to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Proline forms a chiral enamine with the ketone donor; this enamine adds to the aldehyde (often H-bond activated), and the chiral environment dictates enantiofacial approach, giving enantioenriched aldol products. Iminium activation can be involved with α,β-unsaturated acceptors, but the core mode here is enamine catalysis.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Iminium activation of the aldehyde by protonation alone]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Enamine formation from acetone and chiral enamine addition to the aldehyde]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Metal–ligand backbonding lowering the aldehyde LUMO]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Single-electron transfer to generate radical ions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For competing 1,2- vs. 1,4-addition]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For competing 1,2- vs. 1,4-addition of MeLi and Me2CuLi to cyclohexenone at −78 °C, the expected major products are:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hard, highly basic nucleophiles like MeLi favor direct 1,2-addition to the carbonyl, whereas softer cuprates like Me2CuLi favor conjugate (1,4) addition to enones at low temperature, illustrating reagent-controlled regioselectivity.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0d13af76-414f-4c3b-8d8c-2f6b625d3637/organic_unit_05.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[MeLi: 1,4-addition; Me2CuLi: 1,2-addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[MeLi: 1,2-addition; Me2CuLi: 1,4-addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give predominantly 1,2-addition under kinetic control]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give predominantly 1,4-addition due to conjugation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,1053 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A disaccharide is found to</text>
+    </name>
+    <questiontext format="html">
+      <text>A disaccharide is found to be **non-reducing** and on complete hydrolysis gives D-glucose and D-fructose. Which structural conclusion is most consistent with these observations?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A disaccharide is non-reducing only when **no free anomeric carbon** is available to equilibrate to an open-chain carbonyl; this occurs when both anomeric centers are tied up in the glycosidic linkage, consistent with a sucrose-type connectivity between glucose and fructose.  If glucose retained a free anomeric center, the molecule would be reducing (contradicting the data), so option B is wrong.  The linkage position (such as \(1\rightarrow 6\)) does not by itself guarantee non-reducing character unless anomeric participation removes the free reducing end, so option C is not sufficient.  Ketoses can still act as reducing sugars via enediol/tautomerization under test conditions when a free anomeric center exists, so option D is conceptually incorrect.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The glycosidic bond involves the anomeric carbon of glucose and the anomeric carbon of fructose, leaving no free hemiacetal/hemiketal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The disaccharide must contain a free anomeric carbon on the glucose unit but not on fructose</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The disaccharide must be linked only through a \(1\rightarrow 6\) bond to prevent ring opening</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The disaccharide is reducing because fructose is a ketose and cannot form a reducing end</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A peptide is sequenced by</text>
+    </name>
+    <questiontext format="html">
+      <text>A peptide is sequenced by Edman degradation, but after a few cycles the sequencing yield collapses even though the peptide is known to be longer. Which peptide feature most plausibly explains premature termination of Edman sequencing?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Edman degradation requires a **free N-terminus**; if the N-terminus is blocked (e.g., acylated) or chemically modified, the derivatization step cannot proceed and the sequencing effectively stops.  Secondary structure like \(\alpha\)-helix does not chemically prevent the Edman reaction because the chemistry targets the terminal amino group and peptide bond cleavage stepwise.  Poor solubility can reduce efficiency but does not inherently cause a sharp termination pattern as directly as N-terminal blockage, and peptides do not contain phosphodiester linkages in the backbone (that would indicate nucleic-acid chemistry).
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A blocked or modified N-terminus preventing stepwise N-terminal derivatization/cleavage</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Presence of \(\alpha\)-helix secondary structure stabilizing the peptide bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>High content of nonpolar residues causing peptide insolubility in water only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Existence of a phosphodiester linkage in the peptide backbone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A protein loses enzymatic activity</text>
+    </name>
+    <questiontext format="html">
+      <text>A protein loses enzymatic activity upon addition of urea, but after removing urea slowly, the activity returns substantially. Which interpretation best matches these observations regarding protein structure?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Urea is a denaturant that primarily perturbs **noncovalent interactions** (hydrogen bonding, hydrophobic effect, etc.), leading to loss of secondary/tertiary structure and hence activity; removal can allow refolding if the primary structure remains intact.  Peptide bond hydrolysis would change primary structure and is not reversed by simple removal of urea, so option B is wrong.  Disulfide reduction requires reducing agents, not urea alone, and disulfide chemistry is not the only determinant of denaturation here, so option C is not the best explanation.  Primary sequence cannot be “converted” by urea under these conditions, so option D is incorrect.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Denaturation disrupted noncovalent interactions governing higher-order structure, and renaturation restored the native fold</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Denaturation irreversibly hydrolyzed peptide bonds, and refolding re-formed them</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Urea selectively cleaved disulfide bonds and later re-oxidized them quantitatively without assistance</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Urea converted the protein into a different primary sequence that still retains the same function</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A DNA segment is observed</text>
+    </name>
+    <questiontext format="html">
+      <text>A DNA segment is observed to shift from B-form to Z-form under specific conditions. Which combined structural/features set best supports formation of Z-DNA rather than B-DNA?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Z-DNA is characterized by a **left-handed** double helix and is commonly associated with alternating purine–pyrimidine sequences (classically alternating GC), consistent with a B→Z transition without losing base pairing.  Poly(A) stretches do not specifically favor Z-form, and a right-handed helix describes B-DNA rather than Z-DNA.  Strand separation would eliminate double-helix forms altogether and is not a B→Z conformational change.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Left-handed helix favored by alternating purine–pyrimidine sequence patterns</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Left-handed helix favored by poly(A) stretches due to maximal base stacking</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Right-handed helix favored by alternating purine–pyrimidine patterns</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Strand separation with loss of Watson–Crick base pairing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A lipid sample undergoes base-catalyzed</text>
+    </name>
+    <questiontext format="html">
+      <text>A lipid sample undergoes base-catalyzed hydrolysis to give glycerol and fatty acid salts. Another sample under similar treatment gives glycerol, fatty acid salts, and an additional phosphate-containing product. Which inference best distinguishes the two original lipid classes?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Formation of glycerol plus fatty acid salts under saponification is characteristic of triacylglycerols (triester hydrolysis).  If hydrolysis additionally yields a phosphate-containing product, the starting lipid must contain phosphate ester linkages, consistent with phospholipids (glycerophospholipids).  Carotenoids, steroids, nucleic acids, and peptides do not match the described saponification products, and phosphate is not universal to all lipid classes.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The first sample is a triacylglycerol, while the second is a phospholipid containing phosphate ester functionality</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The first sample is a carotenoid, while the second is a steroid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The first sample is a nucleic acid, while the second is a peptide</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both samples must be triacylglycerols because all lipids contain phosphate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In carbohydrate chemistry, the term</text>
+    </name>
+    <questiontext format="html">
+      <text>In carbohydrate chemistry, the term **mutarotation** refers to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Mutarotation is the change in optical rotation observed when a cyclic sugar equilibrates between its \(\alpha\) and \(\beta\) anomeric forms through an open-chain intermediate, followed by ring closure.  Interconversion without ring opening does not allow the anomeric configuration to change, so an open-chain step is essential.  Aldose–ketose isomerization (option B) is a different process (enediol rearrangement), glycosidic bond formation (option C) locks the anomeric carbon and typically prevents mutarotation at that center, and oxidation (option D) changes functional groups rather than anomer ratios.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Interconversion between anomers via ring opening and reclosing, causing a change in optical rotation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conversion of an aldose to a ketose by base-catalyzed rearrangement without ring opening</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of a glycosidic bond between two monosaccharides</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidation of an aldose to an aldonic acid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A monosaccharide is classified as</text>
+    </name>
+    <questiontext format="html">
+      <text>A monosaccharide is classified as an **aldose** when it contains:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Aldoses are monosaccharides whose open-chain form contains an aldehyde group (typically at C-1).  Ketoses instead contain a ketone group (commonly at C-2), while amide and carboxylic acid functionalities are not the defining criteria for aldose/ketose classification.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>An aldehyde functional group (in its open-chain form)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A ketone functional group (in its open-chain form)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An amide functional group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A carboxylic acid functional group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In carbohydrate stereochemistry, two monosaccharides</text>
+    </name>
+    <questiontext format="html">
+      <text>In carbohydrate stereochemistry, two monosaccharides that differ in configuration at exactly one stereogenic center (not the anomeric carbon) are called:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Epimers differ at only one chiral center (excluding the anomeric center if discussing ring forms in that context).  Enantiomers differ at all stereocenters (mirror images), anomers differ only at the anomeric carbon, and conformers differ by rotation about single bonds rather than configuration changes.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Epimers</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Enantiomers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Anomers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conformers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A disaccharide is **non-reducing** when</text>
+    </name>
+    <questiontext format="html">
+      <text>A disaccharide is **non-reducing** when:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reducing behavior requires a free anomeric carbon that can open to the carbonyl form; if both anomeric centers are tied up in the glycosidic bond, the disaccharide cannot form the open-chain aldehyde/ketone needed for reducing tests.  The presence of fructose, the linkage position alone, or D/L series does not by itself determine reducing vs non-reducing character.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Both anomeric carbons are involved in the glycosidic linkage, leaving no free hemiacetal/hemiketal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It contains at least one fructose unit</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It contains only \(1\rightarrow 6\) glycosidic linkages</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Its monosaccharide units are both in the D-series</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **zwitterionic** nature of amino</text>
+    </name>
+    <questiontext format="html">
+      <text>The **zwitterionic** nature of amino acids at near-neutral pH is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Amino acids commonly exist as internal salts (zwitterions) with a protonated amino group and a deprotonated carboxyl group, which explains their high melting points and aqueous behavior.  The fully neutral form is usually a minor contributor in water, while “fully protonated” or “fully deprotonated” apply only at extreme pH conditions, not near neutral pH.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The molecule contains both \(\mathrm{-NH_3^+}\) and \(\mathrm{-COO^-}\) groups simultaneously</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The molecule exists only as an uncharged neutral form \(\mathrm{-NH_2}\) and \(\mathrm{-COOH}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amino acid is fully protonated at all functional groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amino acid is fully deprotonated at all functional groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **isoelectric point (pI)** of</text>
+    </name>
+    <questiontext format="html">
+      <text>The **isoelectric point (pI)** of an amino acid is the pH at which:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The isoelectric point is defined as the pH where the average (net) charge is zero, so the zwitterionic form predominates.  Solubility is often minimal (not maximal) near pI due to reduced electrostatic repulsion, and fully protonated/deprotonated forms occur at sufficiently low/high pH, respectively.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The net charge of the amino acid is zero</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amino acid has maximum solubility in water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amino acid exists only in the fully protonated form</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amino acid exists only in the fully deprotonated form</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **peptide bond** formed between</text>
+    </name>
+    <questiontext format="html">
+      <text>The **peptide bond** formed between two amino acids is best described as a:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A peptide bond is an amide bond created by condensation between the carboxyl group of one amino acid and the amino group of another, producing a covalent linkage in peptides and proteins.  Disulfide bonds and salt bridges are side-chain interactions, while hydrogen bonds stabilize secondary structure but are not the covalent linkage connecting residues.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Covalent amide linkage formed between the \(\alpha\)-carboxyl group of one amino acid and the \(\alpha\)-amino group of another</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Disulfide bond formed between two cysteine side chains</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hydrogen bond formed between backbone \(\mathrm{N-H}\) and \(\mathrm{C=O}\) groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ionic salt bridge formed between acidic and basic side chains</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **secondary structure** element primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>The **secondary structure** element primarily stabilized by intrachain hydrogen bonding in a regular helical pattern is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The \(\alpha\)-helix is a classic secondary structure stabilized by regular hydrogen bonds between backbone \(\mathrm{C=O}\) and \(\mathrm{N-H}\) groups along the same chain.  Primary structure is just the amino acid sequence, quaternary structure refers to multi-subunit assembly, and random coil lacks a consistent repeating hydrogen-bonding geometry.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\alpha\)-Helix</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Quaternary structure</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Primary structure</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Random coil only (no defined H-bonding pattern possible)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In nucleic acids, the bond</text>
+    </name>
+    <questiontext format="html">
+      <text>In nucleic acids, the bond linking nucleotides into a strand is the:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Nucleotides polymerize through phosphodiester linkages that connect the sugar–phosphate backbone of DNA/RNA.  The glycosidic bond attaches the nitrogenous base to the sugar within a nucleotide, while peptide and disulfide bonds are characteristic of proteins.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Phosphodiester bond</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Glycosidic bond between base and sugar only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Peptide bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Disulfide bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A **triglyceride** is structurally best</text>
+    </name>
+    <questiontext format="html">
+      <text>A **triglyceride** is structurally best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Triglycerides (triacylglycerols) are formed when all three hydroxyl groups of glycerol are esterified with fatty acids.  Phosphodiester-containing glycerol lipids correspond to phospholipids (option C), while options B and D describe different biomolecule classes altogether.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A triester of glycerol with three fatty acids</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An amide of glycerol with three amino acids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A phosphodiester of glycerol with two fatty acids and a phosphate-linked headgroup</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A polymer of isoprene units</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An aldohexose undergoes mutarotation in</text>
+    </name>
+    <questiontext format="html">
+      <text>An aldohexose undergoes mutarotation in aqueous solution and reaches an equilibrium mixture containing 36% one anomer and 64% the other at 25 °C. Which property is most directly explained by this observation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Mutarotation arises from interconversion of \(\alpha\) and \(\beta\) anomers via the open-chain form; these anomers differ only at the anomeric carbon, while all other stereocenters remain unchanged.  Thus the changing optical rotation reflects equilibrium between two diastereomeric anomers.  If it were a purely non-reducing ketose locked in a glycosidic bond, mutarotation would not occur, so the sugar must access an open-chain aldehyde or ketone form, contradicting options A and C.  Multiple chiral centers are present in an aldohexose, invalidating option D.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The sugar must be a ketose with a non-reducing character</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The two cyclic forms differ only in configuration at the anomeric carbon</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The sugar cannot exist in an open-chain form in solution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The sugar has no chiral centers except the anomeric carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A disaccharide gives a positive</text>
+    </name>
+    <questiontext format="html">
+      <text>A disaccharide gives a positive Benedict’s test, and on hydrolysis yields only D-glucose. Which structural feature is most consistent with these data?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A positive Benedict’s test indicates at least one free anomeric carbon that can open to an aldehyde, so the disaccharide must be reducing.  Hydrolysis to only D-glucose suggests a homodisaccharide like maltose, which has a \(1\rightarrow 4\) glycosidic linkage where one anomeric carbon is free.  Linkage of both anomeric carbons (as in sucrose) yields a non-reducing disaccharide, and hydrogen-bonded association without a true glycosidic bond does not describe stable disaccharide structure.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A \(1\rightarrow 4\) glycosidic bond involving only one anomeric carbon</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A \(1\rightarrow 1\) glycosidic bond linking both anomeric carbons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A non-glycosidic hydrogen-bonded association of two glucose molecules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A \(1\rightarrow 6\) glycosidic bond using both anomeric carbons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The pI of glycine is</text>
+    </name>
+    <questiontext format="html">
+      <text>The pI of glycine is approximately the average of its two pKa values (pKa\(_1\) for \(\mathrm{COOH}\) and pKa\(_2\) for \(\mathrm{NH_3^+}\)). For an amino acid with an additional ionizable acidic side-chain group (like aspartic acid), which two pKa values are used to calculate its pI?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For amino acids with acidic side chains, the neutral zwitterionic form lies between the two deprotonation steps that change the net charge from +1 to 0 and from 0 to −1, which correspond to the two lowest pKa values (carboxyls).  The isoelectric point is thus calculated as the average of these two acidic pKa values.  Using the highest pKa, averaging all three, or only using the side-chain pKa would not correspond to the pH at which the net charge is zero.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The two lowest pKa values corresponding to the acidic groups</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The two highest pKa values corresponding to the most basic groups</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the side-chain pKa and ignore others</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An average of all three pKa values</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An amino acid has pKa</text>
+    </name>
+    <questiontext format="html">
+      <text>An amino acid has pKa values: \(\mathrm{pKa_1(COOH)=2.2}\), \(\mathrm{pKa_2(NH_3^+)=9.6}\). At pH 7.0, which statement best describes its predominant form?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>At pH between pKa\(_1\) and pKa\(_2\), the carboxyl group exists mainly as \(\mathrm{COO^-}\) and the amino group as \(\mathrm{NH_3^+}\), resulting in a zwitterion with net zero charge.  Below both pKa values, both groups would be protonated (+1), and above both pKa values, both would be deprotonated (−1).  A protonated carboxyl with deprotonated amino group is not favored at this pH since it is inconsistent with both pKa values.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The carboxyl group is largely deprotonated and the amino group is largely protonated, giving a net zero charge</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both carboxyl and amino groups are fully protonated, giving a +1 charge</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both groups are fully deprotonated, giving a −1 charge</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The carboxyl group is protonated while the amino group is deprotonated, giving a −1 charge</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a stepwise solution-phase synthesis</text>
+    </name>
+    <questiontext format="html">
+      <text>In a stepwise solution-phase synthesis of a protected dipeptide, the carboxyl group of one amino acid is activated by DCC (dicyclohexylcarbodiimide). Which main problem does the use of N-protecting groups (like Boc or Cbz) address in such a synthesis?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>N-protecting groups temporarily block amino groups to prevent them from reacting indiscriminately with activated carboxyl groups, which would lead to uncontrolled oligomerization or polymerization rather than the desired defined peptide.  Protecting groups are not used to increase basicity or induce racemization; in fact, avoiding racemization is a key goal.  Water removal is usually managed by dehydrating agents or reaction conditions, not primarily by protecting groups.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Preventing uncontrolled polymerization by blocking unwanted amino groups</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Increasing the basicity of the amino acid side chains</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ensuring quantitative racemization at the \(\alpha\)-carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Removing water produced during the coupling reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A protein is subjected to</text>
+    </name>
+    <questiontext format="html">
+      <text>A protein is subjected to mild reducing conditions that specifically cleave disulfide bonds, followed by SDS-PAGE under denaturing conditions. If the protein originally existed as a covalently linked dimer stabilized by disulfide bonds, what change is most likely observed in the electrophoretic pattern?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reducing disulfide bonds converts a covalent dimer into its monomeric units, each having half the molecular weight, so a band at roughly half the apparent mass will appear.  SDS-PAGE in denaturing conditions separates subunits based on size, so a covalent dimer that previously ran as one species will now resolve as smaller monomers.  No change (B) or disappearance without new bands (C) conflicts with the conservation of mass, and doubling the molecular weight (D) is opposite to the expected effect of reduction.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>One band at approximately half the original molecular weight replaces the original single band</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The original band remains unchanged in position but increases in intensity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The original band disappears with no new bands appearing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The protein migrates as a single band of twice the original molecular weight</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a DNA double helix</text>
+    </name>
+    <questiontext format="html">
+      <text>For a DNA double helix, changing from B-form to Z-form is most consistently associated with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Z-DNA is a left-handed double helix that is favored by certain conditions and sequences, particularly alternating purine–pyrimidine arrangements like GC repeats, while base pairing and the phosphodiester backbone remain intact.  Strand separation and bond-type changes do not define the B→Z transition, and replacing deoxyribose with ribose would generate RNA, not Z-DNA.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A change from a right-handed to a left-handed helix and an alternating purine–pyrimidine sequence</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complete loss of base pairing and strand separation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Conversion of phosphodiester bonds into peptide bonds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Replacement of deoxyribose by ribose in the backbone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A nucleoside differs from a</text>
+    </name>
+    <questiontext format="html">
+      <text>A nucleoside differs from a nucleotide mainly by lacking which structural component?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A nucleoside consists only of a nitrogenous base linked to a pentose sugar via a glycosidic bond, whereas a nucleotide is a nucleoside with one or more phosphate groups attached.  Therefore the phosphate group is the differentiating component.  Both species contain the base, sugar, and glycosidic bond, so options B–D are incorrect.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The phosphate group attached to the sugar</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The nitrogenous base</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The pentose sugar</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The glycosidic bond</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A naturally occurring fatty acid</text>
+    </name>
+    <questiontext format="html">
+      <text>A naturally occurring fatty acid is found to be 18 carbons long with one cis double bond at C9–C10. Which physical property compared to stearic acid (18:0) is best predicted from this structural difference?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A cis double bond introduces a kink into the hydrocarbon chain, disrupting close packing in the solid state and thereby lowering the melting point relative to the saturated analogue of the same length.  The molecular weight difference is negligible, and chain packing dominates; thus the unsaturated fatty acid melts at a lower temperature.  Both fatty acids remain soluble in organic solvents, so option D is incorrect.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lower melting point due to kinked unsaturated chain</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Higher melting point due to increased molecular weight</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Completely identical melting point because they have the same chain length</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Insolubility in organic solvents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A researcher analyzes an unknown</text>
+    </name>
+    <questiontext format="html">
+      <text>A researcher analyzes an unknown natural product that exhibits a strong absorption in the visible region due to an extended conjugated polyene chain and has a C\(_{40}\) carbon skeleton built from isoprene units. Which class of biomolecules is most consistent with these features?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carotenoids are C\(_{40}\) tetraterpenes constructed from isoprene units and possess long conjugated polyene systems, which give rise to intense visible absorptions and characteristic colors.  Steroids have a tetracyclic ring system rather than an extended linear polyene, alkaloids are nitrogen-containing heterocycles with diverse sizes, and triglycerides are triesters of glycerol without extensive conjugation.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Carotenoids</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Steroids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Alkaloids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Triglycerides</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

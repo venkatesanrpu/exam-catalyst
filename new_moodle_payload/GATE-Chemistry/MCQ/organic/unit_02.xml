@@ -1,0 +1,1035 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Two conformers \(A\) and \(B\)</text>
+    </name>
+    <questiontext format="html">
+      <text>Two conformers \(A\) and \(B\) interconvert rapidly (\(A \rightleftharpoons B\)). \(A\) is 2.0 kcal/mol more stable than \(B\). Product \(P_1\) forms only from \(A\) with \(\Delta G^\ddagger_A = 25.0\) kcal/mol, while \(P_2\) forms only from \(B\) with \(\Delta G^\ddagger_B = 23.0\) kcal/mol. Under Curtin–Hammett conditions, the major product is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Under Curtin–Hammett conditions (rapid pre-equilibrium), the product ratio depends on the difference in activation free energies to products, not on conformer populations alone. Even though \(B\) is less populated, its pathway has a 2 kcal/mol lower \(\Delta G^\ddagger\), so it can dominate product formation by being much more reactive. The need for explicit \(K_{A/B}\) is bypassed because Curtin–Hammett emphasizes transition-state control when interconversion is fast relative to reaction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(P_1\), because \(A\) is more stable and therefore more populated</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(P_2\), because product ratio is governed mainly by the lower transition-state barrier</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A 1:1 mixture, because rapid interconversion forces equal product formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cannot be predicted without knowing the equilibrium constant \(K_{A/B}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A reaction series gives a</text>
+    </name>
+    <questiontext format="html">
+      <text>A reaction series gives a linear Hammett plot with \(\rho = -4.0\) (using para substituents). The best mechanistic inference is that the rate-determining step involves:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A large negative \(\rho\) indicates that electron-donating substituents accelerate the reaction strongly, consistent with a transition state that is stabilized by donation—typically one with increased positive charge (or decreased negative charge) at/near the reaction center. A large positive \(\rho\) would instead suggest negative-charge development or increased electron demand. A clean linear plot argues against a mechanism change across the series in this context.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Substantial buildup of negative charge in the transition state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Substantial buildup of positive charge in the transition state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No significant charge development; steric effects dominate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A change in mechanism from SN1 to SN2 across the substituent series</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An aromatic chloride undergoes nucleophilic</text>
+    </name>
+    <questiontext format="html">
+      <text>An aromatic chloride undergoes nucleophilic substitution with \(\mathrm{NH_2^-}\) in liquid ammonia only under very strong basic conditions, and the product mixture shows substitution at two adjacent positions (regioisomeric mixture) rather than a single ipso-substitution product. This observation most strongly supports:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A requirement for very strong base and the formation of regioisomeric products are classic indicators of a benzyne elimination–addition pathway, where nucleophile addition to the aryne can occur at either end of the triple-bond-like intermediate. SNAr (Meisenheimer) is favored by strong electron-withdrawing groups ortho/para to the leaving group and typically gives ipso substitution with more predictable regiochemistry. Arenium ions describe electrophilic substitution, not nucleophilic displacement.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>SNAr addition–elimination via a Meisenheimer complex</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Benzyne (elimination–addition) mechanism</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Electrophilic aromatic substitution via arenium ion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical aromatic substitution via chain propagation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A base-promoted elimination from a</text>
+    </name>
+    <questiontext format="html">
+      <text>A base-promoted elimination from a substrate bearing a strong electron-withdrawing group at the β-position shows a large primary β-deuterium kinetic isotope effect (rate decreases significantly when β-H is replaced by β-D). The most consistent mechanistic conclusion is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A large primary β-deuterium KIE indicates that breaking the C–H (or C–D) bond is involved in the rate-determining step. That aligns with E2, where proton abstraction and leaving-group departure are concerted and C–H cleavage contributes directly to the transition state. In a common E1cb scenario, deprotonation can be fast pre-equilibrium and leaving-group departure may be rate-determining, which would reduce or remove a strong primary β-KIE; E1 rate-determination is ionization rather than β-C–H cleavage.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>E1 mechanism with carbocation formation as rate-determining step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>E2 mechanism with C–H bond cleavage involved in the rate-determining step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>E1cb mechanism where leaving-group departure occurs before deprotonation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SN1 mechanism competing with elimination</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two competing pathways lead from</text>
+    </name>
+    <questiontext format="html">
+      <text>Two competing pathways lead from the same reactant to products \(X\) and \(Y\). Pathway to \(X\) is exothermic, pathway to \(Y\) is endothermic, and both proceed through carbocation-like transition states. Using Hammond’s postulate, the transition state leading to \(Y\) is expected to be:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For an endothermic step, Hammond’s postulate predicts a late (product-like) transition state; if the product is carbocation-like (or has greater positive-charge character), the TS will display more of that character. For an exothermic step, the transition state is earlier and more reactant-like, typically showing less developed carbocation character. Hammond’s postulate is specifically useful for reasoning about carbocation and carbanion transition states, not excluded from them.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>More reactant-like, with little carbocation character</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>More product-like, with greater carbocation character</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Identical to the transition state leading to \(X\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Unrelated to energetics; Hammond’s postulate does not apply to carbocations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Under kinetic control, the major</text>
+    </name>
+    <questiontext format="html">
+      <text>Under kinetic control, the major product is typically the one that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Kinetic control selects the product formed fastest, i.e., via the lowest activation barrier, regardless of its final thermodynamic stability. Thermodynamic control instead favors the lowest free-energy product at equilibrium, commonly accessed at higher temperature or reversible conditions. Options focusing on resonance or high-temperature favorability conflate thermodynamic control and do not define kinetic selection criteria.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Has the lowest free energy at equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Forms through the pathway with the lowest activation energy</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Has the greatest resonance stabilization in the product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Is favored only at high temperatures due to reversibility</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Hammond’s postulate implies that for</text>
+    </name>
+    <questiontext format="html">
+      <text>Hammond’s postulate implies that for an endothermic step, the transition state:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In an endothermic step, the transition state is “product-like,” reflecting Hammond’s postulate that TS structure mirrors the nearest energy well; exothermic steps have “reactant-like” TSs. Early vs. late transition state positioning correlates with endo/exothermicity; claiming no effect of energetics contradicts the postulate.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Resembles the reactants more than the products</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Occurs earlier along the reaction coordinate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Resembles the products more than the reactants</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Is unaffected by the reaction energetics</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Curtin–Hammett principle primarily applies</text>
+    </name>
+    <questiontext format="html">
+      <text>The Curtin–Hammett principle primarily applies when:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>When conformers interconvert faster than reaction, product ratios are determined by the relative transition state energies leading from each conformer, not by conformer populations alone. Slow interconversion invalidates Curtin–Hammett, product equilibration is a thermodynamic scenario, and the more stable conformer need not yield the major product if its pathway has higher TS energy.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Two conformers interconvert slowly relative to reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Two conformers interconvert rapidly and form different products via different TS energies</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two products equilibrate rapidly after formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The more stable conformer always gives the major product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A primary kinetic isotope effect</text>
+    </name>
+    <questiontext format="html">
+      <text>A primary kinetic isotope effect (KIE) is most diagnostic when:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A primary KIE arises when the isotopically labeled bond is cleaved in the rate-determining step, altering zero-point energies and transition state vibrational modes to measurably change the rate. Labeling non-breaking or remote bonds leads to secondary or negligible KIEs; KIE concerns rate changes rather than only product distribution.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The labeled bond is not broken in the rate-limiting step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The labeled bond is broken in the rate-limiting step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The isotope is on a spectator group far from reaction center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only product ratios change without rate changes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Hammett equation, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Hammett equation, a large positive reaction constant (ρ) suggests that the transition state:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A large positive ρ means electron-withdrawing groups accelerate the reaction, indicating buildup of negative charge or loss of positive charge in the transition state; electron-donating groups would have the opposite effect (negative ρ). Insensitivity contradicts “large,” and negligible charge development would correspond to small |ρ| .</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Stabilizes with electron-donating substituents</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Is insensitive to substituent effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Is stabilized by electron-withdrawing substituents</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Involves negligible charge development</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For an SN2 reaction of</text>
+    </name>
+    <questiontext format="html">
+      <text>For an SN2 reaction of a secondary bromide, the expected stereochemical outcome at the reacting center is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>SN2 is concerted backside attack with inversion at the stereocenter. Racemization and internal return are associated with SN1 or SNi conditions; neighboring group participation can alter pathways but does not generally preserve configuration in a standard SN2 scenario.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Racemization due to carbocation formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Retention due to internal return</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Inversion due to backside attack</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No change because of neighboring group participation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In electrophilic aromatic substitution, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In electrophilic aromatic substitution, a strongly deactivating group such as nitro (-NO2) directs new substitution:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Strongly electron-withdrawing groups like nitro are meta directors; they destabilize the ortho/para sigma complexes via unfavorable resonance charge distribution. Ortho/para directing groups are typically electron donating; steric arguments alone cannot convert a deactivating group into ortho-only or para-only director.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Ortho and para due to resonance donation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Meta due to strong electron withdrawal</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ortho only due to steric hindrance</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Para only due to lower steric demand</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Addition of HBr to propene</text>
+    </name>
+    <questiontext format="html">
+      <text>Addition of HBr to propene under standard ionic conditions follows Markovnikov’s rule because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In ionic electrophilic addition of HX to alkenes, protonation occurs to form the more stable carbocation (secondary &gt; primary), placing H on the less substituted carbon and Br on the more substituted one (Markovnikov). Bromonium ions characterize halogen additions; radical conditions give anti-Markovnikov in presence of peroxides.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Bromide adds first to the less substituted carbon via radical chain</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Protonation gives the more stable secondary carbocation intermediate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A three-membered bromonium ion forms and opens syn</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction is concerted with anti addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Nucleophilic addition to an aldehyde</text>
+    </name>
+    <questiontext format="html">
+      <text>Nucleophilic addition to an aldehyde is generally faster than to a ketone mainly because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Aldehydes possess one alkyl substituent and a hydrogen, making them less hindered and typically more electrophilic than ketones with two alkyl groups, leading to faster formation of tetrahedral intermediates. Ketones do form tetrahedral intermediates; electrophilicity and sterics drive the observed trend.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Aldehydes are less electrophilic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Aldehydes are less sterically hindered and more electron-deficient</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ketones cannot form tetrahedral intermediates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Aldehydes stabilize carbanions better</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an E2 elimination of</text>
+    </name>
+    <questiontext format="html">
+      <text>In an E2 elimination of a β-haloalkane with a strong base, the stereochemical requirement is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>E2 eliminations are concerted and typically require anti-periplanar alignment of the β-hydrogen and leaving group for optimal orbital overlap, leading to stereospecific outcomes. Syn-coplanar occurs in special constrained cases; options invoking carbocations describe E1, not E2.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/fa558902-8288-49aa-b0b9-cf2a1f590342/organic_unit_12.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Syn-coplanar orientation of β-H and leaving group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Anti-periplanar orientation of β-H and leaving group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Any conformation due to carbocation intermediates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Planar carbocation formation followed by deprotonation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For the solvolysis of tert-butyl</text>
+    </name>
+    <questiontext format="html">
+      <text>For the solvolysis of tert-butyl chloride in aqueous ethanol, the observed rate law is \( \text{Rate} = k[\text{tert-butyl chloride}] \). Which mechanistic conclusion is most consistent with this observation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A first-order rate law in substrate indicates a unimolecular rate-determining step, consistent with SN1 ionization to a carbocation. In SN2, rate depends on both substrate and nucleophile concentration. E2 requires base participation in the rate law and typically shows bimolecular kinetics. Ethanol/water (polar protic) also stabilizes ions, supporting carbocation formation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The rate-determining step is nucleophilic attack by ethanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The rate-determining step is ionization to form a carbocation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The mechanism must be SN2 because ethanol is a nucleophile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The mechanism must be E2 because a base is present</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chiral secondary alkyl bromide</text>
+    </name>
+    <questiontext format="html">
+      <text>A chiral secondary alkyl bromide reacts with NaCN in DMSO to give a nitrile product with predominant inversion of configuration. The most likely pathway is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>CN⁻ is a strong nucleophile and DMSO is polar aprotic, which enhances nucleophilicity and favors SN2. SN2 gives inversion due to backside attack. SN1 would give substantial racemization because of planar carbocation intermediates. SNi retention is characteristic in special cases (e.g., thionyl chloride conditions), not typical for CN⁻ in DMSO.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>SN1 via free carbocation and racemization</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>SN2 via backside attack by CN⁻</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SNi via internal return with retention</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>E1 followed by addition of CN⁻</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider hydrolysis of tert-butyl acetate</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider hydrolysis of tert-butyl acetate under acidic conditions. If the rate increases strongly with increasing electron-withdrawing substituents on the acyl group in an analogous series, the best interpretation is that the rate-determining step has:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In acyl substitution/addition-elimination manifolds, electron-withdrawing groups increase carbonyl electrophilicity and stabilize a transition state with increased positive character at the carbonyl carbon, accelerating nucleophilic attack or related steps. This aligns with substituent effects and LFER reasoning. Options invoking negative charge development or radical pathways do not match typical acid-catalyzed acyl processes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Development of positive charge on the carbonyl carbon (increased electrophilicity controls rate)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Development of negative charge on the carbonyl oxygen (stabilized by electron donation)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No charge development; rate depends only on steric effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical character at the carbonyl carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an E2 elimination on</text>
+    </name>
+    <questiontext format="html">
+      <text>In an E2 elimination on a substituted cyclohexyl halide, the reaction is fast only when the leaving group is axial. This is best explained by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>E2 requires an anti-periplanar arrangement of the breaking C–H bond and C–X bond for optimal orbital overlap. In cyclohexanes, anti-periplanar alignment is achieved when both the leaving group and the β-hydrogen are axial (trans-diaxial). Carbocation intermediates correspond to E1, not E2, and syn pathways are not the general E2 requirement.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Requirement of a planar carbocation intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Requirement of anti-periplanar geometry between β-H and leaving group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Requirement of syn addition prior to elimination</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Requirement that the base be weak and sterically hindered</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A substrate can undergo substitution</text>
+    </name>
+    <questiontext format="html">
+      <text>A substrate can undergo substitution or elimination. Switching from a strong nucleophile/weak base to a strong bulky base shifts the product distribution toward elimination mainly because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Bulky strong bases have reduced nucleophilic substitution efficiency (steric hindrance reduces backside attack in SN2), but they can still abstract accessible β-hydrogens, promoting E2. Carbocation stability is not directly increased by bulky bases, and SN1 requires favorable ionization conditions rather than “bulky base” effects. The key idea is competition between SN and E pathways governed by base/nucleophile character and sterics.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Bulky bases are poor at abstracting β-hydrogen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Bulky bases are sterically hindered for substitution but still remove β-hydrogen efficiently</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bulky bases increase carbocation stability</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Bulky bases convert SN2 into SN1 by solvating the leaving group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An alkene reacts with Br2</text>
+    </name>
+    <questiontext format="html">
+      <text>An alkene reacts with Br2 in CCl4 to give a vicinal dibromide, predominantly as an anti-addition product. The best mechanistic rationale is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Halogenation of alkenes proceeds through a cyclic halonium ion intermediate; nucleophilic attack by Br⁻ occurs from the backside, leading to anti addition. A carbocation pathway would typically allow rearrangements and different stereochemical outcomes. Radical chain addition is not the standard pathway in CCl4 for Br2 addition to alkenes. A fully concerted syn cycloaddition is inconsistent with observed anti stereochemistry.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Formation of a carbocation followed by rearrangement and capture by Br⁻</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Formation of a bromonium ion followed by backside attack of Br⁻</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical chain addition leading to syn addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Concerted cycloaddition of Br2 giving syn addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In electrophilic addition of HBr</text>
+    </name>
+    <questiontext format="html">
+      <text>In electrophilic addition of HBr to an unsymmetrical alkene, a rearranged bromide product is observed. The presence of rearrangement most strongly supports:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Rearrangements (hydride/alkyl shifts) are characteristic of carbocation intermediates formed during ionic electrophilic addition (Markovnikov pathway). Concerted mechanisms do not allow rearrangement. Bromonium ions are typical for halogen additions (Br2/Cl2), which generally do not rearrange. Benzyne pertains to aromatic nucleophilic substitution, not alkene hydrohalogenation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A concerted mechanism with no intermediates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A carbocation intermediate prior to bromide capture</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A bromonium ion intermediate as in Br2 addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A benzyne intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A para-substituted benzoate series shows</text>
+    </name>
+    <questiontext format="html">
+      <text>A para-substituted benzoate series shows a Hammett plot with a negative slope (ρ &lt; 0) for a reaction. This indicates that electron-donating substituents:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A negative ρ means electron-donating groups accelerate the reaction, consistent with a transition state that develops positive charge (or loses negative charge) that is stabilized by donation. If electron-withdrawing groups accelerated, ρ would be positive. Negative ρ does not make σ irrelevant, and it does not automatically imply radical chemistry; it is an electronic substituent-effect signature.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Decrease the rate by destabilizing positive charge in the transition state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Increase the rate by stabilizing positive charge development in the transition state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Have no effect; σ constants are irrelevant when ρ is negative</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always imply a radical mechanism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an SNAr reaction on</text>
+    </name>
+    <questiontext format="html">
+      <text>In an SNAr reaction on an aromatic fluoride, the reaction is significantly faster when a nitro group is present ortho or para to the leaving group. The most direct reason is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>SNAr (addition–elimination) proceeds via nucleophilic addition to form a Meisenheimer complex (anionic intermediate), which is strongly stabilized by electron-withdrawing groups like nitro at ortho/para positions. Arenium ions relate to electrophilic aromatic substitution, not SNAr. Fluoride can be an effective leaving group in SNAr because addition is facilitated and elimination is driven by re-aromatization. Carbocation formation on an aromatic ring is not the SNAr mechanism.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Nitro group stabilizes the arenium ion formed in electrophilic substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Nitro group stabilizes the anionic Meisenheimer intermediate in addition–elimination</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nitro group makes fluoride a worse leaving group, forcing a different pathway</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nitro group promotes carbocation formation on the ring</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A β-dicarbonyl compound undergoes base-promoted</text>
+    </name>
+    <questiontext format="html">
+      <text>A β-dicarbonyl compound undergoes base-promoted elimination via an E1cb pathway rather than E2. The key feature favoring E1cb is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>E1cb involves deprotonation first to form a carbanion (conjugate base) that is stabilized by electron-withdrawing groups (such as carbonyls), followed by expulsion of the leaving group. An unstable carbanion would disfavor E1cb. Strong nucleophile/polar aprotic considerations are more central to substitution pathways like SN2. Carbocation formation corresponds to E1, not E1cb.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A very unstable carbanion intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Formation of a stabilized carbanion intermediate prior to leaving group departure</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Requirement of a strong nucleophile in polar aprotic solvent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rate-determining formation of a carbocation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

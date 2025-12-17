@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Hydration strategy check: 1-methylcyclohexene is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Hydration strategy check: 1-methylcyclohexene is subjected to (i) oxymercuration–demercuration (Hg(OAc)2/H2O; NaBH4) or (ii) hydroboration–oxidation (BH3·THF; H2O2/NaOH). Which pair of major alcohols is expected?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Oxymercuration–demercuration gives Markovnikov hydration without rearrangement, leading to tertiary alcohol formation at the more substituted carbon (1-methylcyclohexanol). Hydroboration–oxidation delivers anti-Markovnikov hydration with syn addition across the double bond; on cyclohexenes, this gives substitution at the less substituted carbon with overall syn addition, consistent with trans-2-methylcyclohexanol after ring conformational analysis. Markovnikov vs anti-Markovnikov and syn vs anti outcomes are core to alkene hydration strategies.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give trans-2-methylcyclohexanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[(i) 1-methylcyclohexanol; (ii) trans-2-methylcyclohexanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(i) trans-2-methylcyclohexanol; (ii) 1-methylcyclohexanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give 1-methylcyclohexanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Alkyne reduction selectivity: A terminal]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Alkyne reduction selectivity: A terminal alkyne is treated under two conditions: (i) H2, Lindlar catalyst; (ii) Na/NH3(l), −78 °C. Which pair of alkene stereoisomers results?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Lindlar catalyst poisons the surface enabling syn hydrogenation of alkynes to Z-alkenes. Dissolving metal reduction proceeds via radical-anion steps and anti addition, affording E-alkenes. These complementary methods are standard for stereodefined alkyne to alkene reduction.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(i) E-alkene; (ii) Z-alkene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[(i) Z-alkene; (ii) E-alkene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give E-alkene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give Z-alkene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Competing pathways in halohydrin formation]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Competing pathways in halohydrin formation: Treating 3-methyl-1-butene with Br2/H2O gives a major bromohydrin. Which statement best describes the regiochemistry and stereochemistry?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Halohydrin formation proceeds via a halonium ion with water opening at the more substituted carbon, placing OH at that site and Br at the less substituted carbon. Nucleophilic opening of the cyclic halonium occurs anti to the leaving group, giving overall anti addition.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[OH at less substituted carbon; syn addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[OH at more substituted carbon; anti addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Br at more substituted carbon; syn addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[OH at less substituted carbon; anti addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Directing group conflict: Nitration of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Directing group conflict: Nitration of p-methyl anisole (p-methyl methoxybenzene) is attempted. What mixed directive effect is expected, and which positions are predominantly nitrated?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Both methoxy and methyl are ring-activating ortho/para directors, so nitration occurs at positions ortho to either substituent and para to the other if available; methoxy is more strongly activating, so positions ortho to OMe often dominate under standard EAS nitration conditions.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Meta only, because methyl overrides methoxy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ortho/para activation, with nitration mainly at positions ortho to methoxy and methyl]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Deactivation and meta to methoxy due to competition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzyne pathway dominates to give random substitution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Selective alcohol oxidation: A molecule]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Selective alcohol oxidation: A molecule contains a primary alcohol and a secondary alcohol. The goal is to oxidize only the primary alcohol to an aldehyde. Which single-reagent choice is best?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[PCC in a non-aqueous solvent oxidizes primary alcohols to aldehydes without overoxidation and also cleanly oxidizes secondary alcohols to ketones; however, to oxidize only the primary site, the secondary alcohol can be protected (if needed) or conditions tuned. Among single reagents, PCC is the most suitable for aldehyde-level oxidation without water-promoted overoxidation, unlike Jones or KMnO4 which readily give carboxylic acids; ozonolysis targets alkenes, not alcohols.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Jones reagent (H2CrO4, aq)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[PCC in dichloromethane]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[KMnO4, hot, aqueous]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[O3, Me2S]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[1,2 vs 1,4 selectivity: Reaction]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[1,2 vs 1,4 selectivity: Reaction of a cuprate R2CuLi with cyclohexenone under standard conditions typically gives which major outcome, compared with RMgX?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Organocuprates are classic for conjugate (1,4) addition to α,β-unsaturated carbonyls; Grignard reagents, being harder and more basic, favor direct 1,2-addition to the carbonyl under typical conditions. Reagent choice controls regiochemical outcome in enone additions.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cuprate gives 1,2-addition; Grignard gives 1,4-addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give predominant 1,2-addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Cuprate gives 1,4-conjugate addition; Grignard gives predominant 1,2-addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both give predominant 1,4-addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Carbonyl umpolung planning: Convert benzaldehyde]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Carbonyl umpolung planning: Convert benzaldehyde to 2-phenylethanol via a two-step sequence employing a cyanide-based synthon. Which sequence is most consistent?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Cyanide serves as a formyl anion equivalent; cyanohydrin formation introduces a −CH2−N functionality after reduction. Reducing the cyano group and the alkoxide gives the primary alcohol side-chain homologue, 2-phenylethanol, consistent with formyl/anionic umpolung strategy described for CN-based equivalents.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Benzaldehyde + HCN → cyanohydrin; LiAlH4 reduction → 2-phenylethanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzaldehyde + HCN → cyanohydrin; DIBAL-H partial reduction → aldehyde shift]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzaldehyde + RMgX → secondary alcohol; PCC oxidation → 2-phenylethanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzaldehyde + NH2OH → oxime; Wolff–Kishner → 2-phenylethanol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Choosing substitution vs elimination: 2-bromo-2-methylbutane]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Choosing substitution vs elimination: 2-bromo-2-methylbutane is treated with methoxide in methanol at reflux. Which major pathway and product distribution is expected?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A tertiary bromide with a strong base/nucleophile and heat promotes elimination; Zaitsev product (more substituted alkene) predominates with some less substituted alkene. SN2 is disfavored at tertiary centers; SNAr is irrelevant for aliphatic substrates.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[SN2 to give 2-methoxy-2-methylbutane predominantly]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[SN1 to give racemic substitution product only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[E1/E2 to give mainly 2-methyl-2-butene (Zaitsev) with minor 2-methyl-1-butene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[SNAr at benzylic position to give rearranged ether]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Controlled ester formation: To prepare]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Controlled ester formation: To prepare ethyl benzoate from benzoic acid and ethanol efficiently, which statement best ensures higher yield in Fischer esterification?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fischer esterification is an equilibrium process; Le Châtelier’s principle applies. Removing water during the reaction or using ethanol as both reagent and solvent drives the equilibrium toward ester formation. Base would quench the acid catalyst needed; aqueous media disfavor ester formation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use aqueous acid to drive equilibrium toward ester]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Remove water continuously or use excess ethanol as solvent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Add strong base to neutralize acid catalyst]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use dilute ethanol to prevent acetal formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Protection logic in multi-step synthesis]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Protection logic in multi-step synthesis: A substrate contains a ketone and a primary alcohol. A Grignard addition to the ketone is planned without reacting at the alcohol. Which approach is most appropriate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Grignard reagents are quenched by protic OH groups; protecting the alcohol as a silyl ether (TBS/TBDPS) preserves it during RMgX formation and ketone addition. Protecting group strategies and functional group compatibility with organometallics are emphasized for selective synthesis planning.
+Notes on difficulty and scope
+- These problems require correlating mechanism with selectivity, reagent choice, and equilibrium/kinetic control, consistent with the “Understand and Apply” level for intermediate questions. They integrate multiple sections: alkenes/alkynes, aromatics, alcohol/phenol oxidation and protection, carbonyl additions/umpolung, acyl derivatives, substitution–elimination competition, organometallic selectivity, and synthesis planning.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Convert the alcohol to a silyl ether (e.g., TBS) before forming RMgX and performing the addition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oxidize the alcohol to aldehyde, then proceed; no protection needed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Convert the ketone to an acetal; leave alcohol free; then attempt Grignard on the acetal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use aqueous conditions to suppress Grignard reactivity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A multifunctional substrate contains an</text>
+    </name>
+    <questiontext format="html">
+      <text>A multifunctional substrate contains an aldehyde, a ketone, and a free alcohol. The target is to reduce only the aldehyde to a primary alcohol, keep the ketone unchanged, and finally convert the original free alcohol into a tosylate, without ever exposing the aldehyde to strong base. Which strategy is most consistent with orthogonality and chemoselectivity?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A silyl ether protection masks the alcohol without requiring strongly basic conditions, and it is orthogonal to many reduction conditions; after chemoselective aldehyde reduction (using mild/controlled hydride conditions), deprotection can regenerate the alcohol for tosylation. Protecting the aldehyde as an acetal typically requires acid and adds unnecessary steps, while LiAlH4 risks reducing the ketone and may react with sulfonates. Protecting the ketone as a ketal still leaves the aldehyde exposed and does not prevent competing reduction or side reactions as effectively as a designed chemoselective sequence. Tosylating first can introduce competing reactivity and does not address chemoselectivity during reduction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Protect the aldehyde as an acetal, tosylate the alcohol, then reduce with LiAlH4, then deprotect</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protect the ketone as a ketal, reduce with NaBH4, then tosylate the alcohol, then deprotect</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Protect the free alcohol as a silyl ether, reduce aldehyde selectively at low temperature, then deprotect and tosylate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Tosylate the free alcohol first, then reduce aldehyde with LiAlH4, then selectively hydrolyze any over-reduction products</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a diastereoselective addition to</text>
+    </name>
+    <questiontext format="html">
+      <text>In a diastereoselective addition to an α-alkoxy aldehyde, two sets of conditions are compared: (i) a non-coordinating nucleophile/conditions and (ii) a Lewis-acid-promoted condition that enables chelation. The major product switches between the two conditions. What is the best mechanistic rationale?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>α-Alkoxy (or α-hydroxy) carbonyls can coordinate to Lewis acids/metal cations, forming chelated transition states that enforce a different substrate conformation and hence different facial approach than the non-chelated Felkin–Anh-type arrangement. Racemization is not the primary expectation for simple α-alkoxy aldehydes under typical chelation conditions. Thermodynamic interconversion of diastereomeric alcohol products is generally not fast without specific epimerization pathways. SN1-like ionization at the α-carbon is not the key process in nucleophilic addition to carbonyls.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The aldehyde racemizes under Lewis acid, reversing configuration and hence product identity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction changes from kinetic control to thermodynamic control, interconverting diastereomers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The dominant transition state changes from Felkin–Anh (non-chelation) to chelation-controlled, changing facial selectivity</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The nucleophile changes from hard to soft, forcing SN1-like ionization at the α-carbon</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A synthetic plan aims to</text>
+    </name>
+    <questiontext format="html">
+      <text>A synthetic plan aims to obtain an enantioenriched product from a racemate with theoretical yield greater than 50% of a single enantiomer. Which approach most directly enables that goal, assuming an appropriate racemization pathway exists?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Simple kinetic resolution is intrinsically capped at 50% maximum yield of the desired enantiomer because the other enantiomer remains unreacted. Dynamic kinetic resolution (DKR) couples selective conversion of one enantiomer with racemization of the remaining enantiomer, allowing continued conversion and thus yields beyond 50% while maintaining high enantioenrichment. Classical resolution separates enantiomers but does not inherently exceed 50% without recycling/racemization steps; desymmetrization applies to prochiral/meso substrates, not a racemate.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Classical resolution via diastereomeric salt formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Simple kinetic resolution using a lipase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Dynamic kinetic resolution combining kinetic resolution with in situ racemization</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Desymmetrization of a meso precursor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In double stereodifferentiation, a chiral</text>
+    </name>
+    <questiontext format="html">
+      <text>In double stereodifferentiation, a chiral substrate is reacted with a chiral reagent/catalyst. Experimentally, one pairing gives high diastereoselectivity, while the opposite enantiomer of the reagent gives much lower selectivity. Which interpretation is most appropriate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In matched cases, stereochemical preferences of substrate control and reagent/catalyst control align, giving enhanced diastereoselectivity or enantioselectivity. In mismatched cases, the controls oppose, reducing selectivity and sometimes changing the dominant pathway. Enantiomeric reagents do not guarantee identical selectivity ratios with a chiral substrate, because the overall system is not related by simple mirror symmetry. Temperature can affect selectivity but does not remove the fundamental matched/mismatched relationship.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The first case is matched, where substrate and reagent controls reinforce; the second is mismatched, where controls oppose</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The first case is mismatched, because higher selectivity implies greater competition between controls</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both cases must have identical selectivity because enantiomeric reagents always give mirror-image products in equal ratios</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The outcome depends only on temperature, not on reagent chirality, for double stereodifferentiation systems</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A synthesis requires formation of</text>
+    </name>
+    <questiontext format="html">
+      <text>A synthesis requires formation of a chiral product from an achiral starting material, and the route must minimize stoichiometric chiral waste while still providing high enantioselectivity. Which method best aligns with that constraint?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Organocatalysis uses a small chiral organic molecule catalytically to induce asymmetry, minimizing stoichiometric consumption of chiral material while targeting high enantioselectivity. Chiral auxiliaries are typically used in stoichiometric amounts (even if recoverable), generating additional steps and mass of auxiliary-bearing intermediates. Classical resolution and diastereomeric salt formation involve separation and often discard or require recycling of the undesired enantiomer, and they do not inherently provide catalytic asymmetric induction from achiral starting materials.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/851d31c2-99cf-4f1d-964a-940ec8b03542/inorganic_unit_05.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Chiral auxiliary approach, because it guarantees catalytic turnover of the chiral source</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Organocatalysis, because the chiral source is catalytic rather than stoichiometric</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Classical resolution, because it converts all material into a single enantiomer directly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Diastereomeric salt formation using a resolving agent, because it is always atom-economical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best defines chemoselectivity</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best defines chemoselectivity in organic synthesis?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chemoselectivity refers to a reagent reacting with one functional group selectively when multiple functional groups are present in a molecule. This contrasts with enantioselectivity (one enantiomer favored) and regioselectivity (site preference within similar sites). Selecting reagents/conditions that differentiate functional groups exemplifies chemoselectivity. Options describing enantioselectivity or regioselectivity do not define this principle.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Preference for formation of one enantiomer over the other</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Preference for reaction at one functional group in the presence of others</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Preference for addition to one face of a planar electrophile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Preference for substitution at the least hindered site within the same group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In electrophilic aromatic substitution, an</text>
+    </name>
+    <questiontext format="html">
+      <text>In electrophilic aromatic substitution, an electron-donating substituent such as –OCH3 typically directs incoming electrophiles to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Electron-donating groups activate the ring and stabilize sigma complexes at ortho and para positions via resonance, increasing substitution there. Exclusive para or ortho selection is not guaranteed at the basic level; both are favored depending on sterics and conditions. Meta-directing behavior is characteristic of strong electron-withdrawing groups, not –OCH3.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Meta position due to deactivation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Ortho/para positions due to activation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only para position due to steric hindrance</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only ortho position due to resonance donation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which choice describes enantioselectivity most</text>
+    </name>
+    <questiontext format="html">
+      <text>Which choice describes enantioselectivity most accurately?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enantioselectivity refers to the preferential formation of one enantiomer when a prochiral substrate reacts in a chiral environment (catalyst, auxiliary, enzyme). Diastereoselectivity pertains to preference among diastereomers when stereocenters influence outcomes. Kinetic vs thermodynamic control and aldehyde vs ketone reactivity are unrelated to enantioselectivity definitions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Formation of one diastereomer preferentially in presence of an existing stereocenter</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Formation of one enantiomer preferentially from a prochiral substrate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Formation of the kinetic product over the thermodynamic product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Preferential reaction of aldehyde over ketone within the same molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A primary purpose of installing</text>
+    </name>
+    <questiontext format="html">
+      <text>A primary purpose of installing a protecting group during a multistep synthesis is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Protecting groups are temporary masks that prevent undesired reactions on sensitive functional groups, enabling selective transformations elsewhere. They must be removable under orthogonal conditions. They do not permanently deactivate or necessarily improve leaving group ability as a goal, and increased molecular weight is incidental, not the purpose.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increase molecular weight for easier purification</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Permanently deactivate all reactive sites</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Temporarily mask a functional group incompatible with planned steps</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Enhance the leaving group ability of the protected site permanently</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which alcohol protecting group is</text>
+    </name>
+    <questiontext format="html">
+      <text>Which alcohol protecting group is commonly chosen for acid-sensitive sequences due to base- or fluoride-labile deprotection?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Trialkylsilyl ethers like TBS are stable to many acids and can be removed with fluoride (e.g., TBAF) or base, fitting orthogonal strategies where acid is used elsewhere. Benzyl ethers are typically removed by hydrogenolysis; trityl groups are acid-labile; acetals are acid-labile carbonyl protections, not primarily alcohol protections for acid-sensitive sequences.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Benzyl ether</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Silyl ether (e.g., TBS)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Trityl ether (Tr)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Acetal from a diol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best describes resolution</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best describes resolution of enantiomers by diastereomeric salt formation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chemical resolution often forms diastereomeric salts by reacting a racemic acid or base with a single enantiomer of a resolving agent; the salts have different solubilities/melting points, enabling separation and subsequent recovery. It does not inherently convert both to a single enantiomer without separation, and it creates diastereomers, not enantiomeric salts of identical properties.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Converts a racemate directly into a single enantiomer without separation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Produces diastereomeric salts with different physical properties for separation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Requires a chiral catalyst to convert both enantiomers to the same product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Relies on forming enantiomeric salts with identical solubilities</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Desymmetrization is most directly defined</text>
+    </name>
+    <questiontext format="html">
+      <text>Desymmetrization is most directly defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Desymmetrization transforms a prochiral or meso compound such that symmetry is broken, creating a chiral center or axis, often using selective reagents or enzymes. Resolution is the separation of racemates via diastereomeric derivatives; converting to meso is the opposite of introducing chirality.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Separation of racemates into single enantiomers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Converting a racemic mixture into a meso compound</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Selectively transforming a prochiral or meso substrate to generate chirality</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Converting enantiomers to diastereomers for separation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Evans oxazolidinone is primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>The Evans oxazolidinone is primarily used in synthesis as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Evans oxazolidinone functions as a temporary chiral auxiliary attached to carboxylic acid derivatives to direct diastereoselective transformations (e.g., aldol), and is later removed and recovered. It is not a catalyst, not permanent, and is not a hydrogen-bond donor organocatalyst.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A permanent chiral auxiliary embedded in the final product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A temporary chiral auxiliary to control diastereoselectivity in reactions like aldol</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A chiral phase-transfer catalyst for SN2 substitutions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A hydrogen-bond donor organocatalyst for Diels–Alder reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Proline in asymmetric organocatalysis typically</text>
+    </name>
+    <questiontext format="html">
+      <text>Proline in asymmetric organocatalysis typically operates via which activation mode?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Proline and related secondary amines form enamines (nucleophile activation) or iminium ions (electrophile activation), enabling enantioselective aldol and Michael additions through chiral enamine/iminium pathways. Organocatalysis here does not involve metal backbonding, radical pathways, or strong acid activation of alkenes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Iminium/enamine activation enabling enantioselective aldol and Michael reactions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Metal–ligand backbonding to lower LUMO of carbonyls</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Generation of free radicals via single-electron transfer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Strong Brønsted acid activation of alkenes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best captures the</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best captures the concept of double stereodifferentiation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Double stereodifferentiation arises when both substrate and reagent/catalyst possess stereochemical information; matched cases reinforce selectivity, while mismatched cases reduce or invert it. Exclusive dependence on substrate or reagent alone does not describe the phenomenon, and independence from both is incorrect.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/1f657058-509e-4057-ad33-3e519f1d9672/inorganic_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only substrate control dictates stereochemical outcome</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only reagent/catalyst control dictates stereochemical outcome</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Substrate and reagent/catalyst chirality act together, leading to matched or mismatched cases</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stereochemical outcomes are independent of both substrate and reagent chirality</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A molecule bears an aldehyde</text>
+    </name>
+    <questiontext format="html">
+      <text>A molecule bears an aldehyde and an ester. Which single reagent-condition set most directly gives the primary alcohol from the aldehyde with minimal ester reduction at low temperature?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>At −78 °C, DIBAL-H reduces aldehydes rapidly, while esters are reduced more slowly and often stop at the aldehyde after controlled quench; this enables chemoselective reduction of the aldehyde in the presence of an ester. LiAlH4 and LiBH4 are too reactive and reduce esters; NaBH4 is mild but may still reduce aldehydes while leaving esters mostly untouched, not delivering the desired selectivity profile as reliably as low-temperature DIBAL control.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>LiAlH4, THF, 0–25 °C</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>NaBH4, MeOH, 0–25 °C</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>DIBAL-H, toluene, −78 °C, then MeOH quench</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>LiBH4, THF, reflux</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a substrate containing both</text>
+    </name>
+    <questiontext format="html">
+      <text>In a substrate containing both an aldehyde and a ketone, which condition favors chemoselective nucleophilic addition at the aldehyde?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Aldehydes are more electrophilic and less sterically hindered than ketones, so a strong, fast nucleophile at low temperature (e.g., RLi) will preferentially add to the aldehyde under kinetic control. Softer cuprates may favor conjugate additions and be less reactive to simple carbonyls; hindered Grignards at reflux can cause side reactions; “bulky, less basic hydride” is vague and may not ensure selectivity in C–C bond formation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use of a hindered Grignard reagent at reflux</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use of a softer cuprate at −78 °C</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use of a bulky, less basic hydride at −78 °C</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Use of a strong organolithium at −78 °C</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For EAS on a ring</text>
+    </name>
+    <questiontext format="html">
+      <text>For EAS on a ring bearing both –OCH3 and –NO2, the predominant regioisomer with Br2/FeBr3 is expected at:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>–OCH3 is a strong ortho/para director and activates the ring, while –NO2 is a strong meta director but deactivating; the activated sites ortho/para to –OCH3 are favored for electrophilic substitution, typically overriding the deactivated positions influenced by –NO2. Thus bromination occurs mainly ortho/para to –OCH3.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Meta to –OCH3 due to deactivation by –NO2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Ortho/para to –OCH3 because it is strongly activating and outcompetes –NO2</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Meta to –NO2 because –NO2 is a meta director and dominates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ortho to –NO2 due to its strong –I effect</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Addition of a nucleophile to</text>
+    </name>
+    <questiontext format="html">
+      <text>Addition of a nucleophile to an α-chiral aldehyde lacking coordinating heteroatoms usually follows:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Absent coordinating substituents, classical Cram steric approach control often predicts major diastereomer via attack from the less hindered face at the carbonyl. Chelation control becomes important with α-alkoxy/amine substituents under Lewis acidic conditions; Felkin–Anh refines Cram by including electronic effects with electronegative α-substituents.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Chelation-controlled model with synclinal approach</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Cram’s steric approach model favoring attack from the least hindered face</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Prelog’s rule mandating opposite facial selectivity to Cram</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Felkin–Anh model dominated exclusively by electronic effects with no steric input</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A meso-1,2-diol undergoes selective monoacylation</text>
+    </name>
+    <questiontext format="html">
+      <text>A meso-1,2-diol undergoes selective monoacylation by a lipase to give a single optically active monoester. This process exemplifies:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Selective transformation of one enantiotopic OH in a meso diol breaks symmetry to give a chiral product, i.e., desymmetrization. Classical salt resolution addresses racemates; simple kinetic resolution caps at 50% conversion to isolate one enantiomer; DKR needs in situ racemization of the unreacted enantiomer, which is not a meso case.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Classical resolution via diastereomeric salt formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Kinetic resolution limited to 50% theoretical maximum</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Desymmetrization generating chirality from a meso substrate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Dynamic kinetic resolution requiring racemization catalyst</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Choosing between Boc and Cbz</text>
+    </name>
+    <questiontext format="html">
+      <text>Choosing between Boc and Cbz for protecting a primary amine in a sequence that uses strong acid but prohibits hydrogenation, the better choice is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Boc is acid-labile and typically removed by TFA; it avoids hydrogenation. Cbz is removed by hydrogenolysis, which is prohibited by the sequence; it is not generally base-labile nor acid-labile like tert-butyl esters.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Boc, because it is removed by TFA and avoids hydrogenolysis</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cbz, because it is removed under basic conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Boc, because it requires hydrogenolysis for removal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cbz, because it is acid-labile like tert-butyl esters</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A racemic secondary alcohol is</text>
+    </name>
+    <questiontext format="html">
+      <text>A racemic secondary alcohol is subjected to lipase-catalyzed acetate formation, giving 40% conversion and 96% ee in the acetate. The selectivity factor s is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For kinetic resolution, s = ln[(1−c)(1−ee_s)]/ln[(1−c)(1+ee_s)] or using product ee and conversion relations; at c = 0.40 and product ee_p = 0.96, the calculated s is approximately in the 10–12 range; 12 is the closest of the options. Lower values underestimate the high enantiodiscrimination implied by 96% ee at only 40% conversion.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>6</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>12</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>24</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an Evans auxiliary-controlled aldol</text>
+    </name>
+    <questiontext format="html">
+      <text>In an Evans auxiliary-controlled aldol using a Z-boron enolate, the dominant diastereomer arises from a Zimmerman–Traxler chair in which:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Under boron-mediated aldol conditions with Z-boron enolates, the chair-like Zimmerman–Traxler transition state typically delivers syn aldol products; the Evans auxiliary enforces facial selectivity, enhancing diastereocontrol. E enolates generally favor anti products in this model.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Both large groups occupy axial positions, giving anti product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The chiral auxiliary biases approach to give syn aldol from Z enolate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The enolate geometry is irrelevant to syn/anti outcome</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>E enolates give syn aldol preferentially under boron mediation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a proline-catalyzed asymmetric aldol</text>
+    </name>
+    <questiontext format="html">
+      <text>In a proline-catalyzed asymmetric aldol between acetone and p-nitrobenzaldehyde, the origin of enantioselectivity is best attributed to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Proline forms a chiral enamine with the ketone donor; this enamine adds to the aldehyde (often H-bond activated), and the chiral environment dictates enantiofacial approach, giving enantioenriched aldol products. Iminium activation can be involved with α,β-unsaturated acceptors, but the core mode here is enamine catalysis.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Iminium activation of the aldehyde by protonation alone</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Enamine formation from acetone and chiral enamine addition to the aldehyde</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Metal–ligand backbonding lowering the aldehyde LUMO</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Single-electron transfer to generate radical ions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For competing 1,2- vs. 1,4-addition</text>
+    </name>
+    <questiontext format="html">
+      <text>For competing 1,2- vs. 1,4-addition of MeLi and Me2CuLi to cyclohexenone at −78 °C, the expected major products are:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hard, highly basic nucleophiles like MeLi favor direct 1,2-addition to the carbonyl, whereas softer cuprates like Me2CuLi favor conjugate (1,4) addition to enones at low temperature, illustrating reagent-controlled regioselectivity.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0d13af76-414f-4c3b-8d8c-2f6b625d3637/organic_unit_05.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>MeLi: 1,4-addition; Me2CuLi: 1,2-addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>MeLi: 1,2-addition; Me2CuLi: 1,4-addition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give predominantly 1,2-addition under kinetic control</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give predominantly 1,4-addition due to conjugation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

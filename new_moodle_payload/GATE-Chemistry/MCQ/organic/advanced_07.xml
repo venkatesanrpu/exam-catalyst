@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A multifunctional substrate contains an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A multifunctional substrate contains an aldehyde, a ketone, and a free alcohol. The target is to reduce only the aldehyde to a primary alcohol, keep the ketone unchanged, and finally convert the original free alcohol into a tosylate, without ever exposing the aldehyde to strong base. Which strategy is most consistent with orthogonality and chemoselectivity?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A silyl ether protection masks the alcohol without requiring strongly basic conditions, and it is orthogonal to many reduction conditions; after chemoselective aldehyde reduction (using mild/controlled hydride conditions), deprotection can regenerate the alcohol for tosylation. Protecting the aldehyde as an acetal typically requires acid and adds unnecessary steps, while LiAlH4 risks reducing the ketone and may react with sulfonates. Protecting the ketone as a ketal still leaves the aldehyde exposed and does not prevent competing reduction or side reactions as effectively as a designed chemoselective sequence. Tosylating first can introduce competing reactivity and does not address chemoselectivity during reduction.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Protect the aldehyde as an acetal, tosylate the alcohol, then reduce with LiAlH4, then deprotect]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Protect the ketone as a ketal, reduce with NaBH4, then tosylate the alcohol, then deprotect]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Protect the free alcohol as a silyl ether, reduce aldehyde selectively at low temperature, then deprotect and tosylate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Tosylate the free alcohol first, then reduce aldehyde with LiAlH4, then selectively hydrolyze any over-reduction products]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a diastereoselective addition to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a diastereoselective addition to an α-alkoxy aldehyde, two sets of conditions are compared: (i) a non-coordinating nucleophile/conditions and (ii) a Lewis-acid-promoted condition that enables chelation. The major product switches between the two conditions. What is the best mechanistic rationale?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[α-Alkoxy (or α-hydroxy) carbonyls can coordinate to Lewis acids/metal cations, forming chelated transition states that enforce a different substrate conformation and hence different facial approach than the non-chelated Felkin–Anh-type arrangement. Racemization is not the primary expectation for simple α-alkoxy aldehydes under typical chelation conditions. Thermodynamic interconversion of diastereomeric alcohol products is generally not fast without specific epimerization pathways. SN1-like ionization at the α-carbon is not the key process in nucleophilic addition to carbonyls.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The aldehyde racemizes under Lewis acid, reversing configuration and hence product identity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction changes from kinetic control to thermodynamic control, interconverting diastereomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The dominant transition state changes from Felkin–Anh (non-chelation) to chelation-controlled, changing facial selectivity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The nucleophile changes from hard to soft, forcing SN1-like ionization at the α-carbon]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A synthetic plan aims to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A synthetic plan aims to obtain an enantioenriched product from a racemate with theoretical yield greater than 50% of a single enantiomer. Which approach most directly enables that goal, assuming an appropriate racemization pathway exists?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Simple kinetic resolution is intrinsically capped at 50% maximum yield of the desired enantiomer because the other enantiomer remains unreacted. Dynamic kinetic resolution (DKR) couples selective conversion of one enantiomer with racemization of the remaining enantiomer, allowing continued conversion and thus yields beyond 50% while maintaining high enantioenrichment. Classical resolution separates enantiomers but does not inherently exceed 50% without recycling/racemization steps; desymmetrization applies to prochiral/meso substrates, not a racemate.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Classical resolution via diastereomeric salt formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Simple kinetic resolution using a lipase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Dynamic kinetic resolution combining kinetic resolution with in situ racemization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Desymmetrization of a meso precursor]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In double stereodifferentiation, a chiral]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In double stereodifferentiation, a chiral substrate is reacted with a chiral reagent/catalyst. Experimentally, one pairing gives high diastereoselectivity, while the opposite enantiomer of the reagent gives much lower selectivity. Which interpretation is most appropriate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In matched cases, stereochemical preferences of substrate control and reagent/catalyst control align, giving enhanced diastereoselectivity or enantioselectivity. In mismatched cases, the controls oppose, reducing selectivity and sometimes changing the dominant pathway. Enantiomeric reagents do not guarantee identical selectivity ratios with a chiral substrate, because the overall system is not related by simple mirror symmetry. Temperature can affect selectivity but does not remove the fundamental matched/mismatched relationship.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The first case is matched, where substrate and reagent controls reinforce; the second is mismatched, where controls oppose]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The first case is mismatched, because higher selectivity implies greater competition between controls]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both cases must have identical selectivity because enantiomeric reagents always give mirror-image products in equal ratios]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The outcome depends only on temperature, not on reagent chirality, for double stereodifferentiation systems]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A synthesis requires formation of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A synthesis requires formation of a chiral product from an achiral starting material, and the route must minimize stoichiometric chiral waste while still providing high enantioselectivity. Which method best aligns with that constraint?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Organocatalysis uses a small chiral organic molecule catalytically to induce asymmetry, minimizing stoichiometric consumption of chiral material while targeting high enantioselectivity. Chiral auxiliaries are typically used in stoichiometric amounts (even if recoverable), generating additional steps and mass of auxiliary-bearing intermediates. Classical resolution and diastereomeric salt formation involve separation and often discard or require recycling of the undesired enantiomer, and they do not inherently provide catalytic asymmetric induction from achiral starting materials.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eecdaa56-93b9-4e87-bc04-9974af604151/inorganic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/851d31c2-99cf-4f1d-964a-940ec8b03542/inorganic_unit_05.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cc5a144e-082d-4ed0-9e8b-29621c7ee75d/organic_unit_01.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Chiral auxiliary approach, because it guarantees catalytic turnover of the chiral source]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Organocatalysis, because the chiral source is catalytic rather than stoichiometric]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Classical resolution, because it converts all material into a single enantiomer directly]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Diastereomeric salt formation using a resolving agent, because it is always atom-economical]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

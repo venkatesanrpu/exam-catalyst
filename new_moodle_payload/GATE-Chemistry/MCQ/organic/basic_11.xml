@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In carbohydrate chemistry, the term]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In carbohydrate chemistry, the term **mutarotation** refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Mutarotation is the change in optical rotation observed when a cyclic sugar equilibrates between its \(\alpha\) and \(\beta\) anomeric forms through an open-chain intermediate, followed by ring closure.  Interconversion without ring opening does not allow the anomeric configuration to change, so an open-chain step is essential.  Aldose–ketose isomerization (option B) is a different process (enediol rearrangement), glycosidic bond formation (option C) locks the anomeric carbon and typically prevents mutarotation at that center, and oxidation (option D) changes functional groups rather than anomer ratios.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Interconversion between anomers via ring opening and reclosing, causing a change in optical rotation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conversion of an aldose to a ketose by base-catalyzed rearrangement without ring opening]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of a glycosidic bond between two monosaccharides]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oxidation of an aldose to an aldonic acid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A monosaccharide is classified as]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A monosaccharide is classified as an **aldose** when it contains:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Aldoses are monosaccharides whose open-chain form contains an aldehyde group (typically at C-1).  Ketoses instead contain a ketone group (commonly at C-2), while amide and carboxylic acid functionalities are not the defining criteria for aldose/ketose classification.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[An aldehyde functional group (in its open-chain form)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A ketone functional group (in its open-chain form)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An amide functional group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A carboxylic acid functional group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In carbohydrate stereochemistry, two monosaccharides]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In carbohydrate stereochemistry, two monosaccharides that differ in configuration at exactly one stereogenic center (not the anomeric carbon) are called:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Epimers differ at only one chiral center (excluding the anomeric center if discussing ring forms in that context).  Enantiomers differ at all stereocenters (mirror images), anomers differ only at the anomeric carbon, and conformers differ by rotation about single bonds rather than configuration changes.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Epimers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Enantiomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Anomers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conformers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A disaccharide is **non-reducing** when]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A disaccharide is **non-reducing** when:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Reducing behavior requires a free anomeric carbon that can open to the carbonyl form; if both anomeric centers are tied up in the glycosidic bond, the disaccharide cannot form the open-chain aldehyde/ketone needed for reducing tests.  The presence of fructose, the linkage position alone, or D/L series does not by itself determine reducing vs non-reducing character.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Both anomeric carbons are involved in the glycosidic linkage, leaving no free hemiacetal/hemiketal]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It contains at least one fructose unit]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It contains only \(1\rightarrow 6\) glycosidic linkages]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Its monosaccharide units are both in the D-series]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **zwitterionic** nature of amino]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **zwitterionic** nature of amino acids at near-neutral pH is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Amino acids commonly exist as internal salts (zwitterions) with a protonated amino group and a deprotonated carboxyl group, which explains their high melting points and aqueous behavior.  The fully neutral form is usually a minor contributor in water, while “fully protonated” or “fully deprotonated” apply only at extreme pH conditions, not near neutral pH.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The molecule contains both \(\mathrm{-NH_3^+}\) and \(\mathrm{-COO^-}\) groups simultaneously]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule exists only as an uncharged neutral form \(\mathrm{-NH_2}\) and \(\mathrm{-COOH}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The amino acid is fully protonated at all functional groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The amino acid is fully deprotonated at all functional groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **isoelectric point (pI)** of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **isoelectric point (pI)** of an amino acid is the pH at which:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The isoelectric point is defined as the pH where the average (net) charge is zero, so the zwitterionic form predominates.  Solubility is often minimal (not maximal) near pI due to reduced electrostatic repulsion, and fully protonated/deprotonated forms occur at sufficiently low/high pH, respectively.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The net charge of the amino acid is zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The amino acid has maximum solubility in water]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The amino acid exists only in the fully protonated form]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The amino acid exists only in the fully deprotonated form]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **peptide bond** formed between]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **peptide bond** formed between two amino acids is best described as a:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A peptide bond is an amide bond created by condensation between the carboxyl group of one amino acid and the amino group of another, producing a covalent linkage in peptides and proteins.  Disulfide bonds and salt bridges are side-chain interactions, while hydrogen bonds stabilize secondary structure but are not the covalent linkage connecting residues.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Covalent amide linkage formed between the \(\alpha\)-carboxyl group of one amino acid and the \(\alpha\)-amino group of another]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Disulfide bond formed between two cysteine side chains]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hydrogen bond formed between backbone \(\mathrm{N-H}\) and \(\mathrm{C=O}\) groups]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Ionic salt bridge formed between acidic and basic side chains]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **secondary structure** element primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **secondary structure** element primarily stabilized by intrachain hydrogen bonding in a regular helical pattern is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The \(\alpha\)-helix is a classic secondary structure stabilized by regular hydrogen bonds between backbone \(\mathrm{C=O}\) and \(\mathrm{N-H}\) groups along the same chain.  Primary structure is just the amino acid sequence, quaternary structure refers to multi-subunit assembly, and random coil lacks a consistent repeating hydrogen-bonding geometry.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\alpha\)-Helix]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Quaternary structure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Primary structure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Random coil only (no defined H-bonding pattern possible)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In nucleic acids, the bond]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In nucleic acids, the bond linking nucleotides into a strand is the:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Nucleotides polymerize through phosphodiester linkages that connect the sugar–phosphate backbone of DNA/RNA.  The glycosidic bond attaches the nitrogenous base to the sugar within a nucleotide, while peptide and disulfide bonds are characteristic of proteins.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Phosphodiester bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Glycosidic bond between base and sugar only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Peptide bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Disulfide bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A **triglyceride** is structurally best]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A **triglyceride** is structurally best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Triglycerides (triacylglycerols) are formed when all three hydroxyl groups of glycerol are esterified with fatty acids.  Phosphodiester-containing glycerol lipids correspond to phospholipids (option C), while options B and D describe different biomolecule classes altogether.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A triester of glycerol with three fatty acids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An amide of glycerol with three amino acids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A phosphodiester of glycerol with two fatty acids and a phosphate-linked headgroup]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A polymer of isoprene units]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

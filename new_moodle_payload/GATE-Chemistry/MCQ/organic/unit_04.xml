@@ -1,0 +1,1062 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Target: 4-phenyl-2-butanone from benzene and</text>
+    </name>
+    <questiontext format="html">
+      <text>Target: 4-phenyl-2-butanone from benzene and an appropriate C2 unit, with constraints:
+- Avoid using acid chlorides due to corrosive waste.
+- Use at least one organometallic reagent and one carbonyl–based disconnection.
+Which retrosynthetic plan best satisfies these?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Advanced planning favors a robust carbonyl disconnection and avoids acid chlorides while incorporating organometallic chemistry. Disconnection to acetophenone plus a two-carbon organometallic equivalent of \(\ce{CH2=CH-}\) (e.g., vinylmagnesium halide) allows 1,2-addition to acetophenone, giving a tertiary allylic alcohol, followed by selective oxidative or rearrangement steps then hydrogenation to reach the methyl ketone side chain (4-phenyl-2-butanone). This uses a carbonyl disconnection, organometallic addition, and subsequent functional group interconversion consistent with multistep synthesis strategy. Other options either reintroduce acid chlorides (D), give wrong carbon skeletons or oxidation levels (A, B).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Disconnection at C(=O)–CH2Ph to benzaldehyde + MeMgBr; benzaldehyde from benzene via chloromethylation and oxidation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Disconnection at Ar–CH2–CH2–CO to benzyl bromide + acetoacetate; C-alkylation of ethyl acetoacetate followed by decarboxylation, then oxidation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Disconnection at Ar–CO–CH2–CH3 to acetophenone + vinyl Grignard; hydrogenation of resulting allylic alcohol</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Disconnection at Ar–CH2–CH2–CO to benzene + propionyl chloride; Friedel–Crafts acylation then side-chain oxidation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider the synthesis of a</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider the synthesis of a β-phenyl-β-hydroxy ester via an enantioselective aldol-type reaction starting from benzaldehyde and an achiral ester. The route must:
+- Use umpolung or masked acyl anion reactivity.
+- Provide high diastereo- and enantioselectivity.
+Which combination is most consistent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chiral auxiliary–based boron enolate aldol (Evans oxazolidinone) furnishes β-hydroxy carbonyl compounds with high syn/anti and facial selectivity using a controlled Zimmerman–Traxler-type transition state. The auxiliary amide is an acyl equivalent, and its boron enolate addition to benzaldehyde gives the β-phenyl-β-hydroxy amide; subsequent cleavage yields the β-hydroxy ester. This integrates enolate chemistry, chiral auxiliary control, and acyl-equivalent (masked acyl) reactivity. NHC umpolung of benzaldehyde in B is more suited to benzoin/Stetter chemistry than simple β-hydroxy ester formation. A lacks stereocontrol, and D gives a homologated alcohol but not the enolate-type aldol architecture.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Direct base-catalyzed aldol between benzaldehyde and ethyl acetate, followed by kinetic resolution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use a thiazolium carbene (NHC) to generate a Breslow intermediate from benzaldehyde, followed by addition to an activated ester</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Form a chiral boron enolate from an Evans oxazolidinone amide of an acetic acid equivalent, then aldol with benzaldehyde, followed by auxiliary cleavage</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Generate a cyanohydrin from benzaldehyde, reduce to primary alcohol, then oxidize to the β-hydroxy ester</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A substrate contains: - An</text>
+    </name>
+    <questiontext format="html">
+      <text>A substrate contains:
+- An aldehyde, a terminal alkyne, and a phenolic OH on an aromatic ring.
+Goal: convert the alkyne to a conjugated (E)-styryl unit via cross-coupling, then reduce the aldehyde to a primary alcohol, while leaving phenol intact. Which protecting and coupling strategy best balances chemoselectivity and green-chemistry considerations?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Sonogashira coupling uses a terminal alkyne and aryl/vinyl halide to form aryl–alkyne bonds efficiently under Pd/Cu catalysis and is compatible with silyl ether–protected phenols. Protecting phenol as TBS ensures stability under basic coupling conditions and is removable under mild fluoride or acid. Aldehyde reduction with NaBH4 is compatible with silyl ethers and alkynes, aligning chemoselectivity with step economy and avoiding extensive hydrogenolysis or additional protecting groups, consistent with orthogonal protection and route optimization principles. Option A uses benzyl protection and global hydrogenolysis, which would over-reduce sensitive unsaturated motifs; B changes the coupling manifold to Suzuki from vinyl boronate but hydroboration destroys the terminal alkyne needed for cross-coupling. D misuses Heck on a carboxylic acid derivative and adds unnecessary oxidation–reduction cycles.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Protect phenol as benzyl ether; convert terminal alkyne to TMS-alkyne; perform Sonogashira coupling, then global hydrogenolysis to reveal phenol and reduce aldehyde</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protect aldehyde as an acetal; leave phenol free; perform Suzuki coupling from a vinyl boronate made by hydroboration of the alkyne; then reduce aldehyde after deprotection</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Protect phenol as a silyl ether (TBS); perform Sonogashira coupling of the free terminal alkyne with an aryl bromide; reduce aldehyde with NaBH4; then remove TBS</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Protect phenol as methyl ether; oxidize aldehyde to acid; perform Heck coupling on the resulting vinyl acid; then reduce acid to alcohol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a target containing both</text>
+    </name>
+    <questiontext format="html">
+      <text>For a target containing both a conjugated enone and an isolated secondary alcohol, two synthetic routes are considered from the same diketone precursor:
+Route 1:
+(i) Global reduction of both carbonyls to diol (NaBH4),
+(ii) Selective oxidation of one secondary alcohol to enone using Swern,
+(iii) Protection/deprotection steps as needed.
+Route 2:
+(i) Chemoselective enolate formation and aldol-type condensation/dehydration to form the enone directly,
+(ii) Subsequent selective reduction of the remaining carbonyl to secondary alcohol using NaBH4.
+Which comparative statement is most accurate regarding atom economy and step-count efficiency?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Atom economy measures how much of the reactant mass appears in the product; redox steps that generate stoichiometric byproducts (e.g., Swern’s DMS, CO, CO2, salts) lower atom economy. Route 1 performs global reduction then reoxidation, adding unnecessary redox cycles and waste, and likely more steps including selective protection. Route 2 constructs the enone directly via enolate chemistry (aldol/dehydration) and then performs a single reduction, minimizing redox toggling and waste, thereby improving both atom economy and step-count efficiency, in line with green-chemistry route design.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Route 1 is superior in atom economy because reductions and oxidations recycle reagents catalytically.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Route 1 has higher step economy but lower atom economy than Route 2.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Route 2 generally offers better atom economy and fewer redox-waste steps than Route 1.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both routes have similar atom economy since Swern byproducts are volatile and negligible.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A conjugated enone with an</text>
+    </name>
+    <questiontext format="html">
+      <text>A conjugated enone with an α-chiral center adjacent to carbonyl must undergo nucleophilic addition of a cuprate to the β-position with maximal diastereoselectivity. The α-carbon bears an electronegative substituent (e.g., OR), and chelating conditions are deliberately avoided. Which stereochemical prediction model and reagent combination is most appropriate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For nucleophilic attack at a chiral α-carbon bearing an electronegative substituent, without chelation, the Felkin–Anh model refines Cram’s steric approach by incorporating the C–X bond’s electronic effects and gauche/antiperiplanar preferences. Conjugate (1,4) addition of a soft cuprate to an enone engages this model at the β-position, with facial selectivity governed by the α-chiral center and the C–X bond dipole; avoiding chelation ensures Felkin–Anh, not chelation control, dominates. Cram alone neglects strong electronic effects; Prelog is specialized for certain amino-acid-like systems; Zimmerman–Traxler applies to closed six-membered aldol transition states, not enone conjugate additions.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0d13af76-414f-4c3b-8d8c-2f6b625d3637/organic_unit_05.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use Crams rule with a Grignard reagent under aprotic conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Use Felkin–Anh model with a soft cuprate nucleophile in conjugate addition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use Prelog’s rule with hydride reduction under chelating Lewis acid conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use Zimmerman–Traxler model via a boron enolate and aldehyde electrophile</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In electrophilic addition of HBr</text>
+    </name>
+    <questiontext format="html">
+      <text>In electrophilic addition of HBr to propene under normal conditions, the major product forms according to which guiding rule?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hydrohalogenation of alkenes follows Markovnikov’s rule: the proton adds to the carbon bearing more hydrogens, forming the more stable carbocation and ultimately the more substituted alkyl bromide (2-bromopropane). Zaitsev and Hofmann guide elimination regioselectivity, not electrophilic addition. Hammond postulate relates transition-state structure to reaction energetics, not product regiochemistry here.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Zaitsev rule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hofmann rule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Markovnikov rule</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hammond rule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Hydroboration–oxidation of 1-hexene yields which</text>
+    </name>
+    <questiontext format="html">
+      <text>Hydroboration–oxidation of 1-hexene yields which regiochemical outcome for the alcohol?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hydroboration places boron at the less substituted carbon, and subsequent oxidation replaces B with OH, giving the anti-Markovnikov alcohol (1-hexanol). The reaction proceeds with syn addition but the key beginner takeaway is anti-Markovnikov regiochemistry for the alcohol. Markovnikov placement is incorrect for this sequence.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Markovnikov alcohol at C-2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Anti-Markovnikov alcohol at C-1</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equimolar mixture at C-1 and C-2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No reaction under standard conditions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In halogenation of an alkene</text>
+    </name>
+    <questiontext format="html">
+      <text>In halogenation of an alkene (e.g., ethene + Br2), what intermediate accounts for anti addition?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Addition of Br2 to alkenes proceeds via a cyclic halonium ion (bromonium). Backside attack of Br− breaks the three-membered ring, giving trans vicinal dibromides (anti addition). Carbocations are typical of HX addition; radical routes require initiators; carbanions are not involved here.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Carbocation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Bromonium ion</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical cation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Carbanion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best describes electrophilic</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best describes electrophilic aromatic substitution (EAS) on benzene?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In EAS, the aromatic ring acts as a nucleophile, attacking an electrophile to form a σ-complex (arenium ion) before rearomatization. Benzyne and Meisenheimer intermediates are characteristic of nucleophilic aromatic substitution pathways, not EAS.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The ring is nucleophilic and attacks an electrophile.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The ring is electrophilic and is attacked by a nucleophile.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reaction proceeds via benzyne intermediate under basic conditions.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reaction is a nucleophilic substitution with Meisenheimer intermediate.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A nitro group on a</text>
+    </name>
+    <questiontext format="html">
+      <text>A nitro group on a benzene ring typically directs incoming electrophiles to which positions and with what ring effect?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Nitro is a strong electron-withdrawing group that deactivates the ring toward EAS and directs electrophiles to the meta position due to destabilization of ortho/para σ-complex resonance structures involving the electron-withdrawing substituent.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Ortho/para; activating</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Meta; deactivating</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ortho/para; deactivating</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Meta; activating</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which reagent set best oxidizes</text>
+    </name>
+    <questiontext format="html">
+      <text>Which reagent set best oxidizes a secondary alcohol to a ketone without overoxidation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>PCC (in organic solvent) oxidizes secondary alcohols to ketones efficiently and oxidizes primary alcohols to aldehydes without overoxidation to acids. Jones is aqueous and can overoxidize primary alcohols; NaBH4 and LiAlH4 are reducing agents, not oxidants.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Jones reagent in water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>PCC in dichloromethane</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>NaBH4 in methanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>LiAlH4 in ether</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the general mechanism of</text>
+    </name>
+    <questiontext format="html">
+      <text>In the general mechanism of nucleophilic addition to a simple aldehyde or ketone, what key intermediate forms first?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Nucleophilic addition to carbonyls occurs via attack at the electrophilic carbonyl carbon to form a tetrahedral alkoxide intermediate, which upon protonation yields the addition product. Carbocations and radicals are not standard intermediates for basic nucleophilic additions to neutral carbonyls.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Carbocation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Tetrahedral alkoxide intermediate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Acyl cation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The fundamental step type for</text>
+    </name>
+    <questiontext format="html">
+      <text>The fundamental step type for converting acyl chlorides to esters or amides is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Carboxylic acid derivatives undergo nucleophilic acyl substitution: nucleophile addition to give a tetrahedral intermediate followed by collapse with loss of leaving group (e.g., Cl−), forming esters or amides. The other options describe unrelated mechanisms.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Electrophilic aromatic substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Nucleophilic acyl substitution via tetrahedral intermediate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radical chain substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pericyclic cycloaddition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement about SN1 vs</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement about SN1 vs SN2 of alkyl halides is most accurate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>SN2 is a single-step, bimolecular process with backside attack and is hindered by sterics, making primary substrates most favorable. SN1 is unimolecular via carbocations, often in polar protic solvents and with tertiary substrates; it can lead to racemization rather than strict inversion.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>SN2 is favored by tertiary halides in polar protic solvents.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SN1 proceeds with backside attack and inversion of configuration.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>SN2 is bimolecular, sensitive to steric hindrance, and prefers primary substrates.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SN1 is bimolecular and accelerated by strong nucleophiles only.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which pairing correctly matches an</text>
+    </name>
+    <questiontext format="html">
+      <text>Which pairing correctly matches an organometallic reagent with a characteristic use?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Gilman reagents (cuprates) are classic for 1,4-conjugate addition to enones. Organolithium reagents are typically more reactive/basic (less selective) than Grignards toward acidic sites. Grignards often add 1,2 to carbonyls. BH3 participates in hydroboration of alkenes/alkynes, not direct nucleophilic carbonyl additions in this context.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/346f13fa-33ff-490a-9a60-0aa4e5b11115/inorganic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/445593be-22b9-4e14-bfb3-8a947e2c083d/organic_unit_11.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>RMgX; selective 1,4-conjugate addition over 1,2-addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>RLi; milder and more chemoselective than RMgX toward acidic protons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>R2CuLi; conjugate (1,4) addition to α,β-unsaturated carbonyls</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>BH3; direct nucleophilic attack on carbonyls to give alcohols</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Hydration strategy check: 1-methylcyclohexene is</text>
+    </name>
+    <questiontext format="html">
+      <text>Hydration strategy check: 1-methylcyclohexene is subjected to (i) oxymercuration–demercuration (Hg(OAc)2/H2O; NaBH4) or (ii) hydroboration–oxidation (BH3·THF; H2O2/NaOH). Which pair of major alcohols is expected?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Oxymercuration–demercuration gives Markovnikov hydration without rearrangement, leading to tertiary alcohol formation at the more substituted carbon (1-methylcyclohexanol). Hydroboration–oxidation delivers anti-Markovnikov hydration with syn addition across the double bond; on cyclohexenes, this gives substitution at the less substituted carbon with overall syn addition, consistent with trans-2-methylcyclohexanol after ring conformational analysis. Markovnikov vs anti-Markovnikov and syn vs anti outcomes are core to alkene hydration strategies.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Both give trans-2-methylcyclohexanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>(i) 1-methylcyclohexanol; (ii) trans-2-methylcyclohexanol</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(i) trans-2-methylcyclohexanol; (ii) 1-methylcyclohexanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give 1-methylcyclohexanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Alkyne reduction selectivity: A terminal</text>
+    </name>
+    <questiontext format="html">
+      <text>Alkyne reduction selectivity: A terminal alkyne is treated under two conditions: (i) H2, Lindlar catalyst; (ii) Na/NH3(l), −78 °C. Which pair of alkene stereoisomers results?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Lindlar catalyst poisons the surface enabling syn hydrogenation of alkynes to Z-alkenes. Dissolving metal reduction proceeds via radical-anion steps and anti addition, affording E-alkenes. These complementary methods are standard for stereodefined alkyne to alkene reduction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>(i) E-alkene; (ii) Z-alkene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>(i) Z-alkene; (ii) E-alkene</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give E-alkene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give Z-alkene</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Competing pathways in halohydrin formation</text>
+    </name>
+    <questiontext format="html">
+      <text>Competing pathways in halohydrin formation: Treating 3-methyl-1-butene with Br2/H2O gives a major bromohydrin. Which statement best describes the regiochemistry and stereochemistry?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Halohydrin formation proceeds via a halonium ion with water opening at the more substituted carbon, placing OH at that site and Br at the less substituted carbon. Nucleophilic opening of the cyclic halonium occurs anti to the leaving group, giving overall anti addition.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>OH at less substituted carbon; syn addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>OH at more substituted carbon; anti addition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Br at more substituted carbon; syn addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>OH at less substituted carbon; anti addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Directing group conflict: Nitration of</text>
+    </name>
+    <questiontext format="html">
+      <text>Directing group conflict: Nitration of p-methyl anisole (p-methyl methoxybenzene) is attempted. What mixed directive effect is expected, and which positions are predominantly nitrated?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Both methoxy and methyl are ring-activating ortho/para directors, so nitration occurs at positions ortho to either substituent and para to the other if available; methoxy is more strongly activating, so positions ortho to OMe often dominate under standard EAS nitration conditions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Meta only, because methyl overrides methoxy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Ortho/para activation, with nitration mainly at positions ortho to methoxy and methyl</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Deactivation and meta to methoxy due to competition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Benzyne pathway dominates to give random substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Selective alcohol oxidation: A molecule</text>
+    </name>
+    <questiontext format="html">
+      <text>Selective alcohol oxidation: A molecule contains a primary alcohol and a secondary alcohol. The goal is to oxidize only the primary alcohol to an aldehyde. Which single-reagent choice is best?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>PCC in a non-aqueous solvent oxidizes primary alcohols to aldehydes without overoxidation and also cleanly oxidizes secondary alcohols to ketones; however, to oxidize only the primary site, the secondary alcohol can be protected (if needed) or conditions tuned. Among single reagents, PCC is the most suitable for aldehyde-level oxidation without water-promoted overoxidation, unlike Jones or KMnO4 which readily give carboxylic acids; ozonolysis targets alkenes, not alcohols.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Jones reagent (H2CrO4, aq)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>PCC in dichloromethane</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>KMnO4, hot, aqueous</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>O3, Me2S</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>1,2 vs 1,4 selectivity: Reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>1,2 vs 1,4 selectivity: Reaction of a cuprate R2CuLi with cyclohexenone under standard conditions typically gives which major outcome, compared with RMgX?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Organocuprates are classic for conjugate (1,4) addition to α,β-unsaturated carbonyls; Grignard reagents, being harder and more basic, favor direct 1,2-addition to the carbonyl under typical conditions. Reagent choice controls regiochemical outcome in enone additions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Cuprate gives 1,2-addition; Grignard gives 1,4-addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give predominant 1,2-addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Cuprate gives 1,4-conjugate addition; Grignard gives predominant 1,2-addition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both give predominant 1,4-addition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Carbonyl umpolung planning: Convert benzaldehyde</text>
+    </name>
+    <questiontext format="html">
+      <text>Carbonyl umpolung planning: Convert benzaldehyde to 2-phenylethanol via a two-step sequence employing a cyanide-based synthon. Which sequence is most consistent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Cyanide serves as a formyl anion equivalent; cyanohydrin formation introduces a −CH2−N functionality after reduction. Reducing the cyano group and the alkoxide gives the primary alcohol side-chain homologue, 2-phenylethanol, consistent with formyl/anionic umpolung strategy described for CN-based equivalents.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Benzaldehyde + HCN → cyanohydrin; LiAlH4 reduction → 2-phenylethanol</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Benzaldehyde + HCN → cyanohydrin; DIBAL-H partial reduction → aldehyde shift</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Benzaldehyde + RMgX → secondary alcohol; PCC oxidation → 2-phenylethanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Benzaldehyde + NH2OH → oxime; Wolff–Kishner → 2-phenylethanol</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Choosing substitution vs elimination: 2-bromo-2-methylbutane</text>
+    </name>
+    <questiontext format="html">
+      <text>Choosing substitution vs elimination: 2-bromo-2-methylbutane is treated with methoxide in methanol at reflux. Which major pathway and product distribution is expected?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A tertiary bromide with a strong base/nucleophile and heat promotes elimination; Zaitsev product (more substituted alkene) predominates with some less substituted alkene. SN2 is disfavored at tertiary centers; SNAr is irrelevant for aliphatic substrates.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>SN2 to give 2-methoxy-2-methylbutane predominantly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SN1 to give racemic substitution product only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>E1/E2 to give mainly 2-methyl-2-butene (Zaitsev) with minor 2-methyl-1-butene</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SNAr at benzylic position to give rearranged ether</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Controlled ester formation: To prepare</text>
+    </name>
+    <questiontext format="html">
+      <text>Controlled ester formation: To prepare ethyl benzoate from benzoic acid and ethanol efficiently, which statement best ensures higher yield in Fischer esterification?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fischer esterification is an equilibrium process; Le Châtelier’s principle applies. Removing water during the reaction or using ethanol as both reagent and solvent drives the equilibrium toward ester formation. Base would quench the acid catalyst needed; aqueous media disfavor ester formation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use aqueous acid to drive equilibrium toward ester</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Remove water continuously or use excess ethanol as solvent</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Add strong base to neutralize acid catalyst</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use dilute ethanol to prevent acetal formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Protection logic in multi-step synthesis</text>
+    </name>
+    <questiontext format="html">
+      <text>Protection logic in multi-step synthesis: A substrate contains a ketone and a primary alcohol. A Grignard addition to the ketone is planned without reacting at the alcohol. Which approach is most appropriate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Grignard reagents are quenched by protic OH groups; protecting the alcohol as a silyl ether (TBS/TBDPS) preserves it during RMgX formation and ketone addition. Protecting group strategies and functional group compatibility with organometallics are emphasized for selective synthesis planning.
+Notes on difficulty and scope
+- These problems require correlating mechanism with selectivity, reagent choice, and equilibrium/kinetic control, consistent with the “Understand and Apply” level for intermediate questions. They integrate multiple sections: alkenes/alkynes, aromatics, alcohol/phenol oxidation and protection, carbonyl additions/umpolung, acyl derivatives, substitution–elimination competition, organometallic selectivity, and synthesis planning.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/f41187d8-4c1f-42a8-b69c-1b08ca48bd7f/organic_unit_04.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/bbb354c7-10b6-4c64-93aa-f65f58d9fb78/organic_unit_07.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/25698250-8500-4253-8ccc-ffa5a17ff53e/organic_unit_02.txt)
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/d56907a9-060e-4d86-bddd-81839e191ded/organic_unit_08.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Convert the alcohol to a silyl ether (e.g., TBS) before forming RMgX and performing the addition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oxidize the alcohol to aldehyde, then proceed; no protection needed</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Convert the ketone to an acetal; leave alcohol free; then attempt Grignard on the acetal</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Use aqueous conditions to suppress Grignard reactivity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

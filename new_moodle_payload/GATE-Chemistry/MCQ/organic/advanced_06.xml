@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A target 1,3-dicarbonyl compound is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A target 1,3-dicarbonyl compound is proposed to be synthesized by coupling two electrophilic carbonyl fragments. Direct enolate–carbonyl coupling gives polarity mismatch for one fragment, so an umpolung strategy is required. Which plan most directly resolves the polarity mismatch while still allowing C–C bond formation at the acyl carbon?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Carbonyl carbons are naturally electrophilic, so coupling two electrophilic fragments requires polarity reversal (umpolung) of one partner. Converting a carbonyl to a 1,3-dithiane allows deprotonation to form a nucleophilic acyl anion equivalent that can attack another electrophile, and final hydrolysis regenerates the carbonyl, giving a 1,3-dicarbonyl framework. Protecting both carbonyls as acetals prevents the required C–C formation rather than enabling it. Wittig creates an alkene, not a direct 1,3-dicarbonyl linkage, and hydrogenation does not restore carbonyls. The alcohol→halide→SN2 idea does not recreate the acyl-carbon connectivity and typically fails for building the required carbonyl pattern.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Convert one carbonyl into a 1,3-dithiane, deprotonate to generate an acyl anion equivalent, add to the other electrophile, then hydrolyze back to carbonyl]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Convert both carbonyls into acetals, then perform aldol condensation under strong base]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Perform Wittig olefination between the two carbonyls and then hydrogenate the alkene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reduce both carbonyls to alcohols, convert to halides, and couple via SN2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A retrosynthetic tree suggests forming]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A retrosynthetic tree suggests forming a substituted cyclohexenone via a Robinson annulation late in the synthesis, but the substrate contains an unprotected primary amine and an aldehyde elsewhere in the molecule. Which reasoning best supports introducing a protecting group strategy before executing the key annulation step?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Multi-step synthesis planning requires anticipating side reactions; strong base and nucleophilic/enolate conditions can trigger imine formation, condensations, or other undesired pathways involving free amines and aldehydes. Using appropriate protecting groups (amine protection and aldehyde masking as acetals) increases chemoselectivity and makes the planned disconnection viable in forward synthesis. Assuming annulation is automatically chemoselective ignores realistic functional-group incompatibilities. Protecting groups are broadly used for OH, NH, and carbonyl functionalities, not only alcohols. Permanent oxidation changes the target’s functional-group map and violates the idea of strategic, temporary protection.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Protecting groups are unnecessary because Robinson annulation is always chemoselective for ketones]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Protecting the amine (e.g., as Boc/Cbz) and masking the aldehyde (e.g., as acetal) prevents competing side reactions during base-promoted steps]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Protecting groups are only used for alcohols, not for amines or aldehydes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The best solution is to oxidize the amine to a nitro group and the aldehyde to a carboxylic acid permanently]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two routes to the same]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two routes to the same target are proposed. Route X uses a stoichiometric Wittig step to install an alkene, while Route Y uses a cycloaddition-based disconnection (Diels–Alder) to build the ring/unsaturation in one step, followed by minimal functional group adjustments. Based on atom economy and green metrics, which statement is most defensible?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Atom economy compares how much of the reactants’ mass ends up in the desired product, and reactions that generate large stoichiometric byproducts tend to lower atom economy. Cycloaddition-based strategies can, in many cases, incorporate most atoms from both partners into the product framework, which may improve atom economy and reduce waste relative to byproduct-heavy steps. Reaching the same target does not guarantee identical atom economy because different reagents and byproducts change the mass balance. Step count affects overall efficiency and yield, but atom economy is reaction-stoichiometry-specific rather than step-count-only.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Route X is generally more atom-economical because Wittig directly forms a C=C bond]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Route Y can be favored because cycloadditions often incorporate more reactant atoms into the product and reduce waste compared with stoichiometric byproduct-forming steps]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both routes must have identical atom economy because they reach the same target]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Atom economy depends only on the number of steps, so the shorter route always has higher atom economy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In evaluating two candidate synthetic]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In evaluating two candidate synthetic routes for scale-up, Route 1 uses an air-sensitive organometallic reagent but fewer steps, while Route 2 uses more steps but relies on robust Pd-catalyzed cross-coupling and benign solvents. Which criterion set best matches a process-focused route evaluation rather than purely academic planning?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Route evaluation for practical feasibility emphasizes metrics beyond elegance: overall yield across steps, cost and availability of reagents, operational simplicity (temperature/pressure/inert atmosphere), safety hazards, and scalability. Step count alone can be misleading if it requires unsafe or impractical reagents. The presence of synthons and notation is about planning method, not feasibility. Protecting groups can be necessary but also add steps and waste, so “more is better” is incorrect.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only step count and number of named reactions used]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Step count, overall yield estimate, reagent availability/shelf-life, safety profile, scalability, and reaction-condition practicality]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only whether the route contains retrosynthetic arrows and synthons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only whether the route uses protecting groups (more is always better)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student proposes generating a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student proposes generating a “nucleophilic carbonyl carbon” directly from an aldehyde by treating it with a strong base, claiming this creates an acyl anion for C–C bond formation. Which critique best explains why the proposed disconnection is non-viable and what strategic fix applies?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The carbonyl carbon is intrinsically electrophilic, and forming a free acyl anion from an aldehyde is not generally feasible due to instability and competing pathways. Umpolung strategies intentionally reverse polarity using formyl/acyl anion equivalents (such as dithiane chemistry) to supply nucleophilic reactivity at the carbonyl carbon in a controlled way. Saying aldehydes do not react with bases is incorrect; they can undergo multiple base-mediated reactions, but not stable acyl anion formation as proposed. Wittig addresses alkene formation, not the need for a nucleophilic acyl carbon. Switching to ketones does not solve the fundamental polarity issue.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/710f5898-842c-4d82-ad4a-29c3aa7a6003/organic_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aldehydes cannot react with bases at all; the fix is to use only acids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The aldehyde carbonyl carbon is naturally electrophilic; direct base treatment does not create a stable acyl anion, so an umpolung equivalent (e.g., dithiane acyl anion equivalent) is needed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bases always convert aldehydes into alkenes; the fix is to do a Wittig reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The strategy fails only because aldehydes are too small; the fix is to use ketones instead]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

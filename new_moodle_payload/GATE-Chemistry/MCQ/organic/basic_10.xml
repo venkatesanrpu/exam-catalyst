@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In pyrrole, the nitrogen lone]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In pyrrole, the nitrogen lone pair is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Pyrrole is aromatic with 6π electrons; two double bonds contribute 4π electrons and the nitrogen lone pair contributes the remaining 2π electrons by residing in a p orbital and delocalizing around the ring, satisfying Hückel’s \(4n+2\) rule with \(n=1\).  Localizing the lone pair (as in a typical amine-like sp³ lone pair) would leave only 4π electrons and destroy aromatic stabilization, so that description is incorrect.  The lone pair is not “excluded” from conjugation in pyrrole; exclusion is the key feature in pyridine, not pyrrole.  A permanent dative bond depiction is not the correct bonding model; resonance delocalization maintains aromaticity instead of breaking it.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Localized in an sp³ orbital and not involved in aromaticity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Delocalized into the ring to complete a 6π aromatic system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In a p-orbital but excluded from conjugation due to electronegativity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Donated to form a permanent N→C dative bond that breaks aromaticity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which heterocycle is expected to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which heterocycle is expected to be the most basic in aqueous medium (comparing only the ring nitrogens as basic sites)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Pyridine is comparatively more basic because its nitrogen lone pair is not part of the aromatic π sextet and remains available for protonation.  In pyrrole (and the pyrrolic N in indole), the lone pair is part of aromaticity, so protonating at nitrogen would disrupt aromatic stabilization and is therefore much less favorable.  Furan has no ring nitrogen, and its oxygen lone pairs are involved in aromatic stabilization, so it is not the most basic among the listed choices.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pyrrole]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Indole]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Pyridine]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Furan]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For electrophilic aromatic substitution on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For electrophilic aromatic substitution on furan, the major substitution generally occurs at:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Five-membered heteroaromatics like furan typically undergo EAS preferentially at the 2-position because the σ-complex formed can be stabilized by more resonance structures while retaining favorable electron delocalization.  The 3-position pathway generally gives a less stabilized σ-complex, so it is usually minor under comparable conditions.  N-oxide formation is relevant to pyridine chemistry (activation/redirecting), not to furan (which has oxygen, not nitrogen).  O-alkylation can occur under certain conditions, but it is not the defining regiochemical rule for EAS on furan’s carbon framework.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The 2-position (α-position)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The 3-position (β-position)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only after forming a furan N-oxide]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only on the oxygen atom (O-alkylation as the aromatic substitution pathway)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best explains why]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best explains why pyridine is less reactive than benzene toward electrophilic aromatic substitution?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Pyridine is an electron-poor aromatic ring because the electronegative nitrogen withdraws electron density (inductive effect and π-withdrawing character), making formation of the σ-complex less favorable and thus slowing EAS relative to benzene.  Pyridine remains a 6π aromatic system, not an 8π antiaromatic one, so antiaromaticity is not the reason.  Pyridine can form σ-complex intermediates, but they are higher in energy due to destabilizing resonance forms involving positive charge adjacent to nitrogen.  Substitution at nitrogen (e.g., quaternization) can occur, but it does not make carbon EAS “impossible”; rather, carbon EAS is strongly disfavored and requires harsh conditions.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pyridine has 8π electrons and is antiaromatic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The ring nitrogen withdraws electron density and deactivates the ring toward electrophiles]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pyridine cannot form a σ-complex intermediate due to lack of resonance]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[EAS occurs mainly on nitrogen, so carbon substitution is impossible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In pyridine, nucleophilic aromatic substitution]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In pyridine, nucleophilic aromatic substitution (NAS) is comparatively favored at which positions (relative to nitrogen)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In pyridine, NAS is favored at the 2- and 4-positions because the anionic σ-complex (Meisenheimer-type intermediate) can be stabilized by resonance interaction with the ring nitrogen, which helps accommodate negative charge distribution.  The 3-position does not provide the same stabilization pattern for the intermediate, so it is typically less favorable for classic NAS patterns in pyridine.  Equal reactivity across all positions contradicts the strong regioelectronic control exerted by the ring nitrogen in electron-poor heteroarenes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ortho and para (2- and 4-positions)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Meta only (3-position)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[All positions equally]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only at the 5-position]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which named synthesis is classically]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which named synthesis is classically associated with preparation of quinoline?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quinoline is classically prepared by the Skraup synthesis, a well-known method highlighted for quinoline ring construction in standard heterocycle preparation strategies.  Fischer synthesis is associated with indole formation, not quinoline.  Paal–Knorr is commonly associated with making five-membered heterocycles (like pyrrole/furan/thiophene derivatives depending on conditions), not quinoline.  Hantzsch synthesis is associated with pyridine (and related dihydropyridine) formation rather than quinoline.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fischer indole synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Skraup synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Paal–Knorr synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hantzsch synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which named synthesis is most]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which named synthesis is most directly associated with preparation of indole?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Indole formation is classically associated with the Fischer indole synthesis, a key ring-forming strategy emphasized for indoles.  Skraup is primarily tied to quinoline formation, not indole.  Friedel–Crafts acylation is an aromatic substitution method and is not the hallmark named synthesis for building the indole ring system.  Sandmeyer reactions transform aromatic diazonium salts and do not directly construct the indole bicyclic heteroaromatic framework.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fischer indole synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Skraup synthesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Friedel–Crafts acylation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Sandmeyer reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Compared to furan and pyrrole]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Compared to furan and pyrrole, thiophene is generally described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Thiophene is commonly considered more aromatic (more stabilized) than furan and pyrrole due to effective sulfur participation and overall stabilization trends discussed in comparative aromaticity/stability of five-membered heterocycles.  Furan is typically more reactive toward addition/ring-opening tendencies than thiophene because it is less aromatically stabilized, so calling thiophene “most prone to ring opening” is incorrect.  Sulfur can participate in the aromatic π system; otherwise thiophene would not be classified as aromatic in the heteroaromatic set.  Protonation is not required for thiophene to be aromatic; it is aromatic in its neutral form.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The least aromatic and most prone to ring opening]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The most aromatic/stable among the three five-membered heteroaromatics]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Non-aromatic because sulfur cannot participate in π bonding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aromatic only after protonation of sulfur]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Indole most commonly undergoes electrophilic]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Indole most commonly undergoes electrophilic substitution predominantly at:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Indole shows characteristic electrophilic substitution at C-3 because the intermediate formed is especially stabilized by resonance while preserving aromatic character across the fused system effectively.  Substitution on the benzene portion can occur, but C-3 is typically the most activated site under many EAS conditions for indole.  Although indole can undergo N-substitution (e.g., N-alkylation under suitable conditions), it is not universally faster than C-3 electrophilic substitution; conditions and electrophile type matter, and the canonical EAS site is C-3.  Exclusive reaction at C-7 is not consistent with the standard regioselectivity patterns emphasized for indole EAS.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[C-3 position of the five-membered ring]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[C-4 position of the benzene ring]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitrogen atom (N-substitution is always faster than C-substitution)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[C-7 position exclusively]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Quinoline and isoquinoline differ primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Quinoline and isoquinoline differ primarily in:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quinoline and isoquinoline are position isomers; they differ by the location of the ring nitrogen within the fused benzopyridine skeleton, which leads to different regiochemistry in reactions.  They share the same molecular formula and both contain one ring nitrogen, so the “extra nitrogen” statement is incorrect.  Both are aromatic fused heterocycles, so aromaticity is not the distinguishing feature between them.  Both can be protonated at nitrogen (both are basic relative to pyrrolic systems), so protonation is not exclusive to isoquinoline.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/37bed375-4faf-4477-a010-e72ec0280345/organic_unit_10.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Molecular formula (one contains an extra nitrogen)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Whether the system is aromatic (only quinoline is aromatic)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The position of the ring nitrogen in the fused bicyclic framework]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Whether they can be protonated (only isoquinoline can be protonated)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

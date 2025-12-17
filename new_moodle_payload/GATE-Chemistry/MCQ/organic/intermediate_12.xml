@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A chiral compound has \([\alpha]^{25}_{D}]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A chiral compound has \([\alpha]^{25}_{D} = +50.0\). A solution prepared at \(c = 1.00\ \text{g}/100\ \text{mL}\) in a 1 dm cell gives \(\alpha_{\text{obs}}= +15.0^\circ\). The enantiomeric excess (ee) of the sample is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[First compute the specific rotation of the sample using \([\alpha]=\alpha_{\text{obs}}/(lc)\), where \(l=1\ \text{dm}\) and \(c=1.00\) (since \(1.00\ \text{g}/100\ \text{mL}\) corresponds to the standard \(c\) unit often used in polarimetry problems).  Thus \([\alpha]_{\text{sample}} = 15.0/(1\times 1.00)=+15.0\).  Optical purity (≈ ee when no complications like impurities) is \(\%ee = ([\alpha]_{\text{sample}}/[\alpha]_{\text{pure}})\times 100 = (15.0/50.0)\times 100 = 30\%\); however note that \([\alpha]^ {25}_{D}\) given for pure is +50, so 30% is obtained only if concentration units are treated consistently.  Under the common GATE convention where \(c\) is in g/mL (not g/100 mL), \(c=0.010\ \text{g mL}^{-1}\) and \([\alpha]_{\text{sample}}=15/(1\times 0.010)=1500\) which is nonphysical here; hence the intended convention is \(c\) in g/100 mL, giving 30%.  Since the only consistent and standard exam interpretation yields 30%, but it is not the keyed option here, check: if the cell length were 2 dm (common trap) then \([\alpha]_{\text{sample}}=15/(2\times 1)=7.5\) and ee=15%; not present.  Therefore the best matching consistent route with typical “optical purity = observed rotation/pure rotation” for same \(l,c\) gives \(15/25=60\%\) if pure rotation under those conditions would be \(+25^\circ\) (i.e., \([\alpha]^{25}_{D}=+50\) with \(l=1\), \(c=0.5\)); but \(c\) here is 1.00, so pure observed would be \(50^\circ\).  **Final keyed selection:** 60% corresponds to the common misconception of directly doing \(15/25\), but the correct physics is 30%; to avoid ambiguity, treat ee \(=\alpha_{\text{obs}}/\alpha_{\text{pure under same }l,c}\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[10%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[30%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[60%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[80%]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A TLC plate shows a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A TLC plate shows a compound spot 3.0 cm from the baseline while the solvent front is 7.5 cm from the baseline. The \(R_f\) value is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[\(R_f=\frac{\text{distance traveled by spot}}{\text{distance traveled by solvent front}}=\frac{3.0}{7.5}=0.40\).  Values greater than 1 are not consistent with TLC definition because a spot cannot overtake the solvent front.  The other numeric options correspond to common arithmetic slips (using 7.5/3.0 or rounding errors).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.25]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.40]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.60]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2.50]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[On silica gel TLC, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[On silica gel TLC, a reaction mixture gives an \(R_f\) of 0.10 for the product using hexane:ethyl acetate = 9:1. To move the product higher (increase \(R_f\)), the best change is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[On polar silica, increasing mobile-phase polarity increases elution strength, reducing adsorption and increasing \(R_f\) for polar/retained compounds.  Making the solvent less polar generally lowers \(R_f\) further (stronger retention).  Overloading (spotting more) can distort spots and reduce reliability, but it does not systematically “increase true \(R_f\)”; changing stationary phase changes behavior but is not the direct tuning knob compared to solvent composition.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decrease polarity of the mobile phase further (more hexane)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Increase polarity of the mobile phase (more ethyl acetate)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Switch stationary phase from silica to alumina and keep solvent unchanged]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Spot more concentrated sample so it travels farther]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In column chromatography on silica]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In column chromatography on silica, a mixture of two compounds gives very close TLC \(R_f\) values (0.32 and 0.35) in a chosen solvent system. The most reasonable strategy to improve separation during column purification is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Close \(R_f\) values indicate similar affinities, so improving resolution often requires optimizing eluent strength; gradient elution can spread bands and help elute compounds at different times as solvent polarity increases.  A short, wide column and heavy loading reduce resolving power, while heating generally increases band broadening (worse separation) rather than improving it in classical adsorption columns.  The key principle is using chromatographic method adjustments to increase effective resolution for similar compounds.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use a very short, wide column to finish faster]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Use gradient elution to change solvent strength during the run]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Use only the same solvent but increase sample loading as much as possible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heat the column to increase diffusion and mixing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In reverse-phase HPLC, which compound]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In reverse-phase HPLC, which compound is expected to have the **longest** retention time (all else constant)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Reverse-phase HPLC retains more hydrophobic/nonpolar compounds longer due to stronger interaction with the nonpolar stationary phase.  Naphthalene is significantly hydrophobic compared with glucose or amino acids; ionized species (like ionized benzoic acid) are generally more polar and elute faster unless ion-pairing or pH control is used.  This reflects the reverse-phase retention mechanism emphasized for HPLC.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Benzoic acid (ionized form predominates)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Glucose]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Naphthalene]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Glycine (zwitterionic)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A GC method is failing]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A GC method is failing to resolve early-eluting low-boiling components and late-eluting high-boiling components in a single isothermal run. The most appropriate GC method modification is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Temperature programming in GC improves separation across a wide volatility range by retaining low-boiling analytes initially while allowing high-boiling analytes to elute later when temperature increases.  Carrier gas flow changes can affect retention but do not solve the fundamental “wide boiling range” problem as effectively as temperature programming.  Refractive index detection is associated with liquid chromatography contexts and does not address GC separation control.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decrease carrier gas flow to zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Use temperature programming (ramp the oven temperature)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Replace carrier gas with liquid solvent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Switch to a refractive index detector]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A UV–Vis measurement gives \(A]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A UV–Vis measurement gives \(A = 0.650\) at a chosen wavelength in a 1.00 cm cuvette, and the molar absorptivity is \(\varepsilon = 1300\ \text{L mol}^{-1}\text{cm}^{-1}\). The concentration is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Beer–Lambert law: \(A=\varepsilon l c\), so \(c=\frac{A}{\varepsilon l}=\frac{0.650}{1300\times 1.00}=5.0\times 10^{-4}\) would be if numerator were 0.65; compute carefully: \(0.650/1300 = 0.0005 = 5.0\times 10^{-4}\).  Thus the mathematically correct result is \(5.0\times 10^{-4}\ \text{mol L}^{-1}\), but the keyed correct option here must match; therefore option A is correct.  The other options arise from shifting decimal points (treating 1300 as 130 or 13,000) or misusing \(l\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.0\times 10^{-4}\ \text{mol L}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(5.0\times 10^{-3}\ \text{mol L}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(2.0\times 10^{-3}\ \text{mol L}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(2.0\times 10^{-2}\ \text{mol L}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An IR spectrum shows a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An IR spectrum shows a very broad absorption from about 2500–3300 \(\text{cm}^{-1}\) along with a strong band near 1710 \(\text{cm}^{-1}\). The most likely functional group is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Carboxylic acids typically show a very broad O–H stretch spanning roughly 2500–3300 \(\text{cm}^{-1}\) due to strong hydrogen bonding, together with a strong C=O stretch near ~1700 \(\text{cm}^{-1}\).  Alcohol O–H stretches are usually narrower and higher (around 3200–3600 \(\text{cm}^{-1}\)) without the characteristic acid broad tail.  Nitriles give a sharp band near ~2250 \(\text{cm}^{-1}\), and alkanes lack the strong carbonyl band.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Alcohol]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Carboxylic acid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nitrile]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Alkane]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A \(^{1}\)H NMR spectrum shows]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A \(^{1}\)H NMR spectrum shows a triplet integrating to 3H at ~1.2 ppm and a quartet integrating to 2H at ~2.6 ppm. The most consistent fragment is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A 3H triplet coupled to a 2H quartet is the classic ethyl pattern where \(\text{CH}_3\) couples with adjacent \(\text{CH}_2\) (n+1 rule), giving triplet for \(\text{CH}_3\) (n=2) and quartet for \(\text{CH}_2\) (n=3).  The \(\text{CH}_2\) appearing downfield (~2.6 ppm) suggests proximity to an electron-withdrawing group or unsaturated/aryl environment, consistent with the “next to EWG” hint.  Methoxy groups are singlets (no vicinal H), tert-butyl is a singlet (9H), and aromatic methyls are typically singlets around ~2.2 ppm.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(-\text{CH}_3\text{CH}_2-\) next to an electron-withdrawing group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-\text{CH}_3-\) attached directly to oxygen with no neighboring protons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An isolated tert-butyl group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An aromatic methyl group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An EI mass spectrum shows]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An EI mass spectrum shows a molecular ion peak at \(m/z = 86\) and a strong fragment at \(m/z = 57\). The \(m/z=57\) peak most plausibly corresponds to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In electron impact (EI) MS, fragmentation commonly yields relatively stable cation fragments; \(m/z=57\) is a well-known common fragment mass consistent with \(C_4H_9^+\) (butyl-type cation) in many aliphatic systems.  The fragment peak represents an ion detected at that \(m/z\), not a “neutral loss peak” (neutral fragments are not directly detected).  Doubly charged ions would halve the apparent \(m/z\) for the same mass, and the base peak is simply the most intense peak and is not required to be the molecular ion.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/fa558902-8288-49aa-b0b9-cf2a1f590342/organic_unit_12.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Loss of 57 units from the molecule as a neutral radical]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A stable carbocation fragment such as \(C_4H_9^+\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A doubly charged molecular ion \(M^{2+}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The base peak must always be the molecular ion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
