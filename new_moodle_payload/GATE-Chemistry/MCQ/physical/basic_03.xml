@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Born–Oppenheimer approximation, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Born–Oppenheimer approximation, the primary physical reason electronic and nuclear motions can be separated is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Born–Oppenheimer approximation assumes nuclei are effectively stationary while solving the electronic Schrödinger equation because nuclei are far heavier and therefore move on a much slower timescale than electrons.  This allows the total wavefunction to be approximated as a product of an electronic part (parametrically dependent on nuclear positions) and a nuclear part.
+Why the other options are wrong: The electron and nucleus masses are not identical, so separation is not due to “cancelling motions.”  The approximation is not based on neglecting electron–electron repulsion; electronic interactions are included in the electronic Hamiltonian.  Nuclear spin is not the reason for separating electronic and nuclear motion in this framework.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Electrons move much faster than nuclei because nuclei are much heavier]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Electrons and nuclei have identical masses, so motions cancel]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Electron–electron repulsion is negligible compared to nuclear–nuclear repulsion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nuclear spin makes nuclear motion independent of electronic motion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In valence bond (VB) theory]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In valence bond (VB) theory, a covalent bond is primarily described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[VB theory explains a covalent bond as arising from overlap of atomic orbitals on two atoms and pairing (sharing) of electrons in the overlap region, giving localized bonding.  Greater effective overlap is associated with stronger bonding in the VB picture.
+Why the other options are wrong: Electron transfer describes ionic bonding, not the central VB description of covalency.  Complete-electron delocalization over the whole molecule is more aligned with the MO approach, not the localized VB bond description.  Bond formation cannot be explained by “repulsion minimization” alone; constructive overlap and electron pairing are essential.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Sharing of an electron pair due to overlap of atomic orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Transfer of an electron from one atom to another to form ions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Delocalization of all electrons over the entire molecule as a single cloud]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Repulsion minimization without any orbital overlap]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A \(\pi\) bond is best]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A \(\pi\) bond is best described as forming by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A \(\pi\) bond forms by lateral overlap of p orbitals (or other suitable orbitals) that are parallel to each other and perpendicular to the internuclear axis, creating electron density above and below the bond axis.  In contrast, a \(\sigma\) bond is characterized by head-on overlap along the internuclear axis.
+Why the other options are wrong: Head-on overlap corresponds to \(\sigma\) bonding, not \(\pi\) bonding.  Hybridization is mixing on the same atom and is a model for generating directed \(\sigma\)-bonding orbitals, not the definition of a \(\pi\) bond.  Mutually perpendicular orbitals generally do not overlap effectively to form a \(\pi\) bond.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Lateral (sideways) overlap of two parallel p orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Head-on overlap of two orbitals along the internuclear axis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mixing of s and p orbitals on the same atom to form hybrids]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Overlap of two orbitals that are perpendicular to each other]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In LCAO–MO theory for a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In LCAO–MO theory for a diatomic molecule formed from two identical atomic orbitals, the bonding MO corresponds to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In the LCAO picture, adding two atomic orbitals in-phase produces a bonding MO with enhanced electron density in the internuclear region, stabilizing the molecule (lower energy).  The out-of-phase combination produces an antibonding MO with a node and reduced internuclear electron density, raising energy.
+Why the other options are wrong: A node between nuclei is a hallmark of antibonding, not bonding.  Bonding MOs do not have zero internuclear density; that would contradict the stabilizing mechanism.  Bonding MOs are typically lower in energy than the parent atomic orbitals due to constructive overlap.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[In-phase (constructive) combination with increased electron density between nuclei]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Out-of-phase (destructive) combination with a node between nuclei]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A combination that always has zero electron density between nuclei]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A combination that must be higher in energy than both atomic orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In molecular orbital theory, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In molecular orbital theory, the bond order is given by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Bond order in MO theory is defined as half the difference between the number of electrons in bonding and antibonding molecular orbitals, \((N_b - N_a)/2\).  This definition links electron occupation to bond strength and bond length trends in a qualitative way (higher bond order usually implies stronger, shorter bonds).
+Why the other options are wrong: Adding bonding and antibonding electrons does not measure net bonding.  Using \(N_b - N_a\) misses the factor of 1/2 used in MO bond order definition.  The ratio \(N_a/N_b\) is not the MO bond order definition and does not map correctly onto bonding trends.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\((N_b - N_a)/2\), where \(N_b\) is bonding electrons and \(N_a\) is antibonding electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\((N_b + N_a)/2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(N_b - N_a\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(N_a/N_b\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The species \(\mathrm{O_2}\) is paramagnetic]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The species \(\mathrm{O_2}\) is paramagnetic because:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[MO theory predicts that \(\mathrm{O_2}\) has two unpaired electrons in degenerate antibonding \(\pi^*\) orbitals, which causes paramagnetism.  This is a classic example where MO theory explains a magnetic property that is not captured by a simple localized electron-pair picture.
+Why the other options are wrong: \(\mathrm{O_2}\) has a nonzero bond order (it is a stable molecule), so bond order is not zero.  If all electrons were paired, \(\mathrm{O_2}\) would be diamagnetic, which contradicts observation and MO prediction.  \(\pi\) and \(\pi^*\) orbitals are essential in the MO description of second-row diatomics like \(\mathrm{O_2}\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[It contains unpaired electrons in antibonding \(\pi^*\) orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Its bond order is zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[All electrons are paired in bonding orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It has no molecular orbitals of \(\pi\) type]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Hybrid orbitals are best described]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Hybrid orbitals are best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hybridization is the mixing (linear combination) of atomic orbitals on the same atom (such as s and p) to form equivalent, directed hybrid orbitals that rationalize molecular geometry and \(\sigma\)-bond directions.  The model connects to predicting shapes such as linear (sp), trigonal planar (sp\(^2\)), and tetrahedral (sp\(^3\)).
+Why the other options are wrong: Hybrid orbitals are not constructed from molecular orbitals across different atoms; they are localized on a single atom in the VB/hybrid model.  Hybridization is not restricted to ionic bonding; it is widely used for covalent structures.  Hybrid orbitals apply broadly (alkanes, alkenes, alkynes, etc.), not only to aromatic systems.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Linear combinations of atomic orbitals on the same atom to generate directed bonding orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Linear combinations of molecular orbitals on different atoms to form new atomic orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Orbitals formed only when a molecule is ionic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Orbitals that exist only in aromatic compounds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In heteronuclear diatomic molecules, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In heteronuclear diatomic molecules, a key effect of electronegativity difference (and resulting AO energy mismatch) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For heteronuclear diatomics, atomic orbitals typically have different energies; the resulting MOs are not equally shared and become polarized toward the atom with the lower-energy (more electronegative) atomic orbital contribution.  This polarization contributes to partial charges and can produce a permanent dipole moment depending on the molecule.
+Why the other options are wrong: Electronegativity differences do not force bond order to be zero; many heteronuclear diatomics have substantial bond order.  \(\sigma\) and \(\pi\) bonding remain distinct due to symmetry and overlap orientation; they do not become identical.  Heteronuclear molecules can have permanent dipoles; electronegativity difference generally promotes polarity rather than forbidding it.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Molecular orbitals become polarized, with greater contribution from the lower-energy atomic orbital]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order must always become zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\sigma\) and \(\pi\) bonds become identical in all respects]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule cannot have any permanent dipole moment]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Hückel approximation is most]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Hückel approximation is most directly associated with modeling:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Hückel method is a simplified MO treatment aimed at conjugated \(\pi\)-electron systems, typically using nearest-neighbor interactions and parameterized integrals to obtain \(\pi\)-orbital energies and coefficients.  It is widely applied to linear conjugated systems and cyclic (annular) conjugated systems to discuss aromaticity patterns.
+Why the other options are wrong: Rotational spectra are treated using rigid rotor/rotational spectroscopy models, not Hückel \(\pi\)-MO theory.  Hückel theory is not designed for saturated \(\sigma\)-frameworks like alkanes.  Nonadiabatic coupling is a breakdown aspect of the Born–Oppenheimer approximation, not the focus of Hückel \(\pi\)-electron theory.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\pi\)-electron systems in conjugated molecules using a simplified LCAO treatment]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rotational spectra of diatomic molecules]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only \(\sigma\)-bond frameworks in alkanes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nonadiabatic coupling between electronic states]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[According to Hückel’s \(4n+2\) rule]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[According to Hückel’s \(4n+2\) rule, which \(\pi\)-electron count corresponds to an aromatic cyclic conjugated system (assuming planarity and full conjugation)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hückel’s rule states that a planar, cyclic, fully conjugated system is aromatic when it has \(4n+2\) \(\pi\) electrons (where \(n\) is an integer), so 6 corresponds to \(n=1\) (benzene-like aromaticity).  Counts like 4 or 8 correspond to \(4n\) cases, which are associated with antiaromatic behavior under the same idealized conditions.
+Why the other options are wrong: 4 and 8 are of the form \(4n\), not \(4n+2\), so they do not satisfy the aromatic electron count criterion in the Hückel framework.  A non-integer electron count like 10.5 is not physically meaningful for a closed-shell \(\pi\)-electron count in this context.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/a847962b-581f-4618-9d21-853a9ecafda6/physical_unit_03.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[6]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[10.5]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

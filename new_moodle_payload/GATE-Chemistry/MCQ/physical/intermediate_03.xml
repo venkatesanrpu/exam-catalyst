@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For \(\mathrm{N_2}\), the correct MO-based]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For \(\mathrm{N_2}\), the correct MO-based prediction is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For \(\mathrm{N_2}\) (10 valence electrons), filling the appropriate period-2 homonuclear MO diagram gives 8 electrons in bonding MOs and 2 in antibonding MOs, so bond order \(=(8-2)/2=3\), consistent with a triple bond.  All electrons end up paired in this configuration, so \(\mathrm{N_2}\) is predicted to be diamagnetic.
+Why the other options are wrong: A bond order of 2 corresponds to species like \(\mathrm{O_2}\) (with different filling and unpaired electrons), not \(\mathrm{N_2}\).  Bond order 1 would imply much weaker bonding than observed for \(\mathrm{N_2}\).  Paramagnetism requires unpaired electrons, which \(\mathrm{N_2}\) does not have in the standard MO filling.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bond order 3 and diamagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order 2 and paramagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order 1 and diamagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order 3 and paramagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Using MO theory, the bond]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Using MO theory, the bond order and magnetism of \(\mathrm{O_2^+}\) are:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[\(\mathrm{O_2}\) has two unpaired electrons in \(\pi^*\) antibonding orbitals; removing one electron to form \(\mathrm{O_2^+}\) decreases antibonding occupancy by 1, so bond order increases by \(0.5\) (from 2 to 2.5).  One unpaired electron remains in \(\pi^*\), so \(\mathrm{O_2^+}\) is still paramagnetic.
+Why the other options are wrong: Bond order does not remain 2.0 after removing an antibonding electron; it increases.  Diamagnetism would require all electrons paired, which is not true for \(\mathrm{O_2^+}\).  Bond order 1.5 would correspond to adding antibonding electrons (or removing bonding ones), opposite to the formation of \(\mathrm{O_2^+}\) from \(\mathrm{O_2}\).  Bond order 3.0 would require a much larger reduction in antibonding occupancy than a single-electron ionization provides.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bond order \(2.5\), paramagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order \(2.0\), diamagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order \(1.5\), diamagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Bond order \(3.0\), diamagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the context of period-2]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the context of period-2 homonuclear diatomics, the main qualitative consequence of \(s\)–\(p\) mixing (orbital mixing) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The MO ordering in period-2 homonuclear diatomics depends on atomic number, and \(s\)–\(p\) mixing is specifically cited as affecting the ordering pattern of the 2p-derived \(\sigma\) and \(\pi\) levels in lighter members.  This affects how electrons fill the MOs and therefore influences predicted bond order and magnetic behavior trends.
+Why the other options are wrong: Antibonding orbitals are not generally stabilized below bonding orbitals; bonding/antibonding splitting retains bonding lower in energy.  \(\pi\) orbitals do not disappear; they arise from lateral overlap and remain part of the MO set.  Magnetic behavior depends on whether unpaired electrons occur after filling, not on mixing alone.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[It can change the relative energy ordering of \(\sigma(2p)\) and \(\pi(2p)\) MOs in lighter diatomics]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It makes antibonding orbitals always lower than bonding orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It eliminates the existence of \(\pi\) orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It forces all species to become paramagnetic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which change will definitely increase]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which change will definitely increase the bond order of a diatomic species, according to MO theory?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Bond order is \((N_b-N_a)/2\); decreasing \(N_a\) by 1 while keeping \(N_b\) fixed increases bond order by \(0.5\).  This is the same logic used when comparing \(\mathrm{O_2}\) and \(\mathrm{O_2^+}\) (ionization from antibonding increases bond order).
+Why the other options are wrong: Removing a bonding electron decreases \(N_b\) and thus lowers bond order.  Adding an antibonding electron increases \(N_a\) and lowers bond order.  Adding electrons to both bonding and antibonding orbitals keeps \(N_b-N_a\) unchanged, so bond order does not increase.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Removing one electron from an antibonding orbital (with bonding occupancy unchanged)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Removing one electron from a bonding orbital (with antibonding occupancy unchanged)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Adding one electron to an antibonding orbital]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Adding one electron equally to both bonding and antibonding orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In heteronuclear diatomic MO theory]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In heteronuclear diatomic MO theory, if atom X is much more electronegative than atom Y, the bonding MO is expected to be:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In heteronuclear diatomics, atomic orbital energy differences lead to unequal mixing; the lower-energy (more electronegative) atom contributes more to the bonding MO, producing orbital polarization.  This asymmetry is directly linked to partial charges and molecular polarity/dipole behavior.
+Why the other options are wrong: A 50–50 combination is characteristic of homonuclear cases with equal AO energies, not strongly heteronuclear ones.  The higher-energy AO contributes more to the antibonding MO, not typically to the bonding MO.  The bonding MO is not “always nonbonding”; it is bonding by construction (stabilized combination).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[More weighted toward X (greater contribution from the lower-energy atomic orbital)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exactly 50–50 combination of X and Y atomic orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[More weighted toward Y (greater contribution from the higher-energy atomic orbital)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always nonbonding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best explains why]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best explains why a heteronuclear diatomic molecule can have a permanent dipole moment within MO theory?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In heteronuclear molecules, unequal AO contributions (from different AO energies/electronegativities) polarize MOs, giving an uneven electron density distribution and hence a dipole moment.  The learning path explicitly ties electronegativity-driven asymmetry to polarity and dipole moments.
+Why the other options are wrong: Dipole moment does not require bond order 1; it depends mainly on charge separation and distance.  Electronegativity difference is a key driver of polarity, so dipole moment is not independent of it.  Dipoles occur in \(\sigma\)-bonded molecules as well; \(\pi\) bonding is not a requirement.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Asymmetric MO coefficients lead to unequal electron density distribution over the two atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A permanent dipole arises only if the bond order is exactly 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Dipole moment is independent of electronegativity difference]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Dipole moment requires the presence of only \(\pi\) bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Applying Hückel’s \(4n+2\) rule and]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Applying Hückel’s \(4n+2\) rule and basic \(\pi\)-electron counting, which set lists only aromatic \(\pi\)-electron counts?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hückel aromatic electron counts follow \(4n+2\) giving 2, 6, 10, 14, … for cyclic conjugated systems under the usual planarity and conjugation assumptions.  The same unit emphasizes \(4n+2\) as the aromaticity criterion for annular \(\pi\)-electron systems.
+Why the other options are wrong: 4, 8, 12, 16 are \(4n\) counts and are associated with antiaromaticity under the same idealized conditions.  The sequences 3,7,11,15 and the mixed set 6,8,12,18 do not match a consistent \(4n+2\) aromatic series.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[2, 6, 10, 14]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4, 8, 12, 16]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3, 7, 11, 15]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[6, 8, 12, 18]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The cyclopentadienyl anion \(\mathrm{C_5H_5^-}\) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The cyclopentadienyl anion \(\mathrm{C_5H_5^-}\) is aromatic mainly because it has:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In Hückel treatment of cyclic conjugated systems, \(\mathrm{C_5H_5^-}\) is a standard example: the extra electron from the negative charge makes the ring have 6 \(\pi\) electrons, satisfying \(4n+2\) with \(n=1\).  This matches the unit’s focus on applying Hückel ideas to cyclic conjugated (annular) systems including cyclopentadienyl species.
+Why the other options are wrong: 4 \(\pi\) electrons would correspond to a \(4n\) count, not Hückel aromatic.  The anion does not have 8 \(\pi\) electrons; proper \(\pi\)-electron counting for the conjugated ring gives 6.  Aromaticity is a \(\pi\)-electron delocalization concept, not a purely \(\sigma\)-bond framework effect.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[6 \(\pi\) electrons in a cyclic conjugated system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4 \(\pi\) electrons in a cyclic conjugated system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8 \(\pi\) electrons due to the negative charge]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No \(\pi\) electrons; aromaticity comes from \(\sigma\) bonding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The tropylium cation \(\mathrm{C_7H_7^+}\) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The tropylium cation \(\mathrm{C_7H_7^+}\) is aromatic primarily because it has:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Tropylium cation is another standard annular system in Hückel applications; it has 6 \(\pi\) electrons delocalized over the ring, satisfying the \(4n+2\) rule.  The unit explicitly lists tropylium cation among cyclic conjugated systems treated under Hückel concepts.
+Why the other options are wrong: The number of ring atoms is not the \(\pi\)-electron count; \(\pi\)-electron counting depends on conjugation and charge.  A positive charge generally reduces the \(\pi\)-electron count by removing an electron from the \(\pi\) system, it does not automatically make it 8.  The \(4n\) rule does not define aromaticity; \(4n\) counts are associated with antiaromaticity under ideal conditions.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[6 \(\pi\) electrons delocalized over a cyclic conjugated ring]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[7 \(\pi\) electrons because there are 7 carbon atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8 \(\pi\) electrons because of the positive charge]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[4 \(\pi\) electrons and therefore aromatic by \(4n\) rule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Hückel MO picture]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Hückel MO picture for a linear conjugated system such as butadiene, the best qualitative statement is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a linear conjugated chain, the Hückel/LCAO framework uses one p orbital per conjugated atom, producing the same number of \(\pi\) MOs as p orbitals; for butadiene that means four \(\pi\) MOs.  With four \(\pi\) electrons, the ground state fills the two lowest-energy (net bonding) \(\pi\) MOs, capturing conjugation stabilization relative to isolated double bonds.
+Why the other options are wrong: The number of \(\pi\) MOs is tied to the number of conjugated p orbitals (atoms), not the count of double bonds.  The lowest MO is typically bonding (stabilized) rather than antibonding; conjugation stabilizes by allowing lower-energy delocalized combinations.  Degeneracy is not universal in linear conjugated systems; energy levels are generally split and ordered.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/a847962b-581f-4618-9d21-853a9ecafda6/physical_unit_03.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[There are four \(\pi\) MOs, and filling with four \(\pi\) electrons gives two filled bonding MOs in the ground state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[There are two \(\pi\) MOs total because there are two double bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The lowest \(\pi\) MO must be antibonding because conjugation destabilizes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conjugation implies all \(\pi\) MOs are degenerate in energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

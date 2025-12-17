@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **improper rotation axis** \(S_n\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **improper rotation axis** \(S_n\) corresponds to which operation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[An improper rotation \(S_n\) is defined as a proper rotation \(C_n\) (rotation by \(360^\circ/n\)) followed immediately by reflection through a plane perpendicular to the rotation axis.  This is a *single* symmetry operation used frequently in point-group classification (e.g., \(S_4\) in some tetrahedral-like environments).  The option describing reflection in a plane containing the axis corresponds to \(\sigma_v\), not to the definition of \(S_n\).  Inversion is a separate symmetry element \(i\), and combining inversion with other operations does not define \(S_n\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Rotation by \(360^\circ/n\) about an axis, followed by reflection in a plane perpendicular to that axis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reflection in a plane containing the axis, followed by rotation by \(360^\circ/n\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Inversion through a center, followed by reflection in any mirror plane]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rotation by \(180^\circ\) about any axis, followed by inversion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A molecule belongs to the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A molecule belongs to the point group \(C_{2v}\). Which set lists only symmetry operations that must be present in \(C_{2v}\)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[By definition, \(C_{2v}\) contains the identity \(E\), one principal twofold rotation axis \(C_2\), and two vertical mirror planes \(\sigma_v\) that contain the principal axis.  Operations like \(C_3\) are characteristic of \(C_{3v}\) or higher groups, not \(C_{2v}\).  The presence of inversion \(i\) would push the group toward \(C_{2h}\), \(D_{2h}\), etc., not \(C_{2v}\).  A horizontal plane \(\sigma_h\) is not part of \(C_{2v}\); it is typical of \(C_{nh}\) groups.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(E, C_2, \sigma_v, \sigma_v'\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E, C_3, \sigma_h, i\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E, C_2, i, S_4\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E, C_2, \sigma_h, C_2'\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **order** of a symmetry]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **order** of a symmetry group of a molecule refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In group theory terminology used for molecular symmetry, the order of a group is the number of symmetry operations it contains.  It is not the atom count (that relates to \(3N\) degrees of freedom for vibrations).  The highest rotation axis \(n\) is a symmetry feature but does not by itself give the group order.  Similarly, counting only mirror planes ignores rotations, identity, inversion, and improper rotations that may be present.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The total number of symmetry operations in the group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The number of atoms in the molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The highest rotation axis \(n\) present in the molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The number of mirror planes present in the molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In Mulliken symbolism for irreducible]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In Mulliken symbolism for irreducible representations, what does the label \(E\) indicate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Mulliken symbols encode degeneracy and symmetry properties: \(A\) and \(B\) are one-dimensional (non-degenerate), \(E\) is two-dimensional (doubly degenerate), and \(T\) is three-dimensional (triply degenerate).  The statement “symmetric to all operations” describes the totally symmetric representation (often \(A_1\) in many groups), not specifically \(E\).  Antisymmetry with respect to inversion corresponds to “u” (ungerade), not to the letter \(E\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A doubly degenerate irreducible representation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A non-degenerate irreducible representation symmetric to all operations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A triply degenerate irreducible representation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An irreducible representation that is antisymmetric with respect to inversion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which statement best distinguishes a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which statement best distinguishes a **symmetry element** from a **symmetry operation**?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In molecular symmetry, elements are geometric features such as an axis (\(C_n\)), a plane (\(\sigma\)), or a center (\(i\)), while operations are the actual transformations (rotate, reflect, invert) carried out about/through those elements.  Rotations and reflections are both symmetry operations, not “element vs operation”.  Character tables summarize how functions transform under operations; they do not imply that elements exist only “in tables”.  Temperature may change molecular geometry in extreme cases, but that is not the defining distinction between element and operation.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A symmetry element is a geometric entity (line/plane/point); a symmetry operation is the action performed using it]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A symmetry element is always a rotation; a symmetry operation is always a reflection]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A symmetry element exists only in character tables; a symmetry operation exists only in molecules]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A symmetry element changes with temperature; a symmetry operation never changes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a nonlinear molecule containing]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a nonlinear molecule containing \(N\) atoms, the number of vibrational normal modes is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A nonlinear molecule has \(3N\) total degrees of freedom; 3 correspond to translation and 3 to rotation, leaving \(3N-6\) vibrational degrees of freedom (normal modes).  The \(3N-5\) rule applies to linear molecules because they have only 2 independent rotational degrees of freedom.  \(3N\) counts all motions without removing translation/rotation, so it is not the vibrational mode count.  \(2N+1\) has no general basis in the internal-coordinate/normal-mode counting described for molecular vibrations.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(3N-6\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(3N-5\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(3N\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(2N+1\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A vibrational mode is **IR]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A vibrational mode is **IR active** if it transforms like which type of basis functions in the character table?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[IR activity requires a change in dipole moment during the vibration, so the vibrational symmetry must match one (or more) of the translational/dipole components \(x, y, z\) listed in the character table.  Rotational functions \(R_x, R_y, R_z\) are used to identify rotational motions and do not give the IR selection rule.  Quadratic functions are tied to Raman activity criteria rather than IR activity.  A totally symmetric vibration can be IR active in some groups if it also transforms as \(x,y,z\), but “only totally symmetric” is not the general rule.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(x, y, z\) (components of the dipole moment)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(R_x, R_y, R_z\) (rotations)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Quadratic functions like \(x^2, xy, yz\) only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the totally symmetric representation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A vibrational mode is **Raman]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A vibrational mode is **Raman active** if it transforms like:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Raman activity is governed by changes in polarizability, and the polarizability tensor components transform as quadratic functions, which is why character tables list \(x^2, y^2, z^2, xy, xz, yz\) for Raman selection rules.  The linear functions \(x, y, z\) correspond to dipole moment components and therefore to IR activity, not Raman in general.  Rotational functions help separate rotations when constructing vibrational representations but are not the Raman selection rule.  Raman activity is not restricted to “B-type” representations; it depends on matching quadratic basis functions.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Quadratic functions such as \(x^2, y^2, z^2, xy, xz, yz\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only linear functions \(x, y, z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only rotational functions \(R_x, R_y, R_z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only antisymmetric representations (B-type)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the context of representations]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the context of representations in character tables, a **reducible representation** is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Many practical bases in chemistry (e.g., all \(3N\) Cartesian displacement vectors, or a set of ligand orbitals) generate a reducible representation, which can be decomposed into irreducible components using the reduction procedure.  A representation is defined over all group operations, not a single operation.  Having characters all zero would not represent typical molecular bases and is not the defining feature of reducibility.  Reducible/irreducible representations apply across point groups for both linear and nonlinear molecules.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A representation that can be expressed as a sum of irreducible representations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A representation that contains only one symmetry operation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A representation that has characters equal to zero for all operations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A representation that exists only for linear molecules]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The main purpose of forming]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The main purpose of forming **symmetry adapted linear combinations (SALCs)** of ligand atomic orbitals is to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[SALCs are constructed so that ligand group orbitals have well-defined symmetry (irreducible representation labels), which allows direct compatibility checks with the symmetry of central atom orbitals in LCAO-MO construction.  SALCs do not guarantee non-degeneracy; degeneracy is dictated by the dimensionality of the irreducible representation (e.g., \(E\) remains doubly degenerate).  SALCs are used to simplify and organize MO construction by symmetry, not to avoid MO theory altogether.  Symmetry does not “convert” bonding type; it classifies and constrains allowed orbital mixing and spectroscopic activity.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eac9bba8-3ab9-429e-8b85-34ae49fc31cf/physical_unit_04.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Generate orbital combinations that transform as irreducible representations, enabling symmetry-allowed matching with central-atom orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Ensure all ligand orbitals become non-degenerate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eliminate the need for any molecular orbital diagram]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Convert covalent bonding into ionic bonding by symmetry arguments]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

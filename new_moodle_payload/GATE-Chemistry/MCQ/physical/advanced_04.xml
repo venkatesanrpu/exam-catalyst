@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In SALC-based MO construction, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In SALC-based MO construction, a necessary condition for a central-atom atomic orbital (AO) to mix with a ligand group orbital SALC is that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The SALC/LCAO-MO workflow in the reference emphasizes “symmetry compatibility between atomic orbitals and SALCs” and using irreducible representations to decide which orbitals can interact.  Only functions transforming according to the same irreducible representation can mix (nonzero symmetry-allowed overlap/coupling), which is exactly why SALCs are built before assembling a qualitative MO diagram.  Matching principal quantum numbers is not a symmetry requirement; it affects energies/radial overlap, not whether mixing is symmetry-allowed.  Requiring both to be totally symmetric is overly restrictive because many bonding interactions occur in non-totally-symmetric symmetry species as long as the symmetries match.  IR activity criteria apply to vibrational modes via \(x,y,z\) basis functions, not to whether two electronic orbitals can mix in MO construction.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The AO and the SALC belong to the same irreducible representation of the molecular point group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The AO and the SALC have the same principal quantum number]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The AO and the SALC must both be totally symmetric under all operations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The AO and the SALC must be individually IR active as functions \(x,y,z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student attempts to predict]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student attempts to predict the number of vibrational modes of a nonlinear molecule and directly reduces the full \(3N\) Cartesian displacement representation into irreducible representations, but forgets to remove translations and rotations. What is the most accurate consequence of this mistake?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The vibrational-mode section explicitly sets the workflow: construct a reducible representation for displacements, then separate translational and rotational contributions from vibrational ones.  If translations and rotations are not removed, the “vibrational representation” will incorrectly contain irreducible representations associated with \(x,y,z\) and \(R_x,R_y,R_z\), inflating the count beyond the physical \(3N-6\) (for nonlinear) or \(3N-5\) (for linear) vibrational modes.  Translations/rotations do not “cancel” vibration characters; they are distinct motion subspaces that must be subtracted conceptually after reduction.  Translations and rotations are not always totally symmetric; their symmetry species depend on the point group as indicated by basis-function listings in character tables.  The mistake impacts both IR and Raman predictions because activity tests must be applied to the correct vibrational symmetry species after removing non-vibrational motions.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The student will overcount vibrational symmetry species by including species corresponding to translations (\(x,y,z\)) and rotations (\(R_x,R_y,R_z\))]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The student will undercount vibrations because translations and rotations cancel vibrational characters]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The student will still get the correct vibrational symmetry species because translations/rotations are always totally symmetric]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The student will predict correct IR activity but wrong Raman activity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider a molecule whose point]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider a molecule whose point group has a two-dimensional irreducible representation (an \(E\)-type species). In a qualitative MO diagram built using symmetry labels, what is the most defensible statement about orbitals labeled with that \(E\) irrep?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The reference explicitly links “degeneracy and symmetry” to the dimensionality of irreducible representations and also emphasizes the use of irreps to label and order MOs.  A two-dimensional irrep corresponds to a pair of basis functions that transform into each other under symmetry operations, leading to a symmetry-protected twofold degeneracy in the absence of symmetry breaking.  Degeneracy does not prevent bonding; SALCs and central AOs of the same \(E\) symmetry can mix to give bonding/antibonding pairs that remain doubly degenerate.  Splitting would generally require lowering symmetry (or introducing a perturbation that reduces the point group), not merely the presence of an \(E\) label.  IR activity is a vibrational selection-rule concept tied to whether a vibrational mode transforms like \(x,y,z\), not a universal property of electronic orbitals labeled \(E\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[They must be degenerate (twofold) as long as the full symmetry of the point group is retained]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They cannot participate in bonding because degeneracy implies zero overlap]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They must split into two different energies even without lowering symmetry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are always IR active because \(E\) implies a dipole moment change]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In symmetry-based hybrid orbital construction]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In symmetry-based hybrid orbital construction, why can the “local hybrid” picture be made consistent with the “global MO/SALC” picture for the same molecule?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit explicitly connects “symmetry-derived hybrids” with “consistency between hybrid picture and MO symmetry labels,” showing that both approaches use irreducible representations to decide allowed combinations.  Hybrid construction uses symmetry properties of central-atom orbitals and their transformation under point group operations, while SALC/MO construction uses symmetry-adapted combinations of ligand orbitals and then matches by irreps.  They are not identical objects: SALCs are combinations of ligand orbitals, whereas hybrids are localized combinations on the central atom, but both must transform according to compatible irreps for bonding interactions.  Vibrational counting rules are unrelated to the consistency between electronic hybridization and SALC-based MO symmetry labeling.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Both descriptions are constrained by the same point-group irreducible representations and symmetry compatibility rules]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hybrid orbitals are always identical to SALCs by definition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hybrids ignore symmetry, while SALCs enforce symmetry, so they coincide only accidentally]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Consistency is guaranteed only for linear molecules using \(3N-5\) vibrations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A molecule is assigned an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A molecule is assigned an incorrect point group (missing a mirror plane that is actually present). Which downstream result is most directly jeopardized in a symmetry-based workflow for spectroscopy and bonding?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The learning path stresses that point-group assignment underpins correct use of character tables, reduction into irreps, and IR/Raman activity criteria from \(x,y,z\) and quadratic functions.  If a symmetry element such as a mirror plane is missed, the chosen character table is wrong, so the derived irreducible representation content of vibrations (and therefore which modes are IR or Raman active) and SALC/MO symmetry labeling can be systematically incorrect.  The \(3N-6\) or \(3N-5\) counting depends on linear vs nonlinear geometry and number of atoms, not on the detailed point group label.  Every point group contains the identity operation \(E\), so that is not what is “lost” by misassignment.  The chemical formula still gives the atom count; point-group errors do not alter \(N\).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eac9bba8-3ab9-429e-8b85-34ae49fc31cf/physical_unit_04.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The set of irreducible representations used for normal-mode classification and IR/Raman activity prediction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The value of \(N\) used in \(3N-6\), which changes with point group]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The existence of the identity operation \(E\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The total number of atoms in the molecule as counted from the chemical formula]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

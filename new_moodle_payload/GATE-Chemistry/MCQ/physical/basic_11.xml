@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Lindemann–Hinshelwood mechanism for]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Lindemann–Hinshelwood mechanism for a unimolecular reaction, the key idea is that the reactant must first become energized through collisions before it decomposes.]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Lindemann–Hinshelwood mechanism explains unimolecular behavior by proposing an activation step \(A + M \rightleftharpoons A^* + M\), where collisions with a bath gas \(M\) create an energized species \(A^*\), followed by decomposition \(A^* \rightarrow\) products.  This accounts for the observed pressure dependence of unimolecular rate constants, because the formation of \(A^*\) depends on collision frequency.  A bimolecular transition state as the rate-determining step is not the defining feature here; rather, the decomposition step is unimolecular once \(A^*\) is formed.  The rate is not always pressure-independent; pressure effects arise especially when collisional activation is not fully efficient.  Quantum tunneling can modify rates in some cases, but it is not the core assumption behind Lindemann-type unimolecular kinetics.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Collisions create an energized molecule that can then react unimolecularly]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction proceeds through a bimolecular transition state in the rate-determining step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The rate is always independent of pressure because the molecularity is one]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The mechanism assumes that only quantum tunneling can initiate decomposition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A hallmark of unimolecular kinetics]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A hallmark of unimolecular kinetics at sufficiently high pressure is that the observed rate law tends to become:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In unimolecular reactions, at high pressure the energized reactant population can be maintained efficiently through frequent collisions, so the effective rate constant approaches a limiting value and the overall rate becomes first order in the reactant.  Second- or third-order behavior is not the defining high-pressure limit for unimolecular decomposition in this framework.  Zero-order kinetics would imply rate independence from reactant concentration, which is not characteristic of unimolecular decomposition under typical conditions.  Even though bath gas collisions matter mechanistically, the high-pressure limiting kinetics still appear first order in the reactant.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[First order in the reactant concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Second order in the reactant concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Zero order in the reactant concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always third order due to collisions with the bath gas]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the low-pressure limit for]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the low-pressure limit for unimolecular reactions (as treated in Lindemann-type behavior), the observed rate constant typically shows strong dependence on:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In the low-pressure limit, formation of the energized species \(A^*\) by collisions becomes the bottleneck, so the rate depends strongly on collision frequency and therefore on pressure (or bath gas concentration).  Dependence solely on initial reactant concentration would miss the central pressure-regime behavior emphasized for unimolecular kinetics.  Product concentration is generally not the controlling factor for the forward unimolecular decomposition rate in this model.  Solvent dielectric constant can influence some reactions, but pressure dependence is the signature feature highlighted for unimolecular rate behavior across regimes.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Pressure (or bath-gas concentration)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the initial reactant concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the product concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the solvent dielectric constant, independent of pressure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A potential energy surface (PES)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A potential energy surface (PES) is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A PES represents how the potential energy changes with the nuclear coordinates (molecular geometry), providing an energy landscape connecting reactants, transition states, intermediates, and products.  Kinetic energy vs time is a trajectory/dynamics description, not the PES definition.  Equilibrium constant vs temperature is a thermodynamic relationship and does not define the PES itself.  Activation entropy is an activation parameter derived from rate theory, not a standalone definition of a PES.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A multidimensional map of potential energy as a function of molecular geometry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A plot of kinetic energy versus time for a reacting molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A diagram showing only the equilibrium constant versus temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A graph that contains only the activation entropy without energies]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[On a reaction PES, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[On a reaction PES, a transition state is commonly associated with a:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A transition state corresponds to a first-order saddle point on the PES: it is a maximum along the reaction coordinate direction but a minimum along all other perpendicular coordinates.  A global minimum corresponds to the most stable structure (often reactant, product, or intermediate), not the transition state.  A completely flat region is not the characteristic stationary point used to define a transition state.  A pure maximum with all directions unstable would not represent the typical transition-state condition emphasized in reaction path theory.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Saddle point]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Global minimum]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Flat region with no curvature in any direction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pure maximum with all directions unstable]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A first-order saddle point is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A first-order saddle point is characterized (in terms of the Hessian eigenvalues) by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A first-order saddle point has one direction of negative curvature (one negative Hessian eigenvalue), corresponding to the reaction coordinate that leads downhill to reactants on one side and products on the other.  No negative eigenvalues corresponds to a minimum.  Two or more negative eigenvalues would indicate a higher-order saddle point rather than the typical transition state used in basic TST analysis.  All negative eigenvalues would correspond to an unstable maximum, not the standard transition-state scenario for a single reaction coordinate.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Exactly one negative eigenvalue]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No negative eigenvalues]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Two negative eigenvalues]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[All eigenvalues negative]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In vibrational (frequency) analysis, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In vibrational (frequency) analysis, a transition state structure on a PES typically shows:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A transition state (first-order saddle point) is associated with exactly one unstable mode, observed as one imaginary frequency in vibrational analysis, which corresponds to motion along the reaction coordinate.  Minima have all real frequencies, so “no imaginary frequencies” would indicate a stable minimum rather than a transition state.  Two imaginary frequencies would imply a second-order saddle point, which is not the standard transition-state structure for a single elementary step.  Fully stable structures do not represent transition states and therefore do not match the defining frequency signature.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[One imaginary frequency associated with motion along the reaction coordinate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No imaginary frequencies because it is a minimum]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Two imaginary frequencies because it is always a higher-order saddle]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only real frequencies because the structure is fully stable]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Transition State Theory (TST) is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Transition State Theory (TST) is fundamentally based on the idea of an:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[TST assumes formation of an activated complex (transition-state ensemble) that is in quasi-equilibrium with reactants, and that the rate is determined by the flux through the dividing surface at the transition state.  Diffusion control is a different limiting regime and is not the defining assumption of TST here.  TST is not an exact full quantum trajectory solution; it is an approximate theory with defined assumptions and limitations.  Product stability (thermodynamics of products) does not alone determine the rate; the activation barrier and activated complex properties are central.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Activated complex in quasi-equilibrium with reactants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always diffusion-controlled collision frequency]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Exact quantum mechanical treatment of all trajectories]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Product-determined rate (rate fixed only by product stability)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Eyring equation in TST]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Eyring equation in TST most directly relates the rate constant to the:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In TST, the Eyring formulation connects the rate constant to the free energy of activation \(\Delta G^\ddagger\), highlighting how activation enthalpy and activation entropy influence the rate.  The heat of reaction (\(\Delta H\) of reaction) is not the primary variable in the Eyring expression for rate; activation parameters control the barrier crossing.  While equilibrium concepts appear via the activated complex hypothesis, the equation is not solely an equilibrium-constant statement without activation free energy.  Collision cross-section is central to collision theory, not the direct basis of the Eyring TST rate expression emphasized here.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Free energy of activation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heat of reaction only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Equilibrium constant only, without any activation term]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Collisional cross-section only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In activation thermodynamics within TST]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In activation thermodynamics within TST, the temperature dependence of a rate constant is interpreted using activation parameters such as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[TST emphasizes that the rate’s temperature dependence can be analyzed in terms of activation enthalpy \(\Delta H^\ddagger\) and activation entropy \(\Delta S^\ddagger\), which together determine \(\Delta G^\ddagger\).  Internal energy and volume of reactants are not the standard activation parameters used in the Eyring/activation-thermodynamics framework described.  Entropy of reaction concerns overall reactants-to-products thermodynamics, whereas the rate is governed by activation entropy tied to the transition-state ensemble.  Gibbs energy of reaction (overall) is not the same as Gibbs free energy of activation and does not alone fix the kinetic rate constant.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/84acffa8-5ba0-4f09-bb85-0bdd030fcc50/physical_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Enthalpy and entropy of activation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only internal energy and volume of the reactants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only entropy of reaction (not activation)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only Gibbs energy of reaction (products minus reactants)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

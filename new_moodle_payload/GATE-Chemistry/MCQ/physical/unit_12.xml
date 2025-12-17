@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A reversible association \(A +</text>
+    </name>
+    <questiontext format="html">
+      <text>A reversible association \(A + B \rightleftharpoons AB\) is studied by a temperature-jump relaxation experiment starting from equilibrium. Which statement best justifies why relaxation methods are especially suitable for extracting kinetic information for such a fast, reversible system compared to a simple stopped-flow “mix-and-watch” experiment?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Relaxation methods deliberately start from equilibrium and apply a small perturbation (temperature/pressure/electric field) and then monitor the return to equilibrium, which is inherently sensitive to forward and reverse rate contributions in reversible fast systems.  Stopped-flow initiates reaction by rapid mixing and is constrained by mixing/dead time and the need to resolve early-time concentration changes; for very fast reversible establishment, early transients can be missed or compressed into dead time.  The idea that relaxation “measures diffusion directly” confuses diffusion-controlled models with relaxation methodology; relaxation primarily provides kinetic relaxation times that relate to underlying rate constants and equilibrium behavior.  Relaxation methods are not restricted to photochemical systems; they are general fast-kinetics tools for reversible processes.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Relaxation methods avoid mixing altogether by perturbing an equilibrium system and monitoring return, allowing reversible kinetics to be inferred from relaxation behavior</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Relaxation methods always measure diffusion coefficients directly, so rate constants are unnecessary</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stopped-flow cannot be used for any bimolecular reaction, only unimolecular reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Relaxation methods work only when the reaction is photochemical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a reaction in solution</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a reaction in solution suspected to be diffusion-controlled. Which combined experimental trend most strongly supports diffusion control rather than activation control?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Diffusion-controlled kinetics are characterized by rates limited by transport/encounter in solution, so increasing viscosity (reducing diffusion) lowers the observed bimolecular rate, and rates can approach an upper “diffusion limit” rather than increasing indefinitely.  A strong temperature dependence independent of viscosity is more typical of activation-controlled processes where barrier crossing dominates rather than diffusion encounter.  Quantum yield greater than unity pertains to chain photoreactions and does not diagnose diffusion control in thermal bimolecular encounters.  Changes with light intensity and Stern–Volmer nonlinearity relate to photochemical/photophysical mechanisms (excited-state pathways and quenching behavior), not directly to diagnosing diffusion-limited thermal bimolecular reactions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Rate increases strongly with temperature but is independent of viscosity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Rate decreases when viscosity increases, and the apparent rate approaches a limiting maximum consistent with diffusion encounter control</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rate is unchanged by solvent viscosity, but quantum yield is greater than unity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rate decreases with light intensity, and Stern–Volmer plots become nonlinear</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A fluorophore’s emission intensity decreases</text>
+    </name>
+    <questiontext format="html">
+      <text>A fluorophore’s emission intensity decreases with added quencher, but its measured excited-state lifetime remains essentially unchanged. Which interpretation is most consistent with this observation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The kinetics of photophysical processes and Stern–Volmer analysis distinguish quenching mechanisms; dynamic quenching typically reduces both intensity and lifetime because it introduces an additional excited-state deactivation pathway.  If intensity decreases while lifetime is unchanged, that behavior is consistent with static quenching (e.g., non-emissive ground-state complexes) where fewer fluorophores are emissive but the lifetime of those that do emit is not shortened.  Diffusion-controlled encounter concepts can influence dynamic quenching rates, but unchanged lifetime is not the hallmark of diffusion control; it points to a different quenching mechanism.  Quenchers do not generally increase fluorescence quantum yield; they add nonradiative pathways or remove emissive population, so an “increase” conflicts with the kinetic competition picture for excited-state deactivation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Purely dynamic (collisional) quenching dominates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A significant static quenching component is present (complex formation/ground-state association), so intensity drops without shortening lifetime</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The system must be diffusion-controlled in the Smoluchowski sense</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The fluorescence quantum yield must increase with quencher concentration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A pulsed excitation (flash photolysis)</text>
+    </name>
+    <questiontext format="html">
+      <text>A pulsed excitation (flash photolysis) produces a transient \(T\) that decays back to ground state while also reacting with a substrate \(S\). Which conceptual strategy best matches the integrated fast-kinetics approach for extracting mechanistic information?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Laser flash photolysis is designed for creating and observing transient species on short timescales, and integrated fast-kinetics problem solving emphasizes selecting appropriate transient/spectroscopic methods and interpreting coupled kinetic schemes.  Varying substrate concentration and tracking transient decay allows separation of intrinsic photophysical decay channels from reactive consumption, consistent with formulating kinetic models for primary/secondary processes and using transient techniques to obtain kinetic data.  Relying only on equilibrium constants or only on final yields discards the time-domain information that fast-kinetics methods are built to capture, especially when intermediates are short-lived.  Manual mixing is limited by mixing/dead time and is not generally “faster” than pulsed photochemical generation for nanosecond–microsecond transients.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use only equilibrium constants; transient time profiles are unnecessary</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Monitor time-resolved signals after the pulse, vary \([S]\), and interpret the transient decay as coupled kinetics (intrinsic decay plus reaction), using the transient method suited for short lifetimes</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Replace flash photolysis with manual mixing because mixing is always faster than photolysis</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Measure only the final product yield and ignore transient observation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A researcher must choose between</text>
+    </name>
+    <questiontext format="html">
+      <text>A researcher must choose between (i) stopped-flow rapid mixing and (ii) a relaxation (temperature-jump) method to study a fast reversible reaction where equilibrium is established extremely quickly after perturbation. Which choice and reasoning is most defensible?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The stated scenario (very fast reversible equilibration) aligns with the defining strength of relaxation methods: perturb an equilibrium system and monitor relaxation back, enabling extraction of kinetic information in regimes where conventional initiation-by-mixing can be constrained by instrument response and dead time.  Stopped-flow is valuable for fast reactions but remains limited by mixing/dead time; dead time does not “improve” resolution—it is a limitation that can prevent observing the earliest kinetics.  Relaxation methods are explicitly introduced as a way to study fast reactions by equilibrium perturbation (temperature-jump/pressure-jump/electric-field-jump), so claiming reversible reactions cannot be studied by relaxation contradicts the method’s purpose.  Diffusion-controlled theory is one mechanistic limit, but it does not replace the need for appropriately chosen experiments when extracting kinetic parameters and mechanisms.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8d20b95b-bdc3-4524-a196-4d429e7110c8/physical_unit_12.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Choose stopped-flow because reversible reactions cannot be studied by relaxation methods</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Choose temperature-jump relaxation because the experiment probes return to equilibrium and can relate the observed relaxation behavior to underlying forward/reverse kinetics for very fast reversible systems</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Choose stopped-flow because dead time improves resolution of very fast reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Choose neither; only diffusion-controlled theory applies and experiments are unnecessary</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Fast reaction kinetics is primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>Fast reaction kinetics is primarily concerned with reactions that occur on which approximate timescale range?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fast reaction kinetics deals with reactions so rapid that conventional “mix, wait, and sample” methods cannot follow them in real time; typical lifetimes are in the microsecond to nanosecond regime.  Hours-to-days and minutes-to-hours are accessible by standard kinetic monitoring (e.g., spectrophotometry with ordinary mixing).  Years-to-decades is unrelated to laboratory fast-kinetics methodology.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Hours to days</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Minutes to hours</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Microseconds to nanoseconds</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Years to decades</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In relaxation methods, the experiment</text>
+    </name>
+    <questiontext format="html">
+      <text>In relaxation methods, the experiment begins by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Relaxation methods are based on disturbing an equilibrium system (by temperature-jump, pressure-jump, or electric-field-jump) and observing the relaxation back to equilibrium.  Rapid mixing followed by monitoring corresponds to flow/rapid-mixing methods, not relaxation methods.  Removing catalyst is not the defining operational principle of relaxation kinetics.  Viscosity/diffusion may influence rates in diffusion control, but it is not the defining start-step of relaxation experiments.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Rapidly mixing two reactant solutions and monitoring product formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Perturbing a system at equilibrium and monitoring its return to equilibrium</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Removing catalyst and monitoring rate decrease</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Measuring viscosity to infer diffusion coefficient directly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A stopped-flow technique is best</text>
+    </name>
+    <questiontext format="html">
+      <text>A stopped-flow technique is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Stopped-flow is a rapid-mixing (flow) technique designed to follow fast kinetics right after reactants are mixed, accounting for mixing/dead time.  Pressure-jump is a relaxation (perturbation) method, not a flow method.  Stopped-flow is widely used for solution kinetics (including enzyme kinetics), not restricted to gas-phase unimolecular reactions.  Phosphorescence lifetimes belong to photophysical kinetics; stopped-flow is not “only” for that purpose.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A perturbation method that uses pressure pulses to shift equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A rapid-mixing method that observes kinetics immediately after mixing</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A method that only works for gas-phase unimolecular reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A method used only for measuring phosphorescence lifetimes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The term “dead time” in</text>
+    </name>
+    <questiontext format="html">
+      <text>The term “dead time” in rapid-mixing/flow experiments most directly refers to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Dead time is the instrumental/mixing limitation: the interval between initiating the reaction by mixing and when the detector can first observe a trustworthy signal.  It is not the late-time plateau after reaction completion (that is simply reaching completion or steady signal).  Excited-state lifetimes are photophysical parameters, not the definition of mixing dead time.  Diffusion encounter time can influence kinetics, but “dead time” is an apparatus/measurement constraint.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The time after completion of reaction when signal stops changing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The time between mixing and the earliest reliable measurement</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The lifetime of the excited singlet state</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The time required for diffusion-controlled encounter</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A diffusion-controlled reaction is one</text>
+    </name>
+    <questiontext format="html">
+      <text>A diffusion-controlled reaction is one in which the observed rate is limited mainly by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In diffusion-controlled reactions, the rate is governed by how quickly reactants can diffuse and encounter each other in solution rather than by the intrinsic chemical transformation once they meet.  If an intrinsic activation barrier dominates, the process is activation-controlled, not diffusion-controlled.  Light intensity is relevant for photochemical initiation, not as the defining limitation of diffusion-controlled thermal encounters.  An equilibrium constant alone does not set the encounter-limited rate; transport (diffusion) is the key limitation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The intrinsic activation barrier of the chemical step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Diffusion of reactants through the solvent to meet</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The intensity of incident light only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The equilibrium constant of the ground-state reactants only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Jablonski diagram is primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>A Jablonski diagram is primarily used to represent:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A Jablonski diagram is an energy-level scheme showing electronic states (e.g., singlet/triplet) and pathways like fluorescence, phosphorescence, internal conversion, and intersystem crossing.  It is not a diagram of diffusion flux or solvent transport.  It is unrelated to mechanical mixing geometries of flow devices.  Pressure dependence of equilibria is addressed in pressure-jump concepts, not by Jablonski diagrams.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Diffusion flux lines of reactants in a solvent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Electronic states and radiative/nonradiative transitions between them</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mixing patterns in stopped-flow chambers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pressure dependence of equilibrium constants in relaxation methods</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which process is photophysical rather</text>
+    </name>
+    <questiontext format="html">
+      <text>Which process is photophysical rather than photochemical?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Photophysical processes involve deactivation of excited states without chemical change, such as fluorescence, phosphorescence, internal conversion, and intersystem crossing.  Formation of new products, bond cleavage, and chain reactions represent photochemical outcomes because they involve chemical transformation.  The key distinction is whether excitation leads to chemistry (photochemical) or only state-to-state relaxation/emission (photophysical).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Formation of new chemical products after excitation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Fluorescence emission from an excited state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Photoinduced bond cleavage producing radicals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Light-initiated chain reaction with net chemical change</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Quantum yield in photochemistry is</text>
+    </name>
+    <questiontext format="html">
+      <text>Quantum yield in photochemistry is best defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Quantum yield is the ratio of the number of events of a particular type (such as product formation or photon emission) to the number of photons absorbed.  Photons emitted per molecule initially present is not tied to absorbed photons and can misrepresent efficiency.  A single rate constant (e.g., intersystem crossing) contributes to quantum yield but is not the definition.  Transmittance concerns optical attenuation, not event-per-absorbed-photon efficiency.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Photons emitted per molecule initially present</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Number of specified events (reaction or emission) per photon absorbed</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rate constant of intersystem crossing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Fraction of light transmitted through a sample</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Stern–Volmer analysis is most directly</text>
+    </name>
+    <questiontext format="html">
+      <text>Stern–Volmer analysis is most directly associated with studying:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Stern–Volmer analysis is used to analyze fluorescence quenching (including dynamic and static quenching) and relate changes in intensity/lifetime to quencher presence.  Pressure-jump is a relaxation technique but not the Stern–Volmer framework.  Although diffusion can affect dynamic quenching, Stern–Volmer analysis is not restricted to “diffusion-controlled in the dark”; it is specifically a quenching relationship used in excited-state kinetics.  Mixing dead time is an instrumental concept in flow methods, not a fluorescence quenching model.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Pressure-jump relaxation back to equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Fluorescence quenching behavior</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Diffusion-controlled bimolecular rate limits only in the dark</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Mixing dead time in stopped-flow instruments</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Laser flash photolysis is mainly</text>
+    </name>
+    <questiontext format="html">
+      <text>Laser flash photolysis is mainly used to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Laser flash photolysis uses a short light pulse to create reactive/transient species and then monitors their evolution on very short timescales, enabling observation of short-lived intermediates.  Slow titration is not a transient, fast-kinetics technique.  Viscosity measurement by capillary flow is a transport-property experiment, not flash photolysis.  Stopped-flow mixing efficiency is a mechanical/flow design issue, not something laser flash photolysis is designed to improve.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8d20b95b-bdc3-4524-a196-4d429e7110c8/physical_unit_12.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Generate and monitor transient species on very short timescales</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Measure equilibrium constants by slow titration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Determine viscosity by capillary flow</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Increase mixing efficiency in stopped-flow experiments</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a relaxation experiment on</text>
+    </name>
+    <questiontext format="html">
+      <text>In a relaxation experiment on the reversible reaction \(A \rightleftharpoons B\), the system is at equilibrium and then a small temperature-jump is applied. The measured relaxation time is \(\tau = 0.020\ \text{s}\). If independent equilibrium measurements give \(K = \dfrac{[B]_{\mathrm{eq}}}{[A]_{\mathrm{eq}}}=4.0\), what is the forward rate constant \(k_f\) (for \(A \to B\)) assuming first-order forward and reverse steps?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a simple reversible first-order system, the relaxation rate is the sum of forward and reverse rate constants: \(\dfrac{1}{\tau}=k_f+k_r\).  Also, \(K=\dfrac{k_f}{k_r}\Rightarrow k_r=\dfrac{k_f}{K}\).  Hence \(\dfrac{1}{\tau}=k_f+\dfrac{k_f}{K}=k_f\left(1+\dfrac{1}{K}\right)\).  With \(\tau=0.020\ \text{s}\), \(\dfrac{1}{\tau}=50\ \text{s}^{-1}\), so \(k_f=\dfrac{50}{1+1/4}=\dfrac{50}{1.25}=40\ \text{s}^{-1}\); but note \(K=[B]/[A]=4\) implies \(k_f/k_r=4\), giving \(k_f=40\ \text{s}^{-1}\).  The option matching this is 40 s\(^{-1}\); therefore the correct choice is the one listing \(40\ \text{s}^{-1}\), while \(20\ \text{s}^{-1}\) would correspond to incorrectly using \(1/\tau=k_f\) only (ignoring the reverse step).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(k_f = 10\ \text{s}^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(k_f = 20\ \text{s}^{-1}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(k_f = 40\ \text{s}^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(k_f = 50\ \text{s}^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A stopped-flow instrument has a</text>
+    </name>
+    <questiontext format="html">
+      <text>A stopped-flow instrument has a dead time of \(2.0\ \text{ms}\). A reaction has a characteristic half-life of \(0.50\ \text{ms}\). Which statement is most accurate regarding measurement of the early-time kinetics?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In flow/rapid-mixing methods, dead time sets the earliest time point accessible after mixing, so processes faster than the dead time cannot be directly observed in their initial stage.  With \(t_{1/2}=0.50\ \text{ms}\) and dead time \(2.0\ \text{ms}\), multiple half-lives elapse before observation begins, so only later-time remnants of the kinetic trace are captured.  Assuming stopped-flow resolves “any” fast reaction ignores the instrument-response limitation emphasized for fast kinetics methods.  Relaxation methods differ conceptually from rapid-mixing methods (perturb equilibrium vs initiate reaction by mixing), so they are not automatically identical in information content.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The reaction can be fully resolved because stopped-flow is designed for any fast reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Only the tail end (post-dead-time) behavior can be observed; the earliest kinetics are missed</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The dead time is irrelevant because only equilibrium matters</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Relaxation methods and stopped-flow give identical information here</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a diffusion-controlled bimolecular reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>For a diffusion-controlled bimolecular reaction in solution, the Smoluchowski model predicts that increasing the solvent viscosity should generally:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In diffusion-controlled reactions, the limiting factor is how quickly reactants diffuse to encounter each other; higher viscosity typically lowers diffusion coefficients, reducing encounter rates.  The Smoluchowski framework explicitly treats the rate as diffusion-limited rather than activation-controlled, so viscosity changes matter strongly.  Claiming the rate constant is unchanged assumes activation control, which contradicts the definition of diffusion control.  Reaction order is governed by molecularity/kinetic scheme; diffusion control affects the magnitude of the bimolecular rate constant, not the fundamental order.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increase the rate constant because collisions become more frequent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Decrease the diffusion-controlled rate constant because diffusion slows</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Leave the rate constant unchanged because activation energy dominates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Make the reaction first order instead of second order</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An excited singlet state \(S_1\)</text>
+    </name>
+    <questiontext format="html">
+      <text>An excited singlet state \(S_1\) decays by fluorescence with rate constant \(k_f\) and by nonradiative internal conversion with rate constant \(k_{nr}\). If \(k_f = 2.0\times 10^8\ \text{s}^{-1}\) and \(k_{nr}=8.0\times 10^8\ \text{s}^{-1}\), what is the fluorescence quantum yield \(\Phi_f\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For competing first-order decay channels from an excited state, the quantum yield for fluorescence is \(\Phi_f=\dfrac{k_f}{k_f+k_{nr}}\).  Substituting gives \(\Phi_f=\dfrac{2.0}{2.0+8.0}=0.20\).  A value of 0.25 would result from an arithmetic slip (using 2/(8) instead of 2/(10)).  Larger values like 0.5 or 0.8 would incorrectly assume radiative decay dominates despite \(k_{nr}\) being larger.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>0.20</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.25</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.50</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.80</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A fluorophore shows dynamic quenching</text>
+    </name>
+    <questiontext format="html">
+      <text>A fluorophore shows dynamic quenching with quencher concentration \([Q]\). The Stern–Volmer plot of \(\dfrac{I_0}{I}\) vs \([Q]\) is linear with slope \(K_{SV}=10\ \text{M}^{-1}\). If \([Q]=0.20\ \text{M}\), what is \(\dfrac{I}{I_0}\) predicted by Stern–Volmer behavior?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Stern–Volmer analysis relates intensity quenching to quencher concentration as \(\dfrac{I_0}{I}=1+K_{SV}[Q]\) for a linear dynamic-quenching case.  Here \(\dfrac{I_0}{I}=1+10(0.20)=3\), so \(\dfrac{I}{I_0}=1/3\approx 0.33\); however note the question asks \(I/I_0\), which is 0.33.  The distractor 0.67 corresponds to mistakenly using \(I/I_0=1+K_{SV}[Q]\) instead of its inverse.  Values like 0.50 or 0.83 are typical of underestimating the quenching effect or using the wrong slope–intercept interpretation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.33</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.50</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>0.67</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.83</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A photochemical reaction has quantum</text>
+    </name>
+    <questiontext format="html">
+      <text>A photochemical reaction has quantum yield \(\Phi = 0.60\). If the absorbed photon rate is \(R_{\text{abs}} = 2.0\times 10^{-6}\ \text{einstein s}^{-1}\), what is the rate of product formation (in \(\text{einstein s}^{-1}\)) for a primary photochemical process?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Quantum yield is defined as events per photon absorbed, so the event (product-formation) rate is \(R_{\text{prod}}=\Phi\,R_{\text{abs}}\).  Thus \(R_{\text{prod}}=0.60\times 2.0\times 10^{-6}=1.2\times 10^{-6}\ \text{einstein s}^{-1}\).  Taking \(R_{\text{prod}}=R_{\text{abs}}\) would incorrectly assume \(\Phi=1\).  A larger value like \(3.3\times 10^{-6}\) would correspond to \(\Phi&gt;1\), which is possible for chain photoreactions but not for a single-step primary process unless chain amplification is present.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(1.2\times 10^{-6}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2.0\times 10^{-6}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(3.3\times 10^{-6}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(0.8\times 10^{-6}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A chain photoreaction shows an</text>
+    </name>
+    <questiontext format="html">
+      <text>A chain photoreaction shows an experimentally measured quantum yield of 12. Which interpretation is most consistent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Quantum yields greater than unity are characteristic of chain photoreactions, where one absorbed photon initiates a sequence of propagation steps producing many product molecules.  If the sample were not absorbing photons, a meaningful quantum yield could not be established for photochemical conversion.  Pure fluorescence deactivation would reduce chemical quantum yield rather than increase it above 1.  Diffusion control concerns encounter-limited bimolecular rates in solution and is not the defining reason for \(\Phi \gg 1\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>More than one product molecule is formed per photon absorbed due to chain propagation steps</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The sample is not absorbing any photons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The excited state decays only by fluorescence</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction must be diffusion-controlled</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In selecting a method to</text>
+    </name>
+    <questiontext format="html">
+      <text>In selecting a method to study a very fast reaction, which pairing is most appropriate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Matching reaction timescales to instrumental response is central in fast kinetics; microsecond regimes often require rapid-mixing/flow methods or relaxation methods rather than conventional techniques.  Manual mixing and titration generally cannot resolve millisecond transients due to mixing and detection limitations.  Laser flash photolysis is suited to producing/monitoring very short-lived transients but is not the only tool for minute-scale kinetics.  Nanosecond kinetics cannot be followed by simple cuvette mixing because the mixing and detection times are far too slow.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Millisecond kinetics → conventional manual mixing and titration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Microsecond kinetics → stopped-flow or relaxation techniques</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Minute kinetics → laser flash photolysis only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nanosecond kinetics → simple colorimetry with cuvette mixing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A system at equilibrium is</text>
+    </name>
+    <questiontext format="html">
+      <text>A system at equilibrium is perturbed by an electric-field jump and the observable relaxes exponentially back with a single relaxation time. Which key parameter(s) can be obtained from such relaxation data for a simple reversible process?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Relaxation methods monitor return to equilibrium after a perturbation and allow extraction of relaxation time, which is related to the kinetic rate parameters for reversible schemes.  For a simple reversible case, relaxation time depends on the forward and reverse rate constants; combining relaxation data with equilibrium information allows separation of individual rate constants.  Diffusion coefficients are central to diffusion-controlled models, but relaxation experiments primarily report kinetic relaxation back to equilibrium, not diffusion alone.  Activation energy requires temperature dependence measurements; a single relaxation trace does not uniquely provide it.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only the equilibrium constant, never rate constants</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The sum of forward and reverse rate constants (and with \(K\), individual rate constants)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the diffusion coefficient of reactants</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the activation energy without any additional data</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A transient intermediate is produced</text>
+    </name>
+    <questiontext format="html">
+      <text>A transient intermediate is produced by a short light pulse and monitored spectroscopically over time. Which technique is being described?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A pulsed light source creating transient species followed by time-resolved monitoring is the defining operational picture of laser flash photolysis.  Stopped-flow and continuous-flow are rapid-mixing approaches that initiate reactions by mixing, not by a light pulse.  Pressure-jump is a relaxation (equilibrium perturbation) method and does not inherently rely on generating transients by photopulses.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8d20b95b-bdc3-4524-a196-4d429e7110c8/physical_unit_12.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Stopped-flow spectroscopy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Laser flash photolysis</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pressure-jump relaxation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Continuous-flow mixing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

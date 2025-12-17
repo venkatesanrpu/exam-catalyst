@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>An atomic transition is labeled</text>
+    </name>
+    <questiontext format="html">
+      <text>An atomic transition is labeled “electric-dipole forbidden” in the LS-coupling picture. Which statement best explains why such a line can still be experimentally observed (though weak) in real spectra?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In quantum mechanics, “forbidden” typically means the transition dipole moment (transition moment integral) is zero under an idealized symmetry/coupling approximation, giving vanishing intensity in that approximation.  Real atoms/molecules deviate from the idealized limit because interactions such as spin–orbit coupling and configuration mixing perturb the eigenstates, so the initially forbidden transition can borrow intensity from allowed transitions and become weakly observable.  Temperature and Doppler effects influence populations and linewidths, not the fundamental dipole-allowed/forbidden character, and energy conservation is never violated by a genuine spectral line.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Selection rules are exact only if the transition moment integral is strictly zero; small state-mixing (e.g., spin–orbit, configuration interaction) can make the transition moment nonzero</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Forbidden transitions become allowed only at absolute zero temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Forbidden transitions become strong when Doppler broadening dominates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Forbidden transitions violate energy conservation, so observed lines must be artifacts</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In terms of the transition</text>
+    </name>
+    <questiontext format="html">
+      <text>In terms of the transition moment integral, the most fundamental criterion for an electric dipole transition between two stationary states \(\psi_i\) and \(\psi_f\) to be allowed is that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Electric-dipole selection rules are compactly expressed through the transition dipole moment integral; if its symmetry makes it vanish, the transition intensity is (ideally) zero and the line is “forbidden.”  This symmetry-based viewpoint connects directly to group theory language: the transition moment function must contain the totally symmetric representation for the integral to be nonzero.  Equal energies are irrelevant to allowedness (they would imply no photon energy), and commutation of \(\hat{\mu}\) with the Hamiltonian is not the criterion for radiative transition probability.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\int \psi_f^* \,\hat{\mu}\, \psi_i \, d\tau \neq 0\) (i.e., the transition moment is nonzero)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\int \psi_f^* \,\hat{\mu}\, \psi_i \, d\tau = 0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\psi_f\) and \(\psi_i\) must have the same energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\hat{\mu}\) must commute with the Hamiltonian</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A measured isolated spectral line</text>
+    </name>
+    <questiontext format="html">
+      <text>A measured isolated spectral line is well-fit by a Voigt profile. The most consistent physical interpretation is that the observed line shape arises from:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In spectroscopy, Gaussian profiles are typically associated with Doppler broadening from thermal velocity distributions, while Lorentzian profiles are associated with lifetime (natural) and collisional (pressure) broadening.  When both broadening classes contribute significantly, the resulting profile is the convolution of the two, called a Voigt profile.  Purely Doppler or purely lifetime broadening would not generally require a Voigt description, and instrumental broadening can contribute but does not uniquely imply a Voigt form without underlying physical mechanisms.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Convolution of a Gaussian mechanism (e.g., Doppler) with a Lorentzian mechanism (e.g., natural/pressure broadening)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Purely Doppler broadening with no collisional or lifetime effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Purely lifetime broadening with zero thermal motion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Instrumental broadening only, with no physical broadening</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a UV-Vis absorption spectrum</text>
+    </name>
+    <questiontext format="html">
+      <text>In a UV-Vis absorption spectrum, two transitions have the same transition energy, but one band has much larger molar extinction coefficient \(\varepsilon\). The best quantum-mechanical reason is that the stronger band has:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The intensity of an electronic absorption is governed by the transition probability, which is directly tied to the transition dipole moment (transition moment integral) and is commonly quantified via oscillator strength and experimentally via \(\varepsilon\).  If two transitions are at the same energy, the major differentiator for intensity is how strongly the radiation field couples the initial and final states, i.e., how large the transition dipole moment is (and thus how “allowed” the transition is).  Reduced mass and rotational constants are central to vibrational/rotational structure, and the external NMR field \(B_0\) is unrelated to UV-Vis band intensity.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A larger magnitude of transition dipole moment (larger transition moment integral), hence larger oscillator strength</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A smaller reduced mass of the molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A larger rotational constant \(B\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A smaller external magnetic field \(B_0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student claims: “If Doppler</text>
+    </name>
+    <questiontext format="html">
+      <text>A student claims: “If Doppler broadening increases with temperature, then the integrated absorption area of a single isolated transition must also increase with temperature because the line gets wider.” Which statement most correctly evaluates this claim?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Line broadening mechanisms (Doppler, pressure, natural) primarily change the line shape and how intensity is distributed versus frequency, not automatically the total probability associated with the transition.  Increasing Doppler width with temperature commonly spreads absorption over a wider range, lowering the peak amplitude for the same overall transition strength, so “wider” does not imply “larger integrated area.”  Lorentzian vs Gaussian affects the functional form of the line, but the misconception remains: width alone does not dictate the integrated strength, and forbidden/allowed character affects baseline strength rather than the geometric conclusion about width versus area.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/065ae3cc-ba52-4a98-beb8-27f6d5393003/physical_unit_05.txt)
+(https://en.wikipedia.org/wiki/Selection_rule)
+(https://en.wikipedia.org/wiki/Voigt_profile)
+(https://www.surfacesciencewestern.com/wp-content/uploads/ass18_biesinger.pdf)
+(https://www.linkedin.com/pulse/fitting-spectral-lines-gaussian-versus-lorentzian-voigt-aulin)
+(https://www.sciencedirect.com/science/article/abs/pii/S0263224125012680)
+(https://blog.truegeometry.com/calculators/Voigt_profile_calculation.html)
+(https://en.wikipedia.org/wiki/Transition_dipole_moment)
+(https://talk.q-chem.com/t/understanding-tddft-output-transition-moment-and-oscillator-strength/1734)
+(https://heasarc.gsfc.nasa.gov/docs/software/xspec/manual/node247.html)
+(https://entri.app/blog/wp-content/uploads/2022/05/selection-rules.pdf)
+(https://alpha.chem.umb.edu/chemistry/ch612/documents/Week4.pdf)
+(https://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/manual/node243.html)
+(https://talk.q-chem.com/t/oscillator-strength-formula/1766)
+(https://www.sciencedirect.com/science/article/abs/pii/S0169433218308766)
+(https://bingweb.binghamton.edu/~suzuki/QuantumMechanicsFiles/2-2_Selection_rule_for_electric_dipole_transition.pdf)
+(https://en.wikipedia.org/wiki/Oscillator_strength)
+(https://scipython.com/books/book2/chapter-8-scipy/examples/the-voigt-profile/)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Fundamentals_of_Spectroscopy/Selection_rules_and_transition_moment_integral)
+(https://www.physik.fu-berlin.de/einrichtungen/ag/ag-heyne/docs/teaching/Advanced-Atomic-and-Molecular-Physics/abs_fl_calculations_en.pdf)
+(https://en.wikipedia.org/wiki/Spectral_line_shape)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The claim is incorrect: broadening redistributes intensity over frequency; width can increase while peak height decreases, and total area is not forced to increase just because the line is wider</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The claim is correct: wider lines always have larger integrated area</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The claim is correct only for Lorentzian lines, not for Gaussian lines</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The claim is correct only if the transition is electric-dipole forbidden</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Russell–Saunders (LS) coupling, the</text>
+    </name>
+    <questiontext format="html">
+      <text>In Russell–Saunders (LS) coupling, the total angular momentum quantum number \(J\) is obtained by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In LS coupling, orbital angular momenta combine to give total \(L\), spins combine to give total \(S\), and then \(L\) and \(S\) couple to give the total angular momentum \(J\).  Quantum mechanically, vector addition permitsits multiple \(J\) values from \(|L-S|\) up to \(L+S\) in integer steps, which is central to building atomic term levels.  The single-value forms \(J=L+S\) or \(J=L-S\) ignore the allowed range, and \(J=LS\) has no basis in angular momentum coupling rules.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Vector addition of \(L\) and \(S\), giving \(J = |L-S|, |L-S|+1, \dots, L+S\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Simple arithmetic sum \(J=L+S\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Product of \(L\) and \(S\), i.e., \(J=LS\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Difference \(J=L-S\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A term symbol \(^{2S+1}L_J\) directly</text>
+    </name>
+    <questiontext format="html">
+      <text>A term symbol \(^{2S+1}L_J\) directly indicates that \(2S+1\) is the:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In term symbols, \(^{2S+1}\) is the spin multiplicity, determined by total spin \(S\), and it tells how many spin states correspond to the term.  This is a foundational label used along with \(L\) (S, P, D, F, …) and \(J\) to describe atomic energy levels in spectroscopy.  It is not tied to electron count directly, nor to the principal quantum number, and “orbital multiplicity” is not the meaning of \(2S+1\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Spin multiplicity</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Orbital multiplicity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Number of electrons in the valence shell</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Principal quantum number of the highest electron</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For an electric dipole allowed</text>
+    </name>
+    <questiontext format="html">
+      <text>For an electric dipole allowed atomic transition (in LS coupling), the change in orbital angular momentum quantum number typically follows:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Electric dipole selection rules originate from the symmetry of the transition dipole moment integral and, in LS coupling, one key consequence is that \(L\) must change by one unit for an allowed transition.  This is why many strong atomic lines correspond to S↔P, P↔D, D↔F, etc.  The options \(\Delta L=0\), \(\pm2\), or \(\pm3\) correspond to forbidden (or much weaker, higher-multipole) cases under the electric dipole approximation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\Delta L = \pm 1\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta L = 0\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta L = \pm 2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta L = \pm 3\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In pure rotational microwave spectroscopy</text>
+    </name>
+    <questiontext format="html">
+      <text>In pure rotational microwave spectroscopy of a rigid diatomic molecule, the main selection rule for rotational transitions is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a rigid rotor, rotational energy levels are labeled by \(J\), and absorption/emission of a photon in a dipole-allowed rotational transition changes \(J\) by one unit.  This is the core rule used to index rotational spectral lines and extract rotational constants from spacing patterns.  Transitions with \(\Delta J=0\) do not change rotational state, and \(\Delta J=\pm2,\pm3\) correspond to different mechanisms (e.g., Raman or higher-order processes), not the basic dipole rotational spectrum.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\Delta J = \pm 1\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta J = 0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta J = \pm 2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta J = \pm 3\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Infrared (vibrational) absorption of a</text>
+    </name>
+    <questiontext format="html">
+      <text>Infrared (vibrational) absorption of a harmonic oscillator most fundamentally follows the selection rule:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the harmonic oscillator approximation, the vibrational transition moment leads to the fundamental selection rule \(\Delta v=\pm1\), producing the dominant fundamental IR band.  Overtones (\(\Delta v=\pm2,\pm3,\dots\)) become noticeable mainly when anharmonicity is included, which goes beyond the ideal harmonic model.  Therefore \(\Delta v=0\) is not an absorption transition, and “any integer with equal probability” contradicts the quantum-mechanical transition moment constraints.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\Delta v = \pm 1\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta v = 0\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta v = \pm 2\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Delta v\) can be any integer with equal probability</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Raman spectroscopy differs from IR</text>
+    </name>
+    <questiontext format="html">
+      <text>Raman spectroscopy differs from IR absorption primarily because Raman activity requires a change in the molecule’s:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Raman scattering intensity is governed by how the polarizability tensor changes with the vibrational (or rotational) coordinate, which sets Raman selection rules and activity.  In contrast, IR absorption requires a change in dipole moment with the vibrational coordinate, so many modes can be IR-inactive but Raman-active (and vice versa).  Net charge and number of nuclei do not define Raman activity, and a permanent dipole is not the key requirement for Raman transitions.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Polarizability during the vibration/rotation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Permanent dipole moment during the vibration/rotation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Net molecular charge</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Number of nuclei</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Raman scattering, compared to</text>
+    </name>
+    <questiontext format="html">
+      <text>In Raman scattering, compared to the incident light frequency, the Stokes line occurs at:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In Stokes Raman scattering, the molecule gains energy (ends in an excited rotational/vibrational level), so the scattered photon loses that energy and appears at lower frequency than the incident radiation.  Anti-Stokes lines are the opposite case, where the molecule starts excited and the scattered photon gains energy.  Rayleigh scattering corresponds to no shift, and Raman shifts are directly connected to molecular energy level spacings, not random.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lower frequency (longer wavelength)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Higher frequency (shorter wavelength)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The same frequency (no shift)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Random frequency unrelated to molecular energy levels</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Einstein \(A\) coefficient in spectroscopy</text>
+    </name>
+    <questiontext format="html">
+      <text>Einstein \(A\) coefficient in spectroscopy is most directly associated with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Einstein coefficients describe radiative transition probabilities, where \(A\) corresponds to spontaneous emission from an upper state to a lower state.  The \(B\) coefficients relate to stimulated absorption and stimulated emission in the presence of radiation, not \(A\).  Pressure broadening and Doppler broadening are line-shape mechanisms, not the definition of Einstein \(A\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Spontaneous emission probability per unit time</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Stimulated absorption probability per unit time</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Collisional (pressure) broadening rate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Doppler broadening due to temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Doppler broadening of a spectral</text>
+    </name>
+    <questiontext format="html">
+      <text>Doppler broadening of a spectral line is primarily caused by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Doppler broadening arises because moving emitters/absorbers see a shifted frequency depending on their velocity component along the line of sight, and thermal motion creates a distribution of velocities that spreads the line.  Lifetime broadening is the “natural” broadening mechanism tied to finite state lifetimes, and collisions cause pressure (collisional) broadening—both distinct from Doppler effects.  Instrument resolution can broaden observed lines, but it is not the physical origin of Doppler broadening.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Thermal motion of atoms/molecules producing a velocity distribution</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Finite lifetime of the excited state (uncertainty principle)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Collisions between particles at high pressure</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Instrumental slit width only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In basic NMR, the resonance</text>
+    </name>
+    <questiontext format="html">
+      <text>In basic NMR, the resonance (Larmor) condition connects the angular frequency \(\omega_0\) to the magnetic field \(B_0\) via:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In NMR, a nucleus with gyromagnetic ratio \(\gamma\) precesses in a static magnetic field \(B_0\) at the Larmor angular frequency \(\omega_0\), giving the resonance condition \(\omega_0=\gamma B_0\).  This relationship is central to understanding why higher magnetic fields increase the resonance frequency and typically improve spectral dispersion.  The other expressions invert or distort the proportionality and do not match the fundamental Larmor precession relation used in NMR theory.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/065ae3cc-ba52-4a98-beb8-27f6d5393003/physical_unit_05.txt)
+(https://www.pw.live/gate/exams/gate-chemistry-syllabus)
+(https://engineering.careers360.com/articles/gate-chemistry-syllabus)
+(https://gate.iitk.ac.in/GATE2023/doc/Syllabus/cy.pdf)
+(https://www.jagranjosh.com/articles/gate-chemistry-syllabus-2026-pdf-download-1800003410-1)
+(https://gate2024.iisc.ac.in/wp-content/uploads/2023/07/cy.pdf)
+(https://research-information.bris.ac.uk/en/publications/einstein-a-coefficients-and-oscillator-strengths-for-the-a-sup2su)
+(http://ijses.com/wp-content/uploads/2023/02/122-IJSES-V7N1.pdf)
+(https://zollege.in/exams/gate/chemistry-syllabus)
+(https://arxiv.org/pdf/physics/0202029.pdf)
+(http://www-star.st-andrews.ac.uk/~kw25/teaching/nebulae/lecture08_linewidths.pdf)
+(https://csirhrdg.res.in/SiteContent/ManagedContent/ContentFiles/20201221135711180chemical_science_syllabus.pdf)
+(https://arxiv.org/ftp/physics/papers/0202/0202029.pdf)
+(https://www.nist.gov/pml/atomic-spectroscopy-compendium-basic-ideas-notation-data-and-formulas/atomic-spectroscopy-6)
+(https://www.imsindia.com/blog/gate/gate-chemistry-syllabus/)
+(https://en.wikipedia.org/wiki/Einstein_coefficients)
+(http://hyperphysics.phy-astr.gsu.edu/hbase/Atomic/broaden.html)
+(https://vedprep.com/exams/gate/gate-syllabus/)
+(https://alpha.chem.umb.edu/chemistry/ch612/documents/Week4.pdf)
+(https://en.wikipedia.org/wiki/Spectral_line_shape)
+(https://testbook.com/gate-chemistry/syllabus)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\omega_0 = \gamma B_0\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\omega_0 = \dfrac{B_0}{\gamma}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\omega_0 = \gamma^2 B_0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\omega_0 = \dfrac{\gamma}{B_0}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A rigid diatomic molecule shows</text>
+    </name>
+    <questiontext format="html">
+      <text>A rigid diatomic molecule shows adjacent rotational absorption lines separated by 4.0 cm\(^{-1}\). The rotational constant \(B\) (in cm\(^{-1}\)) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a rigid rotor with dipole-allowed transitions, the line positions follow \(\tilde{\nu}(J\to J+1)=2B(J+1)\), so adjacent lines are separated by \(2B\).  Given spacing \(=4.0\) cm\(^{-1}\), \(2B=4.0\Rightarrow B=2.0\) cm\(^{-1}\).  The other options come from common slips: taking spacing as \(B\) (gives 4.0), halving twice (gives 1.0), or doubling incorrectly (gives 8.0).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>1.0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>2.0</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4.0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>8.0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In rotational spectroscopy, the main</text>
+    </name>
+    <questiontext format="html">
+      <text>In rotational spectroscopy, the main reason homonuclear diatomic molecules (e.g., N\(_2\), O\(_2\)) do not show a pure rotational microwave spectrum is that they:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A dipole-allowed pure rotational transition requires interaction with the radiation field through a permanent dipole moment; homonuclear diatomics have symmetry that makes the permanent dipole moment zero.  Rotational levels still exist, but the transition moment integral becomes zero for microwave rotational absorption in such cases.  The selection rule \(\Delta J=\pm1\) is not the issue; rather, the intensity is essentially absent because the dipole requirement is not met.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Have zero permanent dipole moment</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Have no rotational energy levels</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Violate the \(\Delta J=\pm 1\) selection rule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Undergo only electronic transitions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A diatomic molecule is approximated</text>
+    </name>
+    <questiontext format="html">
+      <text>A diatomic molecule is approximated as a harmonic oscillator with force constant \(k\). If one atom is replaced by a heavier isotope (so reduced mass \(\mu\) increases), the fundamental vibrational wavenumber \(\tilde{\nu}\) will:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the harmonic oscillator model, the vibrational frequency scales as \(\nu \propto \sqrt{k/\mu}\), hence the wavenumber \(\tilde{\nu}=\nu/c\) also scales as \(1/\sqrt{\mu}\) for fixed \(k\).  Increasing \(\mu\) therefore lowers \(\tilde{\nu}\), which is the isotope shift used to interpret vibrational spectra.  The “unchanged” option ignores reduced mass, and “increase” corresponds to incorrectly placing \(\mu\) in the numerator.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Decrease</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Increase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Remain unchanged</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Become zero for all isotopic substitutions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An IR band at 2000</text>
+    </name>
+    <questiontext format="html">
+      <text>An IR band at 2000 cm\(^{-1}\) is assigned as the fundamental (\(v=0\to1\)) of a harmonic oscillator. Neglecting anharmonicity, the \(v=1\to2\) transition is expected near:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For an ideal harmonic oscillator, energy levels are equally spaced, so the transition energy for \(0\to1\) equals that for \(1\to2\).  The selection rule remains \(\Delta v=\pm 1\), so \(1\to2\) is allowed and appears at essentially the same wavenumber as the fundamental in the harmonic limit.  Values like 4000 cm\(^{-1}\) arise from confusing the overtone \(0\to2\) with the hot band \(1\to2\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>1000 cm\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>2000 cm\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4000 cm\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Not allowed by selection rules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A UV-Vis absorption measurement gives</text>
+    </name>
+    <questiontext format="html">
+      <text>A UV-Vis absorption measurement gives absorbance \(A=0.60\) for path length \(l=1.0\) cm and concentration \(c=2.0\times10^{-4}\) mol L\(^{-1}\). The molar extinction coefficient \(\varepsilon\) (L mol\(^{-1}\) cm\(^{-1}\)) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Beer–Lambert law states \(A=\varepsilon l c\), so \(\varepsilon = A/(lc) = 0.60/(1.0\times2.0\times10^{-4}) = 3.0\times10^{3}\) L mol\(^{-1}\) cm\(^{-1}\).  \(6.0\times10^{3}\) comes from using \(c=10^{-4}\) instead of \(2\times10^{-4}\), while \(1.5\times10^{3}\) comes from halving \(A\) or doubling \(c\) incorrectly.  \(1.2\times10^{4}\) typically results from misplacing the decimal in \(c\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(1.5\times10^{3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(3.0\times10^{3}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(6.0\times10^{3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(1.2\times10^{4}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an electronic spectrum, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In an electronic spectrum, a pronounced vibrational progression (many vibronic peaks with varying intensities) is most directly rationalized by the:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Franck–Condon principle states that electronic transitions are effectively vertical (nuclei do not move during the fast transition), so intensities depend on vibrational wavefunction overlap between initial and final states.  A displaced equilibrium geometry between electronic states produces a progression because multiple final vibrational levels have significant overlap.  Doppler/pressure broadening affect line widths, and Zeeman splitting requires an applied magnetic field and explains splitting, not vibronic progression intensities.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Franck–Condon principle (overlap of vibrational wavefunctions)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Doppler effect (thermal motion)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pressure broadening (collisions)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Zeeman effect (magnetic splitting)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Raman experiment at temperature</text>
+    </name>
+    <questiontext format="html">
+      <text>A Raman experiment at temperature \(T\) shows both Stokes and anti-Stokes lines. Compared to the Stokes line, the anti-Stokes line intensity is generally:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Anti-Stokes scattering requires the molecule to start in an excited rotational/vibrational level, and Boltzmann populations make these initial excited states less populated at ordinary temperatures.  Therefore anti-Stokes lines are typically weaker than Stokes lines.  Equal intensity would contradict population statistics, and “forbidden” is incorrect because anti-Stokes lines are allowed but population-limited.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lower, because fewer molecules are thermally in excited vibrational/rotational states</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Higher, because scattering to lower molecular energy is favored</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The same, because Raman scattering is elastic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Zero, because anti-Stokes transitions are forbidden</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>If the natural (lifetime) broadening</text>
+    </name>
+    <questiontext format="html">
+      <text>If the natural (lifetime) broadening dominates, the spectral line shape is expected to be mainly:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Natural broadening arises from finite excited-state lifetime (uncertainty in energy), which leads to a Lorentzian line shape in the simplest treatment.  Gaussian profiles are characteristic of Doppler broadening from velocity distributions, not lifetime broadening.  A delta function would require infinite lifetime (no uncertainty), and a rectangular profile is not the standard physical model for natural linewidth.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Lorentzian</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Gaussian</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rectangular</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Delta function (infinitely sharp)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In NMR, two equivalent protons</text>
+    </name>
+    <questiontext format="html">
+      <text>In NMR, two equivalent protons do not split each other’s signal primarily because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Spin–spin coupling leads to multiplets when coupling partners are magnetically nonequivalent; equivalent nuclei resonate at the same frequency and do not produce an observable splitting of each other in first-order analysis.  They certainly have nonzero \(\gamma\) and can have spin, and homonuclear coupling is common (e.g., \(^{1}\)H–\(^{1}\)H).  The misconception is thinking coupling always splits regardless of equivalence.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Equivalent nuclei have the same chemical shift, so mutual coupling does not create separate observable lines</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equivalent nuclei have zero gyromagnetic ratio</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equivalent nuclei cannot have nuclear spin</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Coupling requires different isotopes (heteronuclear only)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A proton in \(^{1}\)H NMR</text>
+    </name>
+    <questiontext format="html">
+      <text>A proton in \(^{1}\)H NMR is coupled to two equivalent neighboring protons (first-order). The expected multiplicity is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For first-order splitting by \(n\) equivalent spin-1/2 neighbors, the signal is split into \(n+1\) lines, so \(n=2\) gives 3 lines (a triplet).  The relative intensities follow Pascal’s triangle (1:2:1 for \(n=2\)), which is part of basic first-order NMR analysis.  Doublet corresponds to \(n=1\), quartet to \(n=3\), and quintet to \(n=4\).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/065ae3cc-ba52-4a98-beb8-27f6d5393003/physical_unit_05.txt)
+(https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/05:_The_Harmonic_Oscillator_and_the_Rigid_Rotor/5.09:_The_Rigid_Rotator_is_a_Model_for_a_Rotating_Diatomic_Molecule)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/05:_The_Harmonic_Oscillator_and_the_Rigid_Rotor/5.02:_The_Equation_for_a_Harmonic-Oscillator_Model_of_a_Diatomic_Molecule_Contains_the_Reduced_Mass_of_the_Molecule)
+(https://en.wikipedia.org/wiki/Franck%E2%80%93Condon_principle)
+(https://www.jsscacs.edu.in/sites/default/files/Department%20Files/Dr.%20Kavya%20H%20V%20Rotational%20spectroscopy.pdf)
+(https://scilearn.sydney.edu.au/spectroscopy/rovibrational_energy_difference.php?res=low)
+(https://faculty.fiu.edu/~mebela/chm3411_chapter16_rot.pdf)
+(http://www.iiserpune.ac.in/~p.hazra/lecture_Partha_full.pdf)
+(https://www.youtube.com/watch?v=3XPOn-5QuE0)
+(https://ebooks.inflibnet.ac.in/phyp10/chapter/franck-condon-principle/)
+(http://mahendrapublications.com/Document/MP898700.pdf)
+(https://en.wikipedia.org/wiki/Rigid_rotor)
+(https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/13:_Molecular_Spectroscopy/13.07:_The_Franck-Condon_Principle)
+(https://research.ece.ncsu.edu/daryoosh/files/Note%204.pdf)
+(https://testbook.com/question-answer/the-fundamental-vibrational-frequency-of1h12--60901bd069bdba87bb19dfa0)
+(https://www.spjainsasaram.co.in/epdf/220.pdf)
+(https://www.sciencedirect.com/topics/physics-and-astronomy/rotational-spectrum)
+(http://mahendrapublications.com/Document/MP073952.pdf)
+(https://www.sciencedirect.com/topics/chemistry/franck-condon-principle)
+(https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Rotational_Spectroscopy/Rotational_Spectroscopy_of_Diatomic_Molecules)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Doublet</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Triplet</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Quartet</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Quintet</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

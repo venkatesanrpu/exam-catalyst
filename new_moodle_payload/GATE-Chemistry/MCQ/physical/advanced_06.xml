@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A system is maintained at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A system is maintained at constant temperature and pressure. Consider an infinitesimal change in the extent of reaction \(d\xi\) for a reaction \(\sum_i \nu_i A_i = 0\). Which statement most correctly expresses the equilibrium condition in terms of chemical potentials?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At constant \(T,P\), the criterion for equilibrium is that the reaction Gibbs energy vanishes: \(\Delta_r G=\left(\frac{\partial G}{\partial \xi}\right)_{T,P}=\sum_i \nu_i \mu_i=0\).  The inequality forms correspond to spontaneous direction: \(\Delta_r G<0\) implies forward progress (increase in \(\xi\)), while \(\Delta_r G>0\) implies reverse progress; at equilibrium it must be exactly zero.  The unweighted sum \(\sum_i \mu_i\) ignores stoichiometry and therefore cannot represent the equilibrium condition in general.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\sum_i \mu_i = 0\) at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\sum_i \nu_i \mu_i < 0\) at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\sum_i \nu_i \mu_i = 0\) at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\sum_i \nu_i \mu_i > 0\) at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A measurable thermodynamic quantity \(M(T,P)\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A measurable thermodynamic quantity \(M(T,P)\) is proposed to be a state function. Which test, based on the mathematical framework behind Maxwell relations, is the most appropriate necessary-and-sufficient check?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Maxwell relations arise from treating thermodynamic potentials (like \(G, A, H, U\)) as state functions whose differentials are exact; exactness implies equality of mixed second derivatives (a consistency condition).  Independence from temperature is neither necessary nor sufficient for being a state function, because many state functions depend on \(T\).  Monotonic decrease in spontaneous processes is a property of specific potentials under specific constraints (for example, \(G\) at constant \(T,P\)), not a general definition of state function.  A “zero at 0 K” condition is related to the third law for entropy reference, not a general state-function test.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Verify that \(M\) is independent of temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Show that \(dM\) can be written as an exact differential (mixed second derivatives are equal under appropriate variables)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Show that \(M\) decreases for every spontaneous process]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Confirm that \(M\) is zero at 0 K]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a real gas, fugacity]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a real gas, fugacity \(f\) is introduced through the chemical potential. Which statement correctly captures why fugacity is essential for equilibrium constants in non-ideal systems?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemical potentials determine equilibrium, and for real systems the “effective concentration” entering \(\mu\) is activity (solutions) or fugacity (gases), not the bare pressure or mole fraction; thus equilibrium expressions must be written in terms of activities/fugacities to remain valid under non-ideality.  Fugacity does not eliminate temperature dependence; \(K\) still depends on \(T\) through \(\Delta G^\circ(T)\) and related relations (van’t Hoff/Gibbs–Helmholtz framework).  Gases can deviate strongly from ideality, so using partial pressure directly can be wrong except in the ideal-gas limit where fugacity approaches pressure.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fugacity replaces temperature in equilibrium expressions, making \(K\) temperature-independent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fugacity ensures that chemical potentials can be expressed using an “effective pressure,” so equilibrium conditions use activities/fugacities rather than raw pressures]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fugacity is needed only for liquids and solids; gases always use partial pressures directly]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fugacity is numerically equal to pressure at all pressures, so it does not change equilibrium calculations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider the link between Gibbs–Helmholtz]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider the link between Gibbs–Helmholtz and equilibrium constants. Which statement is most consistent with combining \(\Delta G^\circ=-RT\ln K\) and the temperature dependence of \(\Delta G^\circ\)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The temperature dependence of \(K\) follows the van’t Hoff form \(\frac{d\ln K}{dT}=\frac{\Delta H^\circ}{RT^2}\), which is consistent with combining equilibrium-constant relations with Gibbs–Helmholtz-type temperature dependence.  Hence, when \(\Delta H^\circ>0\) (endothermic), \(d\ln K/dT>0\) and \(K\) increases with temperature.  The other options invert or deny this enthalpy–temperature linkage, or incorrectly claim temperature independence.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[If \(\Delta H^\circ>0\), \(K\) must decrease with temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[If \(\Delta H^\circ>0\), \(K\) tends to increase with temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The sign of \(\Delta H^\circ\) gives no information about how \(K\) changes with \(T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(K\) is independent of \(T\) whenever \(\Delta S^\circ\neq 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a binary mixture at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a binary mixture at constant \(T,P\), suppose experimental data suggest \(\gamma_1(x_1)\) varies strongly with composition. What is the most correct implication of the Gibbs–Duhem constraint for modeling \(\gamma_2(x_2)\)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Gibbs–Duhem equation constrains changes in chemical potentials (and therefore activities/activity coefficients) in mixtures, so the composition dependence of one component’s non-ideality cannot be specified independently of the other.  This is why empirical models for non-ideal solutions (such as commonly used parameterized forms) are built to satisfy thermodynamic consistency across both components.  Constancy of \(\gamma_2\), reciprocal relations like \(\gamma_2=1/\gamma_1\), or ignoring the constraint are common modeling misconceptions and generally violate mixture thermodynamics.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/95e78c24-4572-43af-908b-a9631322ce3a/physical_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\gamma_2\) must be constant, because only one activity coefficient can vary]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\gamma_2\) must vary in a coupled way; choosing \(\gamma_1(x_1)\) arbitrarily can make \(\gamma_2(x_2)\) thermodynamically inconsistent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\gamma_2\) can be chosen independently because Gibbs–Duhem applies only to ideal solutions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\gamma_2 = 1/\gamma_1\) for all compositions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

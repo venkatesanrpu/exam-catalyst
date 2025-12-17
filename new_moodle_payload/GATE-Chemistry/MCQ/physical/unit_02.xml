@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>In a two-electron atom, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In a two-electron atom, a proposed total wavefunction is written as a product \(\Psi(1,2)=\psi(1)\psi(2)\chi(1,2)\) where \(\psi(1)\psi(2)\) is symmetric under exchange \(1 \leftrightarrow 2\) and \(\chi(1,2)\) is also symmetric. Which statement is most accurate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Electrons are fermions, so the total electronic wavefunction must be antisymmetric under exchange of two electrons (antisymmetry requirement).  A symmetric spatial part multiplied by a symmetric spin part gives an overall symmetric product, which violates this requirement.  Slater determinants provide a standard way to enforce antisymmetry using spin-orbitals, and atomic units are just a unit system and do not alter exchange symmetry.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>This is acceptable because orbital approximation allows symmetric total wavefunctions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>This violates the antisymmetry requirement for electrons unless the wavefunction is antisymmetrized (e.g., via a Slater determinant)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>This becomes acceptable only in atomic units</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>This is acceptable only if the electrons have different principal quantum numbers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A linear-variational calculation uses a</text>
+    </name>
+    <questiontext format="html">
+      <text>A linear-variational calculation uses a trial function \(\psi=\sum_i c_i\phi_i\), and the secular determinant yields multiple eigenvalues. Which statement correctly interprets these variational roots?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Rayleigh–Ritz (variational) principle implies that, for the ground state, the minimum energy obtained by optimizing the trial function gives an upper bound to the true ground-state energy.  In a multi-parameter (basis expansion) treatment, the secular equation produces several stationary energies; the lowest root corresponds to the best ground-state estimate achievable in that chosen subspace.  Hydrogen-like orbitals can be a useful starting point in the orbital approximation, but they do not make multi-electron energies exact because electron–electron repulsion remains.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>All roots are guaranteed to be lower bounds to the exact ground-state energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The lowest root is the best variational estimate of the ground-state energy within the chosen basis, and it is an upper bound to the exact ground-state energy</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The highest root is always the most accurate because it uses more basis mixing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Variational roots are exact if the basis functions are hydrogen-like orbitals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In degenerate first-order perturbation theory</text>
+    </name>
+    <questiontext format="html">
+      <text>In degenerate first-order perturbation theory, why is it necessary to diagonalize \(H'\) within the degenerate subspace rather than directly using \(E^{(1)}=\langle \psi^{(0)}|H'|\psi^{(0)}\rangle\) on the original degenerate eigenfunctions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>When levels are degenerate, any linear combination of degenerate eigenfunctions is also an acceptable unperturbed eigenfunction, so the “original” \(\psi^{(0)}\) choices are not unique.  A perturbation can couple (mix) these states, and the correct first-order energies and zeroth-order combinations are obtained by diagonalizing the perturbation matrix restricted to the degenerate manifold.  This requirement is independent of atomic units, and degeneracy is a common feature of central-field/orbital pictures rather than something forbidden by them.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Because the perturbation changes the value of \(\hbar\) in atomic units</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Because within a degenerate subspace, the unperturbed eigenfunctions are not uniquely defined, and \(H'\) can mix them, so correct first-order states/energies come from diagonalization in that subspace</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Because Slater determinants cannot be formed for degenerate states</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Because the orbital approximation forbids degeneracy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which option best explains, at</text>
+    </name>
+    <questiontext format="html">
+      <text>Which option best explains, at a conceptual level, how the Slater determinant simultaneously enforces Pauli exclusion and the antisymmetry requirement?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The determinant changes sign when two electron labels are exchanged, automatically giving antisymmetry under exchange.  If two electrons are assigned the same spin-orbital, two columns (or rows) become identical and the determinant becomes zero, encoding Pauli exclusion directly.  The determinant does not force a particular “always symmetric space/antisymmetric spin” pattern; the symmetry of space and spin parts depends on the specific state construction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>It forces all electrons to occupy different principal quantum numbers, and therefore they cannot be exchanged</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>It becomes zero if any two electrons occupy the same spin-orbital, and it changes sign upon exchange of two electrons’ coordinates</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It makes the wavefunction symmetric in space and antisymmetric in spin for all configurations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It works only when effective nuclear charge is constant for all electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the orbital approximation for</text>
+    </name>
+    <questiontext format="html">
+      <text>In the orbital approximation for multi-electron atoms, introducing an effective nuclear charge is often viewed as a crude way to incorporate screening. If a variational parameter is chosen to mimic this effective nuclear charge in a helium-like atom, what is the key reason the variational estimate improves compared to using the bare \(Z\) of the nucleus in a hydrogenic orbital?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Multi-electron atoms are not exactly hydrogenic because electron–electron repulsion alters the effective attraction experienced by each electron, often described qualitatively as screening/shielding and effective nuclear charge.  A variational parameter that adjusts the orbital “tightness” can partially account for this physics, thereby lowering the energy expectation value relative to a poor fixed choice and improving the approximation within the chosen trial family.  Electron–electron repulsion is not removed; it is indirectly accommodated by a better-shaped trial function, and secular-determinant machinery is still relevant whenever multiple parameters/basis functions are used.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The variational method removes the need for electron–electron repulsion terms in the Hamiltonian</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A tunable parameter lets the trial wavefunction adjust to electron–electron screening, lowering the expectation value of energy and moving closer to the true ground state</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Screening is a purely spin effect, so optimizing \(Z_{\text{eff}}\) optimizes spin directly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The secular determinant becomes unnecessary when an effective nuclear charge is used</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The main reason the exact</text>
+    </name>
+    <questiontext format="html">
+      <text>The main reason the exact hydrogen-atom solution does not directly extend to multi-electron atoms is the presence of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In multi-electron atoms, electrons repel each other, so the Hamiltonian contains electron–electron interaction terms that couple the motions of different electrons.  This coupling destroys the simple separability that makes the hydrogen atom exactly solvable in closed form.  Relativistic effects can matter for very heavy atoms but are not the fundamental reason the hydrogenic solution fails for all multi-electron atoms.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Relativistic mass increase of electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Electron–electron repulsion leading to coupled motion</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Absence of nuclear attraction in heavier atoms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Quantization of angular momentum only in hydrogen</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The orbital approximation in multi-electron</text>
+    </name>
+    <questiontext format="html">
+      <text>The orbital approximation in multi-electron atoms most directly assumes that electrons:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The orbital approximation treats each electron as moving in an average (effective) field created by the nucleus and the other electrons, giving effective one-electron orbitals.  This is often described as an independent-particle or central-field type picture used as a starting point for more accurate approaches.  It does not mean all electrons share the same orbital, and it does not revert to classical trajectories.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Move independently in effective one-electron orbitals</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always occupy the same spatial orbital with opposite spins</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Follow classical elliptical orbits around the nucleus</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Cannot be described using any one-electron functions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>“Effective nuclear charge” experienced by</text>
+    </name>
+    <questiontext format="html">
+      <text>“Effective nuclear charge” experienced by an electron in a multi-electron atom is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Effective nuclear charge refers to the net attraction an electron feels from the nucleus after other electrons partially screen (shield) the nuclear charge.  Screening/shielding reduces the nuclear pull on a given electron compared with the full \(Z\).  Spin affects state labeling and microstates, but effective nuclear charge is qualitatively tied to electron distribution and screening, not spin alone.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The full nuclear charge \(Z\) with no modification</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The net positive charge after accounting for screening/shielding by other electrons</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The electron’s own charge magnitude</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A charge that depends only on the electron’s spin quantum number</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A one-electron spin-orbital is constructed</text>
+    </name>
+    <questiontext format="html">
+      <text>A one-electron spin-orbital is constructed as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A spin-orbital is built by combining the spatial part of the electron wavefunction with a spin function (spatial × spin).  This construction is used within the orbital approximation to describe individual electrons in atoms.  A Slater determinant is then built from multiple spin-orbitals to represent many-electron states, so it is not itself a one-electron object.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Product of a spatial orbital and a spin function</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Sum of two different nuclei’s wavefunctions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Product of two spatial orbitals only (no spin part)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A many-electron antisymmetric determinant by itself</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Pauli exclusion principle states</text>
+    </name>
+    <questiontext format="html">
+      <text>The Pauli exclusion principle states that no two electrons in an atom can have:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Pauli exclusion states that two electrons cannot share an identical complete set of quantum numbers.  This leads directly to restrictions on how electrons fill spin-orbitals in electronic configurations.  Electrons can share the same principal quantum number or the same \(l\) value as long as the overall set of quantum numbers is not identical.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The same principal quantum number</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The same set of all quantum numbers</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Different spin quantum numbers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The same orbital angular momentum quantum number</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The antisymmetry requirement for a</text>
+    </name>
+    <questiontext format="html">
+      <text>The antisymmetry requirement for a fermionic (electron) many-electron wavefunction means that exchanging two electrons causes the wavefunction to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For identical electrons (fermions), the many-electron wavefunction must be antisymmetric under exchange of any two electrons, meaning it changes sign upon exchange.  This requirement is a fundamental quantum-statistical property tied to electrons being fermions.  Symmetry behavior is not conditional on “parallel spins” as a general rule; antisymmetry is a global requirement for the total electron wavefunction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Remain unchanged</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Change sign</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Become zero for all positions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Become symmetric only if spins are parallel</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The key purpose of using</text>
+    </name>
+    <questiontext format="html">
+      <text>The key purpose of using a Slater determinant is to ensure that the many-electron wavefunction is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Slater determinants provide a standard way to build antisymmetric many-electron wavefunctions from a set of one-electron spin-orbitals.  The determinant form automatically changes sign when two electron coordinates are exchanged, satisfying the antisymmetry requirement.  This construction is used broadly in multi-electron atom and quantum chemistry descriptions, not only for hydrogen-like atoms.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Always symmetric under exchange of electrons</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Antisymmetric under exchange of any two electrons</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Independent of the choice of spin-orbitals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Valid only for hydrogen-like atoms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The variational principle (Rayleigh–Ritz idea)</text>
+    </name>
+    <questiontext format="html">
+      <text>The variational principle (Rayleigh–Ritz idea) is most directly summarized by the statement that the trial energy is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The variational method is based on minimizing the expectation value of the Hamiltonian computed with a chosen trial wavefunction, and this value provides an upper bound to the true ground-state energy when the trial function is properly handled.  Improving the physical quality/flexibility of the trial function can lower the variational estimate toward the exact value.  The method does not guarantee values below the exact ground state, and results do depend on the trial function choice.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Always lower than the exact ground-state energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Always an upper bound to the exact ground-state energy (for a proper normalized trial function)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always equal to the exact excited-state energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Independent of the chosen trial wavefunction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a multi-parameter variational approach</text>
+    </name>
+    <questiontext format="html">
+      <text>In a multi-parameter variational approach using a linear combination of basis functions, the variational conditions commonly lead to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>When the trial function is expanded as a linear combination of basis functions, minimizing energy with respect to multiple coefficients produces a matrix form of equations.  Non-trivial solutions exist when the associated secular determinant (secular equations) condition is satisfied, giving approximate energy eigenvalues.  This is an approximation framework and does not imply exact energies, nor does it require a time-dependent Hamiltonian.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A single algebraic equation with no matrix form</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A set of linear equations that can be written as secular equations/determinants</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A direct formula for exact energies without approximation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A requirement that the Hamiltonian must be time-dependent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The standard starting point of</text>
+    </name>
+    <questiontext format="html">
+      <text>The standard starting point of perturbation theory is to write the Hamiltonian as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Perturbation theory begins by decomposing the Hamiltonian into an exactly solvable part \(H_0\) plus a small correction \(H'\) scaled by a parameter (often written as \(\lambda\)).  The approach assumes the correction is sufficiently small so that energies and wavefunctions can be expanded in a series and corrected order-by-order.  Writing the Hamiltonian without a clear unperturbed part defeats the core idea of using known solutions as the reference.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(H = H_0 - H'\) with no scaling</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(H = H_0 + \lambda H'\), where \(H'\) is a small correction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(H = \lambda H_0 + H'\), where \(H_0\) is always negligible</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(H = H'\) only, because \(H_0\) is not defined</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the orbital approximation, consider</text>
+    </name>
+    <questiontext format="html">
+      <text>In the orbital approximation, consider a subshell with 3 available spatial orbitals (like a p-subshell) and 2 possible spin states per spatial orbital. What is the maximum number of electrons that can occupy this subshell without violating the Pauli exclusion principle?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the orbital approximation, each spatial orbital combined with a spin function forms a distinct spin-orbital, and Pauli exclusion allows at most one electron per spin-orbital.  With 3 spatial orbitals and 2 spins each, there are \(3 \times 2 = 6\) spin-orbitals, so the maximum occupancy is 6 electrons.  Options giving 3 or 4 forget that each spatial orbital can hold two opposite-spin electrons, while 8 exceeds the number of available spin-orbitals.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>6</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>8</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two-electron wavefunctions must satisfy antisymmetry</text>
+    </name>
+    <questiontext format="html">
+      <text>Two-electron wavefunctions must satisfy antisymmetry under exchange of electrons. If the spin part is symmetric (triplet-like), what must be the symmetry of the spatial part?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For electrons (fermions), the total (spatial × spin) wavefunction must be antisymmetric upon exchanging the two electrons.  If the spin function is symmetric, the spatial function must be antisymmetric so that the product changes sign under exchange.  A symmetric spatial part would make the total symmetric, violating the antisymmetry requirement, and “always zero” is not generally true.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Symmetric</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Antisymmetric</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Symmetry is not constrained</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Slater determinant built from</text>
+    </name>
+    <questiontext format="html">
+      <text>A Slater determinant built from two identical spin-orbitals (the same spin-orbital repeated for both electrons) evaluates to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a Slater determinant, if two columns (or rows) are identical because the same spin-orbital is repeated, the determinant becomes zero.  This directly encodes the Pauli exclusion principle: two electrons cannot occupy the same spin-orbital.  A nonzero determinant corresponds to linearly independent spin-orbitals and an antisymmetric wavefunction rather than a symmetric one.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A normalized nonzero wavefunction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A non-normalizable wavefunction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Zero</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A symmetric wavefunction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In non-degenerate first-order perturbation theory</text>
+    </name>
+    <questiontext format="html">
+      <text>In non-degenerate first-order perturbation theory, if \(\langle \psi_n^{(0)}|H'|\psi_n^{(0)}\rangle = 0\), then the first-order energy correction \(E_n^{(1)}\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For non-degenerate first-order perturbation, the energy correction is \(E_n^{(1)}=\langle \psi_n^{(0)}|H'|\psi_n^{(0)}\rangle\).  If that expectation value is zero, the first-order correction is zero (though higher-order corrections may still exist).  This does not imply the unperturbed energy changes, and a zero first-order term does not by itself imply perturbation theory is invalid.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Zero</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equal to \(E_n^{(0)}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equal to \(\langle \psi_n^{(0)}|H_0|\psi_n^{(0)}\rangle\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Undefined because perturbation theory fails automatically</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A 2-parameter variational trial function</text>
+    </name>
+    <questiontext format="html">
+      <text>A 2-parameter variational trial function \(\psi(\mathbf{r}) = c_1\phi_1(\mathbf{r}) + c_2\phi_2(\mathbf{r})\) is used. The variational conditions lead to a matrix equation whose non-trivial solutions require:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the multi-parameter variational method (Rayleigh–Ritz approach), minimizing the energy with respect to coefficients produces linear equations that can be written in matrix form.  Non-trivial coefficients exist only when the secular determinant condition is satisfied, which is that the determinant of the coefficient matrix is zero.  Equal coefficients are not required, and taking identical basis functions removes linear independence and breaks the purpose of the expansion.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The trace of the matrix to be zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The determinant of the secular matrix to be zero</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(c_1=c_2\) always</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\phi_1\) and \(\phi_2\) to be identical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a one-parameter variational energy</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a one-parameter variational energy expression \(E(\alpha)=\alpha^2+\frac{1}{\alpha}\) (in some consistent units). The variational estimate corresponds to the \(\alpha\) that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The variational method determines the best parameter(s) by minimizing the expectation value of the Hamiltonian with respect to those parameter(s).  This implements the Rayleigh–Ritz idea that the computed energy is an upper bound to the true ground-state energy and should be minimized for the optimal trial function within that family.  Setting energy to zero or forcing \(\alpha=0\) is not the variational criterion and can be unphysical or undefined for the expression shown.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Maximizes \(E(\alpha)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Minimizes \(E(\alpha)\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Makes \(E(\alpha)=0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Makes \(\alpha=0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the orbital approximation, three</text>
+    </name>
+    <questiontext format="html">
+      <text>In the orbital approximation, three electrons occupy three different spatial orbitals within the same subshell. How many distinct spin assignments are possible if only spin-up or spin-down is allowed for each electron?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Each electron can independently be assigned one of two spin functions (spin-up or spin-down) when placed in different spatial orbitals in the orbital approximation.  With 3 electrons, the number of spin assignments is \(2^3 = 8\), representing different spin configurations before considering further coupling details.  Smaller numbers arise from incorrectly treating spins as constrained to be paired even when electrons occupy different spatial orbitals.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>6</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>8</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement correctly contrasts variational</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement correctly contrasts variational and first-order perturbation approaches for estimating energies?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The variational method (Rayleigh–Ritz) uses trial functions and yields an energy upper bound for the ground state when applied correctly.  Perturbation theory is built on decomposing the Hamiltonian as \(H=H_0+\lambda H'\) and assumes the correction is small enough for a series expansion, which is conceptually different from variational minimization.  Degeneracy is a special case in perturbation (treated differently), and perturbation theory fundamentally depends on a reference \(H_0\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Variational method always gives a lower bound to the exact ground-state energy, while perturbation gives an upper bound</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Variational method provides an upper bound to the exact ground-state energy, while perturbation relies on splitting \(H=H_0+\lambda H'\) with a “small” correction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Both methods require degenerate unperturbed states to work</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Perturbation theory does not require any reference Hamiltonian \(H_0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A perturbation is applied to</text>
+    </name>
+    <questiontext format="html">
+      <text>A perturbation is applied to a system with two unperturbed states that are exactly degenerate in energy. At first order, the correct qualitative procedure is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Degenerate and non-degenerate perturbation require different treatments because the usual first-order non-degenerate expressions can become ambiguous within a degenerate manifold.  The standard qualitative idea is to form and diagonalize the perturbation matrix within the degenerate subspace to obtain correct first-order energies and states.  Degeneracy does not imply zero correction, and choosing variational instead is not an automatic rule but a methodological choice.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Use the non-degenerate formula directly for each state without modification</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Diagonalize the perturbation within the degenerate subspace</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ignore the perturbation because degeneracy makes corrections zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Replace the variational method with perturbation automatically</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an “atomic units” framework</text>
+    </name>
+    <questiontext format="html">
+      <text>In an “atomic units” framework used for atomic-scale quantum problems, the main motivation is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Atomic units are defined to simplify atomic-scale equations, making common constants take convenient values and streamlining the Hamiltonian form for atomic systems.  This is especially helpful when combining orbital approximation ideas and approximation methods (variational/perturbation) in atomic calculations.  The unit choice does not eliminate electron–electron repulsion, does not remove wavefunctions, and does not inherently increase complexity.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Make the Schrödinger equation more complex but more accurate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Simplify atomic equations by using a natural unit system appropriate to electron–nucleus problems</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Remove the need for wavefunctions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ensure electron–electron repulsion becomes exactly zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

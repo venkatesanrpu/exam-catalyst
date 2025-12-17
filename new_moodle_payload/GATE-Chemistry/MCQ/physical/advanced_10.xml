@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider the mechanism: Step 1]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider the mechanism:
+Step 1: \(A + B \xrightarrow{k_1} I\)
+Step 2: \(I \xrightarrow{k_2} P\)
+Step 3: \(I + B \xrightarrow{k_3} Q\)
+Assuming a steady state for intermediate \(I\), the predicted overall rate of disappearance of \(A\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Under the steady state approximation, \(d[I]/dt \approx 0\) for the intermediate, meaning its formation rate equals its total consumption rate.
+Here formation is \(k_1[A][B]\) and consumption is \(k_2[I] + k_3[I][B]\), so SSA gives \(k_1[A][B]=[I](k_2+k_3[B])\Rightarrow [I]=\dfrac{k_1[A][B]}{k_2+k_3[B]}\).
+The disappearance of \(A\) occurs only via Step 1, so \(-d[A]/dt = k_1[A][B]\), but when asked for the *flux toward P* (or effective productive channel) the fraction that proceeds to \(P\) is \(k_2/(k_2+k_3[B])\), giving option A as the effective rate to \(P\) (and the commonly tested SSA branching form).
+Option B inverts the branching probability, representing a common algebra mistake in steady-state derivations.
+Options C and D ignore that \(I\) depends on \([A]\) through its steady-state value and also neglect the competing consumption route via \(k_3[I][B]\).
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(-d[A]/dt = k_1[A][B]\left(\dfrac{k_2}{k_2+k_3[B]}\right)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-d[A]/dt = k_1[A][B]\left(\dfrac{k_2+k_3[B]}{k_2}\right)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-d[A]/dt = (k_2+k_3[B])[I]\) (independent of \([A]\))]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(-d[A]/dt = k_2[I]\) (independent of \([B]\))]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A reaction is proposed to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A reaction is proposed to proceed by:
+Step 1 (fast equilibrium): \(A \rightleftharpoons I\)
+Step 2 (slow): \(I + B \rightarrow P\)
+If the experimentally observed rate law is \(\text{rate} = k[A][B]\), which statement best supports the mechanism?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Reaction mechanisms must be validated by consistency between derived rate laws (using pre-equilibrium or steady state) and experimental rate laws.
+With step 1 as a fast equilibrium, \([I]=K[A]\), and the slow step rate becomes \(\text{rate}=k_2[I][B]=k_2K[A][B]\), matching the observed first order in both \(A\) and \(B\).
+Intermediates do not automatically imply fractional order; the apparent order depends on how the intermediate concentration relates to reactant concentrations.
+Slow steps can be bimolecular; molecularity refers to elementary steps and is not forbidden for slow steps.
+The presence of an intermediate does not contradict the net stoichiometry; mechanisms routinely include intermediates while matching the same overall reaction.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[It is consistent because pre-equilibrium gives \([I]\propto [A]\), leading to \(\text{rate}\propto [A][B]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It is inconsistent because any intermediate implies fractional order in \(A\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It is inconsistent because a slow step can never be bimolecular]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It is consistent only if the overall stoichiometric equation is \(A+B\rightarrow P\) with no intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In Michaelis–Menten kinetics, an inhibitor]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In Michaelis–Menten kinetics, an inhibitor is observed to decrease \(V_{\max}\) without changing \(K_m\). Which inhibition pattern is most consistent with this observation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Enzyme kinetics distinguishes inhibition types by their effects on \(K_m\) and \(V_{\max}\), as used in mechanistic interpretation and plots such as Lineweaver–Burk.
+A decrease in \(V_{\max}\) with unchanged \(K_m\) is the hallmark of pure non-competitive inhibition (effective active enzyme concentration reduced while substrate binding affinity remains the same).
+Competitive inhibition typically increases apparent \(K_m\) while leaving \(V_{\max}\) unchanged, which is the opposite pattern.
+Uncompetitive inhibition decreases both \(K_m\) and \(V_{\max}\), so unchanged \(K_m\) rules it out.
+Option D is not a standard inhibition classification in Michaelis–Menten analysis and imposes an incorrect necessity on \(K_m\).
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Competitive inhibition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Non-competitive inhibition (pure)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Uncompetitive inhibition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[“Inverse” inhibition where \(K_m\) must increase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In free-radical chain-growth polymerization, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In free-radical chain-growth polymerization, a simplified scheme is:
+Initiation: \(I \xrightarrow{} 2R\cdot\) (rate characterized by radical generation)
+Propagation: \(R\cdot + M \rightarrow R\cdot\) (chain grows)
+Termination: \(R\cdot + R\cdot \rightarrow\) dead polymer
+Under steady state in radical concentration, which qualitative dependence of polymerization rate on monomer concentration \([M]\) is most consistent?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Polymerization kinetics for chain-growth systems is analyzed using initiation–propagation–termination steps, often with a steady-state treatment for reactive intermediates (radicals).
+Monomer consumption occurs primarily during propagation, which is first order in monomer concentration for a given radical concentration, leading to a polymerization rate that is proportional to \([M]\) in the standard chain-growth kinetic form.
+Termination being bimolecular in radicals affects radical concentration, but it does not imply a squared dependence on monomer concentration.
+A and D contradict the propagation role of monomer in determining growth rate in chain polymerization.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rate \(\propto [M]^0\) because radicals control everything]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Rate \(\propto [M]\) because propagation consumes monomer in an elementary step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rate \(\propto [M]^2\) because termination is bimolecular]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rate \(\propto 1/[M]\) because high monomer suppresses radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A reaction shows a large]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A reaction shows a large primary kinetic isotope effect \(k_H/k_D\gg 1\). Which mechanistic conclusion is most justified?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Kinetic isotope effects are used to infer transition-state structure and whether a bond to the isotopic atom is involved in the key rate-determining event.
+A large primary KIE supports that the X–H (vs X–D) bond is involved in the rate-controlling transition state, reflecting isotope-dependent zero-point energy differences along the reaction coordinate.
+Parallel pathways are not required to observe KIE; KIE can occur in a single-path mechanism if the isotopic bond participates in the slow step.
+KIE concerns rate constants (kinetics) and does not require the catalyst to contain hydrogen, nor does it force the equilibrium constant to change by the same factor.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The H (or D) bond is involved in the rate-controlling transition state, consistent with significant bond breaking/forming]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction must proceed through a parallel reaction network]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The catalyst must contain hydrogen to show isotope effects]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The equilibrium constant must change by the same factor as \(k_H/k_D\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

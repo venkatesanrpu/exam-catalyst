@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a unimolecular reaction, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a unimolecular reaction, the observed “fall-off” behavior (change from low-pressure to high-pressure kinetics) is most fundamentally rationalized by combining collisional activation ideas (Lindemann–Hinshelwood) with the concept that rate depends on how internal energy is distributed among molecules. Which statement best captures this integrated explanation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit emphasizes unimolecular pressure dependence via the Lindemann–Hinshelwood mechanism with distinct low- and high-pressure limits.  At low pressure, collision frequency is too low to maintain a significant energized fraction, so the effective rate is collision-controlled and increases with pressure.  At high pressure, energy exchange becomes frequent enough that an energized population is maintained and the decomposition step sets the limiting behavior, producing an apparent first-order, pressure-independent limiting rate constant.  A change in elementary molecularity (option about switching to a different bimolecular step) is not required to explain fall-off in this framework.  The PES still contains the relevant saddle point regardless of pressure; pressure affects population/energy transfer, not the existence of stationary points.  Activation entropy does not become exactly zero just because pressure is high; \(\Delta S^\ddagger\) reflects transition-state organization relative to reactants.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[At low pressure, insufficient collisions limit formation of energized molecules; at high pressure, rapid energization/de-energization establishes a steady energized population so the rate saturates to a pressure-independent limit]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fall-off occurs because the reaction switches from a unimolecular pathway at low pressure to a different bimolecular elementary step at high pressure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fall-off occurs because the PES no longer contains a saddle point at high pressure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fall-off occurs because entropy of activation becomes exactly zero at high pressure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A computed stationary point on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A computed stationary point on a PES has one imaginary frequency, but an IRC calculation from that point leads downhill to the same minimum on both sides. What is the most defensible interpretation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit links transition states to first-order saddle points (one imaginary frequency) and emphasizes using reaction coordinate/IRC analysis to trace pathways and validate mechanisms.  If the IRC does not connect reactant and product valleys (distinct minima) as expected, the stationary point may be a valid first-order saddle but not the transition state for the intended reaction channel (e.g., it might return to the same basin).  Declaring the IRC “wrong by definition” ignores the role of IRC as a diagnostic for connectivity on a multidimensional PES.  A minimum would have all real frequencies, so option claiming “must be a minimum” contradicts the Hessian/frequency criterion.  A second-order saddle would show two imaginary frequencies, not one.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The stationary point is likely not the correct transition state for the desired reaction; it may correspond to an internal rearrangement mode or connect to the same well (wrong connectivity)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Any structure with one imaginary frequency must connect two different minima, so the IRC result must be wrong by definition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The point must be a minimum because it connects to a minimum]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The point must be a second-order saddle point because it does not connect distinct minima]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[TST predicts rates using properties]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[TST predicts rates using properties at the dividing surface near the saddle point. Which situation most directly signals a breakdown of the simplest TST assumption that trajectories crossing the dividing surface proceed to products without recrossing?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit explicitly includes classical trajectories on PES and highlights trajectory branching and reaction dynamics, along with limitations/modern extensions of TST.  If many trajectories cross the transition region and return (recross), the “no-recrossing” assumption of simple TST is violated, so TST can overestimate the true rate and corrections (e.g., transmission coefficient ideas or variational approaches) become relevant.  Molecular weight and reaction exothermicity alone do not diagnose recrossing; they are not direct indicators of dividing-surface failure.  The existence of a minimum energy path is normal and does not imply TST breakdown.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Significant trajectory branching/recrossing near the transition region seen in classical trajectory simulations]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reactant has a higher molecular weight than the product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction is exothermic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The PES contains a minimum energy path]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two reactions at the same]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two reactions at the same temperature have identical \(\Delta H^\ddagger\) but different \(\Delta S^\ddagger\). Under the Eyring framework, which qualitative conclusion is correct?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit emphasizes thermodynamic aspects of TST, specifically activation enthalpy and entropy and their role in temperature dependence through the activation free energy.  With equal \(\Delta H^\ddagger\), a more positive \(\Delta S^\ddagger\) makes \(\Delta G^\ddagger\) smaller at a given \(T\), which increases the rate in the Eyring picture.  Claiming \(\Delta H^\ddagger\) alone controls kinetics ignores the entropic contribution stressed in activation thermodynamics.  A more negative \(\Delta S^\ddagger\) typically corresponds to a more ordered transition-state ensemble and generally raises \(\Delta G^\ddagger\), slowing the rate at fixed \(T\).  TST rate expressions depend on transition-state properties (encoded via \(\Delta G^\ddagger\) and partition-function ideas), not only on minima.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The reaction with more positive \(\Delta S^\ddagger\) is faster because it lowers \(\Delta G^\ddagger=\Delta H^\ddagger-T\Delta S^\ddagger\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Both must have the same rate because \(\Delta H^\ddagger\) controls kinetics entirely]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction with more negative \(\Delta S^\ddagger\) is always faster because ordering speeds reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rate differences arise only from differences in the PES minima, not from transition-state properties]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In statistical-mechanical foundations of TST]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In statistical-mechanical foundations of TST, partition functions are used to connect molecular motions to rate expressions. Which change most plausibly decreases a TST-predicted rate constant primarily through partition-function effects at the transition state (without invoking a higher barrier height)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit ties TST to partition functions and activation thermodynamics, where reduced configurational freedom at the transition state corresponds to a more negative \(\Delta S^\ddagger\) and hence a larger \(\Delta G^\ddagger\) at fixed \(T\), reducing the rate.  Making products more stable changes reaction thermodynamics, but TST rate depends on activation free energy/transition-state ensemble rather than the depth of the product well if the transition state is unchanged.  Lowering the reactant minimum without changing transition-state organization effectively increases the barrier relative to reactants (a barrier-height change), which is not “primarily partition-function/entropy” in the intended sense.  Product vibrational modes do not directly set the flux across the dividing surface in the basic TST formulation emphasized; transition-state properties are central.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/84acffa8-5ba0-4f09-bb85-0bdd030fcc50/physical_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A transition state that is more constrained (fewer accessible configurations), reducing the effective entropy of activation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A deeper product well (more stable products) while leaving the transition state unchanged]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A lower reactant minimum energy without changing transition-state organization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increasing the number of product vibrational modes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

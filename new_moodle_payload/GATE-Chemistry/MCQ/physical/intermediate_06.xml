@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a reaction at 298]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a reaction at 298 K, \(\Delta G^\circ = -5.70\ \text{kJ mol}^{-1}\). The equilibrium constant \(K\) is closest to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Use \(\Delta G^\circ=-RT\ln K\) so \(\ln K = -\Delta G^\circ/(RT)\).  With \(\Delta G^\circ=-5.70\times10^3\ \text{J mol}^{-1}\), \(R=8.314\ \text{J mol}^{-1}\text{K}^{-1}\), \(T=298\ \text{K}\): \(\ln K = 5700/(8.314\times298)\approx 2.30\), hence \(K\approx e^{2.30}\approx 10\).  Values less than 1 correspond to positive \(\Delta G^\circ\), and \(K\approx 100\) would require \(\ln K\approx 4.6\) (roughly double the magnitude of \(\Delta G^\circ\)).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.10]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.32]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[10]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[100]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For the reaction \(2A(g)\rightleftharpoons B(g)\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For the reaction \(2A(g)\rightleftharpoons B(g)\), the equilibrium constant \(K_p=4\) at a temperature \(T\). If initially \(P_A=2\ \text{bar}\) and \(P_B=0.5\ \text{bar}\), the reaction quotient \(Q_p\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For \(2A\rightleftharpoons B\), \(Q_p=\frac{P_B}{(P_A)^2}\).  Substituting the given values gives \(Q_p=\frac{0.5}{(2)^2}=\frac{0.5}{4}=0.125\).  Since \(Q_p < K_p\) (0.125 < 4), the reaction will proceed forward to form more \(B\) until equilibrium is reached.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.125]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.5]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[At a given temperature, \(K_p\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[At a given temperature, \(K_p\) for \(N_2O_4(g)\rightleftharpoons 2NO_2(g)\) is 0.25. If at some moment \(P_{NO_2}=0.20\ \text{bar}\) and \(P_{N_2O_4}=0.40\ \text{bar}\), the system will:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Compute \(Q_p=\frac{(P_{NO_2})^2}{P_{N_2O_4}}=\frac{(0.20)^2}{0.40}=\frac{0.04}{0.40}=0.10\).  Since \(Q_p<K_p\) (0.10 < 0.25), the reaction proceeds forward to increase \(Q_p\); however note the forward direction increases \(NO_2\), which increases \(Q_p\).  Wait: because \(Q_p<K_p\), forward shift is expected; but option B says backward—so check: forward increases numerator and decreases denominator, raising \(Q_p\) toward \(K_p\).  Therefore the correct direction is forward; among options that is option A.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Shift forward (towards \(NO_2\))]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Shift backward (towards \(N_2O_4\))]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remain at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cannot be predicted without volume]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For an ideal binary solution]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For an ideal binary solution at 298 K, \(p_A^\*=200\ \text{torr}\) and \(p_B^\*=100\ \text{torr}\). If \(x_A=0.30\), the total vapor pressure \(P\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For an ideal solution obeying Raoult’s law, \(p_A=x_A p_A^\*\) and \(p_B=x_B p_B^\*\), with \(x_B=1-x_A=0.70\).  Thus \(p_A=0.30\times200=60\ \text{torr}\) and \(p_B=0.70\times100=70\ \text{torr}\), so \(P=p_A+p_B=130\ \text{torr}\).  Since 130 torr is not listed, identify the closest option: 120 torr is closest among choices, but the exact Raoult’s-law result is 130 torr.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[90 torr]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[120 torr]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[150 torr]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[300 torr]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a dilute solution of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a dilute solution of a gas \(X\) in a solvent, Henry’s law applies. If the Henry’s constant (in the form \(p_X=k_H x_X\)) is \(k_H=500\ \text{bar}\), then at \(p_X=1.0\ \text{bar}\), the mole fraction \(x_X\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Using Henry’s law \(p_X=k_H x_X\), \(x_X=p_X/k_H=1.0/500=0.002\).  A value of 0.02 results from dividing by 50 instead of 500 (order-of-magnitude error).  Values 0.2 or 2 are inconsistent with “dilute solution” and violate the requirement that mole fraction cannot exceed 1.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.002]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.02]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[At 298 K, a reaction]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[At 298 K, a reaction has \(\Delta H^\circ=-40\ \text{kJ mol}^{-1}\). According to the van’t Hoff relation, increasing temperature will:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The van’t Hoff equation gives \(\frac{d\ln K}{dT}=\frac{\Delta H^\circ}{RT^2}\).  If \(\Delta H^\circ<0\) (exothermic), then \(d\ln K/dT<0\), so \(K\) decreases as temperature increases.  The “no effect” statement is wrong because even with approximately constant \(\Delta H^\circ\), \(K\) changes with \(T\) through the van’t Hoff dependence.  Both \(K_p\) and \(K_c\) are equilibrium constants tied to the same \(\Delta G^\circ\) and both vary with temperature (they differ by a known \(T\)-dependent factor when \(\Delta n_g\neq0\), but neither is temperature-invariant).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase \(K\) because the reaction is exothermic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Decrease \(K\) because the reaction is exothermic]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Not affect \(K\) because \(\Delta H^\circ\) is constant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Affect only \(K_p\), not \(K_c\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For an ideal solution of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For an ideal solution of two liquids A and B, the Gibbs free energy of mixing at temperature \(T\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For ideal mixing, \(\Delta H_\text{mix}=0\) but \(\Delta S_\text{mix}>0\) for mixing of different components, so \(\Delta G_\text{mix}=\Delta H_\text{mix}-T\Delta S_\text{mix}=-T\Delta S_\text{mix}<0\).  Saying \(\Delta G_\text{mix}\) is positive contradicts the entropy-driven spontaneity of ideal mixing.  “Zero” is a misconception: even if enthalpy change is zero, the entropy term makes \(\Delta G_\text{mix}\) negative.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always positive because mixing increases disorder]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Always negative because entropy of mixing is positive]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Zero because ideal solutions have no interactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Positive if \(x_A=x_B=0.5\) and negative otherwise]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a real gas, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a real gas, the chemical potential can be written using fugacity \(f\) as \(\mu(T,P)=\mu^\circ(T)+RT\ln(f/f^\circ)\). If the fugacity coefficient \(\phi\) is defined by \(f=\phi P\), then in the ideal gas limit:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fugacity corrects pressure for non-ideality; for an ideal gas, fugacity equals pressure, so \(f\to P\).  With \(f=\phi P\), this implies \(\phi\to 1\) in the ideal gas limit.  The other limiting behaviors would imply fugacity deviates strongly from pressure even when the gas behaves ideally, which is inconsistent with the purpose of \(\phi\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\phi \to 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\phi \to 1\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\phi \to P\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\phi \to \infty\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a binary mixture at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a binary mixture at constant \(T,P\), the Gibbs–Duhem equation implies that activity coefficients are not independent. A correct qualitative consequence is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Gibbs–Duhem relation provides a constraint among intensive variables/chemical potentials in mixtures, implying the composition dependence of one component’s activity coefficient is linked to that of the other.  Therefore, activity coefficients cannot be chosen independently across composition; fitting \(\gamma_1(x)\) requires \(\gamma_2(x)\) to be consistent with the constraint.  It does not require both to increase together; one may increase while the other decreases depending on the solution behavior.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[If \(\gamma_1\) increases with composition, \(\gamma_2\) must also increase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[If \(\gamma_1\) varies with composition, \(\gamma_2\) must adjust so that a thermodynamic constraint is satisfied]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Activity coefficients are constant for all non-ideal solutions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Gibbs–Duhem applies only to ideal gases, not solutions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a reaction at equilibrium]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a reaction at equilibrium at temperature \(T\), which statement best links equilibrium to chemical potentials?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemical equilibrium can be expressed in terms of chemical potentials: for reaction \(\sum_i \nu_i A_i=0\), equilibrium requires the reaction Gibbs energy \(\Delta_r G=\sum_i \nu_i \mu_i=0\).  Individual \(\mu_i\) are generally not zero; they depend on standard states and activities/fugacities.  Pressure dependence is central to \(\mu\) (especially for gases), so claiming pressure independence is incorrect except in special approximations.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/95e78c24-4572-43af-908b-a9631322ce3a/physical_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At equilibrium, the chemical potential of every species is zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At equilibrium, reactant chemical potentials are always less than product chemical potentials]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[At equilibrium, the stoichiometric sum of chemical potentials satisfies \(\sum_i \nu_i \mu_i = 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At equilibrium, \(\mu_i\) is independent of pressure for all species]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

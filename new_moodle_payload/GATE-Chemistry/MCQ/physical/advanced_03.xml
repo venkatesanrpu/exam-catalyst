@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider two descriptions of \(\mathrm{O_2}\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider two descriptions of \(\mathrm{O_2}\): a localized electron-pair (Lewis/VB-style) picture giving an \(\mathrm{O=O}\) double bond with all electrons paired, versus the MO picture. Which statement best identifies the *specific* experimentally correct property that MO theory captures naturally but the simplest localized picture fails to capture without modification?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[MO theory predicts occupation of degenerate antibonding \(\pi^*\) orbitals in \(\mathrm{O_2}\) leaving unpaired electrons, which directly explains its paramagnetism.  A naive localized electron-pair picture typically pairs all electrons in bonds/lone pairs and would (incorrectly) suggest diamagnetism unless additional ideas are introduced.
+Why the other options are wrong: Linearity is not the key discriminating success here because diatomics are trivially linear regardless of bonding model.  The bond-length trend with changing antibonding occupancy is indeed rationalized by MO bond order arguments, but the hallmark “must-know” failure of the simplest Lewis/VB picture for \(\mathrm{O_2}\) is magnetism.  Bond order of \(\mathrm{O_2}\) from MO filling is 2, not 1.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mathrm{O_2}\) is paramagnetic due to unpaired electrons in \(\pi^*\) orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{O_2}\) is linear in geometry]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{O_2}\) has a bond length shorter than \(\mathrm{O_2^{2-}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\mathrm{O_2}\) has a bond order of exactly 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In LCAO–MO theory, the bonding–antibonding]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In LCAO–MO theory, the bonding–antibonding splitting for a pair of interacting atomic orbitals becomes *larger* when which condition is met?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The LCAO–MO framework links the stabilization/destabilization (bonding vs antibonding energy shift) to how strongly the atomic orbitals interact, and stronger interaction tracks with larger effective overlap.  Greater overlap increases electron density buildup between nuclei for the bonding combination and increases nodal character/repulsion for the antibonding combination, widening the splitting qualitatively.
+Why the other options are wrong: If overlap is zero (orthogonal orbitals), interaction and splitting vanish in the simplest picture, so no “larger” splitting occurs.  If orbital energies are extremely mismatched, mixing is reduced and the splitting due to interaction is not enhanced in the intended qualitative MO sense for bonding/antibonding formation.  Changing spin alone does not change the spatial interaction responsible for bonding–antibonding splitting.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The orbital overlap integral increases (greater spatial overlap and interaction)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The interacting orbitals become strictly orthogonal with zero overlap]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The difference in their energies becomes infinitely large while overlap stays finite]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only electron spin changes, with orbital shapes unchanged]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Born–Oppenheimer (BO) approximation treats nuclear]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Born–Oppenheimer (BO) approximation treats nuclear positions as parameters in the electronic problem and leads to a potential energy surface (PES). Which situation most directly signals a *breakdown* of the BO approximation as emphasized in typical molecular quantum mechanics context?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit highlights that BO works well for many electronic ground-state problems but can break down for nonadiabatic processes where electronic and nuclear motions cannot be cleanly separated.  In such cases, transitions/mixing between electronic states induced by nuclear motion invalidate the simple product separation of electronic and nuclear wavefunctions.
+Why the other options are wrong: Having an equilibrium geometry and a smooth ground-state PES behavior are exactly the kinds of features that support using BO, not indicators of breakdown.  Solving the electronic problem at fixed geometry is the standard BO step, not a failure condition.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Significant nonadiabatic coupling between electronic states during nuclear motion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molecule has a well-defined equilibrium bond length on the ground-state PES]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The electronic ground state can be solved for fixed internuclear distance]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The electronic energy changes smoothly as a function of internuclear separation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In heteronuclear diatomics, MO polarization]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In heteronuclear diatomics, MO polarization and “unequal sharing” of electrons arises mainly from:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The heteronuclear MO description emphasizes that differing nuclear charges/electronegativities lead to different AO energies, producing unequal MO coefficients and hence polarized electron density.  This polarization connects directly to partial charges and permanent dipole moments, and also affects bonding/antibonding character and reactivity discussions (frontier-orbital viewpoint).
+Why the other options are wrong: MO polarization is not restricted to \(\pi\) bonding; \(\sigma\) bonding commonly shows strong polarity in heteronuclear molecules.  Normalization does not force equal coefficients; it only constrains the total probability.  Pauli exclusion restricts occupancy patterns but is not the primary cause of heteronuclear polarity; the driver is energetic mismatch and mixing.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Atomic orbital energy differences (linked to electronegativity differences) that reduce symmetric mixing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The presence of only \(\pi\) bonds rather than \(\sigma\) bonds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A requirement that bonding MOs must always be 50–50 combinations by normalization]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The Pauli exclusion principle forcing electrons to localize on one atom]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Hückel theory (as a simplified]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Hückel theory (as a simplified \(\pi\)-electron MO treatment) is often combined with a separate \(\sigma\)-framework picture. Which statement best captures the *conceptual separation* used in Hückel approximation for conjugated systems?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Hückel framework is built on separating \(\pi\) and \(\sigma\) electrons, then applying a simplified LCAO treatment to the \(\pi\) system using approximations like nearest-neighbor interactions and parameterization.  This enables qualitative predictions of \(\pi\)-orbital energies, coefficients, aromaticity patterns (including \(4n+2\) rule usage), and related properties such as \(\pi\)-bond orders and charge distributions.
+Why the other options are wrong: Aromaticity is a \(\pi\)-electron delocalization concept, so neglecting \(\pi\) electrons contradicts the purpose of Hückel theory.  Hückel does not include full exact electron–electron repulsion; it is explicitly simplified/parameterized.  Degeneracy patterns occur for symmetry reasons in some rings, but aromaticity is not defined by “all \(\pi\) MOs degenerate.”
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/a847962b-581f-4618-9d21-853a9ecafda6/physical_unit_03.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Treat \(\pi\) electrons separately from the \(\sigma\) framework and model only nearest-neighbor \(\pi\) interactions using parameterized integrals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Treat \(\sigma\) electrons only and neglect \(\pi\) electrons entirely to explain aromaticity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Include full electron–electron repulsion exactly to obtain aromaticity energies]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Require that all \(\pi\) MOs in cyclic systems are degenerate for aromaticity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

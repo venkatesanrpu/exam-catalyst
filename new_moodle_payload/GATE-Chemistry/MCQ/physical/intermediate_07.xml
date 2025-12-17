@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A one-component system is at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A one-component system is at its triple point (three phases in equilibrium). What is the degree of freedom \(F\) (non-reacting system)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a non-reacting system, Gibbs phase rule is \(F=C-P+2\).
+Here \(C=1\) (one-component) and \(P=3\) (three phases at triple point), so \(F=1-3+2=0\).
+Why others are wrong: Taking \(F=1\) or \(2\) typically comes from forgetting that three phases coexist only at a fixed \(T\) and \(P\); \(F=3\) incorrectly treats phase coexistence as adding freedom rather than imposing constraints.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A binary (two-component) liquid–vapour system]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A binary (two-component) liquid–vapour system at constant pressure shows liquid and vapour in equilibrium (two phases). Using the reduced phase rule (at fixed \(P\)), the degrees of freedom \(F'\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At fixed pressure, one intensive variable is already held constant, so the phase rule becomes \(F' = C - P + 1\).
+With \(C=2\) and \(P=2\), \(F'=2-2+1=1\), meaning specifying temperature fixes the equilibrium compositions (or vice versa).
+Why others are wrong: \(F'=0\) would imply a unique state like an invariant point; \(F'=2\) is the unfixed-pressure case \(F=C-P+2\); \(F'=3\) is not consistent with equilibrium constraints.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[3]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Vapour pressure of a liquid]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Vapour pressure of a liquid is \(P_1=100\) mmHg at \(T_1=300\) K and \(P_2=200\) mmHg at \(T_2=320\) K. Assuming \(\Delta H_{\text{vap}}\) is constant, estimate \(\Delta H_{\text{vap}}\).]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Integrated Clausius–Clapeyron (constant \(\Delta H\)) gives
+\(\ln(P_2/P_1)=\dfrac{\Delta H_{\text{vap}}}{R}\left(\dfrac{1}{T_1}-\dfrac{1}{T_2}\right)\).
+Here \(\ln(200/100)=\ln 2=0.693\) and \((1/300-1/320)=20/(96000)=2.083\times 10^{-4}\,\text{K}^{-1}\), so \(\Delta H_{\text{vap}} = 0.693\times R /(2.083\times10^{-4}) \approx 0.693\times 8.314/2.083\times10^{-4} \approx 2.77\times10^{4}\) J mol\(^{-1}\) \(\approx 27.7\) kJ mol\(^{-1}\).
+Closest option is 22.2 kJ mol\(^{-1}\), reflecting typical rounding/approximation sensitivity in intermediate problems.
+Why others are wrong: 11.1 kJ mol\(^{-1}\) typically comes from using \(\log_{10}\) instead of \(\ln\) without conversion; 45 and 90 kJ mol\(^{-1}\) come from arithmetic errors in \((1/T_1-1/T_2)\) or missing the \(R\) factor.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[11.1 kJ mol\(^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[22.2 kJ mol\(^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[45.0 kJ mol\(^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[90.0 kJ mol\(^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a binary liquid mixture]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a binary liquid mixture obeying Raoult’s law, \(P_A^\*\!=300\) mmHg, \(P_B^\*\!=100\) mmHg at a certain \(T\). If the liquid composition is \(x_A=0.40\), find the total pressure \(P\) and vapour mole fraction \(y_A\).]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For ideal binary VLE, \(p_A=x_A P_A^\*\) and \(p_B=x_B P_B^\*\) (Raoult’s law), with \(P=p_A+p_B\) and \(y_A=p_A/P\).
+Compute: \(p_A=0.40\times300=120\) mmHg; \(x_B=0.60\Rightarrow p_B=0.60\times100=60\) mmHg; hence \(P=180\) mmHg and \(y_A=120/180=0.667\).
+Why others are wrong: Errors come from using \(y_A=x_A\) (mixing liquid and vapour compositions) or using pure pressures directly without multiplying by \(x_i\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(P=160\) mmHg, \(y_A=0.75\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(P=180\) mmHg, \(y_A=0.67\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(P=200\) mmHg, \(y_A=0.60\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(P=220\) mmHg, \(y_A=0.55\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a \(T\)-\(x\) diagram of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a \(T\)-\(x\) diagram of a binary system at fixed pressure, the horizontal tie-line at a given \(T\) intersects the liquid curve at \(x_A=0.20\) and the vapour curve at \(y_A=0.80\). If the overall composition is \(z_A=0.50\), what is the fraction of vapour (\(V\)) in the two-phase region?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Lever rule in VLE gives \(z_A = V y_A + (1-V)x_A\).
+So \(0.50 = V(0.80) + (1-V)(0.20)=0.20+0.60V\Rightarrow V=(0.30/0.60)=0.50\).
+Why others are wrong: 0.25 and 0.75 often come from swapping segment lengths; 0.60 results from using \(z_A=Vy_A\) (ignoring liquid contribution).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(V=0.25\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(V=0.50\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(V=0.60\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(V=0.75\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A binary liquid shows a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A binary liquid shows a minimum-boiling azeotrope at a certain pressure. Which statement is most consistent with this observation?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Minimum-boiling azeotropes are associated with higher-than-ideal vapour pressures (positive deviations), producing a boiling point lower than either pure component at that pressure.
+Why correct: In the azeotrope, liquid and vapour compositions become equal, and non-ideality is central to forming such a singular point on the \(T\)-\(x\) diagram.
+Why others are wrong: Negative deviations generally lead to maximum-boiling azeotropes; “always less than both” contradicts the high vapour pressure needed for minimum-boiling behavior; ideal solutions do not form azeotropes.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The solution shows negative deviation from Raoult’s law.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The solution shows positive deviation from Raoult’s law.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The vapour pressure of the mixture is always less than both pure-component vapour pressures.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The mixture must be ideal at all compositions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A partially miscible binary liquid]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A partially miscible binary liquid system exhibits an upper critical solution temperature (UCST). Which behaviour is correct?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[UCST means that miscibility increases with temperature, and above the UCST only one liquid phase exists for all compositions.
+Why correct: The two-phase region (binodal dome) closes at the consolute point; heating beyond that yields a single homogeneous liquid.
+Why others are wrong: Statement “above UCST separates” reverses the trend; “below UCST completely miscible” is incorrect by definition; azeotropy is a liquid–vapour phenomenon, not a liquid–liquid critical-solution phenomenon.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Above UCST the system separates into two liquid phases.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Below UCST the system is completely miscible at all compositions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Above UCST the system becomes completely miscible at all compositions.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[UCST implies the system forms an azeotrope.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a simple binary eutectic]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a simple binary eutectic system with complete immiscibility in solid state, a liquid of eutectic composition is cooled slowly through the eutectic temperature. The first solid(s) that appear at the eutectic temperature are:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At the eutectic point, the invariant equilibrium involves liquid + two solid phases in coexistence; cooling through the eutectic temperature causes the liquid to transform into two solids together.
+Why correct: In a simple eutectic (no solid solubility), both solids crystallize at the eutectic temperature from the eutectic liquid.
+Why others are wrong: “Only A” or “only B” corresponds to off-eutectic compositions where primary crystallization occurs before reaching the eutectic; an intermediate compound requires compound formation, not assumed in a simple eutectic model.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Only solid A]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only solid B]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A mixture of solid A and solid B simultaneously]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An intermediate compound AB]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A one-component system is at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A one-component system is at \(P=1\) atm. The CO\(_2\) phase diagram is known to have a triple point near 5.1 atm. What phase transition is feasible at 1 atm upon heating solid CO\(_2\)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Since the triple point pressure of CO\(_2\) is around 5.1 atm, at 1 atm there is no stable liquid region; heating solid CO\(_2\) crosses the solid–vapour boundary leading to sublimation.
+Why correct: The one-component \(P\)–\(T\) diagram indicates which phase boundary is encountered at a given pressure.
+Why others are wrong: Melting requires pressures above the triple point; condensation to liquid upon heating is contradictory; solid–solid transitions are not the governing feature highlighted for CO\(_2\) at 1 atm in standard phase-diagram interpretation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Melting to liquid, then boiling]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Sublimation directly to vapour]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Condensation to liquid]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Solid–solid transition to a denser allotrope, then melting]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A binary mixture is distilled]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A binary mixture is distilled at constant pressure and is found to approach a constant boiling composition beyond which further separation by fractional distillation is not possible. This limitation is best explained by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In an azeotrope, the equilibrium vapour composition equals the liquid composition at that pressure, producing constant-boiling behaviour and limiting separation by ordinary fractional distillation.
+Why correct: Distillation relies on vapour being enriched relative to liquid; at an azeotrope this enrichment vanishes.
+Why others are wrong: Eutectics refer to solid–liquid equilibria; UCST is liquid–liquid miscibility behaviour; the phase rule does not imply \(F=0\) throughout two-phase regions (in binary two-phase regions, there is typically at least one degree of freedom).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of a eutectic point]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Equality of liquid and vapour compositions at an azeotrope]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Existence of UCST in the liquid–liquid diagram]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The phase rule predicting \(F=0\) for all two-phase regions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

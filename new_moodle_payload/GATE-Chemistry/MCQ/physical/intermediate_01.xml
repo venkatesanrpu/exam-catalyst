@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A particle is in a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A particle is in a 1D infinite potential well of length \(L\). If the particle is in the \(n=2\) eigenstate, the ratio \(E_2/E_1\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a particle in a 1D infinite box, energy levels scale as \(E_n \propto n^2\) due to boundary conditions and quantization from the time-independent Schrödinger equation.  Hence \(E_2/E_1 = 2^2/1^2 = 4\).  The value 2 comes from wrongly assuming linear dependence on \(n\), and 8 comes from confusing \(n^2\) with \(n^3\) type scaling.  The value 1/4 is the inverted ratio and is a common algebra slip.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1/4]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a 2D infinite square]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a 2D infinite square box with equal side lengths \(L_x=L_y=L\), which pair of quantum numbers corresponds to a degenerate partner of the state \((n_x,n_y)=(1,2)\)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In a 2D box, energy depends on the sum \(n_x^2+n_y^2\) (for equal side lengths), so swapping \((n_x,n_y)\) leaves the energy unchanged.  For \((1,2)\), the sum is \(1^2+2^2=5\), which matches \((2,1)\).  The other pairs give sums 10, 8, and 2 respectively, so they are not degenerate with 5.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(1,3)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[(2,1)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(2,2)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[(1,1)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A particle in a 1D]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A particle in a 1D box is prepared in the normalized superposition \(|\psi\rangle=\frac{1}{\sqrt{2}}(|1\rangle+|2\rangle)\), where \(|n\rangle\) are energy eigenstates of the Hamiltonian \(\hat{H}\). The expectation value \(\langle H\rangle\) equals:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Expectation values are computed using \(\langle \psi|\hat{H}|\psi\rangle\), and for a superposition of orthonormal energy eigenstates, the mean energy becomes the probability-weighted average of eigenvalues.  Here each state has probability \(1/2\), so \(\langle H\rangle = \frac{1}{2}E_1+\frac{1}{2}E_2\).  Adding energies without weighting ignores the Born interpretation link between amplitudes and probabilities.  The geometric mean and difference arise from common but incorrect “averaging” instincts not justified by operator expectation-value rules.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\frac{E_1+E_2}{2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E_1+E_2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\sqrt{E_1E_2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E_2-E_1\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Two stationary states \(\psi_1\) and]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Two stationary states \(\psi_1\) and \(\psi_2\) are orthonormal. A new wave function is formed as \(\psi = a\psi_1 + b\psi_2\). If \(a=\frac{1}{2}\), then \(|b|\) must be (to keep \(\psi\) normalized):]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For orthonormal states, normalization requires \(|a|^2+|b|^2=1\), which is a direct consequence of normalization and orthogonality conditions.  With \(|a|^2=1/4\), \(|b|^2=3/4\), so \(|b|=\sqrt{3}/2\).  The option \(1/2\) forgets to satisfy the total probability of 1, while \(\sqrt{3}\) and 1 violate normalization.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\frac{\sqrt{3}}{2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\frac{1}{2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\sqrt{3}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the quantum harmonic oscillator]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the quantum harmonic oscillator, if the angular frequency is \(\omega\), the energy difference \(E_{n+1}-E_n\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The harmonic oscillator has quantized equally spaced energy levels, a core result obtained from solving the Schrödinger equation for a quadratic potential (with solutions involving Hermite polynomials).  Equal spacing implies \(E_{n+1}-E_n\) is a constant independent of \(n\), and that spacing is \(\hbar\omega\).  Half-spacing is a common confusion with the zero-point energy term, and \(2\hbar\omega\) is a doubling error.  A level spacing that shrinks with \(n\) contradicts the defining property of the quantum harmonic oscillator spectrum.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\hbar\omega\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\frac{1}{2}\hbar\omega\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(2\hbar\omega\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\hbar\omega/(n+1)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For the harmonic oscillator, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For the harmonic oscillator, the ground-state energy is nonzero. If \(\omega\) is the oscillator frequency, the zero-point energy is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Solving the Schrödinger equation for the harmonic potential yields a minimum energy even at \(n=0\), called the zero-point energy.  That value is \(\frac{1}{2}\hbar\omega\), reflecting quantum confinement in phase space and the oscillator’s quantized spectrum.  A zero value is the classical expectation (rest at the bottom), not the quantum result.  The values \(\hbar\omega\) and \(\frac{3}{2}\hbar\omega\) correspond to incorrectly shifting the quantum number or misidentifying excited-state energies.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\frac{1}{2}\hbar\omega\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\hbar\omega\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\frac{3}{2}\hbar\omega\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The commutator \([\hat{L}_x,\hat{L}_y]\neq 0\) implies]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The commutator \([\hat{L}_x,\hat{L}_y]\neq 0\) implies that a state cannot have simultaneously sharp values of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Nonzero commutators among angular momentum components encode non-simultaneous observability and associated uncertainty, a central idea under commutators and uncertainty.  The pair \(L^2\) and one component (commonly \(L_z\)) is treated as compatible in angular momentum eigenvalue structure used in rigid-rotor solutions.  The other options either mix unrelated operators or state pairs not directly implied by the angular momentum commutation relations emphasized for rotational motion.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(L_x\) and \(L_y\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(L^2\) and \(L_z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(L_z\) and energy for a rigid rotor]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Position and energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a rigid rotor, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a rigid rotor, the rotational energy depends on the moment of inertia \(I\). If \(I\) doubles (all else same), the spacing between neighboring rotational energy levels will:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In the rigid rotor model, rotational energies scale inversely with \(I\) because the rotational kinetic energy operator contains \(1/I\).  Therefore increasing \(I\) reduces the scale of rotational energies and hence reduces (approximately scales down) the spacing between successive rotational levels.  Doubling is the opposite trend, and “unchanged” ignores the explicit \(I\)-dependence.  The spacing does not become identically zero unless \(I\to\infty\), not merely doubled.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Double]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Halve]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remain unchanged]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Become zero for all \(J\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For hydrogen-like atoms, the energy]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For hydrogen-like atoms, the energy levels depend on nuclear charge \(Z\). If \(E_n(\text{H})\) is the energy of hydrogen at principal quantum number \(n\), then for \(\text{He}^+\) at the same \(n\), the energy is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Hydrogen-like ions follow a scaling with \(Z\) for orbital energies, a key extension from hydrogen to ions like \(\text{He}^+\) and \(\text{Li}^{2+}\).  Since \(\text{He}^+\) has \(Z=2\), the energy scale goes as \(Z^2\), giving \(E_n(\text{He}^+)=4E_n(\text{H})\) at the same \(n\).  The factors 2 and 1/2 come from incorrectly assuming linear scaling with \(Z\) or confusing radius scaling with energy scaling.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E_n(\text{H})/2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(2E_n(\text{H})\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(4E_n(\text{H})\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E_n(\text{H})\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a finite square well]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a finite square well, compared to an infinite square well of the same width, the bound-state wave function in the classically forbidden region (outside the well) is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A finite well requires continuity of the wave function and leads to penetration into the barrier region, producing an exponentially decaying tail outside the well.  Identically zero outside is a special feature of the infinite well idealization, not of finite barriers.  Linear growth is not a valid physical solution for bound states, and constant-amplitude oscillations outside would correspond to free/unbound motion rather than a bound state.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/2ed08a49-6201-4865-b260-c92e0bc9b093/physical_unit_01.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Identically zero, just as in the infinite well]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Exponentially decaying but nonzero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Linearly increasing with distance]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Oscillatory with constant amplitude]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

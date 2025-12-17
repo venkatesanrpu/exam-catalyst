@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Fast reaction kinetics is primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Fast reaction kinetics is primarily concerned with reactions that occur on which approximate timescale range?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fast reaction kinetics deals with reactions so rapid that conventional “mix, wait, and sample” methods cannot follow them in real time; typical lifetimes are in the microsecond to nanosecond regime.  Hours-to-days and minutes-to-hours are accessible by standard kinetic monitoring (e.g., spectrophotometry with ordinary mixing).  Years-to-decades is unrelated to laboratory fast-kinetics methodology.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hours to days]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Minutes to hours]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Microseconds to nanoseconds]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Years to decades]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In relaxation methods, the experiment]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In relaxation methods, the experiment begins by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Relaxation methods are based on disturbing an equilibrium system (by temperature-jump, pressure-jump, or electric-field-jump) and observing the relaxation back to equilibrium.  Rapid mixing followed by monitoring corresponds to flow/rapid-mixing methods, not relaxation methods.  Removing catalyst is not the defining operational principle of relaxation kinetics.  Viscosity/diffusion may influence rates in diffusion control, but it is not the defining start-step of relaxation experiments.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rapidly mixing two reactant solutions and monitoring product formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Perturbing a system at equilibrium and monitoring its return to equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Removing catalyst and monitoring rate decrease]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Measuring viscosity to infer diffusion coefficient directly]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A stopped-flow technique is best]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A stopped-flow technique is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Stopped-flow is a rapid-mixing (flow) technique designed to follow fast kinetics right after reactants are mixed, accounting for mixing/dead time.  Pressure-jump is a relaxation (perturbation) method, not a flow method.  Stopped-flow is widely used for solution kinetics (including enzyme kinetics), not restricted to gas-phase unimolecular reactions.  Phosphorescence lifetimes belong to photophysical kinetics; stopped-flow is not “only” for that purpose.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A perturbation method that uses pressure pulses to shift equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A rapid-mixing method that observes kinetics immediately after mixing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A method that only works for gas-phase unimolecular reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A method used only for measuring phosphorescence lifetimes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The term “dead time” in]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The term “dead time” in rapid-mixing/flow experiments most directly refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Dead time is the instrumental/mixing limitation: the interval between initiating the reaction by mixing and when the detector can first observe a trustworthy signal.  It is not the late-time plateau after reaction completion (that is simply reaching completion or steady signal).  Excited-state lifetimes are photophysical parameters, not the definition of mixing dead time.  Diffusion encounter time can influence kinetics, but “dead time” is an apparatus/measurement constraint.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The time after completion of reaction when signal stops changing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The time between mixing and the earliest reliable measurement]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The lifetime of the excited singlet state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The time required for diffusion-controlled encounter]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A diffusion-controlled reaction is one]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A diffusion-controlled reaction is one in which the observed rate is limited mainly by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In diffusion-controlled reactions, the rate is governed by how quickly reactants can diffuse and encounter each other in solution rather than by the intrinsic chemical transformation once they meet.  If an intrinsic activation barrier dominates, the process is activation-controlled, not diffusion-controlled.  Light intensity is relevant for photochemical initiation, not as the defining limitation of diffusion-controlled thermal encounters.  An equilibrium constant alone does not set the encounter-limited rate; transport (diffusion) is the key limitation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The intrinsic activation barrier of the chemical step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Diffusion of reactants through the solvent to meet]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The intensity of incident light only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The equilibrium constant of the ground-state reactants only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A Jablonski diagram is primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A Jablonski diagram is primarily used to represent:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A Jablonski diagram is an energy-level scheme showing electronic states (e.g., singlet/triplet) and pathways like fluorescence, phosphorescence, internal conversion, and intersystem crossing.  It is not a diagram of diffusion flux or solvent transport.  It is unrelated to mechanical mixing geometries of flow devices.  Pressure dependence of equilibria is addressed in pressure-jump concepts, not by Jablonski diagrams.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Diffusion flux lines of reactants in a solvent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Electronic states and radiative/nonradiative transitions between them]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mixing patterns in stopped-flow chambers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pressure dependence of equilibrium constants in relaxation methods]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which process is photophysical rather]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which process is photophysical rather than photochemical?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Photophysical processes involve deactivation of excited states without chemical change, such as fluorescence, phosphorescence, internal conversion, and intersystem crossing.  Formation of new products, bond cleavage, and chain reactions represent photochemical outcomes because they involve chemical transformation.  The key distinction is whether excitation leads to chemistry (photochemical) or only state-to-state relaxation/emission (photophysical).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of new chemical products after excitation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fluorescence emission from an excited state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Photoinduced bond cleavage producing radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Light-initiated chain reaction with net chemical change]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Quantum yield in photochemistry is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Quantum yield in photochemistry is best defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quantum yield is the ratio of the number of events of a particular type (such as product formation or photon emission) to the number of photons absorbed.  Photons emitted per molecule initially present is not tied to absorbed photons and can misrepresent efficiency.  A single rate constant (e.g., intersystem crossing) contributes to quantum yield but is not the definition.  Transmittance concerns optical attenuation, not event-per-absorbed-photon efficiency.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Photons emitted per molecule initially present]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Number of specified events (reaction or emission) per photon absorbed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Rate constant of intersystem crossing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fraction of light transmitted through a sample]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Stern–Volmer analysis is most directly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Stern–Volmer analysis is most directly associated with studying:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Stern–Volmer analysis is used to analyze fluorescence quenching (including dynamic and static quenching) and relate changes in intensity/lifetime to quencher presence.  Pressure-jump is a relaxation technique but not the Stern–Volmer framework.  Although diffusion can affect dynamic quenching, Stern–Volmer analysis is not restricted to “diffusion-controlled in the dark”; it is specifically a quenching relationship used in excited-state kinetics.  Mixing dead time is an instrumental concept in flow methods, not a fluorescence quenching model.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pressure-jump relaxation back to equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fluorescence quenching behavior]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Diffusion-controlled bimolecular rate limits only in the dark]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mixing dead time in stopped-flow instruments]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Laser flash photolysis is mainly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Laser flash photolysis is mainly used to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Laser flash photolysis uses a short light pulse to create reactive/transient species and then monitors their evolution on very short timescales, enabling observation of short-lived intermediates.  Slow titration is not a transient, fast-kinetics technique.  Viscosity measurement by capillary flow is a transport-property experiment, not flash photolysis.  Stopped-flow mixing efficiency is a mechanical/flow design issue, not something laser flash photolysis is designed to improve.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8d20b95b-bdc3-4524-a196-4d429e7110c8/physical_unit_12.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Generate and monitor transient species on very short timescales]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Measure equilibrium constants by slow titration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Determine viscosity by capillary flow]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase mixing efficiency in stopped-flow experiments]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

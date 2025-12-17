@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a closed system, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a closed system, the **first law of thermodynamics** is best stated as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The first law expresses conservation of energy for a system as \(\Delta U = q - w\), where \(q\) is heat absorbed by the system and \(w\) is work done by the system (with the chemistry sign convention).  Option stating entropy is constant is incorrect because the second law states entropy of the universe increases for spontaneous processes, not remains constant.  The enthalpy statement is wrong because at constant pressure (not constant volume), \(q_p=\Delta H\) for PV work only.  The Gibbs free energy criterion (\(\Delta G<0\) for spontaneity) applies under constant temperature and pressure, so it is not an “always” condition for any spontaneous process.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The entropy of the universe is always constant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The change in internal energy equals heat added to the system minus work done by the system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The change in enthalpy equals heat absorbed at constant volume]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The Gibbs free energy of a system always decreases in a spontaneous process]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which of the following is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which of the following is a **state function**?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A state function depends only on the state of the system, not on how the state was reached; internal energy \(U\) is a state function.  Heat and work depend on the path taken during a process, so they are path functions rather than state functions.  “Path length” is not a thermodynamic property and is inherently path dependent, so it cannot be a state function.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heat]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Work]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Internal energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Path length of a process]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The entropy change for a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The entropy change for a **reversible** process is defined by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Entropy is a state function and its change between two equilibrium states can be computed using a reversible path: \(\Delta S = \int \delta q_\text{rev}/T\).  Using irreversible heat directly in that integral is not valid because \(\delta q_\text{irrev}/T\) does not generally give the state-function change.  Multiplying by \(T\) (instead of dividing) is dimensionally and conceptually incorrect for entropy change.  Work does not define entropy change; entropy is tied to reversible heat transfer divided by temperature.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\Delta S = \int \frac{\delta q_\text{rev}}{T}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta S = \int \frac{\delta q_\text{irrev}}{T}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta S = \int \delta q_\text{rev}\,T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta S = \int \delta w_\text{rev}/T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **third law of thermodynamics**]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **third law of thermodynamics** implies that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The third law provides the reference for absolute entropy: a perfect crystal has \(S=0\) at 0 K.  It does not claim that \(H\), \(G\), or \(U\) must be zero at 0 K; those depend on chosen reference states and zero-point energies.  The key use is enabling calculation of absolute entropies by integrating heat capacity contributions from 0 K upward (with appropriate phase transitions).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Entropy of a perfect crystal is zero at 0 K]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Enthalpy of a perfect crystal is zero at 0 K]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Gibbs free energy is zero at 0 K for any system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Internal energy is zero at 0 K for all substances]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Under constant temperature and pressure]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Under constant temperature and pressure, a process is spontaneous if:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At constant \(T\) and \(P\), the Gibbs free energy criterion applies: \(\Delta G < 0\) indicates spontaneity and \(\Delta G = 0\) indicates equilibrium.  \(\Delta U<0\) is not a general spontaneity criterion because spontaneous processes can occur with \(\Delta U\) positive or negative depending on heat and work interactions.  \(\Delta H<0\) alone is insufficient because entropy effects also matter in determining spontaneity at given \(T,P\).  \(\Delta S_\text{system}\) can be negative for a spontaneous process if the surroundings’ entropy increase outweighs it, so it is not a standalone criterion.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta U < 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta H < 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\Delta G < 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta S_\text{system} < 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **chemical potential** of a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **chemical potential** of a component in a mixture is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemical potential \(\mu_i\) is defined as \(\mu_i=\left(\frac{\partial G}{\partial n_i}\right)_{T,P,n_{j\neq i}}\), making it the driving force for mass transfer and phase/chemical equilibrium.  Average kinetic energy relates to temperature and molecular motion, not directly to chemical potential.  Total \(G\) divided by total moles is molar Gibbs free energy of the mixture, not the partial molar quantity for a specific component.  The enthalpy–pressure derivative is linked to other thermodynamic relations, not the definition of chemical potential.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The average kinetic energy of molecules of that component]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The change in Gibbs free energy with respect to moles of that component at constant \(T,P\) and other components fixed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The total Gibbs free energy divided by total moles]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The change in enthalpy with pressure at constant temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For an **ideal solution**, Raoult’s]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For an **ideal solution**, Raoult’s law for component \(i\) states:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In an ideal solution, each component obeys Raoult’s law: the partial vapor pressure \(p_i\) equals mole fraction in the liquid \(x_i\) times the pure-component vapor pressure \(p_i^\*\) at the same temperature.  Introducing \(\gamma_i\) (activity coefficient) is the non-ideal correction; for ideal solutions \(\gamma_i=1\).  Henry’s law is typically used for dilute solutions/solute behavior and is not generally valid for all compositions.  Dividing by \(x_i\) is an incorrect rearrangement and violates limiting behavior as \(x_i \to 1\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(p_i = x_i\,p_i^\*\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(p_i = \gamma_i x_i\,p_i^\*\) with \(\gamma_i \neq 1\) necessarily]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(p_i = k_H x_i\) for all compositions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(p_i = p_i^\*/x_i\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The most appropriate statement about]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The most appropriate statement about **fugacity** is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fugacity is introduced so that the chemical potential of a real gas can be written in a form analogous to an ideal gas, using an effective pressure \(f\) that captures deviations from ideality.  Fugacity approaches pressure in the ideal-gas limit (low pressure), but it is not equal to pressure under all conditions for real gases.  Fugacity is widely used for gases and also extended to condensed phases with suitable conventions, so it is not restricted away from gases.  Molarity is a concentration unit; fugacity is a thermodynamic “effective pressure,” so they are not identical.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fugacity equals pressure for all real gases at all conditions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fugacity is an effective pressure that accounts for non-ideality in the chemical potential]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fugacity is only defined for liquids and solids, not gases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Fugacity is identical to molarity for solutions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The condition for **chemical equilibrium**]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The condition for **chemical equilibrium** at constant \(T\) and \(P\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At constant temperature and pressure, equilibrium corresponds to a minimum in Gibbs free energy and the criterion is \(\Delta G = 0\) for the reaction progress at equilibrium.  \(\Delta H=0\), \(\Delta S=0\), or \(\Delta U=0\) are not general equilibrium conditions; they may hold in special cases but are not universal criteria.  This connects directly to the link between \(\Delta G^\circ\) and equilibrium constants, which is central to equilibrium thermodynamics.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta H = 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta S = 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\Delta G = 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta U = 0\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The relationship between standard Gibbs]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The relationship between standard Gibbs free energy change and equilibrium constant is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a reaction at temperature \(T\), \(\Delta G^\circ = -RT\ln K\), linking thermodynamics to chemical equilibrium quantitatively.  The sign in option with \(+RT\ln K\) is incorrect and would predict the wrong trend (large \(K\) should correspond to negative \(\Delta G^\circ\)).  The forms \(-RT/K\) and \(R\ln(K/T)\) do not match the correct derivation based on chemical potentials and standard states.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/95e78c24-4572-43af-908b-a9631322ce3a/physical_unit_06.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta G^\circ = RT \ln K\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\Delta G^\circ = -RT \ln K\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta G^\circ = -RT/K\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\Delta G^\circ = R \ln(K/T)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

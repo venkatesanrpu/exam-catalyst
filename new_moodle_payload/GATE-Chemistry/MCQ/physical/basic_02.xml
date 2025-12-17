@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The main reason the exact]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The main reason the exact hydrogen-atom solution does not directly extend to multi-electron atoms is the presence of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In multi-electron atoms, electrons repel each other, so the Hamiltonian contains electron–electron interaction terms that couple the motions of different electrons.  This coupling destroys the simple separability that makes the hydrogen atom exactly solvable in closed form.  Relativistic effects can matter for very heavy atoms but are not the fundamental reason the hydrogenic solution fails for all multi-electron atoms.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Relativistic mass increase of electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Electron–electron repulsion leading to coupled motion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Absence of nuclear attraction in heavier atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Quantization of angular momentum only in hydrogen]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The orbital approximation in multi-electron]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The orbital approximation in multi-electron atoms most directly assumes that electrons:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The orbital approximation treats each electron as moving in an average (effective) field created by the nucleus and the other electrons, giving effective one-electron orbitals.  This is often described as an independent-particle or central-field type picture used as a starting point for more accurate approaches.  It does not mean all electrons share the same orbital, and it does not revert to classical trajectories.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Move independently in effective one-electron orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always occupy the same spatial orbital with opposite spins]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Follow classical elliptical orbits around the nucleus]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cannot be described using any one-electron functions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[“Effective nuclear charge” experienced by]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[“Effective nuclear charge” experienced by an electron in a multi-electron atom is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Effective nuclear charge refers to the net attraction an electron feels from the nucleus after other electrons partially screen (shield) the nuclear charge.  Screening/shielding reduces the nuclear pull on a given electron compared with the full \(Z\).  Spin affects state labeling and microstates, but effective nuclear charge is qualitatively tied to electron distribution and screening, not spin alone.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The full nuclear charge \(Z\) with no modification]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The net positive charge after accounting for screening/shielding by other electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The electron’s own charge magnitude]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A charge that depends only on the electron’s spin quantum number]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A one-electron spin-orbital is constructed]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A one-electron spin-orbital is constructed as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A spin-orbital is built by combining the spatial part of the electron wavefunction with a spin function (spatial × spin).  This construction is used within the orbital approximation to describe individual electrons in atoms.  A Slater determinant is then built from multiple spin-orbitals to represent many-electron states, so it is not itself a one-electron object.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Product of a spatial orbital and a spin function]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Sum of two different nuclei’s wavefunctions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Product of two spatial orbitals only (no spin part)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A many-electron antisymmetric determinant by itself]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Pauli exclusion principle states]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Pauli exclusion principle states that no two electrons in an atom can have:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Pauli exclusion states that two electrons cannot share an identical complete set of quantum numbers.  This leads directly to restrictions on how electrons fill spin-orbitals in electronic configurations.  Electrons can share the same principal quantum number or the same \(l\) value as long as the overall set of quantum numbers is not identical.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The same principal quantum number]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The same set of all quantum numbers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Different spin quantum numbers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The same orbital angular momentum quantum number]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The antisymmetry requirement for a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The antisymmetry requirement for a fermionic (electron) many-electron wavefunction means that exchanging two electrons causes the wavefunction to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For identical electrons (fermions), the many-electron wavefunction must be antisymmetric under exchange of any two electrons, meaning it changes sign upon exchange.  This requirement is a fundamental quantum-statistical property tied to electrons being fermions.  Symmetry behavior is not conditional on “parallel spins” as a general rule; antisymmetry is a global requirement for the total electron wavefunction.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remain unchanged]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Change sign]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Become zero for all positions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Become symmetric only if spins are parallel]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The key purpose of using]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The key purpose of using a Slater determinant is to ensure that the many-electron wavefunction is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Slater determinants provide a standard way to build antisymmetric many-electron wavefunctions from a set of one-electron spin-orbitals.  The determinant form automatically changes sign when two electron coordinates are exchanged, satisfying the antisymmetry requirement.  This construction is used broadly in multi-electron atom and quantum chemistry descriptions, not only for hydrogen-like atoms.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always symmetric under exchange of electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Antisymmetric under exchange of any two electrons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Independent of the choice of spin-orbitals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Valid only for hydrogen-like atoms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The variational principle (Rayleigh–Ritz idea)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The variational principle (Rayleigh–Ritz idea) is most directly summarized by the statement that the trial energy is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The variational method is based on minimizing the expectation value of the Hamiltonian computed with a chosen trial wavefunction, and this value provides an upper bound to the true ground-state energy when the trial function is properly handled.  Improving the physical quality/flexibility of the trial function can lower the variational estimate toward the exact value.  The method does not guarantee values below the exact ground state, and results do depend on the trial function choice.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always lower than the exact ground-state energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Always an upper bound to the exact ground-state energy (for a proper normalized trial function)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always equal to the exact excited-state energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Independent of the chosen trial wavefunction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a multi-parameter variational approach]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a multi-parameter variational approach using a linear combination of basis functions, the variational conditions commonly lead to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[When the trial function is expanded as a linear combination of basis functions, minimizing energy with respect to multiple coefficients produces a matrix form of equations.  Non-trivial solutions exist when the associated secular determinant (secular equations) condition is satisfied, giving approximate energy eigenvalues.  This is an approximation framework and does not imply exact energies, nor does it require a time-dependent Hamiltonian.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A single algebraic equation with no matrix form]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A set of linear equations that can be written as secular equations/determinants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A direct formula for exact energies without approximation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A requirement that the Hamiltonian must be time-dependent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The standard starting point of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The standard starting point of perturbation theory is to write the Hamiltonian as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Perturbation theory begins by decomposing the Hamiltonian into an exactly solvable part \(H_0\) plus a small correction \(H'\) scaled by a parameter (often written as \(\lambda\)).  The approach assumes the correction is sufficiently small so that energies and wavefunctions can be expanded in a series and corrected order-by-order.  Writing the Hamiltonian without a clear unperturbed part defeats the core idea of using known solutions as the reference.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/cfc55683-a7d4-489a-9479-31b58a47911a/physical_unit_02.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(H = H_0 - H'\) with no scaling]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(H = H_0 + \lambda H'\), where \(H'\) is a small correction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(H = \lambda H_0 + H'\), where \(H_0\) is always negligible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(H = H'\) only, because \(H_0\) is not defined]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

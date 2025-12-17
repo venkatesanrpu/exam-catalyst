@@ -1,0 +1,1053 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A real adsorbent surface shows</text>
+    </name>
+    <questiontext format="html">
+      <text>A real adsorbent surface shows two distinct site types: a small fraction of very strong-binding sites and a large fraction of weak-binding sites. Over a moderate pressure range, the adsorption data fits a Freundlich form better than a Langmuir form. The most defensible interpretation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit emphasizes that Freundlich is an empirical power-law model commonly applied to heterogeneous surfaces and reflects site heterogeneity/binding-energy distributions, whereas Langmuir assumes a uniform surface with identical sites and no lateral interactions.  A “derived” model can still fail if its assumptions (uniform sites, monolayer saturation behavior) are violated by the real surface.  BET addresses multilayer adsorption and surface area determination; heterogeneity alone does not automatically invalidate BET, and a Freundlich fit does not prove multilayer formation.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Langmuir must always fit better because it is derived from kinetic equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Freundlich can capture effective heterogeneity (distribution of binding energies), while Langmuir assumes uniform identical sites</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>BET is invalid for any heterogeneous surface, so Freundlich is the only possible model</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The better Freundlich fit proves multilayer adsorption is occurring</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a Langmuir–Hinshelwood catalytic mechanism</text>
+    </name>
+    <questiontext format="html">
+      <text>In a Langmuir–Hinshelwood catalytic mechanism, consider two limiting cases: (i) adsorption is fast and the surface reaction between adsorbed species is slow, (ii) adsorption is slow but the surface reaction is fast once adsorbed. Which experimental signature most directly helps distinguish these cases?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Langmuir–Hinshelwood framework links overall rate to adsorption, surface reaction, and desorption steps, and the unit highlights using kinetic data to identify the rate-limiting step.  If adsorption equilibrates rapidly, the rate law often reflects coverage-controlled (saturation-type) behavior; if adsorption is rate-limiting, the rate tracks adsorption kinetics more directly rather than a saturated coverage dependence.  Product desorption being possible is necessary but not the most diagnostic for distinguishing adsorption-limited vs surface-reaction-limited regimes, and phase (gas/liquid) or BET measurability does not directly identify the rate-limiting step.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Whether products can desorb from the surface at all</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Whether the observed rate shows strong dependence on surface coverage/adsorption equilibrium (e.g., saturation-like behavior) versus tracking the adsorption step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Whether the reactants are gases rather than liquids</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Whether BET surface area can be measured for the catalyst</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student claims: “Because BET</text>
+    </name>
+    <questiontext format="html">
+      <text>A student claims: “Because BET extends Langmuir, any good Langmuir fit automatically implies BET will yield an accurate surface area.” The best critique is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit states that BET is a multilayer adsorption model used to obtain monolayer capacity and thus surface area, relying on multilayer assumptions and proper application conditions.  A Langmuir fit can describe monolayer-dominated adsorption on uniform sites, but that does not guarantee the BET multilayer regime is adequately sampled or that BET assumptions apply over the measured range.  BET is commonly applied to physisorption for surface area estimation and explicitly uses monolayer capacity; therefore the other statements are incorrect.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>BET is only for chemisorption, so it cannot be used when Langmuir fits</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>BET requires multilayer adsorption assumptions and appropriate pressure range; a Langmuir fit may occur where multilayer effects are negligible, so BET area may be poorly constrained</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Langmuir and BET are mathematically identical, so the claim is correct</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>BET does not involve monolayer capacity, so surface area cannot be obtained anyway</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Self-assembly of amphiphiles into micelles</text>
+    </name>
+    <questiontext format="html">
+      <text>Self-assembly of amphiphiles into micelles in water is often explained as being driven by “hydrophobic interactions.” Which statement best aligns with the unit’s thermodynamic framing?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit frames self-assembly as spontaneous organization driven by intermolecular forces and thermodynamics and explicitly links amphiphiles, interfacial tension, and free-energy minimization to self-assembled structures like micelles.  The driving force is not “entropy must decrease”; rather, the balance of enthalpy/entropy determines whether \(\Delta G\) becomes favorable for aggregation.  Treating micellization as purely kinetic or as chemisorption is inconsistent with the surfactant/amphiphile and self-assembly concepts emphasized.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Micellization occurs because forming micelles always decreases entropy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Micellization is driven by overall free-energy minimization, with enthalpic and entropic contributions, and relates to interfacial tension reduction and amphiphile structure</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Micellization is purely a kinetic phenomenon and does not depend on thermodynamics</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Micelles form only because surfactants chemisorb on each other</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In colloidal stability (DLVO picture)</text>
+    </name>
+    <questiontext format="html">
+      <text>In colloidal stability (DLVO picture), a dispersion becomes unstable when salt concentration is increased significantly. The best explanation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit highlights DLVO theory as a balance of attractive and repulsive interactions and includes zeta potential and stabilization/destabilization mechanisms such as coagulation/flocculation.  Increasing ionic strength typically compresses the electrical double layer, reducing electrostatic repulsion so that van der Waals attraction can dominate, leading to aggregation.  The other options misattribute the mechanism (covalent bonding), reverse the typical effect on electrostatic stabilization, or confuse colloidal particle aggregation with micellization.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/05b8dcdd-1242-4c0d-93c3-7b80e9ac6fa7/physical_unit_13.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Added salt increases van der Waals attraction directly by creating new covalent bonds</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Added salt compresses the electrostatic double layer, reducing repulsion and allowing attractive forces to dominate, promoting coagulation/flocculation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Added salt always increases zeta potential magnitude, stabilizing the colloid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Added salt forces micelle formation, which removes all particles from solution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In adsorption terminology, **physisorption** is</text>
+    </name>
+    <questiontext format="html">
+      <text>In adsorption terminology, **physisorption** is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Physisorption arises mainly from weak intermolecular forces (dispersion/van der Waals) between the surface and the adsorbate, so it is usually reversible and favored at lower temperatures.  Strong chemical-bond formation and higher activation barriers are hallmarks of chemisorption, not physisorption.  Monolayer saturation is a Langmuir-model feature and is not a defining requirement for physisorption.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Formation of strong chemical bonds between adsorbate and surface</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Adsorption dominated by weak van der Waals interactions and generally reversible</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Adsorption that always forms a monolayer and reaches saturation at low pressure</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Adsorption that requires an activation energy comparable to bond dissociation energies</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which feature most strongly indicates</text>
+    </name>
+    <questiontext format="html">
+      <text>Which feature most strongly indicates **chemisorption** rather than physisorption?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chemisorption involves formation of stronger chemical bonds between adsorbate and surface sites, leading to higher adsorption energies and often lower reversibility.  Low enthalpy and multilayer formation are more consistent with physisorption and multilayer models such as BET.  Easy reversibility is more typical of weakly bound (physical) adsorption.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Low enthalpy of adsorption (small magnitude)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Multilayer adsorption is common</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Strong, specific bonding to the surface with higher adsorption energy</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Adsorption is always easily reversible by mild heating</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **Langmuir isotherm** is fundamentally</text>
+    </name>
+    <questiontext format="html">
+      <text>The **Langmuir isotherm** is fundamentally based on which assumption set?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Langmuir model assumes a uniform surface, identical adsorption sites, monolayer coverage, and no interactions between adsorbed molecules, leading to saturation at full site occupancy.  Surface heterogeneity and energy distributions are tied to Freundlich-type behavior, not Langmuir.  Multilayer adsorption is treated by BET theory, not Langmuir.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Heterogeneous surface with a distribution of adsorption energies and no saturation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Monolayer adsorption on a uniform surface with a finite number of identical sites and no lateral interactions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Multilayer adsorption where heat of adsorption is constant for all layers</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Empirical power-law dependence valid for all pressures and temperatures</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **Freundlich isotherm** is best</text>
+    </name>
+    <questiontext format="html">
+      <text>The **Freundlich isotherm** is best characterized as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Freundlich isotherm is an empirical relationship (power-law type) commonly applied to heterogeneous surfaces and typically valid only over a limited pressure (or concentration) range.  Langmuir is the monolayer uniform-site model, and BET is the multilayer extension used for surface area estimation via monolayer capacity.  Catalytic surface reaction mechanisms are treated using models such as Langmuir–Hinshelwood, not Freundlich.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A strictly derived kinetic-equilibrium model for monolayer adsorption on uniform sites</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>An empirical power-law model often used for adsorption on heterogeneous surfaces over limited pressure ranges</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A multilayer adsorption model used to obtain monolayer capacity and surface area</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A mechanistic model for catalytic surface reactions between adsorbed species</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **BET isotherm** is primarily</text>
+    </name>
+    <questiontext format="html">
+      <text>The **BET isotherm** is primarily used to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>BET theory extends the Langmuir idea to multilayer adsorption and is widely used to determine surface area from the monolayer capacity obtained from adsorption data.  Thermodynamic driving force and surface excess concepts are treated under adsorption thermodynamics (e.g., Gibbs adsorption isotherm).  Rate-law modeling for heterogeneous catalysis is addressed by surface kinetics frameworks such as Langmuir–Hinshelwood.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Describe only monolayer adsorption on perfectly uniform surfaces</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Describe multilayer adsorption and estimate surface area via monolayer capacity</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Explain why adsorption occurs thermodynamically using surface excess concepts</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Model heterogeneous catalysis by deriving surface reaction rate laws</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the **Langmuir–Hinshelwood mechanism**, the</text>
+    </name>
+    <questiontext format="html">
+      <text>In the **Langmuir–Hinshelwood mechanism**, the surface reaction step typically involves:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Langmuir–Hinshelwood surface catalysis describes adsorption of reactants onto active sites, reaction between adsorbed species on the surface, and desorption of products.  A purely gas-phase reaction does not capture the defining surface-adsorption and surface-reaction steps.  Multilayer adsorption/capillary condensation is associated with adsorption isotherm behavior (e.g., BET/porous solids concepts), not the catalytic mechanism itself.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Reaction between species both adsorbed on the catalyst surface, followed by product desorption</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reaction only in the gas phase with the surface acting as an inert support</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reaction between an adsorbed species and a free gas-phase molecule without adsorption</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Multilayer adsorption followed by capillary condensation in pores</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>**Surface tension** is best defined</text>
+    </name>
+    <questiontext format="html">
+      <text>**Surface tension** is best defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Surface tension reflects the energetic cost (surface free energy per unit area) of creating additional interface area and arises from the imbalance of intermolecular forces at an interface.  Resistance to flow due to internal friction defines viscosity, not surface tension.  Diffusion relates to molecular transport but is not the definition of surface tension.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Resistance to flow in a fluid due to internal friction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Energy required to increase surface area by one unit (surface free energy per unit area)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Pressure difference across a curved surface always equal to atmospheric pressure</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A measure of how quickly molecules diffuse in solution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>**Viscosity** of a fluid refers</text>
+    </name>
+    <questiontext format="html">
+      <text>**Viscosity** of a fluid refers to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Viscosity is the resistance to flow (internal friction) and depends on molecular interactions, temperature, pressure, and composition.  Micelle formation relates to surfactants and critical micelle concentration, while monolayer capacity and coverage relate to adsorption models and surface kinetics.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The tendency of molecules to organize into micelles above a threshold concentration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The resistance of a fluid to flow, arising from internal friction and molecular interactions</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The amount of adsorbate required to form a monolayer on a surface</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The fraction of surface covered by adsorbate at equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>**Self-assembly** in surface and interface</text>
+    </name>
+    <questiontext format="html">
+      <text>**Self-assembly** in surface and interface chemistry is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Self-assembly is the spontaneous formation of ordered structures (e.g., monolayers, bilayers, higher-order assemblies) driven by intermolecular forces and overall free-energy minimization.  It does not require external stirring as the primary cause, nor does it require irreversible covalent bond formation.  Self-assembly occurs across many environments (solutions, interfaces, soft matter), not only gas–solid adsorption.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Random clustering driven only by external stirring</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Spontaneous organization of molecules into ordered structures driven by intermolecular forces and thermodynamics</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always an irreversible process requiring covalent bond formation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A phenomenon restricted only to gas–solid adsorption systems</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A **colloid** is best described</text>
+    </name>
+    <questiontext format="html">
+      <text>A **colloid** is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Colloids are dispersions with particle sizes typically in the nanometer to sub-micrometer range (about 1–1000 nm), showing behaviors such as colloidal stability considerations and Brownian motion.  They are not necessarily homogeneous molecular solutions, and they can be stabilized (electrostatically/sterically) rather than being inherently forced to coagulate.  Surfactants commonly adsorb at interfaces and can strongly influence colloidal stability and micellization behavior.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/05b8dcdd-1242-4c0d-93c3-7b80e9ac6fa7/physical_unit_13.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A system where particles are typically in the 1–1000 nm size range dispersed in a medium</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A perfectly homogeneous molecular solution with no dispersed phase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A system that is always unstable and must immediately coagulate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A system where surfactants cannot adsorb at interfaces</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A solute follows Langmuir adsorption</text>
+    </name>
+    <questiontext format="html">
+      <text>A solute follows Langmuir adsorption on a uniform surface: \(\theta=\dfrac{KP}{1+KP}\). If \(KP=3\), the fractional coverage \(\theta\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For Langmuir monolayer adsorption, \(\theta=\dfrac{KP}{1+KP}\) where \(K\) is the adsorption equilibrium constant-like parameter and \(P\) is pressure (or concentration analogue).  Substituting \(KP=3\): \(\theta=\dfrac{3}{1+3}=\dfrac{3}{4}=0.75\).  0.25 results from mistakenly using \(\theta=\dfrac{1}{1+KP}\); 0.50 corresponds to \(KP=1\); 1.00 would require \(KP\to\infty\) (complete saturation).
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.25</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>0.50</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>0.75</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For Langmuir adsorption, the amount</text>
+    </name>
+    <questiontext format="html">
+      <text>For Langmuir adsorption, the amount adsorbed is \(q=q_\text{max}\dfrac{KP}{1+KP}\). If \(q_\text{max}=2.0\) (arbitrary units) and \(KP=1\), \(q\) equals:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Langmuir model relates adsorption to coverage via a saturation capacity \(q_\text{max}\) (monolayer limit) and parameter \(K\).  With \(KP=1\), \(\dfrac{KP}{1+KP}=\dfrac{1}{2}\), so \(q=2.0\times \dfrac{1}{2}=1.0\).  0.50 corresponds to forgetting to multiply by \(q_\text{max}\); 1.50 corresponds to incorrectly using \(\dfrac{KP}{1-KP}\); 2.00 corresponds to assuming full saturation at \(KP=1\).
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.50</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>1.00</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.50</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A Freundlich isotherm is \(q=K</text>
+    </name>
+    <questiontext format="html">
+      <text>A Freundlich isotherm is \(q=K P^{1/n}\). If doubling pressure changes adsorption from \(q_1\) to \(q_2=1.414\,q_1\), the value of \(1/n\) is closest to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Freundlich adsorption is a power-law often used for heterogeneous surfaces: \(q\propto P^{1/n}\).  If \(P\) doubles, \(q\) multiplies by \(2^{1/n}\); given \(q_2/q_1=1.414\approx\sqrt{2}=2^{0.5}\), so \(1/n=0.5\).  0.25 would give \(2^{0.25}\approx1.19\); 1.00 would give \(2\); 2.00 would give \(4\), none match.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0.25</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>0.50</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2.00</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A BET experiment is used</text>
+    </name>
+    <questiontext format="html">
+      <text>A BET experiment is used to obtain the monolayer capacity \(n_m\) for nitrogen adsorption to estimate surface area. The key conceptual reason BET can yield surface area is that it:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>BET extends Langmuir’s monolayer concept to multilayer adsorption and allows determination of monolayer capacity \(n_m\), which then connects to surface area (monolayer coverage corresponds to a known cross-sectional area per molecule).  BET is not restricted to chemisorption; it is typically applied to physisorption (e.g., nitrogen) for surface characterization.  Assuming infinite adsorption would remove the ability to define a monolayer capacity, and “heterogeneous surfaces” is more directly associated with empirical Freundlich behavior.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Forces adsorption to be only chemisorption</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Treats adsorption as multilayer but extracts the monolayer amount \(n_m\) from the isotherm</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ignores saturation and assumes infinite adsorption at all pressures</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Assumes adsorption occurs only on heterogeneous surfaces with varying site energies</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a Langmuir–Hinshelwood surface reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In a Langmuir–Hinshelwood surface reaction, assume the surface reaction between two adsorbed species is rate-limiting and requires both to occupy sites. If the surface coverage of each reactant scales approximately as \(\theta\), the rate is most consistent with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In Langmuir–Hinshelwood kinetics, adsorption creates surface coverage and the rate can depend on coverages when the surface reaction step involves adsorbed species.  If two adsorbed reactants must meet on the surface and each has coverage \(\theta\), the probability of encounter (and thus rate) scales like \(\theta\times\theta=\theta^2\).  A linear dependence is typical when only one adsorbed species controls the rate; inverse or independent forms correspond to different limiting cases not matching a bimolecular surface reaction.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(r\propto \theta\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(r\propto \theta^2\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(r\propto 1/\theta\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(r\) is independent of coverage</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Young’s equation relates interfacial tensions</text>
+    </name>
+    <questiontext format="html">
+      <text>Young’s equation relates interfacial tensions at a solid–liquid–gas contact line. If a liquid droplet shows a small contact angle on a solid surface, the wetting behavior is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning unit specifies Young’s equation and contact angle as the framework for wetting, where a smaller contact angle corresponds to better wetting/spreading.  Poor wetting corresponds to large contact angle, not small.  Wetting is directly governed by the balance of solid–gas, solid–liquid, and liquid–gas interfacial tensions, so it is not unrelated.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Poor wetting (non-wetting), dominated by high solid–liquid interfacial tension</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Good wetting, indicating the surface energetically favors spreading of the liquid</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Wetting behavior is unrelated to interfacial tensions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complete non-wetting always occurs when surface tension of the liquid is high</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Surface tension \(\gamma\) is an</text>
+    </name>
+    <questiontext format="html">
+      <text>Surface tension \(\gamma\) is an energy per unit area. The work needed to create additional surface area \(\Delta A\) at constant \(\gamma\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Surface tension is defined as surface free energy per unit area, so creating new area requires energy proportional to area: \(w=\gamma\,\Delta A\).  Dividing instead of multiplying inverts the physical meaning and gives incorrect units.  Adding \(\gamma\) and \(\Delta A\) is dimensionally inconsistent.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(w=\gamma/\Delta A\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(w=\Delta A/\gamma\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(w=\gamma\,\Delta A\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(w=\gamma+\Delta A\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement correctly distinguishes **dynamic**</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement correctly distinguishes **dynamic** and **kinematic** viscosity?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit explicitly targets distinguishing dynamic and kinematic viscosity as part of the viscosity learning objectives.  The correct relationship is \(\nu=\mu/\rho\), where \(\nu\) is kinematic viscosity, \(\mu\) is dynamic viscosity, and \(\rho\) is density, so kinematic viscosity is dynamic viscosity divided by density.  Reversing the division is a common error; treating them as identical ignores the role of density.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Dynamic viscosity depends on density; kinematic viscosity does not</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Kinematic viscosity is dynamic viscosity divided by density</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Dynamic viscosity is kinematic viscosity divided by density</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are identical quantities with different names</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In surfactant solutions, the critical</text>
+    </name>
+    <questiontext format="html">
+      <text>In surfactant solutions, the critical micelle concentration (CMC) can be estimated experimentally from a plot of surface tension vs concentration because:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning objectives emphasize using surface tension (and conductivity) data to determine CMC, reflecting that adsorption at the interface reduces surface tension until micelles start forming, often producing a breakpoint/slope change.  Surface tension does not generally increase sharply above CMC; it tends to level off because additional surfactant forms micelles rather than further reducing interfacial tension.  CMC is not the concentration where surface tension becomes zero, and micellization is strongly linked to interfacial/surface activity of amphiphiles.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Surface tension typically decreases with concentration up to CMC and then changes slope near CMC</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Surface tension is constant below CMC and increases sharply above CMC</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>CMC is defined as the concentration at which surface tension becomes zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Surface tension and micellization are unrelated phenomena</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>DLVO theory is used to</text>
+    </name>
+    <questiontext format="html">
+      <text>DLVO theory is used to discuss colloidal stability by considering competing interactions. The most appropriate pair is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The colloids section explicitly highlights DLVO theory and colloidal stability, where stability is rationalized by the balance between attractive van der Waals forces and repulsive electrostatic double-layer interactions.  Covalent bonding is not the general interaction governing colloidal stability, and gravity is not a repulsive interparticle interaction in DLVO.  “Nuclear repulsion” is not the relevant scale for colloidal particles in solution.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/05b8dcdd-1242-4c0d-93c3-7b80e9ac6fa7/physical_unit_13.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Covalent bonding attraction and magnetic repulsion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Van der Waals attraction and electrostatic double-layer repulsion</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hydrogen bonding attraction and gravitational repulsion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Dipole–dipole attraction and nuclear repulsion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

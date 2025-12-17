@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>In SALC-based MO construction, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In SALC-based MO construction, a necessary condition for a central-atom atomic orbital (AO) to mix with a ligand group orbital SALC is that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The SALC/LCAO-MO workflow in the reference emphasizes “symmetry compatibility between atomic orbitals and SALCs” and using irreducible representations to decide which orbitals can interact.  Only functions transforming according to the same irreducible representation can mix (nonzero symmetry-allowed overlap/coupling), which is exactly why SALCs are built before assembling a qualitative MO diagram.  Matching principal quantum numbers is not a symmetry requirement; it affects energies/radial overlap, not whether mixing is symmetry-allowed.  Requiring both to be totally symmetric is overly restrictive because many bonding interactions occur in non-totally-symmetric symmetry species as long as the symmetries match.  IR activity criteria apply to vibrational modes via \(x,y,z\) basis functions, not to whether two electronic orbitals can mix in MO construction.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The AO and the SALC belong to the same irreducible representation of the molecular point group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The AO and the SALC have the same principal quantum number</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The AO and the SALC must both be totally symmetric under all operations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The AO and the SALC must be individually IR active as functions \(x,y,z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student attempts to predict</text>
+    </name>
+    <questiontext format="html">
+      <text>A student attempts to predict the number of vibrational modes of a nonlinear molecule and directly reduces the full \(3N\) Cartesian displacement representation into irreducible representations, but forgets to remove translations and rotations. What is the most accurate consequence of this mistake?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The vibrational-mode section explicitly sets the workflow: construct a reducible representation for displacements, then separate translational and rotational contributions from vibrational ones.  If translations and rotations are not removed, the “vibrational representation” will incorrectly contain irreducible representations associated with \(x,y,z\) and \(R_x,R_y,R_z\), inflating the count beyond the physical \(3N-6\) (for nonlinear) or \(3N-5\) (for linear) vibrational modes.  Translations/rotations do not “cancel” vibration characters; they are distinct motion subspaces that must be subtracted conceptually after reduction.  Translations and rotations are not always totally symmetric; their symmetry species depend on the point group as indicated by basis-function listings in character tables.  The mistake impacts both IR and Raman predictions because activity tests must be applied to the correct vibrational symmetry species after removing non-vibrational motions.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The student will overcount vibrational symmetry species by including species corresponding to translations (\(x,y,z\)) and rotations (\(R_x,R_y,R_z\))</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The student will undercount vibrations because translations and rotations cancel vibrational characters</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The student will still get the correct vibrational symmetry species because translations/rotations are always totally symmetric</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The student will predict correct IR activity but wrong Raman activity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a molecule whose point</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a molecule whose point group has a two-dimensional irreducible representation (an \(E\)-type species). In a qualitative MO diagram built using symmetry labels, what is the most defensible statement about orbitals labeled with that \(E\) irrep?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The reference explicitly links “degeneracy and symmetry” to the dimensionality of irreducible representations and also emphasizes the use of irreps to label and order MOs.  A two-dimensional irrep corresponds to a pair of basis functions that transform into each other under symmetry operations, leading to a symmetry-protected twofold degeneracy in the absence of symmetry breaking.  Degeneracy does not prevent bonding; SALCs and central AOs of the same \(E\) symmetry can mix to give bonding/antibonding pairs that remain doubly degenerate.  Splitting would generally require lowering symmetry (or introducing a perturbation that reduces the point group), not merely the presence of an \(E\) label.  IR activity is a vibrational selection-rule concept tied to whether a vibrational mode transforms like \(x,y,z\), not a universal property of electronic orbitals labeled \(E\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>They must be degenerate (twofold) as long as the full symmetry of the point group is retained</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They cannot participate in bonding because degeneracy implies zero overlap</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They must split into two different energies even without lowering symmetry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They are always IR active because \(E\) implies a dipole moment change</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In symmetry-based hybrid orbital construction</text>
+    </name>
+    <questiontext format="html">
+      <text>In symmetry-based hybrid orbital construction, why can the “local hybrid” picture be made consistent with the “global MO/SALC” picture for the same molecule?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The unit explicitly connects “symmetry-derived hybrids” with “consistency between hybrid picture and MO symmetry labels,” showing that both approaches use irreducible representations to decide allowed combinations.  Hybrid construction uses symmetry properties of central-atom orbitals and their transformation under point group operations, while SALC/MO construction uses symmetry-adapted combinations of ligand orbitals and then matches by irreps.  They are not identical objects: SALCs are combinations of ligand orbitals, whereas hybrids are localized combinations on the central atom, but both must transform according to compatible irreps for bonding interactions.  Vibrational counting rules are unrelated to the consistency between electronic hybridization and SALC-based MO symmetry labeling.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Both descriptions are constrained by the same point-group irreducible representations and symmetry compatibility rules</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hybrid orbitals are always identical to SALCs by definition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hybrids ignore symmetry, while SALCs enforce symmetry, so they coincide only accidentally</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Consistency is guaranteed only for linear molecules using \(3N-5\) vibrations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A molecule is assigned an</text>
+    </name>
+    <questiontext format="html">
+      <text>A molecule is assigned an incorrect point group (missing a mirror plane that is actually present). Which downstream result is most directly jeopardized in a symmetry-based workflow for spectroscopy and bonding?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning path stresses that point-group assignment underpins correct use of character tables, reduction into irreps, and IR/Raman activity criteria from \(x,y,z\) and quadratic functions.  If a symmetry element such as a mirror plane is missed, the chosen character table is wrong, so the derived irreducible representation content of vibrations (and therefore which modes are IR or Raman active) and SALC/MO symmetry labeling can be systematically incorrect.  The \(3N-6\) or \(3N-5\) counting depends on linear vs nonlinear geometry and number of atoms, not on the detailed point group label.  Every point group contains the identity operation \(E\), so that is not what is “lost” by misassignment.  The chemical formula still gives the atom count; point-group errors do not alter \(N\).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eac9bba8-3ab9-429e-8b85-34ae49fc31cf/physical_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The set of irreducible representations used for normal-mode classification and IR/Raman activity prediction</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The value of \(N\) used in \(3N-6\), which changes with point group</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The existence of the identity operation \(E\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The total number of atoms in the molecule as counted from the chemical formula</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **improper rotation axis** \(S_n\)</text>
+    </name>
+    <questiontext format="html">
+      <text>The **improper rotation axis** \(S_n\) corresponds to which operation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>An improper rotation \(S_n\) is defined as a proper rotation \(C_n\) (rotation by \(360^\circ/n\)) followed immediately by reflection through a plane perpendicular to the rotation axis.  This is a *single* symmetry operation used frequently in point-group classification (e.g., \(S_4\) in some tetrahedral-like environments).  The option describing reflection in a plane containing the axis corresponds to \(\sigma_v\), not to the definition of \(S_n\).  Inversion is a separate symmetry element \(i\), and combining inversion with other operations does not define \(S_n\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Rotation by \(360^\circ/n\) about an axis, followed by reflection in a plane perpendicular to that axis</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Reflection in a plane containing the axis, followed by rotation by \(360^\circ/n\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Inversion through a center, followed by reflection in any mirror plane</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rotation by \(180^\circ\) about any axis, followed by inversion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A molecule belongs to the</text>
+    </name>
+    <questiontext format="html">
+      <text>A molecule belongs to the point group \(C_{2v}\). Which set lists only symmetry operations that must be present in \(C_{2v}\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>By definition, \(C_{2v}\) contains the identity \(E\), one principal twofold rotation axis \(C_2\), and two vertical mirror planes \(\sigma_v\) that contain the principal axis.  Operations like \(C_3\) are characteristic of \(C_{3v}\) or higher groups, not \(C_{2v}\).  The presence of inversion \(i\) would push the group toward \(C_{2h}\), \(D_{2h}\), etc., not \(C_{2v}\).  A horizontal plane \(\sigma_h\) is not part of \(C_{2v}\); it is typical of \(C_{nh}\) groups.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(E, C_2, \sigma_v, \sigma_v'\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E, C_3, \sigma_h, i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E, C_2, i, S_4\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E, C_2, \sigma_h, C_2'\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **order** of a symmetry</text>
+    </name>
+    <questiontext format="html">
+      <text>The **order** of a symmetry group of a molecule refers to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In group theory terminology used for molecular symmetry, the order of a group is the number of symmetry operations it contains.  It is not the atom count (that relates to \(3N\) degrees of freedom for vibrations).  The highest rotation axis \(n\) is a symmetry feature but does not by itself give the group order.  Similarly, counting only mirror planes ignores rotations, identity, inversion, and improper rotations that may be present.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The total number of symmetry operations in the group</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of atoms in the molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The highest rotation axis \(n\) present in the molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of mirror planes present in the molecule</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Mulliken symbolism for irreducible</text>
+    </name>
+    <questiontext format="html">
+      <text>In Mulliken symbolism for irreducible representations, what does the label \(E\) indicate?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Mulliken symbols encode degeneracy and symmetry properties: \(A\) and \(B\) are one-dimensional (non-degenerate), \(E\) is two-dimensional (doubly degenerate), and \(T\) is three-dimensional (triply degenerate).  The statement “symmetric to all operations” describes the totally symmetric representation (often \(A_1\) in many groups), not specifically \(E\).  Antisymmetry with respect to inversion corresponds to “u” (ungerade), not to the letter \(E\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A doubly degenerate irreducible representation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A non-degenerate irreducible representation symmetric to all operations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A triply degenerate irreducible representation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An irreducible representation that is antisymmetric with respect to inversion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Which statement best distinguishes a</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement best distinguishes a **symmetry element** from a **symmetry operation**?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In molecular symmetry, elements are geometric features such as an axis (\(C_n\)), a plane (\(\sigma\)), or a center (\(i\)), while operations are the actual transformations (rotate, reflect, invert) carried out about/through those elements.  Rotations and reflections are both symmetry operations, not “element vs operation”.  Character tables summarize how functions transform under operations; they do not imply that elements exist only “in tables”.  Temperature may change molecular geometry in extreme cases, but that is not the defining distinction between element and operation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A symmetry element is a geometric entity (line/plane/point); a symmetry operation is the action performed using it</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A symmetry element is always a rotation; a symmetry operation is always a reflection</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A symmetry element exists only in character tables; a symmetry operation exists only in molecules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A symmetry element changes with temperature; a symmetry operation never changes</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a nonlinear molecule containing</text>
+    </name>
+    <questiontext format="html">
+      <text>For a nonlinear molecule containing \(N\) atoms, the number of vibrational normal modes is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A nonlinear molecule has \(3N\) total degrees of freedom; 3 correspond to translation and 3 to rotation, leaving \(3N-6\) vibrational degrees of freedom (normal modes).  The \(3N-5\) rule applies to linear molecules because they have only 2 independent rotational degrees of freedom.  \(3N\) counts all motions without removing translation/rotation, so it is not the vibrational mode count.  \(2N+1\) has no general basis in the internal-coordinate/normal-mode counting described for molecular vibrations.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(3N-6\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(3N-5\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(3N\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2N+1\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A vibrational mode is **IR</text>
+    </name>
+    <questiontext format="html">
+      <text>A vibrational mode is **IR active** if it transforms like which type of basis functions in the character table?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>IR activity requires a change in dipole moment during the vibration, so the vibrational symmetry must match one (or more) of the translational/dipole components \(x, y, z\) listed in the character table.  Rotational functions \(R_x, R_y, R_z\) are used to identify rotational motions and do not give the IR selection rule.  Quadratic functions are tied to Raman activity criteria rather than IR activity.  A totally symmetric vibration can be IR active in some groups if it also transforms as \(x,y,z\), but “only totally symmetric” is not the general rule.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(x, y, z\) (components of the dipole moment)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(R_x, R_y, R_z\) (rotations)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Quadratic functions like \(x^2, xy, yz\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the totally symmetric representation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A vibrational mode is **Raman</text>
+    </name>
+    <questiontext format="html">
+      <text>A vibrational mode is **Raman active** if it transforms like:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Raman activity is governed by changes in polarizability, and the polarizability tensor components transform as quadratic functions, which is why character tables list \(x^2, y^2, z^2, xy, xz, yz\) for Raman selection rules.  The linear functions \(x, y, z\) correspond to dipole moment components and therefore to IR activity, not Raman in general.  Rotational functions help separate rotations when constructing vibrational representations but are not the Raman selection rule.  Raman activity is not restricted to “B-type” representations; it depends on matching quadratic basis functions.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Quadratic functions such as \(x^2, y^2, z^2, xy, xz, yz\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only linear functions \(x, y, z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only rotational functions \(R_x, R_y, R_z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only antisymmetric representations (B-type)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the context of representations</text>
+    </name>
+    <questiontext format="html">
+      <text>In the context of representations in character tables, a **reducible representation** is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Many practical bases in chemistry (e.g., all \(3N\) Cartesian displacement vectors, or a set of ligand orbitals) generate a reducible representation, which can be decomposed into irreducible components using the reduction procedure.  A representation is defined over all group operations, not a single operation.  Having characters all zero would not represent typical molecular bases and is not the defining feature of reducibility.  Reducible/irreducible representations apply across point groups for both linear and nonlinear molecules.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>A representation that can be expressed as a sum of irreducible representations</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A representation that contains only one symmetry operation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A representation that has characters equal to zero for all operations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A representation that exists only for linear molecules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The main purpose of forming</text>
+    </name>
+    <questiontext format="html">
+      <text>The main purpose of forming **symmetry adapted linear combinations (SALCs)** of ligand atomic orbitals is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>SALCs are constructed so that ligand group orbitals have well-defined symmetry (irreducible representation labels), which allows direct compatibility checks with the symmetry of central atom orbitals in LCAO-MO construction.  SALCs do not guarantee non-degeneracy; degeneracy is dictated by the dimensionality of the irreducible representation (e.g., \(E\) remains doubly degenerate).  SALCs are used to simplify and organize MO construction by symmetry, not to avoid MO theory altogether.  Symmetry does not “convert” bonding type; it classifies and constrains allowed orbital mixing and spectroscopic activity.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eac9bba8-3ab9-429e-8b85-34ae49fc31cf/physical_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Generate orbital combinations that transform as irreducible representations, enabling symmetry-allowed matching with central-atom orbitals</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ensure all ligand orbitals become non-degenerate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Eliminate the need for any molecular orbital diagram</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Convert covalent bonding into ionic bonding by symmetry arguments</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Water (\(\mathrm{H_2O}\)) belongs to \(C_{2v}\)</text>
+    </name>
+    <questiontext format="html">
+      <text>Water (\(\mathrm{H_2O}\)) belongs to \(C_{2v}\). Consider the set of three Cartesian displacement vectors of the oxygen atom \((x_O, y_O, z_O)\). Which set correctly identifies how these transform in \(C_{2v}\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a \(C_{2v}\) character table, the Cartesian coordinates \(x,y,z\) are listed as basis functions belonging to three different one-dimensional irreducible representations.  For the usual axis convention used in character tables, one coordinate (commonly \(z\)) transforms as \(A_1\), and the other two (\(x,y\)) transform as \(B_1\) and \(B_2\).  Therefore the three oxygen displacements (being equivalent to \(x,y,z\) basis functions) reduce to \(A_1 + B_1 + B_2\).  Options involving \(A_2\) incorrectly assign a pure Cartesian translation to a rotational-type symmetry species, which is a common confusion when mixing \(x,y,z\) with \(R_x,R_y,R_z\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>They transform as \(A_1 + B_1 + B_2\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They transform as \(A_2 + B_1 + B_2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They transform as \(A_1 + A_2 + B_2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They transform as \(2A_1 + B_1\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A nonlinear triatomic molecule has</text>
+    </name>
+    <questiontext format="html">
+      <text>A nonlinear triatomic molecule has \(N=3\). Using the \(3N-6\) rule and symmetry separation ideas, how many vibrational normal modes must it have?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a nonlinear molecule, total degrees of freedom are \(3N\), with 3 translational and 3 rotational degrees removed, leaving \(3N-6\) vibrational modes.  With \(N=3\), this gives \(3\times 3-6=3\) normal modes.  Answers 2 and 4 typically come from incorrectly using the linear-molecule rule \(3N-5\) or from double-counting degeneracy as additional modes.  Answer 6 incorrectly treats all Cartesian motions as vibrations without subtracting translations and rotations.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>3</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>6</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>\(\mathrm{CO_2}\) is linear and belongs</text>
+    </name>
+    <questiontext format="html">
+      <text>\(\mathrm{CO_2}\) is linear and belongs to \(D_{\infty h}\). Which statement about its vibrational mode counting is correct?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning content explicitly distinguishes the nonlinear rule \(3N-6\) from the linear-molecule rule \(3N-5\).  Linear molecules have only 2 rotational degrees of freedom (rotation about the molecular axis does not change the orientation), so only 5 non-vibrational degrees (3 translations + 2 rotations) are removed from \(3N\).  The remaining \(3N-5\) are vibrations, independent of whether the molecule is centrosymmetric.  The other formulas are not the standard degrees-of-freedom relations used for normal-mode counting.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>It has \(3N-6\) vibrational modes because it is triatomic</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>It has \(3N-5\) vibrational modes because it is linear</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It has \(3N\) vibrational modes because it is linear</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It has \(2N-1\) vibrational modes because it is centrosymmetric</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a molecule in a</text>
+    </name>
+    <questiontext format="html">
+      <text>For a molecule in a point group where \(x, y, z\) belong to certain irreducible representations, a vibrational normal mode will be IR active when:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>IR activity is determined using the “\(x,y,z\) basis” criterion in the character table, because IR absorption requires a changing dipole moment component along \(x\), \(y\), or \(z\).  Rotational basis functions \(R_x, R_y, R_z\) are used for identifying rotational motions and for separating rotations from vibrations, not for the IR selection rule.  Totally symmetric modes may be IR active in some groups, but the correct general criterion is matching \(x,y,z\).  “Antisymmetric with respect to all operations” is not a meaningful universal condition for IR activity.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Its symmetry species matches at least one of the symmetry species of \(x, y,\) or \(z\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Its symmetry species matches at least one of \(R_x, R_y,\) or \(R_z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Its symmetry species is totally symmetric only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Its symmetry species is antisymmetric with respect to all operations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A vibrational mode is Raman</text>
+    </name>
+    <questiontext format="html">
+      <text>A vibrational mode is Raman active if its symmetry species matches which kind of basis functions in the character table?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Raman activity is predicted from the quadratic-function entries in character tables, reflecting that Raman scattering depends on changes in polarizability (a second-rank tensor).  Linear functions \(x,y,z\) correspond to dipole moment components and thus to IR activity, not the Raman criterion.  Rotational functions are used in constructing and reducing the full \(3N\) displacement representation, but they are not the Raman activity test.  Referring only to the identity character does not capture the required symmetry matching for polarizability components.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Quadratic functions such as \(x^2, y^2, z^2, xy, xz, yz\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Linear functions \(x, y, z\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rotational functions \(R_x, R_y, R_z\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only the identity operation character</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In \(C_{3v}\), ammonia (\(\mathrm{NH_3}\)) has</text>
+    </name>
+    <questiontext format="html">
+      <text>In \(C_{3v}\), ammonia (\(\mathrm{NH_3}\)) has three equivalent \(\sigma\)-donor ligand orbitals (one from each H) forming ligand group orbitals. Which statement best describes the symmetry outcome for these three ligand orbitals before matching with N atomic orbitals?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The learning path emphasizes building SALCs for \(\sigma\)-bonding in \(C_{3v}\) and using degeneracy/irrep dimensionality ideas.  Three equivalent ligand \(\sigma\) orbitals in \(C_{3v}\) reduce into irreducible representations consisting of one one-dimensional totally symmetric combination and one two-dimensional (doubly degenerate) set.  Equivalence of ligands does not imply all SALCs are totally symmetric; symmetry operations mix ligand functions into different combinations that fall into different irreps.  The absence of inversion affects g/u labels (in centrosymmetric groups) but does not prevent SALC classification in \(C_{3v}\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>They form one totally symmetric combination and one doubly degenerate pair of combinations</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They form three totally symmetric combinations because all H atoms are equivalent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They form one antisymmetric combination only because there is no inversion center</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They cannot be classified without constructing the full MO diagram</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>During vibrational analysis using group</text>
+    </name>
+    <questiontext format="html">
+      <text>During vibrational analysis using group theory, the standard procedure begins with a reducible representation for atomic displacements and then removes translations and rotations. Which set corresponds to motions that must be removed from the total \(3N\) to obtain vibrational modes for a nonlinear molecule?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The internal-coordinates/vibrations section states that for nonlinear molecules the vibrational count is \(3N-6\), which is obtained by removing 3 translational and 3 rotational degrees from \(3N\).  Removing only 5 motions corresponds to the linear-molecule case \(3N-5\), not the nonlinear case.  The other choices incorrectly allocate degrees of freedom and lead to incorrect vibrational mode counts.  This removal step aligns with the learning objective of separating translational, rotational, and vibrational contributions from a reducible representation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>3 translations and 3 rotations</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2 translations and 3 rotations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3 translations and 2 rotations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1 translation and 5 rotations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In SALC-based LCAO-MO construction, why</text>
+    </name>
+    <questiontext format="html">
+      <text>In SALC-based LCAO-MO construction, why is it useful to form SALCs before setting up the secular determinant?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The SALC topic explicitly highlights using symmetry to reduce the secular problem, which is the practical reason for forming symmetry-adapted combinations.  Orbitals of different irreducible representations do not mix, so the MO problem separates into smaller independent blocks.  SALCs do not equalize energies; energies still depend on overlap and Hamiltonian matrix elements.  SALCs must be normalized, and symmetry does not guarantee IR activity of MOs (IR activity concerns vibrational modes, not MO existence).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>SALCs block-diagonalize the problem by symmetry, reducing the size of coupled mixing sets</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SALCs force all molecular orbitals to have the same energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SALCs eliminate the need for normalization of orbitals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>SALCs guarantee that all resulting MOs are IR active</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student claims: “If a</text>
+    </name>
+    <questiontext format="html">
+      <text>A student claims: “If a mode is Raman active, it must also be IR active because both involve interaction with light.” Which is the best symmetry-based correction?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The file explicitly separates “IR activity criteria” (from \(x,y,z\) basis) and “Raman activity criteria” (from quadratic functions) in character tables.  Because these criteria are different, a mode may be Raman active, IR active, both, or neither depending on its symmetry species.  Centrosymmetry influences mutual exclusion trends in some cases, but it is not the definition of activity in the character table method described.  Using rotational functions \(R_x,R_y,R_z\) is not the selection rule for either IR or Raman activity.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Raman activity depends on transforming like quadratic functions, whereas IR activity depends on transforming like \(x,y,z\); these are different criteria</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Raman activity depends only on the identity representation, while IR activity depends only on antisymmetric representations</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Raman activity occurs only in centrosymmetric molecules, while IR activity occurs only in non-centrosymmetric molecules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Raman and IR activity are identical because both use the same selection rule from \(R_x,R_y,R_z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In symmetry-based hybrid orbital construction</text>
+    </name>
+    <questiontext format="html">
+      <text>In symmetry-based hybrid orbital construction on a central atom, the key idea is to choose hybrid sets that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The hybrid-orbital section emphasizes using irreducible representations and matching central orbitals to ligand symmetry via irreps, which is the symmetry logic behind deriving sp, sp\(^2\), and sp\(^3\) sets.  Hybridization is not determined by “maximize s-character” as a symmetry rule; it is constrained by the symmetry of the bonding environment.  Hybrids are not restricted to only totally symmetric symmetry species; rather, the set of hybrids must collectively transform in a way compatible with the ligand directions and bonding combinations.  p orbitals are not “forbidden” by antisymmetry; they are routinely part of symmetry-allowed hybrid sets depending on the point group.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/eac9bba8-3ab9-429e-8b85-34ae49fc31cf/physical_unit_04.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Span the same irreducible representations as the directions toward ligands (i.e., match ligand symmetry)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always maximize s-character regardless of symmetry</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always correspond to the totally symmetric representation only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Avoid mixing p orbitals because p orbitals are antisymmetric</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

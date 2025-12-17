@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Ionic mobility of an ion]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Ionic mobility of an ion is best defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ionic mobility is defined as the drift velocity acquired by an ion per unit applied electric field, so it directly connects ion motion to an external field.  Drift velocity per unit concentration gradient corresponds to diffusion-related quantities, not mobility.  Flux across an area is a transport rate but does not normalize by electric field and is not the definition of mobility.  Resistance is a macroscopic property of a medium/circuit element; mobility is a microscopic transport parameter of ions.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The drift velocity of the ion per unit electric field]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The diffusion coefficient of the ion per unit concentration gradient]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The number of ions crossing a unit area per unit time]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The resistance offered by the ion to current flow]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The quantity “specific conductivity” (conductivity)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The quantity “specific conductivity” (conductivity) of an electrolyte solution refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Specific conductivity is the conductance of a solution of unit length and unit cross-sectional area (i.e., a property of the solution independent of the cell geometry when properly defined).  Conductance of the whole beaker depends on geometry and is not an intrinsic conductivity definition.  Molar conductivity divided by concentration does not define specific conductivity; rather, molar conductivity is related to conductivity and concentration.  Resistance of “1 mol” is not the definition of specific conductivity and mixes extensive and intensive ideas incorrectly.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Conductance of a solution column with unit length and unit cross-sectional area]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conductance of the entire solution present in the beaker]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Molar conductivity divided by concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Resistance of 1 mol of electrolyte solution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[On dilution of a strong]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[On dilution of a strong electrolyte solution, the molar conductivity generally:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For strong electrolytes, dilution reduces inter-ionic interactions, so ions move more independently and molar conductivity increases toward its limiting value at infinite dilution.  A decrease would contradict the typical trend for molar conductivity of strong electrolytes.  It is not constant because ion–ion effects change with concentration.  It does not become zero; instead, it approaches a finite limiting molar conductivity.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Increases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decreases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remains constant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Becomes zero at infinite dilution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Kohlrausch’s law of independent migration]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Kohlrausch’s law of independent migration of ions states that at infinite dilution:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Kohlrausch’s law says that at infinite dilution the limiting molar conductivity is the sum of independent ionic contributions from the cation and the anion.  Excluding either cations or anions is incorrect because both carry current.  Temperature still affects ionic mobility (via viscosity and thermal motion), so conductivity is not temperature-independent.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Each ion contributes independently to the limiting molar conductivity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only cations contribute to conductivity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only anions contribute to conductivity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Conductivity becomes independent of temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Ionic strength is a measure]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Ionic strength is a measure that depends on:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ionic strength accounts for both how many ions are present and how strongly they interact electrostatically, so it depends on ion concentrations and charge magnitude (charge-squared weighting).  Ignoring charge misses the central reason ionic strength controls non-ideality.  Considering only the cation ignores contributions from anions, which also shape the ionic environment.  Conductivity is related to mobility and concentration but is not the defining basis of ionic strength.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Concentrations of ions and the squares of their charges]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the total molar concentration of solute (ignoring charge)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the charge on the cation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the conductivity of the solution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Debye–Hückel limiting law is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Debye–Hückel limiting law is primarily used to relate:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Debye–Hückel limiting law describes how the mean ionic activity coefficient varies with ionic strength in very dilute electrolyte solutions.  Temperature coefficients of EMF relate to thermodynamic connections of cell potentials, not to the limiting law.  Concentrated-electrolyte conductivity–viscosity relations are outside the limiting law’s scope and validity range.  Standard electrode potentials do not depend on electrode surface area under reversible measurement conditions.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Mean ionic activity coefficient to ionic strength in very dilute solutions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Cell EMF to temperature coefficient]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Molar conductivity to viscosity for concentrated electrolytes]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Standard electrode potential to electrode surface area]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Nernst equation connects electrode]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Nernst equation connects electrode (or cell) potential to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Nernst equation expresses how electrode/cell potential varies with the activities (often approximated by concentrations in ideal cases) of species involved in the redox process.  Surface tension is not part of the Nernst relation.  Potential depends on the redox reaction quotient, not solely on cation mobility.  Temperature affects the Nernst slope, but composition (activities) is essential to determine the potential.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Activities (or concentrations) of reacting species]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Surface tension of the electrolyte]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the ionic mobility of the cation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the temperature, independent of composition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A standard electrode potential is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A standard electrode potential is defined as the electrode potential measured:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Standard electrode potentials are tabulated values measured under standard-state conditions relative to the standard hydrogen electrode reference.  Zero current (reversible measurement) is important, but “standard potential” additionally requires standard conditions and a defined reference.  Standard electrode potentials apply to half-cells in general, not just concentration cells.  Removing the salt bridge typically introduces large junction potentials and does not define standard potentials.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Under standard conditions with reference to the standard hydrogen electrode]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only at zero current but without specifying conditions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only for concentration cells]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only when a salt bridge is absent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In conventional electrochemical cell notation]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In conventional electrochemical cell notation, the anode is the electrode where:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[By definition, oxidation occurs at the anode (for galvanic cells as well as electrolytic cells, although the sign of the electrode may differ).  Reduction occurs at the cathode, not the anode.  The standard hydrogen electrode is a reference electrode and does not have to be the anode in every cell.  Electron transfer is essential at the anode because oxidation produces electrons.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Oxidation occurs]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reduction occurs]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The standard hydrogen electrode must always be placed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No electron transfer occurs]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a potentiometric titration, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a potentiometric titration, the equivalence point is located primarily by monitoring the change in:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Potentiometric titrations identify the equivalence point from the variation of electrode potential with titrant volume (often using curve features or derivative methods).  Indicator colour change is used in visual indicator titrations, not potentiometry.  Precipitate mass is not the standard monitored signal in potentiometry (even in precipitation titrations, potential is monitored).  Volume change alone does not define the equivalence point without an electrochemical response.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/0a4dcd97-40dc-45f4-bebc-c5290b9a9579/physical_unit_08.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Electrode potential as titrant is added]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Colour of an indicator dye]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Mass of precipitate formed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Volume change of the solution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

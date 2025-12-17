@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A large system is described]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A large system is described either by the microcanonical ensemble \((E,V,N)\) or the canonical ensemble \((T,V,N)\). In the thermodynamic limit, the reason these ensembles become effectively equivalent for most macroscopic observables is that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Ensemble equivalence in the thermodynamic limit relies on the idea that although the canonical ensemble allows energy fluctuations, those fluctuations become small relative to the mean energy as the system size grows, so macroscopic predictions match microcanonical results.
+Canonical ensemble does not forbid energy fluctuations; it explicitly includes them.
+Equal a priori probability is a microcanonical postulate for accessible microstates at fixed \(E\), not a statement that all energies are equally likely in canonical statistics.
+The partition function is strongly temperature dependent and encodes thermodynamic behavior through \(T\)-derivatives.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The canonical ensemble forbids energy fluctuations, matching the microcanonical ensemble exactly]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Relative energy fluctuations in the canonical ensemble become negligible compared to the mean energy for large systems]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The Boltzmann distribution reduces to equal a priori probabilities for all energies]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The partition function \(Z\) becomes independent of temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A student claims that in]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A student claims that in the canonical ensemble the most probable macrostate must correspond to the single microstate of minimum energy because of the factor \(e^{-\beta E}\). The best rebuttal is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Canonical probabilities weight microstates by \(e^{-\beta E}\), but the probability that the system has a given energy (or lies in an energy interval) also depends on how many microstates share that energy, i.e., degeneracy/density of states.
+Thus, even if each high-energy microstate is less probable, an enormous number of them can make that energy range significant for macroscopic behavior.
+Equal a priori probability applies to the microcanonical ensemble for accessible microstates at fixed \(E,V,N\), not to canonical statistics.
+The sign in the Boltzmann factor is negative in equilibrium canonical distributions.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The canonical ensemble uses equal a priori probability, so energy plays no role]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Probability refers to macrostates, and lower energy always dominates regardless of multiplicity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The probability of an energy value involves both Boltzmann weighting and the density of states (degeneracy), so high-degeneracy energies can dominate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The Boltzmann factor is \(e^{+\beta E}\), not \(e^{-\beta E}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In deriving entropy expressions for]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In deriving entropy expressions for large \(N\), Stirling’s approximation is often invoked. Its main conceptual role in statistical thermodynamics is to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Many counting problems produce factorials (e.g., \(N!\)) and entropy uses \(S=k_B\ln W\), so Stirling’s approximation makes \(\ln(N!)\) manageable and helps show entropy scales properly with \(N\) (extensivity).
+It is not a rule that turns sums into products; partition-function factorization has a different basis (independence of subsystems).
+Stirling’s approximation aids microstate counting but does not replace it with the partition function.
+It does not collapse quantum statistics into classical statistics; classical limits arise under specific physical conditions.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Convert sums over states into products to simplify the partition function]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Approximate factorial terms so that \(\ln W\) becomes tractable and yields extensive entropy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Eliminate the need to count microstates by replacing \(W\) with \(Z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Make quantum statistics identical to classical statistics]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The appearance of the \(N!\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The appearance of the \(N!\) factor when constructing an ideal-gas partition function is most directly connected to correcting which conceptual problem?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For identical particles, treating particles as distinguishable artificially overcounts microstates, leading to an unphysical entropy of mixing for identical gases (Gibbs paradox).
+Including the \(N!\) factor corrects the counting consistent with indistinguishability and restores physically meaningful entropy behavior.
+Equipartition issues are about quantum effects at low temperature, not primarily about particle-label overcounting.
+Boltzmann distribution remains valid for canonical equilibrium; the counting correction addresses microstate multiplicity, not the form of \(p_i\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Failure of the equipartition theorem at low temperatures]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Gibbs paradox arising from treating identical particles as distinguishable]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Breakdown of Boltzmann distribution in the canonical ensemble]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Non-existence of microstates in phase space for classical systems]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A system is observed for]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A system is observed for a long time and its time average of an observable matches the ensemble average predicted by equilibrium statistical mechanics. The assumption most directly invoked to justify this identification is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The ergodic hypothesis connects time averages (from a single system trajectory over long times) to ensemble averages (over many hypothetical copies), justifying equilibrium predictions from ensemble methods.
+Equal a priori probability is specifically the microcanonical postulate about accessible microstates at fixed constraints, not the general time-average justification.
+The thermodynamic limit supports ensemble equivalence and sharpness of distributions but is not the core statement relating time and ensemble averages.
+Indistinguishability addresses correct counting of microstates, not the equality of time and ensemble averages.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Equal a priori probability postulate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Ergodic hypothesis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Thermodynamic limit]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Indistinguishability of particles]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

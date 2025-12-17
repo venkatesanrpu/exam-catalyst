@@ -1,0 +1,1053 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>For a time-independent Hamiltonian \(\hat{H}\)</text>
+    </name>
+    <questiontext format="html">
+      <text>For a time-independent Hamiltonian \(\hat{H}\), a system prepared in an energy eigenstate \(|E\rangle\) is called a stationary state. Which statement best captures the physically testable meaning of “stationary” in this context?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Stationary states arise from the time-independent Schrödinger equation as energy eigenstates, and their time evolution in the time-dependent Schrödinger equation introduces only a global phase factor \(e^{-iEt/\hbar}\).  A global phase changes \(\psi(x,t)\) but cancels in \(|\psi(x,t)|^2\), so the Born probability density remains time-independent, which is the operational content of “stationary.”  A fully time-independent \(\psi\) is not required because a phase can still vary with time while leaving all probabilities unchanged.  It is not generally true that expectation values of all operators are time-independent; only those commuting with \(\hat{H}\) are guaranteed constant in time for such a state.  A definite energy does not imply a definite position; that would contradict the wave nature and the role of incompatible observables.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The wave function \(\psi(x,t)\) is completely time-independent everywhere.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The probability density \(|\psi(x,t)|^2\) is time-independent, even though \(\psi(x,t)\) may acquire a phase factor.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The expectation value of every operator is time-independent for all observables.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The particle’s position is fixed (does not fluctuate) because the energy is definite.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two observables \(\hat{A}\) and \(\hat{B}\)</text>
+    </name>
+    <questiontext format="html">
+      <text>Two observables \(\hat{A}\) and \(\hat{B}\) are represented by Hermitian operators. Which condition is most directly tied to the possibility of preparing a state that has definite values of both observables simultaneously (i.e., a common eigenstate)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The operator-algebra link between commutators and simultaneous observability states that if two observables commute, they can share a complete set of eigenfunctions (common eigenstates), enabling definite values for both in one state.  The Hermiticity of \(\hat{A}\hat{B}\) is not the fundamental criterion for common eigenstates; noncommuting operators can produce a non-Hermitian product even if each operator is Hermitian.  Whether \(\hat{A}\) has discrete eigenvalues does not ensure compatibility with \(\hat{B}\); compatibility is governed by commutation relations.  Equality of expectation values is not the same as certainty (zero uncertainty) and does not imply the state is an eigenstate of either operator.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\([\hat{A},\hat{B}]=0\) (they commute).</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\hat{A}\hat{B}\) is Hermitian.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\hat{A}\) has discrete eigenvalues.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\langle \psi|\hat{A}|\psi\rangle=\langle \psi|\hat{B}|\psi\rangle\) in that state.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider an infinite square well</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider an infinite square well and a finite square well of the same width. Which reasoning best explains why the ground-state energy in the finite well is lower than that in the infinite well (for the same well width)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The finite square well requires wave function continuity at boundaries and permits an exponentially decaying tail outside the well, reflecting partial barrier penetration (a tunnelling-related feature).  This penetration effectively reduces confinement compared with an infinite well, lowering the kinetic-energy contribution and hence lowering the bound-state energy relative to the infinitely rigid confinement case.  More nodes correspond to higher quantum numbers and higher energies, not to the ground state being lowered.  Probability density at the wall does not imply the potential becomes unboundedly negative; the potential is finite (not \(-\infty\)) and the key effect is altered boundary behavior and penetration.  The Hamiltonian for these standard bound-state problems is taken as Hermitian; non-Hermiticity would undermine real energy eigenvalues for observables.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>In the finite well, the wave function penetrates into the classically forbidden region, effectively increasing the spatial extent and reducing kinetic-energy cost from confinement.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In the finite well, the boundary conditions force the wave function to have more nodes, raising wavelength and lowering energy.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In the finite well, the particle has higher probability density at the walls, which always lowers potential energy to negative infinity.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In the finite well, the Hamiltonian is non-Hermitian, so the eigenvalues shift downward.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the quantum harmonic oscillator</text>
+    </name>
+    <questiontext format="html">
+      <text>In the quantum harmonic oscillator, Hermite polynomials appear in the wave functions. Which statement best connects the appearance of Hermite polynomials to the physical requirements on acceptable wave functions?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a harmonic (quadratic) potential, solving the Schrödinger equation leads to a Hermite-type differential equation, and normalizability (finite probability on all space) restricts solutions to those terminating as Hermite polynomials.  This termination condition is what enforces discrete allowed energies, producing quantized levels and a nonzero zero-point energy.  Discontinuities are not allowed for physically acceptable wave functions in these standard quantum models; continuity and normalizability are central constraints.  Quantization is a defining outcome here, not continuity of energies.  Zero-point energy is a core prediction of the harmonic oscillator solution, not something eliminated by special functions.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Hermite polynomials are chosen because they make \(\psi\) discontinuous at the turning points, matching classical motion.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Hermite polynomials arise because the Schrödinger equation with a quadratic potential reduces to a differential equation whose normalizable solutions exist only for specific polynomial orders, leading to quantization.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hermite polynomials are used to enforce that all energies are continuous rather than quantized.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Hermite polynomials ensure the oscillator has zero-point energy equal to zero.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For hydrogenic orbitals, nodal structure</text>
+    </name>
+    <questiontext format="html">
+      <text>For hydrogenic orbitals, nodal structure and the radial distribution function are used to interpret electron probability in space. Which statement correctly links “radial nodes” to the radial probability distribution?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the hydrogen-atom solution, separation into radial and angular parts means that “radial nodes” are zeros in the radial factor at particular distances \(r\), which directly influences electron probability as a function of distance and thus the radial distribution function.  Angular nodes correspond to nodal planes/cones from the angular factor (spherical harmonics), not to specific radii.  Radial nodes are not restricted to s orbitals; nodal structure depends on the quantum numbers and appears across orbital types as described by the hydrogenic orbital framework.  The radial distribution function is not uniform; it reflects how probability varies with distance, so nodes necessarily affect its shape.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/2ed08a49-6201-4865-b260-c92e0bc9b093/physical_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A radial node is an angle where the probability becomes zero, so it appears only in the angular distribution.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A radial node is a value of \(r\) (distance from nucleus) at which the radial part of the wave function changes sign, producing zero probability density at that radius and affecting the radial distribution function.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Radial nodes occur only for \(l=0\) (s orbitals) and never for p or d orbitals.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The radial distribution function is uniform in \(r\), so nodes do not influence it.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Born interpretation, the quantity</text>
+    </name>
+    <questiontext format="html">
+      <text>In Born interpretation, the quantity \(|\psi(x,t)|^2\) represents:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Born interpretation assigns physical meaning to the wave function by stating that \(|\psi(x,t)|^2\) is the probability density in space (and time).  Energy and momentum are obtained via operators acting on \(\psi\), not directly from \(|\psi|^2\).  Treating \(|\psi|^2\) as potential or total energy confuses the role of the Hamiltonian with the role of probability density.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Probability density of finding the particle at position \(x\) at time \(t\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Total energy of the particle at position \(x\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Momentum of the particle at time \(t\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Potential energy of the particle at position \(x\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A wave function \(\psi(x)\) in</text>
+    </name>
+    <questiontext format="html">
+      <text>A wave function \(\psi(x)\) in one dimension is said to be normalized if:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Normalization ensures the total probability of finding the particle somewhere in space is 1, which requires integrating \(|\psi|^2\), not \(\psi\) or \(|\psi|\).  The condition \(\int \psi\,dx = 1\) is not physically meaningful because \(\psi\) can be positive or negative (or complex) and does not represent probability directly.  The condition \(\int \psi\,dx = 0\) may occur for some states but is not the definition of normalization.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\int_{-\infty}^{\infty} |\psi(x)|^2\,dx = 1\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\int_{-\infty}^{\infty} \psi(x)\,dx = 0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\int_{-\infty}^{\infty} \psi(x)\,dx = 1\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\int_{-\infty}^{\infty} |\psi(x)|\,dx = 1\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A key reason Hermitian operators</text>
+    </name>
+    <questiontext format="html">
+      <text>A key reason Hermitian operators are used for observables in quantum mechanics is that they guarantee:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Observables must produce real measurement outcomes, and Hermitian operators have real eigenvalues, matching this requirement.  Complex eigenvalues would imply non-real measurement values, which is not acceptable for physical observables like energy or position.  Nonlinearity of evolution is not implied by Hermiticity; standard quantum time evolution is governed by the Schrödinger equation with a Hermitian Hamiltonian.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Real eigenvalues for measurable quantities</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Complex eigenvalues for measurable quantities</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nonlinear evolution of the wave function</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Violation of normalization during time evolution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A measurement postulate most directly</text>
+    </name>
+    <questiontext format="html">
+      <text>A measurement postulate most directly implies that if a system is in an eigenstate of an observable \(\hat{A}\), then a measurement of \(A\):</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>One of the central postulates states that measurement outcomes are eigenvalues of the operator, and an eigenstate gives its eigenvalue with probability 1.  Random values unrelated to eigenvalues contradict the operator–eigenvalue structure of observables.  Measurement collapse is toward an eigenstate associated with the measured eigenvalue, not toward an orthogonal state.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Yields the corresponding eigenvalue with certainty</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always yields a random value not related to eigenvalues</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Forces the state to become orthogonal to the eigenstate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Makes the wave function unnormalizable</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Dirac notation, the expression</text>
+    </name>
+    <questiontext format="html">
+      <text>In Dirac notation, the expression \(\langle \phi | \psi \rangle\) denotes the:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The bra-ket formalism treats kets as vectors and bras as dual vectors, so \(\langle \phi | \psi \rangle\) is the inner product capturing the overlap between two states.  Operators are written with hats (or as symbols acting on kets), not as an inner product of two states.  Probability density in position space is \(|\psi(x)|^2\), not a general inner product between two abstract states.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Inner product (overlap amplitude) between states \(|\phi\rangle\) and \(|\psi\rangle\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Potential energy operator acting on \(|\psi\rangle\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Commutator of \(|\phi\rangle\) and \(|\psi\rangle\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Probability density \(|\psi|^2\) at a point</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The expectation value of an</text>
+    </name>
+    <questiontext format="html">
+      <text>The expectation value of an observable represented by operator \(\hat{A}\) in a normalized state \(|\psi\rangle\) is given by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Expectation values are computed using the operator sandwiched between the bra and ket of the same state, giving the average measurement result over many identical preparations.  Writing \(\langle \hat{A}|\) treats an operator like a state vector, which is not correct in standard operator formalism.  A modulus-squared expression generally describes probabilities of projection, not the mean value of an observable.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\langle \psi | \hat{A} | \psi \rangle\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\langle \hat{A} | \psi \rangle\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(|\langle \psi | \hat{A} \rangle|^2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\langle \psi | \psi \rangle\,\hat{A}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The time-independent Schrödinger equation is</text>
+    </name>
+    <questiontext format="html">
+      <text>The time-independent Schrödinger equation is most directly associated with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The time-independent Schrödinger equation is an eigenvalue problem for the Hamiltonian, and its solutions correspond to stationary states with definite energy.  Arbitrary time-dependent forcing generally requires the time-dependent Schrödinger equation rather than the stationary form.  Classical deterministic paths are not the central object in quantum postulates; the wave function and probability interpretation are.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Stationary states and energy eigenvalues</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Any time-varying Hamiltonian with arbitrary forcing</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Classical trajectories in phase space</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Deterministic particle paths without probability</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a particle in a</text>
+    </name>
+    <questiontext format="html">
+      <text>For a particle in a one-dimensional infinite potential well of length \(L\), a key boundary condition on the wave function is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In an infinite well, the potential is infinite outside the box, so the wave function must vanish at the walls (and outside), leading to \(\psi(0)=\psi(L)=0\).  Setting the wave function to 1 at the boundaries violates the physical confinement requirement used to obtain quantized solutions.  Discontinuity is not allowed for acceptable wave functions in standard quantum mechanics, and derivative-only conditions are not the defining boundary constraint for the infinite well.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\psi(0)=\psi(L)=0\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\psi(0)=\psi(L)=1\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\frac{d\psi}{dx}\big|_{0}=\frac{d\psi}{dx}\big|_{L}=0\) only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\psi(x)\) is discontinuous at \(x=0\) and \(x=L\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Quantum tunnelling refers to the</text>
+    </name>
+    <questiontext format="html">
+      <text>Quantum tunnelling refers to the phenomenon where a particle:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Tunnelling arises because the wave function decays exponentially in a classically forbidden region but does not necessarily become exactly zero for a finite barrier, giving a nonzero transmission probability.  Total reflection is a classical expectation, but quantum mechanics allows transmission through finite barriers.  The particle does not classically accelerate inside the barrier; instead, the wave function behavior determines transmission and reflection.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Has a nonzero probability of penetrating a finite barrier even when its energy is below the barrier height</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Always reflects with probability 1 when its energy is below the barrier height</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Gains extra energy inside the barrier due to classical acceleration</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Can only cross a barrier if its energy exceeds the barrier height</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For angular momentum operators, a</text>
+    </name>
+    <questiontext format="html">
+      <text>For angular momentum operators, a fundamental commutation relation is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Angular momentum components do not commute; their nonzero commutator encodes the impossibility of simultaneous exact measurement of two perpendicular components and underlies spatial quantization.  Treating \([\hat{L}_x,\hat{L}_y]=0\) is a common mistake from classical intuition where components are just numbers rather than operators.  A key compatible pair is \(\hat{L}^2\) with one component (such as \(\hat{L}_z\)), which is why \(\hat{L}^2\) and \(\hat{L}_z\) share eigenfunctions in rotational problems like the rigid rotor.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/2ed08a49-6201-4865-b260-c92e0bc9b093/physical_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\([\hat{L}_x,\hat{L}_y]= i\hbar \hat{L}_z\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\hat{L}_x,\hat{L}_y]= 0\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\hat{L}^2,\hat{L}_z]= i\hbar \hat{L}_z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\([\hat{L}^2,\hat{L}_z]= i\hbar \hat{L}^2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A particle is in a</text>
+    </name>
+    <questiontext format="html">
+      <text>A particle is in a 1D infinite potential well of length \(L\). If the particle is in the \(n=2\) eigenstate, the ratio \(E_2/E_1\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a particle in a 1D infinite box, energy levels scale as \(E_n \propto n^2\) due to boundary conditions and quantization from the time-independent Schrödinger equation.  Hence \(E_2/E_1 = 2^2/1^2 = 4\).  The value 2 comes from wrongly assuming linear dependence on \(n\), and 8 comes from confusing \(n^2\) with \(n^3\) type scaling.  The value 1/4 is the inverted ratio and is a common algebra slip.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>8</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1/4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a 2D infinite square</text>
+    </name>
+    <questiontext format="html">
+      <text>In a 2D infinite square box with equal side lengths \(L_x=L_y=L\), which pair of quantum numbers corresponds to a degenerate partner of the state \((n_x,n_y)=(1,2)\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a 2D box, energy depends on the sum \(n_x^2+n_y^2\) (for equal side lengths), so swapping \((n_x,n_y)\) leaves the energy unchanged.  For \((1,2)\), the sum is \(1^2+2^2=5\), which matches \((2,1)\).  The other pairs give sums 10, 8, and 2 respectively, so they are not degenerate with 5.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>(1,3)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>(2,1)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(2,2)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>(1,1)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A particle in a 1D</text>
+    </name>
+    <questiontext format="html">
+      <text>A particle in a 1D box is prepared in the normalized superposition \(|\psi\rangle=\frac{1}{\sqrt{2}}(|1\rangle+|2\rangle)\), where \(|n\rangle\) are energy eigenstates of the Hamiltonian \(\hat{H}\). The expectation value \(\langle H\rangle\) equals:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Expectation values are computed using \(\langle \psi|\hat{H}|\psi\rangle\), and for a superposition of orthonormal energy eigenstates, the mean energy becomes the probability-weighted average of eigenvalues.  Here each state has probability \(1/2\), so \(\langle H\rangle = \frac{1}{2}E_1+\frac{1}{2}E_2\).  Adding energies without weighting ignores the Born interpretation link between amplitudes and probabilities.  The geometric mean and difference arise from common but incorrect “averaging” instincts not justified by operator expectation-value rules.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\frac{E_1+E_2}{2}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E_1+E_2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\sqrt{E_1E_2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E_2-E_1\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Two stationary states \(\psi_1\) and</text>
+    </name>
+    <questiontext format="html">
+      <text>Two stationary states \(\psi_1\) and \(\psi_2\) are orthonormal. A new wave function is formed as \(\psi = a\psi_1 + b\psi_2\). If \(a=\frac{1}{2}\), then \(|b|\) must be (to keep \(\psi\) normalized):</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For orthonormal states, normalization requires \(|a|^2+|b|^2=1\), which is a direct consequence of normalization and orthogonality conditions.  With \(|a|^2=1/4\), \(|b|^2=3/4\), so \(|b|=\sqrt{3}/2\).  The option \(1/2\) forgets to satisfy the total probability of 1, while \(\sqrt{3}\) and 1 violate normalization.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\frac{\sqrt{3}}{2}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\frac{1}{2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\sqrt{3}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the quantum harmonic oscillator</text>
+    </name>
+    <questiontext format="html">
+      <text>In the quantum harmonic oscillator, if the angular frequency is \(\omega\), the energy difference \(E_{n+1}-E_n\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The harmonic oscillator has quantized equally spaced energy levels, a core result obtained from solving the Schrödinger equation for a quadratic potential (with solutions involving Hermite polynomials).  Equal spacing implies \(E_{n+1}-E_n\) is a constant independent of \(n\), and that spacing is \(\hbar\omega\).  Half-spacing is a common confusion with the zero-point energy term, and \(2\hbar\omega\) is a doubling error.  A level spacing that shrinks with \(n\) contradicts the defining property of the quantum harmonic oscillator spectrum.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\hbar\omega\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\frac{1}{2}\hbar\omega\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2\hbar\omega\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\hbar\omega/(n+1)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For the harmonic oscillator, the</text>
+    </name>
+    <questiontext format="html">
+      <text>For the harmonic oscillator, the ground-state energy is nonzero. If \(\omega\) is the oscillator frequency, the zero-point energy is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Solving the Schrödinger equation for the harmonic potential yields a minimum energy even at \(n=0\), called the zero-point energy.  That value is \(\frac{1}{2}\hbar\omega\), reflecting quantum confinement in phase space and the oscillator’s quantized spectrum.  A zero value is the classical expectation (rest at the bottom), not the quantum result.  The values \(\hbar\omega\) and \(\frac{3}{2}\hbar\omega\) correspond to incorrectly shifting the quantum number or misidentifying excited-state energies.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\frac{1}{2}\hbar\omega\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\hbar\omega\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\frac{3}{2}\hbar\omega\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The commutator \([\hat{L}_x,\hat{L}_y]\neq 0\) implies</text>
+    </name>
+    <questiontext format="html">
+      <text>The commutator \([\hat{L}_x,\hat{L}_y]\neq 0\) implies that a state cannot have simultaneously sharp values of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Nonzero commutators among angular momentum components encode non-simultaneous observability and associated uncertainty, a central idea under commutators and uncertainty.  The pair \(L^2\) and one component (commonly \(L_z\)) is treated as compatible in angular momentum eigenvalue structure used in rigid-rotor solutions.  The other options either mix unrelated operators or state pairs not directly implied by the angular momentum commutation relations emphasized for rotational motion.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(L_x\) and \(L_y\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(L^2\) and \(L_z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(L_z\) and energy for a rigid rotor</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Position and energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a rigid rotor, the</text>
+    </name>
+    <questiontext format="html">
+      <text>For a rigid rotor, the rotational energy depends on the moment of inertia \(I\). If \(I\) doubles (all else same), the spacing between neighboring rotational energy levels will:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the rigid rotor model, rotational energies scale inversely with \(I\) because the rotational kinetic energy operator contains \(1/I\).  Therefore increasing \(I\) reduces the scale of rotational energies and hence reduces (approximately scales down) the spacing between successive rotational levels.  Doubling is the opposite trend, and “unchanged” ignores the explicit \(I\)-dependence.  The spacing does not become identically zero unless \(I\to\infty\), not merely doubled.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Double</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Halve</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Remain unchanged</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Become zero for all \(J\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For hydrogen-like atoms, the energy</text>
+    </name>
+    <questiontext format="html">
+      <text>For hydrogen-like atoms, the energy levels depend on nuclear charge \(Z\). If \(E_n(\text{H})\) is the energy of hydrogen at principal quantum number \(n\), then for \(\text{He}^+\) at the same \(n\), the energy is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Hydrogen-like ions follow a scaling with \(Z\) for orbital energies, a key extension from hydrogen to ions like \(\text{He}^+\) and \(\text{Li}^{2+}\).  Since \(\text{He}^+\) has \(Z=2\), the energy scale goes as \(Z^2\), giving \(E_n(\text{He}^+)=4E_n(\text{H})\) at the same \(n\).  The factors 2 and 1/2 come from incorrectly assuming linear scaling with \(Z\) or confusing radius scaling with energy scaling.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(E_n(\text{H})/2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2E_n(\text{H})\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(4E_n(\text{H})\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E_n(\text{H})\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a finite square well</text>
+    </name>
+    <questiontext format="html">
+      <text>In a finite square well, compared to an infinite square well of the same width, the bound-state wave function in the classically forbidden region (outside the well) is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A finite well requires continuity of the wave function and leads to penetration into the barrier region, producing an exponentially decaying tail outside the well.  Identically zero outside is a special feature of the infinite well idealization, not of finite barriers.  Linear growth is not a valid physical solution for bound states, and constant-amplitude oscillations outside would correspond to free/unbound motion rather than a bound state.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/2ed08a49-6201-4865-b260-c92e0bc9b093/physical_unit_01.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Identically zero, just as in the infinite well</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Exponentially decaying but nonzero</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Linearly increasing with distance</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Oscillatory with constant amplitude</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

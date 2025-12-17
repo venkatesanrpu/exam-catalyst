@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For an **elementary** reaction step]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For an **elementary** reaction step, the rate law is most directly determined by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In an elementary (single-step) reaction, the rate law follows directly from the molecularity/stoichiometry of that step (e.g., bimolecular step \(\text{rate} \propto [A][B]\)).
+The overall (net) stoichiometric equation may combine multiple steps, so it does not necessarily give the correct rate law for complex mechanisms.
+The equilibrium constant is a thermodynamic quantity and does not by itself determine the kinetic rate law.
+Catalyst concentration can affect rate in catalyzed mechanisms, but it is not the defining rule for elementary-step rate laws.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Overall stoichiometric equation of the net reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Stoichiometry (molecularity) of that single step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Thermodynamic equilibrium constant only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The catalyst concentration only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The term **reaction order** is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The term **reaction order** is best defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Reaction order is defined from the experimentally determined rate law; it equals the sum of powers of reactant concentrations appearing in the rate expression.
+Stoichiometric coefficients match rate-law exponents only for elementary steps, not in general.
+“Number of products formed per unit time” describes a rate but not the *order*.
+The number of elementary steps is a mechanistic feature and is not the definition of overall order.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The sum of stoichiometric coefficients in the balanced equation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The sum of exponents of concentration terms in the experimentally determined rate law]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The number of products formed per unit time]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The number of elementary steps in the mechanism]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **steady state approximation** in]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **steady state approximation** in mechanism analysis assumes that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The steady state (stationary state) approximation sets \(d[\text{intermediate}]/dt \approx 0\), meaning intermediates are formed and consumed at nearly equal rates after a short initial period.
+Reactant concentrations generally change with time, so they are not assumed constant by SSA.
+SSA is not the same as equilibrium; equilibrium would imply no net progress of reaction.
+Temperature dependence is captured by Arrhenius behavior; SSA does not assume temperature independence.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The concentration of reactants stays constant throughout the reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The concentration of intermediates remains approximately constant after an initial transient]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction is at equilibrium at all times]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The rate constant is independent of temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In **parallel (competing)** reactions, a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In **parallel (competing)** reactions, a key kinetic quantity that determines product selectivity is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In parallel reactions, product distribution depends on the relative rates of competing pathways, often expressed through branching ratios involving the competing rate constants (and relevant reactant concentrations).
+Boiling points and atom counts do not determine kinetic selectivity.
+An equilibrium constant for an unrelated process does not control the kinetic branching between two competing pathways.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The boiling points of the products]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The branching ratio based on competing rate constants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The equilibrium constant of an unrelated reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The total number of atoms in each product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In an **opposing (reversible)** reaction]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In an **opposing (reversible)** reaction \(A \rightleftharpoons B\), the “forward” and “reverse” rate constants primarily control:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For reversible kinetics, the forward and reverse rate constants govern the time-evolution of concentrations and therefore the rate of approach to equilibrium.
+Color and molar mass are not determined by kinetic constants.
+Catalysis may change rates, but reversibility does not imply the reaction must be catalyzed.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The color of the reaction mixture]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[How quickly equilibrium is approached]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The molar mass of A]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Whether the reaction must be catalyzed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a **consecutive** mechanism \(A]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a **consecutive** mechanism \(A \rightarrow B \rightarrow C\), species \(B\) is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In consecutive reactions \(A \rightarrow B \rightarrow C\), \(B\) is formed in one step and consumed in the next, which is the defining feature of an intermediate.
+A catalyst is regenerated and not consumed overall; an intermediate is consumed as the mechanism proceeds.
+Solvent is not a transient species produced and then consumed in the mechanism.
+A “promoter” is not the standard kinetic term for a species like \(B\) in consecutive schemes.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A catalyst]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[An intermediate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A solvent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A promoter that is not consumed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A **catalyst** is best characterized]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A **catalyst** is best characterized by which statement?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Catalysis speeds reactions by lowering the effective activation barrier via an alternative pathway while being regenerated (not consumed overall).
+Catalysts do not change the thermodynamic driving force (\(\Delta G^\circ\)) or the equilibrium constant; they affect kinetics, not equilibrium position.
+A catalyst need not be present in larger amount than reactants; even small amounts can show turnover.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It increases the equilibrium constant \(K\) of the reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[It lowers the activation energy by providing an alternative pathway and is not consumed overall]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It is always present in larger amount than reactants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[It changes \(\Delta G^\circ\) to make the reaction spontaneous]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the Michaelis–Menten mechanism for]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the Michaelis–Menten mechanism for enzyme catalysis, the complex \(ES\) represents:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Enzyme kinetics commonly models formation of an enzyme–substrate complex \(ES\) as an intermediate step leading to product formation.
+The enzyme is not permanently converted into product; it is regenerated after product release.
+Catalyst poisons/inhibitors are different entities and are not what \(ES\) denotes.
+\(ES\) is not the final product-solvent assembly; it is the bound state of enzyme and substrate.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[An enzyme permanently converted into product]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The enzyme–substrate complex formed during substrate binding]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A catalyst poison that irreversibly deactivates enzyme]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The final product bound to solvent molecules]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In **polymerization kinetics**, “chain-growth polymerization”]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In **polymerization kinetics**, “chain-growth polymerization” is most closely associated with:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chain-growth polymerization proceeds via distinct initiation, propagation, and termination steps involving an active center (often radicals or ions).
+Step-growth polymerization is characterized by stepwise reactions between molecules of many sizes, not the active-chain propagation framework.
+Polymerization kinetics is not “only equilibrium”; growth rates depend on kinetic steps.
+Radicals are common in chain-growth (free-radical polymerization), so it is incorrect to say it cannot involve radicals.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Stepwise condensation between any two oligomers at all stages]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Initiation, propagation, and termination steps of an active chain]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only equilibrium between monomer and polymer]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A mechanism that cannot involve radicals]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A **primary kinetic isotope effect**]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A **primary kinetic isotope effect** is most indicative of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A primary kinetic isotope effect arises when the isotopically substituted atom participates directly in the bond-breaking/forming event associated with the rate-controlling transition state, making the rate sensitive to isotope-dependent zero-point energy differences.
+Substitution at a non-involved position corresponds more to secondary isotope effects, not primary.
+KIE by definition involves a rate change; “no change” contradicts the concept.
+The catalyst being an isotope of reactant is not the meaning of kinetic isotope effect.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Isotope substitution at a position not involved in bond breaking/forming in the rate-determining step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A change in rate due to isotope substitution where the bond to the isotope is involved in the key bond-breaking/forming event]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No change in reaction rate upon isotope substitution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The catalyst being an isotope of the reactant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In adsorption terminology, **physisorption** is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In adsorption terminology, **physisorption** is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Physisorption arises mainly from weak intermolecular forces (dispersion/van der Waals) between the surface and the adsorbate, so it is usually reversible and favored at lower temperatures.  Strong chemical-bond formation and higher activation barriers are hallmarks of chemisorption, not physisorption.  Monolayer saturation is a Langmuir-model feature and is not a defining requirement for physisorption.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Formation of strong chemical bonds between adsorbate and surface]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Adsorption dominated by weak van der Waals interactions and generally reversible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Adsorption that always forms a monolayer and reaches saturation at low pressure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Adsorption that requires an activation energy comparable to bond dissociation energies]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which feature most strongly indicates]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Which feature most strongly indicates **chemisorption** rather than physisorption?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Chemisorption involves formation of stronger chemical bonds between adsorbate and surface sites, leading to higher adsorption energies and often lower reversibility.  Low enthalpy and multilayer formation are more consistent with physisorption and multilayer models such as BET.  Easy reversibility is more typical of weakly bound (physical) adsorption.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Low enthalpy of adsorption (small magnitude)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Multilayer adsorption is common]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Strong, specific bonding to the surface with higher adsorption energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Adsorption is always easily reversible by mild heating]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **Langmuir isotherm** is fundamentally]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **Langmuir isotherm** is fundamentally based on which assumption set?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Langmuir model assumes a uniform surface, identical adsorption sites, monolayer coverage, and no interactions between adsorbed molecules, leading to saturation at full site occupancy.  Surface heterogeneity and energy distributions are tied to Freundlich-type behavior, not Langmuir.  Multilayer adsorption is treated by BET theory, not Langmuir.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heterogeneous surface with a distribution of adsorption energies and no saturation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Monolayer adsorption on a uniform surface with a finite number of identical sites and no lateral interactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Multilayer adsorption where heat of adsorption is constant for all layers]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Empirical power-law dependence valid for all pressures and temperatures]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **Freundlich isotherm** is best]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **Freundlich isotherm** is best characterized as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Freundlich isotherm is an empirical relationship (power-law type) commonly applied to heterogeneous surfaces and typically valid only over a limited pressure (or concentration) range.  Langmuir is the monolayer uniform-site model, and BET is the multilayer extension used for surface area estimation via monolayer capacity.  Catalytic surface reaction mechanisms are treated using models such as Langmuir–Hinshelwood, not Freundlich.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A strictly derived kinetic-equilibrium model for monolayer adsorption on uniform sites]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[An empirical power-law model often used for adsorption on heterogeneous surfaces over limited pressure ranges]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A multilayer adsorption model used to obtain monolayer capacity and surface area]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A mechanistic model for catalytic surface reactions between adsorbed species]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **BET isotherm** is primarily]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **BET isotherm** is primarily used to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[BET theory extends the Langmuir idea to multilayer adsorption and is widely used to determine surface area from the monolayer capacity obtained from adsorption data.  Thermodynamic driving force and surface excess concepts are treated under adsorption thermodynamics (e.g., Gibbs adsorption isotherm).  Rate-law modeling for heterogeneous catalysis is addressed by surface kinetics frameworks such as Langmuir–Hinshelwood.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Describe only monolayer adsorption on perfectly uniform surfaces]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Describe multilayer adsorption and estimate surface area via monolayer capacity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Explain why adsorption occurs thermodynamically using surface excess concepts]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Model heterogeneous catalysis by deriving surface reaction rate laws]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the **Langmuir–Hinshelwood mechanism**, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the **Langmuir–Hinshelwood mechanism**, the surface reaction step typically involves:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Langmuir–Hinshelwood surface catalysis describes adsorption of reactants onto active sites, reaction between adsorbed species on the surface, and desorption of products.  A purely gas-phase reaction does not capture the defining surface-adsorption and surface-reaction steps.  Multilayer adsorption/capillary condensation is associated with adsorption isotherm behavior (e.g., BET/porous solids concepts), not the catalytic mechanism itself.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Reaction between species both adsorbed on the catalyst surface, followed by product desorption]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reaction only in the gas phase with the surface acting as an inert support]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Reaction between an adsorbed species and a free gas-phase molecule without adsorption]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Multilayer adsorption followed by capillary condensation in pores]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[**Surface tension** is best defined]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[**Surface tension** is best defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Surface tension reflects the energetic cost (surface free energy per unit area) of creating additional interface area and arises from the imbalance of intermolecular forces at an interface.  Resistance to flow due to internal friction defines viscosity, not surface tension.  Diffusion relates to molecular transport but is not the definition of surface tension.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Resistance to flow in a fluid due to internal friction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Energy required to increase surface area by one unit (surface free energy per unit area)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pressure difference across a curved surface always equal to atmospheric pressure]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A measure of how quickly molecules diffuse in solution]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[**Viscosity** of a fluid refers]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[**Viscosity** of a fluid refers to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Viscosity is the resistance to flow (internal friction) and depends on molecular interactions, temperature, pressure, and composition.  Micelle formation relates to surfactants and critical micelle concentration, while monolayer capacity and coverage relate to adsorption models and surface kinetics.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The tendency of molecules to organize into micelles above a threshold concentration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The resistance of a fluid to flow, arising from internal friction and molecular interactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The amount of adsorbate required to form a monolayer on a surface]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The fraction of surface covered by adsorbate at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[**Self-assembly** in surface and interface]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[**Self-assembly** in surface and interface chemistry is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Self-assembly is the spontaneous formation of ordered structures (e.g., monolayers, bilayers, higher-order assemblies) driven by intermolecular forces and overall free-energy minimization.  It does not require external stirring as the primary cause, nor does it require irreversible covalent bond formation.  Self-assembly occurs across many environments (solutions, interfaces, soft matter), not only gas–solid adsorption.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Random clustering driven only by external stirring]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Spontaneous organization of molecules into ordered structures driven by intermolecular forces and thermodynamics]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Always an irreversible process requiring covalent bond formation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A phenomenon restricted only to gas–solid adsorption systems]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A **colloid** is best described]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A **colloid** is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Colloids are dispersions with particle sizes typically in the nanometer to sub-micrometer range (about 1–1000 nm), showing behaviors such as colloidal stability considerations and Brownian motion.  They are not necessarily homogeneous molecular solutions, and they can be stabilized (electrostatically/sterically) rather than being inherently forced to coagulate.  Surfactants commonly adsorb at interfaces and can strongly influence colloidal stability and micellization behavior.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/05b8dcdd-1242-4c0d-93c3-7b80e9ac6fa7/physical_unit_13.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A system where particles are typically in the 1–1000 nm size range dispersed in a medium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A perfectly homogeneous molecular solution with no dispersed phase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A system that is always unstable and must immediately coagulate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A system where surfactants cannot adsorb at interfaces]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

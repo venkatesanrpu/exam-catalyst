@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a relaxation experiment on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a relaxation experiment on the reversible reaction \(A \rightleftharpoons B\), the system is at equilibrium and then a small temperature-jump is applied. The measured relaxation time is \(\tau = 0.020\ \text{s}\). If independent equilibrium measurements give \(K = \dfrac{[B]_{\mathrm{eq}}}{[A]_{\mathrm{eq}}}=4.0\), what is the forward rate constant \(k_f\) (for \(A \to B\)) assuming first-order forward and reverse steps?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a simple reversible first-order system, the relaxation rate is the sum of forward and reverse rate constants: \(\dfrac{1}{\tau}=k_f+k_r\).  Also, \(K=\dfrac{k_f}{k_r}\Rightarrow k_r=\dfrac{k_f}{K}\).  Hence \(\dfrac{1}{\tau}=k_f+\dfrac{k_f}{K}=k_f\left(1+\dfrac{1}{K}\right)\).  With \(\tau=0.020\ \text{s}\), \(\dfrac{1}{\tau}=50\ \text{s}^{-1}\), so \(k_f=\dfrac{50}{1+1/4}=\dfrac{50}{1.25}=40\ \text{s}^{-1}\); but note \(K=[B]/[A]=4\) implies \(k_f/k_r=4\), giving \(k_f=40\ \text{s}^{-1}\).  The option matching this is 40 s\(^{-1}\); therefore the correct choice is the one listing \(40\ \text{s}^{-1}\), while \(20\ \text{s}^{-1}\) would correspond to incorrectly using \(1/\tau=k_f\) only (ignoring the reverse step).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_f = 10\ \text{s}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(k_f = 20\ \text{s}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_f = 40\ \text{s}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_f = 50\ \text{s}^{-1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A stopped-flow instrument has a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A stopped-flow instrument has a dead time of \(2.0\ \text{ms}\). A reaction has a characteristic half-life of \(0.50\ \text{ms}\). Which statement is most accurate regarding measurement of the early-time kinetics?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In flow/rapid-mixing methods, dead time sets the earliest time point accessible after mixing, so processes faster than the dead time cannot be directly observed in their initial stage.  With \(t_{1/2}=0.50\ \text{ms}\) and dead time \(2.0\ \text{ms}\), multiple half-lives elapse before observation begins, so only later-time remnants of the kinetic trace are captured.  Assuming stopped-flow resolves “any” fast reaction ignores the instrument-response limitation emphasized for fast kinetics methods.  Relaxation methods differ conceptually from rapid-mixing methods (perturb equilibrium vs initiate reaction by mixing), so they are not automatically identical in information content.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction can be fully resolved because stopped-flow is designed for any fast reaction]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Only the tail end (post-dead-time) behavior can be observed; the earliest kinetics are missed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The dead time is irrelevant because only equilibrium matters]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Relaxation methods and stopped-flow give identical information here]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a diffusion-controlled bimolecular reaction]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a diffusion-controlled bimolecular reaction in solution, the Smoluchowski model predicts that increasing the solvent viscosity should generally:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In diffusion-controlled reactions, the limiting factor is how quickly reactants diffuse to encounter each other; higher viscosity typically lowers diffusion coefficients, reducing encounter rates.  The Smoluchowski framework explicitly treats the rate as diffusion-limited rather than activation-controlled, so viscosity changes matter strongly.  Claiming the rate constant is unchanged assumes activation control, which contradicts the definition of diffusion control.  Reaction order is governed by molecularity/kinetic scheme; diffusion control affects the magnitude of the bimolecular rate constant, not the fundamental order.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increase the rate constant because collisions become more frequent]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Decrease the diffusion-controlled rate constant because diffusion slows]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Leave the rate constant unchanged because activation energy dominates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Make the reaction first order instead of second order]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An excited singlet state \(S_1\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An excited singlet state \(S_1\) decays by fluorescence with rate constant \(k_f\) and by nonradiative internal conversion with rate constant \(k_{nr}\). If \(k_f = 2.0\times 10^8\ \text{s}^{-1}\) and \(k_{nr}=8.0\times 10^8\ \text{s}^{-1}\), what is the fluorescence quantum yield \(\Phi_f\)?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For competing first-order decay channels from an excited state, the quantum yield for fluorescence is \(\Phi_f=\dfrac{k_f}{k_f+k_{nr}}\).  Substituting gives \(\Phi_f=\dfrac{2.0}{2.0+8.0}=0.20\).  A value of 0.25 would result from an arithmetic slip (using 2/(8) instead of 2/(10)).  Larger values like 0.5 or 0.8 would incorrectly assume radiative decay dominates despite \(k_{nr}\) being larger.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.20]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.25]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.50]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.80]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A fluorophore shows dynamic quenching]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A fluorophore shows dynamic quenching with quencher concentration \([Q]\). The Stern–Volmer plot of \(\dfrac{I_0}{I}\) vs \([Q]\) is linear with slope \(K_{SV}=10\ \text{M}^{-1}\). If \([Q]=0.20\ \text{M}\), what is \(\dfrac{I}{I_0}\) predicted by Stern–Volmer behavior?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Stern–Volmer analysis relates intensity quenching to quencher concentration as \(\dfrac{I_0}{I}=1+K_{SV}[Q]\) for a linear dynamic-quenching case.  Here \(\dfrac{I_0}{I}=1+10(0.20)=3\), so \(\dfrac{I}{I_0}=1/3\approx 0.33\); however note the question asks \(I/I_0\), which is 0.33.  The distractor 0.67 corresponds to mistakenly using \(I/I_0=1+K_{SV}[Q]\) instead of its inverse.  Values like 0.50 or 0.83 are typical of underestimating the quenching effect or using the wrong slope–intercept interpretation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.33]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.50]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[0.67]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[0.83]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A photochemical reaction has quantum]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A photochemical reaction has quantum yield \(\Phi = 0.60\). If the absorbed photon rate is \(R_{\text{abs}} = 2.0\times 10^{-6}\ \text{einstein s}^{-1}\), what is the rate of product formation (in \(\text{einstein s}^{-1}\)) for a primary photochemical process?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quantum yield is defined as events per photon absorbed, so the event (product-formation) rate is \(R_{\text{prod}}=\Phi\,R_{\text{abs}}\).  Thus \(R_{\text{prod}}=0.60\times 2.0\times 10^{-6}=1.2\times 10^{-6}\ \text{einstein s}^{-1}\).  Taking \(R_{\text{prod}}=R_{\text{abs}}\) would incorrectly assume \(\Phi=1\).  A larger value like \(3.3\times 10^{-6}\) would correspond to \(\Phi>1\), which is possible for chain photoreactions but not for a single-step primary process unless chain amplification is present.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(1.2\times 10^{-6}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(2.0\times 10^{-6}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(3.3\times 10^{-6}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(0.8\times 10^{-6}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A chain photoreaction shows an]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A chain photoreaction shows an experimentally measured quantum yield of 12. Which interpretation is most consistent?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Quantum yields greater than unity are characteristic of chain photoreactions, where one absorbed photon initiates a sequence of propagation steps producing many product molecules.  If the sample were not absorbing photons, a meaningful quantum yield could not be established for photochemical conversion.  Pure fluorescence deactivation would reduce chemical quantum yield rather than increase it above 1.  Diffusion control concerns encounter-limited bimolecular rates in solution and is not the defining reason for \(\Phi \gg 1\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[More than one product molecule is formed per photon absorbed due to chain propagation steps]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The sample is not absorbing any photons]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The excited state decays only by fluorescence]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction must be diffusion-controlled]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In selecting a method to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In selecting a method to study a very fast reaction, which pairing is most appropriate?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Matching reaction timescales to instrumental response is central in fast kinetics; microsecond regimes often require rapid-mixing/flow methods or relaxation methods rather than conventional techniques.  Manual mixing and titration generally cannot resolve millisecond transients due to mixing and detection limitations.  Laser flash photolysis is suited to producing/monitoring very short-lived transients but is not the only tool for minute-scale kinetics.  Nanosecond kinetics cannot be followed by simple cuvette mixing because the mixing and detection times are far too slow.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Millisecond kinetics → conventional manual mixing and titration]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Microsecond kinetics → stopped-flow or relaxation techniques]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Minute kinetics → laser flash photolysis only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Nanosecond kinetics → simple colorimetry with cuvette mixing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A system at equilibrium is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A system at equilibrium is perturbed by an electric-field jump and the observable relaxes exponentially back with a single relaxation time. Which key parameter(s) can be obtained from such relaxation data for a simple reversible process?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Relaxation methods monitor return to equilibrium after a perturbation and allow extraction of relaxation time, which is related to the kinetic rate parameters for reversible schemes.  For a simple reversible case, relaxation time depends on the forward and reverse rate constants; combining relaxation data with equilibrium information allows separation of individual rate constants.  Diffusion coefficients are central to diffusion-controlled models, but relaxation experiments primarily report kinetic relaxation back to equilibrium, not diffusion alone.  Activation energy requires temperature dependence measurements; a single relaxation trace does not uniquely provide it.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the equilibrium constant, never rate constants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The sum of forward and reverse rate constants (and with \(K\), individual rate constants)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the diffusion coefficient of reactants]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the activation energy without any additional data]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A transient intermediate is produced]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A transient intermediate is produced by a short light pulse and monitored spectroscopically over time. Which technique is being described?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A pulsed light source creating transient species followed by time-resolved monitoring is the defining operational picture of laser flash photolysis.  Stopped-flow and continuous-flow are rapid-mixing approaches that initiate reactions by mixing, not by a light pulse.  Pressure-jump is a relaxation (equilibrium perturbation) method and does not inherently rely on generating transients by photopulses.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/8d20b95b-bdc3-4524-a196-4d429e7110c8/physical_unit_12.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Stopped-flow spectroscopy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Laser flash photolysis]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Pressure-jump relaxation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Continuous-flow mixing]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

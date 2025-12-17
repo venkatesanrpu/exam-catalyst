@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For the Lindemann–Hinshelwood unimolecular mechanism]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For the Lindemann–Hinshelwood unimolecular mechanism
+\(A + M \xrightleftharpoons[k_{-1}]{k_1} A^* + M\), \(A^* \xrightarrow{k_2} P\),
+applying steady-state approximation to \(A^*\), the observed first-order rate constant \(k_{\text{obs}}\) (defined by rate \(=k_{\text{obs}}[A]\)) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Using steady state for the energized intermediate, \(d[A^*]/dt\approx 0=k_1[A][M]-k_{-1}[A^*][M]-k_2[A^*]\).  Solving gives \([A^*]=\dfrac{k_1[A][M]}{k_{-1}[M]+k_2}\), and the product formation rate is \(v=k_2[A^*]=\dfrac{k_1k_2[A][M]}{k_{-1}[M]+k_2}\), hence \(k_{\text{obs}}=\dfrac{k_1k_2[M]}{k_{-1}[M]+k_2}\).  Option B swaps forward/backward activation incorrectly, giving wrong pressure behavior.  Option C corresponds to a low-pressure approximation but misses the denominator term that causes fall-off and saturation.  Option D inverts the dependence and predicts the rate decreases with pressure, contradicting Lindemann pressure-regime behavior.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(k_{\text{obs}}=\dfrac{k_1k_2[M]}{k_{-1}[M]+k_2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_{\text{obs}}=\dfrac{k_{-1}k_2[M]}{k_1[M]+k_2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_{\text{obs}}=k_1k_2[M]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_{\text{obs}}=\dfrac{k_2}{k_1[M]}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[From the expression \(k_{\text{obs}}=\dfrac{k_1k_2[M]}{k_{-1}[M]+k_2}\), the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[From the expression \(k_{\text{obs}}=\dfrac{k_1k_2[M]}{k_{-1}[M]+k_2}\), the correct high-pressure limiting rate constant \(k_\infty\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At high pressure, \(k_{-1}[M]\gg k_2\), so \(k_{\text{obs}}\approx \dfrac{k_1k_2[M]}{k_{-1}[M]}=\dfrac{k_1k_2}{k_{-1}}\), which is independent of \([M]\) and defines the high-pressure limit \(k_\infty\).  Option B is the high-pressure behavior for the activation step alone, not the effective unimolecular decomposition constant.  Option C incorrectly makes the limiting constant proportional to \([M]\), contradicting the pressure-independent saturation limit.  Option D is a ratio of activation/deactivation constants and does not represent the limiting unimolecular rate constant.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(k_\infty=\dfrac{k_1k_2}{k_{-1}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_\infty=k_1[M]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_\infty=k_2[M]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_\infty=\dfrac{k_{-1}}{k_1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[From \(k_{\text{obs}}=\dfrac{k_1k_2[M]}{k_{-1}[M]+k_2}\), the correct low-pressu]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[From \(k_{\text{obs}}=\dfrac{k_1k_2[M]}{k_{-1}[M]+k_2}\), the correct low-pressure limiting form \(k_0[M]\) (i.e., \(k_{\text{obs}}\propto [M]\)) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[At low pressure, \(k_{-1}[M]\ll k_2\), so \(k_{\text{obs}}\approx \dfrac{k_1k_2[M]}{k_2}=k_1[M]\), giving the linear pressure dependence typical of the low-pressure regime.  Option B is the high-pressure limit and therefore fails to show the linear dependence on \([M]\).  Option C misplaces constants and does not emerge from the low-pressure approximation.  Option D predicts an inverse pressure dependence, opposite to Lindemann activation control at low pressures.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(k_{\text{obs}}\approx k_1[M]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_{\text{obs}}\approx \dfrac{k_1k_2}{k_{-1}}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_{\text{obs}}\approx \dfrac{k_{-1}}{k_1}[M]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_{\text{obs}}\approx \dfrac{k_2}{[M]}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In Transition State Theory, if]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In Transition State Theory, if the activation free energy increases by \(RT\ln 10\) at a fixed temperature, the rate constant changes by a factor of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[TST relates the rate constant to the free energy of activation \(\Delta G^\ddagger\), so \(k\propto \exp(-\Delta G^\ddagger/RT)\).  If \(\Delta G^\ddagger\) increases by \(RT\ln 10\), then \(k\) is multiplied by \(\exp(-\ln 10)=1/10\), meaning it decreases tenfold.  An increase by 10 would require \(\Delta G^\ddagger\) to decrease by \(RT\ln 10\), not increase.  The factor \(e\) corresponds to a change of \(RT\), not \(RT\ln 10\).  The rate is not governed only by \(\Delta H^\ddagger\); \(\Delta S^\ddagger\) contributes via \(\Delta G^\ddagger\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Decreases by 10 times]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increases by 10 times]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decreases by \(e\) times]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[No change (rate depends only on \(\Delta H^\ddagger\))]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Eyring–Polanyi form used to]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Eyring–Polanyi form used to extract activation enthalpy and entropy is most directly obtained by rearranging TST into a linear plot of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Activation thermodynamics in TST uses an Eyring–Polanyi relationship where \(\ln(k/T)\) varies linearly with \(1/T\), allowing extraction of activation enthalpy and entropy from slope and intercept.  A plot of \(\ln k\) versus \(1/T\) is characteristic of Arrhenius analysis, not the standard Eyring–Polanyi linearization highlighted for activation parameters.  Plotting \(\ln k\) versus \(T\) is not linear for these models over typical ranges.  Using \(\ln(kT)\) changes the algebra and does not match the conventional extraction method described for \(\Delta H^\ddagger\) and \(\Delta S^\ddagger\).]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\ln(k/T)\) versus \(1/T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\ln k\) versus \(T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k\) versus \(1/T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\ln(kT)\) versus \(1/T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider two competing unimolecular pathways]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider two competing unimolecular pathways from the same reactant with \(\Delta G_1^\ddagger < \Delta G_2^\ddagger\) at temperature \(T\). Under TST assumptions, the ratio \(k_1/k_2\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Since TST gives \(k\propto \exp(-\Delta G^\ddagger/RT)\), dividing gives \(k_1/k_2=\exp\left(-(\Delta G_1^\ddagger-\Delta G_2^\ddagger)/RT\right)\).  With \(\Delta G_1^\ddagger<\Delta G_2^\ddagger\), the exponent is positive and \(k_1>k_2\), consistent with the lower barrier leading to the faster channel.  Option B flips the sign and would incorrectly predict the higher-barrier path is faster.  Option C is not a TST relationship and ignores exponential sensitivity to barrier height.  Option D is irrelevant because both rate constants are at the same temperature here.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(k_1/k_2=\exp\!\left(-(\Delta G_1^\ddagger-\Delta G_2^\ddagger)/RT\right)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_1/k_2=\exp\!\left((\Delta G_1^\ddagger-\Delta G_2^\ddagger)/RT\right)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_1/k_2=(\Delta G_2^\ddagger/\Delta G_1^\ddagger)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(k_1/k_2=(T_1/T_2)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A computed stationary point on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A computed stationary point on a PES has all positive Hessian eigenvalues. This point must correspond to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Stationary-point characterization uses Hessian eigenvalues: all positive eigenvalues indicate positive curvature in every direction, which corresponds to a local minimum on the PES.  A transition state (first-order saddle) requires exactly one negative eigenvalue (one unstable direction).  A second-order saddle would require two negative eigenvalues, not none.  Points on an IRC are not generally stationary points (gradient not necessarily zero) and the “one imaginary frequency” criterion is specifically for transition states, not generic IRC points.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A minimum (stable intermediate/reactant/product geometry)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A first-order saddle point (transition state)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A second-order saddle point]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A point on the intrinsic reaction coordinate with one imaginary frequency]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In classical trajectory analysis on]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In classical trajectory analysis on a PES, the force on nuclei used to propagate motion is obtained from:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Classical trajectories propagate nuclei using Newton’s equations, where forces are obtained from the PES via \( \mathbf{F} = -\nabla V(\mathbf{R})\).  Potential energy is a scalar and does not directly equal force; force depends on how energy changes with coordinates.  Kinetic energy gradients with respect to coordinates do not define conservative forces for PES-driven dynamics.  The Hessian at a single point provides local curvature information, but trajectory propagation requires forces (gradients) along the whole path.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The negative gradient of the potential energy with respect to coordinates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The potential energy itself (force equals energy)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The positive gradient of the kinetic energy with respect to coordinates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only the Hessian matrix at the transition state]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A key conceptual link between]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A key conceptual link between the reaction coordinate mode at a transition state and frequency analysis is that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a first-order saddle point, the unstable direction along which the system proceeds toward products or back to reactants appears as an imaginary frequency in the normal-mode (Hessian) analysis.  The highest real vibrational frequency usually corresponds to a stiff bond stretch, not the barrier-crossing direction.  Normal-mode analysis is explicitly used to interpret the transition state and identify the reaction coordinate mode.  Overall translation is a zero-frequency motion, not the defining unstable mode of a transition state.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[The reaction coordinate corresponds to the normal mode with an imaginary frequency]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction coordinate always corresponds to the highest real vibrational frequency]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction coordinate is unrelated to normal modes and cannot be inferred from them]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction coordinate is the translational mode of the whole molecule]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In comparing Arrhenius and Eyring]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In comparing Arrhenius and Eyring viewpoints for activated processes, the “activation energy” concept most closely corresponds (in a qualitative mapping) to which TST barrier descriptor?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The unit highlights “activation energy” as the energy difference between reactants and the transition state and notes the Arrhenius vs Eyring descriptions, where TST interprets the barrier using activation thermodynamic quantities.  Arrhenius’ \(E_a\) is not directly the same as \(\Delta G^\ddagger\) because \(\Delta G^\ddagger=\Delta H^\ddagger - T\Delta S^\ddagger\) includes entropy effects that can strongly influence rates.  Entropy of reaction is about overall thermodynamics, not the kinetic barrier crossing.  Heat capacity changes are not the central barrier descriptor in the basic Arrhenius–Eyring comparison emphasized here.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/84acffa8-5ba0-4f09-bb85-0bdd030fcc50/physical_unit_11.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Free energy of activation \(\Delta G^\ddagger\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Enthalpy/energy barrier associated with reaching the transition state (linked to activation enthalpy)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Entropy of reaction \(\Delta S\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heat capacity change \(\Delta C_p\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

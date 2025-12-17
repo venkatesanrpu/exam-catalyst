@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In statistical thermodynamics, a **microstate**]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In statistical thermodynamics, a **microstate** is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A microstate refers to one specific microscopic configuration of a system (e.g., a particular arrangement of particles/energies/coordinates) that is consistent with the imposed macroscopic constraints.
+The macroscopic condition \(P, V, T\) describes a macrostate, not a microstate.
+The average energy is an ensemble average (a derived quantity), not a specification of a single configuration.
+The partition function is a generating/normalization quantity for probabilities in the canonical description, not a definition of a microstate.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A macroscopic condition specified by \(P, V, T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A single detailed specification of the system at the microscopic level consistent with given constraints]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The average energy of an ensemble at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The partition function value at a given temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **macrostate** of a system]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **macrostate** of a system is most directly specified by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A macrostate is defined by macroscopic observables/constraints (such as \(E,V,N\) or \(T,V,N\)), and many microstates can realize the same macrostate.
+A complete list of positions and momenta describes one microstate.
+A probability distribution over microstates is part of an ensemble description, not the definition of a macrostate itself.
+Chemical potential alone is insufficient to specify a macrostate in general; additional variables/constraints are needed.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A complete list of all particle positions and momenta]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A probability for each microstate]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[A small set of thermodynamic variables (constraints) that can correspond to many microstates]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The chemical potential of the system only]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The statistical definition of entropy]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The statistical definition of entropy (Boltzmann formula) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Boltzmann’s formula connects entropy to multiplicity \(W\) (number of accessible microstates) via \(S = k_B \ln W\).
+\(-k_B T \ln Z\) corresponds to Helmholtz free energy \(F\), not entropy.
+\(-(\partial \ln Z/\partial \beta)\) gives internal energy \(U\) in the canonical ensemble, not entropy directly.
+\(k_B \ln Z\) is not the entropy; \(Z\) is the canonical partition function and entropy requires additional derivatives/relations.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(S = k_B \ln W\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(S = -k_B T \ln Z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(S = -(\partial \ln Z/\partial \beta)\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(S = k_B \ln Z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **microcanonical ensemble** is appropriate]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **microcanonical ensemble** is appropriate for a system that is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The microcanonical ensemble describes isolated systems with fixed energy \(E\), volume \(V\), and particle number \(N\).
+Contact with a heat bath implies canonical conditions (\(T,V,N\)).
+Contact with a particle reservoir with fixed chemical potential \(\mu\) is grand canonical.
+Fixed pressure and temperature corresponds to other ensembles (not the microcanonical ensemble described in this unit).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In contact with a heat bath at fixed \(T\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Isolated with fixed \(E, V, N\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[In contact with a particle reservoir at fixed \(\mu\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At fixed pressure and temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the microcanonical ensemble, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the microcanonical ensemble, the postulate of **equal a priori probability** means:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Equal a priori probability states that for an isolated system with fixed \(E,V,N\), every accessible microstate consistent with these constraints has the same probability.
+Choosing the lowest-energy microstate as most probable is not correct because energy is fixed in the microcanonical ensemble, and no Boltzmann weighting is used.
+The factor \(e^{-\beta E}\) is the Boltzmann factor from the canonical ensemble, not microcanonical.
+Degeneracy matters for counting \(W\), but the statement in option D mixes canonical ideas and is not the microcanonical postulate.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[All microstates (accessible under the given constraints) are equally probable]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The lowest-energy microstate is the most probable]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The probability of a microstate is proportional to \(e^{-\beta E}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Probability depends only on the degeneracy of energy levels in the canonical ensemble]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **canonical ensemble** describes a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **canonical ensemble** describes a system with fixed:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In the canonical ensemble, the system exchanges energy with a heat reservoir, so temperature \(T\) is fixed along with \(V\) and \(N\), while the system energy fluctuates.
+Fixed \(E,V,N\) is microcanonical.
+Fixed \(T,V,\mu\) is grand canonical.
+Fixed \(P,T,N\) is not the canonical ensemble as defined here.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(T, V, N\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E, V, N\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(T, V, \mu\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(P, T, N\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **Boltzmann distribution** in the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **Boltzmann distribution** in the canonical ensemble states that the probability of occupying a state of energy \(E_i\) is proportional to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Boltzmann distribution assigns probabilities \(p_i \propto e^{-\beta E_i}\), where \(\beta = 1/(k_B T)\).
+Direct proportionality to \(E_i\) is incorrect; higher energy states are typically less probable at fixed \(T\).
+\(e^{+\beta E_i}\) would incorrectly favor higher energies and does not represent equilibrium canonical probabilities.
+\(\ln E_i\) has no role as the weighting factor in the canonical probability distribution.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E_i\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(e^{-\beta E_i}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(e^{+\beta E_i}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\ln E_i\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the canonical ensemble, the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the canonical ensemble, the **partition function** \(Z\) is defined as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The canonical partition function is \(Z=\sum_i e^{-\beta E_i}\), summing the Boltzmann factors over all microstates (or energy eigenstates).
+Summing energies \(\sum_i E_i\) is not a normalization and does not generate thermodynamics.
+A product form \(\prod_i e^{-\beta E_i}\) is not the definition of the canonical partition function.
+\(\sum_i \beta E_i\) is not dimensionally or conceptually the canonical partition function.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(Z=\sum_i E_i\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(Z=\sum_i e^{-\beta E_i}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(Z=\prod_i e^{-\beta E_i}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(Z=\sum_i \beta E_i\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **Helmholtz free energy** \(F\)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **Helmholtz free energy** \(F\) is related to the canonical partition function by:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In the canonical ensemble, the Helmholtz free energy is given by \(F = -k_B T \ln Z\), making \(Z\) the central generating function for thermodynamic properties.
+The expression \(k_B T \ln Z\) has the wrong sign and would give incorrect temperature dependence.
+\(-\partial \ln Z/\partial \beta\) corresponds to internal energy \(U\), not \(F\).
+\(k_B \ln Z\) misses the factor of \(T\) and does not represent Helmholtz free energy.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(F = k_B T \ln Z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(F = -k_B T \ln Z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(F = -\partial \ln Z/\partial \beta\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(F = k_B \ln Z\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The **grand canonical ensemble** is]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The **grand canonical ensemble** is characterized by fixed \(T\), \(V\), and:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The grand canonical ensemble applies when a system can exchange both energy and particles with a reservoir, so \(T\), \(V\), and chemical potential \(\mu\) are fixed while \(E\) and \(N\) fluctuate.
+Fixed \(E\) would correspond to an isolated-energy constraint (microcanonical-like), not grand canonical.
+Fixed \(N\) corresponds to the canonical ensemble rather than grand canonical.
+Entropy \(S\) is not taken as a fixed control variable for defining the grand canonical ensemble in this context.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(E\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(N\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\mu\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(S\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

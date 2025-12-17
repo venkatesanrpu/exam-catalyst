@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The decomposition of \(A\) follows]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The decomposition of \(A\) follows first-order kinetics. If \(t_{1/2}=20\ \text{min}\), then the fraction of \(A\) remaining after \(60\ \text{min}\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For a first-order reaction, each half-life reduces concentration by a factor of 2, and the half-life is constant (independent of initial concentration).
+Here \(60\ \text{min} = 3\) half-lives, so remaining fraction \(=(1/2)^3=1/8\).
+\(1/2\) and \(1/4\) correspond to 1 and 2 half-lives, which would be 20 min and 40 min, not 60 min.
+\(1/16\) would correspond to 4 half-lives (80 min), so it overestimates the decay.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(1/2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(1/4\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(1/8\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(1/16\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A reaction has rate law]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A reaction has rate law \(\text{rate}=k[A]^2\). If \([A]\) is doubled while temperature is constant, the rate changes by a factor of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Reaction order is taken from the exponents in the experimentally determined rate law, and here the reaction is second order in \(A\).
+Doubling \([A]\) gives \(\text{rate}'=k(2[A])^2=4k[A]^2\), so rate increases fourfold.
+A factor of 2 would correspond to first order, and a factor of 8 would correspond to third order in \(A\).
+A factor of \(1/4\) would occur if \([A]\) were halved, not doubled.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[4]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[8]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1/4]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Consider the mechanism: \(A \xrightarrow{k_1}]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Consider the mechanism: \(A \xrightarrow{k_1} B \xrightarrow{k_2} C\). If \(k_2 \gg k_1\), the best statement about the concentration of intermediate \(B\) is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In consecutive reactions, intermediate concentration depends on relative rates of formation and consumption.
+If \(k_2 \gg k_1\), \(B\) is rapidly converted to \(C\) and thus does not build up significantly; this aligns with the idea behind treating certain intermediates as short-lived.
+Slow formation (small \(k_1\)) does not guarantee accumulation; accumulation requires formation faster than consumption.
+The condition is kinetic, not an equilibrium requirement, so equilibrium is not needed for \(B\) to be small.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(B\) accumulates to a large concentration because the first step is slow]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(B\) remains small because it is consumed much faster than it is formed]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(B\) must be equal to \(A\) at all times]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(B\) is constant only if the reaction is at equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a parallel reaction network]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a parallel reaction network \(A \xrightarrow{k_1} P\) and \(A \xrightarrow{k_2} Q\), both first order in \(A\). Starting from only \(A\), the ratio of formation rates of products at any time is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For competing (parallel) reactions, selectivity/branching depends on relative pathway rate constants when the order in \(A\) is the same.
+Here \(d[P]/dt=k_1[A]\) and \(d[Q]/dt=k_2[A]\), so the ratio is \((k_1[A])/(k_2[A])=k_1/k_2\), independent of time.
+The inverse ratio would swap products.
+The ratio \([P]/[Q]\) is a consequence of integrated behavior and need not equal the instantaneous rate ratio unless specific conditions apply; the asked quantity is the rate ratio.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_1}{k_2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_2}{k_1}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{[P]}{[Q]}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_1[A]^2}{k_2}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a reversible first-order system]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a reversible first-order system \(A \rightleftharpoons B\) with forward rate constant \(k_f\) and reverse rate constant \(k_r\), which statement is correct?]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[For opposing (reversible) reactions, the forward and reverse rate constants govern approach to equilibrium and are related to the equilibrium composition.
+At equilibrium, forward rate equals reverse rate: \(k_f[A]_{eq}=k_r[B]_{eq}\), giving \([B]_{eq}/[A]_{eq}=k_f/k_r\).
+Equilibrium does not require \(k_f=k_r\); it requires equality of *rates*, not equality of rate constants.
+First-order reversible systems do reach equilibrium; first order does not prevent equilibration.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At equilibrium, \([A]/[B]=k_f/k_r\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[At equilibrium, \([B]/[A]=k_f/k_r\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[At equilibrium, \(k_f=k_r\) must hold]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Equilibrium cannot be reached if the reaction is first order]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A proposed mechanism is: Step]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A proposed mechanism is:
+Step 1 (fast): \(A + B \rightleftharpoons I\)
+Step 2 (slow): \(I + B \rightarrow P\)
+If step 1 is treated as a pre-equilibrium, the predicted overall rate law is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Mechanism-based rate laws must be consistent with the elementary steps and how intermediates relate to reactants using approximations like pre-equilibrium/steady state.
+With pre-equilibrium in step 1, \([I]=K[A][B]\) where \(K=k_1/k_{-1}\) is the equilibrium constant for step 1, and the slow step rate is \(\text{rate}=k_2[I][B]=k_2K[A][B]^2\).
+A and B correspond to missing dependence on \(B\) from the slow-step consumption of \(B\).
+D ignores the requirement that \(I\) is generated from \(A\) and \(B\).
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\text{rate}=k[A]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\text{rate}=k[A][B]\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(\text{rate}=k[A][B]^2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(\text{rate}=k[B]^2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In Michaelis–Menten kinetics, \(v=\dfrac{V_{\max}[S]}{K_m+[S]}\). If]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In Michaelis–Menten kinetics, \(v=\dfrac{V_{\max}[S]}{K_m+[S]}\). If \([S]=K_m\), then the initial rate \(v\) equals:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Michaelis–Menten model relates rate to substrate concentration through \(K_m\) and \(V_{\max}\).
+Substituting \([S]=K_m\) gives \(v=V_{\max}K_m/(K_m+K_m)=V_{\max}/2\).
+\(V_{\max}\) occurs only in the saturation limit \([S]\gg K_m\).
+\(2V_{\max}\) is impossible because \(V_{\max}\) is the maximum achievable rate in this model.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(V_{\max}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(V_{\max}/2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(2V_{\max}\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(K_m/2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An enzyme shows \(V_{\max}\) unchanged]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An enzyme shows \(V_{\max}\) unchanged but apparent \(K_m\) increases upon adding an inhibitor. The inhibition is most consistent with:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Enzyme inhibition types are distinguished by how they affect \(K_m\) and \(V_{\max}\) in Michaelis–Menten analysis.
+Competitive inhibition reduces effective substrate binding (increases apparent \(K_m\)) while leaving \(V_{\max}\) unchanged at sufficiently high \([S]\).
+Non-competitive inhibition typically decreases \(V_{\max}\) (since active enzyme fraction is reduced), which contradicts the observation.
+Uncompetitive inhibition decreases both \(K_m\) and \(V_{\max}\), so it also contradicts the observation.
+***]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Competitive inhibition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Non-competitive inhibition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Uncompetitive inhibition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Irreversible inhibition that always lowers \(K_m\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In Arrhenius behavior, if the]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In Arrhenius behavior, if the activation energy \(E_a\) is unchanged but temperature increases, the rate constant \(k\) will:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Arrhenius equation links the temperature dependence of reaction rates to activation energy and temperature.
+With higher temperature, a larger fraction of molecules can overcome the activation barrier, so \(k\) increases according to Arrhenius temperature dependence.
+A contradicts collision/Arrhenius concepts used to interpret temperature effects on rates.
+A constant \(E_a\) does not imply constant \(k\); \(T\) still changes \(k\).
+***]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Decrease because collisions become less effective]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Increase because \(k\) depends exponentially on temperature in the Arrhenius equation]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Remain constant because \(E_a\) is constant]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Become independent of temperature for elementary reactions]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A primary kinetic isotope effect]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A primary kinetic isotope effect is measured as \(k_H/k_D \approx 6\) for a reaction where H is replaced by D. The most reasonable inference is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Kinetic isotope effects are used to infer transition-state involvement and bond-breaking/forming patterns.
+A large \(k_H/k_D\) (typical of a substantial primary isotope effect) indicates that the bond to H (vs D) is involved in the rate-determining transition state, consistent with zero-point energy differences affecting the barrier.
+Diffusion control is a separate kinetic regime and is not implied solely by observing a large KIE.
+KIE refers to rate constants (kinetics), not necessarily a proportional change in equilibrium constant (thermodynamics).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The isotopic atom is not involved in the rate-controlling step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bond to H is significantly involved in the transition state of the rate-controlling step]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The reaction is necessarily diffusion-controlled]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The equilibrium constant must have changed by a factor of 6]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

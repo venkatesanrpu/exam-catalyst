@@ -1,0 +1,1083 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A binary liquid–vapour system at</text>
+    </name>
+    <questiontext format="html">
+      <text>A binary liquid–vapour system at fixed pressure shows an azeotropic point in the \(T\)-\(x\) diagram. Considering Gibbs phase rule and the defining condition of an azeotrope, which statement best describes the degrees of freedom at the azeotropic point (at fixed \(P\))?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a binary two-phase (L+V) region at fixed pressure, the reduced phase rule gives \(F' = C - P + 1 = 2-2+1=1\), so normally one variable (e.g., \(T\)) can be varied and the equilibrium compositions adjust.
+At an azeotrope there is an additional constraint: liquid and vapour compositions are identical (a singular point in the \(T\)-\(x\) diagram), which removes that remaining freedom, making the azeotropic state effectively invariant at that pressure.
+Why others are wrong: Claiming one or two degrees of freedom ignores the extra azeotropic constraint; stating it is “not special” contradicts the text’s emphasis that the azeotrope appears as a singular point and imposes a distillation limitation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>One intensive variable can be changed independently while retaining two phases and azeotropic condition.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>No intensive variable can be changed independently while retaining two phases and azeotropic condition.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two intensive variables can be changed independently while retaining two phases and azeotropic condition.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Degrees of freedom is the same everywhere in the two-phase region, so the azeotropic point is not special.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a one-component \(P\)–\(T\) diagram</text>
+    </name>
+    <questiontext format="html">
+      <text>In a one-component \(P\)–\(T\) diagram, the liquid–vapour equilibrium curve terminates at a critical point. Using phase-rule reasoning, which statement is the most accurate about how degrees of freedom changes when moving from (i) a two-phase point on the liquid–vapour curve to (ii) the critical point?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a one-component system, Gibbs phase rule is \(F=C-P+2\).
+On a liquid–vapour coexistence curve, \(C=1\), \(P=2\) so \(F=1\); at the critical point the distinction between liquid and vapour disappears, effectively yielding a single phase (\(P=1\)) and thus \(F=2\), consistent with being able to vary \(T\) and \(P\) within a one-phase region.
+Why others are wrong: Treating the critical point like a triple point (invariant) is incorrect; also, the critical point is not a generic two-phase boundary point because the two phases become indistinguishable there.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(F\) changes from 0 to 1 because two phases become one phase at the critical point.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F\) remains 1 at both locations because both still lie on a phase boundary.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(F\) changes from 1 on the coexistence curve to 2 at the critical point because it becomes a single-phase region endpoint.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F\) changes from 2 to 1 because a critical point is an invariant point like a triple point.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A binary liquid–liquid system shows</text>
+    </name>
+    <questiontext format="html">
+      <text>A binary liquid–liquid system shows a UCST with a consolute point. At a temperature slightly below UCST, a mixture splits into two liquid phases with compositions given by the ends of a tie line. Which statement correctly links the lever rule to the binodal/tie-line picture?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In partially miscible liquid–liquid systems, the two-phase region is bounded by the binodal curve, and tie lines connect compositions of the two coexisting liquid phases at a given temperature.
+The lever rule is explicitly used in liquid–liquid phase diagrams (as in the learning path) to determine relative phase amounts from the overall composition’s position along the tie line.
+Why others are wrong: The lever rule is not restricted to eutectics; it applies wherever two phases coexist and a tie line can be drawn; the consolute point is where tie lines shrink to zero length, not where they uniquely exist.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The lever rule applies only to solid–liquid eutectic diagrams, not to liquid–liquid diagrams.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The overall composition must lie outside the binodal for the lever rule to be used.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The overall composition lies on the tie line connecting the two coexisting compositions, and phase amounts are inversely proportional to the segment lengths.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Tie lines exist only at the consolute point, so lever rule can be applied only at UCST.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider a binary solid–liquid phase</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider a binary solid–liquid phase diagram where an intermediate compound forms and undergoes incongruent melting (peritectic reaction). Which qualitative statement is most consistent with “incongruent melting” in such diagrams?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The syllabus explicitly distinguishes congruent vs. incongruent melting as different solid-phase behaviors during melting in two-component systems.
+Incongruent melting means the solid does not melt to a liquid of the same composition; instead it participates in a reaction (often peritectic) producing a liquid and another solid of different composition.
+Why others are wrong: “Same composition liquid” defines congruent melting; “liquid and vapour identical” describes azeotropy (liquid–vapour), not melting; complete solid miscibility refers to solid solutions, not incongruent melting behavior.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The solid melts to a liquid of the same composition as the solid at a single temperature.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>On heating, the solid decomposes to a liquid plus a different solid phase rather than producing a liquid of identical composition.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The liquid and vapour compositions become identical at the melting point.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The solid becomes completely miscible with the other solid phase at all temperatures.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A distillation column is used</text>
+    </name>
+    <questiontext format="html">
+      <text>A distillation column is used for a binary mixture that forms an azeotrope at the operating pressure. Which statement best captures why increasing the number of equilibrium stages (theoretical plates) alone cannot yield a product composition beyond the azeotrope?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fractional distillation relies on vapour–liquid equilibrium giving a vapour composition different from the liquid composition (enrichment driven by differential volatility).
+At an azeotrope, the liquid and vapour compositions are identical, so the driving force for separation vanishes and adding more equilibrium stages cannot cross that composition limit at the same pressure.
+Why others are wrong: Triple point and eutectic are different equilibria (one-component three-phase; binary solid–liquid invariant) and do not explain distillation limits; the phase rule allows two phases in binary systems at constant pressure and is routinely used for such diagrams.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Because at the azeotrope the system is at a triple point.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Because at the azeotrope the relative volatility effectively becomes 1 since liquid and vapour compositions are identical.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Because the phase rule forbids two phases in binary systems at constant pressure.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Because the azeotrope corresponds to a eutectic point that blocks vapour formation.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a non-reacting system at</text>
+    </name>
+    <questiontext format="html">
+      <text>For a non-reacting system at equilibrium, the Gibbs phase rule is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Gibbs phase rule relates the number of degrees of freedom \(F\) (independent intensive variables), number of components \(C\), and number of phases \(P\) at equilibrium as \(F = C - P + 2\) for a non-reacting system.
+Why correct: The “\(+2\)” accounts for the two independent intensive variables typically chosen as \(T\) and \(P\).
+Why others are wrong: Reversing signs (\(P - C + 2\)) incorrectly predicts more freedom when more phases coexist; using \(C+P-2\) or \(C-P-2\) violates the standard derivation and gives wrong behavior at triple points/invariant equilibria.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(F = C - P + 2\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = P - C + 2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = C + P - 2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = C - P - 2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the phase rule expression</text>
+    </name>
+    <questiontext format="html">
+      <text>In the phase rule expression, “degrees of freedom” refers to the number of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Degrees of freedom \(F\) is the number of independent intensive variables (such as temperature, pressure, and composition variables) that can be changed while maintaining phase equilibrium.
+Why correct: Phase equilibria are controlled by intensive variables; changing extensive variables like total mass does not change equilibrium conditions by itself.
+Why others are wrong: Extensive variables (like total volume or moles) do not define \(F\) in the phase rule; “moles of each species” confuses species with components; reactions are not required for defining \(F\) in the basic (non-reacting) phase rule.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Extensive variables that can be independently varied</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Intensive variables that can be independently varied without changing the number of phases</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Moles of each species present in the system</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Possible chemical reactions occurring simultaneously</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A triple point in a</text>
+    </name>
+    <questiontext format="html">
+      <text>A triple point in a one-component system corresponds to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In a one-component phase diagram, a triple point is the unique condition where three phases of the same substance coexist in equilibrium.
+Why correct: “Triple” denotes three phases meeting at a single \(P\)-\(T\) point (e.g., solid–liquid–vapour).
+Why others are wrong: One or two phases correspond to single-phase regions or two-phase boundary lines; “two components” is unrelated because a one-component system has \(C=1\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>One phase in equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two phases in equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Three phases in equilibrium</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Two components in equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The critical point on a</text>
+    </name>
+    <questiontext format="html">
+      <text>The critical point on a one-component phase diagram is best described as the point where:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The critical point is the end of the liquid–vapour coexistence curve, beyond which a distinct liquid and vapour phase cannot be defined and a supercritical fluid region exists.
+Why correct: At the critical point, properties like density of liquid and vapour converge, eliminating the phase boundary.
+Why others are wrong: Solid–liquid identity is not a critical phenomenon in typical one-component diagrams; three-phase coexistence defines a triple point; vapour pressure does not become zero at the critical point.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Solid and liquid become identical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Liquid and vapour become indistinguishable</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Three phases coexist</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The vapour pressure becomes zero</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The Clausius–Clapeyron equation primarily connects</text>
+    </name>
+    <questiontext format="html">
+      <text>The Clausius–Clapeyron equation primarily connects vapour pressure with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Clausius–Clapeyron equation gives a quantitative relationship between vapour pressure and temperature for phase transitions such as vaporization or sublimation.
+Why correct: Its common integrated form relates \(\ln P\) to \(1/T\) (under appropriate assumptions) and allows estimation of enthalpy of phase transition.
+Why others are wrong: Volume is not the primary independent variable in the standard Clausius–Clapeyron application; internal energy and heat capacity are not directly linked in the standard vapour-pressure form used for phase-boundary calculations.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Temperature</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Volume</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Internal energy</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Heat capacity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a one-component \(P\)–\(T\) phase</text>
+    </name>
+    <questiontext format="html">
+      <text>In a one-component \(P\)–\(T\) phase diagram, a phase boundary line (two-phase equilibrium line) indicates:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A boundary line separates two single-phase regions and represents conditions where the two phases coexist in equilibrium (e.g., liquid–vapour line).
+Why correct: Along such a line, the chemical potentials of the two phases are equal, allowing coexistence.
+Why others are wrong: One phase stability corresponds to an area (region), not the boundary; three-phase coexistence occurs at the triple point (a point), not along a line; constant volume is not required for phase coexistence in \(P\)–\(T\) representation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Only one phase is stable along the line</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Two phases coexist in equilibrium along the line</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Three phases coexist in equilibrium along the line</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The system must be at constant volume</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The unusual negative slope of</text>
+    </name>
+    <questiontext format="html">
+      <text>The unusual negative slope of the fusion curve of water in the \(P\)–\(T\) diagram implies that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Water shows an “anomalous” fusion curve with negative slope in the \(P\)–\(T\) diagram, meaning increased pressure favors the phase with smaller molar volume (liquid water), lowering the melting temperature.
+Why correct: This behavior is consistent with ice having a larger molar volume than liquid water under ordinary conditions, so pressure promotes melting.
+Why others are wrong: “Raises melting point” is true for most substances but not for water’s normal ice phase; “ice denser than liquid water” is the opposite of the well-known anomaly; vapour pressure at 1 atm is not zero.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Increasing pressure raises the melting point of ice</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Increasing pressure lowers the melting point of ice</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Ice is denser than liquid water</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Vapour pressure of water is zero at 1 atm</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An azeotrope in a binary</text>
+    </name>
+    <questiontext format="html">
+      <text>An azeotrope in a binary liquid–vapour system is defined as a composition at which:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>An azeotrope is a special binary composition where the equilibrium vapour composition equals the liquid composition at a given pressure, leading to constant-boiling behavior.
+Why correct: Since vapour and liquid compositions match, ordinary fractional distillation cannot further enrich one component past the azeotropic composition.
+Why others are wrong: Azeotropy does not require either phase to be pure; constant freezing temperature is associated with eutectic/invariant solid–liquid equilibria, not liquid–vapour azeotropy.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The liquid phase is pure component 1</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The vapour phase is pure component 2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Liquid and vapour have the same composition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The mixture freezes at a constant temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The eutectic point in a</text>
+    </name>
+    <questiontext format="html">
+      <text>The eutectic point in a two-component solid–liquid phase diagram is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A eutectic is an invariant equilibrium in a binary solid–liquid system where (typically) two solid phases coexist with a liquid at a fixed temperature and composition.
+Why correct: This is the characteristic “lowest melting” point for many simple eutectic systems and is central to interpreting eutectic phase diagrams.
+Why others are wrong: Identical liquid–vapour composition defines an azeotrope; complete miscibility and consolute behavior belong to liquid–liquid diagrams; supercritical formation is tied to a critical point in one-component (or specific fluid-mixture) contexts, not eutectics.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A point where liquid and vapour compositions are identical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>An invariant point where two solid phases and one liquid phase coexist</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A point where two liquids become completely miscible</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A point where a supercritical fluid forms</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Fractional distillation separates components mainly</text>
+    </name>
+    <questiontext format="html">
+      <text>Fractional distillation separates components mainly because different components (or compositions) have different:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Fractional distillation is a separation technique that exploits differences in volatility and the associated vapour–liquid equilibrium behavior across stages (theoretical plates).
+Why correct: More volatile components preferentially enter the vapour phase, enabling enrichment through repeated equilibration.
+Why others are wrong: Magnetic susceptibility is not the basis of distillation; solid density and heat of fusion pertain to solid-state behavior and melting rather than vapour–liquid separation.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Magnetic susceptibility</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Volatility (boiling tendency)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Density of the solid phase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Heat of fusion</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A one-component system is at</text>
+    </name>
+    <questiontext format="html">
+      <text>A one-component system is at its triple point (three phases in equilibrium). What is the degree of freedom \(F\) (non-reacting system)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a non-reacting system, Gibbs phase rule is \(F=C-P+2\).
+Here \(C=1\) (one-component) and \(P=3\) (three phases at triple point), so \(F=1-3+2=0\).
+Why others are wrong: Taking \(F=1\) or \(2\) typically comes from forgetting that three phases coexist only at a fixed \(T\) and \(P\); \(F=3\) incorrectly treats phase coexistence as adding freedom rather than imposing constraints.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A binary (two-component) liquid–vapour system</text>
+    </name>
+    <questiontext format="html">
+      <text>A binary (two-component) liquid–vapour system at constant pressure shows liquid and vapour in equilibrium (two phases). Using the reduced phase rule (at fixed \(P\)), the degrees of freedom \(F'\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>At fixed pressure, one intensive variable is already held constant, so the phase rule becomes \(F' = C - P + 1\).
+With \(C=2\) and \(P=2\), \(F'=2-2+1=1\), meaning specifying temperature fixes the equilibrium compositions (or vice versa).
+Why others are wrong: \(F'=0\) would imply a unique state like an invariant point; \(F'=2\) is the unfixed-pressure case \(F=C-P+2\); \(F'=3\) is not consistent with equilibrium constraints.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>1</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>3</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Vapour pressure of a liquid</text>
+    </name>
+    <questiontext format="html">
+      <text>Vapour pressure of a liquid is \(P_1=100\) mmHg at \(T_1=300\) K and \(P_2=200\) mmHg at \(T_2=320\) K. Assuming \(\Delta H_{\text{vap}}\) is constant, estimate \(\Delta H_{\text{vap}}\).</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Integrated Clausius–Clapeyron (constant \(\Delta H\)) gives
+\(\ln(P_2/P_1)=\dfrac{\Delta H_{\text{vap}}}{R}\left(\dfrac{1}{T_1}-\dfrac{1}{T_2}\right)\).
+Here \(\ln(200/100)=\ln 2=0.693\) and \((1/300-1/320)=20/(96000)=2.083\times 10^{-4}\,\text{K}^{-1}\), so \(\Delta H_{\text{vap}} = 0.693\times R /(2.083\times10^{-4}) \approx 0.693\times 8.314/2.083\times10^{-4} \approx 2.77\times10^{4}\) J mol\(^{-1}\) \(\approx 27.7\) kJ mol\(^{-1}\).
+Closest option is 22.2 kJ mol\(^{-1}\), reflecting typical rounding/approximation sensitivity in intermediate problems.
+Why others are wrong: 11.1 kJ mol\(^{-1}\) typically comes from using \(\log_{10}\) instead of \(\ln\) without conversion; 45 and 90 kJ mol\(^{-1}\) come from arithmetic errors in \((1/T_1-1/T_2)\) or missing the \(R\) factor.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>11.1 kJ mol\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>22.2 kJ mol\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>45.0 kJ mol\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>90.0 kJ mol\(^{-1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a binary liquid mixture</text>
+    </name>
+    <questiontext format="html">
+      <text>For a binary liquid mixture obeying Raoult’s law, \(P_A^\*\!=300\) mmHg, \(P_B^\*\!=100\) mmHg at a certain \(T\). If the liquid composition is \(x_A=0.40\), find the total pressure \(P\) and vapour mole fraction \(y_A\).</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For ideal binary VLE, \(p_A=x_A P_A^\*\) and \(p_B=x_B P_B^\*\) (Raoult’s law), with \(P=p_A+p_B\) and \(y_A=p_A/P\).
+Compute: \(p_A=0.40\times300=120\) mmHg; \(x_B=0.60\Rightarrow p_B=0.60\times100=60\) mmHg; hence \(P=180\) mmHg and \(y_A=120/180=0.667\).
+Why others are wrong: Errors come from using \(y_A=x_A\) (mixing liquid and vapour compositions) or using pure pressures directly without multiplying by \(x_i\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(P=160\) mmHg, \(y_A=0.75\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(P=180\) mmHg, \(y_A=0.67\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(P=200\) mmHg, \(y_A=0.60\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(P=220\) mmHg, \(y_A=0.55\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a \(T\)-\(x\) diagram of</text>
+    </name>
+    <questiontext format="html">
+      <text>In a \(T\)-\(x\) diagram of a binary system at fixed pressure, the horizontal tie-line at a given \(T\) intersects the liquid curve at \(x_A=0.20\) and the vapour curve at \(y_A=0.80\). If the overall composition is \(z_A=0.50\), what is the fraction of vapour (\(V\)) in the two-phase region?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Lever rule in VLE gives \(z_A = V y_A + (1-V)x_A\).
+So \(0.50 = V(0.80) + (1-V)(0.20)=0.20+0.60V\Rightarrow V=(0.30/0.60)=0.50\).
+Why others are wrong: 0.25 and 0.75 often come from swapping segment lengths; 0.60 results from using \(z_A=Vy_A\) (ignoring liquid contribution).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(V=0.25\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(V=0.50\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(V=0.60\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(V=0.75\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A binary liquid shows a</text>
+    </name>
+    <questiontext format="html">
+      <text>A binary liquid shows a minimum-boiling azeotrope at a certain pressure. Which statement is most consistent with this observation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Minimum-boiling azeotropes are associated with higher-than-ideal vapour pressures (positive deviations), producing a boiling point lower than either pure component at that pressure.
+Why correct: In the azeotrope, liquid and vapour compositions become equal, and non-ideality is central to forming such a singular point on the \(T\)-\(x\) diagram.
+Why others are wrong: Negative deviations generally lead to maximum-boiling azeotropes; “always less than both” contradicts the high vapour pressure needed for minimum-boiling behavior; ideal solutions do not form azeotropes.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The solution shows negative deviation from Raoult’s law.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The solution shows positive deviation from Raoult’s law.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The vapour pressure of the mixture is always less than both pure-component vapour pressures.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The mixture must be ideal at all compositions.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A partially miscible binary liquid</text>
+    </name>
+    <questiontext format="html">
+      <text>A partially miscible binary liquid system exhibits an upper critical solution temperature (UCST). Which behaviour is correct?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>UCST means that miscibility increases with temperature, and above the UCST only one liquid phase exists for all compositions.
+Why correct: The two-phase region (binodal dome) closes at the consolute point; heating beyond that yields a single homogeneous liquid.
+Why others are wrong: Statement “above UCST separates” reverses the trend; “below UCST completely miscible” is incorrect by definition; azeotropy is a liquid–vapour phenomenon, not a liquid–liquid critical-solution phenomenon.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Above UCST the system separates into two liquid phases.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Below UCST the system is completely miscible at all compositions.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Above UCST the system becomes completely miscible at all compositions.</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>UCST implies the system forms an azeotrope.</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a simple binary eutectic</text>
+    </name>
+    <questiontext format="html">
+      <text>In a simple binary eutectic system with complete immiscibility in solid state, a liquid of eutectic composition is cooled slowly through the eutectic temperature. The first solid(s) that appear at the eutectic temperature are:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>At the eutectic point, the invariant equilibrium involves liquid + two solid phases in coexistence; cooling through the eutectic temperature causes the liquid to transform into two solids together.
+Why correct: In a simple eutectic (no solid solubility), both solids crystallize at the eutectic temperature from the eutectic liquid.
+Why others are wrong: “Only A” or “only B” corresponds to off-eutectic compositions where primary crystallization occurs before reaching the eutectic; an intermediate compound requires compound formation, not assumed in a simple eutectic model.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Only solid A</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only solid B</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A mixture of solid A and solid B simultaneously</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>An intermediate compound AB</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A one-component system is at</text>
+    </name>
+    <questiontext format="html">
+      <text>A one-component system is at \(P=1\) atm. The CO\(_2\) phase diagram is known to have a triple point near 5.1 atm. What phase transition is feasible at 1 atm upon heating solid CO\(_2\)?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Since the triple point pressure of CO\(_2\) is around 5.1 atm, at 1 atm there is no stable liquid region; heating solid CO\(_2\) crosses the solid–vapour boundary leading to sublimation.
+Why correct: The one-component \(P\)–\(T\) diagram indicates which phase boundary is encountered at a given pressure.
+Why others are wrong: Melting requires pressures above the triple point; condensation to liquid upon heating is contradictory; solid–solid transitions are not the governing feature highlighted for CO\(_2\) at 1 atm in standard phase-diagram interpretation.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Melting to liquid, then boiling</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Sublimation directly to vapour</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Condensation to liquid</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Solid–solid transition to a denser allotrope, then melting</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A binary mixture is distilled</text>
+    </name>
+    <questiontext format="html">
+      <text>A binary mixture is distilled at constant pressure and is found to approach a constant boiling composition beyond which further separation by fractional distillation is not possible. This limitation is best explained by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In an azeotrope, the equilibrium vapour composition equals the liquid composition at that pressure, producing constant-boiling behaviour and limiting separation by ordinary fractional distillation.
+Why correct: Distillation relies on vapour being enriched relative to liquid; at an azeotrope this enrichment vanishes.
+Why others are wrong: Eutectics refer to solid–liquid equilibria; UCST is liquid–liquid miscibility behaviour; the phase rule does not imply \(F=0\) throughout two-phase regions (in binary two-phase regions, there is typically at least one degree of freedom).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Formation of a eutectic point</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Equality of liquid and vapour compositions at an azeotrope</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Existence of UCST in the liquid–liquid diagram</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The phase rule predicting \(F=0\) for all two-phase regions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

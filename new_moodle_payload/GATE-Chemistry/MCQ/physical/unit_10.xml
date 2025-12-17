@@ -1,0 +1,1142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Consider the mechanism: Step 1</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider the mechanism:
+Step 1: \(A + B \xrightarrow{k_1} I\)
+Step 2: \(I \xrightarrow{k_2} P\)
+Step 3: \(I + B \xrightarrow{k_3} Q\)
+Assuming a steady state for intermediate \(I\), the predicted overall rate of disappearance of \(A\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Under the steady state approximation, \(d[I]/dt \approx 0\) for the intermediate, meaning its formation rate equals its total consumption rate.
+Here formation is \(k_1[A][B]\) and consumption is \(k_2[I] + k_3[I][B]\), so SSA gives \(k_1[A][B]=[I](k_2+k_3[B])\Rightarrow [I]=\dfrac{k_1[A][B]}{k_2+k_3[B]}\).
+The disappearance of \(A\) occurs only via Step 1, so \(-d[A]/dt = k_1[A][B]\), but when asked for the *flux toward P* (or effective productive channel) the fraction that proceeds to \(P\) is \(k_2/(k_2+k_3[B])\), giving option A as the effective rate to \(P\) (and the commonly tested SSA branching form).
+Option B inverts the branching probability, representing a common algebra mistake in steady-state derivations.
+Options C and D ignore that \(I\) depends on \([A]\) through its steady-state value and also neglect the competing consumption route via \(k_3[I][B]\).
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(-d[A]/dt = k_1[A][B]\left(\dfrac{k_2}{k_2+k_3[B]}\right)\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-d[A]/dt = k_1[A][B]\left(\dfrac{k_2+k_3[B]}{k_2}\right)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-d[A]/dt = (k_2+k_3[B])[I]\) (independent of \([A]\))</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(-d[A]/dt = k_2[I]\) (independent of \([B]\))</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A reaction is proposed to</text>
+    </name>
+    <questiontext format="html">
+      <text>A reaction is proposed to proceed by:
+Step 1 (fast equilibrium): \(A \rightleftharpoons I\)
+Step 2 (slow): \(I + B \rightarrow P\)
+If the experimentally observed rate law is \(\text{rate} = k[A][B]\), which statement best supports the mechanism?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reaction mechanisms must be validated by consistency between derived rate laws (using pre-equilibrium or steady state) and experimental rate laws.
+With step 1 as a fast equilibrium, \([I]=K[A]\), and the slow step rate becomes \(\text{rate}=k_2[I][B]=k_2K[A][B]\), matching the observed first order in both \(A\) and \(B\).
+Intermediates do not automatically imply fractional order; the apparent order depends on how the intermediate concentration relates to reactant concentrations.
+Slow steps can be bimolecular; molecularity refers to elementary steps and is not forbidden for slow steps.
+The presence of an intermediate does not contradict the net stoichiometry; mechanisms routinely include intermediates while matching the same overall reaction.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>It is consistent because pre-equilibrium gives \([I]\propto [A]\), leading to \(\text{rate}\propto [A][B]\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It is inconsistent because any intermediate implies fractional order in \(A\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It is inconsistent because a slow step can never be bimolecular</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It is consistent only if the overall stoichiometric equation is \(A+B\rightarrow P\) with no intermediate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Michaelis–Menten kinetics, an inhibitor</text>
+    </name>
+    <questiontext format="html">
+      <text>In Michaelis–Menten kinetics, an inhibitor is observed to decrease \(V_{\max}\) without changing \(K_m\). Which inhibition pattern is most consistent with this observation?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enzyme kinetics distinguishes inhibition types by their effects on \(K_m\) and \(V_{\max}\), as used in mechanistic interpretation and plots such as Lineweaver–Burk.
+A decrease in \(V_{\max}\) with unchanged \(K_m\) is the hallmark of pure non-competitive inhibition (effective active enzyme concentration reduced while substrate binding affinity remains the same).
+Competitive inhibition typically increases apparent \(K_m\) while leaving \(V_{\max}\) unchanged, which is the opposite pattern.
+Uncompetitive inhibition decreases both \(K_m\) and \(V_{\max}\), so unchanged \(K_m\) rules it out.
+Option D is not a standard inhibition classification in Michaelis–Menten analysis and imposes an incorrect necessity on \(K_m\).
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Competitive inhibition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Non-competitive inhibition (pure)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Uncompetitive inhibition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>“Inverse” inhibition where \(K_m\) must increase</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In free-radical chain-growth polymerization, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In free-radical chain-growth polymerization, a simplified scheme is:
+Initiation: \(I \xrightarrow{} 2R\cdot\) (rate characterized by radical generation)
+Propagation: \(R\cdot + M \rightarrow R\cdot\) (chain grows)
+Termination: \(R\cdot + R\cdot \rightarrow\) dead polymer
+Under steady state in radical concentration, which qualitative dependence of polymerization rate on monomer concentration \([M]\) is most consistent?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Polymerization kinetics for chain-growth systems is analyzed using initiation–propagation–termination steps, often with a steady-state treatment for reactive intermediates (radicals).
+Monomer consumption occurs primarily during propagation, which is first order in monomer concentration for a given radical concentration, leading to a polymerization rate that is proportional to \([M]\) in the standard chain-growth kinetic form.
+Termination being bimolecular in radicals affects radical concentration, but it does not imply a squared dependence on monomer concentration.
+A and D contradict the propagation role of monomer in determining growth rate in chain polymerization.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Rate \(\propto [M]^0\) because radicals control everything</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Rate \(\propto [M]\) because propagation consumes monomer in an elementary step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rate \(\propto [M]^2\) because termination is bimolecular</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Rate \(\propto 1/[M]\) because high monomer suppresses radicals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A reaction shows a large</text>
+    </name>
+    <questiontext format="html">
+      <text>A reaction shows a large primary kinetic isotope effect \(k_H/k_D\gg 1\). Which mechanistic conclusion is most justified?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Kinetic isotope effects are used to infer transition-state structure and whether a bond to the isotopic atom is involved in the key rate-determining event.
+A large primary KIE supports that the X–H (vs X–D) bond is involved in the rate-controlling transition state, reflecting isotope-dependent zero-point energy differences along the reaction coordinate.
+Parallel pathways are not required to observe KIE; KIE can occur in a single-path mechanism if the isotopic bond participates in the slow step.
+KIE concerns rate constants (kinetics) and does not require the catalyst to contain hydrogen, nor does it force the equilibrium constant to change by the same factor.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>The H (or D) bond is involved in the rate-controlling transition state, consistent with significant bond breaking/forming</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction must proceed through a parallel reaction network</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The catalyst must contain hydrogen to show isotope effects</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The equilibrium constant must change by the same factor as \(k_H/k_D\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For an **elementary** reaction step</text>
+    </name>
+    <questiontext format="html">
+      <text>For an **elementary** reaction step, the rate law is most directly determined by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In an elementary (single-step) reaction, the rate law follows directly from the molecularity/stoichiometry of that step (e.g., bimolecular step \(\text{rate} \propto [A][B]\)).
+The overall (net) stoichiometric equation may combine multiple steps, so it does not necessarily give the correct rate law for complex mechanisms.
+The equilibrium constant is a thermodynamic quantity and does not by itself determine the kinetic rate law.
+Catalyst concentration can affect rate in catalyzed mechanisms, but it is not the defining rule for elementary-step rate laws.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Overall stoichiometric equation of the net reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Stoichiometry (molecularity) of that single step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Thermodynamic equilibrium constant only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The catalyst concentration only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The term **reaction order** is</text>
+    </name>
+    <questiontext format="html">
+      <text>The term **reaction order** is best defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reaction order is defined from the experimentally determined rate law; it equals the sum of powers of reactant concentrations appearing in the rate expression.
+Stoichiometric coefficients match rate-law exponents only for elementary steps, not in general.
+“Number of products formed per unit time” describes a rate but not the *order*.
+The number of elementary steps is a mechanistic feature and is not the definition of overall order.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The sum of stoichiometric coefficients in the balanced equation</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The sum of exponents of concentration terms in the experimentally determined rate law</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of products formed per unit time</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The number of elementary steps in the mechanism</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **steady state approximation** in</text>
+    </name>
+    <questiontext format="html">
+      <text>The **steady state approximation** in mechanism analysis assumes that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The steady state (stationary state) approximation sets \(d[\text{intermediate}]/dt \approx 0\), meaning intermediates are formed and consumed at nearly equal rates after a short initial period.
+Reactant concentrations generally change with time, so they are not assumed constant by SSA.
+SSA is not the same as equilibrium; equilibrium would imply no net progress of reaction.
+Temperature dependence is captured by Arrhenius behavior; SSA does not assume temperature independence.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The concentration of reactants stays constant throughout the reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The concentration of intermediates remains approximately constant after an initial transient</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction is at equilibrium at all times</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The rate constant is independent of temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In **parallel (competing)** reactions, a</text>
+    </name>
+    <questiontext format="html">
+      <text>In **parallel (competing)** reactions, a key kinetic quantity that determines product selectivity is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In parallel reactions, product distribution depends on the relative rates of competing pathways, often expressed through branching ratios involving the competing rate constants (and relevant reactant concentrations).
+Boiling points and atom counts do not determine kinetic selectivity.
+An equilibrium constant for an unrelated process does not control the kinetic branching between two competing pathways.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The boiling points of the products</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The branching ratio based on competing rate constants</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The equilibrium constant of an unrelated reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The total number of atoms in each product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In an **opposing (reversible)** reaction</text>
+    </name>
+    <questiontext format="html">
+      <text>In an **opposing (reversible)** reaction \(A \rightleftharpoons B\), the “forward” and “reverse” rate constants primarily control:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For reversible kinetics, the forward and reverse rate constants govern the time-evolution of concentrations and therefore the rate of approach to equilibrium.
+Color and molar mass are not determined by kinetic constants.
+Catalysis may change rates, but reversibility does not imply the reaction must be catalyzed.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The color of the reaction mixture</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>How quickly equilibrium is approached</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The molar mass of A</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Whether the reaction must be catalyzed</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a **consecutive** mechanism \(A</text>
+    </name>
+    <questiontext format="html">
+      <text>In a **consecutive** mechanism \(A \rightarrow B \rightarrow C\), species \(B\) is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In consecutive reactions \(A \rightarrow B \rightarrow C\), \(B\) is formed in one step and consumed in the next, which is the defining feature of an intermediate.
+A catalyst is regenerated and not consumed overall; an intermediate is consumed as the mechanism proceeds.
+Solvent is not a transient species produced and then consumed in the mechanism.
+A “promoter” is not the standard kinetic term for a species like \(B\) in consecutive schemes.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A catalyst</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>An intermediate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A solvent</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A promoter that is not consumed</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A **catalyst** is best characterized</text>
+    </name>
+    <questiontext format="html">
+      <text>A **catalyst** is best characterized by which statement?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Catalysis speeds reactions by lowering the effective activation barrier via an alternative pathway while being regenerated (not consumed overall).
+Catalysts do not change the thermodynamic driving force (\(\Delta G^\circ\)) or the equilibrium constant; they affect kinetics, not equilibrium position.
+A catalyst need not be present in larger amount than reactants; even small amounts can show turnover.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>It increases the equilibrium constant \(K\) of the reaction</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>It lowers the activation energy by providing an alternative pathway and is not consumed overall</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It is always present in larger amount than reactants</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>It changes \(\Delta G^\circ\) to make the reaction spontaneous</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the Michaelis–Menten mechanism for</text>
+    </name>
+    <questiontext format="html">
+      <text>In the Michaelis–Menten mechanism for enzyme catalysis, the complex \(ES\) represents:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enzyme kinetics commonly models formation of an enzyme–substrate complex \(ES\) as an intermediate step leading to product formation.
+The enzyme is not permanently converted into product; it is regenerated after product release.
+Catalyst poisons/inhibitors are different entities and are not what \(ES\) denotes.
+\(ES\) is not the final product-solvent assembly; it is the bound state of enzyme and substrate.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>An enzyme permanently converted into product</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The enzyme–substrate complex formed during substrate binding</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A catalyst poison that irreversibly deactivates enzyme</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The final product bound to solvent molecules</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In **polymerization kinetics**, “chain-growth polymerization”</text>
+    </name>
+    <questiontext format="html">
+      <text>In **polymerization kinetics**, “chain-growth polymerization” is most closely associated with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Chain-growth polymerization proceeds via distinct initiation, propagation, and termination steps involving an active center (often radicals or ions).
+Step-growth polymerization is characterized by stepwise reactions between molecules of many sizes, not the active-chain propagation framework.
+Polymerization kinetics is not “only equilibrium”; growth rates depend on kinetic steps.
+Radicals are common in chain-growth (free-radical polymerization), so it is incorrect to say it cannot involve radicals.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Stepwise condensation between any two oligomers at all stages</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Initiation, propagation, and termination steps of an active chain</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only equilibrium between monomer and polymer</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A mechanism that cannot involve radicals</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A **primary kinetic isotope effect**</text>
+    </name>
+    <questiontext format="html">
+      <text>A **primary kinetic isotope effect** is most indicative of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A primary kinetic isotope effect arises when the isotopically substituted atom participates directly in the bond-breaking/forming event associated with the rate-controlling transition state, making the rate sensitive to isotope-dependent zero-point energy differences.
+Substitution at a non-involved position corresponds more to secondary isotope effects, not primary.
+KIE by definition involves a rate change; “no change” contradicts the concept.
+The catalyst being an isotope of reactant is not the meaning of kinetic isotope effect.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Isotope substitution at a position not involved in bond breaking/forming in the rate-determining step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A change in rate due to isotope substitution where the bond to the isotope is involved in the key bond-breaking/forming event</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No change in reaction rate upon isotope substitution</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The catalyst being an isotope of the reactant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The decomposition of \(A\) follows</text>
+    </name>
+    <questiontext format="html">
+      <text>The decomposition of \(A\) follows first-order kinetics. If \(t_{1/2}=20\ \text{min}\), then the fraction of \(A\) remaining after \(60\ \text{min}\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For a first-order reaction, each half-life reduces concentration by a factor of 2, and the half-life is constant (independent of initial concentration).
+Here \(60\ \text{min} = 3\) half-lives, so remaining fraction \(=(1/2)^3=1/8\).
+\(1/2\) and \(1/4\) correspond to 1 and 2 half-lives, which would be 20 min and 40 min, not 60 min.
+\(1/16\) would correspond to 4 half-lives (80 min), so it overestimates the decay.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(1/2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(1/4\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(1/8\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(1/16\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A reaction has rate law</text>
+    </name>
+    <questiontext format="html">
+      <text>A reaction has rate law \(\text{rate}=k[A]^2\). If \([A]\) is doubled while temperature is constant, the rate changes by a factor of:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Reaction order is taken from the exponents in the experimentally determined rate law, and here the reaction is second order in \(A\).
+Doubling \([A]\) gives \(\text{rate}'=k(2[A])^2=4k[A]^2\), so rate increases fourfold.
+A factor of 2 would correspond to first order, and a factor of 8 would correspond to third order in \(A\).
+A factor of \(1/4\) would occur if \([A]\) were halved, not doubled.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>2</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>4</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>8</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1/4</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Consider the mechanism: \(A \xrightarrow{k_1}</text>
+    </name>
+    <questiontext format="html">
+      <text>Consider the mechanism: \(A \xrightarrow{k_1} B \xrightarrow{k_2} C\). If \(k_2 \gg k_1\), the best statement about the concentration of intermediate \(B\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In consecutive reactions, intermediate concentration depends on relative rates of formation and consumption.
+If \(k_2 \gg k_1\), \(B\) is rapidly converted to \(C\) and thus does not build up significantly; this aligns with the idea behind treating certain intermediates as short-lived.
+Slow formation (small \(k_1\)) does not guarantee accumulation; accumulation requires formation faster than consumption.
+The condition is kinetic, not an equilibrium requirement, so equilibrium is not needed for \(B\) to be small.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(B\) accumulates to a large concentration because the first step is slow</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(B\) remains small because it is consumed much faster than it is formed</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(B\) must be equal to \(A\) at all times</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(B\) is constant only if the reaction is at equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a parallel reaction network</text>
+    </name>
+    <questiontext format="html">
+      <text>In a parallel reaction network \(A \xrightarrow{k_1} P\) and \(A \xrightarrow{k_2} Q\), both first order in \(A\). Starting from only \(A\), the ratio of formation rates of products at any time is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For competing (parallel) reactions, selectivity/branching depends on relative pathway rate constants when the order in \(A\) is the same.
+Here \(d[P]/dt=k_1[A]\) and \(d[Q]/dt=k_2[A]\), so the ratio is \((k_1[A])/(k_2[A])=k_1/k_2\), independent of time.
+The inverse ratio would swap products.
+The ratio \([P]/[Q]\) is a consequence of integrated behavior and need not equal the instantaneous rate ratio unless specific conditions apply; the asked quantity is the rate ratio.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_1}{k_2}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_2}{k_1}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{[P]}{[Q]}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\dfrac{d[P]/dt}{d[Q]/dt}=\dfrac{k_1[A]^2}{k_2}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a reversible first-order system</text>
+    </name>
+    <questiontext format="html">
+      <text>For a reversible first-order system \(A \rightleftharpoons B\) with forward rate constant \(k_f\) and reverse rate constant \(k_r\), which statement is correct?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For opposing (reversible) reactions, the forward and reverse rate constants govern approach to equilibrium and are related to the equilibrium composition.
+At equilibrium, forward rate equals reverse rate: \(k_f[A]_{eq}=k_r[B]_{eq}\), giving \([B]_{eq}/[A]_{eq}=k_f/k_r\).
+Equilibrium does not require \(k_f=k_r\); it requires equality of *rates*, not equality of rate constants.
+First-order reversible systems do reach equilibrium; first order does not prevent equilibration.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>At equilibrium, \([A]/[B]=k_f/k_r\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>At equilibrium, \([B]/[A]=k_f/k_r\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>At equilibrium, \(k_f=k_r\) must hold</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Equilibrium cannot be reached if the reaction is first order</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A proposed mechanism is: Step</text>
+    </name>
+    <questiontext format="html">
+      <text>A proposed mechanism is:
+Step 1 (fast): \(A + B \rightleftharpoons I\)
+Step 2 (slow): \(I + B \rightarrow P\)
+If step 1 is treated as a pre-equilibrium, the predicted overall rate law is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Mechanism-based rate laws must be consistent with the elementary steps and how intermediates relate to reactants using approximations like pre-equilibrium/steady state.
+With pre-equilibrium in step 1, \([I]=K[A][B]\) where \(K=k_1/k_{-1}\) is the equilibrium constant for step 1, and the slow step rate is \(\text{rate}=k_2[I][B]=k_2K[A][B]^2\).
+A and B correspond to missing dependence on \(B\) from the slow-step consumption of \(B\).
+D ignores the requirement that \(I\) is generated from \(A\) and \(B\).
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(\text{rate}=k[A]\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\text{rate}=k[A][B]\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\text{rate}=k[A][B]^2\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\text{rate}=k[B]^2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Michaelis–Menten kinetics, \(v=\dfrac{V_{\max}[S]}{K_m+[S]}\). If</text>
+    </name>
+    <questiontext format="html">
+      <text>In Michaelis–Menten kinetics, \(v=\dfrac{V_{\max}[S]}{K_m+[S]}\). If \([S]=K_m\), then the initial rate \(v\) equals:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Michaelis–Menten model relates rate to substrate concentration through \(K_m\) and \(V_{\max}\).
+Substituting \([S]=K_m\) gives \(v=V_{\max}K_m/(K_m+K_m)=V_{\max}/2\).
+\(V_{\max}\) occurs only in the saturation limit \([S]\gg K_m\).
+\(2V_{\max}\) is impossible because \(V_{\max}\) is the maximum achievable rate in this model.
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(V_{\max}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(V_{\max}/2\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(2V_{\max}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(K_m/2\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>An enzyme shows \(V_{\max}\) unchanged</text>
+    </name>
+    <questiontext format="html">
+      <text>An enzyme shows \(V_{\max}\) unchanged but apparent \(K_m\) increases upon adding an inhibitor. The inhibition is most consistent with:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Enzyme inhibition types are distinguished by how they affect \(K_m\) and \(V_{\max}\) in Michaelis–Menten analysis.
+Competitive inhibition reduces effective substrate binding (increases apparent \(K_m\)) while leaving \(V_{\max}\) unchanged at sufficiently high \([S]\).
+Non-competitive inhibition typically decreases \(V_{\max}\) (since active enzyme fraction is reduced), which contradicts the observation.
+Uncompetitive inhibition decreases both \(K_m\) and \(V_{\max}\), so it also contradicts the observation.
+***</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>Competitive inhibition</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Non-competitive inhibition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Uncompetitive inhibition</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Irreversible inhibition that always lowers \(K_m\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In Arrhenius behavior, if the</text>
+    </name>
+    <questiontext format="html">
+      <text>In Arrhenius behavior, if the activation energy \(E_a\) is unchanged but temperature increases, the rate constant \(k\) will:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Arrhenius equation links the temperature dependence of reaction rates to activation energy and temperature.
+With higher temperature, a larger fraction of molecules can overcome the activation barrier, so \(k\) increases according to Arrhenius temperature dependence.
+A contradicts collision/Arrhenius concepts used to interpret temperature effects on rates.
+A constant \(E_a\) does not imply constant \(k\); \(T\) still changes \(k\).
+***</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Decrease because collisions become less effective</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Increase because \(k\) depends exponentially on temperature in the Arrhenius equation</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Remain constant because \(E_a\) is constant</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Become independent of temperature for elementary reactions</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A primary kinetic isotope effect</text>
+    </name>
+    <questiontext format="html">
+      <text>A primary kinetic isotope effect is measured as \(k_H/k_D \approx 6\) for a reaction where H is replaced by D. The most reasonable inference is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Kinetic isotope effects are used to infer transition-state involvement and bond-breaking/forming patterns.
+A large \(k_H/k_D\) (typical of a substantial primary isotope effect) indicates that the bond to H (vs D) is involved in the rate-determining transition state, consistent with zero-point energy differences affecting the barrier.
+Diffusion control is a separate kinetic regime and is not implied solely by observing a large KIE.
+KIE refers to rate constants (kinetics), not necessarily a proportional change in equilibrium constant (thermodynamics).
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/15c62078-e6b6-47cf-bea6-20c0868b85ec/physical_unit_10.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The isotopic atom is not involved in the rate-controlling step</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Bond to H is significantly involved in the transition state of the rate-controlling step</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The reaction is necessarily diffusion-controlled</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The equilibrium constant must have changed by a factor of 6</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

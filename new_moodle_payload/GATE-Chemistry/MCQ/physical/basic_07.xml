@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[For a non-reacting system at]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[For a non-reacting system at equilibrium, the Gibbs phase rule is:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Gibbs phase rule relates the number of degrees of freedom \(F\) (independent intensive variables), number of components \(C\), and number of phases \(P\) at equilibrium as \(F = C - P + 2\) for a non-reacting system.
+Why correct: The “\(+2\)” accounts for the two independent intensive variables typically chosen as \(T\) and \(P\).
+Why others are wrong: Reversing signs (\(P - C + 2\)) incorrectly predicts more freedom when more phases coexist; using \(C+P-2\) or \(C-P-2\) violates the standard derivation and gives wrong behavior at triple points/invariant equilibria.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[\(F = C - P + 2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(F = P - C + 2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(F = C + P - 2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[\(F = C - P - 2\)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In the phase rule expression]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In the phase rule expression, “degrees of freedom” refers to the number of:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Degrees of freedom \(F\) is the number of independent intensive variables (such as temperature, pressure, and composition variables) that can be changed while maintaining phase equilibrium.
+Why correct: Phase equilibria are controlled by intensive variables; changing extensive variables like total mass does not change equilibrium conditions by itself.
+Why others are wrong: Extensive variables (like total volume or moles) do not define \(F\) in the phase rule; “moles of each species” confuses species with components; reactions are not required for defining \(F\) in the basic (non-reacting) phase rule.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Extensive variables that can be independently varied]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Intensive variables that can be independently varied without changing the number of phases]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Moles of each species present in the system]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Possible chemical reactions occurring simultaneously]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[A triple point in a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[A triple point in a one-component system corresponds to:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[In a one-component phase diagram, a triple point is the unique condition where three phases of the same substance coexist in equilibrium.
+Why correct: “Triple” denotes three phases meeting at a single \(P\)-\(T\) point (e.g., solid–liquid–vapour).
+Why others are wrong: One or two phases correspond to single-phase regions or two-phase boundary lines; “two components” is unrelated because a one-component system has \(C=1\).]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[One phase in equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Two phases in equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Three phases in equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Two components in equilibrium]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The critical point on a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The critical point on a one-component phase diagram is best described as the point where:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The critical point is the end of the liquid–vapour coexistence curve, beyond which a distinct liquid and vapour phase cannot be defined and a supercritical fluid region exists.
+Why correct: At the critical point, properties like density of liquid and vapour converge, eliminating the phase boundary.
+Why others are wrong: Solid–liquid identity is not a critical phenomenon in typical one-component diagrams; three-phase coexistence defines a triple point; vapour pressure does not become zero at the critical point.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Solid and liquid become identical]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Liquid and vapour become indistinguishable]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Three phases coexist]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The vapour pressure becomes zero]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The Clausius–Clapeyron equation primarily connects]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The Clausius–Clapeyron equation primarily connects vapour pressure with:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[The Clausius–Clapeyron equation gives a quantitative relationship between vapour pressure and temperature for phase transitions such as vaporization or sublimation.
+Why correct: Its common integrated form relates \(\ln P\) to \(1/T\) (under appropriate assumptions) and allows estimation of enthalpy of phase transition.
+Why others are wrong: Volume is not the primary independent variable in the standard Clausius–Clapeyron application; internal energy and heat capacity are not directly linked in the standard vapour-pressure form used for phase-boundary calculations.]]></text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Volume]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Internal energy]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heat capacity]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[In a one-component \(P\)–\(T\) phase]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In a one-component \(P\)–\(T\) phase diagram, a phase boundary line (two-phase equilibrium line) indicates:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A boundary line separates two single-phase regions and represents conditions where the two phases coexist in equilibrium (e.g., liquid–vapour line).
+Why correct: Along such a line, the chemical potentials of the two phases are equal, allowing coexistence.
+Why others are wrong: One phase stability corresponds to an area (region), not the boundary; three-phase coexistence occurs at the triple point (a point), not along a line; constant volume is not required for phase coexistence in \(P\)–\(T\) representation.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Only one phase is stable along the line]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Two phases coexist in equilibrium along the line]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Three phases coexist in equilibrium along the line]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The system must be at constant volume]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The unusual negative slope of]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The unusual negative slope of the fusion curve of water in the \(P\)–\(T\) diagram implies that:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Water shows an “anomalous” fusion curve with negative slope in the \(P\)–\(T\) diagram, meaning increased pressure favors the phase with smaller molar volume (liquid water), lowering the melting temperature.
+Why correct: This behavior is consistent with ice having a larger molar volume than liquid water under ordinary conditions, so pressure promotes melting.
+Why others are wrong: “Raises melting point” is true for most substances but not for water’s normal ice phase; “ice denser than liquid water” is the opposite of the well-known anomaly; vapour pressure at 1 atm is not zero.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Increasing pressure raises the melting point of ice]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Increasing pressure lowers the melting point of ice]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Ice is denser than liquid water]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Vapour pressure of water is zero at 1 atm]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[An azeotrope in a binary]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[An azeotrope in a binary liquid–vapour system is defined as a composition at which:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[An azeotrope is a special binary composition where the equilibrium vapour composition equals the liquid composition at a given pressure, leading to constant-boiling behavior.
+Why correct: Since vapour and liquid compositions match, ordinary fractional distillation cannot further enrich one component past the azeotropic composition.
+Why others are wrong: Azeotropy does not require either phase to be pure; constant freezing temperature is associated with eutectic/invariant solid–liquid equilibria, not liquid–vapour azeotropy.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The liquid phase is pure component 1]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The vapour phase is pure component 2]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Liquid and vapour have the same composition]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[The mixture freezes at a constant temperature]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[The eutectic point in a]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[The eutectic point in a two-component solid–liquid phase diagram is best described as:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[A eutectic is an invariant equilibrium in a binary solid–liquid system where (typically) two solid phases coexist with a liquid at a fixed temperature and composition.
+Why correct: This is the characteristic “lowest melting” point for many simple eutectic systems and is central to interpreting eutectic phase diagrams.
+Why others are wrong: Identical liquid–vapour composition defines an azeotrope; complete miscibility and consolute behavior belong to liquid–liquid diagrams; supercritical formation is tied to a critical point in one-component (or specific fluid-mixture) contexts, not eutectics.]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A point where liquid and vapour compositions are identical]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[An invariant point where two solid phases and one liquid phase coexist]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A point where two liquids become completely miscible]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[A point where a supercritical fluid forms]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Fractional distillation separates components mainly]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Fractional distillation separates components mainly because different components (or compositions) have different:]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text><![CDATA[Fractional distillation is a separation technique that exploits differences in volatility and the associated vapour–liquid equilibrium behavior across stages (theoretical plates).
+Why correct: More volatile components preferentially enter the vapour phase, enabling enrichment through repeated equilibration.
+Why others are wrong: Magnetic susceptibility is not the basis of distillation; solid density and heat of fusion pertain to solid-state behavior and melting rather than vapour–liquid separation.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/c8559d0f-a3ee-4a44-bd03-d515f36af380/physical_unit_07.txt)]]></text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Magnetic susceptibility]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Volatility (boiling tendency)]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Density of the solid phase]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Heat of fusion]]></text>
+      <feedback format="html">
+        <text><![CDATA[Wrong!]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

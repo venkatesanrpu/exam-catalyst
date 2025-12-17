@@ -1,0 +1,1105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>A large system is described</text>
+    </name>
+    <questiontext format="html">
+      <text>A large system is described either by the microcanonical ensemble \((E,V,N)\) or the canonical ensemble \((T,V,N)\). In the thermodynamic limit, the reason these ensembles become effectively equivalent for most macroscopic observables is that:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Ensemble equivalence in the thermodynamic limit relies on the idea that although the canonical ensemble allows energy fluctuations, those fluctuations become small relative to the mean energy as the system size grows, so macroscopic predictions match microcanonical results.
+Canonical ensemble does not forbid energy fluctuations; it explicitly includes them.
+Equal a priori probability is a microcanonical postulate for accessible microstates at fixed \(E\), not a statement that all energies are equally likely in canonical statistics.
+The partition function is strongly temperature dependent and encodes thermodynamic behavior through \(T\)-derivatives.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The canonical ensemble forbids energy fluctuations, matching the microcanonical ensemble exactly</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Relative energy fluctuations in the canonical ensemble become negligible compared to the mean energy for large systems</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The Boltzmann distribution reduces to equal a priori probabilities for all energies</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The partition function \(Z\) becomes independent of temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A student claims that in</text>
+    </name>
+    <questiontext format="html">
+      <text>A student claims that in the canonical ensemble the most probable macrostate must correspond to the single microstate of minimum energy because of the factor \(e^{-\beta E}\). The best rebuttal is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Canonical probabilities weight microstates by \(e^{-\beta E}\), but the probability that the system has a given energy (or lies in an energy interval) also depends on how many microstates share that energy, i.e., degeneracy/density of states.
+Thus, even if each high-energy microstate is less probable, an enormous number of them can make that energy range significant for macroscopic behavior.
+Equal a priori probability applies to the microcanonical ensemble for accessible microstates at fixed \(E,V,N\), not to canonical statistics.
+The sign in the Boltzmann factor is negative in equilibrium canonical distributions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>The canonical ensemble uses equal a priori probability, so energy plays no role</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Probability refers to macrostates, and lower energy always dominates regardless of multiplicity</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The probability of an energy value involves both Boltzmann weighting and the density of states (degeneracy), so high-degeneracy energies can dominate</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The Boltzmann factor is \(e^{+\beta E}\), not \(e^{-\beta E}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In deriving entropy expressions for</text>
+    </name>
+    <questiontext format="html">
+      <text>In deriving entropy expressions for large \(N\), Stirling’s approximation is often invoked. Its main conceptual role in statistical thermodynamics is to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Many counting problems produce factorials (e.g., \(N!\)) and entropy uses \(S=k_B\ln W\), so Stirling’s approximation makes \(\ln(N!)\) manageable and helps show entropy scales properly with \(N\) (extensivity).
+It is not a rule that turns sums into products; partition-function factorization has a different basis (independence of subsystems).
+Stirling’s approximation aids microstate counting but does not replace it with the partition function.
+It does not collapse quantum statistics into classical statistics; classical limits arise under specific physical conditions.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Convert sums over states into products to simplify the partition function</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Approximate factorial terms so that \(\ln W\) becomes tractable and yields extensive entropy</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Eliminate the need to count microstates by replacing \(W\) with \(Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Make quantum statistics identical to classical statistics</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The appearance of the \(N!\)</text>
+    </name>
+    <questiontext format="html">
+      <text>The appearance of the \(N!\) factor when constructing an ideal-gas partition function is most directly connected to correcting which conceptual problem?</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>For identical particles, treating particles as distinguishable artificially overcounts microstates, leading to an unphysical entropy of mixing for identical gases (Gibbs paradox).
+Including the \(N!\) factor corrects the counting consistent with indistinguishability and restores physically meaningful entropy behavior.
+Equipartition issues are about quantum effects at low temperature, not primarily about particle-label overcounting.
+Boltzmann distribution remains valid for canonical equilibrium; the counting correction addresses microstate multiplicity, not the form of \(p_i\).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Failure of the equipartition theorem at low temperatures</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Gibbs paradox arising from treating identical particles as distinguishable</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Breakdown of Boltzmann distribution in the canonical ensemble</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Non-existence of microstates in phase space for classical systems</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A system is observed for</text>
+    </name>
+    <questiontext format="html">
+      <text>A system is observed for a long time and its time average of an observable matches the ensemble average predicted by equilibrium statistical mechanics. The assumption most directly invoked to justify this identification is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The ergodic hypothesis connects time averages (from a single system trajectory over long times) to ensemble averages (over many hypothetical copies), justifying equilibrium predictions from ensemble methods.
+Equal a priori probability is specifically the microcanonical postulate about accessible microstates at fixed constraints, not the general time-average justification.
+The thermodynamic limit supports ensemble equivalence and sharpness of distributions but is not the core statement relating time and ensemble averages.
+Indistinguishability addresses correct counting of microstates, not the equality of time and ensemble averages.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Equal a priori probability postulate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Ergodic hypothesis</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Thermodynamic limit</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Indistinguishability of particles</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In statistical thermodynamics, a **microstate**</text>
+    </name>
+    <questiontext format="html">
+      <text>In statistical thermodynamics, a **microstate** is best described as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A microstate refers to one specific microscopic configuration of a system (e.g., a particular arrangement of particles/energies/coordinates) that is consistent with the imposed macroscopic constraints.
+The macroscopic condition \(P, V, T\) describes a macrostate, not a microstate.
+The average energy is an ensemble average (a derived quantity), not a specification of a single configuration.
+The partition function is a generating/normalization quantity for probabilities in the canonical description, not a definition of a microstate.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A macroscopic condition specified by \(P, V, T\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A single detailed specification of the system at the microscopic level consistent with given constraints</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The average energy of an ensemble at equilibrium</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The partition function value at a given temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **macrostate** of a system</text>
+    </name>
+    <questiontext format="html">
+      <text>The **macrostate** of a system is most directly specified by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>A macrostate is defined by macroscopic observables/constraints (such as \(E,V,N\) or \(T,V,N\)), and many microstates can realize the same macrostate.
+A complete list of positions and momenta describes one microstate.
+A probability distribution over microstates is part of an ensemble description, not the definition of a macrostate itself.
+Chemical potential alone is insufficient to specify a macrostate in general; additional variables/constraints are needed.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>A complete list of all particle positions and momenta</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>A probability for each microstate</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>A small set of thermodynamic variables (constraints) that can correspond to many microstates</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The chemical potential of the system only</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The statistical definition of entropy</text>
+    </name>
+    <questiontext format="html">
+      <text>The statistical definition of entropy (Boltzmann formula) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Boltzmann’s formula connects entropy to multiplicity \(W\) (number of accessible microstates) via \(S = k_B \ln W\).
+\(-k_B T \ln Z\) corresponds to Helmholtz free energy \(F\), not entropy.
+\(-(\partial \ln Z/\partial \beta)\) gives internal energy \(U\) in the canonical ensemble, not entropy directly.
+\(k_B \ln Z\) is not the entropy; \(Z\) is the canonical partition function and entropy requires additional derivatives/relations.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(S = k_B \ln W\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S = -k_B T \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S = -(\partial \ln Z/\partial \beta)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S = k_B \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **microcanonical ensemble** is appropriate</text>
+    </name>
+    <questiontext format="html">
+      <text>The **microcanonical ensemble** is appropriate for a system that is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The microcanonical ensemble describes isolated systems with fixed energy \(E\), volume \(V\), and particle number \(N\).
+Contact with a heat bath implies canonical conditions (\(T,V,N\)).
+Contact with a particle reservoir with fixed chemical potential \(\mu\) is grand canonical.
+Fixed pressure and temperature corresponds to other ensembles (not the microcanonical ensemble described in this unit).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>In contact with a heat bath at fixed \(T\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Isolated with fixed \(E, V, N\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>In contact with a particle reservoir at fixed \(\mu\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>At fixed pressure and temperature</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the microcanonical ensemble, the</text>
+    </name>
+    <questiontext format="html">
+      <text>In the microcanonical ensemble, the postulate of **equal a priori probability** means:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Equal a priori probability states that for an isolated system with fixed \(E,V,N\), every accessible microstate consistent with these constraints has the same probability.
+Choosing the lowest-energy microstate as most probable is not correct because energy is fixed in the microcanonical ensemble, and no Boltzmann weighting is used.
+The factor \(e^{-\beta E}\) is the Boltzmann factor from the canonical ensemble, not microcanonical.
+Degeneracy matters for counting \(W\), but the statement in option D mixes canonical ideas and is not the microcanonical postulate.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>All microstates (accessible under the given constraints) are equally probable</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The lowest-energy microstate is the most probable</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The probability of a microstate is proportional to \(e^{-\beta E}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Probability depends only on the degeneracy of energy levels in the canonical ensemble</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **canonical ensemble** describes a</text>
+    </name>
+    <questiontext format="html">
+      <text>The **canonical ensemble** describes a system with fixed:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the canonical ensemble, the system exchanges energy with a heat reservoir, so temperature \(T\) is fixed along with \(V\) and \(N\), while the system energy fluctuates.
+Fixed \(E,V,N\) is microcanonical.
+Fixed \(T,V,\mu\) is grand canonical.
+Fixed \(P,T,N\) is not the canonical ensemble as defined here.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(T, V, N\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(E, V, N\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(T, V, \mu\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(P, T, N\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **Boltzmann distribution** in the</text>
+    </name>
+    <questiontext format="html">
+      <text>The **Boltzmann distribution** in the canonical ensemble states that the probability of occupying a state of energy \(E_i\) is proportional to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The Boltzmann distribution assigns probabilities \(p_i \propto e^{-\beta E_i}\), where \(\beta = 1/(k_B T)\).
+Direct proportionality to \(E_i\) is incorrect; higher energy states are typically less probable at fixed \(T\).
+\(e^{+\beta E_i}\) would incorrectly favor higher energies and does not represent equilibrium canonical probabilities.
+\(\ln E_i\) has no role as the weighting factor in the canonical probability distribution.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(E_i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(e^{-\beta E_i}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(e^{+\beta E_i}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\ln E_i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the canonical ensemble, the</text>
+    </name>
+    <questiontext format="html">
+      <text>In the canonical ensemble, the **partition function** \(Z\) is defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The canonical partition function is \(Z=\sum_i e^{-\beta E_i}\), summing the Boltzmann factors over all microstates (or energy eigenstates).
+Summing energies \(\sum_i E_i\) is not a normalization and does not generate thermodynamics.
+A product form \(\prod_i e^{-\beta E_i}\) is not the definition of the canonical partition function.
+\(\sum_i \beta E_i\) is not dimensionally or conceptually the canonical partition function.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(Z=\sum_i E_i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(Z=\sum_i e^{-\beta E_i}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(Z=\prod_i e^{-\beta E_i}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(Z=\sum_i \beta E_i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **Helmholtz free energy** \(F\)</text>
+    </name>
+    <questiontext format="html">
+      <text>The **Helmholtz free energy** \(F\) is related to the canonical partition function by:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the canonical ensemble, the Helmholtz free energy is given by \(F = -k_B T \ln Z\), making \(Z\) the central generating function for thermodynamic properties.
+The expression \(k_B T \ln Z\) has the wrong sign and would give incorrect temperature dependence.
+\(-\partial \ln Z/\partial \beta\) corresponds to internal energy \(U\), not \(F\).
+\(k_B \ln Z\) misses the factor of \(T\) and does not represent Helmholtz free energy.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(F = k_B T \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(F = -k_B T \ln Z\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = -\partial \ln Z/\partial \beta\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = k_B \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The **grand canonical ensemble** is</text>
+    </name>
+    <questiontext format="html">
+      <text>The **grand canonical ensemble** is characterized by fixed \(T\), \(V\), and:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The grand canonical ensemble applies when a system can exchange both energy and particles with a reservoir, so \(T\), \(V\), and chemical potential \(\mu\) are fixed while \(E\) and \(N\) fluctuate.
+Fixed \(E\) would correspond to an isolated-energy constraint (microcanonical-like), not grand canonical.
+Fixed \(N\) corresponds to the canonical ensemble rather than grand canonical.
+Entropy \(S\) is not taken as a fixed control variable for defining the grand canonical ensemble in this context.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(E\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(N\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\mu\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A system has two non-degenerate</text>
+    </name>
+    <questiontext format="html">
+      <text>A system has two non-degenerate energy levels: \(E_0=0\) and \(E_1=\varepsilon\). In the canonical ensemble at temperature \(T\), the ratio of populations \(p_1/p_0\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the canonical ensemble, probabilities follow the Boltzmann distribution \(p_i \propto e^{-\beta E_i}\), where \(\beta = 1/(k_B T)\).
+Thus \(p_1/p_0 = e^{-\beta(E_1-E_0)} = e^{-\beta \varepsilon}\).
+The positive exponent would incorrectly predict more population in the higher level at low \(T\).
+The linear forms \(\beta\varepsilon\) and \(1-\beta\varepsilon\) are not valid population ratios (they resemble crude expansions and can even become negative).</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(e^{+\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(e^{-\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\beta \varepsilon\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(1-\beta \varepsilon\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For the same two-level system</text>
+    </name>
+    <questiontext format="html">
+      <text>For the same two-level system (\(E_0=0\), \(E_1=\varepsilon\)), the canonical partition function \(Z\) is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>By definition, \(Z=\sum_i e^{-\beta E_i}\).
+Here, \(Z=e^{-\beta\cdot 0}+e^{-\beta\varepsilon}=1+e^{-\beta\varepsilon}\).
+Using \(e^{+\beta\varepsilon}\) flips the sign in the Boltzmann factor, violating canonical statistics.
+Options C and D omit the ground-state contribution or use an unphysical subtraction.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(Z = 1 + e^{+\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(Z = 1 + e^{-\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(Z = e^{-\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(Z = 1 - e^{-\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For a canonical ensemble, internal</text>
+    </name>
+    <questiontext format="html">
+      <text>For a canonical ensemble, internal energy is obtained from the partition function as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The canonical result relating thermodynamics to \(Z\) is \(U = -\partial(\ln Z)/\partial \beta\).
+\(-k_B T\ln Z\) gives Helmholtz free energy \(F\), not \(U\).
+\(k_B T\ln Z\) has the wrong sign even for \(F\), so it cannot represent \(U\).
+\(\partial Z/\partial\beta\) is not directly \(U\); the logarithm is essential because probabilities are normalized by \(Z\).</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(U = -\dfrac{\partial \ln Z}{\partial \beta}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(U = -k_B T \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(U = k_B T \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(U = \dfrac{\partial Z}{\partial \beta}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>For the two-level system (\(E_0=0\)</text>
+    </name>
+    <questiontext format="html">
+      <text>For the two-level system (\(E_0=0\), \(E_1=\varepsilon\)) in the canonical ensemble, the probability of finding the system in the excited state is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Canonical probabilities are \(p_i = e^{-\beta E_i}/Z\) with \(Z=\sum_i e^{-\beta E_i}\).
+So \(p_1 = e^{-\beta\varepsilon}/(1+e^{-\beta\varepsilon})\).
+Option C is actually \(p_0\) (ground-state probability).
+Option B uses the wrong sign in the Boltzmann factor, and option D is not derived from partition-function normalization.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(p_1=\dfrac{e^{-\beta \varepsilon}}{1+e^{-\beta \varepsilon}}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(p_1=\dfrac{e^{+\beta \varepsilon}}{1+e^{+\beta \varepsilon}}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(p_1=\dfrac{1}{1+e^{-\beta \varepsilon}}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(p_1=\dfrac{1}{1+\beta \varepsilon}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A system is in thermal</text>
+    </name>
+    <questiontext format="html">
+      <text>A system is in thermal contact with a heat reservoir, but the number of particles is strictly fixed. The most appropriate ensemble is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Thermal contact with a reservoir fixes \(T\) while allowing energy exchange (energy fluctuations), and fixed particle number implies fixed \(N\); together this is the canonical ensemble (\(T,V,N\) fixed).
+Microcanonical would require isolation with fixed \(E,V,N\).
+Grand canonical would be used if both energy and particles could be exchanged (fixed \(T,V,\mu\)).
+Energy fluctuations are expected in canonical ensemble and do not invalidate the ensemble description.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>Microcanonical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Canonical</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Grand canonical</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>No ensemble applies because energy fluctuates</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A small subsystem can exchange</text>
+    </name>
+    <questiontext format="html">
+      <text>A small subsystem can exchange both energy and particles with a large reservoir at fixed \(T\) and \(\mu\). The correct weight factor for a microstate with energy \(E\) and particle number \(N\) is proportional to:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>In the grand canonical ensemble, probabilities are proportional to \(e^{-\beta(E-\mu N)}\), reflecting exchange of both energy and particles with the reservoir.
+Option A is the canonical Boltzmann factor (no particle exchange).
+Option C has the wrong sign for \(\mu N\), leading to incorrect dependence of probability on particle number.
+Option D flips the overall sign and would favor large \(E-\mu N\), contradicting equilibrium statistics.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(e^{-\beta E}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(e^{-\beta (E-\mu N)}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(e^{-\beta (E+\mu N)}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(e^{+\beta (E-\mu N)}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>The grand partition function \(\Xi\)</text>
+    </name>
+    <questiontext format="html">
+      <text>The grand partition function \(\Xi\) is defined as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The grand partition function sums over both particle numbers \(N\) and microstates \(i\) at each \(N\): \(\Xi=\sum_N \sum_i e^{-\beta(E_{iN}-\mu N)}\).
+Option A is the canonical partition function \(Z\), not \(\Xi\).
+Option C uses the wrong sign convention for the \(\mu N\) term in the exponent.
+Option D incorrectly replaces a sum over \(N\) by a product and changes the ensemble definition.</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(\Xi=\sum_i e^{-\beta E_i}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(\Xi=\sum_N \sum_i e^{-\beta(E_{iN}-\mu N)}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Xi=\sum_N \sum_i e^{-\beta(E_{iN}+\mu N)}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(\Xi=\prod_N \sum_i e^{-\beta(E_{iN}-\mu N)}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In the canonical ensemble, Helmholtz</text>
+    </name>
+    <questiontext format="html">
+      <text>In the canonical ensemble, Helmholtz free energy \(F\) is connected to the partition function via:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Canonical thermodynamics gives \(F=-k_B T\ln Z\).
+\(-\partial\ln Z/\partial\beta\) corresponds to internal energy \(U\), not \(F\).
+\(k_B\ln Z\) misses the factor \(T\) and does not have the correct thermodynamic meaning.
+\(k_B T Z\) is dimensionally inconsistent and not a standard thermodynamic relation.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(F = -k_B T \ln Z\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = -\dfrac{\partial \ln Z}{\partial \beta}\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = k_B \ln Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(F = k_B T Z\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In a microcanonical description, entropy</text>
+    </name>
+    <questiontext format="html">
+      <text>In a microcanonical description, entropy is expressed in terms of the multiplicity (density of accessible states) \(\Omega\) as:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>The microcanonical entropy is defined by \(S(E,V,N)=k_B \ln \Omega(E,V,N)\), consistent with the statistical definition of entropy.
+Not taking the logarithm (option B) breaks the additive property of entropy for independent subsystems.
+The negative sign (option C) would make entropy decrease with increasing number of accessible states, contradicting the probabilistic interpretation.
+Dividing by \(k_B\) (option D) is dimensionally wrong and not the entropy definition.</text>
+    </generalfeedback>
+    <answer fraction="100" format="html">
+      <text>\(S(E,V,N)=k_B \ln \Omega(E,V,N)\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S(E,V,N)=k_B \Omega(E,V,N)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S(E,V,N)=-k_B \ln \Omega(E,V,N)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(S(E,V,N)=\Omega(E,V,N)/k_B\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>In canonical calculations, a common</text>
+    </name>
+    <questiontext format="html">
+      <text>In canonical calculations, a common mistake is to compute the average energy as \(\sum_i E_i\) without weighting. The correct ensemble-average internal energy is:</text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>1</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <generalfeedback format="html">
+      <text>Canonical ensemble averages must be probability-weighted: \(U=\langle E\rangle = \sum_i p_i E_i\), where \(p_i=e^{-\beta E_i}/Z\) comes from the Boltzmann distribution and partition-function normalization.
+Unweighted sums ignore the fact that high-energy states are less probable at finite temperature.
+Products of probabilities and energies or logarithmic combinations are not definitions of ensemble averages.
+(https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_99e4096c-742b-4ed1-9fa1-79a24cd1a07e/9ae46885-49a9-41b2-8165-df8e95f57928/physical_unit_09.txt)</text>
+    </generalfeedback>
+    <answer fraction="0" format="html">
+      <text>\(U=\sum_i E_i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>\(U=\sum_i p_i E_i\) with \(p_i=\dfrac{e^{-\beta E_i}}{Z}\)</text>
+      <feedback format="html">
+        <text>Correct!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(U=\prod_i p_i E_i\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>\(U=\sum_i \ln(p_i E_i)\)</text>
+      <feedback format="html">
+        <text>Wrong!</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
