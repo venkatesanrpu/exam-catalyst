@@ -1,0 +1,643 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Section 7: Solid State Physics - Comprehensive coverage of crystallography, electronic structure, transport properties, optical, dielectric, magnetic properties, and superconductivity"
+
+concepts:
+  core:
+    - name: Crystal Structure
+      clarifier: Crystallographic systems, symmetry operations, unit cells, Bravais lattices, Miller indices
+    - name: Diffraction Methods
+      clarifier: X-ray, neutron, and electron diffraction for structure determination; Bragg's law; structure factor
+    - name: Bonding in Solids
+      clarifier: Ionic, covalent, metallic, van der Waals bonding; cohesive energy
+    - name: Lattice Vibrations
+      clarifier: Phonons, dispersion relations, acoustic and optical branches, density of states
+    - name: Thermal Properties
+      clarifier: Specific heat of solids; Einstein and Debye models; thermal conductivity
+    - name: Free Electron Theory
+      clarifier: Drude model, Sommerfeld theory, Fermi energy, density of states, heat capacity
+    - name: Band Theory
+      clarifier: Nearly free electron model, Brillouin zones, effective mass, tight binding approximation
+    - name: Electronic Classification
+      clarifier: Band structure of metals, semiconductors, and insulators; Fermi surfaces
+    - name: Charge Transport
+      clarifier: Electrical conductivity, carrier mobility, effective mass, Hall effect, drift and diffusion
+    - name: Optical Properties
+      clarifier: Absorption, reflection, transmission; Kramers-Kronig relations; inter-band and intra-band transitions
+    - name: Dielectric Properties
+      clarifier: Dielectric function, electric polarizability, local field effects, ferroelectricity
+    - name: Magnetic Properties
+      clarifier: Diamagnetism, paramagnetism, ferromagnetism, antiferromagnetism, ferrimagnetism
+    - name: Magnetic Domains
+      clarifier: Domain formation, domain walls, magnetic anisotropy, hysteresis
+    - name: Superconductivity
+      clarifier: Type I and II superconductors, critical temperature and fields, Meissner effect, London penetration depth, BCS theory, Cooper pairs, flux quantization
+
+  related:
+    - name: Crystallographic Point Groups
+      clarifier: Symmetry elements, stereographic projections, space groups
+    - name: Reciprocal Lattice
+      clarifier: Construction, properties, relation to diffraction
+    - name: Ewald Sphere
+      clarifier: Geometric interpretation of diffraction conditions
+    - name: Anharmonic Effects
+      clarifier: Thermal expansion, phonon-phonon interactions
+    - name: Phonon Scattering
+      clarifier: Umklapp processes, thermal resistance
+    - name: Bloch Theorem
+      clarifier: Periodic potential, Bloch functions, k-space
+    - name: Energy Gap Formation
+      clarifier: Origin of band gaps, forbidden energy regions
+    - name: Semiconductor Physics
+      clarifier: Intrinsic and extrinsic semiconductors, doping, p-n junctions
+    - name: Carrier Statistics
+      clarifier: Fermi-Dirac distribution, carrier concentration in bands
+    - name: Optical Transitions Selection Rules
+      clarifier: Allowed and forbidden transitions, direct and indirect gaps
+    - name: Excitons
+      clarifier: Bound electron-hole pairs, excitonic effects in optical spectra
+    - name: Clausius-Mossotti Relation
+      clarifier: Connection between microscopic polarizability and macroscopic dielectric constant
+    - name: Spontaneous Polarization
+      clarifier: Ferroelectric phase transitions, hysteresis loops
+    - name: Exchange Interaction
+      clarifier: Origin of ferromagnetism, Heisenberg model, Weiss molecular field
+    - name: Spin Waves
+      clarifier: Magnons, collective excitations in magnetic materials
+    - name: Critical Phenomena
+      clarifier: Phase transitions in magnetic and superconducting systems
+    - name: Josephson Effect
+      clarifier: DC and AC Josephson effects, SQUID devices
+    - name: High-Temperature Superconductors
+      clarifier: Cuprates, unconventional pairing mechanisms
+    - name: Semiconductor Devices
+      clarifier: Transistors, LEDs, solar cells based on solid state principles
+    - name: Spintronics
+      clarifier: Spin-dependent transport, magnetoresistance
+
+learning_path:
+  - id: 1
+    title: "Crystal Structure and Diffraction"
+    learning_objectives:
+      - Understand the fundamental concepts of crystallography including unit cells, Bravais lattices, and symmetry operations
+      - Master Miller indices notation and crystallographic plane identification
+      - Apply diffraction techniques for crystal structure determination
+      - Analyze X-ray, neutron, and electron diffraction patterns using Bragg's law
+      - Calculate structure factors and interpret systematic absences
+    textbook_style_content:
+      - topic: "Fundamentals of Crystallography"
+        sections:
+          - section_title: "Introduction to Crystalline Solids"
+            section_type: overview
+          - section_title: "Crystal Systems and Bravais Lattices"
+            section_type: core_theory
+          - section_title: "Unit Cells and Lattice Parameters"
+            section_type: core_theory
+          - section_title: "Symmetry Operations and Point Groups"
+            section_type: core_theory
+          - section_title: "Miller Indices and Crystallographic Planes"
+            section_type: core_theory
+      - topic: "Reciprocal Lattice and Diffraction Theory"
+        sections:
+          - section_title: "Construction of Reciprocal Lattice"
+            section_type: related_concepts
+          - section_title: "Bragg's Law and Diffraction Conditions"
+            section_type: core_theory
+          - section_title: "Ewald Sphere Construction"
+            section_type: related_concepts
+      - topic: "Experimental Diffraction Methods"
+        sections:
+          - section_title: "X-ray Diffraction Techniques"
+            section_type: core_theory
+          - section_title: "Neutron and Electron Diffraction"
+            section_type: core_theory
+          - section_title: "Structure Factor Calculations"
+            section_type: core_theory
+          - section_title: "Systematic Absences and Space Group Determination"
+            section_type: related_concepts
+    milestone: "Master crystal structure analysis and diffraction-based structure determination techniques"
+    duration_days: 10
+    tags:
+      - crystallography
+      - diffraction
+      - structure determination
+      - reciprocal lattice
+      - symmetry
+
+  - id: 2
+    title: "Chemical Bonding and Lattice Dynamics"
+    learning_objectives:
+      - Understand different types of bonding in solids and their influence on material properties
+      - Calculate cohesive energies for various bonding types
+      - Analyze lattice vibrations using classical and quantum mechanical approaches
+      - Derive phonon dispersion relations for monatomic and diatomic lattices
+      - Apply Einstein and Debye models to explain thermal properties of solids
+    textbook_style_content:
+      - topic: "Bonding in Solids"
+        sections:
+          - section_title: "Overview of Interatomic Forces"
+            section_type: overview
+          - section_title: "Ionic Bonding and Born-Mayer Equation"
+            section_type: core_theory
+          - section_title: "Covalent Bonding and Directional Bonds"
+            section_type: core_theory
+          - section_title: "Metallic Bonding and Electron Sea Model"
+            section_type: core_theory
+          - section_title: "Van der Waals Bonding and Molecular Crystals"
+            section_type: core_theory
+          - section_title: "Cohesive Energy Calculations"
+            section_type: core_theory
+      - topic: "Lattice Vibrations and Phonons"
+        sections:
+          - section_title: "Classical Theory of Lattice Vibrations"
+            section_type: core_theory
+          - section_title: "Dispersion Relations for Monatomic Lattices"
+            section_type: core_theory
+          - section_title: "Optical and Acoustic Branches in Diatomic Lattices"
+            section_type: core_theory
+          - section_title: "Quantum Theory of Lattice Vibrations - Phonons"
+            section_type: core_theory
+          - section_title: "Phonon Density of States"
+            section_type: core_theory
+          - section_title: "Anharmonic Effects and Thermal Expansion"
+            section_type: related_concepts
+      - topic: "Thermal Properties of Solids"
+        sections:
+          - section_title: "Classical Theory - Dulong-Petit Law"
+            section_type: overview
+          - section_title: "Einstein Model of Specific Heat"
+            section_type: core_theory
+          - section_title: "Debye Model and Low Temperature Behavior"
+            section_type: core_theory
+          - section_title: "Thermal Conductivity and Phonon Scattering"
+            section_type: core_theory
+          - section_title: "Umklapp Processes"
+            section_type: related_concepts
+    milestone: "Understand bonding mechanisms and their connection to lattice dynamics and thermal properties"
+    duration_days: 12
+    tags:
+      - bonding
+      - lattice vibrations
+      - phonons
+      - thermal properties
+      - specific heat
+      - cohesive energy
+
+  - id: 3
+    title: "Free Electron Theory of Metals"
+    learning_objectives:
+      - Apply Drude model to explain classical electrical and thermal conductivity
+      - Derive quantum mechanical free electron theory using Sommerfeld model
+      - Calculate Fermi energy, Fermi temperature, and density of states
+      - Understand electronic contribution to heat capacity
+      - Analyze limitations of free electron model
+    textbook_style_content:
+      - topic: "Classical Free Electron Theory"
+        sections:
+          - section_title: "The Drude Model"
+            section_type: overview
+          - section_title: "Electrical Conductivity in Drude Model"
+            section_type: core_theory
+          - section_title: "Thermal Conductivity and Wiedemann-Franz Law"
+            section_type: core_theory
+          - section_title: "Limitations of Classical Theory"
+            section_type: overview
+      - topic: "Quantum Free Electron Theory"
+        sections:
+          - section_title: "Sommerfeld Model - Electrons in a Box"
+            section_type: core_theory
+          - section_title: "Fermi-Dirac Distribution Function"
+            section_type: related_concepts
+          - section_title: "Density of States Derivation"
+            section_type: core_theory
+          - section_title: "Fermi Energy and Fermi Surface"
+            section_type: core_theory
+          - section_title: "Temperature Dependence of Chemical Potential"
+            section_type: core_theory
+      - topic: "Applications of Free Electron Theory"
+        sections:
+          - section_title: "Electronic Specific Heat"
+            section_type: core_theory
+          - section_title: "Thermionic Emission and Work Function"
+            section_type: related_concepts
+          - section_title: "Success and Failures of Free Electron Model"
+            section_type: overview
+    milestone: "Master quantum free electron theory and its applications to metallic properties"
+    duration_days: 9
+    tags:
+      - free electron theory
+      - Drude model
+      - Sommerfeld model
+      - Fermi energy
+      - density of states
+      - electronic heat capacity
+
+  - id: 4
+    title: "Band Theory of Solids"
+    learning_objectives:
+      - Understand Bloch theorem and its implications for electrons in periodic potentials
+      - Derive energy bands using nearly free electron approximation
+      - Construct Brillouin zones and understand their significance
+      - Apply tight binding model for localized electron states
+      - Calculate effective mass and its relation to band curvature
+    textbook_style_content:
+      - topic: "Electrons in Periodic Potentials"
+        sections:
+          - section_title: "Limitations of Free Electron Theory"
+            section_type: overview
+          - section_title: "Periodic Potential and Bloch Theorem"
+            section_type: related_concepts
+          - section_title: "Bloch Functions and Crystal Momentum"
+            section_type: core_theory
+          - section_title: "Brillouin Zones and k-space"
+            section_type: related_concepts
+      - topic: "Nearly Free Electron Model"
+        sections:
+          - section_title: "Perturbation Approach to Band Formation"
+            section_type: core_theory
+          - section_title: "Energy Gap Opening at Brillouin Zone Boundaries"
+            section_type: related_concepts
+          - section_title: "Extended, Reduced, and Periodic Zone Schemes"
+            section_type: core_theory
+          - section_title: "Construction of Brillouin Zones"
+            section_type: core_theory
+      - topic: "Tight Binding Approximation"
+        sections:
+          - section_title: "LCAO Method for Solids"
+            section_type: overview
+          - section_title: "Tight Binding for s-band"
+            section_type: core_theory
+          - section_title: "Bandwidth and Overlap Integrals"
+            section_type: core_theory
+          - section_title: "Comparison with Nearly Free Electron Model"
+            section_type: overview
+      - topic: "Effective Mass and Band Structure"
+        sections:
+          - section_title: "Concept of Effective Mass"
+            section_type: core_theory
+          - section_title: "Relation to Band Curvature"
+            section_type: core_theory
+          - section_title: "Holes as Charge Carriers"
+            section_type: related_concepts
+    milestone: "Develop comprehensive understanding of band formation and electronic structure in crystalline solids"
+    duration_days: 14
+    tags:
+      - band theory
+      - Bloch theorem
+      - nearly free electron
+      - tight binding
+      - Brillouin zones
+      - effective mass
+
+  - id: 5
+    title: "Electronic Classification and Transport Properties"
+    learning_objectives:
+      - Distinguish between metals, semiconductors, and insulators based on band structure
+      - Understand intrinsic and extrinsic semiconductor physics
+      - Calculate electrical conductivity using carrier concentration and mobility
+      - Apply drift-diffusion equations to charge transport
+      - Analyze Hall effect and determine carrier type and concentration
+    textbook_style_content:
+      - topic: "Classification of Materials"
+        sections:
+          - section_title: "Band Structure Perspective"
+            section_type: overview
+          - section_title: "Metals - Partially Filled Bands"
+            section_type: core_theory
+          - section_title: "Insulators - Large Band Gaps"
+            section_type: core_theory
+          - section_title: "Semiconductors - Small Band Gaps"
+            section_type: core_theory
+          - section_title: "Fermi Surface Topology"
+            section_type: related_concepts
+      - topic: "Semiconductor Physics"
+        sections:
+          - section_title: "Intrinsic Semiconductors"
+            section_type: related_concepts
+          - section_title: "Doping - Donors and Acceptors"
+            section_type: related_concepts
+          - section_title: "Extrinsic Semiconductors - n-type and p-type"
+            section_type: related_concepts
+          - section_title: "Carrier Concentration at Thermal Equilibrium"
+            section_type: related_concepts
+          - section_title: "Law of Mass Action"
+            section_type: related_concepts
+      - topic: "Electrical Conductivity"
+        sections:
+          - section_title: "Conductivity Formula"
+            section_type: core_theory
+          - section_title: "Carrier Mobility and Scattering Mechanisms"
+            section_type: core_theory
+          - section_title: "Temperature Dependence of Conductivity"
+            section_type: core_theory
+          - section_title: "Effective Mass Tensor"
+            section_type: core_theory
+      - topic: "Transport Phenomena"
+        sections:
+          - section_title: "Drift and Diffusion Currents"
+            section_type: core_theory
+          - section_title: "Einstein Relation"
+            section_type: core_theory
+          - section_title: "Hall Effect and Hall Coefficient"
+            section_type: core_theory
+          - section_title: "Determination of Carrier Type and Concentration"
+            section_type: core_theory
+          - section_title: "Applications to Semiconductor Devices"
+            section_type: related_concepts
+    milestone: "Master electronic classification and transport mechanisms in different material classes"
+    duration_days: 11
+    tags:
+      - metals
+      - semiconductors
+      - insulators
+      - conductivity
+      - mobility
+      - effective mass
+      - Hall effect
+      - transport
+
+  - id: 6
+    title: "Optical Properties of Solids"
+    learning_objectives:
+      - Understand interaction of electromagnetic radiation with solids
+      - Derive and apply Kramers-Kronig relations connecting real and imaginary parts of dielectric function
+      - Distinguish between intra-band and inter-band optical transitions
+      - Analyze optical absorption spectra using band structure
+      - Calculate optical constants - refractive index and extinction coefficient
+    textbook_style_content:
+      - topic: "Light-Matter Interaction"
+        sections:
+          - section_title: "Electromagnetic Waves in Matter"
+            section_type: overview
+          - section_title: "Complex Dielectric Function"
+            section_type: core_theory
+          - section_title: "Optical Constants - n and k"
+            section_type: core_theory
+          - section_title: "Absorption, Reflection, and Transmission"
+            section_type: core_theory
+      - topic: "Kramers-Kronig Relations"
+        sections:
+          - section_title: "Causality and Dispersion Relations"
+            section_type: overview
+          - section_title: "Derivation of Kramers-Kronig Relations"
+            section_type: core_theory
+          - section_title: "Applications to Experimental Data"
+            section_type: core_theory
+      - topic: "Optical Transitions"
+        sections:
+          - section_title: "Intra-band Transitions - Free Carrier Absorption"
+            section_type: core_theory
+          - section_title: "Inter-band Transitions"
+            section_type: core_theory
+          - section_title: "Direct and Indirect Band Gap Transitions"
+            section_type: related_concepts
+          - section_title: "Selection Rules for Optical Transitions"
+            section_type: related_concepts
+      - topic: "Optical Phenomena"
+        sections:
+          - section_title: "Absorption Edge in Semiconductors"
+            section_type: core_theory
+          - section_title: "Excitons and Excitonic Effects"
+            section_type: related_concepts
+          - section_title: "Optical Properties of Metals"
+            section_type: core_theory
+          - section_title: "Plasma Frequency and Reflectivity"
+            section_type: core_theory
+    milestone: "Understand optical response of solids and connection to electronic structure"
+    duration_days: 10
+    tags:
+      - optical properties
+      - Kramers-Kronig
+      - inter-band transitions
+      - intra-band transitions
+      - absorption
+      - dielectric function
+      - excitons
+
+  - id: 7
+    title: "Dielectric Properties of Solids"
+    learning_objectives:
+      - Understand polarization mechanisms in dielectric materials
+      - Calculate macroscopic dielectric function from microscopic polarizability
+      - Apply Clausius-Mossotti relation
+      - Analyze ferroelectric materials and phase transitions
+      - Understand frequency dependence of dielectric response
+    textbook_style_content:
+      - topic: "Dielectric Response"
+        sections:
+          - section_title: "Polarization and Electric Displacement"
+            section_type: overview
+          - section_title: "Dielectric Constant and Susceptibility"
+            section_type: core_theory
+          - section_title: "Local Field Effects"
+            section_type: core_theory
+          - section_title: "Clausius-Mossotti Relation"
+            section_type: related_concepts
+      - topic: "Polarization Mechanisms"
+        sections:
+          - section_title: "Electronic Polarization"
+            section_type: core_theory
+          - section_title: "Ionic Polarization"
+            section_type: core_theory
+          - section_title: "Orientational Polarization"
+            section_type: core_theory
+          - section_title: "Space Charge Polarization"
+            section_type: core_theory
+          - section_title: "Frequency Dependence of Polarizability"
+            section_type: core_theory
+      - topic: "Dielectric Function"
+        sections:
+          - section_title: "Complex Dielectric Function"
+            section_type: core_theory
+          - section_title: "Dielectric Losses"
+            section_type: core_theory
+          - section_title: "Resonance and Relaxation Models"
+            section_type: core_theory
+      - topic: "Ferroelectricity"
+        sections:
+          - section_title: "Spontaneous Polarization"
+            section_type: related_concepts
+          - section_title: "Ferroelectric Phase Transitions"
+            section_type: core_theory
+          - section_title: "Curie-Weiss Law"
+            section_type: core_theory
+          - section_title: "Hysteresis Loops"
+            section_type: related_concepts
+          - section_title: "Applications of Ferroelectric Materials"
+            section_type: overview
+    milestone: "Master dielectric response mechanisms and ferroelectric phenomena"
+    duration_days: 9
+    tags:
+      - dielectric properties
+      - polarizability
+      - ferroelectricity
+      - dielectric function
+      - Clausius-Mossotti
+      - phase transitions
+
+  - id: 8
+    title: "Magnetic Properties of Solids"
+    learning_objectives:
+      - Understand various types of magnetic behavior in materials
+      - Apply quantum mechanical theory to explain magnetism
+      - Analyze exchange interactions and their role in ferromagnetism
+      - Understand magnetic domain formation and hysteresis
+      - Calculate magnetic susceptibility for different magnetic materials
+    textbook_style_content:
+      - topic: "Fundamentals of Magnetism"
+        sections:
+          - section_title: "Magnetic Moment and Magnetization"
+            section_type: overview
+          - section_title: "Magnetic Susceptibility and Permeability"
+            section_type: core_theory
+          - section_title: "Classification of Magnetic Materials"
+            section_type: overview
+      - topic: "Diamagnetism"
+        sections:
+          - section_title: "Origin of Diamagnetic Response"
+            section_type: core_theory
+          - section_title: "Larmor Precession"
+            section_type: core_theory
+          - section_title: "Langevin Theory of Diamagnetism"
+            section_type: core_theory
+      - topic: "Paramagnetism"
+        sections:
+          - section_title: "Quantum Theory of Paramagnetism"
+            section_type: core_theory
+          - section_title: "Curie Law and Curie Constant"
+            section_type: core_theory
+          - section_title: "Pauli Paramagnetism in Metals"
+            section_type: core_theory
+          - section_title: "Van Vleck Paramagnetism"
+            section_type: related_concepts
+      - topic: "Ferromagnetism"
+        sections:
+          - section_title: "Exchange Interaction and Weiss Molecular Field"
+            section_type: related_concepts
+          - section_title: "Heisenberg Model"
+            section_type: related_concepts
+          - section_title: "Curie Temperature and Spontaneous Magnetization"
+            section_type: core_theory
+          - section_title: "Temperature Dependence below Tc"
+            section_type: core_theory
+          - section_title: "Spin Waves and Magnons"
+            section_type: related_concepts
+      - topic: "Antiferromagnetism and Ferrimagnetism"
+        sections:
+          - section_title: "Antiferromagnetic Order"
+            section_type: core_theory
+          - section_title: "Néel Temperature"
+            section_type: core_theory
+          - section_title: "Ferrimagnetism in Ferrites"
+            section_type: core_theory
+          - section_title: "Comparison of Magnetic Orderings"
+            section_type: overview
+      - topic: "Magnetic Domains"
+        sections:
+          - section_title: "Domain Formation and Energy Considerations"
+            section_type: core_theory
+          - section_title: "Domain Walls - Bloch and Néel Walls"
+            section_type: core_theory
+          - section_title: "Magnetic Anisotropy"
+            section_type: core_theory
+          - section_title: "Hysteresis and Magnetization Curves"
+            section_type: core_theory
+          - section_title: "Hard and Soft Magnetic Materials"
+            section_type: overview
+          - section_title: "Applications to Spintronics"
+            section_type: related_concepts
+    milestone: "Develop comprehensive understanding of magnetic phenomena and their microscopic origins"
+    duration_days: 13
+    tags:
+      - magnetism
+      - diamagnetism
+      - paramagnetism
+      - ferromagnetism
+      - antiferromagnetism
+      - ferrimagnetism
+      - magnetic domains
+      - exchange interaction
+      - hysteresis
+
+  - id: 9
+    title: "Superconductivity"
+    learning_objectives:
+      - Understand phenomenology of superconducting state
+      - Distinguish between Type I and Type II superconductors
+      - Apply London equations to explain Meissner effect and flux expulsion
+      - Understand microscopic BCS theory and Cooper pair formation
+      - Analyze flux quantization and Josephson effects
+    textbook_style_content:
+      - topic: "Introduction to Superconductivity"
+        sections:
+          - section_title: "Discovery and Basic Phenomena"
+            section_type: overview
+          - section_title: "Zero Resistance and Perfect Conductivity"
+            section_type: core_theory
+          - section_title: "Critical Temperature, Field, and Current"
+            section_type: core_theory
+          - section_title: "Thermodynamics of Superconducting Transition"
+            section_type: core_theory
+      - topic: "Meissner Effect and Type Classification"
+        sections:
+          - section_title: "Perfect Diamagnetism - Meissner Effect"
+            section_type: core_theory
+          - section_title: "Type I Superconductors"
+            section_type: core_theory
+          - section_title: "Type II Superconductors"
+            section_type: core_theory
+          - section_title: "Mixed State and Vortex Lattice"
+            section_type: core_theory
+          - section_title: "Lower and Upper Critical Fields"
+            section_type: core_theory
+      - topic: "London Theory"
+        sections:
+          - section_title: "London Equations"
+            section_type: core_theory
+          - section_title: "London Penetration Depth"
+            section_type: core_theory
+          - section_title: "Coherence Length"
+            section_type: core_theory
+          - section_title: "Ginzburg-Landau Parameter"
+            section_type: related_concepts
+      - topic: "BCS Theory"
+        sections:
+          - section_title: "Limitations of Classical Theories"
+            section_type: overview
+          - section_title: "Electron-Phonon Interaction"
+            section_type: core_theory
+          - section_title: "Cooper Pairs and Pair Condensation"
+            section_type: core_theory
+          - section_title: "BCS Ground State"
+            section_type: core_theory
+          - section_title: "Energy Gap and Quasiparticle Excitations"
+            section_type: core_theory
+          - section_title: "Predictions of BCS Theory"
+            section_type: overview
+      - topic: "Advanced Superconducting Phenomena"
+        sections:
+          - section_title: "Flux Quantization"
+            section_type: core_theory
+          - section_title: "Macroscopic Quantum Coherence"
+            section_type: core_theory
+          - section_title: "Josephson Effect - DC and AC"
+            section_type: related_concepts
+          - section_title: "SQUID Devices"
+            section_type: related_concepts
+          - section_title: "High-Temperature Superconductors"
+            section_type: related_concepts
+          - section_title: "Applications of Superconductivity"
+            section_type: overview
+    milestone: "Master superconductivity from phenomenological description to microscopic quantum theory"
+    duration_days: 12
+    tags:
+      - superconductivity
+      - Type I superconductors
+      - Type II superconductors
+      - Meissner effect
+      - London equations
+      - BCS theory
+      - Cooper pairs
+      - flux quantization
+      - Josephson effect

@@ -1,0 +1,65 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: 'Classical Mechanics: Lagrangian Formulation (D''Alembert''s principle,
+    Euler-Lagrange equation, Hamilton''s principle, calculus of variations), Symmetry
+    and conservation laws, Central force motion (Kepler problem and Rutherford scattering),
+    Small oscillations (coupled oscillations and normal modes), Rigid body dynamics
+    (inertia tensor, orthogonal transformations, Euler angles, Torque-free motion
+    of a symmetric top), Hamiltonian and Hamilton''s equations of motion, Liouville''s
+    theorem, Canonical transformations (action-angle variables, Poisson brackets,
+    Hamilton-Jacobi equation), Special Theory of Relativity (Lorentz transformations,
+    relativistic kinematics, mass-energy equivalence)'
+concepts:
+  core:
+  - name: Lagrangian Mechanics
+    clarifier: Variational formulation of classical mechanics using generalized coordinates
+      and Lagrange's equations
+  - name: Hamiltonian Mechanics
+    clarifier: Phase-space formulation using canonical coordinates and Hamilton's
+      equations
+  - name: Rigid Body Dynamics
+    clarifier: Rotational motion of extended objects with fixed internal geometry
+  - name: Special Relativity
+    clarifier: Space-time framework for high-velocity phenomena and invariance under
+      Lorentz transformations
+  - name: Central Force Motion
+    clarifier: Two-body problems with radial force dependence
+  - name: Small Oscillations
+    clarifier: Linearized dynamics near equilibrium for coupled systems
+  - name: Canonical Transformations
+    clarifier: Coordinate transformations preserving Hamiltonian structure
+  - name: Conservation Laws
+    clarifier: Quantities preserved during time evolution due to symmetries
+  related:
+  - name: Calculus of Variations
+    clarifier: Mathematical framework for optimizing functionals and deriving equations
+      of motion
+  - name: D'Alembert's Principle
+    clarifier: Virtual work principle connecting constraints to generalized forces
+  - name: Hamilton's Principle
+    clarifier: Action minimization principle underlying Lagrangian mechanics
+  - name: Noether's Theorem
+    clarifier: Connection between continuous symmetries and conserved quantities
+  - name: Inertia Tensor
+    clarifier: Mathematical representation of mass distribution for rotational dynamics
+  - name: Euler Angles
+    clarifier: Parametrization of three-dimensional rotations
+  - name: Liouville's Theorem
+    clarifier: Phase-space volume conservation in Hamiltonian dynamics
+  - name: Poisson Brackets
+    clarifier: Algebraic structure for observables in classical mechanics
+  - name: Hamilton-Jacobi Equation
+    clarifier: Partial differential equation for action function in phase space
+  - name: Action-Angle Variables
+    clarifier: Canonical coordinates adapted to integrable systems
+  - name: Lorentz Transformations
+    clarifier: Space-time coordinate transformations preserving light speed invariance
+  - name: Four-Vectors
+    clarifier: Relativistic generalization of vectors transforming under Lorentz group
+  - name: Kepler Problem
+    clarifier: Gravitational two-body problem with inverse-square law
+  - name: Rutherford Scattering
+    clarifier: Classical scattering by Coulomb potential
+  - name: Normal Modes
+    clarifier: Independent oscillatory patterns in coupled systems

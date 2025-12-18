@@ -1,0 +1,65 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: 'Section 5: Thermodynamics and Statistical Physics - Laws of thermodynamics;
+    Macrostates and microstates; phase space; Ensembles; Partition function, free
+    energy, calculation of thermodynamic quantities; Classical and quantum statistics;
+    Degenerate Fermi gas; Black body radiation and Planck''s distribution law; Bose-Einstein
+    condensation; First and second order phase transitions, phase equilibria, critical
+    point'
+concepts:
+  core:
+  - name: Laws of Thermodynamics
+    clarifier: Zeroth, first, second, and third laws; thermodynamic processes and
+      cycles
+  - name: Microstates and Macrostates
+    clarifier: Statistical description of thermodynamic systems; multiplicity and
+      entropy
+  - name: Phase Space
+    clarifier: Classical phase space representation of mechanical systems
+  - name: Statistical Ensembles
+    clarifier: Microcanonical, canonical, and grand canonical ensembles
+  - name: Partition Function
+    clarifier: Canonical and grand canonical partition functions; connection to thermodynamic
+      properties
+  - name: Free Energy
+    clarifier: Helmholtz and Gibbs free energy; thermodynamic potentials
+  - name: Classical Statistics
+    clarifier: Maxwell-Boltzmann distribution for distinguishable particles
+  - name: Quantum Statistics
+    clarifier: Fermi-Dirac and Bose-Einstein distributions for indistinguishable particles
+  - name: Fermi-Dirac Statistics
+    clarifier: Distribution for fermions; Pauli exclusion principle; degenerate Fermi
+      gas
+  - name: Bose-Einstein Statistics
+    clarifier: Distribution for bosons; black body radiation; Bose-Einstein condensation
+  - name: Phase Transitions
+    clarifier: First-order and second-order transitions; Clausius-Clapeyron equation;
+      critical phenomena
+  related:
+  - name: Thermodynamic Equilibrium
+    clarifier: Conditions for thermal, mechanical, and chemical equilibrium
+  - name: Entropy and Second Law
+    clarifier: Statistical interpretation of entropy; Boltzmann entropy formula
+  - name: Thermodynamic Potentials
+    clarifier: Internal energy, enthalpy, Helmholtz and Gibbs free energies; Legendre
+      transformations
+  - name: Maxwell Relations
+    clarifier: Relationships between partial derivatives of thermodynamic variables
+  - name: Density of States
+    clarifier: Energy level distribution in quantum systems
+  - name: Chemical Potential
+    clarifier: Role in grand canonical ensemble and phase equilibria
+  - name: Planck Distribution
+    clarifier: Derivation from Bose-Einstein statistics; black body spectrum
+  - name: Fermi Energy and Fermi Surface
+    clarifier: Ground state properties of fermion systems
+  - name: Heat Capacity
+    clarifier: Classical and quantum contributions; Dulong-Petit law; Debye model
+  - name: Phase Diagrams
+    clarifier: P-T, P-V diagrams; triple point and critical point
+  - name: Order Parameters
+    clarifier: Characterization of phase transitions; symmetry breaking
+  - name: Fluctuations
+    clarifier: Statistical fluctuations in thermodynamic systems; connection to response
+      functions

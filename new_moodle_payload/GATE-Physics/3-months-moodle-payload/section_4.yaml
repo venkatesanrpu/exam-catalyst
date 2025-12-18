@@ -1,0 +1,623 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Section 4: Quantum Mechanics - Postulates of quantum mechanics, uncertainty principle, Schrodinger equation, Dirac Bra Ket notation, linear vectors and operators in Hilbert space, one dimensional potentials (step potential, finite rectangular well, tunneling, particle in a box, harmonic oscillator), two and three dimensional systems with degeneracy, hydrogen atom, angular momentum and spin, addition of angular momenta, variational method, WKB approximation, time independent perturbation theory, elementary scattering theory, Born approximation, and symmetries in quantum mechanical systems"
+
+concepts:
+  core:
+    - name: Postulates of Quantum Mechanics
+      clarifier: Fundamental axioms defining measurement, state evolution, and observables in quantum systems
+    - name: Schrodinger Equation
+      clarifier: Central differential equation governing time evolution of quantum states
+    - name: Hilbert Space Formalism
+      clarifier: Mathematical framework using Dirac notation, linear vectors, and operators
+    - name: Uncertainty Principle
+      clarifier: Heisenberg's fundamental limit on simultaneous measurement precision
+    - name: Particle in a Box
+      clarifier: Paradigmatic confined quantum system with discrete energy levels
+    - name: Quantum Harmonic Oscillator
+      clarifier: Exactly solvable system with ladder operators and equidistant energy levels
+    - name: Hydrogen Atom
+      clarifier: Central force problem in three dimensions with spherical symmetry
+    - name: Angular Momentum Operators
+      clarifier: Commutation relations, eigenvalues, and quantum numbers for orbital and spin angular momentum
+    - name: Spin
+      clarifier: Intrinsic angular momentum with no classical analog
+    - name: Time-Independent Perturbation Theory
+      clarifier: Approximation method for systems with small deviations from solvable Hamiltonians
+    - name: Variational Principle
+      clarifier: Upper-bound method for estimating ground state energies
+    - name: Scattering Theory
+      clarifier: Framework for analyzing particle collisions and cross sections
+  related:
+    - name: Wave-Particle Duality
+      clarifier: Classical prelude to quantum mechanics connecting matter and waves
+    - name: Probability Density and Normalization
+      clarifier: Statistical interpretation of wavefunctions
+    - name: Hermitian Operators
+      clarifier: Mathematical guarantee of real eigenvalues for observables
+    - name: Commutators
+      clarifier: Algebraic tool determining compatibility of simultaneous measurements
+    - name: Tunneling Phenomenon
+      clarifier: Quantum penetration through classically forbidden barriers
+    - name: Degeneracy
+      clarifier: Multiple linearly independent states sharing the same energy eigenvalue
+    - name: Spherical Harmonics
+      clarifier: Angular wavefunctions for central force problems
+    - name: Radial Wavefunctions
+      clarifier: Distance-dependent solutions in spherical coordinates
+    - name: Clebsch-Gordan Coefficients
+      clarifier: Mathematical tool for coupling angular momenta
+    - name: WKB Approximation
+      clarifier: Semi-classical method for slowly varying potentials
+    - name: Born Approximation
+      clarifier: First-order approximation in scattering amplitude calculations
+    - name: Parity and Symmetry Operations
+      clarifier: Discrete transformations commuting with the Hamiltonian
+    - name: Selection Rules
+      clarifier: Constraints on allowed quantum transitions from symmetry principles
+    - name: Eigenstates and Eigenvalues
+      clarifier: States with definite measurement outcomes for observables
+    - name: Boundary Conditions
+      clarifier: Constraints determining physically acceptable solutions
+    - name: Continuity and Discontinuity Conditions
+      clarifier: Matching requirements at potential boundaries
+
+learning_path:
+  - id: 1
+    title: Foundations of Quantum Mechanics
+    learning_objectives:
+      - Articulate the five fundamental postulates of quantum mechanics and their physical interpretation
+      - Derive the Heisenberg uncertainty principle from non-commuting observables
+      - Formulate the time-dependent and time-independent Schrodinger equations
+      - Apply Dirac bra-ket notation to express quantum states, operators, and inner products
+      - Identify Hermitian operators and verify their physical observability
+    textbook_style_content:
+      - topic: Mathematical Framework of Quantum Mechanics
+        sections:
+          - section_title: The Quantum Postulates
+            section_type: core_theory
+          - section_title: Hilbert Space and State Vectors
+            section_type: core_theory
+          - section_title: Dirac Notation and Bra-Ket Formalism
+            section_type: core_theory
+          - section_title: Linear Operators and Observables
+            section_type: core_theory
+      - topic: The Schrodinger Equation
+        sections:
+          - section_title: Time-Dependent Schrodinger Equation
+            section_type: core_theory
+          - section_title: Time-Independent Schrodinger Equation and Stationary States
+            section_type: core_theory
+          - section_title: Probability Current and Conservation
+            section_type: related_concepts
+      - topic: Uncertainty Principle
+        sections:
+          - section_title: Derivation from Commutator Relations
+            section_type: core_theory
+          - section_title: Position-Momentum Uncertainty
+            section_type: core_theory
+          - section_title: Energy-Time Uncertainty
+            section_type: related_concepts
+    milestone: Master the mathematical language and foundational principles of quantum theory
+    duration_days: 8
+    tags:
+      - postulates
+      - Hilbert space
+      - Dirac notation
+      - Schrodinger equation
+      - uncertainty principle
+      - operators
+
+  - id: 2
+    title: Step Potential and Potential Barriers
+    learning_objectives:
+      - Solve the Schrodinger equation for step potentials with E > V and E < V
+      - Calculate reflection and transmission coefficients for quantum particles
+      - Explain quantum tunneling through finite rectangular barriers
+      - Compute tunneling probabilities using WKB approximation principles
+      - Apply boundary conditions to match wavefunctions at discontinuities
+    textbook_style_content:
+      - topic: Step Potential
+        sections:
+          - section_title: Potential Step with E > V₀
+            section_type: core_theory
+          - section_title: Potential Step with E < V₀ and Evanescent Waves
+            section_type: core_theory
+          - section_title: Reflection and Transmission Coefficients
+            section_type: core_theory
+      - topic: Finite Rectangular Potential Barrier
+        sections:
+          - section_title: Quantum Tunneling Phenomenon
+            section_type: overview
+          - section_title: Wavefunction Solutions in Three Regions
+            section_type: core_theory
+          - section_title: Tunneling Probability and Barrier Penetration
+            section_type: core_theory
+          - section_title: Applications in Nuclear Physics and Electronics
+            section_type: related_concepts
+    milestone: Understand quantum behavior at potential discontinuities and tunneling through barriers
+    duration_days: 5
+    tags:
+      - step potential
+      - tunneling
+      - barrier penetration
+      - boundary conditions
+      - transmission coefficient
+
+  - id: 3
+    title: Infinite and Finite Potential Wells
+    learning_objectives:
+      - Derive energy eigenvalues and wavefunctions for particle in an infinite square well
+      - Apply zero boundary conditions to confined quantum systems
+      - Solve transcendental equations for finite rectangular well bound states
+      - Compare energy spectra of infinite and finite wells
+      - Calculate expectation values of position and momentum in bound states
+    textbook_style_content:
+      - topic: Particle in a Box (Infinite Square Well)
+        sections:
+          - section_title: Boundary Conditions and Quantization
+            section_type: core_theory
+          - section_title: Energy Eigenvalues and Eigenfunctions
+            section_type: core_theory
+          - section_title: Probability Distributions and Expectation Values
+            section_type: core_theory
+          - section_title: Zero-Point Energy and Quantum Confinement
+            section_type: related_concepts
+      - topic: Finite Rectangular Well
+        sections:
+          - section_title: Piecewise Potential Definition
+            section_type: overview
+          - section_title: Symmetric and Antisymmetric Solutions
+            section_type: core_theory
+          - section_title: Graphical Solution and Bound State Count
+            section_type: core_theory
+          - section_title: Comparison with Classical Motion
+            section_type: related_concepts
+    milestone: Master confined quantum systems with discrete energy spectra
+    duration_days: 6
+    tags:
+      - particle in a box
+      - infinite well
+      - finite well
+      - bound states
+      - quantization
+
+  - id: 4
+    title: Quantum Harmonic Oscillator
+    learning_objectives:
+      - Solve the Schrodinger equation for the harmonic oscillator potential
+      - Derive energy eigenvalues using the algebraic ladder operator method
+      - Construct wavefunctions using Hermite polynomials
+      - Apply raising and lowering operators to generate excited states
+      - Explain zero-point energy and equipartition theorem violations
+    textbook_style_content:
+      - topic: Harmonic Oscillator - Analytical Solution
+        sections:
+          - section_title: Classical Harmonic Oscillator Review
+            section_type: overview
+          - section_title: Schrodinger Equation for Parabolic Potential
+            section_type: core_theory
+          - section_title: Series Solution and Hermite Polynomials
+            section_type: core_theory
+          - section_title: Energy Eigenvalues and Wavefunctions
+            section_type: core_theory
+      - topic: Ladder Operator Formalism
+        sections:
+          - section_title: Creation and Annihilation Operators
+            section_type: core_theory
+          - section_title: Commutation Relations and Number Operator
+            section_type: core_theory
+          - section_title: Algebraic Derivation of Energy Spectrum
+            section_type: core_theory
+          - section_title: Coherent States and Classical Limit
+            section_type: related_concepts
+    milestone: Complete understanding of the most important exactly solvable quantum system
+    duration_days: 7
+    tags:
+      - harmonic oscillator
+      - ladder operators
+      - Hermite polynomials
+      - zero-point energy
+      - creation operator
+
+  - id: 5
+    title: Two and Three Dimensional Quantum Systems
+    learning_objectives:
+      - Extend the Schrodinger equation to two and three spatial dimensions
+      - Apply separation of variables in Cartesian coordinates
+      - Identify and classify degenerate energy levels
+      - Solve the particle in a two-dimensional box
+      - Calculate degeneracy from symmetry considerations
+    textbook_style_content:
+      - topic: Two Dimensional Systems
+        sections:
+          - section_title: Schrodinger Equation in Two Dimensions
+            section_type: core_theory
+          - section_title: Particle in a Rectangular Box
+            section_type: core_theory
+          - section_title: Degeneracy in Square Boxes
+            section_type: core_theory
+      - topic: Three Dimensional Systems
+        sections:
+          - section_title: Cartesian Coordinates and Separation of Variables
+            section_type: core_theory
+          - section_title: Particle in a Three-Dimensional Cubic Box
+            section_type: core_theory
+          - section_title: Energy Degeneracy and Quantum Numbers
+            section_type: core_theory
+          - section_title: Spherical Coordinates Introduction
+            section_type: overview
+    milestone: Understand multi-dimensional quantum systems and the emergence of degeneracy
+    duration_days: 5
+    tags:
+      - two dimensions
+      - three dimensions
+      - degeneracy
+      - separation of variables
+      - quantum numbers
+
+  - id: 6
+    title: Central Force Problems and Hydrogen Atom
+    learning_objectives:
+      - Transform the Schrodinger equation to spherical coordinates
+      - Separate radial and angular components for central potentials
+      - Solve the angular equation to obtain spherical harmonics
+      - Derive the radial equation for the Coulomb potential
+      - Determine energy levels and quantum numbers for the hydrogen atom
+      - Calculate radial probability densities and expectation values
+    textbook_style_content:
+      - topic: Spherical Coordinates and Angular Equation
+        sections:
+          - section_title: Laplacian in Spherical Coordinates
+            section_type: core_theory
+          - section_title: Separation into Radial and Angular Parts
+            section_type: core_theory
+          - section_title: Associated Legendre Polynomials
+            section_type: core_theory
+          - section_title: Spherical Harmonics Y_lm
+            section_type: core_theory
+      - topic: Hydrogen Atom - The Paradigmatic Three-Body Problem
+        sections:
+          - section_title: Coulomb Potential and Reduced Mass
+            section_type: overview
+          - section_title: Radial Schrodinger Equation
+            section_type: core_theory
+          - section_title: Laguerre Polynomials and Radial Wavefunctions
+            section_type: core_theory
+          - section_title: Energy Eigenvalues and Bohr Radius
+            section_type: core_theory
+          - section_title: Quantum Numbers n, l, m and Electron Orbitals
+            section_type: core_theory
+          - section_title: Radial Probability Distributions
+            section_type: related_concepts
+          - section_title: Degeneracy in Hydrogen and Accidental Degeneracy
+            section_type: related_concepts
+    milestone: Master the hydrogen atom as the cornerstone of atomic physics
+    duration_days: 9
+    tags:
+      - hydrogen atom
+      - spherical harmonics
+      - central force
+      - Coulomb potential
+      - atomic orbitals
+      - radial equation
+
+  - id: 7
+    title: Angular Momentum Theory
+    learning_objectives:
+      - Derive commutation relations for angular momentum operators
+      - Determine eigenvalues of L² and Lz using ladder operator method
+      - Understand the physical significance of quantum numbers l and m
+      - Distinguish orbital angular momentum from spin angular momentum
+      - Apply Pauli matrices to spin-1/2 systems
+      - Calculate expectation values for angular momentum components
+    textbook_style_content:
+      - topic: Orbital Angular Momentum
+        sections:
+          - section_title: Classical to Quantum Angular Momentum
+            section_type: overview
+          - section_title: Angular Momentum Operators and Commutators
+            section_type: core_theory
+          - section_title: Ladder Operators L₊ and L₋
+            section_type: core_theory
+          - section_title: Eigenvalue Spectrum of L² and Lz
+            section_type: core_theory
+          - section_title: Spherical Harmonics as Angular Momentum Eigenfunctions
+            section_type: related_concepts
+      - topic: Spin Angular Momentum
+        sections:
+          - section_title: Intrinsic Angular Momentum without Spatial Dependence
+            section_type: overview
+          - section_title: Stern-Gerlach Experiment
+            section_type: related_concepts
+          - section_title: Spin-1/2 Systems and Spinors
+            section_type: core_theory
+          - section_title: Pauli Spin Matrices
+            section_type: core_theory
+          - section_title: Eigenstates and Eigenvalues of Spin Operators
+            section_type: core_theory
+    milestone: Develop complete understanding of quantized angular momentum in orbital and spin contexts
+    duration_days: 7
+    tags:
+      - angular momentum
+      - spin
+      - commutation relations
+      - ladder operators
+      - Pauli matrices
+      - quantum numbers
+
+  - id: 8
+    title: Addition of Angular Momenta
+    learning_objectives:
+      - Combine two angular momentum operators using tensor product spaces
+      - Apply Clebsch-Gordan coefficients to construct total angular momentum states
+      - Determine allowed values of total angular momentum quantum numbers
+      - Calculate coupling coefficients for simple systems
+      - Apply angular momentum addition to atomic fine structure
+    textbook_style_content:
+      - topic: Coupling of Two Angular Momenta
+        sections:
+          - section_title: Tensor Product of Hilbert Spaces
+            section_type: overview
+          - section_title: Uncoupled and Coupled Representations
+            section_type: core_theory
+          - section_title: Total Angular Momentum Operators
+            section_type: core_theory
+          - section_title: Allowed Values of j in j₁ ⊗ j₂
+            section_type: core_theory
+      - topic: Clebsch-Gordan Coefficients
+        sections:
+          - section_title: Basis Transformation Between Representations
+            section_type: core_theory
+          - section_title: Calculation Methods and Recursion Relations
+            section_type: core_theory
+          - section_title: Symmetry Properties of CG Coefficients
+            section_type: related_concepts
+          - section_title: Applications to Atomic Spectroscopy
+            section_type: related_concepts
+    milestone: Master the formalism for combining quantum angular momenta
+    duration_days: 6
+    tags:
+      - angular momentum addition
+      - Clebsch-Gordan coefficients
+      - coupling
+      - total angular momentum
+      - tensor product
+
+  - id: 9
+    title: Variational Method
+    learning_objectives:
+      - State and prove the variational principle for ground state energies
+      - Construct trial wavefunctions with adjustable parameters
+      - Minimize energy functionals to obtain upper bounds
+      - Apply variational method to helium atom and other multi-electron systems
+      - Assess quality of trial wavefunctions through variational energy
+    textbook_style_content:
+      - topic: Variational Principle
+        sections:
+          - section_title: Rayleigh-Ritz Variational Theorem
+            section_type: core_theory
+          - section_title: Upper Bound Property of Ground State Energy
+            section_type: core_theory
+          - section_title: Choice of Trial Wavefunctions
+            section_type: core_theory
+      - topic: Applications of Variational Method
+        sections:
+          - section_title: Ground State of Helium Atom
+            section_type: core_theory
+          - section_title: Linear Variational Method and Secular Equation
+            section_type: core_theory
+          - section_title: Hydrogen Molecule Ion H₂⁺
+            section_type: related_concepts
+          - section_title: Optimization Strategies and Variational Parameters
+            section_type: related_concepts
+    milestone: Apply variational techniques to approximate ground state energies of complex systems
+    duration_days: 5
+    tags:
+      - variational method
+      - Rayleigh-Ritz
+      - trial wavefunction
+      - upper bound
+      - approximation methods
+
+  - id: 10
+    title: WKB Approximation
+    learning_objectives:
+      - Derive the WKB (Wentzel-Kramers-Brillouin) approximation for slowly varying potentials
+      - Apply semi-classical quantization conditions to bound states
+      - Calculate tunneling probabilities through arbitrary potential barriers
+      - Identify validity conditions and limitations of WKB method
+      - Connect WKB solutions to classical turning points
+    textbook_style_content:
+      - topic: Semi-Classical Approximation
+        sections:
+          - section_title: Classical Limit and Correspondence Principle
+            section_type: overview
+          - section_title: WKB Ansatz and Slowly Varying Potential
+            section_type: core_theory
+          - section_title: Connection Formulas at Turning Points
+            section_type: core_theory
+      - topic: Applications of WKB Method
+        sections:
+          - section_title: Bohr-Sommerfeld Quantization Condition
+            section_type: core_theory
+          - section_title: Tunneling Through Arbitrary Barriers
+            section_type: core_theory
+          - section_title: Alpha Decay and Gamow Factor
+            section_type: related_concepts
+          - section_title: Validity Criteria for WKB Approximation
+            section_type: related_concepts
+    milestone: Master semi-classical approximation techniques for quantum systems
+    duration_days: 5
+    tags:
+      - WKB approximation
+      - semi-classical
+      - tunneling
+      - turning points
+      - quantization condition
+
+  - id: 11
+    title: Time-Independent Perturbation Theory
+    learning_objectives:
+      - Formulate perturbation theory for systems with small corrections to known Hamiltonians
+      - Derive first-order and second-order energy corrections
+      - Calculate perturbed wavefunctions to first order
+      - Apply non-degenerate perturbation theory to atomic systems
+      - Extend to degenerate perturbation theory when necessary
+    textbook_style_content:
+      - topic: Non-Degenerate Perturbation Theory
+        sections:
+          - section_title: Perturbative Expansion of Hamiltonian
+            section_type: overview
+          - section_title: First-Order Energy Correction
+            section_type: core_theory
+          - section_title: First-Order Wavefunction Correction
+            section_type: core_theory
+          - section_title: Second-Order Energy Correction
+            section_type: core_theory
+      - topic: Applications and Extensions
+        sections:
+          - section_title: Anharmonic Oscillator Perturbations
+            section_type: core_theory
+          - section_title: Stark Effect in Hydrogen
+            section_type: related_concepts
+          - section_title: Zeeman Effect and Magnetic Perturbations
+            section_type: related_concepts
+      - topic: Degenerate Perturbation Theory
+        sections:
+          - section_title: Lifting Degeneracy Through Perturbations
+            section_type: core_theory
+          - section_title: Secular Equation and Good Quantum Numbers
+            section_type: core_theory
+          - section_title: Fine Structure in Hydrogen Atom
+            section_type: related_concepts
+    milestone: Apply perturbation theory to calculate energy shifts and spectral features
+    duration_days: 8
+    tags:
+      - perturbation theory
+      - energy corrections
+      - Stark effect
+      - Zeeman effect
+      - degenerate states
+
+  - id: 12
+    title: Elementary Scattering Theory
+    learning_objectives:
+      - Formulate the scattering problem using asymptotic boundary conditions
+      - Define differential and total scattering cross sections
+      - Relate scattering amplitude to observable cross sections
+      - Perform partial wave analysis for spherically symmetric potentials
+      - Calculate phase shifts and their physical interpretation
+    textbook_style_content:
+      - topic: Scattering Formalism
+        sections:
+          - section_title: Scattering Experiments and Observables
+            section_type: overview
+          - section_title: Asymptotic Form of Scattering Wavefunctions
+            section_type: core_theory
+          - section_title: Scattering Amplitude and Cross Section
+            section_type: core_theory
+          - section_title: Differential and Total Cross Sections
+            section_type: core_theory
+      - topic: Partial Wave Analysis
+        sections:
+          - section_title: Expansion in Legendre Polynomials
+            section_type: core_theory
+          - section_title: Phase Shifts and S-Matrix
+            section_type: core_theory
+          - section_title: Optical Theorem
+            section_type: related_concepts
+          - section_title: Low Energy Scattering and Effective Range
+            section_type: related_concepts
+    milestone: Understand quantum scattering framework and calculation methods
+    duration_days: 6
+    tags:
+      - scattering theory
+      - cross section
+      - partial waves
+      - phase shifts
+      - scattering amplitude
+
+  - id: 13
+    title: Born Approximation
+    learning_objectives:
+      - Derive the Born approximation as first-order perturbation in scattering
+      - Express scattering amplitude as Fourier transform of potential
+      - Calculate differential cross sections using Born approximation
+      - Identify validity conditions for Born approximation
+      - Apply to Coulomb and Yukawa potentials
+    textbook_style_content:
+      - topic: First Born Approximation
+        sections:
+          - section_title: Lippmann-Schwinger Equation
+            section_type: overview
+          - section_title: Perturbative Solution and Born Series
+            section_type: core_theory
+          - section_title: First Born Approximation Formula
+            section_type: core_theory
+          - section_title: Momentum Transfer and Form Factors
+            section_type: core_theory
+      - topic: Applications of Born Approximation
+        sections:
+          - section_title: Scattering from Yukawa Potential
+            section_type: core_theory
+          - section_title: Rutherford Scattering Formula
+            section_type: related_concepts
+          - section_title: Validity Criteria and Limitations
+            section_type: related_concepts
+          - section_title: Higher Order Born Approximations
+            section_type: related_concepts
+    milestone: Apply first-order Born approximation to calculate scattering cross sections
+    duration_days: 4
+    tags:
+      - Born approximation
+      - scattering amplitude
+      - Rutherford scattering
+      - momentum transfer
+      - perturbative scattering
+
+  - id: 14
+    title: Symmetries in Quantum Mechanical Systems
+    learning_objectives:
+      - Identify symmetry operations and their corresponding operators
+      - Apply parity operator to determine even and odd wavefunctions
+      - Derive selection rules from symmetry considerations
+      - Relate conserved quantities to symmetries via Noether's theorem
+      - Use time-reversal and rotational symmetries in problem solving
+    textbook_style_content:
+      - topic: Symmetry Operators and Conservation Laws
+        sections:
+          - section_title: Symmetries and Commuting Operators
+            section_type: overview
+          - section_title: Continuous and Discrete Symmetries
+            section_type: core_theory
+          - section_title: Noether's Theorem in Quantum Mechanics
+            section_type: related_concepts
+      - topic: Parity Symmetry
+        sections:
+          - section_title: Parity Operator and Eigenvalues
+            section_type: core_theory
+          - section_title: Even and Odd Wavefunctions
+            section_type: core_theory
+          - section_title: Parity Selection Rules in Transitions
+            section_type: core_theory
+      - topic: Other Important Symmetries
+        sections:
+          - section_title: Time-Reversal Symmetry
+            section_type: core_theory
+          - section_title: Rotational Symmetry and Angular Momentum Conservation
+            section_type: related_concepts
+          - section_title: Gauge Symmetry in Electromagnetic Fields
+            section_type: related_concepts
+          - section_title: Identical Particles and Exchange Symmetry
+            section_type: related_concepts
+    milestone: Apply symmetry principles to simplify problems and derive selection rules
+    duration_days: 6
+    tags:
+      - symmetry
+      - parity
+      - conservation laws
+      - selection rules
+      - time-reversal
+      - Noether theorem

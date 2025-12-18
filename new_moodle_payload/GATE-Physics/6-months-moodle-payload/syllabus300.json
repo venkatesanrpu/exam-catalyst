@@ -1,0 +1,5373 @@
+{
+  "subject": "Physics",
+  "subject_key": "physics",
+  "topics": [
+    {
+      "topic": "Mathematical Physics",
+      "topic_key": "mathematical_physics",
+      "lessons": [
+        {
+          "lesson": "Linear Vector Spaces",
+          "lesson_key": "linear_vector_spaces",
+          "chapters": [
+            {
+              "chapter": "Introduction to Vector Spaces"
+            },
+            {
+              "chapter": "Axioms and Properties of Vector Spaces"
+            },
+            {
+              "chapter": "Basis Vectors and Linear Independence"
+            },
+            {
+              "chapter": "Orthogonality and Inner Products"
+            },
+            {
+              "chapter": "Completeness Relations and Closure"
+            },
+            {
+              "chapter": "Hilbert Spaces and Function Spaces"
+            },
+            {
+              "chapter": "Applications to Quantum Mechanics"
+            }
+          ]
+        },
+        {
+          "lesson": "Matrices and Linear Transformations",
+          "lesson_key": "matrices_and_linear_transformations",
+          "chapters": [
+            {
+              "chapter": "Matrix Operations and Properties"
+            },
+            {
+              "chapter": "Linear Transformations and Matrix Representations"
+            },
+            {
+              "chapter": "Similarity Transformations and Change of Basis"
+            },
+            {
+              "chapter": "Eigenvalues and Eigenvectors"
+            },
+            {
+              "chapter": "Diagonalization Procedures"
+            },
+            {
+              "chapter": "Spectral Theorem for Hermitian Matrices"
+            },
+            {
+              "chapter": "Numerical Methods for Eigenvalue Problems"
+            },
+            {
+              "chapter": "Applications in Normal Mode Analysis"
+            }
+          ]
+        },
+        {
+          "lesson": "Linear Differential Equations",
+          "lesson_key": "linear_differential_equations",
+          "chapters": [
+            {
+              "chapter": "Classification of Differential Equations"
+            },
+            {
+              "chapter": "Homogeneous and Inhomogeneous Equations"
+            },
+            {
+              "chapter": "Power Series Solutions"
+            },
+            {
+              "chapter": "Frobenius Method for Regular Singular Points"
+            },
+            {
+              "chapter": "Boundary Value Problems and Eigenvalue Equations"
+            },
+            {
+              "chapter": "Sturm-Liouville Theory"
+            },
+            {
+              "chapter": "Green's Functions Method"
+            }
+          ]
+        },
+        {
+          "lesson": "Special Functions",
+          "lesson_key": "special_functions",
+          "chapters": [
+            {
+              "chapter": "Introduction to Special Functions"
+            },
+            {
+              "chapter": "Bessel Functions and Cylindrical Harmonics"
+            },
+            {
+              "chapter": "Legendre Polynomials and Spherical Harmonics"
+            },
+            {
+              "chapter": "Hermite Polynomials and Quantum Oscillator"
+            },
+            {
+              "chapter": "Laguerre Polynomials and Hydrogen Atom"
+            },
+            {
+              "chapter": "Recurrence Relations and Generating Functions"
+            },
+            {
+              "chapter": "Orthogonality and Completeness Properties"
+            },
+            {
+              "chapter": "Hypergeometric Functions"
+            },
+            {
+              "chapter": "Applications in Quantum Chemistry"
+            }
+          ]
+        },
+        {
+          "lesson": "Foundations of Complex Analysis",
+          "lesson_key": "foundations_of_complex_analysis",
+          "chapters": [
+            {
+              "chapter": "Complex Numbers and Complex Plane"
+            },
+            {
+              "chapter": "Complex Functions and Limits"
+            },
+            {
+              "chapter": "Cauchy-Riemann Equations"
+            },
+            {
+              "chapter": "Analytic and Harmonic Functions"
+            },
+            {
+              "chapter": "Multivalued Functions and Branch Cuts"
+            },
+            {
+              "chapter": "Conformal Mappings"
+            },
+            {
+              "chapter": "Applications to Electrostatics"
+            }
+          ]
+        },
+        {
+          "lesson": "Complex Integration",
+          "lesson_key": "complex_integration",
+          "chapters": [
+            {
+              "chapter": "Line Integrals in Complex Plane"
+            },
+            {
+              "chapter": "Cauchy's Integral Theorem"
+            },
+            {
+              "chapter": "Cauchy's Integral Formula"
+            },
+            {
+              "chapter": "Derivatives of Analytic Functions"
+            },
+            {
+              "chapter": "Maximum Modulus Principle"
+            },
+            {
+              "chapter": "Liouville's Theorem and Fundamental Theorem of Algebra"
+            },
+            {
+              "chapter": "Morera's Theorem"
+            }
+          ]
+        },
+        {
+          "lesson": "Singularities and Series Expansions",
+          "lesson_key": "singularities_and_series_expansions",
+          "chapters": [
+            {
+              "chapter": "Taylor Series in Complex Domain"
+            },
+            {
+              "chapter": "Laurent Series Expansion"
+            },
+            {
+              "chapter": "Classification of Isolated Singularities"
+            },
+            {
+              "chapter": "Removable Singularities and Poles"
+            },
+            {
+              "chapter": "Essential Singularities and Picard's Theorem"
+            },
+            {
+              "chapter": "Behavior at Infinity"
+            },
+            {
+              "chapter": "Analytic Continuation"
+            },
+            {
+              "chapter": "Riemann Surfaces"
+            }
+          ]
+        },
+        {
+          "lesson": "Residue Theory and Applications",
+          "lesson_key": "residue_theory_and_applications",
+          "chapters": [
+            {
+              "chapter": "The Residue Theorem"
+            },
+            {
+              "chapter": "Methods for Calculating Residues"
+            },
+            {
+              "chapter": "Evaluation of Real Definite Integrals"
+            },
+            {
+              "chapter": "Integrals with Trigonometric Functions"
+            },
+            {
+              "chapter": "Improper Integrals and Jordan's Lemma"
+            },
+            {
+              "chapter": "Integrals with Branch Points"
+            },
+            {
+              "chapter": "Summation of Infinite Series"
+            },
+            {
+              "chapter": "Applications in Quantum Field Theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Laplace Transform",
+          "lesson_key": "laplace_transform",
+          "chapters": [
+            {
+              "chapter": "Definition and Motivation"
+            },
+            {
+              "chapter": "Laplace Transform of Elementary Functions"
+            },
+            {
+              "chapter": "Properties and Theorems"
+            },
+            {
+              "chapter": "Shifting Theorems and Scaling"
+            },
+            {
+              "chapter": "Transform of Derivatives and Integrals"
+            },
+            {
+              "chapter": "Convolution Theorem"
+            },
+            {
+              "chapter": "Initial and Final Value Theorems"
+            },
+            {
+              "chapter": "Two-sided Laplace Transform"
+            }
+          ]
+        },
+        {
+          "lesson": "Inverse Laplace Transform and Applications",
+          "lesson_key": "inverse_laplace_transform_and_applications",
+          "chapters": [
+            {
+              "chapter": "Methods for Inverse Transformation"
+            },
+            {
+              "chapter": "Partial Fraction Expansion"
+            },
+            {
+              "chapter": "Bromwich Contour Integral"
+            },
+            {
+              "chapter": "Solving Differential Equations"
+            },
+            {
+              "chapter": "Systems of Differential Equations"
+            },
+            {
+              "chapter": "Transfer Functions and System Analysis"
+            },
+            {
+              "chapter": "Applications in Chemical Kinetics"
+            }
+          ]
+        },
+        {
+          "lesson": "Fourier Series",
+          "lesson_key": "fourier_series",
+          "chapters": [
+            {
+              "chapter": "Periodic Functions and Fourier Expansion"
+            },
+            {
+              "chapter": "Orthogonality of Trigonometric Functions"
+            },
+            {
+              "chapter": "Calculation of Fourier Coefficients"
+            },
+            {
+              "chapter": "Convergence of Fourier Series"
+            },
+            {
+              "chapter": "Sine and Cosine Series"
+            },
+            {
+              "chapter": "Complex Form of Fourier Series"
+            },
+            {
+              "chapter": "Gibbs Phenomenon"
+            },
+            {
+              "chapter": "Applications to Heat and Wave Equations"
+            }
+          ]
+        },
+        {
+          "lesson": "Fourier Transform",
+          "lesson_key": "fourier_transform",
+          "chapters": [
+            {
+              "chapter": "From Fourier Series to Fourier Transform"
+            },
+            {
+              "chapter": "Definition and Elementary Properties"
+            },
+            {
+              "chapter": "Fourier Transforms of Common Functions"
+            },
+            {
+              "chapter": "Transform Theorems and Properties"
+            },
+            {
+              "chapter": "Convolution Theorem"
+            },
+            {
+              "chapter": "Parseval's Theorem and Energy Spectrum"
+            },
+            {
+              "chapter": "Discrete and Fast Fourier Transform"
+            },
+            {
+              "chapter": "Applications in Spectroscopy and NMR"
+            }
+          ]
+        },
+        {
+          "lesson": "Tensor Fundamentals",
+          "lesson_key": "tensor_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Motivation and Physical Context"
+            },
+            {
+              "chapter": "Coordinate Transformations"
+            },
+            {
+              "chapter": "Contravariant Vectors and Tensors"
+            },
+            {
+              "chapter": "Covariant Vectors and One-Forms"
+            },
+            {
+              "chapter": "Mixed Tensors and Tensor Products"
+            },
+            {
+              "chapter": "Einstein Summation Convention"
+            },
+            {
+              "chapter": "Metric Tensor and Index Operations"
+            },
+            {
+              "chapter": "Applications in Continuum Mechanics"
+            }
+          ]
+        },
+        {
+          "lesson": "Tensor Calculus and Applications",
+          "lesson_key": "tensor_calculus_and_applications",
+          "chapters": [
+            {
+              "chapter": "Tensor Algebra Operations"
+            },
+            {
+              "chapter": "Contraction and Trace"
+            },
+            {
+              "chapter": "Tensor Transformation Properties"
+            },
+            {
+              "chapter": "Tensor Fields and Coordinate Patches"
+            },
+            {
+              "chapter": "Covariant Derivative Concepts"
+            },
+            {
+              "chapter": "Christoffel Symbols and Geodesics"
+            },
+            {
+              "chapter": "Stress-Energy Tensor in Physics"
+            },
+            {
+              "chapter": "Applications in General Relativity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Classical Mechanics",
+      "topic_key": "classical_mechanics",
+      "lessons": [
+        {
+          "lesson": "Foundation of Analytical Mechanics",
+          "lesson_key": "foundation_of_analytical_mechanics",
+          "chapters": [
+            {
+              "chapter": "From Newtonian to Lagrangian Mechanics"
+            },
+            {
+              "chapter": "Generalized Coordinates and Configuration Space"
+            },
+            {
+              "chapter": "Constraints and Virtual Displacements"
+            },
+            {
+              "chapter": "D'Alembert's Principle of Virtual Work"
+            }
+          ]
+        },
+        {
+          "lesson": "Variational Principles",
+          "lesson_key": "variational_principles",
+          "chapters": [
+            {
+              "chapter": "Calculus of Variations Fundamentals"
+            },
+            {
+              "chapter": "Euler Equation for Functionals"
+            },
+            {
+              "chapter": "Hamilton's Principle of Least Action"
+            },
+            {
+              "chapter": "Action Functionals and Path Integrals"
+            }
+          ]
+        },
+        {
+          "lesson": "Euler-Lagrange Equations",
+          "lesson_key": "euler_lagrange_equations",
+          "chapters": [
+            {
+              "chapter": "Derivation from Hamilton's Principle"
+            },
+            {
+              "chapter": "Lagrangian for Standard Mechanical Systems"
+            },
+            {
+              "chapter": "Solving Second-Order Differential Equations"
+            },
+            {
+              "chapter": "Generalized Momenta and Forces"
+            }
+          ]
+        },
+        {
+          "lesson": "Symmetries and Conservation Laws",
+          "lesson_key": "symmetries_and_conservation_laws",
+          "chapters": [
+            {
+              "chapter": "Continuous Symmetries in Lagrangian Systems"
+            },
+            {
+              "chapter": "Noether's Theorem and Its Proof"
+            },
+            {
+              "chapter": "Energy Conservation from Time Translation Symmetry"
+            },
+            {
+              "chapter": "Momentum Conservation from Space Translation Symmetry"
+            },
+            {
+              "chapter": "Angular Momentum Conservation from Rotational Symmetry"
+            }
+          ]
+        },
+        {
+          "lesson": "Central Force Motion",
+          "lesson_key": "central_force_motion",
+          "chapters": [
+            {
+              "chapter": "Two-Body Problem Reduction"
+            },
+            {
+              "chapter": "Lagrangian in Spherical Coordinates"
+            },
+            {
+              "chapter": "Effective Potential and Orbital Equations"
+            },
+            {
+              "chapter": "Conservation of Energy and Angular Momentum"
+            }
+          ]
+        },
+        {
+          "lesson": "Kepler Problem",
+          "lesson_key": "kepler_problem",
+          "chapters": [
+            {
+              "chapter": "Inverse-Square Law Potential"
+            },
+            {
+              "chapter": "Orbit Equation and Conic Sections"
+            },
+            {
+              "chapter": "Derivation of Kepler's Three Laws"
+            },
+            {
+              "chapter": "Orbital Periods and Semi-Major Axes"
+            }
+          ]
+        },
+        {
+          "lesson": "Rutherford Scattering",
+          "lesson_key": "rutherford_scattering",
+          "chapters": [
+            {
+              "chapter": "Coulomb Potential and Hyperbolic Orbits"
+            },
+            {
+              "chapter": "Scattering Angle and Impact Parameter"
+            },
+            {
+              "chapter": "Differential Cross-Section Formula"
+            },
+            {
+              "chapter": "Laboratory and Center-of-Mass Frames"
+            }
+          ]
+        },
+        {
+          "lesson": "Small Oscillations Theory",
+          "lesson_key": "small_oscillations_theory",
+          "chapters": [
+            {
+              "chapter": "Stability Analysis and Equilibrium Points"
+            },
+            {
+              "chapter": "Taylor Expansion of Potential Near Equilibrium"
+            },
+            {
+              "chapter": "Quadratic Approximation and Normal Coordinates"
+            },
+            {
+              "chapter": "Matrix Formulation of Coupled Oscillators"
+            }
+          ]
+        },
+        {
+          "lesson": "Normal Modes",
+          "lesson_key": "normal_modes",
+          "chapters": [
+            {
+              "chapter": "Eigenvalue Problem for Frequency Determination"
+            },
+            {
+              "chapter": "Eigenvectors as Normal Mode Patterns"
+            },
+            {
+              "chapter": "General Solution as Superposition of Modes"
+            },
+            {
+              "chapter": "Applications to Molecular Vibrations"
+            }
+          ]
+        },
+        {
+          "lesson": "Kinematics of Rigid Bodies",
+          "lesson_key": "kinematics_of_rigid_bodies",
+          "chapters": [
+            {
+              "chapter": "Definition and Constraints of Rigid Bodies"
+            },
+            {
+              "chapter": "Angular Velocity Vector and Rotation Axis"
+            },
+            {
+              "chapter": "Instantaneous Velocity of Body Points"
+            },
+            {
+              "chapter": "Body-Fixed and Space-Fixed Reference Frames"
+            }
+          ]
+        },
+        {
+          "lesson": "Orthogonal Transformations",
+          "lesson_key": "orthogonal_transformations",
+          "chapters": [
+            {
+              "chapter": "Rotation Matrices and SO(3) Group"
+            },
+            {
+              "chapter": "Properties of Orthogonal Matrices"
+            },
+            {
+              "chapter": "Composition of Rotations"
+            },
+            {
+              "chapter": "Infinitesimal Rotations and Lie Algebra"
+            }
+          ]
+        },
+        {
+          "lesson": "Inertia Tensor",
+          "lesson_key": "inertia_tensor",
+          "chapters": [
+            {
+              "chapter": "Definition and Physical Interpretation"
+            },
+            {
+              "chapter": "Moment of Inertia and Products of Inertia"
+            },
+            {
+              "chapter": "Parallel and Perpendicular Axis Theorems"
+            },
+            {
+              "chapter": "Principal Axes and Diagonalization"
+            },
+            {
+              "chapter": "Calculation for Standard Geometries"
+            }
+          ]
+        },
+        {
+          "lesson": "Euler Angles",
+          "lesson_key": "euler_angles",
+          "chapters": [
+            {
+              "chapter": "Parametrization of Three-Dimensional Rotations"
+            },
+            {
+              "chapter": "Definition of Precession, Nutation, and Spin Angles"
+            },
+            {
+              "chapter": "Rotation Matrix in Euler Angle Representation"
+            },
+            {
+              "chapter": "Angular Velocity Components in Body Frame"
+            }
+          ]
+        },
+        {
+          "lesson": "Dynamics of Symmetric Tops",
+          "lesson_key": "dynamics_of_symmetric_tops",
+          "chapters": [
+            {
+              "chapter": "Euler's Equations for Rigid Body Motion"
+            },
+            {
+              "chapter": "Torque-Free Motion and Conservation Laws"
+            },
+            {
+              "chapter": "Symmetric Top Solution and Precession"
+            },
+            {
+              "chapter": "Stability Analysis and Wobbling Motion"
+            },
+            {
+              "chapter": "Heavy Symmetric Top with Gravity"
+            }
+          ]
+        },
+        {
+          "lesson": "Transition to Phase Space",
+          "lesson_key": "transition_to_phase_space",
+          "chapters": [
+            {
+              "chapter": "Limitations of Lagrangian Formulation"
+            },
+            {
+              "chapter": "Configuration Space versus Phase Space"
+            },
+            {
+              "chapter": "Generalized Momenta Definition"
+            },
+            {
+              "chapter": "Legendre Transformation from L to H"
+            }
+          ]
+        },
+        {
+          "lesson": "Hamiltonian Function",
+          "lesson_key": "hamiltonian_function",
+          "chapters": [
+            {
+              "chapter": "Definition and Physical Interpretation"
+            },
+            {
+              "chapter": "Hamiltonian as Total Energy for Natural Systems"
+            },
+            {
+              "chapter": "Cyclic Coordinates and Conserved Momenta"
+            },
+            {
+              "chapter": "Time-Dependent Hamiltonians"
+            }
+          ]
+        },
+        {
+          "lesson": "Hamilton's Canonical Equations",
+          "lesson_key": "hamilton_s_canonical_equations",
+          "chapters": [
+            {
+              "chapter": "Derivation from Action Principle"
+            },
+            {
+              "chapter": "First-Order System in Phase Space"
+            },
+            {
+              "chapter": "Symmetry Between Coordinates and Momenta"
+            },
+            {
+              "chapter": "Phase Space Trajectories and Flow"
+            }
+          ]
+        },
+        {
+          "lesson": "Liouville's Theorem",
+          "lesson_key": "liouville_s_theorem",
+          "chapters": [
+            {
+              "chapter": "Phase Space Volume and Probability Density"
+            },
+            {
+              "chapter": "Divergence of Phase Space Velocity Field"
+            },
+            {
+              "chapter": "Proof of Phase Space Volume Conservation"
+            },
+            {
+              "chapter": "Incompressibility of Hamiltonian Flow"
+            },
+            {
+              "chapter": "Connection to Statistical Mechanics"
+            }
+          ]
+        },
+        {
+          "lesson": "Problem Solving in Phase Space",
+          "lesson_key": "problem_solving_in_phase_space",
+          "chapters": [
+            {
+              "chapter": "Harmonic Oscillator in Phase Space"
+            },
+            {
+              "chapter": "Phase Portraits and Fixed Points"
+            },
+            {
+              "chapter": "Separable Hamiltonian Systems"
+            },
+            {
+              "chapter": "Advantage of Hamiltonian Formalism for Symmetries"
+            }
+          ]
+        },
+        {
+          "lesson": "Canonical Transformations",
+          "lesson_key": "canonical_transformations",
+          "chapters": [
+            {
+              "chapter": "Motivation and Definition"
+            },
+            {
+              "chapter": "Preservation of Hamiltonian Structure"
+            },
+            {
+              "chapter": "Generating Functions of Four Types"
+            },
+            {
+              "chapter": "Symplectic Condition and Matrix Representation"
+            },
+            {
+              "chapter": "Infinitesimal Canonical Transformations"
+            }
+          ]
+        },
+        {
+          "lesson": "Poisson Brackets",
+          "lesson_key": "poisson_brackets",
+          "chapters": [
+            {
+              "chapter": "Definition and Fundamental Properties"
+            },
+            {
+              "chapter": "Canonical Poisson Bracket Relations"
+            },
+            {
+              "chapter": "Time Evolution of Observables"
+            },
+            {
+              "chapter": "Poisson Bracket and Constants of Motion"
+            },
+            {
+              "chapter": "Jacobi Identity and Lie Algebra Structure"
+            },
+            {
+              "chapter": "Connection to Quantum Commutators"
+            }
+          ]
+        },
+        {
+          "lesson": "Action-Angle Variables",
+          "lesson_key": "action_angle_variables",
+          "chapters": [
+            {
+              "chapter": "Integrable Systems and Complete Integrability"
+            },
+            {
+              "chapter": "Action Variables as Adiabatic Invariants"
+            },
+            {
+              "chapter": "Angle Variables and Periodic Motion"
+            },
+            {
+              "chapter": "Canonical Transformation to Action-Angle Coordinates"
+            },
+            {
+              "chapter": "Applications to Harmonic Oscillator and Kepler Problem"
+            }
+          ]
+        },
+        {
+          "lesson": "Hamilton-Jacobi Theory",
+          "lesson_key": "hamilton_jacobi_theory",
+          "chapters": [
+            {
+              "chapter": "Hamilton-Jacobi Equation Formulation"
+            },
+            {
+              "chapter": "Hamilton's Principal Function and Action"
+            },
+            {
+              "chapter": "Separation of Variables Method"
+            },
+            {
+              "chapter": "Complete Integral and Solution Construction"
+            },
+            {
+              "chapter": "Connection to Wave Mechanics"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Applications",
+          "lesson_key": "advanced_applications",
+          "chapters": [
+            {
+              "chapter": "Perturbation Theory Using Canonical Transformations"
+            },
+            {
+              "chapter": "KAM Theory and Chaos Threshold"
+            },
+            {
+              "chapter": "Canonical Quantization Procedure"
+            }
+          ]
+        },
+        {
+          "lesson": "Foundations of Special Relativity",
+          "lesson_key": "foundations_of_special_relativity",
+          "chapters": [
+            {
+              "chapter": "Failure of Galilean Relativity for Electromagnetism"
+            },
+            {
+              "chapter": "Michelson-Morley Experiment and Ether Hypothesis"
+            },
+            {
+              "chapter": "Einstein's Two Postulates"
+            },
+            {
+              "chapter": "Relativity of Simultaneity"
+            }
+          ]
+        },
+        {
+          "lesson": "Lorentz Transformations",
+          "lesson_key": "lorentz_transformations",
+          "chapters": [
+            {
+              "chapter": "Derivation from Invariance of Light Speed"
+            },
+            {
+              "chapter": "Spacetime Intervals and Invariant Quantities"
+            },
+            {
+              "chapter": "Boost Transformations and Rapidity"
+            },
+            {
+              "chapter": "Lorentz Group and Composition of Boosts"
+            }
+          ]
+        },
+        {
+          "lesson": "Relativistic Kinematics",
+          "lesson_key": "relativistic_kinematics",
+          "chapters": [
+            {
+              "chapter": "Time Dilation and Proper Time"
+            },
+            {
+              "chapter": "Length Contraction and Proper Length"
+            },
+            {
+              "chapter": "Relativistic Velocity Addition Formula"
+            },
+            {
+              "chapter": "Doppler Effect for Light"
+            },
+            {
+              "chapter": "Twin Paradox Resolution"
+            }
+          ]
+        },
+        {
+          "lesson": "Four-Vector Formalism",
+          "lesson_key": "four_vector_formalism",
+          "chapters": [
+            {
+              "chapter": "Spacetime as Four-Dimensional Manifold"
+            },
+            {
+              "chapter": "Contravariant and Covariant Four-Vectors"
+            },
+            {
+              "chapter": "Minkowski Metric and Inner Products"
+            },
+            {
+              "chapter": "Four-Velocity and Four-Acceleration"
+            },
+            {
+              "chapter": "Lorentz Invariance of Physical Laws"
+            }
+          ]
+        },
+        {
+          "lesson": "Relativistic Dynamics",
+          "lesson_key": "relativistic_dynamics",
+          "chapters": [
+            {
+              "chapter": "Relativistic Momentum and Energy"
+            },
+            {
+              "chapter": "Mass-Energy Equivalence E = mc²"
+            },
+            {
+              "chapter": "Energy-Momentum Four-Vector"
+            },
+            {
+              "chapter": "Relativistic Energy-Momentum Relation"
+            },
+            {
+              "chapter": "Massless Particles and Photon Dynamics"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications to Particle Physics",
+          "lesson_key": "applications_to_particle_physics",
+          "chapters": [
+            {
+              "chapter": "Relativistic Collisions and Conservation Laws"
+            },
+            {
+              "chapter": "Threshold Energies for Particle Production"
+            },
+            {
+              "chapter": "Compton Scattering"
+            },
+            {
+              "chapter": "Center-of-Mass and Laboratory Frames"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Electromagnetic Theory",
+      "topic_key": "electromagnetic_theory",
+      "lessons": [
+        {
+          "lesson": "Foundations of Electrostatics",
+          "lesson_key": "foundations_of_electrostatics",
+          "chapters": [
+            {
+              "chapter": "Coulomb's Law and Electric Field"
+            },
+            {
+              "chapter": "Gauss's Law and Differential Form"
+            },
+            {
+              "chapter": "Electric Potential and Poisson's Equation"
+            },
+            {
+              "chapter": "Vector Calculus Foundations"
+            }
+          ]
+        },
+        {
+          "lesson": "Boundary Value Problems in Electrostatics",
+          "lesson_key": "boundary_value_problems_in_electrostatics",
+          "chapters": [
+            {
+              "chapter": "Laplace and Poisson Equations"
+            },
+            {
+              "chapter": "Uniqueness Theorem"
+            },
+            {
+              "chapter": "Method of Images for Point Charges"
+            },
+            {
+              "chapter": "Images for Grounded Conductors and Dielectric Boundaries"
+            }
+          ]
+        },
+        {
+          "lesson": "Separation of Variables Technique",
+          "lesson_key": "separation_of_variables_technique",
+          "chapters": [
+            {
+              "chapter": "Cartesian Coordinate Solutions"
+            },
+            {
+              "chapter": "Spherical Harmonics and Legendre Polynomials"
+            },
+            {
+              "chapter": "Cylindrical Coordinate Solutions with Bessel Functions"
+            },
+            {
+              "chapter": "Boundary Condition Application"
+            }
+          ]
+        },
+        {
+          "lesson": "Dielectrics and Conductors",
+          "lesson_key": "dielectrics_and_conductors",
+          "chapters": [
+            {
+              "chapter": "Polarization and Bound Charges"
+            },
+            {
+              "chapter": "Electric Displacement Field"
+            },
+            {
+              "chapter": "Boundary Conditions at Dielectric Interfaces"
+            },
+            {
+              "chapter": "Conductors in Electrostatic Equilibrium"
+            },
+            {
+              "chapter": "Capacitance and Energy Storage"
+            }
+          ]
+        },
+        {
+          "lesson": "Multipole Expansion",
+          "lesson_key": "multipole_expansion",
+          "chapters": [
+            {
+              "chapter": "Monopole, Dipole, and Quadrupole Moments"
+            },
+            {
+              "chapter": "General Multipole Expansion Formula"
+            },
+            {
+              "chapter": "Energy of Charge Distribution in External Field"
+            }
+          ]
+        },
+        {
+          "lesson": "Fundamentals of Magnetostatics",
+          "lesson_key": "fundamentals_of_magnetostatics",
+          "chapters": [
+            {
+              "chapter": "Lorentz Force and Magnetic Field Definition"
+            },
+            {
+              "chapter": "Biot-Savart Law for Current Elements"
+            },
+            {
+              "chapter": "Ampère's Law in Integral and Differential Forms"
+            },
+            {
+              "chapter": "Divergence-Free Nature of Magnetic Field"
+            }
+          ]
+        },
+        {
+          "lesson": "Vector Potential and Magnetostatic Problems",
+          "lesson_key": "vector_potential_and_magnetostatic_problems",
+          "chapters": [
+            {
+              "chapter": "Vector Potential Definition and Gauge Freedom"
+            },
+            {
+              "chapter": "Poisson Equation for Vector Potential"
+            },
+            {
+              "chapter": "Boundary Value Problems in Magnetostatics"
+            },
+            {
+              "chapter": "Magnetic Multipole Expansion"
+            }
+          ]
+        },
+        {
+          "lesson": "Magnetic Materials",
+          "lesson_key": "magnetic_materials",
+          "chapters": [
+            {
+              "chapter": "Magnetization and Bound Currents"
+            },
+            {
+              "chapter": "Magnetic Field H and Auxiliary Field"
+            },
+            {
+              "chapter": "Boundary Conditions at Magnetic Interfaces"
+            },
+            {
+              "chapter": "Diamagnetism, Paramagnetism, and Ferromagnetism"
+            },
+            {
+              "chapter": "Magnetic Susceptibility and Permeability"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Magnetostatic Applications",
+          "lesson_key": "advanced_magnetostatic_applications",
+          "chapters": [
+            {
+              "chapter": "Magnetic Dipole Moment"
+            },
+            {
+              "chapter": "Inductance and Magnetic Energy"
+            },
+            {
+              "chapter": "Forces and Torques on Magnetic Dipoles"
+            }
+          ]
+        },
+        {
+          "lesson": "Time-Varying Fields and Faraday's Law",
+          "lesson_key": "time_varying_fields_and_faraday_s_law",
+          "chapters": [
+            {
+              "chapter": "Electromagnetic Induction Phenomena"
+            },
+            {
+              "chapter": "Faraday's Law of Induction"
+            },
+            {
+              "chapter": "Induced Electric Fields"
+            },
+            {
+              "chapter": "Lenz's Law and Energy Conservation"
+            }
+          ]
+        },
+        {
+          "lesson": "Displacement Current and Ampère-Maxwell Law",
+          "lesson_key": "displacement_current_and_ampère_maxwell_law",
+          "chapters": [
+            {
+              "chapter": "Inconsistency in Ampère's Law"
+            },
+            {
+              "chapter": "Maxwell's Displacement Current"
+            },
+            {
+              "chapter": "Modified Ampère's Law"
+            },
+            {
+              "chapter": "Physical Interpretation and Consequences"
+            }
+          ]
+        },
+        {
+          "lesson": "Complete Maxwell's Equations",
+          "lesson_key": "complete_maxwell_s_equations",
+          "chapters": [
+            {
+              "chapter": "Four Maxwell Equations in Vacuum"
+            },
+            {
+              "chapter": "Maxwell Equations in Matter"
+            },
+            {
+              "chapter": "Continuity Equation and Charge Conservation"
+            },
+            {
+              "chapter": "Symmetry and Asymmetry in Maxwell's Equations"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Potentials",
+          "lesson_key": "electromagnetic_potentials",
+          "chapters": [
+            {
+              "chapter": "Scalar Potential and Vector Potential Definitions"
+            },
+            {
+              "chapter": "Gauge Transformations and Gauge Invariance"
+            },
+            {
+              "chapter": "Coulomb Gauge (Transverse Gauge)"
+            },
+            {
+              "chapter": "Lorentz Gauge (Lorenz Gauge)"
+            },
+            {
+              "chapter": "Wave Equations for Potentials"
+            },
+            {
+              "chapter": "Gauge Theory Foundations"
+            }
+          ]
+        },
+        {
+          "lesson": "Wave Equation Derivation",
+          "lesson_key": "wave_equation_derivation",
+          "chapters": [
+            {
+              "chapter": "From Maxwell to Wave Equations"
+            },
+            {
+              "chapter": "Wave Equations for E and B Fields"
+            },
+            {
+              "chapter": "General Wave Solution and Plane Waves"
+            },
+            {
+              "chapter": "Partial Differential Equations for Waves"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Waves in Free Space",
+          "lesson_key": "electromagnetic_waves_in_free_space",
+          "chapters": [
+            {
+              "chapter": "Plane Wave Solutions in Vacuum"
+            },
+            {
+              "chapter": "Transverse Nature of EM Waves"
+            },
+            {
+              "chapter": "Relationship Between E and B in Plane Waves"
+            },
+            {
+              "chapter": "Speed of Light from Maxwell's Equations"
+            },
+            {
+              "chapter": "Wave Vector and Frequency Relations"
+            }
+          ]
+        },
+        {
+          "lesson": "Waves in Non-Conducting Dielectric Media",
+          "lesson_key": "waves_in_non_conducting_dielectric_media",
+          "chapters": [
+            {
+              "chapter": "Modified Wave Equation in Dielectrics"
+            },
+            {
+              "chapter": "Refractive Index and Permittivity"
+            },
+            {
+              "chapter": "Phase Velocity and Group Velocity"
+            },
+            {
+              "chapter": "Dispersion in Dielectric Materials"
+            }
+          ]
+        },
+        {
+          "lesson": "Waves in Conducting Media",
+          "lesson_key": "waves_in_conducting_media",
+          "chapters": [
+            {
+              "chapter": "Complex Wave Vector in Conductors"
+            },
+            {
+              "chapter": "Attenuation and Skin Depth"
+            },
+            {
+              "chapter": "Good Conductor Approximation"
+            },
+            {
+              "chapter": "Plasma Frequency and Cutoff"
+            },
+            {
+              "chapter": "Impedance of Conducting Media"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Boundary Conditions",
+          "lesson_key": "electromagnetic_boundary_conditions",
+          "chapters": [
+            {
+              "chapter": "Boundary Conditions for E and B Fields"
+            },
+            {
+              "chapter": "Continuity of Tangential Components"
+            },
+            {
+              "chapter": "Discontinuity of Normal Components"
+            },
+            {
+              "chapter": "Derivation from Maxwell's Equations"
+            }
+          ]
+        },
+        {
+          "lesson": "Normal Incidence Reflection and Transmission",
+          "lesson_key": "normal_incidence_reflection_and_transmission",
+          "chapters": [
+            {
+              "chapter": "Wave Incident Perpendicular to Interface"
+            },
+            {
+              "chapter": "Reflection and Transmission Coefficients"
+            },
+            {
+              "chapter": "Standing Wave Patterns"
+            },
+            {
+              "chapter": "Impedance Matching Concepts"
+            }
+          ]
+        },
+        {
+          "lesson": "Oblique Incidence and Fresnel Equations",
+          "lesson_key": "oblique_incidence_and_fresnel_equations",
+          "chapters": [
+            {
+              "chapter": "Snell's Law from Boundary Conditions"
+            },
+            {
+              "chapter": "s-Polarization (TE) Fresnel Coefficients"
+            },
+            {
+              "chapter": "p-Polarization (TM) Fresnel Coefficients"
+            },
+            {
+              "chapter": "Total Internal Reflection"
+            },
+            {
+              "chapter": "Brewster Angle and Zero Reflection"
+            },
+            {
+              "chapter": "Evanescent Waves"
+            }
+          ]
+        },
+        {
+          "lesson": "Polarization of Electromagnetic Waves",
+          "lesson_key": "polarization_of_electromagnetic_waves",
+          "chapters": [
+            {
+              "chapter": "Linear Polarization States"
+            },
+            {
+              "chapter": "Circular and Elliptical Polarization"
+            },
+            {
+              "chapter": "Jones Vector and Matrix Formalism"
+            },
+            {
+              "chapter": "Stokes Parameters"
+            },
+            {
+              "chapter": "Polarization by Reflection and Transmission"
+            },
+            {
+              "chapter": "Birefringence and Wave Plates"
+            }
+          ]
+        },
+        {
+          "lesson": "Energy in Electromagnetic Fields",
+          "lesson_key": "energy_in_electromagnetic_fields",
+          "chapters": [
+            {
+              "chapter": "Energy Density in Electric and Magnetic Fields"
+            },
+            {
+              "chapter": "Work Done by Electromagnetic Forces"
+            },
+            {
+              "chapter": "Energy Storage in Static Fields"
+            }
+          ]
+        },
+        {
+          "lesson": "Poynting Vector and Energy Flow",
+          "lesson_key": "poynting_vector_and_energy_flow",
+          "chapters": [
+            {
+              "chapter": "Derivation of Poynting Vector"
+            },
+            {
+              "chapter": "Physical Interpretation of S = (E × H)/μ₀"
+            },
+            {
+              "chapter": "Energy Flux Density"
+            },
+            {
+              "chapter": "Poynting Vector for Plane Waves"
+            }
+          ]
+        },
+        {
+          "lesson": "Poynting Theorem and Energy Conservation",
+          "lesson_key": "poynting_theorem_and_energy_conservation",
+          "chapters": [
+            {
+              "chapter": "Derivation from Maxwell's Equations"
+            },
+            {
+              "chapter": "Differential Form of Energy Conservation"
+            },
+            {
+              "chapter": "Integral Form and Interpretation"
+            },
+            {
+              "chapter": "Ohmic Losses and Joule Heating"
+            },
+            {
+              "chapter": "Energy Balance in Electromagnetic Systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Momentum of Electromagnetic Waves",
+          "lesson_key": "momentum_of_electromagnetic_waves",
+          "chapters": [
+            {
+              "chapter": "Electromagnetic Momentum Density"
+            },
+            {
+              "chapter": "Radiation Pressure"
+            },
+            {
+              "chapter": "Maxwell Stress Tensor"
+            },
+            {
+              "chapter": "Angular Momentum of Light"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications and Examples",
+          "lesson_key": "applications_and_examples",
+          "chapters": [
+            {
+              "chapter": "Energy Transport in Transmission Lines"
+            },
+            {
+              "chapter": "Energy Flow in Waveguides and Cavities"
+            },
+            {
+              "chapter": "Absorption and Emission of Energy"
+            }
+          ]
+        },
+        {
+          "lesson": "Retarded Potentials",
+          "lesson_key": "retarded_potentials",
+          "chapters": [
+            {
+              "chapter": "Causality and Finite Signal Propagation"
+            },
+            {
+              "chapter": "Solution to Inhomogeneous Wave Equations"
+            },
+            {
+              "chapter": "Retarded Time Concept"
+            },
+            {
+              "chapter": "Liénard-Wiechert Potentials for Moving Point Charges"
+            }
+          ]
+        },
+        {
+          "lesson": "Fields of Accelerating Charges",
+          "lesson_key": "fields_of_accelerating_charges",
+          "chapters": [
+            {
+              "chapter": "Electric and Magnetic Fields from Liénard-Wiechert Potentials"
+            },
+            {
+              "chapter": "Velocity Fields and Acceleration Fields"
+            },
+            {
+              "chapter": "Near Zone vs Far Zone Behavior"
+            },
+            {
+              "chapter": "Radiation Zone Approximation"
+            }
+          ]
+        },
+        {
+          "lesson": "Radiation from Accelerating Point Charges",
+          "lesson_key": "radiation_from_accelerating_point_charges",
+          "chapters": [
+            {
+              "chapter": "Larmor Formula for Radiated Power"
+            },
+            {
+              "chapter": "Angular Distribution of Radiated Energy"
+            },
+            {
+              "chapter": "Radiation from Linear Acceleration"
+            },
+            {
+              "chapter": "Radiation Reaction and Self-Force"
+            }
+          ]
+        },
+        {
+          "lesson": "Dipole Radiation",
+          "lesson_key": "dipole_radiation",
+          "chapters": [
+            {
+              "chapter": "Electric Dipole Oscillator"
+            },
+            {
+              "chapter": "Radiation Pattern and Polarization"
+            },
+            {
+              "chapter": "Time-Averaged Power for Dipole Radiation"
+            },
+            {
+              "chapter": "Magnetic Dipole and Electric Quadrupole Radiation"
+            }
+          ]
+        },
+        {
+          "lesson": "Special Radiation Mechanisms",
+          "lesson_key": "special_radiation_mechanisms",
+          "chapters": [
+            {
+              "chapter": "Synchrotron Radiation from Circular Motion"
+            },
+            {
+              "chapter": "Bremsstrahlung (Braking Radiation)"
+            },
+            {
+              "chapter": "Cerenkov Radiation"
+            },
+            {
+              "chapter": "Relativistic Effects in Radiation"
+            }
+          ]
+        },
+        {
+          "lesson": "Antenna Theory Basics",
+          "lesson_key": "antenna_theory_basics",
+          "chapters": [
+            {
+              "chapter": "Half-Wave Dipole Antenna"
+            },
+            {
+              "chapter": "Antenna Gain and Directivity"
+            },
+            {
+              "chapter": "Radiation Resistance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Quantum Mechanics",
+      "topic_key": "quantum_mechanics",
+      "lessons": [
+        {
+          "lesson": "Mathematical Framework of Quantum Mechanics",
+          "lesson_key": "mathematical_framework_of_quantum_mechanics",
+          "chapters": [
+            {
+              "chapter": "The Quantum Postulates"
+            },
+            {
+              "chapter": "Hilbert Space and State Vectors"
+            },
+            {
+              "chapter": "Dirac Notation and Bra-Ket Formalism"
+            },
+            {
+              "chapter": "Linear Operators and Observables"
+            }
+          ]
+        },
+        {
+          "lesson": "The Schrodinger Equation",
+          "lesson_key": "the_schrodinger_equation",
+          "chapters": [
+            {
+              "chapter": "Time-Dependent Schrodinger Equation"
+            },
+            {
+              "chapter": "Time-Independent Schrodinger Equation and Stationary States"
+            },
+            {
+              "chapter": "Probability Current and Conservation"
+            }
+          ]
+        },
+        {
+          "lesson": "Uncertainty Principle",
+          "lesson_key": "uncertainty_principle",
+          "chapters": [
+            {
+              "chapter": "Derivation from Commutator Relations"
+            },
+            {
+              "chapter": "Position-Momentum Uncertainty"
+            },
+            {
+              "chapter": "Energy-Time Uncertainty"
+            }
+          ]
+        },
+        {
+          "lesson": "Step Potential",
+          "lesson_key": "step_potential",
+          "chapters": [
+            {
+              "chapter": "Potential Step with E > V₀"
+            },
+            {
+              "chapter": "Potential Step with E < V₀ and Evanescent Waves"
+            },
+            {
+              "chapter": "Reflection and Transmission Coefficients"
+            }
+          ]
+        },
+        {
+          "lesson": "Finite Rectangular Potential Barrier",
+          "lesson_key": "finite_rectangular_potential_barrier",
+          "chapters": [
+            {
+              "chapter": "Quantum Tunneling Phenomenon"
+            },
+            {
+              "chapter": "Wavefunction Solutions in Three Regions"
+            },
+            {
+              "chapter": "Tunneling Probability and Barrier Penetration"
+            },
+            {
+              "chapter": "Applications in Nuclear Physics and Electronics"
+            }
+          ]
+        },
+        {
+          "lesson": "Particle in a Box (Infinite Square Well)",
+          "lesson_key": "particle_in_a_box_infinite_square_well",
+          "chapters": [
+            {
+              "chapter": "Boundary Conditions and Quantization"
+            },
+            {
+              "chapter": "Energy Eigenvalues and Eigenfunctions"
+            },
+            {
+              "chapter": "Probability Distributions and Expectation Values"
+            },
+            {
+              "chapter": "Zero-Point Energy and Quantum Confinement"
+            }
+          ]
+        },
+        {
+          "lesson": "Finite Rectangular Well",
+          "lesson_key": "finite_rectangular_well",
+          "chapters": [
+            {
+              "chapter": "Piecewise Potential Definition"
+            },
+            {
+              "chapter": "Symmetric and Antisymmetric Solutions"
+            },
+            {
+              "chapter": "Graphical Solution and Bound State Count"
+            },
+            {
+              "chapter": "Comparison with Classical Motion"
+            }
+          ]
+        },
+        {
+          "lesson": "Harmonic Oscillator - Analytical Solution",
+          "lesson_key": "harmonic_oscillator_analytical_solution",
+          "chapters": [
+            {
+              "chapter": "Classical Harmonic Oscillator Review"
+            },
+            {
+              "chapter": "Schrodinger Equation for Parabolic Potential"
+            },
+            {
+              "chapter": "Series Solution and Hermite Polynomials"
+            },
+            {
+              "chapter": "Energy Eigenvalues and Wavefunctions"
+            }
+          ]
+        },
+        {
+          "lesson": "Ladder Operator Formalism",
+          "lesson_key": "ladder_operator_formalism",
+          "chapters": [
+            {
+              "chapter": "Creation and Annihilation Operators"
+            },
+            {
+              "chapter": "Commutation Relations and Number Operator"
+            },
+            {
+              "chapter": "Algebraic Derivation of Energy Spectrum"
+            },
+            {
+              "chapter": "Coherent States and Classical Limit"
+            }
+          ]
+        },
+        {
+          "lesson": "Two Dimensional Systems",
+          "lesson_key": "two_dimensional_systems",
+          "chapters": [
+            {
+              "chapter": "Schrodinger Equation in Two Dimensions"
+            },
+            {
+              "chapter": "Particle in a Rectangular Box"
+            },
+            {
+              "chapter": "Degeneracy in Square Boxes"
+            }
+          ]
+        },
+        {
+          "lesson": "Three Dimensional Systems",
+          "lesson_key": "three_dimensional_systems",
+          "chapters": [
+            {
+              "chapter": "Cartesian Coordinates and Separation of Variables"
+            },
+            {
+              "chapter": "Particle in a Three-Dimensional Cubic Box"
+            },
+            {
+              "chapter": "Energy Degeneracy and Quantum Numbers"
+            },
+            {
+              "chapter": "Spherical Coordinates Introduction"
+            }
+          ]
+        },
+        {
+          "lesson": "Spherical Coordinates and Angular Equation",
+          "lesson_key": "spherical_coordinates_and_angular_equation",
+          "chapters": [
+            {
+              "chapter": "Laplacian in Spherical Coordinates"
+            },
+            {
+              "chapter": "Separation into Radial and Angular Parts"
+            },
+            {
+              "chapter": "Associated Legendre Polynomials"
+            },
+            {
+              "chapter": "Spherical Harmonics Y_lm"
+            }
+          ]
+        },
+        {
+          "lesson": "Hydrogen Atom - The Paradigmatic Three-Body Problem",
+          "lesson_key": "hydrogen_atom_the_paradigmatic_three_body_problem",
+          "chapters": [
+            {
+              "chapter": "Coulomb Potential and Reduced Mass"
+            },
+            {
+              "chapter": "Radial Schrodinger Equation"
+            },
+            {
+              "chapter": "Laguerre Polynomials and Radial Wavefunctions"
+            },
+            {
+              "chapter": "Energy Eigenvalues and Bohr Radius"
+            },
+            {
+              "chapter": "Quantum Numbers n, l, m and Electron Orbitals"
+            },
+            {
+              "chapter": "Radial Probability Distributions"
+            },
+            {
+              "chapter": "Degeneracy in Hydrogen and Accidental Degeneracy"
+            }
+          ]
+        },
+        {
+          "lesson": "Orbital Angular Momentum",
+          "lesson_key": "orbital_angular_momentum",
+          "chapters": [
+            {
+              "chapter": "Classical to Quantum Angular Momentum"
+            },
+            {
+              "chapter": "Angular Momentum Operators and Commutators"
+            },
+            {
+              "chapter": "Ladder Operators L₊ and L₋"
+            },
+            {
+              "chapter": "Eigenvalue Spectrum of L² and Lz"
+            },
+            {
+              "chapter": "Spherical Harmonics as Angular Momentum Eigenfunctions"
+            }
+          ]
+        },
+        {
+          "lesson": "Spin Angular Momentum",
+          "lesson_key": "spin_angular_momentum",
+          "chapters": [
+            {
+              "chapter": "Intrinsic Angular Momentum without Spatial Dependence"
+            },
+            {
+              "chapter": "Stern-Gerlach Experiment"
+            },
+            {
+              "chapter": "Spin-1/2 Systems and Spinors"
+            },
+            {
+              "chapter": "Pauli Spin Matrices"
+            },
+            {
+              "chapter": "Eigenstates and Eigenvalues of Spin Operators"
+            }
+          ]
+        },
+        {
+          "lesson": "Coupling of Two Angular Momenta",
+          "lesson_key": "coupling_of_two_angular_momenta",
+          "chapters": [
+            {
+              "chapter": "Tensor Product of Hilbert Spaces"
+            },
+            {
+              "chapter": "Uncoupled and Coupled Representations"
+            },
+            {
+              "chapter": "Total Angular Momentum Operators"
+            },
+            {
+              "chapter": "Allowed Values of j in j₁ ⊗ j₂"
+            }
+          ]
+        },
+        {
+          "lesson": "Clebsch-Gordan Coefficients",
+          "lesson_key": "clebsch_gordan_coefficients",
+          "chapters": [
+            {
+              "chapter": "Basis Transformation Between Representations"
+            },
+            {
+              "chapter": "Calculation Methods and Recursion Relations"
+            },
+            {
+              "chapter": "Symmetry Properties of CG Coefficients"
+            },
+            {
+              "chapter": "Applications to Atomic Spectroscopy"
+            }
+          ]
+        },
+        {
+          "lesson": "Variational Principle",
+          "lesson_key": "variational_principle",
+          "chapters": [
+            {
+              "chapter": "Rayleigh-Ritz Variational Theorem"
+            },
+            {
+              "chapter": "Upper Bound Property of Ground State Energy"
+            },
+            {
+              "chapter": "Choice of Trial Wavefunctions"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications of Variational Method",
+          "lesson_key": "applications_of_variational_method",
+          "chapters": [
+            {
+              "chapter": "Ground State of Helium Atom"
+            },
+            {
+              "chapter": "Linear Variational Method and Secular Equation"
+            },
+            {
+              "chapter": "Hydrogen Molecule Ion H₂⁺"
+            },
+            {
+              "chapter": "Optimization Strategies and Variational Parameters"
+            }
+          ]
+        },
+        {
+          "lesson": "Semi-Classical Approximation",
+          "lesson_key": "semi_classical_approximation",
+          "chapters": [
+            {
+              "chapter": "Classical Limit and Correspondence Principle"
+            },
+            {
+              "chapter": "WKB Ansatz and Slowly Varying Potential"
+            },
+            {
+              "chapter": "Connection Formulas at Turning Points"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications of WKB Method",
+          "lesson_key": "applications_of_wkb_method",
+          "chapters": [
+            {
+              "chapter": "Bohr-Sommerfeld Quantization Condition"
+            },
+            {
+              "chapter": "Tunneling Through Arbitrary Barriers"
+            },
+            {
+              "chapter": "Alpha Decay and Gamow Factor"
+            },
+            {
+              "chapter": "Validity Criteria for WKB Approximation"
+            }
+          ]
+        },
+        {
+          "lesson": "Non-Degenerate Perturbation Theory",
+          "lesson_key": "non_degenerate_perturbation_theory",
+          "chapters": [
+            {
+              "chapter": "Perturbative Expansion of Hamiltonian"
+            },
+            {
+              "chapter": "First-Order Energy Correction"
+            },
+            {
+              "chapter": "First-Order Wavefunction Correction"
+            },
+            {
+              "chapter": "Second-Order Energy Correction"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications and Extensions",
+          "lesson_key": "applications_and_extensions",
+          "chapters": [
+            {
+              "chapter": "Anharmonic Oscillator Perturbations"
+            },
+            {
+              "chapter": "Stark Effect in Hydrogen"
+            },
+            {
+              "chapter": "Zeeman Effect and Magnetic Perturbations"
+            }
+          ]
+        },
+        {
+          "lesson": "Degenerate Perturbation Theory",
+          "lesson_key": "degenerate_perturbation_theory",
+          "chapters": [
+            {
+              "chapter": "Lifting Degeneracy Through Perturbations"
+            },
+            {
+              "chapter": "Secular Equation and Good Quantum Numbers"
+            },
+            {
+              "chapter": "Fine Structure in Hydrogen Atom"
+            }
+          ]
+        },
+        {
+          "lesson": "Scattering Formalism",
+          "lesson_key": "scattering_formalism",
+          "chapters": [
+            {
+              "chapter": "Scattering Experiments and Observables"
+            },
+            {
+              "chapter": "Asymptotic Form of Scattering Wavefunctions"
+            },
+            {
+              "chapter": "Scattering Amplitude and Cross Section"
+            },
+            {
+              "chapter": "Differential and Total Cross Sections"
+            }
+          ]
+        },
+        {
+          "lesson": "Partial Wave Analysis",
+          "lesson_key": "partial_wave_analysis",
+          "chapters": [
+            {
+              "chapter": "Expansion in Legendre Polynomials"
+            },
+            {
+              "chapter": "Phase Shifts and S-Matrix"
+            },
+            {
+              "chapter": "Optical Theorem"
+            },
+            {
+              "chapter": "Low Energy Scattering and Effective Range"
+            }
+          ]
+        },
+        {
+          "lesson": "First Born Approximation",
+          "lesson_key": "first_born_approximation",
+          "chapters": [
+            {
+              "chapter": "Lippmann-Schwinger Equation"
+            },
+            {
+              "chapter": "Perturbative Solution and Born Series"
+            },
+            {
+              "chapter": "First Born Approximation Formula"
+            },
+            {
+              "chapter": "Momentum Transfer and Form Factors"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications of Born Approximation",
+          "lesson_key": "applications_of_born_approximation",
+          "chapters": [
+            {
+              "chapter": "Scattering from Yukawa Potential"
+            },
+            {
+              "chapter": "Rutherford Scattering Formula"
+            },
+            {
+              "chapter": "Validity Criteria and Limitations"
+            },
+            {
+              "chapter": "Higher Order Born Approximations"
+            }
+          ]
+        },
+        {
+          "lesson": "Symmetry Operators and Conservation Laws",
+          "lesson_key": "symmetry_operators_and_conservation_laws",
+          "chapters": [
+            {
+              "chapter": "Symmetries and Commuting Operators"
+            },
+            {
+              "chapter": "Continuous and Discrete Symmetries"
+            },
+            {
+              "chapter": "Noether's Theorem in Quantum Mechanics"
+            }
+          ]
+        },
+        {
+          "lesson": "Parity Symmetry",
+          "lesson_key": "parity_symmetry",
+          "chapters": [
+            {
+              "chapter": "Parity Operator and Eigenvalues"
+            },
+            {
+              "chapter": "Even and Odd Wavefunctions"
+            },
+            {
+              "chapter": "Parity Selection Rules in Transitions"
+            }
+          ]
+        },
+        {
+          "lesson": "Other Important Symmetries",
+          "lesson_key": "other_important_symmetries",
+          "chapters": [
+            {
+              "chapter": "Time-Reversal Symmetry"
+            },
+            {
+              "chapter": "Rotational Symmetry and Angular Momentum Conservation"
+            },
+            {
+              "chapter": "Gauge Symmetry in Electromagnetic Fields"
+            },
+            {
+              "chapter": "Identical Particles and Exchange Symmetry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Thermodynamics and Statistical Physics",
+      "topic_key": "thermodynamics_and_statistical_physics",
+      "lessons": [
+        {
+          "lesson": "Laws of Thermodynamics",
+          "lesson_key": "laws_of_thermodynamics",
+          "chapters": [
+            {
+              "chapter": "Introduction to Thermodynamic Systems"
+            },
+            {
+              "chapter": "Zeroth Law and Temperature"
+            },
+            {
+              "chapter": "First Law: Energy Conservation"
+            },
+            {
+              "chapter": "Second Law: Entropy and Irreversibility"
+            },
+            {
+              "chapter": "Third Law: Absolute Zero"
+            },
+            {
+              "chapter": "Thermodynamic Processes"
+            },
+            {
+              "chapter": "Carnot Cycle and Efficiency"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermodynamic Potentials",
+          "lesson_key": "thermodynamic_potentials",
+          "chapters": [
+            {
+              "chapter": "Internal Energy and Enthalpy"
+            },
+            {
+              "chapter": "Helmholtz and Gibbs Free Energy"
+            },
+            {
+              "chapter": "Legendre Transformations"
+            },
+            {
+              "chapter": "Maxwell Relations"
+            }
+          ]
+        },
+        {
+          "lesson": "Microscopic Foundation",
+          "lesson_key": "microscopic_foundation",
+          "chapters": [
+            {
+              "chapter": "From Mechanics to Statistical Physics"
+            },
+            {
+              "chapter": "Microstates and Macrostates"
+            },
+            {
+              "chapter": "Statistical Interpretation of Entropy"
+            },
+            {
+              "chapter": "Boltzmann Entropy Formula"
+            }
+          ]
+        },
+        {
+          "lesson": "Phase Space Description",
+          "lesson_key": "phase_space_description",
+          "chapters": [
+            {
+              "chapter": "Classical Phase Space"
+            },
+            {
+              "chapter": "Liouville Theorem"
+            },
+            {
+              "chapter": "Volume Elements in Phase Space"
+            }
+          ]
+        },
+        {
+          "lesson": "Statistical Ensembles",
+          "lesson_key": "statistical_ensembles",
+          "chapters": [
+            {
+              "chapter": "Ensemble Concept and Postulates"
+            },
+            {
+              "chapter": "Microcanonical Ensemble"
+            },
+            {
+              "chapter": "Canonical Ensemble"
+            },
+            {
+              "chapter": "Grand Canonical Ensemble"
+            },
+            {
+              "chapter": "Equivalence of Ensembles"
+            }
+          ]
+        },
+        {
+          "lesson": "Partition Functions",
+          "lesson_key": "partition_functions",
+          "chapters": [
+            {
+              "chapter": "Definition and Physical Meaning"
+            },
+            {
+              "chapter": "Canonical Partition Function"
+            },
+            {
+              "chapter": "Grand Canonical Partition Function"
+            },
+            {
+              "chapter": "Partition Function for Independent Particles"
+            },
+            {
+              "chapter": "Factorization and Separability"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermodynamic Calculations",
+          "lesson_key": "thermodynamic_calculations",
+          "chapters": [
+            {
+              "chapter": "Free Energy from Partition Function"
+            },
+            {
+              "chapter": "Entropy and Internal Energy"
+            },
+            {
+              "chapter": "Pressure and Chemical Potential"
+            },
+            {
+              "chapter": "Heat Capacity and Response Functions"
+            },
+            {
+              "chapter": "Fluctuation-Dissipation Relations"
+            }
+          ]
+        },
+        {
+          "lesson": "Maxwell-Boltzmann Distribution",
+          "lesson_key": "maxwell_boltzmann_distribution",
+          "chapters": [
+            {
+              "chapter": "Distinguishable Particles"
+            },
+            {
+              "chapter": "Boltzmann Factor and Distribution"
+            },
+            {
+              "chapter": "Maxwell Velocity Distribution"
+            },
+            {
+              "chapter": "Energy Distribution Functions"
+            }
+          ]
+        },
+        {
+          "lesson": "Classical Ideal Gas",
+          "lesson_key": "classical_ideal_gas",
+          "chapters": [
+            {
+              "chapter": "Partition Function for Ideal Gas"
+            },
+            {
+              "chapter": "Equation of State"
+            },
+            {
+              "chapter": "Internal Energy and Heat Capacity"
+            },
+            {
+              "chapter": "Equipartition Theorem"
+            }
+          ]
+        },
+        {
+          "lesson": "Quantum Statistical Mechanics",
+          "lesson_key": "quantum_statistical_mechanics",
+          "chapters": [
+            {
+              "chapter": "Indistinguishable Particles"
+            },
+            {
+              "chapter": "Symmetry and Statistics"
+            },
+            {
+              "chapter": "Fermions and Pauli Exclusion"
+            },
+            {
+              "chapter": "Bosons and Multiple Occupancy"
+            }
+          ]
+        },
+        {
+          "lesson": "Distribution Functions",
+          "lesson_key": "distribution_functions",
+          "chapters": [
+            {
+              "chapter": "Fermi-Dirac Distribution"
+            },
+            {
+              "chapter": "Bose-Einstein Distribution"
+            },
+            {
+              "chapter": "Classical Limit and Comparison"
+            },
+            {
+              "chapter": "Density of States"
+            }
+          ]
+        },
+        {
+          "lesson": "Degenerate Fermi Gas",
+          "lesson_key": "degenerate_fermi_gas",
+          "chapters": [
+            {
+              "chapter": "Free Electron Model"
+            },
+            {
+              "chapter": "Fermi Energy and Fermi Surface"
+            },
+            {
+              "chapter": "Ground State Properties"
+            },
+            {
+              "chapter": "Fermi Temperature"
+            }
+          ]
+        },
+        {
+          "lesson": "Finite Temperature Properties",
+          "lesson_key": "finite_temperature_properties",
+          "chapters": [
+            {
+              "chapter": "Thermal Excitations"
+            },
+            {
+              "chapter": "Electronic Heat Capacity"
+            },
+            {
+              "chapter": "Sommerfeld Expansion"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications",
+          "lesson_key": "applications",
+          "chapters": [
+            {
+              "chapter": "Metals and Electrical Conductivity"
+            },
+            {
+              "chapter": "White Dwarf Stars"
+            },
+            {
+              "chapter": "Pauli Paramagnetism"
+            }
+          ]
+        },
+        {
+          "lesson": "Photon Statistics",
+          "lesson_key": "photon_statistics",
+          "chapters": [
+            {
+              "chapter": "Photons as Bosons"
+            },
+            {
+              "chapter": "Photon Gas and Zero Chemical Potential"
+            },
+            {
+              "chapter": "Density of States for Photons"
+            }
+          ]
+        },
+        {
+          "lesson": "Planck Distribution",
+          "lesson_key": "planck_distribution",
+          "chapters": [
+            {
+              "chapter": "Derivation from Bose-Einstein Statistics"
+            },
+            {
+              "chapter": "Black Body Spectrum"
+            },
+            {
+              "chapter": "Wien Displacement Law"
+            },
+            {
+              "chapter": "Stefan-Boltzmann Law"
+            },
+            {
+              "chapter": "Rayleigh-Jeans and Wien Limits"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermodynamics of Radiation",
+          "lesson_key": "thermodynamics_of_radiation",
+          "chapters": [
+            {
+              "chapter": "Energy Density and Pressure"
+            },
+            {
+              "chapter": "Entropy of Photon Gas"
+            }
+          ]
+        },
+        {
+          "lesson": "Bose-Einstein Condensation",
+          "lesson_key": "bose_einstein_condensation",
+          "chapters": [
+            {
+              "chapter": "Ideal Bose Gas"
+            },
+            {
+              "chapter": "Critical Temperature"
+            },
+            {
+              "chapter": "Macroscopic Ground State Occupation"
+            },
+            {
+              "chapter": "Condensate Fraction"
+            }
+          ]
+        },
+        {
+          "lesson": "Properties Below Critical Temperature",
+          "lesson_key": "properties_below_critical_temperature",
+          "chapters": [
+            {
+              "chapter": "Chemical Potential"
+            },
+            {
+              "chapter": "Heat Capacity"
+            },
+            {
+              "chapter": "Thermodynamic Functions"
+            }
+          ]
+        },
+        {
+          "lesson": "Real Systems",
+          "lesson_key": "real_systems",
+          "chapters": [
+            {
+              "chapter": "Liquid Helium-4"
+            },
+            {
+              "chapter": "Ultracold Atomic Gases"
+            },
+            {
+              "chapter": "Superfluidity"
+            }
+          ]
+        },
+        {
+          "lesson": "First-Order Phase Transitions",
+          "lesson_key": "first_order_phase_transitions",
+          "chapters": [
+            {
+              "chapter": "Definition and Characteristics"
+            },
+            {
+              "chapter": "Discontinuity in First Derivatives"
+            },
+            {
+              "chapter": "Latent Heat"
+            },
+            {
+              "chapter": "Coexistence of Phases"
+            }
+          ]
+        },
+        {
+          "lesson": "Phase Equilibria",
+          "lesson_key": "phase_equilibria",
+          "chapters": [
+            {
+              "chapter": "Gibbs Free Energy and Phase Stability"
+            },
+            {
+              "chapter": "Chemical Potential Equality"
+            },
+            {
+              "chapter": "Clausius-Clapeyron Equation"
+            },
+            {
+              "chapter": "Phase Boundaries"
+            }
+          ]
+        },
+        {
+          "lesson": "Phase Diagrams",
+          "lesson_key": "phase_diagrams",
+          "chapters": [
+            {
+              "chapter": "P-T and P-V Diagrams"
+            },
+            {
+              "chapter": "Triple Point"
+            },
+            {
+              "chapter": "Applications to Real Substances"
+            }
+          ]
+        },
+        {
+          "lesson": "Second-Order Phase Transitions",
+          "lesson_key": "second_order_phase_transitions",
+          "chapters": [
+            {
+              "chapter": "Continuous Transitions"
+            },
+            {
+              "chapter": "Discontinuity in Second Derivatives"
+            },
+            {
+              "chapter": "Order Parameters"
+            },
+            {
+              "chapter": "Symmetry Breaking"
+            }
+          ]
+        },
+        {
+          "lesson": "Critical Point",
+          "lesson_key": "critical_point",
+          "chapters": [
+            {
+              "chapter": "Definition and Location"
+            },
+            {
+              "chapter": "Critical Exponents"
+            },
+            {
+              "chapter": "Scaling Laws"
+            },
+            {
+              "chapter": "Critical Opalescence"
+            },
+            {
+              "chapter": "Correlation Length"
+            }
+          ]
+        },
+        {
+          "lesson": "Theoretical Approaches",
+          "lesson_key": "theoretical_approaches",
+          "chapters": [
+            {
+              "chapter": "Landau Theory"
+            },
+            {
+              "chapter": "Mean Field Theory"
+            },
+            {
+              "chapter": "Universality Classes"
+            },
+            {
+              "chapter": "Ising Model"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Atomic and Molecular Physics",
+      "topic_key": "atomic_and_molecular_physics",
+      "lessons": [
+        {
+          "lesson": "Foundations of Atomic Spectra",
+          "lesson_key": "foundations_of_atomic_spectra",
+          "chapters": [
+            {
+              "chapter": "Historical Context and Experimental Observations"
+            },
+            {
+              "chapter": "One-Electron Atoms: Hydrogen and Hydrogen-Like Ions"
+            },
+            {
+              "chapter": "Quantum Numbers and Energy Levels"
+            },
+            {
+              "chapter": "Spectral Series: Lyman, Balmer, Paschen"
+            }
+          ]
+        },
+        {
+          "lesson": "Many-Electron Atoms",
+          "lesson_key": "many_electron_atoms",
+          "chapters": [
+            {
+              "chapter": "Central Field Approximation"
+            },
+            {
+              "chapter": "Electron Configurations and Pauli Exclusion"
+            },
+            {
+              "chapter": "Shielding and Effective Nuclear Charge"
+            },
+            {
+              "chapter": "Term Symbols for Many-Electron Atoms"
+            },
+            {
+              "chapter": "Hund's Rules for Ground State Terms"
+            },
+            {
+              "chapter": "Atomic Orbitals and Radial Wavefunctions"
+            }
+          ]
+        },
+        {
+          "lesson": "Spin-Orbit Interaction",
+          "lesson_key": "spin_orbit_interaction",
+          "chapters": [
+            {
+              "chapter": "Relativistic Origin of Spin-Orbit Coupling"
+            },
+            {
+              "chapter": "Mathematical Formulation of Spin-Orbit Interaction"
+            },
+            {
+              "chapter": "Energy Corrections and Splitting Patterns"
+            }
+          ]
+        },
+        {
+          "lesson": "Angular Momentum Coupling Schemes",
+          "lesson_key": "angular_momentum_coupling_schemes",
+          "chapters": [
+            {
+              "chapter": "Vector Model of Angular Momentum"
+            },
+            {
+              "chapter": "LS Coupling (Russell-Saunders Coupling)"
+            },
+            {
+              "chapter": "jj Coupling for Heavy Atoms"
+            },
+            {
+              "chapter": "Intermediate Coupling Regimes"
+            },
+            {
+              "chapter": "Clebsch-Gordan Coefficients"
+            }
+          ]
+        },
+        {
+          "lesson": "Fine and Hyperfine Structure",
+          "lesson_key": "fine_and_hyperfine_structure",
+          "chapters": [
+            {
+              "chapter": "Fine Structure Energy Levels"
+            },
+            {
+              "chapter": "Fine Structure in Hydrogen and Alkali Atoms"
+            },
+            {
+              "chapter": "Hyperfine Structure from Nuclear Spin"
+            },
+            {
+              "chapter": "Magnetic Dipole and Electric Quadrupole Interactions"
+            },
+            {
+              "chapter": "Isotope Shifts in Atomic Spectra"
+            }
+          ]
+        },
+        {
+          "lesson": "Zeeman Effect",
+          "lesson_key": "zeeman_effect",
+          "chapters": [
+            {
+              "chapter": "Atoms in Magnetic Fields: Classical and Quantum Pictures"
+            },
+            {
+              "chapter": "Normal Zeeman Effect (No Spin)"
+            },
+            {
+              "chapter": "Anomalous Zeeman Effect (With Spin)"
+            },
+            {
+              "chapter": "Weak Field Regime and Landé g-Factor"
+            },
+            {
+              "chapter": "Paschen-Back Effect (Strong Fields)"
+            },
+            {
+              "chapter": "Zeeman Spectral Pattern Analysis"
+            }
+          ]
+        },
+        {
+          "lesson": "Stark Effect",
+          "lesson_key": "stark_effect",
+          "chapters": [
+            {
+              "chapter": "Atoms in Electric Fields"
+            },
+            {
+              "chapter": "Linear Stark Effect in Hydrogen"
+            },
+            {
+              "chapter": "Quadratic Stark Effect in Non-Degenerate States"
+            },
+            {
+              "chapter": "Perturbation Theory for External Fields"
+            },
+            {
+              "chapter": "Applications to Stark Spectroscopy"
+            }
+          ]
+        },
+        {
+          "lesson": "Radiative Transitions in Atoms",
+          "lesson_key": "radiative_transitions_in_atoms",
+          "chapters": [
+            {
+              "chapter": "Time-Dependent Perturbation Theory for Transitions"
+            },
+            {
+              "chapter": "Interaction of Atoms with Electromagnetic Radiation"
+            },
+            {
+              "chapter": "Fermi's Golden Rule"
+            }
+          ]
+        },
+        {
+          "lesson": "Electric Dipole Transitions",
+          "lesson_key": "electric_dipole_transitions",
+          "chapters": [
+            {
+              "chapter": "Electric Dipole Approximation"
+            },
+            {
+              "chapter": "Transition Dipole Matrix Elements"
+            },
+            {
+              "chapter": "Selection Rules for ΔL, ΔS, and ΔJ"
+            },
+            {
+              "chapter": "Parity Selection Rules"
+            },
+            {
+              "chapter": "Forbidden Transitions: Magnetic Dipole and Electric Quadrupole"
+            }
+          ]
+        },
+        {
+          "lesson": "Transition Rates and Lifetimes",
+          "lesson_key": "transition_rates_and_lifetimes",
+          "chapters": [
+            {
+              "chapter": "Einstein A Coefficients for Spontaneous Emission"
+            },
+            {
+              "chapter": "Transition Probabilities and Oscillator Strengths"
+            },
+            {
+              "chapter": "Natural Linewidth and Lifetime Broadening"
+            },
+            {
+              "chapter": "Sum Rules and f-Sum Rule"
+            }
+          ]
+        },
+        {
+          "lesson": "Rotational Spectroscopy",
+          "lesson_key": "rotational_spectroscopy",
+          "chapters": [
+            {
+              "chapter": "Molecular Structure and Born-Oppenheimer Approximation"
+            },
+            {
+              "chapter": "Rigid Rotor Model for Diatomic Molecules"
+            },
+            {
+              "chapter": "Rotational Energy Levels and Quantum Numbers"
+            },
+            {
+              "chapter": "Pure Rotational Spectra and Selection Rules (ΔJ = ±1)"
+            },
+            {
+              "chapter": "Moment of Inertia and Bond Length Determination"
+            },
+            {
+              "chapter": "Centrifugal Distortion Effects"
+            },
+            {
+              "chapter": "Nuclear Spin Statistics and Intensity Alternation"
+            }
+          ]
+        },
+        {
+          "lesson": "Vibrational Spectroscopy",
+          "lesson_key": "vibrational_spectroscopy",
+          "chapters": [
+            {
+              "chapter": "Harmonic Oscillator Model"
+            },
+            {
+              "chapter": "Vibrational Energy Levels and Quantum Numbers"
+            },
+            {
+              "chapter": "Anharmonic Corrections and Morse Potential"
+            },
+            {
+              "chapter": "Vibrational Selection Rules (Δv = ±1)"
+            },
+            {
+              "chapter": "Infrared Absorption and Dipole Moment Requirements"
+            }
+          ]
+        },
+        {
+          "lesson": "Rovibrational Spectra",
+          "lesson_key": "rovibrational_spectra",
+          "chapters": [
+            {
+              "chapter": "Combined Rotation-Vibration Energy Levels"
+            },
+            {
+              "chapter": "P, Q, and R Branches in IR Spectra"
+            },
+            {
+              "chapter": "Band Structure and Fortrat Diagrams"
+            },
+            {
+              "chapter": "Determination of Molecular Constants"
+            }
+          ]
+        },
+        {
+          "lesson": "Electronic Transitions in Molecules",
+          "lesson_key": "electronic_transitions_in_molecules",
+          "chapters": [
+            {
+              "chapter": "Electronic States and Molecular Orbitals"
+            },
+            {
+              "chapter": "Electronic Energy Levels in Diatomic Molecules"
+            },
+            {
+              "chapter": "Selection Rules for Electronic Transitions"
+            },
+            {
+              "chapter": "Term Symbols for Diatomic Molecules"
+            },
+            {
+              "chapter": "Spin-Orbit Coupling in Molecules"
+            }
+          ]
+        },
+        {
+          "lesson": "Franck-Condon Principle",
+          "lesson_key": "franck_condon_principle",
+          "chapters": [
+            {
+              "chapter": "Vertical Transitions and the Franck-Condon Principle"
+            },
+            {
+              "chapter": "Vibronic Coupling and Intensity Distributions"
+            },
+            {
+              "chapter": "Franck-Condon Factors and Overlap Integrals"
+            },
+            {
+              "chapter": "Vibrational Progressions in Electronic Spectra"
+            },
+            {
+              "chapter": "Applications to UV-Visible Spectroscopy"
+            },
+            {
+              "chapter": "Potential Energy Curves and Dissociation"
+            }
+          ]
+        },
+        {
+          "lesson": "Raman Spectroscopy",
+          "lesson_key": "raman_spectroscopy",
+          "chapters": [
+            {
+              "chapter": "Classical and Quantum Theory of Raman Scattering"
+            },
+            {
+              "chapter": "Stokes and Anti-Stokes Lines"
+            },
+            {
+              "chapter": "Raman Selection Rules and Polarizability"
+            },
+            {
+              "chapter": "Rotational and Vibrational Raman Spectra"
+            },
+            {
+              "chapter": "Complementarity of IR and Raman Spectroscopy"
+            },
+            {
+              "chapter": "Resonance Raman Effect"
+            }
+          ]
+        },
+        {
+          "lesson": "Electron Paramagnetic Resonance (EPR/ESR)",
+          "lesson_key": "electron_paramagnetic_resonance_epr_esr",
+          "chapters": [
+            {
+              "chapter": "Magnetic Properties of Unpaired Electrons"
+            },
+            {
+              "chapter": "Energy Levels in Magnetic Fields and Resonance Condition"
+            },
+            {
+              "chapter": "g-Factor and Hyperfine Coupling"
+            },
+            {
+              "chapter": "EPR Spectra and Interpretation"
+            },
+            {
+              "chapter": "Applications to Free Radicals and Transition Metal Complexes"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Magnetic Resonance (NMR)",
+          "lesson_key": "nuclear_magnetic_resonance_nmr",
+          "chapters": [
+            {
+              "chapter": "Nuclear Spin and Magnetic Moments"
+            },
+            {
+              "chapter": "Zeeman Splitting and Resonance in NMR"
+            },
+            {
+              "chapter": "Chemical Shift and Shielding Effects"
+            },
+            {
+              "chapter": "Spin-Spin Coupling and J-Coupling"
+            },
+            {
+              "chapter": "Relaxation Times T1 and T2"
+            },
+            {
+              "chapter": "Pulsed NMR and Fourier Transform Techniques"
+            }
+          ]
+        },
+        {
+          "lesson": "X-ray Spectroscopy",
+          "lesson_key": "x_ray_spectroscopy",
+          "chapters": [
+            {
+              "chapter": "Inner-Shell Electronic Structure"
+            },
+            {
+              "chapter": "Characteristic X-ray Emission (Kα, Kβ, Lα lines)"
+            },
+            {
+              "chapter": "X-ray Absorption and Edges"
+            },
+            {
+              "chapter": "Moseley's Law and Atomic Number Determination"
+            },
+            {
+              "chapter": "X-ray Photoelectron Spectroscopy (XPS)"
+            },
+            {
+              "chapter": "Auger Electron Spectroscopy"
+            }
+          ]
+        },
+        {
+          "lesson": "Einstein Coefficients and Radiative Processes",
+          "lesson_key": "einstein_coefficients_and_radiative_processes",
+          "chapters": [
+            {
+              "chapter": "Interaction of Light with Atomic Systems"
+            },
+            {
+              "chapter": "Spontaneous Emission: Einstein A Coefficient"
+            },
+            {
+              "chapter": "Absorption: Einstein B12 Coefficient"
+            },
+            {
+              "chapter": "Stimulated Emission: Einstein B21 Coefficient"
+            },
+            {
+              "chapter": "Relationships Between Einstein Coefficients"
+            },
+            {
+              "chapter": "Thermodynamic Equilibrium and Planck's Law"
+            }
+          ]
+        },
+        {
+          "lesson": "Population Inversion and Laser Fundamentals",
+          "lesson_key": "population_inversion_and_laser_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Boltzmann Distribution and Thermal Equilibrium"
+            },
+            {
+              "chapter": "Concept of Population Inversion"
+            },
+            {
+              "chapter": "Optical Pumping and Excitation Mechanisms"
+            },
+            {
+              "chapter": "Gain Medium and Amplification"
+            },
+            {
+              "chapter": "Threshold Condition for Lasing"
+            }
+          ]
+        },
+        {
+          "lesson": "Laser Systems",
+          "lesson_key": "laser_systems",
+          "chapters": [
+            {
+              "chapter": "Two-Level Systems: Why They Don't Work"
+            },
+            {
+              "chapter": "Three-Level Laser Systems"
+            },
+            {
+              "chapter": "Four-Level Laser Systems"
+            },
+            {
+              "chapter": "Optical Cavities and Resonators"
+            },
+            {
+              "chapter": "Laser Characteristics: Coherence, Monochromaticity, Directionality"
+            },
+            {
+              "chapter": "Examples: Ruby Laser, He-Ne Laser, Semiconductor Lasers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Solid State Physics",
+      "topic_key": "solid_state_physics",
+      "lessons": [
+        {
+          "lesson": "Fundamentals of Crystallography",
+          "lesson_key": "fundamentals_of_crystallography",
+          "chapters": [
+            {
+              "chapter": "Introduction to Crystalline Solids"
+            },
+            {
+              "chapter": "Crystal Systems and Bravais Lattices"
+            },
+            {
+              "chapter": "Unit Cells and Lattice Parameters"
+            },
+            {
+              "chapter": "Symmetry Operations and Point Groups"
+            },
+            {
+              "chapter": "Miller Indices and Crystallographic Planes"
+            }
+          ]
+        },
+        {
+          "lesson": "Reciprocal Lattice and Diffraction Theory",
+          "lesson_key": "reciprocal_lattice_and_diffraction_theory",
+          "chapters": [
+            {
+              "chapter": "Construction of Reciprocal Lattice"
+            },
+            {
+              "chapter": "Bragg's Law and Diffraction Conditions"
+            },
+            {
+              "chapter": "Ewald Sphere Construction"
+            }
+          ]
+        },
+        {
+          "lesson": "Experimental Diffraction Methods",
+          "lesson_key": "experimental_diffraction_methods",
+          "chapters": [
+            {
+              "chapter": "X-ray Diffraction Techniques"
+            },
+            {
+              "chapter": "Neutron and Electron Diffraction"
+            },
+            {
+              "chapter": "Structure Factor Calculations"
+            },
+            {
+              "chapter": "Systematic Absences and Space Group Determination"
+            }
+          ]
+        },
+        {
+          "lesson": "Bonding in Solids",
+          "lesson_key": "bonding_in_solids",
+          "chapters": [
+            {
+              "chapter": "Overview of Interatomic Forces"
+            },
+            {
+              "chapter": "Ionic Bonding and Born-Mayer Equation"
+            },
+            {
+              "chapter": "Covalent Bonding and Directional Bonds"
+            },
+            {
+              "chapter": "Metallic Bonding and Electron Sea Model"
+            },
+            {
+              "chapter": "Van der Waals Bonding and Molecular Crystals"
+            },
+            {
+              "chapter": "Cohesive Energy Calculations"
+            }
+          ]
+        },
+        {
+          "lesson": "Lattice Vibrations and Phonons",
+          "lesson_key": "lattice_vibrations_and_phonons",
+          "chapters": [
+            {
+              "chapter": "Classical Theory of Lattice Vibrations"
+            },
+            {
+              "chapter": "Dispersion Relations for Monatomic Lattices"
+            },
+            {
+              "chapter": "Optical and Acoustic Branches in Diatomic Lattices"
+            },
+            {
+              "chapter": "Quantum Theory of Lattice Vibrations - Phonons"
+            },
+            {
+              "chapter": "Phonon Density of States"
+            },
+            {
+              "chapter": "Anharmonic Effects and Thermal Expansion"
+            }
+          ]
+        },
+        {
+          "lesson": "Thermal Properties of Solids",
+          "lesson_key": "thermal_properties_of_solids",
+          "chapters": [
+            {
+              "chapter": "Classical Theory - Dulong-Petit Law"
+            },
+            {
+              "chapter": "Einstein Model of Specific Heat"
+            },
+            {
+              "chapter": "Debye Model and Low Temperature Behavior"
+            },
+            {
+              "chapter": "Thermal Conductivity and Phonon Scattering"
+            },
+            {
+              "chapter": "Umklapp Processes"
+            }
+          ]
+        },
+        {
+          "lesson": "Classical Free Electron Theory",
+          "lesson_key": "classical_free_electron_theory",
+          "chapters": [
+            {
+              "chapter": "The Drude Model"
+            },
+            {
+              "chapter": "Electrical Conductivity in Drude Model"
+            },
+            {
+              "chapter": "Thermal Conductivity and Wiedemann-Franz Law"
+            },
+            {
+              "chapter": "Limitations of Classical Theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Quantum Free Electron Theory",
+          "lesson_key": "quantum_free_electron_theory",
+          "chapters": [
+            {
+              "chapter": "Sommerfeld Model - Electrons in a Box"
+            },
+            {
+              "chapter": "Fermi-Dirac Distribution Function"
+            },
+            {
+              "chapter": "Density of States Derivation"
+            },
+            {
+              "chapter": "Fermi Energy and Fermi Surface"
+            },
+            {
+              "chapter": "Temperature Dependence of Chemical Potential"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications of Free Electron Theory",
+          "lesson_key": "applications_of_free_electron_theory",
+          "chapters": [
+            {
+              "chapter": "Electronic Specific Heat"
+            },
+            {
+              "chapter": "Thermionic Emission and Work Function"
+            },
+            {
+              "chapter": "Success and Failures of Free Electron Model"
+            }
+          ]
+        },
+        {
+          "lesson": "Electrons in Periodic Potentials",
+          "lesson_key": "electrons_in_periodic_potentials",
+          "chapters": [
+            {
+              "chapter": "Limitations of Free Electron Theory"
+            },
+            {
+              "chapter": "Periodic Potential and Bloch Theorem"
+            },
+            {
+              "chapter": "Bloch Functions and Crystal Momentum"
+            },
+            {
+              "chapter": "Brillouin Zones and k-space"
+            }
+          ]
+        },
+        {
+          "lesson": "Nearly Free Electron Model",
+          "lesson_key": "nearly_free_electron_model",
+          "chapters": [
+            {
+              "chapter": "Perturbation Approach to Band Formation"
+            },
+            {
+              "chapter": "Energy Gap Opening at Brillouin Zone Boundaries"
+            },
+            {
+              "chapter": "Extended, Reduced, and Periodic Zone Schemes"
+            },
+            {
+              "chapter": "Construction of Brillouin Zones"
+            }
+          ]
+        },
+        {
+          "lesson": "Tight Binding Approximation",
+          "lesson_key": "tight_binding_approximation",
+          "chapters": [
+            {
+              "chapter": "LCAO Method for Solids"
+            },
+            {
+              "chapter": "Tight Binding for s-band"
+            },
+            {
+              "chapter": "Bandwidth and Overlap Integrals"
+            },
+            {
+              "chapter": "Comparison with Nearly Free Electron Model"
+            }
+          ]
+        },
+        {
+          "lesson": "Effective Mass and Band Structure",
+          "lesson_key": "effective_mass_and_band_structure",
+          "chapters": [
+            {
+              "chapter": "Concept of Effective Mass"
+            },
+            {
+              "chapter": "Relation to Band Curvature"
+            },
+            {
+              "chapter": "Holes as Charge Carriers"
+            }
+          ]
+        },
+        {
+          "lesson": "Classification of Materials",
+          "lesson_key": "classification_of_materials",
+          "chapters": [
+            {
+              "chapter": "Band Structure Perspective"
+            },
+            {
+              "chapter": "Metals - Partially Filled Bands"
+            },
+            {
+              "chapter": "Insulators - Large Band Gaps"
+            },
+            {
+              "chapter": "Semiconductors - Small Band Gaps"
+            },
+            {
+              "chapter": "Fermi Surface Topology"
+            }
+          ]
+        },
+        {
+          "lesson": "Semiconductor Physics",
+          "lesson_key": "semiconductor_physics",
+          "chapters": [
+            {
+              "chapter": "Intrinsic Semiconductors"
+            },
+            {
+              "chapter": "Doping - Donors and Acceptors"
+            },
+            {
+              "chapter": "Extrinsic Semiconductors - n-type and p-type"
+            },
+            {
+              "chapter": "Carrier Concentration at Thermal Equilibrium"
+            },
+            {
+              "chapter": "Law of Mass Action"
+            }
+          ]
+        },
+        {
+          "lesson": "Electrical Conductivity",
+          "lesson_key": "electrical_conductivity",
+          "chapters": [
+            {
+              "chapter": "Conductivity Formula"
+            },
+            {
+              "chapter": "Carrier Mobility and Scattering Mechanisms"
+            },
+            {
+              "chapter": "Temperature Dependence of Conductivity"
+            },
+            {
+              "chapter": "Effective Mass Tensor"
+            }
+          ]
+        },
+        {
+          "lesson": "Transport Phenomena",
+          "lesson_key": "transport_phenomena",
+          "chapters": [
+            {
+              "chapter": "Drift and Diffusion Currents"
+            },
+            {
+              "chapter": "Einstein Relation"
+            },
+            {
+              "chapter": "Hall Effect and Hall Coefficient"
+            },
+            {
+              "chapter": "Determination of Carrier Type and Concentration"
+            },
+            {
+              "chapter": "Applications to Semiconductor Devices"
+            }
+          ]
+        },
+        {
+          "lesson": "Light-Matter Interaction",
+          "lesson_key": "light_matter_interaction",
+          "chapters": [
+            {
+              "chapter": "Electromagnetic Waves in Matter"
+            },
+            {
+              "chapter": "Complex Dielectric Function"
+            },
+            {
+              "chapter": "Optical Constants - n and k"
+            },
+            {
+              "chapter": "Absorption, Reflection, and Transmission"
+            }
+          ]
+        },
+        {
+          "lesson": "Kramers-Kronig Relations",
+          "lesson_key": "kramers_kronig_relations",
+          "chapters": [
+            {
+              "chapter": "Causality and Dispersion Relations"
+            },
+            {
+              "chapter": "Derivation of Kramers-Kronig Relations"
+            },
+            {
+              "chapter": "Applications to Experimental Data"
+            }
+          ]
+        },
+        {
+          "lesson": "Optical Transitions",
+          "lesson_key": "optical_transitions",
+          "chapters": [
+            {
+              "chapter": "Intra-band Transitions - Free Carrier Absorption"
+            },
+            {
+              "chapter": "Inter-band Transitions"
+            },
+            {
+              "chapter": "Direct and Indirect Band Gap Transitions"
+            },
+            {
+              "chapter": "Selection Rules for Optical Transitions"
+            }
+          ]
+        },
+        {
+          "lesson": "Optical Phenomena",
+          "lesson_key": "optical_phenomena",
+          "chapters": [
+            {
+              "chapter": "Absorption Edge in Semiconductors"
+            },
+            {
+              "chapter": "Excitons and Excitonic Effects"
+            },
+            {
+              "chapter": "Optical Properties of Metals"
+            },
+            {
+              "chapter": "Plasma Frequency and Reflectivity"
+            }
+          ]
+        },
+        {
+          "lesson": "Dielectric Response",
+          "lesson_key": "dielectric_response",
+          "chapters": [
+            {
+              "chapter": "Polarization and Electric Displacement"
+            },
+            {
+              "chapter": "Dielectric Constant and Susceptibility"
+            },
+            {
+              "chapter": "Local Field Effects"
+            },
+            {
+              "chapter": "Clausius-Mossotti Relation"
+            }
+          ]
+        },
+        {
+          "lesson": "Polarization Mechanisms",
+          "lesson_key": "polarization_mechanisms",
+          "chapters": [
+            {
+              "chapter": "Electronic Polarization"
+            },
+            {
+              "chapter": "Ionic Polarization"
+            },
+            {
+              "chapter": "Orientational Polarization"
+            },
+            {
+              "chapter": "Space Charge Polarization"
+            },
+            {
+              "chapter": "Frequency Dependence of Polarizability"
+            }
+          ]
+        },
+        {
+          "lesson": "Dielectric Function",
+          "lesson_key": "dielectric_function",
+          "chapters": [
+            {
+              "chapter": "Complex Dielectric Function"
+            },
+            {
+              "chapter": "Dielectric Losses"
+            },
+            {
+              "chapter": "Resonance and Relaxation Models"
+            }
+          ]
+        },
+        {
+          "lesson": "Ferroelectricity",
+          "lesson_key": "ferroelectricity",
+          "chapters": [
+            {
+              "chapter": "Spontaneous Polarization"
+            },
+            {
+              "chapter": "Ferroelectric Phase Transitions"
+            },
+            {
+              "chapter": "Curie-Weiss Law"
+            },
+            {
+              "chapter": "Hysteresis Loops"
+            },
+            {
+              "chapter": "Applications of Ferroelectric Materials"
+            }
+          ]
+        },
+        {
+          "lesson": "Fundamentals of Magnetism",
+          "lesson_key": "fundamentals_of_magnetism",
+          "chapters": [
+            {
+              "chapter": "Magnetic Moment and Magnetization"
+            },
+            {
+              "chapter": "Magnetic Susceptibility and Permeability"
+            },
+            {
+              "chapter": "Classification of Magnetic Materials"
+            }
+          ]
+        },
+        {
+          "lesson": "Diamagnetism",
+          "lesson_key": "diamagnetism",
+          "chapters": [
+            {
+              "chapter": "Origin of Diamagnetic Response"
+            },
+            {
+              "chapter": "Larmor Precession"
+            },
+            {
+              "chapter": "Langevin Theory of Diamagnetism"
+            }
+          ]
+        },
+        {
+          "lesson": "Paramagnetism",
+          "lesson_key": "paramagnetism",
+          "chapters": [
+            {
+              "chapter": "Quantum Theory of Paramagnetism"
+            },
+            {
+              "chapter": "Curie Law and Curie Constant"
+            },
+            {
+              "chapter": "Pauli Paramagnetism in Metals"
+            },
+            {
+              "chapter": "Van Vleck Paramagnetism"
+            }
+          ]
+        },
+        {
+          "lesson": "Ferromagnetism",
+          "lesson_key": "ferromagnetism",
+          "chapters": [
+            {
+              "chapter": "Exchange Interaction and Weiss Molecular Field"
+            },
+            {
+              "chapter": "Heisenberg Model"
+            },
+            {
+              "chapter": "Curie Temperature and Spontaneous Magnetization"
+            },
+            {
+              "chapter": "Temperature Dependence below Tc"
+            },
+            {
+              "chapter": "Spin Waves and Magnons"
+            }
+          ]
+        },
+        {
+          "lesson": "Antiferromagnetism and Ferrimagnetism",
+          "lesson_key": "antiferromagnetism_and_ferrimagnetism",
+          "chapters": [
+            {
+              "chapter": "Antiferromagnetic Order"
+            },
+            {
+              "chapter": "Néel Temperature"
+            },
+            {
+              "chapter": "Ferrimagnetism in Ferrites"
+            },
+            {
+              "chapter": "Comparison of Magnetic Orderings"
+            }
+          ]
+        },
+        {
+          "lesson": "Magnetic Domains",
+          "lesson_key": "magnetic_domains",
+          "chapters": [
+            {
+              "chapter": "Domain Formation and Energy Considerations"
+            },
+            {
+              "chapter": "Domain Walls - Bloch and Néel Walls"
+            },
+            {
+              "chapter": "Magnetic Anisotropy"
+            },
+            {
+              "chapter": "Hysteresis and Magnetization Curves"
+            },
+            {
+              "chapter": "Hard and Soft Magnetic Materials"
+            },
+            {
+              "chapter": "Applications to Spintronics"
+            }
+          ]
+        },
+        {
+          "lesson": "Introduction to Superconductivity",
+          "lesson_key": "introduction_to_superconductivity",
+          "chapters": [
+            {
+              "chapter": "Discovery and Basic Phenomena"
+            },
+            {
+              "chapter": "Zero Resistance and Perfect Conductivity"
+            },
+            {
+              "chapter": "Critical Temperature, Field, and Current"
+            },
+            {
+              "chapter": "Thermodynamics of Superconducting Transition"
+            }
+          ]
+        },
+        {
+          "lesson": "Meissner Effect and Type Classification",
+          "lesson_key": "meissner_effect_and_type_classification",
+          "chapters": [
+            {
+              "chapter": "Perfect Diamagnetism - Meissner Effect"
+            },
+            {
+              "chapter": "Type I Superconductors"
+            },
+            {
+              "chapter": "Type II Superconductors"
+            },
+            {
+              "chapter": "Mixed State and Vortex Lattice"
+            },
+            {
+              "chapter": "Lower and Upper Critical Fields"
+            }
+          ]
+        },
+        {
+          "lesson": "London Theory",
+          "lesson_key": "london_theory",
+          "chapters": [
+            {
+              "chapter": "London Equations"
+            },
+            {
+              "chapter": "London Penetration Depth"
+            },
+            {
+              "chapter": "Coherence Length"
+            },
+            {
+              "chapter": "Ginzburg-Landau Parameter"
+            }
+          ]
+        },
+        {
+          "lesson": "BCS Theory",
+          "lesson_key": "bcs_theory",
+          "chapters": [
+            {
+              "chapter": "Limitations of Classical Theories"
+            },
+            {
+              "chapter": "Electron-Phonon Interaction"
+            },
+            {
+              "chapter": "Cooper Pairs and Pair Condensation"
+            },
+            {
+              "chapter": "BCS Ground State"
+            },
+            {
+              "chapter": "Energy Gap and Quasiparticle Excitations"
+            },
+            {
+              "chapter": "Predictions of BCS Theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Superconducting Phenomena",
+          "lesson_key": "advanced_superconducting_phenomena",
+          "chapters": [
+            {
+              "chapter": "Flux Quantization"
+            },
+            {
+              "chapter": "Macroscopic Quantum Coherence"
+            },
+            {
+              "chapter": "Josephson Effect - DC and AC"
+            },
+            {
+              "chapter": "SQUID Devices"
+            },
+            {
+              "chapter": "High-Temperature Superconductors"
+            },
+            {
+              "chapter": "Applications of Superconductivity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Electronics",
+      "topic_key": "electronics",
+      "lessons": [
+        {
+          "lesson": "Semiconductor Physics Foundations",
+          "lesson_key": "semiconductor_physics_foundations",
+          "chapters": [
+            {
+              "chapter": "Introduction to Semiconductors"
+            },
+            {
+              "chapter": "Band Structure and Energy Gaps"
+            },
+            {
+              "chapter": "Intrinsic Semiconductors"
+            },
+            {
+              "chapter": "Carrier Concentration in Intrinsic Semiconductors"
+            },
+            {
+              "chapter": "Fermi Level in Intrinsic Semiconductors"
+            }
+          ]
+        },
+        {
+          "lesson": "Doped Semiconductors",
+          "lesson_key": "doped_semiconductors",
+          "chapters": [
+            {
+              "chapter": "Donor and Acceptor Impurities"
+            },
+            {
+              "chapter": "N-type and P-type Semiconductors"
+            },
+            {
+              "chapter": "Fermi Level in Extrinsic Semiconductors"
+            },
+            {
+              "chapter": "Mass Action Law"
+            }
+          ]
+        },
+        {
+          "lesson": "Carrier Statistics and Transport",
+          "lesson_key": "carrier_statistics_and_transport",
+          "chapters": [
+            {
+              "chapter": "Fermi-Dirac Distribution Function"
+            },
+            {
+              "chapter": "Density of States"
+            },
+            {
+              "chapter": "Carrier Concentration Calculations"
+            },
+            {
+              "chapter": "Drift and Diffusion Mechanisms"
+            },
+            {
+              "chapter": "Einstein Relations"
+            }
+          ]
+        },
+        {
+          "lesson": "Metal-Semiconductor Interface Fundamentals",
+          "lesson_key": "metal_semiconductor_interface_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Work Function and Contact Potential"
+            },
+            {
+              "chapter": "Band Alignment at Metal-Semiconductor Interface"
+            },
+            {
+              "chapter": "Schottky-Mott Theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Rectifying Contacts",
+          "lesson_key": "rectifying_contacts",
+          "chapters": [
+            {
+              "chapter": "Schottky Barrier Formation"
+            },
+            {
+              "chapter": "Depletion Region in Metal-Semiconductor Junctions"
+            },
+            {
+              "chapter": "Current-Voltage Characteristics of Schottky Diodes"
+            },
+            {
+              "chapter": "Thermionic Emission Theory"
+            }
+          ]
+        },
+        {
+          "lesson": "Ohmic Contacts",
+          "lesson_key": "ohmic_contacts",
+          "chapters": [
+            {
+              "chapter": "Conditions for Ohmic Behavior"
+            },
+            {
+              "chapter": "Heavy Doping and Tunneling"
+            },
+            {
+              "chapter": "Contact Resistance Minimization"
+            },
+            {
+              "chapter": "Practical Fabrication of Ohmic Contacts"
+            }
+          ]
+        },
+        {
+          "lesson": "PN Junction Formation and Equilibrium",
+          "lesson_key": "pn_junction_formation_and_equilibrium",
+          "chapters": [
+            {
+              "chapter": "Junction Formation by Diffusion"
+            },
+            {
+              "chapter": "Depletion Region and Space Charge"
+            },
+            {
+              "chapter": "Built-in Potential Calculation"
+            },
+            {
+              "chapter": "Electric Field Distribution"
+            }
+          ]
+        },
+        {
+          "lesson": "Biased PN Junctions",
+          "lesson_key": "biased_pn_junctions",
+          "chapters": [
+            {
+              "chapter": "Forward Bias Operation"
+            },
+            {
+              "chapter": "Reverse Bias Operation"
+            },
+            {
+              "chapter": "Minority Carrier Injection"
+            },
+            {
+              "chapter": "Shockley Diode Equation"
+            }
+          ]
+        },
+        {
+          "lesson": "Diode Characteristics and Applications",
+          "lesson_key": "diode_characteristics_and_applications",
+          "chapters": [
+            {
+              "chapter": "Ideal vs. Practical Diode Characteristics"
+            },
+            {
+              "chapter": "Breakdown Mechanisms: Zener and Avalanche"
+            },
+            {
+              "chapter": "Junction Capacitance: Depletion and Diffusion"
+            },
+            {
+              "chapter": "Switching Characteristics and Reverse Recovery"
+            }
+          ]
+        },
+        {
+          "lesson": "BJT Fundamentals",
+          "lesson_key": "bjt_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Transistor Structure: NPN and PNP"
+            },
+            {
+              "chapter": "Transistor Action and Current Components"
+            },
+            {
+              "chapter": "Base Transport Factor and Emitter Efficiency"
+            },
+            {
+              "chapter": "Current Gain: Alpha and Beta Relationships"
+            }
+          ]
+        },
+        {
+          "lesson": "BJT Operating Modes",
+          "lesson_key": "bjt_operating_modes",
+          "chapters": [
+            {
+              "chapter": "Active Mode Operation"
+            },
+            {
+              "chapter": "Saturation Mode"
+            },
+            {
+              "chapter": "Cutoff Mode"
+            },
+            {
+              "chapter": "Inverted Mode"
+            }
+          ]
+        },
+        {
+          "lesson": "BJT Models and Analysis",
+          "lesson_key": "bjt_models_and_analysis",
+          "chapters": [
+            {
+              "chapter": "Ebers-Moll Model: Static Characteristics"
+            },
+            {
+              "chapter": "Large Signal Model"
+            },
+            {
+              "chapter": "Small Signal Hybrid-π Model"
+            },
+            {
+              "chapter": "Common Emitter, Base, and Collector Configurations"
+            },
+            {
+              "chapter": "Frequency Response and Limitations"
+            }
+          ]
+        },
+        {
+          "lesson": "Junction Field Effect Transistors",
+          "lesson_key": "junction_field_effect_transistors",
+          "chapters": [
+            {
+              "chapter": "JFET Structure and Operation Principle"
+            },
+            {
+              "chapter": "Channel Depletion and Pinch-off"
+            },
+            {
+              "chapter": "JFET Characteristics: Triode and Saturation Regions"
+            },
+            {
+              "chapter": "JFET Parameters: IDSS and VP"
+            }
+          ]
+        },
+        {
+          "lesson": "Metal-Oxide-Semiconductor FETs",
+          "lesson_key": "metal_oxide_semiconductor_fets",
+          "chapters": [
+            {
+              "chapter": "MOSFET Structure: Gate Oxide and Channel"
+            },
+            {
+              "chapter": "Enhancement Mode MOSFET Operation"
+            },
+            {
+              "chapter": "Depletion Mode MOSFET Operation"
+            },
+            {
+              "chapter": "Threshold Voltage and Body Effect"
+            }
+          ]
+        },
+        {
+          "lesson": "FET Characteristics and Modeling",
+          "lesson_key": "fet_characteristics_and_modeling",
+          "chapters": [
+            {
+              "chapter": "Transconductance and Output Resistance"
+            },
+            {
+              "chapter": "MOSFET ID-VDS and ID-VGS Characteristics"
+            },
+            {
+              "chapter": "Small Signal Model of FETs"
+            },
+            {
+              "chapter": "CMOS Technology and Complementary Pairs"
+            },
+            {
+              "chapter": "Short Channel Effects"
+            }
+          ]
+        },
+        {
+          "lesson": "Feedback Fundamentals",
+          "lesson_key": "feedback_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Introduction to Feedback Concept"
+            },
+            {
+              "chapter": "Feedback Topology: Series and Shunt"
+            },
+            {
+              "chapter": "Loop Gain and Closed-loop Gain"
+            }
+          ]
+        },
+        {
+          "lesson": "Negative Feedback Applications",
+          "lesson_key": "negative_feedback_applications",
+          "chapters": [
+            {
+              "chapter": "Effects on Gain Stability"
+            },
+            {
+              "chapter": "Bandwidth Enhancement"
+            },
+            {
+              "chapter": "Input and Output Impedance Modification"
+            },
+            {
+              "chapter": "Distortion and Noise Reduction"
+            }
+          ]
+        },
+        {
+          "lesson": "Positive Feedback and Oscillations",
+          "lesson_key": "positive_feedback_and_oscillations",
+          "chapters": [
+            {
+              "chapter": "Positive Feedback Characteristics"
+            },
+            {
+              "chapter": "Barkhausen Criterion for Sustained Oscillations"
+            },
+            {
+              "chapter": "Phase Shift Requirement"
+            },
+            {
+              "chapter": "Stability Analysis: Nyquist and Bode Methods"
+            }
+          ]
+        },
+        {
+          "lesson": "Oscillator Principles",
+          "lesson_key": "oscillator_principles",
+          "chapters": [
+            {
+              "chapter": "Requirements for Oscillation"
+            },
+            {
+              "chapter": "Feedback Path and Frequency Selection"
+            },
+            {
+              "chapter": "Amplitude Limiting and Stabilization"
+            }
+          ]
+        },
+        {
+          "lesson": "RC Oscillators",
+          "lesson_key": "rc_oscillators",
+          "chapters": [
+            {
+              "chapter": "Phase Shift Oscillator"
+            },
+            {
+              "chapter": "Wien Bridge Oscillator"
+            },
+            {
+              "chapter": "Frequency Determination in RC Oscillators"
+            }
+          ]
+        },
+        {
+          "lesson": "LC Oscillators",
+          "lesson_key": "lc_oscillators",
+          "chapters": [
+            {
+              "chapter": "Colpitts Oscillator: Circuit and Analysis"
+            },
+            {
+              "chapter": "Hartley Oscillator: Circuit and Analysis"
+            },
+            {
+              "chapter": "Frequency Determination in LC Oscillators"
+            },
+            {
+              "chapter": "Crystal Oscillators for Frequency Stability"
+            }
+          ]
+        },
+        {
+          "lesson": "Op-Amp Fundamentals",
+          "lesson_key": "op_amp_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Operational Amplifier Architecture"
+            },
+            {
+              "chapter": "Ideal Op-Amp Characteristics"
+            },
+            {
+              "chapter": "Virtual Ground Concept"
+            },
+            {
+              "chapter": "Practical Op-Amp Parameters"
+            }
+          ]
+        },
+        {
+          "lesson": "Basic Op-Amp Configurations",
+          "lesson_key": "basic_op_amp_configurations",
+          "chapters": [
+            {
+              "chapter": "Inverting Amplifier: Analysis and Design"
+            },
+            {
+              "chapter": "Non-inverting Amplifier: Analysis and Design"
+            },
+            {
+              "chapter": "Voltage Follower (Buffer)"
+            },
+            {
+              "chapter": "Summing Amplifier"
+            },
+            {
+              "chapter": "Differential Amplifier"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Op-Amp Applications",
+          "lesson_key": "advanced_op_amp_applications",
+          "chapters": [
+            {
+              "chapter": "Integrator and Differentiator Circuits"
+            },
+            {
+              "chapter": "Instrumentation Amplifier"
+            },
+            {
+              "chapter": "Comparator Circuits"
+            },
+            {
+              "chapter": "Non-ideal Effects: Offset, Bias Current, CMRR"
+            },
+            {
+              "chapter": "Frequency Response and Slew Rate Limitations"
+            }
+          ]
+        },
+        {
+          "lesson": "Filter Fundamentals",
+          "lesson_key": "filter_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Filter Classifications and Specifications"
+            },
+            {
+              "chapter": "Transfer Functions and Frequency Response"
+            },
+            {
+              "chapter": "Filter Order and Roll-off Rate"
+            }
+          ]
+        },
+        {
+          "lesson": "Active Filter Configurations",
+          "lesson_key": "active_filter_configurations",
+          "chapters": [
+            {
+              "chapter": "First-Order Low-Pass Filter"
+            },
+            {
+              "chapter": "First-Order High-Pass Filter"
+            },
+            {
+              "chapter": "Second-Order Filters: Sallen-Key Topology"
+            },
+            {
+              "chapter": "Band-Pass Filter Design"
+            },
+            {
+              "chapter": "Band-Reject (Notch) Filter Design"
+            }
+          ]
+        },
+        {
+          "lesson": "Filter Approximations and Performance",
+          "lesson_key": "filter_approximations_and_performance",
+          "chapters": [
+            {
+              "chapter": "Butterworth Filter: Maximally Flat Response"
+            },
+            {
+              "chapter": "Chebyshev Filter: Ripple Characteristics"
+            },
+            {
+              "chapter": "Bessel Filter: Linear Phase Response"
+            },
+            {
+              "chapter": "Quality Factor and Damping"
+            }
+          ]
+        },
+        {
+          "lesson": "Digital Logic Foundations",
+          "lesson_key": "digital_logic_foundations",
+          "chapters": [
+            {
+              "chapter": "Binary Number Systems and Codes"
+            },
+            {
+              "chapter": "Boolean Algebra: Postulates and Theorems"
+            },
+            {
+              "chapter": "De Morgan's Laws"
+            },
+            {
+              "chapter": "Canonical Forms: Minterms and Maxterms"
+            }
+          ]
+        },
+        {
+          "lesson": "Logic Gates and Truth Tables",
+          "lesson_key": "logic_gates_and_truth_tables",
+          "chapters": [
+            {
+              "chapter": "Basic Gates: AND, OR, NOT"
+            },
+            {
+              "chapter": "Universal Gates: NAND and NOR"
+            },
+            {
+              "chapter": "Exclusive Gates: XOR and XNOR"
+            },
+            {
+              "chapter": "Truth Table Construction"
+            }
+          ]
+        },
+        {
+          "lesson": "Logic Simplification Techniques",
+          "lesson_key": "logic_simplification_techniques",
+          "chapters": [
+            {
+              "chapter": "Algebraic Simplification Methods"
+            },
+            {
+              "chapter": "Karnaugh Map Method: 2, 3, and 4 Variables"
+            },
+            {
+              "chapter": "Prime Implicants and Essential Prime Implicants"
+            },
+            {
+              "chapter": "Don't Care Conditions"
+            },
+            {
+              "chapter": "Quine-McCluskey Method"
+            }
+          ]
+        },
+        {
+          "lesson": "Arithmetic Circuits",
+          "lesson_key": "arithmetic_circuits",
+          "chapters": [
+            {
+              "chapter": "Half Adder and Full Adder"
+            },
+            {
+              "chapter": "Parallel Binary Adder: Ripple Carry"
+            },
+            {
+              "chapter": "Carry Look-Ahead Adder"
+            },
+            {
+              "chapter": "Half Subtractor and Full Subtractor"
+            },
+            {
+              "chapter": "Binary Subtraction using 2's Complement"
+            }
+          ]
+        },
+        {
+          "lesson": "Multiplexers and Demultiplexers",
+          "lesson_key": "multiplexers_and_demultiplexers",
+          "chapters": [
+            {
+              "chapter": "Multiplexer: Structure and Operation"
+            },
+            {
+              "chapter": "Implementing Boolean Functions with Multiplexers"
+            },
+            {
+              "chapter": "Demultiplexer: Structure and Operation"
+            }
+          ]
+        },
+        {
+          "lesson": "Encoders and Decoders",
+          "lesson_key": "encoders_and_decoders",
+          "chapters": [
+            {
+              "chapter": "Binary Encoder and Priority Encoder"
+            },
+            {
+              "chapter": "Binary Decoder: 2-to-4, 3-to-8 Decoders"
+            },
+            {
+              "chapter": "BCD to 7-Segment Decoder"
+            },
+            {
+              "chapter": "Code Converters: BCD, Gray, Excess-3"
+            }
+          ]
+        },
+        {
+          "lesson": "Comparators and Other Circuits",
+          "lesson_key": "comparators_and_other_circuits",
+          "chapters": [
+            {
+              "chapter": "Magnitude Comparator"
+            },
+            {
+              "chapter": "Parity Generator and Checker"
+            }
+          ]
+        },
+        {
+          "lesson": "Sequential Logic Fundamentals",
+          "lesson_key": "sequential_logic_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Memory Elements and Sequential Circuits"
+            },
+            {
+              "chapter": "Latches vs. Flip-Flops"
+            },
+            {
+              "chapter": "Clock Signals and Synchronization"
+            }
+          ]
+        },
+        {
+          "lesson": "Latches",
+          "lesson_key": "latches",
+          "chapters": [
+            {
+              "chapter": "SR Latch: NAND and NOR Implementation"
+            },
+            {
+              "chapter": "D Latch (Transparent Latch)"
+            },
+            {
+              "chapter": "Latch Timing and Hazards"
+            }
+          ]
+        },
+        {
+          "lesson": "Flip-Flops",
+          "lesson_key": "flip_flops",
+          "chapters": [
+            {
+              "chapter": "SR Flip-Flop: Clocked Operation"
+            },
+            {
+              "chapter": "D Flip-Flop: Edge-Triggered"
+            },
+            {
+              "chapter": "JK Flip-Flop: Master-Slave Configuration"
+            },
+            {
+              "chapter": "T Flip-Flop: Toggle Operation"
+            },
+            {
+              "chapter": "Flip-Flop Conversions"
+            }
+          ]
+        },
+        {
+          "lesson": "Sequential Circuit Design",
+          "lesson_key": "sequential_circuit_design",
+          "chapters": [
+            {
+              "chapter": "State Diagrams and State Tables"
+            },
+            {
+              "chapter": "State Assignment and Minimization"
+            },
+            {
+              "chapter": "Excitation Tables"
+            },
+            {
+              "chapter": "Timing Analysis: Setup and Hold Times"
+            },
+            {
+              "chapter": "Metastability Issues"
+            }
+          ]
+        },
+        {
+          "lesson": "Asynchronous (Ripple) Counters",
+          "lesson_key": "asynchronous_ripple_counters",
+          "chapters": [
+            {
+              "chapter": "Binary Ripple Counter Operation"
+            },
+            {
+              "chapter": "Timing Diagram and Propagation Delay"
+            },
+            {
+              "chapter": "Modulo-N Ripple Counters"
+            },
+            {
+              "chapter": "Decade Counter (BCD Counter)"
+            }
+          ]
+        },
+        {
+          "lesson": "Synchronous Counters",
+          "lesson_key": "synchronous_counters",
+          "chapters": [
+            {
+              "chapter": "Synchronous Binary Counter Design"
+            },
+            {
+              "chapter": "Advantages over Asynchronous Counters"
+            },
+            {
+              "chapter": "Up-Counter and Down-Counter"
+            },
+            {
+              "chapter": "Up-Down Counter with Mode Control"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Counter Designs",
+          "lesson_key": "advanced_counter_designs",
+          "chapters": [
+            {
+              "chapter": "Modulo-N Synchronous Counters"
+            },
+            {
+              "chapter": "Counter Design using JK and D Flip-Flops"
+            },
+            {
+              "chapter": "Counters with Parallel Load"
+            },
+            {
+              "chapter": "Ring Counter and Johnson Counter"
+            },
+            {
+              "chapter": "Frequency Division using Counters"
+            }
+          ]
+        },
+        {
+          "lesson": "Shift Register Fundamentals",
+          "lesson_key": "shift_register_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Serial vs. Parallel Data Transfer"
+            },
+            {
+              "chapter": "Basic Shift Register Operation"
+            },
+            {
+              "chapter": "Shift Register Applications"
+            }
+          ]
+        },
+        {
+          "lesson": "Shift Register Types",
+          "lesson_key": "shift_register_types",
+          "chapters": [
+            {
+              "chapter": "Serial-In Serial-Out (SISO) Register"
+            },
+            {
+              "chapter": "Serial-In Parallel-Out (SIPO) Register"
+            },
+            {
+              "chapter": "Parallel-In Serial-Out (PISO) Register"
+            },
+            {
+              "chapter": "Parallel-In Parallel-Out (PIPO) Register"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Shift Register Configurations",
+          "lesson_key": "advanced_shift_register_configurations",
+          "chapters": [
+            {
+              "chapter": "Bidirectional Shift Register"
+            },
+            {
+              "chapter": "Universal Shift Register"
+            },
+            {
+              "chapter": "Shift Register Counters: Ring and Johnson"
+            }
+          ]
+        },
+        {
+          "lesson": "Storage Registers and Applications",
+          "lesson_key": "storage_registers_and_applications",
+          "chapters": [
+            {
+              "chapter": "Buffer Registers"
+            },
+            {
+              "chapter": "Data Storage and Transfer Operations"
+            },
+            {
+              "chapter": "Serial Communication using Shift Registers"
+            }
+          ]
+        },
+        {
+          "lesson": "555 Timer Fundamentals",
+          "lesson_key": "555_timer_fundamentals",
+          "chapters": [
+            {
+              "chapter": "555 Timer Internal Architecture"
+            },
+            {
+              "chapter": "Pin Configuration and Functions"
+            },
+            {
+              "chapter": "Threshold and Trigger Comparators"
+            }
+          ]
+        },
+        {
+          "lesson": "Monostable Operation",
+          "lesson_key": "monostable_operation",
+          "chapters": [
+            {
+              "chapter": "Monostable (One-Shot) Configuration"
+            },
+            {
+              "chapter": "Timing Calculations in Monostable Mode"
+            },
+            {
+              "chapter": "Pulse Width Modulation"
+            }
+          ]
+        },
+        {
+          "lesson": "Astable Operation",
+          "lesson_key": "astable_operation",
+          "chapters": [
+            {
+              "chapter": "Astable (Free-Running) Configuration"
+            },
+            {
+              "chapter": "Frequency and Duty Cycle Calculations"
+            },
+            {
+              "chapter": "Square Wave and Rectangular Wave Generation"
+            }
+          ]
+        },
+        {
+          "lesson": "555 Timer Applications",
+          "lesson_key": "555_timer_applications",
+          "chapters": [
+            {
+              "chapter": "Pulse Generator Circuits"
+            },
+            {
+              "chapter": "Frequency Divider"
+            },
+            {
+              "chapter": "Time Delay Circuits"
+            },
+            {
+              "chapter": "LED Flasher and Alarm Circuits"
+            }
+          ]
+        },
+        {
+          "lesson": "ADC Fundamentals",
+          "lesson_key": "adc_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Sampling Theory and Nyquist Criterion"
+            },
+            {
+              "chapter": "Quantization and Quantization Error"
+            },
+            {
+              "chapter": "ADC Specifications: Resolution, Accuracy, Speed"
+            },
+            {
+              "chapter": "Aliasing and Anti-Aliasing Filters"
+            }
+          ]
+        },
+        {
+          "lesson": "Flash ADC",
+          "lesson_key": "flash_adc",
+          "chapters": [
+            {
+              "chapter": "Flash Converter Architecture"
+            },
+            {
+              "chapter": "Comparator Array and Priority Encoder"
+            },
+            {
+              "chapter": "Advantages and Limitations"
+            }
+          ]
+        },
+        {
+          "lesson": "Successive Approximation ADC",
+          "lesson_key": "successive_approximation_adc",
+          "chapters": [
+            {
+              "chapter": "SAR ADC Operating Principle"
+            },
+            {
+              "chapter": "Binary Search Algorithm"
+            },
+            {
+              "chapter": "DAC and Comparator in SAR"
+            },
+            {
+              "chapter": "Conversion Time Analysis"
+            }
+          ]
+        },
+        {
+          "lesson": "Dual Slope ADC",
+          "lesson_key": "dual_slope_adc",
+          "chapters": [
+            {
+              "chapter": "Dual Slope Integration Method"
+            },
+            {
+              "chapter": "Integration and De-integration Phases"
+            },
+            {
+              "chapter": "Noise Rejection Properties"
+            },
+            {
+              "chapter": "Other ADC Types: Sigma-Delta, Pipeline"
+            }
+          ]
+        },
+        {
+          "lesson": "DAC Fundamentals",
+          "lesson_key": "dac_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Digital-to-Analog Conversion Process"
+            },
+            {
+              "chapter": "DAC Specifications: Resolution, Linearity, Settling Time"
+            },
+            {
+              "chapter": "Output Voltage Calculation"
+            }
+          ]
+        },
+        {
+          "lesson": "Binary Weighted Resistor DAC",
+          "lesson_key": "binary_weighted_resistor_dac",
+          "chapters": [
+            {
+              "chapter": "Binary Weighted DAC Architecture"
+            },
+            {
+              "chapter": "Summing Amplifier Configuration"
+            },
+            {
+              "chapter": "Resistor Precision Requirements"
+            },
+            {
+              "chapter": "Advantages and Limitations"
+            }
+          ]
+        },
+        {
+          "lesson": "R-2R Ladder DAC",
+          "lesson_key": "r_2r_ladder_dac",
+          "chapters": [
+            {
+              "chapter": "R-2R Ladder Network Architecture"
+            },
+            {
+              "chapter": "Voltage Division and Current Steering"
+            },
+            {
+              "chapter": "Advantages over Binary Weighted DAC"
+            },
+            {
+              "chapter": "Analysis of R-2R Ladder Output"
+            }
+          ]
+        },
+        {
+          "lesson": "DAC Performance and Applications",
+          "lesson_key": "dac_performance_and_applications",
+          "chapters": [
+            {
+              "chapter": "Monotonicity and DNL/INL Errors"
+            },
+            {
+              "chapter": "Glitches and Deglitching Circuits"
+            },
+            {
+              "chapter": "DAC Applications in Signal Generation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Nuclear and Particle Physics",
+      "topic_key": "nuclear_and_particle_physics",
+      "lessons": [
+        {
+          "lesson": "Empirical Nuclear Properties",
+          "lesson_key": "empirical_nuclear_properties",
+          "chapters": [
+            {
+              "chapter": "Overview of Nuclear Structure"
+            },
+            {
+              "chapter": "Nuclear Radii and Charge Distribution"
+            },
+            {
+              "chapter": "Experimental Determination of Nuclear Size"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Binding Energy",
+          "lesson_key": "nuclear_binding_energy",
+          "chapters": [
+            {
+              "chapter": "Mass Defect and Binding Energy"
+            },
+            {
+              "chapter": "Binding Energy per Nucleon Curve"
+            },
+            {
+              "chapter": "Nuclear Stability and Decay Chains"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Moments",
+          "lesson_key": "electromagnetic_moments",
+          "chapters": [
+            {
+              "chapter": "Nuclear Spin and Magnetic Dipole Moment"
+            },
+            {
+              "chapter": "Electric Quadrupole Moment and Nuclear Deformation"
+            },
+            {
+              "chapter": "Measurement Techniques for Nuclear Moments"
+            }
+          ]
+        },
+        {
+          "lesson": "Semi-Empirical Mass Formula",
+          "lesson_key": "semi_empirical_mass_formula",
+          "chapters": [
+            {
+              "chapter": "Derivation of Weizsäcker Formula"
+            },
+            {
+              "chapter": "Volume, Surface, Coulomb, Asymmetry, and Pairing Terms"
+            },
+            {
+              "chapter": "Applications to Nuclear Masses and Stability"
+            }
+          ]
+        },
+        {
+          "lesson": "Liquid Drop Model",
+          "lesson_key": "liquid_drop_model",
+          "chapters": [
+            {
+              "chapter": "Assumptions and Formulation"
+            },
+            {
+              "chapter": "Connection to Semi-Empirical Mass Formula"
+            },
+            {
+              "chapter": "Predictions for Fission and Nuclear Deformation"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Shell Model",
+          "lesson_key": "nuclear_shell_model",
+          "chapters": [
+            {
+              "chapter": "Evidence for Shell Structure and Magic Numbers"
+            },
+            {
+              "chapter": "Independent Particle Model with Central Potential"
+            },
+            {
+              "chapter": "Spin-Orbit Coupling and Level Ordering"
+            },
+            {
+              "chapter": "Predictions of Ground State Properties"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Nuclear Models",
+          "lesson_key": "advanced_nuclear_models",
+          "chapters": [
+            {
+              "chapter": "Collective Model and Rotational Spectra"
+            },
+            {
+              "chapter": "Nilsson Model for Deformed Nuclei"
+            },
+            {
+              "chapter": "Interacting Shell Model"
+            }
+          ]
+        },
+        {
+          "lesson": "Properties of Nuclear Forces",
+          "lesson_key": "properties_of_nuclear_forces",
+          "chapters": [
+            {
+              "chapter": "Historical Development and Discovery"
+            },
+            {
+              "chapter": "Range, Strength, and Saturation Properties"
+            },
+            {
+              "chapter": "Charge Independence and Isospin Formalism"
+            },
+            {
+              "chapter": "Spin and Tensor Force Components"
+            }
+          ]
+        },
+        {
+          "lesson": "Two-Nucleon Problem",
+          "lesson_key": "two_nucleon_problem",
+          "chapters": [
+            {
+              "chapter": "Deuteron Ground State Properties"
+            },
+            {
+              "chapter": "Solution with Square Well Potential"
+            },
+            {
+              "chapter": "Yukawa Potential and Meson Exchange"
+            }
+          ]
+        },
+        {
+          "lesson": "Nucleon-Nucleon Scattering",
+          "lesson_key": "nucleon_nucleon_scattering",
+          "chapters": [
+            {
+              "chapter": "Phase Shift Analysis"
+            },
+            {
+              "chapter": "Low Energy Scattering Parameters"
+            },
+            {
+              "chapter": "Realistic Nuclear Potentials"
+            }
+          ]
+        },
+        {
+          "lesson": "Alpha Decay",
+          "lesson_key": "alpha_decay",
+          "chapters": [
+            {
+              "chapter": "Energetics and Systematics of Alpha Decay"
+            },
+            {
+              "chapter": "Gamow Theory and Barrier Penetration"
+            },
+            {
+              "chapter": "Geiger-Nuttall Law and Half-Life Predictions"
+            },
+            {
+              "chapter": "Alpha Spectroscopy and Fine Structure"
+            }
+          ]
+        },
+        {
+          "lesson": "Beta Decay",
+          "lesson_key": "beta_decay",
+          "chapters": [
+            {
+              "chapter": "Types of Beta Decay and Neutrino Hypothesis"
+            },
+            {
+              "chapter": "Fermi Theory of Beta Decay"
+            },
+            {
+              "chapter": "Selection Rules and Decay Rates"
+            },
+            {
+              "chapter": "Beta Spectrum and Forbidden Transitions"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Transitions",
+          "lesson_key": "electromagnetic_transitions",
+          "chapters": [
+            {
+              "chapter": "Multipole Radiation in Nuclei"
+            },
+            {
+              "chapter": "Selection Rules for Gamma Transitions"
+            },
+            {
+              "chapter": "Internal Conversion and Conversion Coefficients"
+            },
+            {
+              "chapter": "Transition Rates and Weisskopf Estimates"
+            }
+          ]
+        },
+        {
+          "lesson": "Rutherford Scattering",
+          "lesson_key": "rutherford_scattering",
+          "chapters": [
+            {
+              "chapter": "Classical Coulomb Scattering Derivation"
+            },
+            {
+              "chapter": "Rutherford Cross Section Formula"
+            },
+            {
+              "chapter": "Deviations from Rutherford Formula"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Reaction Kinematics",
+          "lesson_key": "nuclear_reaction_kinematics",
+          "chapters": [
+            {
+              "chapter": "Conservation Laws in Nuclear Reactions"
+            },
+            {
+              "chapter": "Q-Value and Energy Balance"
+            },
+            {
+              "chapter": "Threshold Energy for Endothermic Reactions"
+            },
+            {
+              "chapter": "Laboratory and Center-of-Mass Frames"
+            }
+          ]
+        },
+        {
+          "lesson": "Reaction Cross Sections",
+          "lesson_key": "reaction_cross_sections",
+          "chapters": [
+            {
+              "chapter": "Definition and Measurement of Cross Sections"
+            },
+            {
+              "chapter": "Differential and Total Cross Sections"
+            },
+            {
+              "chapter": "Resonance Phenomena and Breit-Wigner Formula"
+            }
+          ]
+        },
+        {
+          "lesson": "Reaction Mechanisms",
+          "lesson_key": "reaction_mechanisms",
+          "chapters": [
+            {
+              "chapter": "Compound Nucleus Model"
+            },
+            {
+              "chapter": "Direct Reactions and Stripping/Pickup"
+            },
+            {
+              "chapter": "Statistical Model and Evaporation"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Fission",
+          "lesson_key": "nuclear_fission",
+          "chapters": [
+            {
+              "chapter": "Discovery and Mechanism of Fission"
+            },
+            {
+              "chapter": "Liquid Drop Model Explanation of Fission"
+            },
+            {
+              "chapter": "Fission Barrier and Spontaneous Fission"
+            },
+            {
+              "chapter": "Fission Fragments and Neutron Emission"
+            }
+          ]
+        },
+        {
+          "lesson": "Chain Reactions and Reactors",
+          "lesson_key": "chain_reactions_and_reactors",
+          "chapters": [
+            {
+              "chapter": "Neutron-Induced Fission and Chain Reactions"
+            },
+            {
+              "chapter": "Critical Mass and Multiplication Factor"
+            },
+            {
+              "chapter": "Nuclear Reactor Principles"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Fusion",
+          "lesson_key": "nuclear_fusion",
+          "chapters": [
+            {
+              "chapter": "Fusion Reactions and Energy Production"
+            },
+            {
+              "chapter": "Coulomb Barrier and Gamow Peak"
+            },
+            {
+              "chapter": "Stellar Nucleosynthesis and Fusion Cycles"
+            },
+            {
+              "chapter": "Controlled Fusion and Plasma Confinement"
+            }
+          ]
+        },
+        {
+          "lesson": "Particle Accelerators",
+          "lesson_key": "particle_accelerators",
+          "chapters": [
+            {
+              "chapter": "Overview of Accelerator Technology"
+            },
+            {
+              "chapter": "Linear Accelerators and RF Cavities"
+            },
+            {
+              "chapter": "Circular Accelerators - Cyclotron and Synchrotron"
+            },
+            {
+              "chapter": "Beam Dynamics and Focusing Systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Radiation Detectors",
+          "lesson_key": "radiation_detectors",
+          "chapters": [
+            {
+              "chapter": "Interaction of Radiation with Matter"
+            },
+            {
+              "chapter": "Gas-Filled Detectors - Ionization Chambers and Proportional Counters"
+            },
+            {
+              "chapter": "Geiger-Müller Counters and Applications"
+            },
+            {
+              "chapter": "Scintillation Detectors and Photomultipliers"
+            }
+          ]
+        },
+        {
+          "lesson": "Modern Detection Systems",
+          "lesson_key": "modern_detection_systems",
+          "chapters": [
+            {
+              "chapter": "Semiconductor Detectors"
+            },
+            {
+              "chapter": "Calorimeters and Energy Measurement"
+            },
+            {
+              "chapter": "Tracking Detectors and Particle Identification"
+            }
+          ]
+        },
+        {
+          "lesson": "Introduction to Particle Physics",
+          "lesson_key": "introduction_to_particle_physics",
+          "chapters": [
+            {
+              "chapter": "Historical Development and Particle Zoo"
+            },
+            {
+              "chapter": "Fundamental Forces and Exchange Particles"
+            },
+            {
+              "chapter": "Quantum Numbers in Particle Physics"
+            }
+          ]
+        },
+        {
+          "lesson": "Leptons",
+          "lesson_key": "leptons",
+          "chapters": [
+            {
+              "chapter": "Electron, Muon, Tau and Their Neutrinos"
+            },
+            {
+              "chapter": "Lepton Number Conservation"
+            },
+            {
+              "chapter": "Lepton Interactions and Weak Force"
+            }
+          ]
+        },
+        {
+          "lesson": "Mesons and Baryons",
+          "lesson_key": "mesons_and_baryons",
+          "chapters": [
+            {
+              "chapter": "Pion, Kaon, and Other Mesons"
+            },
+            {
+              "chapter": "Baryon Classification - Nucleons and Hyperons"
+            },
+            {
+              "chapter": "Baryon Number and Strangeness"
+            },
+            {
+              "chapter": "Isospin Multiplets"
+            }
+          ]
+        },
+        {
+          "lesson": "Photon and Gauge Bosons",
+          "lesson_key": "photon_and_gauge_bosons",
+          "chapters": [
+            {
+              "chapter": "Photon as Electromagnetic Force Carrier"
+            },
+            {
+              "chapter": "W and Z Bosons in Weak Interactions"
+            },
+            {
+              "chapter": "Gluons and Strong Force"
+            }
+          ]
+        },
+        {
+          "lesson": "Introduction to Quarks",
+          "lesson_key": "introduction_to_quarks",
+          "chapters": [
+            {
+              "chapter": "Historical Motivation for Quark Model"
+            },
+            {
+              "chapter": "Six Quark Flavors and Their Properties"
+            },
+            {
+              "chapter": "Fractional Charge and Quantum Numbers"
+            }
+          ]
+        },
+        {
+          "lesson": "Quark Composition of Hadrons",
+          "lesson_key": "quark_composition_of_hadrons",
+          "chapters": [
+            {
+              "chapter": "Mesons as Quark-Antiquark Pairs"
+            },
+            {
+              "chapter": "Baryons as Three-Quark Systems"
+            },
+            {
+              "chapter": "Exotic Hadrons and Multiquark States"
+            }
+          ]
+        },
+        {
+          "lesson": "Color Charge and QCD",
+          "lesson_key": "color_charge_and_qcd",
+          "chapters": [
+            {
+              "chapter": "Color Quantum Number and SU(3) Symmetry"
+            },
+            {
+              "chapter": "Gluons and Color Force"
+            },
+            {
+              "chapter": "Confinement and Asymptotic Freedom"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications of Quark Model",
+          "lesson_key": "applications_of_quark_model",
+          "chapters": [
+            {
+              "chapter": "Hadron Spectroscopy and Mass Predictions"
+            },
+            {
+              "chapter": "Magnetic Moments of Baryons"
+            },
+            {
+              "chapter": "Deep Inelastic Scattering Evidence"
+            }
+          ]
+        },
+        {
+          "lesson": "Conservation Laws",
+          "lesson_key": "conservation_laws",
+          "chapters": [
+            {
+              "chapter": "Energy, Momentum, and Angular Momentum Conservation"
+            },
+            {
+              "chapter": "Charge Conservation and Gauge Symmetry"
+            },
+            {
+              "chapter": "Baryon Number and Lepton Number Conservation"
+            },
+            {
+              "chapter": "Strangeness and Charm Conservation"
+            }
+          ]
+        },
+        {
+          "lesson": "Isospin Symmetry",
+          "lesson_key": "isospin_symmetry",
+          "chapters": [
+            {
+              "chapter": "Isospin as Approximate Symmetry of Strong Interaction"
+            },
+            {
+              "chapter": "Isospin Multiplets and Charge Independence"
+            },
+            {
+              "chapter": "Isospin Conservation in Strong Interactions"
+            },
+            {
+              "chapter": "Breaking of Isospin Symmetry"
+            }
+          ]
+        },
+        {
+          "lesson": "Discrete Symmetries",
+          "lesson_key": "discrete_symmetries",
+          "chapters": [
+            {
+              "chapter": "Parity Transformation and Conservation"
+            },
+            {
+              "chapter": "Charge Conjugation Symmetry"
+            },
+            {
+              "chapter": "Time Reversal Invariance"
+            },
+            {
+              "chapter": "Parity Violation in Weak Interactions"
+            }
+          ]
+        },
+        {
+          "lesson": "Combined Symmetries",
+          "lesson_key": "combined_symmetries",
+          "chapters": [
+            {
+              "chapter": "CP Symmetry and CP Violation"
+            },
+            {
+              "chapter": "CPT Theorem and Its Implications"
+            },
+            {
+              "chapter": "Matter-Antimatter Asymmetry"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

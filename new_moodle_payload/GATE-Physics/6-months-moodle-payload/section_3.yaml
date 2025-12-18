@@ -1,0 +1,490 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Electromagnetic Theory - Electrostatics and Magnetostatics, Maxwell's Equations, Wave Propagation, Boundary Interactions, Energy Transport, and Radiation Phenomena"
+
+concepts:
+  core:
+    - name: Electrostatics and Magnetostatics
+      clarifier: Static electric and magnetic field solutions using boundary value problems, method of images, and separation of variables
+    - name: Maxwell's Equations
+      clarifier: Fundamental equations governing electromagnetic phenomena with scalar and vector potentials in different gauge choices
+    - name: Electromagnetic Wave Propagation
+      clarifier: Wave solutions in various media including free space, dielectrics, and conductors
+    - name: Wave-Boundary Interactions
+      clarifier: Reflection, transmission, and polarization phenomena at material interfaces
+    - name: Electromagnetic Energy and Momentum
+      clarifier: Poynting vector formalism for energy transport and conservation in electromagnetic fields
+    - name: Radiation Theory
+      clarifier: Electromagnetic radiation from accelerating charges and moving sources
+  related:
+    - name: Vector Calculus
+      clarifier: Gradient, divergence, curl operations and integral theorems (Gauss, Stokes)
+    - name: Partial Differential Equations
+      clarifier: Solution techniques for Laplace and wave equations in various coordinate systems
+    - name: Boundary Value Problems
+      clarifier: Mathematical methods for solving differential equations with specified boundary conditions
+    - name: Complex Analysis
+      clarifier: Complex exponentials and phasors for wave representation
+    - name: Fourier Analysis
+      clarifier: Decomposition of fields and waves into frequency components
+    - name: Material Properties
+      clarifier: Dielectric permittivity, magnetic permeability, and conductivity of materials
+    - name: Gauge Theory
+      clarifier: Mathematical framework for potential formulations and gauge transformations
+    - name: Special Relativity
+      clarifier: Lorentz transformations and relativistic electrodynamics
+
+learning_path:
+  - id: 1
+    title: "Electrostatics: Field Theory and Solution Methods"
+    learning_objectives:
+      - "Formulate and solve electrostatic boundary value problems using method of images and separation of variables"
+      - "Apply Green's functions to find electrostatic potentials for complex charge distributions"
+      - "Calculate electric fields and potentials in presence of dielectric materials and conductors"
+      - "Perform multipole expansion for electric potentials at large distances"
+    textbook_style_content:
+      - topic: "Foundations of Electrostatics"
+        sections:
+          - section_title: "Coulomb's Law and Electric Field"
+            section_type: "overview"
+          - section_title: "Gauss's Law and Differential Form"
+            section_type: "core_theory"
+          - section_title: "Electric Potential and Poisson's Equation"
+            section_type: "core_theory"
+          - section_title: "Vector Calculus Foundations"
+            section_type: "related_concepts"
+      - topic: "Boundary Value Problems in Electrostatics"
+        sections:
+          - section_title: "Laplace and Poisson Equations"
+            section_type: "core_theory"
+          - section_title: "Uniqueness Theorem"
+            section_type: "core_theory"
+          - section_title: "Method of Images for Point Charges"
+            section_type: "core_theory"
+          - section_title: "Images for Grounded Conductors and Dielectric Boundaries"
+            section_type: "core_theory"
+      - topic: "Separation of Variables Technique"
+        sections:
+          - section_title: "Cartesian Coordinate Solutions"
+            section_type: "core_theory"
+          - section_title: "Spherical Harmonics and Legendre Polynomials"
+            section_type: "core_theory"
+          - section_title: "Cylindrical Coordinate Solutions with Bessel Functions"
+            section_type: "core_theory"
+          - section_title: "Boundary Condition Application"
+            section_type: "core_theory"
+      - topic: "Dielectrics and Conductors"
+        sections:
+          - section_title: "Polarization and Bound Charges"
+            section_type: "core_theory"
+          - section_title: "Electric Displacement Field"
+            section_type: "core_theory"
+          - section_title: "Boundary Conditions at Dielectric Interfaces"
+            section_type: "core_theory"
+          - section_title: "Conductors in Electrostatic Equilibrium"
+            section_type: "core_theory"
+          - section_title: "Capacitance and Energy Storage"
+            section_type: "core_theory"
+      - topic: "Multipole Expansion"
+        sections:
+          - section_title: "Monopole, Dipole, and Quadrupole Moments"
+            section_type: "core_theory"
+          - section_title: "General Multipole Expansion Formula"
+            section_type: "core_theory"
+          - section_title: "Energy of Charge Distribution in External Field"
+            section_type: "core_theory"
+    milestone: "Master electrostatic problem-solving using advanced mathematical techniques and understand material interactions"
+    duration_days: 12
+    tags:
+      - "electrostatics"
+      - "boundary_value_problems"
+      - "dielectrics"
+      - "multipole_expansion"
+      - "method_of_images"
+
+  - id: 2
+    title: "Magnetostatics: Field Theory and Magnetic Materials"
+    learning_objectives:
+      - "Apply Ampère's law and Biot-Savart law to calculate magnetic fields from current distributions"
+      - "Solve magnetostatic boundary value problems using vector potential formulation"
+      - "Analyze magnetic materials including paramagnetic, diamagnetic, and ferromagnetic substances"
+      - "Apply multipole expansion to magnetic field distributions"
+    textbook_style_content:
+      - topic: "Fundamentals of Magnetostatics"
+        sections:
+          - section_title: "Lorentz Force and Magnetic Field Definition"
+            section_type: "overview"
+          - section_title: "Biot-Savart Law for Current Elements"
+            section_type: "core_theory"
+          - section_title: "Ampère's Law in Integral and Differential Forms"
+            section_type: "core_theory"
+          - section_title: "Divergence-Free Nature of Magnetic Field"
+            section_type: "core_theory"
+      - topic: "Vector Potential and Magnetostatic Problems"
+        sections:
+          - section_title: "Vector Potential Definition and Gauge Freedom"
+            section_type: "core_theory"
+          - section_title: "Poisson Equation for Vector Potential"
+            section_type: "core_theory"
+          - section_title: "Boundary Value Problems in Magnetostatics"
+            section_type: "core_theory"
+          - section_title: "Magnetic Multipole Expansion"
+            section_type: "core_theory"
+      - topic: "Magnetic Materials"
+        sections:
+          - section_title: "Magnetization and Bound Currents"
+            section_type: "core_theory"
+          - section_title: "Magnetic Field H and Auxiliary Field"
+            section_type: "core_theory"
+          - section_title: "Boundary Conditions at Magnetic Interfaces"
+            section_type: "core_theory"
+          - section_title: "Diamagnetism, Paramagnetism, and Ferromagnetism"
+            section_type: "core_theory"
+          - section_title: "Magnetic Susceptibility and Permeability"
+            section_type: "core_theory"
+      - topic: "Advanced Magnetostatic Applications"
+        sections:
+          - section_title: "Magnetic Dipole Moment"
+            section_type: "core_theory"
+          - section_title: "Inductance and Magnetic Energy"
+            section_type: "core_theory"
+          - section_title: "Forces and Torques on Magnetic Dipoles"
+            section_type: "core_theory"
+    milestone: "Achieve proficiency in magnetostatic calculations and understanding of magnetic material behavior"
+    duration_days: 10
+    tags:
+      - "magnetostatics"
+      - "magnetic_materials"
+      - "vector_potential"
+      - "Ampere_law"
+      - "magnetization"
+
+  - id: 3
+    title: "Maxwell's Equations: Unification of Electromagnetic Theory"
+    learning_objectives:
+      - "Derive and interpret all four Maxwell's equations in differential and integral forms"
+      - "Understand displacement current and its role in electromagnetic wave propagation"
+      - "Formulate electromagnetic problems using scalar and vector potentials"
+      - "Apply Coulomb and Lorentz gauge conditions to simplify potential equations"
+    textbook_style_content:
+      - topic: "Time-Varying Fields and Faraday's Law"
+        sections:
+          - section_title: "Electromagnetic Induction Phenomena"
+            section_type: "overview"
+          - section_title: "Faraday's Law of Induction"
+            section_type: "core_theory"
+          - section_title: "Induced Electric Fields"
+            section_type: "core_theory"
+          - section_title: "Lenz's Law and Energy Conservation"
+            section_type: "core_theory"
+      - topic: "Displacement Current and Ampère-Maxwell Law"
+        sections:
+          - section_title: "Inconsistency in Ampère's Law"
+            section_type: "overview"
+          - section_title: "Maxwell's Displacement Current"
+            section_type: "core_theory"
+          - section_title: "Modified Ampère's Law"
+            section_type: "core_theory"
+          - section_title: "Physical Interpretation and Consequences"
+            section_type: "core_theory"
+      - topic: "Complete Maxwell's Equations"
+        sections:
+          - section_title: "Four Maxwell Equations in Vacuum"
+            section_type: "core_theory"
+          - section_title: "Maxwell Equations in Matter"
+            section_type: "core_theory"
+          - section_title: "Continuity Equation and Charge Conservation"
+            section_type: "core_theory"
+          - section_title: "Symmetry and Asymmetry in Maxwell's Equations"
+            section_type: "core_theory"
+      - topic: "Electromagnetic Potentials"
+        sections:
+          - section_title: "Scalar Potential and Vector Potential Definitions"
+            section_type: "core_theory"
+          - section_title: "Gauge Transformations and Gauge Invariance"
+            section_type: "core_theory"
+          - section_title: "Coulomb Gauge (Transverse Gauge)"
+            section_type: "core_theory"
+          - section_title: "Lorentz Gauge (Lorenz Gauge)"
+            section_type: "core_theory"
+          - section_title: "Wave Equations for Potentials"
+            section_type: "core_theory"
+          - section_title: "Gauge Theory Foundations"
+            section_type: "related_concepts"
+    milestone: "Master the complete theoretical framework of classical electromagnetism and potential formulations"
+    duration_days: 8
+    tags:
+      - "Maxwell_equations"
+      - "displacement_current"
+      - "gauge_theory"
+      - "electromagnetic_potentials"
+      - "Faraday_law"
+
+  - id: 4
+    title: "Electromagnetic Wave Propagation in Various Media"
+    learning_objectives:
+      - "Derive wave equations from Maxwell's equations for different media"
+      - "Calculate wave velocity, wavelength, and impedance in various materials"
+      - "Analyze wave attenuation and dispersion in conducting media"
+      - "Understand skin depth and propagation characteristics in conductors"
+    textbook_style_content:
+      - topic: "Wave Equation Derivation"
+        sections:
+          - section_title: "From Maxwell to Wave Equations"
+            section_type: "overview"
+          - section_title: "Wave Equations for E and B Fields"
+            section_type: "core_theory"
+          - section_title: "General Wave Solution and Plane Waves"
+            section_type: "core_theory"
+          - section_title: "Partial Differential Equations for Waves"
+            section_type: "related_concepts"
+      - topic: "Electromagnetic Waves in Free Space"
+        sections:
+          - section_title: "Plane Wave Solutions in Vacuum"
+            section_type: "core_theory"
+          - section_title: "Transverse Nature of EM Waves"
+            section_type: "core_theory"
+          - section_title: "Relationship Between E and B in Plane Waves"
+            section_type: "core_theory"
+          - section_title: "Speed of Light from Maxwell's Equations"
+            section_type: "core_theory"
+          - section_title: "Wave Vector and Frequency Relations"
+            section_type: "core_theory"
+      - topic: "Waves in Non-Conducting Dielectric Media"
+        sections:
+          - section_title: "Modified Wave Equation in Dielectrics"
+            section_type: "core_theory"
+          - section_title: "Refractive Index and Permittivity"
+            section_type: "core_theory"
+          - section_title: "Phase Velocity and Group Velocity"
+            section_type: "core_theory"
+          - section_title: "Dispersion in Dielectric Materials"
+            section_type: "core_theory"
+      - topic: "Waves in Conducting Media"
+        sections:
+          - section_title: "Complex Wave Vector in Conductors"
+            section_type: "core_theory"
+          - section_title: "Attenuation and Skin Depth"
+            section_type: "core_theory"
+          - section_title: "Good Conductor Approximation"
+            section_type: "core_theory"
+          - section_title: "Plasma Frequency and Cutoff"
+            section_type: "core_theory"
+          - section_title: "Impedance of Conducting Media"
+            section_type: "core_theory"
+    milestone: "Develop comprehensive understanding of electromagnetic wave behavior across different material environments"
+    duration_days: 10
+    tags:
+      - "wave_propagation"
+      - "dielectric_media"
+      - "conducting_media"
+      - "skin_depth"
+      - "dispersion"
+
+  - id: 5
+    title: "Wave Interactions at Boundaries: Reflection, Transmission, and Polarization"
+    learning_objectives:
+      - "Apply boundary conditions to determine reflection and transmission coefficients"
+      - "Calculate Fresnel coefficients for normal and oblique incidences"
+      - "Analyze total internal reflection and Brewster angle phenomena"
+      - "Characterize different polarization states and transformation mechanisms"
+    textbook_style_content:
+      - topic: "Electromagnetic Boundary Conditions"
+        sections:
+          - section_title: "Boundary Conditions for E and B Fields"
+            section_type: "overview"
+          - section_title: "Continuity of Tangential Components"
+            section_type: "core_theory"
+          - section_title: "Discontinuity of Normal Components"
+            section_type: "core_theory"
+          - section_title: "Derivation from Maxwell's Equations"
+            section_type: "core_theory"
+      - topic: "Normal Incidence Reflection and Transmission"
+        sections:
+          - section_title: "Wave Incident Perpendicular to Interface"
+            section_type: "core_theory"
+          - section_title: "Reflection and Transmission Coefficients"
+            section_type: "core_theory"
+          - section_title: "Standing Wave Patterns"
+            section_type: "core_theory"
+          - section_title: "Impedance Matching Concepts"
+            section_type: "core_theory"
+      - topic: "Oblique Incidence and Fresnel Equations"
+        sections:
+          - section_title: "Snell's Law from Boundary Conditions"
+            section_type: "core_theory"
+          - section_title: "s-Polarization (TE) Fresnel Coefficients"
+            section_type: "core_theory"
+          - section_title: "p-Polarization (TM) Fresnel Coefficients"
+            section_type: "core_theory"
+          - section_title: "Total Internal Reflection"
+            section_type: "core_theory"
+          - section_title: "Brewster Angle and Zero Reflection"
+            section_type: "core_theory"
+          - section_title: "Evanescent Waves"
+            section_type: "core_theory"
+      - topic: "Polarization of Electromagnetic Waves"
+        sections:
+          - section_title: "Linear Polarization States"
+            section_type: "core_theory"
+          - section_title: "Circular and Elliptical Polarization"
+            section_type: "core_theory"
+          - section_title: "Jones Vector and Matrix Formalism"
+            section_type: "core_theory"
+          - section_title: "Stokes Parameters"
+            section_type: "core_theory"
+          - section_title: "Polarization by Reflection and Transmission"
+            section_type: "core_theory"
+          - section_title: "Birefringence and Wave Plates"
+            section_type: "core_theory"
+    milestone: "Master wave-boundary interaction phenomena and polarization analysis techniques"
+    duration_days: 11
+    tags:
+      - "reflection"
+      - "transmission"
+      - "Fresnel_equations"
+      - "polarization"
+      - "Brewster_angle"
+      - "total_internal_reflection"
+
+  - id: 6
+    title: "Electromagnetic Energy Transport and Conservation"
+    learning_objectives:
+      - "Derive Poynting vector and interpret its physical significance"
+      - "Apply Poynting theorem to analyze energy conservation in electromagnetic systems"
+      - "Calculate energy density and energy flux for various field configurations"
+      - "Determine momentum density and radiation pressure of electromagnetic waves"
+    textbook_style_content:
+      - topic: "Energy in Electromagnetic Fields"
+        sections:
+          - section_title: "Energy Density in Electric and Magnetic Fields"
+            section_type: "overview"
+          - section_title: "Work Done by Electromagnetic Forces"
+            section_type: "core_theory"
+          - section_title: "Energy Storage in Static Fields"
+            section_type: "core_theory"
+      - topic: "Poynting Vector and Energy Flow"
+        sections:
+          - section_title: "Derivation of Poynting Vector"
+            section_type: "core_theory"
+          - section_title: "Physical Interpretation of S = (E × H)/μ₀"
+            section_type: "core_theory"
+          - section_title: "Energy Flux Density"
+            section_type: "core_theory"
+          - section_title: "Poynting Vector for Plane Waves"
+            section_type: "core_theory"
+      - topic: "Poynting Theorem and Energy Conservation"
+        sections:
+          - section_title: "Derivation from Maxwell's Equations"
+            section_type: "core_theory"
+          - section_title: "Differential Form of Energy Conservation"
+            section_type: "core_theory"
+          - section_title: "Integral Form and Interpretation"
+            section_type: "core_theory"
+          - section_title: "Ohmic Losses and Joule Heating"
+            section_type: "core_theory"
+          - section_title: "Energy Balance in Electromagnetic Systems"
+            section_type: "core_theory"
+      - topic: "Momentum of Electromagnetic Waves"
+        sections:
+          - section_title: "Electromagnetic Momentum Density"
+            section_type: "core_theory"
+          - section_title: "Radiation Pressure"
+            section_type: "core_theory"
+          - section_title: "Maxwell Stress Tensor"
+            section_type: "core_theory"
+          - section_title: "Angular Momentum of Light"
+            section_type: "core_theory"
+      - topic: "Applications and Examples"
+        sections:
+          - section_title: "Energy Transport in Transmission Lines"
+            section_type: "core_theory"
+          - section_title: "Energy Flow in Waveguides and Cavities"
+            section_type: "core_theory"
+          - section_title: "Absorption and Emission of Energy"
+            section_type: "core_theory"
+    milestone: "Achieve mastery of energy and momentum conservation principles in electromagnetic theory"
+    duration_days: 9
+    tags:
+      - "Poynting_vector"
+      - "energy_conservation"
+      - "momentum"
+      - "radiation_pressure"
+      - "Poynting_theorem"
+
+  - id: 7
+    title: "Radiation from Moving Charges"
+    learning_objectives:
+      - "Derive retarded potentials for time-dependent charge and current distributions"
+      - "Calculate radiation fields from accelerating point charges using Larmor formula"
+      - "Analyze dipole radiation patterns and power distribution"
+      - "Understand synchrotron and bremsstrahlung radiation mechanisms"
+    textbook_style_content:
+      - topic: "Retarded Potentials"
+        sections:
+          - section_title: "Causality and Finite Signal Propagation"
+            section_type: "overview"
+          - section_title: "Solution to Inhomogeneous Wave Equations"
+            section_type: "core_theory"
+          - section_title: "Retarded Time Concept"
+            section_type: "core_theory"
+          - section_title: "Liénard-Wiechert Potentials for Moving Point Charges"
+            section_type: "core_theory"
+      - topic: "Fields of Accelerating Charges"
+        sections:
+          - section_title: "Electric and Magnetic Fields from Liénard-Wiechert Potentials"
+            section_type: "core_theory"
+          - section_title: "Velocity Fields and Acceleration Fields"
+            section_type: "core_theory"
+          - section_title: "Near Zone vs Far Zone Behavior"
+            section_type: "core_theory"
+          - section_title: "Radiation Zone Approximation"
+            section_type: "core_theory"
+      - topic: "Radiation from Accelerating Point Charges"
+        sections:
+          - section_title: "Larmor Formula for Radiated Power"
+            section_type: "core_theory"
+          - section_title: "Angular Distribution of Radiated Energy"
+            section_type: "core_theory"
+          - section_title: "Radiation from Linear Acceleration"
+            section_type: "core_theory"
+          - section_title: "Radiation Reaction and Self-Force"
+            section_type: "core_theory"
+      - topic: "Dipole Radiation"
+        sections:
+          - section_title: "Electric Dipole Oscillator"
+            section_type: "core_theory"
+          - section_title: "Radiation Pattern and Polarization"
+            section_type: "core_theory"
+          - section_title: "Time-Averaged Power for Dipole Radiation"
+            section_type: "core_theory"
+          - section_title: "Magnetic Dipole and Electric Quadrupole Radiation"
+            section_type: "core_theory"
+      - topic: "Special Radiation Mechanisms"
+        sections:
+          - section_title: "Synchrotron Radiation from Circular Motion"
+            section_type: "core_theory"
+          - section_title: "Bremsstrahlung (Braking Radiation)"
+            section_type: "core_theory"
+          - section_title: "Cerenkov Radiation"
+            section_type: "core_theory"
+          - section_title: "Relativistic Effects in Radiation"
+            section_type: "related_concepts"
+      - topic: "Antenna Theory Basics"
+        sections:
+          - section_title: "Half-Wave Dipole Antenna"
+            section_type: "core_theory"
+          - section_title: "Antenna Gain and Directivity"
+            section_type: "core_theory"
+          - section_title: "Radiation Resistance"
+            section_type: "core_theory"
+    milestone: "Develop comprehensive understanding of electromagnetic radiation from accelerating charges and practical antenna systems"
+    duration_days: 12
+    tags:
+      - "radiation"
+      - "moving_charges"
+      - "Larmor_formula"
+      - "dipole_radiation"
+      - "retarded_potentials"
+      - "synchrotron_radiation"

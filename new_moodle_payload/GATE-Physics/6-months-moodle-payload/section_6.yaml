@@ -1,0 +1,479 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Section 6: Atomic & Molecular Physics - Spectra of one- and many-electron atoms, spin-orbit interaction (LS and jj couplings), fine and hyperfine structures, Zeeman and Stark effects, electric dipole transitions and selection rules, rotational and vibrational spectra of diatomic molecules, electronic transitions in diatomic molecules, Franck-Condon principle, Raman effect, EPR, NMR, ESR, X-ray spectra, lasers (Einstein coefficients, population inversion, two and three level systems)"
+
+concepts:
+  core:
+    - name: Atomic Spectra
+      clarifier: Spectral lines and energy level structures in one-electron and many-electron atoms
+    - name: Spin-Orbit Coupling
+      clarifier: Interaction between electron spin and orbital angular momentum; LS and jj coupling schemes
+    - name: Fine and Hyperfine Structure
+      clarifier: Small energy splittings due to relativistic effects and nuclear interactions
+    - name: Zeeman Effect
+      clarifier: Splitting of atomic energy levels in external magnetic fields
+    - name: Stark Effect
+      clarifier: Shifting and splitting of atomic energy levels in external electric fields
+    - name: Electric Dipole Transitions
+      clarifier: Radiative transitions between atomic states governed by selection rules
+    - name: Rotational Spectra
+      clarifier: Quantized rotational energy levels and transitions in diatomic molecules
+    - name: Vibrational Spectra
+      clarifier: Quantized vibrational energy levels and transitions in diatomic molecules
+    - name: Electronic Transitions in Molecules
+      clarifier: Transitions between electronic states in diatomic molecules
+    - name: Franck-Condon Principle
+      clarifier: Intensity distribution in vibronic transitions based on wavefunction overlap
+    - name: Raman Effect
+      clarifier: Inelastic scattering of photons by molecules with frequency shifts
+    - name: Magnetic Resonance Spectroscopy
+      clarifier: EPR, ESR, and NMR techniques for probing spin states
+    - name: X-ray Spectra
+      clarifier: Characteristic X-ray emission and absorption from inner-shell transitions
+    - name: Laser Physics
+      clarifier: Light amplification by stimulated emission; Einstein coefficients and population inversion
+  related:
+    - name: Quantum Mechanical Angular Momentum
+      clarifier: Operators, commutation relations, and coupling of angular momenta
+    - name: Perturbation Theory
+      clarifier: Time-independent and time-dependent perturbation methods for external fields
+    - name: Term Symbols
+      clarifier: Notation for atomic states including L, S, and J quantum numbers
+    - name: Molecular Orbitals
+      clarifier: LCAO method and molecular orbital diagrams for diatomic molecules
+    - name: Born-Oppenheimer Approximation
+      clarifier: Separation of electronic and nuclear motion in molecules
+    - name: Rigid Rotor and Harmonic Oscillator
+      clarifier: Idealized models for molecular rotation and vibration
+    - name: Selection Rules
+      clarifier: Quantum mechanical constraints on allowed transitions
+    - name: Group Theory in Spectroscopy
+      clarifier: Symmetry considerations in molecular spectroscopy
+    - name: Transition Dipole Moments
+      clarifier: Matrix elements determining transition probabilities
+    - name: Einstein A and B Coefficients
+      clarifier: Rates for spontaneous emission, stimulated emission, and absorption
+    - name: Population Inversion
+      clarifier: Non-equilibrium condition with more atoms in excited than ground state
+    - name: Cavity Resonators
+      clarifier: Optical resonators for laser operation
+    - name: Boltzmann Distribution
+      clarifier: Thermal population of energy levels
+    - name: Line Broadening Mechanisms
+      clarifier: Natural, Doppler, pressure, and instrumental broadening
+    - name: Molecular Symmetry
+      clarifier: Point groups and symmetry operations relevant to molecular spectroscopy
+
+learning_path:
+  - id: 1
+    title: "Atomic Spectra and Structure"
+    learning_objectives:
+      - "Understand the origin of atomic spectra from quantized energy levels"
+      - "Analyze spectral series in hydrogen and hydrogen-like atoms"
+      - "Describe multi-electron atomic structure and electron configurations"
+      - "Apply quantum mechanical principles to predict spectral lines"
+    textbook_style_content:
+      - topic: "Foundations of Atomic Spectra"
+        sections:
+          - section_title: "Historical Context and Experimental Observations"
+            section_type: "overview"
+          - section_title: "One-Electron Atoms: Hydrogen and Hydrogen-Like Ions"
+            section_type: "core_theory"
+          - section_title: "Quantum Numbers and Energy Levels"
+            section_type: "core_theory"
+          - section_title: "Spectral Series: Lyman, Balmer, Paschen"
+            section_type: "core_theory"
+      - topic: "Many-Electron Atoms"
+        sections:
+          - section_title: "Central Field Approximation"
+            section_type: "overview"
+          - section_title: "Electron Configurations and Pauli Exclusion"
+            section_type: "core_theory"
+          - section_title: "Shielding and Effective Nuclear Charge"
+            section_type: "core_theory"
+          - section_title: "Term Symbols for Many-Electron Atoms"
+            section_type: "core_theory"
+          - section_title: "Hund's Rules for Ground State Terms"
+            section_type: "related_concepts"
+          - section_title: "Atomic Orbitals and Radial Wavefunctions"
+            section_type: "related_concepts"
+    milestone: "Master the quantum mechanical description of atomic structure and interpret atomic spectra for both one-electron and many-electron systems"
+    duration_days: 6
+    tags:
+      - "atomic_physics"
+      - "quantum_mechanics"
+      - "spectroscopy"
+      - "hydrogen_atom"
+      - "many_electron_atoms"
+
+  - id: 2
+    title: "Atomic Fine Structure and Coupling Schemes"
+    learning_objectives:
+      - "Explain the physical origin of spin-orbit coupling"
+      - "Distinguish between LS coupling and jj coupling schemes"
+      - "Calculate fine structure splitting in atomic spectra"
+      - "Understand hyperfine structure from nuclear interactions"
+    textbook_style_content:
+      - topic: "Spin-Orbit Interaction"
+        sections:
+          - section_title: "Relativistic Origin of Spin-Orbit Coupling"
+            section_type: "overview"
+          - section_title: "Mathematical Formulation of Spin-Orbit Interaction"
+            section_type: "core_theory"
+          - section_title: "Energy Corrections and Splitting Patterns"
+            section_type: "core_theory"
+      - topic: "Angular Momentum Coupling Schemes"
+        sections:
+          - section_title: "Vector Model of Angular Momentum"
+            section_type: "overview"
+          - section_title: "LS Coupling (Russell-Saunders Coupling)"
+            section_type: "core_theory"
+          - section_title: "jj Coupling for Heavy Atoms"
+            section_type: "core_theory"
+          - section_title: "Intermediate Coupling Regimes"
+            section_type: "related_concepts"
+          - section_title: "Clebsch-Gordan Coefficients"
+            section_type: "related_concepts"
+      - topic: "Fine and Hyperfine Structure"
+        sections:
+          - section_title: "Fine Structure Energy Levels"
+            section_type: "core_theory"
+          - section_title: "Fine Structure in Hydrogen and Alkali Atoms"
+            section_type: "core_theory"
+          - section_title: "Hyperfine Structure from Nuclear Spin"
+            section_type: "core_theory"
+          - section_title: "Magnetic Dipole and Electric Quadrupole Interactions"
+            section_type: "related_concepts"
+          - section_title: "Isotope Shifts in Atomic Spectra"
+            section_type: "related_concepts"
+    milestone: "Analyze fine and hyperfine structure in atomic spectra using appropriate coupling schemes and understand the role of relativistic and nuclear effects"
+    duration_days: 7
+    tags:
+      - "fine_structure"
+      - "spin_orbit_coupling"
+      - "LS_coupling"
+      - "jj_coupling"
+      - "hyperfine_structure"
+      - "angular_momentum"
+
+  - id: 3
+    title: "External Field Effects on Atoms"
+    learning_objectives:
+      - "Analyze the Zeeman effect in weak and strong magnetic fields"
+      - "Understand the Stark effect in electric fields"
+      - "Apply perturbation theory to calculate energy shifts"
+      - "Distinguish between normal, anomalous, and Paschen-Back effects"
+    textbook_style_content:
+      - topic: "Zeeman Effect"
+        sections:
+          - section_title: "Atoms in Magnetic Fields: Classical and Quantum Pictures"
+            section_type: "overview"
+          - section_title: "Normal Zeeman Effect (No Spin)"
+            section_type: "core_theory"
+          - section_title: "Anomalous Zeeman Effect (With Spin)"
+            section_type: "core_theory"
+          - section_title: "Weak Field Regime and Landé g-Factor"
+            section_type: "core_theory"
+          - section_title: "Paschen-Back Effect (Strong Fields)"
+            section_type: "core_theory"
+          - section_title: "Zeeman Spectral Pattern Analysis"
+            section_type: "related_concepts"
+      - topic: "Stark Effect"
+        sections:
+          - section_title: "Atoms in Electric Fields"
+            section_type: "overview"
+          - section_title: "Linear Stark Effect in Hydrogen"
+            section_type: "core_theory"
+          - section_title: "Quadratic Stark Effect in Non-Degenerate States"
+            section_type: "core_theory"
+          - section_title: "Perturbation Theory for External Fields"
+            section_type: "related_concepts"
+          - section_title: "Applications to Stark Spectroscopy"
+            section_type: "related_concepts"
+    milestone: "Quantitatively predict and interpret atomic spectral changes under external magnetic and electric fields using perturbation methods"
+    duration_days: 6
+    tags:
+      - "zeeman_effect"
+      - "stark_effect"
+      - "external_fields"
+      - "perturbation_theory"
+      - "magnetic_fields"
+      - "electric_fields"
+
+  - id: 4
+    title: "Atomic Transitions and Selection Rules"
+    learning_objectives:
+      - "Derive selection rules for electric dipole transitions"
+      - "Calculate transition probabilities and oscillator strengths"
+      - "Understand spontaneous and stimulated emission"
+      - "Apply Fermi's golden rule to radiative transitions"
+    textbook_style_content:
+      - topic: "Radiative Transitions in Atoms"
+        sections:
+          - section_title: "Time-Dependent Perturbation Theory for Transitions"
+            section_type: "overview"
+          - section_title: "Interaction of Atoms with Electromagnetic Radiation"
+            section_type: "core_theory"
+          - section_title: "Fermi's Golden Rule"
+            section_type: "core_theory"
+      - topic: "Electric Dipole Transitions"
+        sections:
+          - section_title: "Electric Dipole Approximation"
+            section_type: "core_theory"
+          - section_title: "Transition Dipole Matrix Elements"
+            section_type: "core_theory"
+          - section_title: "Selection Rules for ΔL, ΔS, and ΔJ"
+            section_type: "core_theory"
+          - section_title: "Parity Selection Rules"
+            section_type: "core_theory"
+          - section_title: "Forbidden Transitions: Magnetic Dipole and Electric Quadrupole"
+            section_type: "related_concepts"
+      - topic: "Transition Rates and Lifetimes"
+        sections:
+          - section_title: "Einstein A Coefficients for Spontaneous Emission"
+            section_type: "core_theory"
+          - section_title: "Transition Probabilities and Oscillator Strengths"
+            section_type: "core_theory"
+          - section_title: "Natural Linewidth and Lifetime Broadening"
+            section_type: "related_concepts"
+          - section_title: "Sum Rules and f-Sum Rule"
+            section_type: "related_concepts"
+    milestone: "Apply selection rules to predict allowed atomic transitions and calculate transition probabilities using quantum mechanical principles"
+    duration_days: 5
+    tags:
+      - "selection_rules"
+      - "electric_dipole"
+      - "radiative_transitions"
+      - "oscillator_strength"
+      - "transition_probability"
+
+  - id: 5
+    title: "Molecular Spectra: Rotation and Vibration"
+    learning_objectives:
+      - "Describe rotational energy levels of diatomic molecules"
+      - "Analyze vibrational spectra using harmonic and anharmonic models"
+      - "Understand rovibrational coupling and spectral structure"
+      - "Apply selection rules to molecular transitions"
+    textbook_style_content:
+      - topic: "Rotational Spectroscopy"
+        sections:
+          - section_title: "Molecular Structure and Born-Oppenheimer Approximation"
+            section_type: "overview"
+          - section_title: "Rigid Rotor Model for Diatomic Molecules"
+            section_type: "core_theory"
+          - section_title: "Rotational Energy Levels and Quantum Numbers"
+            section_type: "core_theory"
+          - section_title: "Pure Rotational Spectra and Selection Rules (ΔJ = ±1)"
+            section_type: "core_theory"
+          - section_title: "Moment of Inertia and Bond Length Determination"
+            section_type: "core_theory"
+          - section_title: "Centrifugal Distortion Effects"
+            section_type: "related_concepts"
+          - section_title: "Nuclear Spin Statistics and Intensity Alternation"
+            section_type: "related_concepts"
+      - topic: "Vibrational Spectroscopy"
+        sections:
+          - section_title: "Harmonic Oscillator Model"
+            section_type: "overview"
+          - section_title: "Vibrational Energy Levels and Quantum Numbers"
+            section_type: "core_theory"
+          - section_title: "Anharmonic Corrections and Morse Potential"
+            section_type: "core_theory"
+          - section_title: "Vibrational Selection Rules (Δv = ±1)"
+            section_type: "core_theory"
+          - section_title: "Infrared Absorption and Dipole Moment Requirements"
+            section_type: "core_theory"
+      - topic: "Rovibrational Spectra"
+        sections:
+          - section_title: "Combined Rotation-Vibration Energy Levels"
+            section_type: "core_theory"
+          - section_title: "P, Q, and R Branches in IR Spectra"
+            section_type: "core_theory"
+          - section_title: "Band Structure and Fortrat Diagrams"
+            section_type: "related_concepts"
+          - section_title: "Determination of Molecular Constants"
+            section_type: "related_concepts"
+    milestone: "Interpret rotational and vibrational spectra of diatomic molecules and extract molecular parameters from spectroscopic data"
+    duration_days: 7
+    tags:
+      - "molecular_spectroscopy"
+      - "rotational_spectra"
+      - "vibrational_spectra"
+      - "diatomic_molecules"
+      - "rigid_rotor"
+      - "harmonic_oscillator"
+
+  - id: 6
+    title: "Electronic Transitions and Franck-Condon Principle"
+    learning_objectives:
+      - "Understand electronic transitions in diatomic molecules"
+      - "Apply the Franck-Condon principle to predict vibronic intensities"
+      - "Analyze electronic band spectra and progressions"
+      - "Explain the Raman effect and its selection rules"
+    textbook_style_content:
+      - topic: "Electronic Transitions in Molecules"
+        sections:
+          - section_title: "Electronic States and Molecular Orbitals"
+            section_type: "overview"
+          - section_title: "Electronic Energy Levels in Diatomic Molecules"
+            section_type: "core_theory"
+          - section_title: "Selection Rules for Electronic Transitions"
+            section_type: "core_theory"
+          - section_title: "Term Symbols for Diatomic Molecules"
+            section_type: "core_theory"
+          - section_title: "Spin-Orbit Coupling in Molecules"
+            section_type: "related_concepts"
+      - topic: "Franck-Condon Principle"
+        sections:
+          - section_title: "Vertical Transitions and the Franck-Condon Principle"
+            section_type: "overview"
+          - section_title: "Vibronic Coupling and Intensity Distributions"
+            section_type: "core_theory"
+          - section_title: "Franck-Condon Factors and Overlap Integrals"
+            section_type: "core_theory"
+          - section_title: "Vibrational Progressions in Electronic Spectra"
+            section_type: "core_theory"
+          - section_title: "Applications to UV-Visible Spectroscopy"
+            section_type: "related_concepts"
+          - section_title: "Potential Energy Curves and Dissociation"
+            section_type: "related_concepts"
+      - topic: "Raman Spectroscopy"
+        sections:
+          - section_title: "Classical and Quantum Theory of Raman Scattering"
+            section_type: "overview"
+          - section_title: "Stokes and Anti-Stokes Lines"
+            section_type: "core_theory"
+          - section_title: "Raman Selection Rules and Polarizability"
+            section_type: "core_theory"
+          - section_title: "Rotational and Vibrational Raman Spectra"
+            section_type: "core_theory"
+          - section_title: "Complementarity of IR and Raman Spectroscopy"
+            section_type: "related_concepts"
+          - section_title: "Resonance Raman Effect"
+            section_type: "related_concepts"
+    milestone: "Predict and interpret electronic spectra of molecules using the Franck-Condon principle and understand Raman scattering as a complementary spectroscopic technique"
+    duration_days: 7
+    tags:
+      - "electronic_transitions"
+      - "franck_condon"
+      - "raman_spectroscopy"
+      - "vibronic_coupling"
+      - "molecular_orbitals"
+      - "inelastic_scattering"
+
+  - id: 7
+    title: "Advanced Spectroscopic Techniques"
+    learning_objectives:
+      - "Understand the principles of electron paramagnetic resonance (EPR/ESR)"
+      - "Explain nuclear magnetic resonance (NMR) spectroscopy"
+      - "Describe X-ray spectroscopy and inner-shell transitions"
+      - "Apply magnetic resonance techniques to structural determination"
+    textbook_style_content:
+      - topic: "Electron Paramagnetic Resonance (EPR/ESR)"
+        sections:
+          - section_title: "Magnetic Properties of Unpaired Electrons"
+            section_type: "overview"
+          - section_title: "Energy Levels in Magnetic Fields and Resonance Condition"
+            section_type: "core_theory"
+          - section_title: "g-Factor and Hyperfine Coupling"
+            section_type: "core_theory"
+          - section_title: "EPR Spectra and Interpretation"
+            section_type: "core_theory"
+          - section_title: "Applications to Free Radicals and Transition Metal Complexes"
+            section_type: "related_concepts"
+      - topic: "Nuclear Magnetic Resonance (NMR)"
+        sections:
+          - section_title: "Nuclear Spin and Magnetic Moments"
+            section_type: "overview"
+          - section_title: "Zeeman Splitting and Resonance in NMR"
+            section_type: "core_theory"
+          - section_title: "Chemical Shift and Shielding Effects"
+            section_type: "core_theory"
+          - section_title: "Spin-Spin Coupling and J-Coupling"
+            section_type: "core_theory"
+          - section_title: "Relaxation Times T1 and T2"
+            section_type: "related_concepts"
+          - section_title: "Pulsed NMR and Fourier Transform Techniques"
+            section_type: "related_concepts"
+      - topic: "X-ray Spectroscopy"
+        sections:
+          - section_title: "Inner-Shell Electronic Structure"
+            section_type: "overview"
+          - section_title: "Characteristic X-ray Emission (Kα, Kβ, Lα lines)"
+            section_type: "core_theory"
+          - section_title: "X-ray Absorption and Edges"
+            section_type: "core_theory"
+          - section_title: "Moseley's Law and Atomic Number Determination"
+            section_type: "core_theory"
+          - section_title: "X-ray Photoelectron Spectroscopy (XPS)"
+            section_type: "related_concepts"
+          - section_title: "Auger Electron Spectroscopy"
+            section_type: "related_concepts"
+    milestone: "Apply magnetic resonance and X-ray spectroscopic techniques to probe electronic and nuclear structure in atoms and molecules"
+    duration_days: 8
+    tags:
+      - "EPR"
+      - "ESR"
+      - "NMR"
+      - "x_ray_spectroscopy"
+      - "magnetic_resonance"
+      - "inner_shell_transitions"
+
+  - id: 8
+    title: "Laser Physics and Light-Matter Interaction"
+    learning_objectives:
+      - "Understand Einstein A and B coefficients for radiation processes"
+      - "Explain the concept of population inversion"
+      - "Describe two-level and three-level laser systems"
+      - "Analyze the principles of laser operation and amplification"
+    textbook_style_content:
+      - topic: "Einstein Coefficients and Radiative Processes"
+        sections:
+          - section_title: "Interaction of Light with Atomic Systems"
+            section_type: "overview"
+          - section_title: "Spontaneous Emission: Einstein A Coefficient"
+            section_type: "core_theory"
+          - section_title: "Absorption: Einstein B12 Coefficient"
+            section_type: "core_theory"
+          - section_title: "Stimulated Emission: Einstein B21 Coefficient"
+            section_type: "core_theory"
+          - section_title: "Relationships Between Einstein Coefficients"
+            section_type: "core_theory"
+          - section_title: "Thermodynamic Equilibrium and Planck's Law"
+            section_type: "related_concepts"
+      - topic: "Population Inversion and Laser Fundamentals"
+        sections:
+          - section_title: "Boltzmann Distribution and Thermal Equilibrium"
+            section_type: "overview"
+          - section_title: "Concept of Population Inversion"
+            section_type: "core_theory"
+          - section_title: "Optical Pumping and Excitation Mechanisms"
+            section_type: "core_theory"
+          - section_title: "Gain Medium and Amplification"
+            section_type: "core_theory"
+          - section_title: "Threshold Condition for Lasing"
+            section_type: "related_concepts"
+      - topic: "Laser Systems"
+        sections:
+          - section_title: "Two-Level Systems: Why They Don't Work"
+            section_type: "core_theory"
+          - section_title: "Three-Level Laser Systems"
+            section_type: "core_theory"
+          - section_title: "Four-Level Laser Systems"
+            section_type: "core_theory"
+          - section_title: "Optical Cavities and Resonators"
+            section_type: "related_concepts"
+          - section_title: "Laser Characteristics: Coherence, Monochromaticity, Directionality"
+            section_type: "related_concepts"
+          - section_title: "Examples: Ruby Laser, He-Ne Laser, Semiconductor Lasers"
+            section_type: "related_concepts"
+    milestone: "Analyze laser operation principles including population inversion, Einstein coefficients, and multi-level systems for light amplification"
+    duration_days: 6
+    tags:
+      - "laser_physics"
+      - "einstein_coefficients"
+      - "population_inversion"
+      - "stimulated_emission"
+      - "three_level_systems"
+      - "optical_pumping"

@@ -1,0 +1,549 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Mathematical Physics covering Linear Vector Spaces, Matrices, Differential Equations, Special Functions, Complex Analysis, Integral Transforms, and Tensor Calculus"
+
+concepts:
+  core:
+    - name: Linear Vector Spaces
+      clarifier: Basis vectors, orthogonality relations, completeness of function spaces
+    - name: Matrix Theory
+      clarifier: Similarity transformations, diagonalization procedures, eigenvalue problems
+    - name: Second Order Linear Differential Equations
+      clarifier: Solutions using power series, special functions (Bessel, Legendre, Hermite, Laguerre)
+    - name: Complex Analysis
+      clarifier: Cauchy-Riemann conditions, analytic functions, contour integration
+    - name: Residue Theorem
+      clarifier: Classification of singularities, residue calculation, contour evaluation
+    - name: Laplace Transform
+      clarifier: Transform properties, inverse transforms, solving differential equations
+    - name: Fourier Analysis
+      clarifier: Fourier series, Fourier transforms, frequency domain analysis
+    - name: Tensor Calculus
+      clarifier: Covariant and contravariant tensors, tensor transformations, index notation
+  related:
+    - name: Inner Product Spaces
+      clarifier: Hilbert spaces, orthonormal bases, Gram-Schmidt orthogonalization
+    - name: Eigenvalue Algorithms
+      clarifier: Power iteration, QR algorithm, Jacobi method for symmetric matrices
+    - name: Green's Functions
+      clarifier: Construction and application to inhomogeneous differential equations
+    - name: Sturm-Liouville Theory
+      clarifier: Self-adjoint operators, orthogonal eigenfunctions, completeness relations
+    - name: Analytic Continuation
+      clarifier: Extending domain of analytic functions, branch cuts, Riemann surfaces
+    - name: Conformal Mapping
+      clarifier: Angle-preserving transformations, applications to boundary value problems
+    - name: Integral Representations
+      clarifier: Bromwich contour, convolution theorem, transfer functions
+    - name: Spectral Methods
+      clarifier: Frequency space techniques, windowing, discrete transforms
+    - name: Differential Geometry
+      clarifier: Metric tensor, Christoffel symbols, covariant derivatives
+    - name: Special Relativity Applications
+      clarifier: Four-vectors, Lorentz transformations, tensor formulation
+
+learning_path:
+  - id: 1
+    title: Foundations of Linear Vector Spaces
+    learning_objectives:
+      - Define linear vector spaces and identify their fundamental properties
+      - Construct orthonormal bases using Gram-Schmidt procedure
+      - Apply completeness relations in function spaces
+      - Distinguish between finite and infinite-dimensional vector spaces
+    textbook_style_content:
+      - topic: Linear Vector Spaces
+        sections:
+          - section_title: Introduction to Vector Spaces
+            section_type: overview
+          - section_title: Axioms and Properties of Vector Spaces
+            section_type: core_theory
+          - section_title: Basis Vectors and Linear Independence
+            section_type: core_theory
+          - section_title: Orthogonality and Inner Products
+            section_type: core_theory
+          - section_title: Completeness Relations and Closure
+            section_type: core_theory
+          - section_title: Hilbert Spaces and Function Spaces
+            section_type: related_concepts
+          - section_title: Applications to Quantum Mechanics
+            section_type: related_concepts
+    milestone: Master foundational concepts of vector spaces required for advanced mathematical physics
+    duration_days: 8
+    tags:
+      - linear_algebra
+      - vector_spaces
+      - orthogonality
+      - basis_functions
+      - function_spaces
+
+  - id: 2
+    title: Matrix Theory and Eigenvalue Problems
+    learning_objectives:
+      - Perform similarity transformations and understand matrix equivalence
+      - Diagonalize matrices using eigenvalue decomposition
+      - Calculate eigenvalues and eigenvectors for various matrix types
+      - Apply spectral theorem to symmetric and Hermitian matrices
+      - Solve physical problems using matrix eigenvalue methods
+    textbook_style_content:
+      - topic: Matrices and Linear Transformations
+        sections:
+          - section_title: Matrix Operations and Properties
+            section_type: overview
+          - section_title: Linear Transformations and Matrix Representations
+            section_type: core_theory
+          - section_title: Similarity Transformations and Change of Basis
+            section_type: core_theory
+          - section_title: Eigenvalues and Eigenvectors
+            section_type: core_theory
+          - section_title: Diagonalization Procedures
+            section_type: core_theory
+          - section_title: Spectral Theorem for Hermitian Matrices
+            section_type: core_theory
+          - section_title: Numerical Methods for Eigenvalue Problems
+            section_type: related_concepts
+          - section_title: Applications in Normal Mode Analysis
+            section_type: related_concepts
+    milestone: Proficiency in solving eigenvalue problems and matrix diagonalization essential for quantum chemistry
+    duration_days: 10
+    tags:
+      - matrices
+      - eigenvalues
+      - eigenvectors
+      - diagonalization
+      - similarity_transformations
+      - spectral_theory
+
+  - id: 3
+    title: Second Order Linear Differential Equations
+    learning_objectives:
+      - Classify second order linear differential equations
+      - Apply power series methods to obtain solutions
+      - Identify and utilize Frobenius method for singular points
+      - Recognize equations leading to special functions
+      - Apply boundary conditions to determine unique solutions
+    textbook_style_content:
+      - topic: Linear Differential Equations
+        sections:
+          - section_title: Classification of Differential Equations
+            section_type: overview
+          - section_title: Homogeneous and Inhomogeneous Equations
+            section_type: core_theory
+          - section_title: Power Series Solutions
+            section_type: core_theory
+          - section_title: Frobenius Method for Regular Singular Points
+            section_type: core_theory
+          - section_title: Boundary Value Problems and Eigenvalue Equations
+            section_type: core_theory
+          - section_title: Sturm-Liouville Theory
+            section_type: related_concepts
+          - section_title: Green's Functions Method
+            section_type: related_concepts
+    milestone: Ability to solve general second order differential equations using series methods
+    duration_days: 9
+    tags:
+      - differential_equations
+      - power_series
+      - Frobenius_method
+      - boundary_conditions
+      - Sturm_Liouville
+
+  - id: 4
+    title: Special Functions in Mathematical Physics
+    learning_objectives:
+      - Derive Bessel functions from cylindrical coordinate problems
+      - Understand properties and recurrence relations of Legendre polynomials
+      - Apply Hermite polynomials in quantum harmonic oscillator
+      - Utilize Laguerre polynomials in hydrogen atom problem
+      - Employ orthogonality and completeness of special functions
+    textbook_style_content:
+      - topic: Special Functions
+        sections:
+          - section_title: Introduction to Special Functions
+            section_type: overview
+          - section_title: Bessel Functions and Cylindrical Harmonics
+            section_type: core_theory
+          - section_title: Legendre Polynomials and Spherical Harmonics
+            section_type: core_theory
+          - section_title: Hermite Polynomials and Quantum Oscillator
+            section_type: core_theory
+          - section_title: Laguerre Polynomials and Hydrogen Atom
+            section_type: core_theory
+          - section_title: Recurrence Relations and Generating Functions
+            section_type: core_theory
+          - section_title: Orthogonality and Completeness Properties
+            section_type: core_theory
+          - section_title: Hypergeometric Functions
+            section_type: related_concepts
+          - section_title: Applications in Quantum Chemistry
+            section_type: related_concepts
+    milestone: Mastery of special functions crucial for solving Schrödinger equation in various coordinate systems
+    duration_days: 12
+    tags:
+      - special_functions
+      - Bessel_functions
+      - Legendre_polynomials
+      - Hermite_polynomials
+      - Laguerre_polynomials
+      - quantum_mechanics
+
+  - id: 5
+    title: Analytic Functions and Cauchy-Riemann Conditions
+    learning_objectives:
+      - Define complex differentiability and analytic functions
+      - Apply Cauchy-Riemann conditions to test analyticity
+      - Construct harmonic conjugates
+      - Identify multivalued functions and branch points
+      - Understand geometric interpretation of complex functions
+    textbook_style_content:
+      - topic: Foundations of Complex Analysis
+        sections:
+          - section_title: Complex Numbers and Complex Plane
+            section_type: overview
+          - section_title: Complex Functions and Limits
+            section_type: core_theory
+          - section_title: Cauchy-Riemann Equations
+            section_type: core_theory
+          - section_title: Analytic and Harmonic Functions
+            section_type: core_theory
+          - section_title: Multivalued Functions and Branch Cuts
+            section_type: core_theory
+          - section_title: Conformal Mappings
+            section_type: related_concepts
+          - section_title: Applications to Electrostatics
+            section_type: related_concepts
+    milestone: Understanding of complex differentiability and analyticity foundations
+    duration_days: 7
+    tags:
+      - complex_analysis
+      - Cauchy_Riemann
+      - analytic_functions
+      - harmonic_functions
+      - conformal_mapping
+
+  - id: 6
+    title: Contour Integration and Cauchy's Theorem
+    learning_objectives:
+      - Evaluate complex line integrals along specified contours
+      - Apply Cauchy's integral theorem for closed contours
+      - Use Cauchy's integral formula to evaluate integrals
+      - Derive higher derivative formulas
+      - Apply maximum modulus principle and Liouville's theorem
+    textbook_style_content:
+      - topic: Complex Integration
+        sections:
+          - section_title: Line Integrals in Complex Plane
+            section_type: overview
+          - section_title: Cauchy's Integral Theorem
+            section_type: core_theory
+          - section_title: Cauchy's Integral Formula
+            section_type: core_theory
+          - section_title: Derivatives of Analytic Functions
+            section_type: core_theory
+          - section_title: Maximum Modulus Principle
+            section_type: core_theory
+          - section_title: Liouville's Theorem and Fundamental Theorem of Algebra
+            section_type: related_concepts
+          - section_title: Morera's Theorem
+            section_type: related_concepts
+    milestone: Proficiency in complex integration techniques essential for residue theorem applications
+    duration_days: 8
+    tags:
+      - contour_integration
+      - Cauchy_theorem
+      - integral_formula
+      - complex_analysis
+      - maximum_principle
+
+  - id: 7
+    title: Singularities and Laurent Series
+    learning_objectives:
+      - Classify singularities as removable, poles, or essential
+      - Expand functions in Laurent series around singular points
+      - Determine order of poles from function behavior
+      - Calculate residues at various singularity types
+      - Analyze behavior of functions at infinity
+    textbook_style_content:
+      - topic: Singularities and Series Expansions
+        sections:
+          - section_title: Taylor Series in Complex Domain
+            section_type: overview
+          - section_title: Laurent Series Expansion
+            section_type: core_theory
+          - section_title: Classification of Isolated Singularities
+            section_type: core_theory
+          - section_title: Removable Singularities and Poles
+            section_type: core_theory
+          - section_title: Essential Singularities and Picard's Theorem
+            section_type: core_theory
+          - section_title: Behavior at Infinity
+            section_type: core_theory
+          - section_title: Analytic Continuation
+            section_type: related_concepts
+          - section_title: Riemann Surfaces
+            section_type: related_concepts
+    milestone: Complete understanding of singularity classification required for residue calculations
+    duration_days: 9
+    tags:
+      - singularities
+      - Laurent_series
+      - poles
+      - essential_singularities
+      - series_expansions
+
+  - id: 8
+    title: Residue Theorem and Applications
+    learning_objectives:
+      - State and prove the residue theorem
+      - Calculate residues using multiple methods
+      - Evaluate real definite integrals using residue theorem
+      - Apply residue theorem to improper integrals
+      - Use residue calculus for summation of series
+      - Solve physics problems using contour integration
+    textbook_style_content:
+      - topic: Residue Theory and Applications
+        sections:
+          - section_title: The Residue Theorem
+            section_type: core_theory
+          - section_title: Methods for Calculating Residues
+            section_type: core_theory
+          - section_title: Evaluation of Real Definite Integrals
+            section_type: core_theory
+          - section_title: Integrals with Trigonometric Functions
+            section_type: core_theory
+          - section_title: Improper Integrals and Jordan's Lemma
+            section_type: core_theory
+          - section_title: Integrals with Branch Points
+            section_type: core_theory
+          - section_title: Summation of Infinite Series
+            section_type: related_concepts
+          - section_title: Applications in Quantum Field Theory
+            section_type: related_concepts
+    milestone: Mastery of residue theorem as powerful computational tool for integral evaluation
+    duration_days: 11
+    tags:
+      - residue_theorem
+      - contour_integration
+      - real_integrals
+      - Jordan_lemma
+      - applications
+
+  - id: 9
+    title: Laplace Transform Theory and Properties
+    learning_objectives:
+      - Define Laplace transform and determine existence conditions
+      - Calculate Laplace transforms of elementary functions
+      - Apply linearity, shifting, and scaling properties
+      - Use differentiation and integration theorems
+      - Apply initial and final value theorems
+      - Understand region of convergence
+    textbook_style_content:
+      - topic: Laplace Transform
+        sections:
+          - section_title: Definition and Motivation
+            section_type: overview
+          - section_title: Laplace Transform of Elementary Functions
+            section_type: core_theory
+          - section_title: Properties and Theorems
+            section_type: core_theory
+          - section_title: Shifting Theorems and Scaling
+            section_type: core_theory
+          - section_title: Transform of Derivatives and Integrals
+            section_type: core_theory
+          - section_title: Convolution Theorem
+            section_type: core_theory
+          - section_title: Initial and Final Value Theorems
+            section_type: related_concepts
+          - section_title: Two-sided Laplace Transform
+            section_type: related_concepts
+    milestone: Foundation in Laplace transform properties for differential equation applications
+    duration_days: 8
+    tags:
+      - Laplace_transform
+      - integral_transforms
+      - transform_properties
+      - convolution
+      - frequency_domain
+
+  - id: 10
+    title: Inverse Laplace Transform and Applications
+    learning_objectives:
+      - Calculate inverse Laplace transforms using tables and properties
+      - Apply partial fraction decomposition
+      - Use Bromwich contour integral for inversion
+      - Solve ordinary differential equations using Laplace transform
+      - Analyze systems using transfer functions
+      - Model physical systems in transform domain
+    textbook_style_content:
+      - topic: Inverse Laplace Transform and Applications
+        sections:
+          - section_title: Methods for Inverse Transformation
+            section_type: overview
+          - section_title: Partial Fraction Expansion
+            section_type: core_theory
+          - section_title: Bromwich Contour Integral
+            section_type: core_theory
+          - section_title: Solving Differential Equations
+            section_type: core_theory
+          - section_title: Systems of Differential Equations
+            section_type: core_theory
+          - section_title: Transfer Functions and System Analysis
+            section_type: related_concepts
+          - section_title: Applications in Chemical Kinetics
+            section_type: related_concepts
+    milestone: Proficiency in applying Laplace transform to solve differential equations in chemistry
+    duration_days: 9
+    tags:
+      - inverse_transform
+      - partial_fractions
+      - differential_equations
+      - transfer_functions
+      - applications
+
+  - id: 11
+    title: Fourier Series and Periodic Functions
+    learning_objectives:
+      - Expand periodic functions in Fourier series
+      - Calculate Fourier coefficients using orthogonality
+      - Apply Dirichlet conditions for convergence
+      - Understand Gibbs phenomenon
+      - Expand functions in sine and cosine series
+      - Apply Fourier series to boundary value problems
+    textbook_style_content:
+      - topic: Fourier Series
+        sections:
+          - section_title: Periodic Functions and Fourier Expansion
+            section_type: overview
+          - section_title: Orthogonality of Trigonometric Functions
+            section_type: core_theory
+          - section_title: Calculation of Fourier Coefficients
+            section_type: core_theory
+          - section_title: Convergence of Fourier Series
+            section_type: core_theory
+          - section_title: Sine and Cosine Series
+            section_type: core_theory
+          - section_title: Complex Form of Fourier Series
+            section_type: core_theory
+          - section_title: Gibbs Phenomenon
+            section_type: related_concepts
+          - section_title: Applications to Heat and Wave Equations
+            section_type: related_concepts
+    milestone: Understanding of Fourier series representation essential for spectroscopy applications
+    duration_days: 10
+    tags:
+      - Fourier_series
+      - periodic_functions
+      - orthogonality
+      - convergence
+      - spectroscopy
+
+  - id: 12
+    title: Fourier Transform and Frequency Analysis
+    learning_objectives:
+      - Define Fourier transform and inverse Fourier transform
+      - Calculate Fourier transforms of standard functions
+      - Apply Fourier transform properties and theorems
+      - Use convolution theorem in frequency domain
+      - Relate Fourier transform to Fourier series
+      - Apply Parseval's theorem for energy conservation
+    textbook_style_content:
+      - topic: Fourier Transform
+        sections:
+          - section_title: From Fourier Series to Fourier Transform
+            section_type: overview
+          - section_title: Definition and Elementary Properties
+            section_type: core_theory
+          - section_title: Fourier Transforms of Common Functions
+            section_type: core_theory
+          - section_title: Transform Theorems and Properties
+            section_type: core_theory
+          - section_title: Convolution Theorem
+            section_type: core_theory
+          - section_title: Parseval's Theorem and Energy Spectrum
+            section_type: core_theory
+          - section_title: Discrete and Fast Fourier Transform
+            section_type: related_concepts
+          - section_title: Applications in Spectroscopy and NMR
+            section_type: related_concepts
+    milestone: Mastery of Fourier analysis critical for understanding molecular spectroscopy
+    duration_days: 11
+    tags:
+      - Fourier_transform
+      - frequency_domain
+      - convolution
+      - Parseval_theorem
+      - spectroscopy
+      - NMR
+
+  - id: 13
+    title: Introduction to Tensors and Index Notation
+    learning_objectives:
+      - Define scalars, vectors, and tensors by transformation properties
+      - Understand contravariant and covariant components
+      - Apply Einstein summation convention
+      - Perform index raising and lowering operations
+      - Distinguish between tensor types by variance
+    textbook_style_content:
+      - topic: Tensor Fundamentals
+        sections:
+          - section_title: Motivation and Physical Context
+            section_type: overview
+          - section_title: Coordinate Transformations
+            section_type: core_theory
+          - section_title: Contravariant Vectors and Tensors
+            section_type: core_theory
+          - section_title: Covariant Vectors and One-Forms
+            section_type: core_theory
+          - section_title: Mixed Tensors and Tensor Products
+            section_type: core_theory
+          - section_title: Einstein Summation Convention
+            section_type: core_theory
+          - section_title: Metric Tensor and Index Operations
+            section_type: related_concepts
+          - section_title: Applications in Continuum Mechanics
+            section_type: related_concepts
+    milestone: Foundation in tensor notation required for advanced physics and relativity
+    duration_days: 9
+    tags:
+      - tensors
+      - covariant
+      - contravariant
+      - index_notation
+      - coordinate_transformations
+
+  - id: 14
+    title: Tensor Operations and Applications
+    learning_objectives:
+      - Perform tensor addition and multiplication
+      - Calculate tensor contractions
+      - Derive tensor transformation laws
+      - Apply tensors to physical problems
+      - Understand tensor fields and derivatives
+      - Relate tensor formulation to matrix notation
+    textbook_style_content:
+      - topic: Tensor Calculus and Applications
+        sections:
+          - section_title: Tensor Algebra Operations
+            section_type: core_theory
+          - section_title: Contraction and Trace
+            section_type: core_theory
+          - section_title: Tensor Transformation Properties
+            section_type: core_theory
+          - section_title: Tensor Fields and Coordinate Patches
+            section_type: core_theory
+          - section_title: Covariant Derivative Concepts
+            section_type: core_theory
+          - section_title: Christoffel Symbols and Geodesics
+            section_type: related_concepts
+          - section_title: Stress-Energy Tensor in Physics
+            section_type: related_concepts
+          - section_title: Applications in General Relativity
+            section_type: related_concepts
+    milestone: Advanced tensor manipulation skills applicable to modern theoretical chemistry
+    duration_days: 10
+    tags:
+      - tensor_operations
+      - tensor_calculus
+      - covariant_derivative
+      - relativity
+      - theoretical_physics

@@ -1,0 +1,48 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: Mathematical Physics covering Linear Vector Spaces, Matrices, Differential
+    Equations, Special Functions, Complex Analysis, Integral Transforms, and Tensor
+    Calculus
+concepts:
+  core:
+  - name: Linear Vector Spaces
+    clarifier: Basis vectors, orthogonality relations, completeness of function spaces
+  - name: Matrix Theory
+    clarifier: Similarity transformations, diagonalization procedures, eigenvalue
+      problems
+  - name: Second Order Linear Differential Equations
+    clarifier: Solutions using power series, special functions (Bessel, Legendre,
+      Hermite, Laguerre)
+  - name: Complex Analysis
+    clarifier: Cauchy-Riemann conditions, analytic functions, contour integration
+  - name: Residue Theorem
+    clarifier: Classification of singularities, residue calculation, contour evaluation
+  - name: Laplace Transform
+    clarifier: Transform properties, inverse transforms, solving differential equations
+  - name: Fourier Analysis
+    clarifier: Fourier series, Fourier transforms, frequency domain analysis
+  - name: Tensor Calculus
+    clarifier: Covariant and contravariant tensors, tensor transformations, index
+      notation
+  related:
+  - name: Inner Product Spaces
+    clarifier: Hilbert spaces, orthonormal bases, Gram-Schmidt orthogonalization
+  - name: Eigenvalue Algorithms
+    clarifier: Power iteration, QR algorithm, Jacobi method for symmetric matrices
+  - name: Green's Functions
+    clarifier: Construction and application to inhomogeneous differential equations
+  - name: Sturm-Liouville Theory
+    clarifier: Self-adjoint operators, orthogonal eigenfunctions, completeness relations
+  - name: Analytic Continuation
+    clarifier: Extending domain of analytic functions, branch cuts, Riemann surfaces
+  - name: Conformal Mapping
+    clarifier: Angle-preserving transformations, applications to boundary value problems
+  - name: Integral Representations
+    clarifier: Bromwich contour, convolution theorem, transfer functions
+  - name: Spectral Methods
+    clarifier: Frequency space techniques, windowing, discrete transforms
+  - name: Differential Geometry
+    clarifier: Metric tensor, Christoffel symbols, covariant derivatives
+  - name: Special Relativity Applications
+    clarifier: Four-vectors, Lorentz transformations, tensor formulation

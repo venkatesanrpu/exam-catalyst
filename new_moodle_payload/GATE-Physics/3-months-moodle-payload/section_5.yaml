@@ -1,0 +1,468 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: 'Section 5: Thermodynamics and Statistical Physics - Laws of thermodynamics; Macrostates and microstates;
+    phase space; Ensembles; Partition function, free energy, calculation of thermodynamic quantities; Classical and quantum
+    statistics; Degenerate Fermi gas; Black body radiation and Planck''s distribution law; Bose-Einstein condensation; First
+    and second order phase transitions, phase equilibria, critical point'
+concepts:
+  core:
+  - name: Laws of Thermodynamics
+    clarifier: Zeroth, first, second, and third laws; thermodynamic processes and cycles
+  - name: Microstates and Macrostates
+    clarifier: Statistical description of thermodynamic systems; multiplicity and entropy
+  - name: Phase Space
+    clarifier: Classical phase space representation of mechanical systems
+  - name: Statistical Ensembles
+    clarifier: Microcanonical, canonical, and grand canonical ensembles
+  - name: Partition Function
+    clarifier: Canonical and grand canonical partition functions; connection to thermodynamic properties
+  - name: Free Energy
+    clarifier: Helmholtz and Gibbs free energy; thermodynamic potentials
+  - name: Classical Statistics
+    clarifier: Maxwell-Boltzmann distribution for distinguishable particles
+  - name: Quantum Statistics
+    clarifier: Fermi-Dirac and Bose-Einstein distributions for indistinguishable particles
+  - name: Fermi-Dirac Statistics
+    clarifier: Distribution for fermions; Pauli exclusion principle; degenerate Fermi gas
+  - name: Bose-Einstein Statistics
+    clarifier: Distribution for bosons; black body radiation; Bose-Einstein condensation
+  - name: Phase Transitions
+    clarifier: First-order and second-order transitions; Clausius-Clapeyron equation; critical phenomena
+  related:
+  - name: Thermodynamic Equilibrium
+    clarifier: Conditions for thermal, mechanical, and chemical equilibrium
+  - name: Entropy and Second Law
+    clarifier: Statistical interpretation of entropy; Boltzmann entropy formula
+  - name: Thermodynamic Potentials
+    clarifier: Internal energy, enthalpy, Helmholtz and Gibbs free energies; Legendre transformations
+  - name: Maxwell Relations
+    clarifier: Relationships between partial derivatives of thermodynamic variables
+  - name: Density of States
+    clarifier: Energy level distribution in quantum systems
+  - name: Chemical Potential
+    clarifier: Role in grand canonical ensemble and phase equilibria
+  - name: Planck Distribution
+    clarifier: Derivation from Bose-Einstein statistics; black body spectrum
+  - name: Fermi Energy and Fermi Surface
+    clarifier: Ground state properties of fermion systems
+  - name: Heat Capacity
+    clarifier: Classical and quantum contributions; Dulong-Petit law; Debye model
+  - name: Phase Diagrams
+    clarifier: P-T, P-V diagrams; triple point and critical point
+  - name: Order Parameters
+    clarifier: Characterization of phase transitions; symmetry breaking
+  - name: Fluctuations
+    clarifier: Statistical fluctuations in thermodynamic systems; connection to response functions
+learning_path:
+- id: 1
+  title: Thermodynamic Foundations
+  learning_objectives:
+  - Master the four laws of thermodynamics and their physical implications
+  - Apply thermodynamic laws to analyze processes, cycles, and engines
+  - Understand thermodynamic potentials and their interrelationships
+  - Derive and apply Maxwell relations for practical problems
+  textbook_style_content:
+  - topic: Laws of Thermodynamics
+    sections:
+    - section_title: Introduction to Thermodynamic Systems
+      section_type: overview
+    - section_title: Zeroth Law and Temperature
+      section_type: core_theory
+    - section_title: 'First Law: Energy Conservation'
+      section_type: core_theory
+    - section_title: 'Second Law: Entropy and Irreversibility'
+      section_type: core_theory
+    - section_title: 'Third Law: Absolute Zero'
+      section_type: core_theory
+    - section_title: Thermodynamic Processes
+      section_type: related_concepts
+    - section_title: Carnot Cycle and Efficiency
+      section_type: related_concepts
+  - topic: Thermodynamic Potentials
+    sections:
+    - section_title: Internal Energy and Enthalpy
+      section_type: core_theory
+    - section_title: Helmholtz and Gibbs Free Energy
+      section_type: core_theory
+    - section_title: Legendre Transformations
+      section_type: related_concepts
+    - section_title: Maxwell Relations
+      section_type: related_concepts
+  milestone: Solid understanding of macroscopic thermodynamics and ability to solve problems involving thermodynamic processes
+    and potentials
+  duration_days: 7
+  tags:
+  - thermodynamics
+  - laws
+  - potentials
+  - foundation
+- id: 2
+  title: Statistical Mechanics Fundamentals
+  learning_objectives:
+  - Understand the connection between microscopic and macroscopic descriptions
+  - Define and calculate microstates and macrostates for simple systems
+  - Master the concept of phase space and its applications
+  - Understand different statistical ensembles and their physical meanings
+  textbook_style_content:
+  - topic: Microscopic Foundation
+    sections:
+    - section_title: From Mechanics to Statistical Physics
+      section_type: overview
+    - section_title: Microstates and Macrostates
+      section_type: core_theory
+    - section_title: Statistical Interpretation of Entropy
+      section_type: core_theory
+    - section_title: Boltzmann Entropy Formula
+      section_type: related_concepts
+  - topic: Phase Space Description
+    sections:
+    - section_title: Classical Phase Space
+      section_type: core_theory
+    - section_title: Liouville Theorem
+      section_type: core_theory
+    - section_title: Volume Elements in Phase Space
+      section_type: related_concepts
+  - topic: Statistical Ensembles
+    sections:
+    - section_title: Ensemble Concept and Postulates
+      section_type: overview
+    - section_title: Microcanonical Ensemble
+      section_type: core_theory
+    - section_title: Canonical Ensemble
+      section_type: core_theory
+    - section_title: Grand Canonical Ensemble
+      section_type: core_theory
+    - section_title: Equivalence of Ensembles
+      section_type: related_concepts
+  milestone: Ability to formulate thermodynamic problems in terms of statistical mechanics and choose appropriate ensemble
+    descriptions
+  duration_days: 8
+  tags:
+  - statistical_mechanics
+  - microstates
+  - phase_space
+  - ensembles
+- id: 3
+  title: Statistical Thermodynamics Formalism
+  learning_objectives:
+  - Derive and apply partition functions for various systems
+  - Calculate thermodynamic quantities from partition functions
+  - Connect statistical mechanics to thermodynamic potentials
+  - Solve problems involving free energy calculations
+  textbook_style_content:
+  - topic: Partition Functions
+    sections:
+    - section_title: Definition and Physical Meaning
+      section_type: overview
+    - section_title: Canonical Partition Function
+      section_type: core_theory
+    - section_title: Grand Canonical Partition Function
+      section_type: core_theory
+    - section_title: Partition Function for Independent Particles
+      section_type: related_concepts
+    - section_title: Factorization and Separability
+      section_type: related_concepts
+  - topic: Thermodynamic Calculations
+    sections:
+    - section_title: Free Energy from Partition Function
+      section_type: core_theory
+    - section_title: Entropy and Internal Energy
+      section_type: core_theory
+    - section_title: Pressure and Chemical Potential
+      section_type: core_theory
+    - section_title: Heat Capacity and Response Functions
+      section_type: related_concepts
+    - section_title: Fluctuation-Dissipation Relations
+      section_type: related_concepts
+  milestone: Proficiency in deriving thermodynamic properties from partition functions and solving complex statistical thermodynamics
+    problems
+  duration_days: 7
+  tags:
+  - partition_function
+  - free_energy
+  - calculations
+  - formalism
+- id: 4
+  title: Classical Statistics
+  learning_objectives:
+  - Derive Maxwell-Boltzmann distribution from first principles
+  - Apply classical statistics to ideal gases
+  - Understand the classical limit of quantum statistics
+  - Calculate thermodynamic properties of classical systems
+  textbook_style_content:
+  - topic: Maxwell-Boltzmann Distribution
+    sections:
+    - section_title: Distinguishable Particles
+      section_type: overview
+    - section_title: Boltzmann Factor and Distribution
+      section_type: core_theory
+    - section_title: Maxwell Velocity Distribution
+      section_type: core_theory
+    - section_title: Energy Distribution Functions
+      section_type: related_concepts
+  - topic: Classical Ideal Gas
+    sections:
+    - section_title: Partition Function for Ideal Gas
+      section_type: core_theory
+    - section_title: Equation of State
+      section_type: core_theory
+    - section_title: Internal Energy and Heat Capacity
+      section_type: related_concepts
+    - section_title: Equipartition Theorem
+      section_type: related_concepts
+  milestone: Mastery of classical statistical mechanics and ability to analyze classical systems using statistical methods
+  duration_days: 5
+  tags:
+  - classical_statistics
+  - Maxwell-Boltzmann
+  - ideal_gas
+- id: 5
+  title: Quantum Statistics Foundation
+  learning_objectives:
+  - Understand the need for quantum statistics
+  - Distinguish between Fermi-Dirac and Bose-Einstein statistics
+  - Apply quantum statistics to calculate occupation numbers
+  - Understand the role of particle indistinguishability
+  textbook_style_content:
+  - topic: Quantum Statistical Mechanics
+    sections:
+    - section_title: Indistinguishable Particles
+      section_type: overview
+    - section_title: Symmetry and Statistics
+      section_type: core_theory
+    - section_title: Fermions and Pauli Exclusion
+      section_type: core_theory
+    - section_title: Bosons and Multiple Occupancy
+      section_type: core_theory
+  - topic: Distribution Functions
+    sections:
+    - section_title: Fermi-Dirac Distribution
+      section_type: core_theory
+    - section_title: Bose-Einstein Distribution
+      section_type: core_theory
+    - section_title: Classical Limit and Comparison
+      section_type: related_concepts
+    - section_title: Density of States
+      section_type: related_concepts
+  milestone: Clear understanding of quantum statistics foundations and ability to apply appropriate statistics to quantum
+    systems
+  duration_days: 6
+  tags:
+  - quantum_statistics
+  - fermions
+  - bosons
+  - distributions
+- id: 6
+  title: Fermi-Dirac Statistics Applications
+  learning_objectives:
+  - Analyze degenerate Fermi gas at zero and finite temperatures
+  - Calculate Fermi energy and Fermi temperature
+  - Understand electronic properties of metals using Fermi statistics
+  - Apply Fermi-Dirac statistics to astrophysical systems
+  textbook_style_content:
+  - topic: Degenerate Fermi Gas
+    sections:
+    - section_title: Free Electron Model
+      section_type: overview
+    - section_title: Fermi Energy and Fermi Surface
+      section_type: core_theory
+    - section_title: Ground State Properties
+      section_type: core_theory
+    - section_title: Fermi Temperature
+      section_type: core_theory
+  - topic: Finite Temperature Properties
+    sections:
+    - section_title: Thermal Excitations
+      section_type: core_theory
+    - section_title: Electronic Heat Capacity
+      section_type: core_theory
+    - section_title: Sommerfeld Expansion
+      section_type: related_concepts
+  - topic: Applications
+    sections:
+    - section_title: Metals and Electrical Conductivity
+      section_type: related_concepts
+    - section_title: White Dwarf Stars
+      section_type: related_concepts
+    - section_title: Pauli Paramagnetism
+      section_type: related_concepts
+  milestone: Competence in applying Fermi-Dirac statistics to real physical systems including metals and degenerate matter
+  duration_days: 6
+  tags:
+  - Fermi-Dirac
+  - degenerate_gas
+  - electrons
+  - metals
+- id: 7
+  title: 'Bose-Einstein Statistics: Black Body Radiation'
+  learning_objectives:
+  - Derive Planck distribution from Bose-Einstein statistics
+  - Understand the quantum theory of radiation
+  - Calculate thermodynamic properties of photon gas
+  - Apply black body radiation laws to physical systems
+  textbook_style_content:
+  - topic: Photon Statistics
+    sections:
+    - section_title: Photons as Bosons
+      section_type: overview
+    - section_title: Photon Gas and Zero Chemical Potential
+      section_type: core_theory
+    - section_title: Density of States for Photons
+      section_type: core_theory
+  - topic: Planck Distribution
+    sections:
+    - section_title: Derivation from Bose-Einstein Statistics
+      section_type: core_theory
+    - section_title: Black Body Spectrum
+      section_type: core_theory
+    - section_title: Wien Displacement Law
+      section_type: related_concepts
+    - section_title: Stefan-Boltzmann Law
+      section_type: related_concepts
+    - section_title: Rayleigh-Jeans and Wien Limits
+      section_type: related_concepts
+  - topic: Thermodynamics of Radiation
+    sections:
+    - section_title: Energy Density and Pressure
+      section_type: core_theory
+    - section_title: Entropy of Photon Gas
+      section_type: related_concepts
+  milestone: Thorough understanding of black body radiation and ability to derive and apply Planck distribution law
+  duration_days: 5
+  tags:
+  - Bose-Einstein
+  - photons
+  - Planck_distribution
+  - black_body
+- id: 8
+  title: 'Bose-Einstein Statistics: Condensation'
+  learning_objectives:
+  - Understand the phenomenon of Bose-Einstein condensation
+  - Calculate critical temperature for BEC
+  - Analyze properties of the condensate phase
+  - Apply BEC concepts to real systems
+  textbook_style_content:
+  - topic: Bose-Einstein Condensation
+    sections:
+    - section_title: Ideal Bose Gas
+      section_type: overview
+    - section_title: Critical Temperature
+      section_type: core_theory
+    - section_title: Macroscopic Ground State Occupation
+      section_type: core_theory
+    - section_title: Condensate Fraction
+      section_type: core_theory
+  - topic: Properties Below Critical Temperature
+    sections:
+    - section_title: Chemical Potential
+      section_type: core_theory
+    - section_title: Heat Capacity
+      section_type: core_theory
+    - section_title: Thermodynamic Functions
+      section_type: related_concepts
+  - topic: Real Systems
+    sections:
+    - section_title: Liquid Helium-4
+      section_type: related_concepts
+    - section_title: Ultracold Atomic Gases
+      section_type: related_concepts
+    - section_title: Superfluidity
+      section_type: related_concepts
+  milestone: Comprehensive understanding of Bose-Einstein condensation and its manifestations in physical systems
+  duration_days: 6
+  tags:
+  - Bose-Einstein
+  - condensation
+  - BEC
+  - superfluidity
+- id: 9
+  title: 'Phase Transitions: First Order'
+  learning_objectives:
+  - Understand characteristics of first-order phase transitions
+  - Apply Clausius-Clapeyron equation to phase equilibria
+  - Analyze phase diagrams and coexistence curves
+  - Calculate latent heat and phase boundaries
+  textbook_style_content:
+  - topic: First-Order Phase Transitions
+    sections:
+    - section_title: Definition and Characteristics
+      section_type: overview
+    - section_title: Discontinuity in First Derivatives
+      section_type: core_theory
+    - section_title: Latent Heat
+      section_type: core_theory
+    - section_title: Coexistence of Phases
+      section_type: core_theory
+  - topic: Phase Equilibria
+    sections:
+    - section_title: Gibbs Free Energy and Phase Stability
+      section_type: core_theory
+    - section_title: Chemical Potential Equality
+      section_type: core_theory
+    - section_title: Clausius-Clapeyron Equation
+      section_type: core_theory
+    - section_title: Phase Boundaries
+      section_type: related_concepts
+  - topic: Phase Diagrams
+    sections:
+    - section_title: P-T and P-V Diagrams
+      section_type: core_theory
+    - section_title: Triple Point
+      section_type: related_concepts
+    - section_title: Applications to Real Substances
+      section_type: related_concepts
+  milestone: Ability to analyze first-order phase transitions and construct phase diagrams from thermodynamic data
+  duration_days: 5
+  tags:
+  - phase_transitions
+  - first_order
+  - Clausius-Clapeyron
+  - phase_equilibria
+- id: 10
+  title: 'Phase Transitions: Second Order and Critical Phenomena'
+  learning_objectives:
+  - Understand second-order phase transitions and critical points
+  - Analyze behavior near critical points using critical exponents
+  - Apply Landau theory of phase transitions
+  - Understand universality and scaling in critical phenomena
+  textbook_style_content:
+  - topic: Second-Order Phase Transitions
+    sections:
+    - section_title: Continuous Transitions
+      section_type: overview
+    - section_title: Discontinuity in Second Derivatives
+      section_type: core_theory
+    - section_title: Order Parameters
+      section_type: core_theory
+    - section_title: Symmetry Breaking
+      section_type: core_theory
+  - topic: Critical Point
+    sections:
+    - section_title: Definition and Location
+      section_type: core_theory
+    - section_title: Critical Exponents
+      section_type: core_theory
+    - section_title: Scaling Laws
+      section_type: core_theory
+    - section_title: Critical Opalescence
+      section_type: related_concepts
+    - section_title: Correlation Length
+      section_type: related_concepts
+  - topic: Theoretical Approaches
+    sections:
+    - section_title: Landau Theory
+      section_type: core_theory
+    - section_title: Mean Field Theory
+      section_type: core_theory
+    - section_title: Universality Classes
+      section_type: related_concepts
+    - section_title: Ising Model
+      section_type: related_concepts
+  milestone: Advanced understanding of critical phenomena and ability to apply theoretical frameworks to analyze phase transitions
+  duration_days: 7
+  tags:
+  - phase_transitions
+  - second_order
+  - critical_point
+  - Landau_theory

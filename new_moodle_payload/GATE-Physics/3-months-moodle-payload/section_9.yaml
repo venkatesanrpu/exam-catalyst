@@ -1,0 +1,552 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Section 9: Nuclear Physics - Nuclear radii and charge distributions, nuclear binding energy, electric and magnetic moments, Semi-empirical mass formula, Nuclear models (liquid drop model, nuclear shell model), Nuclear force and two nucleon problem, Alpha decay, beta-decay, electromagnetic transitions in nuclei, Rutherford scattering, nuclear reactions, conservation laws, Fission and fusion, Particle accelerators and detectors, Elementary particles (photons, baryons, mesons and leptons), Quark model, Conservation laws, isospin symmetry, charge conjugation, parity and time-reversal invariance"
+
+concepts:
+  core:
+    - name: Nuclear Structure
+      clarifier: Empirical properties including radii, charge distributions, binding energy, and electromagnetic moments
+    - name: Semi-Empirical Mass Formula
+      clarifier: Weizsäcker formula for predicting nuclear masses and binding energies
+    - name: Liquid Drop Model
+      clarifier: Collective model treating nucleus as incompressible fluid droplet
+    - name: Nuclear Shell Model
+      clarifier: Independent particle model explaining magic numbers and nuclear stability
+    - name: Nuclear Forces
+      clarifier: Strong interaction between nucleons and deuteron problem
+    - name: Alpha Decay
+      clarifier: Spontaneous emission of helium nuclei from heavy nuclei
+    - name: Beta Decay
+      clarifier: Weak interaction processes transforming neutrons to protons or vice versa
+    - name: Gamma Transitions
+      clarifier: Electromagnetic de-excitation of nuclear excited states
+    - name: Nuclear Reactions
+      clarifier: Induced transmutations and scattering processes
+    - name: Rutherford Scattering
+      clarifier: Coulomb scattering revealing nuclear size and charge distribution
+    - name: Fission
+      clarifier: Splitting of heavy nuclei into lighter fragments with energy release
+    - name: Fusion
+      clarifier: Merging of light nuclei to form heavier nuclei
+    - name: Particle Accelerators
+      clarifier: Devices to accelerate charged particles for nuclear and particle physics experiments
+    - name: Radiation Detectors
+      clarifier: Instruments to detect and measure ionizing radiation
+    - name: Elementary Particle Classification
+      clarifier: Categorization into photons, leptons, mesons, and baryons
+    - name: Quark Model
+      clarifier: Fundamental constituents of hadrons (baryons and mesons)
+    - name: Conservation Laws
+      clarifier: Energy, momentum, angular momentum, charge, baryon number, lepton number conservation
+    - name: Isospin Symmetry
+      clarifier: Approximate symmetry of strong interaction under proton-neutron exchange
+    - name: Discrete Symmetries
+      clarifier: Charge conjugation (C), parity (P), and time reversal (T) transformations
+  related:
+    - name: Quantum Mechanics
+      clarifier: Wave functions, operators, eigenvalue problems for nuclear systems
+    - name: Angular Momentum Theory
+      clarifier: Addition rules, Clebsch-Gordan coefficients for nuclear spins
+    - name: Electromagnetic Theory
+      clarifier: Multipole radiation, selection rules for gamma transitions
+    - name: Statistical Mechanics
+      clarifier: Level density, thermodynamic treatment of nuclear matter
+    - name: Group Theory
+      clarifier: Symmetry groups, representations for particle physics
+    - name: Relativistic Quantum Mechanics
+      clarifier: Dirac equation, Klein-Gordon equation for particle physics
+    - name: Fermi Gas Model
+      clarifier: Degenerate fermion system approximating nuclear matter
+    - name: Tunneling Phenomenon
+      clarifier: Quantum barrier penetration in alpha decay
+    - name: Weak Interaction Theory
+      clarifier: Fermi theory, neutrino physics, V-A interaction
+    - name: Cross Section Formalism
+      clarifier: Differential and total cross sections for reactions
+    - name: Reaction Kinematics
+      clarifier: Q-value, threshold energy, energy-angle correlations
+    - name: Chain Reactions
+      clarifier: Critical mass, multiplication factor in fission reactors
+    - name: Plasma Physics
+      clarifier: High-temperature ionized matter for fusion reactions
+    - name: Ionization and Excitation
+      clarifier: Energy loss mechanisms of particles passing through matter
+    - name: Standard Model
+      clarifier: Gauge theory unifying electromagnetic, weak, and strong interactions
+    - name: CPT Theorem
+      clarifier: Combined symmetry of charge, parity, and time reversal
+
+learning_path:
+  - id: 1
+    title: Nuclear Structure and Properties
+    learning_objectives:
+      - Understand empirical nuclear properties including size, shape, and charge distributions
+      - Calculate nuclear binding energies and recognize stability patterns
+      - Determine electric and magnetic moments of nuclei and their physical significance
+      - Apply the semi-empirical mass formula to predict nuclear masses and binding energies
+    textbook_style_content:
+      - topic: Empirical Nuclear Properties
+        sections:
+          - section_title: Overview of Nuclear Structure
+            section_type: overview
+          - section_title: Nuclear Radii and Charge Distribution
+            section_type: core_theory
+          - section_title: Experimental Determination of Nuclear Size
+            section_type: related_concepts
+      - topic: Nuclear Binding Energy
+        sections:
+          - section_title: Mass Defect and Binding Energy
+            section_type: core_theory
+          - section_title: Binding Energy per Nucleon Curve
+            section_type: core_theory
+          - section_title: Nuclear Stability and Decay Chains
+            section_type: related_concepts
+      - topic: Electromagnetic Moments
+        sections:
+          - section_title: Nuclear Spin and Magnetic Dipole Moment
+            section_type: core_theory
+          - section_title: Electric Quadrupole Moment and Nuclear Deformation
+            section_type: core_theory
+          - section_title: Measurement Techniques for Nuclear Moments
+            section_type: related_concepts
+      - topic: Semi-Empirical Mass Formula
+        sections:
+          - section_title: Derivation of Weizsäcker Formula
+            section_type: core_theory
+          - section_title: Volume, Surface, Coulomb, Asymmetry, and Pairing Terms
+            section_type: core_theory
+          - section_title: Applications to Nuclear Masses and Stability
+            section_type: related_concepts
+    milestone: Master empirical nuclear properties and semi-empirical mass formula predictions
+    duration_days: 10
+    tags:
+      - nuclear structure
+      - binding energy
+      - nuclear moments
+      - mass formula
+
+  - id: 2
+    title: Nuclear Models
+    learning_objectives:
+      - Understand the liquid drop model and its predictions for nuclear properties
+      - Master the nuclear shell model and explain magic numbers
+      - Apply shell model to predict ground state spins and parities
+      - Compare collective and independent particle descriptions of nuclei
+    textbook_style_content:
+      - topic: Liquid Drop Model
+        sections:
+          - section_title: Assumptions and Formulation
+            section_type: core_theory
+          - section_title: Connection to Semi-Empirical Mass Formula
+            section_type: core_theory
+          - section_title: Predictions for Fission and Nuclear Deformation
+            section_type: related_concepts
+      - topic: Nuclear Shell Model
+        sections:
+          - section_title: Evidence for Shell Structure and Magic Numbers
+            section_type: overview
+          - section_title: Independent Particle Model with Central Potential
+            section_type: core_theory
+          - section_title: Spin-Orbit Coupling and Level Ordering
+            section_type: core_theory
+          - section_title: Predictions of Ground State Properties
+            section_type: core_theory
+      - topic: Advanced Nuclear Models
+        sections:
+          - section_title: Collective Model and Rotational Spectra
+            section_type: related_concepts
+          - section_title: Nilsson Model for Deformed Nuclei
+            section_type: related_concepts
+          - section_title: Interacting Shell Model
+            section_type: related_concepts
+    milestone: Comprehend liquid drop and shell models for nuclear structure
+    duration_days: 12
+    tags:
+      - liquid drop model
+      - shell model
+      - magic numbers
+      - nuclear models
+
+  - id: 3
+    title: Nuclear Forces
+    learning_objectives:
+      - Characterize properties of nuclear forces including range, strength, and saturation
+      - Understand charge independence and charge symmetry of nuclear forces
+      - Solve the deuteron bound state problem
+      - Analyze nucleon-nucleon scattering and extract force parameters
+    textbook_style_content:
+      - topic: Properties of Nuclear Forces
+        sections:
+          - section_title: Historical Development and Discovery
+            section_type: overview
+          - section_title: Range, Strength, and Saturation Properties
+            section_type: core_theory
+          - section_title: Charge Independence and Isospin Formalism
+            section_type: core_theory
+          - section_title: Spin and Tensor Force Components
+            section_type: core_theory
+      - topic: Two-Nucleon Problem
+        sections:
+          - section_title: Deuteron Ground State Properties
+            section_type: core_theory
+          - section_title: Solution with Square Well Potential
+            section_type: core_theory
+          - section_title: Yukawa Potential and Meson Exchange
+            section_type: related_concepts
+      - topic: Nucleon-Nucleon Scattering
+        sections:
+          - section_title: Phase Shift Analysis
+            section_type: core_theory
+          - section_title: Low Energy Scattering Parameters
+            section_type: related_concepts
+          - section_title: Realistic Nuclear Potentials
+            section_type: related_concepts
+    milestone: Understand nuclear force characteristics and two-nucleon systems
+    duration_days: 10
+    tags:
+      - nuclear forces
+      - deuteron
+      - two-nucleon problem
+      - strong interaction
+
+  - id: 4
+    title: Radioactive Decay Processes
+    learning_objectives:
+      - Understand mechanisms of alpha, beta, and gamma decay
+      - Calculate decay rates and half-lives using quantum mechanical tunneling
+      - Apply selection rules for electromagnetic transitions in nuclei
+      - Analyze decay schemes and branching ratios
+    textbook_style_content:
+      - topic: Alpha Decay
+        sections:
+          - section_title: Energetics and Systematics of Alpha Decay
+            section_type: overview
+          - section_title: Gamow Theory and Barrier Penetration
+            section_type: core_theory
+          - section_title: Geiger-Nuttall Law and Half-Life Predictions
+            section_type: core_theory
+          - section_title: Alpha Spectroscopy and Fine Structure
+            section_type: related_concepts
+      - topic: Beta Decay
+        sections:
+          - section_title: Types of Beta Decay and Neutrino Hypothesis
+            section_type: overview
+          - section_title: Fermi Theory of Beta Decay
+            section_type: core_theory
+          - section_title: Selection Rules and Decay Rates
+            section_type: core_theory
+          - section_title: Beta Spectrum and Forbidden Transitions
+            section_type: related_concepts
+      - topic: Electromagnetic Transitions
+        sections:
+          - section_title: Multipole Radiation in Nuclei
+            section_type: core_theory
+          - section_title: Selection Rules for Gamma Transitions
+            section_type: core_theory
+          - section_title: Internal Conversion and Conversion Coefficients
+            section_type: related_concepts
+          - section_title: Transition Rates and Weisskopf Estimates
+            section_type: related_concepts
+    milestone: Master radioactive decay mechanisms and transition calculations
+    duration_days: 12
+    tags:
+      - alpha decay
+      - beta decay
+      - gamma transitions
+      - radioactivity
+
+  - id: 5
+    title: Nuclear Reactions and Scattering
+    learning_objectives:
+      - Analyze Rutherford scattering and deviations indicating nuclear size
+      - Apply conservation laws to nuclear reaction kinematics
+      - Calculate Q-values, threshold energies, and reaction cross sections
+      - Understand reaction mechanisms including compound nucleus and direct reactions
+    textbook_style_content:
+      - topic: Rutherford Scattering
+        sections:
+          - section_title: Classical Coulomb Scattering Derivation
+            section_type: core_theory
+          - section_title: Rutherford Cross Section Formula
+            section_type: core_theory
+          - section_title: Deviations from Rutherford Formula
+            section_type: related_concepts
+      - topic: Nuclear Reaction Kinematics
+        sections:
+          - section_title: Conservation Laws in Nuclear Reactions
+            section_type: overview
+          - section_title: Q-Value and Energy Balance
+            section_type: core_theory
+          - section_title: Threshold Energy for Endothermic Reactions
+            section_type: core_theory
+          - section_title: Laboratory and Center-of-Mass Frames
+            section_type: related_concepts
+      - topic: Reaction Cross Sections
+        sections:
+          - section_title: Definition and Measurement of Cross Sections
+            section_type: core_theory
+          - section_title: Differential and Total Cross Sections
+            section_type: core_theory
+          - section_title: Resonance Phenomena and Breit-Wigner Formula
+            section_type: related_concepts
+      - topic: Reaction Mechanisms
+        sections:
+          - section_title: Compound Nucleus Model
+            section_type: related_concepts
+          - section_title: Direct Reactions and Stripping/Pickup
+            section_type: related_concepts
+          - section_title: Statistical Model and Evaporation
+            section_type: related_concepts
+    milestone: Comprehend nuclear reaction kinematics and scattering formalism
+    duration_days: 12
+    tags:
+      - Rutherford scattering
+      - nuclear reactions
+      - conservation laws
+      - cross sections
+
+  - id: 6
+    title: Nuclear Fission and Fusion
+    learning_objectives:
+      - Understand the mechanism of nuclear fission and energy release
+      - Calculate energy output and fission product distributions
+      - Master the physics of nuclear fusion in stars and reactors
+      - Analyze conditions required for controlled fission and fusion reactions
+    textbook_style_content:
+      - topic: Nuclear Fission
+        sections:
+          - section_title: Discovery and Mechanism of Fission
+            section_type: overview
+          - section_title: Liquid Drop Model Explanation of Fission
+            section_type: core_theory
+          - section_title: Fission Barrier and Spontaneous Fission
+            section_type: core_theory
+          - section_title: Fission Fragments and Neutron Emission
+            section_type: core_theory
+      - topic: Chain Reactions and Reactors
+        sections:
+          - section_title: Neutron-Induced Fission and Chain Reactions
+            section_type: core_theory
+          - section_title: Critical Mass and Multiplication Factor
+            section_type: core_theory
+          - section_title: Nuclear Reactor Principles
+            section_type: related_concepts
+      - topic: Nuclear Fusion
+        sections:
+          - section_title: Fusion Reactions and Energy Production
+            section_type: overview
+          - section_title: Coulomb Barrier and Gamow Peak
+            section_type: core_theory
+          - section_title: Stellar Nucleosynthesis and Fusion Cycles
+            section_type: related_concepts
+          - section_title: Controlled Fusion and Plasma Confinement
+            section_type: related_concepts
+    milestone: Master fission and fusion processes and energy applications
+    duration_days: 10
+    tags:
+      - nuclear fission
+      - nuclear fusion
+      - chain reactions
+      - nuclear energy
+
+  - id: 7
+    title: Particle Accelerators and Detectors
+    learning_objectives:
+      - Understand principles of charged particle acceleration
+      - Compare different accelerator types and their applications
+      - Master detection principles for ionizing radiation
+      - Analyze detector response and energy resolution
+    textbook_style_content:
+      - topic: Particle Accelerators
+        sections:
+          - section_title: Overview of Accelerator Technology
+            section_type: overview
+          - section_title: Linear Accelerators and RF Cavities
+            section_type: core_theory
+          - section_title: Circular Accelerators - Cyclotron and Synchrotron
+            section_type: core_theory
+          - section_title: Beam Dynamics and Focusing Systems
+            section_type: related_concepts
+      - topic: Radiation Detectors
+        sections:
+          - section_title: Interaction of Radiation with Matter
+            section_type: overview
+          - section_title: Gas-Filled Detectors - Ionization Chambers and Proportional Counters
+            section_type: core_theory
+          - section_title: Geiger-Müller Counters and Applications
+            section_type: core_theory
+          - section_title: Scintillation Detectors and Photomultipliers
+            section_type: core_theory
+      - topic: Modern Detection Systems
+        sections:
+          - section_title: Semiconductor Detectors
+            section_type: related_concepts
+          - section_title: Calorimeters and Energy Measurement
+            section_type: related_concepts
+          - section_title: Tracking Detectors and Particle Identification
+            section_type: related_concepts
+    milestone: Understand experimental tools for nuclear and particle physics
+    duration_days: 9
+    tags:
+      - particle accelerators
+      - radiation detectors
+      - experimental techniques
+      - instrumentation
+
+  - id: 8
+    title: Elementary Particles - Classification and Properties
+    learning_objectives:
+      - Classify elementary particles into fermions and bosons
+      - Distinguish between leptons, mesons, and baryons
+      - Understand quantum numbers and their conservation
+      - Apply particle classification schemes to reactions
+    textbook_style_content:
+      - topic: Introduction to Particle Physics
+        sections:
+          - section_title: Historical Development and Particle Zoo
+            section_type: overview
+          - section_title: Fundamental Forces and Exchange Particles
+            section_type: core_theory
+          - section_title: Quantum Numbers in Particle Physics
+            section_type: core_theory
+      - topic: Leptons
+        sections:
+          - section_title: Electron, Muon, Tau and Their Neutrinos
+            section_type: core_theory
+          - section_title: Lepton Number Conservation
+            section_type: core_theory
+          - section_title: Lepton Interactions and Weak Force
+            section_type: related_concepts
+      - topic: Mesons and Baryons
+        sections:
+          - section_title: Pion, Kaon, and Other Mesons
+            section_type: core_theory
+          - section_title: Baryon Classification - Nucleons and Hyperons
+            section_type: core_theory
+          - section_title: Baryon Number and Strangeness
+            section_type: core_theory
+          - section_title: Isospin Multiplets
+            section_type: related_concepts
+      - topic: Photon and Gauge Bosons
+        sections:
+          - section_title: Photon as Electromagnetic Force Carrier
+            section_type: core_theory
+          - section_title: W and Z Bosons in Weak Interactions
+            section_type: related_concepts
+          - section_title: Gluons and Strong Force
+            section_type: related_concepts
+    milestone: Master elementary particle classification and quantum numbers
+    duration_days: 11
+    tags:
+      - elementary particles
+      - leptons
+      - mesons
+      - baryons
+      - photons
+
+  - id: 9
+    title: Quark Model of Hadrons
+    learning_objectives:
+      - Understand the quark composition of mesons and baryons
+      - Apply flavor quantum numbers to quark combinations
+      - Master color charge and confinement principles
+      - Predict hadron properties from quark structure
+    textbook_style_content:
+      - topic: Introduction to Quarks
+        sections:
+          - section_title: Historical Motivation for Quark Model
+            section_type: overview
+          - section_title: Six Quark Flavors and Their Properties
+            section_type: core_theory
+          - section_title: Fractional Charge and Quantum Numbers
+            section_type: core_theory
+      - topic: Quark Composition of Hadrons
+        sections:
+          - section_title: Mesons as Quark-Antiquark Pairs
+            section_type: core_theory
+          - section_title: Baryons as Three-Quark Systems
+            section_type: core_theory
+          - section_title: Exotic Hadrons and Multiquark States
+            section_type: related_concepts
+      - topic: Color Charge and QCD
+        sections:
+          - section_title: Color Quantum Number and SU(3) Symmetry
+            section_type: core_theory
+          - section_title: Gluons and Color Force
+            section_type: core_theory
+          - section_title: Confinement and Asymptotic Freedom
+            section_type: related_concepts
+      - topic: Applications of Quark Model
+        sections:
+          - section_title: Hadron Spectroscopy and Mass Predictions
+            section_type: related_concepts
+          - section_title: Magnetic Moments of Baryons
+            section_type: related_concepts
+          - section_title: Deep Inelastic Scattering Evidence
+            section_type: related_concepts
+    milestone: Comprehend quark model and hadron substructure
+    duration_days: 10
+    tags:
+      - quark model
+      - quarks
+      - color charge
+      - QCD
+      - hadrons
+
+  - id: 10
+    title: Symmetries and Conservation Laws
+    learning_objectives:
+      - Apply conservation laws to particle interactions and decays
+      - Understand continuous symmetries and Noether's theorem
+      - Master discrete symmetries - parity, charge conjugation, and time reversal
+      - Analyze symmetry violations in weak interactions
+    textbook_style_content:
+      - topic: Conservation Laws
+        sections:
+          - section_title: Energy, Momentum, and Angular Momentum Conservation
+            section_type: overview
+          - section_title: Charge Conservation and Gauge Symmetry
+            section_type: core_theory
+          - section_title: Baryon Number and Lepton Number Conservation
+            section_type: core_theory
+          - section_title: Strangeness and Charm Conservation
+            section_type: core_theory
+      - topic: Isospin Symmetry
+        sections:
+          - section_title: Isospin as Approximate Symmetry of Strong Interaction
+            section_type: core_theory
+          - section_title: Isospin Multiplets and Charge Independence
+            section_type: core_theory
+          - section_title: Isospin Conservation in Strong Interactions
+            section_type: core_theory
+          - section_title: Breaking of Isospin Symmetry
+            section_type: related_concepts
+      - topic: Discrete Symmetries
+        sections:
+          - section_title: Parity Transformation and Conservation
+            section_type: core_theory
+          - section_title: Charge Conjugation Symmetry
+            section_type: core_theory
+          - section_title: Time Reversal Invariance
+            section_type: core_theory
+          - section_title: Parity Violation in Weak Interactions
+            section_type: related_concepts
+      - topic: Combined Symmetries
+        sections:
+          - section_title: CP Symmetry and CP Violation
+            section_type: related_concepts
+          - section_title: CPT Theorem and Its Implications
+            section_type: related_concepts
+          - section_title: Matter-Antimatter Asymmetry
+            section_type: related_concepts
+    milestone: Master symmetry principles and conservation laws in particle physics
+    duration_days: 12
+    tags:
+      - conservation laws
+      - symmetries
+      - isospin
+      - parity
+      - charge conjugation
+      - time reversal
+      - CPT theorem

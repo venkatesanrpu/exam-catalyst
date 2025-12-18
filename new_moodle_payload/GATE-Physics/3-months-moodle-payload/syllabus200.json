@@ -1,0 +1,1920 @@
+{
+  "subject": "Physics",
+  "subject_key": "physics",
+  "topics": [
+    {
+      "topic": "Mathematical Physics",
+      "topic_key": "mathematical_physics",
+      "lessons": [
+        {
+          "lesson": "Foundations of Linear Vector Spaces",
+          "lesson_key": "foundations_of_linear_vector_spaces",
+          "chapters": [
+            {
+              "chapter": "Define linear vector spaces and identify their fundamental properties"
+            },
+            {
+              "chapter": "Construct orthonormal bases using Gram-Schmidt procedure"
+            },
+            {
+              "chapter": "Apply completeness relations in function spaces"
+            },
+            {
+              "chapter": "Distinguish between finite and infinite-dimensional vector spaces"
+            }
+          ]
+        },
+        {
+          "lesson": "Matrix Theory and Eigenvalue Problems",
+          "lesson_key": "matrix_theory_and_eigenvalue_problems",
+          "chapters": [
+            {
+              "chapter": "Perform similarity transformations and understand matrix equivalence"
+            },
+            {
+              "chapter": "Diagonalize matrices using eigenvalue decomposition"
+            },
+            {
+              "chapter": "Calculate eigenvalues and eigenvectors for various matrix types"
+            },
+            {
+              "chapter": "Apply spectral theorem to symmetric and Hermitian matrices"
+            },
+            {
+              "chapter": "Solve physical problems using matrix eigenvalue methods"
+            }
+          ]
+        },
+        {
+          "lesson": "Second Order Linear Differential Equations",
+          "lesson_key": "second_order_linear_differential_equations",
+          "chapters": [
+            {
+              "chapter": "Classify second order linear differential equations"
+            },
+            {
+              "chapter": "Apply power series methods to obtain solutions"
+            },
+            {
+              "chapter": "Identify and utilize Frobenius method for singular points"
+            },
+            {
+              "chapter": "Recognize equations leading to special functions"
+            },
+            {
+              "chapter": "Apply boundary conditions to determine unique solutions"
+            }
+          ]
+        },
+        {
+          "lesson": "Special Functions in Mathematical Physics",
+          "lesson_key": "special_functions_in_mathematical_physics",
+          "chapters": [
+            {
+              "chapter": "Derive Bessel functions from cylindrical coordinate problems"
+            },
+            {
+              "chapter": "Understand properties and recurrence relations of Legendre polynomials"
+            },
+            {
+              "chapter": "Apply Hermite polynomials in quantum harmonic oscillator"
+            },
+            {
+              "chapter": "Utilize Laguerre polynomials in hydrogen atom problem"
+            },
+            {
+              "chapter": "Employ orthogonality and completeness of special functions"
+            }
+          ]
+        },
+        {
+          "lesson": "Analytic Functions and Cauchy-Riemann Conditions",
+          "lesson_key": "analytic_functions_and_cauchy_riemann_conditions",
+          "chapters": [
+            {
+              "chapter": "Define complex differentiability and analytic functions"
+            },
+            {
+              "chapter": "Apply Cauchy-Riemann conditions to test analyticity"
+            },
+            {
+              "chapter": "Construct harmonic conjugates"
+            },
+            {
+              "chapter": "Identify multivalued functions and branch points"
+            },
+            {
+              "chapter": "Understand geometric interpretation of complex functions"
+            }
+          ]
+        },
+        {
+          "lesson": "Contour Integration and Cauchy's Theorem",
+          "lesson_key": "contour_integration_and_cauchy_s_theorem",
+          "chapters": [
+            {
+              "chapter": "Evaluate complex line integrals along specified contours"
+            },
+            {
+              "chapter": "Apply Cauchy's integral theorem for closed contours"
+            },
+            {
+              "chapter": "Use Cauchy's integral formula to evaluate integrals"
+            },
+            {
+              "chapter": "Derive higher derivative formulas"
+            },
+            {
+              "chapter": "Apply maximum modulus principle and Liouville's theorem"
+            }
+          ]
+        },
+        {
+          "lesson": "Singularities and Laurent Series",
+          "lesson_key": "singularities_and_laurent_series",
+          "chapters": [
+            {
+              "chapter": "Classify singularities as removable, poles, or essential"
+            },
+            {
+              "chapter": "Expand functions in Laurent series around singular points"
+            },
+            {
+              "chapter": "Determine order of poles from function behavior"
+            },
+            {
+              "chapter": "Calculate residues at various singularity types"
+            },
+            {
+              "chapter": "Analyze behavior of functions at infinity"
+            }
+          ]
+        },
+        {
+          "lesson": "Residue Theorem and Applications",
+          "lesson_key": "residue_theorem_and_applications",
+          "chapters": [
+            {
+              "chapter": "State and prove the residue theorem"
+            },
+            {
+              "chapter": "Calculate residues using multiple methods"
+            },
+            {
+              "chapter": "Evaluate real definite integrals using residue theorem"
+            },
+            {
+              "chapter": "Apply residue theorem to improper integrals"
+            },
+            {
+              "chapter": "Use residue calculus for summation of series"
+            },
+            {
+              "chapter": "Solve physics problems using contour integration"
+            }
+          ]
+        },
+        {
+          "lesson": "Laplace Transform Theory and Properties",
+          "lesson_key": "laplace_transform_theory_and_properties",
+          "chapters": [
+            {
+              "chapter": "Define Laplace transform and determine existence conditions"
+            },
+            {
+              "chapter": "Calculate Laplace transforms of elementary functions"
+            },
+            {
+              "chapter": "Apply linearity, shifting, and scaling properties"
+            },
+            {
+              "chapter": "Use differentiation and integration theorems"
+            },
+            {
+              "chapter": "Apply initial and final value theorems"
+            },
+            {
+              "chapter": "Understand region of convergence"
+            }
+          ]
+        },
+        {
+          "lesson": "Inverse Laplace Transform and Applications",
+          "lesson_key": "inverse_laplace_transform_and_applications",
+          "chapters": [
+            {
+              "chapter": "Calculate inverse Laplace transforms using tables and properties"
+            },
+            {
+              "chapter": "Apply partial fraction decomposition"
+            },
+            {
+              "chapter": "Use Bromwich contour integral for inversion"
+            },
+            {
+              "chapter": "Solve ordinary differential equations using Laplace transform"
+            },
+            {
+              "chapter": "Analyze systems using transfer functions"
+            },
+            {
+              "chapter": "Model physical systems in transform domain"
+            }
+          ]
+        },
+        {
+          "lesson": "Fourier Series and Periodic Functions",
+          "lesson_key": "fourier_series_and_periodic_functions",
+          "chapters": [
+            {
+              "chapter": "Expand periodic functions in Fourier series"
+            },
+            {
+              "chapter": "Calculate Fourier coefficients using orthogonality"
+            },
+            {
+              "chapter": "Apply Dirichlet conditions for convergence"
+            },
+            {
+              "chapter": "Understand Gibbs phenomenon"
+            },
+            {
+              "chapter": "Expand functions in sine and cosine series"
+            },
+            {
+              "chapter": "Apply Fourier series to boundary value problems"
+            }
+          ]
+        },
+        {
+          "lesson": "Fourier Transform and Frequency Analysis",
+          "lesson_key": "fourier_transform_and_frequency_analysis",
+          "chapters": [
+            {
+              "chapter": "Define Fourier transform and inverse Fourier transform"
+            },
+            {
+              "chapter": "Calculate Fourier transforms of standard functions"
+            },
+            {
+              "chapter": "Apply Fourier transform properties and theorems"
+            },
+            {
+              "chapter": "Use convolution theorem in frequency domain"
+            },
+            {
+              "chapter": "Relate Fourier transform to Fourier series"
+            },
+            {
+              "chapter": "Apply Parseval's theorem for energy conservation"
+            }
+          ]
+        },
+        {
+          "lesson": "Introduction to Tensors and Index Notation",
+          "lesson_key": "introduction_to_tensors_and_index_notation",
+          "chapters": [
+            {
+              "chapter": "Define scalars, vectors, and tensors by transformation properties"
+            },
+            {
+              "chapter": "Understand contravariant and covariant components"
+            },
+            {
+              "chapter": "Apply Einstein summation convention"
+            },
+            {
+              "chapter": "Perform index raising and lowering operations"
+            },
+            {
+              "chapter": "Distinguish between tensor types by variance"
+            }
+          ]
+        },
+        {
+          "lesson": "Tensor Operations and Applications",
+          "lesson_key": "tensor_operations_and_applications",
+          "chapters": [
+            {
+              "chapter": "Perform tensor addition and multiplication"
+            },
+            {
+              "chapter": "Calculate tensor contractions"
+            },
+            {
+              "chapter": "Derive tensor transformation laws"
+            },
+            {
+              "chapter": "Apply tensors to physical problems"
+            },
+            {
+              "chapter": "Understand tensor fields and derivatives"
+            },
+            {
+              "chapter": "Relate tensor formulation to matrix notation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Classical Mechanics",
+      "topic_key": "classical_mechanics",
+      "lessons": [
+        {
+          "lesson": "Lagrangian Formulation Fundamentals",
+          "lesson_key": "lagrangian_formulation_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Understand the transition from Newtonian to Lagrangian mechanics and the advantages of generalized coordinates"
+            },
+            {
+              "chapter": "Derive the Euler-Lagrange equations from D'Alembert's principle and Hamilton's principle"
+            },
+            {
+              "chapter": "Apply calculus of variations to action functionals and establish the principle of stationary action"
+            },
+            {
+              "chapter": "Connect continuous symmetries to conservation laws through Noether's theorem"
+            },
+            {
+              "chapter": "Solve problems using Lagrangian methods with holonomic and non-holonomic constraints"
+            }
+          ]
+        },
+        {
+          "lesson": "Applications of Lagrangian Mechanics",
+          "lesson_key": "applications_of_lagrangian_mechanics",
+          "chapters": [
+            {
+              "chapter": "Formulate and solve central force problems using Lagrangian methods in spherical coordinates"
+            },
+            {
+              "chapter": "Derive Kepler's laws from the inverse-square gravitational potential"
+            },
+            {
+              "chapter": "Analyze Rutherford scattering using impact parameter formalism and differential cross-sections"
+            },
+            {
+              "chapter": "Develop the theory of small oscillations for systems near stable equilibrium"
+            },
+            {
+              "chapter": "Solve coupled oscillator problems using normal mode analysis and eigenvalue techniques"
+            }
+          ]
+        },
+        {
+          "lesson": "Rigid Body Dynamics",
+          "lesson_key": "rigid_body_dynamics",
+          "chapters": [
+            {
+              "chapter": "Understand the kinematic description of rigid body motion using rotation matrices"
+            },
+            {
+              "chapter": "Construct and diagonalize the inertia tensor for various mass distributions"
+            },
+            {
+              "chapter": "Parametrize rotations using Euler angles and derive transformation properties"
+            },
+            {
+              "chapter": "Apply Euler's equations for torque-free motion of symmetric tops"
+            },
+            {
+              "chapter": "Analyze precession, nutation, and stability of spinning bodies"
+            }
+          ]
+        },
+        {
+          "lesson": "Hamiltonian Mechanics",
+          "lesson_key": "hamiltonian_mechanics",
+          "chapters": [
+            {
+              "chapter": "Transition from Lagrangian to Hamiltonian formulation via Legendre transformation"
+            },
+            {
+              "chapter": "Derive Hamilton's canonical equations and understand phase space structure"
+            },
+            {
+              "chapter": "Prove Liouville's theorem and understand its implications for statistical mechanics"
+            },
+            {
+              "chapter": "Apply Hamiltonian methods to solve mechanical problems in phase space"
+            },
+            {
+              "chapter": "Understand the geometric interpretation of Hamiltonian dynamics"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Hamiltonian Formalism",
+          "lesson_key": "advanced_hamiltonian_formalism",
+          "chapters": [
+            {
+              "chapter": "Understand canonical transformations and their generating functions"
+            },
+            {
+              "chapter": "Develop Poisson bracket formalism and its algebraic structure"
+            },
+            {
+              "chapter": "Apply action-angle variables to integrable systems and periodic motion"
+            },
+            {
+              "chapter": "Derive and solve the Hamilton-Jacobi equation for complete integration"
+            },
+            {
+              "chapter": "Connect classical mechanics to quantum mechanics through canonical quantization"
+            }
+          ]
+        },
+        {
+          "lesson": "Special Theory of Relativity",
+          "lesson_key": "special_theory_of_relativity",
+          "chapters": [
+            {
+              "chapter": "Understand the postulates of special relativity and the breakdown of Galilean invariance"
+            },
+            {
+              "chapter": "Derive Lorentz transformations and analyze their consequences for space and time"
+            },
+            {
+              "chapter": "Apply relativistic kinematics to time dilation, length contraction, and velocity addition"
+            },
+            {
+              "chapter": "Develop four-vector formalism for covariant formulation of physical laws"
+            },
+            {
+              "chapter": "Derive and apply mass-energy equivalence in particle dynamics and collisions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Electromagnetic Theory",
+      "topic_key": "electromagnetic_theory",
+      "lessons": [
+        {
+          "lesson": "Electrostatics: Field Theory and Solution Methods",
+          "lesson_key": "electrostatics_field_theory_and_solution_methods",
+          "chapters": [
+            {
+              "chapter": "Formulate and solve electrostatic boundary value problems using method of images and separation of variables"
+            },
+            {
+              "chapter": "Apply Green's functions to find electrostatic potentials for complex charge distributions"
+            },
+            {
+              "chapter": "Calculate electric fields and potentials in presence of dielectric materials and conductors"
+            },
+            {
+              "chapter": "Perform multipole expansion for electric potentials at large distances"
+            }
+          ]
+        },
+        {
+          "lesson": "Magnetostatics: Field Theory and Magnetic Materials",
+          "lesson_key": "magnetostatics_field_theory_and_magnetic_materials",
+          "chapters": [
+            {
+              "chapter": "Apply Ampère's law and Biot-Savart law to calculate magnetic fields from current distributions"
+            },
+            {
+              "chapter": "Solve magnetostatic boundary value problems using vector potential formulation"
+            },
+            {
+              "chapter": "Analyze magnetic materials including paramagnetic, diamagnetic, and ferromagnetic substances"
+            },
+            {
+              "chapter": "Apply multipole expansion to magnetic field distributions"
+            }
+          ]
+        },
+        {
+          "lesson": "Maxwell's Equations: Unification of Electromagnetic Theory",
+          "lesson_key": "maxwell_s_equations_unification_of_electromagnetic_theory",
+          "chapters": [
+            {
+              "chapter": "Derive and interpret all four Maxwell's equations in differential and integral forms"
+            },
+            {
+              "chapter": "Understand displacement current and its role in electromagnetic wave propagation"
+            },
+            {
+              "chapter": "Formulate electromagnetic problems using scalar and vector potentials"
+            },
+            {
+              "chapter": "Apply Coulomb and Lorentz gauge conditions to simplify potential equations"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Wave Propagation in Various Media",
+          "lesson_key": "electromagnetic_wave_propagation_in_various_media",
+          "chapters": [
+            {
+              "chapter": "Derive wave equations from Maxwell's equations for different media"
+            },
+            {
+              "chapter": "Calculate wave velocity, wavelength, and impedance in various materials"
+            },
+            {
+              "chapter": "Analyze wave attenuation and dispersion in conducting media"
+            },
+            {
+              "chapter": "Understand skin depth and propagation characteristics in conductors"
+            }
+          ]
+        },
+        {
+          "lesson": "Wave Interactions at Boundaries: Reflection, Transmission, and Polarization",
+          "lesson_key": "wave_interactions_at_boundaries_reflection_transmission_and_polarization",
+          "chapters": [
+            {
+              "chapter": "Apply boundary conditions to determine reflection and transmission coefficients"
+            },
+            {
+              "chapter": "Calculate Fresnel coefficients for normal and oblique incidences"
+            },
+            {
+              "chapter": "Analyze total internal reflection and Brewster angle phenomena"
+            },
+            {
+              "chapter": "Characterize different polarization states and transformation mechanisms"
+            }
+          ]
+        },
+        {
+          "lesson": "Electromagnetic Energy Transport and Conservation",
+          "lesson_key": "electromagnetic_energy_transport_and_conservation",
+          "chapters": [
+            {
+              "chapter": "Derive Poynting vector and interpret its physical significance"
+            },
+            {
+              "chapter": "Apply Poynting theorem to analyze energy conservation in electromagnetic systems"
+            },
+            {
+              "chapter": "Calculate energy density and energy flux for various field configurations"
+            },
+            {
+              "chapter": "Determine momentum density and radiation pressure of electromagnetic waves"
+            }
+          ]
+        },
+        {
+          "lesson": "Radiation from Moving Charges",
+          "lesson_key": "radiation_from_moving_charges",
+          "chapters": [
+            {
+              "chapter": "Derive retarded potentials for time-dependent charge and current distributions"
+            },
+            {
+              "chapter": "Calculate radiation fields from accelerating point charges using Larmor formula"
+            },
+            {
+              "chapter": "Analyze dipole radiation patterns and power distribution"
+            },
+            {
+              "chapter": "Understand synchrotron and bremsstrahlung radiation mechanisms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Quantum Mechanics",
+      "topic_key": "quantum_mechanics",
+      "lessons": [
+        {
+          "lesson": "Foundations of Quantum Mechanics",
+          "lesson_key": "foundations_of_quantum_mechanics",
+          "chapters": [
+            {
+              "chapter": "Articulate the five fundamental postulates of quantum mechanics and their physical interpretation"
+            },
+            {
+              "chapter": "Derive the Heisenberg uncertainty principle from non-commuting observables"
+            },
+            {
+              "chapter": "Formulate the time-dependent and time-independent Schrodinger equations"
+            },
+            {
+              "chapter": "Apply Dirac bra-ket notation to express quantum states, operators, and inner products"
+            },
+            {
+              "chapter": "Identify Hermitian operators and verify their physical observability"
+            }
+          ]
+        },
+        {
+          "lesson": "Step Potential and Potential Barriers",
+          "lesson_key": "step_potential_and_potential_barriers",
+          "chapters": [
+            {
+              "chapter": "Solve the Schrodinger equation for step potentials with E > V and E < V"
+            },
+            {
+              "chapter": "Calculate reflection and transmission coefficients for quantum particles"
+            },
+            {
+              "chapter": "Explain quantum tunneling through finite rectangular barriers"
+            },
+            {
+              "chapter": "Compute tunneling probabilities using WKB approximation principles"
+            },
+            {
+              "chapter": "Apply boundary conditions to match wavefunctions at discontinuities"
+            }
+          ]
+        },
+        {
+          "lesson": "Infinite and Finite Potential Wells",
+          "lesson_key": "infinite_and_finite_potential_wells",
+          "chapters": [
+            {
+              "chapter": "Derive energy eigenvalues and wavefunctions for particle in an infinite square well"
+            },
+            {
+              "chapter": "Apply zero boundary conditions to confined quantum systems"
+            },
+            {
+              "chapter": "Solve transcendental equations for finite rectangular well bound states"
+            },
+            {
+              "chapter": "Compare energy spectra of infinite and finite wells"
+            },
+            {
+              "chapter": "Calculate expectation values of position and momentum in bound states"
+            }
+          ]
+        },
+        {
+          "lesson": "Quantum Harmonic Oscillator",
+          "lesson_key": "quantum_harmonic_oscillator",
+          "chapters": [
+            {
+              "chapter": "Solve the Schrodinger equation for the harmonic oscillator potential"
+            },
+            {
+              "chapter": "Derive energy eigenvalues using the algebraic ladder operator method"
+            },
+            {
+              "chapter": "Construct wavefunctions using Hermite polynomials"
+            },
+            {
+              "chapter": "Apply raising and lowering operators to generate excited states"
+            },
+            {
+              "chapter": "Explain zero-point energy and equipartition theorem violations"
+            }
+          ]
+        },
+        {
+          "lesson": "Two and Three Dimensional Quantum Systems",
+          "lesson_key": "two_and_three_dimensional_quantum_systems",
+          "chapters": [
+            {
+              "chapter": "Extend the Schrodinger equation to two and three spatial dimensions"
+            },
+            {
+              "chapter": "Apply separation of variables in Cartesian coordinates"
+            },
+            {
+              "chapter": "Identify and classify degenerate energy levels"
+            },
+            {
+              "chapter": "Solve the particle in a two-dimensional box"
+            },
+            {
+              "chapter": "Calculate degeneracy from symmetry considerations"
+            }
+          ]
+        },
+        {
+          "lesson": "Central Force Problems and Hydrogen Atom",
+          "lesson_key": "central_force_problems_and_hydrogen_atom",
+          "chapters": [
+            {
+              "chapter": "Transform the Schrodinger equation to spherical coordinates"
+            },
+            {
+              "chapter": "Separate radial and angular components for central potentials"
+            },
+            {
+              "chapter": "Solve the angular equation to obtain spherical harmonics"
+            },
+            {
+              "chapter": "Derive the radial equation for the Coulomb potential"
+            },
+            {
+              "chapter": "Determine energy levels and quantum numbers for the hydrogen atom"
+            },
+            {
+              "chapter": "Calculate radial probability densities and expectation values"
+            }
+          ]
+        },
+        {
+          "lesson": "Angular Momentum Theory",
+          "lesson_key": "angular_momentum_theory",
+          "chapters": [
+            {
+              "chapter": "Derive commutation relations for angular momentum operators"
+            },
+            {
+              "chapter": "Determine eigenvalues of L² and Lz using ladder operator method"
+            },
+            {
+              "chapter": "Understand the physical significance of quantum numbers l and m"
+            },
+            {
+              "chapter": "Distinguish orbital angular momentum from spin angular momentum"
+            },
+            {
+              "chapter": "Apply Pauli matrices to spin-1/2 systems"
+            },
+            {
+              "chapter": "Calculate expectation values for angular momentum components"
+            }
+          ]
+        },
+        {
+          "lesson": "Addition of Angular Momenta",
+          "lesson_key": "addition_of_angular_momenta",
+          "chapters": [
+            {
+              "chapter": "Combine two angular momentum operators using tensor product spaces"
+            },
+            {
+              "chapter": "Apply Clebsch-Gordan coefficients to construct total angular momentum states"
+            },
+            {
+              "chapter": "Determine allowed values of total angular momentum quantum numbers"
+            },
+            {
+              "chapter": "Calculate coupling coefficients for simple systems"
+            },
+            {
+              "chapter": "Apply angular momentum addition to atomic fine structure"
+            }
+          ]
+        },
+        {
+          "lesson": "Variational Method",
+          "lesson_key": "variational_method",
+          "chapters": [
+            {
+              "chapter": "State and prove the variational principle for ground state energies"
+            },
+            {
+              "chapter": "Construct trial wavefunctions with adjustable parameters"
+            },
+            {
+              "chapter": "Minimize energy functionals to obtain upper bounds"
+            },
+            {
+              "chapter": "Apply variational method to helium atom and other multi-electron systems"
+            },
+            {
+              "chapter": "Assess quality of trial wavefunctions through variational energy"
+            }
+          ]
+        },
+        {
+          "lesson": "WKB Approximation",
+          "lesson_key": "wkb_approximation",
+          "chapters": [
+            {
+              "chapter": "Derive the WKB (Wentzel-Kramers-Brillouin) approximation for slowly varying potentials"
+            },
+            {
+              "chapter": "Apply semi-classical quantization conditions to bound states"
+            },
+            {
+              "chapter": "Calculate tunneling probabilities through arbitrary potential barriers"
+            },
+            {
+              "chapter": "Identify validity conditions and limitations of WKB method"
+            },
+            {
+              "chapter": "Connect WKB solutions to classical turning points"
+            }
+          ]
+        },
+        {
+          "lesson": "Time-Independent Perturbation Theory",
+          "lesson_key": "time_independent_perturbation_theory",
+          "chapters": [
+            {
+              "chapter": "Formulate perturbation theory for systems with small corrections to known Hamiltonians"
+            },
+            {
+              "chapter": "Derive first-order and second-order energy corrections"
+            },
+            {
+              "chapter": "Calculate perturbed wavefunctions to first order"
+            },
+            {
+              "chapter": "Apply non-degenerate perturbation theory to atomic systems"
+            },
+            {
+              "chapter": "Extend to degenerate perturbation theory when necessary"
+            }
+          ]
+        },
+        {
+          "lesson": "Elementary Scattering Theory",
+          "lesson_key": "elementary_scattering_theory",
+          "chapters": [
+            {
+              "chapter": "Formulate the scattering problem using asymptotic boundary conditions"
+            },
+            {
+              "chapter": "Define differential and total scattering cross sections"
+            },
+            {
+              "chapter": "Relate scattering amplitude to observable cross sections"
+            },
+            {
+              "chapter": "Perform partial wave analysis for spherically symmetric potentials"
+            },
+            {
+              "chapter": "Calculate phase shifts and their physical interpretation"
+            }
+          ]
+        },
+        {
+          "lesson": "Born Approximation",
+          "lesson_key": "born_approximation",
+          "chapters": [
+            {
+              "chapter": "Derive the Born approximation as first-order perturbation in scattering"
+            },
+            {
+              "chapter": "Express scattering amplitude as Fourier transform of potential"
+            },
+            {
+              "chapter": "Calculate differential cross sections using Born approximation"
+            },
+            {
+              "chapter": "Identify validity conditions for Born approximation"
+            },
+            {
+              "chapter": "Apply to Coulomb and Yukawa potentials"
+            }
+          ]
+        },
+        {
+          "lesson": "Symmetries in Quantum Mechanical Systems",
+          "lesson_key": "symmetries_in_quantum_mechanical_systems",
+          "chapters": [
+            {
+              "chapter": "Identify symmetry operations and their corresponding operators"
+            },
+            {
+              "chapter": "Apply parity operator to determine even and odd wavefunctions"
+            },
+            {
+              "chapter": "Derive selection rules from symmetry considerations"
+            },
+            {
+              "chapter": "Relate conserved quantities to symmetries via Noether's theorem"
+            },
+            {
+              "chapter": "Use time-reversal and rotational symmetries in problem solving"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Thermodynamics and Statistical Physics",
+      "topic_key": "thermodynamics_and_statistical_physics",
+      "lessons": [
+        {
+          "lesson": "Thermodynamic Foundations",
+          "lesson_key": "thermodynamic_foundations",
+          "chapters": [
+            {
+              "chapter": "Master the four laws of thermodynamics and their physical implications"
+            },
+            {
+              "chapter": "Apply thermodynamic laws to analyze processes, cycles, and engines"
+            },
+            {
+              "chapter": "Understand thermodynamic potentials and their interrelationships"
+            },
+            {
+              "chapter": "Derive and apply Maxwell relations for practical problems"
+            }
+          ]
+        },
+        {
+          "lesson": "Statistical Mechanics Fundamentals",
+          "lesson_key": "statistical_mechanics_fundamentals",
+          "chapters": [
+            {
+              "chapter": "Understand the connection between microscopic and macroscopic descriptions"
+            },
+            {
+              "chapter": "Define and calculate microstates and macrostates for simple systems"
+            },
+            {
+              "chapter": "Master the concept of phase space and its applications"
+            },
+            {
+              "chapter": "Understand different statistical ensembles and their physical meanings"
+            }
+          ]
+        },
+        {
+          "lesson": "Statistical Thermodynamics Formalism",
+          "lesson_key": "statistical_thermodynamics_formalism",
+          "chapters": [
+            {
+              "chapter": "Derive and apply partition functions for various systems"
+            },
+            {
+              "chapter": "Calculate thermodynamic quantities from partition functions"
+            },
+            {
+              "chapter": "Connect statistical mechanics to thermodynamic potentials"
+            },
+            {
+              "chapter": "Solve problems involving free energy calculations"
+            }
+          ]
+        },
+        {
+          "lesson": "Classical Statistics",
+          "lesson_key": "classical_statistics",
+          "chapters": [
+            {
+              "chapter": "Derive Maxwell-Boltzmann distribution from first principles"
+            },
+            {
+              "chapter": "Apply classical statistics to ideal gases"
+            },
+            {
+              "chapter": "Understand the classical limit of quantum statistics"
+            },
+            {
+              "chapter": "Calculate thermodynamic properties of classical systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Quantum Statistics Foundation",
+          "lesson_key": "quantum_statistics_foundation",
+          "chapters": [
+            {
+              "chapter": "Understand the need for quantum statistics"
+            },
+            {
+              "chapter": "Distinguish between Fermi-Dirac and Bose-Einstein statistics"
+            },
+            {
+              "chapter": "Apply quantum statistics to calculate occupation numbers"
+            },
+            {
+              "chapter": "Understand the role of particle indistinguishability"
+            }
+          ]
+        },
+        {
+          "lesson": "Fermi-Dirac Statistics Applications",
+          "lesson_key": "fermi_dirac_statistics_applications",
+          "chapters": [
+            {
+              "chapter": "Analyze degenerate Fermi gas at zero and finite temperatures"
+            },
+            {
+              "chapter": "Calculate Fermi energy and Fermi temperature"
+            },
+            {
+              "chapter": "Understand electronic properties of metals using Fermi statistics"
+            },
+            {
+              "chapter": "Apply Fermi-Dirac statistics to astrophysical systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Bose-Einstein Statistics: Black Body Radiation",
+          "lesson_key": "bose_einstein_statistics_black_body_radiation",
+          "chapters": [
+            {
+              "chapter": "Derive Planck distribution from Bose-Einstein statistics"
+            },
+            {
+              "chapter": "Understand the quantum theory of radiation"
+            },
+            {
+              "chapter": "Calculate thermodynamic properties of photon gas"
+            },
+            {
+              "chapter": "Apply black body radiation laws to physical systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Bose-Einstein Statistics: Condensation",
+          "lesson_key": "bose_einstein_statistics_condensation",
+          "chapters": [
+            {
+              "chapter": "Understand the phenomenon of Bose-Einstein condensation"
+            },
+            {
+              "chapter": "Calculate critical temperature for BEC"
+            },
+            {
+              "chapter": "Analyze properties of the condensate phase"
+            },
+            {
+              "chapter": "Apply BEC concepts to real systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Phase Transitions: First Order",
+          "lesson_key": "phase_transitions_first_order",
+          "chapters": [
+            {
+              "chapter": "Understand characteristics of first-order phase transitions"
+            },
+            {
+              "chapter": "Apply Clausius-Clapeyron equation to phase equilibria"
+            },
+            {
+              "chapter": "Analyze phase diagrams and coexistence curves"
+            },
+            {
+              "chapter": "Calculate latent heat and phase boundaries"
+            }
+          ]
+        },
+        {
+          "lesson": "Phase Transitions: Second Order and Critical Phenomena",
+          "lesson_key": "phase_transitions_second_order_and_critical_phenomena",
+          "chapters": [
+            {
+              "chapter": "Understand second-order phase transitions and critical points"
+            },
+            {
+              "chapter": "Analyze behavior near critical points using critical exponents"
+            },
+            {
+              "chapter": "Apply Landau theory of phase transitions"
+            },
+            {
+              "chapter": "Understand universality and scaling in critical phenomena"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Atomic and Molecular Physics",
+      "topic_key": "atomic_and_molecular_physics",
+      "lessons": [
+        {
+          "lesson": "Atomic Spectra and Structure",
+          "lesson_key": "atomic_spectra_and_structure",
+          "chapters": [
+            {
+              "chapter": "Understand the origin of atomic spectra from quantized energy levels"
+            },
+            {
+              "chapter": "Analyze spectral series in hydrogen and hydrogen-like atoms"
+            },
+            {
+              "chapter": "Describe multi-electron atomic structure and electron configurations"
+            },
+            {
+              "chapter": "Apply quantum mechanical principles to predict spectral lines"
+            }
+          ]
+        },
+        {
+          "lesson": "Atomic Fine Structure and Coupling Schemes",
+          "lesson_key": "atomic_fine_structure_and_coupling_schemes",
+          "chapters": [
+            {
+              "chapter": "Explain the physical origin of spin-orbit coupling"
+            },
+            {
+              "chapter": "Distinguish between LS coupling and jj coupling schemes"
+            },
+            {
+              "chapter": "Calculate fine structure splitting in atomic spectra"
+            },
+            {
+              "chapter": "Understand hyperfine structure from nuclear interactions"
+            }
+          ]
+        },
+        {
+          "lesson": "External Field Effects on Atoms",
+          "lesson_key": "external_field_effects_on_atoms",
+          "chapters": [
+            {
+              "chapter": "Analyze the Zeeman effect in weak and strong magnetic fields"
+            },
+            {
+              "chapter": "Understand the Stark effect in electric fields"
+            },
+            {
+              "chapter": "Apply perturbation theory to calculate energy shifts"
+            },
+            {
+              "chapter": "Distinguish between normal, anomalous, and Paschen-Back effects"
+            }
+          ]
+        },
+        {
+          "lesson": "Atomic Transitions and Selection Rules",
+          "lesson_key": "atomic_transitions_and_selection_rules",
+          "chapters": [
+            {
+              "chapter": "Derive selection rules for electric dipole transitions"
+            },
+            {
+              "chapter": "Calculate transition probabilities and oscillator strengths"
+            },
+            {
+              "chapter": "Understand spontaneous and stimulated emission"
+            },
+            {
+              "chapter": "Apply Fermi's golden rule to radiative transitions"
+            }
+          ]
+        },
+        {
+          "lesson": "Molecular Spectra: Rotation and Vibration",
+          "lesson_key": "molecular_spectra_rotation_and_vibration",
+          "chapters": [
+            {
+              "chapter": "Describe rotational energy levels of diatomic molecules"
+            },
+            {
+              "chapter": "Analyze vibrational spectra using harmonic and anharmonic models"
+            },
+            {
+              "chapter": "Understand rovibrational coupling and spectral structure"
+            },
+            {
+              "chapter": "Apply selection rules to molecular transitions"
+            }
+          ]
+        },
+        {
+          "lesson": "Electronic Transitions and Franck-Condon Principle",
+          "lesson_key": "electronic_transitions_and_franck_condon_principle",
+          "chapters": [
+            {
+              "chapter": "Understand electronic transitions in diatomic molecules"
+            },
+            {
+              "chapter": "Apply the Franck-Condon principle to predict vibronic intensities"
+            },
+            {
+              "chapter": "Analyze electronic band spectra and progressions"
+            },
+            {
+              "chapter": "Explain the Raman effect and its selection rules"
+            }
+          ]
+        },
+        {
+          "lesson": "Advanced Spectroscopic Techniques",
+          "lesson_key": "advanced_spectroscopic_techniques",
+          "chapters": [
+            {
+              "chapter": "Understand the principles of electron paramagnetic resonance (EPR/ESR)"
+            },
+            {
+              "chapter": "Explain nuclear magnetic resonance (NMR) spectroscopy"
+            },
+            {
+              "chapter": "Describe X-ray spectroscopy and inner-shell transitions"
+            },
+            {
+              "chapter": "Apply magnetic resonance techniques to structural determination"
+            }
+          ]
+        },
+        {
+          "lesson": "Laser Physics and Light-Matter Interaction",
+          "lesson_key": "laser_physics_and_light_matter_interaction",
+          "chapters": [
+            {
+              "chapter": "Understand Einstein A and B coefficients for radiation processes"
+            },
+            {
+              "chapter": "Explain the concept of population inversion"
+            },
+            {
+              "chapter": "Describe two-level and three-level laser systems"
+            },
+            {
+              "chapter": "Analyze the principles of laser operation and amplification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Solid State Physics",
+      "topic_key": "solid_state_physics",
+      "lessons": [
+        {
+          "lesson": "Crystal Structure and Diffraction",
+          "lesson_key": "crystal_structure_and_diffraction",
+          "chapters": [
+            {
+              "chapter": "Understand the fundamental concepts of crystallography including unit cells, Bravais lattices, and symmetry operations"
+            },
+            {
+              "chapter": "Master Miller indices notation and crystallographic plane identification"
+            },
+            {
+              "chapter": "Apply diffraction techniques for crystal structure determination"
+            },
+            {
+              "chapter": "Analyze X-ray, neutron, and electron diffraction patterns using Bragg's law"
+            },
+            {
+              "chapter": "Calculate structure factors and interpret systematic absences"
+            }
+          ]
+        },
+        {
+          "lesson": "Chemical Bonding and Lattice Dynamics",
+          "lesson_key": "chemical_bonding_and_lattice_dynamics",
+          "chapters": [
+            {
+              "chapter": "Understand different types of bonding in solids and their influence on material properties"
+            },
+            {
+              "chapter": "Calculate cohesive energies for various bonding types"
+            },
+            {
+              "chapter": "Analyze lattice vibrations using classical and quantum mechanical approaches"
+            },
+            {
+              "chapter": "Derive phonon dispersion relations for monatomic and diatomic lattices"
+            },
+            {
+              "chapter": "Apply Einstein and Debye models to explain thermal properties of solids"
+            }
+          ]
+        },
+        {
+          "lesson": "Free Electron Theory of Metals",
+          "lesson_key": "free_electron_theory_of_metals",
+          "chapters": [
+            {
+              "chapter": "Apply Drude model to explain classical electrical and thermal conductivity"
+            },
+            {
+              "chapter": "Derive quantum mechanical free electron theory using Sommerfeld model"
+            },
+            {
+              "chapter": "Calculate Fermi energy, Fermi temperature, and density of states"
+            },
+            {
+              "chapter": "Understand electronic contribution to heat capacity"
+            },
+            {
+              "chapter": "Analyze limitations of free electron model"
+            }
+          ]
+        },
+        {
+          "lesson": "Band Theory of Solids",
+          "lesson_key": "band_theory_of_solids",
+          "chapters": [
+            {
+              "chapter": "Understand Bloch theorem and its implications for electrons in periodic potentials"
+            },
+            {
+              "chapter": "Derive energy bands using nearly free electron approximation"
+            },
+            {
+              "chapter": "Construct Brillouin zones and understand their significance"
+            },
+            {
+              "chapter": "Apply tight binding model for localized electron states"
+            },
+            {
+              "chapter": "Calculate effective mass and its relation to band curvature"
+            }
+          ]
+        },
+        {
+          "lesson": "Electronic Classification and Transport Properties",
+          "lesson_key": "electronic_classification_and_transport_properties",
+          "chapters": [
+            {
+              "chapter": "Distinguish between metals, semiconductors, and insulators based on band structure"
+            },
+            {
+              "chapter": "Understand intrinsic and extrinsic semiconductor physics"
+            },
+            {
+              "chapter": "Calculate electrical conductivity using carrier concentration and mobility"
+            },
+            {
+              "chapter": "Apply drift-diffusion equations to charge transport"
+            },
+            {
+              "chapter": "Analyze Hall effect and determine carrier type and concentration"
+            }
+          ]
+        },
+        {
+          "lesson": "Optical Properties of Solids",
+          "lesson_key": "optical_properties_of_solids",
+          "chapters": [
+            {
+              "chapter": "Understand interaction of electromagnetic radiation with solids"
+            },
+            {
+              "chapter": "Derive and apply Kramers-Kronig relations connecting real and imaginary parts of dielectric function"
+            },
+            {
+              "chapter": "Distinguish between intra-band and inter-band optical transitions"
+            },
+            {
+              "chapter": "Analyze optical absorption spectra using band structure"
+            },
+            {
+              "chapter": "Calculate optical constants - refractive index and extinction coefficient"
+            }
+          ]
+        },
+        {
+          "lesson": "Dielectric Properties of Solids",
+          "lesson_key": "dielectric_properties_of_solids",
+          "chapters": [
+            {
+              "chapter": "Understand polarization mechanisms in dielectric materials"
+            },
+            {
+              "chapter": "Calculate macroscopic dielectric function from microscopic polarizability"
+            },
+            {
+              "chapter": "Apply Clausius-Mossotti relation"
+            },
+            {
+              "chapter": "Analyze ferroelectric materials and phase transitions"
+            },
+            {
+              "chapter": "Understand frequency dependence of dielectric response"
+            }
+          ]
+        },
+        {
+          "lesson": "Magnetic Properties of Solids",
+          "lesson_key": "magnetic_properties_of_solids",
+          "chapters": [
+            {
+              "chapter": "Understand various types of magnetic behavior in materials"
+            },
+            {
+              "chapter": "Apply quantum mechanical theory to explain magnetism"
+            },
+            {
+              "chapter": "Analyze exchange interactions and their role in ferromagnetism"
+            },
+            {
+              "chapter": "Understand magnetic domain formation and hysteresis"
+            },
+            {
+              "chapter": "Calculate magnetic susceptibility for different magnetic materials"
+            }
+          ]
+        },
+        {
+          "lesson": "Superconductivity",
+          "lesson_key": "superconductivity",
+          "chapters": [
+            {
+              "chapter": "Understand phenomenology of superconducting state"
+            },
+            {
+              "chapter": "Distinguish between Type I and Type II superconductors"
+            },
+            {
+              "chapter": "Apply London equations to explain Meissner effect and flux expulsion"
+            },
+            {
+              "chapter": "Understand microscopic BCS theory and Cooper pair formation"
+            },
+            {
+              "chapter": "Analyze flux quantization and Josephson effects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Electronics",
+      "topic_key": "electronics",
+      "lessons": [
+        {
+          "lesson": "Semiconductor Fundamentals and Statistics",
+          "lesson_key": "semiconductor_fundamentals_and_statistics",
+          "chapters": [
+            {
+              "chapter": "Understand intrinsic and extrinsic semiconductor properties"
+            },
+            {
+              "chapter": "Calculate electron and hole concentrations in equilibrium"
+            },
+            {
+              "chapter": "Apply Fermi-Dirac statistics to semiconductor carrier distribution"
+            },
+            {
+              "chapter": "Analyze the effects of doping on carrier concentrations"
+            }
+          ]
+        },
+        {
+          "lesson": "Metal-Semiconductor Junctions and Contact Physics",
+          "lesson_key": "metal_semiconductor_junctions_and_contact_physics",
+          "chapters": [
+            {
+              "chapter": "Understand the formation of Schottky barriers at metal-semiconductor interfaces"
+            },
+            {
+              "chapter": "Distinguish between ohmic and rectifying contacts"
+            },
+            {
+              "chapter": "Analyze band bending and depletion regions in metal-semiconductor junctions"
+            },
+            {
+              "chapter": "Calculate barrier heights and contact potentials"
+            }
+          ]
+        },
+        {
+          "lesson": "PN Junction Diodes: Physics and Characteristics",
+          "lesson_key": "pn_junction_diodes_physics_and_characteristics",
+          "chapters": [
+            {
+              "chapter": "Explain the formation and properties of PN junctions"
+            },
+            {
+              "chapter": "Analyze depletion region width and built-in potential"
+            },
+            {
+              "chapter": "Derive and interpret current-voltage characteristics"
+            },
+            {
+              "chapter": "Understand breakdown mechanisms in reverse bias"
+            }
+          ]
+        },
+        {
+          "lesson": "Bipolar Junction Transistors: Structure and Operation",
+          "lesson_key": "bipolar_junction_transistors_structure_and_operation",
+          "chapters": [
+            {
+              "chapter": "Understand NPN and PNP transistor structures and operation principles"
+            },
+            {
+              "chapter": "Analyze transistor operation in active, saturation, and cutoff modes"
+            },
+            {
+              "chapter": "Calculate current gain parameters (α and β)"
+            },
+            {
+              "chapter": "Apply the Ebers-Moll model for BJT analysis"
+            }
+          ]
+        },
+        {
+          "lesson": "Field Effect Transistors: JFET and MOSFET",
+          "lesson_key": "field_effect_transistors_jfet_and_mosfet",
+          "chapters": [
+            {
+              "chapter": "Understand the operating principles of JFET and MOSFET devices"
+            },
+            {
+              "chapter": "Analyze channel formation and modulation in FETs"
+            },
+            {
+              "chapter": "Calculate threshold voltage and transconductance parameters"
+            },
+            {
+              "chapter": "Compare enhancement and depletion mode MOSFETs"
+            }
+          ]
+        },
+        {
+          "lesson": "Feedback Circuits and Stability Analysis",
+          "lesson_key": "feedback_circuits_and_stability_analysis",
+          "chapters": [
+            {
+              "chapter": "Understand the principles of negative and positive feedback"
+            },
+            {
+              "chapter": "Analyze the effects of feedback on gain, bandwidth, and distortion"
+            },
+            {
+              "chapter": "Apply Barkhausen criterion for oscillation"
+            },
+            {
+              "chapter": "Determine stability criteria for feedback systems"
+            }
+          ]
+        },
+        {
+          "lesson": "Oscillator Circuits: Design and Analysis",
+          "lesson_key": "oscillator_circuits_design_and_analysis",
+          "chapters": [
+            {
+              "chapter": "Design RC and LC oscillator circuits"
+            },
+            {
+              "chapter": "Analyze Wien bridge, Colpitts, and Hartley oscillators"
+            },
+            {
+              "chapter": "Calculate oscillation frequency and startup conditions"
+            },
+            {
+              "chapter": "Understand amplitude stabilization techniques"
+            }
+          ]
+        },
+        {
+          "lesson": "Operational Amplifiers: Characteristics and Applications",
+          "lesson_key": "operational_amplifiers_characteristics_and_applications",
+          "chapters": [
+            {
+              "chapter": "Understand ideal and practical op-amp characteristics"
+            },
+            {
+              "chapter": "Analyze inverting and non-inverting amplifier configurations"
+            },
+            {
+              "chapter": "Design op-amp circuits for various signal processing applications"
+            },
+            {
+              "chapter": "Account for non-ideal effects: offset voltage, bias current, slew rate"
+            }
+          ]
+        },
+        {
+          "lesson": "Active Filters: Design and Implementation",
+          "lesson_key": "active_filters_design_and_implementation",
+          "chapters": [
+            {
+              "chapter": "Design active filters using op-amps for various frequency responses"
+            },
+            {
+              "chapter": "Analyze low-pass, high-pass, band-pass, and band-reject filters"
+            },
+            {
+              "chapter": "Calculate filter parameters: cutoff frequency, quality factor, gain"
+            },
+            {
+              "chapter": "Compare filter topologies: Butterworth, Chebyshev, Bessel"
+            }
+          ]
+        },
+        {
+          "lesson": "Digital Logic Fundamentals and Boolean Algebra",
+          "lesson_key": "digital_logic_fundamentals_and_boolean_algebra",
+          "chapters": [
+            {
+              "chapter": "Master Boolean algebra theorems and logic simplification"
+            },
+            {
+              "chapter": "Understand basic logic gates and their truth tables"
+            },
+            {
+              "chapter": "Apply Karnaugh maps for logic minimization"
+            },
+            {
+              "chapter": "Convert between different logic representations"
+            }
+          ]
+        },
+        {
+          "lesson": "Combinational Logic Circuits",
+          "lesson_key": "combinational_logic_circuits",
+          "chapters": [
+            {
+              "chapter": "Design and analyze arithmetic circuits: adders and subtractors"
+            },
+            {
+              "chapter": "Understand multiplexer and demultiplexer operations"
+            },
+            {
+              "chapter": "Implement encoders, decoders, and code converters"
+            },
+            {
+              "chapter": "Design comparators and parity generators"
+            }
+          ]
+        },
+        {
+          "lesson": "Sequential Logic: Latches and Flip-Flops",
+          "lesson_key": "sequential_logic_latches_and_flip_flops",
+          "chapters": [
+            {
+              "chapter": "Understand the difference between latches and flip-flops"
+            },
+            {
+              "chapter": "Analyze SR, D, JK, and T flip-flop operations"
+            },
+            {
+              "chapter": "Design synchronous sequential circuits using state diagrams"
+            },
+            {
+              "chapter": "Apply timing parameters: setup time, hold time, propagation delay"
+            }
+          ]
+        },
+        {
+          "lesson": "Counters: Asynchronous and Synchronous Designs",
+          "lesson_key": "counters_asynchronous_and_synchronous_designs",
+          "chapters": [
+            {
+              "chapter": "Design ripple counters and analyze their timing"
+            },
+            {
+              "chapter": "Implement synchronous counters with desired modulus"
+            },
+            {
+              "chapter": "Create up-counters, down-counters, and up-down counters"
+            },
+            {
+              "chapter": "Design counters with parallel load capability"
+            }
+          ]
+        },
+        {
+          "lesson": "Shift Registers and Data Storage",
+          "lesson_key": "shift_registers_and_data_storage",
+          "chapters": [
+            {
+              "chapter": "Understand serial and parallel data transfer mechanisms"
+            },
+            {
+              "chapter": "Design shift registers in SISO, SIPO, PISO, and PIPO modes"
+            },
+            {
+              "chapter": "Implement universal shift registers with bidirectional capability"
+            },
+            {
+              "chapter": "Apply shift registers for data storage and serial communication"
+            }
+          ]
+        },
+        {
+          "lesson": "Timers: 555 IC and Applications",
+          "lesson_key": "timers_555_ic_and_applications",
+          "chapters": [
+            {
+              "chapter": "Understand the internal architecture of the 555 timer IC"
+            },
+            {
+              "chapter": "Configure 555 timer in astable and monostable modes"
+            },
+            {
+              "chapter": "Calculate timing parameters for various 555 applications"
+            },
+            {
+              "chapter": "Design pulse generators and timing circuits"
+            }
+          ]
+        },
+        {
+          "lesson": "Analog-to-Digital Conversion Techniques",
+          "lesson_key": "analog_to_digital_conversion_techniques",
+          "chapters": [
+            {
+              "chapter": "Understand the principles of analog-to-digital conversion"
+            },
+            {
+              "chapter": "Analyze sampling, quantization, and encoding processes"
+            },
+            {
+              "chapter": "Compare different ADC architectures: flash, successive approximation, dual slope"
+            },
+            {
+              "chapter": "Calculate resolution, conversion time, and sampling rate requirements"
+            }
+          ]
+        },
+        {
+          "lesson": "Digital-to-Analog Conversion Techniques",
+          "lesson_key": "digital_to_analog_conversion_techniques",
+          "chapters": [
+            {
+              "chapter": "Understand the principles of digital-to-analog conversion"
+            },
+            {
+              "chapter": "Design binary weighted resistor DAC circuits"
+            },
+            {
+              "chapter": "Analyze R-2R ladder DAC architecture"
+            },
+            {
+              "chapter": "Evaluate DAC performance parameters: resolution, settling time, linearity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Nuclear and Particle Physics",
+      "topic_key": "nuclear_and_particle_physics",
+      "lessons": [
+        {
+          "lesson": "Nuclear Structure and Properties",
+          "lesson_key": "nuclear_structure_and_properties",
+          "chapters": [
+            {
+              "chapter": "Understand empirical nuclear properties including size, shape, and charge distributions"
+            },
+            {
+              "chapter": "Calculate nuclear binding energies and recognize stability patterns"
+            },
+            {
+              "chapter": "Determine electric and magnetic moments of nuclei and their physical significance"
+            },
+            {
+              "chapter": "Apply the semi-empirical mass formula to predict nuclear masses and binding energies"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Models",
+          "lesson_key": "nuclear_models",
+          "chapters": [
+            {
+              "chapter": "Understand the liquid drop model and its predictions for nuclear properties"
+            },
+            {
+              "chapter": "Master the nuclear shell model and explain magic numbers"
+            },
+            {
+              "chapter": "Apply shell model to predict ground state spins and parities"
+            },
+            {
+              "chapter": "Compare collective and independent particle descriptions of nuclei"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Forces",
+          "lesson_key": "nuclear_forces",
+          "chapters": [
+            {
+              "chapter": "Characterize properties of nuclear forces including range, strength, and saturation"
+            },
+            {
+              "chapter": "Understand charge independence and charge symmetry of nuclear forces"
+            },
+            {
+              "chapter": "Solve the deuteron bound state problem"
+            },
+            {
+              "chapter": "Analyze nucleon-nucleon scattering and extract force parameters"
+            }
+          ]
+        },
+        {
+          "lesson": "Radioactive Decay Processes",
+          "lesson_key": "radioactive_decay_processes",
+          "chapters": [
+            {
+              "chapter": "Understand mechanisms of alpha, beta, and gamma decay"
+            },
+            {
+              "chapter": "Calculate decay rates and half-lives using quantum mechanical tunneling"
+            },
+            {
+              "chapter": "Apply selection rules for electromagnetic transitions in nuclei"
+            },
+            {
+              "chapter": "Analyze decay schemes and branching ratios"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Reactions and Scattering",
+          "lesson_key": "nuclear_reactions_and_scattering",
+          "chapters": [
+            {
+              "chapter": "Analyze Rutherford scattering and deviations indicating nuclear size"
+            },
+            {
+              "chapter": "Apply conservation laws to nuclear reaction kinematics"
+            },
+            {
+              "chapter": "Calculate Q-values, threshold energies, and reaction cross sections"
+            },
+            {
+              "chapter": "Understand reaction mechanisms including compound nucleus and direct reactions"
+            }
+          ]
+        },
+        {
+          "lesson": "Nuclear Fission and Fusion",
+          "lesson_key": "nuclear_fission_and_fusion",
+          "chapters": [
+            {
+              "chapter": "Understand the mechanism of nuclear fission and energy release"
+            },
+            {
+              "chapter": "Calculate energy output and fission product distributions"
+            },
+            {
+              "chapter": "Master the physics of nuclear fusion in stars and reactors"
+            },
+            {
+              "chapter": "Analyze conditions required for controlled fission and fusion reactions"
+            }
+          ]
+        },
+        {
+          "lesson": "Particle Accelerators and Detectors",
+          "lesson_key": "particle_accelerators_and_detectors",
+          "chapters": [
+            {
+              "chapter": "Understand principles of charged particle acceleration"
+            },
+            {
+              "chapter": "Compare different accelerator types and their applications"
+            },
+            {
+              "chapter": "Master detection principles for ionizing radiation"
+            },
+            {
+              "chapter": "Analyze detector response and energy resolution"
+            }
+          ]
+        },
+        {
+          "lesson": "Elementary Particles - Classification and Properties",
+          "lesson_key": "elementary_particles_classification_and_properties",
+          "chapters": [
+            {
+              "chapter": "Classify elementary particles into fermions and bosons"
+            },
+            {
+              "chapter": "Distinguish between leptons, mesons, and baryons"
+            },
+            {
+              "chapter": "Understand quantum numbers and their conservation"
+            },
+            {
+              "chapter": "Apply particle classification schemes to reactions"
+            }
+          ]
+        },
+        {
+          "lesson": "Quark Model of Hadrons",
+          "lesson_key": "quark_model_of_hadrons",
+          "chapters": [
+            {
+              "chapter": "Understand the quark composition of mesons and baryons"
+            },
+            {
+              "chapter": "Apply flavor quantum numbers to quark combinations"
+            },
+            {
+              "chapter": "Master color charge and confinement principles"
+            },
+            {
+              "chapter": "Predict hadron properties from quark structure"
+            }
+          ]
+        },
+        {
+          "lesson": "Symmetries and Conservation Laws",
+          "lesson_key": "symmetries_and_conservation_laws",
+          "chapters": [
+            {
+              "chapter": "Apply conservation laws to particle interactions and decays"
+            },
+            {
+              "chapter": "Understand continuous symmetries and Noether's theorem"
+            },
+            {
+              "chapter": "Master discrete symmetries - parity, charge conjugation, and time reversal"
+            },
+            {
+              "chapter": "Analyze symmetry violations in weak interactions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

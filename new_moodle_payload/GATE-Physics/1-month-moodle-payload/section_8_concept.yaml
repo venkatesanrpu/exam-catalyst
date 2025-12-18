@@ -1,0 +1,74 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: 'Section 8: Electronics - Semiconductor Fundamentals, Metal-Semiconductor
+    Junctions, Semiconductor Devices, Analog Circuits, Digital Electronics'
+concepts:
+  core:
+  - name: Semiconductor Physics
+    clarifier: Electron and hole statistics in equilibrium, intrinsic and extrinsic
+      semiconductors, Fermi level, carrier concentration
+  - name: Metal-Semiconductor Junctions
+    clarifier: Schottky barriers, ohmic contacts, rectifying contacts, work function,
+      band bending
+  - name: PN Junction Diodes
+    clarifier: Depletion region, forward and reverse bias, IV characteristics, breakdown
+      mechanisms
+  - name: Bipolar Junction Transistors
+    clarifier: NPN and PNP structures, current gain, operation modes, Ebers-Moll model
+  - name: Field Effect Transistors
+    clarifier: JFET and MOSFET structures, channel modulation, threshold voltage,
+      transconductance
+  - name: Feedback Circuits
+    clarifier: Negative and positive feedback, stability criteria, oscillation conditions
+  - name: Operational Amplifiers
+    clarifier: Ideal and practical op-amp characteristics, inverting and non-inverting
+      configurations, applications
+  - name: Active Filters
+    clarifier: Low-pass, high-pass, band-pass, band-reject filters using op-amps
+  - name: Oscillators
+    clarifier: Barkhausen criterion, RC and LC oscillators, Wien bridge, Colpitts,
+      Hartley
+  - name: Digital Logic Circuits
+    clarifier: Boolean algebra, logic gates, truth tables, Karnaugh maps, logic simplification
+  - name: Combinational Circuits
+    clarifier: Adders, subtractors, multiplexers, demultiplexers, encoders, decoders,
+      comparators
+  - name: Sequential Circuits
+    clarifier: Latches, flip-flops (SR, JK, D, T), state diagrams, state tables, synchronous
+      design
+  - name: Timers and Counters
+    clarifier: 555 timer, astable and monostable modes, ripple and synchronous counters,
+      modulo-N counters
+  - name: Registers
+    clarifier: Shift registers (SISO, SIPO, PISO, PIPO), storage registers, universal
+      shift registers
+  - name: Data Conversion
+    clarifier: A/D conversion methods (flash, successive approximation, dual slope),
+      D/A conversion (binary weighted, R-2R ladder)
+  related:
+  - name: Band Theory of Solids
+    clarifier: Energy bands, bandgap, density of states, effective mass
+  - name: Drift and Diffusion
+    clarifier: Carrier transport mechanisms, mobility, diffusion coefficient, Einstein
+      relation
+  - name: Continuity Equation
+    clarifier: Generation-recombination processes, minority carrier lifetime, diffusion
+      length
+  - name: Small Signal Analysis
+    clarifier: Hybrid-π model, h-parameters, small signal gain, input/output impedance
+  - name: Frequency Response
+    clarifier: Gain-bandwidth product, Miller effect, high-frequency limitations,
+      Bode plots
+  - name: Power Supplies
+    clarifier: Rectifiers, filters, voltage regulators, Zener diodes
+  - name: Noise in Electronic Circuits
+    clarifier: Thermal noise, shot noise, flicker noise, signal-to-noise ratio
+  - name: CMOS Technology
+    clarifier: Complementary MOS, CMOS inverter, logic families, power dissipation
+  - name: Timing Analysis
+    clarifier: Propagation delay, setup and hold times, clock skew, metastability
+  - name: Memory Circuits
+    clarifier: RAM, ROM, SRAM, DRAM architectures
+  - name: Sampling Theory
+    clarifier: Nyquist criterion, aliasing, quantization error, resolution

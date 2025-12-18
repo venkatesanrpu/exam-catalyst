@@ -1,0 +1,489 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Classical Mechanics: Lagrangian Formulation (D'Alembert's principle, Euler-Lagrange equation, Hamilton's principle, calculus of variations), Symmetry and conservation laws, Central force motion (Kepler problem and Rutherford scattering), Small oscillations (coupled oscillations and normal modes), Rigid body dynamics (inertia tensor, orthogonal transformations, Euler angles, Torque-free motion of a symmetric top), Hamiltonian and Hamilton's equations of motion, Liouville's theorem, Canonical transformations (action-angle variables, Poisson brackets, Hamilton-Jacobi equation), Special Theory of Relativity (Lorentz transformations, relativistic kinematics, mass-energy equivalence)"
+
+concepts:
+  core:
+    - name: Lagrangian Mechanics
+      clarifier: Variational formulation of classical mechanics using generalized coordinates and Lagrange's equations
+    - name: Hamiltonian Mechanics
+      clarifier: Phase-space formulation using canonical coordinates and Hamilton's equations
+    - name: Rigid Body Dynamics
+      clarifier: Rotational motion of extended objects with fixed internal geometry
+    - name: Special Relativity
+      clarifier: Space-time framework for high-velocity phenomena and invariance under Lorentz transformations
+    - name: Central Force Motion
+      clarifier: Two-body problems with radial force dependence
+    - name: Small Oscillations
+      clarifier: Linearized dynamics near equilibrium for coupled systems
+    - name: Canonical Transformations
+      clarifier: Coordinate transformations preserving Hamiltonian structure
+    - name: Conservation Laws
+      clarifier: Quantities preserved during time evolution due to symmetries
+  related:
+    - name: Calculus of Variations
+      clarifier: Mathematical framework for optimizing functionals and deriving equations of motion
+    - name: D'Alembert's Principle
+      clarifier: Virtual work principle connecting constraints to generalized forces
+    - name: Hamilton's Principle
+      clarifier: Action minimization principle underlying Lagrangian mechanics
+    - name: Noether's Theorem
+      clarifier: Connection between continuous symmetries and conserved quantities
+    - name: Inertia Tensor
+      clarifier: Mathematical representation of mass distribution for rotational dynamics
+    - name: Euler Angles
+      clarifier: Parametrization of three-dimensional rotations
+    - name: Liouville's Theorem
+      clarifier: Phase-space volume conservation in Hamiltonian dynamics
+    - name: Poisson Brackets
+      clarifier: Algebraic structure for observables in classical mechanics
+    - name: Hamilton-Jacobi Equation
+      clarifier: Partial differential equation for action function in phase space
+    - name: Action-Angle Variables
+      clarifier: Canonical coordinates adapted to integrable systems
+    - name: Lorentz Transformations
+      clarifier: Space-time coordinate transformations preserving light speed invariance
+    - name: Four-Vectors
+      clarifier: Relativistic generalization of vectors transforming under Lorentz group
+    - name: Kepler Problem
+      clarifier: Gravitational two-body problem with inverse-square law
+    - name: Rutherford Scattering
+      clarifier: Classical scattering by Coulomb potential
+    - name: Normal Modes
+      clarifier: Independent oscillatory patterns in coupled systems
+
+learning_path:
+  - id: 1
+    title: Lagrangian Formulation Fundamentals
+    learning_objectives:
+      - Understand the transition from Newtonian to Lagrangian mechanics and the advantages of generalized coordinates
+      - Derive the Euler-Lagrange equations from D'Alembert's principle and Hamilton's principle
+      - Apply calculus of variations to action functionals and establish the principle of stationary action
+      - Connect continuous symmetries to conservation laws through Noether's theorem
+      - Solve problems using Lagrangian methods with holonomic and non-holonomic constraints
+    textbook_style_content:
+      - topic: Foundation of Analytical Mechanics
+        sections:
+          - section_title: From Newtonian to Lagrangian Mechanics
+            section_type: overview
+          - section_title: Generalized Coordinates and Configuration Space
+            section_type: core_theory
+          - section_title: Constraints and Virtual Displacements
+            section_type: core_theory
+          - section_title: D'Alembert's Principle of Virtual Work
+            section_type: core_theory
+      - topic: Variational Principles
+        sections:
+          - section_title: Calculus of Variations Fundamentals
+            section_type: core_theory
+          - section_title: Euler Equation for Functionals
+            section_type: core_theory
+          - section_title: Hamilton's Principle of Least Action
+            section_type: core_theory
+          - section_title: Action Functionals and Path Integrals
+            section_type: related_concepts
+      - topic: Euler-Lagrange Equations
+        sections:
+          - section_title: Derivation from Hamilton's Principle
+            section_type: core_theory
+          - section_title: Lagrangian for Standard Mechanical Systems
+            section_type: core_theory
+          - section_title: Solving Second-Order Differential Equations
+            section_type: core_theory
+          - section_title: Generalized Momenta and Forces
+            section_type: core_theory
+      - topic: Symmetries and Conservation Laws
+        sections:
+          - section_title: Continuous Symmetries in Lagrangian Systems
+            section_type: core_theory
+          - section_title: Noether's Theorem and Its Proof
+            section_type: core_theory
+          - section_title: Energy Conservation from Time Translation Symmetry
+            section_type: core_theory
+          - section_title: Momentum Conservation from Space Translation Symmetry
+            section_type: core_theory
+          - section_title: Angular Momentum Conservation from Rotational Symmetry
+            section_type: core_theory
+    milestone: Master variational formulation and derive conservation laws from first principles
+    duration_days: 18
+    tags:
+      - lagrangian-mechanics
+      - variational-calculus
+      - conservation-laws
+      - noether-theorem
+      - analytical-mechanics
+
+  - id: 2
+    title: Applications of Lagrangian Mechanics
+    learning_objectives:
+      - Formulate and solve central force problems using Lagrangian methods in spherical coordinates
+      - Derive Kepler's laws from the inverse-square gravitational potential
+      - Analyze Rutherford scattering using impact parameter formalism and differential cross-sections
+      - Develop the theory of small oscillations for systems near stable equilibrium
+      - Solve coupled oscillator problems using normal mode analysis and eigenvalue techniques
+    textbook_style_content:
+      - topic: Central Force Motion
+        sections:
+          - section_title: Two-Body Problem Reduction
+            section_type: overview
+          - section_title: Lagrangian in Spherical Coordinates
+            section_type: core_theory
+          - section_title: Effective Potential and Orbital Equations
+            section_type: core_theory
+          - section_title: Conservation of Energy and Angular Momentum
+            section_type: core_theory
+      - topic: Kepler Problem
+        sections:
+          - section_title: Inverse-Square Law Potential
+            section_type: core_theory
+          - section_title: Orbit Equation and Conic Sections
+            section_type: core_theory
+          - section_title: Derivation of Kepler's Three Laws
+            section_type: core_theory
+          - section_title: Orbital Periods and Semi-Major Axes
+            section_type: core_theory
+      - topic: Rutherford Scattering
+        sections:
+          - section_title: Coulomb Potential and Hyperbolic Orbits
+            section_type: core_theory
+          - section_title: Scattering Angle and Impact Parameter
+            section_type: core_theory
+          - section_title: Differential Cross-Section Formula
+            section_type: core_theory
+          - section_title: Laboratory and Center-of-Mass Frames
+            section_type: related_concepts
+      - topic: Small Oscillations Theory
+        sections:
+          - section_title: Stability Analysis and Equilibrium Points
+            section_type: overview
+          - section_title: Taylor Expansion of Potential Near Equilibrium
+            section_type: core_theory
+          - section_title: Quadratic Approximation and Normal Coordinates
+            section_type: core_theory
+          - section_title: Matrix Formulation of Coupled Oscillators
+            section_type: core_theory
+      - topic: Normal Modes
+        sections:
+          - section_title: Eigenvalue Problem for Frequency Determination
+            section_type: core_theory
+          - section_title: Eigenvectors as Normal Mode Patterns
+            section_type: core_theory
+          - section_title: General Solution as Superposition of Modes
+            section_type: core_theory
+          - section_title: Applications to Molecular Vibrations
+            section_type: related_concepts
+    milestone: Apply Lagrangian methods to realistic physical systems including planetary motion and molecular vibrations
+    duration_days: 16
+    tags:
+      - central-forces
+      - kepler-problem
+      - rutherford-scattering
+      - small-oscillations
+      - normal-modes
+      - coupled-systems
+
+  - id: 3
+    title: Rigid Body Dynamics
+    learning_objectives:
+      - Understand the kinematic description of rigid body motion using rotation matrices
+      - Construct and diagonalize the inertia tensor for various mass distributions
+      - Parametrize rotations using Euler angles and derive transformation properties
+      - Apply Euler's equations for torque-free motion of symmetric tops
+      - Analyze precession, nutation, and stability of spinning bodies
+    textbook_style_content:
+      - topic: Kinematics of Rigid Bodies
+        sections:
+          - section_title: Definition and Constraints of Rigid Bodies
+            section_type: overview
+          - section_title: Angular Velocity Vector and Rotation Axis
+            section_type: core_theory
+          - section_title: Instantaneous Velocity of Body Points
+            section_type: core_theory
+          - section_title: Body-Fixed and Space-Fixed Reference Frames
+            section_type: core_theory
+      - topic: Orthogonal Transformations
+        sections:
+          - section_title: Rotation Matrices and SO(3) Group
+            section_type: core_theory
+          - section_title: Properties of Orthogonal Matrices
+            section_type: core_theory
+          - section_title: Composition of Rotations
+            section_type: core_theory
+          - section_title: Infinitesimal Rotations and Lie Algebra
+            section_type: related_concepts
+      - topic: Inertia Tensor
+        sections:
+          - section_title: Definition and Physical Interpretation
+            section_type: core_theory
+          - section_title: Moment of Inertia and Products of Inertia
+            section_type: core_theory
+          - section_title: Parallel and Perpendicular Axis Theorems
+            section_type: core_theory
+          - section_title: Principal Axes and Diagonalization
+            section_type: core_theory
+          - section_title: Calculation for Standard Geometries
+            section_type: core_theory
+      - topic: Euler Angles
+        sections:
+          - section_title: Parametrization of Three-Dimensional Rotations
+            section_type: overview
+          - section_title: Definition of Precession, Nutation, and Spin Angles
+            section_type: core_theory
+          - section_title: Rotation Matrix in Euler Angle Representation
+            section_type: core_theory
+          - section_title: Angular Velocity Components in Body Frame
+            section_type: core_theory
+      - topic: Dynamics of Symmetric Tops
+        sections:
+          - section_title: Euler's Equations for Rigid Body Motion
+            section_type: core_theory
+          - section_title: Torque-Free Motion and Conservation Laws
+            section_type: core_theory
+          - section_title: Symmetric Top Solution and Precession
+            section_type: core_theory
+          - section_title: Stability Analysis and Wobbling Motion
+            section_type: core_theory
+          - section_title: Heavy Symmetric Top with Gravity
+            section_type: related_concepts
+    milestone: Master rotational dynamics using tensor formalism and Euler angles for complex three-dimensional motion
+    duration_days: 15
+    tags:
+      - rigid-bodies
+      - inertia-tensor
+      - rotation-matrices
+      - euler-angles
+      - symmetric-top
+      - precession
+
+  - id: 4
+    title: Hamiltonian Mechanics
+    learning_objectives:
+      - Transition from Lagrangian to Hamiltonian formulation via Legendre transformation
+      - Derive Hamilton's canonical equations and understand phase space structure
+      - Prove Liouville's theorem and understand its implications for statistical mechanics
+      - Apply Hamiltonian methods to solve mechanical problems in phase space
+      - Understand the geometric interpretation of Hamiltonian dynamics
+    textbook_style_content:
+      - topic: Transition to Phase Space
+        sections:
+          - section_title: Limitations of Lagrangian Formulation
+            section_type: overview
+          - section_title: Configuration Space versus Phase Space
+            section_type: core_theory
+          - section_title: Generalized Momenta Definition
+            section_type: core_theory
+          - section_title: Legendre Transformation from L to H
+            section_type: core_theory
+      - topic: Hamiltonian Function
+        sections:
+          - section_title: Definition and Physical Interpretation
+            section_type: core_theory
+          - section_title: Hamiltonian as Total Energy for Natural Systems
+            section_type: core_theory
+          - section_title: Cyclic Coordinates and Conserved Momenta
+            section_type: core_theory
+          - section_title: Time-Dependent Hamiltonians
+            section_type: related_concepts
+      - topic: Hamilton's Canonical Equations
+        sections:
+          - section_title: Derivation from Action Principle
+            section_type: core_theory
+          - section_title: First-Order System in Phase Space
+            section_type: core_theory
+          - section_title: Symmetry Between Coordinates and Momenta
+            section_type: core_theory
+          - section_title: Phase Space Trajectories and Flow
+            section_type: core_theory
+      - topic: Liouville's Theorem
+        sections:
+          - section_title: Phase Space Volume and Probability Density
+            section_type: overview
+          - section_title: Divergence of Phase Space Velocity Field
+            section_type: core_theory
+          - section_title: Proof of Phase Space Volume Conservation
+            section_type: core_theory
+          - section_title: Incompressibility of Hamiltonian Flow
+            section_type: core_theory
+          - section_title: Connection to Statistical Mechanics
+            section_type: related_concepts
+      - topic: Problem Solving in Phase Space
+        sections:
+          - section_title: Harmonic Oscillator in Phase Space
+            section_type: core_theory
+          - section_title: Phase Portraits and Fixed Points
+            section_type: core_theory
+          - section_title: Separable Hamiltonian Systems
+            section_type: core_theory
+          - section_title: Advantage of Hamiltonian Formalism for Symmetries
+            section_type: related_concepts
+    milestone: Establish phase space perspective and understand volume preservation in dynamical systems
+    duration_days: 14
+    tags:
+      - hamiltonian-mechanics
+      - phase-space
+      - canonical-equations
+      - liouville-theorem
+      - legendre-transformation
+
+  - id: 5
+    title: Advanced Hamiltonian Formalism
+    learning_objectives:
+      - Understand canonical transformations and their generating functions
+      - Develop Poisson bracket formalism and its algebraic structure
+      - Apply action-angle variables to integrable systems and periodic motion
+      - Derive and solve the Hamilton-Jacobi equation for complete integration
+      - Connect classical mechanics to quantum mechanics through canonical quantization
+    textbook_style_content:
+      - topic: Canonical Transformations
+        sections:
+          - section_title: Motivation and Definition
+            section_type: overview
+          - section_title: Preservation of Hamiltonian Structure
+            section_type: core_theory
+          - section_title: Generating Functions of Four Types
+            section_type: core_theory
+          - section_title: Symplectic Condition and Matrix Representation
+            section_type: core_theory
+          - section_title: Infinitesimal Canonical Transformations
+            section_type: core_theory
+      - topic: Poisson Brackets
+        sections:
+          - section_title: Definition and Fundamental Properties
+            section_type: core_theory
+          - section_title: Canonical Poisson Bracket Relations
+            section_type: core_theory
+          - section_title: Time Evolution of Observables
+            section_type: core_theory
+          - section_title: Poisson Bracket and Constants of Motion
+            section_type: core_theory
+          - section_title: Jacobi Identity and Lie Algebra Structure
+            section_type: related_concepts
+          - section_title: Connection to Quantum Commutators
+            section_type: related_concepts
+      - topic: Action-Angle Variables
+        sections:
+          - section_title: Integrable Systems and Complete Integrability
+            section_type: overview
+          - section_title: Action Variables as Adiabatic Invariants
+            section_type: core_theory
+          - section_title: Angle Variables and Periodic Motion
+            section_type: core_theory
+          - section_title: Canonical Transformation to Action-Angle Coordinates
+            section_type: core_theory
+          - section_title: Applications to Harmonic Oscillator and Kepler Problem
+            section_type: core_theory
+      - topic: Hamilton-Jacobi Theory
+        sections:
+          - section_title: Hamilton-Jacobi Equation Formulation
+            section_type: core_theory
+          - section_title: Hamilton's Principal Function and Action
+            section_type: core_theory
+          - section_title: Separation of Variables Method
+            section_type: core_theory
+          - section_title: Complete Integral and Solution Construction
+            section_type: core_theory
+          - section_title: Connection to Wave Mechanics
+            section_type: related_concepts
+      - topic: Advanced Applications
+        sections:
+          - section_title: Perturbation Theory Using Canonical Transformations
+            section_type: related_concepts
+          - section_title: KAM Theory and Chaos Threshold
+            section_type: related_concepts
+          - section_title: Canonical Quantization Procedure
+            section_type: related_concepts
+    milestone: Master sophisticated analytical techniques for solving and transforming Hamiltonian systems
+    duration_days: 17
+    tags:
+      - canonical-transformations
+      - poisson-brackets
+      - action-angle-variables
+      - hamilton-jacobi-equation
+      - integrable-systems
+      - generating-functions
+
+  - id: 6
+    title: Special Theory of Relativity
+    learning_objectives:
+      - Understand the postulates of special relativity and the breakdown of Galilean invariance
+      - Derive Lorentz transformations and analyze their consequences for space and time
+      - Apply relativistic kinematics to time dilation, length contraction, and velocity addition
+      - Develop four-vector formalism for covariant formulation of physical laws
+      - Derive and apply mass-energy equivalence in particle dynamics and collisions
+    textbook_style_content:
+      - topic: Foundations of Special Relativity
+        sections:
+          - section_title: Failure of Galilean Relativity for Electromagnetism
+            section_type: overview
+          - section_title: Michelson-Morley Experiment and Ether Hypothesis
+            section_type: overview
+          - section_title: Einstein's Two Postulates
+            section_type: core_theory
+          - section_title: Relativity of Simultaneity
+            section_type: core_theory
+      - topic: Lorentz Transformations
+        sections:
+          - section_title: Derivation from Invariance of Light Speed
+            section_type: core_theory
+          - section_title: Spacetime Intervals and Invariant Quantities
+            section_type: core_theory
+          - section_title: Boost Transformations and Rapidity
+            section_type: core_theory
+          - section_title: Lorentz Group and Composition of Boosts
+            section_type: related_concepts
+      - topic: Relativistic Kinematics
+        sections:
+          - section_title: Time Dilation and Proper Time
+            section_type: core_theory
+          - section_title: Length Contraction and Proper Length
+            section_type: core_theory
+          - section_title: Relativistic Velocity Addition Formula
+            section_type: core_theory
+          - section_title: Doppler Effect for Light
+            section_type: core_theory
+          - section_title: Twin Paradox Resolution
+            section_type: related_concepts
+      - topic: Four-Vector Formalism
+        sections:
+          - section_title: Spacetime as Four-Dimensional Manifold
+            section_type: overview
+          - section_title: Contravariant and Covariant Four-Vectors
+            section_type: core_theory
+          - section_title: Minkowski Metric and Inner Products
+            section_type: core_theory
+          - section_title: Four-Velocity and Four-Acceleration
+            section_type: core_theory
+          - section_title: Lorentz Invariance of Physical Laws
+            section_type: core_theory
+      - topic: Relativistic Dynamics
+        sections:
+          - section_title: Relativistic Momentum and Energy
+            section_type: core_theory
+          - section_title: Mass-Energy Equivalence E = mc²
+            section_type: core_theory
+          - section_title: Energy-Momentum Four-Vector
+            section_type: core_theory
+          - section_title: Relativistic Energy-Momentum Relation
+            section_type: core_theory
+          - section_title: Massless Particles and Photon Dynamics
+            section_type: core_theory
+      - topic: Applications to Particle Physics
+        sections:
+          - section_title: Relativistic Collisions and Conservation Laws
+            section_type: core_theory
+          - section_title: Threshold Energies for Particle Production
+            section_type: related_concepts
+          - section_title: Compton Scattering
+            section_type: related_concepts
+          - section_title: Center-of-Mass and Laboratory Frames
+            section_type: related_concepts
+    milestone: Complete transition from classical to relativistic mechanics with four-vector formalism
+    duration_days: 16
+    tags:
+      - special-relativity
+      - lorentz-transformations
+      - relativistic-kinematics
+      - four-vectors
+      - mass-energy-equivalence
+      - minkowski-spacetime

@@ -1,0 +1,903 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: "Section 8: Electronics - Semiconductor Fundamentals, Metal-Semiconductor Junctions, Semiconductor Devices, Analog Circuits, Digital Electronics"
+
+concepts:
+  core:
+    - name: Semiconductor Physics
+      clarifier: Electron and hole statistics in equilibrium, intrinsic and extrinsic semiconductors, Fermi level, carrier concentration
+    - name: Metal-Semiconductor Junctions
+      clarifier: Schottky barriers, ohmic contacts, rectifying contacts, work function, band bending
+    - name: PN Junction Diodes
+      clarifier: Depletion region, forward and reverse bias, IV characteristics, breakdown mechanisms
+    - name: Bipolar Junction Transistors
+      clarifier: NPN and PNP structures, current gain, operation modes, Ebers-Moll model
+    - name: Field Effect Transistors
+      clarifier: JFET and MOSFET structures, channel modulation, threshold voltage, transconductance
+    - name: Feedback Circuits
+      clarifier: Negative and positive feedback, stability criteria, oscillation conditions
+    - name: Operational Amplifiers
+      clarifier: Ideal and practical op-amp characteristics, inverting and non-inverting configurations, applications
+    - name: Active Filters
+      clarifier: Low-pass, high-pass, band-pass, band-reject filters using op-amps
+    - name: Oscillators
+      clarifier: Barkhausen criterion, RC and LC oscillators, Wien bridge, Colpitts, Hartley
+    - name: Digital Logic Circuits
+      clarifier: Boolean algebra, logic gates, truth tables, Karnaugh maps, logic simplification
+    - name: Combinational Circuits
+      clarifier: Adders, subtractors, multiplexers, demultiplexers, encoders, decoders, comparators
+    - name: Sequential Circuits
+      clarifier: Latches, flip-flops (SR, JK, D, T), state diagrams, state tables, synchronous design
+    - name: Timers and Counters
+      clarifier: 555 timer, astable and monostable modes, ripple and synchronous counters, modulo-N counters
+    - name: Registers
+      clarifier: Shift registers (SISO, SIPO, PISO, PIPO), storage registers, universal shift registers
+    - name: Data Conversion
+      clarifier: A/D conversion methods (flash, successive approximation, dual slope), D/A conversion (binary weighted, R-2R ladder)
+  
+  related:
+    - name: Band Theory of Solids
+      clarifier: Energy bands, bandgap, density of states, effective mass
+    - name: Drift and Diffusion
+      clarifier: Carrier transport mechanisms, mobility, diffusion coefficient, Einstein relation
+    - name: Continuity Equation
+      clarifier: Generation-recombination processes, minority carrier lifetime, diffusion length
+    - name: Small Signal Analysis
+      clarifier: Hybrid-π model, h-parameters, small signal gain, input/output impedance
+    - name: Frequency Response
+      clarifier: Gain-bandwidth product, Miller effect, high-frequency limitations, Bode plots
+    - name: Power Supplies
+      clarifier: Rectifiers, filters, voltage regulators, Zener diodes
+    - name: Noise in Electronic Circuits
+      clarifier: Thermal noise, shot noise, flicker noise, signal-to-noise ratio
+    - name: CMOS Technology
+      clarifier: Complementary MOS, CMOS inverter, logic families, power dissipation
+    - name: Timing Analysis
+      clarifier: Propagation delay, setup and hold times, clock skew, metastability
+    - name: Memory Circuits
+      clarifier: RAM, ROM, SRAM, DRAM architectures
+    - name: Sampling Theory
+      clarifier: Nyquist criterion, aliasing, quantization error, resolution
+
+learning_path:
+  - id: 1
+    title: "Semiconductor Fundamentals and Statistics"
+    learning_objectives:
+      - "Understand intrinsic and extrinsic semiconductor properties"
+      - "Calculate electron and hole concentrations in equilibrium"
+      - "Apply Fermi-Dirac statistics to semiconductor carrier distribution"
+      - "Analyze the effects of doping on carrier concentrations"
+    textbook_style_content:
+      - topic: "Semiconductor Physics Foundations"
+        sections:
+          - section_title: "Introduction to Semiconductors"
+            section_type: "overview"
+          - section_title: "Band Structure and Energy Gaps"
+            section_type: "related_concepts"
+          - section_title: "Intrinsic Semiconductors"
+            section_type: "core_theory"
+          - section_title: "Carrier Concentration in Intrinsic Semiconductors"
+            section_type: "core_theory"
+          - section_title: "Fermi Level in Intrinsic Semiconductors"
+            section_type: "core_theory"
+      - topic: "Doped Semiconductors"
+        sections:
+          - section_title: "Donor and Acceptor Impurities"
+            section_type: "core_theory"
+          - section_title: "N-type and P-type Semiconductors"
+            section_type: "core_theory"
+          - section_title: "Fermi Level in Extrinsic Semiconductors"
+            section_type: "core_theory"
+          - section_title: "Mass Action Law"
+            section_type: "core_theory"
+      - topic: "Carrier Statistics and Transport"
+        sections:
+          - section_title: "Fermi-Dirac Distribution Function"
+            section_type: "core_theory"
+          - section_title: "Density of States"
+            section_type: "related_concepts"
+          - section_title: "Carrier Concentration Calculations"
+            section_type: "core_theory"
+          - section_title: "Drift and Diffusion Mechanisms"
+            section_type: "related_concepts"
+          - section_title: "Einstein Relations"
+            section_type: "related_concepts"
+    milestone: "Master semiconductor equilibrium statistics and distinguish between intrinsic and extrinsic behavior"
+    duration_days: 8
+    tags:
+      - "semiconductor-physics"
+      - "carrier-statistics"
+      - "doping"
+      - "equilibrium"
+
+  - id: 2
+    title: "Metal-Semiconductor Junctions and Contact Physics"
+    learning_objectives:
+      - "Understand the formation of Schottky barriers at metal-semiconductor interfaces"
+      - "Distinguish between ohmic and rectifying contacts"
+      - "Analyze band bending and depletion regions in metal-semiconductor junctions"
+      - "Calculate barrier heights and contact potentials"
+    textbook_style_content:
+      - topic: "Metal-Semiconductor Interface Fundamentals"
+        sections:
+          - section_title: "Work Function and Contact Potential"
+            section_type: "overview"
+          - section_title: "Band Alignment at Metal-Semiconductor Interface"
+            section_type: "core_theory"
+          - section_title: "Schottky-Mott Theory"
+            section_type: "core_theory"
+      - topic: "Rectifying Contacts"
+        sections:
+          - section_title: "Schottky Barrier Formation"
+            section_type: "core_theory"
+          - section_title: "Depletion Region in Metal-Semiconductor Junctions"
+            section_type: "core_theory"
+          - section_title: "Current-Voltage Characteristics of Schottky Diodes"
+            section_type: "core_theory"
+          - section_title: "Thermionic Emission Theory"
+            section_type: "core_theory"
+      - topic: "Ohmic Contacts"
+        sections:
+          - section_title: "Conditions for Ohmic Behavior"
+            section_type: "core_theory"
+          - section_title: "Heavy Doping and Tunneling"
+            section_type: "core_theory"
+          - section_title: "Contact Resistance Minimization"
+            section_type: "core_theory"
+          - section_title: "Practical Fabrication of Ohmic Contacts"
+            section_type: "related_concepts"
+    milestone: "Characterize metal-semiconductor junctions and predict contact behavior"
+    duration_days: 6
+    tags:
+      - "metal-semiconductor"
+      - "schottky-barrier"
+      - "ohmic-contact"
+      - "rectifying-contact"
+
+  - id: 3
+    title: "PN Junction Diodes: Physics and Characteristics"
+    learning_objectives:
+      - "Explain the formation and properties of PN junctions"
+      - "Analyze depletion region width and built-in potential"
+      - "Derive and interpret current-voltage characteristics"
+      - "Understand breakdown mechanisms in reverse bias"
+    textbook_style_content:
+      - topic: "PN Junction Formation and Equilibrium"
+        sections:
+          - section_title: "Junction Formation by Diffusion"
+            section_type: "overview"
+          - section_title: "Depletion Region and Space Charge"
+            section_type: "core_theory"
+          - section_title: "Built-in Potential Calculation"
+            section_type: "core_theory"
+          - section_title: "Electric Field Distribution"
+            section_type: "core_theory"
+      - topic: "Biased PN Junctions"
+        sections:
+          - section_title: "Forward Bias Operation"
+            section_type: "core_theory"
+          - section_title: "Reverse Bias Operation"
+            section_type: "core_theory"
+          - section_title: "Minority Carrier Injection"
+            section_type: "related_concepts"
+          - section_title: "Shockley Diode Equation"
+            section_type: "core_theory"
+      - topic: "Diode Characteristics and Applications"
+        sections:
+          - section_title: "Ideal vs. Practical Diode Characteristics"
+            section_type: "core_theory"
+          - section_title: "Breakdown Mechanisms: Zener and Avalanche"
+            section_type: "core_theory"
+          - section_title: "Junction Capacitance: Depletion and Diffusion"
+            section_type: "related_concepts"
+          - section_title: "Switching Characteristics and Reverse Recovery"
+            section_type: "related_concepts"
+    milestone: "Analyze PN junction behavior under various bias conditions and predict IV characteristics"
+    duration_days: 9
+    tags:
+      - "pn-junction"
+      - "diode"
+      - "depletion-region"
+      - "breakdown"
+
+  - id: 4
+    title: "Bipolar Junction Transistors: Structure and Operation"
+    learning_objectives:
+      - "Understand NPN and PNP transistor structures and operation principles"
+      - "Analyze transistor operation in active, saturation, and cutoff modes"
+      - "Calculate current gain parameters (α and β)"
+      - "Apply the Ebers-Moll model for BJT analysis"
+    textbook_style_content:
+      - topic: "BJT Fundamentals"
+        sections:
+          - section_title: "Transistor Structure: NPN and PNP"
+            section_type: "overview"
+          - section_title: "Transistor Action and Current Components"
+            section_type: "core_theory"
+          - section_title: "Base Transport Factor and Emitter Efficiency"
+            section_type: "core_theory"
+          - section_title: "Current Gain: Alpha and Beta Relationships"
+            section_type: "core_theory"
+      - topic: "BJT Operating Modes"
+        sections:
+          - section_title: "Active Mode Operation"
+            section_type: "core_theory"
+          - section_title: "Saturation Mode"
+            section_type: "core_theory"
+          - section_title: "Cutoff Mode"
+            section_type: "core_theory"
+          - section_title: "Inverted Mode"
+            section_type: "related_concepts"
+      - topic: "BJT Models and Analysis"
+        sections:
+          - section_title: "Ebers-Moll Model: Static Characteristics"
+            section_type: "core_theory"
+          - section_title: "Large Signal Model"
+            section_type: "core_theory"
+          - section_title: "Small Signal Hybrid-π Model"
+            section_type: "related_concepts"
+          - section_title: "Common Emitter, Base, and Collector Configurations"
+            section_type: "core_theory"
+          - section_title: "Frequency Response and Limitations"
+            section_type: "related_concepts"
+    milestone: "Design and analyze BJT amplifier stages and predict transistor behavior in different operating modes"
+    duration_days: 10
+    tags:
+      - "bjt"
+      - "transistor"
+      - "current-gain"
+      - "ebers-moll"
+
+  - id: 5
+    title: "Field Effect Transistors: JFET and MOSFET"
+    learning_objectives:
+      - "Understand the operating principles of JFET and MOSFET devices"
+      - "Analyze channel formation and modulation in FETs"
+      - "Calculate threshold voltage and transconductance parameters"
+      - "Compare enhancement and depletion mode MOSFETs"
+    textbook_style_content:
+      - topic: "Junction Field Effect Transistors"
+        sections:
+          - section_title: "JFET Structure and Operation Principle"
+            section_type: "overview"
+          - section_title: "Channel Depletion and Pinch-off"
+            section_type: "core_theory"
+          - section_title: "JFET Characteristics: Triode and Saturation Regions"
+            section_type: "core_theory"
+          - section_title: "JFET Parameters: IDSS and VP"
+            section_type: "core_theory"
+      - topic: "Metal-Oxide-Semiconductor FETs"
+        sections:
+          - section_title: "MOSFET Structure: Gate Oxide and Channel"
+            section_type: "core_theory"
+          - section_title: "Enhancement Mode MOSFET Operation"
+            section_type: "core_theory"
+          - section_title: "Depletion Mode MOSFET Operation"
+            section_type: "core_theory"
+          - section_title: "Threshold Voltage and Body Effect"
+            section_type: "core_theory"
+      - topic: "FET Characteristics and Modeling"
+        sections:
+          - section_title: "Transconductance and Output Resistance"
+            section_type: "core_theory"
+          - section_title: "MOSFET ID-VDS and ID-VGS Characteristics"
+            section_type: "core_theory"
+          - section_title: "Small Signal Model of FETs"
+            section_type: "related_concepts"
+          - section_title: "CMOS Technology and Complementary Pairs"
+            section_type: "related_concepts"
+          - section_title: "Short Channel Effects"
+            section_type: "related_concepts"
+    milestone: "Characterize FET devices and design basic FET amplifier circuits"
+    duration_days: 10
+    tags:
+      - "fet"
+      - "jfet"
+      - "mosfet"
+      - "transconductance"
+      - "cmos"
+
+  - id: 6
+    title: "Feedback Circuits and Stability Analysis"
+    learning_objectives:
+      - "Understand the principles of negative and positive feedback"
+      - "Analyze the effects of feedback on gain, bandwidth, and distortion"
+      - "Apply Barkhausen criterion for oscillation"
+      - "Determine stability criteria for feedback systems"
+    textbook_style_content:
+      - topic: "Feedback Fundamentals"
+        sections:
+          - section_title: "Introduction to Feedback Concept"
+            section_type: "overview"
+          - section_title: "Feedback Topology: Series and Shunt"
+            section_type: "core_theory"
+          - section_title: "Loop Gain and Closed-loop Gain"
+            section_type: "core_theory"
+      - topic: "Negative Feedback Applications"
+        sections:
+          - section_title: "Effects on Gain Stability"
+            section_type: "core_theory"
+          - section_title: "Bandwidth Enhancement"
+            section_type: "core_theory"
+          - section_title: "Input and Output Impedance Modification"
+            section_type: "core_theory"
+          - section_title: "Distortion and Noise Reduction"
+            section_type: "core_theory"
+      - topic: "Positive Feedback and Oscillations"
+        sections:
+          - section_title: "Positive Feedback Characteristics"
+            section_type: "core_theory"
+          - section_title: "Barkhausen Criterion for Sustained Oscillations"
+            section_type: "core_theory"
+          - section_title: "Phase Shift Requirement"
+            section_type: "core_theory"
+          - section_title: "Stability Analysis: Nyquist and Bode Methods"
+            section_type: "related_concepts"
+    milestone: "Design feedback circuits with desired performance characteristics and predict stability"
+    duration_days: 7
+    tags:
+      - "feedback"
+      - "negative-feedback"
+      - "positive-feedback"
+      - "stability"
+      - "barkhausen"
+
+  - id: 7
+    title: "Oscillator Circuits: Design and Analysis"
+    learning_objectives:
+      - "Design RC and LC oscillator circuits"
+      - "Analyze Wien bridge, Colpitts, and Hartley oscillators"
+      - "Calculate oscillation frequency and startup conditions"
+      - "Understand amplitude stabilization techniques"
+    textbook_style_content:
+      - topic: "Oscillator Principles"
+        sections:
+          - section_title: "Requirements for Oscillation"
+            section_type: "overview"
+          - section_title: "Feedback Path and Frequency Selection"
+            section_type: "core_theory"
+          - section_title: "Amplitude Limiting and Stabilization"
+            section_type: "core_theory"
+      - topic: "RC Oscillators"
+        sections:
+          - section_title: "Phase Shift Oscillator"
+            section_type: "core_theory"
+          - section_title: "Wien Bridge Oscillator"
+            section_type: "core_theory"
+          - section_title: "Frequency Determination in RC Oscillators"
+            section_type: "core_theory"
+      - topic: "LC Oscillators"
+        sections:
+          - section_title: "Colpitts Oscillator: Circuit and Analysis"
+            section_type: "core_theory"
+          - section_title: "Hartley Oscillator: Circuit and Analysis"
+            section_type: "core_theory"
+          - section_title: "Frequency Determination in LC Oscillators"
+            section_type: "core_theory"
+          - section_title: "Crystal Oscillators for Frequency Stability"
+            section_type: "related_concepts"
+    milestone: "Design oscillator circuits for specified frequency and waveform requirements"
+    duration_days: 6
+    tags:
+      - "oscillators"
+      - "wien-bridge"
+      - "colpitts"
+      - "hartley"
+      - "rc-oscillator"
+      - "lc-oscillator"
+
+  - id: 8
+    title: "Operational Amplifiers: Characteristics and Applications"
+    learning_objectives:
+      - "Understand ideal and practical op-amp characteristics"
+      - "Analyze inverting and non-inverting amplifier configurations"
+      - "Design op-amp circuits for various signal processing applications"
+      - "Account for non-ideal effects: offset voltage, bias current, slew rate"
+    textbook_style_content:
+      - topic: "Op-Amp Fundamentals"
+        sections:
+          - section_title: "Operational Amplifier Architecture"
+            section_type: "overview"
+          - section_title: "Ideal Op-Amp Characteristics"
+            section_type: "core_theory"
+          - section_title: "Virtual Ground Concept"
+            section_type: "core_theory"
+          - section_title: "Practical Op-Amp Parameters"
+            section_type: "core_theory"
+      - topic: "Basic Op-Amp Configurations"
+        sections:
+          - section_title: "Inverting Amplifier: Analysis and Design"
+            section_type: "core_theory"
+          - section_title: "Non-inverting Amplifier: Analysis and Design"
+            section_type: "core_theory"
+          - section_title: "Voltage Follower (Buffer)"
+            section_type: "core_theory"
+          - section_title: "Summing Amplifier"
+            section_type: "core_theory"
+          - section_title: "Differential Amplifier"
+            section_type: "core_theory"
+      - topic: "Advanced Op-Amp Applications"
+        sections:
+          - section_title: "Integrator and Differentiator Circuits"
+            section_type: "core_theory"
+          - section_title: "Instrumentation Amplifier"
+            section_type: "related_concepts"
+          - section_title: "Comparator Circuits"
+            section_type: "core_theory"
+          - section_title: "Non-ideal Effects: Offset, Bias Current, CMRR"
+            section_type: "related_concepts"
+          - section_title: "Frequency Response and Slew Rate Limitations"
+            section_type: "related_concepts"
+    milestone: "Design and analyze op-amp circuits for signal conditioning and processing applications"
+    duration_days: 9
+    tags:
+      - "operational-amplifier"
+      - "op-amp"
+      - "inverting-amplifier"
+      - "non-inverting-amplifier"
+      - "signal-processing"
+
+  - id: 9
+    title: "Active Filters: Design and Implementation"
+    learning_objectives:
+      - "Design active filters using op-amps for various frequency responses"
+      - "Analyze low-pass, high-pass, band-pass, and band-reject filters"
+      - "Calculate filter parameters: cutoff frequency, quality factor, gain"
+      - "Compare filter topologies: Butterworth, Chebyshev, Bessel"
+    textbook_style_content:
+      - topic: "Filter Fundamentals"
+        sections:
+          - section_title: "Filter Classifications and Specifications"
+            section_type: "overview"
+          - section_title: "Transfer Functions and Frequency Response"
+            section_type: "core_theory"
+          - section_title: "Filter Order and Roll-off Rate"
+            section_type: "core_theory"
+      - topic: "Active Filter Configurations"
+        sections:
+          - section_title: "First-Order Low-Pass Filter"
+            section_type: "core_theory"
+          - section_title: "First-Order High-Pass Filter"
+            section_type: "core_theory"
+          - section_title: "Second-Order Filters: Sallen-Key Topology"
+            section_type: "core_theory"
+          - section_title: "Band-Pass Filter Design"
+            section_type: "core_theory"
+          - section_title: "Band-Reject (Notch) Filter Design"
+            section_type: "core_theory"
+      - topic: "Filter Approximations and Performance"
+        sections:
+          - section_title: "Butterworth Filter: Maximally Flat Response"
+            section_type: "core_theory"
+          - section_title: "Chebyshev Filter: Ripple Characteristics"
+            section_type: "related_concepts"
+          - section_title: "Bessel Filter: Linear Phase Response"
+            section_type: "related_concepts"
+          - section_title: "Quality Factor and Damping"
+            section_type: "core_theory"
+    milestone: "Design active filter circuits to meet specified frequency response requirements"
+    duration_days: 8
+    tags:
+      - "active-filters"
+      - "low-pass-filter"
+      - "high-pass-filter"
+      - "band-pass-filter"
+      - "butterworth"
+
+  - id: 10
+    title: "Digital Logic Fundamentals and Boolean Algebra"
+    learning_objectives:
+      - "Master Boolean algebra theorems and logic simplification"
+      - "Understand basic logic gates and their truth tables"
+      - "Apply Karnaugh maps for logic minimization"
+      - "Convert between different logic representations"
+    textbook_style_content:
+      - topic: "Digital Logic Foundations"
+        sections:
+          - section_title: "Binary Number Systems and Codes"
+            section_type: "overview"
+          - section_title: "Boolean Algebra: Postulates and Theorems"
+            section_type: "core_theory"
+          - section_title: "De Morgan's Laws"
+            section_type: "core_theory"
+          - section_title: "Canonical Forms: Minterms and Maxterms"
+            section_type: "core_theory"
+      - topic: "Logic Gates and Truth Tables"
+        sections:
+          - section_title: "Basic Gates: AND, OR, NOT"
+            section_type: "core_theory"
+          - section_title: "Universal Gates: NAND and NOR"
+            section_type: "core_theory"
+          - section_title: "Exclusive Gates: XOR and XNOR"
+            section_type: "core_theory"
+          - section_title: "Truth Table Construction"
+            section_type: "core_theory"
+      - topic: "Logic Simplification Techniques"
+        sections:
+          - section_title: "Algebraic Simplification Methods"
+            section_type: "core_theory"
+          - section_title: "Karnaugh Map Method: 2, 3, and 4 Variables"
+            section_type: "core_theory"
+          - section_title: "Prime Implicants and Essential Prime Implicants"
+            section_type: "core_theory"
+          - section_title: "Don't Care Conditions"
+            section_type: "core_theory"
+          - section_title: "Quine-McCluskey Method"
+            section_type: "related_concepts"
+    milestone: "Simplify complex Boolean expressions and implement optimal logic circuits"
+    duration_days: 7
+    tags:
+      - "digital-logic"
+      - "boolean-algebra"
+      - "logic-gates"
+      - "karnaugh-map"
+
+  - id: 11
+    title: "Combinational Logic Circuits"
+    learning_objectives:
+      - "Design and analyze arithmetic circuits: adders and subtractors"
+      - "Understand multiplexer and demultiplexer operations"
+      - "Implement encoders, decoders, and code converters"
+      - "Design comparators and parity generators"
+    textbook_style_content:
+      - topic: "Arithmetic Circuits"
+        sections:
+          - section_title: "Half Adder and Full Adder"
+            section_type: "core_theory"
+          - section_title: "Parallel Binary Adder: Ripple Carry"
+            section_type: "core_theory"
+          - section_title: "Carry Look-Ahead Adder"
+            section_type: "related_concepts"
+          - section_title: "Half Subtractor and Full Subtractor"
+            section_type: "core_theory"
+          - section_title: "Binary Subtraction using 2's Complement"
+            section_type: "core_theory"
+      - topic: "Multiplexers and Demultiplexers"
+        sections:
+          - section_title: "Multiplexer: Structure and Operation"
+            section_type: "core_theory"
+          - section_title: "Implementing Boolean Functions with Multiplexers"
+            section_type: "core_theory"
+          - section_title: "Demultiplexer: Structure and Operation"
+            section_type: "core_theory"
+      - topic: "Encoders and Decoders"
+        sections:
+          - section_title: "Binary Encoder and Priority Encoder"
+            section_type: "core_theory"
+          - section_title: "Binary Decoder: 2-to-4, 3-to-8 Decoders"
+            section_type: "core_theory"
+          - section_title: "BCD to 7-Segment Decoder"
+            section_type: "core_theory"
+          - section_title: "Code Converters: BCD, Gray, Excess-3"
+            section_type: "core_theory"
+      - topic: "Comparators and Other Circuits"
+        sections:
+          - section_title: "Magnitude Comparator"
+            section_type: "core_theory"
+          - section_title: "Parity Generator and Checker"
+            section_type: "core_theory"
+    milestone: "Design complex combinational circuits for arithmetic and data processing operations"
+    duration_days: 9
+    tags:
+      - "combinational-circuits"
+      - "adder"
+      - "multiplexer"
+      - "decoder"
+      - "encoder"
+
+  - id: 12
+    title: "Sequential Logic: Latches and Flip-Flops"
+    learning_objectives:
+      - "Understand the difference between latches and flip-flops"
+      - "Analyze SR, D, JK, and T flip-flop operations"
+      - "Design synchronous sequential circuits using state diagrams"
+      - "Apply timing parameters: setup time, hold time, propagation delay"
+    textbook_style_content:
+      - topic: "Sequential Logic Fundamentals"
+        sections:
+          - section_title: "Memory Elements and Sequential Circuits"
+            section_type: "overview"
+          - section_title: "Latches vs. Flip-Flops"
+            section_type: "core_theory"
+          - section_title: "Clock Signals and Synchronization"
+            section_type: "core_theory"
+      - topic: "Latches"
+        sections:
+          - section_title: "SR Latch: NAND and NOR Implementation"
+            section_type: "core_theory"
+          - section_title: "D Latch (Transparent Latch)"
+            section_type: "core_theory"
+          - section_title: "Latch Timing and Hazards"
+            section_type: "related_concepts"
+      - topic: "Flip-Flops"
+        sections:
+          - section_title: "SR Flip-Flop: Clocked Operation"
+            section_type: "core_theory"
+          - section_title: "D Flip-Flop: Edge-Triggered"
+            section_type: "core_theory"
+          - section_title: "JK Flip-Flop: Master-Slave Configuration"
+            section_type: "core_theory"
+          - section_title: "T Flip-Flop: Toggle Operation"
+            section_type: "core_theory"
+          - section_title: "Flip-Flop Conversions"
+            section_type: "core_theory"
+      - topic: "Sequential Circuit Design"
+        sections:
+          - section_title: "State Diagrams and State Tables"
+            section_type: "core_theory"
+          - section_title: "State Assignment and Minimization"
+            section_type: "core_theory"
+          - section_title: "Excitation Tables"
+            section_type: "core_theory"
+          - section_title: "Timing Analysis: Setup and Hold Times"
+            section_type: "related_concepts"
+          - section_title: "Metastability Issues"
+            section_type: "related_concepts"
+    milestone: "Design synchronous sequential circuits with specified state behavior"
+    duration_days: 10
+    tags:
+      - "sequential-circuits"
+      - "flip-flops"
+      - "latches"
+      - "state-diagram"
+      - "timing-analysis"
+
+  - id: 13
+    title: "Counters: Asynchronous and Synchronous Designs"
+    learning_objectives:
+      - "Design ripple counters and analyze their timing"
+      - "Implement synchronous counters with desired modulus"
+      - "Create up-counters, down-counters, and up-down counters"
+      - "Design counters with parallel load capability"
+    textbook_style_content:
+      - topic: "Asynchronous (Ripple) Counters"
+        sections:
+          - section_title: "Binary Ripple Counter Operation"
+            section_type: "core_theory"
+          - section_title: "Timing Diagram and Propagation Delay"
+            section_type: "core_theory"
+          - section_title: "Modulo-N Ripple Counters"
+            section_type: "core_theory"
+          - section_title: "Decade Counter (BCD Counter)"
+            section_type: "core_theory"
+      - topic: "Synchronous Counters"
+        sections:
+          - section_title: "Synchronous Binary Counter Design"
+            section_type: "core_theory"
+          - section_title: "Advantages over Asynchronous Counters"
+            section_type: "core_theory"
+          - section_title: "Up-Counter and Down-Counter"
+            section_type: "core_theory"
+          - section_title: "Up-Down Counter with Mode Control"
+            section_type: "core_theory"
+      - topic: "Advanced Counter Designs"
+        sections:
+          - section_title: "Modulo-N Synchronous Counters"
+            section_type: "core_theory"
+          - section_title: "Counter Design using JK and D Flip-Flops"
+            section_type: "core_theory"
+          - section_title: "Counters with Parallel Load"
+            section_type: "core_theory"
+          - section_title: "Ring Counter and Johnson Counter"
+            section_type: "related_concepts"
+          - section_title: "Frequency Division using Counters"
+            section_type: "related_concepts"
+    milestone: "Design and implement counter circuits for timing and control applications"
+    duration_days: 8
+    tags:
+      - "counters"
+      - "ripple-counter"
+      - "synchronous-counter"
+      - "modulo-n-counter"
+
+  - id: 14
+    title: "Shift Registers and Data Storage"
+    learning_objectives:
+      - "Understand serial and parallel data transfer mechanisms"
+      - "Design shift registers in SISO, SIPO, PISO, and PIPO modes"
+      - "Implement universal shift registers with bidirectional capability"
+      - "Apply shift registers for data storage and serial communication"
+    textbook_style_content:
+      - topic: "Shift Register Fundamentals"
+        sections:
+          - section_title: "Serial vs. Parallel Data Transfer"
+            section_type: "overview"
+          - section_title: "Basic Shift Register Operation"
+            section_type: "core_theory"
+          - section_title: "Shift Register Applications"
+            section_type: "core_theory"
+      - topic: "Shift Register Types"
+        sections:
+          - section_title: "Serial-In Serial-Out (SISO) Register"
+            section_type: "core_theory"
+          - section_title: "Serial-In Parallel-Out (SIPO) Register"
+            section_type: "core_theory"
+          - section_title: "Parallel-In Serial-Out (PISO) Register"
+            section_type: "core_theory"
+          - section_title: "Parallel-In Parallel-Out (PIPO) Register"
+            section_type: "core_theory"
+      - topic: "Advanced Shift Register Configurations"
+        sections:
+          - section_title: "Bidirectional Shift Register"
+            section_type: "core_theory"
+          - section_title: "Universal Shift Register"
+            section_type: "core_theory"
+          - section_title: "Shift Register Counters: Ring and Johnson"
+            section_type: "related_concepts"
+      - topic: "Storage Registers and Applications"
+        sections:
+          - section_title: "Buffer Registers"
+            section_type: "core_theory"
+          - section_title: "Data Storage and Transfer Operations"
+            section_type: "core_theory"
+          - section_title: "Serial Communication using Shift Registers"
+            section_type: "related_concepts"
+    milestone: "Implement shift register circuits for data manipulation and serial-parallel conversion"
+    duration_days: 7
+    tags:
+      - "shift-registers"
+      - "siso"
+      - "sipo"
+      - "piso"
+      - "pipo"
+      - "universal-shift-register"
+
+  - id: 15
+    title: "Timers: 555 IC and Applications"
+    learning_objectives:
+      - "Understand the internal architecture of the 555 timer IC"
+      - "Configure 555 timer in astable and monostable modes"
+      - "Calculate timing parameters for various 555 applications"
+      - "Design pulse generators and timing circuits"
+    textbook_style_content:
+      - topic: "555 Timer Fundamentals"
+        sections:
+          - section_title: "555 Timer Internal Architecture"
+            section_type: "overview"
+          - section_title: "Pin Configuration and Functions"
+            section_type: "core_theory"
+          - section_title: "Threshold and Trigger Comparators"
+            section_type: "core_theory"
+      - topic: "Monostable Operation"
+        sections:
+          - section_title: "Monostable (One-Shot) Configuration"
+            section_type: "core_theory"
+          - section_title: "Timing Calculations in Monostable Mode"
+            section_type: "core_theory"
+          - section_title: "Pulse Width Modulation"
+            section_type: "core_theory"
+      - topic: "Astable Operation"
+        sections:
+          - section_title: "Astable (Free-Running) Configuration"
+            section_type: "core_theory"
+          - section_title: "Frequency and Duty Cycle Calculations"
+            section_type: "core_theory"
+          - section_title: "Square Wave and Rectangular Wave Generation"
+            section_type: "core_theory"
+      - topic: "555 Timer Applications"
+        sections:
+          - section_title: "Pulse Generator Circuits"
+            section_type: "core_theory"
+          - section_title: "Frequency Divider"
+            section_type: "related_concepts"
+          - section_title: "Time Delay Circuits"
+            section_type: "core_theory"
+          - section_title: "LED Flasher and Alarm Circuits"
+            section_type: "related_concepts"
+    milestone: "Design timing circuits using 555 IC for various control and signal generation applications"
+    duration_days: 6
+    tags:
+      - "555-timer"
+      - "astable"
+      - "monostable"
+      - "pulse-generator"
+
+  - id: 16
+    title: "Analog-to-Digital Conversion Techniques"
+    learning_objectives:
+      - "Understand the principles of analog-to-digital conversion"
+      - "Analyze sampling, quantization, and encoding processes"
+      - "Compare different ADC architectures: flash, successive approximation, dual slope"
+      - "Calculate resolution, conversion time, and sampling rate requirements"
+    textbook_style_content:
+      - topic: "ADC Fundamentals"
+        sections:
+          - section_title: "Sampling Theory and Nyquist Criterion"
+            section_type: "overview"
+          - section_title: "Quantization and Quantization Error"
+            section_type: "core_theory"
+          - section_title: "ADC Specifications: Resolution, Accuracy, Speed"
+            section_type: "core_theory"
+          - section_title: "Aliasing and Anti-Aliasing Filters"
+            section_type: "related_concepts"
+      - topic: "Flash ADC"
+        sections:
+          - section_title: "Flash Converter Architecture"
+            section_type: "core_theory"
+          - section_title: "Comparator Array and Priority Encoder"
+            section_type: "core_theory"
+          - section_title: "Advantages and Limitations"
+            section_type: "core_theory"
+      - topic: "Successive Approximation ADC"
+        sections:
+          - section_title: "SAR ADC Operating Principle"
+            section_type: "core_theory"
+          - section_title: "Binary Search Algorithm"
+            section_type: "core_theory"
+          - section_title: "DAC and Comparator in SAR"
+            section_type: "core_theory"
+          - section_title: "Conversion Time Analysis"
+            section_type: "core_theory"
+      - topic: "Dual Slope ADC"
+        sections:
+          - section_title: "Dual Slope Integration Method"
+            section_type: "core_theory"
+          - section_title: "Integration and De-integration Phases"
+            section_type: "core_theory"
+          - section_title: "Noise Rejection Properties"
+            section_type: "core_theory"
+          - section_title: "Other ADC Types: Sigma-Delta, Pipeline"
+            section_type: "related_concepts"
+    milestone: "Select and design appropriate ADC circuits for signal acquisition systems"
+    duration_days: 8
+    tags:
+      - "adc"
+      - "analog-to-digital"
+      - "flash-adc"
+      - "sar-adc"
+      - "dual-slope"
+      - "sampling"
+
+  - id: 17
+    title: "Digital-to-Analog Conversion Techniques"
+    learning_objectives:
+      - "Understand the principles of digital-to-analog conversion"
+      - "Design binary weighted resistor DAC circuits"
+      - "Analyze R-2R ladder DAC architecture"
+      - "Evaluate DAC performance parameters: resolution, settling time, linearity"
+    textbook_style_content:
+      - topic: "DAC Fundamentals"
+        sections:
+          - section_title: "Digital-to-Analog Conversion Process"
+            section_type: "overview"
+          - section_title: "DAC Specifications: Resolution, Linearity, Settling Time"
+            section_type: "core_theory"
+          - section_title: "Output Voltage Calculation"
+            section_type: "core_theory"
+      - topic: "Binary Weighted Resistor DAC"
+        sections:
+          - section_title: "Binary Weighted DAC Architecture"
+            section_type: "core_theory"
+          - section_title: "Summing Amplifier Configuration"
+            section_type: "core_theory"
+          - section_title: "Resistor Precision Requirements"
+            section_type: "core_theory"
+          - section_title: "Advantages and Limitations"
+            section_type: "core_theory"
+      - topic: "R-2R Ladder DAC"
+        sections:
+          - section_title: "R-2R Ladder Network Architecture"
+            section_type: "core_theory"
+          - section_title: "Voltage Division and Current Steering"
+            section_type: "core_theory"
+          - section_title: "Advantages over Binary Weighted DAC"
+            section_type: "core_theory"
+          - section_title: "Analysis of R-2R Ladder Output"
+            section_type: "core_theory"
+      - topic: "DAC Performance and Applications"
+        sections:
+          - section_title: "Monotonicity and DNL/INL Errors"
+            section_type: "related_concepts"
+          - section_title: "Glitches and Deglitching Circuits"
+            section_type: "related_concepts"
+          - section_title: "DAC Applications in Signal Generation"
+            section_type: "core_theory"
+    milestone: "Design and evaluate DAC circuits for waveform generation and control systems"
+    duration_days: 7
+    tags:
+      - "dac"
+      - "digital-to-analog"
+      - "binary-weighted-dac"
+      - "r-2r-ladder"
+      - "data-conversion"

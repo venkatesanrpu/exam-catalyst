@@ -1,0 +1,74 @@
+metadata:
+  subject: Physics
+  target: GATE Physics Examination
+  syllabus_line: 'Section 4: Quantum Mechanics - Postulates of quantum mechanics,
+    uncertainty principle, Schrodinger equation, Dirac Bra Ket notation, linear vectors
+    and operators in Hilbert space, one dimensional potentials (step potential, finite
+    rectangular well, tunneling, particle in a box, harmonic oscillator), two and
+    three dimensional systems with degeneracy, hydrogen atom, angular momentum and
+    spin, addition of angular momenta, variational method, WKB approximation, time
+    independent perturbation theory, elementary scattering theory, Born approximation,
+    and symmetries in quantum mechanical systems'
+concepts:
+  core:
+  - name: Postulates of Quantum Mechanics
+    clarifier: Fundamental axioms defining measurement, state evolution, and observables
+      in quantum systems
+  - name: Schrodinger Equation
+    clarifier: Central differential equation governing time evolution of quantum states
+  - name: Hilbert Space Formalism
+    clarifier: Mathematical framework using Dirac notation, linear vectors, and operators
+  - name: Uncertainty Principle
+    clarifier: Heisenberg's fundamental limit on simultaneous measurement precision
+  - name: Particle in a Box
+    clarifier: Paradigmatic confined quantum system with discrete energy levels
+  - name: Quantum Harmonic Oscillator
+    clarifier: Exactly solvable system with ladder operators and equidistant energy
+      levels
+  - name: Hydrogen Atom
+    clarifier: Central force problem in three dimensions with spherical symmetry
+  - name: Angular Momentum Operators
+    clarifier: Commutation relations, eigenvalues, and quantum numbers for orbital
+      and spin angular momentum
+  - name: Spin
+    clarifier: Intrinsic angular momentum with no classical analog
+  - name: Time-Independent Perturbation Theory
+    clarifier: Approximation method for systems with small deviations from solvable
+      Hamiltonians
+  - name: Variational Principle
+    clarifier: Upper-bound method for estimating ground state energies
+  - name: Scattering Theory
+    clarifier: Framework for analyzing particle collisions and cross sections
+  related:
+  - name: Wave-Particle Duality
+    clarifier: Classical prelude to quantum mechanics connecting matter and waves
+  - name: Probability Density and Normalization
+    clarifier: Statistical interpretation of wavefunctions
+  - name: Hermitian Operators
+    clarifier: Mathematical guarantee of real eigenvalues for observables
+  - name: Commutators
+    clarifier: Algebraic tool determining compatibility of simultaneous measurements
+  - name: Tunneling Phenomenon
+    clarifier: Quantum penetration through classically forbidden barriers
+  - name: Degeneracy
+    clarifier: Multiple linearly independent states sharing the same energy eigenvalue
+  - name: Spherical Harmonics
+    clarifier: Angular wavefunctions for central force problems
+  - name: Radial Wavefunctions
+    clarifier: Distance-dependent solutions in spherical coordinates
+  - name: Clebsch-Gordan Coefficients
+    clarifier: Mathematical tool for coupling angular momenta
+  - name: WKB Approximation
+    clarifier: Semi-classical method for slowly varying potentials
+  - name: Born Approximation
+    clarifier: First-order approximation in scattering amplitude calculations
+  - name: Parity and Symmetry Operations
+    clarifier: Discrete transformations commuting with the Hamiltonian
+  - name: Selection Rules
+    clarifier: Constraints on allowed quantum transitions from symmetry principles
+  - name: Eigenstates and Eigenvalues
+    clarifier: States with definite measurement outcomes for observables
+  - name: Boundary Conditions
+    clarifier: Constraints determining physically acceptable solutions
+  - name: Continuity and Discontinuity Conditions
+    clarifier: Matching requirements at potential boundaries
