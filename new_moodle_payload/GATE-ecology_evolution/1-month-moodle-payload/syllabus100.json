@@ -1,0 +1,4004 @@
+{
+  "subject": "Ecology and Evolution",
+  "subject_key": "ecology_and_evolution",
+  "topics": [
+    {
+      "topic": "Fundamental Concepts",
+      "topic_key": "fundamental_concepts",
+      "lessons": [
+        {
+          "lesson": "Abiotic components",
+          "lesson_key": "abiotic_components",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Non-living physical and chemical factors (e.g., light, temperature, water, nutrients) that constrain and shape organism performance and ecosystem processes."
+            }
+          ]
+        },
+        {
+          "lesson": "Biotic components",
+          "lesson_key": "biotic_components",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Living components (organisms and their interactions) that influence survival, reproduction, community structure, and ecosystem functioning."
+            }
+          ]
+        },
+        {
+          "lesson": "Levels (scales) of ecological organization",
+          "lesson_key": "levels_scales_of_ecological_organization",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Hierarchical scales used to study ecology: population, species, community, ecosystem, and biome, each with distinct patterns, processes, and measurements."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecological niche",
+          "lesson_key": "ecological_niche",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "The multidimensional set of conditions and resources defining where a species can persist and how it affects and is affected by the environment (role + requirements)."
+            }
+          ]
+        },
+        {
+          "lesson": "Habitat",
+          "lesson_key": "habitat",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "The physical place or environment where an organism lives; a spatial concept often linked to vegetation, substrate, and climate."
+            }
+          ]
+        },
+        {
+          "lesson": "Species concept (ecological relevance)",
+          "lesson_key": "species_concept_ecological_relevance",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Operational meaning of species for ecological studies (often biological/ecological species concepts) and implications for measuring diversity and interactions."
+            }
+          ]
+        },
+        {
+          "lesson": "Population attributes",
+          "lesson_key": "population_attributes",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Key descriptors such as size, density, dispersion, age structure, and growth rate used at the population scale."
+            }
+          ]
+        },
+        {
+          "lesson": "Community interactions",
+          "lesson_key": "community_interactions",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Core interaction types (competition, predation, mutualism, commensalism, parasitism) that connect biotic components to community patterns."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecosystem processes",
+          "lesson_key": "ecosystem_processes",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Energy flow and nutrient cycling as emergent properties at the ecosystem scale linking biotic and abiotic components."
+            }
+          ]
+        },
+        {
+          "lesson": "Biome classification",
+          "lesson_key": "biome_classification",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Broad ecosystem types defined primarily by climate and dominant vegetation (e.g., tundra, tropical rainforest), used for large-scale comparisons."
+            }
+          ]
+        },
+        {
+          "lesson": "Niche partitioning and coexistence",
+          "lesson_key": "niche_partitioning_and_coexistence",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mechanisms by which species reduce overlap in resource use, enabling stable coexistence within communities."
+            }
+          ]
+        },
+        {
+          "lesson": "Fundamental vs realized niche",
+          "lesson_key": "fundamental_vs_realized_niche",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Potential niche set by abiotic limits versus actual niche constrained by biotic interactions and dispersal."
+            }
+          ]
+        },
+        {
+          "lesson": "Habitat selection and habitat suitability",
+          "lesson_key": "habitat_selection_and_habitat_suitability",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Behavioral and demographic basis for choosing habitats; suitability measured via survival and reproduction, not just presence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Population Ecology",
+      "topic_key": "population_ecology",
+      "lessons": [
+        {
+          "lesson": "Population growth rate",
+          "lesson_key": "population_growth_rate",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Change in population size per unit time, typically summarized via per-capita growth rate and finite/intrinsic growth parameters used in exponential and logistic models."
+            }
+          ]
+        },
+        {
+          "lesson": "Density-independent regulation",
+          "lesson_key": "density_independent_regulation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Growth and survival shaped by factors whose effects do not depend on population density (e.g., weather extremes, disturbances), often producing additive mortality."
+            }
+          ]
+        },
+        {
+          "lesson": "Density-dependent regulation",
+          "lesson_key": "density_dependent_regulation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Growth and survival shaped by factors whose effects intensify with density (e.g., competition, disease), creating negative feedback that can stabilize populations."
+            }
+          ]
+        },
+        {
+          "lesson": "Metapopulation",
+          "lesson_key": "metapopulation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "A set of spatially separated local populations in habitat patches connected by dispersal, where regional persistence depends on colonization-extinction dynamics."
+            }
+          ]
+        },
+        {
+          "lesson": "Colonization and extinction dynamics",
+          "lesson_key": "colonization_and_extinction_dynamics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Patch occupancy changes driven by dispersal-mediated colonization and local extinction; core to Levins-type metapopulation models."
+            }
+          ]
+        },
+        {
+          "lesson": "Patch structure",
+          "lesson_key": "patch_structure",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Spatial arrangement and quality/size of habitat patches that determine local population viability and connectivity."
+            }
+          ]
+        },
+        {
+          "lesson": "Source-sink dynamics",
+          "lesson_key": "source_sink_dynamics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Sources have positive local growth and export dispersers; sinks have negative local growth and persist via immigration."
+            }
+          ]
+        },
+        {
+          "lesson": "Age-structured populations",
+          "lesson_key": "age_structured_populations",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Population models that track individuals by age classes, allowing age-specific survival and fecundity to determine growth and stable age distribution."
+            }
+          ]
+        },
+        {
+          "lesson": "Exponential growth model",
+          "lesson_key": "exponential_growth_model",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Baseline model with constant per-capita growth; useful approximation at low density or early invasion phases."
+            }
+          ]
+        },
+        {
+          "lesson": "Logistic growth and carrying capacity",
+          "lesson_key": "logistic_growth_and_carrying_capacity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Model incorporating density dependence via a carrying capacity and negative feedback on per-capita growth."
+            }
+          ]
+        },
+        {
+          "lesson": "Allee effects",
+          "lesson_key": "allee_effects",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Positive density dependence at low densities due to mate limitation, cooperative defense, etc., increasing extinction risk."
+            }
+          ]
+        },
+        {
+          "lesson": "Demographic vs environmental stochasticity",
+          "lesson_key": "demographic_vs_environmental_stochasticity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Randomness from individual-level birth/death events versus temporal environmental variation; both affect persistence, especially in small populations."
+            }
+          ]
+        },
+        {
+          "lesson": "Dispersal and connectivity",
+          "lesson_key": "dispersal_and_connectivity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Movement among patches determining rescue effects, gene flow, and colonization probability."
+            }
+          ]
+        },
+        {
+          "lesson": "Rescue effect",
+          "lesson_key": "rescue_effect",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Immigration reducing local extinction probability and increasing persistence of patch populations."
+            }
+          ]
+        },
+        {
+          "lesson": "Life tables",
+          "lesson_key": "life_tables",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Age-specific survival schedules (e.g., \\\\(l_x\\\\)) and fecundity (e.g., \\\\(m_x\\\\)) used to quantify population growth."
+            }
+          ]
+        },
+        {
+          "lesson": "Leslie matrix model",
+          "lesson_key": "leslie_matrix_model",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Discrete-time age-structured model using a projection matrix whose dominant eigenvalue gives long-term growth rate."
+            }
+          ]
+        },
+        {
+          "lesson": "Reproductive value",
+          "lesson_key": "reproductive_value",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Relative contribution of individuals of different ages to future population growth."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Interactions",
+      "topic_key": "interactions",
+      "lessons": [
+        {
+          "lesson": "Species interactions (interaction types)",
+          "lesson_key": "species_interactions_interaction_types",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Classification of interspecific interactions by fitness effects on each partner (e.g., \\(+\\!/\\!+\\), \\(+\\!/\\!0\\), \\(-\\!/\\!-\\), \\(+\\!/\\!-\\)) and the mechanisms that generate them."
+            }
+          ]
+        },
+        {
+          "lesson": "Mutualism",
+          "lesson_key": "mutualism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Interaction where both partners gain fitness benefits; can be obligate or facultative and may involve exchange of resources or services."
+            }
+          ]
+        },
+        {
+          "lesson": "Symbiosis",
+          "lesson_key": "symbiosis",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Intimate, long-term association between species that can be mutualistic, commensal, or parasitic; describes closeness, not benefit sign."
+            }
+          ]
+        },
+        {
+          "lesson": "Commensalism",
+          "lesson_key": "commensalism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Interaction where one species benefits while the other has no measurable fitness effect under the conditions studied."
+            }
+          ]
+        },
+        {
+          "lesson": "Competition",
+          "lesson_key": "competition",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Negative interaction due to shared limiting resources; includes exploitative (indirect) and interference (direct) competition."
+            }
+          ]
+        },
+        {
+          "lesson": "Parasitism",
+          "lesson_key": "parasitism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Consumer-resource interaction where the parasite benefits and the host is harmed, typically without immediate host death; includes micro- and macroparasites."
+            }
+          ]
+        },
+        {
+          "lesson": "Predation",
+          "lesson_key": "predation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Consumer-resource interaction where the predator kills and consumes the prey, affecting prey abundance, traits, and community structure."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecophysiology",
+          "lesson_key": "ecophysiology",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Study of how physiological traits and constraints determine organism performance across abiotic gradients (temperature, water, salinity, oxygen, light)."
+            }
+          ]
+        },
+        {
+          "lesson": "Physiological adaptation to abiotic environment",
+          "lesson_key": "physiological_adaptation_to_abiotic_environment",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Heritable trait changes (and associated mechanisms) that improve performance and fitness under specific abiotic conditions; distinct from short-term acclimation."
+            }
+          ]
+        },
+        {
+          "lesson": "Lotka-Volterra predator-prey model",
+          "lesson_key": "lotka_volterra_predator_prey_model",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Coupled differential equations describing predator and prey dynamics under simplified assumptions, producing characteristic oscillations."
+            }
+          ]
+        },
+        {
+          "lesson": "Interaction outcomes and context dependence",
+          "lesson_key": "interaction_outcomes_and_context_dependence",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Net outcomes can shift with environment, density, and life stage (e.g., mutualism to parasitism along stress gradients)."
+            }
+          ]
+        },
+        {
+          "lesson": "Functional response (Holling types)",
+          "lesson_key": "functional_response_holling_types",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Relationship between prey density and predator consumption rate; key extension beyond basic Lotka-Volterra assumptions."
+            }
+          ]
+        },
+        {
+          "lesson": "Numerical response",
+          "lesson_key": "numerical_response",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Change in predator density via reproduction/aggregation as prey density changes; links individual feeding to population dynamics."
+            }
+          ]
+        },
+        {
+          "lesson": "Apparent competition",
+          "lesson_key": "apparent_competition",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Indirect negative interaction between prey species mediated by a shared predator."
+            }
+          ]
+        },
+        {
+          "lesson": "Keystone predation and trophic cascades",
+          "lesson_key": "keystone_predation_and_trophic_cascades",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Predation disproportionately shaping community composition and propagating effects across trophic levels."
+            }
+          ]
+        },
+        {
+          "lesson": "Competitive exclusion and coexistence",
+          "lesson_key": "competitive_exclusion_and_coexistence",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Conditions under which species cannot stably coexist on the same limiting resource versus mechanisms enabling coexistence (niche differentiation)."
+            }
+          ]
+        },
+        {
+          "lesson": "Character displacement",
+          "lesson_key": "character_displacement",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Evolutionary divergence in traits due to competition, reducing niche overlap in sympatry."
+            }
+          ]
+        },
+        {
+          "lesson": "Thermal performance curves and Q10",
+          "lesson_key": "thermal_performance_curves_and_q10",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How performance changes with temperature, including metabolic scaling concepts often used in ecophysiology."
+            }
+          ]
+        },
+        {
+          "lesson": "Osmoregulation and water balance",
+          "lesson_key": "osmoregulation_and_water_balance",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Physiological mechanisms controlling ion and water balance in terrestrial and aquatic environments."
+            }
+          ]
+        },
+        {
+          "lesson": "Acclimation vs adaptation",
+          "lesson_key": "acclimation_vs_adaptation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Reversible phenotypic adjustment within an individual versus heritable change across generations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Community Ecology",
+      "topic_key": "community_ecology",
+      "lessons": [
+        {
+          "lesson": "Community assembly",
+          "lesson_key": "community_assembly",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Processes determining which species occur together locally, including dispersal, environmental filtering, biotic interactions, priority effects, and historical contingency."
+            }
+          ]
+        },
+        {
+          "lesson": "Community organization",
+          "lesson_key": "community_organization",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How communities are structured in space and time (trophic structure, guilds, interaction networks, dominance patterns) and how these features emerge from assembly processes."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecological succession",
+          "lesson_key": "ecological_succession",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Directional change in community composition after disturbance or on new substrate, often described as primary vs secondary succession with early- to late-successional stages."
+            }
+          ]
+        },
+        {
+          "lesson": "Species richness",
+          "lesson_key": "species_richness",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Number of species present in a defined area/sample; a count metric sensitive to sampling effort."
+            }
+          ]
+        },
+        {
+          "lesson": "Evenness",
+          "lesson_key": "evenness",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How similar species' abundances are within a community; high evenness means less dominance by few species."
+            }
+          ]
+        },
+        {
+          "lesson": "Diversity indices",
+          "lesson_key": "diversity_indices",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Quantitative measures combining richness and relative abundance (e.g., Shannon and Simpson indices) to compare communities."
+            }
+          ]
+        },
+        {
+          "lesson": "Species-area relationship (SAR)",
+          "lesson_key": "species_area_relationship_sar",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Empirical relationship where species richness increases with area, commonly modeled as \\(S = cA^z\\), used for scaling and extinction projections."
+            }
+          ]
+        },
+        {
+          "lesson": "Theory of island biogeography",
+          "lesson_key": "theory_of_island_biogeography",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "MacArthur-Wilson framework where island species richness reflects a dynamic equilibrium between colonization and extinction, shaped by island isolation and area."
+            }
+          ]
+        },
+        {
+          "lesson": "Environmental filtering",
+          "lesson_key": "environmental_filtering",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Abiotic constraints permitting only species with suitable traits to establish, shaping composition and trait distributions."
+            }
+          ]
+        },
+        {
+          "lesson": "Dispersal limitation",
+          "lesson_key": "dispersal_limitation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Failure of species to reach suitable sites, producing spatial turnover independent of local suitability."
+            }
+          ]
+        },
+        {
+          "lesson": "Priority effects",
+          "lesson_key": "priority_effects",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Early-arriving species influencing later establishment via niche preemption or habitat modification, creating alternative stable community states."
+            }
+          ]
+        },
+        {
+          "lesson": "Facilitation, tolerance, and inhibition models of succession",
+          "lesson_key": "facilitation_tolerance_and_inhibition_models_of_succession",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Classic conceptual models describing how early species influence later species establishment during succession."
+            }
+          ]
+        },
+        {
+          "lesson": "Intermediate disturbance hypothesis",
+          "lesson_key": "intermediate_disturbance_hypothesis",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Hypothesis that diversity peaks at intermediate disturbance frequency/intensity via coexistence of colonizers and competitors."
+            }
+          ]
+        },
+        {
+          "lesson": "Alpha, beta, gamma diversity",
+          "lesson_key": "alpha_beta_gamma_diversity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Diversity within sites, among sites, and at regional scale; links local richness to turnover and regional species pools."
+            }
+          ]
+        },
+        {
+          "lesson": "Rarefaction and sampling effort",
+          "lesson_key": "rarefaction_and_sampling_effort",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Methods for comparing richness/diversity across unequal sample sizes or effort."
+            }
+          ]
+        },
+        {
+          "lesson": "Rank-abundance curves",
+          "lesson_key": "rank_abundance_curves",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Graphical summaries of dominance and evenness that complement numeric indices."
+            }
+          ]
+        },
+        {
+          "lesson": "Nestedness and turnover in island/fragment communities",
+          "lesson_key": "nestedness_and_turnover_in_island_fragment_communities",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Patterns of species composition where smaller sites hold subsets of larger ones (nestedness) versus replacement (turnover)."
+            }
+          ]
+        },
+        {
+          "lesson": "Habitat fragmentation as 'islands'",
+          "lesson_key": "habitat_fragmentation_as_islands",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Application of island biogeography ideas to terrestrial habitat patches embedded in a matrix."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Ecosystems Structure and Function",
+      "topic_key": "ecosystems_structure_and_function",
+      "lessons": [
+        {
+          "lesson": "Ecosystem structure",
+          "lesson_key": "ecosystem_structure",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Biotic and abiotic components arranged into functional compartments (producers, consumers, decomposers, detritus) and their standing stocks (biomass, nutrient pools)."
+            }
+          ]
+        },
+        {
+          "lesson": "Trophic levels",
+          "lesson_key": "trophic_levels",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Feeding-position categories (primary producers, primary/secondary/tertiary consumers, decomposers) used to summarize energy and matter transfer in food chains/webs."
+            }
+          ]
+        },
+        {
+          "lesson": "Food chains and food webs",
+          "lesson_key": "food_chains_and_food_webs",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Linear and network representations of who eats whom, capturing pathways of energy flow and interaction strengths among trophic levels."
+            }
+          ]
+        },
+        {
+          "lesson": "Trophic interactions",
+          "lesson_key": "trophic_interactions",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Effects among trophic levels including consumption, top-down control, bottom-up limitation, and indirect effects such as trophic cascades."
+            }
+          ]
+        },
+        {
+          "lesson": "Nutrient cycles (biogeochemical cycles)",
+          "lesson_key": "nutrient_cycles_biogeochemical_cycles",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Movement and transformation of elements (e.g., carbon, nitrogen, phosphorus) among atmosphere, hydrosphere, lithosphere, and biosphere through biological and abiotic processes."
+            }
+          ]
+        },
+        {
+          "lesson": "Primary productivity",
+          "lesson_key": "primary_productivity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Rate at which autotrophs fix carbon into organic matter; includes gross primary productivity (GPP) and net primary productivity (NPP)."
+            }
+          ]
+        },
+        {
+          "lesson": "Secondary productivity",
+          "lesson_key": "secondary_productivity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Rate at which heterotrophs convert assimilated energy into new biomass (growth and reproduction) at consumer trophic levels."
+            }
+          ]
+        },
+        {
+          "lesson": "Energy flow vs nutrient cycling",
+          "lesson_key": "energy_flow_vs_nutrient_cycling",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Energy flows one-way through ecosystems (with losses as heat), while nutrients cycle among pools and are conserved in matter transformations."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecological efficiency and trophic transfer efficiency",
+          "lesson_key": "ecological_efficiency_and_trophic_transfer_efficiency",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Fraction of energy/biomass transferred between trophic levels, often summarized conceptually as ∼10% but variable by system and trophic pathway."
+            }
+          ]
+        },
+        {
+          "lesson": "Detrital pathway and decomposition",
+          "lesson_key": "detrital_pathway_and_decomposition",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Transfer of organic matter to detritus and decomposers; major route of energy and nutrient recycling in many ecosystems."
+            }
+          ]
+        },
+        {
+          "lesson": "Stoichiometry and nutrient limitation",
+          "lesson_key": "stoichiometry_and_nutrient_limitation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Elemental ratios (e.g., C:N:P) shaping nutrient demand, limitation, and consumer-resource interactions."
+            }
+          ]
+        },
+        {
+          "lesson": "Mineralization and immobilization",
+          "lesson_key": "mineralization_and_immobilization",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Microbial conversion of organic nutrients to inorganic forms (mineralization) versus uptake and incorporation into biomass (immobilization)."
+            }
+          ]
+        },
+        {
+          "lesson": "Nitrogen transformations",
+          "lesson_key": "nitrogen_transformations",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Key processes such as fixation, nitrification, assimilation, ammonification, and denitrification linking biology to N availability."
+            }
+          ]
+        },
+        {
+          "lesson": "Phosphorus cycle characteristics",
+          "lesson_key": "phosphorus_cycle_characteristics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Sedimentary-dominated cycle with no major atmospheric gaseous phase, often making P limiting on long timescales."
+            }
+          ]
+        },
+        {
+          "lesson": "Bottom-up vs top-down control",
+          "lesson_key": "bottom_up_vs_top_down_control",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Resource-driven limitation of higher trophic levels versus predator-driven regulation of lower trophic levels and cascades."
+            }
+          ]
+        },
+        {
+          "lesson": "Standing crop and turnover",
+          "lesson_key": "standing_crop_and_turnover",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Biomass present at a given time versus rate of production; systems can have low biomass but high turnover (e.g., plankton)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "History of Evolutionary Thought",
+      "topic_key": "history_of_evolutionary_thought",
+      "lessons": [
+        {
+          "lesson": "Lamarckism",
+          "lesson_key": "lamarckism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Early evolutionary framework emphasizing use and disuse, inheritance of acquired characters, and progressive complexity; historical significance and limitations."
+            }
+          ]
+        },
+        {
+          "lesson": "Darwinism",
+          "lesson_key": "darwinism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Evolution by natural selection and common descent; key postulates, evidences used by Darwin, and how variation and selection generate adaptation."
+            }
+          ]
+        },
+        {
+          "lesson": "Modern Synthesis (Neo-Darwinism)",
+          "lesson_key": "modern_synthesis_neo_darwinism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Integration of Mendelian genetics with natural selection; population genetics foundations explaining microevolution and links to macroevolutionary patterns."
+            }
+          ]
+        },
+        {
+          "lesson": "Comparative analysis of evolutionary theories",
+          "lesson_key": "comparative_analysis_of_evolutionary_theories",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Point-by-point comparison of mechanisms, sources of variation, inheritance models, and explanatory power across Lamarckism, Darwinism, and Modern Synthesis."
+            }
+          ]
+        },
+        {
+          "lesson": "Mendelian genetics",
+          "lesson_key": "mendelian_genetics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Segregation and independent assortment as the particulate inheritance model missing in early Darwinism and central to the Modern Synthesis."
+            }
+          ]
+        },
+        {
+          "lesson": "Weismann barrier and germplasm theory",
+          "lesson_key": "weismann_barrier_and_germplasm_theory",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Conceptual refutation of inheritance of acquired characters; distinction between soma and germ line."
+            }
+          ]
+        },
+        {
+          "lesson": "Population genetics basics",
+          "lesson_key": "population_genetics_basics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Allele frequencies, genotype frequencies, Hardy–Weinberg equilibrium, and evolutionary forces as synthesis tools."
+            }
+          ]
+        },
+        {
+          "lesson": "Variation and mutation",
+          "lesson_key": "variation_and_mutation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mutation as an ultimate source of novel alleles; recombination reshuffles variation for selection to act upon."
+            }
+          ]
+        },
+        {
+          "lesson": "Adaptation and fitness",
+          "lesson_key": "adaptation_and_fitness",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Fitness as differential reproductive success; adaptation as a population-level outcome, not an individual intention."
+            }
+          ]
+        },
+        {
+          "lesson": "Selection types",
+          "lesson_key": "selection_types",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Directional, stabilizing, disruptive selection and their expected effects on trait distributions."
+            }
+          ]
+        },
+        {
+          "lesson": "Genetic drift and gene flow",
+          "lesson_key": "genetic_drift_and_gene_flow",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Non-adaptive evolution via sampling effects; migration homogenizes populations and can counter local selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Speciation overview",
+          "lesson_key": "speciation_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Reproductive isolation and divergence; how microevolutionary processes can scale to macroevolutionary change."
+            }
+          ]
+        },
+        {
+          "lesson": "Evidence for evolution (historical context)",
+          "lesson_key": "evidence_for_evolution_historical_context",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Biogeography, fossils, homology, vestigiality, and comparative embryology as arguments in evolutionary debates."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Fundamentals",
+      "topic_key": "fundamentals",
+      "lessons": [
+        {
+          "lesson": "Variation",
+          "lesson_key": "variation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Phenotypic and genetic differences among individuals; continuous vs discontinuous variation; standing variation vs new mutation as substrates for evolution."
+            }
+          ]
+        },
+        {
+          "lesson": "Heritability",
+          "lesson_key": "heritability",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Quantifying the genetic contribution to phenotypic variance; broad-sense and narrow-sense heritability; implications and limitations for predicting response to selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Natural selection",
+          "lesson_key": "natural_selection",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Non-random differential survival and reproduction among heritable variants; selection acts on phenotypes but changes allele frequencies in populations."
+            }
+          ]
+        },
+        {
+          "lesson": "Fitness",
+          "lesson_key": "fitness",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Relative reproductive success; absolute vs relative fitness; components (viability, mating success, fecundity) and context dependence."
+            }
+          ]
+        },
+        {
+          "lesson": "Adaptation",
+          "lesson_key": "adaptation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "A heritable trait shaped by selection that increases fitness in a specific environment; distinguishing adaptation (process/trait) from acclimation and from 'beneficial' in all contexts."
+            }
+          ]
+        },
+        {
+          "lesson": "Types of selection",
+          "lesson_key": "types_of_selection",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Stabilizing, directional, and disruptive selection; expected changes in mean and variance of traits and consequences for polymorphism."
+            }
+          ]
+        },
+        {
+          "lesson": "Genotype–phenotype map",
+          "lesson_key": "genotype_phenotype_map",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How alleles produce phenotypes via development; dominance, epistasis, and pleiotropy affect observed variation and selection response."
+            }
+          ]
+        },
+        {
+          "lesson": "Phenotypic plasticity",
+          "lesson_key": "phenotypic_plasticity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Environmentally induced phenotypic change; reaction norms; can mimic genetic adaptation but does not necessarily change allele frequencies."
+            }
+          ]
+        },
+        {
+          "lesson": "Sources of genetic variation",
+          "lesson_key": "sources_of_genetic_variation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mutation, recombination, gene flow, and standing genetic variation; why selection cannot create variation."
+            }
+          ]
+        },
+        {
+          "lesson": "Quantitative genetics",
+          "lesson_key": "quantitative_genetics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Polygenic traits, normal distributions, and selection on continuous traits; selection differential and response to selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Hardy–Weinberg baseline",
+          "lesson_key": "hardy_weinberg_baseline",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Null model for allele/genotype frequencies; helps detect selection and other evolutionary forces."
+            }
+          ]
+        },
+        {
+          "lesson": "Trade-offs and constraints",
+          "lesson_key": "trade_offs_and_constraints",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Costs of traits, antagonistic pleiotropy, and genetic correlations; why 'optimal' phenotypes are not always achieved."
+            }
+          ]
+        },
+        {
+          "lesson": "Selection coefficients and selection gradients",
+          "lesson_key": "selection_coefficients_and_selection_gradients",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Ways to quantify selection intensity on genotypes/phenotypes; interpreting sign and magnitude."
+            }
+          ]
+        },
+        {
+          "lesson": "Inclusive fitness (high-level)",
+          "lesson_key": "inclusive_fitness_high_level",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Fitness can include effects on relatives; useful for interpreting adaptation in social contexts (overview only)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Diversity of Life",
+      "topic_key": "diversity_of_life",
+      "lessons": [
+        {
+          "lesson": "Origin of life (abiogenesis) — overview",
+          "lesson_key": "origin_of_life_abiogenesis_overview",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Major hypotheses and evidence for how life may have arisen from prebiotic chemistry; key transition from chemistry to heredity and metabolism (conceptual, exam-relevant)."
+            }
+          ]
+        },
+        {
+          "lesson": "Early evolution and history of life on Earth",
+          "lesson_key": "early_evolution_and_history_of_life_on_earth",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Major geological and biological milestones (early Earth conditions, first cells, oxygenation, eukaryotes, multicellularity, major radiations and extinctions) and how we infer them."
+            }
+          ]
+        },
+        {
+          "lesson": "Diversity of life",
+          "lesson_key": "diversity_of_life",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Patterns and drivers of biological diversity across major lineages; what 'diversity' means (taxonomic, phylogenetic, functional) in an evolutionary context."
+            }
+          ]
+        },
+        {
+          "lesson": "Classification and taxonomy",
+          "lesson_key": "classification_and_taxonomy",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Principles of naming and grouping organisms; taxonomic ranks, characters used, and what makes a classification informative."
+            }
+          ]
+        },
+        {
+          "lesson": "Cladistics (phylogenetic systematics)",
+          "lesson_key": "cladistics_phylogenetic_systematics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Classification based on common ancestry using synapomorphies; monophyly, paraphyly, polyphyly; reading and interpreting cladograms."
+            }
+          ]
+        },
+        {
+          "lesson": "Phenetics (numerical taxonomy)",
+          "lesson_key": "phenetics_numerical_taxonomy",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Classification based on overall similarity using many characters and distance/cluster methods; strengths, limitations, and contrasts with phylogenetic approaches."
+            }
+          ]
+        },
+        {
+          "lesson": "Comparing classification systems",
+          "lesson_key": "comparing_classification_systems",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How cladistics and phenetics treat characters, similarity, and evolutionary interpretation; when each can mislead and how to evaluate outputs."
+            }
+          ]
+        },
+        {
+          "lesson": "Geological time scale",
+          "lesson_key": "geological_time_scale",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Eons/eras/periods relevant to life history (Archean, Proterozoic, Phanerozoic; Cambrian, Permian, Cretaceous) and approximate ordering."
+            }
+          ]
+        },
+        {
+          "lesson": "Endosymbiotic theory",
+          "lesson_key": "endosymbiotic_theory",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Origin of mitochondria and chloroplasts; key evidence and evolutionary significance."
+            }
+          ]
+        },
+        {
+          "lesson": "Great Oxidation Event and oxygenation",
+          "lesson_key": "great_oxidation_event_and_oxygenation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Rise of oxygen, consequences for metabolism, and enabling complex life."
+            }
+          ]
+        },
+        {
+          "lesson": "Fossil record and dating",
+          "lesson_key": "fossil_record_and_dating",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Relative vs radiometric dating; what fossils preserve and biases; how fossils calibrate evolutionary timelines."
+            }
+          ]
+        },
+        {
+          "lesson": "Molecular phylogenetics (overview)",
+          "lesson_key": "molecular_phylogenetics_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Using DNA/protein sequences as characters; why molecules are powerful for deep divergences and cryptic diversity."
+            }
+          ]
+        },
+        {
+          "lesson": "Homology vs analogy",
+          "lesson_key": "homology_vs_analogy",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Distinguishing shared ancestry from convergence; central to character selection in cladistics."
+            }
+          ]
+        },
+        {
+          "lesson": "Character states and polarity",
+          "lesson_key": "character_states_and_polarity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Ancestral vs derived traits; outgroup comparison for rooting and inferring synapomorphies."
+            }
+          ]
+        },
+        {
+          "lesson": "Tree thinking",
+          "lesson_key": "tree_thinking",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Interpreting nodes, sister taxa, clades, and branch patterns; common mistakes (reading tips as 'more advanced')."
+            }
+          ]
+        },
+        {
+          "lesson": "Species concepts (overview)",
+          "lesson_key": "species_concepts_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Biological, morphological, phylogenetic concepts; relevance to classification and diversity estimates."
+            }
+          ]
+        },
+        {
+          "lesson": "Horizontal gene transfer (HGT)",
+          "lesson_key": "horizontal_gene_transfer_hgt",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Reticulate evolution in prokaryotes complicating tree-like classification; implications for early life and deep phylogeny."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Life History Strategies",
+      "topic_key": "life_history_strategies",
+      "lessons": [
+        {
+          "lesson": "Life-history strategies (framework)",
+          "lesson_key": "life_history_strategies_framework",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Integrated schedules of growth, reproduction, and survival shaped by natural selection under ecological constraints; comparisons across species and environments."
+            }
+          ]
+        },
+        {
+          "lesson": "Resource allocation",
+          "lesson_key": "resource_allocation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Partitioning limited energy/time among maintenance, growth, storage, and reproduction; allocation decisions determine life-history traits such as age at maturity and fecundity."
+            }
+          ]
+        },
+        {
+          "lesson": "Trade-offs",
+          "lesson_key": "trade_offs",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Fitness costs arising because improving one life-history trait reduces another (e.g., current vs future reproduction, number vs size of offspring)."
+            }
+          ]
+        },
+        {
+          "lesson": "r/K selection (classic heuristic)",
+          "lesson_key": "r_k_selection_classic_heuristic",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Contrasting selection in low-density/unstable vs high-density/competitive environments; what it predicts and why it is considered a simplification."
+            }
+          ]
+        },
+        {
+          "lesson": "Semelparity",
+          "lesson_key": "semelparity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Single reproductive episode followed by death; favored when adult survival after reproduction is low or when a large one-time reproductive effort yields high fitness."
+            }
+          ]
+        },
+        {
+          "lesson": "Iteroparity",
+          "lesson_key": "iteroparity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Multiple reproductive episodes across lifetime; favored when adult survival is sufficiently high and spreading reproduction reduces risk across variable environments."
+            }
+          ]
+        },
+        {
+          "lesson": "Comparing parity modes",
+          "lesson_key": "comparing_parity_modes",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How ecology (mortality, seasonality, predictability) and physiology constrain whether semelparity or iteroparity evolves."
+            }
+          ]
+        },
+        {
+          "lesson": "Fitness components and reproductive value",
+          "lesson_key": "fitness_components_and_reproductive_value",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Age-specific survival and fecundity determine fitness; reproductive value links timing of reproduction to selection strength."
+            }
+          ]
+        },
+        {
+          "lesson": "Cost of reproduction",
+          "lesson_key": "cost_of_reproduction",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Physiological and ecological costs of reproduction reducing survival or future fecundity; central empirical support for trade-offs."
+            }
+          ]
+        },
+        {
+          "lesson": "Age at first reproduction",
+          "lesson_key": "age_at_first_reproduction",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Early vs delayed maturity as an allocation outcome; influenced by mortality risk and growth benefits."
+            }
+          ]
+        },
+        {
+          "lesson": "Offspring size–number trade-off",
+          "lesson_key": "offspring_size_number_trade_off",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Smith–Fretwell logic: optimal offspring size under diminishing returns and resource limits."
+            }
+          ]
+        },
+        {
+          "lesson": "Bet-hedging (overview)",
+          "lesson_key": "bet_hedging_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Strategies that reduce variance in reproductive success across unpredictable environments, potentially favoring iteroparity or variable clutch sizes."
+            }
+          ]
+        },
+        {
+          "lesson": "Density dependence",
+          "lesson_key": "density_dependence",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How population density affects survival/fecundity; connects directly to classic r/K reasoning."
+            }
+          ]
+        },
+        {
+          "lesson": "Environmental stochasticity",
+          "lesson_key": "environmental_stochasticity",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Unpredictable variation affecting survival and reproduction; key driver of spreading reproductive effort over time."
+            }
+          ]
+        },
+        {
+          "lesson": "Phenotypic plasticity in life histories",
+          "lesson_key": "phenotypic_plasticity_in_life_histories",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Condition-dependent allocation and flexible reproductive schedules; reaction norms for age/size at maturity."
+            }
+          ]
+        },
+        {
+          "lesson": "Survivorship curves",
+          "lesson_key": "survivorship_curves",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Type I/II/III curves and their relation to life-history patterns and juvenile vs adult mortality."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Interactions",
+      "topic_key": "interactions",
+      "lessons": [
+        {
+          "lesson": "Coevolution",
+          "lesson_key": "coevolution",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Reciprocal evolutionary change in interacting species driven by natural selection imposed by each on the other; requires heritable variation and consistent interaction."
+            }
+          ]
+        },
+        {
+          "lesson": "Co-adaptations",
+          "lesson_key": "co_adaptations",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Matched traits in interacting species that increase fitness in the interaction context (e.g., flower–pollinator trait matching); distinguishing adaptation from mere correlation."
+            }
+          ]
+        },
+        {
+          "lesson": "Evolutionary arms race",
+          "lesson_key": "evolutionary_arms_race",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Escalating reciprocal adaptations and counter-adaptations (offense/defense) often producing rapid trait evolution and strong selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Red Queen hypothesis",
+          "lesson_key": "red_queen_hypothesis",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Continuous evolution is required to maintain relative fitness in a biotic environment that is itself evolving; commonly applied to host–parasite and predator–prey dynamics."
+            }
+          ]
+        },
+        {
+          "lesson": "Cospeciation",
+          "lesson_key": "cospeciation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Parallel speciation of interacting lineages producing congruent phylogenies; typical in tight host–symbiont/parasite associations; recognizing alternative causes of congruence."
+            }
+          ]
+        },
+        {
+          "lesson": "Predator–prey interactions (evolutionary outcomes)",
+          "lesson_key": "predator_prey_interactions_evolutionary_outcomes",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Selection generated by predation risk and prey defenses shaping behavior, morphology, life history, and predator counter-strategies."
+            }
+          ]
+        },
+        {
+          "lesson": "Crypsis (camouflage)",
+          "lesson_key": "crypsis_camouflage",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Traits that reduce detection by predators or prey via background matching, disruptive coloration, or masquerade; effectiveness depends on environment and predator perception."
+            }
+          ]
+        },
+        {
+          "lesson": "Mimicry",
+          "lesson_key": "mimicry",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Resemblance to another organism/object affecting predator behavior; major forms include Batesian, Müllerian, and aggressive mimicry."
+            }
+          ]
+        },
+        {
+          "lesson": "Host–parasite coevolution",
+          "lesson_key": "host_parasite_coevolution",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "High-intensity reciprocal selection; antigenic variation, immune gene diversity, and negative frequency-dependent selection (conceptual)."
+            }
+          ]
+        },
+        {
+          "lesson": "Geographic mosaic theory of coevolution",
+          "lesson_key": "geographic_mosaic_theory_of_coevolution",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Coevolution varies across landscapes with hotspots/coldspots, gene flow, and local adaptation."
+            }
+          ]
+        },
+        {
+          "lesson": "Frequency-dependent selection",
+          "lesson_key": "frequency_dependent_selection",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Fitness depends on trait frequency; central to mimicry dynamics and Red Queen cycles."
+            }
+          ]
+        },
+        {
+          "lesson": "Aposematism",
+          "lesson_key": "aposematism",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Warning coloration signaling unprofitability; often underpins mimicry systems."
+            }
+          ]
+        },
+        {
+          "lesson": "Behavioral ecology of predation",
+          "lesson_key": "behavioral_ecology_of_predation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Optimal foraging, vigilance, and escape behavior; links ecology to evolutionary consequences."
+            }
+          ]
+        },
+        {
+          "lesson": "Sensory ecology",
+          "lesson_key": "sensory_ecology",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Predator sensory biases and perception shape which defensive signals (crypsis/aposematism/mimicry) evolve."
+            }
+          ]
+        },
+        {
+          "lesson": "Phylogenetic congruence tests (overview)",
+          "lesson_key": "phylogenetic_congruence_tests_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Comparing host and associate trees; distinguishing cospeciation from host switching, duplication, and sorting events."
+            }
+          ]
+        },
+        {
+          "lesson": "Constraints and trade-offs in defenses",
+          "lesson_key": "constraints_and_trade_offs_in_defenses",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Costs of toxins, armor, vigilance, or coloration; defenses can reduce growth or reproduction."
+            }
+          ]
+        },
+        {
+          "lesson": "Community context",
+          "lesson_key": "community_context",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Third-party species can mediate coevolution (e.g., predators shaping mimicry rings; alternative hosts altering parasite evolution)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Population and Quantitative Genetics",
+      "topic_key": "population_and_quantitative_genetics",
+      "lessons": [
+        {
+          "lesson": "Origins of genetic variation",
+          "lesson_key": "origins_of_genetic_variation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Mutation as the ultimate source of new alleles; recombination and segregation reshuffle existing variants; gene flow introduces alleles among populations."
+            }
+          ]
+        },
+        {
+          "lesson": "Mendelian genetics (population context)",
+          "lesson_key": "mendelian_genetics_population_context",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Particulate inheritance, genotype formation via segregation/independent assortment; genotype–phenotype relationships (dominance) relevant to allele-frequency change."
+            }
+          ]
+        },
+        {
+          "lesson": "Hardy–Weinberg equilibrium (HWE)",
+          "lesson_key": "hardy_weinberg_equilibrium_hwe",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Null model linking allele frequencies to genotype frequencies under random mating and no evolutionary forces; used to detect selection, drift, gene flow, or nonrandom mating."
+            }
+          ]
+        },
+        {
+          "lesson": "Genetic drift",
+          "lesson_key": "genetic_drift",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Random allele-frequency change due to finite population size; stronger in small populations; leads to fixation/loss and reduced heterozygosity."
+            }
+          ]
+        },
+        {
+          "lesson": "Selection in a one-locus two-allele model",
+          "lesson_key": "selection_in_a_one_locus_two_allele_model",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Deterministic allele-frequency change driven by genotype fitness differences; dominance affects dynamics; equilibrium vs fixation outcomes."
+            }
+          ]
+        },
+        {
+          "lesson": "Panmixia",
+          "lesson_key": "panmixia",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Random mating within a population; absence of structure in mating patterns; a key assumption for HWE within a defined population."
+            }
+          ]
+        },
+        {
+          "lesson": "Gene flow (migration)",
+          "lesson_key": "gene_flow_migration",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Movement of alleles among populations; tends to homogenize allele frequencies and counteract local selection and drift."
+            }
+          ]
+        },
+        {
+          "lesson": "Population genetic structure",
+          "lesson_key": "population_genetic_structure",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Non-random distribution of genetic variation among subpopulations; described by differentiation measures and explained by drift, migration, and history."
+            }
+          ]
+        },
+        {
+          "lesson": "Fixation index \\(F_{ST}\\)",
+          "lesson_key": "fixation_index_f__st",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Quantifies genetic differentiation among populations; interpretation as relative reduction of heterozygosity due to structure; links to gene flow (conceptual)."
+            }
+          ]
+        },
+        {
+          "lesson": "Polygenic (quantitative) traits",
+          "lesson_key": "polygenic_quantitative_traits",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Traits influenced by many loci and environment; continuous distributions; response to selection explained by quantitative genetics."
+            }
+          ]
+        },
+        {
+          "lesson": "Gene–environment interaction (G×E)",
+          "lesson_key": "gene_environment_interaction_g_e",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Genotype effects depend on environment; reaction norms; central to phenotypic plasticity and to interpreting heritability."
+            }
+          ]
+        },
+        {
+          "lesson": "Phenotypic plasticity",
+          "lesson_key": "phenotypic_plasticity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Environmentally induced phenotypic change within a genotype; adaptive vs non-adaptive plasticity; implications for selection and evolution."
+            }
+          ]
+        },
+        {
+          "lesson": "Heritability (quantitative genetics)",
+          "lesson_key": "heritability_quantitative_genetics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Proportion of phenotypic variance attributable to genetic variance; broad-sense \\(H^2\\) and narrow-sense \\(h^2\\); predicts response to selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Allele and genotype frequencies",
+          "lesson_key": "allele_and_genotype_frequencies",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Counting alleles/genotypes; converting between frequencies; foundational for HWE, drift, selection, and \\(F\\)-statistics."
+            }
+          ]
+        },
+        {
+          "lesson": "Effective population size \\(N_e\\)",
+          "lesson_key": "effective_population_size_n_e",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Drift is governed by \\(N_e\\) rather than census size; affected by sex ratio, variance in reproductive success, and bottlenecks."
+            }
+          ]
+        },
+        {
+          "lesson": "Inbreeding and assortative mating",
+          "lesson_key": "inbreeding_and_assortative_mating",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Violations of random mating; increase homozygosity without changing allele frequencies (directly)."
+            }
+          ]
+        },
+        {
+          "lesson": "Mutation–selection balance (overview)",
+          "lesson_key": "mutation_selection_balance_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How deleterious alleles can persist when mutation introduces them and selection removes them."
+            }
+          ]
+        },
+        {
+          "lesson": "Bottleneck and founder effects",
+          "lesson_key": "bottleneck_and_founder_effects",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Special cases of drift producing reduced diversity and shifted allele frequencies."
+            }
+          ]
+        },
+        {
+          "lesson": "Linkage disequilibrium (LD) (overview)",
+          "lesson_key": "linkage_disequilibrium_ld_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Non-random association of alleles across loci; shaped by recombination, selection, drift, and admixture."
+            }
+          ]
+        },
+        {
+          "lesson": "Additive, dominance, and epistatic variance",
+          "lesson_key": "additive_dominance_and_epistatic_variance",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Variance components underlying \\(h^2\\) and \\(H^2\\); why additive variance drives predictable response to selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Breeder’s equation",
+          "lesson_key": "breeder_s_equation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Response to selection \\(R = h^2 S\\) linking selection differential to evolutionary change in the mean of a trait."
+            }
+          ]
+        },
+        {
+          "lesson": "Common garden and reciprocal transplant",
+          "lesson_key": "common_garden_and_reciprocal_transplant",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Experimental designs to separate genetic effects, environment, and plasticity in trait variation."
+            }
+          ]
+        },
+        {
+          "lesson": "Reaction norms",
+          "lesson_key": "reaction_norms",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Phenotype vs environment curves for genotypes; central representation of plasticity and G×E."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Molecular Evolution and Phylogenetics",
+      "topic_key": "molecular_evolution_and_phylogenetics",
+      "lessons": [
+        {
+          "lesson": "Neutral theory of molecular evolution",
+          "lesson_key": "neutral_theory_of_molecular_evolution",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Most molecular substitutions are selectively neutral (or nearly neutral) and fixed by drift; distinguishes molecular evolution patterns from phenotypic adaptation."
+            }
+          ]
+        },
+        {
+          "lesson": "Nearly neutral theory (exam-relevant extension)",
+          "lesson_key": "nearly_neutral_theory_exam_relevant_extension",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Many mutations have very small effects; the boundary between drift and selection depends on effective population size \\(N_e\\)."
+            }
+          ]
+        },
+        {
+          "lesson": "Molecular clocks",
+          "lesson_key": "molecular_clocks",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Using approximate constancy of substitution rates to estimate divergence times; calibration requirements and reasons clocks deviate from strict constancy."
+            }
+          ]
+        },
+        {
+          "lesson": "Rates of evolution",
+          "lesson_key": "rates_of_evolution",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Distinguishing mutation rate vs substitution rate; factors affecting rates across genes, lineages, and sites (constraints, generation time, repair, selection)."
+            }
+          ]
+        },
+        {
+          "lesson": "Phylogenetic reconstruction",
+          "lesson_key": "phylogenetic_reconstruction",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Inferring evolutionary relationships from character data (often sequences); tree components, rooting, and choosing optimal trees under explicit criteria/models."
+            }
+          ]
+        },
+        {
+          "lesson": "Molecular systematics",
+          "lesson_key": "molecular_systematics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Using molecular data to delimit species, infer relationships, test monophyly, and revise classification; integrating molecular and morphological evidence."
+            }
+          ]
+        },
+        {
+          "lesson": "Genetic drift and fixation",
+          "lesson_key": "genetic_drift_and_fixation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Fixation probability and time under drift; why neutral substitutions accumulate approximately linearly with time."
+            }
+          ]
+        },
+        {
+          "lesson": "Effective population size \\(N_e\\)",
+          "lesson_key": "effective_population_size_n_e",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Determines strength of drift; key parameter in nearly neutral theory and rate variation among lineages."
+            }
+          ]
+        },
+        {
+          "lesson": "Synonymous vs nonsynonymous substitutions",
+          "lesson_key": "synonymous_vs_nonsynonymous_substitutions",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Coding-sequence changes with different selection regimes; basis for \\(d_N/d_S\\) interpretation."
+            }
+          ]
+        },
+        {
+          "lesson": "Purifying selection and constraint",
+          "lesson_key": "purifying_selection_and_constraint",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Removal of deleterious mutations slows substitution; strong driver of rate heterogeneity across sites and genes."
+            }
+          ]
+        },
+        {
+          "lesson": "Positive selection (molecular signatures)",
+          "lesson_key": "positive_selection_molecular_signatures",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Episodes of adaptive substitution; conceptual link to elevated nonsynonymous changes in specific contexts."
+            }
+          ]
+        },
+        {
+          "lesson": "Multiple sequence alignment (MSA)",
+          "lesson_key": "multiple_sequence_alignment_msa",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Homology statement at the nucleotide/amino-acid level; alignment quality strongly affects tree inference."
+            }
+          ]
+        },
+        {
+          "lesson": "Models of sequence evolution",
+          "lesson_key": "models_of_sequence_evolution",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Substitution models (e.g., Jukes–Cantor, K2P, GTR) and rate heterogeneity (gamma, invariant sites) as foundations for likelihood/Bayesian inference."
+            }
+          ]
+        },
+        {
+          "lesson": "Distance methods",
+          "lesson_key": "distance_methods",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Neighbor-joining/UPGMA concepts; how distances are computed and what assumptions they embed (e.g., ultrametricity)."
+            }
+          ]
+        },
+        {
+          "lesson": "Parsimony, maximum likelihood, Bayesian inference",
+          "lesson_key": "parsimony_maximum_likelihood_bayesian_inference",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Three major inference paradigms; trade-offs, assumptions, and typical outputs (trees, support values)."
+            }
+          ]
+        },
+        {
+          "lesson": "Support and uncertainty",
+          "lesson_key": "support_and_uncertainty",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Bootstrapping, posterior probabilities, and why 'a tree' is a hypothesis with uncertainty."
+            }
+          ]
+        },
+        {
+          "lesson": "Rooting and outgroups",
+          "lesson_key": "rooting_and_outgroups",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Determining direction of evolution; pitfalls when outgroups are too distant (long-branch attraction)."
+            }
+          ]
+        },
+        {
+          "lesson": "Gene trees vs species trees",
+          "lesson_key": "gene_trees_vs_species_trees",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Discordance due to incomplete lineage sorting, introgression, and gene duplication/loss; implications for molecular systematics."
+            }
+          ]
+        },
+        {
+          "lesson": "Orthology vs paralogy",
+          "lesson_key": "orthology_vs_paralogy",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Correct identification of homolog types is essential; paralogs can mislead phylogeny if treated as orthologs."
+            }
+          ]
+        },
+        {
+          "lesson": "Long-branch attraction (LBA)",
+          "lesson_key": "long_branch_attraction_lba",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Systematic error where fast-evolving lineages cluster incorrectly; mitigated by better models and sampling."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Macroevolution",
+      "topic_key": "macroevolution",
+      "lessons": [
+        {
+          "lesson": "Macroevolution (scope and patterns)",
+          "lesson_key": "macroevolution_scope_and_patterns",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Evolutionary change at and above the species level, including speciation, extinction, and large-scale patterns such as radiations, convergence, and geographic diversification."
+            }
+          ]
+        },
+        {
+          "lesson": "Species concepts",
+          "lesson_key": "species_concepts",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Alternative criteria for delimiting species (biological, morphological, phylogenetic, ecological) and the contexts where each works or fails."
+            }
+          ]
+        },
+        {
+          "lesson": "Speciation",
+          "lesson_key": "speciation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "The origin of new species via the evolution of reproductive isolation; links microevolutionary processes to macroevolutionary diversification."
+            }
+          ]
+        },
+        {
+          "lesson": "Reproductive isolation",
+          "lesson_key": "reproductive_isolation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Prezygotic and postzygotic barriers reducing gene flow; how barriers arise and strengthen through selection, drift, and incompatibilities."
+            }
+          ]
+        },
+        {
+          "lesson": "Adaptive radiation",
+          "lesson_key": "adaptive_radiation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Rapid diversification into multiple species accompanied by ecological and phenotypic divergence; often driven by ecological opportunity and key innovations."
+            }
+          ]
+        },
+        {
+          "lesson": "Convergent evolution",
+          "lesson_key": "convergent_evolution",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Independent evolution of similar traits in different lineages due to similar selective pressures; distinguishes similarity from common ancestry."
+            }
+          ]
+        },
+        {
+          "lesson": "Biogeography",
+          "lesson_key": "biogeography",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Geographic distributions of organisms shaped by dispersal, vicariance, extinction, and historical climate/geology; used to infer evolutionary history."
+            }
+          ]
+        },
+        {
+          "lesson": "Allopatric speciation",
+          "lesson_key": "allopatric_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Speciation via geographic isolation; divergence through drift and selection; barrier formation and secondary contact outcomes."
+            }
+          ]
+        },
+        {
+          "lesson": "Peripatric speciation",
+          "lesson_key": "peripatric_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Speciation in small peripheral isolates; strong drift and founder effects can accelerate divergence."
+            }
+          ]
+        },
+        {
+          "lesson": "Parapatric speciation",
+          "lesson_key": "parapatric_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Speciation with adjacent ranges and limited gene flow; divergence across environmental gradients."
+            }
+          ]
+        },
+        {
+          "lesson": "Sympatric speciation",
+          "lesson_key": "sympatric_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Speciation without geographic separation; requires strong disruptive selection and assortative mating; common via polyploidy in plants."
+            }
+          ]
+        },
+        {
+          "lesson": "Hybrid zones and reinforcement",
+          "lesson_key": "hybrid_zones_and_reinforcement",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Secondary contact regions; reinforcement strengthens prezygotic isolation when hybrids have reduced fitness."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecological speciation",
+          "lesson_key": "ecological_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Reproductive isolation evolves as a by-product of adaptation to different environments or niches."
+            }
+          ]
+        },
+        {
+          "lesson": "Sexual selection in speciation",
+          "lesson_key": "sexual_selection_in_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mate choice and signal divergence can drive rapid reproductive isolation."
+            }
+          ]
+        },
+        {
+          "lesson": "Dobzhansky–Muller incompatibilities (DMI)",
+          "lesson_key": "dobzhansky_muller_incompatibilities_dmi",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Postzygotic isolation via negative epistasis between diverged loci; explains hybrid sterility/inviability without requiring deleterious intermediates."
+            }
+          ]
+        },
+        {
+          "lesson": "Polyploid speciation",
+          "lesson_key": "polyploid_speciation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Instant reproductive isolation via chromosome duplication; auto- vs allopolyploidy; especially important in plants."
+            }
+          ]
+        },
+        {
+          "lesson": "Key innovations",
+          "lesson_key": "key_innovations",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Traits enabling exploitation of new niches and promoting radiations (context-dependent)."
+            }
+          ]
+        },
+        {
+          "lesson": "Character displacement",
+          "lesson_key": "character_displacement",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Trait divergence in sympatry due to competition; can contribute to ecological divergence and reproductive isolation."
+            }
+          ]
+        },
+        {
+          "lesson": "Homology vs convergence in phylogenies",
+          "lesson_key": "homology_vs_convergence_in_phylogenies",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Convergence creates homoplasy; affects character mapping and phylogenetic inference."
+            }
+          ]
+        },
+        {
+          "lesson": "Vicariance vs dispersal",
+          "lesson_key": "vicariance_vs_dispersal",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Two major explanations for disjunctions; vicariance from geological splitting, dispersal from range expansion."
+            }
+          ]
+        },
+        {
+          "lesson": "Island biogeography link (overview)",
+          "lesson_key": "island_biogeography_link_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Isolation and area influence diversification and endemism; connects geography to speciation and extinction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Mathematics and Statistics in Ecology",
+      "topic_key": "mathematics_and_statistics_in_ecology",
+      "lessons": [
+        {
+          "lesson": "Simple functions used in ecology",
+          "lesson_key": "simple_functions_used_in_ecology",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Linear, quadratic, exponential, logarithmic forms; interpreting parameters; reading and sketching graphs for ecological relationships."
+            }
+          ]
+        },
+        {
+          "lesson": "Derivatives and slope",
+          "lesson_key": "derivatives_and_slope",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Slope as rate of change; derivatives of basic functions; ecological meaning of marginal change and sensitivity."
+            }
+          ]
+        },
+        {
+          "lesson": "Permutations and combinations",
+          "lesson_key": "permutations_and_combinations",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Counting arrangements vs selections; factorial notation; linking counting to probability problems in sampling and community data."
+            }
+          ]
+        },
+        {
+          "lesson": "Basic probability",
+          "lesson_key": "basic_probability",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Random events; conditional probability; independence; sequences of events; addition and multiplication rules."
+            }
+          ]
+        },
+        {
+          "lesson": "Frequency distributions and descriptive statistics",
+          "lesson_key": "frequency_distributions_and_descriptive_statistics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Constructing frequency tables; mean and variance; standard deviation; coefficient of variation; covariance and correlation; interpretation for ecological datasets."
+            }
+          ]
+        },
+        {
+          "lesson": "Transformations and linearization",
+          "lesson_key": "transformations_and_linearization",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Log and exponential transformations; interpreting transformed axes; when linear models approximate nonlinear ecological processes."
+            }
+          ]
+        },
+        {
+          "lesson": "Units, scaling, and dimensional reasoning",
+          "lesson_key": "units_scaling_and_dimensional_reasoning",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Checking ecological plausibility; interpreting slopes and rates with correct units."
+            }
+          ]
+        },
+        {
+          "lesson": "Sampling concepts",
+          "lesson_key": "sampling_concepts",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Population vs sample; bias vs variance; why summary statistics vary among samples."
+            }
+          ]
+        },
+        {
+          "lesson": "Graphical summaries",
+          "lesson_key": "graphical_summaries",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Histograms, frequency polygons, and scatterplots; diagnosing outliers and nonlinearity visually."
+            }
+          ]
+        },
+        {
+          "lesson": "Covariance vs correlation",
+          "lesson_key": "covariance_vs_correlation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How standardization changes scale; limits of correlation for causation in ecology."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Statistical Hypothesis Testing",
+      "topic_key": "statistical_hypothesis_testing",
+      "lessons": [
+        {
+          "lesson": "Statistical hypotheses and p-values",
+          "lesson_key": "statistical_hypotheses_and_p_values",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Null vs alternative hypotheses; p-value as tail probability under the null model; significance level \\(\\alpha\\); interpretation pitfalls."
+            }
+          ]
+        },
+        {
+          "lesson": "Type I and Type II errors",
+          "lesson_key": "type_i_and_type_ii_errors",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "False positive vs false negative; role of \\(\\alpha\\) and \\(\\beta\\); power \\(1-\\beta\\); trade-offs in ecological decision-making."
+            }
+          ]
+        },
+        {
+          "lesson": "Test statistics and sampling distributions (working level)",
+          "lesson_key": "test_statistics_and_sampling_distributions_working_level",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How test statistics summarize evidence; dependence on sample size and variability; when normal/t/chi-square approximations are used."
+            }
+          ]
+        },
+        {
+          "lesson": "t-tests",
+          "lesson_key": "t_tests",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "One-sample, two-sample (independent), paired; assumptions; reading outputs (test statistic, df, p-value)."
+            }
+          ]
+        },
+        {
+          "lesson": "Chi-square tests",
+          "lesson_key": "chi_square_tests",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Goodness-of-fit and test of independence; expected counts; degrees of freedom; interpreting contingency tables."
+            }
+          ]
+        },
+        {
+          "lesson": "Linear regression (basics)",
+          "lesson_key": "linear_regression_basics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Simple linear model; least squares idea; slope/intercept meaning; \\(R^2\\); hypothesis test for slope; residuals."
+            }
+          ]
+        },
+        {
+          "lesson": "ANOVA (basics)",
+          "lesson_key": "anova_basics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Comparing group means; between- vs within-group variance; F-statistic; link to regression; one-way ANOVA fundamentals."
+            }
+          ]
+        },
+        {
+          "lesson": "Assumptions and diagnostics",
+          "lesson_key": "assumptions_and_diagnostics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Independence, normality (for residuals), homoscedasticity; why violations matter; quick graphical checks conceptually."
+            }
+          ]
+        },
+        {
+          "lesson": "Confidence intervals vs hypothesis tests",
+          "lesson_key": "confidence_intervals_vs_hypothesis_tests",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Relationship between \\(1-\\alpha\\) CI and two-sided tests; interpreting uncertainty."
+            }
+          ]
+        },
+        {
+          "lesson": "Effect size and practical significance",
+          "lesson_key": "effect_size_and_practical_significance",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Magnitude vs detectability; ecological relevance beyond p-values."
+            }
+          ]
+        },
+        {
+          "lesson": "Multiple comparisons (awareness level)",
+          "lesson_key": "multiple_comparisons_awareness_level",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Inflation of Type I error across many tests; basic idea of adjustment (no heavy procedures required)."
+            }
+          ]
+        },
+        {
+          "lesson": "Categorical vs continuous responses",
+          "lesson_key": "categorical_vs_continuous_responses",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Choosing chi-square for counts/categories vs t/ANOVA/regression for continuous outcomes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Classical Ethology",
+      "topic_key": "classical_ethology",
+      "lessons": [
+        {
+          "lesson": "Instinct",
+          "lesson_key": "instinct",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Innate, species-typical behaviors expressed without prior learning; genetic and developmental bases; adaptive value."
+            }
+          ]
+        },
+        {
+          "lesson": "Fixed action patterns (FAPs)",
+          "lesson_key": "fixed_action_patterns_faps",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Stereotyped, largely invariant behavioral sequences released by specific sign stimuli; role of innate releasing mechanisms."
+            }
+          ]
+        },
+        {
+          "lesson": "Imprinting",
+          "lesson_key": "imprinting",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Sensitive-period learning leading to long-lasting preferences (e.g., filial/sexual imprinting); mechanisms and evolutionary consequences."
+            }
+          ]
+        },
+        {
+          "lesson": "Learned behavior",
+          "lesson_key": "learned_behavior",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Behavior modified by experience (habituation, sensitization, associative learning); costs, constraints, and ecological relevance."
+            }
+          ]
+        },
+        {
+          "lesson": "Proximate vs ultimate questions",
+          "lesson_key": "proximate_vs_ultimate_questions",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Tinbergen-style explanation separating mechanism/development (proximate) from function/evolution (ultimate)."
+            }
+          ]
+        },
+        {
+          "lesson": "Sign stimuli (releasers)",
+          "lesson_key": "sign_stimuli_releasers",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "External cues that trigger FAPs; supernormal stimuli and their implications."
+            }
+          ]
+        },
+        {
+          "lesson": "Innate releasing mechanism (IRM)",
+          "lesson_key": "innate_releasing_mechanism_irm",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Neural/physiological control system proposed to detect sign stimuli and initiate FAPs."
+            }
+          ]
+        },
+        {
+          "lesson": "Sensitive/critical periods",
+          "lesson_key": "sensitive_critical_periods",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Developmental windows when imprinting and some learning processes are most effective."
+            }
+          ]
+        },
+        {
+          "lesson": "Habituation and sensitization",
+          "lesson_key": "habituation_and_sensitization",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Non-associative learning: decreased vs increased response with repeated exposure."
+            }
+          ]
+        },
+        {
+          "lesson": "Classical vs operant conditioning",
+          "lesson_key": "classical_vs_operant_conditioning",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Associative learning via stimulus-stimulus pairing vs behavior-consequence contingencies."
+            }
+          ]
+        },
+        {
+          "lesson": "Nature–nurture and reaction norms",
+          "lesson_key": "nature_nurture_and_reaction_norms",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Gene–environment interplay in behavioral expression and plasticity."
+            }
+          ]
+        },
+        {
+          "lesson": "Ethogram and behavioral measurement",
+          "lesson_key": "ethogram_and_behavioral_measurement",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Cataloging and quantifying behavior (frequency, duration, bout analysis) for hypothesis testing."
+            }
+          ]
+        },
+        {
+          "lesson": "Comparative method in ethology",
+          "lesson_key": "comparative_method_in_ethology",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Using cross-species patterns to infer function and evolutionary history of behaviors."
+            }
+          ]
+        },
+        {
+          "lesson": "Tinbergen’s four questions",
+          "lesson_key": "tinbergen_s_four_questions",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mechanism, ontogeny, function, phylogeny as a complete explanatory framework."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Sensory Ecology",
+      "topic_key": "sensory_ecology",
+      "lessons": [
+        {
+          "lesson": "Sensory ecology",
+          "lesson_key": "sensory_ecology",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How sensory systems acquire and process information in real environments; links among habitat physics, perception, and behavior."
+            }
+          ]
+        },
+        {
+          "lesson": "Neuroethology",
+          "lesson_key": "neuroethology",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Neural mechanisms of natural behavior; sensory-to-motor transformations; integrative study across levels (cells to circuits to behavior)."
+            }
+          ]
+        },
+        {
+          "lesson": "Animal communication",
+          "lesson_key": "animal_communication",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Signal production, transmission, reception, and response; costs, benefits, and reliability of signals."
+            }
+          ]
+        },
+        {
+          "lesson": "Chemical signaling",
+          "lesson_key": "chemical_signaling",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Pheromones and other infochemicals; odor plumes and contact cues; chemoreception and ecological constraints."
+            }
+          ]
+        },
+        {
+          "lesson": "Acoustic signaling",
+          "lesson_key": "acoustic_signaling",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Sound production and detection; propagation and degradation in habitats; signal design and masking noise."
+            }
+          ]
+        },
+        {
+          "lesson": "Visual signaling",
+          "lesson_key": "visual_signaling",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Color, brightness, pattern, motion; visual environment and receiver perception; contrast and conspicuousness."
+            }
+          ]
+        },
+        {
+          "lesson": "Recognition systems",
+          "lesson_key": "recognition_systems",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Mechanisms and rules for identifying mates, kin, rivals, prey, predators, and individuals; templates, learning, and decision thresholds."
+            }
+          ]
+        },
+        {
+          "lesson": "Signal vs cue",
+          "lesson_key": "signal_vs_cue",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Signals evolve for communication; cues provide information without being shaped for that function."
+            }
+          ]
+        },
+        {
+          "lesson": "Sender–receiver coevolution",
+          "lesson_key": "sender_receiver_coevolution",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Reciprocal adaptation in signal production and sensory processing; sensory exploitation and arms races."
+            }
+          ]
+        },
+        {
+          "lesson": "Honest signaling and signal reliability",
+          "lesson_key": "honest_signaling_and_signal_reliability",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Constraints and costs that maintain reliability; condition dependence; indices vs handicaps."
+            }
+          ]
+        },
+        {
+          "lesson": "Environmental transmission channels",
+          "lesson_key": "environmental_transmission_channels",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How air/water/vegetation/light conditions shape optimal signaling strategies."
+            }
+          ]
+        },
+        {
+          "lesson": "Noise and masking",
+          "lesson_key": "noise_and_masking",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Interference from abiotic/biotic background; impacts on detection and discrimination."
+            }
+          ]
+        },
+        {
+          "lesson": "Receiver psychology",
+          "lesson_key": "receiver_psychology",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Perceptual biases, attention, and decision rules shaping communication outcomes."
+            }
+          ]
+        },
+        {
+          "lesson": "Multimodal signaling",
+          "lesson_key": "multimodal_signaling",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Combining modalities (e.g., visual + acoustic) for redundancy or multiple messages."
+            }
+          ]
+        },
+        {
+          "lesson": "Self/non-self and kin recognition",
+          "lesson_key": "self_non_self_and_kin_recognition",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Phenotype matching, familiarity, spatial cues; inclusive-fitness consequences."
+            }
+          ]
+        },
+        {
+          "lesson": "Species recognition and reproductive isolation",
+          "lesson_key": "species_recognition_and_reproductive_isolation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Signal divergence and mate choice contributing to prezygotic isolation."
+            }
+          ]
+        },
+        {
+          "lesson": "Sensory drive hypothesis",
+          "lesson_key": "sensory_drive_hypothesis",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Environmental conditions shape sensory systems and signal traits, promoting matched evolution."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Foraging Ecology",
+      "topic_key": "foraging_ecology",
+      "lessons": [
+        {
+          "lesson": "Foraging behaviour",
+          "lesson_key": "foraging_behaviour",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Behavioral decisions involved in searching, choosing, capturing, handling, storing, and consuming food under ecological constraints."
+            }
+          ]
+        },
+        {
+          "lesson": "Optimal foraging theory (OFT)",
+          "lesson_key": "optimal_foraging_theory_oft",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Framework modeling foraging as decision-making that maximizes a fitness-related currency subject to constraints (time, energy, risk, information)."
+            }
+          ]
+        },
+        {
+          "lesson": "Energy/time budgets",
+          "lesson_key": "energy_time_budgets",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Allocation of time among searching, handling, resting, vigilance; links to intake rate and opportunity costs."
+            }
+          ]
+        },
+        {
+          "lesson": "Prey choice (diet breadth) model",
+          "lesson_key": "prey_choice_diet_breadth_model",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Selecting among prey types based on profitability and encounter rates to maximize long-term gain."
+            }
+          ]
+        },
+        {
+          "lesson": "Patch use and patch leaving",
+          "lesson_key": "patch_use_and_patch_leaving",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Decisions on how long to exploit a resource patch and when to move; diminishing returns and travel time."
+            }
+          ]
+        },
+        {
+          "lesson": "Marginal Value Theorem (MVT)",
+          "lesson_key": "marginal_value_theorem_mvt",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Rule for optimal patch departure when instantaneous intake rate drops to the habitat-average intake rate including travel time."
+            }
+          ]
+        },
+        {
+          "lesson": "Fitness currencies",
+          "lesson_key": "fitness_currencies",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Energy gain, net rate of intake, nutrient gain, reproductive value, or survival probability depending on context."
+            }
+          ]
+        },
+        {
+          "lesson": "Constraints and trade-offs",
+          "lesson_key": "constraints_and_trade_offs",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Handling limits, digestive constraints, competition, predation risk, time constraints, thermoregulation."
+            }
+          ]
+        },
+        {
+          "lesson": "Information and uncertainty",
+          "lesson_key": "information_and_uncertainty",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Imperfect knowledge of patch quality and prey availability; sampling, learning, and Bayesian updating ideas."
+            }
+          ]
+        },
+        {
+          "lesson": "Risk-sensitive foraging",
+          "lesson_key": "risk_sensitive_foraging",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Preference shifts when variance in reward affects survival or reproduction; starvation-avoidance logic."
+            }
+          ]
+        },
+        {
+          "lesson": "Central place foraging",
+          "lesson_key": "central_place_foraging",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Foraging constrained by returning to a nest/den; load size decisions and travel costs."
+            }
+          ]
+        },
+        {
+          "lesson": "Functional responses",
+          "lesson_key": "functional_responses",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "How intake rate changes with prey density; links between behavior (handling/search) and consumption rates."
+            }
+          ]
+        },
+        {
+          "lesson": "Giving-up density (GUD)",
+          "lesson_key": "giving_up_density_gud",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Remaining resource density at patch departure; used to infer perceived costs (predation, effort, missed opportunity)."
+            }
+          ]
+        },
+        {
+          "lesson": "Interference and exploitation competition",
+          "lesson_key": "interference_and_exploitation_competition",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Effects of conspecifics on encounter rates and handling; ideal free distribution connections."
+            }
+          ]
+        },
+        {
+          "lesson": "State-dependent foraging",
+          "lesson_key": "state_dependent_foraging",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Decisions depend on internal state (hunger, fat reserves, age, parasites) and future prospects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Reproduction",
+      "topic_key": "reproduction",
+      "lessons": [
+        {
+          "lesson": "Cost of sex",
+          "lesson_key": "cost_of_sex",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Fitness costs of sexual reproduction relative to asexuality (e.g., two-fold cost of males, costs of meiosis, mate finding, STIs), and the evolutionary benefits that can offset them."
+            }
+          ]
+        },
+        {
+          "lesson": "Sexual dimorphism",
+          "lesson_key": "sexual_dimorphism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Sex differences in morphology, behavior, physiology, and life history arising from sexual selection, fecundity selection, and ecological divergence."
+            }
+          ]
+        },
+        {
+          "lesson": "Mate choice",
+          "lesson_key": "mate_choice",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Non-random mating preferences and decision rules; choosiness vs sampling costs; direct and indirect benefits."
+            }
+          ]
+        },
+        {
+          "lesson": "Sexual selection",
+          "lesson_key": "sexual_selection",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Selection arising from variance in mating success; includes intra-sexual competition and inter-sexual choice."
+            }
+          ]
+        },
+        {
+          "lesson": "Runaway (Fisherian) selection",
+          "lesson_key": "runaway_fisherian_selection",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Positive feedback between female preference and male trait leading to exaggerated traits under certain genetic correlations."
+            }
+          ]
+        },
+        {
+          "lesson": "Good-genes sexual selection",
+          "lesson_key": "good_genes_sexual_selection",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Mate choice favors traits indicating heritable viability/quality; predicts offspring fitness benefits and condition dependence."
+            }
+          ]
+        },
+        {
+          "lesson": "Handicap principle",
+          "lesson_key": "handicap_principle",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Costly traits can be reliable signals of quality if costs are differentially affordable by high-quality individuals."
+            }
+          ]
+        },
+        {
+          "lesson": "Sexual conflict",
+          "lesson_key": "sexual_conflict",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Divergent reproductive interests between sexes leading to antagonistic coevolution (pre- and post-copulatory)."
+            }
+          ]
+        },
+        {
+          "lesson": "Mating systems",
+          "lesson_key": "mating_systems",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Patterns of mating and pair association (monogamy, polygyny, polyandry, promiscuity) shaped by ecology and parental investment."
+            }
+          ]
+        },
+        {
+          "lesson": "Parental care",
+          "lesson_key": "parental_care",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Any parental trait increasing offspring survival at a cost to parents; includes provisioning, guarding, incubation, and teaching."
+            }
+          ]
+        },
+        {
+          "lesson": "Anisogamy and Bateman’s principle",
+          "lesson_key": "anisogamy_and_bateman_s_principle",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Gamete size differences underpin sex roles; mating success variance often higher in the sex with lower parental investment."
+            }
+          ]
+        },
+        {
+          "lesson": "Operational sex ratio (OSR)",
+          "lesson_key": "operational_sex_ratio_osr",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Ratio of sexually active males to receptive females; predicts intensity of competition and mate choice."
+            }
+          ]
+        },
+        {
+          "lesson": "Parental investment theory (Trivers)",
+          "lesson_key": "parental_investment_theory_trivers",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "The sex investing more in offspring becomes choosier; the other competes more intensely."
+            }
+          ]
+        },
+        {
+          "lesson": "Sperm competition and cryptic female choice",
+          "lesson_key": "sperm_competition_and_cryptic_female_choice",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Post-copulatory sexual selection via ejaculate competition and female-mediated bias in fertilization."
+            }
+          ]
+        },
+        {
+          "lesson": "Alternative reproductive tactics",
+          "lesson_key": "alternative_reproductive_tactics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Sneaking, satellites, and conditional strategies; frequency-dependent selection and state dependence."
+            }
+          ]
+        },
+        {
+          "lesson": "Sex role reversal",
+          "lesson_key": "sex_role_reversal",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "When males provide more care and become choosier; often linked to OSR and ecology."
+            }
+          ]
+        },
+        {
+          "lesson": "Fecundity selection",
+          "lesson_key": "fecundity_selection",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Selection on traits increasing reproductive output (often female body size) distinct from sexual selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Life-history trade-offs",
+          "lesson_key": "life_history_trade_offs",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Current reproduction vs future survival/fecundity; clutch size vs offspring quality."
+            }
+          ]
+        },
+        {
+          "lesson": "Inclusive fitness and kin selection in care",
+          "lesson_key": "inclusive_fitness_and_kin_selection_in_care",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Helping and cooperative breeding explained by relatedness and indirect fitness benefits."
+            }
+          ]
+        },
+        {
+          "lesson": "Parent–offspring conflict",
+          "lesson_key": "parent_offspring_conflict",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Offspring demand exceeds parental optimum; leads to conflict over provisioning and weaning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Social Living",
+      "topic_key": "social_living",
+      "lessons": [
+        {
+          "lesson": "Group living (social living)",
+          "lesson_key": "group_living_social_living",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Persistent association of conspecifics; social structure ranging from loose aggregations to stable groups and societies."
+            }
+          ]
+        },
+        {
+          "lesson": "Costs and benefits of group living",
+          "lesson_key": "costs_and_benefits_of_group_living",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Trade-offs between survival/reproduction gains (e.g., predator avoidance, foraging efficiency) and costs (competition, disease, conflict)."
+            }
+          ]
+        },
+        {
+          "lesson": "Anti-predator benefits of groups",
+          "lesson_key": "anti_predator_benefits_of_groups",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Mechanisms including dilution, many-eyes vigilance, confusion, and collective defense; shapes group size and cohesion."
+            }
+          ]
+        },
+        {
+          "lesson": "Competition and group formation",
+          "lesson_key": "competition_and_group_formation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "How resource competition determines whether grouping is favored and sets optimal group size; resource distribution is key."
+            }
+          ]
+        },
+        {
+          "lesson": "Scramble competition",
+          "lesson_key": "scramble_competition",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Exploitation competition; individuals cannot exclude others, so per-capita intake often declines as group size increases."
+            }
+          ]
+        },
+        {
+          "lesson": "Contest competition",
+          "lesson_key": "contest_competition",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Interference competition; individuals can exclude/monopolize resources, producing inequality and favoring dominance."
+            }
+          ]
+        },
+        {
+          "lesson": "Dominance relationships",
+          "lesson_key": "dominance_relationships",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Consistent asymmetries in aggressive interactions producing rank and hierarchies that structure access to resources and mating."
+            }
+          ]
+        },
+        {
+          "lesson": "Kin selection",
+          "lesson_key": "kin_selection",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Selection acting through indirect fitness gains when helping relatives; formalized by Hamilton’s rule."
+            }
+          ]
+        },
+        {
+          "lesson": "Altruism",
+          "lesson_key": "altruism",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Behaviors that reduce actor’s direct fitness while increasing recipient’s fitness; can evolve via relatedness, reciprocity, or group-structured mechanisms."
+            }
+          ]
+        },
+        {
+          "lesson": "Reciprocity",
+          "lesson_key": "reciprocity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Helping based on contingent return benefits over repeated interactions; requires recognition, memory, and low cheating."
+            }
+          ]
+        },
+        {
+          "lesson": "Eusociality",
+          "lesson_key": "eusociality",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Extreme sociality with reproductive division of labor, cooperative brood care, and overlapping generations; explained via kin selection and ecological factors."
+            }
+          ]
+        },
+        {
+          "lesson": "Human behaviour (behavioral ecology perspective)",
+          "lesson_key": "human_behaviour_behavioral_ecology_perspective",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Applying evolutionary logic to human cooperation, conflict, mating, and social norms while accounting for culture and gene–culture interactions."
+            }
+          ]
+        },
+        {
+          "lesson": "Hamilton’s rule",
+          "lesson_key": "hamilton_s_rule",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Altruism can evolve when \\( rB > C \\), where \\(r\\) is relatedness, \\(B\\) benefit to recipient, \\(C\\) cost to actor."
+            }
+          ]
+        },
+        {
+          "lesson": "Inclusive fitness",
+          "lesson_key": "inclusive_fitness",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Total genetic contribution via direct reproduction plus effects on relatives’ reproduction weighted by relatedness."
+            }
+          ]
+        },
+        {
+          "lesson": "Direct vs indirect fitness",
+          "lesson_key": "direct_vs_indirect_fitness",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Direct fitness from own offspring; indirect fitness via aiding relatives; their sum underpins kin selection logic."
+            }
+          ]
+        },
+        {
+          "lesson": "Mutualism",
+          "lesson_key": "mutualism",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Cooperation benefiting both parties immediately; distinct from altruism and often easier to maintain."
+            }
+          ]
+        },
+        {
+          "lesson": "Reciprocal altruism (Trivers)",
+          "lesson_key": "reciprocal_altruism_trivers",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Cooperation stabilized by repeated interactions, partner choice, and punishment/retaliation against defectors."
+            }
+          ]
+        },
+        {
+          "lesson": "By-product benefits",
+          "lesson_key": "by_product_benefits",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Helping arises as a side-effect of selfish action; can mimic altruism without fitness costs."
+            }
+          ]
+        },
+        {
+          "lesson": "Cheater problem",
+          "lesson_key": "cheater_problem",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Risk that individuals take benefits without paying costs; central to evolution of cooperation."
+            }
+          ]
+        },
+        {
+          "lesson": "Kin recognition and discrimination",
+          "lesson_key": "kin_recognition_and_discrimination",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mechanisms to direct help toward relatives (familiarity, phenotype matching, spatial cues)."
+            }
+          ]
+        },
+        {
+          "lesson": "Policing and punishment",
+          "lesson_key": "policing_and_punishment",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Mechanisms that suppress cheating and stabilize cooperation (worker policing in insects, social punishment in humans)."
+            }
+          ]
+        },
+        {
+          "lesson": "Game theory in social behavior",
+          "lesson_key": "game_theory_in_social_behavior",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Strategic interaction models (Prisoner’s Dilemma, Hawk–Dove, Public Goods) explaining conflict and cooperation."
+            }
+          ]
+        },
+        {
+          "lesson": "Group selection and multilevel selection",
+          "lesson_key": "group_selection_and_multilevel_selection",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Selection acting among groups can favor cooperation when between-group variation persists and within-group cheating is controlled."
+            }
+          ]
+        },
+        {
+          "lesson": "Life-history and ecological constraints on eusociality",
+          "lesson_key": "life_history_and_ecological_constraints_on_eusociality",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Monogamy, fortress defense, progressive provisioning, and high benefits of staying can promote eusociality."
+            }
+          ]
+        },
+        {
+          "lesson": "Gene–culture coevolution",
+          "lesson_key": "gene_culture_coevolution",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Human-specific feedback between cultural practices and selection pressures (norms, institutions, mating rules)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Biodiversity and Conservation",
+      "topic_key": "biodiversity_and_conservation",
+      "lessons": [
+        {
+          "lesson": "Biodiversity: levels and value",
+          "lesson_key": "biodiversity_levels_and_value",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Genetic, species, and ecosystem diversity; why biodiversity matters for stability, productivity, and resilience."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecosystem services",
+          "lesson_key": "ecosystem_services",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Provisioning, regulating, cultural, and supporting services; valuation and links to human well-being."
+            }
+          ]
+        },
+        {
+          "lesson": "Threats to biodiversity",
+          "lesson_key": "threats_to_biodiversity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Habitat loss/fragmentation, overexploitation, pollution, climate change, disease, coextinctions; synergistic impacts."
+            }
+          ]
+        },
+        {
+          "lesson": "Invasive alien species",
+          "lesson_key": "invasive_alien_species",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Introduction pathways, establishment and spread, ecological impacts, and management approaches."
+            }
+          ]
+        },
+        {
+          "lesson": "In-situ conservation",
+          "lesson_key": "in_situ_conservation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Conserving species in natural habitats: endemism, biodiversity hotspots, protected areas, and landscape approaches."
+            }
+          ]
+        },
+        {
+          "lesson": "Ex-situ conservation",
+          "lesson_key": "ex_situ_conservation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Conserving outside natural habitats: captive breeding, seed banks, botanical gardens, cryopreservation, reintroduction."
+            }
+          ]
+        },
+        {
+          "lesson": "Conservation genetics",
+          "lesson_key": "conservation_genetics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Genetic diversity, effective population size, genetic drift, inbreeding depression, gene flow; managing small populations."
+            }
+          ]
+        },
+        {
+          "lesson": "DNA fingerprinting and DNA barcoding",
+          "lesson_key": "dna_fingerprinting_and_dna_barcoding",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Molecular identification and monitoring: marker-based individual ID vs species ID; applications in conservation."
+            }
+          ]
+        },
+        {
+          "lesson": "Species concepts and taxonomy basics",
+          "lesson_key": "species_concepts_and_taxonomy_basics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Operational species delimitation and its role in assessing biodiversity patterns."
+            }
+          ]
+        },
+        {
+          "lesson": "Population viability analysis (PVA)",
+          "lesson_key": "population_viability_analysis_pva",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Extinction risk under demographic/environmental stochasticity; links to genetic factors."
+            }
+          ]
+        },
+        {
+          "lesson": "Metapopulations and fragmentation",
+          "lesson_key": "metapopulations_and_fragmentation",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Patch dynamics, corridors, rescue effect; relevance to protected area design."
+            }
+          ]
+        },
+        {
+          "lesson": "IUCN categories and conservation prioritization",
+          "lesson_key": "iucn_categories_and_conservation_prioritization",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Threat categories, criteria, and decision-making frameworks."
+            }
+          ]
+        },
+        {
+          "lesson": "Conservation policy instruments",
+          "lesson_key": "conservation_policy_instruments",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Protected area governance, community-based conservation, payments for ecosystem services, biosecurity."
+            }
+          ]
+        },
+        {
+          "lesson": "Molecular markers overview",
+          "lesson_key": "molecular_markers_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Microsatellites, SNPs, mtDNA, cpDNA; strengths/limitations for forensic and barcoding use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Disease Ecology and Evolution",
+      "topic_key": "disease_ecology_and_evolution",
+      "lessons": [
+        {
+          "lesson": "Epidemiology fundamentals",
+          "lesson_key": "epidemiology_fundamentals",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Measures of disease occurrence (incidence, prevalence), transmission routes, and core model quantities like the basic reproduction number."
+            }
+          ]
+        },
+        {
+          "lesson": "Disease transmission models",
+          "lesson_key": "disease_transmission_models",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Compartment models (SIR/SEIR/SIS), force of infection, herd immunity threshold, and outbreak dynamics."
+            }
+          ]
+        },
+        {
+          "lesson": "Zoonotic diseases",
+          "lesson_key": "zoonotic_diseases",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Spillover, reservoir hosts, host switching, and ecological drivers of emergence at the human–animal interface."
+            }
+          ]
+        },
+        {
+          "lesson": "Evolution of virulence and pathogen life-history",
+          "lesson_key": "evolution_of_virulence_and_pathogen_life_history",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Trade-offs among transmission, virulence, and host exploitation; within-host vs between-host selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Antibiotic resistance evolution",
+          "lesson_key": "antibiotic_resistance_evolution",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Mutation/selection, horizontal gene transfer, fitness costs, selective sweeps, and stewardship principles."
+            }
+          ]
+        },
+        {
+          "lesson": "Vector ecology and vector control",
+          "lesson_key": "vector_ecology_and_vector_control",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Vector competence, biting rate, vectorial capacity, and intervention strategies (chemical, biological, environmental)."
+            }
+          ]
+        },
+        {
+          "lesson": "Genetic basis of economically important traits",
+          "lesson_key": "genetic_basis_of_economically_important_traits",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Polygenic vs monogenic traits, heritability, breeding values, GxE, and response to selection."
+            }
+          ]
+        },
+        {
+          "lesson": "Marker-assisted breeding",
+          "lesson_key": "marker_assisted_breeding",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "QTL mapping, linkage/LD, marker-trait association, and marker-assisted selection/backcrossing in plants and animals."
+            }
+          ]
+        },
+        {
+          "lesson": "Surveillance and study designs",
+          "lesson_key": "surveillance_and_study_designs",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Cross-sectional vs cohort vs case-control; outbreak investigation logic and sampling biases."
+            }
+          ]
+        },
+        {
+          "lesson": "Diagnostics and test performance",
+          "lesson_key": "diagnostics_and_test_performance",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Sensitivity, specificity, predictive value; how imperfect tests affect prevalence estimates."
+            }
+          ]
+        },
+        {
+          "lesson": "Phylogenetics and phylodynamics",
+          "lesson_key": "phylogenetics_and_phylodynamics",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Using sequence data to infer transmission, emergence history, and spread."
+            }
+          ]
+        },
+        {
+          "lesson": "One Health framework",
+          "lesson_key": "one_health_framework",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Integrated human–animal–environment health and policy implications for zoonoses."
+            }
+          ]
+        },
+        {
+          "lesson": "Integrated vector management (IVM)",
+          "lesson_key": "integrated_vector_management_ivm",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Combining interventions with monitoring, insecticide resistance management, and community participation."
+            }
+          ]
+        },
+        {
+          "lesson": "Quantitative genetics in breeding programs",
+          "lesson_key": "quantitative_genetics_in_breeding_programs",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Breeder’s equation, selection index concepts, inbreeding management, and correlated response."
+            }
+          ]
+        },
+        {
+          "lesson": "Genomic selection (contrast to MAS)",
+          "lesson_key": "genomic_selection_contrast_to_mas",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Genome-wide markers to predict breeding values; when it outperforms single/few-marker MAS."
+            }
+          ]
+        },
+        {
+          "lesson": "Ethics and biosafety in breeding and control",
+          "lesson_key": "ethics_and_biosafety_in_breeding_and_control",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Gene drives, GM crops/livestock, and risk assessment as applied considerations."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Global Climate Change",
+      "topic_key": "global_climate_change",
+      "lessons": [
+        {
+          "lesson": "Earth’s climate system basics",
+          "lesson_key": "earth_s_climate_system_basics",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Energy balance, greenhouse effect, albedo, radiative forcing, and major climate components (atmosphere, ocean, cryosphere, biosphere)."
+            }
+          ]
+        },
+        {
+          "lesson": "Causes of modern climate change",
+          "lesson_key": "causes_of_modern_climate_change",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Anthropogenic greenhouse gases, land-use change, aerosols, and natural drivers; attribution logic."
+            }
+          ]
+        },
+        {
+          "lesson": "Carbon cycle and major greenhouse gases",
+          "lesson_key": "carbon_cycle_and_major_greenhouse_gases",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Reservoirs and fluxes; CO\\(_2\\), CH\\(_4\\), N\\(_2\\)O, halocarbons; lifetimes and global warming potential."
+            }
+          ]
+        },
+        {
+          "lesson": "Climate variability vs climate change",
+          "lesson_key": "climate_variability_vs_climate_change",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Weather vs climate, internal variability (e.g., ENSO), trends, extremes, and detection concepts."
+            }
+          ]
+        },
+        {
+          "lesson": "Consequences for physical systems",
+          "lesson_key": "consequences_for_physical_systems",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Warming, precipitation shifts, cryosphere loss, sea-level rise, ocean warming/acidification, and extreme events."
+            }
+          ]
+        },
+        {
+          "lesson": "Consequences for ecosystems and biodiversity",
+          "lesson_key": "consequences_for_ecosystems_and_biodiversity",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Range shifts, phenology changes, community reshuffling, extinction risk, coral bleaching, biome transitions."
+            }
+          ]
+        },
+        {
+          "lesson": "Consequences for society and health",
+          "lesson_key": "consequences_for_society_and_health",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Food/water security, disasters, heat stress, disease risk, migration, and equity impacts."
+            }
+          ]
+        },
+        {
+          "lesson": "Mitigation: emission reduction",
+          "lesson_key": "mitigation_emission_reduction",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Decarbonization pathways, energy efficiency, renewables, electrification, methane control, and sectoral levers."
+            }
+          ]
+        },
+        {
+          "lesson": "Mitigation: carbon dioxide removal (CDR)",
+          "lesson_key": "mitigation_carbon_dioxide_removal_cdr",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Afforestation/reforestation, soil carbon, BECCS, DAC, enhanced weathering; permanence and trade-offs."
+            }
+          ]
+        },
+        {
+          "lesson": "Adaptation and resilience (bridge to mitigation)",
+          "lesson_key": "adaptation_and_resilience_bridge_to_mitigation",
+          "concept_type": "core",
+          "chapters": [
+            {
+              "chapter": "Risk reduction via planning, ecosystem-based adaptation, and climate-resilient management in ecology."
+            }
+          ]
+        },
+        {
+          "lesson": "IPCC framing and scenarios",
+          "lesson_key": "ipcc_framing_and_scenarios",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Emissions pathways (RCP/SSP), carbon budgets, and temperature targets used for policy/science communication."
+            }
+          ]
+        },
+        {
+          "lesson": "Climate feedbacks and tipping elements",
+          "lesson_key": "climate_feedbacks_and_tipping_elements",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Water vapor, ice–albedo, permafrost carbon, AMOC risks; why nonlinearities matter."
+            }
+          ]
+        },
+        {
+          "lesson": "Ocean–atmosphere coupling",
+          "lesson_key": "ocean_atmosphere_coupling",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "ENSO and monsoon linkages; relevance to interannual variability and extremes."
+            }
+          ]
+        },
+        {
+          "lesson": "Ecophysiology under climate stress",
+          "lesson_key": "ecophysiology_under_climate_stress",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Thermal tolerance, water-use efficiency, CO\\(_2\\) fertilization, acclimation vs adaptation."
+            }
+          ]
+        },
+        {
+          "lesson": "Conservation under climate change",
+          "lesson_key": "conservation_under_climate_change",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Climate refugia, assisted migration debates, dynamic protected areas."
+            }
+          ]
+        },
+        {
+          "lesson": "Policy instruments",
+          "lesson_key": "policy_instruments",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Carbon pricing, standards, subsidies, NDCs; MRV and leakage concepts."
+            }
+          ]
+        },
+        {
+          "lesson": "Life cycle assessment (LCA)",
+          "lesson_key": "life_cycle_assessment_lca",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Comparing mitigation options using full supply-chain emissions and trade-offs."
+            }
+          ]
+        },
+        {
+          "lesson": "Geoengineering overview",
+          "lesson_key": "geoengineering_overview",
+          "concept_type": "related",
+          "chapters": [
+            {
+              "chapter": "Solar radiation management vs CDR; risks, governance, and ethical concerns."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

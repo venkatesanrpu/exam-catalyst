@@ -1,0 +1,179 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Population Ecology: Population growth rates (density dependent/independent); meta population ecology (colonization, persistence, extinction, patches, sources, sinks); age-structured populations"
+
+concepts:
+  core:
+    - name: "Population growth rate"
+      clarifier: "Change in population size per unit time, typically summarized via per-capita growth rate and finite/intrinsic growth parameters used in exponential and logistic models."
+    - name: "Density-independent regulation"
+      clarifier: "Growth and survival shaped by factors whose effects do not depend on population density (e.g., weather extremes, disturbances), often producing additive mortality."
+    - name: "Density-dependent regulation"
+      clarifier: "Growth and survival shaped by factors whose effects intensify with density (e.g., competition, disease), creating negative feedback that can stabilize populations."
+    - name: "Metapopulation"
+      clarifier: "A set of spatially separated local populations in habitat patches connected by dispersal, where regional persistence depends on colonization-extinction dynamics."
+    - name: "Colonization and extinction dynamics"
+      clarifier: "Patch occupancy changes driven by dispersal-mediated colonization and local extinction; core to Levins-type metapopulation models."
+    - name: "Patch structure"
+      clarifier: "Spatial arrangement and quality/size of habitat patches that determine local population viability and connectivity."
+    - name: "Source-sink dynamics"
+      clarifier: "Sources have positive local growth and export dispersers; sinks have negative local growth and persist via immigration."
+    - name: "Age-structured populations"
+      clarifier: "Population models that track individuals by age classes, allowing age-specific survival and fecundity to determine growth and stable age distribution."
+
+  related:
+    - name: "Exponential growth model"
+      clarifier: "Baseline model with constant per-capita growth; useful approximation at low density or early invasion phases."
+    - name: "Logistic growth and carrying capacity"
+      clarifier: "Model incorporating density dependence via a carrying capacity and negative feedback on per-capita growth."
+    - name: "Allee effects"
+      clarifier: "Positive density dependence at low densities due to mate limitation, cooperative defense, etc., increasing extinction risk."
+    - name: "Demographic vs environmental stochasticity"
+      clarifier: "Randomness from individual-level birth/death events versus temporal environmental variation; both affect persistence, especially in small populations."
+    - name: "Dispersal and connectivity"
+      clarifier: "Movement among patches determining rescue effects, gene flow, and colonization probability."
+    - name: "Rescue effect"
+      clarifier: "Immigration reducing local extinction probability and increasing persistence of patch populations."
+    - name: "Life tables"
+      clarifier: "Age-specific survival schedules (e.g., \\\\(l_x\\\\)) and fecundity (e.g., \\\\(m_x\\\\)) used to quantify population growth."
+    - name: "Leslie matrix model"
+      clarifier: "Discrete-time age-structured model using a projection matrix whose dominant eigenvalue gives long-term growth rate."
+    - name: "Reproductive value"
+      clarifier: "Relative contribution of individuals of different ages to future population growth."
+
+learning_path:
+  - id: 1
+    title: "Population growth rates and regulation"
+    learning_objectives:
+      - "Compute and interpret growth rates using per-capita and finite-rate language."
+      - "Differentiate density-dependent and density-independent factors using ecological examples."
+      - "Explain how regulation produces stability, cycles, or crashes depending on feedback and time lags."
+      - "Apply exponential vs logistic reasoning to typical GATE problem statements."
+    textbook_style_content:
+      - topic: "Quantifying population growth"
+        sections:
+          - section_title: "Key definitions: \\\\(N\\\\), growth rate, per-capita growth"
+            section_type: overview
+          - section_title: "Exponential growth: assumptions and implications"
+            section_type: core_theory
+          - section_title: "Logistic growth: density dependence and carrying capacity"
+            section_type: core_theory
+      - topic: "Density dependence vs independence"
+        sections:
+          - section_title: "Mechanisms of density dependence (competition, disease, predation)"
+            section_type: core_theory
+          - section_title: "Density-independent drivers (disturbance, climate) and signals in data"
+            section_type: core_theory
+          - section_title: "Complications: time lags and Allee effects"
+            section_type: related concepts
+    milestone: "Can classify drivers as density-dependent/independent and select the correct growth model for a described scenario."
+    duration_days: 3
+    tags:
+      - "population growth"
+      - "density dependence"
+      - "models"
+      - "GATE"
+
+  - id: 2
+    title: "Metapopulation ecology: patches, colonization, persistence, extinction"
+    learning_objectives:
+      - "Define metapopulation structure and explain when the concept applies."
+      - "Describe patch occupancy dynamics using colonization and extinction processes."
+      - "Explain how patch size/quality and isolation affect persistence."
+      - "Interpret sources and sinks and predict consequences of habitat loss or fragmentation."
+    textbook_style_content:
+      - topic: "Metapopulation framework"
+        sections:
+          - section_title: "Local populations in patches connected by dispersal"
+            section_type: overview
+          - section_title: "Colonization and local extinction: core processes"
+            section_type: core_theory
+          - section_title: "Regional persistence and the rescue effect"
+            section_type: related concepts
+      - topic: "Patch attributes and connectivity"
+        sections:
+          - section_title: "Patch size and quality effects on extinction risk"
+            section_type: core_theory
+          - section_title: "Isolation and dispersal limitation effects on colonization"
+            section_type: core_theory
+          - section_title: "Patch networks and corridors: conceptual implications"
+            section_type: related concepts
+      - topic: "Sources and sinks"
+        sections:
+          - section_title: "Defining source vs sink via local population growth"
+            section_type: core_theory
+          - section_title: "Management implications: why protecting sources matters"
+            section_type: related concepts
+    milestone: "Given a landscape description, can identify patches, predict occupancy changes, and classify sites as sources or sinks."
+    duration_days: 3
+    tags:
+      - "metapopulation"
+      - "colonization"
+      - "extinction"
+      - "source-sink"
+      - "fragmentation"
+      - "GATE"
+
+  - id: 3
+    title: "Age-structured populations: life tables and projection models"
+    learning_objectives:
+      - "Explain why age structure changes population growth beyond simple \\\\(N\\\\)-based models."
+      - "Construct and interpret basic life tables using age-specific survival and fecundity."
+      - "Relate survivorship patterns to population dynamics and conservation risk."
+      - "Understand Leslie matrix logic and interpret the meaning of the dominant growth factor."
+    textbook_style_content:
+      - topic: "Age structure and vital rates"
+        sections:
+          - section_title: "Age classes, cohorts, and vital rates"
+            section_type: overview
+          - section_title: "Life tables: survivorship and fecundity schedules"
+            section_type: core_theory
+          - section_title: "Survivorship curves and what they imply"
+            section_type: related concepts
+      - topic: "Population projection"
+        sections:
+          - section_title: "From life tables to population growth measures"
+            section_type: core_theory
+          - section_title: "Leslie matrix: structure, interpretation, and long-term behavior"
+            section_type: core_theory
+          - section_title: "Stable age distribution and reproductive value (conceptual)"
+            section_type: related concepts
+    milestone: "Can interpret age-specific survival/fecundity information and predict qualitative effects on growth and persistence."
+    duration_days: 4
+    tags:
+      - "age structure"
+      - "life tables"
+      - "Leslie matrix"
+      - "demography"
+      - "GATE"
+
+  - id: 4
+    title: "Integration module: regulation, spatial structure, and demography"
+    learning_objectives:
+      - "Connect density dependence with metapopulation persistence under fragmentation."
+      - "Explain how age structure alters extinction risk in small patches."
+      - "Recognize when stochasticity dominates dynamics and how the rescue effect mitigates it."
+      - "Solve mixed-concept questions combining growth models, patches, and demography."
+    textbook_style_content:
+      - topic: "Putting the pieces together"
+        sections:
+          - section_title: "From local regulation to regional persistence"
+            section_type: overview
+          - section_title: "Small populations: stochasticity, Allee effects, and extinction"
+            section_type: related concepts
+          - section_title: "Source-sink metapopulations with age structure: conceptual synthesis"
+            section_type: related concepts
+      - topic: "Exam-oriented reasoning"
+        sections:
+          - section_title: "Typical GATE question patterns and common traps"
+            section_type: related concepts
+          - section_title: "How to choose the right model from a prompt"
+            section_type: related concepts
+    milestone: "Can integrate growth regulation, patch dynamics, and age structure to make correct predictions in novel scenarios."
+    duration_days: 2
+    tags:
+      - "integration"
+      - "problem solving"
+      - "population ecology"
+      - "GATE"

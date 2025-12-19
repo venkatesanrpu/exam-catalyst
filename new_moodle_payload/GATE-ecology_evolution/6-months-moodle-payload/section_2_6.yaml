@@ -1,0 +1,296 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Population and Quantitative Genetics: Origins of genetic variation; Mendelian genetics; Hardy- Weinberg equilibrium; drift; selection (one-locus two-alleles model); population genetic structure (panmixia, gene flow, FST); polygenic traits; gene-environment interactions (phenotypic plasticity); heritability"
+
+concepts:
+  core:
+    - name: "Origins of genetic variation"
+      clarifier: "Mutation as the ultimate source of new alleles; recombination and segregation reshuffle existing variants; gene flow introduces alleles among populations."
+    - name: "Mendelian genetics (population context)"
+      clarifier: "Particulate inheritance, genotype formation via segregation/independent assortment; genotype–phenotype relationships (dominance) relevant to allele-frequency change."
+    - name: "Hardy–Weinberg equilibrium (HWE)"
+      clarifier: "Null model linking allele frequencies to genotype frequencies under random mating and no evolutionary forces; used to detect selection, drift, gene flow, or nonrandom mating."
+    - name: "Genetic drift"
+      clarifier: "Random allele-frequency change due to finite population size; stronger in small populations; leads to fixation/loss and reduced heterozygosity."
+    - name: "Selection in a one-locus two-allele model"
+      clarifier: "Deterministic allele-frequency change driven by genotype fitness differences; dominance affects dynamics; equilibrium vs fixation outcomes."
+    - name: "Panmixia"
+      clarifier: "Random mating within a population; absence of structure in mating patterns; a key assumption for HWE within a defined population."
+    - name: "Gene flow (migration)"
+      clarifier: "Movement of alleles among populations; tends to homogenize allele frequencies and counteract local selection and drift."
+    - name: "Population genetic structure"
+      clarifier: "Non-random distribution of genetic variation among subpopulations; described by differentiation measures and explained by drift, migration, and history."
+    - name: "Fixation index \\(F_{ST}\\)"
+      clarifier: "Quantifies genetic differentiation among populations; interpretation as relative reduction of heterozygosity due to structure; links to gene flow (conceptual)."
+    - name: "Polygenic (quantitative) traits"
+      clarifier: "Traits influenced by many loci and environment; continuous distributions; response to selection explained by quantitative genetics."
+    - name: "Gene–environment interaction (G×E)"
+      clarifier: "Genotype effects depend on environment; reaction norms; central to phenotypic plasticity and to interpreting heritability."
+    - name: "Phenotypic plasticity"
+      clarifier: "Environmentally induced phenotypic change within a genotype; adaptive vs non-adaptive plasticity; implications for selection and evolution."
+    - name: "Heritability (quantitative genetics)"
+      clarifier: "Proportion of phenotypic variance attributable to genetic variance; broad-sense \\(H^2\\) and narrow-sense \\(h^2\\); predicts response to selection."
+  related:
+    - name: "Allele and genotype frequencies"
+      clarifier: "Counting alleles/genotypes; converting between frequencies; foundational for HWE, drift, selection, and \\(F\\)-statistics."
+    - name: "Effective population size \\(N_e\\)"
+      clarifier: "Drift is governed by \\(N_e\\) rather than census size; affected by sex ratio, variance in reproductive success, and bottlenecks."
+    - name: "Inbreeding and assortative mating"
+      clarifier: "Violations of random mating; increase homozygosity without changing allele frequencies (directly)."
+    - name: "Mutation–selection balance (overview)"
+      clarifier: "How deleterious alleles can persist when mutation introduces them and selection removes them."
+    - name: "Bottleneck and founder effects"
+      clarifier: "Special cases of drift producing reduced diversity and shifted allele frequencies."
+    - name: "Linkage disequilibrium (LD) (overview)"
+      clarifier: "Non-random association of alleles across loci; shaped by recombination, selection, drift, and admixture."
+    - name: "Additive, dominance, and epistatic variance"
+      clarifier: "Variance components underlying \\(h^2\\) and \\(H^2\\); why additive variance drives predictable response to selection."
+    - name: "Breeder’s equation"
+      clarifier: "Response to selection \\(R = h^2 S\\) linking selection differential to evolutionary change in the mean of a trait."
+    - name: "Common garden and reciprocal transplant"
+      clarifier: "Experimental designs to separate genetic effects, environment, and plasticity in trait variation."
+    - name: "Reaction norms"
+      clarifier: "Phenotype vs environment curves for genotypes; central representation of plasticity and G×E."
+
+learning_path:
+  - id: 1
+    title: "Genetic Variation: Sources and How Populations Store It"
+    learning_objectives:
+      - "List the ultimate and proximate sources of genetic variation: mutation, recombination, and gene flow."
+      - "Distinguish new mutation from standing variation and explain why the latter often fuels rapid evolution."
+      - "Explain how segregation and recombination generate new genotype combinations without creating new alleles."
+      - "Connect variation to evolutionary potential: why low variation can limit adaptation."
+    textbook_style_content:
+      - topic: "Where variation comes from"
+        sections:
+          - section_title: "Mutation as the ultimate source of new alleles"
+            section_type: core_theory
+          - section_title: "Recombination and segregation: generating new combinations"
+            section_type: core_theory
+          - section_title: "Gene flow: importing alleles among populations"
+            section_type: core_theory
+      - topic: "Variation in evolutionary time"
+        sections:
+          - section_title: "Standing genetic variation vs de novo mutation in adaptation"
+            section_type: related concepts
+          - section_title: "Loss of variation through drift and bottlenecks (overview linkage)"
+            section_type: related concepts
+    milestone: "You can explain, in mechanism-first terms, why mutation is necessary for novelty but recombination and gene flow can dominate short-term evolutionary change."
+    duration_days: 3
+    tags:
+      - "genetic-variation"
+      - "mutation"
+      - "recombination"
+      - "gene-flow"
+
+  - id: 2
+    title: "Mendelian Genetics Refresher for Population Genetics"
+    learning_objectives:
+      - "Translate Mendelian segregation into genotype-frequency expectations under random mating."
+      - "Relate dominance/recessiveness to phenotype frequencies and to selection visibility."
+      - "Compute allele frequencies from genotype counts (conceptual fluency for exam numericals)."
+      - "Recognize how non-Mendelian genotype–phenotype maps (e.g., incomplete dominance) alter interpretation, not inheritance."
+    textbook_style_content:
+      - topic: "Inheritance and counting"
+        sections:
+          - section_title: "Alleles, genotypes, and particulate inheritance in populations"
+            section_type: core_theory
+          - section_title: "From genotype counts to allele frequencies and back"
+            section_type: core_theory
+      - topic: "Dominance and phenotype"
+        sections:
+          - section_title: "Dominance vs allele frequency: why recessive alleles can 'hide'"
+            section_type: related concepts
+          - section_title: "Genotype–phenotype map complications (overview)"
+            section_type: related concepts
+    milestone: "You can confidently convert between genotype and allele frequencies and predict phenotype patterns under dominance for simple one-locus cases."
+    duration_days: 2
+    tags:
+      - "mendelian"
+      - "allele-frequencies"
+      - "dominance"
+
+  - id: 3
+    title: "Hardy–Weinberg Equilibrium: The Null Model"
+    learning_objectives:
+      - "State HWE assumptions and interpret HWE as a baseline, not a claim that evolution stops."
+      - "Derive genotype frequencies from allele frequencies under random mating."
+      - "Use HWE deviations to infer which assumptions might be violated (selection, drift, migration, nonrandom mating)."
+      - "Solve common GATE numericals involving HWE and carrier frequencies."
+    textbook_style_content:
+      - topic: "HWE core theory"
+        sections:
+          - section_title: "Assumptions and meaning of equilibrium"
+            section_type: core_theory
+          - section_title: "Genotype frequencies from allele frequencies: \\(p^2\\), \\(2pq\\), \\(q^2\\)"
+            section_type: core_theory
+          - section_title: "Testing HWE conceptually: what deviations suggest"
+            section_type: overview
+      - topic: "Violations (diagnostic)"
+        sections:
+          - section_title: "Nonrandom mating and inbreeding: changing genotype frequencies without changing allele frequencies (directly)"
+            section_type: related concepts
+          - section_title: "Selection, drift, and gene flow: changing allele frequencies"
+            section_type: related concepts
+    milestone: "Given allele or genotype frequencies, you can apply HWE correctly and infer plausible causes of deviation."
+    duration_days: 3
+    tags:
+      - "hardy-weinberg"
+      - "equilibrium"
+      - "numericals"
+
+  - id: 4
+    title: "Genetic Drift: Random Evolution in Finite Populations"
+    learning_objectives:
+      - "Explain drift as sampling error and predict when it dominates over selection."
+      - "Describe drift outcomes: fixation/loss, reduced heterozygosity, increased divergence among populations."
+      - "Differentiate census size from effective size \\(N_e\\) and state factors that reduce \\(N_e\\)."
+      - "Apply drift reasoning to bottleneck and founder-effect scenarios."
+    textbook_style_content:
+      - topic: "Core drift theory"
+        sections:
+          - section_title: "Sampling error and allele-frequency change"
+            section_type: core_theory
+          - section_title: "Fixation, loss, and heterozygosity decline (conceptual)"
+            section_type: core_theory
+      - topic: "Effective population size"
+        sections:
+          - section_title: "Why \\(N_e\\) matters more than \\(N\\): variance in reproductive success and sex ratio"
+            section_type: related concepts
+          - section_title: "Bottlenecks and founder effects as drift intensifiers"
+            section_type: related concepts
+    milestone: "You can predict qualitative drift effects and explain why small or bottlenecked populations show reduced diversity and stronger differentiation."
+    duration_days: 3
+    tags:
+      - "genetic-drift"
+      - "Ne"
+      - "bottleneck"
+
+  - id: 5
+    title: "Selection: One-Locus Two-Allele Model (Deterministic)"
+    learning_objectives:
+      - "Set up genotype fitnesses for \\(AA\\), \\(Aa\\), \\(aa\\) and interpret relative fitness."
+      - "Predict allele-frequency change direction given fitness ordering."
+      - "Explain how dominance affects the speed of allele-frequency change and maintenance of alleles."
+      - "Recognize special cases: heterozygote advantage and disadvantage (conceptual)."
+    textbook_style_content:
+      - topic: "Fitness schemes"
+        sections:
+          - section_title: "Relative fitness \\(w\\) and selection coefficient \\(s\\) (conceptual definitions)"
+            section_type: core_theory
+          - section_title: "Dominance parameterization and what it changes"
+            section_type: related concepts
+      - topic: "Allele-frequency dynamics (conceptual)"
+        sections:
+          - section_title: "Directional selection: fixation tendencies and 'hiding' of recessives"
+            section_type: core_theory
+          - section_title: "Balancing selection: heterozygote advantage and stable polymorphism (overview)"
+            section_type: related concepts
+          - section_title: "Underdominance and unstable equilibria (overview)"
+            section_type: related concepts
+    milestone: "You can take a genotype-fitness table and correctly predict which allele increases, whether fixation is expected, and how dominance changes the trajectory."
+    duration_days: 4
+    tags:
+      - "selection-model"
+      - "one-locus"
+      - "fitness"
+
+  - id: 6
+    title: "Population Structure: Panmixia, Gene Flow, and \\(F_{ST}\\)"
+    learning_objectives:
+      - "Define panmixia and explain how population subdivision violates it."
+      - "Explain gene flow’s homogenizing effect and how it interacts with drift and local selection."
+      - "Define \\(F_{ST}\\) as a measure of differentiation and interpret low vs high values."
+      - "Relate \\(F_{ST}\\) patterns to biological scenarios (high migration, isolation, recent divergence)."
+    textbook_style_content:
+      - topic: "Panmixia and subdivision"
+        sections:
+          - section_title: "Panmixia as random mating within a defined population"
+            section_type: core_theory
+          - section_title: "Wahlund effect (overview): heterozygote deficit from hidden structure"
+            section_type: related concepts
+      - topic: "Gene flow"
+        sections:
+          - section_title: "Migration as allele movement: homogenization and rescue from drift"
+            section_type: core_theory
+          - section_title: "Gene flow vs local adaptation (conceptual tension)"
+            section_type: related concepts
+      - topic: "Fixation index"
+        sections:
+          - section_title: "Meaning and interpretation of \\(F_{ST}\\) (heterozygosity and differentiation)"
+            section_type: core_theory
+          - section_title: "Linking \\(F_{ST}\\) to migration (overview, without heavy derivations)"
+            section_type: overview
+    milestone: "You can interpret panmixia vs structure and explain what an \\(F_{ST}\\) value implies about differentiation and likely gene flow."
+    duration_days: 3
+    tags:
+      - "population-structure"
+      - "gene-flow"
+      - "FST"
+
+  - id: 7
+    title: "Quantitative Genetics: Polygenic Traits and Response to Selection"
+    learning_objectives:
+      - "Explain why polygenic traits are typically continuous and environment-sensitive."
+      - "Define variance components \\(V_P\\), \\(V_G\\), \\(V_E\\) and the additive component \\(V_A\\)."
+      - "Differentiate broad-sense \\(H^2\\) and narrow-sense \\(h^2\\) heritability and interpret each."
+      - "Use the breeder’s equation \\(R = h^2 S\\) to predict response direction and relative magnitude."
+    textbook_style_content:
+      - topic: "Polygenic traits and variance"
+        sections:
+          - section_title: "Polygenic inheritance and continuous distributions"
+            section_type: core_theory
+          - section_title: "Variance partitioning: \\(V_P = V_G + V_E\\) (conceptual) and \\(V_A\\) as the driver of response"
+            section_type: core_theory
+      - topic: "Heritability"
+        sections:
+          - section_title: "Broad-sense \\(H^2 = V_G/V_P\\) vs narrow-sense \\(h^2 = V_A/V_P\\)"
+            section_type: core_theory
+          - section_title: "What heritability does not mean: environment- and population-specificity"
+            section_type: overview
+      - topic: "Selection response"
+        sections:
+          - section_title: "Breeder’s equation \\(R = h^2 S\\): interpretation and assumptions"
+            section_type: core_theory
+          - section_title: "Constraints: genetic correlations, trade-offs, and changing environments (overview)"
+            section_type: related concepts
+    milestone: "You can explain polygenic variation, interpret \\(H^2\\) vs \\(h^2\\), and apply \\(R = h^2 S\\) correctly in exam-style problems."
+    duration_days: 4
+    tags:
+      - "quantitative-genetics"
+      - "heritability"
+      - "breeders-equation"
+
+  - id: 8
+    title: "Gene–Environment Interaction and Phenotypic Plasticity"
+    learning_objectives:
+      - "Define phenotypic plasticity and represent it using reaction norms."
+      - "Define G×E interaction and explain how it differs from simple environmental effects."
+      - "Explain how plasticity can aid short-term persistence and influence long-term evolutionary trajectories."
+      - "Identify experimental designs (common garden, reciprocal transplant) that separate genetic and environmental components."
+    textbook_style_content:
+      - topic: "Plasticity concepts"
+        sections:
+          - section_title: "Phenotypic plasticity: definition, adaptive vs non-adaptive plasticity"
+            section_type: core_theory
+          - section_title: "Reaction norms as the formal description of plasticity"
+            section_type: related concepts
+      - topic: "G×E interaction"
+        sections:
+          - section_title: "When genotype effects depend on environment: interpreting crossing reaction norms"
+            section_type: core_theory
+          - section_title: "Implications for heritability and selection response"
+            section_type: related concepts
+      - topic: "How plasticity is studied"
+        sections:
+          - section_title: "Common garden and reciprocal transplant logic (conceptual)"
+            section_type: related concepts
+          - section_title: "Pitfalls: confounding maternal effects and developmental environments (overview)"
+            section_type: overview
+    milestone: "You can explain plasticity using reaction norms and correctly predict how G×E can alter heritability estimates and selection outcomes."
+    duration_days: 3
+    tags:
+      - "plasticity"
+      - "GxE"
+      - "experimental-design"

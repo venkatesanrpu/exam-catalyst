@@ -1,0 +1,197 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Fundamentals: Variation; heritability; natural selection; fitness and adaptation; types of selection (stabilizing, directional, disruptive)"
+
+concepts:
+  core:
+    - name: "Variation"
+      clarifier: "Phenotypic and genetic differences among individuals; continuous vs discontinuous variation; standing variation vs new mutation as substrates for evolution."
+    - name: "Heritability"
+      clarifier: "Quantifying the genetic contribution to phenotypic variance; broad-sense and narrow-sense heritability; implications and limitations for predicting response to selection."
+    - name: "Natural selection"
+      clarifier: "Non-random differential survival and reproduction among heritable variants; selection acts on phenotypes but changes allele frequencies in populations."
+    - name: "Fitness"
+      clarifier: "Relative reproductive success; absolute vs relative fitness; components (viability, mating success, fecundity) and context dependence."
+    - name: "Adaptation"
+      clarifier: "A heritable trait shaped by selection that increases fitness in a specific environment; distinguishing adaptation (process/trait) from acclimation and from 'beneficial' in all contexts."
+    - name: "Types of selection"
+      clarifier: "Stabilizing, directional, and disruptive selection; expected changes in mean and variance of traits and consequences for polymorphism."
+  related:
+    - name: "Genotype–phenotype map"
+      clarifier: "How alleles produce phenotypes via development; dominance, epistasis, and pleiotropy affect observed variation and selection response."
+    - name: "Phenotypic plasticity"
+      clarifier: "Environmentally induced phenotypic change; reaction norms; can mimic genetic adaptation but does not necessarily change allele frequencies."
+    - name: "Sources of genetic variation"
+      clarifier: "Mutation, recombination, gene flow, and standing genetic variation; why selection cannot create variation."
+    - name: "Quantitative genetics"
+      clarifier: "Polygenic traits, normal distributions, and selection on continuous traits; selection differential and response to selection."
+    - name: "Hardy–Weinberg baseline"
+      clarifier: "Null model for allele/genotype frequencies; helps detect selection and other evolutionary forces."
+    - name: "Trade-offs and constraints"
+      clarifier: "Costs of traits, antagonistic pleiotropy, and genetic correlations; why 'optimal' phenotypes are not always achieved."
+    - name: "Selection coefficients and selection gradients"
+      clarifier: "Ways to quantify selection intensity on genotypes/phenotypes; interpreting sign and magnitude."
+    - name: "Inclusive fitness (high-level)"
+      clarifier: "Fitness can include effects on relatives; useful for interpreting adaptation in social contexts (overview only)."
+
+learning_path:
+  - id: 1
+    title: "Variation: What Varies and Why It Matters"
+    learning_objectives:
+      - "Distinguish genetic variation from phenotypic variation and explain how environment contributes to phenotype."
+      - "Classify variation as continuous vs discrete and relate each to polygenic vs single-gene architectures."
+      - "Identify sources of variation: mutation, recombination, and standing genetic variation."
+      - "Explain why selection requires pre-existing heritable variation to cause evolutionary change."
+    textbook_style_content:
+      - topic: "Types of variation"
+        sections:
+          - section_title: "Phenotypic variation: traits, distributions, and measurement"
+            section_type: overview
+          - section_title: "Genetic variation: alleles, genotypes, and polymorphism"
+            section_type: core_theory
+      - topic: "Origins and maintenance of variation"
+        sections:
+          - section_title: "Mutation and recombination as generators and reshufflers of variation"
+            section_type: related concepts
+          - section_title: "Standing variation vs new mutations in rapid adaptation"
+            section_type: core_theory
+          - section_title: "Environment and phenotypic plasticity: separating genetic from environmental effects"
+            section_type: related concepts
+    milestone: "You can categorize variation correctly and explain, in one mechanism-based paragraph, why selection cannot act without heritable variation."
+    duration_days: 2
+    tags:
+      - "variation"
+      - "phenotype"
+      - "genetic-variation"
+
+  - id: 2
+    title: "Heritability: Quantifying Genetic Contribution"
+    learning_objectives:
+      - "Define phenotypic variance and decompose it into genetic and environmental components at a conceptual level."
+      - "Differentiate broad-sense heritability \\(H^2\\) from narrow-sense heritability \\(h^2\\)."
+      - "Interpret what heritability does and does not imply (population- and environment-specific)."
+      - "Predict qualitative response to selection when heritability is high vs low."
+    textbook_style_content:
+      - topic: "Variance components and definitions"
+        sections:
+          - section_title: "Phenotypic variance \\(V_P\\) and its components \\(V_G\\) and \\(V_E\\)"
+            section_type: core_theory
+          - section_title: "Broad-sense heritability \\(H^2 = V_G/V_P\\) and what it captures"
+            section_type: core_theory
+          - section_title: "Narrow-sense heritability \\(h^2 = V_A/V_P\\): why additive variance predicts selection response"
+            section_type: core_theory
+      - topic: "Interpretation and pitfalls"
+        sections:
+          - section_title: "Heritability is not immutability: environment dependence and population specificity"
+            section_type: overview
+          - section_title: "Common exam confusions: high heritability vs genetic determination; within vs between populations"
+            section_type: related concepts
+    milestone: "You can compute/interpret \\(H^2\\) and \\(h^2\\) conceptually and avoid the standard traps about what heritability means."
+    duration_days: 2
+    tags:
+      - "heritability"
+      - "quantitative-genetics"
+      - "exam-traps"
+
+  - id: 3
+    title: "Natural Selection: Mechanism and Logic"
+    learning_objectives:
+      - "State the conditions for natural selection: variation, heritability, and differential fitness."
+      - "Explain the distinction: selection acts on phenotypes but evolution is change in allele frequencies."
+      - "Describe how selection can be directional, stabilizing, or disruptive depending on fitness–phenotype relationships."
+      - "Translate verbal scenarios into selection outcomes (which phenotype/genotype increases)."
+    textbook_style_content:
+      - topic: "Core mechanism"
+        sections:
+          - section_title: "Darwin’s postulates restated in population terms"
+            section_type: core_theory
+          - section_title: "Selection vs drift: non-random fitness differences vs random sampling"
+            section_type: related concepts
+      - topic: "Selection in simple genetic models"
+        sections:
+          - section_title: "Genotype fitnesses and relative fitness: interpreting \\(w\\) values"
+            section_type: core_theory
+          - section_title: "Selection coefficient \\(s\\) and what it represents"
+            section_type: related concepts
+      - topic: "Selection on quantitative traits"
+        sections:
+          - section_title: "Fitness landscapes and selection gradients (conceptual)"
+            section_type: related concepts
+          - section_title: "Selection differential \\(S\\) and response \\(R\\): breeder’s equation \\(R = h^2 S\\)"
+            section_type: core_theory
+    milestone: "Given a short scenario, you can identify whether selection operates and predict the evolutionary direction using fitness differences."
+    duration_days: 3
+    tags:
+      - "natural-selection"
+      - "fitness"
+      - "breeders-equation"
+
+  - id: 4
+    title: "Fitness and Adaptation: Meaning, Measurement, and Misconceptions"
+    learning_objectives:
+      - "Define absolute and relative fitness and list major fitness components."
+      - "Differentiate adaptation (trait/process) from acclimation and from mere utility."
+      - "Explain context dependence: why a trait can be adaptive in one environment and maladaptive in another."
+      - "Recognize trade-offs and constraints shaping adaptations."
+    textbook_style_content:
+      - topic: "Fitness concepts"
+        sections:
+          - section_title: "Fitness as reproductive success: viability, fecundity, and mating success"
+            section_type: core_theory
+          - section_title: "Measuring fitness in practice: proxies and limitations (conceptual)"
+            section_type: overview
+      - topic: "Adaptation and its boundaries"
+        sections:
+          - section_title: "Adaptation vs acclimation vs exaptation"
+            section_type: core_theory
+          - section_title: "Trade-offs, costs, and genetic correlations as constraints"
+            section_type: related concepts
+          - section_title: "Teleology pitfalls: replacing 'need' with differential reproduction"
+            section_type: overview
+    milestone: "You can define fitness precisely, identify adaptations correctly, and explain trade-offs without using teleological language."
+    duration_days: 2
+    tags:
+      - "fitness"
+      - "adaptation"
+      - "trade-offs"
+
+  - id: 5
+    title: "Types of Selection: Stabilizing, Directional, and Disruptive"
+    learning_objectives:
+      - "Define stabilizing, directional, and disruptive selection using fitness–phenotype relationships."
+      - "Predict effects on trait mean and variance for each selection type."
+      - "Connect selection types to real biological examples and to maintenance of polymorphism."
+      - "Answer GATE-style questions involving histograms and qualitative trait distributions."
+    textbook_style_content:
+      - topic: "Directional selection"
+        sections:
+          - section_title: "Definition, causes (environmental shift), and expected trait distribution change"
+            section_type: core_theory
+          - section_title: "Examples: antibiotic/pesticide resistance and industrial melanism"
+            section_type: related concepts
+      - topic: "Stabilizing selection"
+        sections:
+          - section_title: "Definition and effect: reduced variance around an intermediate optimum"
+            section_type: core_theory
+          - section_title: "Examples: birth weight and optimal clutch size (conceptual)"
+            section_type: related concepts
+      - topic: "Disruptive selection"
+        sections:
+          - section_title: "Definition and effect: increased variance and favoring extremes"
+            section_type: core_theory
+          - section_title: "Links to polymorphism and potential pathways to speciation (overview)"
+            section_type: related concepts
+      - topic: "Comparative interpretation"
+        sections:
+          - section_title: "Mean vs variance: quick rules to identify selection type from graphs"
+            section_type: overview
+          - section_title: "When selection types can change over time or differ across habitats"
+            section_type: related concepts
+    milestone: "You can infer the selection type from a described or graphed trait distribution and state the expected changes in mean and variance."
+    duration_days: 3
+    tags:
+      - "selection-types"
+      - "stabilizing"
+      - "directional"
+      - "disruptive"

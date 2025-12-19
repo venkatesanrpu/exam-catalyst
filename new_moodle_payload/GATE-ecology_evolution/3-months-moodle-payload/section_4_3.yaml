@@ -1,0 +1,206 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Behavioural Ecology (4.3): Foraging Ecology—Foraging behaviour; optimal foraging theory."
+
+concepts:
+  core:
+    - name: "Foraging behaviour"
+      clarifier: "Behavioral decisions involved in searching, choosing, capturing, handling, storing, and consuming food under ecological constraints."
+    - name: "Optimal foraging theory (OFT)"
+      clarifier: "Framework modeling foraging as decision-making that maximizes a fitness-related currency subject to constraints (time, energy, risk, information)."
+    - name: "Energy/time budgets"
+      clarifier: "Allocation of time among searching, handling, resting, vigilance; links to intake rate and opportunity costs."
+    - name: "Prey choice (diet breadth) model"
+      clarifier: "Selecting among prey types based on profitability and encounter rates to maximize long-term gain."
+    - name: "Patch use and patch leaving"
+      clarifier: "Decisions on how long to exploit a resource patch and when to move; diminishing returns and travel time."
+    - name: "Marginal Value Theorem (MVT)"
+      clarifier: "Rule for optimal patch departure when instantaneous intake rate drops to the habitat-average intake rate including travel time."
+  related:
+    - name: "Fitness currencies"
+      clarifier: "Energy gain, net rate of intake, nutrient gain, reproductive value, or survival probability depending on context."
+    - name: "Constraints and trade-offs"
+      clarifier: "Handling limits, digestive constraints, competition, predation risk, time constraints, thermoregulation."
+    - name: "Information and uncertainty"
+      clarifier: "Imperfect knowledge of patch quality and prey availability; sampling, learning, and Bayesian updating ideas."
+    - name: "Risk-sensitive foraging"
+      clarifier: "Preference shifts when variance in reward affects survival or reproduction; starvation-avoidance logic."
+    - name: "Central place foraging"
+      clarifier: "Foraging constrained by returning to a nest/den; load size decisions and travel costs."
+    - name: "Functional responses"
+      clarifier: "How intake rate changes with prey density; links between behavior (handling/search) and consumption rates."
+    - name: "Giving-up density (GUD)"
+      clarifier: "Remaining resource density at patch departure; used to infer perceived costs (predation, effort, missed opportunity)."
+    - name: "Interference and exploitation competition"
+      clarifier: "Effects of conspecifics on encounter rates and handling; ideal free distribution connections."
+    - name: "State-dependent foraging"
+      clarifier: "Decisions depend on internal state (hunger, fat reserves, age, parasites) and future prospects."
+
+learning_path:
+  - id: 1
+    title: "Foraging Ecology: What Foragers Do and Why It Matters"
+    learning_objectives:
+      - "Define foraging behaviour and list its main components (search, choice, capture, handling, consumption)."
+      - "Explain why foraging decisions affect fitness through energy, time, and survival."
+      - "Identify ecological factors shaping foraging (resource distribution, competition, predation risk)."
+    textbook_style_content:
+      - topic: "Foraging behaviour as a decision sequence"
+        sections:
+          - section_title: "Components of foraging: search to consumption"
+            section_type: overview
+          - section_title: "Time budgets, opportunity costs, and constraints"
+            section_type: core_theory
+      - topic: "Ecological context of foraging"
+        sections:
+          - section_title: "Resource heterogeneity and encounter processes"
+            section_type: core_theory
+          - section_title: "Competition and predation risk as modifiers"
+            section_type: related concepts
+    milestone: "Can describe a real foraging scenario as a set of choices and constraints rather than a single behavior."
+    duration_days: 2
+    tags:
+      - "foraging ecology"
+      - "time budgets"
+      - "constraints"
+
+  - id: 2
+    title: "Optimal Foraging Theory: Assumptions, Currencies, and Predictions"
+    learning_objectives:
+      - "State the core logic of OFT (maximize a currency subject to constraints)."
+      - "Compare common currencies (net energy gain, rate of intake, nutrient balance, survival-adjusted gain)."
+      - "Recognize key assumptions and when OFT predictions may fail."
+    textbook_style_content:
+      - topic: "The OFT framework"
+        sections:
+          - section_title: "Optimization, constraints, and testable predictions"
+            section_type: overview
+          - section_title: "C मुद्रा: what is being maximized and why"
+            section_type: core_theory
+      - topic: "Assumptions and limitations"
+        sections:
+          - section_title: "Complete information, stable environments, and measurable costs"
+            section_type: core_theory
+          - section_title: "When deviations are expected: risk, learning, and state dependence"
+            section_type: related concepts
+    milestone: "Can choose an appropriate currency for a given organism/context and justify it in one or two lines."
+    duration_days: 2
+    tags:
+      - "optimal foraging theory"
+      - "currencies"
+      - "assumptions"
+      - "predictions"
+
+  - id: 3
+    title: "Prey Choice and Diet Breadth (Optimal Diet Model)"
+    learning_objectives:
+      - "Define profitability and explain how handling time affects prey value."
+      - "Explain the prey choice rule: accept or reject prey types to maximize long-term intake rate."
+      - "Predict how diet breadth changes with encounter rates and prey availability."
+    textbook_style_content:
+      - topic: "Profitability and the acceptance rule"
+        sections:
+          - section_title: "Search time vs handling time and why both matter"
+            section_type: overview
+          - section_title: "Ranking prey by profitability and the threshold logic"
+            section_type: core_theory
+      - topic: "Predictions of the model"
+        sections:
+          - section_title: "How encounter rate with the best prey affects specialization"
+            section_type: core_theory
+          - section_title: "Constraints: digestion, nutrients, and toxin limits"
+            section_type: related concepts
+    milestone: "Given prey types with handling times and energy values, can rank them and state which should be included in the optimal diet."
+    duration_days: 3
+    tags:
+      - "prey choice"
+      - "diet breadth"
+      - "profitability"
+      - "handling time"
+
+  - id: 4
+    title: "Patch Use and the Marginal Value Theorem (MVT)"
+    learning_objectives:
+      - "Explain why patch gain shows diminishing returns during exploitation."
+      - "State the MVT departure rule in words and interpret it graphically."
+      - "Predict effects of travel time, patch quality, and predation risk on patch residence time."
+    textbook_style_content:
+      - topic: "Patchy resources and diminishing returns"
+        sections:
+          - section_title: "What makes a ‘patch’ and why returns decline"
+            section_type: overview
+          - section_title: "Linking depletion, search within patch, and intake rate"
+            section_type: core_theory
+      - topic: "Marginal Value Theorem"
+        sections:
+          - section_title: "Optimal leaving rule and habitat-average rate"
+            section_type: core_theory
+          - section_title: "Extensions: constraints, risk, and missed opportunity costs"
+            section_type: related concepts
+      - topic: "Operational measures"
+        sections:
+          - section_title: "Giving-up density (GUD) as a test of patch-leaving decisions"
+            section_type: related concepts
+    milestone: "Can qualitatively predict whether an animal should stay longer or leave sooner when travel time increases or patches become richer."
+    duration_days: 3
+    tags:
+      - "patch foraging"
+      - "MVT"
+      - "diminishing returns"
+      - "GUD"
+
+  - id: 5
+    title: "Beyond Simple OFT: Risk, State, and Central Place Constraints"
+    learning_objectives:
+      - "Explain risk-sensitive foraging and when variance in reward becomes critical."
+      - "Describe state-dependent decision-making based on energy reserves and future prospects."
+      - "Explain central place foraging constraints and how they alter optimal choices."
+    textbook_style_content:
+      - topic: "Risk-sensitive foraging"
+        sections:
+          - section_title: "Variance, starvation risk, and preference reversals"
+            section_type: overview
+          - section_title: "How predation risk reshapes ‘optimal’ behaviour"
+            section_type: related concepts
+      - topic: "State dependence"
+        sections:
+          - section_title: "Why the same environment yields different choices for different states"
+            section_type: core_theory
+          - section_title: "Dynamic constraints: fatigue, age, parasites, and time of day"
+            section_type: related concepts
+      - topic: "Central place foraging"
+        sections:
+          - section_title: "Load size, travel costs, and provisioning trade-offs"
+            section_type: core_theory
+    milestone: "Can explain a deviation from simple rate-maximization by citing risk, state, or central-place constraints."
+    duration_days: 3
+    tags:
+      - "risk-sensitive foraging"
+      - "state dependence"
+      - "central place foraging"
+
+  - id: 6
+    title: "Exam-Oriented Applications and Typical Question Patterns"
+    learning_objectives:
+      - "Translate word problems into OFT components (currency, constraints, decision variable)."
+      - "Answer common GATE-style conceptual questions on prey choice and patch leaving."
+      - "Interpret qualitative graphs of intake rate vs time in patch and effects of parameter changes."
+    textbook_style_content:
+      - topic: "How to structure an OFT answer"
+        sections:
+          - section_title: "Identify currency, constraints, and the optimization target"
+            section_type: overview
+          - section_title: "Common traps: mixing currencies and ignoring opportunity costs"
+            section_type: related concepts
+      - topic: "Canonical predictions to memorize"
+        sections:
+          - section_title: "Diet breadth and patch residence time: direction-of-change rules"
+            section_type: core_theory
+          - section_title: "Linking functional responses to search and handling components"
+            section_type: related concepts
+    milestone: "Can solve direction-of-change questions (increase/decrease/no change) for diet breadth and patch time under parameter shifts."
+    duration_days: 2
+    tags:
+      - "GATE practice"
+      - "OFT applications"
+      - "graph interpretation"

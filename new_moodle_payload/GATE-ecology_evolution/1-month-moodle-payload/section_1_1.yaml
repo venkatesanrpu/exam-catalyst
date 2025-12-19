@@ -1,0 +1,173 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Fundamental Concepts: Abiotic and biotic components; scales (population, species, community, ecosystems, biomes); niches and habitats."
+
+concepts:
+  core:
+    - name: "Abiotic components"
+      clarifier: "Non-living physical and chemical factors (e.g., light, temperature, water, nutrients) that constrain and shape organism performance and ecosystem processes."
+    - name: "Biotic components"
+      clarifier: "Living components (organisms and their interactions) that influence survival, reproduction, community structure, and ecosystem functioning."
+    - name: "Levels (scales) of ecological organization"
+      clarifier: "Hierarchical scales used to study ecology: population, species, community, ecosystem, and biome, each with distinct patterns, processes, and measurements."
+    - name: "Ecological niche"
+      clarifier: "The multidimensional set of conditions and resources defining where a species can persist and how it affects and is affected by the environment (role + requirements)."
+    - name: "Habitat"
+      clarifier: "The physical place or environment where an organism lives; a spatial concept often linked to vegetation, substrate, and climate."
+
+  related:
+    - name: "Species concept (ecological relevance)"
+      clarifier: "Operational meaning of species for ecological studies (often biological/ecological species concepts) and implications for measuring diversity and interactions."
+    - name: "Population attributes"
+      clarifier: "Key descriptors such as size, density, dispersion, age structure, and growth rate used at the population scale."
+    - name: "Community interactions"
+      clarifier: "Core interaction types (competition, predation, mutualism, commensalism, parasitism) that connect biotic components to community patterns."
+    - name: "Ecosystem processes"
+      clarifier: "Energy flow and nutrient cycling as emergent properties at the ecosystem scale linking biotic and abiotic components."
+    - name: "Biome classification"
+      clarifier: "Broad ecosystem types defined primarily by climate and dominant vegetation (e.g., tundra, tropical rainforest), used for large-scale comparisons."
+    - name: "Niche partitioning and coexistence"
+      clarifier: "Mechanisms by which species reduce overlap in resource use, enabling stable coexistence within communities."
+    - name: "Fundamental vs realized niche"
+      clarifier: "Potential niche set by abiotic limits versus actual niche constrained by biotic interactions and dispersal."
+    - name: "Habitat selection and habitat suitability"
+      clarifier: "Behavioral and demographic basis for choosing habitats; suitability measured via survival and reproduction, not just presence."
+
+learning_path:
+  - id: 1
+    title: "Abiotic and biotic components of ecological systems"
+    learning_objectives:
+      - "Differentiate abiotic from biotic components with exam-relevant examples."
+      - "Explain how abiotic factors limit organism performance and distribution."
+      - "Explain how biotic interactions modify distributions and abundances."
+      - "Connect components to measurable ecological variables (e.g., temperature, biomass, interaction strength)."
+    textbook_style_content:
+      - topic: "What constitutes an ecological system?"
+        sections:
+          - section_title: "Definition and scope of components"
+            section_type: overview
+          - section_title: "Abiotic factors: types, gradients, and limiting factors"
+            section_type: core_theory
+          - section_title: "Biotic factors: interactions and feedbacks"
+            section_type: core_theory
+          - section_title: "Linking components to patterns: distribution, abundance, and productivity"
+            section_type: related concepts
+      - topic: "Constraints and responses"
+        sections:
+          - section_title: "Physiological tolerance and environmental filters"
+            section_type: core_theory
+          - section_title: "Biotic modification of abiotic context (ecosystem engineering)"
+            section_type: related concepts
+    milestone: "Able to classify any described factor as abiotic/biotic and predict its likely ecological effect at a stated scale."
+    duration_days: 2
+    tags:
+      - "fundamentals"
+      - "abiotic"
+      - "biotic"
+      - "GATE"
+
+  - id: 2
+    title: "Scales of ecological organization: population to biome"
+    learning_objectives:
+      - "Define population, species, community, ecosystem, and biome with clear boundaries and examples."
+      - "Identify the typical questions, variables, and processes studied at each scale."
+      - "Map a real-world scenario (e.g., a lake, forest patch) onto the correct organizational level(s)."
+      - "Explain cross-scale linkages (bottom-up and top-down) in ecological reasoning."
+    textbook_style_content:
+      - topic: "Hierarchy and scale in ecology"
+        sections:
+          - section_title: "Why scale matters: extent, grain, and emergent properties"
+            section_type: overview
+          - section_title: "Population and species scales: units of individuals and gene pools"
+            section_type: core_theory
+          - section_title: "Community scale: interacting populations and diversity patterns"
+            section_type: core_theory
+          - section_title: "Ecosystem scale: energy flow and nutrient cycling"
+            section_type: core_theory
+          - section_title: "Biome scale: climate-vegetation templates and global patterns"
+            section_type: core_theory
+      - topic: "Cross-scale reasoning for exam problems"
+        sections:
+          - section_title: "Choosing the correct scale for a hypothesis or dataset"
+            section_type: related concepts
+          - section_title: "Common pitfalls: mixing scales and confusing levels"
+            section_type: related concepts
+    milestone: "Given any ecological statement or dataset, correctly identify the scale and the appropriate processes/measures."
+    duration_days: 2
+    tags:
+      - "scale"
+      - "population"
+      - "community"
+      - "ecosystem"
+      - "biome"
+      - "GATE"
+
+  - id: 3
+    title: "Niches and habitats: concepts, differences, and applications"
+    learning_objectives:
+      - "Distinguish habitat (place) from niche (role + requirements) using precise language."
+      - "Explain the niche as a multidimensional concept and relate it to resource use and environmental conditions."
+      - "Differentiate fundamental and realized niches and predict the role of competition/predation."
+      - "Apply niche concepts to coexistence, habitat selection, and species distribution questions."
+    textbook_style_content:
+      - topic: "Habitat: the spatial template"
+        sections:
+          - section_title: "Definition, components, and scales of habitat"
+            section_type: overview
+          - section_title: "Habitat heterogeneity, patches, and microhabitats"
+            section_type: core_theory
+          - section_title: "Habitat selection and habitat suitability vs occupancy"
+            section_type: related concepts
+      - topic: "Niche: the functional position in an ecosystem"
+        sections:
+          - section_title: "Niche definition and the multidimensional niche space"
+            section_type: core_theory
+          - section_title: "Fundamental vs realized niche: abiotic limits and biotic constraints"
+            section_type: core_theory
+          - section_title: "Niche breadth, overlap, and partitioning"
+            section_type: related concepts
+      - topic: "Integrating niche and habitat in exam contexts"
+        sections:
+          - section_title: "Coexistence mechanisms and competitive exclusion (conceptual link)"
+            section_type: related concepts
+          - section_title: "Interpreting distribution patterns with niche-habitat language"
+            section_type: related concepts
+    milestone: "Can solve conceptual questions that test niche vs habitat, and can justify outcomes under altered abiotic or biotic conditions."
+    duration_days: 3
+    tags:
+      - "niche"
+      - "habitat"
+      - "coexistence"
+      - "species distributions"
+      - "GATE"
+
+  - id: 4
+    title: "Integration module: linking components, scale, niche, and habitat"
+    learning_objectives:
+      - "Integrate abiotic/biotic components with scale-dependent patterns."
+      - "Construct a coherent explanation for species presence/absence using niche and habitat."
+      - "Translate narrative ecological scenarios into testable statements at the correct scale."
+      - "Prepare for GATE-style mixed-concept MCQs and short analytical prompts."
+    textbook_style_content:
+      - topic: "Unified ecological reasoning framework"
+        sections:
+          - section_title: "From environment to distribution: filters, interactions, and scale"
+            section_type: overview
+          - section_title: "Case-style reasoning: same system, multiple scales"
+            section_type: core_theory
+          - section_title: "Concept mapping: components → processes → patterns"
+            section_type: related concepts
+      - topic: "Exam-oriented synthesis"
+        sections:
+          - section_title: "Common GATE traps and how to avoid them"
+            section_type: related concepts
+          - section_title: "How to phrase definitions precisely under time pressure"
+            section_type: related concepts
+    milestone: "Able to answer mixed questions that require selecting the correct scale and invoking niche/habitat with abiotic and biotic constraints."
+    duration_days: 1
+    tags:
+      - "integration"
+      - "exam strategy"
+      - "fundamentals"
+      - "GATE"

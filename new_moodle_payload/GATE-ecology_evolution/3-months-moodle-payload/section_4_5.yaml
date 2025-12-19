@@ -1,0 +1,282 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Behavioural Ecology (4.5): Social Living—Costs and benefits of group-living (including responses to predators); effect of competition (scramble and contest) on group formation; dominance relationships; eusociality; kin selection; altruism; reciprocity; human behaviour."
+
+concepts:
+  core:
+    - name: "Group living (social living)"
+      clarifier: "Persistent association of conspecifics; social structure ranging from loose aggregations to stable groups and societies."
+    - name: "Costs and benefits of group living"
+      clarifier: "Trade-offs between survival/reproduction gains (e.g., predator avoidance, foraging efficiency) and costs (competition, disease, conflict)."
+    - name: "Anti-predator benefits of groups"
+      clarifier: "Mechanisms including dilution, many-eyes vigilance, confusion, and collective defense; shapes group size and cohesion."
+    - name: "Competition and group formation"
+      clarifier: "How resource competition determines whether grouping is favored and sets optimal group size; resource distribution is key."
+    - name: "Scramble competition"
+      clarifier: "Exploitation competition; individuals cannot exclude others, so per-capita intake often declines as group size increases."
+    - name: "Contest competition"
+      clarifier: "Interference competition; individuals can exclude/monopolize resources, producing inequality and favoring dominance."
+    - name: "Dominance relationships"
+      clarifier: "Consistent asymmetries in aggressive interactions producing rank and hierarchies that structure access to resources and mating."
+    - name: "Kin selection"
+      clarifier: "Selection acting through indirect fitness gains when helping relatives; formalized by Hamilton’s rule."
+    - name: "Altruism"
+      clarifier: "Behaviors that reduce actor’s direct fitness while increasing recipient’s fitness; can evolve via relatedness, reciprocity, or group-structured mechanisms."
+    - name: "Reciprocity"
+      clarifier: "Helping based on contingent return benefits over repeated interactions; requires recognition, memory, and low cheating."
+    - name: "Eusociality"
+      clarifier: "Extreme sociality with reproductive division of labor, cooperative brood care, and overlapping generations; explained via kin selection and ecological factors."
+    - name: "Human behaviour (behavioral ecology perspective)"
+      clarifier: "Applying evolutionary logic to human cooperation, conflict, mating, and social norms while accounting for culture and gene–culture interactions."
+  related:
+    - name: "Hamilton’s rule"
+      clarifier: "Altruism can evolve when \\( rB > C \\), where \\(r\\) is relatedness, \\(B\\) benefit to recipient, \\(C\\) cost to actor."
+    - name: "Inclusive fitness"
+      clarifier: "Total genetic contribution via direct reproduction plus effects on relatives’ reproduction weighted by relatedness."
+    - name: "Direct vs indirect fitness"
+      clarifier: "Direct fitness from own offspring; indirect fitness via aiding relatives; their sum underpins kin selection logic."
+    - name: "Mutualism"
+      clarifier: "Cooperation benefiting both parties immediately; distinct from altruism and often easier to maintain."
+    - name: "Reciprocal altruism (Trivers)"
+      clarifier: "Cooperation stabilized by repeated interactions, partner choice, and punishment/retaliation against defectors."
+    - name: "By-product benefits"
+      clarifier: "Helping arises as a side-effect of selfish action; can mimic altruism without fitness costs."
+    - name: "Cheater problem"
+      clarifier: "Risk that individuals take benefits without paying costs; central to evolution of cooperation."
+    - name: "Kin recognition and discrimination"
+      clarifier: "Mechanisms to direct help toward relatives (familiarity, phenotype matching, spatial cues)."
+    - name: "Policing and punishment"
+      clarifier: "Mechanisms that suppress cheating and stabilize cooperation (worker policing in insects, social punishment in humans)."
+    - name: "Game theory in social behavior"
+      clarifier: "Strategic interaction models (Prisoner’s Dilemma, Hawk–Dove, Public Goods) explaining conflict and cooperation."
+    - name: "Group selection and multilevel selection"
+      clarifier: "Selection acting among groups can favor cooperation when between-group variation persists and within-group cheating is controlled."
+    - name: "Life-history and ecological constraints on eusociality"
+      clarifier: "Monogamy, fortress defense, progressive provisioning, and high benefits of staying can promote eusociality."
+    - name: "Gene–culture coevolution"
+      clarifier: "Human-specific feedback between cultural practices and selection pressures (norms, institutions, mating rules)."
+
+learning_path:
+  - id: 1
+    title: "Social Living: Why Groups Form"
+    learning_objectives:
+      - "Define social living and distinguish aggregations, groups, and societies."
+      - "List major benefits and costs of group living and link them to fitness components."
+      - "Predict when solitary living should be favored over grouping."
+    textbook_style_content:
+      - topic: "The grouping problem"
+        sections:
+          - section_title: "Sociality as a cost–benefit outcome"
+            section_type: overview
+          - section_title: "Key benefits (predators, food, mates) and key costs (competition, disease, conflict)"
+            section_type: core_theory
+      - topic: "Ecological context"
+        sections:
+          - section_title: "Resource distribution and predation pressure as primary drivers"
+            section_type: related concepts
+    milestone: "Can explain group formation using at least two benefits and two costs, with an explicit ecological context."
+    duration_days: 2
+    tags:
+      - "group living"
+      - "cost-benefit"
+      - "sociality"
+
+  - id: 2
+    title: "Group Living and Predators: Mechanisms and Responses"
+    learning_objectives:
+      - "Explain dilution, many-eyes, and confusion effects and how they scale with group size."
+      - "Describe coordinated responses to predators (alarm calls, sentinels, mobbing, synchronized escape)."
+      - "Relate predator pressure to grouping tendency and vigilance time budgets."
+    textbook_style_content:
+      - topic: "Passive risk reduction"
+        sections:
+          - section_title: "Dilution, vigilance, and confusion"
+            section_type: overview
+          - section_title: "Selfish herd logic and spatial positioning"
+            section_type: core_theory
+      - topic: "Active defenses"
+        sections:
+          - section_title: "Alarm calling, sentinel systems, and collective defense"
+            section_type: core_theory
+          - section_title: "Trade-offs: conspicuousness and risk-taking in defense"
+            section_type: related concepts
+    milestone: "Can classify an anti-predator group behavior by mechanism and predict how vigilance should change with group size."
+    duration_days: 3
+    tags:
+      - "predation"
+      - "vigilance"
+      - "collective defense"
+
+  - id: 3
+    title: "Competition and Group Formation: Scramble vs Contest"
+    learning_objectives:
+      - "Distinguish scramble (exploitation) and contest (interference) competition with examples."
+      - "Predict how each competition type affects optimal group size and within-group inequality."
+      - "Explain why fission–fusion dynamics can emerge under variable resources."
+    textbook_style_content:
+      - topic: "Scramble competition"
+        sections:
+          - section_title: "Dispersed resources and shared depletion"
+            section_type: overview
+          - section_title: "Per-capita intake decline and group-size limits"
+            section_type: core_theory
+      - topic: "Contest competition"
+        sections:
+          - section_title: "Monopolizable resources and exclusion"
+            section_type: overview
+          - section_title: "Unequal payoffs and selection for dominance"
+            section_type: core_theory
+      - topic: "Flexible sociality"
+        sections:
+          - section_title: "Fission–fusion as a solution to shifting trade-offs"
+            section_type: related concepts
+    milestone: "Given resource clumping and predation risk, can infer the dominant competition mode and predict whether groups should split or merge."
+    duration_days: 3
+    tags:
+      - "scramble competition"
+      - "contest competition"
+      - "optimal group size"
+      - "fission-fusion"
+
+  - id: 4
+    title: "Dominance Relationships and Hierarchies"
+    learning_objectives:
+      - "Define dominance and describe common hierarchy structures (linear, despotic, egalitarian)."
+      - "Explain how dominance can reduce repeated fighting and stabilize resource access."
+      - "Describe mechanisms establishing rank: assessment signals, winner–loser effects, alliances, kinship."
+    textbook_style_content:
+      - topic: "Dominance: concepts and measures"
+        sections:
+          - section_title: "Dominance vs aggression: consistent outcomes across encounters"
+            section_type: overview
+          - section_title: "Hierarchy formation under contest competition"
+            section_type: core_theory
+      - topic: "Maintaining stability"
+        sections:
+          - section_title: "Signals, conventions, and conflict management"
+            section_type: core_theory
+          - section_title: "Social inheritance, coalitions, and policing"
+            section_type: related concepts
+      - topic: "Fitness consequences"
+        sections:
+          - section_title: "Rank, access to food/mates, and physiological stress"
+            section_type: related concepts
+    milestone: "Can explain why dominance hierarchies are expected when resources are contestable and identify one stabilizing mechanism."
+    duration_days: 3
+    tags:
+      - "dominance"
+      - "hierarchies"
+      - "contest competition"
+
+  - id: 5
+    title: "Kin Selection and Inclusive Fitness"
+    learning_objectives:
+      - "Define inclusive fitness and distinguish direct vs indirect fitness."
+      - "State and interpret Hamilton’s rule \\( rB > C \\)."
+      - "Apply kin selection logic to predict when altruism toward relatives is favored."
+    textbook_style_content:
+      - topic: "Inclusive fitness framework"
+        sections:
+          - section_title: "Direct and indirect fitness components"
+            section_type: overview
+          - section_title: "Hamilton’s rule and relatedness"
+            section_type: core_theory
+      - topic: "Kin-directed behavior"
+        sections:
+          - section_title: "Kin recognition and discrimination mechanisms"
+            section_type: related concepts
+          - section_title: "Nepotism, helping, and conflicts among kin"
+            section_type: related concepts
+    milestone: "Can solve simple Hamilton’s rule scenarios by identifying \\(r\\), \\(B\\), and \\(C\\) and predicting whether altruism evolves."
+    duration_days: 3
+    tags:
+      - "kin selection"
+      - "inclusive fitness"
+      - "Hamilton's rule"
+      - "altruism"
+
+  - id: 6
+    title: "Altruism and Cooperation: Mechanisms Beyond Kin"
+    learning_objectives:
+      - "Differentiate altruism, mutualism, and by-product benefits."
+      - "Explain reciprocity and conditions required for its stability (repeated interactions, recognition, low cheating)."
+      - "Describe how policing, punishment, and partner choice reduce cheating."
+    textbook_style_content:
+      - topic: "Classifying cooperative behaviors"
+        sections:
+          - section_title: "Altruism vs mutualism vs by-product cooperation"
+            section_type: overview
+          - section_title: "Cheater problem and why cooperation is hard"
+            section_type: core_theory
+      - topic: "Reciprocity"
+        sections:
+          - section_title: "Reciprocal altruism and contingent strategies"
+            section_type: core_theory
+          - section_title: "Game theory intuition: Prisoner’s Dilemma and repeated games"
+            section_type: related concepts
+      - topic: "Enforcement and partner choice"
+        sections:
+          - section_title: "Punishment, policing, and reputation as stabilizers"
+            section_type: related concepts
+    milestone: "Can identify whether a cooperation example is best explained by kin selection, reciprocity, mutualism, or enforcement mechanisms."
+    duration_days: 4
+    tags:
+      - "altruism"
+      - "reciprocity"
+      - "cooperation"
+      - "game theory"
+
+  - id: 7
+    title: "Eusociality: Evolution of Extreme Social Systems"
+    learning_objectives:
+      - "Define eusociality (reproductive division of labor, cooperative brood care, overlapping generations)."
+      - "Explain the role of relatedness and mating structure (e.g., monogamy) in facilitating eusociality."
+      - "Describe ecological drivers (fortress defense, progressive provisioning) and conflict control (policing)."
+    textbook_style_content:
+      - topic: "What makes eusociality unique?"
+        sections:
+          - section_title: "Key criteria and classic taxa"
+            section_type: overview
+          - section_title: "Kin selection explanation and inclusive-fitness accounting"
+            section_type: core_theory
+      - topic: "Ecological and life-history routes"
+        sections:
+          - section_title: "Benefits of staying: defense, resource inheritance, and helping efficiency"
+            section_type: related concepts
+          - section_title: "Policing and conflict reduction within colonies"
+            section_type: related concepts
+    milestone: "Can explain eusociality using both relatedness-based and ecological-constraint arguments, and state why cheating is limited."
+    duration_days: 3
+    tags:
+      - "eusociality"
+      - "kin selection"
+      - "inclusive fitness"
+      - "policing"
+
+  - id: 8
+    title: "Human Behaviour: Cooperation, Conflict, and Culture"
+    learning_objectives:
+      - "Apply evolutionary concepts (kin selection, reciprocity, sexual selection) to human social behavior cautiously."
+      - "Explain how culture and institutions can change payoffs and stabilize cooperation."
+      - "Describe gene–culture coevolution and how norms can mimic enforcement mechanisms."
+    textbook_style_content:
+      - topic: "Human behavioral ecology"
+        sections:
+          - section_title: "Opportunities and limits of adaptationist explanations"
+            section_type: overview
+          - section_title: "Cooperation: kinship, reciprocity, reputation, and punishment"
+            section_type: core_theory
+      - topic: "Culture as part of the environment"
+        sections:
+          - section_title: "Gene–culture coevolution and changing social payoffs"
+            section_type: related concepts
+          - section_title: "Common pitfalls: ‘just-so’ stories and confounding by environment"
+            section_type: related concepts
+    milestone: "Can propose an evolutionary explanation for a human cooperation pattern and explicitly state at least one cultural/institutional modifier."
+    duration_days: 3
+    tags:
+      - "human behavior"
+      - "cooperation"
+      - "gene-culture coevolution"
+      - "behavioral ecology"

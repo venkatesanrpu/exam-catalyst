@@ -1,0 +1,236 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Macroevolution: Species concepts and speciation; adaptive radiation; convergence; biogeography"
+
+concepts:
+  core:
+    - name: "Macroevolution (scope and patterns)"
+      clarifier: "Evolutionary change at and above the species level, including speciation, extinction, and large-scale patterns such as radiations, convergence, and geographic diversification."
+    - name: "Species concepts"
+      clarifier: "Alternative criteria for delimiting species (biological, morphological, phylogenetic, ecological) and the contexts where each works or fails."
+    - name: "Speciation"
+      clarifier: "The origin of new species via the evolution of reproductive isolation; links microevolutionary processes to macroevolutionary diversification."
+    - name: "Reproductive isolation"
+      clarifier: "Prezygotic and postzygotic barriers reducing gene flow; how barriers arise and strengthen through selection, drift, and incompatibilities."
+    - name: "Adaptive radiation"
+      clarifier: "Rapid diversification into multiple species accompanied by ecological and phenotypic divergence; often driven by ecological opportunity and key innovations."
+    - name: "Convergent evolution"
+      clarifier: "Independent evolution of similar traits in different lineages due to similar selective pressures; distinguishes similarity from common ancestry."
+    - name: "Biogeography"
+      clarifier: "Geographic distributions of organisms shaped by dispersal, vicariance, extinction, and historical climate/geology; used to infer evolutionary history."
+  related:
+    - name: "Allopatric speciation"
+      clarifier: "Speciation via geographic isolation; divergence through drift and selection; barrier formation and secondary contact outcomes."
+    - name: "Peripatric speciation"
+      clarifier: "Speciation in small peripheral isolates; strong drift and founder effects can accelerate divergence."
+    - name: "Parapatric speciation"
+      clarifier: "Speciation with adjacent ranges and limited gene flow; divergence across environmental gradients."
+    - name: "Sympatric speciation"
+      clarifier: "Speciation without geographic separation; requires strong disruptive selection and assortative mating; common via polyploidy in plants."
+    - name: "Hybrid zones and reinforcement"
+      clarifier: "Secondary contact regions; reinforcement strengthens prezygotic isolation when hybrids have reduced fitness."
+    - name: "Ecological speciation"
+      clarifier: "Reproductive isolation evolves as a by-product of adaptation to different environments or niches."
+    - name: "Sexual selection in speciation"
+      clarifier: "Mate choice and signal divergence can drive rapid reproductive isolation."
+    - name: "Dobzhansky–Muller incompatibilities (DMI)"
+      clarifier: "Postzygotic isolation via negative epistasis between diverged loci; explains hybrid sterility/inviability without requiring deleterious intermediates."
+    - name: "Polyploid speciation"
+      clarifier: "Instant reproductive isolation via chromosome duplication; auto- vs allopolyploidy; especially important in plants."
+    - name: "Key innovations"
+      clarifier: "Traits enabling exploitation of new niches and promoting radiations (context-dependent)."
+    - name: "Character displacement"
+      clarifier: "Trait divergence in sympatry due to competition; can contribute to ecological divergence and reproductive isolation."
+    - name: "Homology vs convergence in phylogenies"
+      clarifier: "Convergence creates homoplasy; affects character mapping and phylogenetic inference."
+    - name: "Vicariance vs dispersal"
+      clarifier: "Two major explanations for disjunctions; vicariance from geological splitting, dispersal from range expansion."
+    - name: "Island biogeography link (overview)"
+      clarifier: "Isolation and area influence diversification and endemism; connects geography to speciation and extinction."
+
+learning_path:
+  - id: 1
+    title: "Macroevolution: Connecting Microevolution to Large-Scale Patterns"
+    learning_objectives:
+      - "Define macroevolution and distinguish it from microevolution by scale and focal processes."
+      - "Explain how speciation and extinction generate macroevolutionary patterns in diversity."
+      - "Recognize that macroevolution does not require 'new mechanisms' beyond mutation, selection, drift, and gene flow, but emphasizes their long-term outcomes."
+      - "Interpret common macroevolution terms used in exams (radiation, convergence, vicariance)."
+    textbook_style_content:
+      - topic: "Scope and units"
+        sections:
+          - section_title: "Species-level processes: speciation and extinction as diversity generators"
+            section_type: core_theory
+          - section_title: "Patterns vs processes: what macroevolutionary questions ask"
+            section_type: overview
+      - topic: "Evidence streams (overview)"
+        sections:
+          - section_title: "Fossils, phylogenies, and biogeography as macroevolutionary evidence"
+            section_type: related concepts
+    milestone: "You can explain what macroevolution studies and identify speciation/extinction as the core drivers behind large-scale diversity patterns."
+    duration_days: 2
+    tags:
+      - "macroevolution"
+      - "big-picture"
+      - "conceptual-foundations"
+
+  - id: 2
+    title: "Species Concepts: Defining Species in Theory and Practice"
+    learning_objectives:
+      - "Define biological, morphological, phylogenetic, and ecological species concepts."
+      - "State strengths and limitations of each concept (especially in asexuals, fossils, and cryptic species)."
+      - "Predict which species concept is most appropriate for a given dataset (morphology, gene sequences, breeding tests)."
+      - "Avoid common pitfalls: equating species with 'looks different' or assuming one universal concept."
+    textbook_style_content:
+      - topic: "Core concepts"
+        sections:
+          - section_title: "Biological species concept: reproductive isolation and gene flow"
+            section_type: core_theory
+          - section_title: "Morphological species concept: diagnosability and fossil relevance"
+            section_type: core_theory
+          - section_title: "Phylogenetic species concept: smallest diagnosable monophyletic units"
+            section_type: core_theory
+          - section_title: "Ecological species concept: niche-based delimitation"
+            section_type: related concepts
+      - topic: "Application and limitations"
+        sections:
+          - section_title: "Asexual organisms, ring species, and hybridization: where concepts strain"
+            section_type: related concepts
+          - section_title: "Cryptic species and integrative taxonomy (overview)"
+            section_type: overview
+    milestone: "You can match a scenario to an appropriate species concept and justify the choice using data type and biological assumptions."
+    duration_days: 3
+    tags:
+      - "species-concepts"
+      - "taxonomy"
+      - "delimitation"
+
+  - id: 3
+    title: "Speciation: Mechanisms and Modes"
+    learning_objectives:
+      - "Define speciation as the evolution of reproductive isolation and explain why reduced gene flow is central."
+      - "Distinguish prezygotic from postzygotic barriers with examples."
+      - "Compare allopatric, peripatric, parapatric, and sympatric speciation and identify conditions favoring each."
+      - "Explain key genetic ideas underlying postzygotic isolation (DMI) at a conceptual level."
+    textbook_style_content:
+      - topic: "Reproductive isolation"
+        sections:
+          - section_title: "Prezygotic barriers: habitat, temporal, behavioral, mechanical, gametic"
+            section_type: core_theory
+          - section_title: "Postzygotic barriers: hybrid inviability, sterility, and breakdown"
+            section_type: core_theory
+      - topic: "Geographic modes"
+        sections:
+          - section_title: "Allopatric speciation: divergence in isolation and secondary contact outcomes"
+            section_type: core_theory
+          - section_title: "Peripatric and founder effects: why small isolates can diverge rapidly (overview)"
+            section_type: related concepts
+          - section_title: "Parapatric speciation: divergence with limited gene flow along gradients (overview)"
+            section_type: related concepts
+          - section_title: "Sympatric speciation: disruptive selection, assortative mating, and polyploidy"
+            section_type: core_theory
+      - topic: "Genetic basis"
+        sections:
+          - section_title: "Dobzhansky–Muller incompatibilities: epistasis-based postzygotic isolation"
+            section_type: related concepts
+          - section_title: "Reinforcement and character displacement (overview linkage)"
+            section_type: related concepts
+    milestone: "You can classify speciation scenarios by mode, name the relevant isolating barriers, and explain how barriers can strengthen over time."
+    duration_days: 5
+    tags:
+      - "speciation"
+      - "reproductive-isolation"
+      - "modes"
+
+  - id: 4
+    title: "Adaptive Radiation: Rapid Diversification and Ecological Opportunity"
+    learning_objectives:
+      - "Define adaptive radiation and state its key signatures: rapid speciation plus ecological/phenotypic divergence."
+      - "Explain drivers: ecological opportunity, release from competitors/predators, and key innovations."
+      - "Differentiate adaptive radiation from non-adaptive radiation (many species with limited ecological divergence)."
+      - "Apply radiation logic to classic examples (islands, lakes) in exam-style questions."
+    textbook_style_content:
+      - topic: "Core theory"
+        sections:
+          - section_title: "What makes a radiation 'adaptive': niche diversification and selection"
+            section_type: core_theory
+          - section_title: "Ecological opportunity and empty niches: why radiations often follow colonization or extinction"
+            section_type: core_theory
+      - topic: "Mechanisms and signatures"
+        sections:
+          - section_title: "Key innovations and their context dependence"
+            section_type: related concepts
+          - section_title: "Rates: early burst patterns and slowdowns (overview)"
+            section_type: overview
+      - topic: "Examples (conceptual)"
+        sections:
+          - section_title: "Island and lake radiations: finches, cichlids, anoles (as reasoning templates)"
+            section_type: related concepts
+    milestone: "You can identify whether a diversification pattern qualifies as adaptive radiation and cite the most plausible ecological driver."
+    duration_days: 3
+    tags:
+      - "adaptive-radiation"
+      - "ecological-opportunity"
+      - "diversification"
+
+  - id: 5
+    title: "Convergence: Similar Problems, Similar Solutions"
+    learning_objectives:
+      - "Define convergent evolution and distinguish it from parallel evolution and shared ancestry."
+      - "Explain how similar selective pressures can yield similar phenotypes in unrelated lineages."
+      - "Describe how convergence creates homoplasy and can mislead classification and phylogenetic inference."
+      - "Interpret convergence examples using function-first reasoning."
+    textbook_style_content:
+      - topic: "Core definitions and contrasts"
+        sections:
+          - section_title: "Convergence vs homology: similarity does not imply relatedness"
+            section_type: core_theory
+          - section_title: "Parallel evolution (overview) and why it is conceptually close to convergence"
+            section_type: related concepts
+      - topic: "Consequences"
+        sections:
+          - section_title: "Homoplasy and phylogenetic pitfalls: character conflict and misleading groupings"
+            section_type: core_theory
+          - section_title: "Functional constraints and predictability in evolution (overview)"
+            section_type: overview
+    milestone: "You can decide whether a similarity is likely convergence or homology and explain the implications for classification/phylogeny."
+    duration_days: 2
+    tags:
+      - "convergence"
+      - "homoplasy"
+      - "phylogeny"
+
+  - id: 6
+    title: "Biogeography: Distributions as Evidence for Evolution"
+    learning_objectives:
+      - "Define biogeography and explain how distributions reflect evolutionary history."
+      - "Distinguish vicariance from dispersal as explanations for disjunct ranges."
+      - "Connect geography to speciation: how isolation, colonization, and barriers promote diversification."
+      - "Use phylogenies plus geography to infer plausible historical scenarios (conceptual)."
+    textbook_style_content:
+      - topic: "Core processes"
+        sections:
+          - section_title: "Dispersal, vicariance, extinction: the three-process toolkit"
+            section_type: core_theory
+          - section_title: "Barriers and corridors: how geography shapes gene flow"
+            section_type: related concepts
+      - topic: "Geography and diversification"
+        sections:
+          - section_title: "Island systems: endemism, colonization sequences, and radiation (overview linkage)"
+            section_type: related concepts
+          - section_title: "Continental drift and lineage splitting (overview)"
+            section_type: related concepts
+      - topic: "Inference logic"
+        sections:
+          - section_title: "Using dated trees and area relationships to test scenarios (conceptual)"
+            section_type: overview
+          - section_title: "Pitfalls: convergence in traits vs shared biogeographic history"
+            section_type: overview
+    milestone: "You can explain a distribution pattern using vicariance/dispersal logic and connect it to speciation and diversification outcomes."
+    duration_days: 4
+    tags:
+      - "biogeography"
+      - "vicariance"
+      - "dispersal"
+      - "macroevolution-patterns"

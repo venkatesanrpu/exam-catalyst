@@ -1,0 +1,335 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Biodiversity and Conservation: Importance of conserving biodiversity; ecosystem services; threats to biodiversity; invasive species; in-situ conservation (endemism, biodiversity hotspots, protected areas); ex-situ conservation; conservation genetics (genetic diversity, inbreeding depression); DNA fingerprinting and DNA barcoding."
+
+concepts:
+  core:
+    - name: "Biodiversity: levels and value"
+      clarifier: "Genetic, species, and ecosystem diversity; why biodiversity matters for stability, productivity, and resilience."
+    - name: "Ecosystem services"
+      clarifier: "Provisioning, regulating, cultural, and supporting services; valuation and links to human well-being."
+    - name: "Threats to biodiversity"
+      clarifier: "Habitat loss/fragmentation, overexploitation, pollution, climate change, disease, coextinctions; synergistic impacts."
+    - name: "Invasive alien species"
+      clarifier: "Introduction pathways, establishment and spread, ecological impacts, and management approaches."
+    - name: "In-situ conservation"
+      clarifier: "Conserving species in natural habitats: endemism, biodiversity hotspots, protected areas, and landscape approaches."
+    - name: "Ex-situ conservation"
+      clarifier: "Conserving outside natural habitats: captive breeding, seed banks, botanical gardens, cryopreservation, reintroduction."
+    - name: "Conservation genetics"
+      clarifier: "Genetic diversity, effective population size, genetic drift, inbreeding depression, gene flow; managing small populations."
+    - name: "DNA fingerprinting and DNA barcoding"
+      clarifier: "Molecular identification and monitoring: marker-based individual ID vs species ID; applications in conservation."
+  related:
+    - name: "Species concepts and taxonomy basics"
+      clarifier: "Operational species delimitation and its role in assessing biodiversity patterns."
+    - name: "Population viability analysis (PVA)"
+      clarifier: "Extinction risk under demographic/environmental stochasticity; links to genetic factors."
+    - name: "Metapopulations and fragmentation"
+      clarifier: "Patch dynamics, corridors, rescue effect; relevance to protected area design."
+    - name: "IUCN categories and conservation prioritization"
+      clarifier: "Threat categories, criteria, and decision-making frameworks."
+    - name: "Conservation policy instruments"
+      clarifier: "Protected area governance, community-based conservation, payments for ecosystem services, biosecurity."
+    - name: "Molecular markers overview"
+      clarifier: "Microsatellites, SNPs, mtDNA, cpDNA; strengths/limitations for forensic and barcoding use."
+
+learning_path:
+  - id: 1
+    title: "Biodiversity fundamentals and why conservation matters"
+    learning_objectives:
+      - "Define biodiversity at genetic, species, and ecosystem levels and distinguish between them."
+      - "Explain ecological and evolutionary reasons for conserving biodiversity (stability, resilience, option value)."
+      - "Interpret common biodiversity metrics at a qualitative level (richness vs evenness vs endemism)."
+    textbook_style_content:
+      - topic: "What biodiversity is"
+        sections:
+          - section_title: "Overview: levels of biodiversity"
+            section_type: "overview"
+          - section_title: "Core theory: genetic, species, and ecosystem diversity"
+            section_type: "core_theory"
+          - section_title: "Related concepts: richness, evenness, and endemism as conservation cues"
+            section_type: "related concepts"
+      - topic: "Why conserve biodiversity"
+        sections:
+          - section_title: "Overview: instrumental and intrinsic values"
+            section_type: "overview"
+          - section_title: "Core theory: biodiversity–ecosystem functioning links"
+            section_type: "core_theory"
+          - section_title: "Related concepts: resilience, insurance hypothesis, and option value"
+            section_type: "related concepts"
+    milestone: "Able to classify biodiversity levels and justify conservation using ecological and evolutionary arguments."
+    duration_days: 2
+    tags:
+      - "biodiversity"
+      - "conservation_rationale"
+      - "ecology_basics"
+
+  - id: 2
+    title: "Ecosystem services: categories, mechanisms, and valuation"
+    learning_objectives:
+      - "Classify ecosystem services into provisioning, regulating, cultural, and supporting services."
+      - "Connect biodiversity components to service delivery using clear causal reasoning."
+      - "Apply basic valuation logic used in conservation decisions (trade-offs, externalities)."
+    textbook_style_content:
+      - topic: "Service categories and examples"
+        sections:
+          - section_title: "Overview: what ecosystem services mean in applied ecology"
+            section_type: "overview"
+          - section_title: "Core theory: four service classes with representative examples"
+            section_type: "core_theory"
+          - section_title: "Related concepts: natural capital and human well-being linkages"
+            section_type: "related concepts"
+      - topic: "How biodiversity supports services"
+        sections:
+          - section_title: "Overview: structure–function–service pathway"
+            section_type: "overview"
+          - section_title: "Core theory: functional diversity, redundancy, and keystone effects"
+            section_type: "core_theory"
+          - section_title: "Related concepts: ecosystem disservices and management trade-offs"
+            section_type: "related concepts"
+      - topic: "Valuation and decision-making"
+        sections:
+          - section_title: "Overview: why valuation is used"
+            section_type: "overview"
+          - section_title: "Core theory: market vs non-market valuation concepts (qualitative)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: discounting, uncertainty, and precaution"
+            section_type: "related concepts"
+    milestone: "Able to map biodiversity changes to changes in ecosystem services and explain conservation trade-offs."
+    duration_days: 2
+    tags:
+      - "ecosystem_services"
+      - "applied_ecology"
+      - "valuation"
+
+  - id: 3
+    title: "Threats to biodiversity: drivers, patterns, and interactions"
+    learning_objectives:
+      - "List and explain major threat categories and their mechanisms of impact."
+      - "Differentiate habitat loss from fragmentation and relate each to population processes."
+      - "Recognize synergistic effects among threats (e.g., climate change + fragmentation)."
+    textbook_style_content:
+      - topic: "Major threat categories"
+        sections:
+          - section_title: "Overview: global change drivers of biodiversity loss"
+            section_type: "overview"
+          - section_title: "Core theory: habitat loss, overexploitation, pollution, climate change, disease"
+            section_type: "core_theory"
+          - section_title: "Related concepts: coextinction and trophic cascades"
+            section_type: "related concepts"
+      - topic: "Habitat fragmentation as a special case"
+        sections:
+          - section_title: "Overview: why fragmentation matters beyond area loss"
+            section_type: "overview"
+          - section_title: "Core theory: edge effects, isolation, and dispersal limitation"
+            section_type: "core_theory"
+          - section_title: "Related concepts: metapopulation thinking and corridors"
+            section_type: "related concepts"
+      - topic: "Threat interactions and risk"
+        sections:
+          - section_title: "Overview: cumulative and interactive impacts"
+            section_type: "overview"
+          - section_title: "Core theory: additive vs synergistic stressors (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: early warning signals and tipping points"
+            section_type: "related concepts"
+    milestone: "Able to explain mechanisms of biodiversity decline and predict likely outcomes under multiple threats."
+    duration_days: 2
+    tags:
+      - "threats"
+      - "fragmentation"
+      - "global_change"
+
+  - id: 4
+    title: "Invasive species: invasion process, impacts, and management"
+    learning_objectives:
+      - "Describe stages of biological invasion: introduction, establishment, spread, impact."
+      - "Explain ecological impacts on native species, communities, and ecosystem processes."
+      - "Compare prevention, eradication, containment, and control as management strategies."
+    textbook_style_content:
+      - topic: "Invasion biology framework"
+        sections:
+          - section_title: "Overview: what qualifies as an invasive alien species"
+            section_type: "overview"
+          - section_title: "Core theory: invasion stages and key determinants (propagule pressure, enemy release)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: invasion debt and lag phases"
+            section_type: "related concepts"
+      - topic: "Ecological and evolutionary impacts"
+        sections:
+          - section_title: "Overview: common invasion outcomes"
+            section_type: "overview"
+          - section_title: "Core theory: competition, predation, disease, hybridization, ecosystem engineering"
+            section_type: "core_theory"
+          - section_title: "Related concepts: biotic resistance and community susceptibility"
+            section_type: "related concepts"
+      - topic: "Management and biosecurity"
+        sections:
+          - section_title: "Overview: why prevention is prioritized"
+            section_type: "overview"
+          - section_title: "Core theory: risk assessment, pathway management, and control methods"
+            section_type: "core_theory"
+          - section_title: "Related concepts: unintended consequences and adaptive management"
+            section_type: "related concepts"
+    milestone: "Able to diagnose invasion stage and recommend an appropriate management approach."
+    duration_days: 2
+    tags:
+      - "invasive_species"
+      - "management"
+      - "biosecurity"
+
+  - id: 5
+    title: "In-situ conservation: endemism, hotspots, and protected areas"
+    learning_objectives:
+      - "Define endemism and explain why endemics elevate conservation priority."
+      - "Explain biodiversity hotspots: criteria, significance, and limitations."
+      - "Compare protected area categories and describe core principles of reserve design."
+    textbook_style_content:
+      - topic: "Endemism and spatial prioritization"
+        sections:
+          - section_title: "Overview: what endemism indicates about evolutionary history"
+            section_type: "overview"
+          - section_title: "Core theory: types of endemism and drivers (isolation, niche specialization)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: centers of origin vs centers of diversity"
+            section_type: "related concepts"
+      - topic: "Biodiversity hotspots"
+        sections:
+          - section_title: "Overview: hotspot logic in conservation planning"
+            section_type: "overview"
+          - section_title: "Core theory: hotspot criteria and prioritization trade-offs"
+            section_type: "core_theory"
+          - section_title: "Related concepts: complementarity and irreplaceability"
+            section_type: "related concepts"
+      - topic: "Protected areas and reserve design"
+        sections:
+          - section_title: "Overview: protected areas as an in-situ tool"
+            section_type: "overview"
+          - section_title: "Core theory: size, shape, edge effects, connectivity, and zoning"
+            section_type: "core_theory"
+          - section_title: "Related concepts: SLOSS debate and landscape-level conservation"
+            section_type: "related concepts"
+    milestone: "Able to link endemism/hotspots to protected-area planning and articulate key reserve-design principles."
+    duration_days: 3
+    tags:
+      - "in_situ"
+      - "hotspots"
+      - "protected_areas"
+      - "reserve_design"
+
+  - id: 6
+    title: "Ex-situ conservation: tools, genetics, and reintroduction"
+    learning_objectives:
+      - "List major ex-situ methods and state when each is appropriate."
+      - "Explain genetic and demographic challenges in captive or banked populations."
+      - "Outline core steps and risks in reintroduction and supplementation programs."
+    textbook_style_content:
+      - topic: "Ex-situ methods"
+        sections:
+          - section_title: "Overview: ex-situ conservation in practice"
+            section_type: "overview"
+          - section_title: "Core theory: captive breeding, seed/gene banks, cryopreservation, tissue culture"
+            section_type: "core_theory"
+          - section_title: "Related concepts: one-plan approach integrating in-situ and ex-situ"
+            section_type: "related concepts"
+      - topic: "Managing captive populations"
+        sections:
+          - section_title: "Overview: why small-population management is hard"
+            section_type: "overview"
+          - section_title: "Core theory: founder effects, drift, inbreeding, adaptation to captivity"
+            section_type: "core_theory"
+          - section_title: "Related concepts: studbooks and genetic management targets"
+            section_type: "related concepts"
+      - topic: "Reintroduction and reinforcement"
+        sections:
+          - section_title: "Overview: goals and definitions"
+            section_type: "overview"
+          - section_title: "Core theory: habitat suitability, release strategies, post-release monitoring"
+            section_type: "core_theory"
+          - section_title: "Related concepts: disease risk and genetic rescue vs outbreeding risk"
+            section_type: "related concepts"
+    milestone: "Able to choose an ex-situ strategy and anticipate genetic/demographic pitfalls and reintroduction risks."
+    duration_days: 2
+    tags:
+      - "ex_situ"
+      - "captive_breeding"
+      - "reintroduction"
+
+  - id: 7
+    title: "Conservation genetics: diversity, inbreeding depression, and managing small populations"
+    learning_objectives:
+      - "Define genetic diversity and explain how drift, selection, and gene flow shape it."
+      - "Explain inbreeding depression mechanistically and predict when it is most severe."
+      - "Use the idea of effective population size to reason about extinction risk and genetic management."
+    textbook_style_content:
+      - topic: "Genetic diversity in conservation"
+        sections:
+          - section_title: "Overview: why genes matter for persistence"
+            section_type: "overview"
+          - section_title: "Core theory: heterozygosity, allelic richness, drift and bottlenecks"
+            section_type: "core_theory"
+          - section_title: "Related concepts: neutral vs adaptive variation"
+            section_type: "related concepts"
+      - topic: "Inbreeding and inbreeding depression"
+        sections:
+          - section_title: "Overview: inbreeding as a probability concept"
+            section_type: "overview"
+          - section_title: "Core theory: expression of deleterious recessives and loss of heterozygote advantage"
+            section_type: "core_theory"
+          - section_title: "Related concepts: purging and its limitations"
+            section_type: "related concepts"
+      - topic: "Effective population size and management"
+        sections:
+          - section_title: "Overview: census size vs effective size"
+            section_type: "overview"
+          - section_title: "Core theory: drivers of low effective size (variance in reproductive success, sex ratio, fluctuations)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: genetic rescue and outbreeding depression"
+            section_type: "related concepts"
+    milestone: "Able to connect small population processes to genetic erosion and propose mitigation (gene flow, managed breeding)."
+    duration_days: 3
+    tags:
+      - "conservation_genetics"
+      - "inbreeding_depression"
+      - "effective_population_size"
+
+  - id: 8
+    title: "Molecular tools in conservation: DNA fingerprinting and DNA barcoding"
+    learning_objectives:
+      - "Distinguish DNA fingerprinting (individual identification) from DNA barcoding (species identification)."
+      - "Describe typical markers and workflows used in each approach at a conceptual level."
+      - "Explain key conservation applications: wildlife forensics, monitoring trade, population assignment, and biodiversity surveys."
+    textbook_style_content:
+      - topic: "DNA fingerprinting"
+        sections:
+          - section_title: "Overview: what DNA fingerprinting answers"
+            section_type: "overview"
+          - section_title: "Core theory: marker-based individual ID (STR/microsatellites, SNP panels) and match logic"
+            section_type: "core_theory"
+          - section_title: "Related concepts: chain of custody and forensic reliability"
+            section_type: "related concepts"
+      - topic: "DNA barcoding"
+        sections:
+          - section_title: "Overview: the barcode idea and reference libraries"
+            section_type: "overview"
+          - section_title: "Core theory: common barcode loci and species assignment concept"
+            section_type: "core_theory"
+          - section_title: "Related concepts: cryptic species, incomplete lineage sorting, and misidentification risks"
+            section_type: "related concepts"
+      - topic: "Applications and limitations"
+        sections:
+          - section_title: "Overview: where these tools fit in applied conservation"
+            section_type: "overview"
+          - section_title: "Core theory: detecting illegal trade, diet analysis, invasion detection, biodiversity assessments"
+            section_type: "core_theory"
+          - section_title: "Related concepts: eDNA as an extension of barcoding logic"
+            section_type: "related concepts"
+    milestone: "Able to select an appropriate molecular tool for a conservation question and state its limitations."
+    duration_days: 2
+    tags:
+      - "dna_fingerprinting"
+      - "dna_barcoding"
+      - "molecular_ecology"
+      - "wildlife_forensics"

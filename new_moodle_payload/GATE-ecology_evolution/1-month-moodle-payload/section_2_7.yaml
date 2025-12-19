@@ -1,0 +1,254 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Molecular Evolution and Phylogenetics: Neutral theory; molecular clocks; rates of evolution; phylogenetic reconstruction; molecular systematics"
+
+concepts:
+  core:
+    - name: "Neutral theory of molecular evolution"
+      clarifier: "Most molecular substitutions are selectively neutral (or nearly neutral) and fixed by drift; distinguishes molecular evolution patterns from phenotypic adaptation."
+    - name: "Nearly neutral theory (exam-relevant extension)"
+      clarifier: "Many mutations have very small effects; the boundary between drift and selection depends on effective population size \\(N_e\\)."
+    - name: "Molecular clocks"
+      clarifier: "Using approximate constancy of substitution rates to estimate divergence times; calibration requirements and reasons clocks deviate from strict constancy."
+    - name: "Rates of evolution"
+      clarifier: "Distinguishing mutation rate vs substitution rate; factors affecting rates across genes, lineages, and sites (constraints, generation time, repair, selection)."
+    - name: "Phylogenetic reconstruction"
+      clarifier: "Inferring evolutionary relationships from character data (often sequences); tree components, rooting, and choosing optimal trees under explicit criteria/models."
+    - name: "Molecular systematics"
+      clarifier: "Using molecular data to delimit species, infer relationships, test monophyly, and revise classification; integrating molecular and morphological evidence."
+  related:
+    - name: "Genetic drift and fixation"
+      clarifier: "Fixation probability and time under drift; why neutral substitutions accumulate approximately linearly with time."
+    - name: "Effective population size \\(N_e\\)"
+      clarifier: "Determines strength of drift; key parameter in nearly neutral theory and rate variation among lineages."
+    - name: "Synonymous vs nonsynonymous substitutions"
+      clarifier: "Coding-sequence changes with different selection regimes; basis for \\(d_N/d_S\\) interpretation."
+    - name: "Purifying selection and constraint"
+      clarifier: "Removal of deleterious mutations slows substitution; strong driver of rate heterogeneity across sites and genes."
+    - name: "Positive selection (molecular signatures)"
+      clarifier: "Episodes of adaptive substitution; conceptual link to elevated nonsynonymous changes in specific contexts."
+    - name: "Multiple sequence alignment (MSA)"
+      clarifier: "Homology statement at the nucleotide/amino-acid level; alignment quality strongly affects tree inference."
+    - name: "Models of sequence evolution"
+      clarifier: "Substitution models (e.g., Jukes–Cantor, K2P, GTR) and rate heterogeneity (gamma, invariant sites) as foundations for likelihood/Bayesian inference."
+    - name: "Distance methods"
+      clarifier: "Neighbor-joining/UPGMA concepts; how distances are computed and what assumptions they embed (e.g., ultrametricity)."
+    - name: "Parsimony, maximum likelihood, Bayesian inference"
+      clarifier: "Three major inference paradigms; trade-offs, assumptions, and typical outputs (trees, support values)."
+    - name: "Support and uncertainty"
+      clarifier: "Bootstrapping, posterior probabilities, and why 'a tree' is a hypothesis with uncertainty."
+    - name: "Rooting and outgroups"
+      clarifier: "Determining direction of evolution; pitfalls when outgroups are too distant (long-branch attraction)."
+    - name: "Gene trees vs species trees"
+      clarifier: "Discordance due to incomplete lineage sorting, introgression, and gene duplication/loss; implications for molecular systematics."
+    - name: "Orthology vs paralogy"
+      clarifier: "Correct identification of homolog types is essential; paralogs can mislead phylogeny if treated as orthologs."
+    - name: "Long-branch attraction (LBA)"
+      clarifier: "Systematic error where fast-evolving lineages cluster incorrectly; mitigated by better models and sampling."
+
+learning_path:
+  - id: 1
+    title: "Neutral and Nearly Neutral Theory: Drift as the Driver of Molecular Change"
+    learning_objectives:
+      - "State the neutral theory and explain how it differs from adaptation-focused views of evolution."
+      - "Distinguish mutation rate from substitution rate and connect substitution to fixation under drift."
+      - "Explain why \\(N_e\\) matters for the fate of weakly selected mutations (nearly neutral theory)."
+      - "Predict qualitative patterns expected under neutrality (polymorphism, substitutions, and rate constancy)."
+    textbook_style_content:
+      - topic: "Core neutral theory"
+        sections:
+          - section_title: "Neutral mutations, drift, and fixation: why many substitutions can be neutral"
+            section_type: core_theory
+          - section_title: "Mutation vs substitution: what each rate measures"
+            section_type: core_theory
+      - topic: "Nearly neutral extensions"
+        sections:
+          - section_title: "Weak selection and \\(N_e\\): when drift overwhelms selection"
+            section_type: core_theory
+          - section_title: "Implications: lineage-to-lineage rate differences via \\(N_e\\) variation (overview)"
+            section_type: related concepts
+      - topic: "Contrasting with selection"
+        sections:
+          - section_title: "Purifying selection as the dominant force at many sites (constraint)"
+            section_type: related concepts
+          - section_title: "When positive selection leaves molecular signatures (high-level)"
+            section_type: related concepts
+    milestone: "You can explain why molecular evolution can be largely neutral and describe how effective population size shifts the drift–selection balance."
+    duration_days: 3
+    tags:
+      - "neutral-theory"
+      - "nearly-neutral"
+      - "drift"
+      - "Ne"
+
+  - id: 2
+    title: "Rates of Molecular Evolution: What Changes Fast and Why"
+    learning_objectives:
+      - "List major determinants of substitution rate variation across genes and lineages."
+      - "Explain why functional constraint leads to slower evolution and why synonymous sites often evolve faster than nonsynonymous sites."
+      - "Interpret the idea behind \\(d_N/d_S\\) as a conceptual test of selection in coding regions."
+      - "Recognize common exam pitfalls: confusing polymorphism with substitution; confusing mutation rate with substitution rate."
+    textbook_style_content:
+      - topic: "Rate concepts"
+        sections:
+          - section_title: "Substitution rate heterogeneity: across sites, genes, and lineages"
+            section_type: core_theory
+          - section_title: "Constraint and purifying selection: why essential genes evolve slowly"
+            section_type: core_theory
+      - topic: "Coding sequence intuition"
+        sections:
+          - section_title: "Synonymous vs nonsynonymous changes and selective consequences"
+            section_type: related concepts
+          - section_title: "Interpreting \\(d_N/d_S\\) qualitatively (what >1, ~1, <1 suggest)"
+            section_type: related concepts
+      - topic: "Life-history correlates (overview)"
+        sections:
+          - section_title: "Generation time, metabolic rate, DNA repair, and rate differences among taxa"
+            section_type: overview
+          - section_title: "Why small \\(N_e\\) lineages can fix slightly deleterious changes"
+            section_type: related concepts
+    milestone: "You can explain rate variation using constraint, selection, and life-history factors and interpret \\(d_N/d_S\\) in words."
+    duration_days: 3
+    tags:
+      - "rates"
+      - "constraint"
+      - "dNdS"
+      - "synonymous"
+
+  - id: 3
+    title: "Molecular Clocks: Dating Divergences with Calibrations"
+    learning_objectives:
+      - "Define a molecular clock and differentiate strict clocks from relaxed clocks (conceptual)."
+      - "Explain how calibration (fossils/biogeography) anchors molecular time estimates."
+      - "List reasons molecular clocks deviate from constancy (rate heterogeneity, selection, generation time, saturation)."
+      - "Solve simple clock-style numericals (distance \\(\\rightarrow\\) time) conceptually."
+    textbook_style_content:
+      - topic: "Clock logic"
+        sections:
+          - section_title: "Why neutral substitutions can act like a clock (approximate linear accumulation)"
+            section_type: core_theory
+          - section_title: "Distance, rate, and time: conceptual relationships"
+            section_type: core_theory
+      - topic: "Calibration and uncertainty"
+        sections:
+          - section_title: "Fossil calibrations and minimum/maximum bounds (overview)"
+            section_type: related concepts
+          - section_title: "Relaxed clocks: allowing rate variation across branches (overview)"
+            section_type: related concepts
+      - topic: "Common problems"
+        sections:
+          - section_title: "Saturation and multiple hits: why deep times are hard"
+            section_type: related concepts
+          - section_title: "Gene choice and clock-likeness: why markers differ"
+            section_type: overview
+    milestone: "You can describe how molecular clocks estimate divergence times and list key sources of error and uncertainty."
+    duration_days: 3
+    tags:
+      - "molecular-clock"
+      - "calibration"
+      - "rate-heterogeneity"
+
+  - id: 4
+    title: "Foundations of Phylogenetic Reconstruction (Tree Thinking + Data)"
+    learning_objectives:
+      - "Identify the parts of a phylogenetic tree (nodes, branches, clades) and interpret what they mean."
+      - "Explain rooting with outgroups and why rooting matters for evolutionary interpretation."
+      - "Describe why sequence alignment is a statement of homology and how poor alignment misleads inference."
+      - "Recognize key sources of phylogenetic error: homoplasy, long-branch attraction, and model misspecification."
+    textbook_style_content:
+      - topic: "Tree basics"
+        sections:
+          - section_title: "Clades, sister taxa, and what tip order does not mean"
+            section_type: overview
+          - section_title: "Rooting and outgroups: direction of change"
+            section_type: core_theory
+      - topic: "Molecular data preparation"
+        sections:
+          - section_title: "Multiple sequence alignment as homology assessment"
+            section_type: core_theory
+          - section_title: "Orthology vs paralogy: choosing the right sequences"
+            section_type: related concepts
+      - topic: "Systematic error"
+        sections:
+          - section_title: "Homoplasy and long-branch attraction: why fast lineages can cluster incorrectly"
+            section_type: core_theory
+          - section_title: "Model choice and rate variation across sites (overview)"
+            section_type: related concepts
+    milestone: "You can interpret trees correctly, explain why alignment and orthology matter, and identify major causes of incorrect phylogenies."
+    duration_days: 4
+    tags:
+      - "phylogeny"
+      - "tree-thinking"
+      - "alignment"
+      - "LBA"
+
+  - id: 5
+    title: "Reconstruction Methods: Distance, Parsimony, Likelihood, Bayesian (Exam-Focused)"
+    learning_objectives:
+      - "Compare distance-based methods, parsimony, maximum likelihood, and Bayesian inference in terms of assumptions and outputs."
+      - "Explain when UPGMA is appropriate (ultrametric clock-like data) and when neighbor-joining is used."
+      - "Describe why model-based methods (ML/Bayesian) can outperform parsimony under rate heterogeneity."
+      - "Interpret support values: bootstrap vs posterior probability."
+    textbook_style_content:
+      - topic: "Distance methods"
+        sections:
+          - section_title: "UPGMA vs neighbor-joining: core assumptions and typical use"
+            section_type: core_theory
+          - section_title: "Distance corrections for multiple hits (overview)"
+            section_type: related concepts
+      - topic: "Character-based methods"
+        sections:
+          - section_title: "Maximum parsimony: minimizing changes and its vulnerability to LBA"
+            section_type: core_theory
+          - section_title: "Maximum likelihood: models of sequence evolution and likelihood comparison"
+            section_type: core_theory
+          - section_title: "Bayesian inference: priors, posterior probabilities, and MCMC (conceptual)"
+            section_type: core_theory
+      - topic: "Support and evaluation"
+        sections:
+          - section_title: "Bootstrapping: what it measures and what it does not"
+            section_type: related concepts
+          - section_title: "Model fit and checking: why the best tree is still a hypothesis (overview)"
+            section_type: overview
+    milestone: "You can choose an appropriate reconstruction approach for a given data/assumption set and interpret support values correctly."
+    duration_days: 5
+    tags:
+      - "methods"
+      - "parsimony"
+      - "maximum-likelihood"
+      - "bayesian"
+      - "bootstrap"
+
+  - id: 6
+    title: "Molecular Systematics: Using Molecules to Classify and Test Evolutionary Hypotheses"
+    learning_objectives:
+      - "Explain how molecular systematics tests monophyly and revises classification."
+      - "Distinguish gene tree inference from species tree inference and list causes of discordance."
+      - "Describe how DNA barcoding and multilocus approaches support species delimitation (overview)."
+      - "Apply molecular phylogenies to biogeography and trait evolution questions at a conceptual level."
+    textbook_style_content:
+      - topic: "From sequences to systematics"
+        sections:
+          - section_title: "Molecular characters for classification: why molecules are powerful"
+            section_type: core_theory
+          - section_title: "Testing monophyly and reclassifying groups"
+            section_type: core_theory
+      - topic: "Gene tree vs species tree"
+        sections:
+          - section_title: "Incomplete lineage sorting, introgression, and duplication/loss as discordance sources"
+            section_type: core_theory
+          - section_title: "Ortholog selection and paralog pitfalls in practice (overview linkage)"
+            section_type: related concepts
+      - topic: "Applications (overview)"
+        sections:
+          - section_title: "Species delimitation and DNA barcoding: what it can and cannot do"
+            section_type: overview
+          - section_title: "Using dated trees in historical biogeography (high-level)"
+            section_type: related concepts
+    milestone: "You can explain what molecular systematics is used for, why gene trees can differ from species trees, and how this affects classification decisions."
+    duration_days: 4
+    tags:
+      - "molecular-systematics"
+      - "species-delimitation"
+      - "gene-tree-species-tree"

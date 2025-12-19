@@ -1,0 +1,308 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Global Climate Change: Causes; consequences; mitigation"
+
+concepts:
+  core:
+    - name: "Earth’s climate system basics"
+      clarifier: "Energy balance, greenhouse effect, albedo, radiative forcing, and major climate components (atmosphere, ocean, cryosphere, biosphere)."
+    - name: "Causes of modern climate change"
+      clarifier: "Anthropogenic greenhouse gases, land-use change, aerosols, and natural drivers; attribution logic."
+    - name: "Carbon cycle and major greenhouse gases"
+      clarifier: "Reservoirs and fluxes; CO\\(_2\\), CH\\(_4\\), N\\(_2\\)O, halocarbons; lifetimes and global warming potential."
+    - name: "Climate variability vs climate change"
+      clarifier: "Weather vs climate, internal variability (e.g., ENSO), trends, extremes, and detection concepts."
+    - name: "Consequences for physical systems"
+      clarifier: "Warming, precipitation shifts, cryosphere loss, sea-level rise, ocean warming/acidification, and extreme events."
+    - name: "Consequences for ecosystems and biodiversity"
+      clarifier: "Range shifts, phenology changes, community reshuffling, extinction risk, coral bleaching, biome transitions."
+    - name: "Consequences for society and health"
+      clarifier: "Food/water security, disasters, heat stress, disease risk, migration, and equity impacts."
+    - name: "Mitigation: emission reduction"
+      clarifier: "Decarbonization pathways, energy efficiency, renewables, electrification, methane control, and sectoral levers."
+    - name: "Mitigation: carbon dioxide removal (CDR)"
+      clarifier: "Afforestation/reforestation, soil carbon, BECCS, DAC, enhanced weathering; permanence and trade-offs."
+    - name: "Adaptation and resilience (bridge to mitigation)"
+      clarifier: "Risk reduction via planning, ecosystem-based adaptation, and climate-resilient management in ecology."
+  related:
+    - name: "IPCC framing and scenarios"
+      clarifier: "Emissions pathways (RCP/SSP), carbon budgets, and temperature targets used for policy/science communication."
+    - name: "Climate feedbacks and tipping elements"
+      clarifier: "Water vapor, ice–albedo, permafrost carbon, AMOC risks; why nonlinearities matter."
+    - name: "Ocean–atmosphere coupling"
+      clarifier: "ENSO and monsoon linkages; relevance to interannual variability and extremes."
+    - name: "Ecophysiology under climate stress"
+      clarifier: "Thermal tolerance, water-use efficiency, CO\\(_2\\) fertilization, acclimation vs adaptation."
+    - name: "Conservation under climate change"
+      clarifier: "Climate refugia, assisted migration debates, dynamic protected areas."
+    - name: "Policy instruments"
+      clarifier: "Carbon pricing, standards, subsidies, NDCs; MRV and leakage concepts."
+    - name: "Life cycle assessment (LCA)"
+      clarifier: "Comparing mitigation options using full supply-chain emissions and trade-offs."
+    - name: "Geoengineering overview"
+      clarifier: "Solar radiation management vs CDR; risks, governance, and ethical concerns."
+
+learning_path:
+  - id: 1
+    title: "Climate system foundations: greenhouse effect and energy balance"
+    learning_objectives:
+      - "Explain Earth’s energy balance and the greenhouse effect using radiative forcing language."
+      - "Define albedo and describe how changes in ice, clouds, and land cover affect climate."
+      - "Identify key components of the climate system and their timescales (atmosphere vs ocean vs cryosphere)."
+    textbook_style_content:
+      - topic: "Energy balance and greenhouse effect"
+        sections:
+          - section_title: "Overview: why Earth has a climate"
+            section_type: "overview"
+          - section_title: "Core theory: greenhouse effect, radiative forcing, and the idea of feedback"
+            section_type: "core_theory"
+          - section_title: "Related concepts: albedo and the role of clouds and aerosols"
+            section_type: "related concepts"
+      - topic: "Climate system components and timescales"
+        sections:
+          - section_title: "Overview: the coupled system perspective"
+            section_type: "overview"
+          - section_title: "Core theory: atmosphere–ocean–cryosphere–biosphere coupling"
+            section_type: "core_theory"
+          - section_title: "Related concepts: short-term variability vs long-term response"
+            section_type: "related concepts"
+    milestone: "Able to explain the greenhouse effect and describe how forcing and feedbacks alter global temperature."
+    duration_days: 2
+    tags:
+      - "climate_system"
+      - "greenhouse_effect"
+      - "radiative_forcing"
+
+  - id: 2
+    title: "Causes of modern climate change: drivers and attribution"
+    learning_objectives:
+      - "List major anthropogenic drivers: greenhouse gases, land-use change, and aerosols."
+      - "Contrast anthropogenic drivers with natural drivers (solar variability, volcanism) and internal variability."
+      - "Explain the basic logic of attribution: why observed trends match human forcing patterns."
+    textbook_style_content:
+      - topic: "Anthropogenic drivers"
+        sections:
+          - section_title: "Overview: what has changed since the industrial era"
+            section_type: "overview"
+          - section_title: "Core theory: CO\\(_2\\) emissions, methane sources, nitrous oxide, and land-use change"
+            section_type: "core_theory"
+          - section_title: "Related concepts: aerosols and their cooling influence"
+            section_type: "related concepts"
+      - topic: "Natural drivers and variability"
+        sections:
+          - section_title: "Overview: climate varies even without human influence"
+            section_type: "overview"
+          - section_title: "Core theory: solar, volcanic, and internal variability (ENSO as an example)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: weather vs climate and trend detection"
+            section_type: "related concepts"
+      - topic: "Attribution (conceptual)"
+        sections:
+          - section_title: "Overview: what it means to attribute climate change"
+            section_type: "overview"
+          - section_title: "Core theory: fingerprints, model ensembles, and counterfactual thinking"
+            section_type: "core_theory"
+          - section_title: "Related concepts: uncertainty sources (measurement, natural variability, models)"
+            section_type: "related concepts"
+    milestone: "Able to explain why recent warming is primarily anthropogenic and distinguish drivers from variability."
+    duration_days: 2
+    tags:
+      - "causes"
+      - "attribution"
+      - "GHGs"
+      - "land_use"
+
+  - id: 3
+    title: "Carbon cycle and greenhouse gases: reservoirs, lifetimes, and warming impact"
+    learning_objectives:
+      - "Describe the fast and slow carbon cycle and major reservoirs."
+      - "Compare CO\\(_2\\), CH\\(_4\\), and N\\(_2\\)O in terms of sources, lifetimes, and warming influence."
+      - "Explain why cumulative CO\\(_2\\) emissions link to long-term warming (carbon budget idea)."
+    textbook_style_content:
+      - topic: "Carbon cycle essentials"
+        sections:
+          - section_title: "Overview: carbon movement through Earth systems"
+            section_type: "overview"
+          - section_title: "Core theory: reservoirs and fluxes (atmosphere, ocean, land, lithosphere)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: sinks, saturation, and feedbacks (permafrost, fires)"
+            section_type: "related concepts"
+      - topic: "Major greenhouse gases"
+        sections:
+          - section_title: "Overview: beyond CO\\(_2\\)"
+            section_type: "overview"
+          - section_title: "Core theory: lifetimes, radiative efficiency, and global warming potential (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: short-lived climate pollutants and near-term warming"
+            section_type: "related concepts"
+      - topic: "Carbon budgets"
+        sections:
+          - section_title: "Overview: warming depends on cumulative emissions"
+            section_type: "overview"
+          - section_title: "Core theory: carbon budget logic and implications for net-zero"
+            section_type: "core_theory"
+          - section_title: "Related concepts: overshoot pathways and temperature stabilization"
+            section_type: "related concepts"
+    milestone: "Able to explain how greenhouse gases and the carbon cycle determine warming and why net-zero matters."
+    duration_days: 3
+    tags:
+      - "carbon_cycle"
+      - "CO2"
+      - "methane"
+      - "carbon_budget"
+
+  - id: 4
+    title: "Consequences I: physical impacts and extremes"
+    learning_objectives:
+      - "Describe observed and expected changes in temperature and precipitation patterns."
+      - "Explain mechanisms behind sea-level rise and ocean acidification."
+      - "Connect warming to changes in extreme events (heatwaves, heavy rainfall, drought risk) conceptually."
+    textbook_style_content:
+      - topic: "Warming, hydrology, and cryosphere"
+        sections:
+          - section_title: "Overview: headline physical changes"
+            section_type: "overview"
+          - section_title: "Core theory: precipitation shifts, snow/ice loss, glacier mass balance (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: feedbacks involving ice–albedo and water vapor"
+            section_type: "related concepts"
+      - topic: "Sea-level rise and oceans"
+        sections:
+          - section_title: "Overview: why sea level rises"
+            section_type: "overview"
+          - section_title: "Core theory: thermal expansion, ice sheets, and regional differences"
+            section_type: "core_theory"
+          - section_title: "Related concepts: ocean acidification chemistry (CO\\(_2\\) uptake) and impacts"
+            section_type: "related concepts"
+      - topic: "Extremes"
+        sections:
+          - section_title: "Overview: extremes vs averages"
+            section_type: "overview"
+          - section_title: "Core theory: shifting distributions and compound events (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: event attribution idea (risk ratios)"
+            section_type: "related concepts"
+    milestone: "Able to explain key physical impacts and why extremes intensify even with modest mean warming."
+    duration_days: 2
+    tags:
+      - "impacts"
+      - "sea_level"
+      - "ocean_acidification"
+      - "extremes"
+
+  - id: 5
+    title: "Consequences II: ecological and evolutionary responses"
+    learning_objectives:
+      - "Predict typical biological responses: range shifts, phenology shifts, and community reassembly."
+      - "Explain how climate change affects extinction risk through exposure, sensitivity, and adaptive capacity."
+      - "Relate climate stressors to ecosystem processes (productivity, disturbance, carbon storage)."
+    textbook_style_content:
+      - topic: "Species responses"
+        sections:
+          - section_title: "Overview: the three main biological response axes"
+            section_type: "overview"
+          - section_title: "Core theory: phenology, distribution shifts, and thermal limits"
+            section_type: "core_theory"
+          - section_title: "Related concepts: plasticity vs adaptation and evolutionary rescue"
+            section_type: "related concepts"
+      - topic: "Communities and ecosystems"
+        sections:
+          - section_title: "Overview: from individuals to ecosystems"
+            section_type: "overview"
+          - section_title: "Core theory: trophic mismatches, invasive facilitation, disturbance regimes (fires, storms)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: biome shifts, refugia, and microclimates"
+            section_type: "related concepts"
+      - topic: "Biodiversity and conservation under climate change"
+        sections:
+          - section_title: "Overview: conservation goals in a moving climate"
+            section_type: "overview"
+          - section_title: "Core theory: vulnerability framework (exposure–sensitivity–adaptive capacity)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: assisted migration and dynamic protected areas"
+            section_type: "related concepts"
+    milestone: "Able to connect climate drivers to ecological change and articulate conservation implications."
+    duration_days: 3
+    tags:
+      - "climate_ecology"
+      - "range_shifts"
+      - "phenology"
+      - "extinction_risk"
+
+  - id: 6
+    title: "Mitigation: reducing emissions across sectors"
+    learning_objectives:
+      - "Differentiate mitigation from adaptation and list primary mitigation levers."
+      - "Explain decarbonization strategies for power, transport, industry, buildings, and agriculture."
+      - "Describe methane mitigation and why it has strong near-term benefits."
+    textbook_style_content:
+      - topic: "Mitigation framing"
+        sections:
+          - section_title: "Overview: mitigation in climate policy and science"
+            section_type: "overview"
+          - section_title: "Core theory: net-zero, carbon intensity, and abatement logic"
+            section_type: "core_theory"
+          - section_title: "Related concepts: carbon leakage and MRV"
+            section_type: "related concepts"
+      - topic: "Sectoral mitigation options"
+        sections:
+          - section_title: "Overview: where emissions come from"
+            section_type: "overview"
+          - section_title: "Core theory: power decarbonization, electrification, efficiency, and fuel switching"
+            section_type: "core_theory"
+          - section_title: "Related concepts: LCA and rebound effects"
+            section_type: "related concepts"
+      - topic: "Short-lived climate pollutants"
+        sections:
+          - section_title: "Overview: why methane matters"
+            section_type: "overview"
+          - section_title: "Core theory: methane sources and control (energy systems, agriculture, waste)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: co-benefits for air quality and health"
+            section_type: "related concepts"
+    milestone: "Able to outline a coherent mitigation package and connect it to emissions sources and near/long-term climate outcomes."
+    duration_days: 2
+    tags:
+      - "mitigation"
+      - "decarbonization"
+      - "methane"
+
+  - id: 7
+    title: "Mitigation: carbon removal, natural climate solutions, and trade-offs"
+    learning_objectives:
+      - "Describe major CDR approaches and their constraints (cost, land, energy, permanence)."
+      - "Explain why land-based mitigation links strongly to biodiversity and ecosystem services."
+      - "Evaluate trade-offs and risks, including governance concerns for high-leverage interventions."
+    textbook_style_content:
+      - topic: "Carbon dioxide removal (CDR)"
+        sections:
+          - section_title: "Overview: why CDR is discussed"
+            section_type: "overview"
+          - section_title: "Core theory: afforestation, soil carbon, BECCS, DAC, enhanced weathering (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: permanence, additionality, and monitoring"
+            section_type: "related concepts"
+      - topic: "Nature-based mitigation and biodiversity"
+        sections:
+          - section_title: "Overview: co-benefits and conflicts"
+            section_type: "overview"
+          - section_title: "Core theory: forests, wetlands, mangroves, and avoided deforestation"
+            section_type: "core_theory"
+          - section_title: "Related concepts: monoculture plantations vs diverse ecosystems"
+            section_type: "related concepts"
+      - topic: "Geoengineering overview (exam-facing)"
+        sections:
+          - section_title: "Overview: SRM vs CDR distinction"
+            section_type: "overview"
+          - section_title: "Core theory: potential climatic effects and key risks (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: governance, ethics, and termination shock"
+            section_type: "related concepts"
+    milestone: "Able to compare CDR and nature-based options and discuss trade-offs relevant to ecology and conservation."
+    duration_days: 2
+    tags:
+      - "CDR"
+      - "nature_based_solutions"
+      - "tradeoffs"
+      - "geoengineering"

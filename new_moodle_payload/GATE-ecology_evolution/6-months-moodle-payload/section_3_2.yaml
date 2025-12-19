@@ -1,0 +1,262 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Statistical Hypothesis Testing: Concept of p-value; Type I and Type II error, test statistics like t- test and Chi-square test; basics of linear regression and ANOVA."
+
+concepts:
+  core:
+    - name: "Statistical hypotheses and p-values"
+      clarifier: "Null vs alternative hypotheses; p-value as tail probability under the null model; significance level \\(\\alpha\\); interpretation pitfalls."
+    - name: "Type I and Type II errors"
+      clarifier: "False positive vs false negative; role of \\(\\alpha\\) and \\(\\beta\\); power \\(1-\\beta\\); trade-offs in ecological decision-making."
+    - name: "Test statistics and sampling distributions (working level)"
+      clarifier: "How test statistics summarize evidence; dependence on sample size and variability; when normal/t/chi-square approximations are used."
+    - name: "t-tests"
+      clarifier: "One-sample, two-sample (independent), paired; assumptions; reading outputs (test statistic, df, p-value)."
+    - name: "Chi-square tests"
+      clarifier: "Goodness-of-fit and test of independence; expected counts; degrees of freedom; interpreting contingency tables."
+    - name: "Linear regression (basics)"
+      clarifier: "Simple linear model; least squares idea; slope/intercept meaning; \\(R^2\\); hypothesis test for slope; residuals."
+    - name: "ANOVA (basics)"
+      clarifier: "Comparing group means; between- vs within-group variance; F-statistic; link to regression; one-way ANOVA fundamentals."
+  related:
+    - name: "Assumptions and diagnostics"
+      clarifier: "Independence, normality (for residuals), homoscedasticity; why violations matter; quick graphical checks conceptually."
+    - name: "Confidence intervals vs hypothesis tests"
+      clarifier: "Relationship between \\(1-\\alpha\\) CI and two-sided tests; interpreting uncertainty."
+    - name: "Effect size and practical significance"
+      clarifier: "Magnitude vs detectability; ecological relevance beyond p-values."
+    - name: "Multiple comparisons (awareness level)"
+      clarifier: "Inflation of Type I error across many tests; basic idea of adjustment (no heavy procedures required)."
+    - name: "Categorical vs continuous responses"
+      clarifier: "Choosing chi-square for counts/categories vs t/ANOVA/regression for continuous outcomes."
+
+learning_path:
+  - id: 1
+    title: "Foundations of hypothesis testing and p-values"
+    learning_objectives:
+      - "State null and alternative hypotheses for ecological questions."
+      - "Explain a p-value as \\(P(\\text{data as or more extreme}\\mid H_0)\\) and avoid common misinterpretations."
+      - "Relate p-values to the decision rule using significance level \\(\\alpha\\)."
+      - "Recognize how sample size and variability affect statistical significance."
+    textbook_style_content:
+      - topic: "What a hypothesis test is"
+        sections:
+          - section_title: "Testing as model checking under a null world"
+            section_type: "overview"
+          - section_title: "Null and alternative hypotheses; test statistic concept"
+            section_type: "core_theory"
+          - section_title: "Ecology contexts: comparing habitats, treatments, or time periods"
+            section_type: "related concepts"
+      - topic: "The p-value"
+        sections:
+          - section_title: "Tail-area probability under \\(H_0\\)"
+            section_type: "overview"
+          - section_title: "How p-values are produced from a test statistic and a reference distribution"
+            section_type: "core_theory"
+          - section_title: "Misinterpretations (what p-value is not)"
+            section_type: "related concepts"
+      - topic: "Decision thresholds and evidence"
+        sections:
+          - section_title: "Significance level \\(\\alpha\\) and rejection regions"
+            section_type: "core_theory"
+          - section_title: "Statistical vs ecological significance"
+            section_type: "related concepts"
+    milestone: "You can write \\(H_0/H_A\\), interpret a p-value correctly, and explain how \\(\\alpha\\) sets a decision threshold."
+    duration_days: 2
+    tags:
+      - "hypothesis-testing"
+      - "p-value"
+      - "inference"
+
+  - id: 2
+    title: "Type I/II errors and statistical power"
+    learning_objectives:
+      - "Define Type I error and Type II error in plain language and in terms of \\(H_0\\) decisions."
+      - "Relate \\(\\alpha\\) to Type I error probability and \\(\\beta\\) to Type II error probability."
+      - "Define power \\(1-\\beta\\) and describe factors that increase power (effect size, \\(n\\), noise, \\(\\alpha\\))."
+      - "Reason about trade-offs in ecological monitoring and management decisions."
+    textbook_style_content:
+      - topic: "Error types"
+        sections:
+          - section_title: "Decision outcomes table (truth vs decision)"
+            section_type: "overview"
+          - section_title: "Formal definitions of Type I and Type II errors"
+            section_type: "core_theory"
+          - section_title: "Examples: declaring a species decline, detecting treatment effects"
+            section_type: "related concepts"
+      - topic: "Power"
+        sections:
+          - section_title: "Why non-significant does not mean no effect"
+            section_type: "overview"
+          - section_title: "Power drivers and intuitive power planning"
+            section_type: "core_theory"
+          - section_title: "Monitoring design: balancing false alarms vs missed detections"
+            section_type: "related concepts"
+    milestone: "You can identify Type I/II errors in scenarios and explain how design choices affect power."
+    duration_days: 2
+    tags:
+      - "type-I-error"
+      - "type-II-error"
+      - "power"
+
+  - id: 3
+    title: "t-tests: comparing means"
+    learning_objectives:
+      - "Choose among one-sample, paired, and independent two-sample t-tests for a given study design."
+      - "State assumptions (independence, approximate normality, equal variances where relevant)."
+      - "Compute/interpret the t-statistic conceptually as standardized mean difference."
+      - "Read typical outputs: \\(t\\), degrees of freedom, p-value, and confidence interval."
+    textbook_style_content:
+      - topic: "One-sample t-test"
+        sections:
+          - section_title: "Testing a mean against a reference value"
+            section_type: "overview"
+          - section_title: "Test statistic idea and degrees of freedom"
+            section_type: "core_theory"
+          - section_title: "Ecology example: mean biomass vs baseline"
+            section_type: "related concepts"
+      - topic: "Paired t-test"
+        sections:
+          - section_title: "Before–after and matched designs"
+            section_type: "overview"
+          - section_title: "Testing the mean of differences"
+            section_type: "core_theory"
+          - section_title: "Common pitfall: treating paired data as independent"
+            section_type: "related concepts"
+      - topic: "Two-sample t-test"
+        sections:
+          - section_title: "Comparing two group means"
+            section_type: "overview"
+          - section_title: "Pooled-variance vs unequal-variance framing (awareness level)"
+            section_type: "core_theory"
+          - section_title: "Assumptions and quick diagnostics (variance, outliers)"
+            section_type: "related concepts"
+    milestone: "You can select the correct t-test for a design and interpret results using \\(t\\), df, and p-value."
+    duration_days: 3
+    tags:
+      - "t-test"
+      - "means"
+      - "assumptions"
+
+  - id: 4
+    title: "Chi-square tests: counts and contingency tables"
+    learning_objectives:
+      - "Decide whether a chi-square goodness-of-fit or independence test is appropriate."
+      - "Compute expected counts and degrees of freedom for simple tables."
+      - "Interpret the chi-square statistic as an aggregated discrepancy between observed and expected."
+      - "Recognize conditions for validity (notably small expected counts)."
+    textbook_style_content:
+      - topic: "Goodness-of-fit"
+        sections:
+          - section_title: "Comparing observed category frequencies to a hypothesized distribution"
+            section_type: "overview"
+          - section_title: "Expected counts, chi-square statistic, and df"
+            section_type: "core_theory"
+          - section_title: "Ecology example: habitat use across categories"
+            section_type: "related concepts"
+      - topic: "Independence in contingency tables"
+        sections:
+          - section_title: "Association between two categorical variables"
+            section_type: "overview"
+          - section_title: "Row/column totals to compute expected counts; df for \\(r\\times c\\) tables"
+            section_type: "core_theory"
+          - section_title: "Ecology example: presence/absence by site type; sex ratio by habitat"
+            section_type: "related concepts"
+      - topic: "Assumptions and cautions"
+        sections:
+          - section_title: "Minimum expected counts and when to consider alternatives (conceptual)"
+            section_type: "related concepts"
+          - section_title: "Interpreting significance vs strength of association"
+            section_type: "related concepts"
+    milestone: "You can set up observed/expected tables, compute df, and interpret chi-square test results."
+    duration_days: 3
+    tags:
+      - "chi-square"
+      - "categorical-data"
+      - "contingency-tables"
+
+  - id: 5
+    title: "Basics of linear regression"
+    learning_objectives:
+      - "Write the simple linear regression model and interpret slope and intercept."
+      - "Explain least squares as minimizing the sum of squared residuals."
+      - "Interpret residuals, fitted values, and \\(R^2\\) at a working level."
+      - "Test whether the slope differs from zero and connect this to correlation."
+      - "Recognize key assumptions (linearity, independence, constant variance, approximately normal residuals)."
+    textbook_style_content:
+      - topic: "Model and interpretation"
+        sections:
+          - section_title: "From scatterplot to line: why regression is directional"
+            section_type: "overview"
+          - section_title: "Model form \\(y = a + bx + \\varepsilon\\) and parameter meaning"
+            section_type: "core_theory"
+          - section_title: "Ecology examples: trait vs environment, abundance vs resource"
+            section_type: "related concepts"
+      - topic: "Fitting by least squares"
+        sections:
+          - section_title: "Residuals and the objective function"
+            section_type: "overview"
+          - section_title: "What the slope estimate represents (direction and magnitude)"
+            section_type: "core_theory"
+          - section_title: "Outliers and leverage (awareness level)"
+            section_type: "related concepts"
+      - topic: "Inference in regression"
+        sections:
+          - section_title: "Testing \\(H_0: b = 0\\) and interpreting the p-value"
+            section_type: "core_theory"
+          - section_title: "\\(R^2\\) as explained variance (and its limits)"
+            section_type: "related concepts"
+      - topic: "Assumptions and diagnostics"
+        sections:
+          - section_title: "Residual plots: what to look for conceptually"
+            section_type: "related concepts"
+    milestone: "You can interpret a regression line, explain \\(R^2\\), and relate slope significance to the hypothesis-testing framework."
+    duration_days: 4
+    tags:
+      - "regression"
+      - "least-squares"
+      - "residuals"
+
+  - id: 6
+    title: "Basics of ANOVA and its link to regression"
+    learning_objectives:
+      - "Explain one-way ANOVA as comparing multiple group means using variance partitioning."
+      - "Define between-group and within-group variability and their roles in the F-statistic."
+      - "State ANOVA assumptions and what violations imply at a high level."
+      - "Recognize ANOVA as a special case of linear models (regression with categorical predictors)."
+    textbook_style_content:
+      - topic: "Why ANOVA"
+        sections:
+          - section_title: "From two groups (t-test) to many groups (ANOVA)"
+            section_type: "overview"
+          - section_title: "Hypotheses: all means equal vs at least one differs"
+            section_type: "core_theory"
+          - section_title: "Ecology examples: comparing habitats, treatments, seasons"
+            section_type: "related concepts"
+      - topic: "Variance partitioning and the F-test"
+        sections:
+          - section_title: "Between-group vs within-group sums of squares (conceptual)"
+            section_type: "overview"
+          - section_title: "F-statistic as a ratio of mean squares; degrees of freedom"
+            section_type: "core_theory"
+          - section_title: "Effect size intuition (how big differences must be relative to noise)"
+            section_type: "related concepts"
+      - topic: "ANOVA as a linear model"
+        sections:
+          - section_title: "Categorical predictors as indicator variables (conceptual bridge)"
+            section_type: "related concepts"
+          - section_title: "Interpreting ANOVA output like a model comparison"
+            section_type: "related concepts"
+      - topic: "After a significant ANOVA (awareness level)"
+        sections:
+          - section_title: "Why multiple pairwise tests inflate Type I error"
+            section_type: "related concepts"
+          - section_title: "Post-hoc comparisons concept (names optional for GATE level)"
+            section_type: "related concepts"
+    milestone: "You can explain what ANOVA tests, interpret the F-statistic conceptually, and connect ANOVA to regression/linear models."
+    duration_days: 4
+    tags:
+      - "anova"
+      - "f-test"
+      - "linear-models"

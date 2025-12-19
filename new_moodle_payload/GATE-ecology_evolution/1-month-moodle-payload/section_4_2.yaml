@@ -1,0 +1,256 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Behavioural Ecology (4.2): Sensory Ecology—Neuroethology; communication (chemical, acoustic and visual signaling); recognition systems."
+
+concepts:
+  core:
+    - name: "Sensory ecology"
+      clarifier: "How sensory systems acquire and process information in real environments; links among habitat physics, perception, and behavior."
+    - name: "Neuroethology"
+      clarifier: "Neural mechanisms of natural behavior; sensory-to-motor transformations; integrative study across levels (cells to circuits to behavior)."
+    - name: "Animal communication"
+      clarifier: "Signal production, transmission, reception, and response; costs, benefits, and reliability of signals."
+    - name: "Chemical signaling"
+      clarifier: "Pheromones and other infochemicals; odor plumes and contact cues; chemoreception and ecological constraints."
+    - name: "Acoustic signaling"
+      clarifier: "Sound production and detection; propagation and degradation in habitats; signal design and masking noise."
+    - name: "Visual signaling"
+      clarifier: "Color, brightness, pattern, motion; visual environment and receiver perception; contrast and conspicuousness."
+    - name: "Recognition systems"
+      clarifier: "Mechanisms and rules for identifying mates, kin, rivals, prey, predators, and individuals; templates, learning, and decision thresholds."
+  related:
+    - name: "Signal vs cue"
+      clarifier: "Signals evolve for communication; cues provide information without being shaped for that function."
+    - name: "Sender–receiver coevolution"
+      clarifier: "Reciprocal adaptation in signal production and sensory processing; sensory exploitation and arms races."
+    - name: "Honest signaling and signal reliability"
+      clarifier: "Constraints and costs that maintain reliability; condition dependence; indices vs handicaps."
+    - name: "Environmental transmission channels"
+      clarifier: "How air/water/vegetation/light conditions shape optimal signaling strategies."
+    - name: "Noise and masking"
+      clarifier: "Interference from abiotic/biotic background; impacts on detection and discrimination."
+    - name: "Receiver psychology"
+      clarifier: "Perceptual biases, attention, and decision rules shaping communication outcomes."
+    - name: "Multimodal signaling"
+      clarifier: "Combining modalities (e.g., visual + acoustic) for redundancy or multiple messages."
+    - name: "Self/non-self and kin recognition"
+      clarifier: "Phenotype matching, familiarity, spatial cues; inclusive-fitness consequences."
+    - name: "Species recognition and reproductive isolation"
+      clarifier: "Signal divergence and mate choice contributing to prezygotic isolation."
+    - name: "Sensory drive hypothesis"
+      clarifier: "Environmental conditions shape sensory systems and signal traits, promoting matched evolution."
+
+learning_path:
+  - id: 1
+    title: "Sensory Ecology: Information, Environment, and Perception"
+    learning_objectives:
+      - "Define sensory ecology and explain why environments filter information."
+      - "Distinguish information acquisition (sensing) from interpretation (perception) and action (behavior)."
+      - "Relate habitat properties (light, turbulence, vegetation, substrate) to modality effectiveness."
+    textbook_style_content:
+      - topic: "Information in ecological contexts"
+        sections:
+          - section_title: "From stimulus to behavior: an information-processing view"
+            section_type: overview
+          - section_title: "Ecological constraints on detectability and discrimination"
+            section_type: core_theory
+      - topic: "Transmission channels and habitat effects"
+        sections:
+          - section_title: "Why different habitats favor different senses"
+            section_type: core_theory
+          - section_title: "Noise, masking, and signal degradation"
+            section_type: related concepts
+    milestone: "Can predict which sensory modality (chemical/acoustic/visual) should be most effective in a given habitat and justify why."
+    duration_days: 2
+    tags:
+      - "sensory ecology"
+      - "environmental constraints"
+      - "signal transmission"
+
+  - id: 2
+    title: "Neuroethology: Neural Bases of Natural Behavior"
+    learning_objectives:
+      - "Define neuroethology and identify its levels of analysis (sensory input, neural coding, circuits, motor output)."
+      - "Explain stimulus filtering, feature detection, and sensory-to-motor transformations."
+      - "Connect neural constraints to behavioral performance and evolution of signals."
+    textbook_style_content:
+      - topic: "What neuroethology explains"
+        sections:
+          - section_title: "Natural behavior as the unit of explanation"
+            section_type: overview
+          - section_title: "Neural coding and feature detection"
+            section_type: core_theory
+      - topic: "From perception to action"
+        sections:
+          - section_title: "Decision thresholds and motor programs"
+            section_type: core_theory
+          - section_title: "Receiver psychology and perceptual biases"
+            section_type: related concepts
+      - topic: "Neural constraints and evolution"
+        sections:
+          - section_title: "How sensory limits shape signal design"
+            section_type: related concepts
+    milestone: "Can explain a communication outcome using both a behavioral description and a plausible neural/perceptual constraint."
+    duration_days: 3
+    tags:
+      - "neuroethology"
+      - "neural coding"
+      - "decision rules"
+
+  - id: 3
+    title: "Core Communication Framework: Signals, Cues, and Coevolution"
+    learning_objectives:
+      - "Define signal, cue, sign stimulus, and receiver response in communication systems."
+      - "Describe the sender–receiver model and how coevolution shapes both ends."
+      - "Explain why signals can be honest, exaggerated, or deceptive under different constraints."
+    textbook_style_content:
+      - topic: "Basic terminology and models"
+        sections:
+          - section_title: "Signal vs cue and why the distinction matters"
+            section_type: overview
+          - section_title: "Sender–receiver coevolution and sensory exploitation"
+            section_type: core_theory
+      - topic: "Signal reliability"
+        sections:
+          - section_title: "Honest signaling, costs, and constraints"
+            section_type: core_theory
+          - section_title: "Noise, error, and receiver filtering"
+            section_type: related concepts
+      - topic: "Multimodal communication"
+        sections:
+          - section_title: "Redundancy vs multiple messages"
+            section_type: related concepts
+    milestone: "Can classify examples as signals or cues and propose a reason (benefit/cost/constraint) for their design."
+    duration_days: 2
+    tags:
+      - "communication"
+      - "signals and cues"
+      - "coevolution"
+      - "honesty"
+
+  - id: 4
+    title: "Chemical Communication: Production, Transport, and Detection"
+    learning_objectives:
+      - "Explain how chemical signals are produced, carried (air/water/substrate), and detected."
+      - "Describe pheromone functions (mate attraction, trail marking, alarm, aggregation) and ecological constraints."
+      - "Analyze how plume structure, persistence, and background odors affect recognition and behavior."
+    textbook_style_content:
+      - topic: "Chemical signals and infochemicals"
+        sections:
+          - section_title: "Pheromones and other chemical information sources"
+            section_type: overview
+          - section_title: "Signal structure, concentration, and blends"
+            section_type: core_theory
+      - topic: "Transport and persistence"
+        sections:
+          - section_title: "Diffusion, turbulence, and substrate-bound cues"
+            section_type: core_theory
+          - section_title: "Noise: background odors and contamination"
+            section_type: related concepts
+      - topic: "Chemoreception and response"
+        sections:
+          - section_title: "Detection thresholds and orientation strategies"
+            section_type: related concepts
+    milestone: "Can explain why chemical signaling is effective in low-visibility habitats and identify its main limitations."
+    duration_days: 3
+    tags:
+      - "chemical signaling"
+      - "pheromones"
+      - "olfaction"
+      - "plumes"
+
+  - id: 5
+    title: "Acoustic Communication: Signal Design and Habitat Acoustics"
+    learning_objectives:
+      - "Describe how acoustic signals are produced and how receivers detect and localize sound."
+      - "Relate frequency, amplitude, and temporal structure to propagation and degradation in different habitats."
+      - "Explain masking by ambient noise and behavioral/neural adaptations to improve detection."
+    textbook_style_content:
+      - topic: "Acoustic signals: properties and production"
+        sections:
+          - section_title: "Sound parameters and biological sound sources"
+            section_type: overview
+          - section_title: "Temporal patterning and information content"
+            section_type: core_theory
+      - topic: "Propagation and degradation"
+        sections:
+          - section_title: "Attenuation, scattering, reverberation, and habitat structure"
+            section_type: core_theory
+          - section_title: "Masking and the noise problem"
+            section_type: related concepts
+      - topic: "Receiver adaptations"
+        sections:
+          - section_title: "Tuning, filtering, and localization"
+            section_type: related concepts
+    milestone: "Can predict how a call should change (e.g., frequency/tempo) when signaling shifts from open habitat to dense vegetation."
+    duration_days: 3
+    tags:
+      - "acoustic signaling"
+      - "habitat acoustics"
+      - "masking"
+      - "receiver tuning"
+
+  - id: 6
+    title: "Visual Communication: Perception, Contrast, and Light Environments"
+    learning_objectives:
+      - "Explain how light environment (intensity, spectrum, turbidity, canopy) affects visual signaling."
+      - "Analyze signal design using contrast (chromatic/achromatic), motion, and pattern."
+      - "Discuss receiver visual systems and perceptual biases relevant to signal evolution."
+    textbook_style_content:
+      - topic: "Visual signals and receiver perception"
+        sections:
+          - section_title: "Color, brightness, pattern, and motion as information channels"
+            section_type: overview
+          - section_title: "Visual system constraints and sensory drive"
+            section_type: core_theory
+      - topic: "Environmental optics"
+        sections:
+          - section_title: "Background matching, conspicuousness, and viewing geometry"
+            section_type: core_theory
+          - section_title: "Trade-offs: predation risk and signal detectability"
+            section_type: related concepts
+      - topic: "Multimodal and context-dependent displays"
+        sections:
+          - section_title: "When visual signals are paired with sound or chemicals"
+            section_type: related concepts
+    milestone: "Can explain why the same color pattern can be conspicuous in one habitat but cryptic in another using sensory-drive logic."
+    duration_days: 3
+    tags:
+      - "visual signaling"
+      - "sensory drive"
+      - "contrast"
+      - "light environment"
+
+  - id: 7
+    title: "Recognition Systems: Templates, Learning, and Decision Rules"
+    learning_objectives:
+      - "Define recognition systems and distinguish detection from recognition and discrimination."
+      - "Explain mechanisms of recognition: innate templates, learned templates, phenotype matching, and familiarity."
+      - "Apply recognition logic to species recognition, mate choice, kin recognition, and individual recognition."
+    textbook_style_content:
+      - topic: "Recognition: the problem and the components"
+        sections:
+          - section_title: "Detection, discrimination, and categorization"
+            section_type: overview
+          - section_title: "Templates and thresholds: how receivers decide"
+            section_type: core_theory
+      - topic: "Types of recognition"
+        sections:
+          - section_title: "Species and mate recognition"
+            section_type: core_theory
+          - section_title: "Kin and individual recognition"
+            section_type: core_theory
+      - topic: "Errors and evolution"
+        sections:
+          - section_title: "Costs of false positives/false negatives and optimal thresholds"
+            section_type: related concepts
+          - section_title: "Recognition in speciation and reproductive isolation"
+            section_type: related concepts
+    milestone: "Can analyze a recognition scenario by stating the cue/signal used, the template source (innate/learned), and likely error costs."
+    duration_days: 4
+    tags:
+      - "recognition systems"
+      - "mate recognition"
+      - "kin recognition"
+      - "decision thresholds"

@@ -1,0 +1,264 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Fundamentals: Diversity of Life: Origin and history of life on earth; diversity and classification of life; systems of classification (cladistics and phenetics)"
+
+concepts:
+  core:
+    - name: "Origin of life (abiogenesis) — overview"
+      clarifier: "Major hypotheses and evidence for how life may have arisen from prebiotic chemistry; key transition from chemistry to heredity and metabolism (conceptual, exam-relevant)."
+    - name: "Early evolution and history of life on Earth"
+      clarifier: "Major geological and biological milestones (early Earth conditions, first cells, oxygenation, eukaryotes, multicellularity, major radiations and extinctions) and how we infer them."
+    - name: "Diversity of life"
+      clarifier: "Patterns and drivers of biological diversity across major lineages; what 'diversity' means (taxonomic, phylogenetic, functional) in an evolutionary context."
+    - name: "Classification and taxonomy"
+      clarifier: "Principles of naming and grouping organisms; taxonomic ranks, characters used, and what makes a classification informative."
+    - name: "Cladistics (phylogenetic systematics)"
+      clarifier: "Classification based on common ancestry using synapomorphies; monophyly, paraphyly, polyphyly; reading and interpreting cladograms."
+    - name: "Phenetics (numerical taxonomy)"
+      clarifier: "Classification based on overall similarity using many characters and distance/cluster methods; strengths, limitations, and contrasts with phylogenetic approaches."
+    - name: "Comparing classification systems"
+      clarifier: "How cladistics and phenetics treat characters, similarity, and evolutionary interpretation; when each can mislead and how to evaluate outputs."
+  related:
+    - name: "Geological time scale"
+      clarifier: "Eons/eras/periods relevant to life history (Archean, Proterozoic, Phanerozoic; Cambrian, Permian, Cretaceous) and approximate ordering."
+    - name: "Endosymbiotic theory"
+      clarifier: "Origin of mitochondria and chloroplasts; key evidence and evolutionary significance."
+    - name: "Great Oxidation Event and oxygenation"
+      clarifier: "Rise of oxygen, consequences for metabolism, and enabling complex life."
+    - name: "Fossil record and dating"
+      clarifier: "Relative vs radiometric dating; what fossils preserve and biases; how fossils calibrate evolutionary timelines."
+    - name: "Molecular phylogenetics (overview)"
+      clarifier: "Using DNA/protein sequences as characters; why molecules are powerful for deep divergences and cryptic diversity."
+    - name: "Homology vs analogy"
+      clarifier: "Distinguishing shared ancestry from convergence; central to character selection in cladistics."
+    - name: "Character states and polarity"
+      clarifier: "Ancestral vs derived traits; outgroup comparison for rooting and inferring synapomorphies."
+    - name: "Tree thinking"
+      clarifier: "Interpreting nodes, sister taxa, clades, and branch patterns; common mistakes (reading tips as 'more advanced')."
+    - name: "Species concepts (overview)"
+      clarifier: "Biological, morphological, phylogenetic concepts; relevance to classification and diversity estimates."
+    - name: "Horizontal gene transfer (HGT)"
+      clarifier: "Reticulate evolution in prokaryotes complicating tree-like classification; implications for early life and deep phylogeny."
+
+learning_path:
+  - id: 1
+    title: "Origin of Life: From Prebiotic Chemistry to First Cells (Conceptual)"
+    learning_objectives:
+      - "Outline the key steps any origin-of-life model must explain: compartmentalization, metabolism/energy, and heredity/replication."
+      - "Describe major hypotheses (RNA world, metabolism-first, lipid world) and what evidence supports each."
+      - "Explain why abiogenesis is studied through chemistry, geology, and comparative biology rather than direct observation."
+      - "Recognize exam-style statements that confuse origin of life with evolution by natural selection."
+    textbook_style_content:
+      - topic: "What 'origin of life' means scientifically"
+        sections:
+          - section_title: "Necessary ingredients: energy flow, information, and compartments"
+            section_type: overview
+          - section_title: "Prebiotic Earth: plausible sources of organic molecules (conceptual)"
+            section_type: related concepts
+      - topic: "Major hypotheses"
+        sections:
+          - section_title: "RNA world: ribozymes, replication-first logic, and limitations"
+            section_type: core_theory
+          - section_title: "Metabolism-first and hydrothermal vent ideas (high-level)"
+            section_type: core_theory
+          - section_title: "Protocells and membranes: compartmentalization as a key transition"
+            section_type: core_theory
+      - topic: "From first replicators to first cells"
+        sections:
+          - section_title: "When natural selection can begin: heritable variation in replicators"
+            section_type: core_theory
+          - section_title: "Uncertainties and what counts as evidence"
+            section_type: overview
+    milestone: "You can list the minimal requirements for life’s origin and distinguish origin-of-life hypotheses from evolutionary mechanisms operating after life began."
+    duration_days: 3
+    tags:
+      - "origin-of-life"
+      - "abiogenesis"
+      - "conceptual-foundations"
+
+  - id: 2
+    title: "History of Life on Earth: Major Milestones and Evidence"
+    learning_objectives:
+      - "Place major evolutionary events in correct chronological order using the geological time framework."
+      - "Explain key transitions: prokaryotes to eukaryotes, oxygenic photosynthesis, multicellularity, and major radiations."
+      - "Describe how fossil and molecular data jointly inform deep evolutionary history."
+      - "Identify common misconceptions (progress narratives, humans as 'goal', linear ladders)."
+    textbook_style_content:
+      - topic: "Timeline thinking"
+        sections:
+          - section_title: "Geological time scale essentials for life history"
+            section_type: related concepts
+          - section_title: "Evidence streams: fossils, isotopes, comparative genomics (overview)"
+            section_type: overview
+      - topic: "Early life and oxygenation"
+        sections:
+          - section_title: "First cells and early metabolisms (high-level)"
+            section_type: core_theory
+          - section_title: "Oxygenic photosynthesis and the Great Oxidation Event"
+            section_type: core_theory
+      - topic: "Eukaryotes and complex life"
+        sections:
+          - section_title: "Endosymbiotic theory: origin of mitochondria and chloroplasts"
+            section_type: core_theory
+          - section_title: "Multicellularity and developmental complexity (overview)"
+            section_type: related concepts
+      - topic: "Phanerozoic patterns"
+        sections:
+          - section_title: "Cambrian diversification and major body plans (conceptual)"
+            section_type: related concepts
+          - section_title: "Mass extinctions and adaptive radiations: how they shape diversity"
+            section_type: core_theory
+    milestone: "You can order the major milestones (oxygenation, eukaryotes, multicellularity, radiations/extinctions) and cite at least two evidence types for each."
+    duration_days: 4
+    tags:
+      - "history-of-life"
+      - "geological-time"
+      - "major-transitions"
+
+  - id: 3
+    title: "Diversity of Life: What It Means and How It Is Described"
+    learning_objectives:
+      - "Define taxonomic, phylogenetic, and functional diversity and explain why evolutionary biologists care about each."
+      - "Relate diversification to speciation and extinction conceptually (without heavy macroevolution math)."
+      - "Interpret broad patterns of diversity across the tree of life (prokaryotes vs eukaryotes; cryptic diversity)."
+      - "Connect diversity descriptions to classification goals (communication, prediction, evolutionary explanation)."
+    textbook_style_content:
+      - topic: "Defining diversity in evolution"
+        sections:
+          - section_title: "Multiple meanings of diversity: richness, disparity, and relatedness"
+            section_type: overview
+          - section_title: "Species concepts (overview) and why counts differ"
+            section_type: related concepts
+      - topic: "Drivers and patterns (conceptual)"
+        sections:
+          - section_title: "Speciation and extinction as the engines of diversity (overview linkage)"
+            section_type: related concepts
+          - section_title: "Molecular data and the discovery of hidden diversity"
+            section_type: related concepts
+      - topic: "Why classification matters for understanding diversity"
+        sections:
+          - section_title: "Classification as hypothesis: predictive power and revision with new data"
+            section_type: core_theory
+    milestone: "You can explain at least two distinct meanings of 'diversity' and connect them to why classification and phylogeny are used in evolutionary biology."
+    duration_days: 2
+    tags:
+      - "diversity"
+      - "species-concepts"
+      - "tree-of-life"
+
+  - id: 4
+    title: "Principles of Classification: Taxonomy and Characters"
+    learning_objectives:
+      - "Explain why characters (morphological or molecular) must be evaluated for homology before classification."
+      - "Differentiate homology from analogy with examples relevant to classification."
+      - "Describe character states and how ancestral vs derived states are inferred using outgroups."
+      - "Identify sources of error: convergence, reversals, and character correlation."
+    textbook_style_content:
+      - topic: "Taxonomy basics"
+        sections:
+          - section_title: "Taxonomic ranks and nomenclature: what classification aims to achieve"
+            section_type: overview
+          - section_title: "Choosing characters: morphological, developmental, and molecular"
+            section_type: related concepts
+      - topic: "Homology and character reasoning"
+        sections:
+          - section_title: "Homology vs analogy: why similarity can mislead"
+            section_type: core_theory
+          - section_title: "Character states, polarity, and outgroup comparison"
+            section_type: core_theory
+          - section_title: "Convergence and reversals: how they distort classifications"
+            section_type: related concepts
+    milestone: "You can justify whether a trait is suitable for phylogenetic inference and correctly apply homology/analogy and outgroup logic in simple examples."
+    duration_days: 3
+    tags:
+      - "classification"
+      - "homology"
+      - "characters"
+
+  - id: 5
+    title: "Cladistics: Classification by Common Ancestry"
+    learning_objectives:
+      - "Define clades and identify synapomorphies as evidence for monophyly."
+      - "Distinguish monophyletic, paraphyletic, and polyphyletic groups with examples."
+      - "Read a cladogram correctly: nodes, sister groups, rooting, and what tip order does/does not mean."
+      - "Explain (conceptually) how cladograms are inferred from character data (parsimony/likelihood as ideas)."
+    textbook_style_content:
+      - topic: "Core cladistic logic"
+        sections:
+          - section_title: "Synapomorphy, clade, and common ancestry as the organizing principle"
+            section_type: core_theory
+          - section_title: "Monophyly vs paraphyly vs polyphyly: diagnostic criteria"
+            section_type: core_theory
+      - topic: "Interpreting cladograms"
+        sections:
+          - section_title: "Rooting with outgroups and interpreting nodes"
+            section_type: core_theory
+          - section_title: "Tree-thinking pitfalls: 'basal' misconceptions and ladder reading"
+            section_type: overview
+      - topic: "Inference (overview)"
+        sections:
+          - section_title: "Characters to trees: parsimony and model-based ideas (high-level)"
+            section_type: related concepts
+          - section_title: "Limits: homoplasy and horizontal gene transfer"
+            section_type: related concepts
+    milestone: "You can interpret cladograms, identify clades using synapomorphies, and correctly label monophyletic/paraphyletic/polyphyletic groups."
+    duration_days: 4
+    tags:
+      - "cladistics"
+      - "phylogeny"
+      - "cladogram-reading"
+
+  - id: 6
+    title: "Phenetics: Numerical Taxonomy and Overall Similarity"
+    learning_objectives:
+      - "Define phenetics and explain its central idea: grouping by overall similarity."
+      - "Describe, at an overview level, how distance matrices and clustering generate phenograms."
+      - "Contrast phenograms with cladograms and explain why similarity need not reflect shared ancestry."
+      - "Identify scenarios where phenetics can be useful (identification) and where it fails (convergence)."
+    textbook_style_content:
+      - topic: "Phenetic principles"
+        sections:
+          - section_title: "Overall similarity and equal-weight character treatment"
+            section_type: core_theory
+          - section_title: "Distance and clustering: how phenograms are produced (conceptual)"
+            section_type: related concepts
+      - topic: "Strengths and limitations"
+        sections:
+          - section_title: "Why convergent evolution can mislead similarity-based classification"
+            section_type: core_theory
+          - section_title: "Use cases: practical identification vs evolutionary explanation"
+            section_type: overview
+    milestone: "You can explain what phenetics does, how a phenogram differs from a cladogram, and why phenetic similarity can conflict with phylogeny."
+    duration_days: 2
+    tags:
+      - "phenetics"
+      - "numerical-taxonomy"
+      - "similarity-vs-ancestry"
+
+  - id: 7
+    title: "Integrating Systems: Cladistics vs Phenetics for GATE-Style Questions"
+    learning_objectives:
+      - "Perform point-by-point comparisons of cladistics and phenetics (data, assumptions, outputs, interpretation)."
+      - "Classify exam statements as describing cladistics or phenetics."
+      - "Resolve conflicts between similarity and ancestry using homology/homoplasy reasoning."
+      - "Interpret simple toy datasets (few taxa, few characters) to infer likely groupings under each approach."
+    textbook_style_content:
+      - topic: "Direct comparison framework"
+        sections:
+          - section_title: "Inputs (characters), algorithms (overview), and outputs (cladogram vs phenogram)"
+            section_type: core_theory
+          - section_title: "What each system claims to represent: genealogy vs similarity"
+            section_type: core_theory
+      - topic: "Worked-style reasoning (conceptual)"
+        sections:
+          - section_title: "How convergence and reversals create phenetic–cladistic disagreement"
+            section_type: related concepts
+          - section_title: "High-yield discriminators for MCQs and assertion–reason items"
+            section_type: overview
+    milestone: "You can choose the correct classification framework for a question and justify it using ancestry, synapomorphy, and similarity arguments."
+    duration_days: 2
+    tags:
+      - "integration"
+      - "cladistics-vs-phenetics"
+      - "gate-mcqs"

@@ -1,0 +1,238 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Mathematics and Statistics in Ecology: Simple functions (linear, quadratic, exponential, logarithmic, etc); concept of derivatives and slope of a function; permutations and combinations; basic probability (probability of random events; sequences of events, etc); frequency distributions and their descriptive statistics (mean, variance, coefficient of variation, correlation, etc)."
+
+concepts:
+  core:
+    - name: "Simple functions used in ecology"
+      clarifier: "Linear, quadratic, exponential, logarithmic forms; interpreting parameters; reading and sketching graphs for ecological relationships."
+    - name: "Derivatives and slope"
+      clarifier: "Slope as rate of change; derivatives of basic functions; ecological meaning of marginal change and sensitivity."
+    - name: "Permutations and combinations"
+      clarifier: "Counting arrangements vs selections; factorial notation; linking counting to probability problems in sampling and community data."
+    - name: "Basic probability"
+      clarifier: "Random events; conditional probability; independence; sequences of events; addition and multiplication rules."
+    - name: "Frequency distributions and descriptive statistics"
+      clarifier: "Constructing frequency tables; mean and variance; standard deviation; coefficient of variation; covariance and correlation; interpretation for ecological datasets."
+  related:
+    - name: "Transformations and linearization"
+      clarifier: "Log and exponential transformations; interpreting transformed axes; when linear models approximate nonlinear ecological processes."
+    - name: "Units, scaling, and dimensional reasoning"
+      clarifier: "Checking ecological plausibility; interpreting slopes and rates with correct units."
+    - name: "Sampling concepts"
+      clarifier: "Population vs sample; bias vs variance; why summary statistics vary among samples."
+    - name: "Graphical summaries"
+      clarifier: "Histograms, frequency polygons, and scatterplots; diagnosing outliers and nonlinearity visually."
+    - name: "Covariance vs correlation"
+      clarifier: "How standardization changes scale; limits of correlation for causation in ecology."
+
+learning_path:
+  - id: 1
+    title: "Simple functions for ecological patterns"
+    learning_objectives:
+      - "Identify linear, quadratic, exponential, and logarithmic functions from equations, tables, and plots."
+      - "Sketch key features of each function (intercepts, curvature, asymptotes) and interpret parameters."
+      - "Choose plausible functional forms for common ecological relationships (growth, decay, scaling)."
+      - "Compute function values and solve for inputs using algebraic rearrangement (including logs and exponentials)."
+    textbook_style_content:
+      - topic: "Linear functions"
+        sections:
+          - section_title: "What linearity means in ecological data"
+            section_type: "overview"
+          - section_title: "Slope and intercept: interpretation and units"
+            section_type: "core_theory"
+          - section_title: "Common ecological examples (dose–response in a small range, proportional scaling)"
+            section_type: "related concepts"
+      - topic: "Quadratic functions"
+        sections:
+          - section_title: "Curvature and turning points"
+            section_type: "overview"
+          - section_title: "Vertex, concavity, and ecological interpretation (optima, hump-shaped responses)"
+            section_type: "core_theory"
+          - section_title: "Recognizing overfitting vs genuine unimodal responses"
+            section_type: "related concepts"
+      - topic: "Exponential functions"
+        sections:
+          - section_title: "Multiplicative change and constant proportional rate"
+            section_type: "overview"
+          - section_title: "Exponential growth/decay: parameters and meaning"
+            section_type: "core_theory"
+          - section_title: "Log transforms as diagnostic tools for exponential patterns"
+            section_type: "related concepts"
+      - topic: "Logarithmic functions"
+        sections:
+          - section_title: "Diminishing returns and saturation-like patterns"
+            section_type: "overview"
+          - section_title: "Log rules used for rearranging equations"
+            section_type: "core_theory"
+          - section_title: "Log scales in ecology (power-law hints, wide-range plotting)"
+            section_type: "related concepts"
+    milestone: "You can classify a plotted relationship by functional form and explain parameter meanings with correct units."
+    duration_days: 3
+    tags:
+      - "functions"
+      - "graphs"
+      - "ecological-interpretation"
+
+  - id: 2
+    title: "Derivatives and slope as ecological rate of change"
+    learning_objectives:
+      - "Explain slope as average vs instantaneous rate of change."
+      - "Compute derivatives of polynomials, exponentials, and logarithms."
+      - "Interpret derivatives in ecological contexts (marginal change, sensitivity, elasticities qualitatively)."
+      - "Use derivatives to identify increasing/decreasing behavior and maxima/minima for simple functions."
+    textbook_style_content:
+      - topic: "Slope and rate of change"
+        sections:
+          - section_title: "From secant slope to tangent slope"
+            section_type: "overview"
+          - section_title: "Derivative as a limit concept (conceptual, exam-ready)"
+            section_type: "core_theory"
+          - section_title: "Units of slope and why they matter in ecology"
+            section_type: "related concepts"
+      - topic: "Derivative rules for common functions"
+        sections:
+          - section_title: "Power rule and polynomials"
+            section_type: "core_theory"
+          - section_title: "Exponential and logarithmic derivatives"
+            section_type: "core_theory"
+          - section_title: "Chain-rule intuition via simple composed ecological relationships"
+            section_type: "related concepts"
+      - topic: "Using derivatives to analyze curves"
+        sections:
+          - section_title: "Monotonicity and turning points"
+            section_type: "overview"
+          - section_title: "Finding maxima/minima for quadratic-type responses"
+            section_type: "core_theory"
+          - section_title: "Interpreting turning points as optima or thresholds (caution in inference)"
+            section_type: "related concepts"
+    milestone: "You can compute and interpret \\(\\frac{dy}{dx}\\) for basic ecological functional forms and locate simple optima."
+    duration_days: 3
+    tags:
+      - "calculus"
+      - "rates"
+      - "optimization"
+
+  - id: 3
+    title: "Counting methods: permutations and combinations"
+    learning_objectives:
+      - "Differentiate permutations (order matters) from combinations (order does not)."
+      - "Compute \\(n!\\), \\(P(n,r)\\), and \\(C(n,r)\\) for typical exam-scale values."
+      - "Translate word problems (sampling, draws, assignments) into counting expressions."
+      - "Connect counting results to probability calculations."
+    textbook_style_content:
+      - topic: "Foundations of counting"
+        sections:
+          - section_title: "Why counting is the backbone of discrete probability"
+            section_type: "overview"
+          - section_title: "Factorials and the multiplication rule"
+            section_type: "core_theory"
+          - section_title: "Ecology-flavored examples (sampling individuals/species, arranging transects, assigning treatments)"
+            section_type: "related concepts"
+      - topic: "Permutations"
+        sections:
+          - section_title: "Arrangements without repetition"
+            section_type: "core_theory"
+          - section_title: "When order matters in ecological study design"
+            section_type: "related concepts"
+      - topic: "Combinations"
+        sections:
+          - section_title: "Selections without order"
+            section_type: "core_theory"
+          - section_title: "Sampling subsets and species lists"
+            section_type: "related concepts"
+    milestone: "You can choose between \\(P(n,r)\\) and \\(C(n,r)\\) and compute counts for standard sampling scenarios."
+    duration_days: 2
+    tags:
+      - "counting"
+      - "combinatorics"
+      - "sampling-design"
+
+  - id: 4
+    title: "Basic probability for random events and sequences"
+    learning_objectives:
+      - "Define sample space, events, and probabilities for discrete scenarios."
+      - "Apply addition and multiplication rules correctly."
+      - "Compute probabilities for sequences of events (with/without replacement)."
+      - "Use conditional probability to test independence."
+    textbook_style_content:
+      - topic: "Probability essentials"
+        sections:
+          - section_title: "Events, sample space, and probability axioms (working level)"
+            section_type: "overview"
+          - section_title: "Addition rule, complements, and common traps"
+            section_type: "core_theory"
+          - section_title: "Interpreting probability in ecological sampling (capture, detection, occupancy intuition)"
+            section_type: "related concepts"
+      - topic: "Sequences of events"
+        sections:
+          - section_title: "Multiplication rule and tree-diagram reasoning"
+            section_type: "overview"
+          - section_title: "With vs without replacement (dependence vs independence)"
+            section_type: "core_theory"
+          - section_title: "Hypergeometric-like intuition via counting (without requiring distribution names)"
+            section_type: "related concepts"
+      - topic: "Conditional probability and independence"
+        sections:
+          - section_title: "What conditioning means operationally"
+            section_type: "overview"
+          - section_title: "Computing \\(P(A\\mid B)\\) and checking independence"
+            section_type: "core_theory"
+          - section_title: "Ecological examples: sequential detections, two-stage sampling, correlated events"
+            section_type: "related concepts"
+    milestone: "You can compute probabilities for multi-step draws and correctly decide whether events are independent."
+    duration_days: 3
+    tags:
+      - "probability"
+      - "conditional-probability"
+      - "sequences"
+
+  - id: 5
+    title: "Frequency distributions and descriptive statistics"
+    learning_objectives:
+      - "Construct frequency tables and interpret histogram-like summaries."
+      - "Compute mean, variance, and standard deviation for ungrouped and simple grouped data."
+      - "Compute and interpret coefficient of variation for comparing variability across scales."
+      - "Compute covariance and correlation and interpret direction/strength of association."
+      - "Diagnose when summaries can mislead (outliers, skewness, nonlinearity) at an exam-appropriate level."
+    textbook_style_content:
+      - topic: "Frequency distributions"
+        sections:
+          - section_title: "From raw data to frequency tables"
+            section_type: "overview"
+          - section_title: "Relative frequency, cumulative frequency, and class intervals"
+            section_type: "core_theory"
+          - section_title: "Choosing bins and recognizing artifacts (qualitative)"
+            section_type: "related concepts"
+      - topic: "Measures of central tendency"
+        sections:
+          - section_title: "Mean as an ecological average: when it is informative"
+            section_type: "overview"
+          - section_title: "Computing the arithmetic mean for raw and frequency data"
+            section_type: "core_theory"
+          - section_title: "Median/mode as robustness ideas (supporting concept)"
+            section_type: "related concepts"
+      - topic: "Measures of spread"
+        sections:
+          - section_title: "Why variance matters for ecological heterogeneity"
+            section_type: "overview"
+          - section_title: "Variance and standard deviation: computation and interpretation"
+            section_type: "core_theory"
+          - section_title: "Coefficient of variation for cross-variable comparisons"
+            section_type: "related concepts"
+      - topic: "Association between variables"
+        sections:
+          - section_title: "Scatterplots as the first quantitative diagnostic"
+            section_type: "overview"
+          - section_title: "Covariance and Pearson correlation: meaning, sign, and magnitude"
+            section_type: "core_theory"
+          - section_title: "Limits of correlation (nonlinearity, outliers, causation caution)"
+            section_type: "related concepts"
+    milestone: "You can compute and interpret mean, variance, CV, and correlation from frequency summaries and scatterplots."
+    duration_days: 4
+    tags:
+      - "descriptive-statistics"
+      - "frequency-distributions"
+      - "variance"
+      - "correlation"

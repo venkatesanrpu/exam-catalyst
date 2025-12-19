@@ -1,0 +1,183 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "History of Evolutionary Thought: Lamarckism; Darwinism; Modern Synthesis"
+
+concepts:
+  core:
+    - name: "Lamarckism"
+      clarifier: "Early evolutionary framework emphasizing use and disuse, inheritance of acquired characters, and progressive complexity; historical significance and limitations."
+    - name: "Darwinism"
+      clarifier: "Evolution by natural selection and common descent; key postulates, evidences used by Darwin, and how variation and selection generate adaptation."
+    - name: "Modern Synthesis (Neo-Darwinism)"
+      clarifier: "Integration of Mendelian genetics with natural selection; population genetics foundations explaining microevolution and links to macroevolutionary patterns."
+    - name: "Comparative analysis of evolutionary theories"
+      clarifier: "Point-by-point comparison of mechanisms, sources of variation, inheritance models, and explanatory power across Lamarckism, Darwinism, and Modern Synthesis."
+  related:
+    - name: "Mendelian genetics"
+      clarifier: "Segregation and independent assortment as the particulate inheritance model missing in early Darwinism and central to the Modern Synthesis."
+    - name: "Weismann barrier and germplasm theory"
+      clarifier: "Conceptual refutation of inheritance of acquired characters; distinction between soma and germ line."
+    - name: "Population genetics basics"
+      clarifier: "Allele frequencies, genotype frequencies, Hardy–Weinberg equilibrium, and evolutionary forces as synthesis tools."
+    - name: "Variation and mutation"
+      clarifier: "Mutation as an ultimate source of novel alleles; recombination reshuffles variation for selection to act upon."
+    - name: "Adaptation and fitness"
+      clarifier: "Fitness as differential reproductive success; adaptation as a population-level outcome, not an individual intention."
+    - name: "Selection types"
+      clarifier: "Directional, stabilizing, disruptive selection and their expected effects on trait distributions."
+    - name: "Genetic drift and gene flow"
+      clarifier: "Non-adaptive evolution via sampling effects; migration homogenizes populations and can counter local selection."
+    - name: "Speciation overview"
+      clarifier: "Reproductive isolation and divergence; how microevolutionary processes can scale to macroevolutionary change."
+    - name: "Evidence for evolution (historical context)"
+      clarifier: "Biogeography, fossils, homology, vestigiality, and comparative embryology as arguments in evolutionary debates."
+
+learning_path:
+  - id: 1
+    title: "Pre-Darwinian and Lamarckian Evolutionary Thought"
+    learning_objectives:
+      - "Place Lamarckism in its historical context and articulate why it was compelling before genetics."
+      - "Explain the mechanisms proposed by Lamarck: use and disuse, inheritance of acquired characters, and inherent drive toward complexity."
+      - "Evaluate Lamarckism using modern biological knowledge, distinguishing what was incorrect from what was prescient."
+      - "Recognize common exam traps (teleology, individual-level change) and correct them with population thinking."
+    textbook_style_content:
+      - topic: "Historical backdrop to early evolutionary ideas"
+        sections:
+          - section_title: "Why evolution was controversial in the early 19th century"
+            section_type: overview
+          - section_title: "Key intellectual influences: natural theology, fossils, and early transformism"
+            section_type: related concepts
+      - topic: "Lamarckism: mechanism and claims"
+        sections:
+          - section_title: "Use and disuse and the notion of adaptive change through need"
+            section_type: core_theory
+          - section_title: "Inheritance of acquired characters: what it claims and what it implies"
+            section_type: core_theory
+          - section_title: "Progressive evolution and the 'ladder' view of life"
+            section_type: core_theory
+      - topic: "Testing Lamarckism with later discoveries"
+        sections:
+          - section_title: "Weismann barrier and germplasm: conceptual challenge to acquired inheritance"
+            section_type: related concepts
+          - section_title: "Modern perspectives: epigenetics (limited inheritance) versus Lamarckism"
+            section_type: related concepts
+          - section_title: "Common misconceptions: teleology, intentionality, and individual evolution"
+            section_type: overview
+    milestone: "You can describe Lamarckism accurately, state its core mechanism, and critique it using germline inheritance and population-level reasoning."
+    duration_days: 2
+    tags:
+      - "evolution-history"
+      - "lamarckism"
+      - "conceptual-questions"
+
+  - id: 2
+    title: "Darwinism: Natural Selection and Common Descent"
+    learning_objectives:
+      - "State Darwin’s postulates for natural selection and derive how they imply adaptive evolution."
+      - "Differentiate Darwin’s explanations (selection) from what Darwin lacked (particulate inheritance mechanism)."
+      - "Connect Darwinism to major lines of evidence: homology, biogeography, fossils, and artificial selection."
+      - "Solve typical GATE-style conceptual MCQs on variation, selection, fitness, and adaptation."
+    textbook_style_content:
+      - topic: "Darwin’s central ideas"
+        sections:
+          - section_title: "Descent with modification and the tree of life"
+            section_type: core_theory
+          - section_title: "Natural selection: postulates and logical structure"
+            section_type: core_theory
+          - section_title: "Sexual selection (as an extension) and its distinction from natural selection"
+            section_type: related concepts
+      - topic: "Evidence and argumentation in Darwinism"
+        sections:
+          - section_title: "Artificial selection as an analogy for natural selection"
+            section_type: core_theory
+          - section_title: "Biogeography and island endemism"
+            section_type: related concepts
+          - section_title: "Homology, analogy, and vestigial structures"
+            section_type: related concepts
+          - section_title: "Fossil record and transitional forms: what Darwin could and could not show"
+            section_type: related concepts
+      - topic: "Limits of classical Darwinism"
+        sections:
+          - section_title: "The heredity problem: blending inheritance vs particulate inheritance"
+            section_type: core_theory
+          - section_title: "Why variation must be heritable for selection to cause evolution"
+            section_type: core_theory
+    milestone: "You can explain natural selection as a logical mechanism, apply it to examples, and identify what Darwinism could not fully explain without genetics."
+    duration_days: 3
+    tags:
+      - "darwinism"
+      - "natural-selection"
+      - "evidence-for-evolution"
+
+  - id: 3
+    title: "Modern Synthesis: Genetics Meets Natural Selection"
+    learning_objectives:
+      - "Define the Modern Synthesis and identify what new components it added to Darwinism."
+      - "Use Hardy–Weinberg equilibrium as a null model and list evolutionary forces that violate it."
+      - "Explain how mutation, recombination, selection, drift, and gene flow change allele frequencies."
+      - "Connect microevolutionary processes to speciation and macroevolutionary patterns at an overview level."
+    textbook_style_content:
+      - topic: "Core idea of the Modern Synthesis"
+        sections:
+          - section_title: "From individuals to populations: evolution as change in allele frequencies"
+            section_type: core_theory
+          - section_title: "Particulate inheritance: Mendel’s principles and their evolutionary implications"
+            section_type: related concepts
+      - topic: "Hardy–Weinberg and evolutionary forces"
+        sections:
+          - section_title: "Hardy–Weinberg equilibrium: assumptions and interpretation as a null model"
+            section_type: core_theory
+          - section_title: "Mutation and recombination: sources and shuffling of variation"
+            section_type: core_theory
+          - section_title: "Natural selection in population genetics terms"
+            section_type: core_theory
+          - section_title: "Genetic drift: sampling error, bottlenecks, and founder effects"
+            section_type: related concepts
+          - section_title: "Gene flow: migration and its interaction with selection"
+            section_type: related concepts
+      - topic: "From microevolution to speciation (synthesis perspective)"
+        sections:
+          - section_title: "Reproductive isolation and divergence: an overview linkage"
+            section_type: related concepts
+          - section_title: "Adaptation and fitness: clarifying definitions used in synthesis"
+            section_type: overview
+    milestone: "You can define the Modern Synthesis, use Hardy–Weinberg as a baseline, and map each evolutionary force to how it changes allele frequencies."
+    duration_days: 4
+    tags:
+      - "modern-synthesis"
+      - "population-genetics"
+      - "hardy-weinberg"
+
+  - id: 4
+    title: "High-Yield Comparison and Exam Readiness (Lamarckism vs Darwinism vs Modern Synthesis)"
+    learning_objectives:
+      - "Compare Lamarckism, Darwinism, and the Modern Synthesis across variation source, inheritance model, and mechanism of change."
+      - "Classify statements into the correct theory (common GATE assertion–reason patterns)."
+      - "Disambiguate teleological phrasing and reframe it in mechanistic evolutionary language."
+      - "Practice constructing short, precise explanations suitable for 1–2 mark questions."
+    textbook_style_content:
+      - topic: "Comparative framework"
+        sections:
+          - section_title: "Mechanism of evolutionary change: need/use vs selection vs allele-frequency change"
+            section_type: core_theory
+          - section_title: "Origin of variation and heredity: acquired traits vs heritable variation vs genes and populations"
+            section_type: core_theory
+          - section_title: "Units of change: individuals vs populations"
+            section_type: core_theory
+      - topic: "Common exam pitfalls and how to avoid them"
+        sections:
+          - section_title: "Teleology, 'survival of the fittest' misunderstandings, and circular reasoning"
+            section_type: overview
+          - section_title: "Example-based discrimination: giraffe neck, antibiotic resistance, industrial melanism"
+            section_type: related concepts
+      - topic: "Synthesis-style interpretation of classical examples"
+        sections:
+          - section_title: "Rewriting Lamarckian and Darwinian explanations in population-genetic terms"
+            section_type: core_theory
+    milestone: "You can rapidly distinguish the three frameworks and justify your choice using mechanism, inheritance, and population genetics."
+    duration_days: 2
+    tags:
+      - "comparison"
+      - "gate-mcqs"
+      - "concept-integration"

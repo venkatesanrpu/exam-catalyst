@@ -1,0 +1,302 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Disease Ecology and Evolution: Epidemiology; zoonotic diseases; antibiotic resistance; vector Control Plant and animal breeding: Marker assisted breeding; genetic basis of economically important traits."
+
+concepts:
+  core:
+    - name: "Epidemiology fundamentals"
+      clarifier: "Measures of disease occurrence (incidence, prevalence), transmission routes, and core model quantities like the basic reproduction number."
+    - name: "Disease transmission models"
+      clarifier: "Compartment models (SIR/SEIR/SIS), force of infection, herd immunity threshold, and outbreak dynamics."
+    - name: "Zoonotic diseases"
+      clarifier: "Spillover, reservoir hosts, host switching, and ecological drivers of emergence at the human–animal interface."
+    - name: "Evolution of virulence and pathogen life-history"
+      clarifier: "Trade-offs among transmission, virulence, and host exploitation; within-host vs between-host selection."
+    - name: "Antibiotic resistance evolution"
+      clarifier: "Mutation/selection, horizontal gene transfer, fitness costs, selective sweeps, and stewardship principles."
+    - name: "Vector ecology and vector control"
+      clarifier: "Vector competence, biting rate, vectorial capacity, and intervention strategies (chemical, biological, environmental)."
+    - name: "Genetic basis of economically important traits"
+      clarifier: "Polygenic vs monogenic traits, heritability, breeding values, GxE, and response to selection."
+    - name: "Marker-assisted breeding"
+      clarifier: "QTL mapping, linkage/LD, marker-trait association, and marker-assisted selection/backcrossing in plants and animals."
+  related:
+    - name: "Surveillance and study designs"
+      clarifier: "Cross-sectional vs cohort vs case-control; outbreak investigation logic and sampling biases."
+    - name: "Diagnostics and test performance"
+      clarifier: "Sensitivity, specificity, predictive value; how imperfect tests affect prevalence estimates."
+    - name: "Phylogenetics and phylodynamics"
+      clarifier: "Using sequence data to infer transmission, emergence history, and spread."
+    - name: "One Health framework"
+      clarifier: "Integrated human–animal–environment health and policy implications for zoonoses."
+    - name: "Integrated vector management (IVM)"
+      clarifier: "Combining interventions with monitoring, insecticide resistance management, and community participation."
+    - name: "Quantitative genetics in breeding programs"
+      clarifier: "Breeder’s equation, selection index concepts, inbreeding management, and correlated response."
+    - name: "Genomic selection (contrast to MAS)"
+      clarifier: "Genome-wide markers to predict breeding values; when it outperforms single/few-marker MAS."
+    - name: "Ethics and biosafety in breeding and control"
+      clarifier: "Gene drives, GM crops/livestock, and risk assessment as applied considerations."
+
+learning_path:
+  - id: 1
+    title: "Epidemiology basics: measures, routes, and outbreak logic"
+    learning_objectives:
+      - "Define incidence, prevalence, mortality, case fatality rate, and attack rate."
+      - "Differentiate direct, indirect, airborne, fecal–oral, and vector-borne transmission."
+      - "Explain surveillance goals and interpret common epidemic curves qualitatively."
+    textbook_style_content:
+      - topic: "Core measures in epidemiology"
+        sections:
+          - section_title: "Overview: what epidemiology quantifies"
+            section_type: "overview"
+          - section_title: "Core theory: incidence vs prevalence and common rate measures"
+            section_type: "core_theory"
+          - section_title: "Related concepts: bias, confounding, and surveillance types"
+            section_type: "related concepts"
+      - topic: "Transmission routes and implications"
+        sections:
+          - section_title: "Overview: how pathogens move through populations"
+            section_type: "overview"
+          - section_title: "Core theory: routes of transmission and determinants of contact"
+            section_type: "core_theory"
+          - section_title: "Related concepts: super-spreading and heterogeneity in contacts"
+            section_type: "related concepts"
+    milestone: "Able to compute/interpret standard epidemiological measures and link transmission routes to control options."
+    duration_days: 2
+    tags:
+      - "epidemiology"
+      - "public_health_ecology"
+      - "surveillance"
+
+  - id: 2
+    title: "Transmission dynamics: SIR/SEIR models, \\(R_0\\), and herd immunity"
+    learning_objectives:
+      - "Explain compartment models (SIS, SIR, SEIR) and when each is appropriate."
+      - "Interpret \\(R_0\\) and relate it to outbreak potential and control intensity."
+      - "Describe herd immunity and qualitatively derive the herd immunity threshold."
+    textbook_style_content:
+      - topic: "Compartment modeling toolkit"
+        sections:
+          - section_title: "Overview: why simple models are useful"
+            section_type: "overview"
+          - section_title: "Core theory: SIS, SIR, and SEIR assumptions and flows"
+            section_type: "core_theory"
+          - section_title: "Related concepts: stochasticity, seasonality, and network effects"
+            section_type: "related concepts"
+      - topic: "Reproduction numbers and thresholds"
+        sections:
+          - section_title: "Overview: threshold behavior in epidemics"
+            section_type: "overview"
+          - section_title: "Core theory: meaning of \\(R_0\\), effective \\(R_t\\), and control levers"
+            section_type: "core_theory"
+          - section_title: "Related concepts: generation time and identifiability of parameters"
+            section_type: "related concepts"
+      - topic: "Herd immunity"
+        sections:
+          - section_title: "Overview: population-level protection"
+            section_type: "overview"
+          - section_title: "Core theory: herd immunity threshold and vaccination impact (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: imperfect vaccines and waning immunity"
+            section_type: "related concepts"
+    milestone: "Able to choose an appropriate compartment model and reason from \\(R_0\\) to expected epidemic behavior and control."
+    duration_days: 3
+    tags:
+      - "SIR"
+      - "R0"
+      - "herd_immunity"
+      - "models"
+
+  - id: 3
+    title: "Zoonotic diseases: spillover, reservoirs, and emergence"
+    learning_objectives:
+      - "Define zoonosis, reservoir host, spillover, and dead-end host."
+      - "Explain ecological drivers of spillover (land-use change, wildlife trade, livestock intensification)."
+      - "Describe barriers to host switching and how pathogens adapt to new hosts."
+    textbook_style_content:
+      - topic: "Zoonosis concepts and system components"
+        sections:
+          - section_title: "Overview: why zoonoses dominate emerging infections"
+            section_type: "overview"
+          - section_title: "Core theory: reservoirs, intermediate hosts, and spillover pathways"
+            section_type: "core_theory"
+          - section_title: "Related concepts: One Health framing and risk mapping"
+            section_type: "related concepts"
+      - topic: "Ecological drivers of emergence"
+        sections:
+          - section_title: "Overview: changing contact opportunities"
+            section_type: "overview"
+          - section_title: "Core theory: biodiversity change, host density, and interface ecology"
+            section_type: "core_theory"
+          - section_title: "Related concepts: dilution vs amplification effects (when each can occur)"
+            section_type: "related concepts"
+      - topic: "Evolutionary aspects of host jumps"
+        sections:
+          - section_title: "Overview: from spillover to sustained transmission"
+            section_type: "overview"
+          - section_title: "Core theory: adaptation, transmissibility, and constraints"
+            section_type: "core_theory"
+          - section_title: "Related concepts: phylogenetic signal and phylodynamics"
+            section_type: "related concepts"
+    milestone: "Able to analyze a zoonotic case by identifying reservoirs, interfaces, and the ecological/evolutionary steps enabling emergence."
+    duration_days: 2
+    tags:
+      - "zoonoses"
+      - "spillover"
+      - "one_health"
+
+  - id: 4
+    title: "Evolution in real time: virulence evolution and antibiotic resistance"
+    learning_objectives:
+      - "Explain core hypotheses for virulence evolution using transmission–virulence trade-offs."
+      - "Describe how antibiotic use selects for resistance and how resistance spreads."
+      - "Compare mutation-driven resistance with horizontal gene transfer mechanisms."
+    textbook_style_content:
+      - topic: "Virulence evolution"
+        sections:
+          - section_title: "Overview: why pathogens do not always evolve to be benign"
+            section_type: "overview"
+          - section_title: "Core theory: trade-off models, within-host vs between-host selection"
+            section_type: "core_theory"
+          - section_title: "Related concepts: intervention-driven evolution (e.g., vaccines, treatment)"
+            section_type: "related concepts"
+      - topic: "Antibiotic resistance"
+        sections:
+          - section_title: "Overview: resistance as an evolutionary outcome"
+            section_type: "overview"
+          - section_title: "Core theory: selection pressure, fitness costs, compensatory evolution"
+            section_type: "core_theory"
+          - section_title: "Related concepts: HGT (plasmids, transposons), biofilms, and stewardship"
+            section_type: "related concepts"
+      - topic: "Resistance management principles"
+        sections:
+          - section_title: "Overview: slowing emergence and spread"
+            section_type: "overview"
+          - section_title: "Core theory: dosing logic, combination therapy, cycling, and surveillance"
+            section_type: "core_theory"
+          - section_title: "Related concepts: antimicrobial use in agriculture and spillover of resistance"
+            section_type: "related concepts"
+    milestone: "Able to predict evolutionary responses of pathogens to treatment/control and justify resistance mitigation strategies."
+    duration_days: 3
+    tags:
+      - "virulence_evolution"
+      - "antibiotic_resistance"
+      - "evolutionary_ecology"
+
+  - id: 5
+    title: "Vector ecology and vector control"
+    learning_objectives:
+      - "Define vector competence, vector capacity, and the ecological determinants of transmission."
+      - "Identify points in the vector life cycle where interventions act."
+      - "Compare chemical, biological, environmental, and genetic control strategies and their trade-offs."
+    textbook_style_content:
+      - topic: "Vector-borne transmission fundamentals"
+        sections:
+          - section_title: "Overview: what makes vector-borne disease distinctive"
+            section_type: "overview"
+          - section_title: "Core theory: biting rate, survival, extrinsic incubation period (conceptual) and their effects"
+            section_type: "core_theory"
+          - section_title: "Related concepts: seasonality and climate sensitivity of vectors"
+            section_type: "related concepts"
+      - topic: "Control strategies"
+        sections:
+          - section_title: "Overview: intervention classes and targets"
+            section_type: "overview"
+          - section_title: "Core theory: source reduction, larviciding, adulticiding, bed nets, biological control"
+            section_type: "core_theory"
+          - section_title: "Related concepts: insecticide resistance and integrated vector management"
+            section_type: "related concepts"
+      - topic: "Implementation and evaluation"
+        sections:
+          - section_title: "Overview: from efficacy to effectiveness"
+            section_type: "overview"
+          - section_title: "Core theory: coverage, compliance, and monitoring indicators (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Related concepts: community participation and unintended ecological effects"
+            section_type: "related concepts"
+    milestone: "Able to design a vector-control package matched to vector ecology and to anticipate resistance and implementation constraints."
+    duration_days: 2
+    tags:
+      - "vector_control"
+      - "IVM"
+      - "mosquito_ecology"
+
+  - id: 6
+    title: "Breeding in plants and animals: genetic basis of traits"
+    learning_objectives:
+      - "Differentiate qualitative (Mendelian) traits from quantitative (polygenic) traits."
+      - "Explain heritability conceptually and relate it to response to selection."
+      - "Describe genotype-by-environment interaction and its implications for breeding."
+    textbook_style_content:
+      - topic: "Trait architecture"
+        sections:
+          - section_title: "Overview: economically important traits and why they are often complex"
+            section_type: "overview"
+          - section_title: "Core theory: additive, dominance, and epistatic effects in trait expression"
+            section_type: "core_theory"
+          - section_title: "Related concepts: pleiotropy and genetic correlations"
+            section_type: "related concepts"
+      - topic: "Quantitative genetics essentials"
+        sections:
+          - section_title: "Overview: predicting selection response"
+            section_type: "overview"
+          - section_title: "Core theory: breeding value, narrow-sense heritability, and response to selection"
+            section_type: "core_theory"
+          - section_title: "Related concepts: selection limits, inbreeding, and maintaining diversity"
+            section_type: "related concepts"
+      - topic: "Environment and performance"
+        sections:
+          - section_title: "Overview: why performance differs across environments"
+            section_type: "overview"
+          - section_title: "Core theory: GxE and stability vs specialization"
+            section_type: "core_theory"
+          - section_title: "Related concepts: common garden and reciprocal transplant logic"
+            section_type: "related concepts"
+    milestone: "Able to reason about trait inheritance patterns and predict how selection will change trait means under different environments."
+    duration_days: 3
+    tags:
+      - "breeding"
+      - "quantitative_genetics"
+      - "heritability"
+      - "GxE"
+
+  - id: 7
+    title: "Marker-assisted breeding: QTLs, markers, and selection schemes"
+    learning_objectives:
+      - "Explain the logic of linkage and how markers track favorable alleles."
+      - "Describe QTL mapping and association approaches at a conceptual level."
+      - "Choose suitable marker-assisted strategies (MAS, MABC, pyramiding) for target traits."
+    textbook_style_content:
+      - topic: "Markers and linkage logic"
+        sections:
+          - section_title: "Overview: why markers accelerate breeding"
+            section_type: "overview"
+          - section_title: "Core theory: linkage, recombination, and marker–trait association"
+            section_type: "core_theory"
+          - section_title: "Related concepts: linkage disequilibrium and population structure"
+            section_type: "related concepts"
+      - topic: "QTL and marker-assisted selection workflows"
+        sections:
+          - section_title: "Overview: from phenotype to marker to selection"
+            section_type: "overview"
+          - section_title: "Core theory: QTL mapping steps, validation, and deployment in selection"
+            section_type: "core_theory"
+          - section_title: "Related concepts: false positives, replication, and effect-size realism"
+            section_type: "related concepts"
+      - topic: "Applied schemes"
+        sections:
+          - section_title: "Overview: common MAS use-cases"
+            section_type: "overview"
+          - section_title: "Core theory: marker-assisted backcrossing and gene pyramiding"
+            section_type: "core_theory"
+          - section_title: "Related concepts: contrast with genomic selection and when each is preferred"
+            section_type: "related concepts"
+    milestone: "Able to outline a marker-assisted breeding plan and identify statistical and biological pitfalls."
+    duration_days: 2
+    tags:
+      - "marker_assisted_breeding"
+      - "QTL"
+      - "MAS"
+      - "MABC"

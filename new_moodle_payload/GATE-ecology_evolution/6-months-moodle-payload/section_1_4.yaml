@@ -1,0 +1,197 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Community Ecology: Community assembly, organization and succession; species richness, evenness and diversity indices, species-area relationships; theory of island biogeography"
+
+concepts:
+  core:
+    - name: "Community assembly"
+      clarifier: "Processes determining which species occur together locally, including dispersal, environmental filtering, biotic interactions, priority effects, and historical contingency."
+    - name: "Community organization"
+      clarifier: "How communities are structured in space and time (trophic structure, guilds, interaction networks, dominance patterns) and how these features emerge from assembly processes."
+    - name: "Ecological succession"
+      clarifier: "Directional change in community composition after disturbance or on new substrate, often described as primary vs secondary succession with early- to late-successional stages."
+    - name: "Species richness"
+      clarifier: "Number of species present in a defined area/sample; a count metric sensitive to sampling effort."
+    - name: "Evenness"
+      clarifier: "How similar species' abundances are within a community; high evenness means less dominance by few species."
+    - name: "Diversity indices"
+      clarifier: "Quantitative measures combining richness and relative abundance (e.g., Shannon and Simpson indices) to compare communities."
+    - name: "Species-area relationship (SAR)"
+      clarifier: "Empirical relationship where species richness increases with area, commonly modeled as \\(S = cA^z\\), used for scaling and extinction projections."
+    - name: "Theory of island biogeography"
+      clarifier: "MacArthur-Wilson framework where island species richness reflects a dynamic equilibrium between colonization and extinction, shaped by island isolation and area."
+
+  related:
+    - name: "Environmental filtering"
+      clarifier: "Abiotic constraints permitting only species with suitable traits to establish, shaping composition and trait distributions."
+    - name: "Dispersal limitation"
+      clarifier: "Failure of species to reach suitable sites, producing spatial turnover independent of local suitability."
+    - name: "Priority effects"
+      clarifier: "Early-arriving species influencing later establishment via niche preemption or habitat modification, creating alternative stable community states."
+    - name: "Facilitation, tolerance, and inhibition models of succession"
+      clarifier: "Classic conceptual models describing how early species influence later species establishment during succession."
+    - name: "Intermediate disturbance hypothesis"
+      clarifier: "Hypothesis that diversity peaks at intermediate disturbance frequency/intensity via coexistence of colonizers and competitors."
+    - name: "Alpha, beta, gamma diversity"
+      clarifier: "Diversity within sites, among sites, and at regional scale; links local richness to turnover and regional species pools."
+    - name: "Rarefaction and sampling effort"
+      clarifier: "Methods for comparing richness/diversity across unequal sample sizes or effort."
+    - name: "Rank-abundance curves"
+      clarifier: "Graphical summaries of dominance and evenness that complement numeric indices."
+    - name: "Nestedness and turnover in island/fragment communities"
+      clarifier: "Patterns of species composition where smaller sites hold subsets of larger ones (nestedness) versus replacement (turnover)."
+    - name: "Habitat fragmentation as 'islands'"
+      clarifier: "Application of island biogeography ideas to terrestrial habitat patches embedded in a matrix."
+
+learning_path:
+  - id: 1
+    title: "Community assembly and organization"
+    learning_objectives:
+      - "Define community assembly and identify key assembly filters (dispersal, abiotic, biotic)."
+      - "Explain how species pools and historical contingency affect local communities."
+      - "Describe community organization using trophic structure, guilds, and dominance patterns."
+      - "Predict qualitative effects of changing dispersal or environmental stress on composition."
+    textbook_style_content:
+      - topic: "From regional pool to local community"
+        sections:
+          - section_title: "Species pools, arrival, and establishment"
+            section_type: overview
+          - section_title: "Assembly processes: dispersal, environmental filtering, and interactions"
+            section_type: core_theory
+          - section_title: "Priority effects and alternative community states"
+            section_type: related concepts
+      - topic: "Community organization"
+        sections:
+          - section_title: "Trophic structure, guilds, and functional roles"
+            section_type: core_theory
+          - section_title: "Dominance, rarity, and abundance distributions"
+            section_type: related concepts
+    milestone: "Can explain observed community composition using assembly filters and can describe organization using standard ecological vocabulary."
+    duration_days: 4
+    tags:
+      - "community assembly"
+      - "community structure"
+      - "species pools"
+      - "GATE"
+
+  - id: 2
+    title: "Succession: mechanisms, patterns, and predictions"
+    learning_objectives:
+      - "Differentiate primary and secondary succession with examples."
+      - "Describe typical successional trends in species composition and ecosystem properties."
+      - "Compare facilitation, tolerance, and inhibition models and infer which fits a scenario."
+      - "Relate disturbance regimes to successional stage mosaics and diversity patterns."
+    textbook_style_content:
+      - topic: "Successional concepts"
+        sections:
+          - section_title: "Definition, causes, and types of succession"
+            section_type: overview
+          - section_title: "Mechanistic models: facilitation, tolerance, inhibition"
+            section_type: core_theory
+          - section_title: "Autogenic vs allogenic drivers and feedbacks"
+            section_type: related concepts
+      - topic: "Succession and disturbance"
+        sections:
+          - section_title: "Disturbance, patch dynamics, and shifting mosaics"
+            section_type: core_theory
+          - section_title: "Intermediate disturbance hypothesis and limits"
+            section_type: related concepts
+    milestone: "Can identify successional type and mechanism from a vignette and predict community change following disturbance."
+    duration_days: 4
+    tags:
+      - "succession"
+      - "disturbance"
+      - "community dynamics"
+      - "GATE"
+
+  - id: 3
+    title: "Richness, evenness, and diversity indices"
+    learning_objectives:
+      - "Define species richness and evenness and explain why both matter."
+      - "Compute and interpret common diversity indices conceptually (Shannon, Simpson) from relative abundance patterns."
+      - "Use rank-abundance curves to compare communities by dominance and evenness."
+      - "Recognize sampling effects and the need for rarefaction when comparing richness."
+    textbook_style_content:
+      - topic: "Diversity components"
+        sections:
+          - section_title: "Richness vs evenness: what each captures"
+            section_type: overview
+          - section_title: "Diversity indices: intuition and interpretation"
+            section_type: core_theory
+          - section_title: "Alpha, beta, gamma diversity and what they imply"
+            section_type: related concepts
+      - topic: "Comparing communities fairly"
+        sections:
+          - section_title: "Sampling effort, detectability, and rarefaction logic"
+            section_type: related concepts
+          - section_title: "Rank-abundance curves as a visual tool"
+            section_type: related concepts
+    milestone: "Can choose an appropriate diversity measure for a question and interpret what differences in index values imply biologically."
+    duration_days: 4
+    tags:
+      - "diversity"
+      - "richness"
+      - "evenness"
+      - "indices"
+      - "GATE"
+
+  - id: 4
+    title: "Species-area relationships (SAR): scaling richness with area"
+    learning_objectives:
+      - "State and interpret the SAR form \\(S = cA^z\\) and the meaning of parameters \\(c\\) and \\(z\\)."
+      - "Explain ecological drivers of SAR (habitat diversity, sampling, isolation, extinction)."
+      - "Use SAR reasoning to predict qualitative changes in richness under habitat loss."
+      - "Distinguish SAR from island-biogeography equilibrium logic while connecting the two."
+    textbook_style_content:
+      - topic: "Core SAR pattern"
+        sections:
+          - section_title: "Empirical pattern and standard functional form"
+            section_type: overview
+          - section_title: "Mechanisms generating SAR and typical interpretations of \\(z\\)"
+            section_type: core_theory
+          - section_title: "Applications and caveats (scale dependence, matrix effects)"
+            section_type: related concepts
+      - topic: "SAR in conservation contexts"
+        sections:
+          - section_title: "Habitat loss and extinction projections (conceptual)"
+            section_type: related concepts
+          - section_title: "When SAR fails: sampling bias and non-equilibrium systems"
+            section_type: related concepts
+    milestone: "Can interpret a SAR plot and reason about how changing area affects expected richness."
+    duration_days: 3
+    tags:
+      - "species-area"
+      - "scaling"
+      - "richness"
+      - "GATE"
+
+  - id: 5
+    title: "Island biogeography: equilibrium theory and predictions"
+    learning_objectives:
+      - "Explain the colonization-extinction balance underlying equilibrium species richness."
+      - "Predict how island area and isolation shift colonization and extinction rates."
+      - "Interpret the equilibrium model graphically (rate curves and \\(S^*\\))."
+      - "Apply the theory to habitat fragments and reserve design concepts at a qualitative level."
+    textbook_style_content:
+      - topic: "MacArthur-Wilson equilibrium theory"
+        sections:
+          - section_title: "Model idea: dynamic equilibrium in species richness"
+            section_type: overview
+          - section_title: "Colonization and extinction curves: determinants and shapes"
+            section_type: core_theory
+          - section_title: "Turnover vs richness: what equilibrium does and does not mean"
+            section_type: related concepts
+      - topic: "Extensions and applications"
+        sections:
+          - section_title: "Fragments as islands: matrix quality and connectivity"
+            section_type: related concepts
+          - section_title: "Nestedness, turnover, and interpreting island datasets"
+            section_type: related concepts
+    milestone: "Can use island biogeography to predict comparative richness and turnover across islands/fragments differing in size and isolation."
+    duration_days: 4
+    tags:
+      - "island biogeography"
+      - "colonization-extinction"
+      - "fragmentation"
+      - "GATE"

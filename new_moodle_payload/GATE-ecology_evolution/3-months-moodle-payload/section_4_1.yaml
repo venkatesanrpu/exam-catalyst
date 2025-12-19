@@ -1,0 +1,226 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Behavioural Ecology (4.1): Classical Ethology—Instinct; fixed action patterns; imprinting; learnt behavior; proximate and ultimate questions."
+
+concepts:
+  core:
+    - name: "Instinct"
+      clarifier: "Innate, species-typical behaviors expressed without prior learning; genetic and developmental bases; adaptive value."
+    - name: "Fixed action patterns (FAPs)"
+      clarifier: "Stereotyped, largely invariant behavioral sequences released by specific sign stimuli; role of innate releasing mechanisms."
+    - name: "Imprinting"
+      clarifier: "Sensitive-period learning leading to long-lasting preferences (e.g., filial/sexual imprinting); mechanisms and evolutionary consequences."
+    - name: "Learned behavior"
+      clarifier: "Behavior modified by experience (habituation, sensitization, associative learning); costs, constraints, and ecological relevance."
+    - name: "Proximate vs ultimate questions"
+      clarifier: "Tinbergen-style explanation separating mechanism/development (proximate) from function/evolution (ultimate)."
+  related:
+    - name: "Sign stimuli (releasers)"
+      clarifier: "External cues that trigger FAPs; supernormal stimuli and their implications."
+    - name: "Innate releasing mechanism (IRM)"
+      clarifier: "Neural/physiological control system proposed to detect sign stimuli and initiate FAPs."
+    - name: "Sensitive/critical periods"
+      clarifier: "Developmental windows when imprinting and some learning processes are most effective."
+    - name: "Habituation and sensitization"
+      clarifier: "Non-associative learning: decreased vs increased response with repeated exposure."
+    - name: "Classical vs operant conditioning"
+      clarifier: "Associative learning via stimulus-stimulus pairing vs behavior-consequence contingencies."
+    - name: "Nature–nurture and reaction norms"
+      clarifier: "Gene–environment interplay in behavioral expression and plasticity."
+    - name: "Ethogram and behavioral measurement"
+      clarifier: "Cataloging and quantifying behavior (frequency, duration, bout analysis) for hypothesis testing."
+    - name: "Comparative method in ethology"
+      clarifier: "Using cross-species patterns to infer function and evolutionary history of behaviors."
+    - name: "Tinbergen’s four questions"
+      clarifier: "Mechanism, ontogeny, function, phylogeny as a complete explanatory framework."
+
+learning_path:
+  - id: 1
+    title: "Foundations of Classical Ethology"
+    learning_objectives:
+      - "Define classical ethology and distinguish it from broader behavioral ecology."
+      - "Explain why ethologists emphasized naturalistic observation and species-typical behavior."
+      - "Use an ethogram-style description to separate observation from inference."
+    textbook_style_content:
+      - topic: "What is classical ethology?"
+        sections:
+          - section_title: "Scope and historical emphasis"
+            section_type: overview
+          - section_title: "Observation, ethograms, and hypothesis generation"
+            section_type: related concepts
+      - topic: "Levels of explanation in behavior"
+        sections:
+          - section_title: "Why multiple explanations are needed"
+            section_type: overview
+          - section_title: "Tinbergen’s four questions as a unifying framework"
+            section_type: core_theory
+    milestone: "Able to describe a behavior in ethological terms and propose at least one proximate and one ultimate explanation."
+    duration_days: 2
+    tags:
+      - "ethology"
+      - "behavioral observation"
+      - "Tinbergen"
+
+  - id: 2
+    title: "Instinct and Innate Behavioral Programs"
+    learning_objectives:
+      - "Define instinct and list key properties of innate behaviors (species-typicality, developmental robustness, triggers)."
+      - "Differentiate innate behavior from learned behavior and from reflexes."
+      - "Explain how genes, development, and environment jointly shape innate behavior (reaction norms)."
+    textbook_style_content:
+      - topic: "Instinct: concept and criteria"
+        sections:
+          - section_title: "Meaning and common misconceptions"
+            section_type: overview
+          - section_title: "Innate behavior vs reflex vs learned response"
+            section_type: core_theory
+      - topic: "Biological bases of instinct"
+        sections:
+          - section_title: "Genetic architecture, development, and canalization"
+            section_type: core_theory
+          - section_title: "Nature–nurture interplay and reaction norms"
+            section_type: related concepts
+      - topic: "Adaptive significance"
+        sections:
+          - section_title: "Why innate behaviors can be favored by selection"
+            section_type: core_theory
+    milestone: "Can classify a described behavior as primarily innate, learned, or mixed, and justify the classification with criteria."
+    duration_days: 3
+    tags:
+      - "instinct"
+      - "innate behavior"
+      - "development"
+      - "adaptation"
+
+  - id: 3
+    title: "Fixed Action Patterns, Sign Stimuli, and Releasing Mechanisms"
+    learning_objectives:
+      - "Define fixed action patterns (FAPs) and identify their diagnostic features (stereotypy, sequence completion)."
+      - "Explain how sign stimuli trigger FAPs and how supernormal stimuli can exaggerate responses."
+      - "Relate the IRM concept to modern views of neural control and decision rules."
+    textbook_style_content:
+      - topic: "Fixed action patterns (FAPs)"
+        sections:
+          - section_title: "Core features and classic examples"
+            section_type: overview
+          - section_title: "Sequence structure, stereotypy, and completion once initiated"
+            section_type: core_theory
+      - topic: "Sign stimuli and supernormal stimuli"
+        sections:
+          - section_title: "Releasers and stimulus filtering"
+            section_type: core_theory
+          - section_title: "Supernormal stimuli and evolutionary mismatch"
+            section_type: related concepts
+      - topic: "Innate releasing mechanism (IRM)"
+        sections:
+          - section_title: "IRM concept and functional interpretation"
+            section_type: core_theory
+          - section_title: "Modern interpretation: neural circuits and thresholds"
+            section_type: related concepts
+    milestone: "Given a behavioral vignette, can identify the likely sign stimulus and argue whether the response qualifies as a FAP."
+    duration_days: 3
+    tags:
+      - "FAP"
+      - "sign stimuli"
+      - "IRM"
+      - "classical ethology"
+
+  - id: 4
+    title: "Imprinting and Sensitive-Period Learning"
+    learning_objectives:
+      - "Define imprinting and distinguish filial imprinting from sexual imprinting."
+      - "Explain sensitive/critical periods and how timing affects the permanence of imprinting."
+      - "Discuss proximate mechanisms (sensory exposure, neurodevelopment) and ultimate functions (mate choice, parent-offspring cohesion)."
+    textbook_style_content:
+      - topic: "Imprinting: definition and properties"
+        sections:
+          - section_title: "Key features: rapid learning, sensitive period, long-term effects"
+            section_type: overview
+          - section_title: "Filial vs sexual imprinting"
+            section_type: core_theory
+      - topic: "Sensitive/critical periods"
+        sections:
+          - section_title: "Developmental windows and constraints"
+            section_type: core_theory
+          - section_title: "Ecological context shaping when imprinting is advantageous"
+            section_type: related concepts
+      - topic: "Consequences of imprinting"
+        sections:
+          - section_title: "Effects on social bonding, habitat choice, and mate choice"
+            section_type: core_theory
+    milestone: "Can map imprinting to Tinbergen’s questions: mechanism, ontogeny, function, and (where applicable) phylogeny."
+    duration_days: 2
+    tags:
+      - "imprinting"
+      - "sensitive period"
+      - "development"
+      - "mate choice"
+
+  - id: 5
+    title: "Learned Behavior: Non-Associative and Associative Learning"
+    learning_objectives:
+      - "Define learned behavior and explain why learning evolves under variable environments."
+      - "Distinguish habituation and sensitization (non-associative) from classical and operant conditioning (associative)."
+      - "Evaluate costs and constraints of learning (time, errors, neural investment) in an ecological context."
+    textbook_style_content:
+      - topic: "Learned behavior: overview"
+        sections:
+          - section_title: "What counts as learning in ethology?"
+            section_type: overview
+          - section_title: "When learning is favored: environmental predictability and variability"
+            section_type: related concepts
+      - topic: "Non-associative learning"
+        sections:
+          - section_title: "Habituation and sensitization: definitions and examples"
+            section_type: core_theory
+      - topic: "Associative learning"
+        sections:
+          - section_title: "Classical conditioning: stimulus–stimulus associations"
+            section_type: core_theory
+          - section_title: "Operant conditioning: reinforcement and punishment"
+            section_type: core_theory
+      - topic: "Constraints and trade-offs"
+        sections:
+          - section_title: "Costs of learning and limits to plasticity"
+            section_type: related concepts
+    milestone: "Can classify scenarios into habituation, sensitization, classical conditioning, or operant conditioning, with rationale."
+    duration_days: 4
+    tags:
+      - "learning"
+      - "habituation"
+      - "conditioning"
+      - "behavioral plasticity"
+
+  - id: 6
+    title: "Proximate and Ultimate Questions in Classical Ethology"
+    learning_objectives:
+      - "Differentiate proximate explanations (mechanism, development) from ultimate explanations (function, evolution)."
+      - "Apply Tinbergen’s framework to instincts, FAPs, imprinting, and learned behavior."
+      - "Avoid common category errors (e.g., treating function as mechanism) in exam-style answers."
+    textbook_style_content:
+      - topic: "Proximate explanations"
+        sections:
+          - section_title: "Mechanism and ontogeny: how behavior works and develops"
+            section_type: core_theory
+          - section_title: "Methods: observation, manipulation, and inference"
+            section_type: related concepts
+      - topic: "Ultimate explanations"
+        sections:
+          - section_title: "Function and phylogeny: why behavior exists and its evolutionary history"
+            section_type: core_theory
+          - section_title: "Comparative approach and evolutionary reasoning"
+            section_type: related concepts
+      - topic: "Integrating explanations"
+        sections:
+          - section_title: "Worked framing: one behavior, four answers"
+            section_type: overview
+          - section_title: "Common pitfalls and how to write high-scoring responses"
+            section_type: related concepts
+    milestone: "Can produce a complete Tinbergen-style answer for a novel behavior in under 8–10 lines, separating proximate and ultimate components."
+    duration_days: 3
+    tags:
+      - "proximate vs ultimate"
+      - "Tinbergen"
+      - "exam framing"
+      - "behavioral ecology"

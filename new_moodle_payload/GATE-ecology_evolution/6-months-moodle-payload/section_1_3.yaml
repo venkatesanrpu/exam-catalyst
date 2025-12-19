@@ -1,0 +1,185 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Interactions: Types (mutualism, symbiosis, commensalism, competition, parasitism, predation, etc); ecophysiology (physiological adaptations to abiotic environment); prey-predator interactions (Lotka-Volterra equation, etc.)"
+
+concepts:
+  core:
+    - name: "Species interactions (interaction types)"
+      clarifier: "Classification of interspecific interactions by fitness effects on each partner (e.g., \\(+\\!/\\!+\\), \\(+\\!/\\!0\\), \\(-\\!/\\!-\\), \\(+\\!/\\!-\\)) and the mechanisms that generate them."
+    - name: "Mutualism"
+      clarifier: "Interaction where both partners gain fitness benefits; can be obligate or facultative and may involve exchange of resources or services."
+    - name: "Symbiosis"
+      clarifier: "Intimate, long-term association between species that can be mutualistic, commensal, or parasitic; describes closeness, not benefit sign."
+    - name: "Commensalism"
+      clarifier: "Interaction where one species benefits while the other has no measurable fitness effect under the conditions studied."
+    - name: "Competition"
+      clarifier: "Negative interaction due to shared limiting resources; includes exploitative (indirect) and interference (direct) competition."
+    - name: "Parasitism"
+      clarifier: "Consumer-resource interaction where the parasite benefits and the host is harmed, typically without immediate host death; includes micro- and macroparasites."
+    - name: "Predation"
+      clarifier: "Consumer-resource interaction where the predator kills and consumes the prey, affecting prey abundance, traits, and community structure."
+    - name: "Ecophysiology"
+      clarifier: "Study of how physiological traits and constraints determine organism performance across abiotic gradients (temperature, water, salinity, oxygen, light)."
+    - name: "Physiological adaptation to abiotic environment"
+      clarifier: "Heritable trait changes (and associated mechanisms) that improve performance and fitness under specific abiotic conditions; distinct from short-term acclimation."
+    - name: "Lotka-Volterra predator-prey model"
+      clarifier: "Coupled differential equations describing predator and prey dynamics under simplified assumptions, producing characteristic oscillations."
+
+  related:
+    - name: "Interaction outcomes and context dependence"
+      clarifier: "Net outcomes can shift with environment, density, and life stage (e.g., mutualism to parasitism along stress gradients)."
+    - name: "Functional response (Holling types)"
+      clarifier: "Relationship between prey density and predator consumption rate; key extension beyond basic Lotka-Volterra assumptions."
+    - name: "Numerical response"
+      clarifier: "Change in predator density via reproduction/aggregation as prey density changes; links individual feeding to population dynamics."
+    - name: "Apparent competition"
+      clarifier: "Indirect negative interaction between prey species mediated by a shared predator."
+    - name: "Keystone predation and trophic cascades"
+      clarifier: "Predation disproportionately shaping community composition and propagating effects across trophic levels."
+    - name: "Competitive exclusion and coexistence"
+      clarifier: "Conditions under which species cannot stably coexist on the same limiting resource versus mechanisms enabling coexistence (niche differentiation)."
+    - name: "Character displacement"
+      clarifier: "Evolutionary divergence in traits due to competition, reducing niche overlap in sympatry."
+    - name: "Thermal performance curves and Q10"
+      clarifier: "How performance changes with temperature, including metabolic scaling concepts often used in ecophysiology."
+    - name: "Osmoregulation and water balance"
+      clarifier: "Physiological mechanisms controlling ion and water balance in terrestrial and aquatic environments."
+    - name: "Acclimation vs adaptation"
+      clarifier: "Reversible phenotypic adjustment within an individual versus heritable change across generations."
+
+learning_path:
+  - id: 1
+    title: "Interaction types: definitions, mechanisms, and exam classification"
+    learning_objectives:
+      - "Classify interspecific interactions using fitness-effect sign notation."
+      - "Distinguish symbiosis from mutualism and explain common misconceptions."
+      - "Differentiate competition types (exploitative vs interference) with examples."
+      - "Explain why interaction outcomes can change with context (environment and density)."
+    textbook_style_content:
+      - topic: "A unified framework for interactions"
+        sections:
+          - section_title: "Fitness-effect matrix and key terminology"
+            section_type: overview
+          - section_title: "Mutualism, commensalism, and parasitism: benefits, costs, and intimacy"
+            section_type: core_theory
+          - section_title: "Competition: shared resources, limiting factors, and mechanisms"
+            section_type: core_theory
+          - section_title: "Predation: direct effects, indirect effects, and trait-mediated interactions"
+            section_type: core_theory
+          - section_title: "Context dependence and shifts in interaction sign"
+            section_type: related concepts
+      - topic: "Applying the framework"
+        sections:
+          - section_title: "How to classify from a vignette (what evidence counts)"
+            section_type: related concepts
+          - section_title: "Common GATE traps (symbiosis vs mutualism; commensalism vs weak effects)"
+            section_type: related concepts
+    milestone: "Can correctly label interaction type(s) in unseen scenarios and justify the label using fitness effects and mechanism."
+    duration_days: 3
+    tags:
+      - "species interactions"
+      - "mutualism"
+      - "competition"
+      - "parasitism"
+      - "predation"
+      - "GATE"
+
+  - id: 2
+    title: "Ecophysiology: physiological adaptations to abiotic environments"
+    learning_objectives:
+      - "Explain how abiotic factors constrain organism performance through physiology."
+      - "Differentiate adaptation from acclimation using clear criteria."
+      - "Relate physiological mechanisms to ecological distribution limits (range edges, microhabitats)."
+      - "Interpret qualitative graphs such as tolerance ranges and thermal performance curves."
+    textbook_style_content:
+      - topic: "Physiology as the link between environment and fitness"
+        sections:
+          - section_title: "From abiotic gradient to performance and fitness"
+            section_type: overview
+          - section_title: "Temperature: enzymes, metabolism, thermal limits, and performance curves"
+            section_type: core_theory
+          - section_title: "Water and salinity: osmoregulation, desiccation resistance, and ion balance"
+            section_type: core_theory
+          - section_title: "Oxygen and altitude/aquatic hypoxia: uptake, transport, and tolerance"
+            section_type: core_theory
+          - section_title: "Light and photosynthesis: acclimation and limitation in plants/algae"
+            section_type: related concepts
+      - topic: "Adaptation, plasticity, and ecological consequences"
+        sections:
+          - section_title: "Adaptation vs acclimation vs phenotypic plasticity"
+            section_type: core_theory
+          - section_title: "Trade-offs and constraints: why adaptation is not unlimited"
+            section_type: related concepts
+    milestone: "Can link a physiological mechanism to an abiotic constraint and predict distribution/performance changes under altered conditions."
+    duration_days: 4
+    tags:
+      - "ecophysiology"
+      - "adaptation"
+      - "abiotic stress"
+      - "tolerance"
+      - "GATE"
+
+  - id: 3
+    title: "Predator-prey dynamics: Lotka-Volterra and key extensions"
+    learning_objectives:
+      - "Write and interpret the Lotka-Volterra predator-prey equations and parameter meanings."
+      - "Explain the assumptions behind the classic model and the qualitative behavior (cycles, phase lag)."
+      - "Use nullclines and equilibrium reasoning to interpret stability qualitatively."
+      - "Explain how functional responses and carrying capacity modify predictions."
+    textbook_style_content:
+      - topic: "Lotka-Volterra model (predator-prey)"
+        sections:
+          - section_title: "Model setup and biological interpretation of terms"
+            section_type: overview
+          - section_title: "Equations, equilibria, and qualitative oscillations"
+            section_type: core_theory
+          - section_title: "Phase-plane intuition: nullclines and phase lag"
+            section_type: related concepts
+      - topic: "Why real systems deviate: 'etc.' extensions"
+        sections:
+          - section_title: "Functional response (Holling I, II, III) and stability effects"
+            section_type: core_theory
+          - section_title: "Predator numerical response and time delays"
+            section_type: related concepts
+          - section_title: "Prey refuge, carrying capacity, and predator interference"
+            section_type: related concepts
+    milestone: "Can interpret predator-prey time series/phase plots and explain when Lotka-Volterra predictions hold or fail."
+    duration_days: 4
+    tags:
+      - "predator-prey"
+      - "Lotka-Volterra"
+      - "functional response"
+      - "dynamics"
+      - "GATE"
+
+  - id: 4
+    title: "Integration module: interactions meet physiology and dynamics"
+    learning_objectives:
+      - "Connect abiotic stress with shifts in interaction outcomes (e.g., competition vs facilitation)."
+      - "Explain how physiology affects interaction strength (e.g., temperature-dependent predation rates)."
+      - "Synthesize multi-species outcomes including indirect effects (apparent competition, trophic cascades)."
+      - "Answer mixed GATE questions combining interaction type identification and dynamical intuition."
+    textbook_style_content:
+      - topic: "Coupling environment, traits, and interactions"
+        sections:
+          - section_title: "Trait-mediated interactions and environmental modulation"
+            section_type: overview
+          - section_title: "Indirect effects and community-level consequences"
+            section_type: related concepts
+          - section_title: "From individual performance to population cycles"
+            section_type: related concepts
+      - topic: "Exam-oriented synthesis"
+        sections:
+          - section_title: "Typical prompt patterns and how to structure answers"
+            section_type: related concepts
+          - section_title: "Concept checks: what each model can and cannot claim"
+            section_type: related concepts
+    milestone: "Can integrate interaction type, physiological constraint, and dynamical model choice in novel ecological scenarios."
+    duration_days: 2
+    tags:
+      - "integration"
+      - "community ecology"
+      - "ecophysiology"
+      - "population dynamics"
+      - "GATE"

@@ -1,0 +1,208 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Ecosystems Structure and Function: Trophic levels and their interactions; nutrient cycles; primary and secondary productivity"
+
+concepts:
+  core:
+    - name: "Ecosystem structure"
+      clarifier: "Biotic and abiotic components arranged into functional compartments (producers, consumers, decomposers, detritus) and their standing stocks (biomass, nutrient pools)."
+    - name: "Trophic levels"
+      clarifier: "Feeding-position categories (primary producers, primary/secondary/tertiary consumers, decomposers) used to summarize energy and matter transfer in food chains/webs."
+    - name: "Food chains and food webs"
+      clarifier: "Linear and network representations of who eats whom, capturing pathways of energy flow and interaction strengths among trophic levels."
+    - name: "Trophic interactions"
+      clarifier: "Effects among trophic levels including consumption, top-down control, bottom-up limitation, and indirect effects such as trophic cascades."
+    - name: "Nutrient cycles (biogeochemical cycles)"
+      clarifier: "Movement and transformation of elements (e.g., carbon, nitrogen, phosphorus) among atmosphere, hydrosphere, lithosphere, and biosphere through biological and abiotic processes."
+    - name: "Primary productivity"
+      clarifier: "Rate at which autotrophs fix carbon into organic matter; includes gross primary productivity (GPP) and net primary productivity (NPP)."
+    - name: "Secondary productivity"
+      clarifier: "Rate at which heterotrophs convert assimilated energy into new biomass (growth and reproduction) at consumer trophic levels."
+
+  related:
+    - name: "Energy flow vs nutrient cycling"
+      clarifier: "Energy flows one-way through ecosystems (with losses as heat), while nutrients cycle among pools and are conserved in matter transformations."
+    - name: "Ecological efficiency and trophic transfer efficiency"
+      clarifier: "Fraction of energy/biomass transferred between trophic levels, often summarized conceptually as \u223c10% but variable by system and trophic pathway."
+    - name: "Detrital pathway and decomposition"
+      clarifier: "Transfer of organic matter to detritus and decomposers; major route of energy and nutrient recycling in many ecosystems."
+    - name: "Stoichiometry and nutrient limitation"
+      clarifier: "Elemental ratios (e.g., C:N:P) shaping nutrient demand, limitation, and consumer-resource interactions."
+    - name: "Mineralization and immobilization"
+      clarifier: "Microbial conversion of organic nutrients to inorganic forms (mineralization) versus uptake and incorporation into biomass (immobilization)."
+    - name: "Nitrogen transformations"
+      clarifier: "Key processes such as fixation, nitrification, assimilation, ammonification, and denitrification linking biology to N availability."
+    - name: "Phosphorus cycle characteristics"
+      clarifier: "Sedimentary-dominated cycle with no major atmospheric gaseous phase, often making P limiting on long timescales."
+    - name: "Bottom-up vs top-down control"
+      clarifier: "Resource-driven limitation of higher trophic levels versus predator-driven regulation of lower trophic levels and cascades."
+    - name: "Standing crop and turnover"
+      clarifier: "Biomass present at a given time versus rate of production; systems can have low biomass but high turnover (e.g., plankton)."
+
+learning_path:
+  - id: 1
+    title: "Ecosystem structure: compartments, trophic levels, and food webs"
+    learning_objectives:
+      - "Define ecosystem structure in terms of compartments, pools, and standing stocks."
+      - "Identify trophic levels and distinguish food chains from food webs."
+      - "Explain trophic interactions using top-down and bottom-up perspectives."
+      - "Predict qualitative consequences of adding/removing a trophic level (e.g., trophic cascades)."
+    textbook_style_content:
+      - topic: "Structural organization of ecosystems"
+        sections:
+          - section_title: "Ecosystem components and functional compartments"
+            section_type: overview
+          - section_title: "Trophic levels: producers, consumers, decomposers, detritus"
+            section_type: core_theory
+          - section_title: "Food chains vs food webs: network view of interactions"
+            section_type: core_theory
+      - topic: "Interactions among trophic levels"
+        sections:
+          - section_title: "Bottom-up limitation, top-down control, and indirect effects"
+            section_type: core_theory
+          - section_title: "Detrital pathway and why decomposers matter"
+            section_type: related concepts
+          - section_title: "Ecological efficiency and energy transfer across levels"
+            section_type: related concepts
+    milestone: "Can map a described ecosystem into trophic compartments and reason about interaction-driven changes in abundance and biomass."
+    duration_days: 4
+    tags:
+      - "ecosystem structure"
+      - "trophic levels"
+      - "food webs"
+      - "top-down bottom-up"
+      - "GATE"
+
+  - id: 2
+    title: "Nutrient cycles: pools, fluxes, and key transformations"
+    learning_objectives:
+      - "Differentiate energy flow from nutrient cycling conceptually."
+      - "Describe major pools and fluxes in carbon, nitrogen, and phosphorus cycles."
+      - "Explain biologically important transformations (e.g., N fixation, nitrification, denitrification; P mineralization)."
+      - "Relate nutrient availability to ecosystem functioning and limitation."
+    textbook_style_content:
+      - topic: "Principles of biogeochemical cycling"
+        sections:
+          - section_title: "Pools, fluxes, residence time, and steady state"
+            section_type: overview
+          - section_title: "Energy flow vs element cycling: conservation and losses"
+            section_type: core_theory
+          - section_title: "Decomposition, mineralization, and immobilization"
+            section_type: core_theory
+      - topic: "Major nutrient cycles"
+        sections:
+          - section_title: "Carbon cycle: fixation, respiration, storage"
+            section_type: core_theory
+          - section_title: "Nitrogen cycle: fixation to denitrification"
+            section_type: core_theory
+          - section_title: "Phosphorus cycle: weathering, uptake, sedimentation"
+            section_type: core_theory
+      - topic: "Limitation and stoichiometry"
+        sections:
+          - section_title: "Nutrient limitation and co-limitation"
+            section_type: related concepts
+          - section_title: "Ecological stoichiometry (C:N:P) and consequences for consumers"
+            section_type: related concepts
+    milestone: "Can trace an element through ecosystem pools and explain how specific transformations control availability and productivity."
+    duration_days: 5
+    tags:
+      - "nutrient cycles"
+      - "biogeochemistry"
+      - "carbon"
+      - "nitrogen"
+      - "phosphorus"
+      - "GATE"
+
+  - id: 3
+    title: "Primary productivity: GPP, NPP, controls, and measurement"
+    learning_objectives:
+      - "Define GPP and NPP and explain their relationship."
+      - "Identify the main controls on primary productivity (light, water, temperature, nutrients)."
+      - "Interpret productivity patterns across ecosystems and seasons qualitatively."
+      - "Understand common measurement approaches conceptually (biomass harvest, oxygen methods, eddy covariance)."
+    textbook_style_content:
+      - topic: "What primary productivity measures"
+        sections:
+          - section_title: "Definitions: GPP, NPP, respiration and net ecosystem production"
+            section_type: overview
+          - section_title: "Controls on productivity: resources and climate constraints"
+            section_type: core_theory
+          - section_title: "Spatial patterns: why deserts and rainforests differ"
+            section_type: related concepts
+      - topic: "How productivity is estimated"
+        sections:
+          - section_title: "Terrestrial approaches (biomass increment, CO2 flux concepts)"
+            section_type: related concepts
+          - section_title: "Aquatic approaches (oxygen light-dark bottle concept)"
+            section_type: related concepts
+    milestone: "Can distinguish GPP vs NPP and explain which abiotic constraints dominate productivity in a given ecosystem."
+    duration_days: 4
+    tags:
+      - "primary productivity"
+      - "GPP"
+      - "NPP"
+      - "controls"
+      - "GATE"
+
+  - id: 4
+    title: "Secondary productivity: consumer energetics and transfer across trophic levels"
+    learning_objectives:
+      - "Define secondary productivity and distinguish production from assimilation and ingestion."
+      - "Explain why transfer efficiency is typically low and variable."
+      - "Relate food quality and stoichiometry to consumer production."
+      - "Predict how changes in primary productivity propagate to higher trophic levels."
+    textbook_style_content:
+      - topic: "Consumer energy budgets"
+        sections:
+          - section_title: "Ingestion, assimilation, respiration, egestion, and production"
+            section_type: overview
+          - section_title: "Secondary productivity and factors controlling it"
+            section_type: core_theory
+          - section_title: "Trophic transfer efficiency and pyramids (numbers, biomass, energy)"
+            section_type: related concepts
+      - topic: "Linking producers to consumers"
+        sections:
+          - section_title: "Food quality, stoichiometry, and consumer growth"
+            section_type: related concepts
+          - section_title: "Detrital vs grazing pathways and implications for production"
+            section_type: related concepts
+    milestone: "Can reason through consumer energy budgets and explain why changes at lower trophic levels may amplify or dampen at higher levels."
+    duration_days: 3
+    tags:
+      - "secondary productivity"
+      - "trophic transfer"
+      - "energy budgets"
+      - "pyramids"
+      - "GATE"
+
+  - id: 5
+    title: "Integration module: linking trophic structure, nutrient cycling, and productivity"
+    learning_objectives:
+      - "Integrate nutrient limitation with primary productivity and food-web structure."
+      - "Explain how decomposition connects productivity to nutrient availability."
+      - "Predict ecosystem responses to enrichment (eutrophication) or nutrient loss qualitatively."
+      - "Solve mixed questions connecting trophic interactions, cycles, and productivity measures."
+    textbook_style_content:
+      - topic: "Ecosystem functioning as a coupled system"
+        sections:
+          - section_title: "Coupling between production, consumption, and decomposition"
+            section_type: overview
+          - section_title: "Nutrient enrichment and productivity: from limitation to imbalance"
+            section_type: related concepts
+          - section_title: "Feedbacks: how food webs influence nutrient cycling"
+            section_type: related concepts
+      - topic: "Exam-oriented synthesis"
+        sections:
+          - section_title: "Common GATE prompts and pitfalls (productivity vs biomass; cycling vs flow)"
+            section_type: related concepts
+          - section_title: "Choosing the right concept: limitation, efficiency, or interaction"
+            section_type: related concepts
+    milestone: "Can connect trophic interactions, nutrient cycling processes, and productivity concepts into a coherent explanation for ecosystem change."
+    duration_days: 2
+    tags:
+      - "integration"
+      - "ecosystem functioning"
+      - "nutrient limitation"
+      - "productivity"
+      - "GATE"

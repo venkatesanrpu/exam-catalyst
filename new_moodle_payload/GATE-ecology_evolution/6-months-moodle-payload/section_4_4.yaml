@@ -1,0 +1,285 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Behavioural Ecology (4.4): Reproduction—Cost of sex; sexual dimorphism; mate choice; sexual selection (runaway selection, good-genes, handicap principle, etc.); sexual conflict; mating systems; parental care."
+
+concepts:
+  core:
+    - name: "Cost of sex"
+      clarifier: "Fitness costs of sexual reproduction relative to asexuality (e.g., two-fold cost of males, costs of meiosis, mate finding, STIs), and the evolutionary benefits that can offset them."
+    - name: "Sexual dimorphism"
+      clarifier: "Sex differences in morphology, behavior, physiology, and life history arising from sexual selection, fecundity selection, and ecological divergence."
+    - name: "Mate choice"
+      clarifier: "Non-random mating preferences and decision rules; choosiness vs sampling costs; direct and indirect benefits."
+    - name: "Sexual selection"
+      clarifier: "Selection arising from variance in mating success; includes intra-sexual competition and inter-sexual choice."
+    - name: "Runaway (Fisherian) selection"
+      clarifier: "Positive feedback between female preference and male trait leading to exaggerated traits under certain genetic correlations."
+    - name: "Good-genes sexual selection"
+      clarifier: "Mate choice favors traits indicating heritable viability/quality; predicts offspring fitness benefits and condition dependence."
+    - name: "Handicap principle"
+      clarifier: "Costly traits can be reliable signals of quality if costs are differentially affordable by high-quality individuals."
+    - name: "Sexual conflict"
+      clarifier: "Divergent reproductive interests between sexes leading to antagonistic coevolution (pre- and post-copulatory)."
+    - name: "Mating systems"
+      clarifier: "Patterns of mating and pair association (monogamy, polygyny, polyandry, promiscuity) shaped by ecology and parental investment."
+    - name: "Parental care"
+      clarifier: "Any parental trait increasing offspring survival at a cost to parents; includes provisioning, guarding, incubation, and teaching."
+  related:
+    - name: "Anisogamy and Bateman’s principle"
+      clarifier: "Gamete size differences underpin sex roles; mating success variance often higher in the sex with lower parental investment."
+    - name: "Operational sex ratio (OSR)"
+      clarifier: "Ratio of sexually active males to receptive females; predicts intensity of competition and mate choice."
+    - name: "Parental investment theory (Trivers)"
+      clarifier: "The sex investing more in offspring becomes choosier; the other competes more intensely."
+    - name: "Sperm competition and cryptic female choice"
+      clarifier: "Post-copulatory sexual selection via ejaculate competition and female-mediated bias in fertilization."
+    - name: "Alternative reproductive tactics"
+      clarifier: "Sneaking, satellites, and conditional strategies; frequency-dependent selection and state dependence."
+    - name: "Sex role reversal"
+      clarifier: "When males provide more care and become choosier; often linked to OSR and ecology."
+    - name: "Fecundity selection"
+      clarifier: "Selection on traits increasing reproductive output (often female body size) distinct from sexual selection."
+    - name: "Life-history trade-offs"
+      clarifier: "Current reproduction vs future survival/fecundity; clutch size vs offspring quality."
+    - name: "Inclusive fitness and kin selection in care"
+      clarifier: "Helping and cooperative breeding explained by relatedness and indirect fitness benefits."
+    - name: "Parent–offspring conflict"
+      clarifier: "Offspring demand exceeds parental optimum; leads to conflict over provisioning and weaning."
+
+learning_path:
+  - id: 1
+    title: "Why Sex? Costs of Sexual Reproduction and Proposed Benefits"
+    learning_objectives:
+      - "Define the major costs of sex, including the two-fold cost of males and costs of mating."
+      - "Explain how recombination and segregation create both costs and potential advantages."
+      - "Describe leading hypotheses for maintenance of sex (e.g., Red Queen, mutational clearance)."
+    textbook_style_content:
+      - topic: "The problem: why sex persists"
+        sections:
+          - section_title: "Two-fold cost of males and other ecological/genetic costs"
+            section_type: overview
+          - section_title: "Core cost components: meiosis, mate search, disease, and predation risk"
+            section_type: core_theory
+      - topic: "Benefits that can offset costs"
+        sections:
+          - section_title: "Generating variation and speeding adaptation"
+            section_type: core_theory
+          - section_title: "Red Queen dynamics and parasite-mediated selection"
+            section_type: related concepts
+          - section_title: "Purging deleterious mutations (Muller’s ratchet, Hill–Robertson effects)"
+            section_type: related concepts
+    milestone: "Can state at least three distinct costs of sex and match each with a plausible compensating benefit hypothesis."
+    duration_days: 3
+    tags:
+      - "cost of sex"
+      - "maintenance of sex"
+      - "Red Queen"
+      - "mutation load"
+
+  - id: 2
+    title: "Sexual Selection Basics: Sex Roles, Anisogamy, and Variance in Reproductive Success"
+    learning_objectives:
+      - "Distinguish sexual selection from natural selection and fecundity selection."
+      - "Explain anisogamy and how it generates typical sex-role asymmetries."
+      - "Use Bateman’s principle, OSR, and parental investment to predict competition vs choosiness."
+    textbook_style_content:
+      - topic: "Defining sexual selection"
+        sections:
+          - section_title: "Mate acquisition and fertilization success as targets of selection"
+            section_type: overview
+          - section_title: "Intra-sexual competition and inter-sexual choice"
+            section_type: core_theory
+      - topic: "Why sex roles often differ"
+        sections:
+          - section_title: "Anisogamy, parental investment, and Bateman gradients"
+            section_type: core_theory
+          - section_title: "Operational sex ratio and ecological drivers"
+            section_type: related concepts
+    milestone: "Given a scenario with biased OSR or altered parental investment, can predict which sex competes more and which is choosier."
+    duration_days: 3
+    tags:
+      - "sexual selection"
+      - "anisogamy"
+      - "OSR"
+      - "Trivers"
+
+  - id: 3
+    title: "Sexual Dimorphism: Origins and Interpretations"
+    learning_objectives:
+      - "Define sexual dimorphism across morphology, coloration, behavior, and life history."
+      - "Explain multiple causes: sexual selection, fecundity selection, and ecological niche divergence."
+      - "Connect dimorphism to mating system and intensity of competition."
+    textbook_style_content:
+      - topic: "Forms of sexual dimorphism"
+        sections:
+          - section_title: "Traits commonly dimorphic and how to measure them"
+            section_type: overview
+          - section_title: "Selection routes: mating success vs fecundity vs ecology"
+            section_type: core_theory
+      - topic: "Predictions and caveats"
+        sections:
+          - section_title: "Mating system, OSR, and expected dimorphism"
+            section_type: core_theory
+          - section_title: "Constraints: genetic correlations and viability costs"
+            section_type: related concepts
+    milestone: "Can propose at least two alternative explanations for a dimorphic trait and state what evidence would discriminate them."
+    duration_days: 2
+    tags:
+      - "sexual dimorphism"
+      - "fecundity selection"
+      - "sexual selection"
+
+  - id: 4
+    title: "Mate Choice: Decision Rules, Costs, and Benefits"
+    learning_objectives:
+      - "Distinguish direct benefits (resources, protection) from indirect benefits (genetic quality)."
+      - "Explain how sampling costs and predation risk affect choosiness."
+      - "Describe preference functions and condition-dependent choice."
+    textbook_style_content:
+      - topic: "Why choose?"
+        sections:
+          - section_title: "Direct vs indirect benefits and when each dominates"
+            section_type: overview
+          - section_title: "Costs of choice: time, energy, and risk"
+            section_type: core_theory
+      - topic: "How choice operates"
+        sections:
+          - section_title: "Preference functions, thresholds, and mate sampling strategies"
+            section_type: core_theory
+          - section_title: "Context dependence: environment, state, and social effects"
+            section_type: related concepts
+    milestone: "Can classify a vignette as direct-benefit vs indirect-benefit mate choice and identify the implied prediction for offspring or parent fitness."
+    duration_days: 3
+    tags:
+      - "mate choice"
+      - "direct benefits"
+      - "indirect benefits"
+      - "choosiness"
+
+  - id: 5
+    title: "Models of Sexual Selection: Runaway, Good Genes, and Handicap Signaling"
+    learning_objectives:
+      - "Explain Fisherian runaway selection and the role of genetic correlation between trait and preference."
+      - "Explain good-genes models and expected links between ornamentation and viability."
+      - "Explain the handicap principle and why costs can enforce honesty."
+    textbook_style_content:
+      - topic: "Runaway (Fisherian) selection"
+        sections:
+          - section_title: "Positive feedback between preference and trait"
+            section_type: overview
+          - section_title: "Predictions: exaggerated traits, female preference maintenance, and viability trade-offs"
+            section_type: core_theory
+      - topic: "Good-genes sexual selection"
+        sections:
+          - section_title: "Ornaments as indicators of heritable quality"
+            section_type: core_theory
+          - section_title: "Predictions: condition dependence and offspring fitness correlations"
+            section_type: related concepts
+      - topic: "Handicap principle"
+        sections:
+          - section_title: "Costly signaling logic and differential cost structure"
+            section_type: core_theory
+          - section_title: "Indices, handicaps, and cheating constraints"
+            section_type: related concepts
+    milestone: "Can match a described trait-preference system to runaway vs good-genes vs handicap and state one testable prediction for each."
+    duration_days: 4
+    tags:
+      - "runaway selection"
+      - "good genes"
+      - "handicap principle"
+      - "honest signaling"
+
+  - id: 6
+    title: "Sexual Conflict and Antagonistic Coevolution"
+    learning_objectives:
+      - "Define sexual conflict and distinguish intra-locus from inter-locus conflict."
+      - "Describe pre-copulatory and post-copulatory conflict mechanisms."
+      - "Explain antagonistic coevolution and potential outcomes (arms races, equilibria)."
+    textbook_style_content:
+      - topic: "Where conflict comes from"
+        sections:
+          - section_title: "Different optima for mating rate, investment, and fertilization"
+            section_type: overview
+          - section_title: "Intra-locus vs inter-locus sexual conflict"
+            section_type: core_theory
+      - topic: "Mechanisms and outcomes"
+        sections:
+          - section_title: "Pre-copulatory conflict: harassment, coercion, resistance"
+            section_type: core_theory
+          - section_title: "Post-copulatory conflict: sperm competition and cryptic female choice"
+            section_type: core_theory
+          - section_title: "Arms races, mating costs, and population consequences"
+            section_type: related concepts
+    milestone: "Can identify the conflicting optima in a scenario and name at least one male and one female trait expected to coevolve."
+    duration_days: 3
+    tags:
+      - "sexual conflict"
+      - "antagonistic coevolution"
+      - "sperm competition"
+      - "cryptic female choice"
+
+  - id: 7
+    title: "Mating Systems: Ecological Drivers and Sexual Selection Consequences"
+    learning_objectives:
+      - "Define monogamy, polygyny, polyandry, and promiscuity, and distinguish social vs genetic mating systems."
+      - "Explain how resource distribution and parental care opportunities shape mating systems."
+      - "Predict how mating system influences sexual dimorphism and sexual selection intensity."
+    textbook_style_content:
+      - topic: "Types of mating systems"
+        sections:
+          - section_title: "Social vs genetic mating systems and common mismatches"
+            section_type: overview
+          - section_title: "Core categories and characteristic patterns"
+            section_type: core_theory
+      - topic: "Ecological and demographic drivers"
+        sections:
+          - section_title: "Resource defense, mate defense, and female dispersion"
+            section_type: core_theory
+          - section_title: "OSR, breeding synchrony, and constraints on monopolization"
+            section_type: related concepts
+      - topic: "Consequences"
+        sections:
+          - section_title: "Predicted effects on selection gradients and dimorphism"
+            section_type: related concepts
+    milestone: "Given ecology (resource clumping, female distribution, care needs), can predict the most likely mating system and justify it."
+    duration_days: 3
+    tags:
+      - "mating systems"
+      - "monogamy"
+      - "polygyny"
+      - "polyandry"
+      - "resource distribution"
+
+  - id: 8
+    title: "Parental Care: Strategies, Trade-offs, and Conflicts"
+    learning_objectives:
+      - "Define parental care and distinguish forms (maternal, paternal, biparental, cooperative)."
+      - "Explain trade-offs between current care and future reproduction."
+      - "Explain parent–offspring conflict and sexual conflict over care."
+    textbook_style_content:
+      - topic: "Parental care: what it includes"
+        sections:
+          - section_title: "Care modes: provisioning, guarding, incubation, teaching"
+            section_type: overview
+          - section_title: "Costs and benefits: survival vs fecundity trade-offs"
+            section_type: core_theory
+      - topic: "Who cares and why"
+        sections:
+          - section_title: "Certainty of parentage, OSR, and ecological constraints"
+            section_type: core_theory
+          - section_title: "Sex role reversal and cooperative breeding"
+            section_type: related concepts
+      - topic: "Conflicts around care"
+        sections:
+          - section_title: "Sexual conflict over care allocation"
+            section_type: core_theory
+          - section_title: "Parent–offspring conflict and weaning dynamics"
+            section_type: related concepts
+    milestone: "Can explain (i) why care evolves, (ii) which sex provides it, and (iii) the major conflict(s) expected in that system."
+    duration_days: 4
+    tags:
+      - "parental care"
+      - "life-history trade-offs"
+      - "parent–offspring conflict"
+      - "sex roles"

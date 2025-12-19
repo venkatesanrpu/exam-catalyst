@@ -1,0 +1,217 @@
+metadata:
+  subject: "Ecology and Evolution"
+  target: "GATE Ecology and Evolution Examination"
+  syllabus_line: "Life History Strategies: Allocation of resources; tradeoffs; r/K selection; semelparity and iteroparity"
+
+concepts:
+  core:
+    - name: "Life-history strategies (framework)"
+      clarifier: "Integrated schedules of growth, reproduction, and survival shaped by natural selection under ecological constraints; comparisons across species and environments."
+    - name: "Resource allocation"
+      clarifier: "Partitioning limited energy/time among maintenance, growth, storage, and reproduction; allocation decisions determine life-history traits such as age at maturity and fecundity."
+    - name: "Trade-offs"
+      clarifier: "Fitness costs arising because improving one life-history trait reduces another (e.g., current vs future reproduction, number vs size of offspring)."
+    - name: "r/K selection (classic heuristic)"
+      clarifier: "Contrasting selection in low-density/unstable vs high-density/competitive environments; what it predicts and why it is considered a simplification."
+    - name: "Semelparity"
+      clarifier: "Single reproductive episode followed by death; favored when adult survival after reproduction is low or when a large one-time reproductive effort yields high fitness."
+    - name: "Iteroparity"
+      clarifier: "Multiple reproductive episodes across lifetime; favored when adult survival is sufficiently high and spreading reproduction reduces risk across variable environments."
+    - name: "Comparing parity modes"
+      clarifier: "How ecology (mortality, seasonality, predictability) and physiology constrain whether semelparity or iteroparity evolves."
+  related:
+    - name: "Fitness components and reproductive value"
+      clarifier: "Age-specific survival and fecundity determine fitness; reproductive value links timing of reproduction to selection strength."
+    - name: "Cost of reproduction"
+      clarifier: "Physiological and ecological costs of reproduction reducing survival or future fecundity; central empirical support for trade-offs."
+    - name: "Age at first reproduction"
+      clarifier: "Early vs delayed maturity as an allocation outcome; influenced by mortality risk and growth benefits."
+    - name: "Offspring size–number trade-off"
+      clarifier: "Smith–Fretwell logic: optimal offspring size under diminishing returns and resource limits."
+    - name: "Bet-hedging (overview)"
+      clarifier: "Strategies that reduce variance in reproductive success across unpredictable environments, potentially favoring iteroparity or variable clutch sizes."
+    - name: "Density dependence"
+      clarifier: "How population density affects survival/fecundity; connects directly to classic r/K reasoning."
+    - name: "Environmental stochasticity"
+      clarifier: "Unpredictable variation affecting survival and reproduction; key driver of spreading reproductive effort over time."
+    - name: "Phenotypic plasticity in life histories"
+      clarifier: "Condition-dependent allocation and flexible reproductive schedules; reaction norms for age/size at maturity."
+    - name: "Survivorship curves"
+      clarifier: "Type I/II/III curves and their relation to life-history patterns and juvenile vs adult mortality."
+
+learning_path:
+  - id: 1
+    title: "Life-History Theory: What Strategies Are and Why They Evolve"
+    learning_objectives:
+      - "Define life-history traits and explain why they form integrated strategies rather than independent traits."
+      - "Explain the role of constraints (energy, time, physiology) in shaping life-history evolution."
+      - "Describe how natural selection optimizes lifetime reproductive success in a given environment (conceptual)."
+      - "Identify typical GATE confusions: adaptation vs optimality, individual intention vs evolved strategy."
+    textbook_style_content:
+      - topic: "Life-history traits and schedules"
+        sections:
+          - section_title: "Core life-history traits: growth rate, age at maturity, fecundity, survival"
+            section_type: overview
+          - section_title: "Why traits covary: constraints and correlated selection"
+            section_type: core_theory
+      - topic: "Fitness across the life cycle"
+        sections:
+          - section_title: "Lifetime reproductive success and age-specific selection pressures"
+            section_type: core_theory
+          - section_title: "Reproductive value: why timing of reproduction matters (conceptual)"
+            section_type: related concepts
+    milestone: "You can define life-history strategies and explain why trade-offs are expected under limited resources and age-specific survival."
+    duration_days: 2
+    tags:
+      - "life-history"
+      - "fitness"
+      - "conceptual-foundations"
+
+  - id: 2
+    title: "Allocation of Resources: Energy Budgets and Competing Demands"
+    learning_objectives:
+      - "Explain the allocation principle: limited resources require partitioning among maintenance, growth, and reproduction."
+      - "Relate allocation decisions to observable life-history traits (age/size at maturity, fecundity, survival)."
+      - "Differentiate allocation trade-offs from mere correlations by using causal reasoning."
+      - "Recognize plastic allocation (condition dependence) vs genetically fixed strategies."
+    textbook_style_content:
+      - topic: "Energy and time budgets"
+        sections:
+          - section_title: "Allocation to maintenance, growth, storage, and reproduction"
+            section_type: core_theory
+          - section_title: "Current vs future reproduction: the central allocation conflict"
+            section_type: core_theory
+      - topic: "Allocation expressed as traits"
+        sections:
+          - section_title: "Age at maturity and size at maturity as allocation outcomes"
+            section_type: related concepts
+          - section_title: "Condition dependence and phenotypic plasticity in allocation"
+            section_type: related concepts
+    milestone: "You can map a described ecological constraint (e.g., high juvenile mortality) to a plausible allocation shift and resulting trait changes."
+    duration_days: 2
+    tags:
+      - "resource-allocation"
+      - "energy-budget"
+      - "plasticity"
+
+  - id: 3
+    title: "Trade-offs: The Engine of Life-History Evolution"
+    learning_objectives:
+      - "Define trade-offs and explain why they occur (limited resources, antagonistic pleiotropy, physiological constraints)."
+      - "Describe classic life-history trade-offs: offspring size vs number; reproduction vs survival; growth vs reproduction."
+      - "Explain the 'cost of reproduction' and how it is detected empirically (conceptual)."
+      - "Use trade-off reasoning to answer scenario-based GATE questions."
+    textbook_style_content:
+      - topic: "Trade-off logic"
+        sections:
+          - section_title: "Why improvement in one trait can reduce another"
+            section_type: core_theory
+          - section_title: "Cost of reproduction: mechanisms and predictions"
+            section_type: core_theory
+      - topic: "High-yield trade-offs"
+        sections:
+          - section_title: "Offspring size–number trade-off (Smith–Fretwell idea, conceptual)"
+            section_type: related concepts
+          - section_title: "Survival–fecundity and growth–reproduction trade-offs"
+            section_type: core_theory
+          - section_title: "Genetic correlations and constraints (overview)"
+            section_type: related concepts
+    milestone: "Given a change in environment (food scarcity, predation, season length), you can predict at least two trade-off-mediated shifts in life-history traits."
+    duration_days: 3
+    tags:
+      - "trade-offs"
+      - "cost-of-reproduction"
+      - "offspring-size-number"
+
+  - id: 4
+    title: "r/K Selection: Predictions, Uses, and Limitations"
+    learning_objectives:
+      - "Define \\(r\\) and \\(K\\) and connect them to population growth and density dependence at a conceptual level."
+      - "List classic r-selected vs K-selected trait syndromes and the ecological contexts that favor them."
+      - "Explain why r/K selection is a heuristic and where it breaks down."
+      - "Translate exam statements about disturbance, competition, and density dependence into r/K predictions."
+    textbook_style_content:
+      - topic: "Core definitions"
+        sections:
+          - section_title: "Meaning of \\(r\\): intrinsic rate of increase (conceptual)"
+            section_type: core_theory
+          - section_title: "Meaning of \\(K\\): carrying capacity and density dependence"
+            section_type: core_theory
+      - topic: "Trait syndromes and environments"
+        sections:
+          - section_title: "r-selected traits: early reproduction, high fecundity, low parental care"
+            section_type: core_theory
+          - section_title: "K-selected traits: delayed reproduction, competitive ability, higher parental investment"
+            section_type: core_theory
+      - topic: "Critical perspective"
+        sections:
+          - section_title: "Why r/K is simplified: continuous variation, multiple axes, and context dependence"
+            section_type: overview
+          - section_title: "Modern view: fast–slow continuum and life-history pace (overview linkage)"
+            section_type: related concepts
+    milestone: "You can apply r/K logic to simple scenarios while explicitly stating at least one limitation of the framework."
+    duration_days: 2
+    tags:
+      - "rK-selection"
+      - "density-dependence"
+      - "exam-application"
+
+  - id: 5
+    title: "Semelparity and Iteroparity: Single vs Repeated Reproduction"
+    learning_objectives:
+      - "Define semelparity and iteroparity with canonical examples."
+      - "Explain ecological conditions favoring semelparity vs iteroparity using survival, seasonality, and uncertainty."
+      - "Connect parity mode to allocation and trade-offs (current vs future reproduction)."
+      - "Predict how changes in adult survival or environmental unpredictability shift the favored parity strategy."
+    textbook_style_content:
+      - topic: "Definitions and core contrasts"
+        sections:
+          - section_title: "Semelparity: one major reproductive effort and its predicted benefits"
+            section_type: core_theory
+          - section_title: "Iteroparity: spreading reproduction across time and risk"
+            section_type: core_theory
+      - topic: "Ecological drivers"
+        sections:
+          - section_title: "Adult survival and the logic of future reproduction"
+            section_type: core_theory
+          - section_title: "Environmental stochasticity and bet-hedging (overview)"
+            section_type: related concepts
+          - section_title: "Survivorship curves and parity modes (conceptual linkage)"
+            section_type: related concepts
+      - topic: "Borderline and mixed cases"
+        sections:
+          - section_title: "Facultative semelparity/iteroparity and plastic schedules (overview)"
+            section_type: overview
+    milestone: "You can justify, with survival-and-risk reasoning, why a species would evolve semelparity or iteroparity in a given ecological setting."
+    duration_days: 3
+    tags:
+      - "semelparity"
+      - "iteroparity"
+      - "life-history-evolution"
+
+  - id: 6
+    title: "Integration Practice: Life-History Strategy Reasoning for GATE"
+    learning_objectives:
+      - "Synthesize allocation, trade-offs, r/K context, and parity modes into coherent explanations."
+      - "Answer multi-statement MCQs by identifying which life-history predictions follow from given ecology."
+      - "Distinguish density-dependent selection (competition) from stochastic mortality (disturbance) in life-history outcomes."
+      - "Write short, mechanism-first justifications (2–4 lines) for typical exam questions."
+    textbook_style_content:
+      - topic: "Scenario-to-strategy mapping"
+        sections:
+          - section_title: "Disturbance, predation, and season length: predicting fast vs slow strategies"
+            section_type: core_theory
+          - section_title: "Resource limitation and competition near \\(K\\): predicting investment and timing"
+            section_type: core_theory
+      - topic: "Common pitfalls"
+        sections:
+          - section_title: "Avoiding stereotypes: r/K as tendencies, not fixed categories"
+            section_type: overview
+          - section_title: "Separating proximate causes (physiology) from ultimate causes (selection)"
+            section_type: related concepts
+    milestone: "You can solve mixed life-history questions by explicitly stating constraints, trade-offs, and the predicted direction of trait change."
+    duration_days: 2
+    tags:
+      - "integration"
+      - "gate-mcqs"
+      - "applied-life-history"
