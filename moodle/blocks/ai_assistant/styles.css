@@ -897,6 +897,36 @@
     transform: translateX(4px);
 }
 
+.mcq-option-label {
+	display: flex; 
+	gap: 10px; 
+	align-items: flex-start; 
+	cursor: pointer; 
+}
+
+.mcq-option-input {
+	margin-top: 4px; 
+}
+.mcq-option.is-correct {
+	border: 1px solid #2f855a; 
+	background: #f0fff4; 
+}
+.mcq-option.is-wrong {
+	border: 1px solid #c53030; 
+	background: #fff5f5; 
+}
+.mcq-feedback.is-correct {
+	color: #2f855a; 
+	font-weight: 600; 
+	margin-top: 10px; 
+}
+.mcq-feedback.is-wrong {
+	color: #c53030; 
+	font-weight: 600; 
+	margin-top: 10px; 
+}
+
+
 /* Answer view */
 .mcq-correct-answer {
     padding: 20px;
