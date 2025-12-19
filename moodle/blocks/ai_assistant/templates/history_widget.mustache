@@ -383,11 +383,20 @@
             return;
         }
         
+		// ✅ For syllabus subjects: enable Subject-only history immediately.
+		loadButton.disabled = false;
+		
         // Find subject data for syllabus subjects
         const subjectData = syllabusData.find(s => s.subject_key === selectedSubjectKey);
         
         if (subjectData && subjectData.topics && Array.isArray(subjectData.topics)) {
             console.log('📋 Populating topics:', subjectData.topics.length);
+
+			// ✅ Allow "Subject only" by providing an "All topics" option (empty value).
+			const allTopicsOption = document.createElement('option');
+			allTopicsOption.value = '';
+			allTopicsOption.textContent = 'All topics';
+			topicSelect.appendChild(allTopicsOption);
             
             subjectData.topics.forEach(topic => {
                 const option = document.createElement('option');
@@ -408,9 +417,16 @@
         // Reset lesson
         lessonSelect.innerHTML = '<option value="">-- Select Lesson --</option>';
         lessonSelect.disabled = true;
-        loadButton.disabled = true;
+        loadButton.disabled = false;
         
         if (!selectedTopicKey) return;
+
+		// ✅ "All topics" selected (subject-only filter).
+		if (!selectedTopicKey) {
+			lessonSelect.innerHTML = '<option value="">All lessons</option>';
+			lessonSelect.disabled = true;
+			return;
+		}		
         
         // Find subject and topic data
         const subjectData = syllabusData.find(s => s.subject_key === selectedSubjectKey);
@@ -418,6 +434,13 @@
         
         if (topicData && topicData.lessons && Array.isArray(topicData.lessons)) {
             console.log('📖 Populating lessons:', topicData.lessons.length);
+
+			// ✅ Allow "Subject > Topic" by providing an "All lessons" option (empty value).
+			const allLessonsOption = document.createElement('option');
+			allLessonsOption.value = '';
+			allLessonsOption.textContent = 'All lessons';
+			lessonSelect.appendChild(allLessonsOption);
+
             
             topicData.lessons.forEach(lesson => {
                 const option = document.createElement('option');
@@ -440,7 +463,8 @@
     
     // Lesson change handler
     lessonSelect.addEventListener('change', () => {
-        loadButton.disabled = !lessonSelect.value;
+		// ✅ Lesson is optional now ("All lessons" is valid), so keep enabled as long as subject is selected.
+		loadButton.disabled = !subjectSelect.value;
     });
     
     // ==================== FETCH HISTORY ====================
@@ -598,16 +622,35 @@
         const topicKey = topicSelect.value;
         const lesson = lessonSelect.value;
         
-        // Allow general category without topic/lesson
-        if (subjectKey === 'general') {
-            console.log('🔍 Fetching general (unfiltered) conversations');
-            fetchHistory('general', '', '');
-        } else if (subjectKey && topicKey && lesson) {
-            console.log('🔍 Fetching history for:', { subjectKey, topicKey, lesson });
-            fetchHistory(subjectKey, topicKey, lesson);
-        } else {
-            alert('Please select subject, topic, and lesson');
-        }
+		if (!subjectKey) {
+			alert('Please select a subject');
+			return;
+		}
+
+		// Allow general category without topic/lesson
+		if (subjectKey === 'general') {
+			console.log('🔍 Fetching general (unfiltered) conversations');
+			fetchHistory('general', '', '');
+			return;
+		}
+
+		// ✅ Subject only
+		if (!topicKey) {
+			console.log('🔍 Fetching history for subject only:', { subjectKey });
+			fetchHistory(subjectKey, '', '');
+			return;
+		}
+
+		// ✅ Subject > Topic (all lessons)
+		if (!lesson) {
+			console.log('🔍 Fetching history for subject+topic (all lessons):', { subjectKey, topicKey });
+			fetchHistory(subjectKey, topicKey, '');
+			return;
+		}
+
+		// ✅ Subject > Topic > Lesson
+		console.log('🔍 Fetching history for:', { subjectKey, topicKey, lesson });
+		fetchHistory(subjectKey, topicKey, lesson);
     });
     
     // ==================== MODAL CONTROLS ====================
