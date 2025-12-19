@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/ai_assistant/db" VERSION="20251201" COMMENT="AI Assistant block tables">
+  <TABLES>
+    <TABLE NAME="block_ai_assistant_history" COMMENT="Chat history for AI Assistant">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="courseid" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="usertext" TYPE="text" NOTNULL="true"/>
+        <FIELD NAME="botresponse" TYPE="text" NOTNULL="false"/>
+        <FIELD NAME="functioncalled" TYPE="char" LENGTH="50" NOTNULL="true" DEFAULT="ask_agent"/>
+        <FIELD NAME="subject" TYPE="char" LENGTH="255" NOTNULL="false"/>
+        <FIELD NAME="topic" TYPE="char" LENGTH="255" NOTNULL="false"/>
+        <FIELD NAME="lesson" TYPE="char" LENGTH="255" NOTNULL="false"/>
+        <FIELD NAME="metadata" TYPE="text" NOTNULL="false"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="courseid" UNIQUE="false" FIELDS="courseid"/>
+        <INDEX NAME="userid" UNIQUE="false" FIELDS="userid"/>
+        <INDEX NAME="timecreated" UNIQUE="false" FIELDS="timecreated"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>

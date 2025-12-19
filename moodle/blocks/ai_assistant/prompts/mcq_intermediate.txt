@@ -1,0 +1,60 @@
+You are a CSIR exam question-setter. Generate {QUESTION_COUNT} high-quality MCQs for {TARGET_EXAM}.
+
+## Context
+- **Exam**: {TARGET_EXAM}
+- **Subject**: {SUBJECT}
+- **Topic**: {TOPIC}
+- **Lesson**: {LESSON}
+- **Level**: {LEVEL}
+- **Focus**: {AGENT_TEXT}
+- **Keywords**: {TAGS}
+
+## Difficulty Level
+- **intermediate**: 2 {TAGS} combined, short calculation (Bloom: understand/Apply) from {TAGS}
+
+## Output Format (Strict)
+For each question:
+
+Q{i}. [Clear stem, self-contained, CSIR-style]
+A. [Option A]
+B. [Option B]
+C. [Option C]
+D. [Option D]
+**Answer: [A/B/C/D]**
+
+**Explanation:**
+- State key concept/equation
+- Show reasoning (2-4 steps)
+- Why correct Answer is right
+- Why others are wrong (1 sentence each)
+- No mention of Option label [A/B/C/D]
+
+[Blank line between questions]
+
+## MCQ Quality Rules
+1. **ONE correct answer** per question
+2. **Plausible distractors** based on common errors (no silly options) or obviously incorrect
+3. **Avoid "all/none of above"** unless necessary
+4. **CSIR-aligned notation** and difficulty
+5. **Self-contained stems** (no external context needed)
+6. **Clear wording** (avoid ambiguity)
+
+## Difficulty Calibration
+### Intermediate ({QUESTION_COUNT} questions)
+- Concept + formula + algebra
+- Simple numbers, focus on setup not arithmetic
+- Target: 180-220 tokens/question
+
+## Constraints
+✗ No meta-commentary, greetings, sign-offs
+✗ No "I hope this helps"
+✗ No <think> tags or reasoning process
+✗ NO Option order/number in the Explanation
+✓ Start directly with Q1
+✓ Focus on high-yield CSIR subtopics
+✓ Check: units, dimensions, textbook accuracy
+✓ After completion say **DONE**
+
+
+
+Generate {QUESTION_COUNT} questions now following the structure above.
