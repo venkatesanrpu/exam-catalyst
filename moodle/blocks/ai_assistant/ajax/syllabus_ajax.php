@@ -1,4 +1,6 @@
 <?php
+// FILE: blocks/ai_assistant/ajax/syllabus_ajax.php
+
 define('AJAX_SCRIPT', true);
 
 require_once(__DIR__ . '/../../../../config.php');
@@ -9,40 +11,45 @@ require_sesskey();
 header('Content-Type: application/json; charset=utf-8');
 
 try {
+    global $DB;
+
     $blockid = required_param('blockid', PARAM_INT);
 
-    // Resolve the block context (per-block-instance storage).
-    $context = context_block::instance($blockid);
-
-    $fs = get_file_storage();
-
-    // One file per block instance: component=block_ai_assistant, filearea=syllabus, itemid=0.
-    $files = $fs->get_area_files(
-        $context->id,
-        'block_ai_assistant',
-        'syllabus',
-        0,
-        'timemodified DESC',
-        false
-    );
-
-    if (empty($files)) {
-        throw new moodle_exception('nofile', 'error', '', null, 'No syllabus JSON uploaded for this course block.');
+    if (!$DB->get_manager()->table_exists('block_ai_assistant_syllabus')) {
+        throw new moodle_exception('missingtable', 'error', '', null, 'Syllabus table not installed.');
     }
 
-    /** @var stored_file $file */
-    $file = reset($files);
-    $jsoncontent = $file->get_content();
+    // -----------------------------
+    // Cache (read-through) by blockid
+    // -----------------------------
+    $cache = cache::make('block_ai_assistant', 'syllabus');
 
-    if ($jsoncontent === false || $jsoncontent === '') {
-        throw new moodle_exception('invalidfile', 'error', '', null, 'Syllabus file is empty or unreadable.');
+    // Cache key includes blockid => no collision across courses/blocks.
+    $cachekey = 'blockid_' . $blockid;
+
+    $cachedjson = $cache->get($cachekey);
+    if ($cachedjson !== false && $cachedjson !== null && $cachedjson !== '') {
+        // Return cached JSON (already validated at cache set time).
+        echo $cachedjson;
+        exit;
     }
 
-    // Validate JSON before returning it (same safety principle you already use).
+    // Cache miss -> DB lookup.
+    $rec = $DB->get_record('block_ai_assistant_syllabus', ['blockinstanceid' => $blockid], '*', IGNORE_MISSING);
+    if (!$rec) {
+        throw new moodle_exception('nosyllabus', 'error', '', null, 'No syllabus saved for this block.');
+    }
+
+    $jsoncontent = (string)$rec->syllabus_json;
+
+    // Validate JSON before caching.
     json_decode($jsoncontent, true);
     if (json_last_error() !== JSON_ERROR_NONE) {
-        throw new moodle_exception('invalidjson', 'error', '', null, 'Invalid JSON: ' . json_last_error_msg());
+        throw new moodle_exception('invalidjson', 'error', '', null, 'Invalid JSON in DB: ' . json_last_error_msg());
     }
+
+    // Populate cache for next request.
+    $cache->set($cachekey, $jsoncontent);
 
     echo $jsoncontent;
 

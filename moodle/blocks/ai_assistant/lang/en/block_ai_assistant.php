@@ -46,4 +46,6 @@ $string['strftimedatetimeshort'] = '%d %B %Y, %I:%M %p';
 $string['ai_assistant'] = 'AI Assistant';
 $string['syllabusfile'] = 'Syllabus JSON file';
 $string['syllabusfile_help'] = 'Upload exactly one .json syllabus file for this course block. Uploading again replaces the previous file.';
+$string['syllabusjson'] = 'Syllabus JSON';
+$string['syllabusjson_help'] = 'Paste JSON';
 
