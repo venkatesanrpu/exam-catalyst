@@ -1,7 +1,7 @@
 // FILE: blocks/ai_assistant/amd/src/main.js
 // DESCRIPTION: AMD module for AI Assistant main chat widget.
 
-define([], function() {
+define(['block_ai_assistant/lib/render_text'], function(RenderText) {
     'use strict';
 
     /**
@@ -88,78 +88,9 @@ define([], function() {
             syllabusData: null
         };
 
-        // ==================== RENDERING UTILITIES ====================
-        const markdown = window.markdownit({
-            html: true,
-            breaks: true
-        });
-
-        const renderLatex = (text) => {
-            const latexPlaceholders = new Map();
-
-            // Display math: \[ ... \]
-            text = text.replace(/\\\\\\[(\\s|\\S)*?\\\\\\]/g, (match, latex) => {
-                try {
-                    const rendered = katex.renderToString(latex.trim(), {
-                        displayMode: true,
-                        throwOnError: false
-                    });
-                    const placeholder = `@@KATEX_DISPLAY_${latexPlaceholders.size}@@`;
-                    latexPlaceholders.set(placeholder, rendered);
-                    return placeholder;
-                } catch (e) {
-                    return '<span class="text-danger">[LaTeX Error]</span>';
-                }
-            });
-
-            // Inline math: \( ... \)
-            text = text.replace(/\\\\\\((\\s|\\S)*?\\\\\\)/g, (match, latex) => {
-                try {
-                    const rendered = katex.renderToString(latex.trim(), {
-                        displayMode: false,
-                        throwOnError: false
-                    });
-                    const placeholder = `@@KATEX_INLINE_${latexPlaceholders.size}@@`;
-                    latexPlaceholders.set(placeholder, rendered);
-                    return placeholder;
-                } catch (e) {
-                    return '<span class="text-danger">[LaTeX Error]</span>';
-                }
-            });
-
-            return {text, placeholders: latexPlaceholders};
-        };
-
-        const renderMessage = (text, from) => {
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `ai-assistant-message from-${from}`;
-
-            const avatar = document.createElement('div');
-            avatar.className = 'ai-assistant-avatar';
-            avatar.textContent = from === 'user' ? 'U' : 'A';
-
-            const contentDiv = document.createElement('div');
-            contentDiv.className = 'ai-assistant-message-content';
-
-            const result = renderLatex(text);
-            const protectedText = result.text;
-            const placeholders = result.placeholders;
-
-            let renderedContent = markdown.render(protectedText);
-
-            placeholders.forEach((rendered, placeholder) => {
-                const escapedPlaceholder = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                renderedContent = renderedContent.replace(new RegExp(escapedPlaceholder, 'g'), rendered);
-            });
-
-            contentDiv.innerHTML = renderedContent;
-
-            messageDiv.appendChild(avatar);
-            messageDiv.appendChild(contentDiv);
-
-            chatBody.appendChild(messageDiv);
-            chatBody.scrollTop = chatBody.scrollHeight;
-        };
+        // ==================== RENDERING UTILITIES from lib/render_text.js ====================
+		contentDiv.innerHTML = RenderText.renderToHtml(text);
+		
 
         const repaintHistory = () => {
             chatBody.innerHTML = '';
@@ -412,22 +343,7 @@ define([], function() {
                         let cleanedContent = streamedContent
                             .replace(/<think>(\\s|\\S)*?<\\/think>/g, '')
                             .trim();
-
-                        const result = renderLatex(cleanedContent);
-                        const protectedText = result.text;
-                        const placeholders = result.placeholders;
-
-                        let renderedContent = markdown.render(protectedText);
-                        placeholders.forEach((rendered, placeholder) => {
-                            const escapedPlaceholder =
-                                placeholder.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\$&');
-                            renderedContent = renderedContent.replace(
-                                new RegExp(escapedPlaceholder, 'g'),
-                                rendered
-                            );
-                        });
-
-                        contentDiv.innerHTML = renderedContent;
+						contentDiv.innerHTML = RenderText.renderToHtml(cleanedContent);
                         chatBody.scrollTop = chatBody.scrollHeight;
                     });
 
