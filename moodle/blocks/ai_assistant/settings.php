@@ -9,7 +9,7 @@ if ($ADMIN->fulltree) {
     // --- Agent Key Setting (from your existing code) ---
     // change this key name to match get_config usage
 $settings->add(new admin_setting_configtext(
-    'block_ai_assistant/agent_config_key',
+    'block_ai_assistant/agent_key',
     get_string('agent_key', 'block_ai_assistant'),
     get_string('agent_key_desc', 'block_ai_assistant'),
     '',

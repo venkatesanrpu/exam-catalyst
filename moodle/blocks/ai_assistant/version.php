@@ -4,7 +4,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'block_ai_assistant';
-$plugin->version   = 2025122003;   // Bump because DB schema/code changed.
+$plugin->version   = 2025122004;   // Bump because DB schema/code changed.
 $plugin->requires  = 2023111800;   // Moodle 5.0 minimum.
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = '1.0';
