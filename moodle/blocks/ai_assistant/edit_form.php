@@ -5,6 +5,15 @@ defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->dirroot . '/blocks/edit_form.php');
 
+/**
+ * Block instance configuration form for block_ai_assistant.
+ *
+ * Design (auditing):
+ * - config_agent_key and config_mainsubjectkey are saved in block config.
+ * - config_syllabusjson is displayed/edited in the form but the source of truth is DB table
+ *   {block_ai_assistant_syllabus} (one row per block instance).
+ * - No "clear syllabus" UI to keep the form clean; clearing is done via other admin means.
+ */
 class block_ai_assistant_edit_form extends block_edit_form {
 
     protected function specific_definition($mform) {
@@ -12,7 +21,7 @@ class block_ai_assistant_edit_form extends block_edit_form {
 
         $mform->addElement('header', 'configheader', get_string('blocksettings', 'block'));
 
-        // Agent options from local_ai_functions_agents (existing behaviour).
+        // Agent options from local_ai_functions_agents.
         $agents = $DB->get_records('local_ai_functions_agents', [], 'name ASC');
         $options = [];
         foreach ($agents as $agent) {
@@ -67,9 +76,13 @@ class block_ai_assistant_edit_form extends block_edit_form {
             $blockinstanceid = (int)$this->block->instance->id;
 
             if ($DB->get_manager()->table_exists('block_ai_assistant_syllabus')) {
-                $rec = $DB->get_record('block_ai_assistant_syllabus', ['blockinstanceid' => $blockinstanceid]);
+                $rec = $DB->get_record(
+                    'block_ai_assistant_syllabus',
+                    ['blockinstanceid' => $blockinstanceid],
+                    '*',
+                    IGNORE_MISSING
+                );
                 if ($rec && isset($rec->syllabus_json)) {
-                    // Put DB JSON into the textarea on edit for convenience.
                     $defaults->config_syllabusjson = $rec->syllabus_json;
                 }
             }

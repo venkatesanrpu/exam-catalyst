@@ -100,26 +100,28 @@ class block_ai_assistant extends block_base {
 public function instance_config_save($data, $nolongerused = false) {
     global $DB;
 
-    // 1) Save normal block config values first (agent_key, mainsubjectkey, syllabusjson field etc).
+    // Save standard config values first (agent_key, mainsubjectkey, syllabusjson).
     $result = parent::instance_config_save($data, $nolongerused);
 
-    // 2) If upgrade wasn't run yet, don't fatal.
     if (!$DB->get_manager()->table_exists('block_ai_assistant_syllabus')) {
         return $result;
     }
 
     $blockinstanceid = (int)$this->instance->id;
 
-    // Form field "config_syllabusjson" becomes "$data->syllabusjson".
+    // Cache used for invalidation after save.
+    $cache = cache::make('block_ai_assistant', 'syllabus');
+    $cachekey = 'blockid_' . $blockinstanceid;
+
+    // Form field: config_syllabusjson becomes $data->syllabusjson.
     $syllabusjson = trim((string)($data->syllabusjson ?? ''));
 
-    // Do not overwrite existing syllabus with empty text (safe default).
-    // If you want "clear syllabus" functionality later, handle it explicitly.
+    // Empty textarea means "leave existing syllabus unchanged".
     if ($syllabusjson === '') {
         return $result;
     }
 
-    // 3) Validate JSON before saving (prevents runtime failures in syllabus_ajax.php).
+    // Validate JSON before saving.
     json_decode($syllabusjson, true);
     if (json_last_error() !== JSON_ERROR_NONE) {
         throw new moodle_exception('invalidjson', 'error', '', null, json_last_error_msg());
@@ -127,25 +129,26 @@ public function instance_config_save($data, $nolongerused = false) {
 
     $now = time();
 
-    // IMPORTANT: In your code agent_key/mainsubjectkey live as config fields and are available here
-    // as $data->agent_key and $data->mainsubjectkey (config_ prefix stripped).
+    // config_agent_key -> $data->agent_key, config_mainsubjectkey -> $data->mainsubjectkey
     $agentkey = (string)($data->agent_key ?? '');
     $mainsubjectkey = (string)($data->mainsubjectkey ?? '');
 
-    // 4) Upsert row by blockinstanceid (enforces "one syllabus per course block").
-    $existing = $DB->get_record('block_ai_assistant_syllabus', ['blockinstanceid' => $blockinstanceid], '*', IGNORE_MISSING);
+    // Upsert row by blockinstanceid.
+    $existing = $DB->get_record(
+        'block_ai_assistant_syllabus',
+        ['blockinstanceid' => $blockinstanceid],
+        '*',
+        IGNORE_MISSING
+    );
 
     if ($existing) {
         $existing->agent_key = $agentkey;
         $existing->mainsubjectkey = $mainsubjectkey;
         $existing->syllabus_json = $syllabusjson;
         $existing->timemodified = $now;
-
-        // Keep original timecreated unchanged.
         if (empty($existing->timecreated)) {
             $existing->timecreated = $now;
         }
-
         $DB->update_record('block_ai_assistant_syllabus', $existing);
     } else {
         $record = (object)[
@@ -159,14 +162,11 @@ public function instance_config_save($data, $nolongerused = false) {
         $DB->insert_record('block_ai_assistant_syllabus', $record);
     }
 
-    // 5) Invalidate the cached syllabus JSON for this block instance.
-    // Requires: blocks/ai_assistant/db/caches.php with definition 'syllabus'.
-    $cache = cache::make('block_ai_assistant', 'syllabus');
-    $cache->delete('blockid_' . $blockinstanceid);
+    // Invalidate cache so next AJAX load recaches fresh JSON.
+    $cache->delete($cachekey);
 
     return $result;
 }
-
 
     // Keep your existing helper methods (placeholders here).
     private function extract_subject_from_page($pagerecord) { return ''; }
