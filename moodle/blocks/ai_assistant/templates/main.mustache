@@ -110,6 +110,7 @@
       // ==================== CONFIGURATION ====================
       const agentConfigKey = '{{agentkey}}';
       const mainSubjectKey = '{{mainsubjectkey}}';
+	  const blockInstanceId = {{blockinstanceid}};  // NEW: numeric, no quotes.
       const sesskey = '{{sesskey}}';
       const courseid = {{courseid}};
       const historyAjaxUrl = '{{historyajaxurl}}';
@@ -631,46 +632,40 @@
 
       // ==================== SYLLABUS FUNCTIONS ====================
       const loadSyllabus = async () => {
-        if (agentState.syllabusData) {
-          console.log('✅ Syllabus already loaded');
-          return;
-        }
-        
-        console.log('🔍 Loading syllabus from:', syllabusAjaxUrl);
-        
-        try {
-          const url = `${syllabusAjaxUrl}?mainsubject=${mainSubjectKey}&sesskey=${sesskey}`;
-          const response = await fetch(url);
-          
-          if (!response.ok) {
-            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-          }
-          
-          const data = await response.json();
-          
-          if (!data || !Array.isArray(data)) {
-            throw new Error('Invalid syllabus data structure (expected array)');
-          }
-          
-          if (data.length === 0) {
-            throw new Error('Syllabus data is empty');
-          }
-          
-          agentState.syllabusData = data;
-          console.log('✅ Syllabus loaded successfully:', data.length, 'subjects');
-          
-          // Share with history widget
-          if (window.aiAssistantHistoryWidgetInitialized) {
-            console.log('📤 Sharing syllabus with history widget');
-            const event = new CustomEvent('syllabusLoaded', { detail: { syllabusData: data } });
-            document.dispatchEvent(event);
-          }
-          
-        } catch (error) {
-          console.error("❌ Failed to load syllabus:", error);
-          throw error;
-        }
-      };
+  if (agentState.syllabusData) {
+    console.log('✅ Syllabus already loaded');
+    return;
+  }
+
+  console.log('🔍 Loading syllabus from:', syllabusAjaxUrl);
+
+  try {
+    // NEW: short, stable URL - avoids sending JSON/key in querystring.
+    const url = `${syllabusAjaxUrl}?blockid=${blockInstanceId}&sesskey=${sesskey}`;
+
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+
+    if (!data || !Array.isArray(data)) {
+      throw new Error('Invalid syllabus data structure (expected array)');
+    }
+
+    agentState.syllabusData = data;
+
+    // Existing event dispatch (history widget already listens for this).
+    if (window.aiAssistantHistoryWidgetInitialized) {
+      const event = new CustomEvent('syllabusLoaded', { detail: { syllabusData: data } });
+      document.dispatchEvent(event);
+    }
+  } catch (error) {
+    console.error("❌ Failed to load syllabus:", error);
+    throw error;
+  }
+};
 
       // ==================== INITIALIZATION ====================
       const init = () => {

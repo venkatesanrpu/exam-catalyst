@@ -1017,6 +1017,22 @@
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
 
+.mcq-check-button {
+    padding: 4px 8px;
+    background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.mcq-check-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
 /* Loading state */
 .mcq-loading {
     display: flex;

@@ -1,79 +1,55 @@
 <?php
-/**
- * AJAX endpoint to return syllabus JSON data
- *
- * @package    block_ai_assistant
- */
-
 define('AJAX_SCRIPT', true);
-require_once(__DIR__ . '/../../../config.php');
-global $DB, $CFG;
+
+require_once(__DIR__ . '/../../../../config.php');
 
 require_login();
 require_sesskey();
 
-header('Content-Type: application/json');
+header('Content-Type: application/json; charset=utf-8');
 
 try {
-    // 1) Prefer explicit mainsubject from the AJAX caller
-    $mainsubject = optional_param('mainsubject', '', PARAM_ALPHANUMEXT);
+    $blockid = required_param('blockid', PARAM_INT);
 
-    // 2) If not provided, allow block instance lookup (per-block config)
-    if (empty($mainsubject)) {
-        $blockid = optional_param('blockid', 0, PARAM_INT);
-        if ($blockid) {
-            $bi = $DB->get_record('block_instances', ['id' => $blockid], '*', IGNORE_MISSING);
-            if ($bi && !empty($bi->configdata)) {
-                $decoded = base64_decode($bi->configdata);
-                if ($decoded !== false) {
-                    $config = @unserialize($decoded);
-                    if (!empty($config->mainsubjectkey)) {
-                        $mainsubject = clean_param($config->mainsubjectkey, PARAM_ALPHANUMEXT);
-                    }
-                }
-            }
-        }
+    // Resolve the block context (per-block-instance storage).
+    $context = context_block::instance($blockid);
+
+    $fs = get_file_storage();
+
+    // One file per block instance: component=block_ai_assistant, filearea=syllabus, itemid=0.
+    $files = $fs->get_area_files(
+        $context->id,
+        'block_ai_assistant',
+        'syllabus',
+        0,
+        'timemodified DESC',
+        false
+    );
+
+    if (empty($files)) {
+        throw new moodle_exception('nofile', 'error', '', null, 'No syllabus JSON uploaded for this course block.');
     }
 
-    // 3) If still empty, fall back to site-level admin setting, then to default
-    if (empty($mainsubject)) {
-        $mainsubject = get_config('block_ai_assistant', 'mainsubjectkey') ?: 'CSIRCHEM100';
-        $mainsubject = clean_param($mainsubject, PARAM_ALPHANUMEXT);
+    /** @var stored_file $file */
+    $file = reset($files);
+    $jsoncontent = $file->get_content();
+
+    if ($jsoncontent === false || $jsoncontent === '') {
+        throw new moodle_exception('invalidfile', 'error', '', null, 'Syllabus file is empty or unreadable.');
     }
 
-    // Build filesystem path (use dirroot, not wwwroot)
-    $syllabusPath = $CFG->dirroot . '/blocks/ai_assistant/syllabus/' . $mainsubject . '.json';
-
-    // Optional debug log
-    error_log('get_syllabus_ajax: mainsubject=' . $mainsubject . ' path=' . $syllabusPath);
-
-    if (!file_exists($syllabusPath)) {
-        // Fallback to a generic file if you want
-        $fallback = $CFG->dirroot . '/blocks/ai_assistant/syllabus/chemistry.json';
-        if (file_exists($fallback)) {
-            $syllabusPath = $fallback;
-        } else {
-            throw new Exception('Syllabus file not found at: ' . $syllabusPath);
-        }
-    }
-
-    $jsonContent = file_get_contents($syllabusPath);
-    if ($jsonContent === false) {
-        throw new Exception('Failed to read syllabus file: ' . $syllabusPath);
-    }
-
-    // Validate JSON
-    json_decode($jsonContent, true);
+    // Validate JSON before returning it (same safety principle you already use).
+    json_decode($jsoncontent, true);
     if (json_last_error() !== JSON_ERROR_NONE) {
-        throw new Exception('Invalid JSON in syllabus file: ' . json_last_error_msg());
+        throw new moodle_exception('invalidjson', 'error', '', null, 'Invalid JSON: ' . json_last_error_msg());
     }
 
-    echo $jsonContent;
-} catch (Exception $e) {
-    debugging('Syllabus AJAX Error: ' . $e->getMessage(), DEBUG_DEVELOPER);
+    echo $jsoncontent;
+
+} catch (Throwable $e) {
     http_response_code(400);
     echo json_encode([
         'error' => true,
-        'message' => $e->getMessage()
+        'message' => $e->getMessage(),
     ]);
 }
