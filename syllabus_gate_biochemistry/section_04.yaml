@@ -1,0 +1,331 @@
+metadata:
+  subject: Biochemistry
+  target: GATE Life Sciences Examination
+  syllabus_line: "Cell structure and organelles; Biological membranes; Action potential; Transport across membranes; Membrane assembly and Protein targeting; Signal transduction; Receptor ligand interaction; Hormones and neurotransmitters."
+
+concepts:
+  core:
+    - name: Cell structure and organelles
+      clarifier: "Functional organization of eukaryotic/prokaryotic cells; structure–function of nucleus, mitochondria, ER, Golgi, lysosome, peroxisome, cytoskeleton, and ribosomes."
+    - name: Biological membranes
+      clarifier: "Plasma membrane as a selectively permeable lipid bilayer containing embedded proteins and controlling exchange and signaling. [web:2]"
+    - name: Transport across membranes
+      clarifier: "Passive diffusion, facilitated diffusion, active transport, ion gradients, pumps, carriers, channels, and vesicular transport (endo/exocytosis)."
+    - name: Action potential and membrane excitability
+      clarifier: "Action potential as rapid voltage changes across membranes driven by voltage-gated ion channels (notably Na+ influx and K+ efflux in many excitable cells). [web:2]"
+    - name: Membrane assembly and protein targeting
+      clarifier: "ER insertion/processing, Golgi sorting, vesicle trafficking; targeting to nucleus, mitochondria, chloroplasts, peroxisomes; signal peptides and translocons."
+    - name: Receptor–ligand interaction
+      clarifier: "Affinity/specificity, binding equilibria and kinetics (Kd, kon, koff), cooperativity, allostery, and dose–response relationships."
+    - name: Signal transduction
+      clarifier: "Signal transduction as transmission of chemical/physical signals via molecular events and cascades initiated by receptors. [web:1]"
+    - name: Hormones and neurotransmitters
+      clarifier: "Chemical classes, synthesis/secretion/release, receptor coupling, second messengers, termination of signal, and physiological integration."
+  related:
+    - name: Bioenergetics of membranes
+      clarifier: "Electrochemical gradients, membrane potential, ATP-driven pumps, coupling principles, and basic chemiosmotic logic."
+    - name: Thermodynamics and kinetics for binding/transport
+      clarifier: "Free energy, equilibrium, transition-state ideas; Michaelis–Menten-style saturation behavior for carriers/receptors."
+    - name: Membrane biophysics
+      clarifier: "Fluidity, asymmetry, lipid rafts (conceptual), permeability rules, and factors affecting membrane properties."
+    - name: Electrical circuit analogs
+      clarifier: "Capacitance/resistance analogies for membranes; RC time constant; qualitative cable properties (for propagation intuition)."
+    - name: Experimental approaches (exam-focused)
+      clarifier: "Fractionation/markers for organelles; patch clamp basics; ligand-binding assays; Western/blotting and fluorescence localization logic."
+
+learning_path:
+  - id: 1
+    title: "Cell architecture and organelles"
+    learning_objectives:
+      - "Differentiate prokaryotic vs eukaryotic cell organization relevant to metabolism and signaling."
+      - "Map core functions of major organelles to biochemical pathways (ATP production, protein synthesis, degradation, trafficking)."
+      - "Connect cytoskeleton components to intracellular transport and membrane dynamics."
+    textbook_style_content:
+      - topic: "Cell organization and compartmentalization"
+        sections:
+          - section_title: "Why compartmentalization matters for biochemistry"
+            section_type: overview
+          - section_title: "Organelle identity: membranes, lumen/cytosol, and functional signatures"
+            section_type: core_theory
+          - section_title: "Common exam confusions: organelle cross-talk and pathway localization"
+            section_type: related concepts
+      - topic: "Key organelles and hallmark processes"
+        sections:
+          - section_title: "Nucleus and nucleocytoplasmic control (overview)"
+            section_type: overview
+          - section_title: "Mitochondria, ER, Golgi, lysosome, peroxisome: structure–function"
+            section_type: core_theory
+          - section_title: "Cytoskeleton and motor proteins: transport logic"
+            section_type: related concepts
+    milestone: "Able to label organelles, state 2–3 core functions each, and predict localization of representative pathways."
+    duration_days: 4
+    tags:
+      - cell_biology
+      - organelles
+      - exam_basics
+
+  - id: 2
+    title: "Membrane structure and properties"
+    learning_objectives:
+      - "Explain membrane composition (lipids, proteins, carbohydrates) and how it controls permeability and signaling."
+      - "Relate bilayer physical properties (fluidity, asymmetry) to transporters, receptors, and trafficking."
+      - "Interpret basic implications of the fluid mosaic concept for protein mobility and microdomains."
+    textbook_style_content:
+      - topic: "Membrane composition and organization"
+        sections:
+          - section_title: "Lipid bilayer as a semipermeable boundary and signaling platform. [web:2]"
+            section_type: overview
+          - section_title: "Membrane lipids, sterols, and protein classes (integral/peripheral/anchored)"
+            section_type: core_theory
+          - section_title: "Asymmetry, glycocalyx, and surface recognition"
+            section_type: related concepts
+      - topic: "Membrane physical chemistry for biology"
+        sections:
+          - section_title: "Fluidity and permeability rules (what crosses, what needs a transporter)"
+            section_type: core_theory
+          - section_title: "Microdomains (conceptual) and coupling to signaling/trafficking"
+            section_type: related concepts
+    milestone: "Can justify why ions require channels and how membrane composition alters permeability and receptor function."
+    duration_days: 3
+    tags:
+      - membranes
+      - biophysics
+      - permeability
+
+  - id: 3
+    title: "Transport across membranes I: passive and carrier-mediated"
+    learning_objectives:
+      - "Classify transport as passive vs active and channel vs carrier."
+      - "Relate driving force to gradients (concentration and electrical) in qualitative terms."
+      - "Solve exam-style reasoning on saturation, specificity, and inhibition of transport."
+    textbook_style_content:
+      - topic: "Passive transport and facilitated diffusion"
+        sections:
+          - section_title: "Diffusion, osmosis, and why polarity/charge matter"
+            section_type: overview
+          - section_title: "Channels vs carriers: selectivity, gating, and saturation"
+            section_type: core_theory
+          - section_title: "Aquaporins and ion channels as canonical examples"
+            section_type: related concepts
+      - topic: "Transporter kinetics (exam-level)"
+        sections:
+          - section_title: "Saturation behavior and analogies to enzyme kinetics"
+            section_type: core_theory
+          - section_title: "Inhibitors, competition, and interpreting transport curves"
+            section_type: related concepts
+    milestone: "Can predict effects of changing gradients or blocking a transporter on net flux direction and rate."
+    duration_days: 3
+    tags:
+      - membrane_transport
+      - channels
+      - carriers
+
+  - id: 4
+    title: "Transport across membranes II: active transport and coupling"
+    learning_objectives:
+      - "Distinguish primary vs secondary active transport with examples."
+      - "Explain how ATP hydrolysis or ion gradients drive uphill transport."
+      - "Apply coupling logic to symport/antiport scenarios frequently tested in exams."
+    textbook_style_content:
+      - topic: "Primary active transport"
+        sections:
+          - section_title: "Why active transport is required for homeostasis"
+            section_type: overview
+          - section_title: "ATP-driven pumps: P-type, V-type, ABC (conceptual differences)"
+            section_type: core_theory
+          - section_title: "Physiological relevance: pH regulation and ion balance"
+            section_type: related concepts
+      - topic: "Secondary active transport"
+        sections:
+          - section_title: "Coupling to Na+ or H+ gradients: symport and antiport"
+            section_type: core_theory
+          - section_title: "Transport cycles, directionality, and common trap options"
+            section_type: related concepts
+    milestone: "Can trace energy source for a transport step and determine direction under altered gradients."
+    duration_days: 3
+    tags:
+      - active_transport
+      - coupling
+      - bioenergetics
+
+  - id: 5
+    title: "Electrical properties and action potentials"
+    learning_objectives:
+      - "Define membrane potential and connect it to selective ion permeability."
+      - "Explain the ionic basis of an action potential and refractory periods."
+      - "Relate action potentials to neurotransmitter release and signaling outcomes."
+    textbook_style_content:
+      - topic: "Membrane potential essentials"
+        sections:
+          - section_title: "From ion gradients to voltage: qualitative electrochemical logic"
+            section_type: overview
+          - section_title: "Permeability, pumps vs channels, and steady-state reasoning"
+            section_type: core_theory
+          - section_title: "RC intuition for time-dependent voltage changes (exam-utility)"
+            section_type: related concepts
+      - topic: "Action potential generation and propagation"
+        sections:
+          - section_title: "Action potential as rapid voltage rise/fall across the membrane. [web:2]"
+            section_type: overview
+          - section_title: "Voltage-gated Na+ and K+ channel sequence; threshold and refractory periods. [web:2]"
+            section_type: core_theory
+          - section_title: "Saltatory conduction and synaptic coupling (high-yield integration)"
+            section_type: related concepts
+    milestone: "Can narrate the time sequence of channel events and predict effects of blocking Na+ vs K+ channels."
+    duration_days: 4
+    tags:
+      - action_potential
+      - electrophysiology
+      - neurobiology_bridge
+
+  - id: 6
+    title: "Membrane trafficking and assembly"
+    learning_objectives:
+      - "Describe endomembrane system flow: ER ↔ Golgi ↔ endosome/lysosome ↔ plasma membrane."
+      - "Explain endocytosis and exocytosis at a conceptual mechanistic level."
+      - "Connect trafficking defects to signaling and receptor downregulation."
+    textbook_style_content:
+      - topic: "Vesicular transport fundamentals"
+        sections:
+          - section_title: "Why cells use vesicles instead of simple diffusion"
+            section_type: overview
+          - section_title: "Budding, targeting, and fusion: coat proteins, Rab/SNARE logic (conceptual)"
+            section_type: core_theory
+          - section_title: "Endocytosis modes: clathrin, caveolae, phagocytosis (exam-level)"
+            section_type: related concepts
+      - topic: "Membrane assembly and turnover"
+        sections:
+          - section_title: "Biogenesis of membranes: lipid synthesis, insertion, and remodeling"
+            section_type: core_theory
+          - section_title: "Receptor internalization, recycling, and degradation"
+            section_type: related concepts
+    milestone: "Can trace the path of a membrane protein from synthesis to plasma membrane and back via endocytosis."
+    duration_days: 4
+    tags:
+      - vesicular_traffic
+      - endocytosis
+      - exocytosis
+
+  - id: 7
+    title: "Protein targeting to organelles"
+    learning_objectives:
+      - "Identify major targeting signals (signal peptides, NLS, MTS, PTS) and their destinations."
+      - "Explain co-translational vs post-translational targeting routes."
+      - "Predict consequences of targeting-signal mutations in exam vignettes."
+    textbook_style_content:
+      - topic: "General principles of targeting"
+        sections:
+          - section_title: "Address labels: targeting signals and receptor recognition"
+            section_type: overview
+          - section_title: "Co-translational targeting to ER and membrane insertion (signal peptide/translocon logic)"
+            section_type: core_theory
+          - section_title: "Sorting vs retention: ER, Golgi, and retrieval ideas"
+            section_type: related concepts
+      - topic: "Non-ER targeting pathways"
+        sections:
+          - section_title: "Nucleus, mitochondria, peroxisome targeting (import logic and energy needs)"
+            section_type: core_theory
+          - section_title: "Topogenesis: type I/II multipass membrane protein orientation (high-yield)"
+            section_type: related concepts
+    milestone: "Can assign a given protein sequence motif to the correct organelle and route."
+    duration_days: 4
+    tags:
+      - protein_targeting
+      - ER_Golgi
+      - organelle_import
+
+  - id: 8
+    title: "Receptor–ligand interactions and binding analysis"
+    learning_objectives:
+      - "Define affinity and specificity and compute/interpret Kd qualitatively and quantitatively."
+      - "Relate kon/koff to residence time and signaling strength."
+      - "Interpret dose–response curves (EC50) and distinguish potency vs efficacy."
+    textbook_style_content:
+      - topic: "Equilibrium binding"
+        sections:
+          - section_title: "What Kd means in biological terms (occupancy and sensitivity)"
+            section_type: overview
+          - section_title: "Single-site binding, saturation, and Scatchard-style reasoning (conceptual)"
+            section_type: core_theory
+          - section_title: "Cooperativity and allostery as exam extensions"
+            section_type: related concepts
+      - topic: "Kinetics and pharmacology-style thinking"
+        sections:
+          - section_title: "kon/koff, residence time, and competitive inhibition"
+            section_type: core_theory
+          - section_title: "EC50 vs Kd; spare receptors and signal amplification"
+            section_type: related concepts
+    milestone: "Can move between verbal descriptions and binding curves without mixing Kd and EC50."
+    duration_days: 3
+    tags:
+      - receptor_binding
+      - biophysical_chemistry
+      - dose_response
+
+  - id: 9
+    title: "Signal transduction pathways"
+    learning_objectives:
+      - "Explain how receptor activation triggers intracellular cascades and amplification."
+      - "Compare major receptor classes (GPCR, RTK, ionotropic) and their typical second messengers."
+      - "Analyze pathway logic: feedback, cross-talk, desensitization, and termination."
+    textbook_style_content:
+      - topic: "Core definition and architecture"
+        sections:
+          - section_title: "Signal transduction as a cascade initiated by receptors and propagated by molecular events. [web:1]"
+            section_type: overview
+          - section_title: "Receptors, effectors, second messengers, and kinases/phosphatases"
+            section_type: core_theory
+          - section_title: "Amplification, feedback, and pathway cross-talk (how exam questions hide clues)"
+            section_type: related concepts
+      - topic: "Canonical pathways to master"
+        sections:
+          - section_title: "GPCR: G proteins, cAMP/PKA, IP3-DAG/Ca2+ (conceptual wiring)"
+            section_type: core_theory
+          - section_title: "RTK: dimerization, autophosphorylation, Ras/MAPK (conceptual wiring)"
+            section_type: core_theory
+          - section_title: "Termination: desensitization, internalization, and phosphodiesterases"
+            section_type: related concepts
+    milestone: "Can identify receptor class from a pathway description and predict the key second messenger/kinase."
+    duration_days: 5
+    tags:
+      - signaling
+      - GPCR
+      - RTK
+      - second_messengers
+
+  - id: 10
+    title: "Hormones and neurotransmitters (integration)"
+    learning_objectives:
+      - "Classify hormones by chemistry and receptor location (membrane vs intracellular)."
+      - "Explain neurotransmitter release, receptor types, and signal termination."
+      - "Integrate: action potentials → Ca2+ entry → vesicle fusion → receptor activation → downstream signaling."
+    textbook_style_content:
+      - topic: "Hormones: endocrine signaling logic"
+        sections:
+          - section_title: "Endocrine vs paracrine vs autocrine modes (what changes experimentally)"
+            section_type: overview
+          - section_title: "Peptide/protein vs steroid/thyroid hormone mechanisms and timescales"
+            section_type: core_theory
+          - section_title: "Feedback regulation and common endocrine exam motifs"
+            section_type: related concepts
+      - topic: "Neurotransmitters and synaptic signaling"
+        sections:
+          - section_title: "Chemical synapse steps: synthesis → storage → release → receptor binding → termination"
+            section_type: overview
+          - section_title: "Ionotropic vs metabotropic receptors and functional consequences"
+            section_type: core_theory
+          - section_title: "Reuptake, degradation, and desensitization (links to pharmacology-style questions)"
+            section_type: related concepts
+      - topic: "Systems integration problems"
+        sections:
+          - section_title: "From membrane excitability to downstream gene expression: end-to-end causal chain"
+            section_type: core_theory
+          - section_title: "Common integrated question patterns (choose-the-best-pathway)"
+            section_type: related concepts
+    milestone: "Can solve integrated problems linking excitability, secretion, receptor binding, and second messengers."
+    duration_days: 4
+    tags:
+      - hormones
+      - neurotransmitters
+      - synapse
+      - integration

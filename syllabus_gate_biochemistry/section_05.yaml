@@ -1,0 +1,257 @@
+metadata:
+  subject: Biochemistry
+  target: GATE Life Sciences Examination
+  syllabus_line: "DNA replication, transcription and translation; DNA damage and repair; Biochemical regulation of gene expression; Recombinant DNA technology and applications: PCR, site directed mutagenesis, DNA-microarray; Next generation sequencing; Gene silencing and editing."
+
+concepts:
+  core:
+    - name: DNA replication
+      clarifier: "DNA replication is semiconservative: each parental strand serves as a template to synthesize a complementary new strand."
+    - name: Transcription
+      clarifier: "Transcription is the synthesis of an RNA copy from a DNA template by RNA polymerase."
+    - name: Translation
+      clarifier: "Translation uses codons on mRNA and tRNA anticodons to assemble amino acids into a polypeptide on the ribosome."
+    - name: DNA damage and repair
+      clarifier: "DNA repair comprises cellular processes that identify and correct DNA lesions that threaten genome integrity."
+    - name: Regulation of gene expression
+      clarifier: "Gene expression can be regulated at multiple steps, including transcriptional, post-transcriptional, and translational control."
+    - name: PCR
+      clarifier: "PCR amplifies a target DNA region through repeated cycles of denaturation, primer annealing, and extension by a thermostable DNA polymerase."
+    - name: Site-directed mutagenesis
+      clarifier: "Introduce defined nucleotide changes into a DNA sequence to test structure–function relationships or engineer new functions."
+    - name: DNA microarray
+      clarifier: "Hybridization-based platform for parallel measurement of gene expression or genotyping using immobilized probes."
+    - name: Next generation sequencing (NGS)
+      clarifier: "High-throughput sequencing workflows used for genome/transcriptome analysis, including variant discovery and expression profiling."
+    - name: Gene silencing and gene editing
+      clarifier: "Gene silencing reduces gene expression, while gene editing changes DNA sequence (e.g., targeted nuclease-based edits)."
+  related:
+    - name: Replication fork mechanics
+      clarifier: "Leading/lagging strand synthesis, Okazaki fragments, and primer usage."
+    - name: Fidelity and proofreading
+      clarifier: "Polymerase selectivity, exonuclease proofreading, and mismatch repair linkage."
+    - name: RNA processing (eukaryotes)
+      clarifier: "5′ capping, splicing/alternative splicing, and polyadenylation."
+    - name: Operons and transcription factors
+      clarifier: "Prokaryotic operator control vs eukaryotic promoter/enhancer logic."
+    - name: Epigenetics
+      clarifier: "DNA methylation and histone modifications as regulatory layers."
+    - name: Recombinant DNA vectors
+      clarifier: "Plasmids, selectable markers, cloning sites, and expression cassettes."
+    - name: Enzymes of molecular biology
+      clarifier: "Restriction endonucleases, ligases, polymerases, reverse transcriptase."
+    - name: Quantification and controls
+      clarifier: "Standard curves, housekeeping controls, replicates, and bias detection."
+    - name: Experimental design & interpretation
+      clarifier: "Controls, confounders, and mapping results to biological conclusions."
+
+learning_path:
+  - id: 1
+    title: "DNA replication: principles to mechanism"
+    learning_objectives:
+      - "Explain semiconservative replication and template-directed synthesis."
+      - "Differentiate leading and lagging strand synthesis and justify the need for primers."
+      - "Connect replication fidelity to proofreading and downstream correction mechanisms."
+    textbook_style_content:
+      - topic: "Core replication logic"
+        sections:
+          - section_title: "What replication achieves: exact copying of genetic information for cell division"
+            section_type: overview
+          - section_title: "Semiconservative replication, antiparallel strands, 5′→3′ synthesis, primer requirement"
+            section_type: core_theory
+          - section_title: "Replication fork architecture: helicase, primase, polymerase, ligase, topoisomerase; leading vs lagging strands"
+            section_type: related concepts
+      - topic: "Replication control and completion"
+        sections:
+          - section_title: "Origins, initiation, elongation, termination: conceptual workflow"
+            section_type: overview
+          - section_title: "Okazaki fragments and fragment maturation (primer removal, gap filling, ligation)"
+            section_type: core_theory
+          - section_title: "Replication stress, fork stalling, and coordination with cell cycle checkpoints (high-level)"
+            section_type: related concepts
+    milestone: "Solve mixed problems: fork-direction questions, primer/fragment reasoning, and enzyme-function matching."
+    duration_days: 5
+    tags:
+      - replication
+      - enzymes
+      - fidelity
+
+  - id: 2
+    title: "Transcription and translation: from DNA to protein"
+    learning_objectives:
+      - "Describe transcription as RNA synthesis from a DNA template and outline initiation-to-termination stages."
+      - "Compare prokaryotic vs eukaryotic transcription at the level of polymerases, promoters, and compartmentation."
+      - "Explain translation using codons, tRNA, and ribosomes, and relate to protein synthesis outcomes."
+    textbook_style_content:
+      - topic: "Transcription fundamentals"
+        sections:
+          - section_title: "Central flow of information: DNA → RNA as a controlled copying step"
+            section_type: overview
+          - section_title: "RNA polymerase action, promoter recognition, terminators; bacterial vs eukaryotic differences"
+            section_type: core_theory
+          - section_title: "mRNA processing in eukaryotes: capping, splicing, polyadenylation; coupling in prokaryotes"
+            section_type: related concepts
+      - topic: "Translation fundamentals"
+        sections:
+          - section_title: "Why translation is needed: converting nucleotide information into functional protein"
+            section_type: overview
+          - section_title: "Genetic code, tRNA charging concept, ribosome roles, initiation/elongation/termination"
+            section_type: core_theory
+          - section_title: "Targeting and localization (e.g., signal peptide concept) and post-translation overview"
+            section_type: related concepts
+    milestone: "Create a one-page flow diagram mapping transcription → RNA processing → translation, annotating where regulation can occur."
+    duration_days: 6
+    tags:
+      - transcription
+      - translation
+      - RNA_processing
+
+  - id: 3
+    title: "DNA damage and repair pathways"
+    learning_objectives:
+      - "Define DNA damage and explain why repair is essential for genome integrity."
+      - "Classify lesions (single-base damage, bulky adducts, strand breaks) and match to canonical repair strategies."
+      - "Distinguish error-free repair from tolerance mechanisms and predict mutation outcomes conceptually."
+    textbook_style_content:
+      - topic: "Damage types and consequences"
+        sections:
+          - section_title: "Damage vs mutation: conceptual distinction and biological implications"
+            section_type: overview
+          - section_title: "Endogenous vs exogenous damage sources; lesion categories and replication/transcription interference"
+            section_type: core_theory
+          - section_title: "DNA damage response (DDR): checkpoints, cell fate options (repair, arrest, apoptosis) at a high level"
+            section_type: related concepts
+      - topic: "Repair mechanisms"
+        sections:
+          - section_title: "Template-based correction vs direct reversal: organizing principle"
+            section_type: overview
+          - section_title: "BER, NER, mismatch repair; DSB repair by NHEJ vs homologous recombination"
+            section_type: core_theory
+          - section_title: "Translesion synthesis as a tolerance pathway and its mutagenic risk (conceptual)"
+            section_type: related concepts
+    milestone: "Practice pathway-selection questions: given lesion type and context (replicating/non-replicating), choose likely repair route."
+    duration_days: 5
+    tags:
+      - DNA_damage
+      - DNA_repair
+      - DDR
+
+  - id: 4
+    title: "Biochemical regulation of gene expression"
+    learning_objectives:
+      - "Explain that gene expression level is controlled at multiple stages from transcription to translation."
+      - "Differentiate transcriptional regulation (promoters/enhancers/transcription factors) from epigenetic regulation."
+      - "Outline post-transcriptional regulation via RNA stability and small-RNA-mediated control at a conceptual level."
+    textbook_style_content:
+      - topic: "Regulatory checkpoints in expression"
+        sections:
+          - section_title: "Why regulation is needed: economy, responsiveness, and differentiation logic"
+            section_type: overview
+          - section_title: "Regulation points: transcription initiation/elongation, RNA processing, export, stability, translation"
+            section_type: core_theory
+          - section_title: "Feedback/feedforward motifs and threshold behavior in regulatory networks (intro level)"
+            section_type: related concepts
+      - topic: "Regulatory mechanisms"
+        sections:
+          - section_title: "Transcription factors and cis-elements: promoter-proximal control and long-range control concepts"
+            section_type: overview
+          - section_title: "Operon model (prokaryotes) vs combinatorial control (eukaryotes); chromatin accessibility and methylation concepts"
+            section_type: core_theory
+          - section_title: "Small RNAs and mRNA decay control as post-transcriptional regulation (intro)"
+            section_type: related concepts
+    milestone: "Given a regulatory scenario (e.g., induction/repression), predict which biomolecules change first (TF activity, mRNA, protein)."
+    duration_days: 6
+    tags:
+      - gene_regulation
+      - epigenetics
+      - post_transcriptional
+
+  - id: 5
+    title: "Recombinant DNA: PCR and site-directed mutagenesis"
+    learning_objectives:
+      - "Explain the logic of PCR amplification using primers and thermal cycling."
+      - "Design a primer strategy for amplification, screening, or cloning (conceptual constraints and controls)."
+      - "Compare common site-directed mutagenesis strategies (single-base substitutions, insertions, deletions) conceptually."
+    textbook_style_content:
+      - topic: "PCR: mechanism and experimental reasoning"
+        sections:
+          - section_title: "Use-cases: detection, cloning, quantification, and preparative amplification"
+            section_type: overview
+          - section_title: "Denaturation–annealing–extension cycle logic; primer orientation; amplicon definition; exponential amplification idea"
+            section_type: core_theory
+          - section_title: "qPCR/RT-qPCR and contamination control: conceptual overview and typical pitfalls"
+            section_type: related concepts
+      - topic: "Site-directed mutagenesis"
+        sections:
+          - section_title: "Why mutate: mapping function, improving enzymes, probing regulation"
+            section_type: overview
+          - section_title: "Primer-encoded mutations; PCR-based mutagenesis workflows (single-site and overlap-extension concept)"
+            section_type: core_theory
+          - section_title: "Validation logic: sequencing confirmation, phenotype/assay readout, and negative controls"
+            section_type: related concepts
+    milestone: "Draft a complete mini-protocol plan (no reagent brands): goal, primer map, controls, expected gel/sequencing outcomes."
+    duration_days: 6
+    tags:
+      - PCR
+      - mutagenesis
+      - recombinant_DNA
+
+  - id: 6
+    title: "DNA microarray and next generation sequencing (NGS)"
+    learning_objectives:
+      - "Explain the measurement idea behind microarrays as probe-based hybridization for parallel readout."
+      - "Outline a generic NGS workflow from library preparation to base-calling and downstream analysis (conceptual)."
+      - "Choose between microarray and NGS for a given biological question based on resolution, throughput, and cost (exam-style)."
+    textbook_style_content:
+      - topic: "DNA microarray"
+        sections:
+          - section_title: "What microarrays measure: expression profiling and genotyping at scale"
+            section_type: overview
+          - section_title: "Probe–target hybridization logic; labeling; signal readout; normalization concepts"
+            section_type: core_theory
+          - section_title: "Experimental design: replicates, batch effects, and multiple-testing intuition (intro)"
+            section_type: related concepts
+      - topic: "Next generation sequencing"
+        sections:
+          - section_title: "Why NGS: high-throughput sequence sampling for genomes and transcriptomes"
+            section_type: overview
+          - section_title: "Core pipeline: DNA/RNA extraction → library prep → sequencing → mapping/assembly → variant/expression calling"
+            section_type: core_theory
+          - section_title: "Key biases and QC: coverage, duplication, mapping ambiguity, and controls (intro)"
+            section_type: related concepts
+    milestone: "Interpret a mock dataset description and decide: microarray vs RNA-seq vs targeted sequencing, with justification."
+    duration_days: 7
+    tags:
+      - microarray
+      - NGS
+      - omics
+
+  - id: 7
+    title: "Gene silencing and gene editing: mechanisms and applications"
+    learning_objectives:
+      - "Differentiate gene silencing (expression reduction) from gene editing (sequence change) and map each to typical tools."
+      - "Explain RNA interference logic at a high level (small RNA-guided targeting leading to decreased expression)."
+      - "Explain CRISPR-Cas genome editing logic at a high level (guide RNA-directed targeting and programmable nuclease action)."
+    textbook_style_content:
+      - topic: "Gene silencing"
+        sections:
+          - section_title: "Silencing goals: knockdown for functional genomics and pathway dissection"
+            section_type: overview
+          - section_title: "siRNA/shRNA and miRNA concepts; target recognition; expected phenotypic readouts"
+            section_type: core_theory
+          - section_title: "Off-target effects, delivery constraints, and rescue experiments as validation strategies"
+            section_type: related concepts
+      - topic: "Gene editing"
+        sections:
+          - section_title: "Editing goals: knockout/knock-in, precise variants, and functional allele construction"
+            section_type: overview
+          - section_title: "CRISPR-Cas concepts: guide selection, cut outcomes via NHEJ/HR logic, screening of edited clones"
+            section_type: core_theory
+          - section_title: "Safety and interpretation: mosaicism, off-targets, ethical boundaries, and application domains"
+            section_type: related concepts
+    milestone: "For three scenarios (knockdown, knockout, precise correction), choose the tool class and propose validation assays."
+    duration_days: 6
+    tags:
+      - gene_silencing
+      - genome_editing
+      - CRISPR

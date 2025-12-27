@@ -1,0 +1,311 @@
+metadata:
+  subject: "Biochemistry"
+  target: "GATE Life Sciences Examination"
+  syllabus_line: "Biochemical separation techniques: Ion exchange, size exclusion and affinity chromatography, centrifugation; Characterization of biomolecules by electrophoresis; DNA- protein and protein – protein interactions; UV-visible and fluorescence spectroscopy; Mass spectrometry."
+
+concepts:
+  core:
+    - name: "Ion-exchange chromatography"
+      clarifier: "Separates charged/ionizable biomolecules by reversible binding to oppositely charged stationary phases (anion- vs cation-exchange), with elution commonly tuned by salt and/or pH."
+    - name: "Size-exclusion chromatography (SEC/gel filtration)"
+      clarifier: "Separates biomolecules primarily by hydrodynamic size/shape using porous beads, ideally with minimal analyte–matrix interaction."
+    - name: "Affinity chromatography"
+      clarifier: "Selectively captures targets using specific biological recognition (e.g., ligand–receptor, antigen–antibody, tag–resin), emphasizing specificity-driven purification."
+    - name: "Centrifugation"
+      clarifier: "Uses centrifugal force to separate components by sedimentation behavior (size, shape, and density), including differential and density-gradient formats."
+    - name: "Electrophoresis (biomolecule characterization)"
+      clarifier: "Moves charged molecules in an electric field to separate them for analysis, widely used for DNA/RNA/protein characterization in supported media (e.g., gels)."
+    - name: "DNA–protein interactions"
+      clarifier: "Principles and experimental readouts for sequence-specific and non-specific binding, including equilibrium, specificity, and competition concepts."
+    - name: "Protein–protein interactions"
+      clarifier: "Concepts and assays for complex formation, affinity/avidity, and interaction mapping in vitro and in vivo."
+    - name: "UV–visible spectroscopy (UV–Vis)"
+      clarifier: "Absorbance-based spectroscopy for identification/quantification; absorbance is commonly related to concentration and path length via Beer–Lambert law in typical analytical use."
+    - name: "Fluorescence spectroscopy"
+      clarifier: "Measures fluorescence emission after optical excitation, typically using UV/visible excitation and recording emission/excitation spectra for sensitive detection and environment probes."
+    - name: "Mass spectrometry (MS)"
+      clarifier: "Analytical technique that measures ions by mass-to-charge ratio (m/z) to identify/characterize molecules, often via ionization + mass analysis + detection."
+  related:
+    - name: "Chromatography fundamentals"
+      clarifier: "Stationary/mobile phases, retention, selectivity, resolution, isocratic vs gradient, and detector concepts."
+    - name: "Buffer chemistry for separations"
+      clarifier: "pH, ionic strength, counter-ions, and compatibility with proteins/nucleic acids and downstream detection."
+    - name: "Sample preparation and cleanup"
+      clarifier: "Clarification, desalting, concentration, preventing degradation, and avoiding assay interferences."
+    - name: "Calibration and quantitation"
+      clarifier: "Standards, calibration curves, linear range, sensitivity, LOD/LOQ, and error propagation."
+    - name: "Interaction thermodynamics and kinetics"
+      clarifier: "Kd, Ka, kon/koff, specificity, cooperativity, and competition binding interpretations."
+    - name: "Data interpretation in electrophoresis"
+      clarifier: "Mobility vs size/charge, markers/ladders, band intensity as semi-quantitative readout, and artifacts."
+    - name: "Spectroscopic artifacts and corrections"
+      clarifier: "Baseline/blanking, stray light, quenching, inner filter effects, and instrument response."
+    - name: "MS data concepts"
+      clarifier: "Mass spectra, isotope patterns, adducts, charge states, fragmentation patterns, and MS/MS logic."
+
+learning_path:
+  - id: 1
+    title: "Separation & detection fundamentals"
+    learning_objectives:
+      - "Classify biomolecules by properties used for separation (charge, size, affinity, density)."
+      - "Relate purification goals to method choice (capture vs polish vs analytical characterization)."
+      - "Define resolution, selectivity, yield, purity, and throughput for GATE-style questions."
+    textbook_style_content:
+      - topic: "Why biomolecules separate"
+        sections:
+          - section_title: "Physicochemical properties exploited in separations"
+            section_type: overview
+          - section_title: "Operational definitions: resolution, selectivity, capacity, recovery"
+            section_type: core_theory
+      - topic: "Workflow thinking"
+        sections:
+          - section_title: "Capture–intermediate–polish strategy and analytical checkpoints"
+            section_type: overview
+          - section_title: "Common pitfalls: sample instability, proteolysis, aggregation"
+            section_type: related concepts
+    milestone: "Can map a biomolecule + goal to a justified separation/characterization sequence."
+    duration_days: 2
+    tags:
+      - "foundations"
+      - "purification strategy"
+      - "analytical thinking"
+
+  - id: 2
+    title: "Ion-exchange chromatography (IEX)"
+    learning_objectives:
+      - "Differentiate anion- vs cation-exchange and predict binding based on pH vs pI."
+      - "Design an IEX run: equilibration, loading, washing, and elution logic."
+      - "Solve numerical/logic questions involving charge, pH selection, and elution order."
+    textbook_style_content:
+      - topic: "Principle of IEX"
+        sections:
+          - section_title: "Charge-based retention and exchanger types"
+            section_type: core_theory
+          - section_title: "Role of pH and ionic strength in binding/elution"
+            section_type: core_theory
+      - topic: "Method design and troubleshooting"
+        sections:
+          - section_title: "Choosing buffers, gradients, and salt steps"
+            section_type: related concepts
+          - section_title: "Common failure modes (no binding, broad peaks, co-elution)"
+            section_type: related concepts
+    milestone: "Can select exchanger type and elution strategy for a target protein/nucleic acid."
+    duration_days: 3
+    tags:
+      - "chromatography"
+      - "ion exchange"
+      - "protein purification"
+      - "GATE practice"
+
+  - id: 3
+    title: "Size-exclusion chromatography (SEC/gel filtration)"
+    learning_objectives:
+      - "Explain SEC separation logic and predict elution order for mixtures."
+      - "Use SEC concepts to infer oligomeric state/aggregation from elution behavior."
+      - "Choose SEC as polishing vs buffer exchange and justify limitations."
+    textbook_style_content:
+      - topic: "SEC mechanism"
+        sections:
+          - section_title: "Porous matrix, hydrodynamic size, and elution order"
+            section_type: core_theory
+          - section_title: "Void volume, included volume, exclusion limit"
+            section_type: core_theory
+      - topic: "SEC in biomolecules"
+        sections:
+          - section_title: "Native conditions and complex/assembly preservation"
+            section_type: overview
+          - section_title: "Resolution limits and non-ideal interactions"
+            section_type: related concepts
+    milestone: "Can interpret SEC chromatograms for size-based separation and polishing decisions."
+    duration_days: 3
+    tags:
+      - "chromatography"
+      - "size exclusion"
+      - "protein complexes"
+
+  - id: 4
+    title: "Affinity chromatography"
+    learning_objectives:
+      - "Match affinity formats to targets (tags, antibodies, lectins, nucleic-acid binding proteins)."
+      - "Compare specificity, yield, and elution options (competitive vs pH/salt changes)."
+      - "Identify sources of non-specific binding and how to minimize them."
+    textbook_style_content:
+      - topic: "Specific binding as a separation handle"
+        sections:
+          - section_title: "Affinity recognition and selectivity"
+            section_type: core_theory
+          - section_title: "Common affinity formats (tag-based, immunoaffinity, ligand-based)"
+            section_type: overview
+      - topic: "Elution and regeneration"
+        sections:
+          - section_title: "Competitive elution vs condition-based elution"
+            section_type: core_theory
+          - section_title: "Column care, carryover, and leaching considerations"
+            section_type: related concepts
+    milestone: "Can propose an affinity capture step and anticipate elution/troubleshooting needs."
+    duration_days: 2
+    tags:
+      - "chromatography"
+      - "affinity purification"
+      - "selectivity"
+
+  - id: 5
+    title: "Centrifugation for biomolecules"
+    learning_objectives:
+      - "Distinguish differential vs density-gradient centrifugation by goal and output."
+      - "Predict which fractions contain target components in basic centrifugation setups."
+      - "Connect rotor choice and protocol steps to separation quality (conceptually)."
+    textbook_style_content:
+      - topic: "Sedimentation logic"
+        sections:
+          - section_title: "Driving force and sedimentation behavior (qualitative)"
+            section_type: core_theory
+          - section_title: "Differential centrifugation workflow"
+            section_type: overview
+      - topic: "Gradients and analytical uses"
+        sections:
+          - section_title: "Rate-zonal vs isopycnic gradients"
+            section_type: core_theory
+          - section_title: "Sample handling and avoiding remixing/contamination"
+            section_type: related concepts
+    milestone: "Can choose the correct centrifugation mode for clarification vs fractionation tasks."
+    duration_days: 2
+    tags:
+      - "centrifugation"
+      - "sample preparation"
+      - "fractionation"
+
+  - id: 6
+    title: "Electrophoresis: characterization of biomolecules"
+    learning_objectives:
+      - "Connect electrophoretic mobility to charge and separation in practice."
+      - "Select gel/buffer formats appropriate for proteins vs nucleic acids (conceptual)."
+      - "Interpret gel outputs: size estimation, purity checks, and basic quantitation."
+    textbook_style_content:
+      - topic: "Electrophoresis fundamentals"
+        sections:
+          - section_title: "Motion of charged molecules in an electric field"
+            section_type: core_theory
+          - section_title: "Supported media (gels) as molecular sieves"
+            section_type: core_theory
+      - topic: "Analytical readouts"
+        sections:
+          - section_title: "Band patterns, ladders, and qualitative purity assessment"
+            section_type: overview
+          - section_title: "Artifacts: smiling, overloading, diffusion, buffer issues"
+            section_type: related concepts
+    milestone: "Can interpret electrophoresis data and link outcomes to upstream separation choices."
+    duration_days: 3
+    tags:
+      - "electrophoresis"
+      - "DNA"
+      - "protein analysis"
+      - "quality control"
+
+  - id: 7
+    title: "DNA–protein and protein–protein interactions"
+    learning_objectives:
+      - "Define affinity (Kd) and specificity using binding equilibria and competition logic."
+      - "Choose appropriate experimental strategies to detect interactions (conceptual mapping)."
+      - "Interpret common outputs: shift bands, pull-down enrichment, binding curves."
+    textbook_style_content:
+      - topic: "Binding principles"
+        sections:
+          - section_title: "Equilibrium binding, Kd, and competition concepts"
+            section_type: core_theory
+          - section_title: "Specific vs non-specific interactions and controls"
+            section_type: related concepts
+      - topic: "Assay families"
+        sections:
+          - section_title: "Gel-based and chromatography-based interaction readouts (conceptual)"
+            section_type: overview
+          - section_title: "Biophysical binding measurements (conceptual: kinetics vs equilibrium)"
+            section_type: related concepts
+    milestone: "Can select an interaction assay and state the minimal controls and interpretations."
+    duration_days: 3
+    tags:
+      - "DNA-protein"
+      - "protein-protein"
+      - "binding"
+      - "assay design"
+
+  - id: 8
+    title: "UV–Vis spectroscopy for biomolecules"
+    learning_objectives:
+      - "Use absorbance spectra to infer presence/quantity of chromophores (conceptual + quantitative)."
+      - "Apply Beer–Lambert law to concentration calculations and dilution problems."
+      - "Recognize practical limitations: baseline, blanks, and non-linearity causes."
+    textbook_style_content:
+      - topic: "Absorbance spectroscopy"
+        sections:
+          - section_title: "What UV–Vis measures and why biomolecules absorb"
+            section_type: overview
+          - section_title: "Beer–Lambert law and quantitative analysis workflow"
+            section_type: core_theory
+      - topic: "Practical measurement"
+        sections:
+          - section_title: "Cuvettes, blanks, calibration curves, and dynamic range"
+            section_type: related concepts
+          - section_title: "Common deviations and how they appear in data"
+            section_type: related concepts
+    milestone: "Can solve UV–Vis numericals and diagnose common measurement artifacts."
+    duration_days: 2
+    tags:
+      - "UV-Vis"
+      - "quantitation"
+      - "Beer-Lambert"
+      - "GATE numericals"
+
+  - id: 9
+    title: "Fluorescence spectroscopy in biochemistry"
+    learning_objectives:
+      - "Differentiate excitation vs emission spectra and interpret wavelength shifts conceptually."
+      - "Relate fluorescence intensity to concentration in the linear regime and identify quenching concepts."
+      - "Connect fluorescence to interaction/structure studies (conceptual: probes, proximity, environment)."
+    textbook_style_content:
+      - topic: "Fluorescence basics"
+        sections:
+          - section_title: "Excitation, emission, and spectral readouts"
+            section_type: core_theory
+          - section_title: "Instrument geometry and signal-to-noise considerations"
+            section_type: related concepts
+      - topic: "Biochemical applications"
+        sections:
+          - section_title: "Intrinsic vs extrinsic fluorophores; reporting microenvironment"
+            section_type: overview
+          - section_title: "Advanced concepts (conceptual): FRET, anisotropy, lifetime"
+            section_type: related concepts
+    milestone: "Can pick fluorescence readouts suitable for sensitive detection or binding/structure inference."
+    duration_days: 3
+    tags:
+      - "fluorescence"
+      - "biophysics"
+      - "sensitivity"
+      - "interaction readouts"
+
+  - id: 10
+    title: "Mass spectrometry for biomolecule characterization"
+    learning_objectives:
+      - "Explain the core MS pipeline: ionization, mass analysis, detection, and spectrum interpretation."
+      - "Interpret basic m/z features: charge states, isotopes, and adduct patterns (conceptual)."
+      - "Relate MS/MS fragmentation logic to identification tasks (conceptual for peptides/metabolites)."
+    textbook_style_content:
+      - topic: "Core MS concepts"
+        sections:
+          - section_title: "m/z measurement and what a mass spectrum represents"
+            section_type: core_theory
+          - section_title: "Ion sources and analyzers (conceptual taxonomy; when each is used)"
+            section_type: overview
+      - topic: "Identification workflows"
+        sections:
+          - section_title: "Fragmentation and MS/MS interpretation (conceptual)"
+            section_type: core_theory
+          - section_title: "Coupling separations to MS (LC–MS logic and why it helps)"
+            section_type: related concepts
+    milestone: "Can interpret foundational MS outputs and connect MS to upstream separations for complex mixtures."
+    duration_days: 4
+    tags:
+      - "mass spectrometry"
+      - "MS/MS"
+      - "proteomics basics"
+      - "analytical chemistry"

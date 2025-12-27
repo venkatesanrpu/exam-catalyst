@@ -1,0 +1,332 @@
+metadata:
+  subject: "Biochemistry"
+  target: "GATE Life Sciences Examination"
+  syllabus_line: "Organization of life; Importance of water; Structure and function of biomolecules: Amino acids, Carbohydrates, Lipids, Proteins and Nucleic acids; Protein structure, folding/misfolding and function; Myoglobin, Hemoglobin, Lysozyme, Ribonuclease A, Carboxypeptidase and Chymotrypsin."
+
+concepts:
+  core:
+    - name: "Organization of life"
+      clarifier: "Hierarchical levels (molecules → cells → tissues → organs → organisms) with emphasis on where biochemical processes occur (cell, organelles, extracellular space)."
+    - name: "Importance of water"
+      clarifier: "Polarity and hydrogen bonding underpin solvent behavior, cohesion/adhesion, temperature buffering, and pH/acid–base homeostasis in living systems."
+    - name: "Amino acids"
+      clarifier: "Common amino acids, side-chain chemistry, peptide bond formation, and how sequence encodes higher structure and function."
+    - name: "Carbohydrates"
+      clarifier: "Monosaccharides/disaccharides/polysaccharides, glycosidic bonds, and storage vs structural roles (starch, glycogen, cellulose, chitin)."
+    - name: "Lipids"
+      clarifier: "Hydrophobicity-driven roles in energy storage, membranes (phospholipid amphipathicity), and signaling (steroids)."
+    - name: "Proteins"
+      clarifier: "Protein functional diversity (enzymes, transport, structural, signaling) and dependence of function on shape."
+    - name: "Protein structure levels"
+      clarifier: "Primary/secondary/tertiary/quaternary organization and stabilizing interactions (H-bonds, hydrophobic effect, ionic, disulfide)."
+    - name: "Protein folding and misfolding"
+      clarifier: "Denaturation, refolding limits, aggregation, and chaperone-assisted folding as determinants of activity."
+    - name: "Nucleic acids"
+      clarifier: "Nucleotide structure, phosphodiester linkage, DNA double helix and base pairing, RNA types and roles in information flow."
+    - name: "Structure–function case proteins"
+      clarifier: "Using canonical proteins/enzymes (myoglobin, hemoglobin, lysozyme, RNase A, carboxypeptidase, chymotrypsin) to connect fold, binding, catalysis, and regulation."
+  related:
+    - name: "Noncovalent interactions in biology"
+      clarifier: "Hydrogen bonding, van der Waals, ionic interactions, hydrophobic effect; dependence on solvent (water) and temperature."
+    - name: "pH, buffers, acids and bases"
+      clarifier: "pH scale, dissociation in water, and buffer action in physiological homeostasis."
+    - name: "Dehydration/condensation reactions"
+      clarifier: "Polymer formation principles for glycosidic bonds (carbs) and peptide bonds (proteins)."
+    - name: "Amphipathic self-assembly"
+      clarifier: "Why phospholipids form bilayers/micelles in aqueous environments."
+    - name: "Denaturation vs degradation"
+      clarifier: "Distinguishing loss of conformation (often reversible) from chemical breakdown; typical denaturants include heat and pH extremes."
+    - name: "Gene-to-protein linkage"
+      clarifier: "How DNA/RNA information ultimately determines protein sequence and phenotype-level consequences."
+    - name: "Isomerism and stereochemistry (biomolecules)"
+      clarifier: "Ring/linear forms and anomeric configurations in sugars; stereochemical implications for recognition and linkage type."
+    - name: "Saturated vs unsaturated fatty acids"
+      clarifier: "Double bonds alter packing and physical state, influencing membrane properties and storage fats."
+    - name: "Complementarity and base pairing"
+      clarifier: "A–T (or A–U) and G–C pairing rules and antiparallel strand concept in nucleic acids."
+    - name: "Enzyme basics (as proteins)"
+      clarifier: "Specificity for substrates and the centrality of an active site whose geometry depends on folding."
+
+learning_path:
+  - id: 1
+    title: "Organization of life for biochemistry"
+    learning_objectives:
+      - "Map biochemical questions to the correct level of biological organization (molecule, cell, tissue, organism)."
+      - "Identify cellular locations where key biomolecules act (cytosol, membranes, organelles, extracellular space)."
+      - "Relate genotype/biomolecule changes to phenotype-level effects using clear causal chains."
+    textbook_style_content:
+      - topic: "Hierarchical organization"
+        sections:
+          - section_title: "Levels of organization and what biochemistry explains at each level"
+            section_type: "overview"
+          - section_title: "Cells as reaction compartments: why localization matters"
+            section_type: "core_theory"
+      - topic: "Cell as a chemical system"
+        sections:
+          - section_title: "Concentrations, compartments, and macromolecular crowding (exam-level intuition)"
+            section_type: "related concepts"
+    milestone: "Able to choose the correct organizational level for any given GATE-style biochemistry prompt."
+    duration_days: 2
+    tags:
+      - "foundations"
+      - "organization_of_life"
+      - "exam_orientation"
+
+  - id: 2
+    title: "Water: the biochemical medium"
+    learning_objectives:
+      - "Explain how water polarity and hydrogen bonding generate life-relevant properties."
+      - "Predict solubility trends (hydrophilic vs hydrophobic) and their biological consequences."
+      - "Use pH and buffers to reason about protein stability and reaction feasibility."
+    textbook_style_content:
+      - topic: "Polarity and hydrogen bonding"
+        sections:
+          - section_title: "Why water is polar and how hydrogen bonds emerge"
+            section_type: "core_theory"
+          - section_title: "Hydrophilic vs hydrophobic behavior in biological contexts"
+            section_type: "core_theory"
+      - topic: "Thermal and mechanical properties"
+        sections:
+          - section_title: "Heat capacity and heat of vaporization: temperature buffering in organisms"
+            section_type: "core_theory"
+          - section_title: "Cohesion/adhesion and capillary action (biological transport intuition)"
+            section_type: "related concepts"
+      - topic: "pH and buffering"
+        sections:
+          - section_title: "pH definition, acids/bases, and buffer logic in homeostasis"
+            section_type: "core_theory"
+    milestone: "Can solve pH/buffer and solubility reasoning questions and connect them to biomolecule behavior."
+    duration_days: 3
+    tags:
+      - "water"
+      - "pH"
+      - "buffers"
+      - "physical_chemistry_for_biology"
+
+  - id: 3
+    title: "Biomolecules overview: structure → function"
+    learning_objectives:
+      - "Classify the major biomolecules and state their principal roles (energy, structure, information, catalysis)."
+      - "Recognize monomer–polymer relationships and common bond types across macromolecules."
+      - "Link chemical functional groups to intermolecular interactions in water."
+    textbook_style_content:
+      - topic: "Macromolecules in cells"
+        sections:
+          - section_title: "Four macromolecule classes and their core cellular roles"
+            section_type: "overview"
+          - section_title: "Dehydration synthesis and hydrolysis as universal construction rules"
+            section_type: "core_theory"
+      - topic: "Interaction principles"
+        sections:
+          - section_title: "Noncovalent forces and why water controls macromolecular behavior"
+            section_type: "related concepts"
+    milestone: "Able to rapidly classify an unknown biomolecule description and predict likely function and interactions."
+    duration_days: 2
+    tags:
+      - "biomolecules"
+      - "structure_function"
+      - "high_yield"
+
+  - id: 4
+    title: "Amino acids and peptide chemistry"
+    learning_objectives:
+      - "Identify amino acid backbone and interpret side-chain categories (polar, nonpolar, acidic, basic)."
+      - "Explain peptide bond formation and directionality (N-terminus to C-terminus)."
+      - "Predict how side-chain chemistry influences solubility and folding tendencies."
+    textbook_style_content:
+      - topic: "Amino acid fundamentals"
+        sections:
+          - section_title: "General structure, R-group logic, and classification"
+            section_type: "core_theory"
+          - section_title: "Essential vs non-essential amino acids (exam-level awareness)"
+            section_type: "related concepts"
+      - topic: "Peptides and polypeptides"
+        sections:
+          - section_title: "Peptide bond formation via dehydration and consequences for backbone chemistry"
+            section_type: "core_theory"
+          - section_title: "From polypeptide to functional protein: post-translational modifications (conceptual)"
+            section_type: "related concepts"
+    milestone: "Can translate between sequence features and expected chemical behavior (charge, polarity, reactivity)."
+    duration_days: 3
+    tags:
+      - "amino_acids"
+      - "peptide_bond"
+      - "protein_chemistry"
+
+  - id: 5
+    title: "Protein structure: levels and stabilizing forces"
+    learning_objectives:
+      - "Differentiate primary/secondary/tertiary/quaternary structure with examples."
+      - "Explain how hydrogen bonds, hydrophobic interactions, ionic bonds, and disulfides stabilize proteins."
+      - "Predict how mutations can alter structure and function (conceptual linkage)."
+    textbook_style_content:
+      - topic: "Four levels of organization"
+        sections:
+          - section_title: "Primary structure: sequence as the encoded blueprint"
+            section_type: "core_theory"
+          - section_title: "Secondary structure: alpha helices and beta sheets"
+            section_type: "core_theory"
+          - section_title: "Tertiary and quaternary structure: 3D packing and subunit assembly"
+            section_type: "core_theory"
+      - topic: "Forces that stabilize proteins"
+        sections:
+          - section_title: "Backbone vs side-chain interactions; disulfide as a covalent stabilizer"
+            section_type: "core_theory"
+          - section_title: "Water-driven hydrophobic effect as a folding driver"
+            section_type: "related concepts"
+    milestone: "Can interpret a protein-structure question and justify the dominant stabilizing interactions."
+    duration_days: 4
+    tags:
+      - "protein_structure"
+      - "secondary_structure"
+      - "tertiary_structure"
+      - "quaternary_structure"
+
+  - id: 6
+    title: "Folding, misfolding, and functional consequences"
+    learning_objectives:
+      - "Define denaturation and distinguish reversible vs irreversible loss of structure."
+      - "Explain the role of chaperones in preventing aggregation and assisting folding."
+      - "Connect misfolding/aggregation to loss of function in enzymes and binding proteins."
+    textbook_style_content:
+      - topic: "Folding and stability"
+        sections:
+          - section_title: "Native state, folding pathways, and what 'denaturation' means"
+            section_type: "core_theory"
+          - section_title: "Environmental factors: temperature, pH, and chemicals"
+            section_type: "core_theory"
+      - topic: "Misfolding and aggregation"
+        sections:
+          - section_title: "Why aggregation occurs and how chaperones mitigate it"
+            section_type: "core_theory"
+          - section_title: "Exam-facing implications: activity loss, binding-site disruption, altered solubility"
+            section_type: "related concepts"
+    milestone: "Can explain why a protein loses function under altered conditions and propose the likely structural level affected."
+    duration_days: 3
+    tags:
+      - "protein_folding"
+      - "misfolding"
+      - "chaperones"
+      - "denaturation"
+
+  - id: 7
+    title: "Carbohydrates: structure and cellular roles"
+    learning_objectives:
+      - "Classify carbohydrates into mono-, di-, and polysaccharides with examples."
+      - "Explain glycosidic bond formation and alpha vs beta linkages (conceptual)."
+      - "Relate carbohydrate structure to storage vs structural function (starch/glycogen vs cellulose/chitin)."
+    textbook_style_content:
+      - topic: "Monosaccharides and rings"
+        sections:
+          - section_title: "Common monosaccharides, ring formation, and functional-group logic"
+            section_type: "core_theory"
+          - section_title: "Stereochemistry notes: anomers and biological recognition"
+            section_type: "related concepts"
+      - topic: "Oligo- and polysaccharides"
+        sections:
+          - section_title: "Disaccharides and glycosidic bonds via dehydration"
+            section_type: "core_theory"
+          - section_title: "Starch, glycogen, cellulose, chitin: linkage type and function"
+            section_type: "core_theory"
+    milestone: "Can deduce function and digestibility tendencies from carbohydrate linkage descriptions."
+    duration_days: 3
+    tags:
+      - "carbohydrates"
+      - "glycosidic_bond"
+      - "polysaccharides"
+
+  - id: 8
+    title: "Lipids: energy storage, membranes, signaling"
+    learning_objectives:
+      - "Describe major lipid types: fats/oils, waxes, phospholipids, steroids."
+      - "Differentiate saturated vs unsaturated fatty acids and predict packing behavior."
+      - "Explain how amphipathic phospholipids form bilayers and support membranes."
+    textbook_style_content:
+      - topic: "Fats and fatty acids"
+        sections:
+          - section_title: "Triacylglycerols: glycerol + fatty acids; ester bonds and energy storage"
+            section_type: "core_theory"
+          - section_title: "Saturated vs unsaturated: structure–property link"
+            section_type: "core_theory"
+      - topic: "Membrane lipids"
+        sections:
+          - section_title: "Phospholipid amphipathicity and bilayer formation"
+            section_type: "core_theory"
+          - section_title: "Micelles and self-assembly in water (conceptual thermodynamics)"
+            section_type: "related concepts"
+      - topic: "Steroids and cholesterol"
+        sections:
+          - section_title: "Steroid ring system and broad biological roles"
+            section_type: "core_theory"
+    milestone: "Can answer membrane/lipid questions by reasoning from hydrophobicity and amphipathicity."
+    duration_days: 3
+    tags:
+      - "lipids"
+      - "membranes"
+      - "fatty_acids"
+      - "steroids"
+
+  - id: 9
+    title: "Nucleic acids: structure, base pairing, information flow"
+    learning_objectives:
+      - "Identify nucleotide components and phosphodiester linkage directionality."
+      - "Explain DNA double helix organization and base complementarity."
+      - "Differentiate RNA types (mRNA, rRNA, tRNA, microRNA) and their roles in protein synthesis/regulation."
+    textbook_style_content:
+      - topic: "Nucleotide chemistry"
+        sections:
+          - section_title: "Base, sugar, phosphate; purines vs pyrimidines"
+            section_type: "core_theory"
+          - section_title: "5'–3' phosphodiester bonds and strand polarity"
+            section_type: "core_theory"
+      - topic: "DNA structure"
+        sections:
+          - section_title: "Double helix, antiparallel strands, and hydrogen-bonded base pairs"
+            section_type: "core_theory"
+      - topic: "RNA roles"
+        sections:
+          - section_title: "RNA as an intermediary: coding, structural, adaptor, and regulatory RNAs"
+            section_type: "core_theory"
+          - section_title: "Central dogma framing for exam problems (DNA → RNA → protein)"
+            section_type: "related concepts"
+    milestone: "Can solve base-pairing/complementarity problems and explain how sequence information connects to proteins."
+    duration_days: 4
+    tags:
+      - "nucleic_acids"
+      - "DNA"
+      - "RNA"
+      - "central_dogma"
+
+  - id: 10
+    title: "Protein case studies: binding and catalysis"
+    learning_objectives:
+      - "Use myoglobin and hemoglobin to explain heme-based oxygen binding and structure–function logic."
+      - "Use lysozyme and RNase A to connect active-site architecture to bond cleavage and substrate specificity."
+      - "Use carboxypeptidase and chymotrypsin to connect protease mechanism to structural features (e.g., catalytic residues, binding pocket)."
+    textbook_style_content:
+      - topic: "Oxygen-binding proteins"
+        sections:
+          - section_title: "Myoglobin: single-chain globular fold and ligand binding"
+            section_type: "core_theory"
+          - section_title: "Hemoglobin: quaternary structure and functional implications (conceptual)"
+            section_type: "core_theory"
+      - topic: "Classic enzymes"
+        sections:
+          - section_title: "Lysozyme and RNase A: fold features that enable catalysis"
+            section_type: "core_theory"
+          - section_title: "Proteases (carboxypeptidase, chymotrypsin): active-site logic and specificity"
+            section_type: "core_theory"
+      - topic: "Exam synthesis"
+        sections:
+          - section_title: "How to extract mechanism clues from a passage: residues, pockets, cofactors, pH effects"
+            section_type: "related concepts"
+    milestone: "Can write structure–function explanations for named proteins and answer GATE-style questions using mechanistic cues."
+    duration_days: 5
+    tags:
+      - "case_studies"
+      - "myoglobin"
+      - "hemoglobin"
+      - "lysozyme"
+      - "ribonuclease_A"
+      - "carboxypeptidase"
+      - "chymotrypsin"

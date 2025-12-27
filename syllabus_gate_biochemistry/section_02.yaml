@@ -1,0 +1,298 @@
+metadata:
+  subject: "Biochemistry"
+  target: "GATE Life Sciences Examination"
+  syllabus_line: "Enzyme kinetics, regulation and inhibition; Vitamins and Coenzymes; Bioenergetics and metabolism; Generation and utilization of ATP; Metabolic pathways and their regulation: glycolysis, TCA cycle, pentose phosphate pathway, oxidative phosphorylation, gluconeogenesis, glycogen and fatty acid metabolism; Metabolism of Nitrogen containing compounds: nitrogen fixation, amino acids and nucleotides. Photosynthesis, Calvin cycle."
+
+concepts:
+  core:
+    - name: "Enzyme kinetics"
+      clarifier: "Michaelis–Menten framework, initial-rate analysis, and kinetic parameters (Km, Vmax, kcat) for catalytic efficiency."
+    - name: "Enzyme regulation"
+      clarifier: "Allosteric control, feedback inhibition, covalent modification, and enzyme amount control as major regulatory layers."
+    - name: "Enzyme inhibition"
+      clarifier: "Competitive, uncompetitive, noncompetitive/mixed inhibition; diagnostic plots and inhibitor constants."
+    - name: "Vitamins and coenzymes"
+      clarifier: "Vitamin classes, biologically active coenzyme forms, and how they connect to specific metabolic reactions."
+    - name: "Bioenergetics"
+      clarifier: "Free-energy coupling, redox potential logic, and why ATP/NAD(P)H are central currencies."
+    - name: "ATP generation and utilization"
+      clarifier: "Substrate-level phosphorylation vs oxidative phosphorylation (and photophosphorylation in photosynthesis) plus ATP-consuming cellular work."
+    - name: "Central carbon metabolism"
+      clarifier: "Glycolysis, TCA cycle, PPP, gluconeogenesis, and glycogen metabolism with emphasis on regulation and integration."
+    - name: "Oxidative phosphorylation"
+      clarifier: "ETC organization, chemiosmotic coupling, and control points including inhibitors/uncouplers."
+    - name: "Lipid (fatty acid) metabolism"
+      clarifier: "Fatty acid β-oxidation, fatty acid synthesis, and major regulatory checkpoints."
+    - name: "Nitrogen metabolism"
+      clarifier: "Nitrogen fixation plus amino acid and nucleotide metabolism (synthesis, interconversion, degradation) and their regulation."
+    - name: "Photosynthesis and Calvin cycle"
+      clarifier: "Light reactions generating ATP/NADPH and carbon fixation via Calvin cycle with regulation themes."
+  related:
+    - name: "Enzyme mechanisms and catalysis"
+      clarifier: "Active-site chemistry (general acid-base, covalent catalysis, metal-ion catalysis) supporting kinetic interpretations."
+    - name: "Metabolic control analysis (basics)"
+      clarifier: "Flux control, rate-limiting step pitfalls, and distributed control ideas for pathway regulation questions."
+    - name: "Hormonal and signaling regulation"
+      clarifier: "Insulin/glucagon/epinephrine logic for coordinating glycogen, glycolysis, gluconeogenesis, and lipid metabolism."
+    - name: "Transport and shuttles"
+      clarifier: "Mitochondrial metabolite transport and NADH shuttle concepts that affect ATP yield and pathway coupling."
+    - name: "Redox cofactor specificity"
+      clarifier: "Functional distinction of NADH vs NADPH and where each is produced/consumed (PPP, biosynthesis, ETC)."
+    - name: "Compartmentation"
+      clarifier: "Cytosol vs mitochondria vs chloroplast localization as a logic tool for regulation and energetics."
+    - name: "Anaplerosis and cataplerosis"
+      clarifier: "TCA replenishment and withdrawal routes linking amino acids, glucose, and lipids."
+    - name: "Reactive oxygen species and coupling efficiency"
+      clarifier: "How electron leakage, uncoupling, and inhibitors reshape ATP production and redox balance."
+
+learning_path:
+  - id: 1
+    title: "Enzyme kinetics and inhibition"
+    learning_objectives:
+      - "Derive and interpret Michaelis–Menten relationships and extract Km and Vmax from rate data."
+      - "Distinguish competitive, uncompetitive, and mixed/noncompetitive inhibition using kinetic signatures."
+      - "Explain regulation via allostery and covalent modification in terms of enzyme activity vs flux."
+    textbook_style_content:
+      - topic: "Enzyme kinetics fundamentals"
+        sections:
+          - section_title: "Rate laws, steady-state assumptions, and kinetic parameters"
+            section_type: "core_theory"
+          - section_title: "Graphical and non-graphical parameter estimation (conceptual)"
+            section_type: "related concepts"
+          - section_title: "Common exam traps (Km vs affinity; kcat/Km meaning)"
+            section_type: "overview"
+      - topic: "Inhibition and regulation"
+        sections:
+          - section_title: "Reversible inhibition types and inhibitor constants"
+            section_type: "core_theory"
+          - section_title: "Allosteric enzymes and sigmoidal kinetics"
+            section_type: "core_theory"
+          - section_title: "Covalent modification and feedback control examples"
+            section_type: "related concepts"
+    milestone: "Able to solve mixed kinetic problems and identify inhibition/regulation from plots and narratives."
+    duration_days: 3
+    tags:
+      - "kinetics"
+      - "inhibition"
+      - "regulation"
+
+  - id: 2
+    title: "Vitamins and coenzymes in metabolism"
+    learning_objectives:
+      - "Map major vitamins to their active coenzyme forms and reaction classes."
+      - "Predict metabolic consequences of key vitamin deficiencies using pathway logic."
+      - "Differentiate NAD/NADP, FAD/FMN, CoA, THF, biotin, PLP roles in core pathways."
+    textbook_style_content:
+      - topic: "Vitamin/coenzyme catalog"
+        sections:
+          - section_title: "Water- vs fat-soluble vitamins and functional group transfer logic"
+            section_type: "overview"
+          - section_title: "Core coenzymes: structures-to-function mapping (exam-oriented)"
+            section_type: "core_theory"
+          - section_title: "Deficiency/toxicity patterns as biochemical phenotypes"
+            section_type: "related concepts"
+      - topic: "Cofactors integrated into pathways"
+        sections:
+          - section_title: "Where each coenzyme appears in glycolysis, TCA, PPP, β-oxidation, and amino acid metabolism"
+            section_type: "core_theory"
+    milestone: "Can answer coenzyme-identification and deficiency-based reasoning questions quickly."
+    duration_days: 2
+    tags:
+      - "vitamins"
+      - "coenzymes"
+      - "metabolic-links"
+
+  - id: 3
+    title: "Bioenergetics and ATP coupling"
+    learning_objectives:
+      - "Use free-energy coupling ideas to decide directionality and feasibility of reactions."
+      - "Explain how redox reactions connect to proton gradients and ATP synthesis conceptually."
+      - "Compare ATP generation routes: substrate-level phosphorylation vs oxidative/photophosphorylation."
+    textbook_style_content:
+      - topic: "Core bioenergetic principles"
+        sections:
+          - section_title: "Free energy, equilibrium vs steady state, and coupling to ATP hydrolysis"
+            section_type: "core_theory"
+          - section_title: "Redox logic: electron carriers and why gradients store energy"
+            section_type: "core_theory"
+          - section_title: "Energy charge and global regulation overview"
+            section_type: "related concepts"
+      - topic: "ATP utilization"
+        sections:
+          - section_title: "ATP as phosphate donor, mechanical work, and activated intermediates"
+            section_type: "overview"
+          - section_title: "Common ATP-coupled motifs in metabolism"
+            section_type: "related concepts"
+    milestone: "Can explain ATP coupling and redox-to-ATP logic without memorizing isolated facts."
+    duration_days: 3
+    tags:
+      - "bioenergetics"
+      - "ATP"
+      - "coupling"
+
+  - id: 4
+    title: "Glycolysis, PPP, gluconeogenesis, glycogen regulation"
+    learning_objectives:
+      - "Reconstruct glycolysis step order, energetics, and the main irreversible control points."
+      - "Explain PPP oxidative vs non-oxidative roles and when NADPH vs ribose-5-P is prioritized."
+      - "Contrast gluconeogenesis bypass reactions with glycolysis and state reciprocal regulation logic."
+      - "Describe glycogen synthesis/breakdown and hormonal regulation connections."
+    textbook_style_content:
+      - topic: "Glycolysis"
+        sections:
+          - section_title: "Phases, net ATP/NADH, and fates under aerobic/anaerobic conditions"
+            section_type: "core_theory"
+          - section_title: "Key regulated steps and feed-forward/feedback control"
+            section_type: "core_theory"
+          - section_title: "Entry/exit points (fructose/galactose/glycerol as related links)"
+            section_type: "related concepts"
+      - topic: "Pentose phosphate pathway"
+        sections:
+          - section_title: "Oxidative phase (NADPH production) and non-oxidative rearrangements"
+            section_type: "core_theory"
+          - section_title: "Metabolic demands: NADPH vs ribose vs glycolytic intermediates"
+            section_type: "overview"
+      - topic: "Gluconeogenesis and glycogen metabolism"
+        sections:
+          - section_title: "Bypass enzymes, energetics cost, and reciprocal regulation"
+            section_type: "core_theory"
+          - section_title: "Glycogen synthase/phosphorylase regulation and hormonal integration"
+            section_type: "core_theory"
+          - section_title: "Physiological cycles (Cori/alanine) as related integration"
+            section_type: "related concepts"
+    milestone: "Can solve pathway-integration questions spanning PPP–glycolysis–gluconeogenesis–glycogen with regulation focus."
+    duration_days: 5
+    tags:
+      - "glycolysis"
+      - "PPP"
+      - "gluconeogenesis"
+      - "glycogen"
+      - "regulation"
+
+  - id: 5
+    title: "TCA cycle and oxidative phosphorylation"
+    learning_objectives:
+      - "Write the TCA cycle sequence, identify NADH/FADH2/GTP-producing steps, and locate regulation nodes."
+      - "Explain oxidative phosphorylation via ETC complexes and chemiosmotic coupling."
+      - "Predict effects of ETC inhibitors and uncouplers on oxygen consumption and ATP yield."
+    textbook_style_content:
+      - topic: "TCA cycle"
+        sections:
+          - section_title: "Amphibolic nature, key dehydrogenases, and anaplerotic context"
+            section_type: "core_theory"
+          - section_title: "Control points and integration with glycolysis and β-oxidation"
+            section_type: "related concepts"
+          - section_title: "Carbon entry as acetyl-CoA and exit as biosynthetic precursors"
+            section_type: "overview"
+      - topic: "Oxidative phosphorylation"
+        sections:
+          - section_title: "ETC organization, proton motive force, and ATP synthase mechanism (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Inhibitors/uncouplers and diagnostic experimental outcomes"
+            section_type: "core_theory"
+          - section_title: "Shuttles and transport as related determinants of ATP yield"
+            section_type: "related concepts"
+    milestone: "Able to connect TCA NADH generation to ETC ATP yield and analyze perturbations."
+    duration_days: 4
+    tags:
+      - "TCA"
+      - "ETC"
+      - "OXPHOS"
+      - "bioenergetics"
+
+  - id: 6
+    title: "Fatty acid metabolism and metabolic integration"
+    learning_objectives:
+      - "Compare fatty acid β-oxidation with fatty acid synthesis in location, carriers, and energetics."
+      - "Explain ketone body formation/utilization logic as an adaptation to metabolic states."
+      - "Identify regulation points coordinating carbohydrate and lipid metabolism."
+    textbook_style_content:
+      - topic: "Fatty acid β-oxidation"
+        sections:
+          - section_title: "Activation, transport, β-oxidation spiral, and energy accounting (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Regulation and tissue-level context (fed vs fasting)"
+            section_type: "related concepts"
+      - topic: "Fatty acid synthesis"
+        sections:
+          - section_title: "Acetyl-CoA sourcing, malonyl-CoA, fatty acid synthase logic, and NADPH use"
+            section_type: "core_theory"
+          - section_title: "Reciprocal regulation with β-oxidation (malonyl-CoA/CPT logic)"
+            section_type: "core_theory"
+      - topic: "Ketone bodies"
+        sections:
+          - section_title: "When ketogenesis occurs and how ketones are utilized"
+            section_type: "overview"
+          - section_title: "Integration with TCA capacity and gluconeogenesis demands"
+            section_type: "related concepts"
+    milestone: "Can answer state-dependent metabolism questions (fed/fasting/exercise) with lipid–carb integration."
+    duration_days: 3
+    tags:
+      - "fatty-acids"
+      - "beta-oxidation"
+      - "fatty-acid-synthesis"
+      - "integration"
+
+  - id: 7
+    title: "Nitrogen fixation, amino acid and nucleotide metabolism"
+    learning_objectives:
+      - "Describe nitrogen fixation requirements and why nitrogenase is energetically costly and O2-sensitive."
+      - "Explain transamination/deamination, urea cycle logic, and entry of carbon skeletons into central metabolism."
+      - "Outline nucleotide de novo vs salvage pathways conceptually and identify key regulation themes."
+    textbook_style_content:
+      - topic: "Nitrogen fixation"
+        sections:
+          - section_title: "Nitrogenase function, electron donors, ATP cost, and protection from oxygen"
+            section_type: "core_theory"
+          - section_title: "Biological significance and linkage to amino acid/nucleotide pools"
+            section_type: "overview"
+      - topic: "Amino acid metabolism"
+        sections:
+          - section_title: "Aminotransferases (PLP), glutamate/glutamine centrality, and deamination"
+            section_type: "core_theory"
+          - section_title: "Urea cycle purpose and integration with TCA (aspartate–argininosuccinate link)"
+            section_type: "core_theory"
+          - section_title: "Glucogenic vs ketogenic outcomes as related classification"
+            section_type: "related concepts"
+      - topic: "Nucleotide metabolism"
+        sections:
+          - section_title: "Purine and pyrimidine synthesis logic (building blocks, energy use) and salvage"
+            section_type: "core_theory"
+          - section_title: "Catabolism overview and clinical-style reasoning (conceptual)"
+            section_type: "related concepts"
+    milestone: "Can trace nitrogen flow from fixation to amino acids/nucleotides and connect to carbon/energy metabolism."
+    duration_days: 4
+    tags:
+      - "nitrogen-fixation"
+      - "amino-acids"
+      - "urea-cycle"
+      - "nucleotides"
+
+  - id: 8
+    title: "Photosynthesis and Calvin cycle"
+    learning_objectives:
+      - "Explain light reactions (Z-scheme) and how ATP and NADPH are generated."
+      - "Describe the Calvin cycle phases (carboxylation, reduction, regeneration) and overall carbon fixation logic."
+      - "Connect photosynthetic energy conversion to bioenergetics and ATP utilization principles."
+    textbook_style_content:
+      - topic: "Light reactions"
+        sections:
+          - section_title: "Photosystems, electron flow, proton gradients, and photophosphorylation"
+            section_type: "core_theory"
+          - section_title: "Linear vs cyclic electron flow as a balancing mechanism"
+            section_type: "related concepts"
+          - section_title: "Where ATP/NADPH output is used and why ratios matter"
+            section_type: "overview"
+      - topic: "Calvin cycle"
+        sections:
+          - section_title: "Rubisco carboxylation, reduction steps, RuBP regeneration, and stoichiometry (conceptual)"
+            section_type: "core_theory"
+          - section_title: "Regulation themes (light-dependent activation; metabolite control) as related concepts"
+            section_type: "related concepts"
+    milestone: "Able to answer integrated questions linking light reactions, ATP/NADPH production, and Calvin cycle carbon fixation."
+    duration_days: 3
+    tags:
+      - "photosynthesis"
+      - "calvin-cycle"
+      - "photophosphorylation"
+      - "bioenergetics"
